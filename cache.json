@@ -7,6 +7,240 @@
       "articles": []
     },
     {
+      "title": "AWS News Blog",
+      "feedUrl": "https://aws.amazon.com/blogs/aws/feed/",
+      "siteUrl": "https://aws.amazon.com/blogs/aws/",
+      "articles": [
+        {
+          "id": "e1f154044ec7ddbc580e087aadbcf76d2131d2a0",
+          "author": "Abhishek Gupta",
+          "description": "Today, I am pleased to announce the availability of Provisioned IOPS (PIOPS) io2 Block Express storage volumes for all database engines in Amazon Relational Database Service (Amazon RDS). Amazon RDS provides you the flexibility to choose between different storage types depending on the performance requirements of your database workload. io2 Block Express volumes are designed […]",
+          "link": "https://aws.amazon.com/blogs/aws/amazon-rds-now-supports-io2-block-express-volumes-for-mission-critical-database-workloads/",
+          "publishedOn": "2024-03-06T18:56:32.000Z",
+          "wordCount": 1476,
+          "title": "Amazon RDS now supports io2 Block Express volumes for mission-critical database workloads",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/03/04/RDS-blog-image-1260x630.png"
+        },
+        {
+          "id": "1c28a1aa7d172c4f3ef6f586d0d873794d1f054c",
+          "author": "Taylor Jacobsen",
+          "description": "AWS Heroes are inspirational thought leaders who go above and beyond to knowledge share in a variety of ways. You can find them speaking at local meetups, AWS Community Days, or even at re:Invent. And these technical experts are never done learning—they’re passionate about solving problems and creating content to enable the community to build […]",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-the-newest-heroes-of-the-year-march-2024/",
+          "publishedOn": "2024-03-06T18:54:28.000Z",
+          "wordCount": 1612,
+          "title": "Introducing the newest Heroes of the year – March 2024",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2018/07/03/AWS-Heroes.png"
+        },
+        {
+          "id": "75d716af79fb6ef0c02f33b4b7ca18cfd5dd4743",
+          "author": "Sébastien Stormacq",
+          "description": "You told us one of the primary reasons to adopt Amazon Web Services (AWS) is the broad choice of services we offer, enabling you to innovate, build, deploy, and monitor your workloads. AWS has continuously expanded its services to support virtually any cloud workload. It now offers over 200 fully featured services for compute, storage, […]",
+          "link": "https://aws.amazon.com/blogs/aws/free-data-transfer-out-to-internet-when-moving-out-of-aws/",
+          "publishedOn": "2024-03-05T14:28:04.000Z",
+          "wordCount": 1274,
+          "title": "Free data transfer out to internet when moving out of AWS",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/02/05/Free-DTO-Featured-Image-800x400-1.png"
+        },
+        {
+          "id": "f440c1bc8007c2c450a5b97f3269e968ed59221b",
+          "author": "Danilo Poccia",
+          "description": "This has been a busy week – we introduced a new kind of Amazon CloudFront infrastructure, more efficient ways to analyze data stored on Amazon Simple Storage Service (Amazon S3), and new generative AI capabilities. Last week’s launches Here’s what got my attention: Amazon Bedrock – Mistral AI’s Mixtral 8x7B and Mistral 7B foundation models […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-new-models-for-amazon-bedrock-cloudfront-embedded-pops-and-more-march-4-2024/",
+          "publishedOn": "2024-03-04T16:49:09.000Z",
+          "wordCount": 1922,
+          "title": "AWS Weekly Roundup — New models for Amazon Bedrock, CloudFront embedded POPs, and more — March 4, 2024",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
+        },
+        {
+          "id": "afa44e98fb3dea486d0fe36887411e429dd8794c",
+          "author": "Channy Yun",
+          "description": "In September 2023, we announced a strategic collaboration with Anthropic that brought together their respective technology and expertise in safer generative artificial intelligence (AI), to accelerate the development of Anthropic’s Claude foundation models (FMs) and make them widely accessible to AWS customers. You can get early access to unique features of Anthropic’s Claude model in […]",
+          "link": "https://aws.amazon.com/blogs/aws/anthropics-claude-3-sonnet-foundation-model-is-now-available-in-amazon-bedrock/",
+          "publishedOn": "2024-03-04T16:48:04.000Z",
+          "wordCount": 1945,
+          "title": "Anthropic’s Claude 3 Sonnet foundation model is now available in Amazon Bedrock",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/03/01/Anthropics-Claude-3-feat-img.png"
+        },
+        {
+          "id": "89d81f50ad915d63aec01b16bf9f82dd3a8cf534",
+          "author": "Donnie Prakoso",
+          "description": "Last week, we announced that Mistral AI models are coming to Amazon Bedrock. In that post, we elaborated on a few reasons why Mistral AI models may be a good fit for you. Mistral AI offers a balance of cost and performance, fast inference speed, transparency and trust, and is accessible to a wide range […]",
+          "link": "https://aws.amazon.com/blogs/aws/mistral-ai-models-now-available-on-amazon-bedrock/",
+          "publishedOn": "2024-03-01T21:01:53.000Z",
+          "wordCount": 1580,
+          "title": "Mistral AI models now available on Amazon Bedrock",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/02/28/Amazon-Mistral-GA-image-1260x630.png"
+        },
+        {
+          "id": "557c364821cd44b128215dafdb19f284275de1ba",
+          "author": "Veliswa Boya",
+          "description": "The Community AWS re:invent 2023 re:caps continue! Recently, I was invited to participate in one of these events hosted by the AWS User Group Kenya, and was able to learn and spend time with this amazing community. AWS User Group Kenya Last week’s launches Here are some launches that got my attention during the previous […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-net-runtime-for-aws-lambda-partyrock-hackathon-and-more-february-26-2024/",
+          "publishedOn": "2024-02-26T17:56:00.000Z",
+          "wordCount": 1352,
+          "title": "AWS Weekly Roundup — .Net Runtime for AWS Lambda, PartyRock Hackathon, and more — February 26, 2024",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
+        },
+        {
+          "id": "1c1efeb64d8a5864b3db0f67a64b46b33d53cb69",
+          "author": "Irshad Buchh",
+          "description": "Today, I am happy to announce that we are working on an AWS Region in Mexico. This AWS Mexico (Central) Region will be the second Region in Latin America joining the AWS South America (São Paulo) Region and will give AWS customers the ability to run workloads and store data that must remain in-country. Mexico […]",
+          "link": "https://aws.amazon.com/blogs/aws/new-aws-region-in-mexico-is-in-the-works/",
+          "publishedOn": "2024-02-26T14:54:57.000Z",
+          "wordCount": 1500,
+          "title": "New AWS Region in Mexico is in the works",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/02/26/Mexico-flag-feat-img.png"
+        },
+        {
+          "id": "308fb7192ffb87eae22e5e1a861fa7efc2aa36a0",
+          "author": "Donnie Prakoso",
+          "description": "Mistral AI, an AI company based in France, is on a mission to elevate publicly available models to state-of-the-art performance. They specialize in creating fast and secure large language models (LLMs) that can be used for various tasks, from chatbots to code generation. We’re pleased to announce that two high-performing Mistral AI models, Mistral 7B […]",
+          "link": "https://aws.amazon.com/blogs/aws/mistral-ai-models-coming-soon-to-amazon-bedrock/",
+          "publishedOn": "2024-02-23T17:44:52.000Z",
+          "wordCount": 1235,
+          "title": "Mistral AI models coming soon to Amazon Bedrock",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/02/23/Mistral-Bedrock-feat-img2.png"
+        },
+        {
+          "id": "b59bdf9a07666673edfdba0242f35b6312ab73cb",
+          "author": "Irshad Buchh",
+          "description": "Over the past week, our service teams have continued to innovate on your behalf, and a lot has happened in the Amazon Web Services (AWS) universe that I want to tell you about. I’ll also share about all the AWS Community events and initiatives that are happening around the world. Let’s dive in! Last week’s […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-control-tower-new-api-tls-1-3-with-api-gateway-private-marketplace-catalogs-and-more-february-19-2024/",
+          "publishedOn": "2024-02-19T18:53:45.000Z",
+          "wordCount": 1792,
+          "title": "AWS Weekly Roundup — AWS Control Tower new API, TLS 1.3 with API Gateway, Private Marketplace Catalogs, and more — February 19, 2024",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
+        },
+        {
+          "id": "88d3cbd7b505e228dadab86f0501d5938c543301",
+          "author": "Antje Barth",
+          "description": "During AWS re:Invent 2023, we announced the general availability of Knowledge Bases for Amazon Bedrock. With a knowledge base, you can securely connect foundation models (FMs) in Amazon Bedrock to your company data for Retrieval Augmented Generation (RAG). In my previous post, I described how Knowledge Bases for Amazon Bedrock manages the end-to-end RAG workflow […]",
+          "link": "https://aws.amazon.com/blogs/aws/knowledge-bases-for-amazon-bedrock-now-supports-amazon-aurora-postgresql-and-cohere-embedding-models/",
+          "publishedOn": "2024-02-12T21:41:18.000Z",
+          "wordCount": 1951,
+          "title": "Knowledge Bases for Amazon Bedrock now supports Amazon Aurora PostgreSQL and Cohere embedding models",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/01/31/Knowledge-Bases-feat-img.png"
+        },
+        {
+          "id": "568484dcfa30bc001b0bf56c13972382e5ce2537",
+          "author": "Channy Yun",
+          "description": "Happy Lunar New Year! Wishing you a year filled with joy, success, and endless opportunities! May the Year of the Dragon bring uninterrupted connections and limitless growth 🐉 ☁️ In case you missed it, here’s outstanding news you need to know as you plan your year in early 2024. AWS was named as a Leader […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-happy-lunar-new-year-iac-generator-nfls-digital-athlete-aws-cloud-clubs-and-more-february-12-2024/",
+          "publishedOn": "2024-02-12T20:13:38.000Z",
+          "wordCount": 2135,
+          "title": "AWS Weekly Roundup — Happy Lunar New Year, IaC generator, NFL’s digital athlete, AWS Cloud Clubs, and more — February 12, 2024",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
+        }
+      ]
+    },
+    {
+      "title": "MIT Technology Review",
+      "feedUrl": "https://www.technologyreview.com/topnews.rss",
+      "siteUrl": "https://www.technologyreview.com",
+      "articles": [
+        {
+          "id": "https://www.technologyreview.com/?p=1089524",
+          "author": "Spenser Mestel",
+          "description": "While the vendors pitched their latest voting machines in Concord, New Hampshire, this past August, the election officials in the room g­­asped. They whispered, “No way.” They nodded their heads and filled out the scorecards in their laps. Interrupting if they had to, they asked every kind of question: How much does the new scanner…",
+          "link": "https://www.technologyreview.com/2024/03/07/1089524/open-source-voting-machines-us-elections/",
+          "publishedOn": "2024-03-07T16:36:03.000Z",
+          "wordCount": 12343,
+          "title": "How open source voting machines could boost trust in US elections",
+          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2024/03/GettyImages-1283733024-thumb.jpg?resize=1200,600"
+        },
+        {
+          "id": "https://www.technologyreview.com/?p=1089593",
+          "author": "Rhiannon Williams",
+          "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Emissions hit a record high in 2023. Blame hydropower. Hydropower is one of the world’s largest sources of renewable electricity. But last year, weather conditions caused hydropower to fall short in a major…",
+          "link": "https://www.technologyreview.com/2024/03/07/1089593/the-download-hydropowers-rocky-path-ahead-and-how-to-reverse-falling-birth-rates/",
+          "publishedOn": "2024-03-07T13:10:00.000Z",
+          "wordCount": 6039,
+          "title": "The Download: hydropower’s rocky path ahead, and how to reverse falling birth rates",
+          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2024/03/GettyImages-1318627653.jpg?resize=1200,600"
+        },
+        {
+          "id": "https://www.technologyreview.com/?p=1089585",
+          "author": "Casey Crownhart",
+          "description": "This article is from The Spark, MIT Technology Review’s weekly climate newsletter. To receive it in your inbox every Wednesday, sign up here. Hydropower is a staple of clean energy—the modern version has been around for over a century, and it’s one of the world’s largest sources of renewable electricity. But last year, weather conditions…",
+          "link": "https://www.technologyreview.com/2024/03/07/1089585/hydropower-trouble-droughts/",
+          "publishedOn": "2024-03-07T11:00:00.000Z",
+          "wordCount": 6639,
+          "title": "Emissions hit a record high in 2023. Blame hydropower.",
+          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2024/03/GettyImages-1318627653.jpg?resize=1200,600"
+        },
+        {
+          "id": "https://www.technologyreview.com/?p=1089507",
+          "author": "Rhiannon Williams",
+          "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I used generative AI to turn my story into a comic—and you can too —Will Douglas Heaven Thirteen years ago, as an assignment for a journalism class, I wrote a stupid short story…",
+          "link": "https://www.technologyreview.com/2024/03/06/1089507/the-download-ai-comics-and-us-tensions-with-china-over-evs/",
+          "publishedOn": "2024-03-06T13:10:00.000Z",
+          "wordCount": 6216,
+          "title": "The Download: AI comics, and US tensions with China over EVs",
+          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2024/03/Storyboard.png?resize=1200,600"
+        },
+        {
+          "id": "https://www.technologyreview.com/?p=1089487",
+          "author": "Zeyi Yang",
+          "description": "This story first appeared in China Report, MIT Technology Review’s newsletter about technology in China. Sign up to receive it in your inbox every Tuesday. So far, electric vehicles have mostly been discussed in the US through a scientific, economic, or environmental lens. But all of a sudden, they have become highly political.  Last Thursday, the Biden…",
+          "link": "https://www.technologyreview.com/2024/03/06/1089487/chinese-evs-security-threat-politics/",
+          "publishedOn": "2024-03-06T11:00:00.000Z",
+          "wordCount": 7356,
+          "title": "Chinese EVs have entered center stage in US-China tensions",
+          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2024/03/road-closure.jpg?resize=1200,600"
+        },
+        {
+          "id": "https://www.technologyreview.com/?p=1089458",
+          "author": "Will Douglas Heaven",
+          "description": "Thirteen years ago, as an assignment for a journalism class, I wrote a stupid short story about a man who eats luxury cat food. This morning, I sat and watched as a generative AI platform called Lore Machine brought my weird words to life. I fed my story into a text box and got this…",
+          "link": "https://www.technologyreview.com/2024/03/05/1089458/generative-ai-turn-my-story-into-comic-images-lore-machine/",
+          "publishedOn": "2024-03-05T14:01:11.000Z",
+          "wordCount": 6470,
+          "title": "I used generative AI to turn my story into a comic—and you can too",
+          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2024/03/Storyboard.png?resize=1200,600"
+        },
+        {
+          "id": "https://www.technologyreview.com/?p=1089451",
+          "author": "Rhiannon Williams",
+          "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The robots are coming. And that’s a good thing. —This is an excerpt from a new book, The Heart and the Chip: Our Bright Future with Robots, by MIT CSAIL director Daniela Rus …",
+          "link": "https://www.technologyreview.com/2024/03/05/1089451/the-download-rise-of-the-robots-and-what-organoids-can-teach-us/",
+          "publishedOn": "2024-03-05T13:10:00.000Z",
+          "wordCount": 6355,
+          "title": "The Download: rise of the robots, and what organoids can teach us",
+          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2024/02/MIT_Robotics_Opener-thumb.jpg?resize=1200,600"
+        },
+        {
+          "id": "https://www.technologyreview.com/?p=1089449",
+          "author": "Melissa Heikkilä",
+          "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. I’ve been experimenting with using AI assistants in my day-to-day work. The biggest obstacle to their being useful is they often get things blatantly wrong. In one case, I used an…",
+          "link": "https://www.technologyreview.com/2024/03/05/1089449/nobody-knows-how-ai-works/",
+          "publishedOn": "2024-03-05T10:31:28.000Z",
+          "wordCount": 6604,
+          "title": "Nobody knows how AI works",
+          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2024/03/Xerox-groucho3.jpg?resize=1200,600"
+        },
+        {
+          "id": "https://www.technologyreview.com/?p=1087646",
+          "author": "Daniela Rus, Gregory Mone",
+          "description": "In this excerpt from the new book, The Heart and the Chip: Our Bright Future with Robots, CSAIL Director Daniela Rus explores how robots can extend the reach of human capabilities. Years ago, I befriended the biologist Roger Payne at a meeting of MacArthur Foundation fellows. Roger, who died in 2023, was best known for…",
+          "link": "https://www.technologyreview.com/2024/03/05/1087646/the-robots-are-coming-and-thats-a-good-thing-2/",
+          "publishedOn": "2024-03-05T05:01:00.000Z",
+          "wordCount": 10961,
+          "title": "The robots are coming. And that’s a good thing.",
+          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2024/02/MIT_Robotics_Opener-thumb.jpg?resize=1200,600"
+        },
+        {
+          "id": "https://www.technologyreview.com/?p=1088983",
+          "author": "MIT Technology Review",
+          "description": "Recorded on August 10, 2023 The AI Economy Speakers: Mat Honan, Editor in chief and David Rotman, Editor at large There’s no doubt that generative AI will impact the economy—but how, exactly, remains an open question. Despite fears that these AI tools will upend workers and exacerbate wealth inequality, early evidence suggests the technology could…",
+          "link": "https://www.technologyreview.com/2024/03/04/1088983/roundtables-the-ai-economy/",
+          "publishedOn": "2024-03-04T18:12:30.000Z",
+          "wordCount": 4594,
+          "title": "Roundtables: The AI Economy",
+          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2024/02/Roundtables-Ondemand_1200x628.jpg?resize=1200,600"
+        }
+      ]
+    },
+    {
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
@@ -29,12 +263,22 @@
       "siteUrl": "https://github.blog/category/engineering/",
       "articles": [
         {
+          "id": "https://github.blog/2024-03-07-hard-and-soft-skills-for-developers-coding-in-the-age-of-ai/",
+          "author": null,
+          "description": "<p>While AI revolutionizes software development, it still relies on developers to pilot its use. In this blog, we’ll cover the skills that developers need to have for navigating this new AI-powered coding frontier. </p>\n<p>The post <a href=\"https://github.blog/2024-03-07-hard-and-soft-skills-for-developers-coding-in-the-age-of-ai/\">Hard and soft skills for developers coding in the age of AI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+          "link": "https://github.blog/2024-03-07-hard-and-soft-skills-for-developers-coding-in-the-age-of-ai/",
+          "publishedOn": "2024-03-07T17:00:54.000Z",
+          "wordCount": 3140,
+          "title": "Hard and soft skills for developers coding in the age of AI",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/03/AI-LightMode-2-1.png"
+        },
+        {
           "id": "https://github.blog/2024-03-06-how-github-uses-merge-queue-to-ship-hundreds-of-changes-every-day/",
           "author": null,
           "description": "<p>Here's how merge queue transformed the way GitHub deploys changes to production at scale, so you can do the same for your organization.</p>\n<p>The post <a href=\"https://github.blog/2024-03-06-how-github-uses-merge-queue-to-ship-hundreds-of-changes-every-day/\">How GitHub uses merge queue to ship hundreds of changes every day</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-03-06-how-github-uses-merge-queue-to-ship-hundreds-of-changes-every-day/",
           "publishedOn": "2024-03-06T16:43:39.000Z",
-          "wordCount": 2403,
+          "wordCount": 2437,
           "title": "How GitHub uses merge queue to ship hundreds of changes every day",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Productivity-DarkMode-1.png"
         },
@@ -44,7 +288,7 @@
           "description": "<p>Discover how keeping repository maintainer information accurate through CODEOWNERS files and automating maintenance with tools like cleanowners fosters efficient collaboration and sustainable software projects.</p>\n<p>The post <a href=\"https://github.blog/2024-03-04-keeping-repository-maintainer-information-accurate/\">Keeping repository maintainer information accurate</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-03-04-keeping-repository-maintainer-information-accurate/",
           "publishedOn": "2024-03-04T21:07:45.000Z",
-          "wordCount": 1544,
+          "wordCount": 1578,
           "title": "Keeping repository maintainer information accurate",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/10/Collaboration-DarkMode-3.png"
         },
@@ -54,7 +298,7 @@
           "description": "<p>Explore the capabilities and benefits of AI code generation, and how it can improve the developer experience for your enterprise.</p>\n<p>The post <a href=\"https://github.blog/2024-02-22-how-ai-code-generation-works/\">How AI code generation works</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-02-22-how-ai-code-generation-works/",
           "publishedOn": "2024-02-22T18:32:28.000Z",
-          "wordCount": 3601,
+          "wordCount": 3651,
           "title": "How AI code generation works",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/10/AI-DarkMode-2.png"
         },
@@ -64,7 +308,7 @@
           "description": "<p>In January, we experienced three incidents that resulted in degraded performance across GitHub services. </p>\n<p>The post <a href=\"https://github.blog/2024-02-14-github-availability-report-january-2024/\">GitHub Availability Report: January 2024</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-02-14-github-availability-report-january-2024/",
           "publishedOn": "2024-02-14T20:11:21.000Z",
-          "wordCount": 1341,
+          "wordCount": 1365,
           "title": "GitHub Availability Report: January 2024",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/02/Enterprise-LightMode-2.png"
         },
@@ -74,7 +318,7 @@
           "description": "<p>A peek under the hood of GitHub Advanced Security code scanning autofix.</p>\n<p>The post <a href=\"https://github.blog/2024-02-14-fixing-security-vulnerabilities-with-ai/\">Fixing security vulnerabilities with AI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-02-14-fixing-security-vulnerabilities-with-ai/",
           "publishedOn": "2024-02-14T17:00:47.000Z",
-          "wordCount": 3374,
+          "wordCount": 3402,
           "title": "Fixing security vulnerabilities with AI",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/10/Security-DarkMode-2.png"
         },
@@ -84,7 +328,7 @@
           "description": "<p>The npm engineering team recently transitioned to using GitHub Codespaces for local development for npm registry services. This shift to Codespaces has substantially reduced the friction of our inner development loop and boosted developer productivity.</p>\n<p>The post <a href=\"https://github.blog/2024-02-13-bringing-npm-registry-services-to-github-codespaces/\">Bringing npm registry services to GitHub Codespaces</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-02-13-bringing-npm-registry-services-to-github-codespaces/",
           "publishedOn": "2024-02-13T18:00:19.000Z",
-          "wordCount": 1874,
+          "wordCount": 1902,
           "title": "Bringing npm registry services to GitHub Codespaces",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/02/Productivity-DarkMode-1-1.png?fit=1200%2C630"
         },
@@ -94,7 +338,7 @@
           "description": "<p>The Fundamentals program has helped us address tech debt, improve reliability, and enhance observability of our engineering systems.</p>\n<p>The post <a href=\"https://github.blog/2024-02-08-githubs-engineering-fundamentals-program-how-we-deliver-on-availability-security-and-accessibility/\">GitHub&#8217;s Engineering Fundamentals program: How we deliver on availability, security, and accessibility</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-02-08-githubs-engineering-fundamentals-program-how-we-deliver-on-availability-security-and-accessibility/",
           "publishedOn": "2024-02-08T17:15:55.000Z",
-          "wordCount": 2564,
+          "wordCount": 2592,
           "title": "GitHub&#8217;s Engineering Fundamentals program: How we deliver on availability, security, and accessibility",
           "imageUrl": "https://github.blog/wp-content/uploads/2023/12/Productivity-LightMode-2.png"
         }
