@@ -1,229 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-17T23:09:12.084Z</id>
+    <id>urn:2024-03-17T23:11:42.326Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-17T23:09:12.084Z</updated>
+    <updated>2024-03-17T23:11:42.326Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[dotnet/aspnetcore]]></title>
-        <id>https://github.com/dotnet/aspnetcore</id>
-        <link href="https://github.com/dotnet/aspnetcore"/>
-        <updated>2024-03-17T23:08:57.979Z</updated>
-        <summary type="html"><![CDATA[ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.
+        <title type="html"><![CDATA[tiangolo/full-stack-fastapi-template]]></title>
+        <id>https://github.com/tiangolo/full-stack-fastapi-template</id>
+        <link href="https://github.com/tiangolo/full-stack-fastapi-template"/>
+        <updated>2024-03-17T23:11:38.920Z</updated>
+        <summary type="html"><![CDATA[Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.
 
-ASP.NET Core
- 
-    
- 
-ASP.NET Core is an open-source and cross-platform framework for building modern cloud-based internet-connected applications, such as web apps, IoT apps, and mobile backends. ASP.NET Core apps run on .NET, a free, cross-platform, and open-source application runtime. It was architected to provide an optimized development framework for apps that are deployed to the cloud or run on-premises. It consists of modular components with minimal overhead, so you retain flexibility while constructing your solutions. You can develop and run your ASP.NET Core apps cross-platform on Windows, Mac, and Linux. Learn more about ASP.NET Core.
- 
-Get started
- 
-Follow …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[lobehub/lobe-chat]]></title>
-        <id>https://github.com/lobehub/lobe-chat</id>
-        <link href="https://github.com/lobehub/lobe-chat"/>
-        <updated>2024-03-17T23:08:56.439Z</updated>
-        <summary type="html"><![CDATA[🤯 Lobe Chat - an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Perplexity / Bedrock / Azure / Mistral / Ollama ), Multi-Modals (Vision/TTS) and plugin system. One-click FREE deployment of your private ChatGPT chat application.
-
+Full Stack FastAPI Template
  
  
-
+ 
+Technology Stack and Features
  
  
-Lobe Chat
  
- 
-An open-source, modern-design ChatGPT/LLMs UI/Framework.
- Supports speech-synthesis, multi-modal, and extensible (function call) plugin system.
- One-click FREE deployment of your private ChatGPT/Gemini/Ollama chat application.
- 
- 
-English · 简体中文 · Changelog · Documents · Report Bug · Request Feature
- 
+⚡ FastAPI for the Python backend API. 
   
  
    
-    
-     
- 
- 
- 
-Share LobeChat Repository
- 
- 
-      
- 
- 
-Pioneering the new age of thinking and creating. Built for you, the Super Individual.
- 
- 
-
- 
- 
-
- 
- 
- 
- Table of con…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[redis/go-redis]]></title>
-        <id>https://github.com/redis/go-redis</id>
-        <link href="https://github.com/redis/go-redis"/>
-        <updated>2024-03-17T23:08:56.376Z</updated>
-        <summary type="html"><![CDATA[Redis Go client
-
-Redis client for Go
+🧰 SQLModel for the Python SQL database interactions (ORM).
  
    
+🔍 Pydantic, used by FastAPI, for the data validation and settings management.
+ 
+   
+💾 PostgreSQL as the SQL database.
+ 
+  
+  
+ 
+🚀 React for the frontend. 
+  
+ 
+   
+💃 Using TypeScript, hooks, Vite, and other parts of a modern frontend stack.
+ 
+   
+🎨 Chakra UI for the frontend components.
+ 
+   
+🤖 An automatically generated frontend client.
+ 
+   
+🦇 Dark mode support.
+ 
+  
+  
+ 
+🐋 Docker Compose for development and production.
  
  
- 
-go-redis is brought to you by ⭐ uptrace/uptrace. Uptrace is an open-source APM tool that supports distributed tracing, metrics, and logs. You can use it to monitor applications and set up automatic alerts to receive notifications via email, Slack, Telegram, and others.
- 
- 
-See OpenTelemetry example which demonstrates how you can use Uptrace to monitor go-redis.
- 
- 
-How do I Redis?
- 
-Learn for free at Redis University
- 
-Build faster with the Redis Launchpad
- 
-Try the Redis Cloud
- 
-Dive in developer tutorials
- 
-Join the Redis community
- 
-Work at Redis
- 
-Documentation
- 
- 
- 
-English
- 
- 
-简体中文
- 
- 
-Resources
- 
- 
- 
-Discussions
- 
- 
-Chat
- 
- 
-Reference
- 
- 
-Examples
- 
- 
-Ecosystem
- 
- 
- 
-Redis Mock
- 
- 
-Distributed Locks
- 
- 
-Redis Cache
- 
- 
-Rate limiting
- …]]></summary>
+🔒 Secure password hashing by default.…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Pythagora-io/gpt-pilot]]></title>
-        <id>https://github.com/Pythagora-io/gpt-pilot</id>
-        <link href="https://github.com/Pythagora-io/gpt-pilot"/>
-        <updated>2024-03-17T23:08:56.310Z</updated>
-        <summary type="html"><![CDATA[The first real AI developer
+        <title type="html"><![CDATA[geekan/MetaGPT]]></title>
+        <id>https://github.com/geekan/MetaGPT</id>
+        <link href="https://github.com/geekan/MetaGPT"/>
+        <updated>2024-03-17T23:11:38.885Z</updated>
+        <summary type="html"><![CDATA[🌟 The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo
 
- 
- 
-🧑‍✈️ GPT PILOT 🧑‍✈️
- 
- 
- 
- 
+MetaGPT: The Multi-Agent Framework
  
   
  
+ Assign different roles to GPTs to form a collaborative entity for complex tasks. 
+ 
+        
+ 
+    
+ 
+News
+ 
+🚀 Mar. 14, 2024: Our Data Interpreter paper is on arxiv. Check the example and code!
+ 
+🚀 Feb. 08, 2024: v0.7.0 released, supporting assigning different LLMs to different Roles. We also introduced Data Interpreter, a powerful agent capable of solving a wide range of real-world problems.
+ 
+🚀 Jan. 16, 2024: Our paper MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework  accepted for oral presentation (top 1.2%) at ICLR 2024, ranking #1 in the LLM-based Agent category.
+ 
+🚀 Jan. 03, 2024: v0.6.0 released, new features include serializati…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[said7388/developer-portfolio]]></title>
+        <id>https://github.com/said7388/developer-portfolio</id>
+        <link href="https://github.com/said7388/developer-portfolio"/>
+        <updated>2024-03-17T23:11:38.841Z</updated>
+        <summary type="html"><![CDATA[Software Developer Portfolio Website built with next.js and tailwind CSS that helps you showcase your work and skills as a software developer.
+
+Developer Portfolio
+ 
+Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
  
  
- 
-  
- 
- 
- 
-  
- 
- 
- 
- 
- 
-GPT Pilot doesn't just generate code, it builds apps!
- 
- 
- 
- 
+Demo 🎥
  
 
  
- 
-(click to open the video in YouTube) (1:40min)
- 
+View live preview here.
  
  
- 
- 
-
- 
- 
-GPT Pilot is the core technology for the Pythagora VS Code extension that aims to provide the first real AI developer companion. Not just an autocomplete or a helper for PR messages but rather a real AI developer that can write full features, debug them, talk to you about issues, ask for review, etc.
- 
- 
-📫 If you would like to get updates on future releases or just get in touch, join our Discord server or you can add your email here. 📬
+Table of Contents 📜
  
  
  
+Sections
  
  
-🔌 Requirements
+Demo
  
  
-🚦How to start using gpt-pilot?
+Installation
  
  
-🔎 Examples
+Getting Started
  
  
-🐳 How to start gpt-pilot in docker?
+Usage
  
  
-🧑‍💻️…]]></summary>
+Packages Used
+ 
+ 
+ 
+Sections 🔖
+ 
+ 
+ 
+HERO SECTION
+ 
+ 
+ABOUT ME
+ 
+ 
+EXPERIENCE
+ 
+ 
+SKILLS
+ 
+ 
+PROJECTS
+ 
+ 
+EDUCATION
+ 
+ 
+BLOG
+ 
+ 
+CONTACTS
+ 
+ 
+ 
+Installation ⬇
+ 
+You will need to download Gi…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
         </author>
@@ -232,7 +173,7 @@ GPT Pilot is the core technology for the Pythagora VS Code extension that aims t
         <title type="html"><![CDATA[ChatGPTNextWeb/ChatGPT-Next-Web]]></title>
         <id>https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web</id>
         <link href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web"/>
-        <updated>2024-03-17T23:08:56.274Z</updated>
+        <updated>2024-03-17T23:11:38.749Z</updated>
         <summary type="html"><![CDATA[A cross-platform ChatGPT/Gemini UI (Web / PWA / Linux / Win / MacOS). 一键拥有你自己的跨平台 ChatGPT/Gemini 应用。
 
  
@@ -296,31 +237,121 @@ Responsive design, dar…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Project-DARC/DARC]]></title>
-        <id>https://github.com/Project-DARC/DARC</id>
-        <link href="https://github.com/Project-DARC/DARC"/>
-        <updated>2024-03-17T23:08:56.220Z</updated>
-        <summary type="html"><![CDATA[Decentralized Autonomous Regulated Company (DARC), a company virtual machine that runs on any EVM-compatible blockchain, with on-chain law system, multi-level tokens and dividends mechanism.
+        <title type="html"><![CDATA[lobehub/lobe-chat]]></title>
+        <id>https://github.com/lobehub/lobe-chat</id>
+        <link href="https://github.com/lobehub/lobe-chat"/>
+        <updated>2024-03-17T23:11:38.698Z</updated>
+        <summary type="html"><![CDATA[🤯 Lobe Chat - an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Perplexity / Bedrock / Azure / Mistral / Ollama ), Multi-Modals (Vision/TTS) and plugin system. One-click FREE deployment of your private ChatGPT chat application.
 
-Decentralized Autonomous Regulated Company (DARC)
  
-Welcome to the official repository for the Decentralized Autonomous Regulated Company (DARC) project. DARC is a project that aims to create a decentralized autonomous company that is regulated by a plugin system based on commercial laws. The project is currently in the early stages of development and is not yet ready for production use.
- 
-English | 简体中文 | 日本語
- 
-Star History
  
 
  
-Join our community
  
-Telegram: https://t.me/projectdarc Discord: https://discord.gg/QzKbTHVgGG
+Lobe Chat
  
-Whitepaper
  
-English: darc-whitepaper.pdf
+An open-source, modern-design ChatGPT/LLMs UI/Framework.
+ Supports speech-synthesis, multi-modal, and extensible (function call) plugin system.
+ One-click FREE deployment of your private ChatGPT/Gemini/Ollama chat application.
  
-Chinese(中文版): darc-whitepaper-cn.…]]></summary>
+ 
+English · 简体中文 · Changelog · Documents · Report Bug · Request Feature
+ 
+  
+ 
+   
+    
+     
+ 
+ 
+ 
+Share LobeChat Repository
+ 
+ 
+      
+ 
+ 
+Pioneering the new age of thinking and creating. Built for you, the Super Individual.
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ Table of con…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dotnet/aspnetcore]]></title>
+        <id>https://github.com/dotnet/aspnetcore</id>
+        <link href="https://github.com/dotnet/aspnetcore"/>
+        <updated>2024-03-17T23:11:38.635Z</updated>
+        <summary type="html"><![CDATA[ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.
+
+ASP.NET Core
+ 
+    
+ 
+ASP.NET Core is an open-source and cross-platform framework for building modern cloud-based internet-connected applications, such as web apps, IoT apps, and mobile backends. ASP.NET Core apps run on .NET, a free, cross-platform, and open-source application runtime. It was architected to provide an optimized development framework for apps that are deployed to the cloud or run on-premises. It consists of modular components with minimal overhead, so you retain flexibility while constructing your solutions. You can develop and run your ASP.NET Core apps cross-platform on Windows, Mac, and Linux. Learn more about ASP.NET Core.
+ 
+Get started
+ 
+Follow …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[wasmerio/winterjs]]></title>
+        <id>https://github.com/wasmerio/winterjs</id>
+        <link href="https://github.com/wasmerio/winterjs"/>
+        <updated>2024-03-17T23:11:38.583Z</updated>
+        <summary type="html"><![CDATA[Winter is coming... ❄️
+
+ 
+  
+  
+ 
+    
+    
+  
+  
+ 
+WinterJS is blazing-fast JavaScript server that runs Service Workers scripts according to the Winter Community Group specification.
+ 
+WinterJS is able to handle up to 100,000 reqs/s in a single laptop (see Benchmark).
+ 
+ 
+ 
+ 
+Note: WinterJS is not officially endorsed by WinterCG, despite sharing "Winter" in their name. There are many runtimes supporting WinterCG, WinterJS being one among those.
+ 
+ 
+Running WinterJS with Wasmer
+ 
+The WinterJS server is published in Wasmer as wasmer/winterjs.
+ 
+You can run the HTTP server locally with:
+ 
+wasmer run wasmer/winterjs --net --mapdir=tests:tests tests/simple.js
+
+ 
+Where simple.js is:
+ 
+addEventListener('fetch', (req) => {
+  req.respondWith(new Response('hello'));
+});
+
+ 
+Building from source
+ 
+Wi…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
         </author>
@@ -329,7 +360,7 @@ Chinese(中文版): darc-whitepaper-cn.…]]></summary>
         <title type="html"><![CDATA[pancakeswap/pancake-frontend]]></title>
         <id>https://github.com/pancakeswap/pancake-frontend</id>
         <link href="https://github.com/pancakeswap/pancake-frontend"/>
-        <updated>2024-03-17T23:08:56.020Z</updated>
+        <updated>2024-03-17T23:11:38.543Z</updated>
         <summary type="html"><![CDATA[🥞 Pancake main features (farms, pools, IFO, lottery, profiles)
 
 🥞 Pancake Frontend
@@ -483,527 +514,34 @@ Packages
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[lsc4719/MyViewOfLinuxSystems]]></title>
-        <id>https://github.com/lsc4719/MyViewOfLinuxSystems</id>
-        <link href="https://github.com/lsc4719/MyViewOfLinuxSystems"/>
-        <updated>2024-03-17T23:08:55.985Z</updated>
-        <summary type="html"><![CDATA[MyViewOfLinuxSystems
- 
-A view from a process within a Linux system towards the world.
- Dotted arrow means dependencies. [1]
- 
+        <title type="html"><![CDATA[google/googletest]]></title>
+        <id>https://github.com/google/googletest</id>
+        <link href="https://github.com/google/googletest"/>
+        <updated>2024-03-17T23:11:38.513Z</updated>
+        <summary type="html"><![CDATA[GoogleTest - Google Testing and Mocking Framework
 
+GoogleTest
  
-ref
+Announcements
  
-How Linux Works, 2nd edition. https://www.yes24.com/Product/Goods/22404368
- FHS 3.0 https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html
- The Dinosaur Book https://www.amazon.com/Operating-System-Concepts-Binder-Version/dp/1118129385
- OSTEP https://pages.cs.wisc.edu/~remzi/OSTEP/
- Understanding the Linux Kernel, 3rd edition. https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652
- [1]UML Distilled, 3rd edition. https://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[huggingface/safetensors]]></title>
-        <id>https://github.com/huggingface/safetensors</id>
-        <link href="https://github.com/huggingface/safetensors"/>
-        <updated>2024-03-17T23:08:55.891Z</updated>
-        <summary type="html"><![CDATA[Simple, safe way to store and distribute tensors
-
+Live at Head
  
+GoogleTest now follows the Abseil Live at Head philosophy. We recommend updating to the latest commit in the main branch as often as possible. We do publish occasional semantic versions, tagged with v${major}.${minor}.${patch} (e.g. v1.14.0).
  
+Documentation Updates
  
-   
-   
-   
+Our documentation is now live on GitHub Pages at https://google.github.io/googletest/. We recommend browsing the documentation on GitHub Pages rather than directly in the repository.
  
-  
-  
-Python    
+Release 1.14.0
  
-Rust    
+Release 1.14.0 is now available.
  
-safetensors
+The 1.14.x branch requires at least C++14.
  
-Safetensors
+Continuous Integration
  
-This repository implements a new simple format for storing tensors safely (as opposed to pickle) and that is still fast (zero-copy).
- 
-Installation
- 
-Pip
- 
-You can install safetensors via the pip manager:
- 
-pip install safetensors
-
- 
-From source
- 
-For the sources, you need Rust
- 
-# Install Rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-# Make sure it's up to date and using stable channel
-rustup update
-git clone https://github.com/huggingface/safetensors
-cd safetensors/bindings/python
-pip install setuptools_rust
-pip install -e .
-
- 
-Getting started
- 
-import torch
-from safetensors import safe_open
-from safetensors.torch import save_file
-
-tensors …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[suyu-emu/suyu]]></title>
-        <id>https://github.com/suyu-emu/suyu</id>
-        <link href="https://github.com/suyu-emu/suyu"/>
-        <updated>2024-03-17T23:08:55.860Z</updated>
-        <summary type="html"><![CDATA[suyu is the continuation of the world's most popular, open-source, Nintendo Switch emulator, yuzu. It is written in C++ with portability in mind, and we actively maintain builds for Windows, Linux and Android.
-
-Note: We do not support or condone piracy in any form. In order to use suyu, you'll need keys from your real Switch system, and games which you have legally obtained and paid for. We do not intend to make money or profit from this project.
- 
-We're in need of developers. Please join our Discord server below if you want to contribute! This repo is based on Yuzu EA 4176.
- 
- 
- 
-  
- suyu 
-  
-suyu is the continuation of the world's most popular, open-source, Nintendo Switch emulator, yuzu. 
- It is written in C++ with portability in mind, and we actively maintain builds for Windows, Linux …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[facefusion/facefusion]]></title>
-        <id>https://github.com/facefusion/facefusion</id>
-        <link href="https://github.com/facefusion/facefusion"/>
-        <updated>2024-03-17T23:08:55.825Z</updated>
-        <summary type="html"><![CDATA[Next generation face swapper and enhancer
-
-FaceFusion
- 
- 
- 
-Next generation face swapper and enhancer.
- 
- 
- 
- 
-Preview
- 
-
- 
-Installation
- 
-Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub. We have a very helpful Discord community that will guide you to complete the installation.
- 
-Get started with the installation guide.
- 
-Usage
- 
-Run the command:
- 
-python run.py [options]
-
-options:
-  -h, --help                                                                                                             show this help message and exit
-  -s SOURCE_PATHS, --source SOURCE_PATHS                                                                                 choose single or multiple source images or …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[marticliment/WingetUI]]></title>
-        <id>https://github.com/marticliment/WingetUI</id>
-        <link href="https://github.com/marticliment/WingetUI"/>
-        <updated>2024-03-17T23:08:55.797Z</updated>
-        <summary type="html"><![CDATA[WingetUI: A better UI for your package managers
-
-WingetUI
- 
-   
- 
-The main goal of this project is to create an intuitive GUI for the most common CLI package managers for Windows 10 and Windows 11, such as Winget, Scoop, Chocolatey, Pip, Npm, .NET Tool and PowerShell Gallery. With this app, you'll be able to easily download, install, update and uninstall any software that's published on the supported package managers — and much more!
- 
-Check out the Supported Package Managers Table for more details!
- 
-This is WingetUI's official repository. If you are searching for WingetUI's homepage, please refer to https://www.marticliment.com/wingetui/
- 
-Disclaimer: This project has no connection with any of the supported package managers — it's completely unofficial. Be aware of the fact that I, the d…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[slint-ui/slint]]></title>
-        <id>https://github.com/slint-ui/slint</id>
-        <link href="https://github.com/slint-ui/slint"/>
-        <updated>2024-03-17T23:08:55.752Z</updated>
-        <summary type="html"><![CDATA[Slint is a declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps.
-
- 
- 
-  
- 
-Slint is a declarative GUI toolkit to build native user interfaces for desktop and embedded applications written in Rust, C++, or JavaScript. The name Slint is derived from our design goals:
- 
- 
- 
-Scalable: Slint should support responsive UI design, allow cross-platform usage across operating systems and processor architectures and support multiple programming languages.
- 
- 
-Lightweight: Slint should require minimal resources, in terms of memory and processing power, and yet deliver a smooth, smartphone-like user experience on any device.
- 
- 
-Intuitive: Designers and developers should feel productive while enjoying the GUI design and development process. The design creation tools…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[teableio/teable]]></title>
-        <id>https://github.com/teableio/teable</id>
-        <link href="https://github.com/teableio/teable"/>
-        <updated>2024-03-17T23:08:55.691Z</updated>
-        <summary type="html"><![CDATA[✨ A Super fast, Real-time, Professional, Developer friendly, No code database
-
- 
- 
- 
-  
- 
-    
-    
-  
-  
- 
-Postgres-Airtable Fusion
- 
- 
-Teable is a Super fast, Real-time, Professional, Developer friendly, No-code database built on Postgres. It uses a simple, spreadsheet-like interface to create complex enterprise-level database applications. Unlock efficient app development with no-code, free from the hurdles of data security and scalability. 
- 
- 
- Home | Help | Blog | Template | Roadmap | Discord | Twitter 
- 
-                      
- 
- 
- 
- 
-   
-   
- 
-  
-Quick Guide
- 
- 
- 
-Looking for a quick experience? Select a scenario from the template center and click "Use this template".
- 
- 
-Seeking high performance? Try the 1 million rows demo to feel the speed of Teable.
- 
- 
-Want to learn to use it …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NanmiCoder/MediaCrawler]]></title>
-        <id>https://github.com/NanmiCoder/MediaCrawler</id>
-        <link href="https://github.com/NanmiCoder/MediaCrawler"/>
-        <updated>2024-03-17T23:08:55.586Z</updated>
-        <summary type="html"><![CDATA[小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫
-
- 
- 
-免责声明：
- 
- 
- 
- 
-本仓库的所有内容仅供学习和参考之用，禁止用于商业用途。任何人或组织不得将本仓库的内容用于非法用途或侵犯他人合法权益。本仓库所涉及的爬虫技术仅用于学习和研究，不得用于对其他平台进行大规模爬虫或其他非法行为。对于因使用本仓库内容而引起的任何法律责任，本仓库不承担任何责任。使用本仓库的内容即表示您同意本免责声明的所有条款和条件。
- 
- 
-仓库描述
- 
-小红书爬虫，抖音爬虫， 快手爬虫， B站爬虫， 微博爬虫...。
- 目前能抓取小红书、抖音、快手、B站、微博的视频、图片、评论、点赞、转发等信息。
- 
-原理：利用playwright搭桥，保留登录成功后的上下文浏览器环境，通过执行JS表达式获取一些加密参数 通过使用此方式，免去了复现核心加密JS代码，逆向难度大大降低
- 
-爬虫技术交流群：949715256，同时欢迎大家贡献代码提交PR
- 
-视频配置教程：MediaCrawler视频入门教程
- 
-感谢下列Sponsors对本仓库赞助
- 
-成为赞助者，展示你的产品在这里，联系作者：relakkes@gmail.com
- 
-功能列表
- 
- 
-  
-  
- 
-   平台 
-   Cookie 登录 
-   二维码登录 
-   手机号登录 
-   关键词搜索 
-   指定视频/帖子 ID 爬取 
-   登录状态缓存 
-   数据保存 
-   IP 代理池 
-   滑块验证码 
-  
- 
-  
-  
-  
- 
-   小红书 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✕ 
-  
- 
-  
- 
-   抖音 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[diia-open-source/ios-diia]]></title>
-        <id>https://github.com/diia-open-source/ios-diia</id>
-        <link href="https://github.com/diia-open-source/ios-diia"/>
-        <updated>2024-03-17T23:08:55.548Z</updated>
-        <summary type="html"><![CDATA[Diia
- 
-This repository provides an overview over the flagship product Diia developed by the Ministry of Digital Transformation of Ukraine.
- 
-Diia is an app with access to citizen’s digital documents and government services.
- 
-The application was created so that Ukrainians could interact with the state in a few clicks, without spending their time on queues and paperwork - Diia open source application will help countries, companies and communities build a foundation for long-term relationships. At the heart of these relations are openness, efficiency and humanity.
- 
-We're pleased to share the Diia project with you.
- 
-Useful Links
- 
- 
-  
-  
- 
-   Topic 
-   Link 
-   Description 
-  
- 
-  
-  
-  
- 
-   Ministry of Digital Transformation of Ukraine 
-   https://thedigital.gov.ua/ 
-   The Official home…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Skyvern-AI/skyvern]]></title>
-        <id>https://github.com/Skyvern-AI/skyvern</id>
-        <link href="https://github.com/Skyvern-AI/skyvern"/>
-        <updated>2024-03-17T23:08:55.509Z</updated>
-        <summary type="html"><![CDATA[Automate browser-based workflows with LLMs and Computer Vision
-
-  
-  
- 
-    
-    
-  
-  
-  
- 🐉 Automate Browser-based workflows using LLMs and Computer Vision 🐉 
- 
-  
- 
-  -->  
-  -->     
- 
-Skyvern automates browser-based workflows using LLMs and computer vision. It provides a simple API endpoint to fully automate manual workflows, replacing brittle or unreliable automation solutions.
- 
-  
- 
-Traditional approaches to browser automations required writing custom scripts for websites, often relying on DOM parsing and XPath-based interactions which would break whenever the website layouts changed.
- 
-Instead of only relying on code-defined XPath interactions, Skyvern adds computer vision and LLMs to the mix to parse items in the viewport in real-time, create a plan for interaction and interact…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[geekan/MetaGPT]]></title>
-        <id>https://github.com/geekan/MetaGPT</id>
-        <link href="https://github.com/geekan/MetaGPT"/>
-        <updated>2024-03-17T23:08:55.462Z</updated>
-        <summary type="html"><![CDATA[🌟 The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo
-
-MetaGPT: The Multi-Agent Framework
- 
-  
- 
- Assign different roles to GPTs to form a collaborative entity for complex tasks. 
- 
-        
- 
-    
- 
-News
- 
-🚀 Mar. 14, 2024: Our Data Interpreter paper is on arxiv. Check the example and code!
- 
-🚀 Feb. 08, 2024: v0.7.0 released, supporting assigning different LLMs to different Roles. We also introduced Data Interpreter, a powerful agent capable of solving a wide range of real-world problems.
- 
-🚀 Jan. 16, 2024: Our paper MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework  accepted for oral presentation (top 1.2%) at ICLR 2024, ranking #1 in the LLM-based Agent category.
- 
-🚀 Jan. 03, 2024: v0.6.0 released, new features include serializati…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[tiangolo/full-stack-fastapi-template]]></title>
-        <id>https://github.com/tiangolo/full-stack-fastapi-template</id>
-        <link href="https://github.com/tiangolo/full-stack-fastapi-template"/>
-        <updated>2024-03-17T23:08:55.407Z</updated>
-        <summary type="html"><![CDATA[Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.
-
-Full Stack FastAPI Template
- 
- 
- 
-Technology Stack and Features
- 
- 
- 
-⚡ FastAPI for the Python backend API. 
-  
- 
-   
-🧰 SQLModel for the Python SQL database interactions (ORM).
- 
-   
-🔍 Pydantic, used by FastAPI, for the data validation and settings management.
- 
-   
-💾 PostgreSQL as the SQL database.
- 
-  
-  
- 
-🚀 React for the frontend. 
-  
- 
-   
-💃 Using TypeScript, hooks, Vite, and other parts of a modern frontend stack.
- 
-   
-🎨 Chakra UI for the frontend components.
- 
-   
-🤖 An automatically generated frontend client.
- 
-   
-🦇 Dark mode support.
- 
-  
-  
- 
-🐋 Docker Compose for development and production.
- 
- 
-🔒 Secure password hashing by default.…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[wasmerio/winterjs]]></title>
-        <id>https://github.com/wasmerio/winterjs</id>
-        <link href="https://github.com/wasmerio/winterjs"/>
-        <updated>2024-03-17T23:08:54.801Z</updated>
-        <summary type="html"><![CDATA[Winter is coming... ❄️
-
- 
-  
-  
- 
-    
-    
-  
-  
- 
-WinterJS is blazing-fast JavaScript server that runs Service Workers scripts according to the Winter Community Group specification.
- 
-WinterJS is able to handle up to 100,000 reqs/s in a single laptop (see Benchmark).
- 
- 
- 
- 
-Note: WinterJS is not officially endorsed by WinterCG, despite sharing "Winter" in their name. There are many runtimes supporting WinterCG, WinterJS being one among those.
- 
- 
-Running WinterJS with Wasmer
- 
-The WinterJS server is published in Wasmer as wasmer/winterjs.
- 
-You can run the HTTP server locally with:
- 
-wasmer run wasmer/winterjs --net --mapdir=tests:tests tests/simple.js
-
- 
-Where simple.js is:
- 
-addEventListener('fetch', (req) => {
-  req.respondWith(new Response('hello'));
-});
-
- 
-Building from source
- 
-Wi…]]></summary>
+We use Google's internal systems for continuous integration. 
+ GitHub Actions were added for the convenience of open-source contr…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
         </author>
@@ -1012,7 +550,7 @@ Wi…]]></summary>
         <title type="html"><![CDATA[krahets/hello-algo]]></title>
         <id>https://github.com/krahets/hello-algo</id>
         <link href="https://github.com/krahets/hello-algo"/>
-        <updated>2024-03-17T23:08:54.767Z</updated>
+        <updated>2024-03-17T23:11:38.471Z</updated>
         <summary type="html"><![CDATA[《Hello 算法》：动画图解、一键运行的数据结构与算法教程，支持 Python, C++, Java, C#, Go, Swift, JS, TS, Dart, Rust, C, Zig 等语言。English edition ongoing
 
    
@@ -1090,43 +628,10 @@ The texts, code, images, photos, and videos in this repository are licensed unde
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[google/googletest]]></title>
-        <id>https://github.com/google/googletest</id>
-        <link href="https://github.com/google/googletest"/>
-        <updated>2024-03-17T23:08:54.719Z</updated>
-        <summary type="html"><![CDATA[GoogleTest - Google Testing and Mocking Framework
-
-GoogleTest
- 
-Announcements
- 
-Live at Head
- 
-GoogleTest now follows the Abseil Live at Head philosophy. We recommend updating to the latest commit in the main branch as often as possible. We do publish occasional semantic versions, tagged with v${major}.${minor}.${patch} (e.g. v1.14.0).
- 
-Documentation Updates
- 
-Our documentation is now live on GitHub Pages at https://google.github.io/googletest/. We recommend browsing the documentation on GitHub Pages rather than directly in the repository.
- 
-Release 1.14.0
- 
-Release 1.14.0 is now available.
- 
-The 1.14.x branch requires at least C++14.
- 
-Continuous Integration
- 
-We use Google's internal systems for continuous integration. 
- GitHub Actions were added for the convenience of open-source contr…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Unity-Technologies/megacity-metro]]></title>
         <id>https://github.com/Unity-Technologies/megacity-metro</id>
         <link href="https://github.com/Unity-Technologies/megacity-metro"/>
-        <updated>2024-03-17T23:08:54.688Z</updated>
+        <updated>2024-03-17T23:11:38.441Z</updated>
         <summary type="html"><![CDATA[Megacity-Metro: a thrilling shooter game, using Netcode for Entities for a multiplayer experience supporting 128+ players. Latest DOTS packages and Unity Gaming Services elevate the user experience, demonstrating how to craft engaging multiplayer games.
 
 
@@ -1188,10 +693,334 @@ Megacity-Metro is an action-packed, shooter game based on the original Megacity 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[redis/go-redis]]></title>
+        <id>https://github.com/redis/go-redis</id>
+        <link href="https://github.com/redis/go-redis"/>
+        <updated>2024-03-17T23:11:38.412Z</updated>
+        <summary type="html"><![CDATA[Redis Go client
+
+Redis client for Go
+ 
+   
+ 
+ 
+ 
+go-redis is brought to you by ⭐ uptrace/uptrace. Uptrace is an open-source APM tool that supports distributed tracing, metrics, and logs. You can use it to monitor applications and set up automatic alerts to receive notifications via email, Slack, Telegram, and others.
+ 
+ 
+See OpenTelemetry example which demonstrates how you can use Uptrace to monitor go-redis.
+ 
+ 
+How do I Redis?
+ 
+Learn for free at Redis University
+ 
+Build faster with the Redis Launchpad
+ 
+Try the Redis Cloud
+ 
+Dive in developer tutorials
+ 
+Join the Redis community
+ 
+Work at Redis
+ 
+Documentation
+ 
+ 
+ 
+English
+ 
+ 
+简体中文
+ 
+ 
+Resources
+ 
+ 
+ 
+Discussions
+ 
+ 
+Chat
+ 
+ 
+Reference
+ 
+ 
+Examples
+ 
+ 
+Ecosystem
+ 
+ 
+ 
+Redis Mock
+ 
+ 
+Distributed Locks
+ 
+ 
+Redis Cache
+ 
+ 
+Rate limiting
+ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[huggingface/safetensors]]></title>
+        <id>https://github.com/huggingface/safetensors</id>
+        <link href="https://github.com/huggingface/safetensors"/>
+        <updated>2024-03-17T23:11:38.353Z</updated>
+        <summary type="html"><![CDATA[Simple, safe way to store and distribute tensors
+
+ 
+ 
+ 
+   
+   
+   
+ 
+  
+  
+Python    
+ 
+Rust    
+ 
+safetensors
+ 
+Safetensors
+ 
+This repository implements a new simple format for storing tensors safely (as opposed to pickle) and that is still fast (zero-copy).
+ 
+Installation
+ 
+Pip
+ 
+You can install safetensors via the pip manager:
+ 
+pip install safetensors
+
+ 
+From source
+ 
+For the sources, you need Rust
+ 
+# Install Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# Make sure it's up to date and using stable channel
+rustup update
+git clone https://github.com/huggingface/safetensors
+cd safetensors/bindings/python
+pip install setuptools_rust
+pip install -e .
+
+ 
+Getting started
+ 
+import torch
+from safetensors import safe_open
+from safetensors.torch import save_file
+
+tensors …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[suyu-emu/suyu]]></title>
+        <id>https://github.com/suyu-emu/suyu</id>
+        <link href="https://github.com/suyu-emu/suyu"/>
+        <updated>2024-03-17T23:11:38.323Z</updated>
+        <summary type="html"><![CDATA[suyu is the continuation of the world's most popular, open-source, Nintendo Switch emulator, yuzu. It is written in C++ with portability in mind, and we actively maintain builds for Windows, Linux and Android.
+
+Note: We do not support or condone piracy in any form. In order to use suyu, you'll need keys from your real Switch system, and games which you have legally obtained and paid for. We do not intend to make money or profit from this project.
+ 
+We're in need of developers. Please join our Discord server below if you want to contribute! This repo is based on Yuzu EA 4176.
+ 
+ 
+ 
+  
+ suyu 
+  
+suyu is the continuation of the world's most popular, open-source, Nintendo Switch emulator, yuzu. 
+ It is written in C++ with portability in mind, and we actively maintain builds for Windows, Linux …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[marticliment/WingetUI]]></title>
+        <id>https://github.com/marticliment/WingetUI</id>
+        <link href="https://github.com/marticliment/WingetUI"/>
+        <updated>2024-03-17T23:11:38.284Z</updated>
+        <summary type="html"><![CDATA[WingetUI: A better UI for your package managers
+
+WingetUI
+ 
+   
+ 
+The main goal of this project is to create an intuitive GUI for the most common CLI package managers for Windows 10 and Windows 11, such as Winget, Scoop, Chocolatey, Pip, Npm, .NET Tool and PowerShell Gallery. With this app, you'll be able to easily download, install, update and uninstall any software that's published on the supported package managers — and much more!
+ 
+Check out the Supported Package Managers Table for more details!
+ 
+This is WingetUI's official repository. If you are searching for WingetUI's homepage, please refer to https://www.marticliment.com/wingetui/
+ 
+Disclaimer: This project has no connection with any of the supported package managers — it's completely unofficial. Be aware of the fact that I, the d…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[facefusion/facefusion]]></title>
+        <id>https://github.com/facefusion/facefusion</id>
+        <link href="https://github.com/facefusion/facefusion"/>
+        <updated>2024-03-17T23:11:38.246Z</updated>
+        <summary type="html"><![CDATA[Next generation face swapper and enhancer
+
+FaceFusion
+ 
+ 
+ 
+Next generation face swapper and enhancer.
+ 
+ 
+ 
+ 
+Preview
+ 
+
+ 
+Installation
+ 
+Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub. We have a very helpful Discord community that will guide you to complete the installation.
+ 
+Get started with the installation guide.
+ 
+Usage
+ 
+Run the command:
+ 
+python run.py [options]
+
+options:
+  -h, --help                                                                                                             show this help message and exit
+  -s SOURCE_PATHS, --source SOURCE_PATHS                                                                                 choose single or multiple source images or …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[lsc4719/MyViewOfLinuxSystems]]></title>
+        <id>https://github.com/lsc4719/MyViewOfLinuxSystems</id>
+        <link href="https://github.com/lsc4719/MyViewOfLinuxSystems"/>
+        <updated>2024-03-17T23:11:38.212Z</updated>
+        <summary type="html"><![CDATA[MyViewOfLinuxSystems
+ 
+A view from a process within a Linux system towards the world.
+ Dotted arrow means dependencies. [1]
+ 
+
+ 
+ref
+ 
+How Linux Works, 2nd edition. https://www.yes24.com/Product/Goods/22404368
+ FHS 3.0 https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html
+ The Dinosaur Book https://www.amazon.com/Operating-System-Concepts-Binder-Version/dp/1118129385
+ OSTEP https://pages.cs.wisc.edu/~remzi/OSTEP/
+ Understanding the Linux Kernel, 3rd edition. https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652
+ [1]UML Distilled, 3rd edition. https://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[teableio/teable]]></title>
+        <id>https://github.com/teableio/teable</id>
+        <link href="https://github.com/teableio/teable"/>
+        <updated>2024-03-17T23:11:38.188Z</updated>
+        <summary type="html"><![CDATA[✨ A Super fast, Real-time, Professional, Developer friendly, No code database
+
+ 
+ 
+ 
+  
+ 
+    
+    
+  
+  
+ 
+Postgres-Airtable Fusion
+ 
+ 
+Teable is a Super fast, Real-time, Professional, Developer friendly, No-code database built on Postgres. It uses a simple, spreadsheet-like interface to create complex enterprise-level database applications. Unlock efficient app development with no-code, free from the hurdles of data security and scalability. 
+ 
+ 
+ Home | Help | Blog | Template | Roadmap | Discord | Twitter 
+ 
+                      
+ 
+ 
+ 
+ 
+   
+   
+ 
+  
+Quick Guide
+ 
+ 
+ 
+Looking for a quick experience? Select a scenario from the template center and click "Use this template".
+ 
+ 
+Seeking high performance? Try the 1 million rows demo to feel the speed of Teable.
+ 
+ 
+Want to learn to use it …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Project-DARC/DARC]]></title>
+        <id>https://github.com/Project-DARC/DARC</id>
+        <link href="https://github.com/Project-DARC/DARC"/>
+        <updated>2024-03-17T23:11:38.140Z</updated>
+        <summary type="html"><![CDATA[Decentralized Autonomous Regulated Company (DARC), a company virtual machine that runs on any EVM-compatible blockchain, with on-chain law system, multi-level tokens and dividends mechanism.
+
+Decentralized Autonomous Regulated Company (DARC)
+ 
+Welcome to the official repository for the Decentralized Autonomous Regulated Company (DARC) project. DARC is a project that aims to create a decentralized autonomous company that is regulated by a plugin system based on commercial laws. The project is currently in the early stages of development and is not yet ready for production use.
+ 
+English | 简体中文 | 日本語
+ 
+Star History
+ 
+
+ 
+Join our community
+ 
+Telegram: https://t.me/projectdarc Discord: https://discord.gg/QzKbTHVgGG
+ 
+Whitepaper
+ 
+English: darc-whitepaper.pdf
+ 
+Chinese(中文版): darc-whitepaper-cn.…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[lavague-ai/LaVague]]></title>
         <id>https://github.com/lavague-ai/LaVague</id>
         <link href="https://github.com/lavague-ai/LaVague"/>
-        <updated>2024-03-17T23:08:54.646Z</updated>
+        <updated>2024-03-17T23:11:38.091Z</updated>
         <summary type="html"><![CDATA[Automate automation with Large Action Model framework
 
       
@@ -1243,81 +1072,433 @@ LaVague is designed to automate menial tasks on behalf of its users. Many of the
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[said7388/developer-portfolio]]></title>
-        <id>https://github.com/said7388/developer-portfolio</id>
-        <link href="https://github.com/said7388/developer-portfolio"/>
-        <updated>2024-03-17T23:08:54.592Z</updated>
-        <summary type="html"><![CDATA[Software Developer Portfolio Website built with next.js and tailwind CSS that helps you showcase your work and skills as a software developer.
-
-Developer Portfolio
- 
-Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
- 
- 
-Demo 🎥
- 
+        <title type="html"><![CDATA[slint-ui/slint]]></title>
+        <id>https://github.com/slint-ui/slint</id>
+        <link href="https://github.com/slint-ui/slint"/>
+        <updated>2024-03-17T23:11:38.061Z</updated>
+        <summary type="html"><![CDATA[Slint is a declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps.
 
  
-View live preview here.
  
+  
  
-Table of Contents 📜
- 
- 
- 
-Sections
- 
- 
-Demo
- 
- 
-Installation
- 
- 
-Getting Started
- 
- 
-Usage
- 
- 
-Packages Used
+Slint is a declarative GUI toolkit to build native user interfaces for desktop and embedded applications written in Rust, C++, or JavaScript. The name Slint is derived from our design goals:
  
  
  
-Sections 🔖
+Scalable: Slint should support responsive UI design, allow cross-platform usage across operating systems and processor architectures and support multiple programming languages.
  
  
- 
-HERO SECTION
- 
- 
-ABOUT ME
+Lightweight: Slint should require minimal resources, in terms of memory and processing power, and yet deliver a smooth, smartphone-like user experience on any device.
  
  
-EXPERIENCE
- 
- 
-SKILLS
- 
- 
-PROJECTS
- 
- 
-EDUCATION
- 
- 
-BLOG
- 
- 
-CONTACTS
- 
- 
- 
-Installation ⬇
- 
-You will need to download Gi…]]></summary>
+Intuitive: Designers and developers should feel productive while enjoying the GUI design and development process. The design creation tools…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NanmiCoder/MediaCrawler]]></title>
+        <id>https://github.com/NanmiCoder/MediaCrawler</id>
+        <link href="https://github.com/NanmiCoder/MediaCrawler"/>
+        <updated>2024-03-17T23:11:38.017Z</updated>
+        <summary type="html"><![CDATA[小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫
+
+ 
+ 
+免责声明：
+ 
+ 
+ 
+ 
+本仓库的所有内容仅供学习和参考之用，禁止用于商业用途。任何人或组织不得将本仓库的内容用于非法用途或侵犯他人合法权益。本仓库所涉及的爬虫技术仅用于学习和研究，不得用于对其他平台进行大规模爬虫或其他非法行为。对于因使用本仓库内容而引起的任何法律责任，本仓库不承担任何责任。使用本仓库的内容即表示您同意本免责声明的所有条款和条件。
+ 
+ 
+仓库描述
+ 
+小红书爬虫，抖音爬虫， 快手爬虫， B站爬虫， 微博爬虫...。
+ 目前能抓取小红书、抖音、快手、B站、微博的视频、图片、评论、点赞、转发等信息。
+ 
+原理：利用playwright搭桥，保留登录成功后的上下文浏览器环境，通过执行JS表达式获取一些加密参数 通过使用此方式，免去了复现核心加密JS代码，逆向难度大大降低
+ 
+爬虫技术交流群：949715256，同时欢迎大家贡献代码提交PR
+ 
+视频配置教程：MediaCrawler视频入门教程
+ 
+感谢下列Sponsors对本仓库赞助
+ 
+成为赞助者，展示你的产品在这里，联系作者：relakkes@gmail.com
+ 
+功能列表
+ 
+ 
+  
+  
+ 
+   平台 
+   Cookie 登录 
+   二维码登录 
+   手机号登录 
+   关键词搜索 
+   指定视频/帖子 ID 爬取 
+   登录状态缓存 
+   数据保存 
+   IP 代理池 
+   滑块验证码 
+  
+ 
+  
+  
+  
+ 
+   小红书 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✕ 
+  
+ 
+  
+ 
+   抖音 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pythagora-io/gpt-pilot]]></title>
+        <id>https://github.com/Pythagora-io/gpt-pilot</id>
+        <link href="https://github.com/Pythagora-io/gpt-pilot"/>
+        <updated>2024-03-17T23:11:37.905Z</updated>
+        <summary type="html"><![CDATA[The first real AI developer
+
+ 
+ 
+🧑‍✈️ GPT PILOT 🧑‍✈️
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+GPT Pilot doesn't just generate code, it builds apps!
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+(click to open the video in YouTube) (1:40min)
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+GPT Pilot is the core technology for the Pythagora VS Code extension that aims to provide the first real AI developer companion. Not just an autocomplete or a helper for PR messages but rather a real AI developer that can write full features, debug them, talk to you about issues, ask for review, etc.
+ 
+ 
+📫 If you would like to get updates on future releases or just get in touch, join our Discord server or you can add your email here. 📬
+ 
+ 
+ 
+ 
+ 
+🔌 Requirements
+ 
+ 
+🚦How to start using gpt-pilot?
+ 
+ 
+🔎 Examples
+ 
+ 
+🐳 How to start gpt-pilot in docker?
+ 
+ 
+🧑‍💻️…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[diia-open-source/ios-diia]]></title>
+        <id>https://github.com/diia-open-source/ios-diia</id>
+        <link href="https://github.com/diia-open-source/ios-diia"/>
+        <updated>2024-03-17T23:11:37.861Z</updated>
+        <summary type="html"><![CDATA[Diia
+ 
+This repository provides an overview over the flagship product Diia developed by the Ministry of Digital Transformation of Ukraine.
+ 
+Diia is an app with access to citizen’s digital documents and government services.
+ 
+The application was created so that Ukrainians could interact with the state in a few clicks, without spending their time on queues and paperwork - Diia open source application will help countries, companies and communities build a foundation for long-term relationships. At the heart of these relations are openness, efficiency and humanity.
+ 
+We're pleased to share the Diia project with you.
+ 
+Useful Links
+ 
+ 
+  
+  
+ 
+   Topic 
+   Link 
+   Description 
+  
+ 
+  
+  
+  
+ 
+   Ministry of Digital Transformation of Ukraine 
+   https://thedigital.gov.ua/ 
+   The Official home…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Skyvern-AI/skyvern]]></title>
+        <id>https://github.com/Skyvern-AI/skyvern</id>
+        <link href="https://github.com/Skyvern-AI/skyvern"/>
+        <updated>2024-03-17T23:11:37.829Z</updated>
+        <summary type="html"><![CDATA[Automate browser-based workflows with LLMs and Computer Vision
+
+  
+  
+ 
+    
+    
+  
+  
+  
+ 🐉 Automate Browser-based workflows using LLMs and Computer Vision 🐉 
+ 
+  
+ 
+  -->  
+  -->     
+ 
+Skyvern automates browser-based workflows using LLMs and computer vision. It provides a simple API endpoint to fully automate manual workflows, replacing brittle or unreliable automation solutions.
+ 
+  
+ 
+Traditional approaches to browser automations required writing custom scripts for websites, often relying on DOM parsing and XPath-based interactions which would break whenever the website layouts changed.
+ 
+Instead of only relying on code-defined XPath interactions, Skyvern adds computer vision and LLMs to the mix to parse items in the viewport in real-time, create a plan for interaction and interact…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Oregon's Drug Decriminalization Failed]]></title>
+        <id>https://news.ycombinator.com/item?id=39738487</id>
+        <link href="https://www.theatlantic.com/ideas/archive/2024/03/oregon-drug-decriminalization-failed/677678/"/>
+        <updated>2024-03-17T22:06:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theatlantic.com/ideas/archive/2024/03/oregon-drug-decriminalization-failed/677678/
+Comments URL: https://news.ycombinator.com/item?id=39738487
+Points: 4
+# Comments: 0]]></summary>
+        <author>
+            <name>cornholio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meticulous (YC S21) is hiring to eliminate UI tests]]></title>
+        <id>https://news.ycombinator.com/item?id=39738042</id>
+        <link href="https://news.ycombinator.com/item?id=39738042"/>
+        <updated>2024-03-17T21:04:35.000Z</updated>
+        <summary type="html"><![CDATA[Comments URL: https://news.ycombinator.com/item?id=39738042
+Points: 0
+# Comments: 0]]></summary>
+        <author>
+            <name>Gabriel_h</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pine64 March update: making waves]]></title>
+        <id>https://news.ycombinator.com/item?id=39737474</id>
+        <link href="https://pine64.org/2024/03/17/march-update-making-waves/"/>
+        <updated>2024-03-17T19:55:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pine64.org/2024/03/17/march-update-making-waves/
+Comments URL: https://news.ycombinator.com/item?id=39737474
+Points: 40
+# Comments: 12]]></summary>
+        <author>
+            <name>LorenDB</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2600.network Dialup Service]]></title>
+        <id>https://news.ycombinator.com/item?id=39737401</id>
+        <link href="https://2600.network/"/>
+        <updated>2024-03-17T19:47:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://2600.network/
+Comments URL: https://news.ycombinator.com/item?id=39737401
+Points: 51
+# Comments: 2]]></summary>
+        <author>
+            <name>classichasclass</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Grok]]></title>
+        <id>https://news.ycombinator.com/item?id=39737281</id>
+        <link href="https://github.com/xai-org/grok"/>
+        <updated>2024-03-17T19:33:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/xai-org/grok
+Comments URL: https://news.ycombinator.com/item?id=39737281
+Points: 591
+# Comments: 224]]></summary>
+        <author>
+            <name>pierre</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Z85: Format for representing binary data as printable text]]></title>
+        <id>https://news.ycombinator.com/item?id=39737236</id>
+        <link href="https://rfc.zeromq.org/spec/32/"/>
+        <updated>2024-03-17T19:28:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://rfc.zeromq.org/spec/32/
+Comments URL: https://news.ycombinator.com/item?id=39737236
+Points: 14
+# Comments: 2]]></summary>
+        <author>
+            <name>ingve</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vector: A high-performance observability data pipeline]]></title>
+        <id>https://news.ycombinator.com/item?id=39737122</id>
+        <link href="https://github.com/vectordotdev/vector"/>
+        <updated>2024-03-17T19:14:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/vectordotdev/vector
+Comments URL: https://news.ycombinator.com/item?id=39737122
+Points: 45
+# Comments: 15]]></summary>
+        <author>
+            <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Superiority (1951)]]></title>
+        <id>https://news.ycombinator.com/item?id=39737084</id>
+        <link href="https://metallicman.com/laoban4site/superiority-by-arthur-c-clarke-full-text/"/>
+        <updated>2024-03-17T19:09:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://metallicman.com/laoban4site/superiority-by-arthur-c-clarke-full-text/
+Comments URL: https://news.ycombinator.com/item?id=39737084
+Points: 90
+# Comments: 33]]></summary>
+        <author>
+            <name>rgrieselhuber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Compressing Images with Neural Networks]]></title>
+        <id>https://news.ycombinator.com/item?id=39736718</id>
+        <link href="https://mlumiste.com/technical/compression-deep-learning/"/>
+        <updated>2024-03-17T18:28:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mlumiste.com/technical/compression-deep-learning/
+Comments URL: https://news.ycombinator.com/item?id=39736718
+Points: 48
+# Comments: 11]]></summary>
+        <author>
+            <name>skandium</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When Armor Met Lips]]></title>
+        <id>https://news.ycombinator.com/item?id=39735716</id>
+        <link href="https://crookedtimber.org/2024/03/16/occasional-paper-when-armor-met-lips"/>
+        <updated>2024-03-17T16:44:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://crookedtimber.org/2024/03/16/occasional-paper-when-armor-met-lips
+Comments URL: https://news.ycombinator.com/item?id=39735716
+Points: 200
+# Comments: 16]]></summary>
+        <author>
+            <name>akkartik</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nanofont3x4: Smallest readable 3x4 font with lowercase]]></title>
+        <id>https://news.ycombinator.com/item?id=39735675</id>
+        <link href="https://github.com/Michaelangel007/nanofont3x4"/>
+        <updated>2024-03-17T16:39:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/Michaelangel007/nanofont3x4
+Comments URL: https://news.ycombinator.com/item?id=39735675
+Points: 187
+# Comments: 61]]></summary>
+        <author>
+            <name>lsferreira42</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimize CSS with SAT Solving]]></title>
+        <id>https://news.ycombinator.com/item?id=39735669</id>
+        <link href="https://github.com/matthewhague/sat-css-tool"/>
+        <updated>2024-03-17T16:38:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/matthewhague/sat-css-tool
+Comments URL: https://news.ycombinator.com/item?id=39735669
+Points: 76
+# Comments: 17]]></summary>
+        <author>
+            <name>keepamovin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The High-Risk Refactoring]]></title>
+        <id>https://news.ycombinator.com/item?id=39735570</id>
+        <link href="https://webup.org/blog/the-high-risk-refactoring/"/>
+        <updated>2024-03-17T16:25:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://webup.org/blog/the-high-risk-refactoring/
+Comments URL: https://news.ycombinator.com/item?id=39735570
+Points: 33
+# Comments: 23]]></summary>
+        <author>
+            <name>ben_s</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Boinc lets you help cutting-edge science research using your computer]]></title>
+        <id>https://news.ycombinator.com/item?id=39735380</id>
+        <link href="https://boinc.berkeley.edu/index.php"/>
+        <updated>2024-03-17T16:04:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://boinc.berkeley.edu/index.php
+Comments URL: https://news.ycombinator.com/item?id=39735380
+Points: 83
+# Comments: 66]]></summary>
+        <author>
+            <name>doener</name>
         </author>
     </entry>
     <entry>
@@ -1328,6 +1509,32 @@ You will need to download Gi…]]></summary>
         <summary type="html"><![CDATA[If you use Google’s apps, it’s worth looking at this all-inclusive service. We break down what you get and how much it costs.]]></summary>
         <author>
             <name>Simon Hill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why are there suddenly so many car washes?]]></title>
+        <id>https://news.ycombinator.com/item?id=39735096</id>
+        <link href="https://www.bloomberg.com/news/features/2024-02-21/car-washes-are-taking-over-the-us-here-s-why"/>
+        <updated>2024-03-17T15:28:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bloomberg.com/news/features/2024-02-21/car-washes-are-taking-over-the-us-here-s-why
+Comments URL: https://news.ycombinator.com/item?id=39735096
+Points: 57
+# Comments: 142]]></summary>
+        <author>
+            <name>philip1209</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mars Has Influence on Earth's Oceans and Climate, Repeating Every 2.4M Years]]></title>
+        <id>https://news.ycombinator.com/item?id=39734441</id>
+        <link href="https://www.smithsonianmag.com/smart-news/mars-has-an-unexpected-influence-on-earths-oceans-and-climate-repeating-every-24-million-years-study-finds-180983952/"/>
+        <updated>2024-03-17T13:44:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.smithsonianmag.com/smart-news/mars-has-an-unexpected-influence-on-earths-oceans-and-climate-repeating-every-24-million-years-study-finds-180983952/
+Comments URL: https://news.ycombinator.com/item?id=39734441
+Points: 122
+# Comments: 52]]></summary>
+        <author>
+            <name>pseudolus</name>
         </author>
     </entry>
     <entry>
@@ -1351,6 +1558,32 @@ You will need to download Gi…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[History of Uniform Random Number Generation (2017) [pdf]]]></title>
+        <id>https://news.ycombinator.com/item?id=39733685</id>
+        <link href="https://www.informs-sim.org/wsc17papers/includes/files/016.pdf"/>
+        <updated>2024-03-17T11:29:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.informs-sim.org/wsc17papers/includes/files/016.pdf
+Comments URL: https://news.ycombinator.com/item?id=39733685
+Points: 21
+# Comments: 2]]></summary>
+        <author>
+            <name>pncnmnp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Super Micro Computer has gone from an obscure server maker to $60B market cap]]></title>
+        <id>https://news.ycombinator.com/item?id=39733661</id>
+        <link href="https://www.wsj.com/tech/ai/super-micro-computer-company-profile-d93a41da"/>
+        <updated>2024-03-17T11:25:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/tech/ai/super-micro-computer-company-profile-d93a41da
+Comments URL: https://news.ycombinator.com/item?id=39733661
+Points: 141
+# Comments: 96]]></summary>
+        <author>
+            <name>Bostonian</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Best AirPods (2024): Which Apple Headphones Should You Buy?]]></title>
         <id>65cbea5ff59b0835198b9e0f</id>
         <link href="https://www.wired.com/gallery/best-airpods/"/>
@@ -1367,6 +1600,32 @@ You will need to download Gi…]]></summary>
         <updated>2024-03-17T10:55:43.000Z</updated>
         <author>
             <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLM4Decompile: Decompiling Binary Code with LLM]]></title>
+        <id>https://news.ycombinator.com/item?id=39733275</id>
+        <link href="https://github.com/albertan017/LLM4Decompile"/>
+        <updated>2024-03-17T10:15:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/albertan017/LLM4Decompile
+Comments URL: https://news.ycombinator.com/item?id=39733275
+Points: 303
+# Comments: 77]]></summary>
+        <author>
+            <name>Davidbrcz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heinlein's Fan Mail Solution]]></title>
+        <id>https://news.ycombinator.com/item?id=39733257</id>
+        <link href="https://kk.org/ct2/heinleins-fan-mail-solution/"/>
+        <updated>2024-03-17T10:11:48.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://kk.org/ct2/heinleins-fan-mail-solution/
+Comments URL: https://news.ycombinator.com/item?id=39733257
+Points: 140
+# Comments: 23]]></summary>
+        <author>
+            <name>blackbrokkoli</name>
         </author>
     </entry>
     <entry>
@@ -1685,6 +1944,7 @@ The post It Can Happen to You appeared first on CounterPunch.org.]]></summary>
         <id>https://medium.com/p/fef35d05b83b</id>
         <link href="https://medium.com/capital-one-tech/capital-one-and-columbia-u-partner-to-drive-responsible-ai-fef35d05b83b?source=rss----3db3a67cb648---4"/>
         <updated>2024-03-15T15:44:17.000Z</updated>
+        <summary type="html"><![CDATA[Capital One & Columbia University announce a new partnership to establish the Center for AI and Responsible Financial Innovation.]]></summary>
         <author>
             <name>Capital One Tech</name>
         </author>
@@ -3355,6 +3615,7 @@ added to Kubernetes as an alpha feature in v1.26. It defines an alternat…]]></
         <id>https://medium.com/p/2d2e6b6d205d</id>
         <link href="https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-07T18:33:07.000Z</updated>
+        <summary type="html"><![CDATA[David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -3613,6 +3874,7 @@ a…]]></summary>
         <id>https://medium.com/p/256629c9386b</id>
         <link href="https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-06T01:35:08.000Z</updated>
+        <summary type="html"><![CDATA[The surprising and not so surprising benefits of generations in the Z Garbage Collector.]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -3653,6 +3915,7 @@ The post Risk-Aware Product Decisions in A/B Tests with Multiple Metrics appeare
         <id>https://medium.com/p/6f1d879983d6</id>
         <link href="https://medium.com/capital-one-tech/community-matters-four-open-source-trends-in-2024-6f1d879983d6?source=rss----3db3a67cb648---4"/>
         <updated>2024-03-05T15:25:47.000Z</updated>
+        <summary type="html"><![CDATA[Looking ahead at open source trends and technology in 2024.]]></summary>
         <author>
             <name>Capital One Tech</name>
         </author>
@@ -3736,6 +3999,7 @@ The post Risk-Aware Product Decisions in A/B Tests with Multiple Metrics appeare
         <id>https://medium.com/p/039d5efd115b</id>
         <link href="https://netflixtechblog.com/evolving-from-rule-based-classifier-machine-learning-powered-auto-remediation-in-netflix-data-039d5efd115b?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-04T18:01:55.000Z</updated>
+        <summary type="html"><![CDATA[by Binbing Hou, Stephanie Vezich Tamayo, Xiao Chen, Liang Tian, Troy Ristow, Haoyuan Wang, Snehal Chennuru, Pawan Dixit]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -3909,6 +4173,7 @@ I built …]]></summary>
         <id>https://medium.com/p/6a727c1ae2e5</id>
         <link href="https://netflixtechblog.com/announcing-bpftop-streamlining-ebpf-performance-optimization-6a727c1ae2e5?source=rss----2615bd06b42e---4"/>
         <updated>2024-02-26T16:43:30.000Z</updated>
+        <summary type="html"><![CDATA[By Jose Fernandez]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
