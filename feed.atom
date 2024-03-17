@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-17T16:22:36.592Z</id>
+    <id>urn:2024-03-17T19:12:00.664Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-17T16:22:36.592Z</updated>
+    <updated>2024-03-17T19:12:00.664Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1366,6 +1366,27 @@ The post Caste Identity and the ‘Graver Questions of the Self’  appeared fi
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[A Peek at Kubernetes v1.30]]></title>
+        <id>https://kubernetes.io/blog/2024/03/12/kubernetes-1-30-upcoming-changes/</id>
+        <link href="https://kubernetes.io/blog/2024/03/12/kubernetes-1-30-upcoming-changes/"/>
+        <updated>2024-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Authors: Amit Dsouza, Frederick Kautz, Kristin Martin, Abigail McCarthy, Natali Vlatko
+A quick look: exciting changes in Kubernetes v1.30
+It's a new year and a new Kubernetes release. We're halfway through the release cycle and
+have quite a few interesting and exciting enhancements coming in v1.30. From brand new features
+in alpha, to established features graduating to stable, to long-awaited improvements, this release
+has something for everyone to pay attention to!
+To tide you over until the official release, here's a sneak peek of the enhancements we're most
+excited about in this cycle!
+Major changes for Kubernetes v1.30
+Structured parameters for dynamic resource allocation (KEP-4381)
+Dynamic resource allocation was
+added to Kubernetes as an alpha feature in v1.26. It defines an alternat…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Physics on AWS: Optimizing wind turbine performance using OpenFAST in a digital twin]]></title>
         <id>15b43805eef7a9a28f3253f162528f28d1cfd790</id>
         <link href="https://aws.amazon.com/blogs/architecture/physics-on-aws-optimizing-wind-turbine-performance-using-openfast-in-a-digital-twin/"/>
@@ -1604,6 +1625,30 @@ The post Caste Identity and the ‘Graver Questions of the Self’  appeared fi
         <summary type="html"><![CDATA[Protecting online privacy starts with knowing what cookies are used by your websites. Page Shield extends transparent monitoring to HTTP cookies, empowering security and compliance teams with an easy overview without the need for an external scanner, nor changing existing web applications]]></summary>
         <author>
             <name>Zhiyuan Zheng</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CRI-O: Applying seccomp profiles from OCI registries]]></title>
+        <id>https://kubernetes.io/blog/2024/03/07/cri-o-seccomp-oci-artifacts/</id>
+        <link href="https://kubernetes.io/blog/2024/03/07/cri-o-seccomp-oci-artifacts/"/>
+        <updated>2024-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Sascha Grunert
+Seccomp stands for secure computing mode and has been a feature of the Linux
+kernel since version 2.6.12. It can be used to sandbox the privileges of a
+process, restricting the calls it is able to make from userspace into the
+kernel. Kubernetes lets you automatically apply seccomp profiles loaded onto a
+node to your Pods and containers.
+But distributing those seccomp profiles is a major challenge in Kubernetes,
+because the JSON files have to be available on all nodes where a workload can
+possibly run. Projects like the Security Profiles
+Operator solve that problem by
+running as a daemon within the cluster, which makes me wonder which part of that
+distribution could be done by the container
+runtime.
+Runtimes usually apply the profiles from a local path, for example:
+a…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
         </author>
     </entry>
     <entry>
@@ -1967,6 +2012,26 @@ The post Risk-Aware Product Decisions in A/B Tests with Multiple Metrics appeare
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Spotlight on SIG Cloud Provider]]></title>
+        <id>https://kubernetes.io/blog/2024/03/01/sig-cloud-provider-spotlight-2024/</id>
+        <link href="https://kubernetes.io/blog/2024/03/01/sig-cloud-provider-spotlight-2024/"/>
+        <updated>2024-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Arujjwal Negi
+One of the most popular ways developers use Kubernetes-related services is via cloud providers, but
+have you ever wondered how cloud providers can do that? How does this whole process of integration
+of Kubernetes to various cloud providers happen? To answer that, let's put the spotlight on SIG
+Cloud Provider.
+SIG Cloud Provider works to create seamless integrations between Kubernetes and various cloud
+providers. Their mission? Keeping the Kubernetes ecosystem fair and open for all. By setting clear
+standards and requirements, they ensure every cloud provider plays nicely with Kubernetes. It is
+their responsibility to configure cluster components to enable cloud provider integrations.
+In this blog of the SIG Spotlight series, Arujjwal Negi interviews
+Michael McCune (Re…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Complexity and Econ 100]]></title>
         <id>http://rwer.wordpress.com/?p=45148</id>
         <link href="https://rwer.wordpress.com/2024/02/29/complexity-and-econ-100/"/>
@@ -2098,6 +2163,28 @@ I built …]]></summary>
 <p>The post <a href="https://github.blog/2024-02-22-how-ai-code-generation-works/">How AI code generation works</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
         <author>
             <name>The GitHub Blog: Engineering News and Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A look into the Kubernetes Book Club]]></title>
+        <id>https://kubernetes.io/blog/2024/02/22/k8s-book-club/</id>
+        <link href="https://kubernetes.io/blog/2024/02/22/k8s-book-club/"/>
+        <updated>2024-02-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Frederico Muñoz (SAS Institute)
+Learning Kubernetes and the entire ecosystem of technologies around it is not without its
+challenges. In this interview, we will talk with Carlos Santana
+(AWS) to learn a bit more about how he created the
+Kubernetes Book Club, how it works, and
+how anyone can join in to take advantage of a community-based learning experience.
+
+Frederico Muñoz (FSM): Hello Carlos, thank you so much for your availability. To start with,
+could you tell us a bit about yourself?
+Carlos Santana (CS): Of course. My experience in deploying Kubernetes in production six
+years ago opened the door for me to join Knative and then contribute to
+Kubernetes through the Release Team. Working on upstream Kubernetes has been one of the best
+experiences I've had in open-source. Over the…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
         </author>
     </entry>
     <entry>
