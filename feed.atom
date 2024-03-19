@@ -1,15 +1,274 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-19T08:23:31.221Z</id>
+    <id>urn:2024-03-19T16:25:00.727Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-19T08:23:31.221Z</updated>
+    <updated>2024-03-19T16:25:00.727Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[lobehub/lobe-chat]]></title>
+        <id>https://github.com/lobehub/lobe-chat</id>
+        <link href="https://github.com/lobehub/lobe-chat"/>
+        <updated>2024-03-19T16:24:48.064Z</updated>
+        <summary type="html"><![CDATA[🤯 Lobe Chat - an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Perplexity / Bedrock / Azure / Mistral / Ollama ), Multi-Modals (Vision/TTS) and plugin system. One-click FREE deployment of your private ChatGPT chat application.
+
+ 
+ 
+
+ 
+ 
+Lobe Chat
+ 
+ 
+An open-source, modern-design ChatGPT/LLMs UI/Framework.
+ Supports speech-synthesis, multi-modal, and extensible (function call) plugin system.
+ One-click FREE deployment of your private ChatGPT/Gemini/Ollama chat application.
+ 
+ 
+English · 简体中文 · Changelog · Documents · Report Bug · Request Feature
+ 
+  
+ 
+   
+    
+     
+ 
+ 
+ 
+Share LobeChat Repository
+ 
+ 
+      
+ 
+ 
+Pioneering the new age of thinking and creating. Built for you, the Super Individual.
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ Table of con…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[philz1337x/clarity-upscaler]]></title>
+        <id>https://github.com/philz1337x/clarity-upscaler</id>
+        <link href="https://github.com/philz1337x/clarity-upscaler"/>
+        <updated>2024-03-19T16:24:45.340Z</updated>
+        <summary type="html"><![CDATA[Clarity-Upscaler: Reimagined image upscaling for everyone
+
+ 
+ 
+ Clarity-Upscaler: Reimagined image upscaling for everyone 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+Full Video: https://x.com/philz1337x/status/1768679154726359128?s=20.
+ 
+ 
+👋 Hello
+ 
+I build open source AI apps. To finance my work i also build paid versions of my code. But feel free to use the free code. I post features and new projects on https://twitter.com/philz1337x
+ 
+🚀 Options to use Clarity-Upscaler
+ 
+User friendly Website
+ 
+If you are not fimilar with cog, a1111 and dont't want to use Replicate (which is quite simple), you can use my paid version at ClarityAI.cc
+ 
+Deploy and run with cog (locally or cloud)
+ 
+If you are not familiar with cog read: cog docs
+ 
+ 
+ 
+Download Checkpoints and LoRa's from Cvitai and put in /models folder
+ 
+ 
+pr…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NanmiCoder/MediaCrawler]]></title>
+        <id>https://github.com/NanmiCoder/MediaCrawler</id>
+        <link href="https://github.com/NanmiCoder/MediaCrawler"/>
+        <updated>2024-03-19T16:24:45.291Z</updated>
+        <summary type="html"><![CDATA[小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫
+
+ 
+ 
+免责声明：
+ 
+ 
+ 
+ 
+本仓库的所有内容仅供学习和参考之用，禁止用于商业用途。任何人或组织不得将本仓库的内容用于非法用途或侵犯他人合法权益。本仓库所涉及的爬虫技术仅用于学习和研究，不得用于对其他平台进行大规模爬虫或其他非法行为。对于因使用本仓库内容而引起的任何法律责任，本仓库不承担任何责任。使用本仓库的内容即表示您同意本免责声明的所有条款和条件。
+ 
+ 
+仓库描述
+ 
+小红书爬虫，抖音爬虫， 快手爬虫， B站爬虫， 微博爬虫...。
+ 目前能抓取小红书、抖音、快手、B站、微博的视频、图片、评论、点赞、转发等信息。
+ 
+原理：利用playwright搭桥，保留登录成功后的上下文浏览器环境，通过执行JS表达式获取一些加密参数 通过使用此方式，免去了复现核心加密JS代码，逆向难度大大降低
+ 
+爬虫技术交流群：949715256，同时欢迎大家贡献代码提交PR
+ 
+视频配置教程：MediaCrawler视频入门教程
+ 
+感谢下列Sponsors对本仓库赞助
+ 
+全球ip代理超新星 
+ 
+成为赞助者，展示你的产品在这里，联系作者：relakkes@gmail.com
+ 
+功能列表
+ 
+ 
+  
+  
+ 
+   平台 
+   Cookie 登录 
+   二维码登录 
+   指定创作者主页 
+   关键词搜索 
+   指定视频/帖子 ID 爬取 
+   登录状态缓存 
+   数据保存 
+   IP 代理池 
+   滑块验证码 
+  
+ 
+  
+  
+  
+ 
+   小红书 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✅ 
+   ✕ 
+  
+ 
+  
+ 
+   抖音 
+   ✅ 
+   ✅ 
+   ✕ 
+  …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenDevin/OpenDevin]]></title>
+        <id>https://github.com/OpenDevin/OpenDevin</id>
+        <link href="https://github.com/OpenDevin/OpenDevin"/>
+        <updated>2024-03-19T16:24:45.189Z</updated>
+        <summary type="html"><![CDATA[OpenDevin: Code Less, Make More
+ 
+
+ 
+Mission 🎯
+ 
+Welcome to OpenDevin, an open-source project aiming to replicate Devin, an autonomous AI software engineer who is capable of executing complex engineering tasks and collaborating actively with users on software development projects. This project aspires to replicate, enhance, and innovate upon Devin through the power of the open-source community.
+ 
+🤔 What is Devin?
+ 
+Devin represents a cutting-edge autonomous agent designed to navigate the complexities of software engineering. It leverages a combination of tools such as a shell, code editor, and web browser, showcasing the untapped potential of LLMs in software development. Our goal is to explore and expand upon Devin's capabilities, identifying both its strengths and areas for improvement…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mealie-recipes/mealie]]></title>
+        <id>https://github.com/mealie-recipes/mealie</id>
+        <link href="https://github.com/mealie-recipes/mealie"/>
+        <updated>2024-03-19T16:24:44.883Z</updated>
+        <summary type="html"><![CDATA[Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor
+
+      
+ 
+ 
+ 
+  
+   
+   
+ 
+    
+Mealie
+ 
+ A Place for All Your Recipes 
+ Explore the docs »   
+ View Demo · Report Bug · GitHub Container Registry 
+ 
+
+ 
+About The Project
+ 
+Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the URL and Mealie will automatically import the relevant …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[geekan/MetaGPT]]></title>
+        <id>https://github.com/geekan/MetaGPT</id>
+        <link href="https://github.com/geekan/MetaGPT"/>
+        <updated>2024-03-19T16:24:44.847Z</updated>
+        <summary type="html"><![CDATA[🌟 The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo
+
+MetaGPT: The Multi-Agent Framework
+ 
+  
+ 
+ Assign different roles to GPTs to form a collaborative entity for complex tasks. 
+ 
+        
+ 
+    
+ 
+News
+ 
+🚀 Mar. 14, 2024: Our Data Interpreter paper is on arxiv. Check the example and code!
+ 
+🚀 Feb. 08, 2024: v0.7.0 released, supporting assigning different LLMs to different Roles. We also introduced Data Interpreter, a powerful agent capable of solving a wide range of real-world problems.
+ 
+🚀 Jan. 16, 2024: Our paper MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework  accepted for oral presentation (top 1.2%) at ICLR 2024, ranking #1 in the LLM-based Agent category.
+ 
+🚀 Jan. 03, 2024: v0.6.0 released, new features include serializati…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[aishwaryanr/awesome-generative-ai-guide]]></title>
         <id>https://github.com/aishwaryanr/awesome-generative-ai-guide</id>
         <link href="https://github.com/aishwaryanr/awesome-generative-ai-guide"/>
-        <updated>2024-03-19T08:23:08.683Z</updated>
+        <updated>2024-03-19T16:24:44.803Z</updated>
         <summary type="html"><![CDATA[A one stop repository for generative AI research updates, interview resources, notebooks and much more!
 
 ⭐ 🔖 awesome-generative-ai-guide
@@ -50,10 +309,266 @@ Applied LL…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[TeamNewPipe/NewPipe]]></title>
+        <id>https://github.com/TeamNewPipe/NewPipe</id>
+        <link href="https://github.com/TeamNewPipe/NewPipe"/>
+        <updated>2024-03-19T16:24:44.752Z</updated>
+        <summary type="html"><![CDATA[A libre lightweight streaming front-end for Android.
+
+We are planning to rewrite large chunks of the codebase, to bring about a new, modern and stable NewPipe!
+ 
+Please do not open pull requests for new features now, only bugfix PRs will be accepted.
+ 
+
+ 
+NewPipe
+ 
+A libre lightweight streaming front-end for Android.
+ 
+
+ 
+       
+ 
+ 
+Screenshots • Supported Services • Description • Features • Installation and updates • Contribution • Donate • License
+ 
+Website • Blog • FAQ • Press
+ 
+ 
+Read this document in other languages: Deutsch, English, Español, Français, हिन्दी, Italiano, 한국어, Português Brasil, Polski, ਪੰਜਾਬੀ , 日本語, Română, Soomaali, Türkçe, 正體中文, অসমীয়া, Српски
+ 
+WARNING: THIS APP IS IN BETA, SO YOU MAY ENCOUNTER BUGS. IF YOU DO, OPEN AN ISSUE IN OUR GITHUB REPOSITORY BY FILLING OUT…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[suyu-emu/suyu]]></title>
+        <id>https://github.com/suyu-emu/suyu</id>
+        <link href="https://github.com/suyu-emu/suyu"/>
+        <updated>2024-03-19T16:24:44.718Z</updated>
+        <summary type="html"><![CDATA[suyu is the continuation of the world's most popular, open-source, Nintendo Switch emulator, yuzu. It is written in C++ with portability in mind, and we actively maintain builds for Windows, Linux and Android.
+
+Note: We do not support or condone piracy in any form. In order to use suyu, you'll need keys from your real Switch system, and games which you have legally obtained and paid for. We do not intend to make money or profit from this project.
+ 
+We're in need of developers. Please join our Discord server below if you want to contribute! This repo is based on Yuzu EA 4176.
+ 
+ 
+ 
+  
+ suyu 
+  
+suyu is the continuation of the world's most popular, open-source, Nintendo Switch emulator, yuzu. 
+ It is written in C++ with portability in mind, and we're actively working on builds for Windows, L…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[said7388/developer-portfolio]]></title>
+        <id>https://github.com/said7388/developer-portfolio</id>
+        <link href="https://github.com/said7388/developer-portfolio"/>
+        <updated>2024-03-19T16:24:44.677Z</updated>
+        <summary type="html"><![CDATA[Software Developer Portfolio Website built with next.js and tailwind CSS that helps you showcase your work and skills as a software developer.
+
+Developer Portfolio
+ 
+Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+ 
+ 
+Demo 🎥
+ 
+
+ 
+View live preview here.
+ 
+ 
+Table of Contents 📜
+ 
+ 
+ 
+Sections
+ 
+ 
+Demo
+ 
+ 
+Installation
+ 
+ 
+Getting Started
+ 
+ 
+Usage
+ 
+ 
+Packages Used
+ 
+ 
+ 
+Sections 🔖
+ 
+ 
+ 
+HERO SECTION
+ 
+ 
+ABOUT ME
+ 
+ 
+EXPERIENCE
+ 
+ 
+SKILLS
+ 
+ 
+PROJECTS
+ 
+ 
+EDUCATION
+ 
+ 
+BLOG
+ 
+ 
+CONTACTS
+ 
+ 
+ 
+Installation ⬇
+ 
+You will need to download Gi…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KillianLucas/open-interpreter]]></title>
+        <id>https://github.com/KillianLucas/open-interpreter</id>
+        <link href="https://github.com/KillianLucas/open-interpreter"/>
+        <updated>2024-03-19T16:24:44.644Z</updated>
+        <summary type="html"><![CDATA[A natural language interface for computers
+
+● Open Interpreter
+ 
+       
+  Let language models run code.
+ Get early access to the desktop app‎ ‎ |‎ ‎ Documentation
+  
+ 
+
+ 
+ 
+ The New Computer Update introduces --os and a new Computer API. Read On → 
+ 
+ 
+pip install open-interpreter
+
+ 
+ 
+ 
+Not working? Read our setup guide.
+ 
+ 
+interpreter
+
+ 
+ 
+Open Interpreter lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Interpreter through a ChatGPT-like interface in your terminal by running $ interpreter after installing.
+ 
+This provides a natural-language interface to your computer's general-purpose capabilities:
+ 
+ 
+ 
+Create and edit photos, videos, PDFs, etc.
+ 
+ 
+Control a Chrome browser to perform research
+ 
+ 
+Plot, clean, and analyze large datasets
+ 
+ 
+...…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ianand/spreadsheets-are-all-you-need]]></title>
+        <id>https://github.com/ianand/spreadsheets-are-all-you-need</id>
+        <link href="https://github.com/ianand/spreadsheets-are-all-you-need"/>
+        <updated>2024-03-19T16:24:43.498Z</updated>
+        <summary type="html"><![CDATA[Spreadsheets-are-all-you-need
+ 
+Spreadsheets-are-all-you-need implements the forward pass of GPT2 (an ancestor of ChatGPT) entirely in Excel using standard spreadsheet functions.
+ 
+By using a spreadsheet anyone (even non-developers) can explore and play directly with how a “real” transformer works under the hood with minimal abstractions to get in the way.
+ 
+Visit spreadsheets-are-all-you-need.ai for more info
+ 
+Download the sheet
+ 
+The sheet is available as an xlsb (Excel binary) file in the Releases section of this repo. You should be able to download and run this file in Excel for Mac or PC.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SerenityOS/serenity]]></title>
+        <id>https://github.com/SerenityOS/serenity</id>
+        <link href="https://github.com/SerenityOS/serenity"/>
+        <updated>2024-03-19T16:24:43.370Z</updated>
+        <summary type="html"><![CDATA[The Serenity Operating System 🐞
+
+SerenityOS
+ 
+Graphical Unix-like operating system for x86-64 computers.
+ 
+    
+ 
+FAQ | Documentation | Build Instructions
+ 
+About
+ 
+SerenityOS is a love letter to '90s user interfaces with a custom Unix-like core. It flatters with sincerity by stealing beautiful ideas from various other systems.
+ 
+Roughly speaking, the goal is a marriage between the aesthetic of late-1990s productivity software and the power-user accessibility of late-2000s *nix. This is a system by us, for us, based on the things we like.
+ 
+You can watch videos of the system being developed on YouTube:
+ 
+ 
+ 
+Andreas Kling's channel
+ 
+ 
+Linus Groh's channel
+ 
+ 
+kleines Filmröllchen's channel
+ 
+ 
+Screenshot
+ 
+
+ 
+Features
+ 
+ 
+ 
+Modern x86 64-bit kernel with pre-emptive multi-threading
+ 
+ 
+Br…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[catppuccin/tmux]]></title>
         <id>https://github.com/catppuccin/tmux</id>
         <link href="https://github.com/catppuccin/tmux"/>
-        <updated>2024-03-19T08:23:07.034Z</updated>
+        <updated>2024-03-19T16:24:43.297Z</updated>
         <summary type="html"><![CDATA[💽 Soothing pastel theme for Tmux!
 
  
@@ -159,122 +674,10 @@ TPM…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[philz1337x/clarity-upscaler]]></title>
-        <id>https://github.com/philz1337x/clarity-upscaler</id>
-        <link href="https://github.com/philz1337x/clarity-upscaler"/>
-        <updated>2024-03-19T08:23:06.976Z</updated>
-        <summary type="html"><![CDATA[Clarity-Upscaler: Reimagined image upscaling for everyone
-
- 
- 
- Clarity-Upscaler: Reimagined image upscaling for everyone 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
-Full Video: https://x.com/philz1337x/status/1768679154726359128?s=20.
- 
- 
-👋 Hello
- 
-I build open source AI apps. To finance my work i also build paid versions of my code. But feel free to use the free code. I post features and new projects on https://twitter.com/philz1337x
- 
-🚀 Options to use Clarity-Upscaler
- 
-User friendly Website
- 
-If you are not fimilar with cog, a1111 and dont't want to use Replicate (which is quite simple), you can use my paid version at ClarityAI.cc
- 
-Deploy and run with cog (locally or cloud)
- 
-If you are not familiar with cog read: cog docs
- 
- 
- 
-Download Checkpoints and LoRa's from Cvitai and put in /models folder
- 
- 
-pr…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TeamNewPipe/NewPipe]]></title>
-        <id>https://github.com/TeamNewPipe/NewPipe</id>
-        <link href="https://github.com/TeamNewPipe/NewPipe"/>
-        <updated>2024-03-19T08:23:06.934Z</updated>
-        <summary type="html"><![CDATA[A libre lightweight streaming front-end for Android.
-
-We are planning to rewrite large chunks of the codebase, to bring about a new, modern and stable NewPipe!
- 
-Please do not open pull requests for new features now, only bugfix PRs will be accepted.
- 
-
- 
-NewPipe
- 
-A libre lightweight streaming front-end for Android.
- 
-
- 
-       
- 
- 
-Screenshots • Supported Services • Description • Features • Installation and updates • Contribution • Donate • License
- 
-Website • Blog • FAQ • Press
- 
- 
-Read this document in other languages: Deutsch, English, Español, Français, हिन्दी, Italiano, 한국어, Português Brasil, Polski, ਪੰਜਾਬੀ , 日本語, Română, Soomaali, Türkçe, 正體中文, অসমীয়া, Српски
- 
-WARNING: THIS APP IS IN BETA, SO YOU MAY ENCOUNTER BUGS. IF YOU DO, OPEN AN ISSUE IN OUR GITHUB REPOSITORY BY FILLING OUT…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[geekan/MetaGPT]]></title>
-        <id>https://github.com/geekan/MetaGPT</id>
-        <link href="https://github.com/geekan/MetaGPT"/>
-        <updated>2024-03-19T08:23:06.898Z</updated>
-        <summary type="html"><![CDATA[🌟 The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo
-
-MetaGPT: The Multi-Agent Framework
- 
-  
- 
- Assign different roles to GPTs to form a collaborative entity for complex tasks. 
- 
-        
- 
-    
- 
-News
- 
-🚀 Mar. 14, 2024: Our Data Interpreter paper is on arxiv. Check the example and code!
- 
-🚀 Feb. 08, 2024: v0.7.0 released, supporting assigning different LLMs to different Roles. We also introduced Data Interpreter, a powerful agent capable of solving a wide range of real-world problems.
- 
-🚀 Jan. 16, 2024: Our paper MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework  accepted for oral presentation (top 1.2%) at ICLR 2024, ranking #1 in the LLM-based Agent category.
- 
-🚀 Jan. 03, 2024: v0.6.0 released, new features include serializati…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[marticliment/WingetUI]]></title>
         <id>https://github.com/marticliment/WingetUI</id>
         <link href="https://github.com/marticliment/WingetUI"/>
-        <updated>2024-03-19T08:23:06.850Z</updated>
+        <updated>2024-03-19T16:24:43.229Z</updated>
         <summary type="html"><![CDATA[WingetUI: A better UI for your package managers
 
 WingetUI
@@ -293,624 +696,10 @@ Disclaimer: This project has no connection with any of the supported package man
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SerenityOS/serenity]]></title>
-        <id>https://github.com/SerenityOS/serenity</id>
-        <link href="https://github.com/SerenityOS/serenity"/>
-        <updated>2024-03-19T08:23:06.801Z</updated>
-        <summary type="html"><![CDATA[The Serenity Operating System 🐞
-
-SerenityOS
- 
-Graphical Unix-like operating system for x86-64 computers.
- 
-    
- 
-FAQ | Documentation | Build Instructions
- 
-About
- 
-SerenityOS is a love letter to '90s user interfaces with a custom Unix-like core. It flatters with sincerity by stealing beautiful ideas from various other systems.
- 
-Roughly speaking, the goal is a marriage between the aesthetic of late-1990s productivity software and the power-user accessibility of late-2000s *nix. This is a system by us, for us, based on the things we like.
- 
-You can watch videos of the system being developed on YouTube:
- 
- 
- 
-Andreas Kling's channel
- 
- 
-Linus Groh's channel
- 
- 
-kleines Filmröllchen's channel
- 
- 
-Screenshot
- 
-
- 
-Features
- 
- 
- 
-Modern x86 64-bit kernel with pre-emptive multi-threading
- 
- 
-Br…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KillianLucas/open-interpreter]]></title>
-        <id>https://github.com/KillianLucas/open-interpreter</id>
-        <link href="https://github.com/KillianLucas/open-interpreter"/>
-        <updated>2024-03-19T08:23:06.767Z</updated>
-        <summary type="html"><![CDATA[A natural language interface for computers
-
-● Open Interpreter
- 
-       
-  Let language models run code.
- Get early access to the desktop app‎ ‎ |‎ ‎ Documentation
-  
- 
-
- 
- 
- The New Computer Update introduces --os and a new Computer API. Read On → 
- 
- 
-pip install open-interpreter
-
- 
- 
- 
-Not working? Read our setup guide.
- 
- 
-interpreter
-
- 
- 
-Open Interpreter lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Interpreter through a ChatGPT-like interface in your terminal by running $ interpreter after installing.
- 
-This provides a natural-language interface to your computer's general-purpose capabilities:
- 
- 
- 
-Create and edit photos, videos, PDFs, etc.
- 
- 
-Control a Chrome browser to perform research
- 
- 
-Plot, clean, and analyze large datasets
- 
- 
-...…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BerriAI/litellm]]></title>
-        <id>https://github.com/BerriAI/litellm</id>
-        <link href="https://github.com/BerriAI/litellm"/>
-        <updated>2024-03-19T08:23:06.719Z</updated>
-        <summary type="html"><![CDATA[Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100+ LLMs)
-
- 🚅 LiteLLM 
- 
- 
-Call all LLM APIs using the OpenAI format [Bedrock, Huggingface, VertexAI, TogetherAI, Azure, OpenAI, etc.] 
-  
-OpenAI Proxy Server | Enterprise Tier
- 
-                
- 
-LiteLLM manages:
- 
- 
- 
-Translate inputs to provider's completion, embedding, and image_generation endpoints
- 
- 
-Consistent output, text responses will always be available at ['choices'][0]['message']['content']
- 
- 
-Retry/fallback logic across multiple deployments (e.g. Azure/OpenAI) - Router
- 
- 
-Set Budgets & Rate limits per project, api key, model OpenAI Proxy Server
- 
- 
-Stable Release: v1.30.2 👈 Recommended stable version of proxy.
- 
-Jump to OpenAI Proxy Docs …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[lobehub/lobe-chat]]></title>
-        <id>https://github.com/lobehub/lobe-chat</id>
-        <link href="https://github.com/lobehub/lobe-chat"/>
-        <updated>2024-03-19T08:23:06.667Z</updated>
-        <summary type="html"><![CDATA[🤯 Lobe Chat - an open-source, modern-design LLMs/AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Perplexity / Bedrock / Azure / Mistral / Ollama ), Multi-Modals (Vision/TTS) and plugin system. One-click FREE deployment of your private ChatGPT chat application.
-
- 
- 
-
- 
- 
-Lobe Chat
- 
- 
-An open-source, modern-design ChatGPT/LLMs UI/Framework.
- Supports speech-synthesis, multi-modal, and extensible (function call) plugin system.
- One-click FREE deployment of your private ChatGPT/Gemini/Ollama chat application.
- 
- 
-English · 简体中文 · Changelog · Documents · Report Bug · Request Feature
- 
-  
- 
-   
-    
-     
- 
- 
- 
-Share LobeChat Repository
- 
- 
-      
- 
- 
-Pioneering the new age of thinking and creating. Built for you, the Super Individual.
- 
- 
-
- 
- 
-
- 
- 
- 
- Table of con…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pythagora-io/gpt-pilot]]></title>
-        <id>https://github.com/Pythagora-io/gpt-pilot</id>
-        <link href="https://github.com/Pythagora-io/gpt-pilot"/>
-        <updated>2024-03-19T08:23:06.600Z</updated>
-        <summary type="html"><![CDATA[The first real AI developer
-
- 
- 
-🧑‍✈️ GPT PILOT 🧑‍✈️
- 
- 
- 
- 
- 
-  
- 
- 
- 
- 
-  
- 
- 
- 
-  
- 
- 
- 
- 
- 
-GPT Pilot doesn't just generate code, it builds apps!
- 
- 
- 
- 
- 
-
- 
- 
-(click to open the video in YouTube) (1:40min)
- 
- 
- 
- 
- 
-
- 
- 
-GPT Pilot is the core technology for the Pythagora VS Code extension that aims to provide the first real AI developer companion. Not just an autocomplete or a helper for PR messages but rather a real AI developer that can write full features, debug them, talk to you about issues, ask for review, etc.
- 
- 
-📫 If you would like to get updates on future releases or just get in touch, join our Discord server or you can add your email here. 📬
- 
- 
- 
- 
- 
-🔌 Requirements
- 
- 
-🚦How to start using gpt-pilot?
- 
- 
-🔎 Examples
- 
- 
-🐳 How to start gpt-pilot in docker?
- 
- 
-🧑‍💻️…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Skyvern-AI/skyvern]]></title>
-        <id>https://github.com/Skyvern-AI/skyvern</id>
-        <link href="https://github.com/Skyvern-AI/skyvern"/>
-        <updated>2024-03-19T08:23:06.560Z</updated>
-        <summary type="html"><![CDATA[Automate browser-based workflows with LLMs and Computer Vision
-
-  
-  
- 
-    
-    
-  
-  
-  
- 🐉 Automate Browser-based workflows using LLMs and Computer Vision 🐉 
- 
-  
- 
-  -->  
-  -->     
- 
-Skyvern automates browser-based workflows using LLMs and computer vision. It provides a simple API endpoint to fully automate manual workflows, replacing brittle or unreliable automation solutions.
- 
-  
- 
-Traditional approaches to browser automations required writing custom scripts for websites, often relying on DOM parsing and XPath-based interactions which would break whenever the website layouts changed.
- 
-Instead of only relying on code-defined XPath interactions, Skyvern adds computer vision and LLMs to the mix to parse items in the viewport in real-time, create a plan for interaction and interact…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[tiangolo/full-stack-fastapi-template]]></title>
-        <id>https://github.com/tiangolo/full-stack-fastapi-template</id>
-        <link href="https://github.com/tiangolo/full-stack-fastapi-template"/>
-        <updated>2024-03-19T08:23:06.513Z</updated>
-        <summary type="html"><![CDATA[Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.
-
-Full Stack FastAPI Template
- 
- 
- 
-Technology Stack and Features
- 
- 
- 
-⚡ FastAPI for the Python backend API. 
-  
- 
-   
-🧰 SQLModel for the Python SQL database interactions (ORM).
- 
-   
-🔍 Pydantic, used by FastAPI, for the data validation and settings management.
- 
-   
-💾 PostgreSQL as the SQL database.
- 
-  
-  
- 
-🚀 React for the frontend. 
-  
- 
-   
-💃 Using TypeScript, hooks, Vite, and other parts of a modern frontend stack.
- 
-   
-🎨 Chakra UI for the frontend components.
- 
-   
-🤖 An automatically generated frontend client.
- 
-   
-🦇 Dark mode support.
- 
-  
-  
- 
-🐋 Docker Compose for development and production.
- 
- 
-🔒 Secure password hashing by default.…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenDevin/OpenDevin]]></title>
-        <id>https://github.com/OpenDevin/OpenDevin</id>
-        <link href="https://github.com/OpenDevin/OpenDevin"/>
-        <updated>2024-03-19T08:23:05.397Z</updated>
-        <summary type="html"><![CDATA[OpenDevin: Code Less, Make More
- 
-
- 
-Mission 🎯
- 
-Welcome to OpenDevin, an open-source project aiming to replicate Devin, an autonomous AI software engineer who is capable of executing complex engineering tasks and collaborating actively with users on software development projects. This project aspires to replicate, enhance, and innovate upon Devin through the power of the open-source community.
- 
-🤔 What is Devin?
- 
-Devin represents a cutting-edge autonomous agent designed to navigate the complexities of software engineering. It leverages a combination of tools such as a shell, code editor, and web browser, showcasing the untapped potential of LLMs in software development. Our goal is to explore and expand upon Devin's capabilities, identifying both its strengths and areas for improvement…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[mealie-recipes/mealie]]></title>
-        <id>https://github.com/mealie-recipes/mealie</id>
-        <link href="https://github.com/mealie-recipes/mealie"/>
-        <updated>2024-03-19T08:23:05.369Z</updated>
-        <summary type="html"><![CDATA[Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor
-
-      
- 
- 
- 
-  
-   
-   
- 
-    
-Mealie
- 
- A Place for All Your Recipes 
- Explore the docs »   
- View Demo · Report Bug · GitHub Container Registry 
- 
-
- 
-About The Project
- 
-Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the URL and Mealie will automatically import the relevant …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[said7388/developer-portfolio]]></title>
-        <id>https://github.com/said7388/developer-portfolio</id>
-        <link href="https://github.com/said7388/developer-portfolio"/>
-        <updated>2024-03-19T08:23:05.328Z</updated>
-        <summary type="html"><![CDATA[Software Developer Portfolio Website built with next.js and tailwind CSS that helps you showcase your work and skills as a software developer.
-
-Developer Portfolio
- 
-Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
- 
- 
-Demo 🎥
- 
-
- 
-View live preview here.
- 
- 
-Table of Contents 📜
- 
- 
- 
-Sections
- 
- 
-Demo
- 
- 
-Installation
- 
- 
-Getting Started
- 
- 
-Usage
- 
- 
-Packages Used
- 
- 
- 
-Sections 🔖
- 
- 
- 
-HERO SECTION
- 
- 
-ABOUT ME
- 
- 
-EXPERIENCE
- 
- 
-SKILLS
- 
- 
-PROJECTS
- 
- 
-EDUCATION
- 
- 
-BLOG
- 
- 
-CONTACTS
- 
- 
- 
-Installation ⬇
- 
-You will need to download Gi…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NanmiCoder/MediaCrawler]]></title>
-        <id>https://github.com/NanmiCoder/MediaCrawler</id>
-        <link href="https://github.com/NanmiCoder/MediaCrawler"/>
-        <updated>2024-03-19T08:23:05.292Z</updated>
-        <summary type="html"><![CDATA[小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫
-
- 
- 
-免责声明：
- 
- 
- 
- 
-本仓库的所有内容仅供学习和参考之用，禁止用于商业用途。任何人或组织不得将本仓库的内容用于非法用途或侵犯他人合法权益。本仓库所涉及的爬虫技术仅用于学习和研究，不得用于对其他平台进行大规模爬虫或其他非法行为。对于因使用本仓库内容而引起的任何法律责任，本仓库不承担任何责任。使用本仓库的内容即表示您同意本免责声明的所有条款和条件。
- 
- 
-仓库描述
- 
-小红书爬虫，抖音爬虫， 快手爬虫， B站爬虫， 微博爬虫...。
- 目前能抓取小红书、抖音、快手、B站、微博的视频、图片、评论、点赞、转发等信息。
- 
-原理：利用playwright搭桥，保留登录成功后的上下文浏览器环境，通过执行JS表达式获取一些加密参数 通过使用此方式，免去了复现核心加密JS代码，逆向难度大大降低
- 
-爬虫技术交流群：949715256，同时欢迎大家贡献代码提交PR
- 
-视频配置教程：MediaCrawler视频入门教程
- 
-感谢下列Sponsors对本仓库赞助
- 
-全球ip代理超新星 
- 
-成为赞助者，展示你的产品在这里，联系作者：relakkes@gmail.com
- 
-功能列表
- 
- 
-  
-  
- 
-   平台 
-   Cookie 登录 
-   二维码登录 
-   指定创作者主页 
-   关键词搜索 
-   指定视频/帖子 ID 爬取 
-   登录状态缓存 
-   数据保存 
-   IP 代理池 
-   滑块验证码 
-  
- 
-  
-  
-  
- 
-   小红书 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✅ 
-   ✕ 
-  
- 
-  
- 
-   抖音 
-   ✅ 
-   ✅ 
-   ✕ 
-  …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[cbh123/narrator]]></title>
-        <id>https://github.com/cbh123/narrator</id>
-        <link href="https://github.com/cbh123/narrator"/>
-        <updated>2024-03-19T08:23:05.248Z</updated>
-        <summary type="html"><![CDATA[David Attenborough narrates your life
-
-David Attenborough narrates your life.
- 
-https://twitter.com/charliebholtz/status/1724815159590293764
- 
-Want to make your own AI app?
- 
-Check out Replicate. We make it easy to run machine learning models with an API.
- 
-Setup
- 
-Clone this repo, and setup and activate a virtualenv:
- 
-python3 -m pip install virtualenv
-python3 -m virtualenv venv
-source venv/bin/activate
-
- 
-Then, install the dependencies: pip install -r requirements.txt
- 
-Make a Replicate, OpenAI, and ElevenLabs account and set your tokens:
- 
-export OPENAI_API_KEY=<token>
-export ELEVENLABS_API_KEY=<eleven-token>
-
- 
-Make a new voice in Eleven and get the voice id of that voice using their get voices API, or by clicking the flask icon next to the voice in the VoiceLab tab.
- 
-export ELEVENLABS_VOICE_ID=<voice-id>
-
- 
-Run it!
- 
-In on terminal, run the webcam capture:
- 
-python capture.py
-
- 
-In another terminal, run the narrator:
- 
-python narrator.py]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[the-mirror-gdp/the-mirror]]></title>
         <id>https://github.com/the-mirror-gdp/the-mirror</id>
         <link href="https://github.com/the-mirror-gdp/the-mirror"/>
-        <updated>2024-03-19T08:23:05.223Z</updated>
+        <updated>2024-03-19T16:24:43.177Z</updated>
         <summary type="html"><![CDATA[The open-source Roblox & UEFN alternative giving you freedom to own what you create. An all-in-one, real-time, collaborative game development platform built on Godot.
 
 What is The Mirror and why?
@@ -932,7 +721,7 @@ Akin to "Figma" for game development, The Mirror is both tool and editor that le
         <title type="html"><![CDATA[tiann/KernelSU]]></title>
         <id>https://github.com/tiann/KernelSU</id>
         <link href="https://github.com/tiann/KernelSU"/>
-        <updated>2024-03-19T08:23:05.191Z</updated>
+        <updated>2024-03-19T16:24:43.134Z</updated>
         <summary type="html"><![CDATA[A Kernel based root solution for Android
 
 English | Español | 简体中文 | 繁體中文 | 日本語 | Polski | Português (Brasil) | Türkçe | Русский | Tiếng Việt | Indonesia | עברית | हिंदी
@@ -1022,23 +811,114 @@ Diamorphine: some rootkit skills.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[suyu-emu/suyu]]></title>
-        <id>https://github.com/suyu-emu/suyu</id>
-        <link href="https://github.com/suyu-emu/suyu"/>
-        <updated>2024-03-19T08:23:05.152Z</updated>
-        <summary type="html"><![CDATA[suyu is the continuation of the world's most popular, open-source, Nintendo Switch emulator, yuzu. It is written in C++ with portability in mind, and we actively maintain builds for Windows, Linux and Android.
+        <title type="html"><![CDATA[BerriAI/litellm]]></title>
+        <id>https://github.com/BerriAI/litellm</id>
+        <link href="https://github.com/BerriAI/litellm"/>
+        <updated>2024-03-19T16:24:43.095Z</updated>
+        <summary type="html"><![CDATA[Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100+ LLMs)
 
-Note: We do not support or condone piracy in any form. In order to use suyu, you'll need keys from your real Switch system, and games which you have legally obtained and paid for. We do not intend to make money or profit from this project.
+ 🚅 LiteLLM 
  
-We're in need of developers. Please join our Discord server below if you want to contribute! This repo is based on Yuzu EA 4176.
+ 
+Call all LLM APIs using the OpenAI format [Bedrock, Huggingface, VertexAI, TogetherAI, Azure, OpenAI, etc.] 
+  
+OpenAI Proxy Server | Enterprise Tier
+ 
+                
+ 
+LiteLLM manages:
+ 
+ 
+ 
+Translate inputs to provider's completion, embedding, and image_generation endpoints
+ 
+ 
+Consistent output, text responses will always be available at ['choices'][0]['message']['content']
+ 
+ 
+Retry/fallback logic across multiple deployments (e.g. Azure/OpenAI) - Router
+ 
+ 
+Set Budgets & Rate limits per project, api key, model OpenAI Proxy Server
+ 
+ 
+Stable Release: v1.30.2 👈 Recommended stable version of proxy.
+ 
+Jump to OpenAI Proxy Docs …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pythagora-io/gpt-pilot]]></title>
+        <id>https://github.com/Pythagora-io/gpt-pilot</id>
+        <link href="https://github.com/Pythagora-io/gpt-pilot"/>
+        <updated>2024-03-19T16:24:43.024Z</updated>
+        <summary type="html"><![CDATA[The first real AI developer
+
+ 
+ 
+🧑‍✈️ GPT PILOT 🧑‍✈️
+ 
+ 
  
  
  
   
- suyu 
+ 
+ 
+ 
+ 
   
-suyu is the continuation of the world's most popular, open-source, Nintendo Switch emulator, yuzu. 
- It is written in C++ with portability in mind, and we're actively working on builds for Windows, L…]]></summary>
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+GPT Pilot doesn't just generate code, it builds apps!
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+(click to open the video in YouTube) (1:40min)
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+GPT Pilot is the core technology for the Pythagora VS Code extension that aims to provide the first real AI developer companion. Not just an autocomplete or a helper for PR messages but rather a real AI developer that can write full features, debug them, talk to you about issues, ask for review, etc.
+ 
+ 
+📫 If you would like to get updates on future releases or just get in touch, join our Discord server or you can add your email here. 📬
+ 
+ 
+ 
+ 
+ 
+🔌 Requirements
+ 
+ 
+🚦How to start using gpt-pilot?
+ 
+ 
+🔎 Examples
+ 
+ 
+🐳 How to start gpt-pilot in docker?
+ 
+ 
+🧑‍💻️…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
         </author>
@@ -1047,7 +927,7 @@ suyu is the continuation of the world's most popular, open-source, Nintendo Swit
         <title type="html"><![CDATA[imartinez/privateGPT]]></title>
         <id>https://github.com/imartinez/privateGPT</id>
         <link href="https://github.com/imartinez/privateGPT"/>
-        <updated>2024-03-19T08:23:05.124Z</updated>
+        <updated>2024-03-19T16:24:42.983Z</updated>
         <summary type="html"><![CDATA[Interact with your documents using the power of GPT, 100% privately, no data leaks
 
 🔒 PrivateGPT 📑
@@ -1078,10 +958,150 @@ High-level API, which abstracts all the complexity of a …]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[tiangolo/full-stack-fastapi-template]]></title>
+        <id>https://github.com/tiangolo/full-stack-fastapi-template</id>
+        <link href="https://github.com/tiangolo/full-stack-fastapi-template"/>
+        <updated>2024-03-19T16:24:42.920Z</updated>
+        <summary type="html"><![CDATA[Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.
+
+Full Stack FastAPI Template
+ 
+ 
+ 
+Technology Stack and Features
+ 
+ 
+ 
+⚡ FastAPI for the Python backend API. 
+  
+ 
+   
+🧰 SQLModel for the Python SQL database interactions (ORM).
+ 
+   
+🔍 Pydantic, used by FastAPI, for the data validation and settings management.
+ 
+   
+💾 PostgreSQL as the SQL database.
+ 
+  
+  
+ 
+🚀 React for the frontend. 
+  
+ 
+   
+💃 Using TypeScript, hooks, Vite, and other parts of a modern frontend stack.
+ 
+   
+🎨 Chakra UI for the frontend components.
+ 
+   
+🤖 An automatically generated frontend client.
+ 
+   
+🦇 Dark mode support.
+ 
+  
+  
+ 
+🐋 Docker Compose for development and production.
+ 
+ 
+🔒 Secure password hashing by default.…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Skyvern-AI/skyvern]]></title>
+        <id>https://github.com/Skyvern-AI/skyvern</id>
+        <link href="https://github.com/Skyvern-AI/skyvern"/>
+        <updated>2024-03-19T16:24:42.870Z</updated>
+        <summary type="html"><![CDATA[Automate browser-based workflows with LLMs and Computer Vision
+
+  
+  
+ 
+    
+    
+  
+  
+  
+ 🐉 Automate Browser-based workflows using LLMs and Computer Vision 🐉 
+ 
+  
+ 
+  -->  
+  -->     
+ 
+Skyvern automates browser-based workflows using LLMs and computer vision. It provides a simple API endpoint to fully automate manual workflows, replacing brittle or unreliable automation solutions.
+ 
+  
+ 
+Traditional approaches to browser automations required writing custom scripts for websites, often relying on DOM parsing and XPath-based interactions which would break whenever the website layouts changed.
+ 
+Instead of only relying on code-defined XPath interactions, Skyvern adds computer vision and LLMs to the mix to parse items in the viewport in real-time, create a plan for interaction and interact…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cbh123/narrator]]></title>
+        <id>https://github.com/cbh123/narrator</id>
+        <link href="https://github.com/cbh123/narrator"/>
+        <updated>2024-03-19T16:24:42.143Z</updated>
+        <summary type="html"><![CDATA[David Attenborough narrates your life
+
+David Attenborough narrates your life.
+ 
+https://twitter.com/charliebholtz/status/1724815159590293764
+ 
+Want to make your own AI app?
+ 
+Check out Replicate. We make it easy to run machine learning models with an API.
+ 
+Setup
+ 
+Clone this repo, and setup and activate a virtualenv:
+ 
+python3 -m pip install virtualenv
+python3 -m virtualenv venv
+source venv/bin/activate
+
+ 
+Then, install the dependencies: pip install -r requirements.txt
+ 
+Make a Replicate, OpenAI, and ElevenLabs account and set your tokens:
+ 
+export OPENAI_API_KEY=<token>
+export ELEVENLABS_API_KEY=<eleven-token>
+
+ 
+Make a new voice in Eleven and get the voice id of that voice using their get voices API, or by clicking the flask icon next to the voice in the VoiceLab tab.
+ 
+export ELEVENLABS_VOICE_ID=<voice-id>
+
+ 
+Run it!
+ 
+In on terminal, run the webcam capture:
+ 
+python capture.py
+
+ 
+In another terminal, run the narrator:
+ 
+python narrator.py]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[openai/grok]]></title>
         <id>https://github.com/openai/grok</id>
         <link href="https://github.com/openai/grok"/>
-        <updated>2024-03-19T08:23:05.082Z</updated>
+        <updated>2024-03-19T16:24:42.108Z</updated>
         <summary type="html"><![CDATA[OpenAI Grok Curve Experiments
  
 Paper
@@ -1097,30 +1117,10 @@ pip install -e .
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ianand/spreadsheets-are-all-you-need]]></title>
-        <id>https://github.com/ianand/spreadsheets-are-all-you-need</id>
-        <link href="https://github.com/ianand/spreadsheets-are-all-you-need"/>
-        <updated>2024-03-19T08:22:58.604Z</updated>
-        <summary type="html"><![CDATA[Spreadsheets-are-all-you-need
- 
-Spreadsheets-are-all-you-need implements the forward pass of GPT2 (an ancestor of ChatGPT) entirely in Excel using standard spreadsheet functions.
- 
-By using a spreadsheet anyone (even non-developers) can explore and play directly with how a “real” transformer works under the hood with minimal abstractions to get in the way.
- 
-Visit spreadsheets-are-all-you-need.ai for more info
- 
-Download the sheet
- 
-The sheet is available as an xlsb (Excel binary) file in the Releases section of this repo. You should be able to download and run this file in Excel for Mac or PC.]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[codediodeio/rembg-webapp-tutorial]]></title>
         <id>https://github.com/codediodeio/rembg-webapp-tutorial</id>
         <link href="https://github.com/codediodeio/rembg-webapp-tutorial"/>
-        <updated>2024-03-19T08:22:58.575Z</updated>
+        <updated>2024-03-19T16:24:42.075Z</updated>
         <summary type="html"><![CDATA[a simple webapp with rembg
 
 A simple flask app to remove the background of an image with Rembg
@@ -1136,6 +1136,317 @@ python app.py]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Google DeepMind's New AI Model Can Help Soccer Teams Take the Perfect Corner]]></title>
+        <id>65f8d0305902c431b96a0f6b</id>
+        <link href="https://www.wired.com/story/deepmind-is-helping-soccer-teams-take-the-perfect-corner/"/>
+        <updated>2024-03-19T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TacticAI, a soccer AI model created by Google DeepMind, makes predictions about where corners will go, and suggests tweaks to make goals more—or less—likely.]]></summary>
+        <author>
+            <name>Amit Katwala</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[9 Best Electric Toothbrushes (2024): Cheap, Smart, Kids, and Alternatives]]></title>
+        <id>6006eb56bb2776344c2d9b90</id>
+        <link href="https://www.wired.com/gallery/best-electric-toothbrushes/"/>
+        <updated>2024-03-19T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[These rechargeable and battery-powered models put better oral hygiene within easy reach.]]></summary>
+        <author>
+            <name>Medea Giordano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Figma removed `window.figma` on view-only pages today]]></title>
+        <id>https://news.ycombinator.com/item?id=39756956</id>
+        <link href="https://forum.figma.com/t/figma-removed-window-figma-on-view-only-pages-today/67292"/>
+        <updated>2024-03-19T15:44:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://forum.figma.com/t/figma-removed-window-figma-on-view-only-pages-today/67292
+Comments URL: https://news.ycombinator.com/item?id=39756956
+Points: 20
+# Comments: 1]]></summary>
+        <author>
+            <name>Justineo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Start Google]]></title>
+        <id>https://news.ycombinator.com/item?id=39756865</id>
+        <link href="https://paulgraham.com/google.html"/>
+        <updated>2024-03-19T15:36:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://paulgraham.com/google.html
+Comments URL: https://news.ycombinator.com/item?id=39756865
+Points: 69
+# Comments: 35]]></summary>
+        <author>
+            <name>harscoat</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Intermediate Certificates]]></title>
+        <id>https://news.ycombinator.com/item?id=39756434</id>
+        <link href="https://letsencrypt.org/2024/03/19/new-intermediate-certificates.html"/>
+        <updated>2024-03-19T15:02:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://letsencrypt.org/2024/03/19/new-intermediate-certificates.html
+Comments URL: https://news.ycombinator.com/item?id=39756434
+Points: 86
+# Comments: 19]]></summary>
+        <author>
+            <name>dfern</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding Google's File System (2020)]]></title>
+        <id>https://news.ycombinator.com/item?id=39756262</id>
+        <link href="https://www.micahlerner.com/2020/03/22/understanding-googles-file-system.html"/>
+        <updated>2024-03-19T14:48:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.micahlerner.com/2020/03/22/understanding-googles-file-system.html
+Comments URL: https://news.ycombinator.com/item?id=39756262
+Points: 23
+# Comments: 1]]></summary>
+        <author>
+            <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Okapi (YC W24) – A new, flexible CRM with good UX]]></title>
+        <id>https://news.ycombinator.com/item?id=39755927</id>
+        <link href="https://news.ycombinator.com/item?id=39755927"/>
+        <updated>2024-03-19T14:14:24.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN!
+We’re Ulysse and Ned from Okapi. We’re making a modern CRM. It's kind of like if Airtable/Notion built Salesforce today. https://okapicrm.com
+When I was fresh out of college, working for startups, Salesforce was this big mystery to me. It's the perpetual second screen for everyone in sales. They were building this gigantic obelisk downtown. What was this thing? And why did every salesperson I knew seem to live in it all day, and yet hate it so much?
+Turns out Salesforce is basically PhpMyAdmin for salespeople. It's just basically two things:
+1. A really generic database, and a UI for CRUDing your data.
+2. An API and ecosystem of integrations.
+In other words, it's the back-office CRUD app to end all back-office CRUD apps. People call the result a "CRM" (Customer Relationship Manageme…]]></summary>
+        <author>
+            <name>ucarion</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Causal 2.0 – Modern Financial Planning for Startups]]></title>
+        <id>https://news.ycombinator.com/item?id=39755858</id>
+        <link href="https://causal.app/"/>
+        <updated>2024-03-19T14:06:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://causal.app
+Comments URL: https://news.ycombinator.com/item?id=39755858
+Points: 56
+# Comments: 5]]></summary>
+        <author>
+            <name>refrigerator</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The rise and fall of a Halifax man's illegal TV streaming empire]]></title>
+        <id>https://news.ycombinator.com/item?id=39755565</id>
+        <link href="https://www.cbc.ca/news/canada/nova-scotia/nova-scotia-man-illegal-streaming-empire-1.7112573"/>
+        <updated>2024-03-19T13:33:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cbc.ca/news/canada/nova-scotia/nova-scotia-man-illegal-streaming-empire-1.7112573
+Comments URL: https://news.ycombinator.com/item?id=39755565
+Points: 40
+# Comments: 37]]></summary>
+        <author>
+            <name>ChrisArchitect</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java 22 Released]]></title>
+        <id>https://news.ycombinator.com/item?id=39755471</id>
+        <link href="https://mail.openjdk.org/pipermail/jdk-dev/2024-March/008827.html"/>
+        <updated>2024-03-19T13:22:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mail.openjdk.org/pipermail/jdk-dev/2024-March/008827.html
+Comments URL: https://news.ycombinator.com/item?id=39755471
+Points: 71
+# Comments: 13]]></summary>
+        <author>
+            <name>mkurz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trek's FX+ 2 Electric Bike Is $500 off Right Now]]></title>
+        <id>65f906d69df125d6984c0129</id>
+        <link href="https://www.wired.com/story/trekfest-electric-bike-deals-2024/"/>
+        <updated>2024-03-19T13:18:56.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to TrekFest, Trek's yearly sale on electric bikes, helmets, shoes, and everything you need for spring cycling.]]></summary>
+        <author>
+            <name>Adrienne So</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet the Arizona Election Official Combating Misinformation One Tweet at a Time]]></title>
+        <id>65e71eed37616a72473a409b</id>
+        <link href="https://www.wired.com/story/stephen-richer-arizona-primary-election-fraud/"/>
+        <updated>2024-03-19T13:15:18.000Z</updated>
+        <summary type="html"><![CDATA[Despite the threats against him, Maricopa County Recorder Stephen Richer, a Republican, publicly calls out X users who make false claims about election fraud in Arizona.]]></summary>
+        <author>
+            <name>David Gilbert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USB hubs, printers, Java, and more seemingly broken by macOS 14.4 update]]></title>
+        <id>https://news.ycombinator.com/item?id=39755358</id>
+        <link href="https://arstechnica.com/gadgets/2024/03/usb-hubs-printers-java-and-more-seemingly-broken-by-macos-14-4-update/"/>
+        <updated>2024-03-19T13:10:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/gadgets/2024/03/usb-hubs-printers-java-and-more-seemingly-broken-by-macos-14-4-update/
+Comments URL: https://news.ycombinator.com/item?id=39755358
+Points: 130
+# Comments: 111]]></summary>
+        <author>
+            <name>besus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Redefining fleet management at Cloudflare]]></title>
+        <id>65f89e45a5fcdf000a08d386</id>
+        <link href="https://blog.cloudflare.com/redefining-fleet-management-at-cloudflare"/>
+        <updated>2024-03-19T13:00:58.000Z</updated>
+        <summary type="html"><![CDATA[Growing pains were inevitable given the sheer pace of Cloudflare’s growth. Processes around server provisioning, maintenance windows, repairs, and diagnostics reporting were reaching their limits]]></summary>
+        <author>
+            <name>Ryan De Lap</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Astronaut Thomas Stafford has died]]></title>
+        <id>https://news.ycombinator.com/item?id=39755267</id>
+        <link href="https://apnews.com/article/apollo-10-astronaut-tom-stafford-18600e218bd145ce99a3605b35df7b8c"/>
+        <updated>2024-03-19T13:00:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://apnews.com/article/apollo-10-astronaut-tom-stafford-18600e218bd145ce99a3605b35df7b8c
+Comments URL: https://news.ycombinator.com/item?id=39755267
+Points: 86
+# Comments: 37]]></summary>
+        <author>
+            <name>jnord</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Not sure you're talking to a human? Create a human check]]></title>
+        <id>https://news.ycombinator.com/item?id=39755084</id>
+        <link href="https://r-u-human.com/"/>
+        <updated>2024-03-19T12:39:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://r-u-human.com/
+Comments URL: https://news.ycombinator.com/item?id=39755084
+Points: 122
+# Comments: 133]]></summary>
+        <author>
+            <name>jmor9751</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dell Says Remote Employees Won't Be Eligible for Promotions: Report]]></title>
+        <id>https://news.ycombinator.com/item?id=39754992</id>
+        <link href="https://gizmodo.com/dell-remote-employees-eligible-promotions-1851347699"/>
+        <updated>2024-03-19T12:22:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gizmodo.com/dell-remote-employees-eligible-promotions-1851347699
+Comments URL: https://news.ycombinator.com/item?id=39754992
+Points: 36
+# Comments: 30]]></summary>
+        <author>
+            <name>HiroProtagonist</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Best Instax Cameras and Printers (2024): Film Types, Tips, and More]]></title>
+        <id>65f7cff3d8cc6b75e092249b</id>
+        <link href="https://www.wired.com/story/best-instax-cameras-and-printers/"/>
+        <updated>2024-03-19T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Should you buy an Instax Mini? Instax Mini Evo? Instax Square? We demystify Fujifilm’s Instax lineup to help you find the perfect instant camera (or printer).]]></summary>
+        <author>
+            <name>Scott Gilbertson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build System Schism: The Curse of Meta Build Systems]]></title>
+        <id>https://news.ycombinator.com/item?id=39754770</id>
+        <link href="https://yzena.com/2024/03/build-system-schism-the-curse-of-meta-build-systems/"/>
+        <updated>2024-03-19T11:44:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://yzena.com/2024/03/build-system-schism-the-curse-of-meta-build-systems/
+Comments URL: https://news.ycombinator.com/item?id=39754770
+Points: 4
+# Comments: 0]]></summary>
+        <author>
+            <name>gavinhoward</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical Railway-Oriented Pipelines in Ruby]]></title>
+        <id>https://news.ycombinator.com/item?id=39754651</id>
+        <link href="https://ismaelcelis.com/posts/practical-railway-oriented-pipelines-in-ruby/"/>
+        <updated>2024-03-19T11:22:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ismaelcelis.com/posts/practical-railway-oriented-pipelines-in-ruby/
+Comments URL: https://news.ycombinator.com/item?id=39754651
+Points: 23
+# Comments: 4]]></summary>
+        <author>
+            <name>ismaelct</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Happens When a Guy and His AI Girlfriend Go to Therapy]]></title>
+        <id>65ea2b5c36c49936b869e906</id>
+        <link href="https://www.wired.com/story/annie-bot-sierra-greer-book-excerpt/"/>
+        <updated>2024-03-19T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In Sierra Greer's new novel, Annie Bot, a man named Doug finds out what it means to have the “perfect” girlfriend.]]></summary>
+        <author>
+            <name>Sierra Greer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links 3/19/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=268620</id>
+        <link href="https://www.nakedcapitalism.com/2024/03/links-3-19-2024.html"/>
+        <updated>2024-03-19T10:55:47.000Z</updated>
+        <summary type="html"><![CDATA[Our foxtrotting daily links: Yummy python, Girl Scout economics, US Covid high baseline, asbestos ban, China multiplying drones? Gaza starvation, Russia election cope, strikes on Damascus, F-35 fiasco, Israel lobby v. TikTok, Hertz failed EV push]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Operations begin to de-ice Euclid’s vision]]></title>
+        <id>https://news.ycombinator.com/item?id=39754461</id>
+        <link href="https://www.esa.int/Science_Exploration/Space_Science/Euclid/Operations_begin_to_de-ice_Euclid_s_vision"/>
+        <updated>2024-03-19T10:48:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.esa.int/Science_Exploration/Space_Science/Euclid/Operations_begin_to_de-ice_Euclid_s_vision
+Comments URL: https://news.ycombinator.com/item?id=39754461
+Points: 45
+# Comments: 24]]></summary>
+        <author>
+            <name>N19PEDL2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UK Citizens Just Got a Brief Foretaste of the Inherent Fragility of a Cashless Economy]]></title>
+        <id>https://www.nakedcapitalism.com/?p=268655</id>
+        <link href="https://www.nakedcapitalism.com/2024/03/uks-contactless-card-loving-citizens-just-got-a-foretaste-of-the-fragility-of-a-fully-cashless-economy.html"/>
+        <updated>2024-03-19T10:45:57.000Z</updated>
+        <summary type="html"><![CDATA[Unlike digital forms of payment, cash does not crash.]]></summary>
+        <author>
+            <name>Nick Corbishley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inside the Massive Alleged AT&T Data Breach]]></title>
+        <id>https://news.ycombinator.com/item?id=39754330</id>
+        <link href="https://www.troyhunt.com/inside-the-massive-alleged-att-data-breach/"/>
+        <updated>2024-03-19T10:19:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.troyhunt.com/inside-the-massive-alleged-att-data-breach/
+Comments URL: https://news.ycombinator.com/item?id=39754330
+Points: 117
+# Comments: 42]]></summary>
+        <author>
+            <name>gulced</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kids’ Cartoons Get a Free Pass From YouTube’s Deepfake Disclosure Rules]]></title>
+        <id>65f895ad6874801e06450e95</id>
+        <link href="https://www.wired.com/story/kids-cartoons-free-pass-youtube-deepfake-disclosure-rules/"/>
+        <updated>2024-03-19T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[YouTube now requires a label for some generative AI content. Animations made for kids are exempt.]]></summary>
+        <author>
+            <name>Kate Knibbs</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Wealth of US Billionaires Hits $5.5 Trillion—Up 88% Since Pandemic Hit]]></title>
         <id>https://www.nakedcapitalism.com/?p=268692</id>
         <link href="https://www.nakedcapitalism.com/2024/03/wealth-of-us-billionaires-hits-5-5-trillion-up-88-since-pandemic-hit.html"/>
@@ -1143,6 +1454,19 @@ python app.py]]></summary>
         <summary type="html"><![CDATA[Even though the rich are predictably getting richer even in the Covid era, the picture is worse when you look at billionaires.]]></summary>
         <author>
             <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BootLogo: Logo language in 508 bytes of x86 machine code]]></title>
+        <id>https://news.ycombinator.com/item?id=39753650</id>
+        <link href="https://github.com/nanochess/bootLogo"/>
+        <updated>2024-03-19T07:32:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/nanochess/bootLogo
+Comments URL: https://news.ycombinator.com/item?id=39753650
+Points: 153
+# Comments: 26]]></summary>
+        <author>
+            <name>thunderbong</name>
         </author>
     </entry>
     <entry>
@@ -1262,8 +1586,8 @@ The post How Online Black Resistance Efforts Outlive Political Clickbait appeare
         <updated>2024-03-19T05:29:19.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://blog.vladzahorodnii.com/2024/03/18/how-to-write-a-qml-effect-for-kwin/
 Comments URL: https://news.ycombinator.com/item?id=39753210
-Points: 9
-# Comments: 0]]></summary>
+Points: 71
+# Comments: 32]]></summary>
         <author>
             <name>jandeboevrie</name>
         </author>
@@ -1275,36 +1599,10 @@ Points: 9
         <updated>2024-03-19T05:08:21.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.math.columbia.edu/~woit/wordpress/?p=13864
 Comments URL: https://news.ycombinator.com/item?id=39753115
-Points: 56
-# Comments: 10]]></summary>
+Points: 219
+# Comments: 109]]></summary>
         <author>
             <name>chmaynard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twstalker.com as a Twitter alternative front end]]></title>
-        <id>https://news.ycombinator.com/item?id=39753049</id>
-        <link href="https://twstalker.com/EFF"/>
-        <updated>2024-03-19T04:52:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twstalker.com/EFF
-Comments URL: https://news.ycombinator.com/item?id=39753049
-Points: 27
-# Comments: 12]]></summary>
-        <author>
-            <name>aragonite</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Directories Where You Can Submit Your Product]]></title>
-        <id>https://news.ycombinator.com/item?id=39752746</id>
-        <link href="https://github.com/BossChow/ultimate-submit-list"/>
-        <updated>2024-03-19T03:43:24.000Z</updated>
-        <summary type="html"><![CDATA[As a newcomer to the world of independent development, a few days ago, after completing my first project, I wanted to promote it. However, I struggled to find a comprehensive list where I could submit my product. So, I decided to create one myself. The goal is simple: to maintain a comprehensive resource list for product submissions and keep it regularly updated. If you're in the same boat and need such a resource, feel free to join me on this journey!
-Comments URL: https://news.ycombinator.com/item?id=39752746
-Points: 8
-# Comments: 3]]></summary>
-        <author>
-            <name>kianworkk</name>
         </author>
     </entry>
     <entry>
@@ -1314,49 +1612,10 @@ Points: 8
         <updated>2024-03-19T02:56:33.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://github.com/microsoft/garnet
 Comments URL: https://news.ycombinator.com/item?id=39752504
-Points: 136
-# Comments: 31]]></summary>
+Points: 285
+# Comments: 75]]></summary>
         <author>
             <name>saganus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vehicle Privacy Report]]></title>
-        <id>https://news.ycombinator.com/item?id=39752134</id>
-        <link href="https://vehicleprivacyreport.com/"/>
-        <updated>2024-03-19T01:34:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vehicleprivacyreport.com/
-Comments URL: https://news.ycombinator.com/item?id=39752134
-Points: 14
-# Comments: 3]]></summary>
-        <author>
-            <name>mdznr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gaining kernel code execution on an MTE-enabled Pixel 8]]></title>
-        <id>https://news.ycombinator.com/item?id=39752051</id>
-        <link href="https://github.blog/2024-03-18-gaining-kernel-code-execution-on-an-mte-enabled-pixel-8/"/>
-        <updated>2024-03-19T01:20:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.blog/2024-03-18-gaining-kernel-code-execution-on-an-mte-enabled-pixel-8/
-Comments URL: https://news.ycombinator.com/item?id=39752051
-Points: 167
-# Comments: 16]]></summary>
-        <author>
-            <name>gulced</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dead Air on the Incident Call]]></title>
-        <id>https://news.ycombinator.com/item?id=39751636</id>
-        <link href="https://blog.danslimmon.com/2024/03/18/dead-air-on-the-incident-call/"/>
-        <updated>2024-03-19T00:18:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.danslimmon.com/2024/03/18/dead-air-on-the-incident-call/
-Comments URL: https://news.ycombinator.com/item?id=39751636
-Points: 84
-# Comments: 33]]></summary>
-        <author>
-            <name>nalgeon</name>
         </author>
     </entry>
     <entry>
@@ -1370,81 +1629,113 @@ Points: 84
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spent brewer's yeast as a biosorbent for metal recovery from polymetallic waste]]></title>
-        <id>https://news.ycombinator.com/item?id=39751072</id>
-        <link href="https://www.frontiersin.org/articles/10.3389/fbioe.2024.1345112/full"/>
-        <updated>2024-03-18T22:58:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.frontiersin.org/articles/10.3389/fbioe.2024.1345112/full
-Comments URL: https://news.ycombinator.com/item?id=39751072
-Points: 62
-# Comments: 7]]></summary>
+        <title type="html"><![CDATA[Language and cultural norms influence vaccine hesitancy]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00826-x</id>
+        <link href="https://www.nature.com/articles/d41586-024-00826-x"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Letter to the Editor]]></summary>
         <author>
-            <name>PaulHoule</name>
+            <name>Mian Jia</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Turning Points: A meeting with Enrico Fermi (2004)]]></title>
-        <id>https://news.ycombinator.com/item?id=39750162</id>
-        <link href="https://lilith.fisica.ufmg.br/~dsoares/fdyson.htm"/>
-        <updated>2024-03-18T21:19:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://lilith.fisica.ufmg.br/~dsoares/fdyson.htm
-Comments URL: https://news.ycombinator.com/item?id=39750162
-Points: 60
-# Comments: 12]]></summary>
+        <title type="html"><![CDATA[Three reasons why AI doesn’t model human language]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00824-z</id>
+        <link href="https://www.nature.com/articles/d41586-024-00824-z"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Letter to the Editor]]></summary>
         <author>
-            <name>benbreen</name>
+            <name>Johan J. Bolhuis</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Inversion: Fast, Reliable Structured LLMs]]></title>
-        <id>https://news.ycombinator.com/item?id=39750061</id>
-        <link href="https://rysana.com/inversion"/>
-        <updated>2024-03-18T21:10:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rysana.com/inversion
-Comments URL: https://news.ycombinator.com/item?id=39750061
-Points: 40
-# Comments: 9]]></summary>
+        <title type="html"><![CDATA[Meaningfulness in a scientific career is about more than tangible outputs]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00827-w</id>
+        <link href="https://www.nature.com/articles/d41586-024-00827-w"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Letter to the Editor]]></summary>
         <author>
-            <name>swyx</name>
+            <name>Anna Alexandrova</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Skio (YC S20) – Subscriptions for Shopify, ReCharge Migrations Is Hiring]]></title>
-        <id>https://news.ycombinator.com/item?id=39749950</id>
-        <link href="https://skio.com/careers/"/>
-        <updated>2024-03-18T21:00:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://skio.com/careers/
-Comments URL: https://news.ycombinator.com/item?id=39749950
-Points: 0
-# Comments: 0]]></summary>
+        <title type="html"><![CDATA[From the archive: constantly quivering eyes, and chemistry troubles]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00683-8</id>
+        <link href="https://www.nature.com/articles/d41586-024-00683-8"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Snippets from Nature’s past.]]></summary>
         <author>
-            <name>kennandavison</name>
+            <name>Nature</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Compiling with Constraints]]></title>
-        <id>https://news.ycombinator.com/item?id=39749943</id>
-        <link href="https://www.philipzucker.com/compile_constraints/"/>
-        <updated>2024-03-18T20:59:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.philipzucker.com/compile_constraints/
-Comments URL: https://news.ycombinator.com/item?id=39749943
-Points: 97
-# Comments: 25]]></summary>
+        <title type="html"><![CDATA[‘Global swimways’ on free-flowing rivers will protect key migratory fish species]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00825-y</id>
+        <link href="https://www.nature.com/articles/d41586-024-00825-y"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Letter to the Editor]]></summary>
         <author>
-            <name>philzook</name>
+            <name>Twan Stoffers</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Nvidia CEO Jensen Huang announces new AI chips: ‘We need bigger GPUs’]]></title>
-        <id>https://news.ycombinator.com/item?id=39749646</id>
-        <link href="https://www.cnbc.com/2024/03/18/nvidia-announces-gb200-blackwell-ai-chip-launching-later-this-year.html"/>
-        <updated>2024-03-18T20:32:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cnbc.com/2024/03/18/nvidia-announces-gb200-blackwell-ai-chip-launching-later-this-year.html
-Comments URL: https://news.ycombinator.com/item?id=39749646
-Points: 286
-# Comments: 217]]></summary>
+        <title type="html"><![CDATA[Climate models can’t explain 2023’s huge heat anomaly — we could be in uncharted territory]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00816-z</id>
+        <link href="https://www.nature.com/articles/d41586-024-00816-z"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Taking into account all known factors, the planet warmed 0.2 °C more last year than climate scientists expected. More and better data are urgently needed.]]></summary>
         <author>
-            <name>tiahura</name>
+            <name>Gavin Schmidt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A fresh start for the African Academy of Sciences]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00814-1</id>
+        <link href="https://www.nature.com/articles/d41586-024-00814-1"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New leadership is giving the academy a stronger voice for the continent’s scientists, following one of its most testing periods.]]></summary>
+        <author>
+            <name>Nature</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 50th anniversary of a key paper on how bird flight evolved]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00746-w</id>
+        <link href="https://www.nature.com/articles/d41586-024-00746-w"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Fiftieth anniversary of an advance in understanding how flight evolved.]]></summary>
+        <author>
+            <name>Kevin Padian</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘A landmark moment’: scientists use AI to design antibodies from scratch]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00846-7</id>
+        <link href="https://www.nature.com/articles/d41586-024-00846-7"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Modified protein-design tool could make it easier to tackle challenging drug targets — but AI antibodies are still a long way from reaching the clinic.]]></summary>
+        <author>
+            <name>Ewen Callaway</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So … you’ve been hacked]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00818-x</id>
+        <link href="https://www.nature.com/articles/d41586-024-00818-x"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Research institutions are under siege from cybercriminals and other digital assailants. How do you make sure you don’t let them in?]]></summary>
+        <author>
+            <name>Michael Brooks</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI image generators often give racist and sexist results: can they be fixed?]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00674-9</id>
+        <link href="https://www.nature.com/articles/d41586-024-00674-9"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Researchers are tracing sources of racial and gender bias in images generated by artificial intelligence, and making efforts to fix them.]]></summary>
+        <author>
+            <name>Ananya</name>
         </author>
     </entry>
     <entry>
@@ -1455,32 +1746,6 @@ Points: 286
         <summary type="html"><![CDATA[It's swing voters from the swingiest states, like Arizona, Georgia, and Wisconsin, who will really matter.]]></summary>
         <author>
             <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stability.ai – Introducing Stable Video 3D]]></title>
-        <id>https://news.ycombinator.com/item?id=39749312</id>
-        <link href="https://stability.ai/news/introducing-stable-video-3d"/>
-        <updated>2024-03-18T20:06:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://stability.ai/news/introducing-stable-video-3d
-Comments URL: https://news.ycombinator.com/item?id=39749312
-Points: 528
-# Comments: 92]]></summary>
-        <author>
-            <name>ed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First-in-class MKK4 inhibitors enhance liver regeneration, prevent liver failure]]></title>
-        <id>https://news.ycombinator.com/item?id=39749187</id>
-        <link href="https://www.cell.com/cell/fulltext/S0092-8674(24)00225-3"/>
-        <updated>2024-03-18T19:55:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cell.com/cell/fulltext/S0092-8674(24)00225-3
-Comments URL: https://news.ycombinator.com/item?id=39749187
-Points: 83
-# Comments: 7]]></summary>
-        <author>
-            <name>birriel</name>
         </author>
     </entry>
     <entry>
@@ -1524,45 +1789,6 @@ Points: 83
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[EPA bans asbestos, a deadly carcinogen still in use decades after partial ban]]></title>
-        <id>https://news.ycombinator.com/item?id=39746806</id>
-        <link href="https://apnews.com/article/epa-asbestos-cancer-brakes-biden-72b0fa8b36adedaff6000034d35c2acd"/>
-        <updated>2024-03-18T16:47:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://apnews.com/article/epa-asbestos-cancer-brakes-biden-72b0fa8b36adedaff6000034d35c2acd
-Comments URL: https://news.ycombinator.com/item?id=39746806
-Points: 348
-# Comments: 326]]></summary>
-        <author>
-            <name>anigbrowl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RP2040 Boot Sequence]]></title>
-        <id>https://news.ycombinator.com/item?id=39746625</id>
-        <link href="https://vanhunteradams.com/Pico/Bootloader/Boot_sequence.html"/>
-        <updated>2024-03-18T16:31:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vanhunteradams.com/Pico/Bootloader/Boot_sequence.html
-Comments URL: https://news.ycombinator.com/item?id=39746625
-Points: 161
-# Comments: 42]]></summary>
-        <author>
-            <name>vmoore</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YouTube now requires to label their realistic-looking videos made using AI]]></title>
-        <id>https://news.ycombinator.com/item?id=39746468</id>
-        <link href="https://blog.google/intl/en-in/products/platforms/how-were-helping-creators-disclose-altered-or-synthetic-content/"/>
-        <updated>2024-03-18T16:19:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.google/intl/en-in/products/platforms/how-were-helping-creators-disclose-altered-or-synthetic-content/
-Comments URL: https://news.ycombinator.com/item?id=39746468
-Points: 638
-# Comments: 384]]></summary>
-        <author>
-            <name>marban</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Logarithm: A logging engine for AI training workflows and services]]></title>
         <id>https://engineering.fb.com/?p=21074</id>
         <link href="https://engineering.fb.com/2024/03/18/data-infrastructure/logarithm-logging-engine-ai-training-workflows-services-meta/"/>
@@ -1582,19 +1808,6 @@ The post Logarithm: A logging engine for AI training workflows and services appe
         <summary type="html"><![CDATA[We've tested dozens of ways to watch stuff on 4K or HD TVs. These are our favorites.]]></summary>
         <author>
             <name>Medea Giordano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebSockets vs. Server-Sent-Events vs. Long-Polling vs. WebRTC vs. WebTransport]]></title>
-        <id>https://news.ycombinator.com/item?id=39745993</id>
-        <link href="https://rxdb.info/articles/websockets-sse-polling-webrtc-webtransport.html"/>
-        <updated>2024-03-18T15:36:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rxdb.info/articles/websockets-sse-polling-webrtc-webtransport.html
-Comments URL: https://news.ycombinator.com/item?id=39745993
-Points: 284
-# Comments: 157]]></summary>
-        <author>
-            <name>bubblehack3r</name>
         </author>
     </entry>
     <entry>
@@ -1642,6 +1855,7 @@ Points: 284
         <id>https://medium.com/p/da6805341642</id>
         <link href="https://netflixtechblog.com/sequential-testing-keeps-the-world-streaming-netflix-part-2-counting-processes-da6805341642?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-18T12:46:46.000Z</updated>
+        <summary type="html"><![CDATA[Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -1916,13 +2130,23 @@ The post Confronting The American School System’s Perverted Bathroom Police St
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to stop 'passing the harasser': universities urged to join information-sharing scheme]]></title>
+        <title type="html"><![CDATA[How to stop ‘passing the harasser’: universities urged to join information-sharing scheme]]></title>
         <id>https://www.nature.com/articles/d41586-024-00795-1</id>
         <link href="https://www.nature.com/articles/d41586-024-00795-1"/>
         <updated>2024-03-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The Misconduct Disclosure Scheme would make it harder for perpetrators to hide their past, advocacy group says.]]></summary>
         <author>
             <name>Sarah Wild</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Daily briefing: Memories from when you were a baby might not be gone]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00844-9</id>
+        <link href="https://www.nature.com/articles/d41586-024-00844-9"/>
+        <updated>2024-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Research is trying to solve the mystery of how memories are laid down when we are very young. Plus, thousands of the compounds in plastics are hazardous and how to cope with climate anxiety.]]></summary>
+        <author>
+            <name>Flora Graham</name>
         </author>
     </entry>
     <entry>
@@ -1963,25 +2187,6 @@ The post Confronting The American School System’s Perverted Bathroom Police St
         <summary type="html"><![CDATA[Should you go AirPods Pro or AirPods Max? Apple sells several headphones—even Beats—so we break it all down to help you find the best buds for your ears.]]></summary>
         <author>
             <name>Brenda Stolyar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links 3/17/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=268550</id>
-        <link href="https://www.nakedcapitalism.com/2024/03/links-3-17-2024.html"/>
-        <updated>2024-03-17T10:55:43.000Z</updated>
-        <author>
-            <name>Conor Gallagher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Collapse on the EU Home Front]]></title>
-        <id>https://www.nakedcapitalism.com/?p=268555</id>
-        <link href="https://www.nakedcapitalism.com/2024/03/collapse-on-the-eu-home-front.html"/>
-        <updated>2024-03-17T10:00:23.000Z</updated>
-        <summary type="html"><![CDATA[Germany continues to self-destruct, more austerity planned for EU, Ursula von der Leyen’s “tools” are sharpened to deal with prole backlash.]]></summary>
-        <author>
-            <name>Conor Gallagher</name>
         </author>
     </entry>
     <entry>
@@ -2519,7 +2724,7 @@ The post Human Rights, Referents, and Biden’s State of the Union Address appea
         <link href="https://feeds.feedblitz.com/~/873647717/0/themoneyillusion~The-decline-of-economics/"/>
         <updated>2024-03-14T23:58:30.000Z</updated>
         <summary type="html"><![CDATA[In recent years, I&#8217;ve been bemoaning a new &#8220;dark age of macroeconomics&#8221;. I know less about current trends in micro, and thus was interested in these comments by Steven Levitt (from an interview by Jon Hartley): Steve: &#8220;Yeah, yeah, sort of everywhere. Every macro department feels a lot like heavily influenced by Chicago. And I [&#8230;]<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/873647717/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/873647717/themoneyillusion,"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/873647717/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/873647717/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/873647717/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/the-decline-of-economics/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/the-decline-of-economics/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&nbsp;
-<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comment-6793337">We know when the FED will drop rates. It will be when N-gDp ...</a> <i>by spencer</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comment-6793248">re: “due to macro and its inability to predict major ...</a> <i>by spencer</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comment-6792821">dtoh, I agree.   Steve, Steve Rubb and I wrote a good textbook ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comment-6792812">I think the reputation of economics has declined a bit. That's ...</a> <i>by steve</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comment-6792666">I have no idea what the Chicago Price Theory is. I just try to ...</a> <i>by spencer</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comments">Plus 5 more...</a></li></ul></div>&#160;</div>]]></summary>
+<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comment-6794534">Scott- Not surprised. That's why I would need to be ...</a> <i>by steve</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comment-6794445">This should warm the cockles of Sumner's heart:   Peter Navarro ...</a> <i>by Solon of the East</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comment-6793337">We know when the FED will drop rates. It will be when N-gDp ...</a> <i>by spencer</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comment-6793248">re: “due to macro and its inability to predict major ...</a> <i>by spencer</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comment-6792821">dtoh, I agree.   Steve, Steve Rubb and I wrote a good textbook ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-decline-of-economics/#comments">Plus 5 more...</a></li></ul></div>&#160;</div>]]></summary>
         <author>
             <name>The Money Illusion</name>
         </author>
@@ -2535,16 +2740,6 @@ The post Human Rights, Referents, and Biden’s State of the Union Address appea
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[States Are Lining Up to Outlaw Lab-Grown Meat]]></title>
-        <id>65f32ecd937da4f76b64c12a</id>
-        <link href="https://www.wired.com/story/cultivated-meat-florida-ban/"/>
-        <updated>2024-03-14T19:00:13.000Z</updated>
-        <summary type="html"><![CDATA[Around 46 million Americans live in states that have introduced bills to ban cultivated meat, the latest escalation in a surprising culture war.]]></summary>
-        <author>
-            <name>Matt Reynolds</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Undersea cable failures cause Internet disruptions for multiple African countries]]></title>
         <id>65f3356da5fcdf000a08cda5</id>
         <link href="https://blog.cloudflare.com/undersea-cable-failures-cause-internet-disruptions-across-africa-march-14-2024"/>
@@ -2555,26 +2750,6 @@ The post Human Rights, Referents, and Biden’s State of the Union Address appea
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Solo Stove's Excellent Pizza Oven Is on Sale for Pi Day]]></title>
-        <id>65f318d0d237859445c64835</id>
-        <link href="https://www.wired.com/story/solo-stove-pi-day-deals-2024/"/>
-        <updated>2024-03-14T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s Pi Day! To celebrate, Solo Stove’s pizza ovens and smokeless firepits are $50 off.]]></summary>
-        <author>
-            <name>Louryn Strampe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Forget Chatbots. AI Agents Are the Future]]></title>
-        <id>65f1f936493fb7b91497d1a8</id>
-        <link href="https://www.wired.com/story/fast-forward-forget-chatbots-ai-agents-are-the-future/"/>
-        <updated>2024-03-14T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Startups and tech giants are trying to move from chatbots that offer help via text, to AI agents that can get stuff done. Recent demos include an AI coder called Devin and agents that play videogames.]]></summary>
-        <author>
-            <name>Will Knight</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AWS Pi Day 2024: Use your data to power generative AI]]></title>
         <id>e27aadba159a82a8421a846f45b7aa39ba3dae67</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-pi-day-2024-use-your-data-to-power-generative-ai/"/>
@@ -2582,16 +2757,6 @@ The post Human Rights, Referents, and Biden’s State of the Union Address appea
         <summary type="html"><![CDATA[Today is AWS Pi Day! Join us live on Twitch, starting at 1 PM Pacific time. On this day 18 years ago, a West Coast retail company launched an object storage service, introducing the world to Amazon Simple Storage Service (Amazon S3). We had no idea it would change the way businesses across the globe […]]]></summary>
         <author>
             <name>Sébastien Stormacq</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[15 Best Soundbars for Every Budget (2024): Vizio, Sonos, Samsung, Yamaha, Sony]]></title>
-        <id>5ba9532c0f3ae02cf6c58ef4</id>
-        <link href="https://www.wired.com/gallery/best-soundbars/"/>
-        <updated>2024-03-14T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Every television deserves a row of speakers to call its own. These are our favorite soundbars.]]></summary>
-        <author>
-            <name>Parker Hall</name>
         </author>
     </entry>
     <entry>
@@ -2617,26 +2782,6 @@ The post Human Rights, Referents, and Biden’s State of the Union Address appea
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Small Company at the Center of ‘Gamergate 2.0’]]></title>
-        <id>65ef33d45316063803811d73</id>
-        <link href="https://www.wired.com/story/sweet-baby-video-games-harassment-gamergate/"/>
-        <updated>2024-03-14T14:22:38.000Z</updated>
-        <summary type="html"><![CDATA[Montreal-based Sweet Baby employs just 16 people. They now find themselves the targets of gaming’s latest harassment campaign.]]></summary>
-        <author>
-            <name>Megan Farokhmanesh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Craig Wright Is Not Bitcoin Creator Satoshi Nakamoto, Judge Declares]]></title>
-        <id>65f1afbb4325934d08a0d157</id>
-        <link href="https://www.wired.com/story/craig-wright-not-satoshi-nakamoto-bitcoin-creator-ruling/"/>
-        <updated>2024-03-14T14:01:17.000Z</updated>
-        <summary type="html"><![CDATA[A surprisingly fast ruling at the end of a six-week trial in the UK High Court ends Craig Wright's campaign to be recognized as the inventor of Bitcoin.]]></summary>
-        <author>
-            <name>Joel Khalili</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Upcoming Let’s Encrypt certificate chain change and impact for Cloudflare customers]]></title>
         <id>65f23f4ba5fcdf000a08ca3f</id>
         <link href="https://blog.cloudflare.com/upcoming-lets-encrypt-certificate-chain-change-and-impact-for-cloudflare-customers"/>
@@ -2644,16 +2789,6 @@ The post Human Rights, Referents, and Biden’s State of the Union Address appea
         <summary type="html"><![CDATA[Let’s Encrypt’s cross-signed chain will be expiring in September. To prepare for the change, after May 15th, 2024, Cloudflare will start issuing certs from Let’s Encrypt’s ISRG X1 chain. This change will impact legacy devices with outdated trust stores (Android versions 7.1.1 or older)]]></summary>
         <author>
             <name>Dina Kozlov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[11 Best Pillows (2024): For Side Sleepers, Orthopedic, Travel]]></title>
-        <id>65aad1f08a5f533c69920348</id>
-        <link href="https://www.wired.com/gallery/best-pillows/"/>
-        <updated>2024-03-14T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Whether you snooze on your side, back, or in a tangle of limbs and blankets, we've slept on all these pillows to find the right support for your noggin.]]></summary>
-        <author>
-            <name>Eric Ravenscraft</name>
         </author>
     </entry>
     <entry>
@@ -3147,126 +3282,6 @@ The post Human Rights, Referents, and Biden’s State of the Union Address appea
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Peer-replication model aims to address science’s ‘reproducibility crisis’]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00796-0</id>
-        <link href="https://www.nature.com/articles/d41586-024-00796-0"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Researchers propose that independent attempts to replicate results should complement conventional peer review.]]></summary>
-        <author>
-            <name>James Mitchell Crow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daily briefing: In most mammal species, males and females are the same size — or females are bigger]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00800-7</id>
-        <link href="https://www.nature.com/articles/d41586-024-00800-7"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Charles Darwin’s claim about male mammals usually being bigger than females is proved wrong. Plus, OpenAI’s Sora can create amazing video from text prompts, and what’s wrong with how we treat the menopause.]]></summary>
-        <author>
-            <name>Flora Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why are so many young people getting cancer? What the data say]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00720-6</id>
-        <link href="https://www.nature.com/articles/d41586-024-00720-6"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Clues to a modern mystery could be lurking in information collected generations ago.]]></summary>
-        <author>
-            <name>Heidi Ledford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ancient malaria genome from Roman skeleton hints at disease’s history]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00772-8</id>
-        <link href="https://www.nature.com/articles/d41586-024-00772-8"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Genetic information from ancient remains is helping to reveal how malaria has moved and evolved alongside people.]]></summary>
-        <author>
-            <name>Tosin Thompson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deadly brain cancer shrinks after CAR-T therapy — but for how long is unclear]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00704-6</id>
-        <link href="https://www.nature.com/articles/d41586-024-00704-6"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Early studies with engineered immune cells show dramatic but often short-lived results in the most aggressive brain cancers.]]></summary>
-        <author>
-            <name>Heidi Ledford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers call for a major rethink of how Alzheimer’s treatments are evaluated]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00756-8</id>
-        <link href="https://www.nature.com/articles/d41586-024-00756-8"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An approach that aims to quantify how long a drug can delay or halt the progression of disease is gathering steam.]]></summary>
-        <author>
-            <name>Esther Landhuis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3D printing enables mass production of microcomponents]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00492-z</id>
-        <link href="https://www.nature.com/articles/d41586-024-00492-z"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Roll-to-roll method for fabricating complex microparticles.]]></summary>
-        <author>
-            <name>Christoph A. Spiegel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Killer whales have menopause. Now scientists think they know why]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00794-2</id>
-        <link href="https://www.nature.com/articles/d41586-024-00794-2"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hear the biggest stories from the world of science | 13 March 2024]]></summary>
-        <author>
-            <name>Benjamin Thompson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Massive public-health experiment sends vaccination rates soaring]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00730-4</id>
-        <link href="https://www.nature.com/articles/d41586-024-00730-4"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The rate of vaccination against COVID-19 rose sharply in villages in Sierra Leone where health officials held mobile vaccination clinics.]]></summary>
-        <author>
-            <name>Max Kozlov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthony Epstein (1921–2024), discoverer of virus causing cancer in humans]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00763-9</id>
-        <link href="https://www.nature.com/articles/d41586-024-00763-9"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Pathologist whose finding that viruses can trigger tumours in humans transformed medical research.]]></summary>
-        <author>
-            <name>Alan  Rickinson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Four change-makers seek impact in medical research]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00754-w</id>
-        <link href="https://www.nature.com/articles/d41586-024-00754-w"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Bringing fresh perspectives to long-standing health challenges, these scientists are using techniques such as big-data analytics and AI to push the field.]]></summary>
-        <author>
-            <name>Amy  Coombs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Epstein–Barr virus at 60]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00653-0</id>
-        <link href="https://www.nature.com/articles/d41586-024-00653-0"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Sixtieth anniversary of the identification of Epstein–Barr virus.]]></summary>
-        <author>
-            <name>Lawrence S. Young</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Infrastructure as Code development with Amazon CodeWhisperer]]></title>
         <id>1af365523512cdc2dbdbb4fee1e1e897cdd97d9a</id>
         <link href="https://aws.amazon.com/blogs/devops/infrastructure-as-code-development-with-amazon-codewhisperer/"/>
@@ -3464,6 +3479,7 @@ added to Kubernetes as an alpha feature in v1.26. It defines an alternat…]]></
         <id>https://medium.com/p/2d2e6b6d205d</id>
         <link href="https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-07T18:33:07.000Z</updated>
+        <summary type="html"><![CDATA[David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -3734,6 +3750,7 @@ The post Making messaging interoperability with third parties safe for users in 
         <id>https://medium.com/p/256629c9386b</id>
         <link href="https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-06T01:35:08.000Z</updated>
+        <summary type="html"><![CDATA[The surprising and not so surprising benefits of generations in the Z Garbage Collector.]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -3787,16 +3804,6 @@ The post Risk-Aware Product Decisions in A/B Tests with Multiple Metrics appeare
         <summary type="html"><![CDATA[You told us one of the primary reasons to adopt Amazon Web Services (AWS) is the broad choice of services we offer, enabling you to innovate, build, deploy, and monitor your workloads. AWS has continuously expanded its services to support virtually any cloud workload. It now offers over 200 fully featured services for compute, storage, […]]]></summary>
         <author>
             <name>Sébastien Stormacq</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secure your unprotected assets with Security Center: quick view for CISOs]]></title>
-        <id>65e6029aa5fcdf000a089799</id>
-        <link href="https://blog.cloudflare.com/security-insights-quick-ciso-view"/>
-        <updated>2024-03-05T14:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Today we are excited to introduce a new set of capabilities within the Security Center to directly address a common challenge: ensuring comprehensive deployment across your infrastructure. Gain precise insights into where and how to optimize your security posture]]></summary>
-        <author>
-            <name>Alexandra Moraru</name>
         </author>
     </entry>
     <entry>
@@ -4055,6 +4062,7 @@ The post How DotSlash makes executable deployment simpler appeared first on Engi
         <id>https://medium.com/p/6a727c1ae2e5</id>
         <link href="https://netflixtechblog.com/announcing-bpftop-streamlining-ebpf-performance-optimization-6a727c1ae2e5?source=rss----2615bd06b42e---4"/>
         <updated>2024-02-26T16:43:30.000Z</updated>
+        <summary type="html"><![CDATA[By Jose Fernandez]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
