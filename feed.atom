@@ -1,200 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-20T08:23:39.868Z</id>
+    <id>urn:2024-03-20T16:25:39.865Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-20T08:23:39.868Z</updated>
+    <updated>2024-03-20T16:25:39.865Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[roboflow/supervision]]></title>
-        <id>https://github.com/roboflow/supervision</id>
-        <link href="https://github.com/roboflow/supervision"/>
-        <updated>2024-03-20T08:23:23.665Z</updated>
-        <summary type="html"><![CDATA[We write your reusable computer vision tools. 💜
+        <title type="html"><![CDATA[imartinez/privateGPT]]></title>
+        <id>https://github.com/imartinez/privateGPT</id>
+        <link href="https://github.com/imartinez/privateGPT"/>
+        <updated>2024-03-20T16:25:38.120Z</updated>
+        <summary type="html"><![CDATA[Interact with your documents using the power of GPT, 100% privately, no data leaks
+
+🔒 PrivateGPT 📑
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Install & usage docs: https://docs.privategpt.dev/
+ 
+ 
+Join the community: Twitter & Discord
+ 
+ 
 
  
+PrivateGPT is a production-ready AI project that allows you to ask questions about your documents using the power of Large Language Models (LLMs), even in scenarios without an Internet connection. 100% private, no data leaves your execution environment at any point.
  
-    
+The project provides an API offering all the primitives required to build private, context-aware AI applications. It follows and extends the OpenAI API standard, and supports both normal and streaming responses.
  
+The API is divided into two logical blocks:
  
+High-level API, which abstracts all the complexity of a …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PKU-YuanGroup/Open-Sora-Plan]]></title>
+        <id>https://github.com/PKU-YuanGroup/Open-Sora-Plan</id>
+        <link href="https://github.com/PKU-YuanGroup/Open-Sora-Plan"/>
+        <updated>2024-03-20T16:25:35.900Z</updated>
+        <summary type="html"><![CDATA[This project aim to reproduce Sora (Open AI T2V model), but we only have limited resource. We deeply wish the all open source community can contribute to this project.
+
+Open-Sora Plan
  
+[Project Page] [中文主页]
  
-notebooks | inference | autodistill | maestro
- 
- 
- 
- 
+   
        
+       
+ 
+💪 Goal
+ 
+This project aims to create a simple and scalable repo, to reproduce Sora (OpenAI, but we prefer to call it "ClosedAI" ) and build knowledge about Video-VQVAE (VideoGPT) + DiT at scale. However, since we have limited resources, we deeply wish all open-source community can contribute to this project. Pull requests are welcome!!!
+ 
+本项目希望通过开源社区的力量复现Sora，由北大-兔展AIGC联合实验室共同发起，当前我们资源有限仅搭建了基础架构，无法进行完整训练，希望通过开源社区逐步增加模块并筹集资源进行训练，当前版本离目标差距巨大，仍需持续完善和快速迭代，欢迎Pull request！！！
+ 
+Project stages:
  
  
-👋 hello
  
-We write your reusable computer vision tools. Whether you need to load your dataset from your hard drive, draw detections on an image or video, or count how many detections are in a zone. You can count on us! 🤝
+Primary
  
-
  
-💻 install
  
-Pip install the supervision package in a Python>=3.8 environment.
  
-pip install supervision
-
- 
-Read more about desktop, headless, and local installation in our guide.
- 
-🔥 quickstart
- 
-models
- 
-Supervision was designed to be model agnostic. Just plug in any classification, detection, or segmentation model. For your convenience, we have created connectors for the most popular libraries like Ultralytics, Transformers, or MMD…]]></summary>
+Setup the codebase and train a un-conditional model o…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[geekan/MetaGPT]]></title>
-        <id>https://github.com/geekan/MetaGPT</id>
-        <link href="https://github.com/geekan/MetaGPT"/>
-        <updated>2024-03-20T08:23:23.618Z</updated>
-        <summary type="html"><![CDATA[🌟 The Multi-Agent Framework: Providing AI Software Company, Towards Natural Language Programming
+        <title type="html"><![CDATA[yoheinakajima/mindgraph]]></title>
+        <id>https://github.com/yoheinakajima/mindgraph</id>
+        <link href="https://github.com/yoheinakajima/mindgraph"/>
+        <updated>2024-03-20T16:25:35.866Z</updated>
+        <summary type="html"><![CDATA[proof of concept prototype for generating and querying against an ever-expanding knowledge graph with ai
 
-MetaGPT: The Multi-Agent Framework
+MindGraph
  
+Welcome to MindGraph, a proof of concept, open-source, API-first graph-based project designed for natural language interactions (input and output). This prototype serves as a template for building and customizing your own CRM solutions with a focus on ease of integration and extendibility. Here is the announcement on X, for some more context.
+ 
+
+ 
+Getting Started
+ 
+Prerequisites
+ 
+Before you begin, ensure you have the following installed:
+ 
+ 
+ 
+Python 3.6 or higher
+ 
+ 
+Poetry (dependency management and packaging tool)
+ 
+ 
+Installation
+ 
+ 
+ 
+ Clone the repository:
+ git clone https://github.com/yourusername/MindGraph.git
+
   
  
- Assign different roles to GPTs to form a collaborative entity for complex tasks. 
+ Navigate to the project directory:
+ cd MindGraph…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FlowiseAI/Flowise]]></title>
+        <id>https://github.com/FlowiseAI/Flowise</id>
+        <link href="https://github.com/FlowiseAI/Flowise"/>
+        <updated>2024-03-20T16:25:35.269Z</updated>
+        <summary type="html"><![CDATA[Drag & drop UI to build your customized LLM flow
+
+
  
-        
+Flowise - Build LLM Apps Easily
  
     
  
-News
+English | 中文
  
-🚀 Mar. 14, 2024: Our Data Interpreter paper is on arxiv. Check the example and code!
+Drag & drop UI to build your customized LLM flow
  
-🚀 Feb. 08, 2024: v0.7.0 released, supporting assigning different LLMs to different Roles. We also introduced Data Interpreter, a powerful agent capable of solving a wide range of real-world problems.
+  
+⚡Quick Start
  
-🚀 Jan. 16, 2024: Our paper MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework  accepted for oral presentation (top 1.2%) at ICLR 2024, ranking #1 in the LLM-based Agent category.
+Download and Install NodeJS >= 18.15.0
  
-🚀 Jan. 03, 2024: v0.6.0 released, new features include ser…]]></summary>
+ 
+ 
+ Install Flowise
+ npm install -g flowise
+
+  
+ 
+ Start Flowise
+ npx flowise start
+
+ With username & password
+ npx flowise start --FLOWISE_USERNAME=user --FLOWISE_PASSWORD=1234
+
+  
+ 
+ Open http://localhost:3000
+  
+ 
+🐳 Docker
+ 
+Docker Compose
+ 
+ 
+ 
+Go to docker folder at the root of the project
+ 
+ 
+Copy .env.example file, paste it into the same location, and rename to .env
+ 
+ 
+docker-compose up -d
+ 
+ 
+Open http://localhost:3000
+ 
+ 
+You can bring the containers down by docker-compose stop
+ 
+ 
+Docker Image
+ 
+ 
+ 
+ Build the image locally:
+ docker build --no-cache -t flowise .…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[aishwaryanr/awesome-generative-ai-guide]]></title>
-        <id>https://github.com/aishwaryanr/awesome-generative-ai-guide</id>
-        <link href="https://github.com/aishwaryanr/awesome-generative-ai-guide"/>
-        <updated>2024-03-20T08:23:23.574Z</updated>
-        <summary type="html"><![CDATA[A one stop repository for generative AI research updates, interview resources, notebooks and much more!
+        <title type="html"><![CDATA[google/jax]]></title>
+        <id>https://github.com/google/jax</id>
+        <link href="https://github.com/google/jax"/>
+        <updated>2024-03-20T16:25:35.227Z</updated>
+        <summary type="html"><![CDATA[Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more
 
-⭐ 🔖 awesome-generative-ai-guide
- 
-Generative AI is experiencing rapid growth, and this repository serves as a comprehensive hub for updates on generative AI research, interview materials, notebooks, and more!
- 
-Explore the following resources:
- 
- 
- 
-Monthly Best GenAI Papers List
- 
- 
-GenAI Interview Resources
- 
- 
-Applied LLMs Mastery 2024 (created by Aishwarya Naresh Reganti) course material
- 
- 
-List of all GenAI-related free courses (over 30 already listed)
- 
- 
-List of code repositories/notebooks for developing generative AI applications
- 
- 
-We'll be updating this repository regularly, so keep an eye out for the latest additions!
- 
-Happy Learning!
- 
- 
-🔈 Announcements
- 
- 
- 
-Applied LL…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pythagora-io/gpt-pilot]]></title>
-        <id>https://github.com/Pythagora-io/gpt-pilot</id>
-        <link href="https://github.com/Pythagora-io/gpt-pilot"/>
-        <updated>2024-03-20T08:23:23.531Z</updated>
-        <summary type="html"><![CDATA[The first real AI developer
-
- 
- 
-🧑‍✈️ GPT PILOT 🧑‍✈️
- 
- 
- 
- 
  
   
  
+JAX: Autograd and XLA
  
  
  
-  
+Quickstart | Transformations | Install guide | Neural net libraries | Change logs | Reference docs
  
+What is JAX?
  
+JAX is a Python library for accelerator-oriented array computation and program transformation, designed for high-performance numerical computing and large-scale machine learning.
  
-  
- 
- 
- 
- 
- 
-GPT Pilot doesn't just generate code, it builds apps!
- 
- 
- 
- 
- 
-
- 
- 
-(click to open the video in YouTube) (1:40min)
- 
- 
- 
- 
- 
-
- 
- 
-GPT Pilot is the core technology for the Pythagora VS Code extension that aims to provide the first real AI developer companion. Not just an autocomplete or a helper for PR messages but rather a real AI developer that can write full features, debug them, talk to you about issues, ask for review, etc.
- 
- 
-📫 If you would like to get updates on future releases or just get in touch, join our Discord server or you can add your email here. 📬
- 
- 
- 
- 
- 
-🔌 Requirements
- 
- 
-🚦How to start using gpt-pilot?
- 
- 
-🔎 Examples
- 
- 
-🐳 How to start gpt-pilot in docker?
- 
- 
-🧑‍💻️…]]></summary>
+With its updated version of Autograd, JAX can automatically differentiate native Python and NumPy functions. It can differentiate through loops, branches, recursion, and closures, and it can take derivatives of derivatives of derivatives. It supports reverse-mode differentiation (a.k.a. backpropagation) via grad as well as forward-mode differentiation, and the …]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
         </author>
@@ -203,7 +216,7 @@ GPT Pilot is the core technology for the Pythagora VS Code extension that aims t
         <title type="html"><![CDATA[qdrant/qdrant]]></title>
         <id>https://github.com/qdrant/qdrant</id>
         <link href="https://github.com/qdrant/qdrant"/>
-        <updated>2024-03-20T08:23:23.489Z</updated>
+        <updated>2024-03-20T16:25:35.183Z</updated>
         <summary type="html"><![CDATA[Qdrant - High-performance, massive-scale Vector Database for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
 
   
@@ -222,10 +235,105 @@ With Qdrant, embeddings or neural network encoders can be turned into full-fledg
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[adrianhajdin/iphone]]></title>
+        <id>https://github.com/adrianhajdin/iphone</id>
+        <link href="https://github.com/adrianhajdin/iphone"/>
+        <updated>2024-03-20T16:25:35.145Z</updated>
+        <summary type="html"><![CDATA[Recreate the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. From custom animations to animated 3D models, this tutorial covers it all.
+
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+   
+   
+   
+   
+ 
+ 
+ 
+Iphone 15 Website
+ 
+ 
+JavaScript Mastery YouTube. Join the JSM family! 
+ 
+ 
+ 
+📋 Table of Contents
+ 
+ 
+ 
+🤖 Introduction
+ 
+ 
+⚙️ Tech Stack
+ 
+ 
+🔋 Features
+ 
+ 
+🤸 Quick Start
+ 
+ 
+🕸️ Snippets
+ 
+ 
+🔗 Links
+ 
+ 
+🚀 More
+ 
+ 
+🚨 Tutorial
+ 
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, JavaScript Mastery.
+ 
+If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+ 
+
+ 
+🤖 Introduction
+ 
+This is a clone of Apple's iPh…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[albertan017/LLM4Decompile]]></title>
+        <id>https://github.com/albertan017/LLM4Decompile</id>
+        <link href="https://github.com/albertan017/LLM4Decompile"/>
+        <updated>2024-03-20T16:25:35.078Z</updated>
+        <summary type="html"><![CDATA[Reverse Engineering: Decompiling Binary Code with Large Language Models
+
+LLM4Decompile
+ 
+Reverse Engineering: Decompiling Binary Code with Large Language Models
+ 
+For more details check out the paper.
+ 
+0. Updates
+ 
+2023.03.16 Add llm4decompile-6.7b-uo model which is trained without prior knowledge of the optimization levels (O0~O3), the average re-executability is arond 0.21.
+ 
+1. Introduction of LLM4Decompile and Decompile-Eval
+ 
+Our objective is to create and release the first open-source LLM dedicated to decompilation, and to assess its capabilities by constructing the first decompilation benchmark focused on re-compilability and re-executable.
+ 
+We start by compiling a million C code samples from AnghaBench into assembly code using GCC with different configurations, forming a dataset …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[plankanban/planka]]></title>
         <id>https://github.com/plankanban/planka</id>
         <link href="https://github.com/plankanban/planka"/>
-        <updated>2024-03-20T08:23:23.440Z</updated>
+        <updated>2024-03-20T16:25:35.046Z</updated>
         <summary type="html"><![CDATA[The realtime kanban board for workgroups built with React and Redux.
 
 Planka
@@ -314,10 +422,100 @@ Contributors]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[aishwaryanr/awesome-generative-ai-guide]]></title>
+        <id>https://github.com/aishwaryanr/awesome-generative-ai-guide</id>
+        <link href="https://github.com/aishwaryanr/awesome-generative-ai-guide"/>
+        <updated>2024-03-20T16:25:35.007Z</updated>
+        <summary type="html"><![CDATA[A one stop repository for generative AI research updates, interview resources, notebooks and much more!
+
+⭐ 🔖 awesome-generative-ai-guide
+ 
+Generative AI is experiencing rapid growth, and this repository serves as a comprehensive hub for updates on generative AI research, interview materials, notebooks, and more!
+ 
+Explore the following resources:
+ 
+ 
+ 
+Monthly Best GenAI Papers List
+ 
+ 
+GenAI Interview Resources
+ 
+ 
+Applied LLMs Mastery 2024 (created by Aishwarya Naresh Reganti) course material
+ 
+ 
+List of all GenAI-related free courses (over 30 already listed)
+ 
+ 
+List of code repositories/notebooks for developing generative AI applications
+ 
+ 
+We'll be updating this repository regularly, so keep an eye out for the latest additions!
+ 
+Happy Learning!
+ 
+ 
+🔈 Announcements
+ 
+ 
+ 
+Applied LL…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NanmiCoder/MediaCrawler]]></title>
+        <id>https://github.com/NanmiCoder/MediaCrawler</id>
+        <link href="https://github.com/NanmiCoder/MediaCrawler"/>
+        <updated>2024-03-20T16:25:34.864Z</updated>
+        <summary type="html"><![CDATA[小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫
+
+ 
+ 
+说明
+ 
+ 
+ 
+ 
+最近这个仓库受到了大量的关注，本身我开源出来这个仓库的目的是提供一种新思路分享给大家学习和了解爬虫。
+ 但是随着热度的不断暴涨，随之而来的是该仓库可能给各平台方带来不少的服务器压力，以及一些其他不好的影响（虽然我有免责声明，但是不能控制一些使用该仓库的人）
+ 所以综合考虑之下，决定清除该仓库。我不想给自己带来一些不必要的麻烦，本来就没从中得到些什么，风险还很高
+ 大家江湖再见，后续开源代码会尽量写一些正常点的代码🥲
+ 最后感谢下面几个赞助商的赞助（一个周后会清楚掉赞助商列表）。
+ 
+ 
+感谢下列Sponsors对本仓库赞助
+ 
+全球ip代理超新星 
+  你也可以通过注册这款免费的ChatGPT产品，帮我获取额外的GPT-4额度作为支持，也是我每天都在用的一款chrome效率插件，推荐给你，你也能获得免费额度。 
+  整数智能《高级爬虫工程师》招聘]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[amazon-science/chronos-forecasting]]></title>
+        <id>https://github.com/amazon-science/chronos-forecasting</id>
+        <link href="https://github.com/amazon-science/chronos-forecasting"/>
+        <updated>2024-03-20T16:25:34.841Z</updated>
+        <summary type="html"><![CDATA[Chronos: Pretrained (Language) Models for Probabilistic Time Series Forecasting
+
+Chronos: Learning the Language of Time Series
+ 
+Chronos is a family of pretrained time series forecasting models based on language model architectures. A time series is transformed into a sequence of tokens via scaling and quantization, and a language model is trained on these tokens using the cross-entropy loss. Once trained, probabilistic forecasts are obtained by sampling multiple future trajectories given the historical context. Chronos models have been trained on a large corpus of publicly available time series data, as well as synthetic data generated using Gaussian processes.
+ 
+For details on Chronos models, training data and procedures, and experimental results, please refer to the paper Chronos: Learn…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[microsoft/playwright]]></title>
         <id>https://github.com/microsoft/playwright</id>
         <link href="https://github.com/microsoft/playwright"/>
-        <updated>2024-03-20T08:23:23.409Z</updated>
+        <updated>2024-03-20T16:25:34.597Z</updated>
         <summary type="html"><![CDATA[Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
 
 🎭 Playwright
@@ -386,45 +584,10 @@ Looking for Playwright for…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[PKU-YuanGroup/Open-Sora-Plan]]></title>
-        <id>https://github.com/PKU-YuanGroup/Open-Sora-Plan</id>
-        <link href="https://github.com/PKU-YuanGroup/Open-Sora-Plan"/>
-        <updated>2024-03-20T08:23:23.366Z</updated>
-        <summary type="html"><![CDATA[This project aim to reproduce Sora (Open AI T2V model), but we only have limited resource. We deeply wish the all open source community can contribute to this project.
-
-Open-Sora Plan
- 
-[Project Page] [中文主页]
- 
-   
-       
-       
- 
-💪 Goal
- 
-This project aims to create a simple and scalable repo, to reproduce Sora (OpenAI, but we prefer to call it "ClosedAI" ) and build knowledge about Video-VQVAE (VideoGPT) + DiT at scale. However, since we have limited resources, we deeply wish all open-source community can contribute to this project. Pull requests are welcome!!!
- 
-本项目希望通过开源社区的力量复现Sora，由北大-兔展AIGC联合实验室共同发起，当前我们资源有限仅搭建了基础架构，无法进行完整训练，希望通过开源社区逐步增加模块并筹集资源进行训练，当前版本离目标差距巨大，仍需持续完善和快速迭代，欢迎Pull request！！！
- 
-Project stages:
- 
- 
- 
-Primary
- 
- 
- 
- 
-Setup the codebase and train a un-conditional model o…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[DevToys-app/DevToys]]></title>
         <id>https://github.com/DevToys-app/DevToys</id>
         <link href="https://github.com/DevToys-app/DevToys"/>
-        <updated>2024-03-20T08:23:23.321Z</updated>
+        <updated>2024-03-20T16:25:34.567Z</updated>
         <summary type="html"><![CDATA[A Swiss Army knife for developers.
 
   
@@ -491,308 +654,10 @@ Formatters
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[albertan017/LLM4Decompile]]></title>
-        <id>https://github.com/albertan017/LLM4Decompile</id>
-        <link href="https://github.com/albertan017/LLM4Decompile"/>
-        <updated>2024-03-20T08:23:23.292Z</updated>
-        <summary type="html"><![CDATA[Reverse Engineering: Decompiling Binary Code with Large Language Models
-
-LLM4Decompile
- 
-Reverse Engineering: Decompiling Binary Code with Large Language Models
- 
-For more details check out the paper.
- 
-0. Updates
- 
-2023.03.16 Add llm4decompile-6.7b-uo model which is trained without prior knowledge of the optimization levels (O0~O3), the average re-executability is arond 0.21.
- 
-1. Introduction of LLM4Decompile and Decompile-Eval
- 
-Our objective is to create and release the first open-source LLM dedicated to decompilation, and to assess its capabilities by constructing the first decompilation benchmark focused on re-compilability and re-executable.
- 
-We start by compiling a million C code samples from AnghaBench into assembly code using GCC with different configurations, forming a dataset …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[hpcaitech/Open-Sora]]></title>
-        <id>https://github.com/hpcaitech/Open-Sora</id>
-        <link href="https://github.com/hpcaitech/Open-Sora"/>
-        <updated>2024-03-20T08:23:23.255Z</updated>
-        <summary type="html"><![CDATA[Open-Sora: Democratizing Efficient Video Production for All
-
-  
- 
- 
-  
-  
-  
-  
-  
-  
-  
- 
-Open-Sora: Democratizing Efficient Video Production for All
- 
-We present Open-Sora, an initiative dedicated to efficiently produce high-quality video and make the model, tools and contents accessible to all. By embracing open-source principles, Open-Sora not only democratizes access to advanced video generation techniques, but also offers a streamlined and user-friendly platform that simplifies the complexities of video production. With Open-Sora, we aim to inspire innovation, creativity, and inclusivity in the realm of content creation. [中文]
- 
-Open-Sora is still at an early stage and under active development.
- 
-📰 News
- 
- 
- 
-[2024.03.18] 🔥 We release Open-Sora 1.0, a fully open-source project for v…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[adrianhajdin/iphone]]></title>
-        <id>https://github.com/adrianhajdin/iphone</id>
-        <link href="https://github.com/adrianhajdin/iphone"/>
-        <updated>2024-03-20T08:23:23.224Z</updated>
-        <summary type="html"><![CDATA[Recreate the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. From custom animations to animated 3D models, this tutorial covers it all.
-
- 
- 
- 
-    
- 
- 
- 
- 
-   
-   
-   
-   
- 
- 
- 
-Iphone 15 Website
- 
- 
-JavaScript Mastery YouTube. Join the JSM family! 
- 
- 
- 
-📋 Table of Contents
- 
- 
- 
-🤖 Introduction
- 
- 
-⚙️ Tech Stack
- 
- 
-🔋 Features
- 
- 
-🤸 Quick Start
- 
- 
-🕸️ Snippets
- 
- 
-🔗 Links
- 
- 
-🚀 More
- 
- 
-🚨 Tutorial
- 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, JavaScript Mastery.
- 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
- 
-
- 
-🤖 Introduction
- 
-This is a clone of Apple's iPh…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[continuedev/continue]]></title>
-        <id>https://github.com/continuedev/continue</id>
-        <link href="https://github.com/continuedev/continue"/>
-        <updated>2024-03-20T08:23:23.160Z</updated>
-        <summary type="html"><![CDATA[⏩ The easiest way to code with any LLM—Continue is an open-source autopilot for VS Code and JetBrains
-
-
- 
-Continue
- 
- 
- 
-Continue is an open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM
- 
- 
- 
-    
-    
-    
- 
- 
- 
-
- 
- 
-Task and tab autocomplete
- 
-Answer coding questions
- 
-Highlight + select sections of code and ask Continue for another perspective
- 
- 
- 
-“what does this forRoot() static function do in nestjs?”
- 
- 
-“why is the first left join in this query necessary here?”
- 
- 
-“how do I run a performance benchmark on this rust binary?”
- 
- 
-Edit in natural language
- 
-Highlight + select a section of code and instruct Continue to refactor it
- 
- 
- 
-“/edit rewrite this to return a flattened list from a 3x3 matrix”
- 
- 
-“/edit refactor these into an angular flex la…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[yoheinakajima/mindgraph]]></title>
-        <id>https://github.com/yoheinakajima/mindgraph</id>
-        <link href="https://github.com/yoheinakajima/mindgraph"/>
-        <updated>2024-03-20T08:23:23.131Z</updated>
-        <summary type="html"><![CDATA[proof of concept prototype for generating and querying against an ever-expanding knowledge graph with ai
-
-MindGraph
- 
-Welcome to MindGraph, a proof of concept, open-source, API-first graph-based project designed for natural language interactions (input and output). This prototype serves as a template for building and customizing your own CRM solutions with a focus on ease of integration and extendibility. Here is the announcement on X, for some more context.
- 
-
- 
-Getting Started
- 
-Prerequisites
- 
-Before you begin, ensure you have the following installed:
- 
- 
- 
-Python 3.6 or higher
- 
- 
-Poetry (dependency management and packaging tool)
- 
- 
-Installation
- 
- 
- 
- Clone the repository:
- git clone https://github.com/yourusername/MindGraph.git
-
-  
- 
- Navigate to the project directory:
- cd MindGraph…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FlowiseAI/Flowise]]></title>
-        <id>https://github.com/FlowiseAI/Flowise</id>
-        <link href="https://github.com/FlowiseAI/Flowise"/>
-        <updated>2024-03-20T08:23:23.093Z</updated>
-        <summary type="html"><![CDATA[Drag & drop UI to build your customized LLM flow
-
-
- 
-Flowise - Build LLM Apps Easily
- 
-    
- 
-English | 中文
- 
-Drag & drop UI to build your customized LLM flow
- 
-  
-⚡Quick Start
- 
-Download and Install NodeJS >= 18.15.0
- 
- 
- 
- Install Flowise
- npm install -g flowise
-
-  
- 
- Start Flowise
- npx flowise start
-
- With username & password
- npx flowise start --FLOWISE_USERNAME=user --FLOWISE_PASSWORD=1234
-
-  
- 
- Open http://localhost:3000
-  
- 
-🐳 Docker
- 
-Docker Compose
- 
- 
- 
-Go to docker folder at the root of the project
- 
- 
-Copy .env.example file, paste it into the same location, and rename to .env
- 
- 
-docker-compose up -d
- 
- 
-Open http://localhost:3000
- 
- 
-You can bring the containers down by docker-compose stop
- 
- 
-Docker Image
- 
- 
- 
- Build the image locally:
- docker build --no-cache -t flowise .…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO]]></title>
         <id>https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO</id>
         <link href="https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO"/>
-        <updated>2024-03-20T08:23:23.061Z</updated>
+        <updated>2024-03-20T16:25:34.536Z</updated>
         <summary type="html"><![CDATA[我的 ComfyUI 工作流合集 | My ComfyUI workflows collection
 
 
@@ -882,76 +747,137 @@ ComfyUI Workflows ZHO
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[google/jax]]></title>
-        <id>https://github.com/google/jax</id>
-        <link href="https://github.com/google/jax"/>
-        <updated>2024-03-20T08:23:22.991Z</updated>
-        <summary type="html"><![CDATA[Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more
+        <title type="html"><![CDATA[hpcaitech/Open-Sora]]></title>
+        <id>https://github.com/hpcaitech/Open-Sora</id>
+        <link href="https://github.com/hpcaitech/Open-Sora"/>
+        <updated>2024-03-20T16:25:34.398Z</updated>
+        <summary type="html"><![CDATA[Open-Sora: Democratizing Efficient Video Production for All
 
- 
   
  
-JAX: Autograd and XLA
+ 
+  
+  
+  
+  
+  
+  
+  
+ 
+Open-Sora: Democratizing Efficient Video Production for All
+ 
+We present Open-Sora, an initiative dedicated to efficiently produce high-quality video and make the model, tools and contents accessible to all. By embracing open-source principles, Open-Sora not only democratizes access to advanced video generation techniques, but also offers a streamlined and user-friendly platform that simplifies the complexities of video production. With Open-Sora, we aim to inspire innovation, creativity, and inclusivity in the realm of content creation. [中文]
+ 
+Open-Sora is still at an early stage and under active development.
+ 
+📰 News
  
  
  
-Quickstart | Transformations | Install guide | Neural net libraries | Change logs | Reference docs
- 
-What is JAX?
- 
-JAX is a Python library for accelerator-oriented array computation and program transformation, designed for high-performance numerical computing and large-scale machine learning.
- 
-With its updated version of Autograd, JAX can automatically differentiate native Python and NumPy functions. It can differentiate through loops, branches, recursion, and closures, and it can take derivatives of derivatives of derivatives. It supports reverse-mode differentiation (a.k.a. backpropagation) via grad as well as forward-mode differentiation, and the …]]></summary>
+[2024.03.18] 🔥 We release Open-Sora 1.0, a fully open-source project for v…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[amazon-science/chronos-forecasting]]></title>
-        <id>https://github.com/amazon-science/chronos-forecasting</id>
-        <link href="https://github.com/amazon-science/chronos-forecasting"/>
-        <updated>2024-03-20T08:23:22.945Z</updated>
-        <summary type="html"><![CDATA[Chronos: Pretrained (Language) Models for Probabilistic Time Series Forecasting
+        <title type="html"><![CDATA[roboflow/supervision]]></title>
+        <id>https://github.com/roboflow/supervision</id>
+        <link href="https://github.com/roboflow/supervision"/>
+        <updated>2024-03-20T16:25:34.355Z</updated>
+        <summary type="html"><![CDATA[We write your reusable computer vision tools. 💜
 
-Chronos: Learning the Language of Time Series
  
-Chronos is a family of pretrained time series forecasting models based on language model architectures. A time series is transformed into a sequence of tokens via scaling and quantization, and a language model is trained on these tokens using the cross-entropy loss. Once trained, probabilistic forecasts are obtained by sampling multiple future trajectories given the historical context. Chronos models have been trained on a large corpus of publicly available time series data, as well as synthetic data generated using Gaussian processes.
  
-For details on Chronos models, training data and procedures, and experimental results, please refer to the paper Chronos: Learn…]]></summary>
+    
+ 
+ 
+ 
+ 
+notebooks | inference | autodistill | maestro
+ 
+ 
+ 
+ 
+       
+ 
+ 
+👋 hello
+ 
+We write your reusable computer vision tools. Whether you need to load your dataset from your hard drive, draw detections on an image or video, or count how many detections are in a zone. You can count on us! 🤝
+ 
+
+ 
+💻 install
+ 
+Pip install the supervision package in a Python>=3.8 environment.
+ 
+pip install supervision
+
+ 
+Read more about desktop, headless, and local installation in our guide.
+ 
+🔥 quickstart
+ 
+models
+ 
+Supervision was designed to be model agnostic. Just plug in any classification, detection, or segmentation model. For your convenience, we have created connectors for the most popular libraries like Ultralytics, Transformers, or MMD…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[imartinez/privateGPT]]></title>
-        <id>https://github.com/imartinez/privateGPT</id>
-        <link href="https://github.com/imartinez/privateGPT"/>
-        <updated>2024-03-20T08:23:22.914Z</updated>
-        <summary type="html"><![CDATA[Interact with your documents using the power of GPT, 100% privately, no data leaks
+        <title type="html"><![CDATA[continuedev/continue]]></title>
+        <id>https://github.com/continuedev/continue</id>
+        <link href="https://github.com/continuedev/continue"/>
+        <updated>2024-03-20T16:25:34.313Z</updated>
+        <summary type="html"><![CDATA[⏩ The easiest way to code with any LLM—Continue is an open-source autopilot for VS Code and JetBrains
 
-🔒 PrivateGPT 📑
- 
- 
- 
- 
- 
- 
- 
-Install & usage docs: https://docs.privategpt.dev/
- 
- 
-Join the community: Twitter & Discord
- 
- 
 
  
-PrivateGPT is a production-ready AI project that allows you to ask questions about your documents using the power of Large Language Models (LLMs), even in scenarios without an Internet connection. 100% private, no data leaves your execution environment at any point.
+Continue
  
-The project provides an API offering all the primitives required to build private, context-aware AI applications. It follows and extends the OpenAI API standard, and supports both normal and streaming responses.
  
-The API is divided into two logical blocks:
  
-High-level API, which abstracts all the complexity of a …]]></summary>
+Continue is an open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM
+ 
+ 
+ 
+    
+    
+    
+ 
+ 
+ 
+
+ 
+ 
+Task and tab autocomplete
+ 
+Answer coding questions
+ 
+Highlight + select sections of code and ask Continue for another perspective
+ 
+ 
+ 
+“what does this forRoot() static function do in nestjs?”
+ 
+ 
+“why is the first left join in this query necessary here?”
+ 
+ 
+“how do I run a performance benchmark on this rust binary?”
+ 
+ 
+Edit in natural language
+ 
+Highlight + select a section of code and instruct Continue to refactor it
+ 
+ 
+ 
+“/edit rewrite this to return a flattened list from a 3x3 matrix”
+ 
+ 
+“/edit refactor these into an angular flex la…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
         </author>
@@ -960,7 +886,7 @@ High-level API, which abstracts all the complexity of a …]]></summary>
         <title type="html"><![CDATA[laylavish/uBlockOrigin-HUGE-AI-Blocklist]]></title>
         <id>https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist</id>
         <link href="https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist"/>
-        <updated>2024-03-20T08:23:22.873Z</updated>
+        <updated>2024-03-20T16:25:34.282Z</updated>
         <summary type="html"><![CDATA[A huge blocklist of sites that contain AI generated content for uBlock Origin & uBlacklist.
 
 uBlockOrigin & uBlacklist Huge AI Blocklist
@@ -986,10 +912,155 @@ Import manually
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Pythagora-io/gpt-pilot]]></title>
+        <id>https://github.com/Pythagora-io/gpt-pilot</id>
+        <link href="https://github.com/Pythagora-io/gpt-pilot"/>
+        <updated>2024-03-20T16:25:34.255Z</updated>
+        <summary type="html"><![CDATA[The first real AI developer
+
+ 
+ 
+🧑‍✈️ GPT PILOT 🧑‍✈️
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+GPT Pilot doesn't just generate code, it builds apps!
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+(click to open the video in YouTube) (1:40min)
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+GPT Pilot is the core technology for the Pythagora VS Code extension that aims to provide the first real AI developer companion. Not just an autocomplete or a helper for PR messages but rather a real AI developer that can write full features, debug them, talk to you about issues, ask for review, etc.
+ 
+ 
+📫 If you would like to get updates on future releases or just get in touch, join our Discord server or you can add your email here. 📬
+ 
+ 
+ 
+ 
+ 
+🔌 Requirements
+ 
+ 
+🚦How to start using gpt-pilot?
+ 
+ 
+🔎 Examples
+ 
+ 
+🐳 How to start gpt-pilot in docker?
+ 
+ 
+🧑‍💻️…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[geekan/MetaGPT]]></title>
+        <id>https://github.com/geekan/MetaGPT</id>
+        <link href="https://github.com/geekan/MetaGPT"/>
+        <updated>2024-03-20T16:25:34.216Z</updated>
+        <summary type="html"><![CDATA[🌟 The Multi-Agent Framework: Providing AI Software Company, Towards Natural Language Programming
+
+MetaGPT: The Multi-Agent Framework
+ 
+  
+ 
+ Assign different roles to GPTs to form a collaborative entity for complex tasks. 
+ 
+        
+ 
+    
+ 
+News
+ 
+🚀 Mar. 14, 2024: Our Data Interpreter paper is on arxiv. Check the example and code!
+ 
+🚀 Feb. 08, 2024: v0.7.0 released, supporting assigning different LLMs to different Roles. We also introduced Data Interpreter, a powerful agent capable of solving a wide range of real-world problems.
+ 
+🚀 Jan. 16, 2024: Our paper MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework  accepted for oral presentation (top 1.2%) at ICLR 2024, ranking #1 in the LLM-based Agent category.
+ 
+🚀 Jan. 03, 2024: v0.6.0 released, new features include ser…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[openai/grok]]></title>
+        <id>https://github.com/openai/grok</id>
+        <link href="https://github.com/openai/grok"/>
+        <updated>2024-03-20T16:25:34.184Z</updated>
+        <summary type="html"><![CDATA[OpenAI Grok Curve Experiments
+ 
+Paper
+ 
+This is the code for the paper Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets by Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, and Vedant Misra
+ 
+Installation and Training
+ 
+pip install -e .
+./scripts/train.py]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ianand/spreadsheets-are-all-you-need]]></title>
+        <id>https://github.com/ianand/spreadsheets-are-all-you-need</id>
+        <link href="https://github.com/ianand/spreadsheets-are-all-you-need"/>
+        <updated>2024-03-20T16:25:31.314Z</updated>
+        <summary type="html"><![CDATA[Spreadsheets-are-all-you-need
+ 
+Spreadsheets-are-all-you-need implements the forward pass of GPT2 (an ancestor of ChatGPT) entirely in Excel using standard spreadsheet functions.
+ 
+By using a spreadsheet anyone (even non-developers) can explore and play directly with how a “real” transformer works under the hood with minimal abstractions to get in the way.
+ 
+Visit spreadsheets-are-all-you-need.ai for more info
+ 
+Download the sheet
+ 
+The sheet is available as an xlsb (Excel binary) file in the Releases section of this repo. You should be able to download and run this file in Excel for Mac or PC.
+ 
+The file does not use VBA or Macros. However, if you are concerned about safely opening untrusted Excel files you can disable macros in the Excel Trust Center and open the file in Excel Protected View.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Alvin9999/new-pac]]></title>
         <id>https://github.com/Alvin9999/new-pac</id>
         <link href="https://github.com/Alvin9999/new-pac"/>
-        <updated>2024-03-20T08:23:18.404Z</updated>
+        <updated>2024-03-20T16:25:31.130Z</updated>
         <summary type="html"><![CDATA[翻墙-科学上网、自由上网、免费科学上网、免费翻墙、油管youtube、fanqiang、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙、科学上网
 
 科学上网-翻墙、免费翻墙、免费科学上网、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，免费自由上网、fanqiang、翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙
@@ -1000,40 +1071,10 @@ https://github.com/Alvin9999/new-pac/wiki/]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[NanmiCoder/MediaCrawler]]></title>
-        <id>https://github.com/NanmiCoder/MediaCrawler</id>
-        <link href="https://github.com/NanmiCoder/MediaCrawler"/>
-        <updated>2024-03-20T08:23:18.372Z</updated>
-        <summary type="html"><![CDATA[小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫
-
- 
- 
-说明
- 
- 
- 
- 
-最近这个仓库受到了大量的关注，本身我开源出来这个仓库的目的是提供一种新思路分享给大家学习和了解爬虫。
- 但是随着热度的不断暴涨，随之而来的是该仓库可能给各平台方带来不少的服务器压力，以及一些其他不好的影响（虽然我有免责声明，但是不能控制一些使用该仓库的人）
- 所以综合考虑之下，决定清除该仓库。我不想给自己带来一些不必要的麻烦，本来就没从中得到些什么，风险还很高
- 大家江湖再见，后续开源代码会尽量写一些正常点的代码🥲
- 最后感谢下面几个赞助商的赞助（一个周后会清楚掉赞助商列表）。
- 
- 
-感谢下列Sponsors对本仓库赞助
- 
-全球ip代理超新星 
-  你也可以通过注册这款免费的ChatGPT产品，帮我获取额外的GPT-4额度作为支持，也是我每天都在用的一款chrome效率插件，推荐给你，你也能获得免费额度。 
-  整数智能《高级爬虫工程师》招聘]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[xai-org/grok-1]]></title>
         <id>https://github.com/xai-org/grok-1</id>
         <link href="https://github.com/xai-org/grok-1"/>
-        <updated>2024-03-20T08:23:18.347Z</updated>
+        <updated>2024-03-20T16:25:31.070Z</updated>
         <summary type="html"><![CDATA[Grok open release
 
 Grok-1
@@ -1062,96 +1103,421 @@ Grok-1 is currently designed with the following spec…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ianand/spreadsheets-are-all-you-need]]></title>
-        <id>https://github.com/ianand/spreadsheets-are-all-you-need</id>
-        <link href="https://github.com/ianand/spreadsheets-are-all-you-need"/>
-        <updated>2024-03-20T08:23:18.312Z</updated>
-        <summary type="html"><![CDATA[Spreadsheets-are-all-you-need
- 
-Spreadsheets-are-all-you-need implements the forward pass of GPT2 (an ancestor of ChatGPT) entirely in Excel using standard spreadsheet functions.
- 
-By using a spreadsheet anyone (even non-developers) can explore and play directly with how a “real” transformer works under the hood with minimal abstractions to get in the way.
- 
-Visit spreadsheets-are-all-you-need.ai for more info
- 
-Download the sheet
- 
-The sheet is available as an xlsb (Excel binary) file in the Releases section of this repo. You should be able to download and run this file in Excel for Mac or PC.
- 
-The file does not use VBA or Macros. However, if you are concerned about safely opening untrusted Excel files you can disable macros in the Excel Trust Center and open the file in Excel Protected View.]]></summary>
+        <title type="html"><![CDATA[Flightradar24's new GPS jamming map]]></title>
+        <id>https://news.ycombinator.com/item?id=39768434</id>
+        <link href="https://www.flightradar24.com/blog/gps-jamming-map/"/>
+        <updated>2024-03-20T16:03:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.flightradar24.com/blog/gps-jamming-map/
+Comments URL: https://news.ycombinator.com/item?id=39768434
+Points: 25
+# Comments: 2]]></summary>
         <author>
-            <name>GitHub All Languages Daily Trending</name>
+            <name>mjs</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[openai/grok]]></title>
-        <id>https://github.com/openai/grok</id>
-        <link href="https://github.com/openai/grok"/>
-        <updated>2024-03-20T08:23:18.287Z</updated>
-        <summary type="html"><![CDATA[OpenAI Grok Curve Experiments
- 
-Paper
- 
-This is the code for the paper Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets by Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, and Vedant Misra
- 
-Installation and Training
- 
-pip install -e .
-./scripts/train.py]]></summary>
+        <title type="html"><![CDATA[Key Stable Diffusion Researchers Leave Stability AI as Company Flounders]]></title>
+        <id>https://news.ycombinator.com/item?id=39768402</id>
+        <link href="https://www.forbes.com/sites/iainmartin/2024/03/20/key-stable-diffusion-researchers-leave-stability-ai-as-company-flounders"/>
+        <updated>2024-03-20T16:00:56.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.forbes.com/sites/iainmartin/2024/03/20/key-stable-diffusion-researchers-leave-stability-ai-as-company-flounders
+Comments URL: https://news.ycombinator.com/item?id=39768402
+Points: 20
+# Comments: 2]]></summary>
         <author>
-            <name>GitHub All Languages Daily Trending</name>
+            <name>muzz</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[U.S. No Longer Ranks Among 20 Happiest Countries]]></title>
-        <id>https://news.ycombinator.com/item?id=39763595</id>
-        <link href="https://www.wsj.com/health/wellness/world-happiness-report-americans-top-20-0f59cf98"/>
-        <updated>2024-03-20T07:16:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/health/wellness/world-happiness-report-americans-top-20-0f59cf98
-Comments URL: https://news.ycombinator.com/item?id=39763595
-Points: 18
-# Comments: 14]]></summary>
+        <title type="html"><![CDATA[Here's Proof You Can Train an AI Model Without Slurping Copyrighted Content]]></title>
+        <id>65f86cc699e4b187aa6f49d7</id>
+        <link href="https://www.wired.com/story/proof-you-can-train-ai-without-slurping-copyrighted-content/"/>
+        <updated>2024-03-20T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI claimed it's "impossible" to build good AI models without using copyrighted data. An “ethically created” large language model and a giant AI dataset of public domain text suggest otherwise.]]></summary>
         <author>
-            <name>kvee</name>
+            <name>Kate Knibbs</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Climate Change Speeds Up as Major Indicators Blow Off the Charts, WMO Warns]]></title>
-        <id>https://news.ycombinator.com/item?id=39763545</id>
-        <link href="https://www.bloomberg.com/news/articles/2024-03-19/climate-change-speeds-up-as-major-indicators-blow-off-the-charts-wmo-warns"/>
-        <updated>2024-03-20T07:05:44.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bloomberg.com/news/articles/2024-03-19/climate-change-speeds-up-as-major-indicators-blow-off-the-charts-wmo-warns
-Comments URL: https://news.ycombinator.com/item?id=39763545
-Points: 22
-# Comments: 6]]></summary>
+        <title type="html"><![CDATA[Multiple Stability AI researchers are departing, CEO says]]></title>
+        <id>https://news.ycombinator.com/item?id=39768361</id>
+        <link href="https://twitter.com/kenrickcai/status/1770474370278035775"/>
+        <updated>2024-03-20T15:58:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/kenrickcai/status/1770474370278035775
+Comments URL: https://news.ycombinator.com/item?id=39768361
+Points: 19
+# Comments: 3]]></summary>
         <author>
-            <name>Capstanlqc</name>
+            <name>ilamont</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Ashby (YC W19) Is Hiring Engineering Managers in EMEA]]></title>
-        <id>https://news.ycombinator.com/item?id=39763524</id>
-        <link href="https://www.ashbyhq.com/careers?utm_source=hn&amp;ashby_jid=7458d4e9-da2e-47bd-98cb-adfda43d42b2"/>
-        <updated>2024-03-20T07:00:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ashbyhq.com/careers?utm_source=hn&ashby_jid=7458d4e9-da2e-47bd-98cb-adfda43d42b2
-Comments URL: https://news.ycombinator.com/item?id=39763524
+        <title type="html"><![CDATA[US Gov announces $8.5B preliminary CHIPS investment agreement with Intel]]></title>
+        <id>https://news.ycombinator.com/item?id=39768069</id>
+        <link href="https://www.commerce.gov/news/press-releases/2024/03/biden-harris-administration-announces-preliminary-terms-intel-support"/>
+        <updated>2024-03-20T15:35:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.commerce.gov/news/press-releases/2024/03/biden-harris-administration-announces-preliminary-terms-intel-support
+Comments URL: https://news.ycombinator.com/item?id=39768069
+Points: 45
+# Comments: 25]]></summary>
+        <author>
+            <name>mellosouls</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United Arab Emirates is using cloud seeding tech to make it rain]]></title>
+        <id>https://news.ycombinator.com/item?id=39768048</id>
+        <link href="https://www.cnbc.com/2024/03/18/united-arab-emirates-is-using-cloud-seeding-tech-to-make-it-rain.html"/>
+        <updated>2024-03-20T15:33:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cnbc.com/2024/03/18/united-arab-emirates-is-using-cloud-seeding-tech-to-make-it-rain.html
+Comments URL: https://news.ycombinator.com/item?id=39768048
+Points: 17
+# Comments: 7]]></summary>
+        <author>
+            <name>AlgoRitmo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In wake of powerful cyclone, remarkable recovery of Pacific island's forests]]></title>
+        <id>https://news.ycombinator.com/item?id=39767533</id>
+        <link href="https://phys.org/news/2024-03-powerful-cyclone-remarkable-recovery-pacific.html"/>
+        <updated>2024-03-20T14:56:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://phys.org/news/2024-03-powerful-cyclone-remarkable-recovery-pacific.html
+Comments URL: https://news.ycombinator.com/item?id=39767533
+Points: 5
+# Comments: 3]]></summary>
+        <author>
+            <name>wglb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ISP's Landmark Piracy Liability Case Doesn't Get a Do-Over in Appeals Court]]></title>
+        <id>https://news.ycombinator.com/item?id=39767286</id>
+        <link href="https://torrentfreak.com/isps-landmark-piracy-liability-case-doesnt-get-a-do-over-in-appeals-court-240320/"/>
+        <updated>2024-03-20T14:41:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://torrentfreak.com/isps-landmark-piracy-liability-case-doesnt-get-a-do-over-in-appeals-court-240320/
+Comments URL: https://news.ycombinator.com/item?id=39767286
+Points: 28
+# Comments: 4]]></summary>
+        <author>
+            <name>leotravis10</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Britain's Pompeii' reveals Bronze Age village frozen in time]]></title>
+        <id>https://news.ycombinator.com/item?id=39767083</id>
+        <link href="https://www.cnn.com/2024/03/20/europe/must-farm-bronze-age-britain-pompeii-scn/index.html"/>
+        <updated>2024-03-20T14:28:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cnn.com/2024/03/20/europe/must-farm-bronze-age-britain-pompeii-scn/index.html
+Comments URL: https://news.ycombinator.com/item?id=39767083
+Points: 34
+# Comments: 4]]></summary>
+        <author>
+            <name>peutetre</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rive Renderer for real-time vector graphics is now open source]]></title>
+        <id>https://news.ycombinator.com/item?id=39766893</id>
+        <link href="https://rive.app/blog/rive-renderer-now-open-source-and-available-on-all-platforms"/>
+        <updated>2024-03-20T14:16:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://rive.app/blog/rive-renderer-now-open-source-and-available-on-all-platforms
+Comments URL: https://news.ycombinator.com/item?id=39766893
+Points: 90
+# Comments: 22]]></summary>
+        <author>
+            <name>rrampage</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The World’s E-Waste Has Reached a Crisis Point]]></title>
+        <id>65f8703ab2ee46837e051887</id>
+        <link href="https://www.wired.com/story/e-waste-recycling-cant-keep-up-precious-metals/"/>
+        <updated>2024-03-20T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A new UN report finds that humanity is generating 137 billion pounds of TVs, smartphones, and other e-waste a year—and recycling less than a quarter of it.]]></summary>
+        <author>
+            <name>Matt Simon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Industrial Policy, East or West, for Development or War?]]></title>
+        <id>https://www.nakedcapitalism.com/?p=268745</id>
+        <link href="https://www.nakedcapitalism.com/2024/03/industrial-policy-east-or-west-for-development-or-war.html"/>
+        <updated>2024-03-20T13:55:38.000Z</updated>
+        <summary type="html"><![CDATA[The West has gone from disdaining industrial policy to becoming a true believer.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Focus by Automation]]></title>
+        <id>https://news.ycombinator.com/item?id=39766236</id>
+        <link href="https://myme.no/posts/2024-03-19-focus-by-automation.html"/>
+        <updated>2024-03-20T13:33:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://myme.no/posts/2024-03-19-focus-by-automation.html
+Comments URL: https://news.ycombinator.com/item?id=39766236
+Points: 43
+# Comments: 15]]></summary>
+        <author>
+            <name>todsacerdoti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So you think you want to write a deterministic hypervisor?]]></title>
+        <id>https://news.ycombinator.com/item?id=39766222</id>
+        <link href="https://antithesis.com/blog/deterministic_hypervisor/"/>
+        <updated>2024-03-20T13:32:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://antithesis.com/blog/deterministic_hypervisor/
+Comments URL: https://news.ycombinator.com/item?id=39766222
+Points: 42
+# Comments: 4]]></summary>
+        <author>
+            <name>wwilson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[8 Google Employees Invented Modern AI. Here's the Inside Story]]></title>
+        <id>https://news.ycombinator.com/item?id=39766170</id>
+        <link href="https://www.wired.com/story/eight-google-employees-invented-modern-ai-transformers-paper/"/>
+        <updated>2024-03-20T13:29:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wired.com/story/eight-google-employees-invented-modern-ai-transformers-paper/
+Comments URL: https://news.ycombinator.com/item?id=39766170
+Points: 160
+# Comments: 103]]></summary>
+        <author>
+            <name>marban</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing WARP Connector: paving the path to any-to-any connectivity]]></title>
+        <id>65fa39e3a5fcdf000a08d932</id>
+        <link href="https://blog.cloudflare.com/introducing-warp-connector-paving-the-path-to-any-to-any-connectivity-2"/>
+        <updated>2024-03-20T13:00:05.000Z</updated>
+        <summary type="html"><![CDATA[Starting today, Zero Trust administrators can deploy our new WARP Connector for simplified any-to-any connectivity]]></summary>
+        <author>
+            <name>Abe Carryl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paris preserves its mixed society by pouring billions into public housing]]></title>
+        <id>https://news.ycombinator.com/item?id=39765692</id>
+        <link href="https://www.nytimes.com/2024/03/17/realestate/paris-france-housing-costs.html"/>
+        <updated>2024-03-20T12:48:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2024/03/17/realestate/paris-france-housing-costs.html
+Comments URL: https://news.ycombinator.com/item?id=39765692
+Points: 156
+# Comments: 258]]></summary>
+        <author>
+            <name>mooreds</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elon Musk's X Is Suspending Accounts That Reveal a Neo-Nazi Cartoonist's Alleged Identity]]></title>
+        <id>65f80cca24f122c934b7ea9a</id>
+        <link href="https://www.wired.com/story/elon-musk-x-blocked-journalists-researchers-neo-nazi-cartoonist/"/>
+        <updated>2024-03-20T12:43:41.000Z</updated>
+        <summary type="html"><![CDATA[Researchers and journalists have been blocked on X from sharing the alleged identity of the neo-Nazi cartoonist Stonetoss.]]></summary>
+        <author>
+            <name>David Gilbert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lcl.host: fast, easy HTTPS in your local dev environment]]></title>
+        <id>https://news.ycombinator.com/item?id=39765630</id>
+        <link href="https://anchor.dev/blog/introducing-lcl-host"/>
+        <updated>2024-03-20T12:42:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://anchor.dev/blog/introducing-lcl-host
+Comments URL: https://news.ycombinator.com/item?id=39765630
+Points: 83
+# Comments: 30]]></summary>
+        <author>
+            <name>todsacerdoti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LG TV Lineup 2024: What to Look for This Year]]></title>
+        <id>65f9b92811b55019ff54a579</id>
+        <link href="https://www.wired.com/story/lg-tv-lineup-news-2024/"/>
+        <updated>2024-03-20T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The major electronics brand has some big things planned for new TV models this year, including a major update to WebOS.]]></summary>
+        <author>
+            <name>Ryan Waniata</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lago Is Hiring to Scale the Open-Source Alternative to Stripe Billing]]></title>
+        <id>https://news.ycombinator.com/item?id=39765287</id>
+        <link href="https://news.ycombinator.com/item?id=39765287"/>
+        <updated>2024-03-20T12:00:59.000Z</updated>
+        <summary type="html"><![CDATA[Comments URL: https://news.ycombinator.com/item?id=39765287
 Points: 0
 # Comments: 0]]></summary>
         <author>
-            <name>abhikp</name>
+            <name>AnhTho_FR</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Lenovo announced ThinkPads for 'better sustainability and extended repairabilty']]></title>
-        <id>https://news.ycombinator.com/item?id=39763429</id>
-        <link href="https://news.lenovo.com/pressroom/press-releases/unleashing-innovation-and-better-sustainability-of-lenovos-latest-thinkpad-l-series-and-x-series-laptops/"/>
-        <updated>2024-03-20T06:33:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://news.lenovo.com/pressroom/press-releases/unleashing-innovation-and-better-sustainability-of-lenovos-latest-thinkpad-l-series-and-x-series-laptops/
-Comments URL: https://news.ycombinator.com/item?id=39763429
-Points: 40
-# Comments: 46]]></summary>
+        <title type="html"><![CDATA[3 Best Smart Displays (2024): Google Assistant and Amazon Alexa]]></title>
+        <id>5bbb58d10abf932caf294b71</id>
+        <link href="https://www.wired.com/gallery/best-smart-displays/"/>
+        <updated>2024-03-20T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ever wish you could smash a tablet and smart speaker together? These devices offer the best of both.]]></summary>
         <author>
-            <name>opengears</name>
+            <name>Nena Farrell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Indonesia's e-bike shops are building their own batteries]]></title>
+        <id>https://news.ycombinator.com/item?id=39764992</id>
+        <link href="https://restofworld.org/2024/homemade-ebike-battery-indonesia/"/>
+        <updated>2024-03-20T11:20:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://restofworld.org/2024/homemade-ebike-battery-indonesia/
+Comments URL: https://news.ycombinator.com/item?id=39764992
+Points: 80
+# Comments: 49]]></summary>
+        <author>
+            <name>donohoe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Michel Talagrand Wins Abel Prize for Work Wrangling Randomness]]></title>
+        <id>https://news.ycombinator.com/item?id=39764954</id>
+        <link href="https://www.quantamagazine.org/michel-talagrand-wins-abel-prize-for-work-wrangling-randomness-20240320/"/>
+        <updated>2024-03-20T11:12:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.quantamagazine.org/michel-talagrand-wins-abel-prize-for-work-wrangling-randomness-20240320/
+Comments URL: https://news.ycombinator.com/item?id=39764954
+Points: 136
+# Comments: 21]]></summary>
+        <author>
+            <name>jnord</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: macOS Reminder Sync for Obsidian Tasks]]></title>
+        <id>https://news.ycombinator.com/item?id=39764919</id>
+        <link href="https://turquoisehexagon.co.uk/remindersync/"/>
+        <updated>2024-03-20T11:07:36.000Z</updated>
+        <summary type="html"><![CDATA[Greetings,
+I started using Obsidian and the brilliant Obsidian Tasks plugin to manage Tasks in my notes however it didn't quite work for me as I would lose track of Tasks when away from my laptop, and there are no reminders for Tasks so it's not easy to stay on top of things.
+I wrote my first macOS App to solve the problem; Reminder Sync for Obsidian. It periodically scans your Obsidian Vault for Tasks and creates Reminders for them in Reminders.app! Once your Tasks are created as Reminders they are synced through iCloud so they are also visible on iOS; this solves the main problem I had with Obsidian Tasks, allowing me to keep on top of Tasks with system Reminders and Widgets on macOS and iOS.
+Other features apart from the core functionality described above are:
+- Creating a Reminder adds a Task to an Inbox note in your Obsidian Vault, allowing you to create Obsidian Tasks from iOS.
+- Deleting/Completing a Task in Reminders app completes/deletes the Task in your Vault
+The core functionality is free, and I believe the free version should be sufficient for most users. Paid features include increased automatic sync frequency, ability to delete tasks from Reminders.app and ability to generate a description for the Reminder.
+The app is available on the App Store: https://apple.co/3TH1e5s
+You can view a demo video at the homepage: https://turquoisehexagon.co.uk/remindersync/
+I would appreciate any feedback as it's my first solo App release!
+Comments URL: https://news.ycombinator.com/item?id=39764919
+Points: 120
+# Comments: 72]]></summary>
+        <author>
+            <name>rahilb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RStudio: Integrated development environment (IDE) for R]]></title>
+        <id>https://news.ycombinator.com/item?id=39764887</id>
+        <link href="https://github.com/rstudio/rstudio"/>
+        <updated>2024-03-20T11:02:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/rstudio/rstudio
+Comments URL: https://news.ycombinator.com/item?id=39764887
+Points: 47
+# Comments: 28]]></summary>
+        <author>
+            <name>_benj</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Vision Pro Review: A Little Too Far Out]]></title>
+        <id>65f1da0fab7f262f40b3d053</id>
+        <link href="https://www.wired.com/review/apple-vision-pro/"/>
+        <updated>2024-03-20T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Vision Pro is a big leap for spatial computing in an unfriendly package.]]></summary>
+        <author>
+            <name>Julian Chokkattu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[15 Best Deals From the Amazon Big Spring Sale: Phones, Chargers, and More]]></title>
+        <id>65f9b40af0ff914cd5095d33</id>
+        <link href="https://www.wired.com/story/amazon-big-spring-sale-2024/"/>
+        <updated>2024-03-20T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon's five-day sale is the perfect chance to start fresh with new tech, including headphones, video doorbells, and chargers.]]></summary>
+        <author>
+            <name>Louryn Strampe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links 3/20/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=268728</id>
+        <link href="https://www.nakedcapitalism.com/2024/03/links-3-20-2024.html"/>
+        <updated>2024-03-20T10:55:09.000Z</updated>
+        <summary type="html"><![CDATA[Our squeezably soft daily links]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Nebula – A network agnostic DHT crawler]]></title>
+        <id>https://news.ycombinator.com/item?id=39764839</id>
+        <link href="https://github.com/dennis-tra/nebula"/>
+        <updated>2024-03-20T10:54:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/dennis-tra/nebula
+Comments URL: https://news.ycombinator.com/item?id=39764839
+Points: 30
+# Comments: 13]]></summary>
+        <author>
+            <name>dennis-tra</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Private Equity Buying Up Accounting Practices. What Could Go Wrong?  The Health Industry Gives Some Ideas]]></title>
+        <id>https://www.nakedcapitalism.com/?p=268603</id>
+        <link href="https://www.nakedcapitalism.com/2024/03/private-equity-buying-up-accounting-practices-what-could-go-wrong-the-health-industry-gives-some-ideas.html"/>
+        <updated>2024-03-20T10:53:56.000Z</updated>
+        <summary type="html"><![CDATA[Private equity is setting out to hoover up accounting practices. The sorry experience in health care says there is cause for pause.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“The Algorithm Told Me to Do It”: More Price Fixing in US Rental Market]]></title>
+        <id>https://www.nakedcapitalism.com/?p=268697</id>
+        <link href="https://www.nakedcapitalism.com/2024/03/the-algorithm-told-me-to-do-it-more-price-fixing-in-us-rental-market.html"/>
+        <updated>2024-03-20T10:00:49.000Z</updated>
+        <summary type="html"><![CDATA[Arizona and another class action join lawsuit parade against price-setting software companies and property managers, North Carolina AG investigating.]]></summary>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[8 Google Employees Invented Modern AI. Here’s the Inside Story]]></title>
+        <id>65ea191c9cc8ebe24bb99960</id>
+        <link href="https://www.wired.com/story/eight-google-employees-invented-modern-ai-transformers-paper/"/>
+        <updated>2024-03-20T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[They met by chance, got hooked on an idea, and wrote the “Transformers” paper—the most consequential tech breakthrough in recent history.]]></summary>
+        <author>
+            <name>Steven Levy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Glassdoor Wants to Know Your Real Name]]></title>
+        <id>65f4616f95906045446025e1</id>
+        <link href="https://www.wired.com/story/glassdoor-wants-to-know-your-real-name/"/>
+        <updated>2024-03-20T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anonymous, candid reviews made Glassdoor a powerful place to research potential employers. A policy shift requiring users to privately verify their real names is raising privacy concerns.]]></summary>
+        <author>
+            <name>Amanda Hoover</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Health Workers Fear It’s Profits Before Protection as CDC Revisits Airborne Transmission]]></title>
+        <id>https://www.nakedcapitalism.com/?p=268730</id>
+        <link href="https://www.nakedcapitalism.com/2024/03/health-workers-fear-its-profits-before-protection-as-cdc-revisits-airborne-transmission.html"/>
+        <updated>2024-03-20T08:46:52.000Z</updated>
+        <summary type="html"><![CDATA[Health industry employee objections have forced the CDC to rethink its weak guidance on aerosol transmission, but experts are not optimistic.]]></summary>
+        <author>
+            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -1232,19 +1598,6 @@ The post The Cruel Eijao Trade Kills Millions of Donkeys Every Year appeared fir
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[They Praised AI at SXSW–and the Audience Started Booing]]></title>
-        <id>https://news.ycombinator.com/item?id=39763221</id>
-        <link href="https://www.honest-broker.com/p/they-praised-ai-at-sxswand-the-audience"/>
-        <updated>2024-03-20T05:51:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.honest-broker.com/p/they-praised-ai-at-sxswand-the-audience
-Comments URL: https://news.ycombinator.com/item?id=39763221
-Points: 27
-# Comments: 8]]></summary>
-        <author>
-            <name>imartin2k</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Ugly Origins of Trump’s “America First” Policy]]></title>
         <id>https://www.counterpunch.org/?p=316604</id>
         <link href="https://www.counterpunch.org/2024/03/20/the-ugly-origins-of-trumps-america-first-policy/"/>
@@ -1267,32 +1620,6 @@ The post How Online Black Resistance Efforts Outlive Political Clickbait appeare
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[EFF: Tell Congress: We Can't Afford More Bad Patents]]></title>
-        <id>https://news.ycombinator.com/item?id=39763104</id>
-        <link href="https://act.eff.org/action/tell-congress-we-can-t-afford-more-bad-patents"/>
-        <updated>2024-03-20T05:28:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://act.eff.org/action/tell-congress-we-can-t-afford-more-bad-patents
-Comments URL: https://news.ycombinator.com/item?id=39763104
-Points: 53
-# Comments: 7]]></summary>
-        <author>
-            <name>camkego</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dissent – A GTK4 Discord client written in Go]]></title>
-        <id>https://news.ycombinator.com/item?id=39762890</id>
-        <link href="https://github.com/diamondburned/dissent"/>
-        <updated>2024-03-20T04:35:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/diamondburned/dissent
-Comments URL: https://news.ycombinator.com/item?id=39762890
-Points: 46
-# Comments: 25]]></summary>
-        <author>
-            <name>smoldesu</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Votes That Count]]></title>
         <id>https://www.counterpunch.org/?p=316681</id>
         <link href="https://www.counterpunch.org/2024/03/20/the-votes-that-count/"/>
@@ -1301,32 +1628,6 @@ Points: 46
 The post The Votes That Count appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Wim Laven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Improved My Rust Compile Times by 75%]]></title>
-        <id>https://news.ycombinator.com/item?id=39762807</id>
-        <link href="https://benw.is/posts/how-i-improved-my-rust-compile-times-by-seventy-five-percent"/>
-        <updated>2024-03-20T04:14:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://benw.is/posts/how-i-improved-my-rust-compile-times-by-seventy-five-percent
-Comments URL: https://news.ycombinator.com/item?id=39762807
-Points: 81
-# Comments: 44]]></summary>
-        <author>
-            <name>excsn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Covid brain fog may be due to damaged blood vessels in the brain]]></title>
-        <id>https://news.ycombinator.com/item?id=39762776</id>
-        <link href="https://www.sciencenews.org/article/long-covid-brain-fog-blood-brain-barrier-damage"/>
-        <updated>2024-03-20T04:06:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.sciencenews.org/article/long-covid-brain-fog-blood-brain-barrier-damage
-Comments URL: https://news.ycombinator.com/item?id=39762776
-Points: 144
-# Comments: 45]]></summary>
-        <author>
-            <name>wahnfrieden</name>
         </author>
     </entry>
     <entry>
@@ -1430,169 +1731,83 @@ Points: 144
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[This concrete can eat carbon emissions]]></title>
-        <id>65b1742542a7a338235d6c5d</id>
-        <link href="https://www.wired.com/story/concrete-carbon-capture-co2/"/>
-        <updated>2024-03-20T03:37:16.000Z</updated>
-        <summary type="html"><![CDATA[Concrete is responsible for more than four percent of all global CO2 emissions. In the race to find alternatives, some companies are using it to sequester CO2 instead]]></summary>
+        <title type="html"><![CDATA[Google Censorship: AI Run Amok Threatens Demonetization Over a Navigation Page with No Ads, An Article on a Foreign Policy Best-Seller Deemed Anti-Vaxx,  and More Flagrant Errors]]></title>
+        <id>https://www.nakedcapitalism.com/?p=268112</id>
+        <link href="https://www.nakedcapitalism.com/2024/03/google-censorship-ai-run-amok-threatens-demonetization-over-a-navigation-page-with-no-ads-an-article-on-a-foreign-policy-best-seller-deemed-anti-vaxx-and-more-flagrant-errors.html"/>
+        <updated>2024-03-20T00:50:04.000Z</updated>
+        <summary type="html"><![CDATA[Google tries to censor this site based on a systematically flawed AI review. How many others will be victims of bad algos?]]></summary>
         <author>
-            <name>Oliver Franklin-Wallis</name>
+            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A hidden Arctic cave holds secrets about our past and future]]></title>
-        <id>65b173e65f98a91c3f9ec459</id>
-        <link href="https://www.wired.com/story/arctic-caves-greenland/"/>
-        <updated>2024-03-20T03:29:08.000Z</updated>
-        <summary type="html"><![CDATA[For half-a-century scientists have wondered what clues this enigmatic Greenland cave might hold. Now they're about to find out]]></summary>
+        <title type="html"><![CDATA[The warfighter]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00821-2</id>
+        <link href="https://www.nature.com/articles/d41586-024-00821-2"/>
+        <updated>2024-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome home.]]></summary>
         <author>
-            <name>Emma Bryce</name>
+            <name>Timothy Quinn</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Study Puts Fermented Foods, Not Fire, as Pivotal Moment in Human Brain Growth]]></title>
-        <id>https://news.ycombinator.com/item?id=39762588</id>
-        <link href="https://plantbasednews.org/news/science/fermented-foods-human-brain-growth/"/>
-        <updated>2024-03-20T03:20:28.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://plantbasednews.org/news/science/fermented-foods-human-brain-growth/
-Comments URL: https://news.ycombinator.com/item?id=39762588
-Points: 132
-# Comments: 67]]></summary>
+        <title type="html"><![CDATA[‘Woah, this is affecting me’: why I’m fighting racial inequality in prostate-cancer research]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00857-4</id>
+        <link href="https://www.nature.com/articles/d41586-024-00857-4"/>
+        <updated>2024-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Olugbenga Samuel Oyeniyi sought a career with a stronger public-health focus after learning that Black men are twice as likely as white men to get prostate cancer.]]></summary>
         <author>
-            <name>thelastgallon</name>
+            <name>Jacqui Thornton</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Let's create a Tree-sitter grammar]]></title>
-        <id>https://news.ycombinator.com/item?id=39762495</id>
-        <link href="https://www.jonashietala.se/blog/2024/03/19/lets_create_a_tree-sitter_grammar/"/>
-        <updated>2024-03-20T02:55:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.jonashietala.se/blog/2024/03/19/lets_create_a_tree-sitter_grammar/
-Comments URL: https://news.ycombinator.com/item?id=39762495
-Points: 63
-# Comments: 7]]></summary>
+        <title type="html"><![CDATA[These ‘movies’ of proteins in action are revealing the hidden biology of cells]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00817-y</id>
+        <link href="https://www.nature.com/articles/d41586-024-00817-y"/>
+        <updated>2024-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A burgeoning technique called time-resolved cryo-EM is granting insights into the tiny motors and devices that power life.]]></summary>
         <author>
-            <name>thunderbong</name>
+            <name>Ewen Callaway</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Soul: A SQLite REST and Realtime Server]]></title>
-        <id>https://news.ycombinator.com/item?id=39762315</id>
-        <link href="https://thevahidal.github.io/soul/"/>
-        <updated>2024-03-20T02:14:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://thevahidal.github.io/soul/
-Comments URL: https://news.ycombinator.com/item?id=39762315
-Points: 55
-# Comments: 17]]></summary>
+        <title type="html"><![CDATA[Are we in the Anthropocene yet?]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00815-0</id>
+        <link href="https://www.nature.com/articles/d41586-024-00815-0"/>
+        <updated>2024-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Measurement matters, but should not detract from the reality that humans are altering Earth systems.]]></summary>
         <author>
-            <name>thunderbong</name>
+            <name>Nature</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Show HN: Iteratively Building Virtual Creatures in Minecraft]]></title>
-        <id>https://news.ycombinator.com/item?id=39762128</id>
-        <link href="https://github.com/cfusting/conditional-growth"/>
-        <updated>2024-03-20T01:35:00.000Z</updated>
-        <summary type="html"><![CDATA["Creatures" is a stretch given that the environment is Minecraft, but the idea is simple: iteratively add blocks conditionally (tensor convolution) on the current environment (blocks) to maximize some reward. In this case I use PPO RL to train creatures to touch a glowstone block but you can adapt it to use any algorithm and reward (easily, as it uses the Ray framework).
-What I like about this work: iteratively finding solutions has a long and colorful history of doing things well: gradient boosting, ResNets, Stable Diffusion, etc. We're after some end optimal state and usually try to get right to it via some flavor of SGD. Baking in improvements as part of the problem structure is helpful. I like to think of this as solving the derivative of the solution with respect to time and then integrating over time. The Minecraft environment naturally prevents overfitting because you can spawn creatures in a diverse array of environments and train one policy over them all.
-What I don't like about this work: Minecraft was chosen for computational reasons but doesn't make cool creatures that walk around and look like cheetahs or whatever. I've compared it against nothing, but it works real good! . Videos in the README.
-You can install / run with Docker and observe metrics with Tensorboard. Should be plug and play. If not comment. Enjoy!
-Comments URL: https://news.ycombinator.com/item?id=39762128
-Points: 32
-# Comments: 4]]></summary>
+        <title type="html"><![CDATA[Mathematician who tamed randomness wins Abel Prize]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00839-6</id>
+        <link href="https://www.nature.com/articles/d41586-024-00839-6"/>
+        <updated>2024-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Michel Talagrand laid mathematical groundwork that has allowed others to tackle problems involving random processes.]]></summary>
         <author>
-            <name>cfusting</name>
+            <name>Davide Castelvecchi</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[HIV in cell culture can be completely eliminated using CRISPR-Cas gene editing [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=39761283</id>
-        <link href="https://www.escmid.org/fileadmin/src/media/PDFs/2News_Discussions/Press_activities/2024/HIVCRISPRV4_1_.pdf"/>
-        <updated>2024-03-19T23:12:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.escmid.org/fileadmin/src/media/PDFs/2News_Discussions/Press_activities/2024/HIVCRISPRV4_1_.pdf
-Comments URL: https://news.ycombinator.com/item?id=39761283
-Points: 147
-# Comments: 26]]></summary>
+        <title type="html"><![CDATA[Is AI ready to mass-produce lay summaries of research articles?]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00865-4</id>
+        <link href="https://www.nature.com/articles/d41586-024-00865-4"/>
+        <updated>2024-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A surge in tools that generate text is allowing research papers to be summarized for a broad audience, and in any language. But scientists caution that major challenges remain.]]></summary>
         <author>
-            <name>geox</name>
+            <name>Kamal  Nahas</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MindEye2: Shared-Subject Models Enable fMRI-to-Image with 1 Hour of Data]]></title>
-        <id>https://news.ycombinator.com/item?id=39761265</id>
-        <link href="https://arxiv.org/abs/2403.11207"/>
-        <updated>2024-03-19T23:09:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2403.11207
-Comments URL: https://news.ycombinator.com/item?id=39761265
-Points: 50
-# Comments: 20]]></summary>
+        <title type="html"><![CDATA[China’s medical-device industry gets a makeover]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00823-0</id>
+        <link href="https://www.nature.com/articles/d41586-024-00823-0"/>
+        <updated>2024-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The country is keen to boost its production of medical technology to reduce its reliance on imports. Analysts discuss the impact of policies.]]></summary>
         <author>
-            <name>xkgt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's official: Europe turns to the Falcon 9 to launch its navigation satellites]]></title>
-        <id>https://news.ycombinator.com/item?id=39761179</id>
-        <link href="https://arstechnica.com/space/2024/03/its-official-europe-turns-to-the-falcon-9-to-launch-its-navigation-satellites/"/>
-        <updated>2024-03-19T22:56:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/space/2024/03/its-official-europe-turns-to-the-falcon-9-to-launch-its-navigation-satellites/
-Comments URL: https://news.ycombinator.com/item?id=39761179
-Points: 121
-# Comments: 80]]></summary>
-        <author>
-            <name>LinuxBender</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Generic and Automated Drive-By GPU Cache Attacks from the Browser [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=39760496</id>
-        <link href="https://ginerlukas.com/publications/papers/WebGPUAttacks.pdf"/>
-        <updated>2024-03-19T21:35:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ginerlukas.com/publications/papers/WebGPUAttacks.pdf
-Comments URL: https://news.ycombinator.com/item?id=39760496
-Points: 17
-# Comments: 0]]></summary>
-        <author>
-            <name>bubblehack3r</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Mechanics of Proof]]></title>
-        <id>https://news.ycombinator.com/item?id=39760379</id>
-        <link href="https://hrmacbeth.github.io/math2001/index.html"/>
-        <updated>2024-03-19T21:23:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hrmacbeth.github.io/math2001/index.html
-Comments URL: https://news.ycombinator.com/item?id=39760379
-Points: 84
-# Comments: 20]]></summary>
-        <author>
-            <name>segfaultbuserr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Root cause of Alzheimer's may be fat buildup in brain cells, research suggests]]></title>
-        <id>https://news.ycombinator.com/item?id=39760333</id>
-        <link href="https://medicalxpress.com/news/2024-03-root-alzheimer-fat-buildup-brain.html"/>
-        <updated>2024-03-19T21:19:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://medicalxpress.com/news/2024-03-root-alzheimer-fat-buildup-brain.html
-Comments URL: https://news.ycombinator.com/item?id=39760333
-Points: 230
-# Comments: 100]]></summary>
-        <author>
-            <name>jdmark</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New algorithm unlocks high-resolution insights for computer vision]]></title>
-        <id>https://news.ycombinator.com/item?id=39759906</id>
-        <link href="https://news.mit.edu/2024/featup-algorithm-unlocks-high-resolution-insights-computer-vision-0318"/>
-        <updated>2024-03-19T20:28:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://news.mit.edu/2024/featup-algorithm-unlocks-high-resolution-insights-computer-vision-0318
-Comments URL: https://news.ycombinator.com/item?id=39759906
-Points: 129
-# Comments: 15]]></summary>
-        <author>
-            <name>zerojames</name>
+            <name>Sandy Ong</name>
         </author>
     </entry>
     <entry>
@@ -1759,16 +1974,6 @@ Today, 10 years later, G…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Google Censorship: AI Run Amok Threatens Demonetization Over a Navigation Page with No Ads, An Article on a Foreign Policy Best-Seller Deemed Anti-Vaxx,  and More Flagrant Errors]]></title>
-        <id>https://www.nakedcapitalism.com/?p=268112</id>
-        <link href="https://www.nakedcapitalism.com/2024/03/google-censorship-ai-run-amok-threatens-demonetization-over-a-navigation-page-with-no-ads-an-article-on-a-foreign-policy-best-seller-deemed-anti-vaxx-and-more-flagrant-errors.html"/>
-        <updated>2024-03-19T10:50:04.000Z</updated>
-        <summary type="html"><![CDATA[Google tries to censor this site based on a systematically flawed AI review. How many others will be victims of bad algos?]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[UK Citizens Just Got a Brief Foretaste of the Inherent Fragility of a Cashless Economy]]></title>
         <id>https://www.nakedcapitalism.com/?p=268655</id>
         <link href="https://www.nakedcapitalism.com/2024/03/uks-contactless-card-loving-citizens-just-got-a-foretaste-of-the-fragility-of-a-fully-cashless-economy.html"/>
@@ -1786,16 +1991,6 @@ Today, 10 years later, G…]]></summary>
         <summary type="html"><![CDATA[YouTube now requires a label for some generative AI content. Animations made for kids are exempt.]]></summary>
         <author>
             <name>Kate Knibbs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wealth of US Billionaires Hits $5.5 Trillion—Up 88% Since Pandemic Hit]]></title>
-        <id>https://www.nakedcapitalism.com/?p=268692</id>
-        <link href="https://www.nakedcapitalism.com/2024/03/wealth-of-us-billionaires-hits-5-5-trillion-up-88-since-pandemic-hit.html"/>
-        <updated>2024-03-19T07:43:35.000Z</updated>
-        <summary type="html"><![CDATA[Even though the rich are predictably getting richer even in the Covid era, the picture is worse when you look at billionaires.]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -2039,13 +2234,23 @@ The post How Online Black Resistance Efforts Outlive Political Clickbait appeare
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Introduction to Swing States in the Presidential Election of 2024 (General Survey)]]></title>
-        <id>https://www.nakedcapitalism.com/?p=268606</id>
-        <link href="https://www.nakedcapitalism.com/2024/03/introduction-to-swing-states-in-the-presidential-election-of-2024-general-survey.html"/>
-        <updated>2024-03-18T20:25:22.000Z</updated>
-        <summary type="html"><![CDATA[It's swing voters from the swingiest states, like Arizona, Georgia, and Wisconsin, who will really matter.]]></summary>
+        <title type="html"><![CDATA[Daily briefing: Snake steak could help feed the world]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00849-4</id>
+        <link href="https://www.nature.com/articles/d41586-024-00849-4"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Large pythons are better at converting their food into edible protein than many other farmed animals. Plus, the career costs for scientists battling long COVID and how universities can stop ‘passing the harasser.]]></summary>
         <author>
-            <name>Lambert Strether</name>
+            <name>Katrina Krämer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI &amp; robotics briefing: LLMs harbour hidden racism]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00856-5</id>
+        <link href="https://www.nature.com/articles/d41586-024-00856-5"/>
+        <updated>2024-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chatbots make racist judgements on the basis of dialect. Plus, cyborg jellyfish could monitor the changing seas and how AI designed a drug.]]></summary>
+        <author>
+            <name>Katrina Krämer</name>
         </author>
     </entry>
     <entry>
@@ -2066,16 +2271,6 @@ The post How Online Black Resistance Efforts Outlive Political Clickbait appeare
         <summary type="html"><![CDATA[Storage, storage, storage! Last week, we celebrated 18 years of innovation on Amazon Simple Storage Service (Amazon S3) at AWS Pi Day 2024. Amazon S3 mascot Buckets joined the celebrations and had a ton of fun! The 4-hour live stream was packed with puns, pie recipes powered by PartyRock, demos, code, and discussions about generative […]]]></summary>
         <author>
             <name>Antje Barth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2:00PM Water Cooler 3/18/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=268629</id>
-        <link href="https://www.nakedcapitalism.com/2024/03/200pm-water-cooler-3-18-2024.html"/>
-        <updated>2024-03-18T18:00:14.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, pandemic news, Boeing, Keith Richards (and Trump's surety bond). ~]]></summary>
-        <author>
-            <name>Lambert Strether</name>
         </author>
     </entry>
     <entry>
@@ -2155,7 +2350,6 @@ The post Logarithm: A logging engine for AI training workflows and services appe
         <id>https://medium.com/p/da6805341642</id>
         <link href="https://netflixtechblog.com/sequential-testing-keeps-the-world-streaming-netflix-part-2-counting-processes-da6805341642?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-18T12:46:46.000Z</updated>
-        <summary type="html"><![CDATA[Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -2168,25 +2362,6 @@ The post Logarithm: A logging engine for AI training workflows and services appe
         <summary type="html"><![CDATA[National Geographic’s new show, Photographer, doesn’t bother itself with analyzing images. It’s all about the drive it takes to find the ideal shot.]]></summary>
         <author>
             <name>Anna Goldwater Alexander</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links 3/18/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=268576</id>
-        <link href="https://www.nakedcapitalism.com/2024/03/links-3-18-2024.html"/>
-        <updated>2024-03-18T10:55:10.000Z</updated>
-        <author>
-            <name>Conor Gallagher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Experts: Negotiating Big Pharma’s Prices Won’t Stifle Innovation—They Don’t Use the Money to Innovate!]]></title>
-        <id>https://www.nakedcapitalism.com/?p=268608</id>
-        <link href="https://www.nakedcapitalism.com/2024/03/experts-negotiating-big-pharmas-prices-wont-stifle-innovation-they-dont-use-the-money-to-innovate.html"/>
-        <updated>2024-03-18T10:02:57.000Z</updated>
-        <summary type="html"><![CDATA[Physician-scientist Fred Ledley and economist William Lazonick debunk Big Pharma arguments against Medicare drug price negotiation]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -2527,76 +2702,6 @@ The post Cop Cities, Borders, and Bombs appeared first on CounterPunch.org.]]></
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[11 Best Organic Mattresses, Toppers, Bedding (2024): Nontoxic and Natural]]></title>
-        <id>6228cb22c64b025679e0e907</id>
-        <link href="https://www.wired.com/story/best-organic-mattresses/"/>
-        <updated>2024-03-16T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[These nontoxic beds and bedsheets are easier on the environment and your health—and they feel like a dream.]]></summary>
-        <author>
-            <name>Scott Gilbertson, Gear Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automakers Are Telling Your Insurance Company How You Really Drive]]></title>
-        <id>65f47dcb9d156d8f2910404f</id>
-        <link href="https://www.wired.com/story/automakers-sharing-driver-data-security-roundup/"/>
-        <updated>2024-03-16T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Plus: The operator of a dark-web cryptocurrency “mixing” service is found guilty, and a US senator reveals that popular safes contain secret backdoors.]]></summary>
-        <author>
-            <name>Dell Cameron, Andrew Couts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Walmart Is Selling the Apple MacBook Air With M1 for Just $699]]></title>
-        <id>65f390676b44af62a1b92642</id>
-        <link href="https://www.wired.com/story/walmart-apple-macbook-air-with-m1-deal/"/>
-        <updated>2024-03-16T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Plus: Reddit gives advertisers tools to make them look like regular users, the FTC wants you to eat more ice cream, and TikTok is in lawmakers’ crosshairs yet again.]]></summary>
-        <author>
-            <name>Boone Ashworth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The FCC Now Says Broadband Speed Should Be at Least 100 Mbps]]></title>
-        <id>65f489b04ee43dabeee908ba</id>
-        <link href="https://www.wired.com/story/fcc-broadband-speed-100mbps/"/>
-        <updated>2024-03-16T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The old broadband standard of 25 Mbps wasn’t cutting it anymore.]]></summary>
-        <author>
-            <name>Jon Brodkin, Ars Technica</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[20 Best Deals: Air Purifiers, Vacuums, and Bluetooth Speakers]]></title>
-        <id>65f1e2ca3cb1bc85625353d5</id>
-        <link href="https://www.wired.com/story/weekend-deals-march-16-2024/"/>
-        <updated>2024-03-16T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We found discounts on our favorite at-home essentials to help make spring cleaning a lot easier.]]></summary>
-        <author>
-            <name>Brenda Stolyar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Insurance Rates Are Soaring for US Homeowners in Climate Danger Zones]]></title>
-        <id>65f2f531937da4f76b64c129</id>
-        <link href="https://www.wired.com/story/insurance-rates-soaring-us-homeowners-climate-danger-zones-florida-louisiana-california-hurricane-flood/"/>
-        <updated>2024-03-16T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Research shows the soaring costs hint at widespread, unpriced risk as the global climate warms, with states like California, Florida and Louisiana hit hardest.]]></summary>
-        <author>
-            <name>Amy Green</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Global Danger of Boring Buildings]]></title>
-        <id>65f47415b170002287195c6f</id>
-        <link href="https://www.wired.com/story/thomas-heatherwick-q-and-a-wired-health/"/>
-        <updated>2024-03-16T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Unloved buildings turn to ruin, leading to a deluge of construction waste worldwide. Designer Thomas Heatherwick tells WIRED why cities need to prioritize human health and joy in architecture.]]></summary>
-        <author>
-            <name>Rob Reddick</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Weekend read – The trouble with words]]></title>
         <id>http://rwer.wordpress.com/?p=45218</id>
         <link href="https://rwer.wordpress.com/2024/03/16/weekend-read-the-trouble-with-words/"/>
@@ -2752,7 +2857,7 @@ The post Cop Cities, Borders, and Bombs appeared first on CounterPunch.org.]]></
         <id>e27aadba159a82a8421a846f45b7aa39ba3dae67</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-pi-day-2024-use-your-data-to-power-generative-ai/"/>
         <updated>2024-03-14T15:24:33.000Z</updated>
-        <summary type="html"><![CDATA[Today is AWS Pi Day! Join us live on Twitch, starting at 1 PM Pacific time. On this day 18 years ago, a West Coast retail company launched an object storage service, introducing the world to Amazon Simple Storage Service (Amazon S3). We had no idea it would change the way businesses across the globe […]]]></summary>
+        <summary type="html"><![CDATA[Updated 20 March: I added a phrase in the original text to mention that the AWS SDKs for Rust and Kotlin now support Amazon S3 Express One Zone. Today is AWS Pi Day! Join us live on Twitch, starting at 1 PM Pacific time. On this day 18 years ago, a West Coast retail company […]]]></summary>
         <author>
             <name>Sébastien Stormacq</name>
         </author>
@@ -2763,7 +2868,7 @@ The post Cop Cities, Borders, and Bombs appeared first on CounterPunch.org.]]></
         <link href="https://feeds.feedblitz.com/~/873608627/0/themoneyillusion~Wage-inflation-in-Japan/"/>
         <updated>2024-03-14T14:26:17.000Z</updated>
         <summary type="html"><![CDATA[There is evidence that nominal wages in Japan are finally starting to rise: Toyota Motor Corp.&#160;met its labor union&#8217;s demands for increases in salary and bonuses in full for the fourth straight year, in another sign that a sustainable wage-price cycle may be taking hold in Japan&#8217;s economy as the central bank considers the timing [&#8230;]<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/873608627/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/873608627/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f03%2fScreen-Shot-2024-02-28-at-4.02.23-PM-1024x593.png"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/873608627/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/873608627/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/873608627/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/wage-inflation-in-japan/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&nbsp;
-<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comment-6794800">dtoh, Just the opposite. The long duration makes it help even ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comment-6794063">Scott,   Not as much as you would expect because the duration ...</a> <i>by dtoh</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comment-6793881">dtoh, Yes, but it would help a bit with the fiscal situation. ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comment-6793710">Agree that BOJ should err on the side of not raising rates too ...</a> <i>by Mike M.</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comment-6792850">Scott,   Doesn't matter if the target is 2% or 1% or 0% or 10%. ...</a> <i>by dtoh</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comments">Plus 5 more...</a></li></ul></div>&#160;</div>]]></summary>
+<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comment-6795082">Scott,   You're right.</a> <i>by dtoh</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comment-6794800">dtoh, Just the opposite. The long duration makes it help even ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comment-6794063">Scott,   Not as much as you would expect because the duration ...</a> <i>by dtoh</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comment-6793881">dtoh, Yes, but it would help a bit with the fiscal situation. ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comment-6793710">Agree that BOJ should err on the side of not raising rates too ...</a> <i>by Mike M.</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/wage-inflation-in-japan/#comments">Plus 5 more...</a></li></ul></div>&#160;</div>]]></summary>
         <author>
             <name>The Money Illusion</name>
         </author>
@@ -3170,96 +3275,6 @@ The post Cop Cities, Borders, and Bombs appeared first on CounterPunch.org.]]></
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Anoxygenic phototroph of the Chloroflexota uses a type I reaction centre]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07180-y</id>
-        <link href="https://www.nature.com/articles/s41586-024-07180-y"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cultivation of a new anoxygenic phototrophic bacterium from Boreal Shield lake water—representing a transition form in the evolution of photosynthesis—offers insights into how the major modes of phototrophy diversified.]]></summary>
-        <author>
-            <name>J. M. Tsuji</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[APOE4/4 is linked to damaging lipid droplets in Alzheimer’s disease&#xa0;microglia]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07185-7</id>
-        <link href="https://www.nature.com/articles/s41586-024-07185-7"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A microglial state, featuring lipid droplets and secretion of neurotoxic factors, is shown to be most prominent in people with Alzheimer’s disease who have the APOE4 genotype.]]></summary>
-        <author>
-            <name>Michael S. Haney</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chatbot AI makes racist judgements on the basis of dialect]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00779-1</id>
-        <link href="https://www.nature.com/articles/d41586-024-00779-1"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Some large language models harbour hidden biases that cannot be removed using standard methods.]]></summary>
-        <author>
-            <name>Elizabeth Gibney</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drought-fuelled overnight burning propels large fires in North America]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00536-4</id>
-        <link href="https://www.nature.com/articles/d41586-024-00536-4"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Analysis of large wildfires indicates key role of overnight burning.]]></summary>
-        <author>
-            <name>Jennifer K. Balch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Plutopalooza]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00748-8</id>
-        <link href="https://www.nature.com/articles/d41586-024-00748-8"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s the end of the world as we know it.]]></summary>
-        <author>
-            <name>Gretchen Tessmer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mobile delivery of COVID-19 vaccines improved uptake in rural Sierra Leone]]></title>
-        <id>https://www.nature.com/articles/d41586-023-03186-0</id>
-        <link href="https://www.nature.com/articles/d41586-023-03186-0"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Vaccination rates in rural areas improve when vaccines are delivered.]]></summary>
-        <author>
-            <name>Alison Buttenheim</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Numbers highlight US dominance in clinical research]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00755-9</id>
-        <link href="https://www.nature.com/articles/d41586-024-00755-9"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Institutions from the country make unrivaled contributions to high-quality health-sciences research in the Nature Index.]]></summary>
-        <author>
-            <name>Nature</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Did ‘alien’ debris hit Earth? Startling claim sparks row at scientific meeting]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00774-6</id>
-        <link href="https://www.nature.com/articles/d41586-024-00774-6"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Astrophysicist Avi Loeb says that an interstellar meteor showered Earth with particles. At a planetary-science conference this week, researchers begged to differ.]]></summary>
-        <author>
-            <name>Alexandra Witze</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Three actions PhD-holders should take to land their next job]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00727-z</id>
-        <link href="https://www.nature.com/articles/d41586-024-00727-z"/>
-        <updated>2024-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A hiring manager reveals the lessons he learnt when transitioning from a PhD programme to industry.]]></summary>
-        <author>
-            <name>Fawzi Abou-Chahine</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Infrastructure as Code development with Amazon CodeWhisperer]]></title>
         <id>1af365523512cdc2dbdbb4fee1e1e897cdd97d9a</id>
         <link href="https://aws.amazon.com/blogs/devops/infrastructure-as-code-development-with-amazon-codewhisperer/"/>
@@ -3457,7 +3472,6 @@ added to Kubernetes as an alpha feature in v1.26. It defines an alternat…]]></
         <id>https://medium.com/p/2d2e6b6d205d</id>
         <link href="https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-07T18:33:07.000Z</updated>
-        <summary type="html"><![CDATA[David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -3702,16 +3716,6 @@ a…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Zero Trust WARP: tunneling with a MASQUE]]></title>
-        <id>65e7d0a8a5fcdf000a089e1b</id>
-        <link href="https://blog.cloudflare.com/zero-trust-warp-with-a-masque"/>
-        <updated>2024-03-06T14:00:15.000Z</updated>
-        <summary type="html"><![CDATA[This blog discusses the introduction of MASQUE to Zero Trust WARP and how Cloudflare One customers will benefit from this modern protocol]]></summary>
-        <author>
-            <name>Dan Hall</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Making messaging interoperability with third parties safe for users in Europe]]></title>
         <id>https://engineering.fb.com/?p=20955</id>
         <link href="https://engineering.fb.com/2024/03/06/security/whatsapp-messenger-messaging-interoperability-eu/"/>
@@ -3728,7 +3732,6 @@ The post Making messaging interoperability with third parties safe for users in 
         <id>https://medium.com/p/256629c9386b</id>
         <link href="https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-06T01:35:08.000Z</updated>
-        <summary type="html"><![CDATA[The surprising and not so surprising benefits of generations in the Z Garbage Collector.]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -3843,7 +3846,6 @@ The post Risk-Aware Product Decisions in A/B Tests with Multiple Metrics appeare
         <id>https://medium.com/p/039d5efd115b</id>
         <link href="https://netflixtechblog.com/evolving-from-rule-based-classifier-machine-learning-powered-auto-remediation-in-netflix-data-039d5efd115b?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-04T18:01:55.000Z</updated>
-        <summary type="html"><![CDATA[by Binbing Hou, Stephanie Vezich Tamayo, Xiao Chen, Liang Tian, Troy Ristow, Haoyuan Wang, Snehal Chennuru, Pawan Dixit]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -4040,7 +4042,6 @@ The post How DotSlash makes executable deployment simpler appeared first on Engi
         <id>https://medium.com/p/6a727c1ae2e5</id>
         <link href="https://netflixtechblog.com/announcing-bpftop-streamlining-ebpf-performance-optimization-6a727c1ae2e5?source=rss----2615bd06b42e---4"/>
         <updated>2024-02-26T16:43:30.000Z</updated>
-        <summary type="html"><![CDATA[By Jose Fernandez]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
