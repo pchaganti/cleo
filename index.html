@@ -16,8 +16,8 @@
      * Solarized Light
      * Ethan Schoonover (modified by aramisgithub)
      */
-    --base00: #fdf6e3;
-    --base01: #eee8d5;
+    --base00: white;
+    --base01: #efefef;
     --base02: #93a1a1;
     --base03: #839496;
     --base04: #657b83;
@@ -51,8 +51,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-21 datetime="2024-03-21T19:04:53.000Z">2024-03-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-21 datetime="2024-03-21T19:04:53.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-21 datetime="2024-03-21T19:25:10.000Z">2024-03-21</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-21 datetime="2024-03-21T19:25:10.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -71,17 +71,53 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;39783223"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: Memories, FOSS Google Photos alternative built for high performance</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://memories.gallery/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://memories.gallery/assets/images/social/index.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Memories is a FOSS Google Photos alternative that you can self-host (it runs as a Nextcloud plugin).
+Website: https://memories.gallery/
+GitHub: https://github.com/pulsejet/memories
+Demo Server: https://demo.memories.gallery/apps/memories/
+(demo runs in San Francisco on a free-tier cloud vm)
+Memories has been built ground-up for high performance and is extremely fast when configured  correctly. In our testing environment, it can load a timeline view with 100k photos in under 500ms, including query and rendering time!
+Some features to highlight:
+* A timeline similar to Google Photos where you can skip to any time in history instantly.
+* AI-based tagging that runs locally on your server, identifying and tagging people and objects.
+* Albums and external sharing.
+* Metadata editing support
+* A world map of your photos, supported both on mobile and the web
+* Did I mention it&#x27;s extremely fast?
+Would love to hear feedback from the HN community! :)
+Comments URL: https://news.ycombinator.com/item?id&#x3D;39783223
+Points: 8
+# Comments: 0</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;39782975"
                         open
                       >
                         <summary class="article-expander__title">OpenSplat – 3D gaussian splatting in C++ with CPU and GPU support</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://github.com/pierotofy/OpenSplat">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/68d544c2dca45846c8d0ce0faba20368a6c0fe4dddcf80283b170c4d56916334/pierotofy/OpenSplat" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://opengraph.githubassets.com/8975464ad0009b76af34d7a886dc07b9198a2ad6a778f2599bdbb8536d1ca47b/pierotofy/OpenSplat" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Article URL: https://github.com/pierotofy/OpenSplat
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39782975
-Points: 8
+Points: 13
 # Comments: 0</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;18
                                   min&hairsp;)</span>
@@ -104,7 +140,7 @@ Points: 8
                             <span class="media-object__text">
                               <span>Article URL: https://jan.ai/
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39782876
-Points: 36
+Points: 42
 # Comments: 10</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
@@ -151,7 +187,7 @@ There are many constraints that make this reality difficult to achieve. The prod
 Here&#x27;s how it works. To get started, you simply need to open a file of past queries in our IDE (try it here: https://www.dalmatian.ai/download) and add a file with your database schema (instructions here: https://www.dalmatian.ai/docs#configuration). There is also an option to connect a database to auto pull your schema (no actual data is seen by the LLM). We do not see anything you input since the app is local and the only external connection is with OpenAI. It&#x27;s just like asking ChatGPT for help with queries, but in a streamlined way.
 If you&#x27;d download our free IDE and try to break it, we&#x27;d love to hear what you come up with!
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39781418
-Points: 18
+Points: 19
 # Comments: 4</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
@@ -206,8 +242,8 @@ While currently focused on RAG pipelines, our goal is to extend Ragas for testin
 Try out Ragas here https://colab.research.google.com/github/shahules786/openai-... in Google Colab. Read our docs - https://docs.ragas.io/ to know more
 We would love to hear feedback from the HN community :)
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39780114
-Points: 39
-# Comments: 5</span>
+Points: 42
+# Comments: 7</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;11
                                   min&hairsp;)</span>
                             </span>
@@ -229,8 +265,8 @@ Points: 39
                             <span class="media-object__text">
                               <span>Article URL: https://www.wired.com/story/saflok-hotel-lock-unsaflok-hack-technique/
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39779291
-Points: 125
-# Comments: 84</span>
+Points: 132
+# Comments: 85</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;89
                                   min&hairsp;)</span>
                             </span>
@@ -252,8 +288,8 @@ Points: 125
                             <span class="media-object__text">
                               <span>Article URL: https://gofetch.fail
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39779195
-Points: 96
-# Comments: 31</span>
+Points: 100
+# Comments: 33</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -275,8 +311,8 @@ Points: 96
                             <span class="media-object__text">
                               <span>Article URL: https://xata.io/blog/introducing-pgzx
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39779024
-Points: 94
-# Comments: 28</span>
+Points: 97
+# Comments: 29</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;29
                                   min&hairsp;)</span>
                             </span>
@@ -297,8 +333,8 @@ Points: 94
                             <span class="media-object__text">
                               <span>Article URL: https://www.nytimes.com/2024/03/21/technology/apple-doj-lawsuit-antitrust.html
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778999
-Points: 1298
-# Comments: 1285</span>
+Points: 1328
+# Comments: 1318</span>
                             </span>
                           </div>
                         </a>
@@ -318,9 +354,9 @@ Points: 1298
                             <span class="media-object__text">
                               <span>Article URL: https://www.ycombinator.com/blog/the-reddits
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778590
-Points: 241
-# Comments: 422</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+Points: 250
+# Comments: 433</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -337,15 +373,15 @@ Points: 241
                         <summary class="article-expander__title">Show HN: Dropflow, a CSS layout engine for node or</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://github.com/chearon/dropflow">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/72dfc7e68aba9c6f4bb5aed18694a9be9083dc678c3dd92f2cf4c975199cbad5/chearon/dropflow" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://opengraph.githubassets.com/5dd2a689c2d438e10819311b50f305fccee5ea4928af731ac86ca5635b0e5be7/chearon/dropflow" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>For the last 5 years I&#x27;ve been working on a layout engine that targets CSS2 and some more modern properties.
 Live demo: https://chearon.github.io/dropflow/
 It matches browsers in all cases I can find where they agree, and it&#x27;s fast. It supports &#x60;position&#x60;, &#x60;inline-block&#x60;, &#x60;z-index&#x60;, and complex properties like &#x60;float&#x60; and &#x60;vertical-align&#x60;. It doesn&#x27;t support high-level layout like flexbox or grid yet, but you can get intrinsics to easily divide space yourself and paint multiple layout trees. It has a great text layout implementation, and supporting non-Latin scripts is a top priority.
 I&#x27;ve wanted this to exist as far back as 2013, and the desire kept coming up: for a way to get detailed intrinsics, for high quality rich text layout to canvas and SVG, and for server-side rich text. We currently use it in CellEngine for our new canvas-based spreadsheet library to layout text in hundreds of thousands of cells, and will be using it soon to render PDFs with thousands of pages in a few seconds.
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778570
-Points: 219
-# Comments: 71</span>
+Points: 220
+# Comments: 74</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;32
                                   min&hairsp;)</span>
                             </span>
@@ -367,8 +403,8 @@ Points: 219
                             <span class="media-object__text">
                               <span>Article URL: https://www.wired.com/story/what-is-pig-butchering-scam/
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778486
-Points: 93
-# Comments: 171</span>
+Points: 97
+# Comments: 174</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;75
                                   min&hairsp;)</span>
                             </span>
@@ -389,7 +425,7 @@ Points: 93
                             <span class="media-object__text">
                               <span>Article URL: https://www.nytimes.com/2024/03/21/health/pig-kidney-organ-transplant.html
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778415
-Points: 59
+Points: 60
 # Comments: 54</span>
                             </span>
                           </div>
@@ -409,8 +445,8 @@ Points: 59
                             <span class="media-object__text">
                               <span>Article URL: https://difftastic.wilfred.me.uk/
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778412
-Points: 440
-# Comments: 78</span>
+Points: 456
+# Comments: 83</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -432,8 +468,8 @@ Points: 440
                             <span class="media-object__text">
                               <span>Article URL: https://today.ucsd.edu/story/biodegradable-microplastics
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39777898
-Points: 111
-# Comments: 69</span>
+Points: 112
+# Comments: 70</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
@@ -455,8 +491,8 @@ Points: 111
                             <span class="media-object__text">
                               <span>Article URL: https://nesslabs.com/ikigai
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39777896
-Points: 134
-# Comments: 41</span>
+Points: 137
+# Comments: 42</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
@@ -501,34 +537,9 @@ Points: 127
                             <span class="media-object__text">
                               <span>Article URL: https://jsomers.net/e-coli-chemotaxis/
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39777229
-Points: 311
+Points: 313
 # Comments: 131</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;39777223"
-                        open
-                      >
-                        <summary class="article-expander__title">Ask HN: How to onboard yourself to a new product/industry in a new job?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;39777223">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>E.g. I&#x27;ve never been strong at finance (always at the bottom of the class) but I&#x27;ve joined a startup 2 months back that makes a b2b saas fintech product, to lead marketing (first mktg hire in in a total 12 member team). I&#x27;ve worked with the founder before and I like the company. The founder has mentioned that it&#x27;ll take time to learn the nuances of the product/industry but since I&#x27;m a somewhat senior person (9 years exp.), I wanted to see if there are any best practices out there to increase the speed of knowledge transfer/onboarding so that I can connect the dots faster, so to speak.
-We do have a set of required reading material that I&#x27;ve gone through, along with product demos, and even 2 VC books that have been recommended on the subject. But unfortunately, I still feel left behind. I need repetition to understand something deeply. Kind of like rote.
-The lack of knowledge is obviously going to affect my growth somewhere down the line as well as in identifying opportunities for the company&#x27;s growth.
-I&#x27;m looking for advice on what can I do more from folks who joined a company/product/industry that they knew nothing about and how long it took you to get comfortable with it?
-Comments URL: https://news.ycombinator.com/item?id&#x3D;39777223
-Points: 147
-# Comments: 61</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -662,7 +673,7 @@ Points: 147
                               <img src="https://media.wired.com/photos/65fb842a293f54ea2900acb6/191:100/w_1280,c_limit/NSA-Gilbert-Herrera-Q&amp;A-Business-1041680672.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Gilbert Herrera, who leads research at the National Security Agency, says large language models are incredibly useful—and a bit of a headache—for America’s intelligence machine.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;80
+                                &ensp;<span class="article-reading-time">(&hairsp;81
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1012,7 +1023,7 @@ The post Threads has entered the fediverse appeared first on Engineering at Meta
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/03/personal_risk-e1711043563481.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>~ Today&#x27;s Water Cooler: Politics, pandemics, Boeing assassination, beekeeping, cash ~</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;39
+                                &ensp;<span class="article-reading-time">(&hairsp;40
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1090,7 +1101,7 @@ The post Threads has entered the fediverse appeared first on Engineering at Meta
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>The promise of artificial intelligence is eclipsed by its perils, which include our own annihilation.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;39
+                                &ensp;<span class="article-reading-time">(&hairsp;40
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1130,7 +1141,7 @@ The post Threads has entered the fediverse appeared first on Engineering at Meta
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/03/Screen-Shot-2024-03-05-at-3.16.43-PM-1024x237.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Google tries to censor this site based on a systematically flawed AI review. How many others will be victims of bad algos?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;55
+                                &ensp;<span class="article-reading-time">(&hairsp;56
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4785,7 +4796,7 @@ The post Brain’s ‘Background Noise’ May Explain Value of Shock Therapy fir
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>Nature - Structural insights into vesicular monoamine storage and drug interactions</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7299,7 +7310,7 @@ The post Risk-Aware Product Decisions in A/B Tests with Multiple Metrics appeare
                             <span class="media-object__text">
                               <span>Discover how keeping repository maintainer information accurate through CODEOWNERS files and automating maintenance with tools like cleanowners fosters efficient collaboration and sustainable software projects.
 The post Keeping repository maintainer information accurate appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -8355,7 +8366,7 @@ We’ve shipped TypeScript improvements. It’s now easier</span>
                             <span class="media-object__text">
                               <span>Explore the capabilities and benefits of AI code generation, and how it can improve the developer experience for your enterprise.
 The post How AI code generation works appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -8531,8 +8542,8 @@ experiences I&#x27;ve had in open-source. Over the…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/8381159075">
-        <time id="build-timestamp" datetime="2024-03-21T20:12:17.765Z">2024-03-21T20:12:17.765Z</time>
+      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/8381259517">
+        <time id="build-timestamp" datetime="2024-03-21T20:20:35.423Z">2024-03-21T20:20:35.423Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

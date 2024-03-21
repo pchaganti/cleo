@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-21T20:12:17.799Z</id>
+    <id>urn:2024-03-21T20:20:35.456Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-21T20:12:17.799Z</updated>
+    <updated>2024-03-21T20:20:35.456Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Memories, FOSS Google Photos alternative built for high performance]]></title>
+        <id>https://news.ycombinator.com/item?id=39783223</id>
+        <link href="https://memories.gallery/"/>
+        <updated>2024-03-21T19:25:10.000Z</updated>
+        <summary type="html"><![CDATA[Memories is a FOSS Google Photos alternative that you can self-host (it runs as a Nextcloud plugin).
+Website: https://memories.gallery/
+GitHub: https://github.com/pulsejet/memories
+Demo Server: https://demo.memories.gallery/apps/memories/
+(demo runs in San Francisco on a free-tier cloud vm)
+Memories has been built ground-up for high performance and is extremely fast when configured  correctly. In our testing environment, it can load a timeline view with 100k photos in under 500ms, including query and rendering time!
+Some features to highlight:
+* A timeline similar to Google Photos where you can skip to any time in history instantly.
+* AI-based tagging that runs locally on your server, identifying and tagging people and objects.
+* Albums and external sharing.
+* Metadata editing support
+* A world map of your photos, supported both on mobile and the web
+* Did I mention it's extremely fast?
+Would love to hear feedback from the HN community! :)
+Comments URL: https://news.ycombinator.com/item?id=39783223
+Points: 8
+# Comments: 0]]></summary>
+        <author>
+            <name>radialapps</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenSplat – 3D gaussian splatting in C++ with CPU and GPU support]]></title>
         <id>https://news.ycombinator.com/item?id=39782975</id>
@@ -12,7 +38,7 @@
         <updated>2024-03-21T19:04:53.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://github.com/pierotofy/OpenSplat
 Comments URL: https://news.ycombinator.com/item?id=39782975
-Points: 8
+Points: 13
 # Comments: 0]]></summary>
         <author>
             <name>mrwyz</name>
@@ -25,7 +51,7 @@ Points: 8
         <updated>2024-03-21T18:56:21.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://jan.ai/
 Comments URL: https://news.ycombinator.com/item?id=39782876
-Points: 36
+Points: 42
 # Comments: 10]]></summary>
         <author>
             <name>billybuckwheat</name>
@@ -115,7 +141,7 @@ There are many constraints that make this reality difficult to achieve. The prod
 Here's how it works. To get started, you simply need to open a file of past queries in our IDE (try it here: https://www.dalmatian.ai/download) and add a file with your database schema (instructions here: https://www.dalmatian.ai/docs#configuration). There is also an option to connect a database to auto pull your schema (no actual data is seen by the LLM). We do not see anything you input since the app is local and the only external connection is with OpenAI. It's just like asking ChatGPT for help with queries, but in a streamlined way.
 If you'd download our free IDE and try to break it, we'd love to hear what you come up with!
 Comments URL: https://news.ycombinator.com/item?id=39781418
-Points: 18
+Points: 19
 # Comments: 4]]></summary>
         <author>
             <name>alandu</name>
@@ -191,8 +217,8 @@ While currently focused on RAG pipelines, our goal is to extend Ragas for testin
 Try out Ragas here https://colab.research.google.com/github/shahules786/openai-... in Google Colab. Read our docs - https://docs.ragas.io/ to know more
 We would love to hear feedback from the HN community :)
 Comments URL: https://news.ycombinator.com/item?id=39780114
-Points: 39
-# Comments: 5]]></summary>
+Points: 42
+# Comments: 7]]></summary>
         <author>
             <name>shahules</name>
         </author>
@@ -235,8 +261,8 @@ The post How Chain-of-Thought Reasoning Helps Neural Networks Compute first appe
         <updated>2024-03-21T14:57:56.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.wired.com/story/saflok-hotel-lock-unsaflok-hack-technique/
 Comments URL: https://news.ycombinator.com/item?id=39779291
-Points: 125
-# Comments: 84]]></summary>
+Points: 132
+# Comments: 85]]></summary>
         <author>
             <name>jasoncartwright</name>
         </author>
@@ -248,8 +274,8 @@ Points: 125
         <updated>2024-03-21T14:51:18.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://gofetch.fail
 Comments URL: https://news.ycombinator.com/item?id=39779195
-Points: 96
-# Comments: 31]]></summary>
+Points: 100
+# Comments: 33]]></summary>
         <author>
             <name>kingsleyopara</name>
         </author>
@@ -261,8 +287,8 @@ Points: 96
         <updated>2024-03-21T14:39:24.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://xata.io/blog/introducing-pgzx
 Comments URL: https://news.ycombinator.com/item?id=39779024
-Points: 94
-# Comments: 28]]></summary>
+Points: 97
+# Comments: 29]]></summary>
         <author>
             <name>eatonphil</name>
         </author>
@@ -274,8 +300,8 @@ Points: 94
         <updated>2024-03-21T14:37:43.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2024/03/21/technology/apple-doj-lawsuit-antitrust.html
 Comments URL: https://news.ycombinator.com/item?id=39778999
-Points: 1298
-# Comments: 1285]]></summary>
+Points: 1328
+# Comments: 1318]]></summary>
         <author>
             <name>jcfrei</name>
         </author>
@@ -307,8 +333,8 @@ Points: 1298
         <updated>2024-03-21T14:00:04.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.ycombinator.com/blog/the-reddits
 Comments URL: https://news.ycombinator.com/item?id=39778590
-Points: 241
-# Comments: 422]]></summary>
+Points: 250
+# Comments: 433]]></summary>
         <author>
             <name>sandslash</name>
         </author>
@@ -343,8 +369,8 @@ Live demo: https://chearon.github.io/dropflow/
 It matches browsers in all cases I can find where they agree, and it's fast. It supports `position`, `inline-block`, `z-index`, and complex properties like `float` and `vertical-align`. It doesn't support high-level layout like flexbox or grid yet, but you can get intrinsics to easily divide space yourself and paint multiple layout trees. It has a great text layout implementation, and supporting non-Latin scripts is a top priority.
 I've wanted this to exist as far back as 2013, and the desire kept coming up: for a way to get detailed intrinsics, for high quality rich text layout to canvas and SVG, and for server-side rich text. We currently use it in CellEngine for our new canvas-based spreadsheet library to layout text in hundreds of thousands of cells, and will be using it soon to render PDFs with thousands of pages in a few seconds.
 Comments URL: https://news.ycombinator.com/item?id=39778570
-Points: 219
-# Comments: 71]]></summary>
+Points: 220
+# Comments: 74]]></summary>
         <author>
             <name>chearon</name>
         </author>
@@ -366,8 +392,8 @@ Points: 219
         <updated>2024-03-21T13:50:26.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.wired.com/story/what-is-pig-butchering-scam/
 Comments URL: https://news.ycombinator.com/item?id=39778486
-Points: 93
-# Comments: 171]]></summary>
+Points: 97
+# Comments: 174]]></summary>
         <author>
             <name>baud147258</name>
         </author>
@@ -389,7 +415,7 @@ Points: 93
         <updated>2024-03-21T13:42:55.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2024/03/21/health/pig-kidney-organ-transplant.html
 Comments URL: https://news.ycombinator.com/item?id=39778415
-Points: 59
+Points: 60
 # Comments: 54]]></summary>
         <author>
             <name>jonwachob91</name>
@@ -402,8 +428,8 @@ Points: 59
         <updated>2024-03-21T13:42:46.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://difftastic.wilfred.me.uk/
 Comments URL: https://news.ycombinator.com/item?id=39778412
-Points: 440
-# Comments: 78]]></summary>
+Points: 456
+# Comments: 83]]></summary>
         <author>
             <name>jiripospisil</name>
         </author>
@@ -415,8 +441,8 @@ Points: 440
         <updated>2024-03-21T12:50:58.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://today.ucsd.edu/story/biodegradable-microplastics
 Comments URL: https://news.ycombinator.com/item?id=39777898
-Points: 111
-# Comments: 69]]></summary>
+Points: 112
+# Comments: 70]]></summary>
         <author>
             <name>geox</name>
         </author>
@@ -428,8 +454,8 @@ Points: 111
         <updated>2024-03-21T12:50:52.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://nesslabs.com/ikigai
 Comments URL: https://news.ycombinator.com/item?id=39777896
-Points: 134
-# Comments: 41]]></summary>
+Points: 137
+# Comments: 42]]></summary>
         <author>
             <name>pmzy</name>
         </author>
@@ -474,26 +500,10 @@ Points: 127
         <updated>2024-03-21T11:29:37.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://jsomers.net/e-coli-chemotaxis/
 Comments URL: https://news.ycombinator.com/item?id=39777229
-Points: 311
+Points: 313
 # Comments: 131]]></summary>
         <author>
             <name>jsomers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: How to onboard yourself to a new product/industry in a new job?]]></title>
-        <id>https://news.ycombinator.com/item?id=39777223</id>
-        <link href="https://news.ycombinator.com/item?id=39777223"/>
-        <updated>2024-03-21T11:28:45.000Z</updated>
-        <summary type="html"><![CDATA[E.g. I've never been strong at finance (always at the bottom of the class) but I've joined a startup 2 months back that makes a b2b saas fintech product, to lead marketing (first mktg hire in in a total 12 member team). I've worked with the founder before and I like the company. The founder has mentioned that it'll take time to learn the nuances of the product/industry but since I'm a somewhat senior person (9 years exp.), I wanted to see if there are any best practices out there to increase the speed of knowledge transfer/onboarding so that I can connect the dots faster, so to speak.
-We do have a set of required reading material that I've gone through, along with product demos, and even 2 VC books that have been recommended on the subject. But unfortunately, I still feel left behind. I need repetition to understand something deeply. Kind of like rote.
-The lack of knowledge is obviously going to affect my growth somewhere down the line as well as in identifying opportunities for the company's growth.
-I'm looking for advice on what can I do more from folks who joined a company/product/industry that they knew nothing about and how long it took you to get comfortable with it?
-Comments URL: https://news.ycombinator.com/item?id=39777223
-Points: 147
-# Comments: 61]]></summary>
-        <author>
-            <name>sujdes</name>
         </author>
     </entry>
     <entry>
