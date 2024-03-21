@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-21T19:57:24.240Z</id>
+    <id>urn:2024-03-21T20:07:33.528Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-21T19:57:24.240Z</updated>
+    <updated>2024-03-21T20:07:33.528Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[A Taxonomy of Tech Debt (2018)]]></title>
-        <id>https://news.ycombinator.com/item?id=39782923</id>
-        <link href="https://technology.riotgames.com/news/taxonomy-tech-debt"/>
-        <updated>2024-03-21T19:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://technology.riotgames.com/news/taxonomy-tech-debt
-Comments URL: https://news.ycombinator.com/item?id=39782923
-Points: 3
+        <title type="html"><![CDATA[OpenSplat – 3D gaussian splatting in C++ with CPU and GPU support]]></title>
+        <id>https://news.ycombinator.com/item?id=39782975</id>
+        <link href="https://github.com/pierotofy/OpenSplat"/>
+        <updated>2024-03-21T19:04:53.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/pierotofy/OpenSplat
+Comments URL: https://news.ycombinator.com/item?id=39782975
+Points: 8
 # Comments: 0]]></summary>
         <author>
-            <name>EndXA</name>
+            <name>mrwyz</name>
         </author>
     </entry>
     <entry>
@@ -25,23 +25,10 @@ Points: 3
         <updated>2024-03-21T18:56:21.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://jan.ai/
 Comments URL: https://news.ycombinator.com/item?id=39782876
-Points: 30
-# Comments: 6]]></summary>
+Points: 36
+# Comments: 10]]></summary>
         <author>
             <name>billybuckwheat</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SBF repeatedly lied to get out of "supervillain" prison term, FTX CEO alleges]]></title>
-        <id>https://news.ycombinator.com/item?id=39782711</id>
-        <link href="https://arstechnica.com/tech-policy/2024/03/ftx-chief-lays-out-all-the-ways-sbf-sucks-in-detailed-court-filing/"/>
-        <updated>2024-03-21T18:45:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/tech-policy/2024/03/ftx-chief-lays-out-all-the-ways-sbf-sucks-in-detailed-court-filing/
-Comments URL: https://news.ycombinator.com/item?id=39782711
-Points: 24
-# Comments: 6]]></summary>
-        <author>
-            <name>nobody9999</name>
         </author>
     </entry>
     <entry>
@@ -119,6 +106,22 @@ The post Threads has entered the fediverse appeared first on Engineering at Meta
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Show HN: DaLMatian – Text2sql that works]]></title>
+        <id>https://news.ycombinator.com/item?id=39781418</id>
+        <link href="https://www.dalmatian.ai/download"/>
+        <updated>2024-03-21T17:11:24.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN, we've built DaLMatian, a text2sql product that meets the needs of data analysts working with enterprise data. We built this app because as a data analyst at an enterprise I could not find a text2sql product that was (1) actually useful for my day-to-day and (2) easy to set up on my computer. Existing products either fall apart when tested on gnarly enterprise data/queries or require going through a sales/integration process that I wasn't in a position to push for - I just wanted something that I could quickly set up to help make my job easier. Our goal is to make this a reality for any data analyst that feels the same.
+There are many constraints that make this reality difficult to achieve. The product needs to scale to databases with millions of columns and extract business logic from very complex queries. It also needs to be fast, at least faster than an analyst would take to write the query. On top of all this, an analyst needs to be allowed to use it from a security standpoint. Our app meets all the key requirements of an enterprise data analyst while also being lightweight enough to run locally on a typical laptop.
+Here's how it works. To get started, you simply need to open a file of past queries in our IDE (try it here: https://www.dalmatian.ai/download) and add a file with your database schema (instructions here: https://www.dalmatian.ai/docs#configuration). There is also an option to connect a database to auto pull your schema (no actual data is seen by the LLM). We do not see anything you input since the app is local and the only external connection is with OpenAI. It's just like asking ChatGPT for help with queries, but in a streamlined way.
+If you'd download our free IDE and try to break it, we'd love to hear what you come up with!
+Comments URL: https://news.ycombinator.com/item?id=39781418
+Points: 18
+# Comments: 4]]></summary>
+        <author>
+            <name>alandu</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Together (YC S19) interviewing engineers that can solve this algorithm problem]]></title>
         <id>https://news.ycombinator.com/item?id=39781248</id>
         <link href="https://news.ycombinator.com/item?id=39781248"/>
@@ -188,8 +191,8 @@ While currently focused on RAG pipelines, our goal is to extend Ragas for testin
 Try out Ragas here https://colab.research.google.com/github/shahules786/openai-... in Google Colab. Read our docs - https://docs.ragas.io/ to know more
 We would love to hear feedback from the HN community :)
 Comments URL: https://news.ycombinator.com/item?id=39780114
-Points: 33
-# Comments: 3]]></summary>
+Points: 39
+# Comments: 5]]></summary>
         <author>
             <name>shahules</name>
         </author>
@@ -232,8 +235,8 @@ The post How Chain-of-Thought Reasoning Helps Neural Networks Compute first appe
         <updated>2024-03-21T14:57:56.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.wired.com/story/saflok-hotel-lock-unsaflok-hack-technique/
 Comments URL: https://news.ycombinator.com/item?id=39779291
-Points: 124
-# Comments: 82]]></summary>
+Points: 125
+# Comments: 84]]></summary>
         <author>
             <name>jasoncartwright</name>
         </author>
@@ -245,8 +248,8 @@ Points: 124
         <updated>2024-03-21T14:51:18.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://gofetch.fail
 Comments URL: https://news.ycombinator.com/item?id=39779195
-Points: 94
-# Comments: 30]]></summary>
+Points: 96
+# Comments: 31]]></summary>
         <author>
             <name>kingsleyopara</name>
         </author>
@@ -259,7 +262,7 @@ Points: 94
         <summary type="html"><![CDATA[Article URL: https://xata.io/blog/introducing-pgzx
 Comments URL: https://news.ycombinator.com/item?id=39779024
 Points: 94
-# Comments: 27]]></summary>
+# Comments: 28]]></summary>
         <author>
             <name>eatonphil</name>
         </author>
@@ -271,8 +274,8 @@ Points: 94
         <updated>2024-03-21T14:37:43.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2024/03/21/technology/apple-doj-lawsuit-antitrust.html
 Comments URL: https://news.ycombinator.com/item?id=39778999
-Points: 1248
-# Comments: 1238]]></summary>
+Points: 1298
+# Comments: 1285]]></summary>
         <author>
             <name>jcfrei</name>
         </author>
@@ -304,8 +307,8 @@ Points: 1248
         <updated>2024-03-21T14:00:04.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.ycombinator.com/blog/the-reddits
 Comments URL: https://news.ycombinator.com/item?id=39778590
-Points: 229
-# Comments: 408]]></summary>
+Points: 241
+# Comments: 422]]></summary>
         <author>
             <name>sandslash</name>
         </author>
@@ -340,8 +343,8 @@ Live demo: https://chearon.github.io/dropflow/
 It matches browsers in all cases I can find where they agree, and it's fast. It supports `position`, `inline-block`, `z-index`, and complex properties like `float` and `vertical-align`. It doesn't support high-level layout like flexbox or grid yet, but you can get intrinsics to easily divide space yourself and paint multiple layout trees. It has a great text layout implementation, and supporting non-Latin scripts is a top priority.
 I've wanted this to exist as far back as 2013, and the desire kept coming up: for a way to get detailed intrinsics, for high quality rich text layout to canvas and SVG, and for server-side rich text. We currently use it in CellEngine for our new canvas-based spreadsheet library to layout text in hundreds of thousands of cells, and will be using it soon to render PDFs with thousands of pages in a few seconds.
 Comments URL: https://news.ycombinator.com/item?id=39778570
-Points: 213
-# Comments: 68]]></summary>
+Points: 219
+# Comments: 71]]></summary>
         <author>
             <name>chearon</name>
         </author>
@@ -363,8 +366,8 @@ Points: 213
         <updated>2024-03-21T13:50:26.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.wired.com/story/what-is-pig-butchering-scam/
 Comments URL: https://news.ycombinator.com/item?id=39778486
-Points: 91
-# Comments: 168]]></summary>
+Points: 93
+# Comments: 171]]></summary>
         <author>
             <name>baud147258</name>
         </author>
@@ -386,7 +389,7 @@ Points: 91
         <updated>2024-03-21T13:42:55.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2024/03/21/health/pig-kidney-organ-transplant.html
 Comments URL: https://news.ycombinator.com/item?id=39778415
-Points: 57
+Points: 59
 # Comments: 54]]></summary>
         <author>
             <name>jonwachob91</name>
@@ -399,8 +402,8 @@ Points: 57
         <updated>2024-03-21T13:42:46.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://difftastic.wilfred.me.uk/
 Comments URL: https://news.ycombinator.com/item?id=39778412
-Points: 413
-# Comments: 76]]></summary>
+Points: 440
+# Comments: 78]]></summary>
         <author>
             <name>jiripospisil</name>
         </author>
@@ -412,8 +415,8 @@ Points: 413
         <updated>2024-03-21T12:50:58.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://today.ucsd.edu/story/biodegradable-microplastics
 Comments URL: https://news.ycombinator.com/item?id=39777898
-Points: 104
-# Comments: 66]]></summary>
+Points: 111
+# Comments: 69]]></summary>
         <author>
             <name>geox</name>
         </author>
@@ -425,7 +428,7 @@ Points: 104
         <updated>2024-03-21T12:50:52.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://nesslabs.com/ikigai
 Comments URL: https://news.ycombinator.com/item?id=39777896
-Points: 130
+Points: 134
 # Comments: 41]]></summary>
         <author>
             <name>pmzy</name>
@@ -448,7 +451,7 @@ Points: 130
         <updated>2024-03-21T12:11:43.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://themeisle.com/blog/we-are-open-sourcing-our-ai-site-builder/
 Comments URL: https://news.ycombinator.com/item?id=39777528
-Points: 124
+Points: 127
 # Comments: 49]]></summary>
         <author>
             <name>selul</name>
@@ -471,8 +474,8 @@ Points: 124
         <updated>2024-03-21T11:29:37.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://jsomers.net/e-coli-chemotaxis/
 Comments URL: https://news.ycombinator.com/item?id=39777229
-Points: 308
-# Comments: 127]]></summary>
+Points: 311
+# Comments: 131]]></summary>
         <author>
             <name>jsomers</name>
         </author>
@@ -487,8 +490,8 @@ We do have a set of required reading material that I've gone through, along with
 The lack of knowledge is obviously going to affect my growth somewhere down the line as well as in identifying opportunities for the company's growth.
 I'm looking for advice on what can I do more from folks who joined a company/product/industry that they knew nothing about and how long it took you to get comfortable with it?
 Comments URL: https://news.ycombinator.com/item?id=39777223
-Points: 144
-# Comments: 60]]></summary>
+Points: 147
+# Comments: 61]]></summary>
         <author>
             <name>sujdes</name>
         </author>
@@ -2207,6 +2210,7 @@ The post Brain’s ‘Background Noise’ May Explain Value of Shock Therapy fir
         <id>https://medium.com/p/da6805341642</id>
         <link href="https://netflixtechblog.com/sequential-testing-keeps-the-world-streaming-netflix-part-2-counting-processes-da6805341642?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-18T12:46:46.000Z</updated>
+        <summary type="html"><![CDATA[Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -2337,6 +2341,7 @@ Editor's Note: the following is a guest blog post from Tomaz Bratanic, who focus
         <id>https://medium.com/p/fef35d05b83b</id>
         <link href="https://medium.com/capital-one-tech/capital-one-and-columbia-u-partner-to-drive-responsible-ai-fef35d05b83b?source=rss----3db3a67cb648---4"/>
         <updated>2024-03-15T15:44:17.000Z</updated>
+        <summary type="html"><![CDATA[Capital One & Columbia University announce a new partnership to establish the Center for AI and Responsible Financial Innovation.]]></summary>
         <author>
             <name>Capital One Tech</name>
         </author>
@@ -2743,6 +2748,7 @@ We've added]]></summary>
         <id>https://medium.com/p/2d2e6b6d205d</id>
         <link href="https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-07T18:33:07.000Z</updated>
+        <summary type="html"><![CDATA[David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -3013,6 +3019,7 @@ The post Making messaging interoperability with third parties safe for users in 
         <id>https://medium.com/p/256629c9386b</id>
         <link href="https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-06T01:35:08.000Z</updated>
+        <summary type="html"><![CDATA[The surprising and not so surprising benefits of generations in the Z Garbage Collector.]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -3127,6 +3134,7 @@ The post Risk-Aware Product Decisions in A/B Tests with Multiple Metrics appeare
         <id>https://medium.com/p/039d5efd115b</id>
         <link href="https://netflixtechblog.com/evolving-from-rule-based-classifier-machine-learning-powered-auto-remediation-in-netflix-data-039d5efd115b?source=rss----2615bd06b42e---4"/>
         <updated>2024-03-04T18:01:55.000Z</updated>
+        <summary type="html"><![CDATA[by Binbing Hou, Stephanie Vezich Tamayo, Xiao Chen, Liang Tian, Troy Ristow, Haoyuan Wang, Snehal Chennuru, Pawan Dixit]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -3315,6 +3323,7 @@ The post How DotSlash makes executable deployment simpler appeared first on Engi
         <id>https://medium.com/p/6a727c1ae2e5</id>
         <link href="https://netflixtechblog.com/announcing-bpftop-streamlining-ebpf-performance-optimization-6a727c1ae2e5?source=rss----2615bd06b42e---4"/>
         <updated>2024-02-26T16:43:30.000Z</updated>
+        <summary type="html"><![CDATA[By Jose Fernandez]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
         </author>
@@ -3359,6 +3368,7 @@ We’ve shipped TypeScript improvements. It’s now easier]]></summary>
         <id>https://medium.com/p/a509c5afd490</id>
         <link href="https://medium.com/capital-one-tech/data-security-strategies-to-safeguard-sensitive-data-a509c5afd490?source=rss----3db3a67cb648---4"/>
         <updated>2024-02-23T16:00:47.000Z</updated>
+        <summary type="html"><![CDATA[A comprehensive approach to data security for real-time applications]]></summary>
         <author>
             <name>Capital One Tech</name>
         </author>
@@ -3421,6 +3431,7 @@ experiences I've had in open-source. Over the…]]></summary>
         <id>https://medium.com/p/4255e8dce825</id>
         <link href="https://medium.com/capital-one-tech/building-a-singular-software-delivery-pipeline-in-the-open-4255e8dce825?source=rss----3db3a67cb648---4"/>
         <updated>2024-02-21T15:02:28.000Z</updated>
+        <summary type="html"><![CDATA[Learn how a team of developers embraced open source to create a singular software delivery pipeline.]]></summary>
         <author>
             <name>Capital One Tech</name>
         </author>

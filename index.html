@@ -10,7 +10,35 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="alternate" type="application/rss+xml" title="osmos::feed" href="feed.atom" />
     <link href="index.css?v1.14.4" rel="stylesheet" />
-    <!-- %before-head-end.html% -->
+    <style>
+  :root {
+    /** 
+     * Gruvbox light, medium
+     * Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+     */
+    --base00: #fbf1c7; /* ---- */
+    --base01: #ebdbb2; /* --- */
+    --base02: #d5c4a1; /* -- */
+    --base03: #bdae93; /* - */
+    --base04: #665c54; /* + */
+    --base05: #504945; /* ++ */
+    --base06: #3c3836; /* +++ */
+    --base07: #282828; /* ++++ */
+    --base08: #9d0006; /* red */
+    --base09: #af3a03; /* orange */
+    --base0A: #b57614; /* yellow */
+    --base0B: #79740e; /* green */
+    --base0C: #427b58; /* aqua/cyan */
+    --base0D: #076678; /* blue */
+    --base0E: #8f3f71; /* purple */
+    --base0F: #d65d0e; /* brown */
+
+    /* light theme needs to swap body and card background color */
+    --body-bg: var(--base01);
+    --card-bg: var(--base00);
+  }
+</style>
+
   </head>
 
   <body>
@@ -22,8 +50,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-21 datetime="2024-03-21T19:00:21.000Z">2024-03-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-21 datetime="2024-03-21T19:00:21.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-21 datetime="2024-03-21T19:04:53.000Z">2024-03-21</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-21 datetime="2024-03-21T19:04:53.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -42,19 +70,19 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;39782923"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;39782975"
                         open
                       >
-                        <summary class="article-expander__title">A Taxonomy of Tech Debt (2018)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://technology.riotgames.com/news/taxonomy-tech-debt">
+                        <summary class="article-expander__title">OpenSplat – 3D gaussian splatting in C++ with CPU and GPU support</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://github.com/pierotofy/OpenSplat">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://technology.riotgames.com/sites/default/files/articles/83/taxonomy-tech-debt-alt-header.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://opengraph.githubassets.com/d2361c80b511963b72a88c6bb73b67bf040b6356d785fb30164509895f93af8e/pierotofy/OpenSplat" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Article URL: https://technology.riotgames.com/news/taxonomy-tech-debt
-Comments URL: https://news.ycombinator.com/item?id&#x3D;39782923
-Points: 3
+                              <span>Article URL: https://github.com/pierotofy/OpenSplat
+Comments URL: https://news.ycombinator.com/item?id&#x3D;39782975
+Points: 8
 # Comments: 0</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
+                                &ensp;<span class="article-reading-time">(&hairsp;18
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -75,32 +103,9 @@ Points: 3
                             <span class="media-object__text">
                               <span>Article URL: https://jan.ai/
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39782876
-Points: 30
-# Comments: 6</span>
+Points: 36
+# Comments: 10</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;39782711"
-                        open
-                      >
-                        <summary class="article-expander__title">SBF repeatedly lied to get out of &quot;supervillain&quot; prison term, FTX CEO alleges</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://arstechnica.com/tech-policy/2024/03/ftx-chief-lays-out-all-the-ways-sbf-sucks-in-detailed-court-filing/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-1249941604-760x380.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Article URL: https://arstechnica.com/tech-policy/2024/03/ftx-chief-lays-out-all-the-ways-sbf-sucks-in-detailed-court-filing/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;39782711
-Points: 24
-# Comments: 6</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -122,6 +127,32 @@ Points: 24
 We (Mark and Justin) started writing music together a few years ago but felt limited in our ability to create anything that we were proud of. Modern music production is highly technical and requires knowledge of sound design, tracking, arrangement, mixing, mastering, and digital signal processing. Even with our technical backgrounds (in AI and cloud computing respectively), we struggled to learn what we needed to know.
 The emergence of latent diffusion models was a turning point for us just like many others in tech. All of a sudden it was possible to leverage AI to create beautiful art. After meeting our cofounder…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;39781418"
+                        open
+                      >
+                        <summary class="article-expander__title">Show HN: DaLMatian – Text2sql that works</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.dalmatian.ai/download">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://framerusercontent.com/images/eVKmdXUSXezkPt88rPodIaxqU.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Hey HN, we&#x27;ve built DaLMatian, a text2sql product that meets the needs of data analysts working with enterprise data. We built this app because as a data analyst at an enterprise I could not find a text2sql product that was (1) actually useful for my day-to-day and (2) easy to set up on my computer. Existing products either fall apart when tested on gnarly enterprise data/queries or require going through a sales/integration process that I wasn&#x27;t in a position to push for - I just wanted something that I could quickly set up to help make my job easier. Our goal is to make this a reality for any data analyst that feels the same.
+There are many constraints that make this reality difficult to achieve. The product needs to scale to databases with millions of columns and extract business logic from very complex queries. It also needs to be fast, at least faster than an analyst would take to write the query. On top of all this, an analyst needs to be allowed to use it from a security standpoint. Our app meets all the key requirements of an enterprise data analyst while also being lightweight enough to run locally on a typical laptop.
+Here&#x27;s how it works. To get started, you simply need to open a file of past queries in our IDE (try it here: https://www.dalmatian.ai/download) and add a file with your database schema (instructions here: https://www.dalmatian.ai/docs#configuration). There is also an option to connect a database to auto pull your schema (no actual data is seen by the LLM). We do not see anything you input since the app is local and the only external connection is with OpenAI. It&#x27;s just like asking ChatGPT for help with queries, but in a streamlined way.
+If you&#x27;d download our free IDE and try to break it, we&#x27;d love to hear what you come up with!
+Comments URL: https://news.ycombinator.com/item?id&#x3D;39781418
+Points: 18
+# Comments: 4</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -159,7 +190,7 @@ Points: 0
                         <summary class="article-expander__title">Show HN: Ragas – Open-source library for evaluating RAG pipelines</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://github.com/explodinggradients/ragas">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/e0eb97308f8b2977a5a899301fc435f7dec09292453c2b295e6dbdada6480606/explodinggradients/ragas" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://opengraph.githubassets.com/6a45f532d1b1715e526e2baca71a7640b55a66823fcfb69de832f43a0c61f2f5/explodinggradients/ragas" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Ragas is an open-source library for evaluating and testing RAG and other LLM applications. Github: https://docs.ragas.io/en/stable/, docs: https://docs.ragas.io/.
 Ragas provides you with different sets of metrics and methods like synthetic test data generation to help you evaluate your RAG applications. Ragas started off by scratching our own itch for evaluating our RAG chatbots last year.
@@ -174,8 +205,8 @@ While currently focused on RAG pipelines, our goal is to extend Ragas for testin
 Try out Ragas here https://colab.research.google.com/github/shahules786/openai-... in Google Colab. Read our docs - https://docs.ragas.io/ to know more
 We would love to hear feedback from the HN community :)
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39780114
-Points: 33
-# Comments: 3</span>
+Points: 39
+# Comments: 5</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;11
                                   min&hairsp;)</span>
                             </span>
@@ -197,8 +228,8 @@ Points: 33
                             <span class="media-object__text">
                               <span>Article URL: https://www.wired.com/story/saflok-hotel-lock-unsaflok-hack-technique/
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39779291
-Points: 124
-# Comments: 82</span>
+Points: 125
+# Comments: 84</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;89
                                   min&hairsp;)</span>
                             </span>
@@ -220,8 +251,8 @@ Points: 124
                             <span class="media-object__text">
                               <span>Article URL: https://gofetch.fail
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39779195
-Points: 94
-# Comments: 30</span>
+Points: 96
+# Comments: 31</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -244,7 +275,7 @@ Points: 94
                               <span>Article URL: https://xata.io/blog/introducing-pgzx
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39779024
 Points: 94
-# Comments: 27</span>
+# Comments: 28</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;29
                                   min&hairsp;)</span>
                             </span>
@@ -265,8 +296,8 @@ Points: 94
                             <span class="media-object__text">
                               <span>Article URL: https://www.nytimes.com/2024/03/21/technology/apple-doj-lawsuit-antitrust.html
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778999
-Points: 1248
-# Comments: 1238</span>
+Points: 1298
+# Comments: 1285</span>
                             </span>
                           </div>
                         </a>
@@ -286,9 +317,9 @@ Points: 1248
                             <span class="media-object__text">
                               <span>Article URL: https://www.ycombinator.com/blog/the-reddits
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778590
-Points: 229
-# Comments: 408</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
+Points: 241
+# Comments: 422</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -305,15 +336,15 @@ Points: 229
                         <summary class="article-expander__title">Show HN: Dropflow, a CSS layout engine for node or</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://github.com/chearon/dropflow">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://opengraph.githubassets.com/41a807d5818f9800fdae18c72d6415d66a0001d09ebf3cef2ddb38b747b45957/chearon/dropflow" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://opengraph.githubassets.com/fd50bb05849834ba0fd43826ca4c974c34ae4b2d074152091e469431f01d2dc0/chearon/dropflow" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>For the last 5 years I&#x27;ve been working on a layout engine that targets CSS2 and some more modern properties.
 Live demo: https://chearon.github.io/dropflow/
 It matches browsers in all cases I can find where they agree, and it&#x27;s fast. It supports &#x60;position&#x60;, &#x60;inline-block&#x60;, &#x60;z-index&#x60;, and complex properties like &#x60;float&#x60; and &#x60;vertical-align&#x60;. It doesn&#x27;t support high-level layout like flexbox or grid yet, but you can get intrinsics to easily divide space yourself and paint multiple layout trees. It has a great text layout implementation, and supporting non-Latin scripts is a top priority.
 I&#x27;ve wanted this to exist as far back as 2013, and the desire kept coming up: for a way to get detailed intrinsics, for high quality rich text layout to canvas and SVG, and for server-side rich text. We currently use it in CellEngine for our new canvas-based spreadsheet library to layout text in hundreds of thousands of cells, and will be using it soon to render PDFs with thousands of pages in a few seconds.
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778570
-Points: 213
-# Comments: 68</span>
+Points: 219
+# Comments: 71</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;32
                                   min&hairsp;)</span>
                             </span>
@@ -335,8 +366,8 @@ Points: 213
                             <span class="media-object__text">
                               <span>Article URL: https://www.wired.com/story/what-is-pig-butchering-scam/
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778486
-Points: 91
-# Comments: 168</span>
+Points: 93
+# Comments: 171</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;75
                                   min&hairsp;)</span>
                             </span>
@@ -357,7 +388,7 @@ Points: 91
                             <span class="media-object__text">
                               <span>Article URL: https://www.nytimes.com/2024/03/21/health/pig-kidney-organ-transplant.html
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778415
-Points: 57
+Points: 59
 # Comments: 54</span>
                             </span>
                           </div>
@@ -377,8 +408,8 @@ Points: 57
                             <span class="media-object__text">
                               <span>Article URL: https://difftastic.wilfred.me.uk/
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39778412
-Points: 413
-# Comments: 76</span>
+Points: 440
+# Comments: 78</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -400,8 +431,8 @@ Points: 413
                             <span class="media-object__text">
                               <span>Article URL: https://today.ucsd.edu/story/biodegradable-microplastics
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39777898
-Points: 104
-# Comments: 66</span>
+Points: 111
+# Comments: 69</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
@@ -423,7 +454,7 @@ Points: 104
                             <span class="media-object__text">
                               <span>Article URL: https://nesslabs.com/ikigai
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39777896
-Points: 130
+Points: 134
 # Comments: 41</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
@@ -446,7 +477,7 @@ Points: 130
                             <span class="media-object__text">
                               <span>Article URL: https://themeisle.com/blog/we-are-open-sourcing-our-ai-site-builder/
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39777528
-Points: 124
+Points: 127
 # Comments: 49</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;20
                                   min&hairsp;)</span>
@@ -469,8 +500,8 @@ Points: 124
                             <span class="media-object__text">
                               <span>Article URL: https://jsomers.net/e-coli-chemotaxis/
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39777229
-Points: 308
-# Comments: 127</span>
+Points: 311
+# Comments: 131</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;25
                                   min&hairsp;)</span>
                             </span>
@@ -494,8 +525,8 @@ We do have a set of required reading material that I&#x27;ve gone through, along
 The lack of knowledge is obviously going to affect my growth somewhere down the line as well as in identifying opportunities for the company&#x27;s growth.
 I&#x27;m looking for advice on what can I do more from folks who joined a company/product/industry that they knew nothing about and how long it took you to get comfortable with it?
 Comments URL: https://news.ycombinator.com/item?id&#x3D;39777223
-Points: 144
-# Comments: 60</span>
+Points: 147
+# Comments: 61</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;23
                                   min&hairsp;)</span>
                             </span>
@@ -770,7 +801,7 @@ Points: 144
                               <img src="https://media.wired.com/photos/65fb6137835d404798e536c2/191:100/w_1280,c_limit/3BP_103_Unit_03306RC.jpg,3BP_103_Unit_03306RC.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>This week, we discuss how the new (very good) Netflix series 3 Body Problem fits into the sci-fi pantheon.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;143
+                                &ensp;<span class="article-reading-time">(&hairsp;142
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1020,7 +1051,7 @@ The post Threads has entered the fediverse appeared first on Engineering at Meta
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/03/sparrow.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Our flash-frozen daily links</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;36
+                                &ensp;<span class="article-reading-time">(&hairsp;37
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1687,7 +1718,7 @@ The post The New York Times’ Answer to the Collapse of the News Industry: Free
                               <img src="https://media.wired.com/photos/65fa2ea909df85517e7c2eba/191:100/w_1280,c_limit/politics_parler_relaunch_apple_store.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>The “free speech” social media alternative is back on Apple’s App Store ahead of its official relaunch.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;79
+                                &ensp;<span class="article-reading-time">(&hairsp;78
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2747,7 +2778,7 @@ The post Court Ruling Halts Wolf Trapping and Snaring in Idaho Grizzly Bear Habi
                               <img src="https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07224-3/MediaObjects/41586_2024_7224_Fig1_HTML.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>A synthetic proteome-scale strategy enables the identification of a diverse range of human proteins that can induce the degradation or stabilization of a target protein in a proximity-dependent way.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                &ensp;<span class="article-reading-time">(&hairsp;28
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2887,7 +2918,7 @@ The post Court Ruling Halts Wolf Trapping and Snaring in Idaho Grizzly Bear Habi
                               <img src="https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07222-5/MediaObjects/41586_2024_7222_Fig1_HTML.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Single motor neurons in Drosophila are stimulated to show that they direct head movements towards specific postures rather than generating fixed movement vectors, suggesting that the brain controls movements through a continuing proprioceptive–motor loop.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                &ensp;<span class="article-reading-time">(&hairsp;28
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4057,7 +4088,7 @@ The post The End of Church Militant appeared first on CounterPunch.org.</span>
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>Nature - Long-term continuous ammonia electrosynthesis</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4717,8 +4748,11 @@ The post Brain’s ‘Background Noise’ May Explain Value of Shock Therapy fir
                         <summary class="article-expander__title">Sequential Testing Keeps the World Streaming Netflix Part 2: Counting Processes</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/sequential-testing-keeps-the-world-streaming-netflix-part-2-counting-processes-da6805341642?source&#x3D;rss----2615bd06b42e---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:1024/1*7DNyGA0x7r7msS7w1Zpvpw.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
+                              <span>Michael Lindon, Chris Sanden, Vache Shirikian, Yanjun Liu, Minal Mishra, Martin Tingley</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -5017,8 +5051,11 @@ Editor&#x27;s Note: the following is a guest blog post from Tomaz Bratanic, who 
                         <summary class="article-expander__title">Capital One and Columbia U partner to drive responsible AI</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://medium.com/capital-one-tech/capital-one-and-columbia-u-partner-to-drive-responsible-ai-fef35d05b83b?source&#x3D;rss----3db3a67cb648---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:1200/0*SWIXH4FvcGoBZCMm.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
+                              <span>Capital One &amp; Columbia University announce a new partnership to establish the Center for AI and Responsible Financial Innovation.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -6250,8 +6287,11 @@ We&#x27;ve added</span>
                         <summary class="article-expander__title">Supporting Diverse ML Systems at Netflix</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/supporting-diverse-ml-systems-at-netflix-2d2e6b6d205d?source&#x3D;rss----2615bd06b42e---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:1200/1*4hoAg4FX6oeua708alTMlA.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
+                              <span>David J. Berg, Romain Cledat, Kayla Seeley, Shashank Srikanth, Chaoying Wang, Darin Yu</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -6987,8 +7027,11 @@ The post Making messaging interoperability with third parties safe for users in 
                         <summary class="article-expander__title">Bending pause times to your will with Generational ZGC</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/bending-pause-times-to-your-will-with-generational-zgc-256629c9386b?source&#x3D;rss----2615bd06b42e---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*GuEZ-RMhzNnYgLQd" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
+                              <span>The surprising and not so surprising benefits of generations in the Z Garbage Collector.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -7390,8 +7433,11 @@ Plus 5 more...</span>
                         <summary class="article-expander__title">Evolving from Rule-based Classifier: Machine Learning Powered Auto Remediation in Netflix Data…</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/evolving-from-rule-based-classifier-machine-learning-powered-auto-remediation-in-netflix-data-039d5efd115b?source&#x3D;rss----2615bd06b42e---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:1200/1*2eENd1mhwyGpMWNccEwqlQ.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
+                              <span>by Binbing Hou, Stephanie Vezich Tamayo, Xiao Chen, Liang Tian, Troy Ristow, Haoyuan Wang, Snehal Chennuru, Pawan Dixit</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;23
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -8081,8 +8127,11 @@ The post How DotSlash makes executable deployment simpler appeared first on Engi
                         <summary class="article-expander__title">Announcing bpftop: Streamlining eBPF performance optimization</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://netflixtechblog.com/announcing-bpftop-streamlining-ebpf-performance-optimization-6a727c1ae2e5?source&#x3D;rss----2615bd06b42e---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/1*hLvLcNDb6RljixhN8la-lg.gif" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
+                              <span>By Jose Fernandez</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -8199,8 +8248,11 @@ We’ve shipped TypeScript improvements. It’s now easier</span>
                         <summary class="article-expander__title">Data security strategies to safeguard sensitive data</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://medium.com/capital-one-tech/data-security-strategies-to-safeguard-sensitive-data-a509c5afd490?source&#x3D;rss----3db3a67cb648---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:1200/0*Hr1O3XPLWntlTRRy.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
+                              <span>A comprehensive approach to data security for real-time applications</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -8393,8 +8445,11 @@ experiences I&#x27;ve had in open-source. Over the…</span>
                         <summary class="article-expander__title">Building a singular software delivery pipeline in the open</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://medium.com/capital-one-tech/building-a-singular-software-delivery-pipeline-in-the-open-4255e8dce825?source&#x3D;rss----3db3a67cb648---4">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:1200/0*jR1vOD17Ock_JF0r.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>No content preview</span>
+                              <span>Learn how a team of developers embraced open source to create a singular software delivery pipeline.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -8475,8 +8530,8 @@ experiences I&#x27;ve had in open-source. Over the…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/8380980067">
-        <time id="build-timestamp" datetime="2024-03-21T19:57:24.207Z">2024-03-21T19:57:24.207Z</time>
+      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/8381100959">
+        <time id="build-timestamp" datetime="2024-03-21T20:07:33.495Z">2024-03-21T20:07:33.495Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
