@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-02T12:38:03.005Z</id>
+    <id>urn:2024-04-02T13:35:25.790Z</id>
     <title>osmos::feed</title>
-    <updated>2024-04-02T12:38:03.005Z</updated>
+    <updated>2024-04-02T13:35:25.790Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Running fine-tuned models on Workers AI with LoRAs]]></title>
+        <id>660aeacca5fcdf000a08f351</id>
+        <link href="https://blog.cloudflare.com/fine-tuned-inference-with-loras"/>
+        <updated>2024-04-02T13:00:48.000Z</updated>
+        <summary type="html"><![CDATA[Workers AI now supports fine-tuned models using LoRAs. But what is a LoRA and how does it work? In this post, we dive into fine-tuning, LoRAs and even some math to share the details of how it all works under the hood]]></summary>
+        <author>
+            <name>Michelle Chen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leveling up Workers AI: General Availability and more new capabilities]]></title>
+        <id>660ab7c3a5fcdf000a08f29a</id>
+        <link href="https://blog.cloudflare.com/workers-ai-ga-huggingface-loras-python-support"/>
+        <updated>2024-04-02T13:00:46.000Z</updated>
+        <summary type="html"><![CDATA[Today, we’re excited to make a series of announcements, including Workers AI, Cloudflare’s inference platform becoming GA and support for fine-tuned models with LoRAs and one-click deploys from HuggingFace. Cloudflare Workers now supports the Python programming language, and more]]></summary>
+        <author>
+            <name>Michelle Chen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bringing Python to Workers using Pyodide and WebAssembly]]></title>
+        <id>660ad435a5fcdf000a08f2aa</id>
+        <link href="https://blog.cloudflare.com/python-workers"/>
+        <updated>2024-04-02T13:00:45.000Z</updated>
+        <summary type="html"><![CDATA[Introducing Cloudflare Workers in Python, now in open beta! We've revamped our systems to support Python, from the runtime to deployment. Learn about Python Worker's lifecycle, dynamic linking, and memory snapshots in this post.]]></summary>
+        <author>
+            <name>Hood Chatham</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Emerge (YC W21) is hiring senior engineers to automate dead code deletion]]></title>
         <id>https://news.ycombinator.com/item?id=39904759</id>
@@ -39,16 +69,6 @@ Points: 0
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[China Needs a Better Innovation Ecosystem]]></title>
-        <id>https://www.project-syndicate.org/commentary/china-innovation-ecosystem-great-power-competition-with-us-by-andrew-sheng-and-xiao-geng-2024-04</id>
-        <link href="https://www.project-syndicate.org/commentary/china-innovation-ecosystem-great-power-competition-with-us-by-andrew-sheng-and-xiao-geng-2024-04"/>
-        <updated>2024-04-02T10:30:08.000Z</updated>
-        <summary type="html"><![CDATA[China’s leaders have so far struggled to build the innovation ecosystem the country needs, including a liquid and transparent public and private funding mechanism. In the context of the great-power competition with the United States, this amounts to a massive disadvantage.]]></summary>
-        <author>
-            <name>Andrew Sheng</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How the Electric War Is Redrawing the Ukraine Map – In Black]]></title>
         <id>https://www.nakedcapitalism.com/?p=269350</id>
         <link href="https://www.nakedcapitalism.com/2024/04/how-the-electric-war-is-redrawing-the-ukraine-map-in-black.html"/>
@@ -59,13 +79,15 @@ Points: 0
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Germany’s Weakness Is Bad for Europe]]></title>
-        <id>https://www.project-syndicate.org/commentary/germany-weak-coalition-and-worsening-economic-performance-by-ana-palacio-2024-04</id>
-        <link href="https://www.project-syndicate.org/commentary/germany-weak-coalition-and-worsening-economic-performance-by-ana-palacio-2024-04"/>
-        <updated>2024-04-02T09:40:17.000Z</updated>
-        <summary type="html"><![CDATA[Germany escaped its post-reunification economic slump thanks to decisive action by determined leaders, bolstered by true belief in the European project. Whether the same will happen today – when Germany is facing many of the same conditions that prevailed in the 1990s – is far from clear.]]></summary>
+        <title type="html"><![CDATA[New comment by skrebbel in "XZ: Repo maintainer Lasse Collin responding on LKML"]]></title>
+        <id>https://news.ycombinator.com/item?id=39903798</id>
+        <link href="https://news.ycombinator.com/item?id=39903798"/>
+        <updated>2024-04-02T09:25:39.000Z</updated>
+        <summary type="html"><![CDATA[Points for Collin for letting his holiday take precedence over this mess.
+Don’t forget that he made xz for free, as a hobby project, and likely got duped by “Jia Tan” same as everybody else did. He’s not obligated to solve this on any particular timeline.
+Xz is not a business, so if your business got in trouble because a single solo hobby dev was a bit too trustful, it’s your job, and not his, to mitigate the problem.]]></summary>
         <author>
-            <name>Ana Palacio</name>
+            <name>skrebbel</name>
         </author>
     </entry>
     <entry>
@@ -77,8 +99,8 @@ Points: 0
 Recently a syndicate lead posted such a clueless update on a startup (claiming their product passed a milestone it clearly did not, based on just reading their public updates), that I started doubting whether they've actually invested in it at all.
 This made me question the platform. How do I even know these leads have invested my money in the startups they say they have?
 Comments URL: https://news.ycombinator.com/item?id=39903773
-Points: 41
-# Comments: 29]]></summary>
+Points: 60
+# Comments: 33]]></summary>
         <author>
             <name>throwaway2948</name>
         </author>
@@ -90,20 +112,10 @@ Points: 41
         <updated>2024-04-02T09:16:24.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://blog.liw.fi/posts/2024/monorepo/
 Comments URL: https://news.ycombinator.com/item?id=39903742
-Points: 124
-# Comments: 63]]></summary>
+Points: 154
+# Comments: 89]]></summary>
         <author>
             <name>pabs3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Financial Sanctions Need Global Governance]]></title>
-        <id>https://www.project-syndicate.org/commentary/international-framework-governing-financial-sanctions-needed-by-paola-subacchi-and-rosa-m-lastra-2024-04</id>
-        <link href="https://www.project-syndicate.org/commentary/international-framework-governing-financial-sanctions-needed-by-paola-subacchi-and-rosa-m-lastra-2024-04"/>
-        <updated>2024-04-02T08:37:00.000Z</updated>
-        <summary type="html"><![CDATA[Like any other powerful weapon, financial sanctions should be deployed in accordance with international legal principles. That is why the G7 and the G20, together with the international financial institutions, should establish a multilateral framework to govern their use.]]></summary>
-        <author>
-            <name>Paola Subacchi</name>
         </author>
     </entry>
     <entry>
@@ -113,10 +125,29 @@ Points: 124
         <updated>2024-04-02T08:22:58.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://github.com/OneUptime/oneuptime
 Comments URL: https://news.ycombinator.com/item?id=39903471
-Points: 23
-# Comments: 1]]></summary>
+Points: 43
+# Comments: 3]]></summary>
         <author>
             <name>devneelpatel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Docfd: TUI multiline fuzzy document finder]]></title>
+        <id>https://news.ycombinator.com/item?id=39903267</id>
+        <link href="https://github.com/darrenldl/docfd"/>
+        <updated>2024-04-02T07:43:40.000Z</updated>
+        <summary type="html"><![CDATA[Think interactive grep for text files, PDFs, DOCXs, etc, but word/token based instead of regex and line based, so you can search across lines easily.
+Docfd aims to provide good UX via integration with common text editors and PDF viewers, so you can jump directly to a search result with a single key press.
+---
+I originally wrote this tool to help me dig through text/markdown notes, since very often I want to search for a phrase of sorts that may span across multiple lines, but constructing the corresponding multiline regex is a bit painful (especially painful if I want to account for fuzziness), and I still have to guess the ordering of the words. Furthermore, I'd still have to sift through all the results, even the irrelevant ones.
+fzf's core is kinda there for some cases, but I want the fuzziness to be constrained around each individual word, i.e. each word matching some other word of +/- N edit distance, instead of this whole line matching other whole line +/- N edit distance or other metric. And fzf also doesn't do multiline as far as I can tell (or I'm being silly).
+Since nothing quite fit my taste, I decided to make something with a relatively straightforward UI/UX (I gave up on many tools purely because I cannot be bothered to remember yet another set of keybindings), ranks all the results for me using a "pretty alright" heuristic, and allows me to open the file to the search results easily.
+Support for PDF (via pdftotext) and DOCX etc (via pandoc) were added later on based on suggestions I got from Reddit users despite my initial reluctance. But after eating my own dog food for a while I have to say they were very right.
+Comments URL: https://news.ycombinator.com/item?id=39903267
+Points: 9
+# Comments: 1]]></summary>
+        <author>
+            <name>darrenldl</name>
         </author>
     </entry>
     <entry>
@@ -126,8 +157,8 @@ Points: 23
         <updated>2024-04-02T06:58:36.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://github.com/unikraft/unikraft
 Comments URL: https://news.ycombinator.com/item?id=39903056
-Points: 50
-# Comments: 8]]></summary>
+Points: 60
+# Comments: 17]]></summary>
         <author>
             <name>ashvardanian</name>
         </author>
@@ -280,8 +311,8 @@ The post What the World Needs Now appeared first on CounterPunch.org.]]></summar
         <updated>2024-04-02T04:24:18.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.breakneck.dev/blog/no-tech-cofounder
 Comments URL: https://news.ycombinator.com/item?id=39902372
-Points: 49
-# Comments: 23]]></summary>
+Points: 113
+# Comments: 71]]></summary>
         <author>
             <name>vyrotek</name>
         </author>
@@ -293,8 +324,8 @@ Points: 49
         <updated>2024-04-02T04:19:52.000Z</updated>
         <summary type="html"><![CDATA[Article URL: http://www.benlo.com/microchess/index.html
 Comments URL: https://news.ycombinator.com/item?id=39902350
-Points: 46
-# Comments: 7]]></summary>
+Points: 51
+# Comments: 9]]></summary>
         <author>
             <name>jonbaer</name>
         </author>
@@ -306,7 +337,7 @@ Points: 46
         <updated>2024-04-02T04:03:45.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://github.com/myscale/myscaledb
 Comments URL: https://news.ycombinator.com/item?id=39902271
-Points: 23
+Points: 31
 # Comments: 3]]></summary>
         <author>
             <name>thunderbong</name>
@@ -319,8 +350,8 @@ Points: 23
         <updated>2024-04-02T03:58:00.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://research.swtch.com/xz-timeline
 Comments URL: https://news.ycombinator.com/item?id=39902241
-Points: 116
-# Comments: 32]]></summary>
+Points: 188
+# Comments: 76]]></summary>
         <author>
             <name>todsacerdoti</name>
         </author>
@@ -332,8 +363,8 @@ Points: 116
         <updated>2024-04-02T03:50:18.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://github.com/AlexanderKoch-Koch/low_cost_robot
 Comments URL: https://news.ycombinator.com/item?id=39902205
-Points: 257
-# Comments: 120]]></summary>
+Points: 291
+# Comments: 136]]></summary>
         <author>
             <name>pbrowne011</name>
         </author>
@@ -345,7 +376,7 @@ Points: 257
         <updated>2024-04-02T03:34:13.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://allenai.github.io/lumos/
 Comments URL: https://news.ycombinator.com/item?id=39902130
-Points: 67
+Points: 76
 # Comments: 7]]></summary>
         <author>
             <name>milliondreams</name>
@@ -358,8 +389,8 @@ Points: 67
         <updated>2024-04-02T03:04:21.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://rbren.substack.com/p/banning-open-weight-models-would
 Comments URL: https://news.ycombinator.com/item?id=39901978
-Points: 178
-# Comments: 105]]></summary>
+Points: 195
+# Comments: 118]]></summary>
         <author>
             <name>rbren</name>
         </author>
@@ -371,8 +402,8 @@ Points: 178
         <updated>2024-04-02T02:09:08.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.openwall.com/lists/oss-security/2024/04/01/1
 Comments URL: https://news.ycombinator.com/item?id=39901655
-Points: 133
-# Comments: 95]]></summary>
+Points: 153
+# Comments: 117]]></summary>
         <author>
             <name>nateb2022</name>
         </author>
@@ -384,8 +415,8 @@ Points: 133
         <updated>2024-04-02T01:09:26.000Z</updated>
         <summary type="html"><![CDATA[Article URL: http://kristerw.blogspot.com/2019/01/building-gcc-127.html
 Comments URL: https://news.ycombinator.com/item?id=39901290
-Points: 60
-# Comments: 26]]></summary>
+Points: 64
+# Comments: 29]]></summary>
         <author>
             <name>peter_d_sherman</name>
         </author>
@@ -441,6 +472,26 @@ Points: 60
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Research assessments are still not fit for purpose — here’s how to change things]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00899-8</id>
+        <link href="https://www.nature.com/articles/d41586-024-00899-8"/>
+        <updated>2024-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A move away from narrow assessment metrics such as high-impact publications is welcome, but a lack of planning and consultation mean the replacements are often no better.]]></summary>
+        <author>
+            <name>Kelly Cobey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘Maybe I was never meant to be in science’: how imposter syndrome seizes scientist mothers]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00953-5</id>
+        <link href="https://www.nature.com/articles/d41586-024-00953-5"/>
+        <updated>2024-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Brazilian biologist Fernanda Staniscuaski saw career opportunities diminish after returning from parental leave, prompting her to take action.]]></summary>
+        <author>
+            <name>Julie Gould</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[A 2023 hurricane caught Mexico off guard: we must work together to prepare better]]></title>
         <id>https://www.nature.com/articles/d41586-024-00904-0</id>
         <link href="https://www.nature.com/articles/d41586-024-00904-0"/>
@@ -467,8 +518,8 @@ Points: 60
         <updated>2024-04-01T23:57:51.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://med.stanford.edu/news/all-news/2024/04/keto-diet-mental-illness.html
 Comments URL: https://news.ycombinator.com/item?id=39900857
-Points: 38
-# Comments: 11]]></summary>
+Points: 54
+# Comments: 23]]></summary>
         <author>
             <name>wjb3</name>
         </author>
@@ -480,7 +531,7 @@ Points: 38
         <updated>2024-04-01T22:51:29.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://github.com/pufferffish/wireproxy
 Comments URL: https://news.ycombinator.com/item?id=39900329
-Points: 251
+Points: 269
 # Comments: 49]]></summary>
         <author>
             <name>JNRowe</name>
@@ -567,8 +618,8 @@ It's fun when physical reality meets the abstract models that we have built in o
         <updated>2024-04-01T17:07:36.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://predr.ag/blog/wifi-only-works-when-its-raining/
 Comments URL: https://news.ycombinator.com/item?id=39896371
-Points: 937
-# Comments: 275]]></summary>
+Points: 962
+# Comments: 281]]></summary>
         <author>
             <name>bonyt</name>
         </author>
@@ -584,16 +635,16 @@ Points: 937
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Show HN: I just made my profitable online form builder open-sourced]]></title>
-        <id>https://news.ycombinator.com/item?id=39895960</id>
-        <link href="https://github.com/heyform/heyform"/>
-        <updated>2024-04-01T16:30:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/heyform/heyform
-Comments URL: https://news.ycombinator.com/item?id=39895960
-Points: 330
-# Comments: 95]]></summary>
+        <title type="html"><![CDATA[Bun 1.1]]></title>
+        <id>https://news.ycombinator.com/item?id=39895744</id>
+        <link href="https://bun.sh/blog/bun-v1.1"/>
+        <updated>2024-04-01T16:11:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bun.sh/blog/bun-v1.1
+Comments URL: https://news.ycombinator.com/item?id=39895744
+Points: 361
+# Comments: 201]]></summary>
         <author>
-            <name>dearroy</name>
+            <name>ksec</name>
         </author>
     </entry>
     <entry>
@@ -603,56 +654,10 @@ Points: 330
         <updated>2024-04-01T15:40:28.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://github.com/amlweems/xzbot
 Comments URL: https://news.ycombinator.com/item?id=39895344
-Points: 786
-# Comments: 406]]></summary>
+Points: 796
+# Comments: 413]]></summary>
         <author>
             <name>q3k</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solar Geoengineering Is a Dangerous Distraction]]></title>
-        <id>https://www.project-syndicate.org/commentary/african-countries-warn-solar-geoengineering-dangerous-climate-distraction-by-yacob-mulugetta-et-al-2023-04</id>
-        <link href="https://www.project-syndicate.org/commentary/african-countries-warn-solar-geoengineering-dangerous-climate-distraction-by-yacob-mulugetta-et-al-2023-04"/>
-        <updated>2024-04-01T15:25:32.000Z</updated>
-        <summary type="html"><![CDATA[At the most recent United Nations Environment Assembly, Africa’s leaders helped shoot down a resolution that called for more research into the benefits and risks of solar radiation modification. They identified the dangers of entertaining this fantasy and emphasized the need for effective and equitable climate solutions.]]></summary>
-        <author>
-            <name>Yacob Mulugetta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Who is hiring? (April 2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=39894820</id>
-        <link href="https://news.ycombinator.com/item?id=39894820"/>
-        <updated>2024-04-01T15:00:56.000Z</updated>
-        <summary type="html"><![CDATA[Please state the location and include REMOTE, INTERNS and/or VISA
-when that sort of candidate is welcome. When remote work is not an option,
-include ONSITE.
-Please only post if you personally are part of the hiring company—no
-recruiting firms or job boards. One post per company. If it isn't a household name,
-explain what your company does.
-Commenters: please don't reply to job posts to complain about
-something. It's off topic here.
-Readers: please only email if you are personally interested in the job.
-Searchers: try https://www.remotenbs.com, https://hnjobs.u-turn.dev, https://hnresumetojobs.com,
-https://hnhired.fly.dev, https://kennytilton.github.io/whoishiring/, https://hnjobs.emilburzo.com.
-Don't miss these other fine threads:
-Who wants to be hired? https://news.ycombinator.com/item?id=39894818
-Freelancer? Seeking freelancer? https://news.ycombinator.com/item?id=39894819
-Comments URL: https://news.ycombinator.com/item?id=39894820
-Points: 290
-# Comments: 284]]></summary>
-        <author>
-            <name>whoishiring</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Case for Israel Remains Valid]]></title>
-        <id>https://www.project-syndicate.org/commentary/israel-not-easily-disentagled-from-jewish-identity-by-ian-buruma-2024-04</id>
-        <link href="https://www.project-syndicate.org/commentary/israel-not-easily-disentagled-from-jewish-identity-by-ian-buruma-2024-04"/>
-        <updated>2024-04-01T14:30:08.000Z</updated>
-        <summary type="html"><![CDATA[The surge in anti-Semitic violence around the world following the outbreak of the war in Gaza has reignited the debate over whether Israel's existence puts diaspora Jews at risk. Although some Jews reject any link to Israel, disentangling Jewish identity from the Jewish State is not that simple.]]></summary>
-        <author>
-            <name>Ian Buruma</name>
         </author>
     </entry>
     <entry>
@@ -674,16 +679,6 @@ Points: 290
 The post Merging Fields, Mathematicians Go the Distance on Old Problem first appeared on Quanta Magazine]]></summary>
         <author>
             <name>Erica Klarreich</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Have Inflation Forecasts Been So Wrong?]]></title>
-        <id>https://www.project-syndicate.org/commentary/inflation-forecasts-why-have-they-been-so-wrong-by-willem-h-buiter-and-ebrahim-rahbari-2024-04</id>
-        <link href="https://www.project-syndicate.org/commentary/inflation-forecasts-why-have-they-been-so-wrong-by-willem-h-buiter-and-ebrahim-rahbari-2024-04"/>
-        <updated>2024-04-01T13:26:13.000Z</updated>
-        <summary type="html"><![CDATA[To explain why forecasters at the US Federal Reserve and other major institutions missed the mark on inflation in recent years, it is tempting to conclude that they were blindsided by unpredictably large shocks. But if the prevailing models work only when variables are relatively stable, they are of little use.]]></summary>
-        <author>
-            <name>Willem H. Buiter</name>
         </author>
     </entry>
     <entry>
@@ -717,16 +712,6 @@ The post Merging Fields, Mathematicians Go the Distance on Old Problem first app
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How Democracies Can Win the Tech Race]]></title>
-        <id>https://www.project-syndicate.org/commentary/us-eu-must-revitalize-transatlantic-alliance-to-win-global-tech-race-by-ylli-bajraktari-and-andre-loesekrug-pietri-2024-04</id>
-        <link href="https://www.project-syndicate.org/commentary/us-eu-must-revitalize-transatlantic-alliance-to-win-global-tech-race-by-ylli-bajraktari-and-andre-loesekrug-pietri-2024-04"/>
-        <updated>2024-04-01T12:15:56.000Z</updated>
-        <summary type="html"><![CDATA[Winning the race for future technologies demands a united front. That is why the United States and the European Union must continue to shape standards and regulations in emerging sectors, while also joining forces on research and development programs and large “moonshot” projects.]]></summary>
-        <author>
-            <name>Ylli Bajraktari</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Learning by Bouncing: Overdraft Experience and Salience]]></title>
         <id>https://libertystreeteconomics.newyorkfed.org/?p=28692</id>
         <link href="https://libertystreeteconomics.newyorkfed.org/2024/04/learning-by-bouncing-overdraft-experience-and-salience/"/>
@@ -753,16 +738,6 @@ The post Merging Fields, Mathematicians Go the Distance on Old Problem first app
         <summary type="html"><![CDATA[Summary: parking places are a woefully inefficient use of space. And ugly. Cars are a woefully inefficient use of machinery. Using them, in combination with bi-directional charging of cars, to produce solar can amend this. Doing this the right way, parking places can be beautified, costs will go down and life will be more pleasant. […]]]></summary>
         <author>
             <name>merijntknibbe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Hitler Trial’s Lessons in the Trump Era]]></title>
-        <id>https://www.project-syndicate.org/commentary/hitler-1924-treason-trial-offers-lessons-trump-legal-cases-by-mark-jones-5-2024-04</id>
-        <link href="https://www.project-syndicate.org/commentary/hitler-1924-treason-trial-offers-lessons-trump-legal-cases-by-mark-jones-5-2024-04"/>
-        <updated>2024-04-01T09:25:19.000Z</updated>
-        <summary type="html"><![CDATA[A century after Adolf Hitler was prosecuted for his role in the Beer Hall Putsch, it is worth remembering how the Nazi leader used the courtroom as a stage, portraying himself as the victim of an overzealous judiciary. As former US President Donald Trump faces a slew of trials, his opponents should take the comparison seriously.]]></summary>
-        <author>
-            <name>Mark Jones</name>
         </author>
     </entry>
     <entry>
@@ -1323,26 +1298,6 @@ I love this sort of technical writing from contributors outside the mainstream d
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Giorgia Meloni’s Surprising Success]]></title>
-        <id>https://www.project-syndicate.org/commentary/giorgia-meloni-surprising-strength-and-impact-on-european-politics-by-lucrezia-reichlin-2024-03</id>
-        <link href="https://www.project-syndicate.org/commentary/giorgia-meloni-surprising-strength-and-impact-on-european-politics-by-lucrezia-reichlin-2024-03"/>
-        <updated>2024-03-29T13:45:03.000Z</updated>
-        <summary type="html"><![CDATA[Italian Prime Minister Giorgia Meloni has proved to be a creative politician who remains popular at home and is poised to wield more influence following the European Parliament elections in June. But the picture for Meloni is not all rosy, particularly as Italy's economic outlook darkens.]]></summary>
-        <author>
-            <name>Lucrezia Reichlin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are Global Capital Rules Possible?]]></title>
-        <id>https://www.project-syndicate.org/commentary/basel-3-1-capital-reserve-rules-diverging-us-uk-eu-by-howard-davies-2024-03</id>
-        <link href="https://www.project-syndicate.org/commentary/basel-3-1-capital-reserve-rules-diverging-us-uk-eu-by-howard-davies-2024-03"/>
-        <updated>2024-03-29T13:09:44.000Z</updated>
-        <summary type="html"><![CDATA[Recent developments have served as a reminder that the institutional arrangements governing the setting of capital standards for banks in the United States, the United Kingdom, and the European Union are remarkably different. In its effort to establish a common framework, the Basel Committee faces potentially insuperable odds.]]></summary>
-        <author>
-            <name>Howard Davies</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Minimizing on-call burnout through alerts observability]]></title>
         <id>66032966a5fcdf000a08e732</id>
         <link href="https://blog.cloudflare.com/alerts-observability"/>
@@ -1350,46 +1305,6 @@ I love this sort of technical writing from contributors outside the mainstream d
         <summary type="html"><![CDATA[Learn how Cloudflare used open-source tools to enhance alert observability, leading to increased resilience and improved on-call team well-being]]></summary>
         <author>
             <name>Monika Singh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Business Lessons from the Fall of Icarus]]></title>
-        <id>https://www.project-syndicate.org/commentary/icarus-myth-shows-challenges-corporate-social-responsibility-by-vanessa-badre-2024-03</id>
-        <link href="https://www.project-syndicate.org/commentary/icarus-myth-shows-challenges-corporate-social-responsibility-by-vanessa-badre-2024-03"/>
-        <updated>2024-03-29T11:26:17.000Z</updated>
-        <summary type="html"><![CDATA[A work of art can open a window that allows us to get a better view of the challenges of our own time. For example, a Flemish Renaissance painting portraying the ancient Greek myth of Daedalus and his son Icarus provides unique insights into the excesses of the market economy, as well as recent efforts to rein them in.]]></summary>
-        <author>
-            <name>Vanessa Badré</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China Tightens Its Grip on Hong Kong]]></title>
-        <id>https://www.project-syndicate.org/commentary/hong-kong-national-security-law-cpc-latest-attempt-to-suppress-civil-society-by-chris-patten-2024-03</id>
-        <link href="https://www.project-syndicate.org/commentary/hong-kong-national-security-law-cpc-latest-attempt-to-suppress-civil-society-by-chris-patten-2024-03"/>
-        <updated>2024-03-29T10:24:53.000Z</updated>
-        <summary type="html"><![CDATA[While Hong Kong claims that its new national-security law targets treasonous and seditious activity, its real goal is to sever all contact between freedom advocates in the city and the outside world. It also underscores the Communist Party of China’s ongoing failure to understand Hong Kong and its residents.]]></summary>
-        <author>
-            <name>Chris Patten</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Struggle for Currency Supremacy]]></title>
-        <id>https://www.project-syndicate.org/onpoint/currency-competition-dollar-is-supreme-but-digital-assets-complicate-picture-by-paolo-tasca-2024-03</id>
-        <link href="https://www.project-syndicate.org/onpoint/currency-competition-dollar-is-supreme-but-digital-assets-complicate-picture-by-paolo-tasca-2024-03"/>
-        <updated>2024-03-29T09:24:02.000Z</updated>
-        <summary type="html"><![CDATA[The question of whether the US dollar will be dethroned by a cryptocurrency, a stablecoin, or some other digital asset or payments system ultimately misses the point. What really matters is the mix of possible alternatives that today's evolving financial landscape will offer to governments pursuing a geopolitical advantage.]]></summary>
-        <author>
-            <name>Paolo Tasca</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Oligarch, His Ex-Wife, Her Mother, and Rupert Murdoch]]></title>
-        <id>https://www.project-syndicate.org/commentary/murdoch-engaged-to-abramovich-former-mother-in-law-elena-zhukova-by-nina-l-khrushcheva-2024-03</id>
-        <link href="https://www.project-syndicate.org/commentary/murdoch-engaged-to-abramovich-former-mother-in-law-elena-zhukova-by-nina-l-khrushcheva-2024-03"/>
-        <updated>2024-03-29T09:14:22.000Z</updated>
-        <summary type="html"><![CDATA[Rupert Murdoch, America’s premier purveyor of conspiracy theories, is planning his fifth wedding. His bride-to-be, Elena Zhukova, the ex-wife of one Russian oligarch and the former mother-in-law of another, is a choice that suggests a match made in Hollywood.]]></summary>
-        <author>
-            <name>Nina L. Khrushcheva</name>
         </author>
     </entry>
     <entry>
@@ -1526,16 +1441,6 @@ It's worth reading, perhaps unless you're going to be flying on a Boeing plane a
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Immigration Tinderbox]]></title>
-        <id>https://www.project-syndicate.org/onpoint/the-immigration-tinderbox</id>
-        <link href="https://www.project-syndicate.org/onpoint/the-immigration-tinderbox"/>
-        <updated>2024-03-28T17:42:20.000Z</updated>
-        <summary type="html"><![CDATA[In the United States and Europe, immigration tends to divide people into opposing camps: those who claim that newcomers undermine economic opportunity and security for locals, and those who argue that welcoming migrants and refugees is a moral and economic imperative. How should one make sense of a debate that is often based on motivated reasoning, with emotion and underlying biases affecting the selection and interpretation of evidence?]]></summary>
-        <author>
-            <name>PS Commentators</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by rgbrenner in "Sam Bankman-Fried sentenced to 25 years in prison"]]></title>
         <id>https://news.ycombinator.com/item?id=39854257</id>
         <link href="https://news.ycombinator.com/item?id=39854257"/>
@@ -1569,18 +1474,6 @@ My conclusion: 1) Lewis's book was good and insightful, and it's unfair to descr
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by setgree in "Sam Bankman-Fried sentenced to 25 years in prison"]]></title>
-        <id>https://news.ycombinator.com/item?id=39853654</id>
-        <link href="https://news.ycombinator.com/item?id=39853654"/>
-        <updated>2024-03-28T16:22:29.000Z</updated>
-        <summary type="html"><![CDATA[An uncle once commented about a cousin of ours that he demonstrated how it's possible to screw things up so badly that you can't possibly recover. I think that's true for Sam. I hope it's not true for the people in his orbit; I hope they can get out from under this and try to find meaning, ideally from repairing the harm they've done.
-As Rick Heicklen writes, "We are not ever going to be Sam. But we could be Caroline, or Nishad, or Natalie. Or even Michael Lewis. We could easily make the same mistakes they do." [0]
-[0] https://asteriskmag.com/issues/05/michael-lewis-s-blind-side, posted previously here: https://news.ycombinator.com/item?id=39118124]]></summary>
-        <author>
-            <name>setgree</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[LangFriend: a Journal with Long-Term Memory]]></title>
         <id>65fa3a289333bd00014c371f</id>
         <link href="https://blog.langchain.dev/langfriend/"/>
@@ -1588,16 +1481,6 @@ As Rick Heicklen writes, "We are not ever going to be Sam. But we could be Carol
         <summary type="html"><![CDATA[One of the concepts we are most interested in at LangChain is memory. Whenever we are interested in a concept, we like to build an example app showing off that concept. For memory, we decided to build a journaling app! We're hosting a version of it that anyone]]></summary>
         <author>
             <name>LangChain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Senegal’s Election and Africa’s Future]]></title>
-        <id>https://www.project-syndicate.org/commentary/what-senegals-new-president-bassirou-diomaye-faye-must-do-by-rabah-arezki-2024-03</id>
-        <link href="https://www.project-syndicate.org/commentary/what-senegals-new-president-bassirou-diomaye-faye-must-do-by-rabah-arezki-2024-03"/>
-        <updated>2024-03-28T15:38:58.000Z</updated>
-        <summary type="html"><![CDATA[Bassirou Diomaye Faye’s resounding victory in Senegal's presidential election gives him strong mandate to pursue measures against corruption and in favor of economic inclusion. But before he can deliver on these campaign promises, he first must shore up the country's democratic institutions and system.]]></summary>
-        <author>
-            <name>Rabah Arezki</name>
         </author>
     </entry>
     <entry>
@@ -1612,16 +1495,6 @@ The post The Social Benefits of Getting Our Brains in Sync first appeared on Qua
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[America Must Lead on Crypto Regulation]]></title>
-        <id>https://www.project-syndicate.org/commentary/united-states-losing-competitive-edge-in-digital-asset-markets-by-dante-alighieri-disparte-2024-03</id>
-        <link href="https://www.project-syndicate.org/commentary/united-states-losing-competitive-edge-in-digital-asset-markets-by-dante-alighieri-disparte-2024-03"/>
-        <updated>2024-03-28T13:52:06.000Z</updated>
-        <summary type="html"><![CDATA[To maintain its position as a global rule-maker and avoid becoming a rule-taker, the United States must use the coming year to promote clarity and confidence in the digital-asset market. The US faces three potential paths to maintaining its competitive edge in crypto: regulation, legislation, and designation.]]></summary>
-        <author>
-            <name>Dante Alighieri Disparte</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How Is Flocking Like Computing?]]></title>
         <id>https://www.quantamagazine.org/?p=136659</id>
         <link href="https://www.quantamagazine.org/how-is-flocking-like-computing-20240328/"/>
@@ -1630,16 +1503,6 @@ The post The Social Benefits of Getting Our Brains in Sync first appeared on Qua
 The post How Is Flocking Like Computing? first appeared on Quanta Magazine]]></summary>
         <author>
             <name>Steven Strogatz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rached Ghannouchi’s Plight Deserves More Attention]]></title>
-        <id>https://www.project-syndicate.org/commentary/rached-ghannouchi-imprisonment-symbolizes-tunsia-democratic-reversal-by-abdullah-gul-2024-03</id>
-        <link href="https://www.project-syndicate.org/commentary/rached-ghannouchi-imprisonment-symbolizes-tunsia-democratic-reversal-by-abdullah-gul-2024-03"/>
-        <updated>2024-03-28T12:53:39.000Z</updated>
-        <summary type="html"><![CDATA[Rather than capitalizing on his popularity to consolidate his own power after the Arab Spring, the Tunisian politician Rached Ghannouchi pursued compromise in the name of pluralism and democracy. His imprisonment by a regime that does not share those commitments should provoke far more international outrage than it has.]]></summary>
-        <author>
-            <name>Abdullah Gül</name>
         </author>
     </entry>
     <entry>
@@ -1670,16 +1533,6 @@ The post How Is Flocking Like Computing? first appeared on Quanta Magazine]]></s
 It's crazy to see how much is coming out of Meta's R&D alone.]]></summary>
         <author>
             <name>lelag</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WTO Reform Is Everyone’s Responsibility]]></title>
-        <id>https://www.project-syndicate.org/commentary/wto-reform-will-require-collective-action-by-ngozi-okonjo-iweala-2024-03</id>
-        <link href="https://www.project-syndicate.org/commentary/wto-reform-will-require-collective-action-by-ngozi-okonjo-iweala-2024-03"/>
-        <updated>2024-03-28T09:26:26.000Z</updated>
-        <summary type="html"><![CDATA[The World Trade Organization’s most recent ministerial conference concluded with a few positive outcomes demonstrating that meaningful change is possible, though there were some disappointments. A successful agenda of reforms will require more members – particularly emerging markets and developing economies – to take the lead.]]></summary>
-        <author>
-            <name>Ngozi Okonjo-Iweala</name>
         </author>
     </entry>
     <entry>
@@ -1760,16 +1613,6 @@ It's crazy to see how much is coming out of Meta's R&D alone.]]></summary>
         <summary type="html"><![CDATA[Scientists compiling a review scan more than 1,000 papers and find troubling images in nearly 20%.]]></summary>
         <author>
             <name>Sumeet Kulkarni</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Can Stop the Shortening of American Lives?]]></title>
-        <id>https://www.project-syndicate.org/commentary/us-life-expectancy-lowered-by-guns-overdoses-obesity-distrust-of-public-health-expertise-by-michael-r-bloomberg-2024-03</id>
-        <link href="https://www.project-syndicate.org/commentary/us-life-expectancy-lowered-by-guns-overdoses-obesity-distrust-of-public-health-expertise-by-michael-r-bloomberg-2024-03"/>
-        <updated>2024-03-27T17:30:56.000Z</updated>
-        <summary type="html"><![CDATA[Although US life expectancy has recovered somewhat since the height of the COVID-19 pandemic, it remains lower than it was before 2019, owing to America's world-leading rates of overdoses, gun deaths, and obesity. The politically driven loss of public trust in public health and expertise continues to take a devastating toll.]]></summary>
-        <author>
-            <name>Michael R. Bloomberg</name>
         </author>
     </entry>
     <entry>
@@ -2384,26 +2227,6 @@ The post Topologists Tackle the Trouble With Poll Placement first appeared on Qu
         <summary type="html"><![CDATA[Snippets from Nature’s past.]]></summary>
         <author>
             <name>Nature</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[These levitating bubbles are long-lived and puncture-proof]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00859-2</id>
-        <link href="https://www.nature.com/articles/d41586-024-00859-2"/>
-        <updated>2024-03-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Soap bubbles bombarded with ultrasonic waves rise into mid-air and can survive being stabbed with a needle.]]></summary>
-        <author>
-            <name>Nature</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cuts to postgraduate funding threaten Brazilian science — again]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00916-w</id>
-        <link href="https://www.nature.com/articles/d41586-024-00916-w"/>
-        <updated>2024-03-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Letter to the Editor]]></summary>
-        <author>
-            <name>Marcus F. Oliveira</name>
         </author>
     </entry>
     <entry>
@@ -3185,36 +3008,6 @@ We've added]]></summary>
         <summary type="html"><![CDATA[In 2024, more than 80 national elections are slated to occur, directly impacting approximately 4.2 billion individuals. At Cloudflare, we’re ready to support a range of players in the election space by providing security, performance, and reliability tools to help facilitate the democratic process]]></summary>
         <author>
             <name>Jocelyn Woolbright</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building secure websites: a guide to Cloudflare Pages and Turnstile Plugin]]></title>
-        <id>65e8ab42a5fcdf000a08a402</id>
-        <link href="https://blog.cloudflare.com/guide-to-cloudflare-pages-and-turnstile-plugin"/>
-        <updated>2024-03-07T14:00:52.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to use Cloudflare Pages and Turnstile to deploy your website quickly and easily while protecting it from bots, without compromising user experience. Follow our tutorial here for a seamless integration]]></summary>
-        <author>
-            <name>Sally Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free network flow monitoring for all enterprise customers]]></title>
-        <id>65e8ab34a5fcdf000a08a3fa</id>
-        <link href="https://blog.cloudflare.com/free-network-monitoring-for-enterprise"/>
-        <updated>2024-03-07T14:00:43.000Z</updated>
-        <summary type="html"><![CDATA[Today, we’re excited to announce that a free version of Cloudflare’s network flow monitoring product, Magic Network Monitoring, is now available to all Enterprise Customers]]></summary>
-        <author>
-            <name>Chris Draper</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Advanced DNS Protection: mitigating sophisticated DNS DDoS attacks]]></title>
-        <id>65e8ab3ba5fcdf000a08a3fe</id>
-        <link href="https://blog.cloudflare.com/advanced-dns-protection"/>
-        <updated>2024-03-07T14:00:36.000Z</updated>
-        <summary type="html"><![CDATA[We're proud to introduce the Advanced DNS Protection system, a robust defense mechanism designed to protect against the most sophisticated DNS-based DDoS attacks]]></summary>
-        <author>
-            <name>Omer Yoachimik</name>
         </author>
     </entry>
     <entry>
