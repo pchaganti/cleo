@@ -1,99 +1,366 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-17T12:37:40.604Z</id>
+    <id>urn:2024-04-17T18:26:42.716Z</id>
     <title>osmos::feed</title>
-    <updated>2024-04-17T12:37:40.604Z</updated>
+    <updated>2024-04-17T18:26:42.716Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[How many bathrooms have Neanderthals in the tile?]]></title>
-        <id>https://news.ycombinator.com/item?id=40063367</id>
-        <link href="https://johnhawks.net/weblog/how-many-bathrooms-have-neandertals-in-the-tile/"/>
-        <updated>2024-04-17T12:00:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://johnhawks.net/weblog/how-many-bathrooms-have-neandertals-in-the-tile/
-Comments URL: https://news.ycombinator.com/item?id=40063367
-Points: 3
+        <title type="html"><![CDATA[Collapse of Self-Trained Language Models]]></title>
+        <id>https://news.ycombinator.com/item?id=40068170</id>
+        <link href="https://arxiv.org/abs/2404.02305"/>
+        <updated>2024-04-17T18:05:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2404.02305
+Comments URL: https://news.ycombinator.com/item?id=40068170
+Points: 4
 # Comments: 0]]></summary>
         <author>
-            <name>Luc</name>
+            <name>PaulHoule</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Finley (YC W21) is hiring for capital markets innovators (US remote)]]></title>
-        <id>https://news.ycombinator.com/item?id=40063366</id>
-        <link href="https://www.finleycms.com/careers/"/>
-        <updated>2024-04-17T12:00:25.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.finleycms.com/careers/
-Comments URL: https://news.ycombinator.com/item?id=40063366
-Points: 0
-# Comments: 0]]></summary>
+        <title type="html"><![CDATA[2:00PM Water Cooler 4/17/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=270163</id>
+        <link href="https://www.nakedcapitalism.com/2024/04/200pm-water-cooler-4-17-2024.html"/>
+        <updated>2024-04-17T18:00:32.000Z</updated>
+        <summary type="html"><![CDATA[~Today's Water Cooler: Politics, pandemics, Mayorkas impeachment, Tesla stops delivery of those stupid-looking trucks, wastewater testing expands its scope ~]]></summary>
         <author>
-            <name>festinalente</name>
+            <name>Lambert Strether</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I can't use my number pad for 2FA codes]]></title>
-        <id>https://news.ycombinator.com/item?id=40063331</id>
-        <link href="https://shkspr.mobi/blog/2024/04/i-cant-use-my-number-pad-for-2fa-codes/"/>
-        <updated>2024-04-17T11:56:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://shkspr.mobi/blog/2024/04/i-cant-use-my-number-pad-for-2fa-codes/
-Comments URL: https://news.ycombinator.com/item?id=40063331
-Points: 41
-# Comments: 7]]></summary>
-        <author>
-            <name>edent</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cooler transformers could help electric grid]]></title>
-        <id>https://news.ycombinator.com/item?id=40063300</id>
-        <link href="https://www.sciencedaily.com/releases/2024/04/240416125322.htm"/>
-        <updated>2024-04-17T11:54:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.sciencedaily.com/releases/2024/04/240416125322.htm
-Comments URL: https://news.ycombinator.com/item?id=40063300
+        <title type="html"><![CDATA[Show HN: Speeding up LLM inference 2x times (possibly)]]></title>
+        <id>https://news.ycombinator.com/item?id=40067677</id>
+        <link href="https://asciinema.org/a/piP22yYwcaohu5cA2gyuv1W61"/>
+        <updated>2024-04-17T17:26:09.000Z</updated>
+        <summary type="html"><![CDATA[Here's a project I've been working on for the last few months.
+It's a new (I think) algorithm, that allows to adjust smoothly - and in real time - how many calculations you'd like to do during inference of an LLM model.
+It seems that it's possible to do just 20-25% of weight multiplications instead of all of them, and still get good inference results.
+I implemented it to run on M1/M2/M3 GPU. The mmul approximation itself can be pushed to run 2x fast before the quality of output collapses.
+The inference speed is just a bit faster than Llama.cpp's, because the rest of implementation could be better, but with a better development I think it can be a new method to speed up inference - in addition to quantization.
+You could call it ad-hoc model distillation :)
+You can change the speed / accuracy of a model at will, in real time.
+Oh, and as a side effect, the data format allows to also choose how much of the model you want to load into the memory. You can decide to skip say 10-20-40% of the least important weights.
+It's implemented for Mistral, it was also tested slightly on Mixtral and Llama. It's for FP16 for now, but Q8 is in the works.
+The algorithm is described here, and the implementation is open source.
+https://kolinko.github.io/effort/
+I know these are bold claims, but I hope they survive the scrutiny :)
+Comments URL: https://news.ycombinator.com/item?id=40067677
 Points: 3
 # Comments: 1]]></summary>
         <author>
-            <name>RetroTechie</name>
+            <name>kolinko</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ChatControl: EU ministers want to exempt themselves]]></title>
-        <id>https://news.ycombinator.com/item?id=40063025</id>
-        <link href="https://european-pirateparty.eu/chatcontrol-eu-ministers-want-to-exempt-themselves/"/>
-        <updated>2024-04-17T11:23:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://european-pirateparty.eu/chatcontrol-eu-ministers-want-to-exempt-themselves/
-Comments URL: https://news.ycombinator.com/item?id=40063025
-Points: 127
-# Comments: 47]]></summary>
+        <title type="html"><![CDATA[How Nestlé gets children hooked on sugar in lower-income countries]]></title>
+        <id>https://news.ycombinator.com/item?id=40067575</id>
+        <link href="https://stories.publiceye.ch/nestle-babies/"/>
+        <updated>2024-04-17T17:18:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://stories.publiceye.ch/nestle-babies/
+Comments URL: https://news.ycombinator.com/item?id=40067575
+Points: 79
+# Comments: 13]]></summary>
         <author>
-            <name>Sami_Lehtinen</name>
+            <name>henriquenunez</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Show HN: Open Source TailwindCSS UI Components]]></title>
-        <id>https://news.ycombinator.com/item?id=40063014</id>
-        <link href="https://github.com/EasyFrontend-com/html-tailwindcss-components"/>
-        <updated>2024-04-17T11:21:39.000Z</updated>
-        <summary type="html"><![CDATA[Free Tailwind html UI Components - built to create landing pages and websites. Easyfrontend UI components are free and open-source. Copy paste the components to update your existing site or create a new site from it.
-Comments URL: https://news.ycombinator.com/item?id=40063014
-Points: 41
-# Comments: 17]]></summary>
+        <title type="html"><![CDATA[AltStore PAL, the first alternative app marketplace on iPhone, is available now]]></title>
+        <id>https://news.ycombinator.com/item?id=40067556</id>
+        <link href="https://mastodon.social/@stroughtonsmith/112287515017810339"/>
+        <updated>2024-04-17T17:16:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mastodon.social/@stroughtonsmith/112287515017810339
+Comments URL: https://news.ycombinator.com/item?id=40067556
+Points: 35
+# Comments: 28]]></summary>
         <author>
-            <name>santush</name>
+            <name>HelenePhisher</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Security Vulnerability in Browser Interface Allows Computer Access via GPU]]></title>
-        <id>https://news.ycombinator.com/item?id=40062987</id>
-        <link href="https://www.tugraz.at/en/tu-graz/services/news-stories/media-service/singleview/article/sicherheitsluecke-in-browser-schnittstelle-erlaubt-rechnerzugriff-ueber-grafikkarte"/>
-        <updated>2024-04-17T11:17:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tugraz.at/en/tu-graz/services/news-stories/media-service/singleview/article/sicherheitsluecke-in-browser-schnittstelle-erlaubt-rechnerzugriff-ueber-grafikkarte
-Comments URL: https://news.ycombinator.com/item?id=40062987
-Points: 3
+        <title type="html"><![CDATA[Effort – a possibly new algorithm for LLM Inference]]></title>
+        <id>https://news.ycombinator.com/item?id=40067489</id>
+        <link href="https://kolinko.github.io/effort/"/>
+        <updated>2024-04-17T17:09:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://kolinko.github.io/effort/
+Comments URL: https://news.ycombinator.com/item?id=40067489
+Points: 55
+# Comments: 7]]></summary>
+        <author>
+            <name>stared</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Embeddings are a good starting point for the AI curious app developer]]></title>
+        <id>https://news.ycombinator.com/item?id=40067486</id>
+        <link href="https://bawolf.substack.com/p/embeddings-are-a-good-starting-point"/>
+        <updated>2024-04-17T17:09:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bawolf.substack.com/p/embeddings-are-a-good-starting-point
+Comments URL: https://news.ycombinator.com/item?id=40067486
+Points: 38
+# Comments: 10]]></summary>
+        <author>
+            <name>bryantwolf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Y Combinator is hiring full stack engineers – learn tons and tons about startups]]></title>
+        <id>https://news.ycombinator.com/item?id=40067372</id>
+        <link href="https://news.ycombinator.com/item?id=40067372"/>
+        <updated>2024-04-17T17:00:46.000Z</updated>
+        <summary type="html"><![CDATA[Comments URL: https://news.ycombinator.com/item?id=40067372
+Points: 0
 # Comments: 0]]></summary>
         <author>
-            <name>jiripospisil</name>
+            <name>ryankicks</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The forgotten war on beepers]]></title>
+        <id>https://news.ycombinator.com/item?id=40067206</id>
+        <link href="https://newsletter.pessimistsarchive.org/p/the-forgotten-war-on-beepers"/>
+        <updated>2024-04-17T16:47:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://newsletter.pessimistsarchive.org/p/the-forgotten-war-on-beepers
+Comments URL: https://news.ycombinator.com/item?id=40067206
+Points: 38
+# Comments: 26]]></summary>
+        <author>
+            <name>unsuspecting</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Making of Django Reinhardt]]></title>
+        <id>https://news.ycombinator.com/item?id=40066975</id>
+        <link href="https://www.messynessychic.com/2024/04/12/djangos-journey-the-making-of-the-nomadic-king-of-french-swing/"/>
+        <updated>2024-04-17T16:30:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.messynessychic.com/2024/04/12/djangos-journey-the-making-of-the-nomadic-king-of-french-swing/
+Comments URL: https://news.ycombinator.com/item?id=40066975
+Points: 12
+# Comments: 4]]></summary>
+        <author>
+            <name>lardass</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The great commercial takeover of low Earth orbit]]></title>
+        <id>https://news.ycombinator.com/item?id=40066921</id>
+        <link href="https://www.technologyreview.com/2024/04/17/1090856/international-space-station-axiom-low-earth-orbit/"/>
+        <updated>2024-04-17T16:26:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.technologyreview.com/2024/04/17/1090856/international-space-station-axiom-low-earth-orbit/
+Comments URL: https://news.ycombinator.com/item?id=40066921
+Points: 23
+# Comments: 4]]></summary>
+        <author>
+            <name>Brajeshwar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Boring Phone]]></title>
+        <id>https://news.ycombinator.com/item?id=40066482</id>
+        <link href="https://www.heineken.com/us/en/agegateway?returnurl=%2fglobal%2fen%2ftheboringphone"/>
+        <updated>2024-04-17T15:57:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.heineken.com/us/en/agegateway?returnurl=%2fglobal%2fen%2ftheboringphone
+Comments URL: https://news.ycombinator.com/item?id=40066482
+Points: 33
+# Comments: 30]]></summary>
+        <author>
+            <name>radeeyate</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The eclipse part wo]]></title>
+        <id>http://rwer.wordpress.com/?p=45330</id>
+        <link href="https://rwer.wordpress.com/2024/04/17/the-eclipse-part-wo/"/>
+        <updated>2024-04-17T15:36:35.000Z</updated>
+        <summary type="html"><![CDATA[from Peter Radford What are we to say of a discipline that steadfastly ignores reality in its pursuit of ever more formality in its methods? Wow. Steve Levitt has really shaken me. I come not to mock, but to follow up … Stand up and take a bow Ben Moll!  You daring soul. Clearly I […]]]></summary>
+        <author>
+            <name>peterradford</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Future of Humanity Institute shuts down]]></title>
+        <id>https://news.ycombinator.com/item?id=40065862</id>
+        <link href="https://www.futureofhumanityinstitute.org/"/>
+        <updated>2024-04-17T15:14:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.futureofhumanityinstitute.org
+Comments URL: https://news.ycombinator.com/item?id=40065862
+Points: 116
+# Comments: 101]]></summary>
+        <author>
+            <name>rdl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[libxev: A cross-platform, high-performance event loop]]></title>
+        <id>https://news.ycombinator.com/item?id=40065821</id>
+        <link href="https://github.com/mitchellh/libxev"/>
+        <updated>2024-04-17T15:11:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/mitchellh/libxev
+Comments URL: https://news.ycombinator.com/item?id=40065821
+Points: 39
+# Comments: 3]]></summary>
+        <author>
+            <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The biggest source of waste is untapped skilled pragmatists]]></title>
+        <id>https://news.ycombinator.com/item?id=40065704</id>
+        <link href="https://cutlefish.substack.com/p/tbm-271-the-biggest-untapped-opportunity"/>
+        <updated>2024-04-17T15:04:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://cutlefish.substack.com/p/tbm-271-the-biggest-untapped-opportunity
+Comments URL: https://news.ycombinator.com/item?id=40065704
+Points: 122
+# Comments: 102]]></summary>
+        <author>
+            <name>jpn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hopes of Big Bang Discoveries Ride on a Future Spacecraft]]></title>
+        <id>https://www.quantamagazine.org/?p=137222</id>
+        <link href="https://www.quantamagazine.org/hopes-of-big-bang-discoveries-ride-on-a-future-spacecraft-20240417/"/>
+        <updated>2024-04-17T14:50:47.000Z</updated>
+        <summary type="html"><![CDATA[Physicists and cosmologists will have a new probe of primordial processes when Europe launches the Laser Interferometer Space Antenna (LISA) next decade.            
+The post Hopes of Big Bang Discoveries Ride on a Future Spacecraft first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Elise Cutts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stable Diffusion 3 API Now Available]]></title>
+        <id>https://news.ycombinator.com/item?id=40065114</id>
+        <link href="https://stability.ai/news/stable-diffusion-3-api"/>
+        <updated>2024-04-17T14:26:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://stability.ai/news/stable-diffusion-3-api
+Comments URL: https://news.ycombinator.com/item?id=40065114
+Points: 154
+# Comments: 33]]></summary>
+        <author>
+            <name>roborovskis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mixtral 8x22B]]></title>
+        <id>https://news.ycombinator.com/item?id=40064736</id>
+        <link href="https://mistral.ai/news/mixtral-8x22b/"/>
+        <updated>2024-04-17T14:00:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mistral.ai/news/mixtral-8x22b/
+Comments URL: https://news.ycombinator.com/item?id=40064736
+Points: 351
+# Comments: 178]]></summary>
+        <author>
+            <name>meetpateltech</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Middle East Escalation: Financial Times’ Revealing Account of Israel Risk of Ukraine-Style Air Defense Attrition; Helmer on Possible Electrical Grid Campaign]]></title>
+        <id>https://www.nakedcapitalism.com/?p=270148</id>
+        <link href="https://www.nakedcapitalism.com/2024/04/middle-east-escalation-financial-times-revealing-account-of-israel-risk-of-ukraine-style-air-defense-attrition-helmer-on-possible-electrical-grid-campaign.html"/>
+        <updated>2024-04-17T13:55:13.000Z</updated>
+        <summary type="html"><![CDATA[US mixed messages continue: trying to check Israel's suicidal conduct while providing military support. So what might happen next?]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Academic Freedom, State Legislatures and Public Universities (Wisconsin edition).]]></title>
+        <id>https://crookedtimber.org/?p=52615</id>
+        <link href="https://crookedtimber.org/2024/04/17/52615/"/>
+        <updated>2024-04-17T13:13:28.000Z</updated>
+        <summary type="html"><![CDATA[Gina’s post on Indiana’s DEI-related law came at a fortuitous time for me, because last week I participated in a panel about State Legislatures, Academic Freedom and Public Universities. The panelists were given about 6 minutes to present some prepared remarks’ and discussion ensued. As far as I could tell there was just one state […]]]></summary>
+        <author>
+            <name>Harry</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An electric new era for Atlas]]></title>
+        <id>https://news.ycombinator.com/item?id=40064105</id>
+        <link href="https://bostondynamics.com/blog/electric-new-era-for-atlas/"/>
+        <updated>2024-04-17T13:12:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://bostondynamics.com/blog/electric-new-era-for-atlas/
+Comments URL: https://news.ycombinator.com/item?id=40064105
+Points: 201
+# Comments: 272]]></summary>
+        <author>
+            <name>colinramsay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by thesuitonym in "I can't use my number pad for 2FA codes"]]></title>
+        <id>https://news.ycombinator.com/item?id=40064050</id>
+        <link href="https://news.ycombinator.com/item?id=40064050"/>
+        <updated>2024-04-17T13:07:06.000Z</updated>
+        <summary type="html"><![CDATA[I really hate how modern developers try to reinvent forms. They always, always get it worse than the basic OS/HTML forms we've had for decades. Those dead stupid, simple forms were highly accessible, very performant, and easy to understand.
+It seems like forgotten information, but all of these computer interfaces that were invented in the 80s and 90s were built by doctorate level professionals who spent years thinking about these things. Why do all these bozos who took a six month code boot camp (or at best, finished a four year degree with a 2.9 GPA) think the ten minutes they spent thinking about it lead to some brilliant insight?]]></summary>
+        <author>
+            <name>thesuitonym</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solving the minimum cut problem for undirected graphs]]></title>
+        <id>https://news.ycombinator.com/item?id=40064027</id>
+        <link href="https://research.google/blog/solving-the-minimum-cut-problem-for-undirected-graphs/"/>
+        <updated>2024-04-17T13:05:14.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://research.google/blog/solving-the-minimum-cut-problem-for-undirected-graphs/
+Comments URL: https://news.ycombinator.com/item?id=40064027
+Points: 85
+# Comments: 15]]></summary>
+        <author>
+            <name>Anon84</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Cloudflare Cloud Email Security protects against the evolving threat of QR phishing]]></title>
+        <id>661e652327e210000ab299b4</id>
+        <link href="https://blog.cloudflare.com/how-cloudflare-cloud-email-security-protects-against-the-evolving-threat-of-qr-phishing"/>
+        <updated>2024-04-17T13:00:44.000Z</updated>
+        <summary type="html"><![CDATA[Learn about how Cloudflare's Cloud Email Security tackles QR phishing, why attackers favor QR codes, and Cloudflare's proactive defense strategy against evolving threats]]></summary>
+        <author>
+            <name>Pete Pang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LXQt 2.0.0]]></title>
+        <id>https://news.ycombinator.com/item?id=40063908</id>
+        <link href="https://lxqt-project.org/release/2024/04/15/release-lxqt-2-0-0/"/>
+        <updated>2024-04-17T12:52:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lxqt-project.org/release/2024/04/15/release-lxqt-2-0-0/
+Comments URL: https://news.ycombinator.com/item?id=40063908
+Points: 128
+# Comments: 20]]></summary>
+        <author>
+            <name>jrepinc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: BiTE – Cross-platform executable viewer and reverse engineering tool]]></title>
+        <id>https://news.ycombinator.com/item?id=40063803</id>
+        <link href="https://github.com/WINSDK/bite"/>
+        <updated>2024-04-17T12:39:49.000Z</updated>
+        <summary type="html"><![CDATA[Hey everyone!
+I’m excited to share a project I’ve been working on throughout my university studies. It’s called BiTE (https://github.com/WINSDK/bite) and it's a tool primarily focused on being an executable viewer with reverse engineering capabilities.
+BiTE supports Windows, MacOS, and Linux, along with their associated executable formats. It’s also capable of parsing and displaying debug information using DWARF/PDB formats, which I hope will be useful even for just comparing codegen.
+I’ve put a lot of effort into this and it's the first time I'm releasing something like this publicly. Any feedback, bug reports, or feature suggestions would be greatly appreciated!
+Comments URL: https://news.ycombinator.com/item?id=40063803
+Points: 56
+# Comments: 6]]></summary>
+        <author>
+            <name>winsdk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by perihelions in "ChatControl: EU ministers want to exempt themselves"]]></title>
+        <id>https://news.ycombinator.com/item?id=40063621</id>
+        <link href="https://news.ycombinator.com/item?id=40063621"/>
+        <updated>2024-04-17T12:22:32.000Z</updated>
+        <summary type="html"><![CDATA[I think the best way to get rid of a horrible law like this is indeed to enforce against the people who wrote it. Enforce equitably, and enforce equally: the same misery everyone else already knows. If ministers worry about their private communications being read by strangers—if that makes them feel fearful, paranoid, violated—then let them feel fearful, paranoid, violated, just like the hundreds of millions of other people they would enforce those feelings on.
+"Laws are to govern all alike — those opposed as well as those who favor them. I know no method to secure the repeal of bad or obnoxious laws so effective as their stringent execution." –Ulysses S. Grant (1869)—often misquoted and misattributed to Lincoln,
+https://en.wikiquote.org/wiki/Ulysses_S._Grant#First_Inaugur...
+https://en.wikiquote.org/wiki/Abraham_Lincoln#Misattributed]]></summary>
+        <author>
+            <name>perihelions</name>
         </author>
     </entry>
     <entry>
@@ -118,45 +385,6 @@ The CCP was one of the first data sets drawn from credit bureau data, one of the
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[NetBSD 10: Proper old-school Unix, not like those lazy, decadent Linux types]]></title>
-        <id>https://news.ycombinator.com/item?id=40062774</id>
-        <link href="https://www.theregister.com/2024/04/17/30yo_netbsd_releases_v10/"/>
-        <updated>2024-04-17T10:42:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2024/04/17/30yo_netbsd_releases_v10/
-Comments URL: https://news.ycombinator.com/item?id=40062774
-Points: 36
-# Comments: 7]]></summary>
-        <author>
-            <name>lproven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blaze: A High Performance C++ Math Library]]></title>
-        <id>https://news.ycombinator.com/item?id=40062590</id>
-        <link href="https://bitbucket.org/blaze-lib/blaze/src/master/"/>
-        <updated>2024-04-17T10:15:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bitbucket.org/blaze-lib/blaze/src/master/
-Comments URL: https://news.ycombinator.com/item?id=40062590
-Points: 8
-# Comments: 2]]></summary>
-        <author>
-            <name>optimalsolver</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Humane AI – Pico Laser Projection – $230M AI Twist on an Old Scam (2023)]]></title>
-        <id>https://news.ycombinator.com/item?id=40062552</id>
-        <link href="https://kguttag.com/2023/12/06/humane-ai-pico-laser-projection-230m-ai-twist-on-an-old-scam/"/>
-        <updated>2024-04-17T10:11:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://kguttag.com/2023/12/06/humane-ai-pico-laser-projection-230m-ai-twist-on-an-old-scam/
-Comments URL: https://news.ycombinator.com/item?id=40062552
-Points: 59
-# Comments: 33]]></summary>
-        <author>
-            <name>abhinavk</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Can a New German Party Steer the European Left in a More Effective Direction?]]></title>
         <id>https://www.nakedcapitalism.com/?p=270134</id>
         <link href="https://www.nakedcapitalism.com/2024/04/can-a-new-german-party-steer-the-european-left-in-a-more-effective-direction.html"/>
@@ -167,55 +395,13 @@ Points: 59
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The NSA is just days away from taking over the internet]]></title>
-        <id>https://news.ycombinator.com/item?id=40062271</id>
-        <link href="https://twitter.com/Snowden/status/1779920066840055847"/>
-        <updated>2024-04-17T09:28:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/Snowden/status/1779920066840055847
-Comments URL: https://news.ycombinator.com/item?id=40062271
-Points: 232
-# Comments: 88]]></summary>
+        <title type="html"><![CDATA[New comment by mapreduce in "Stop Acting Like You're Famous"]]></title>
+        <id>https://news.ycombinator.com/item?id=40062232</id>
+        <link href="https://news.ycombinator.com/item?id=40062232"/>
+        <updated>2024-04-17T09:18:32.000Z</updated>
+        <summary type="html"><![CDATA[Why is it so that every so often one of these feel-good LinkedIn-style posts make it to the front page? Is there so much demand for banality on this site? I come here to read good tech articles or articles that stimulate my curiosity and it is sad to see these articles upvoted to the top when so many other good articles at https://news.ycombinator.com/newest continue to languish.]]></summary>
         <author>
-            <name>croes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Collection of notebooks showcasing some fun and effective ways of using Claude]]></title>
-        <id>https://news.ycombinator.com/item?id=40062210</id>
-        <link href="https://github.com/anthropics/anthropic-cookbook"/>
-        <updated>2024-04-17T09:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/anthropics/anthropic-cookbook
-Comments URL: https://news.ycombinator.com/item?id=40062210
-Points: 55
-# Comments: 28]]></summary>
-        <author>
-            <name>adif_sgaid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ollama 0.1.32: WizardLM 2, Mixtral 8x22B, macOS CPU/GPU model split]]></title>
-        <id>https://news.ycombinator.com/item?id=40061831</id>
-        <link href="https://github.com/ollama/ollama/releases/tag/v0.1.32"/>
-        <updated>2024-04-17T08:15:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/ollama/ollama/releases/tag/v0.1.32
-Comments URL: https://news.ycombinator.com/item?id=40061831
-Points: 61
-# Comments: 22]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why the Higgs Field Is Nothing Like Molasses, Soup, or a Crowd]]></title>
-        <id>https://news.ycombinator.com/item?id=40061597</id>
-        <link href="https://profmattstrassler.com/2024/04/16/why-the-higgs-field-is-nothing-like-molasses-soup-or-a-crowd/"/>
-        <updated>2024-04-17T07:35:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://profmattstrassler.com/2024/04/16/why-the-higgs-field-is-nothing-like-molasses-soup-or-a-crowd/
-Comments URL: https://news.ycombinator.com/item?id=40061597
-Points: 15
-# Comments: 3]]></summary>
-        <author>
-            <name>nyc111</name>
+            <name>mapreduce</name>
         </author>
     </entry>
     <entry>
@@ -226,19 +412,6 @@ Points: 15
         <summary type="html"><![CDATA[I’m sure Crooked Timber readers would been keen to learn of exciting new books out just now from Daniel Davies and Kieran Healy. Marion Fourcade and Kieran Healy have published The Ordinal Society , arguing that “argue that technologies of information management, fueled by the abundance of personal data and the infrastructure of the internet, […]]]></summary>
         <author>
             <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[F/OSS Comics: 8. The Origins of Unix and the C Language]]></title>
-        <id>https://news.ycombinator.com/item?id=40061298</id>
-        <link href="https://fosscomics.com/8.%20The%20Origins%20of%20Unix%20and%20the%20C%20Language/"/>
-        <updated>2024-04-17T06:51:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://fosscomics.com/8.%20The%20Origins%20of%20Unix%20and%20the%20C%20Language/
-Comments URL: https://news.ycombinator.com/item?id=40061298
-Points: 27
-# Comments: 5]]></summary>
-        <author>
-            <name>cubix4u</name>
         </author>
     </entry>
     <entry>
@@ -318,32 +491,6 @@ The post Letter from London: Letters from Everywhere appeared first on CounterPu
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Ur Quan Masters sequel Free Stars: Children of Infinity, by original devs]]></title>
-        <id>https://news.ycombinator.com/item?id=40060929</id>
-        <link href="https://pistolshrimpgames.com/2024/04/kickstarter-launch-incoming/"/>
-        <updated>2024-04-17T05:50:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pistolshrimpgames.com/2024/04/kickstarter-launch-incoming/
-Comments URL: https://news.ycombinator.com/item?id=40060929
-Points: 26
-# Comments: 8]]></summary>
-        <author>
-            <name>tigerlily</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How the Food Industry Pays Influencers to Shill Blueberries, Butter, and More]]></title>
-        <id>https://news.ycombinator.com/item?id=40060915</id>
-        <link href="https://www.bonappetit.com/story/food-industry-influencers"/>
-        <updated>2024-04-17T05:48:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bonappetit.com/story/food-industry-influencers
-Comments URL: https://news.ycombinator.com/item?id=40060915
-Points: 21
-# Comments: 12]]></summary>
-        <author>
-            <name>helsinkiandrew</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Beyond Self-Extinction]]></title>
         <id>https://www.counterpunch.org/?p=319246</id>
         <link href="https://www.counterpunch.org/2024/04/17/beyond-self-extinction/"/>
@@ -374,19 +521,6 @@ The post War and Plunder in Eastern Congo appeared first on CounterPunch.org.]]>
 The post Debating the Slaughter: a Historical Retrofitting appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Matt Rubenstein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Caching secrets of the HTTP elders, part 1]]></title>
-        <id>https://news.ycombinator.com/item?id=40060728</id>
-        <link href="https://csvbase.com/blog/8"/>
-        <updated>2024-04-17T05:19:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://csvbase.com/blog/8
-Comments URL: https://news.ycombinator.com/item?id=40060728
-Points: 83
-# Comments: 20]]></summary>
-        <author>
-            <name>calpaterson</name>
         </author>
     </entry>
     <entry>
@@ -424,29 +558,14 @@ Now the entire internet feels the need to come defend MKBHD, thus amplifying the
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Perlis's Programming Epigrams]]></title>
-        <id>https://news.ycombinator.com/item?id=40060198</id>
-        <link href="https://www.cs.yale.edu/homes/perlis-alan/quotes.html"/>
-        <updated>2024-04-17T03:43:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cs.yale.edu/homes/perlis-alan/quotes.html
-Comments URL: https://news.ycombinator.com/item?id=40060198
-Points: 21
-# Comments: 6]]></summary>
+        <title type="html"><![CDATA[New comment by crmd in "NPR suspends veteran editor as it grapples with his public criticism"]]></title>
+        <id>https://news.ycombinator.com/item?id=40059644</id>
+        <link href="https://news.ycombinator.com/item?id=40059644"/>
+        <updated>2024-04-17T02:03:00.000Z</updated>
+        <summary type="html"><![CDATA[>… concerns that coverage is frequently presented through an ideological or idealistic prism that can alienate listeners.
+Speaking as a lifelong NPR listener who recently had to cut them off because of ideological exhaustion: yep!]]></summary>
         <author>
-            <name>nomilk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ten years of improvements in PostgreSQL's optimizer]]></title>
-        <id>https://news.ycombinator.com/item?id=40060123</id>
-        <link href="https://rmarcus.info/blog/2024/04/12/pg-over-time.html"/>
-        <updated>2024-04-17T03:27:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rmarcus.info/blog/2024/04/12/pg-over-time.html
-Comments URL: https://news.ycombinator.com/item?id=40060123
-Points: 177
-# Comments: 28]]></summary>
-        <author>
-            <name>samaysharma</name>
+            <name>crmd</name>
         </author>
     </entry>
     <entry>
@@ -459,6 +578,256 @@ I'm one of the luckiest people alive because I live in this country, and was alw
 I don't know why I shared this.  Maybe because I don't care to blame society for my adverse experiences.  Through those experiences, I learned to lead.  I learned to listen.  I learned to value and appreciate.  I learned to live.]]></summary>
         <author>
             <name>l0c0b0x</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI and robotics demystify the workings of a fly's wing]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01122-4</id>
+        <link href="https://www.nature.com/articles/d41586-024-01122-4"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New research unveils the workings of one of the most complex bio-mechanical structures in the natural world]]></summary>
+        <author>
+            <name>Dan Fox</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DNA glycosylases provide antiviral defence in prokaryotes]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07329-9</id>
+        <link href="https://www.nature.com/articles/s41586-024-07329-9"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A screen utilizing an environmental DNA library in Escherichia coli is used to identify Brig1, a previously unknown anti-phage defence system with homologues across distinct clades of bacteria.]]></summary>
+        <author>
+            <name>Amer A. Hossain</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hybrid speciation driven by multilocus introgression of ecological traits]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07263-w</id>
+        <link href="https://www.nature.com/articles/s41586-024-07263-w"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Genomic studies of Heliconius butterflies provide evidence that Heliconius elevatus is a hybrid species, and that its speciation was driven by introgression of traits from Heliconius melpomene into the other parent, an ancestor of Heliconius pardalinus.]]></summary>
+        <author>
+            <name>Neil Rosser</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Methane emission from a cool brown dwarf]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07190-w</id>
+        <link href="https://www.nature.com/articles/s41586-024-07190-w"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Methane emission from a very cool brown dwarf, perhaps arising from an aurora, has been detected in James Webb Space Telescope observations.]]></summary>
+        <author>
+            <name>Jacqueline K. Faherty</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stepwise activation of a metabotropic glutamate receptor]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07327-x</id>
+        <link href="https://www.nature.com/articles/s41586-024-07327-x"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We propose a model for a sequential, multistep activation mechanism of metabotropic glutamate receptor subtype 5, including a series of structures in lipid nanodiscs, from inactive to fully active, with agonist-bound intermediate states.]]></summary>
+        <author>
+            <name>Kaavya Krishna Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The economic commitment of climate change]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07219-0</id>
+        <link href="https://www.nature.com/articles/s41586-024-07219-0"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Analysis of projected sub-national damages from temperature and precipitation show an income reduction of 19% of the world economy within the next 26 years independent of future emission choices.]]></summary>
+        <author>
+            <name>Maximilian Kotz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neural crest origin of sympathetic neurons at the dawn of vertebrates]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07297-0</id>
+        <link href="https://www.nature.com/articles/s41586-024-07297-0"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Challenging the belief that sympathetic ganglia are an innovation of jawed vertebrates, a study reports the presence of sympathetic neurons in an extant jawless vertebrate, the sea lamprey Petromyzon marinus.]]></summary>
+        <author>
+            <name>Brittany M. Edens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Refining the impact of genetic evidence on clinical success]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07316-0</id>
+        <link href="https://www.nature.com/articles/s41586-024-07316-0"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Human genetic evidence increases the success rate of drugs from clinical development to approval but we are still far from reaching peak genetic insights to aid the discovery of targets for more effective drugs.]]></summary>
+        <author>
+            <name>Eric Vallabh Minikel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Seismological evidence for a multifault network at the subduction interface]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07245-y</id>
+        <link href="https://www.nature.com/articles/s41586-024-07245-y"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Using observations of double-difference relocated earthquakes in a local three-dimensional velocity model for Ecuador, a detailed image of seismicity is created, forming the base for more realistic models of earthquake rupture, slip and hazard in subduction zones.]]></summary>
+        <author>
+            <name>Caroline Chalumeau</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Biogeographic response of marine plankton to Cenozoic environmental changes]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07337-9</id>
+        <link href="https://www.nature.com/articles/s41586-024-07337-9"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Analysis of a global dataset reveals spatiotemporal patterns of marine plankton and their biogeographical responses during climatic and environmental changes across the Cenozoic era.]]></summary>
+        <author>
+            <name>Anshuman Swain</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Control of working memory by phase–amplitude coupling of human hippocampal neurons]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07309-z</id>
+        <link href="https://www.nature.com/articles/s41586-024-07309-z"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hippocampal theta–gamma phase–amplitude coupling integrates cognitive control and working memory storage across brain areas in humans.]]></summary>
+        <author>
+            <name>Jonathan Daume</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Network-level encoding of local neurotransmitters in cortical astrocytes]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07311-5</id>
+        <link href="https://www.nature.com/articles/s41586-024-07311-5"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A study investigates subcellular, single-cell and network-level comunication within the astrocyte network in response to the two major neurotransmitter inputs.]]></summary>
+        <author>
+            <name>Michelle K. Cahill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Corner- and edge-mode enhancement of near-field radiative heat transfer]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07279-2</id>
+        <link href="https://www.nature.com/articles/s41586-024-07279-2"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Near-field radiative heat transfer between two coplanar silicon carbide membranes in close proximity is enhanced by the electromagnetic corner and edge modes.]]></summary>
+        <author>
+            <name>Lei Tang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Brain&#xa0;endothelial GSDMD activation mediates inflammatory BBB breakdown]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07314-2</id>
+        <link href="https://www.nature.com/articles/s41586-024-07314-2"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lipopolysaccharide-induced breakdown of the blood–brain barrier requires activation of GSDMD-mediated plasma membrane permeabilization and pyroptosis in brain endothelial cells.]]></summary>
+        <author>
+            <name>Chao Wei</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stripped-envelope supernova light curves argue for central engine activity]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07262-x</id>
+        <link href="https://www.nature.com/articles/s41586-024-07262-x"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Analysis of the energy budget of a sample of 54 well-observed stripped-envelope supernovae of all sub-types shows statistically significant, largely model-independent, observational evidence for a non-radioactive power source in most of them.]]></summary>
+        <author>
+            <name>Ósmar Rodríguez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Environmental drivers of increased ecosystem respiration in a warming tundra]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07274-7</id>
+        <link href="https://www.nature.com/articles/s41586-024-07274-7"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Datasets from in situ warming experiments across 28 arctic and alpine tundra sites covering  a span of less than 1 year up to 25 years show the importance of local soil conditions and warming-induced changes therein for future climatic impacts on ecosystem respiration.]]></summary>
+        <author>
+            <name>S. L. Maes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Machine learning reveals the control mechanics of an insect wing hinge]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07293-4</id>
+        <link href="https://www.nature.com/articles/s41586-024-07293-4"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Measurements of fly muscle activity using a genetically encoded calcium indicator and high-speed imaging of wing movement were used to construct a model of the insect wing hinge and the role of steering muscles in flight control.]]></summary>
+        <author>
+            <name>Johan M. Melis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Digital colloid-enhanced Raman spectroscopy by single-molecule counting]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07218-1</id>
+        <link href="https://www.nature.com/articles/s41586-024-07218-1"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Research published in Nature shows that surface-enhanced Raman spectroscopy carried out with colloids can quantify a range of molecules down to concentrations at the femtomolar level.]]></summary>
+        <author>
+            <name>Xinyuan Bi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[<i>Streptomyces</i> umbrella toxin particles block hyphal growth of competing species]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07298-z</id>
+        <link href="https://www.nature.com/articles/s41586-024-07298-z"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Streptomyces are discovered to produce antibacterial protein complexes that selectively inhibit the hyphal growth of related species, a function distinct from that of the small-molecule antibiotics they are known for.]]></summary>
+        <author>
+            <name>Qinqin Zhao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Laser spectroscopy of triply charged <sup>229</sup>Th isomer for a nuclear clock]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07296-1</id>
+        <link href="https://www.nature.com/articles/s41586-024-07296-1"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The trapping of triply charged 229mTh3+ is described and its nuclear decay half-life determined, showing useful properties for the development of a nuclear clock and applications in the search for new physics.]]></summary>
+        <author>
+            <name>Atsushi Yamaguchi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Promiscuous G-protein activation by the calcium-sensing receptor]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07331-1</id>
+        <link href="https://www.nature.com/articles/s41586-024-07331-1"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Structures of the human calcium-sensing receptor can be bound into complex with G proteins from three different Gα subtypes while maintaining G-protein-binding specificity.]]></summary>
+        <author>
+            <name>Hao Zuo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Control of neuronal excitation–inhibition balance by BMP–SMAD1 signalling]]></title>
+        <id>https://www.nature.com/articles/s41586-024-07317-z</id>
+        <link href="https://www.nature.com/articles/s41586-024-07317-z"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Signalling by the developmental morphogen BMP2 through the transcription factor SMAD1 has a key role in controlling the glutamatergic innervation of parvalbumin-expressing interneurons and maintaining the balance between excitation and inhibition in the mammalian cortex.]]></summary>
+        <author>
+            <name>Zeynep Okur</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smoking bans are coming: what does the evidence say?]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00472-3</id>
+        <link href="https://www.nature.com/articles/d41586-024-00472-3"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Countries are cracking down on tobacco use and vaping — the laws could save thousands of lives and billions of dollars, say scientists.]]></summary>
+        <author>
+            <name>Carissa Wong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring the lung microbiome’s role in disease]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01123-3</id>
+        <link href="https://www.nature.com/articles/d41586-024-01123-3"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Unusual microbial communities in a person’s lower airways could influence the onset and progression of lung cancer and other conditions, and might point the way to therapies.]]></summary>
+        <author>
+            <name>Anthony King</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dad always mows on summer Saturday mornings]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00920-0</id>
+        <link href="https://www.nature.com/articles/d41586-024-00920-0"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A clear-cut success.]]></summary>
+        <author>
+            <name>Beth Cato</name>
         </author>
     </entry>
     <entry>
@@ -482,6 +851,56 @@ I don't know why I shared this.  Maybe because I don't care to blame society for
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Deadly diseases and inflatable suits: how I found my niche in virology research]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01098-1</id>
+        <link href="https://www.nature.com/articles/d41586-024-01098-1"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Virologist Hulda Jónsdóttir studies some of the world’s most pathogenic viruses at the Spiez Laboratory in Switzerland.]]></summary>
+        <author>
+            <name>Nikki Forrester</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nanoparticle fix opens up tricky technique to forensic applications]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01015-6</id>
+        <link href="https://www.nature.com/articles/d41586-024-01015-6"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A technique for measuring trace quantities of molecules in water.]]></summary>
+        <author>
+            <name>Peter J. Vikesland</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How young people benefit from Swiss apprenticeships]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01102-8</id>
+        <link href="https://www.nature.com/articles/d41586-024-01102-8"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Computational biologist Jitao David Zhang says that the country’s vocational training programme teaches key work and life skills.]]></summary>
+        <author>
+            <name>Jitao David  Zhang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coupled neural activity controls working memory in humans]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00963-3</id>
+        <link href="https://www.nature.com/articles/d41586-024-00963-3"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Temporarily holding on to information depends on coordinated brain waves.]]></summary>
+        <author>
+            <name>Ziv Williams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CERN’s impact goes way beyond tiny particles]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01100-w</id>
+        <link href="https://www.nature.com/articles/d41586-024-01100-w"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A global effort to uncover the nature of the Universe has had resounding effects on scientists and society.]]></summary>
+        <author>
+            <name>Nikki Forrester</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[UN plastics treaty: don’t let lobbyists drown out researchers]]></title>
         <id>https://www.nature.com/articles/d41586-024-01089-2</id>
         <link href="https://www.nature.com/articles/d41586-024-01089-2"/>
@@ -489,6 +908,66 @@ I don't know why I shared this.  Maybe because I don't care to blame society for
         <summary type="html"><![CDATA[Tackling plastic pollution needs scientists to be in the negotiating room at upcoming talks.]]></summary>
         <author>
             <name>Nature</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canadian science gets biggest boost to PhD and postdoc pay in 20 years]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01124-2</id>
+        <link href="https://www.nature.com/articles/d41586-024-01124-2"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Government budget includes more money for basic research and notable increases to postgraduate stipends.]]></summary>
+        <author>
+            <name>Brian Owens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Keys, wallet, phone: the neuroscience behind working memory]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01136-y</id>
+        <link href="https://www.nature.com/articles/d41586-024-01136-y"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hear the biggest stories from the world of science | 17 April 2024]]></summary>
+        <author>
+            <name>Benjamin Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I dive for fish in the longest freshwater lake in the world]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01099-0</id>
+        <link href="https://www.nature.com/articles/d41586-024-01099-0"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Biologist Carolin Sommer-Trembo describes her fascination for fish and why she enjoys doing science in Switzerland.]]></summary>
+        <author>
+            <name>Nikki Forrester</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bacteria deploy umbrella toxins against their competitors]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01016-5</id>
+        <link href="https://www.nature.com/articles/d41586-024-01016-5"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Streptomyces bacteria make a previously unknown antibacterial agent.]]></summary>
+        <author>
+            <name>Sarah J.  Coulthurst</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Surprise hybrid origins of a butterfly species]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00858-3</id>
+        <link href="https://www.nature.com/articles/d41586-024-00858-3"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Longwing butterfly species found to be a rare type of hybrid.]]></summary>
+        <author>
+            <name>Megan E. Frayer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An exploration of how the insect-wing hinge functions]]></title>
+        <id>https://www.nature.com/articles/d41586-024-00912-0</id>
+        <link href="https://www.nature.com/articles/d41586-024-00912-0"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Insights into control of the joints that connect fly wings to their body.]]></summary>
+        <author>
+            <name>Tanvi  Deora</name>
         </author>
     </entry>
     <entry>
@@ -509,6 +988,16 @@ I don't know why I shared this.  Maybe because I don't care to blame society for
         <summary type="html"><![CDATA[Wastewater testing grew tremendously during the pandemic. But is it ready to tackle the opioid crisis, air pollution and antibiotic resistance?]]></summary>
         <author>
             <name>Betsy Ladyzhets</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The sympathetic nervous system arose in the earliest vertebrates]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01017-4</id>
+        <link href="https://www.nature.com/articles/d41586-024-01017-4"/>
+        <updated>2024-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jawless vertebrate has sympathetic neurons.]]></summary>
+        <author>
+            <name>Uwe  Ernsberger</name>
         </author>
     </entry>
     <entry>
@@ -635,7 +1124,7 @@ I volunteer in a local school. It's not always fun, but something has to change.
         <link href="https://feeds.feedblitz.com/~/881407241/0/themoneyillusion~The-hawkish-case/"/>
         <updated>2024-04-16T14:50:14.000Z</updated>
         <summary type="html"><![CDATA[The future course of the economy always involves a bit of guesswork. But it seems to me that the following two claims are pretty likely to be true: 1. Over the past three years, monetary policy has been far too expansionary. 2. It is likely that monetary policy is still a bit too expansionary, although [&#8230;]<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/881407241/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/881407241/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-16-at-9.30.19-AM.png"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/881407241/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/881407241/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/881407241/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/the-hawkish-case/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/the-hawkish-case/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&nbsp;
-<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6810262">Andrew, It's not just about normalizing rates, they also don't ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6810217">By: Michael David Sandifer		</a> <i>by Michael David Sandifer <a href="http://www.exactmacro.substack.com">http://www.exactmacro.substack.com</a></i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6810169">Sure target NGDP.   I still don't see what is so bad about 3% ...</a> <i>by Solon of the East</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6810166">Scott, in your guardrails approach it need not be stable. It ...</a> <i>by John Hall</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6810163">resuggestion 1. My version of this idea is that the fed need to ...</a> <i>by Andrew</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comments">Plus 4 more...</a></li></ul></div>&#160;</div>]]></summary>
+<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6810424">If, for example, large CDs were expanding as fast as the banks ...</a> <i>by spencer</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6810415">The level targeting is why I mentioned before about how you ...</a> <i>by John Hall</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6810408">Contrary to the FED’s technical staff, retail MMMFs are ...</a> <i>by spencer</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6810262">Andrew, It's not just about normalizing rates, they also don't ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6810217">By: Michael David Sandifer		</a> <i>by Michael David Sandifer <a href="http://www.exactmacro.substack.com">http://www.exactmacro.substack.com</a></i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comments">Plus 5 more...</a></li></ul></div>&#160;</div>]]></summary>
         <author>
             <name>The Money Illusion</name>
         </author>
@@ -645,7 +1134,8 @@ I volunteer in a local school. It's not always fun, but something has to change.
         <id>https://feeds.feedblitz.com/~/881407244/0/themoneyillusion~Is-African-politics-inferior-to-American-politics/</id>
         <link href="https://feeds.feedblitz.com/~/881407244/0/themoneyillusion~Is-African-politics-inferior-to-American-politics/"/>
         <updated>2024-04-16T14:49:58.000Z</updated>
-        <summary type="html"><![CDATA[The Financial Times has a story that points to some disturbing features of South African politics: It is the kind of fervent devotion that has driven a wave of support for the former president [Jacob Zuma] ahead of a critical general election on May 29. Yet as recently as January, the 82-year-old African National Congress [&#8230;]<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/881407244/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/881407244/themoneyillusion,"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/881407244/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/881407244/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/881407244/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&#160;</div>]]></summary>
+        <summary type="html"><![CDATA[The Financial Times has a story that points to some disturbing features of South African politics: It is the kind of fervent devotion that has driven a wave of support for the former president [Jacob Zuma] ahead of a critical general election on May 29. Yet as recently as January, the 82-year-old African National Congress [&#8230;]<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/881407244/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/881407244/themoneyillusion,"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/881407244/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/881407244/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/881407244/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&nbsp;
+<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6810490">@Ricardo:   Whooooooosh</a> <i>by msgkings</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6810480">You seem to use the term “can't handle democracy” a lot. ...</a> <i>by Ricardo</i></ul></div>&#160;</div>]]></summary>
         <author>
             <name>The Money Illusion</name>
         </author>
@@ -656,7 +1146,7 @@ I volunteer in a local school. It's not always fun, but something has to change.
         <link href="https://feeds.feedblitz.com/~/881407247/0/themoneyillusion~Seven-Trump-is-on-a-roll/"/>
         <updated>2024-04-16T14:49:47.000Z</updated>
         <summary type="html"><![CDATA[In a recent post, I listed 6 ways that Trump intends to reduce inflation: Trump has a 6-part plan to bring down inflation: 1. Favors&#160;NIMBY policies&#160;to prevent housing construction in the suburbs. 2. Expel all the illegal workers that pick our food and provide other key services. 3. Put heavy tariffs on imported food and [&#8230;]<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/881407247/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/881407247/themoneyillusion,"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/881407247/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/881407247/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/881407247/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&nbsp;
-<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810317">By: Michael Sandifer		</a> <i>by Michael Sandifer <a href="http://www.exactmacro.substack.com">http://www.exactmacro.substack.com</a></i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810264">Student, Yes, Trump has a soft spot for his fellow traitors to ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810237">“I’m like that guy greedily cramming popcorn into his mouth ...</a> <i>by Philo</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810089">He was an awesome president the first time around. That matters ...</a> <i>by TDS guy</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810014">Trump praising the losing general that was commanding the ...</a> <i>by Student</i></ul></div>&#160;</div>]]></summary>
+<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810492">@Michael S:   I blame Biden personally more than the party. ...</a> <i>by msgkings</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810317">By: Michael Sandifer		</a> <i>by Michael Sandifer <a href="http://www.exactmacro.substack.com">http://www.exactmacro.substack.com</a></i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810264">Student, Yes, Trump has a soft spot for his fellow traitors to ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810237">“I’m like that guy greedily cramming popcorn into his mouth ...</a> <i>by Philo</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810089">He was an awesome president the first time around. That matters ...</a> <i>by TDS guy</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810014">Trump praising the losing general that was commanding the ...</a> <i>by Student</i></ul></div>&#160;</div>]]></summary>
         <author>
             <name>The Money Illusion</name>
         </author>
@@ -669,17 +1159,6 @@ I volunteer in a local school. It's not always fun, but something has to change.
         <summary type="html"><![CDATA[We are living in the generative artificial intelligence (AI) era; a time of rapid innovation. When Anthropic announced its Claude 3 foundation models (FMs) on March 4, we made Claude 3 Sonnet, a model balanced between skills and speed, available on Amazon Bedrock the same day. On March 13, we launched the Claude 3 Haiku […]]]></summary>
         <author>
             <name>Channy Yun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by ordinaryradical in "NPR suspends veteran editor as it grapples with his public criticism"]]></title>
-        <id>https://news.ycombinator.com/item?id=40052244</id>
-        <link href="https://news.ycombinator.com/item?id=40052244"/>
-        <updated>2024-04-16T14:18:34.000Z</updated>
-        <summary type="html"><![CDATA[A useful heuristic for measuring news quality is to ask yourself, “Am I more informed about what’s happening or about what people are angry about.”
-Like you, I was a life-long listener and donater. I stopped both during the pandemic when I noticed NPR was playing the anger game, like every other outlet, for social media points.]]></summary>
-        <author>
-            <name>ordinaryradical</name>
         </author>
     </entry>
     <entry>
@@ -731,20 +1210,6 @@ The post Pleasure or Pain? He Maps the Neural Circuits That Decide. first appear
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by jjice in "To make a fortune, target bored young men who want to make a fortune"]]></title>
-        <id>https://news.ycombinator.com/item?id=40051779</id>
-        <link href="https://news.ycombinator.com/item?id=40051779"/>
-        <updated>2024-04-16T13:45:02.000Z</updated>
-        <summary type="html"><![CDATA[As a mid-twenties man, I see this constantly among my friends.
-It started a few years ago when sports betting was legalized in my home state and when I was at a bar before Thanksgiving to see some friends, half of them were watching a basketball game involving teams they've never cared about. They showed me that they were betting some wild parlays to hit on this game they had no interest in watching otherwise. They showed me that the apps keep track of your net earnings (I assume this is a legal requirement) and _all_ of them were in the negative between $400 and $800. Keep in mind that these are young men who just graduated college and we were all pretty broke.
-Flash forward, a lot of them still sports bet regularly with regular losses. I live in a different state now, but a group of my friends around here recently go into going to a casino near by. I was blown away by the justifications on their gambling habits. "I usually win" or "I only gamble what I come in with", but the latter isn't true and I've seen it with my own eyes. I met up with them (not to gamble, but to see a friend), and thirty minutes in one of them was asking the other for $40 so he could "win it all back" at the roulette table.
-It blows my mind. We know so well that gambling is a losing battle. Some can have fun and call it the price of fun, but it's such a slippery slope to find yourself losing way more than you intended.
-Anecdotally, I notice that the women in my life gamble less.]]></summary>
-        <author>
-            <name>jjice</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by spaceprison in "NPR suspends veteran editor as it grapples with his public criticism"]]></title>
         <id>https://news.ycombinator.com/item?id=40051728</id>
         <link href="https://news.ycombinator.com/item?id=40051728"/>
@@ -793,26 +1258,6 @@ Read the full coverage]]></summary>
         <link href="https://www.nakedcapitalism.com/2024/04/lenin-revised-russian-military-power-means-de-electrification-and-unconditional-surrender-of-the-kiev-regime.html"/>
         <updated>2024-04-16T10:54:56.000Z</updated>
         <summary type="html"><![CDATA[Chronicling Russia's relentless de-electrification campaign and the path to Ukraine capitulation.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Javier Milei Seems Intent on Embroiling Argentina in War, Whether in Ukraine or the Middle East (Or Both)]]></title>
-        <id>https://www.nakedcapitalism.com/?p=270015</id>
-        <link href="https://www.nakedcapitalism.com/2024/04/argentinas-faux-libertarian-president-javier-milei-seems-determined-to-take-the-country-to-war.html"/>
-        <updated>2024-04-16T10:45:36.000Z</updated>
-        <summary type="html"><![CDATA[Argentina "cannot be neutral in the Third World War."]]></summary>
-        <author>
-            <name>Nick Corbishley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zombie Tests: Is the SAT Back From the Dead?]]></title>
-        <id>https://www.nakedcapitalism.com/?p=270069</id>
-        <link href="https://www.nakedcapitalism.com/2024/04/zombie-tests-is-the-sat-back-from-the-dead.html"/>
-        <updated>2024-04-16T09:15:55.000Z</updated>
-        <summary type="html"><![CDATA[The debate over the class and minority bias in the SAT comes back to live as the testing picks up.]]></summary>
         <author>
             <name>Yves Smith</name>
         </author>
@@ -1104,20 +1549,6 @@ Edit: D'oh, I should have finished TFA. This is described at the end, although m
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by aftbit in "Phone conversations with law enforcement can be recorded without their consent"]]></title>
-        <id>https://news.ycombinator.com/item?id=40046305</id>
-        <link href="https://news.ycombinator.com/item?id=40046305"/>
-        <updated>2024-04-15T22:14:22.000Z</updated>
-        <summary type="html"><![CDATA[> The same day as the court’s ruling, DeSantis signed into law two bills affecting law enforcement in Florida. Two judges on the panel that issued the ruling Friday were DeSantis appointees.
-> One new law makes it illegal after a person has been warned to approach first responders or remain within 25 feet while they are performing a legal duty if the intent is to interfere, threaten or harass them. The new law doesn’t prevent people from recording law enforcement but can require them to move 25 feet back, which can make it more difficult.
-> The other requires that citizen review boards in Florida – intended to provide independent oversight of law enforcement actions – be re-established so that members are appointed by a sheriff or police chief and that at least one member be a retired law enforcement officer.
-I wonder if the first will stand up to Constitutional review. I imagine there are many First Amendment protected purposes for recording that may require the recorder to be within 25 feet of the officer. For example, if they're recording during windy conditions and need to hear what the officer says. I also wonder how the "intent" will be interpreted by courts. Probably in a way that is most favorable to LEOs.
-The second law is just a straightforward neutering of citizen review boards.]]></summary>
-        <author>
-            <name>aftbit</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by masspro in "T-Mobile employees across the country receive cash offers to illegally swap SIMs"]]></title>
         <id>https://news.ycombinator.com/item?id=40046024</id>
         <link href="https://news.ycombinator.com/item?id=40046024"/>
@@ -1346,17 +1777,6 @@ The post A Speculation About Biden, Trump, Israel, the USA and Gaza Politics app
 The post Shadow War No More: Hostilities Between Israel and Iran Have Strayed into Direct Warfare…Is There Any Going Back? appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Javed Ali</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by hn_throwaway_99 in "Sleep apnea: Mouthguards less invasive, just as effective as CPAP"]]></title>
-        <id>https://news.ycombinator.com/item?id=40037216</id>
-        <link href="https://news.ycombinator.com/item?id=40037216"/>
-        <updated>2024-04-15T05:02:46.000Z</updated>
-        <summary type="html"><![CDATA[The title doesn't really reflect what's accurately explained in the article: the study was solely about comparing blood pressure reduction rates in the mouthguard vs. CPAP groups, as opposed to the more common metric of whether breathing actually stopped. There was greater reduction in BP in the mouthguard group, and the hypothesis is just that participants simply wore them more when sleeping.
-But the article also explicitly stated "MADs are less intrusive, but studies have shown they’re outperformed by CPAP when it comes to the apnea-hypopnea index (AHI), the number of times airflow fully (apnea) or partially (hypopnea) stops per hour during sleep."]]></summary>
-        <author>
-            <name>hn_throwaway_99</name>
         </author>
     </entry>
     <entry>
@@ -1754,17 +2174,6 @@ The post Building an infrastructure for AI’s future appeared first on Engineer
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Viruses Finally Reveal Their Complex Social Life]]></title>
-        <id>https://www.quantamagazine.org/?p=137035</id>
-        <link href="https://www.quantamagazine.org/viruses-finally-reveal-their-complex-social-life-20240411/"/>
-        <updated>2024-04-11T14:55:46.000Z</updated>
-        <summary type="html"><![CDATA[New research has uncovered a social world of viruses full of cheating, cooperation and other intrigues, suggesting that viruses make sense only as members of a community.            
-The post Viruses Finally Reveal Their Complex Social Life first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Carl Zimmer</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Capital One & USC Partner to Drive Responsible AI (CREDIF)]]></title>
         <id>https://medium.com/p/cb1e80b00d26</id>
         <link href="https://medium.com/capital-one-tech/capital-one-usc-partner-to-drive-responsible-ai-credif-cb1e80b00d26?source=rss----3db3a67cb648---4"/>
@@ -1822,36 +2231,6 @@ The post Viruses Finally Reveal Their Complex Social Life first appeared on Quan
         <summary type="html"><![CDATA[People who survived paediatric cancers age faster and are at higher risk of early death.]]></summary>
         <author>
             <name>Nature</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scientists discover first algae that can fix nitrogen — thanks to a tiny cell structure]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01046-z</id>
-        <link href="https://www.nature.com/articles/d41586-024-01046-z"/>
-        <updated>2024-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A newly discovered ‘organelle’ that converts nitrogen gas into a useful form could pave the way for engineered plants that require less fertilizer.]]></summary>
-        <author>
-            <name>Carissa Wong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daily briefing: Signs that ChatGPT is polluting peer review]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01106-4</id>
-        <link href="https://www.nature.com/articles/d41586-024-01106-4"/>
-        <updated>2024-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Buzzwords typical of AI-generated text were found in peer review reports. Plus, replication issues plague promising DIANA fMRI technique and how climate change is harming mental health.]]></summary>
-        <author>
-            <name>Flora Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This fMRI technique promised to transform brain research — why can no one replicate it?]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00931-x</id>
-        <link href="https://www.nature.com/articles/d41586-024-00931-x"/>
-        <updated>2024-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The DIANA technique sparked excitement from neuroscientists. But two new papers have cast doubt over the results.]]></summary>
-        <author>
-            <name>McKenzie Prillaman</name>
         </author>
     </entry>
     <entry>
@@ -1968,346 +2347,6 @@ The post Introducing the next-gen Meta Training and Inference Accelerator appear
         <summary type="html"><![CDATA[Following the Silicon Valley Bank collapse, the stock prices of U.S banks fell amid concerns about the exposure of the banking sector to interest rate risk. Thus, between March 8 and March 15, 2023, the S&P 500 Bank index dropped 12.8 percent relative to S&P 500 returns (see right panel of the chart below). The stock prices of insurance companies tumbled as well, with the S&P 500 Insurance index losing 6.4 percent relative to S&P 500 returns over the same time interval (see the center panel below). Yet, insurance companies’ direct exposure to the three failed banks (Silicon Valley Bank, Silvergate, and Signature Bank) through debt and equity was modest. In this post, we examine the possible factors behind the reaction of insurance investors to the failure of Silicon Valley Bank.]]></summary>
         <author>
             <name>Fulvia Fringuellotti and Saketh Prazad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Selenium alloyed tellurium oxide for amorphous p-channel transistors]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07360-w</id>
-        <link href="https://www.nature.com/articles/s41586-024-07360-w"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nature - Selenium alloyed tellurium oxide for amorphous p-channel transistors]]></summary>
-        <author>
-            <name>Ao Liu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ROS-dependent S-palmitoylation activates cleaved and intact gasdermin D]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07373-5</id>
-        <link href="https://www.nature.com/articles/s41586-024-07373-5"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nature - ROS-dependent S-palmitoylation activates cleaved and intact gasdermin D]]></summary>
-        <author>
-            <name>Gang Du</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Randomness in computation wins computer-science ‘Nobel’]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01055-y</id>
-        <link href="https://www.nature.com/articles/d41586-024-01055-y"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Computer scientist Avi Wigderson is known for clarifying the role of randomness in algorithms, and for studying their complexity.]]></summary>
-        <author>
-            <name>Davide Castelvecchi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The ‘ghost roads’ driving tropical deforestation]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01070-z</id>
-        <link href="https://www.nature.com/articles/d41586-024-01070-z"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hear the biggest stories from the world of science | 10 April 2024]]></summary>
-        <author>
-            <name>Nick Petrić Howe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ghost roads and the destruction of Asia-Pacific tropical forests]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07303-5</id>
-        <link href="https://www.nature.com/articles/s41586-024-07303-5"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An effort to map roads in the Asia-Pacific region finds that there are 3.0–6.6 times more roads than other sources suggest, and that unmapped ‘ghost roads’ are a major contributor to tropical forest loss.]]></summary>
-        <author>
-            <name>Jayden E. Engert</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Force-controlled release of small molecules with a rotaxane actuator]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07154-0</id>
-        <link href="https://www.nature.com/articles/s41586-024-07154-0"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A rotaxane-based mechanochemical system enables force-controlled release of multiple cargo molecules that are appended to its molecular axle.]]></summary>
-        <author>
-            <name>Lei Chen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sex differences orchestrated by androgens at single-cell resolution]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07291-6</id>
-        <link href="https://www.nature.com/articles/s41586-024-07291-6"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The effects of sex and androgens on the molecular programs and cellular populations are explored using a single-cell transcriptomic atlas comprising over 2.3 million cells from different tissues in Mus musculus.]]></summary>
-        <author>
-            <name>Fei Li</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emergence of fractal geometries in the evolution of a metabolic enzyme]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07287-2</id>
-        <link href="https://www.nature.com/articles/s41586-024-07287-2"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Citrate synthase from the cyanobacterium Synechococcus elongatus is shown to self-assemble into Sierpiński triangles, a finding that opens up the possibility that other naturally occurring molecular-scale fractals exist.]]></summary>
-        <author>
-            <name>Franziska L. Sendker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FOXO1 enhances CAR T cell stemness, metabolic fitness and efficacy]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07242-1</id>
-        <link href="https://www.nature.com/articles/s41586-024-07242-1"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Increased effectiveness of anti-cancer chimeric antigen receptor T cell therapy is associated with a stem-like phenotype through increased expression of FOXO1.]]></summary>
-        <author>
-            <name>Jack D. Chan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mid-ocean ridge unfaulting revealed by magmatic intrusions]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07247-w</id>
-        <link href="https://www.nature.com/articles/s41586-024-07247-w"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Recent sequences of reverse-faulting earthquakes at the Mid-Atlantic Ridge and the Carlsberg Ridge show that tectonic extension at mid-ocean ridge axes can be partially undone by tectonic shortening across the ridge flanks.]]></summary>
-        <author>
-            <name>Jean-Arthur Olive</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Metabolic rewiring promotes anti-inflammatory effects of glucocorticoids]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07282-7</id>
-        <link href="https://www.nature.com/articles/s41586-024-07282-7"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Glucocorticoids reprogram the mitochondrial metabolism of macrophages, resulting in increased and sustained production of the anti-inflammatory metabolite itaconate and, as a consequence, inhibition of the inflammatory response.]]></summary>
-        <author>
-            <name>Jean-Philippe Auger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cell-type-resolved mosaicism reveals clonal dynamics of the human forebrain]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07292-5</id>
-        <link href="https://www.nature.com/articles/s41586-024-07292-5"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Using mosaic variant barcode analysis, clonal dynamics of specific cell types are deconvolved in the human forebrain.]]></summary>
-        <author>
-            <name>Changuk Chung</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phononic switching of magnetization by the ultrafast Barnett effect]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07200-x</id>
-        <link href="https://www.nature.com/articles/s41586-024-07200-x"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ultrafast light-induced driving of phonons at resonance in a substrate facilitates the permanent reversal of the magnetic state of a material mounted on it.]]></summary>
-        <author>
-            <name>C. S. Davies</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Distal colonocytes targeted by <i>C. rodentium</i> recruit T-cell help for barrier defence]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07288-1</id>
-        <link href="https://www.nature.com/articles/s41586-024-07288-1"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The murine enteropathogen Citrobacter rodentium targets a specific subset of absorptive intestinal epithelial cells in the mid–distal colon, which stimulate T cells to produce sustained IL-22 signals to mitigate further spread of the pathogen.]]></summary>
-        <author>
-            <name>Carlene L. Zindl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FSC-certified forest management benefits large mammals compared to non-FSC]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07257-8</id>
-        <link href="https://www.nature.com/articles/s41586-024-07257-8"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Camera-trap images of 55 mammal species in 14 logging concessions in western equatorial Africa reveal greater animal encounter rates in FSC-certified than in non-certified forests, especially for large mammals and species of high conservation priority.]]></summary>
-        <author>
-            <name>Joeri A. Zwerts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ligand efficacy modulates conformational dynamics of the µ-opioid receptor]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07295-2</id>
-        <link href="https://www.nature.com/articles/s41586-024-07295-2"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Studies on the µ-opioid receptor using fluorescent labelling of intracellular residues and energy transfer experiments in the presence of different ligands with or without G-protein binding reveals conformational changes that correlate to ligand efficacy.]]></summary>
-        <author>
-            <name>Jiawei Zhao</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Direct observation of a magnetic-field-induced Wigner crystal]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07212-7</id>
-        <link href="https://www.nature.com/articles/s41586-024-07212-7"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A magnetic-field-induced Wigner crystal in Bernal-stacked bilayer graphene was directly imaged using high-resolution scanning tunnelling microscopy and its structural properties as a function of electron density, magnetic field and temperature were examined.]]></summary>
-        <author>
-            <name>Yen-Chen Tsui</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A hybrid topological quantum state in an elemental solid]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07203-8</id>
-        <link href="https://www.nature.com/articles/s41586-024-07203-8"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A hybrid topological phase of matter is discovered in the simple elemental-solid arsenic and explored using tunnelling microscopy, photoemission spectroscopy and a theoretical analysis.]]></summary>
-        <author>
-            <name>Md Shafayat Hossain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Terahertz electric-field-driven dynamical multiferroicity in SrTiO<sub>3</sub>]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07175-9</id>
-        <link href="https://www.nature.com/articles/s41586-024-07175-9"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We demonstrate the emergence of magnetism induced by a terahertz electric field in SrTiO3.]]></summary>
-        <author>
-            <name>M. Basini</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bitter taste receptor activation by cholesterol and an intracellular tastant]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07253-y</id>
-        <link href="https://www.nature.com/articles/s41586-024-07253-y"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cryo-electron microscopy structures of the type 2 taste receptor TAS2R14 in complex with Ggust and Gi1 identify cholesterol as an orthosteric agonist and the bitter tastant cmpd28.1 as a positive allosteric modulator and agonist.]]></summary>
-        <author>
-            <name>Yoojoong Kim</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Necroptosis blockade prevents lung injury in severe influenza]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07265-8</id>
-        <link href="https://www.nature.com/articles/s41586-024-07265-8"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A newly developed RIPK3 inhibitor blocks necroptosis of lung cells, reduces lung inflammation and prevents mortality in a mouse model of influenza A virus infection.]]></summary>
-        <author>
-            <name>Avishekh Gautam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FOXO1 is a master regulator of memory programming in CAR T cells]]></title>
-        <id>https://www.nature.com/articles/s41586-024-07300-8</id>
-        <link href="https://www.nature.com/articles/s41586-024-07300-8"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The transcription factor FOXO1 has a key role in human T cell memory, and manipulating FOXO1 expression could provide a way to enhance CAR T cell therapies by increasing CAR T cell persistence and antitumour activity.]]></summary>
-        <author>
-            <name>Alexander E. Doan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Peter Higgs: science mourns giant of particle physics]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01069-6</id>
-        <link href="https://www.nature.com/articles/d41586-024-01069-6"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The British physicist, who has died aged 94, predicted the existence of the Higgs boson in the 1960s.]]></summary>
-        <author>
-            <name>Davide Castelvecchi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to supercharge cancer-fighting cells: give them stem-cell skills]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01043-2</id>
-        <link href="https://www.nature.com/articles/d41586-024-01043-2"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The bioengineered immune players called CAR T cells last longer and work better if pumped up with a large dose of a protein that makes them resemble stem cells.]]></summary>
-        <author>
-            <name>Sara Reardon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Frans de Waal (1948–2024), primatologist who questioned the uniqueness of human minds]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01071-y</id>
-        <link href="https://www.nature.com/articles/d41586-024-01071-y"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Researcher and prolific science communicator who laid bare the social lives of apes.]]></summary>
-        <author>
-            <name>Andrew Whiten</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What happens when climate change and the mental-health crisis collide?]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00993-x</id>
-        <link href="https://www.nature.com/articles/d41586-024-00993-x"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The warming planet is worsening mental illness and distress. Researchers need to work out the scale of the problem and how those who need assistance can be helped.]]></summary>
-        <author>
-            <name>Nature</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The rise of eco-anxiety: scientists wake up to the mental-health toll of climate change]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00998-6</id>
-        <link href="https://www.nature.com/articles/d41586-024-00998-6"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Researchers want to unpick how climate change affects mental health around the world — from lives that are disrupted by catastrophic weather to people who are anxious about the future.]]></summary>
-        <author>
-            <name>Helen Pearson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wildlife boost in African forests certified for sustainable logging]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00878-z</id>
-        <link href="https://www.nature.com/articles/d41586-024-00878-z"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Biodiversity in forests certified by the Forest Stewardship Council.]]></summary>
-        <author>
-            <name>Julia E. Fa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What the India election means for science]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00956-2</id>
-        <link href="https://www.nature.com/articles/d41586-024-00956-2"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With voting about to start in India’s general election, some researchers are concerned that sluggish funding growth and slow decision-making processes could hold the country back.]]></summary>
-        <author>
-            <name>Smriti Mallapaty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scalable, high-quality 2D telluride nanosheets for energy and catalysis applications]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01006-7</id>
-        <link href="https://www.nature.com/articles/d41586-024-01006-7"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A new method for producing high-quality 2D telluride nanosheets at scale removes the need for toxic chemicals and specialized set-ups.]]></summary>
-        <author>
-            <name>Nature</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nanoscale scythe cuts molecular tethers using mechanical forces]]></title>
-        <id>https://www.nature.com/articles/d41586-024-00909-9</id>
-        <link href="https://www.nature.com/articles/d41586-024-00909-9"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[System of interlocked molecules releases cargo on demand.]]></summary>
-        <author>
-            <name>Iwona Nierengarten</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daily briefing: science mourns physicist Peter Higgs]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01077-6</id>
-        <link href="https://www.nature.com/articles/d41586-024-01077-6"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nature editors remember and celebrate the life of Peter Higgs, the theorist behind the Higgs boson, who died on Monday, aged 94. Also, Iran releases jailed conservationists and a Javan tiger that might not be extinct.]]></summary>
-        <author>
-            <name>Flora Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is ChatGPT corrupting peer review? Telltale words hint at AI use]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01051-2</id>
-        <link href="https://www.nature.com/articles/d41586-024-01051-2"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A study of review reports identifies dozens of adjectives that could indicate text written with the help of chatbots.]]></summary>
-        <author>
-            <name>Dalmeet Singh Chawla</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Controlling single polyatomic molecules in an optical array for quantum applications]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01009-4</id>
-        <link href="https://www.nature.com/articles/d41586-024-01009-4"/>
-        <updated>2024-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[‘Optical tweezer’ lasers that control polyatomic molecules could be applied to quantum computing and searches for new physics.]]></summary>
-        <author>
-            <name>Nature</name>
         </author>
     </entry>
     <entry>
@@ -2865,16 +2904,6 @@ If 2023 was a breakthrough year for LLMs, then 2024 is shaping up to be the year
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Running fine-tuned models on Workers AI with LoRAs]]></title>
-        <id>660aeacca5fcdf000a08f351</id>
-        <link href="https://blog.cloudflare.com/fine-tuned-inference-with-loras"/>
-        <updated>2024-04-02T13:00:48.000Z</updated>
-        <summary type="html"><![CDATA[Workers AI now supports fine-tuned models using LoRAs. But what is a LoRA and how does it work? In this post, we dive into fine-tuning, LoRAs and even some math to share the details of how it all works under the hood]]></summary>
-        <author>
-            <name>Michelle Chen</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[What’s the use of economics?]]></title>
         <id>http://rwer.wordpress.com/?p=45263</id>
         <link href="https://rwer.wordpress.com/2024/04/02/whats-the-use-of-economics-4/"/>
@@ -3005,16 +3034,6 @@ If 2023 was a breakthrough year for LLMs, then 2024 is shaping up to be the year
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[new issue of Real-World Economics Review]]></title>
-        <id>http://rwer.wordpress.com/?p=45236</id>
-        <link href="https://rwer.wordpress.com/2024/03/27/new-issue-of-real-world-economics-review-2/"/>
-        <updated>2024-03-27T17:29:05.000Z</updated>
-        <summary type="html"><![CDATA[Please click here to support this open-access journal and the WEA   real-world economic review issue no. 106 download whole issue   How entropy drives us towards degrowth Crelis Rammelt 2 “It is much too soon to act “ – Economists and the climate change Giandomenico Scarpelli 8 Addressing the climate and inequality crises: An emergency […]]]></summary>
-        <author>
-            <name>Editor</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Deposits and the March 2023 Banking Crisis—A Retrospective]]></title>
         <id>https://libertystreeteconomics.newyorkfed.org/?p=28971</id>
         <link href="https://libertystreeteconomics.newyorkfed.org/2024/03/deposits-and-the-march-2023-banking-crisis-a-retrospective/"/>
@@ -3115,16 +3134,6 @@ The post Bringing HDR photo support to Instagram and Threads appeared first on E
         <summary type="html"><![CDATA[While the slump in China’s property sector has been steep, Chinese policymakers have responded to the falloff in property activity with policies designed to spur activity in the manufacturing sector. The apparent hope is that a pivot toward production-intensive growth can help lift the Chinese economy out of its current doldrums, which include weak household demand, high levels of debt, and demographic and political headwinds to growth. In a series of posts, we consider the implications of two alternative Chinese policy scenarios for the risks to the U.S. outlook for real activity and inflation over the next two years. Here, we consider the impact of a scenario in which a credit-fueled boom in manufacturing activity produces higher-than-expected economic growth in China. A key finding is that such a boom would put meaningful upward pressure on U.S. inflation.]]></summary>
         <author>
             <name>Ozge Akinci, Hunter Clark, Jeff Dawson, Matthew Higgins, Silvia Miranda-Agrippino, Ethan Nourbash, and Ramya Nallamotu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sunday photoblogging: the Musée Albert Kahn]]></title>
-        <id>https://crookedtimber.org/?p=52523</id>
-        <link href="https://crookedtimber.org/2024/03/24/sunday-photoblogging-the-musee-albert-kahn/"/>
-        <updated>2024-03-24T08:46:32.000Z</updated>
-        <summary type="html"><![CDATA[A wonderful few days in Paris where, among other things, we visited the Musée Albert Kahn in Boulogne-Billancourt, which was closed for a long time for “travaux”, but is now refurbished. I’ve wanted to visit the MAK for years to see the collection of autochromes that are the fruit of the expeditions that Kahn financed […]]]></summary>
-        <author>
-            <name>Chris Bertram</name>
         </author>
     </entry>
     <entry>
