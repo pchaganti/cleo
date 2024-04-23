@@ -1,16 +1,242 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-22T18:24:51.736Z</id>
+    <id>urn:2024-04-23T01:29:21.861Z</id>
     <title>osmos::feed</title>
-    <updated>2024-04-22T18:24:51.736Z</updated>
+    <updated>2024-04-23T01:29:21.861Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Understanding and avoiding visually ambiguous characters in IDs]]></title>
+        <id>https://news.ycombinator.com/item?id=40127124</id>
+        <link href="https://gajus.com/blog/avoiding-visually-ambiguous-characters-in-ids"/>
+        <updated>2024-04-23T00:20:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gajus.com/blog/avoiding-visually-ambiguous-characters-in-ids
+Comments URL: https://news.ycombinator.com/item?id=40127124
+Points: 7
+# Comments: 4]]></summary>
+        <author>
+            <name>gajus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ex-Amazon exec claims she was asked to ignore copyright law in race to AI]]></title>
+        <id>https://news.ycombinator.com/item?id=40127106</id>
+        <link href="https://www.theregister.com/2024/04/22/ghaderi_v_amazon/"/>
+        <updated>2024-04-23T00:18:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.theregister.com/2024/04/22/ghaderi_v_amazon/
+Comments URL: https://news.ycombinator.com/item?id=40127106
+Points: 15
+# Comments: 6]]></summary>
+        <author>
+            <name>throwaway888abc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NASA's Voyager 1 Resumes Sending Engineering Updates to Earth]]></title>
+        <id>https://news.ycombinator.com/item?id=40127102</id>
+        <link href="https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth"/>
+        <updated>2024-04-23T00:17:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth
+Comments URL: https://news.ycombinator.com/item?id=40127102
+Points: 11
+# Comments: 4]]></summary>
+        <author>
+            <name>mch82</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Cats Knock Stuff Over (2023)]]></title>
+        <id>https://news.ycombinator.com/item?id=40127088</id>
+        <link href="https://gwern.net/cat-knocking"/>
+        <updated>2024-04-23T00:15:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gwern.net/cat-knocking
+Comments URL: https://news.ycombinator.com/item?id=40127088
+Points: 11
+# Comments: 2]]></summary>
+        <author>
+            <name>davikr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.30: Read-only volume mounts can be finally literally read-only]]></title>
+        <id>https://kubernetes.io/blog/2024/04/23/recursive-read-only-mounts/</id>
+        <link href="https://kubernetes.io/blog/2024/04/23/recursive-read-only-mounts/"/>
+        <updated>2024-04-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Author: Akihiro Suda (NTT)
+Read-only volume mounts have been a feature of Kubernetes since the beginning.
+Surprisingly, read-only mounts are not completely read-only under certain conditions on Linux.
+As of the v1.30 release, they can be made completely read-only,
+with alpha support for recursive read-only mounts.
+Read-only volume mounts are not really read-only by default
+Volume mounts can be deceptively complicated.
+You might expect that the following manifest makes everything under /mnt in the containers read-only:
+---
+apiVersion: v1
+kind: Pod
+spec:
+ volumes:
+ - name: mnt
+ hostPath:
+ path: /mnt
+ containers:
+ - volumeMounts:
+ - name: mnt
+ mountPath: /mnt
+ readOnly: true
+
+
+However, any sub-mounts beneath /mnt may still be writable!
+For example, consider that /mnt/my-nfs-server is writeabl…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modal is a matrioshka language based on pattern-matching to rewrite trees]]></title>
+        <id>https://news.ycombinator.com/item?id=40126935</id>
+        <link href="https://wiki.xxiivv.com/site/modal"/>
+        <updated>2024-04-22T23:52:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://wiki.xxiivv.com/site/modal
+Comments URL: https://news.ycombinator.com/item?id=40126935
+Points: 5
+# Comments: 0]]></summary>
+        <author>
+            <name>smlavine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Krazam OS]]></title>
+        <id>https://news.ycombinator.com/item?id=40126751</id>
+        <link href="https://www.krazam.tv/"/>
+        <updated>2024-04-22T23:38:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.krazam.tv/
+Comments URL: https://news.ycombinator.com/item?id=40126751
+Points: 170
+# Comments: 34]]></summary>
+        <author>
+            <name>zdgeier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cubic Life: Conway's Game of Life in 3D]]></title>
+        <id>https://news.ycombinator.com/item?id=40124682</id>
+        <link href="https://github.com/ms0g/cubicLife"/>
+        <updated>2024-04-22T23:04:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/ms0g/cubicLife
+Comments URL: https://news.ycombinator.com/item?id=40124682
+Points: 17
+# Comments: 3]]></summary>
+        <author>
+            <name>SkyMarshal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML-first, framework-agnostic implementation of shadcn/UI – franken/UI]]></title>
+        <id>https://news.ycombinator.com/item?id=40122999</id>
+        <link href="https://www.franken-ui.dev/"/>
+        <updated>2024-04-22T22:18:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.franken-ui.dev/
+Comments URL: https://news.ycombinator.com/item?id=40122999
+Points: 50
+# Comments: 12]]></summary>
+        <author>
+            <name>sveltecult</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Helios-NG: massively-parallel OS for manycore CPUs]]></title>
+        <id>https://news.ycombinator.com/item?id=40121408</id>
+        <link href="https://www.geekdot.com/helios-ng/"/>
+        <updated>2024-04-22T21:41:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.geekdot.com/helios-ng/
+Comments URL: https://news.ycombinator.com/item?id=40121408
+Points: 5
+# Comments: 0]]></summary>
+        <author>
+            <name>lproven</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dify, a visual workflow to build/test LLM applications]]></title>
+        <id>https://news.ycombinator.com/item?id=40121318</id>
+        <link href="https://github.com/langgenius/dify"/>
+        <updated>2024-04-22T21:32:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/langgenius/dify
+Comments URL: https://news.ycombinator.com/item?id=40121318
+Points: 87
+# Comments: 23]]></summary>
+        <author>
+            <name>mountainview</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FPGA Architecture for Deep Learning: Survey and Future Directions]]></title>
+        <id>https://news.ycombinator.com/item?id=40120846</id>
+        <link href="https://arxiv.org/abs/2404.10076"/>
+        <updated>2024-04-22T21:13:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2404.10076
+Comments URL: https://news.ycombinator.com/item?id=40120846
+Points: 52
+# Comments: 12]]></summary>
+        <author>
+            <name>matt_d</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unify DNS management using Amazon Route 53 Profiles with multiple VPCs and AWS accounts]]></title>
+        <id>75632917a9827f42f888158e1c5fcff0d8f243c2</id>
+        <link href="https://aws.amazon.com/blogs/aws/unify-dns-management-using-amazon-route-53-profiles-with-multiple-vpcs-and-aws-accounts/"/>
+        <updated>2024-04-22T21:08:42.000Z</updated>
+        <summary type="html"><![CDATA[If you are managing lots of accounts and Amazon Virtual Private Cloud (Amazon VPC) resources, sharing and then associating many DNS resources to each VPC can present a significant burden. You often hit limits around sharing and association, and you may have gone as far as building your own orchestration layers to propagate DNS configuration […]]]></summary>
+        <author>
+            <name>Esra Kayabali</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Continue (YC S23) is hiring a founding engineer in San Francisco]]></title>
+        <id>https://news.ycombinator.com/item?id=40120616</id>
+        <link href="https://www.ycombinator.com/companies/continue/jobs/smcxRnM-founding-engineer"/>
+        <updated>2024-04-22T21:00:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ycombinator.com/companies/continue/jobs/smcxRnM-founding-engineer
+Comments URL: https://news.ycombinator.com/item?id=40120616
+Points: 0
+# Comments: 0]]></summary>
+        <author>
+            <name>tydunn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[No one buys books]]></title>
+        <id>https://news.ycombinator.com/item?id=40119958</id>
+        <link href="https://www.elysian.press/p/no-one-buys-books"/>
+        <updated>2024-04-22T20:36:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.elysian.press/p/no-one-buys-books
+Comments URL: https://news.ycombinator.com/item?id=40119958
+Points: 175
+# Comments: 169]]></summary>
+        <author>
+            <name>AlbertCory</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NASA's Voyager 1 Resumes Sending Engineering Updates to Earth]]></title>
+        <id>https://news.ycombinator.com/item?id=40117599</id>
+        <link href="https://blogs.nasa.gov/voyager/2024/04/22/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/"/>
+        <updated>2024-04-22T18:59:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blogs.nasa.gov/voyager/2024/04/22/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/
+Comments URL: https://news.ycombinator.com/item?id=40117599
+Points: 362
+# Comments: 84]]></summary>
+        <author>
+            <name>jonathankoren</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 4/22/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=270378</id>
         <link href="https://www.nakedcapitalism.com/2024/04/200pm-water-cooler-4-22-2024.html"/>
         <updated>2024-04-22T18:00:32.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, pandemics, Bragg's theory of the case revealed, the Jewish vote in PA, Carl Schmitt (Nazi legal theorist) ~]]></summary>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, pandemics, Bragg's theory of the case revealed, the Jewish vote in PA, Carl Schmitt (Nazi legal theorist), and Word of the Day: Anosognosia ~]]></summary>
         <author>
             <name>Lambert Strether</name>
         </author>
@@ -32,10 +258,23 @@
         <updated>2024-04-22T17:32:44.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://16bpp.net/blog/post/the-performance-impact-of-cpp-final-keyword/
 Comments URL: https://news.ycombinator.com/item?id=40116644
-Points: 28
-# Comments: 9]]></summary>
+Points: 118
+# Comments: 129]]></summary>
         <author>
             <name>hasheddan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The dangers of single line regular expressions]]></title>
+        <id>https://news.ycombinator.com/item?id=40116602</id>
+        <link href="https://greg.molnar.io/blog/the-dangers-of-single-line-regular-expressions/"/>
+        <updated>2024-04-22T17:28:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://greg.molnar.io/blog/the-dangers-of-single-line-regular-expressions/
+Comments URL: https://news.ycombinator.com/item?id=40116602
+Points: 68
+# Comments: 52]]></summary>
+        <author>
+            <name>thunderbong</name>
         </author>
     </entry>
     <entry>
@@ -46,32 +285,6 @@ Points: 28
         <summary type="html"><![CDATA[from Crelis Rammelt and current issue of RWER Our presumed dominion over nature is an illusion. No matter how clever technological innovations may seem, they remain subject to the laws of thermodynamics. Consequently, a growth-centered capitalist economy finds itself trapped in futile attempts to completely decouple itself from nature – aiming for a 100% circular, service-oriented and […]]]></summary>
         <author>
             <name>Editor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HockeyStack (YC S23) is hiring founding engineers in the Bay Area]]></title>
-        <id>https://news.ycombinator.com/item?id=40116294</id>
-        <link href="https://www.ycombinator.com/companies/hockeystack/jobs/JehKPk7-founding-backend-engineer"/>
-        <updated>2024-04-22T17:01:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.ycombinator.com/companies/hockeystack/jobs/JehKPk7-founding-backend-engineer
-Comments URL: https://news.ycombinator.com/item?id=40116294
-Points: 0
-# Comments: 0]]></summary>
-        <author>
-            <name>ardabulut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The New Reality of Digital Nomads]]></title>
-        <id>https://news.ycombinator.com/item?id=40116251</id>
-        <link href="https://hbr.org/2024/02/the-new-reality-of-digital-nomads"/>
-        <updated>2024-04-22T16:57:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hbr.org/2024/02/the-new-reality-of-digital-nomads
-Comments URL: https://news.ycombinator.com/item?id=40116251
-Points: 21
-# Comments: 9]]></summary>
-        <author>
-            <name>rntn</name>
         </author>
     </entry>
     <entry>
@@ -86,42 +299,39 @@ Additionally, Horizon is generally a terrible operating system. Useless and intr
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[When will computer hardware match the human brain? (Hans Moravec, 1998)]]></title>
+        <title type="html"><![CDATA[New comment by romanhn in "Meta Horizon OS"]]></title>
+        <id>https://news.ycombinator.com/item?id=40116153</id>
+        <link href="https://news.ycombinator.com/item?id=40116153"/>
+        <updated>2024-04-22T16:49:30.000Z</updated>
+        <summary type="html"><![CDATA[I'm guessing it's the opposite. Meta is trying to establish the same OS-level foothold/control that Microsoft, Apple and Google have.]]></summary>
+        <author>
+            <name>romanhn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When will computer hardware match the human brain? (1998)]]></title>
         <id>https://news.ycombinator.com/item?id=40116078</id>
         <link href="https://www.jetpress.org/volume1/moravec.htm"/>
         <updated>2024-04-22T16:43:57.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.jetpress.org/volume1/moravec.htm
 Comments URL: https://news.ycombinator.com/item?id=40116078
-Points: 30
-# Comments: 6]]></summary>
+Points: 70
+# Comments: 65]]></summary>
         <author>
             <name>cs702</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The 100-year-old railway Mexico hopes will rival the Panama Canal (2023)]]></title>
+        <title type="html"><![CDATA[A 100-year-old railway Mexico hopes will rival the Panama Canal (2023)]]></title>
         <id>https://news.ycombinator.com/item?id=40115751</id>
         <link href="https://theweek.com/transport/the-100-year-old-railway-mexico-hopes-will-rival-the-panama-canal"/>
         <updated>2024-04-22T16:14:40.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://theweek.com/transport/the-100-year-old-railway-mexico-hopes-will-rival-the-panama-canal
 Comments URL: https://news.ycombinator.com/item?id=40115751
-Points: 21
-# Comments: 25]]></summary>
+Points: 31
+# Comments: 56]]></summary>
         <author>
             <name>mooreds</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Gaudi 3 the New 128GB HBM2e AI Chip in the Wild]]></title>
-        <id>https://news.ycombinator.com/item?id=40115579</id>
-        <link href="https://www.servethehome.com/this-is-intel-gaudi-3-the-new-128gb-hbm2e-ai-chip-in-the-wild-intel-vision-2024/"/>
-        <updated>2024-04-22T15:56:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.servethehome.com/this-is-intel-gaudi-3-the-new-128gb-hbm2e-ai-chip-in-the-wild-intel-vision-2024/
-Comments URL: https://news.ycombinator.com/item?id=40115579
-Points: 69
-# Comments: 12]]></summary>
-        <author>
-            <name>rbanffy</name>
         </author>
     </entry>
     <entry>
@@ -131,23 +341,10 @@ Points: 69
         <updated>2024-04-22T15:54:30.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://www.meta.com/blog/quest/meta-horizon-os-open-hardware-ecosystem-asus-republic-gamers-lenovo-xbox/
 Comments URL: https://news.ycombinator.com/item?id=40115554
-Points: 217
-# Comments: 214]]></summary>
+Points: 563
+# Comments: 497]]></summary>
         <author>
             <name>ahiknsr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FDNY Arrests E-Bike Shop Owner for Allegedly Selling Illegal Batteries]]></title>
-        <id>https://news.ycombinator.com/item?id=40115551</id>
-        <link href="https://www.thecity.nyc/2024/04/12/ebike-fire-department-arrest-battery-first/"/>
-        <updated>2024-04-22T15:54:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.thecity.nyc/2024/04/12/ebike-fire-department-arrest-battery-first/
-Comments URL: https://news.ycombinator.com/item?id=40115551
-Points: 38
-# Comments: 34]]></summary>
-        <author>
-            <name>PaulHoule</name>
         </author>
     </entry>
     <entry>
@@ -158,19 +355,6 @@ Points: 38
         <summary type="html"><![CDATA[Editor's note: we're excited to highlight this blog from FlowTestAI. FlowTestAI is an exciting startup building on top of LangChain. Specifically, they try to enable easy accessing of APIs through LLMs. Interacting with APIs via LLMs is a huge use case of LangChain, and so we&]]></summary>
         <author>
             <name>LangChain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Survey Study on AI Agent Architectures (2024)]]></title>
-        <id>https://news.ycombinator.com/item?id=40115482</id>
-        <link href="https://arxiv.org/abs/2404.11584"/>
-        <updated>2024-04-22T15:47:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2404.11584
-Comments URL: https://news.ycombinator.com/item?id=40115482
-Points: 6
-# Comments: 1]]></summary>
-        <author>
-            <name>jslampe</name>
         </author>
     </entry>
     <entry>
@@ -191,36 +375,10 @@ The post Mathematicians Marvel at ‘Crazy’ Cuts Through Four Dimensions first
         <updated>2024-04-22T15:10:00.000Z</updated>
         <summary type="html"><![CDATA[Article URL: https://github.com/kylebarron/parquet-wasm
 Comments URL: https://news.ycombinator.com/item?id=40115155
-Points: 45
-# Comments: 4]]></summary>
+Points: 139
+# Comments: 12]]></summary>
         <author>
             <name>kylebarron</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Exploration of SBCL Internals (2020)]]></title>
-        <id>https://news.ycombinator.com/item?id=40115083</id>
-        <link href="https://simonsafar.com/2020/sbcl/"/>
-        <updated>2024-04-22T15:01:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://simonsafar.com/2020/sbcl/
-Comments URL: https://news.ycombinator.com/item?id=40115083
-Points: 61
-# Comments: 32]]></summary>
-        <author>
-            <name>v9v</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JEDEC Extends DDR5 Memory Spec to 8800 MT/S, Adds Anti-Rowhammer Features]]></title>
-        <id>https://news.ycombinator.com/item?id=40114961</id>
-        <link href="https://www.anandtech.com/show/21363/jedec-extends-ddr5-specification-to-8800-mts-adds-anti-rowhammer-features"/>
-        <updated>2024-04-22T14:51:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.anandtech.com/show/21363/jedec-extends-ddr5-specification-to-8800-mts-adds-anti-rowhammer-features
-Comments URL: https://news.ycombinator.com/item?id=40114961
-Points: 35
-# Comments: 13]]></summary>
-        <author>
-            <name>zdw</name>
         </author>
     </entry>
     <entry>
@@ -231,71 +389,6 @@ Points: 35
         <summary type="html"><![CDATA[Not Mistral, for anyone else that reads the comments first.]]></summary>
         <author>
             <name>kristjansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Py2wasm – A Python to WASM Compiler]]></title>
-        <id>https://news.ycombinator.com/item?id=40114567</id>
-        <link href="https://wasmer.io/posts/py2wasm-a-python-to-wasm-compiler"/>
-        <updated>2024-04-22T14:10:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://wasmer.io/posts/py2wasm-a-python-to-wasm-compiler
-Comments URL: https://news.ycombinator.com/item?id=40114567
-Points: 115
-# Comments: 33]]></summary>
-        <author>
-            <name>fock</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Robert Kahn: The Great Interconnector]]></title>
-        <id>https://news.ycombinator.com/item?id=40114472</id>
-        <link href="https://spectrum.ieee.org/bob-kahn-2667754905"/>
-        <updated>2024-04-22T14:01:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://spectrum.ieee.org/bob-kahn-2667754905
-Comments URL: https://news.ycombinator.com/item?id=40114472
-Points: 13
-# Comments: 1]]></summary>
-        <author>
-            <name>rbanffy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Espressif Acquires Majority Stake in M5Stack]]></title>
-        <id>https://news.ycombinator.com/item?id=40114403</id>
-        <link href="https://www.espressif.com/en/news/Espressif_Acquires_M5Stack"/>
-        <updated>2024-04-22T13:54:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.espressif.com/en/news/Espressif_Acquires_M5Stack
-Comments URL: https://news.ycombinator.com/item?id=40114403
-Points: 10
-# Comments: 0]]></summary>
-        <author>
-            <name>chl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple has reportedly acquired Datakalab]]></title>
-        <id>https://news.ycombinator.com/item?id=40114350</id>
-        <link href="https://9to5mac.com/2024/04/22/apple-startup-acquire-ai-compression-and-computer-vision/"/>
-        <updated>2024-04-22T13:49:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://9to5mac.com/2024/04/22/apple-startup-acquire-ai-compression-and-computer-vision/
-Comments URL: https://news.ycombinator.com/item?id=40114350
-Points: 100
-# Comments: 57]]></summary>
-        <author>
-            <name>mikece</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Internet of Desks: How I Connected My Standing Desk to the Internet]]></title>
-        <id>https://news.ycombinator.com/item?id=40113925</id>
-        <link href="https://kn100.me/desksniffer/"/>
-        <updated>2024-04-22T12:58:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://kn100.me/desksniffer/
-Comments URL: https://news.ycombinator.com/item?id=40113925
-Points: 61
-# Comments: 49]]></summary>
-        <author>
-            <name>kn100</name>
         </author>
     </entry>
     <entry>
@@ -345,49 +438,6 @@ Some background info on the project: https://littleworkshop.fr/projects/equinox/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Equinox.space]]></title>
-        <id>https://news.ycombinator.com/item?id=40113013</id>
-        <link href="https://equinox.space/"/>
-        <updated>2024-04-22T10:37:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://equinox.space/
-Comments URL: https://news.ycombinator.com/item?id=40113013
-Points: 752
-# Comments: 173]]></summary>
-        <author>
-            <name>fragmede</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: OpenOrb, a curated search engine for Atom and RSS feeds]]></title>
-        <id>https://news.ycombinator.com/item?id=40112958</id>
-        <link href="https://openorb.idiot.sh/search"/>
-        <updated>2024-04-22T10:26:20.000Z</updated>
-        <summary type="html"><![CDATA[Alternative search engines are neat, as are RSS feeds. OpenOrb is a self-hosted app which allows visitors to search over a list of blogs you love. If you put your 10 favourite blogs in there, it'll search just those blogs and not show you any sponsored content or machine-generated garbage (unless... you follow blogs written by machines?)
-Personal RSS feed readers can usually do this sort of thing, but RSS readers aren’t meant to be shared, so you can think of the search engine as a 'curated feed list as a public service'.
-I wrote a longer blog post about OpenOrb here: https://raphael.computer/blog/openorb-curated-search-engine/
-Comments URL: https://news.ycombinator.com/item?id=40112958
-Points: 184
-# Comments: 38]]></summary>
-        <author>
-            <name>lowercasename</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I made a multiple runtime version manager that can be used on Windows]]></title>
-        <id>https://news.ycombinator.com/item?id=40112842</id>
-        <link href="https://github.com/version-fox/vfox"/>
-        <updated>2024-04-22T10:04:05.000Z</updated>
-        <summary type="html"><![CDATA[vfox is a cross-platform version manager(similar to nvm, fvm, sdkman, asdf-vm, etc.), extendable via plugins. It allows you to different versions for different projects, different versions for different shell. It also supports to lock runtime version for project or shell and support for existing config files .node-version, .nvmrc, .sdkmanrc for easy migration.
-Available Plugins: https://vfox.lhan.me/plugins/available.html
-Supported Shell: Powershell、Clink、Cmder、Bash、ZSH
-Comments URL: https://news.ycombinator.com/item?id=40112842
-Points: 63
-# Comments: 27]]></summary>
-        <author>
-            <name>aooohan</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[US Strategy for Great Power Competition: More Graft and Hope for Wonder Weapons]]></title>
         <id>https://www.nakedcapitalism.com/?p=270336</id>
         <link href="https://www.nakedcapitalism.com/2024/04/us-strategy-for-great-power-competition-more-graft-and-hope-for-wonder-weapons.html"/>
@@ -415,6 +465,34 @@ Points: 63
         <summary type="html"><![CDATA[Yeaaaaaah, remember when the bulk of US manufacturing and industry was offshored a few decades ago and pundits were falling all over themselves to explain how we were transitioning to a "service economy"? Well this is what a service economy looks like.]]></summary>
         <author>
             <name>forgetfreeman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by lll-o-lll in "The failure of the Domino's 30-minute delivery guarantee"]]></title>
+        <id>https://news.ycombinator.com/item?id=40111841</id>
+        <link href="https://news.ycombinator.com/item?id=40111841"/>
+        <updated>2024-04-22T06:23:12.000Z</updated>
+        <summary type="html"><![CDATA[Because, delivery drivers, unlike uber or whatever, are frequently screwed by things outside their control. No parks near the restaurant, so delay in the pickup?
+Bad driver! 
+Restaurant behind on orders?
+Bad driver!
+Something missing from order?
+Bad driver!
+Incentives can cause perverse outcomes, but it’s worse when you are not in control of the outcomes at all.]]></summary>
+        <author>
+            <name>lll-o-lll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Columbia Professor Shai Davidai’s Family Tied to Weapons Manufacturing]]></title>
+        <id>https://www.counterpunch.org/?p=319707</id>
+        <link href="https://www.counterpunch.org/2024/04/22/columbia-universitys-shai-davidais-family-tied-to-weapons-manufacturing/"/>
+        <updated>2024-04-22T06:11:07.000Z</updated>
+        <summary type="html"><![CDATA[After throwing a foot-stomping tantrum earlier this morning, Shai Davidai, an untenured Columbia University business professor, was denied access to campus.
+A self-proclaimed Zionist, Davidai is an Israeli-American who served in the IDF ("proud of it") and has continually harassed Pro-Palestine protestors on campus, labeling them as anti-semitic pro-Hamas "terrorists." More
+The post Columbia Professor Shai Davidai’s Family Tied to Weapons Manufacturing appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Joshua Frank</name>
         </author>
     </entry>
     <entry>
@@ -611,6 +689,16 @@ The downside is the syntax can feel a tad clunky.  The upside is incredibly simp
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Dozens of genes are linked to post-traumatic stress disorder]]></title>
+        <id>https://www.nature.com/articles/d41586-024-01147-9</id>
+        <link href="https://www.nature.com/articles/d41586-024-01147-9"/>
+        <updated>2024-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Findings underscore that genetic factors contribute to development of the condition after a traumatic incident.]]></summary>
+        <author>
+            <name>Nature</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Multimodal cell atlas of the ageing human skeletal muscle]]></title>
         <id>https://www.nature.com/articles/s41586-024-07348-6</id>
         <link href="https://www.nature.com/articles/s41586-024-07348-6"/>
@@ -781,6 +869,20 @@ I was once in a meeting where an IT manager was told his group would have to han
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by armchairhacker in "I can't stand using VSCode so I wrote my own"]]></title>
+        <id>https://news.ycombinator.com/item?id=40107331</id>
+        <link href="https://news.ycombinator.com/item?id=40107331"/>
+        <updated>2024-04-21T17:07:22.000Z</updated>
+        <summary type="html"><![CDATA[The author could try forking and patching VSCode to fix the annoyances manually.
+Years ago I had an issue with VSCode: it was missing a small feature that was very important to me, with the GitHub issue stuck in limbo.
+I ended up going into the source and implementing the feature myself. It took a few hours after bugfixing, I think the fix was ~100 LOC. Then I used the locally-built version. I recall building took a while, and the source and artifacts took a lot of space, but no other problems.
+I also created a PR referencing the issue and it got merged rather quickly. Someone else ended up finishing the work since there were some problems (I think relating to coding conventions, and possible edge cases I didn’t need or handle).
+Maybe I was lucky for the feature to not require much edits, and probably for the PR to get taken over and then merged fast. But it seems like the author's issues are also small, and it would be easier and more ergonomic to patch VSCode than to create an entirely new debugger.]]></summary>
+        <author>
+            <name>armchairhacker</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by kgf1980 in "From a lorry driver to Ruby on rails developer at 38"]]></title>
         <id>https://news.ycombinator.com/item?id=40106972</id>
         <link href="https://news.ycombinator.com/item?id=40106972"/>
@@ -800,6 +902,16 @@ Although I’m working more hours (average 50-52 hours a week compared to 38-40)
 Regarding security, at the end of the day, the US government is a huge target for adversaries. You can't outsource your security practices & if MS software is really that much worse they should be fixing their purchasing requirements. The reality though is that whatever software the US government would switch to would become the focus of adversarial research.]]></summary>
         <author>
             <name>vlovich123</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by NovemberWhiskey in "Drone footage of fledging penguins jumping off cliff"]]></title>
+        <id>https://news.ycombinator.com/item?id=40105393</id>
+        <link href="https://news.ycombinator.com/item?id=40105393"/>
+        <updated>2024-04-21T12:56:09.000Z</updated>
+        <summary type="html"><![CDATA[For those who might be worried to click: the penguin chicks are fledging and going off to swim for the first time; they are not jumping to their doom.]]></summary>
+        <author>
+            <name>NovemberWhiskey</name>
         </author>
     </entry>
     <entry>
@@ -1066,49 +1178,6 @@ I hope an afterlife may provide some of the surprise and delight he brought to s
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by ithkuil in "Daniel Dennett has died"]]></title>
-        <id>https://news.ycombinator.com/item?id=40088614</id>
-        <link href="https://news.ycombinator.com/item?id=40088614"/>
-        <updated>2024-04-19T16:13:38.000Z</updated>
-        <summary type="html"><![CDATA[I must admit I always scoffed at philosophers, but then I started reading Dennett and not only I finally met a philosopher that I respected, but he helped me unlock what other philosophers are doing and I started to see philosophers as a whole in new light.]]></summary>
-        <author>
-            <name>ithkuil</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by mostlysimilar in "DuckDuckGo AI Chat"]]></title>
-        <id>https://news.ycombinator.com/item?id=40088360</id>
-        <link href="https://news.ycombinator.com/item?id=40088360"/>
-        <updated>2024-04-19T15:53:03.000Z</updated>
-        <summary type="html"><![CDATA[God damn it people. I just want to search the web. You aren't doing anything meaningful by giving me yet another fuzzy robot question machine. Just let me search the web. Queries in, web pages out.]]></summary>
-        <author>
-            <name>mostlysimilar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by cnity in "C-Macs – a pure C macOS application"]]></title>
-        <id>https://news.ycombinator.com/item?id=40087811</id>
-        <link href="https://news.ycombinator.com/item?id=40087811"/>
-        <updated>2024-04-19T15:12:02.000Z</updated>
-        <summary type="html"><![CDATA[> A little bit of this also has to do to stick it to all those Luddites on the internet who post "that's impossible" or "you're doing it wrong" to Stack Overflow questions... Requesting permissions in the JNI "oh you have to do that in Java" or other dumb stuff like that. I am completely uninterested in your opinions of what is or is not possible. This is computer science. There aren't restrictions. I can do anything I want. It's just bits. You don't own me.
-From the wonderful CNLohr's rawdraw justification[0]. I always enjoy these kinds of efforts because they embody the true hacker spirit. This is Hacker News after all!
-0: https://github.com/cnlohr/rawdrawandroid?tab=readme-ov-file#...]]></summary>
-        <author>
-            <name>cnity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by paxys in "I spoke with a Google worker fired for protesting $1.2B Israel contract"]]></title>
-        <id>https://news.ycombinator.com/item?id=40087402</id>
-        <link href="https://news.ycombinator.com/item?id=40087402"/>
-        <updated>2024-04-19T14:39:21.000Z</updated>
-        <summary type="html"><![CDATA[I partially blame Google for fostering an environment where these employees genuinely thought that they could spend their working time advocating for social causes and staging protests while staying happily employed and cashing their paychecks/vesting RSUs. No, Google isn't "fascist" for firing you because you barricaded yourself in the CTO's office, intimidated and threatened fellow employees and live streamed the entire charade. Your corporate job isn't a democracy.
-If the company continues cleaning house and gets back to their mission then maybe there's still hope for them.]]></summary>
-        <author>
-            <name>paxys</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Insects and Other Animals Have Consciousness, Experts Declare]]></title>
         <id>https://www.quantamagazine.org/?p=137344</id>
         <link href="https://www.quantamagazine.org/insects-and-other-animals-have-consciousness-experts-declare-20240419/"/>
@@ -1303,17 +1372,6 @@ The post Lawmakers Should Spend a Night in a Homeless Shelter appeared first on 
 The post Perceptions of Social Dominance and How to Change Them appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Marjorie Hecht</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sounding Out O.J.]]></title>
-        <id>https://www.counterpunch.org/?p=319506</id>
-        <link href="https://www.counterpunch.org/2024/04/19/319506/"/>
-        <updated>2024-04-19T05:54:34.000Z</updated>
-        <summary type="html"><![CDATA[O.J. hovered over the end of my bed. His white turf shoes were inches above the Astroturf and he’d never return to earth, even if, paradoxically, he was sure to run for a touchdown, football cradled in his right arm. His eyes were hidden in the shadows of his helmet, its red buffalo turned slightly  More
-The post Sounding Out O.J. appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>David Yearsley</name>
         </author>
     </entry>
     <entry>
@@ -2057,7 +2115,7 @@ life. Most contributors are not being paid …]]></summary>
         <link href="https://feeds.feedblitz.com/~/881407241/0/themoneyillusion~The-hawkish-case/"/>
         <updated>2024-04-16T14:50:14.000Z</updated>
         <summary type="html"><![CDATA[The future course of the economy always involves a bit of guesswork. But it seems to me that the following two claims are pretty likely to be true: 1. Over the past three years, monetary policy has been far too expansionary. 2. It is likely that monetary policy is still a bit too expansionary, although [&#8230;]<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/881407241/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/881407241/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-16-at-9.30.19-AM.png"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/881407241/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/881407241/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/881407241/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/the-hawkish-case/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/the-hawkish-case/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&nbsp;
-<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6812888">I haven’t heard you say much explicitly about who, in your ...</a> <i>by Jeff</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6812236">Doug, Of course signals are all important, but only because ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6811702">Because the distributed lag effect of monetary flows, the proxy ...</a> <i>by spencer</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6811703">Because the distributed lag effect of monetary flows, the proxy ...</a> <i>by spencer</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6811698">Looking at the one-year rate of change in total reserves you ...</a> <i>by spencer</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comments">Plus 5 more...</a></li></ul></div>&#160;</div>]]></summary>
+<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6813290">Scott, People have asked me this question approximately 1342 ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6813237">“If you wonder “what’s so bad about 3% inflation”, then ...</a> <i>by Scott H.</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6813231">The colossal error in macroeconomics is that banks lend ...</a> <i>by spencer</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6812888">I haven’t heard you say much explicitly about who, in your ...</a> <i>by Jeff</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comment-6812236">Doug, Of course signals are all important, but only because ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-hawkish-case/#comments">Plus 5 more...</a></li></ul></div>&#160;</div>]]></summary>
         <author>
             <name>The Money Illusion</name>
         </author>
@@ -2204,16 +2262,6 @@ Read the full coverage]]></summary>
         <summary type="html"><![CDATA[Comparison of conversations across social-media platforms reveals persistent patterns of toxicity.]]></summary>
         <author>
             <name>Nature</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI &amp; robotics briefing: AI-fuelled election campaigns are here]]></title>
-        <id>https://www.nature.com/articles/d41586-024-01133-1</id>
-        <link href="https://www.nature.com/articles/d41586-024-01133-1"/>
-        <updated>2024-04-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Political candidates are increasingly using ‘softfakes’ — obviously AI-generated content — to boost their campaigns and whitewash their reputation. Plus, AI now beats humans at basic tasks and algorithm learns to nudge human gaming partner.]]></summary>
-        <author>
-            <name>Katrina Krämer</name>
         </author>
     </entry>
     <entry>
@@ -2412,7 +2460,7 @@ Read the full coverage]]></summary>
     <entry>
         <title type="html"><![CDATA[Building new custom silicon for Meta’s AI workloads]]></title>
         <id>https://engineering.fb.com/?p=21183</id>
-        <link href="https://engineering.fb.com/2024/04/11/ai-research/building-new-custom-silicon-for-metas-ai-workloads/"/>
+        <link href="https://www.metacareers.com/life/building-custom-silicon-for-the-future-of-ai"/>
         <updated>2024-04-11T16:30:58.000Z</updated>
         <summary type="html"><![CDATA[[...]
 Read More...
