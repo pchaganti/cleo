@@ -12,6 +12,66 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "f95adfe97ec5996905b98d693588b5d607ececfd",
+          "author": "Channy Yun",
+          "description": "Today, we are announcing the general availability of Meta’s Llama 3 models in Amazon Bedrock. Meta Llama 3 is designed for you to build, experiment, and responsibly scale your generative artificial intelligence (AI) applications. New Llama 3 models are the most capable to support a broad range of use cases with improvements in reasoning, code […]",
+          "link": "https://aws.amazon.com/blogs/aws/metas-llama-3-models-are-now-available-in-amazon-bedrock/",
+          "publishedOn": "2024-04-23T11:25:55.000Z",
+          "wordCount": 2143,
+          "title": "Meta’s Llama 3 models are now available in Amazon Bedrock",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/19/Llama-3-feat-img2.png"
+        },
+        {
+          "id": "4c0f2591932fcda01bb3e6c08523ac0726981cc3",
+          "author": "Esra Kayabali",
+          "description": "Today, I am happy to announce the general availability of Guardrails for Amazon Bedrock, first released in preview at re:Invent 2023. With Guardrails for Amazon Bedrock, you can implement safeguards in your generative artificial intelligence (generative AI) applications that are customized to your use cases and responsible AI policies. You can create multiple guardrails tailored to […]",
+          "link": "https://aws.amazon.com/blogs/aws/guardrails-for-amazon-bedrock-now-available-with-new-safety-filters-and-privacy-controls/",
+          "publishedOn": "2024-04-23T11:25:51.000Z",
+          "wordCount": 1931,
+          "title": "Guardrails for Amazon Bedrock now available with new safety filters and privacy controls",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/19/Guardrails-feat-img2-1.png"
+        },
+        {
+          "id": "180a9a30a03c4d19eb46cdde6bc2c05f64830fc8",
+          "author": "Danilo Poccia",
+          "description": "With Agents for Amazon Bedrock, applications can use generative artificial intelligence (generative AI) to run tasks across multiple systems and data sources. Starting today, these new capabilities streamline the creation and management of agents: Quick agent creation – You can now quickly create an agent and optionally add instructions and action groups later, providing flexibility […]",
+          "link": "https://aws.amazon.com/blogs/aws/agents-for-amazon-bedrock-introducing-a-simplified-creation-and-configuration-experience/",
+          "publishedOn": "2024-04-23T11:25:47.000Z",
+          "wordCount": 2490,
+          "title": "Agents for Amazon Bedrock: Introducing a simplified creation and configuration experience",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/19/Agents-feat-img2.png"
+        },
+        {
+          "id": "4efd0cbd0640b3c92182260a34c2fa5cbf691076",
+          "author": "Jeff Barr",
+          "description": "The Amazon Bedrock model evaluation capability that we previewed at AWS re:Invent 2023 is now generally available. This new capability helps you to incorporate Generative AI into your application by giving you the power to select the foundation model that gives you the best results for your particular use case. As my colleague Antje explained […]",
+          "link": "https://aws.amazon.com/blogs/aws/amazon-bedrock-model-evaluation-is-now-generally-available/",
+          "publishedOn": "2024-04-23T11:25:43.000Z",
+          "wordCount": 1743,
+          "title": "Amazon Bedrock model evaluation is now generally available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/19/Model-eval-feat-img2.png"
+        },
+        {
+          "id": "9b3467e3b47c60f7e737180a4bb3eea62b609e10",
+          "author": "Danilo Poccia",
+          "description": "With Amazon Bedrock, you have access to a choice of high-performing foundation models (FMs) from leading artificial intelligence (AI) companies that make it easier to build and scale generative AI applications. Some of these models provide publicly available weights that can be fine-tuned and customized for specific use cases. However, deploying customized FMs in a […]",
+          "link": "https://aws.amazon.com/blogs/aws/import-custom-models-in-amazon-bedrock-preview/",
+          "publishedOn": "2024-04-23T11:25:40.000Z",
+          "wordCount": 1628,
+          "title": "Import custom models in Amazon Bedrock (preview)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/19/Custom-models-feat-img3.png"
+        },
+        {
+          "id": "bce2b6392c224fa0474554ef68cf029b2525a220",
+          "author": "Antje Barth",
+          "description": "During AWS re:Invent 2023, we announced the preview of Amazon Titan Image Generator, a generative artificial intelligence (generative AI) foundation model (FM) that you can use to quickly create and refine realistic, studio-quality images using English natural language prompts. I’m happy to share that Amazon Titan Image Generator is now generally available in Amazon Bedrock, […]",
+          "link": "https://aws.amazon.com/blogs/aws/amazon-titan-image-generator-and-watermark-detection-api-are-now-available-in-amazon-bedrock/",
+          "publishedOn": "2024-04-23T11:25:37.000Z",
+          "wordCount": 2234,
+          "title": "Amazon Titan Image Generator and watermark detection API are now available in Amazon Bedrock",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/19/Watermark-feat-img2.png"
+        },
+        {
           "id": "75632917a9827f42f888158e1c5fcff0d8f243c2",
           "author": "Esra Kayabali",
           "description": "If you are managing lots of accounts and Amazon Virtual Private Cloud (Amazon VPC) resources, sharing and then associating many DNS resources to each VPC can present a significant burden. You often hit limits around sharing and association, and you may have gone as far as building your own orchestration layers to propagate DNS configuration […]",
@@ -870,7 +930,7 @@
           "description": "from Crelis Rammelt and current issue of RWER Our presumed dominion over nature is an illusion. No matter how clever technological innovations may seem, they remain subject to the laws of thermodynamics. Consequently, a growth-centered capitalist economy finds itself trapped in futile attempts to completely decouple itself from nature – aiming for a 100% circular, service-oriented and […]",
           "link": "https://rwer.wordpress.com/2024/04/22/in-search-of-radical-alternatives/",
           "publishedOn": "2024-04-22T17:01:08.000Z",
-          "wordCount": 4316,
+          "wordCount": 4326,
           "title": "In search of radical alternatives",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -880,7 +940,7 @@
           "description": "from Lars Syll No sooner had I finished my comment on the irrelevancy of economics but I had confirmation — albeit unwittingly — in this morning’s Financial Times.  There on the editorial page was a short column by Soumaya Keynes talking about the rise of Hank. For those of you not on the cutting edge, […]",
           "link": "https://rwer.wordpress.com/2024/04/19/cutting-edge-macroeconomics/",
           "publishedOn": "2024-04-19T11:25:45.000Z",
-          "wordCount": 5470,
+          "wordCount": 5480,
           "title": "Cutting-edge macroeconomics …",
           "imageUrl": "https://i.pinimg.com/originals/7c/4d/af/7c4daf05e39a2c304b672a9b714b7e1b.jpg"
         },
@@ -890,7 +950,7 @@
           "description": "from Peter Radford What are we to say of a discipline that steadfastly ignores reality in its pursuit of ever more formality in its methods? Wow. Steve Levitt has really shaken me. I come not to mock, but to follow up … Stand up and take a bow Ben Moll!  You daring soul. Clearly I […]",
           "link": "https://rwer.wordpress.com/2024/04/17/the-eclipse-part-wo/",
           "publishedOn": "2024-04-17T15:36:35.000Z",
-          "wordCount": 6162,
+          "wordCount": 6172,
           "title": "The eclipse part wo",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -900,7 +960,7 @@
           "description": "from Junaid Jahangir and current issue of RWER [Ha-Joon] Chang’s latest book Edible Economics (2022) crystallizes the narrative that he has developed through his popular books over the years. . . . I have reviewed the salient ideas as follows in a bid to draw out lessons I could share with my ECON 101 students. […]",
           "link": "https://rwer.wordpress.com/2024/04/15/changs-edible-economics/",
           "publishedOn": "2024-04-15T20:26:42.000Z",
-          "wordCount": 4756,
+          "wordCount": 4766,
           "title": "Chang’s “Edible Economics”",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -910,7 +970,7 @@
           "description": "from Lars Syll Unlike anthropologists … economists simply invent the primitive societies we study, a practice which frees us from limiting ourselves to societies which can be physically visited as sparing us the discomforts of long stays among savages. This method of society-invention is the source of the utopian character of economics; and of the […]",
           "link": "https://rwer.wordpress.com/2024/04/12/chicago-economics-nothing-but-pseudo-scientific-cheating/",
           "publishedOn": "2024-04-12T20:15:30.000Z",
-          "wordCount": 6821,
+          "wordCount": 6831,
           "title": "Chicago economics — nothing but pseudo-scientific cheating",
           "imageUrl": "https://lh5.googleusercontent.com/proxy/4q-6XCes-2n992DjEdgR6flq44y98Ybu6qt1pbR98wL5ysE9jikfPW8FffP9KR9UbrbOeFYEtLeLDtn4aElzX11nma2HvQlza0GhyhUFiTVNs6hDcOWYfgVWf-voMLKcCX4JtKVQL4ndQc2npzxIuZdDMZtNilA"
         },
@@ -920,7 +980,7 @@
           "description": "from a comment by Ikonoclast “A truth is permitted only a brief victory celebration between the two long periods where it is first condemned as paradoxical and later disparaged as trivial.” – Arthur Schopenhauer. As they break new ground, the Capital as Power theoreticians will encounter the “Schopenhauer Effect” over and over. When you point […]",
           "link": "https://rwer.wordpress.com/2024/04/11/the-increasing-collusion-between/",
           "publishedOn": "2024-04-11T11:45:48.000Z",
-          "wordCount": 4371,
+          "wordCount": 4381,
           "title": "The increasing collusion between . . . . . .",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -930,7 +990,7 @@
           "description": "from Blair Fix and current issue of RWER Speaking of competition and losers, Ronald Reagan set the tone of the neoliberal era when, in 1981, he fired 11,000 striking air-traffic controllers (Houlihan, 2021). The message? Workers were losers who would be subjected to the discipline of competition. Reagan called it ‘morning in America’. But really, it was […]",
           "link": "https://rwer.wordpress.com/2024/04/10/wealth-catapulted-up/",
           "publishedOn": "2024-04-10T16:45:34.000Z",
-          "wordCount": 4613,
+          "wordCount": 4787,
           "title": "Wealth catapulted up",
           "imageUrl": "https://i0.wp.com/economicsfromthetopdown.com/wp-content/uploads/2023/11/wealth_gini.png?w=723&ssl=1"
         },
@@ -940,7 +1000,7 @@
           "description": "from Giandomenico Scarpelli and current issue of RWER As documented in the previous paragraph, in recent years it finally seems that most orthodox economists have become more aware of the catastrophic outcomes of climatic disturbances; but at this point the traditional policy they recommend could be insufficient to meet the goals set at international level. […]",
           "link": "https://rwer.wordpress.com/2024/04/09/the-need-for-a-new-economic-paradigm/",
           "publishedOn": "2024-04-09T10:14:33.000Z",
-          "wordCount": 4438,
+          "wordCount": 4448,
           "title": "The need for a new economic paradigm",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -950,7 +1010,7 @@
           "description": "from Asad Zaman Introduction At first glance, it appears that industrialization, with its rampant overproduction and overconsumption, stands as the primary antagonist in our climate crisis narrative. However, this surface-level perception overlooks a more profound shift that lies beneath: an epistemological revolution birthed in the European Enlightenment. This era marked a pivotal transition in our […]",
           "link": "https://rwer.wordpress.com/2024/04/05/weekend-read-enlightenment-epistemology-and-the-climate-crisis/",
           "publishedOn": "2024-04-05T16:10:01.000Z",
-          "wordCount": 9652,
+          "wordCount": 9662,
           "title": "Weekend read – Enlightenment epistemology and the climate crisis",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -960,7 +1020,7 @@
           "description": "from Dean Baker David Wallace-Wells had a column discussing the trip by Javier Milei, Argentina’s new president, to the World Economic Forum (WEF) in Davos, Switzerland. The WEF is an annual gathering of many of the world’s richest people, where they also invite politicians, academics, and others who they think may amuse them. According to Wallace-Wells, Mr. […]",
           "link": "https://rwer.wordpress.com/2024/04/03/there-aint-no-libertarians-just-politicians-who-want-to-give-all-the-money-to-the-rich/",
           "publishedOn": "2024-04-03T15:27:29.000Z",
-          "wordCount": 5608,
+          "wordCount": 5618,
           "title": "There ain’t no libertarians, just politicians who want to give all the money to the rich",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -993,7 +1053,7 @@
           "description": "The Financial Times has a story that points to some disturbing features of South African politics: It is the kind of fervent devotion that has driven a wave of support for the former president [Jacob Zuma] ahead of a critical general election on May 29. Yet as recently as January, the 82-year-old African National Congress [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/881407244/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812451\">the circumstances have changed, the past is a different ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812237\">Viennacapitalist, For most of my life, the US political system ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812192\">Scott,   got it, but I was uncertain of what exactly you are ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6811685\">Viennacapitalist. I'm stunned that people think this post is ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6811497\">Scott,   “…Perhaps Africans cannot handle democracy?..” ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/881407244/0/themoneyillusion~Is-African-politics-inferior-to-American-politics/",
           "publishedOn": "2024-04-16T14:49:58.000Z",
-          "wordCount": 3070,
+          "wordCount": 3071,
           "title": "Is African politics inferior to American politics?",
           "imageUrl": null
         },
@@ -1003,7 +1063,7 @@
           "description": "In a recent post, I listed 6 ways that Trump intends to reduce inflation: Trump has a 6-part plan to bring down inflation: 1. Favors&#160;NIMBY policies&#160;to prevent housing construction in the suburbs. 2. Expel all the illegal workers that pick our food and provide other key services. 3. Put heavy tariffs on imported food and [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/881407247/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6811688\">“pro liberty politician in Bolsonaro”   Liberty? The guy ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6811466\">The only person being exposed as a “moron” is you.   You're ...</a> <i>by Sara</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810674\">And for the record… the exchange between Longstreet (and ...</a> <i>by Student</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810588\">Michael,   If Biden were up 3-5 points in the polling averages, ...</a> <i>by Student</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810581\">>What do the people in the audience think   They think a Trump ...</a> <i>by foosion</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/881407247/0/themoneyillusion~Seven-Trump-is-on-a-roll/",
           "publishedOn": "2024-04-16T14:49:47.000Z",
-          "wordCount": 2999,
+          "wordCount": 3000,
           "title": "Seven!  (Trump is on a roll)",
           "imageUrl": null
         },
@@ -1013,7 +1073,7 @@
           "description": "During the golden age of macroeconomics (roughly 1984-2007), many economists understood that interest rates were not monetary policy. After 2008, economists have been drifting back to old-school Keynesianism, with its emphasis on fiscal policy and interest rates. For the umpteenth time, it makes no sense to talk about interest rates causing changes in other macro [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/879089525/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809959\">Philo, The economic claims of interest are policy ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809884\">Oddly enough, I was in a philosophy reading group talking about ...</a> <i>by William Peden</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809801\">”But other things equal? What does that even mean?” Good ...</a> <i>by Philo</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809700\">Michael, I doubt that, but I hope you are right.</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809671\">@Michael S:   What makes you guess that? Not challenging you, ...</a> <i>by msgkings</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/879089525/0/themoneyillusion~Time-to-add-the-epicycles/",
           "publishedOn": "2024-04-12T19:19:25.000Z",
-          "wordCount": 3641,
+          "wordCount": 3642,
           "title": "Time to add the epicycles!",
           "imageUrl": null
         },
@@ -1023,7 +1083,7 @@
           "description": "Janan Ganesh has an piece in the FT entitled &#8220;The Rise of Bleak Chic&#8221;. I don&#8217;t demand show trials or the ritual egging in public squares of people who were bearish on cities. There is no need for a mea maxima culpa from those who doubted if even the handshake, let alone the restaurant, would [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/879089528/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/879089528/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f03%2fScreen-Shot-2024-03-29-at-8.16.44-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/879089528/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/879089528/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/879089528/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/bleak-chic/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/bleak-chic/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comment-6812234\">Scott,   yes, ppl live in their houses, but they have to cover ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comment-6811695\">Viennacapitalist, That graph shows the 1929 peak to be lower ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comment-6811516\">Scott,   not sure your Phoenix real house price graph proves ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comment-6811515\">Scott,   “Actually, Fisher’s claim was probably reasonable. ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comment-6811131\">Ted, You said: “That in a place where creating a new lot ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/879089528/0/themoneyillusion~Bleak-chic/",
           "publishedOn": "2024-04-12T19:19:13.000Z",
-          "wordCount": 3531,
+          "wordCount": 3532,
           "title": "Bleak chic",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/03/Screen-Shot-2024-03-29-at-8.16.44-PM.png"
         },
@@ -1033,7 +1093,7 @@
           "description": "How are leftists working to re-elect Trump? There are almost too many ways to count: 1. Trump was reeling after his candidates did horrible in the 2022 midterms, and people like Ron DeSantis were soaring in the polls. Then leftists saved him by making him seem like a victim, and he began rising in the [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/879089531/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/leftists-for-trump/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6810001\">@Jim Glass:   Your history lesson on Athens is interesting but ...</a> <i>by msgkings</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809963\">Jim, You are confusing two issues. One is the need for multiple ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809788\">If Democrats were smart, they’d be working on scrapping the ...</a> <i>by Jim Glass</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809702\">Harding, Obviously the Chinese version was 1000 times worse, ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809698\">“Chinese Cultural Revolution style cancel culture” ...</a> <i>by Eharding</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/879089531/0/themoneyillusion~Leftists-for-Trump/",
           "publishedOn": "2024-04-12T19:19:02.000Z",
-          "wordCount": 4416,
+          "wordCount": 4328,
           "title": "Leftists for Trump",
           "imageUrl": null
         },
@@ -1043,7 +1103,7 @@
           "description": "I don&#8217;t know. But the possibility is greater than I would have wished to see. Inflation data is often noisy and unreliable, for a wide variety of reasons. Wage inflation is the most meaningful for monetary policy. Among all of the various price indices, the service sector inflation ex-housing and energy is probably the most [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/876964106/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/876964106/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-10-at-1.58.02-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/876964106/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/876964106/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/876964106/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comment-6808063\">Powell will be remembered as just another Arthur Burns. I heard ...</a> <i>by steve</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comment-6807680\">Powell as Chairman is not a monetarist.   #1 “there was a ...</a> <i>by spencer</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comment-6807677\">And so now Ray thinks I changed my name to “Spencer”. ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comment-6807672\">Monetarism has never been tried. Paul Volcker’s version of ...</a> <i>by spencer</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comment-6807670\">It's very easy to steer the economy as the 1966 Interest Rate ...</a> <i>by spencer</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/876964106/0/themoneyillusion~Is-inflation-reaccelerating/",
           "publishedOn": "2024-04-10T18:47:48.000Z",
-          "wordCount": 2664,
+          "wordCount": 2665,
           "title": "Is inflation re-accelerating?",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-10-at-1.58.02-PM.png"
         },
@@ -1053,7 +1113,7 @@
           "description": "There are many different types of superintelligence. Some people understand quantum mechanics. Some people are really good at chess. Some people can read Finnegan&#8217;s Wake. [I&#8217;m tempted to say, &#8220;Some people understand supply and demand Scott Alexander is really, really good at analysis. So good that he&#8217;s become famous for engaging in this activity, with [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/876964109/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/876964109/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-09-at-9.58.56-AM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/876964109/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/876964109/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/876964109/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/what-do-the-smartest-people-think/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/what-do-the-smartest-people-think/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/what-do-the-smartest-people-think/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/what-do-the-smartest-people-think/#comment-6810563\">SS: “Like the fact that almost all the first cases just ...</a> <i>by Ray Lopez</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/what-do-the-smartest-people-think/#comment-6809060\">“I don’t believe in either wild coincidences”   Like the ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/what-do-the-smartest-people-think/#comment-6808886\">@Ray said:   Unlike you, I know the story behind the story. ...</a> <i>by RAD</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/what-do-the-smartest-people-think/#comment-6808850\">@RAD – your “faith based” science is predictable. Like ...</a> <i>by Ray Lopez</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/what-do-the-smartest-people-think/#comment-6808838\">The most important section from Scott Alexander's follow-up ...</a> <i>by RAD</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/what-do-the-smartest-people-think/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/876964109/0/themoneyillusion~What-do-the-smartest-people-think/",
           "publishedOn": "2024-04-10T18:47:38.000Z",
-          "wordCount": 6374,
+          "wordCount": 6286,
           "title": "What do the smartest people think?",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-09-at-9.58.56-AM.png"
         },
@@ -1063,7 +1123,7 @@
           "description": "Here&#8217;s Jim Geraghty of the National Review: We&#8217;ve reached the point where Biden administration officials, Democrats, and pro-Biden columnists are tearing their hair out, furious that the electorate perceives the economy as being subpar. But if you look in the right places, the economic frustration makes perfect sense &#8212; and those right places include grocery [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/876964112/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/876964112/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/876964112/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/876964112/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/876964112/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/ranting-and-berating-at-the-national-review/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/ranting-and-berating-at-the-national-review/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/ranting-and-berating-at-the-national-review/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/ranting-and-berating-at-the-national-review/#comment-6808125\">Brandon nailed it… that's 100% it.</a> <i>by Tom M</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/ranting-and-berating-at-the-national-review/#comment-6808041\">“Even though the economy is in a good place cyclically, I ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/ranting-and-berating-at-the-national-review/#comment-6807970\">While I agree that the US is currently in a good place in the ...</a> <i>by Brandon Berg</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/ranting-and-berating-at-the-national-review/#comment-6807687\">Stan, The wage data during 2020-21 was meaningless. Why do you ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/ranting-and-berating-at-the-national-review/#comment-6807623\">By: Michael Sandifer\t\t</a> <i>by Michael Sandifer <a href=\"http://www.exactmacro.substack.com\">http://www.exactmacro.substack.com</a></i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/ranting-and-berating-at-the-national-review/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/876964112/0/themoneyillusion~Ranting-and-berating-at-the-National-Review/",
           "publishedOn": "2024-04-10T18:47:24.000Z",
-          "wordCount": 3136,
+          "wordCount": 3137,
           "title": "Ranting and berating at the National Review",
           "imageUrl": null
         },
@@ -1085,12 +1145,52 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=270297",
+          "author": "Yves Smith",
+          "description": "Our wild daily links: animal consciousness, tachyons rule, cheap antibiotic v. Covid? war v. plactics, TikTok, UK to expell Rwanda refugees, Gaza mass graves, NATO demands Ukraine mobilize? Trump transcripts and docs reveal, Harvard body trafficking? Nvida fall signals peak AI? guns beating butter",
+          "link": "https://www.nakedcapitalism.com/2024/04/links-4-23-2024.html",
+          "publishedOn": "2024-04-23T10:55:42.000Z",
+          "wordCount": 6736,
+          "title": "Links 4/23/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/00-drier-kitty.jpg"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=270349",
+          "author": "Nick Corbishley",
+          "description": "Ecuador was one of the first countries to reject international investment arbitration, back in 2008. Its new ultra neo-liberal government just tried to reverse that. Voters refused to let it.",
+          "link": "https://www.nakedcapitalism.com/2024/04/another-country-just-dealt-another-big-blow-to-the-global-isds-system.html",
+          "publishedOn": "2024-04-23T10:45:52.000Z",
+          "wordCount": 4892,
+          "title": "Another Small Emerging Economy Just Dealt Another Big Blow to the Global ISDS System",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=270376",
+          "author": "Yves Smith",
+          "description": "Industrial policy, despite recent lip service, is out of favor because doing ambitious things isn't lucrative enough for the right people.",
+          "link": "https://www.nakedcapitalism.com/2024/04/james-galbraith-industrial-policy-is-a-good-idea-but-so-far-we-dont-have-one.html",
+          "publishedOn": "2024-04-23T08:29:25.000Z",
+          "wordCount": 7540,
+          "title": "James Galbraith:  Industrial Policy Is a Good Idea, but So Far We Don’t Have One",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=270422",
+          "author": "Yves Smith",
+          "description": "The Freedom Flotialla is another example of how trying to save lives in Gaza is a high risk enterprise.",
+          "link": "https://www.nakedcapitalism.com/2024/04/will-the-freedom-flotilla-sail-to-gaza.html",
+          "publishedOn": "2024-04-23T07:32:55.000Z",
+          "wordCount": 4035,
+          "title": "Will the Freedom Flotilla Sail to Gaza?",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-23-at-2.29.12-PM.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=270378",
           "author": "Lambert Strether",
           "description": "~ Today's Water Cooler: Politics, pandemics, Bragg's theory of the case revealed, the Jewish vote in PA, Carl Schmitt (Nazi legal theorist), and Word of the Day: Anosognosia ~",
           "link": "https://www.nakedcapitalism.com/2024/04/200pm-water-cooler-4-22-2024.html",
           "publishedOn": "2024-04-22T18:00:32.000Z",
-          "wordCount": 14170,
+          "wordCount": 14400,
           "title": "2:00PM Water Cooler 4/22/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/rcp.png"
         },
@@ -1100,7 +1200,7 @@
           "description": "Our zesty daily links",
           "link": "https://www.nakedcapitalism.com/2024/04/links-4-22-2024.html",
           "publishedOn": "2024-04-22T10:58:13.000Z",
-          "wordCount": 14714,
+          "wordCount": 14737,
           "title": "Links 4/22/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/ago_martyr-2.png"
         },
@@ -1110,7 +1210,7 @@
           "description": "The gauno must flow!",
           "link": "https://www.nakedcapitalism.com/2024/04/how-dune-became-a-rallying-cry-for-the-new-science-of-ecology.html",
           "publishedOn": "2024-04-22T10:50:52.000Z",
-          "wordCount": 6942,
+          "wordCount": 7157,
           "title": "How ‘Dune’ Became a Rallying Cry For the New Science of Ecology",
           "imageUrl": "https://counter.theconversation.com/content/225156/count.gif?distributor=republish-lightbox-basic"
         },
@@ -1120,7 +1220,7 @@
           "description": "Venture capital and private equity are playing a larger role in the military-industrial complex leading to even more corruption, lack of accountability and the swallowing up of young minds by the Silicon Valley money pit.",
           "link": "https://www.nakedcapitalism.com/2024/04/us-strategy-for-great-power-competition-more-graft-and-hope-for-wonder-weapons.html",
           "publishedOn": "2024-04-22T10:00:33.000Z",
-          "wordCount": 14008,
+          "wordCount": 14100,
           "title": "US Strategy for Great Power Competition: More Graft and Hope for Wonder Weapons",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/Screenshot-2024-04-17-at-11.09.21 PM-1024x736.png"
         },
@@ -1130,7 +1230,7 @@
           "description": "New anti-espionage laws in China could make an increasingly tenuous situation for Western drug buyers even worse.",
           "link": "https://www.nakedcapitalism.com/2024/04/china-anti-espionage-laws-threaten-pharma-supply-chains-and-multinational-manufacture-in-china.html",
           "publishedOn": "2024-04-22T09:12:28.000Z",
-          "wordCount": 7186,
+          "wordCount": 7136,
           "title": "China Anti-Espionage Laws Threaten Pharma Supply Chains and Multinational Manufacture in China",
           "imageUrl": null
         },
@@ -1140,49 +1240,9 @@
           "description": "Jill Stein explains why she is running for US president on an anti-war, pro-worker platform, challenging the Democrat/Republican duopoly.",
           "link": "https://www.nakedcapitalism.com/2024/04/challenging-the-duopoly-jill-stein-on-why-shes-running-for-us-president-as-green-party-candidate.html",
           "publishedOn": "2024-04-22T04:56:16.000Z",
-          "wordCount": 16261,
+          "wordCount": 16211,
           "title": "Challenging the Duopoly: Jill Stein on Why She’s Running for US President as Green Party Candidate",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=270314",
-          "author": "Lambert Strether",
-          "description": "Droplet dogmatists routed 👏 👏 👏",
-          "link": "https://www.nakedcapitalism.com/2024/04/whos-new-technical-report-on-pathogens-that-transmit-through-the-air-with-a-note-on-the-pandemic-treaty.html",
-          "publishedOn": "2024-04-21T20:25:45.000Z",
-          "wordCount": 6510,
-          "title": "WHO’s New Technical Report on “Pathogens That Transmit Through The Air” (with a Note on the Pandemic Treaty)",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/1_through_the_air.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=270302",
-          "author": "Lambert Strether",
-          "description": "Our noble-effort daily links",
-          "link": "https://www.nakedcapitalism.com/2024/04/links-4-21-2024.html",
-          "publishedOn": "2024-04-21T10:58:17.000Z",
-          "wordCount": 30220,
-          "title": "Links 4/21/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/deer.jpeg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=270310",
-          "author": "Lambert Strether",
-          "description": "Sounds that are lower pitched are less studied than other types. Some say it’s a health hazard. Others have doubts.",
-          "link": "https://www.nakedcapitalism.com/2024/04/low-frequency-noise-is-pervasive-does-that-matter.html",
-          "publishedOn": "2024-04-21T10:50:45.000Z",
-          "wordCount": 8294,
-          "title": "Low-Frequency Noise Is Pervasive. Does That Matter?",
-          "imageUrl": "https://logs-01.loggly.com/inputs/4a05953f-1607-4284-825e-7df393822342.gif?postid=85028&title=Low-frequency-Noise-Is-Pervasive.-Does-That-Matter?"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=270262",
-          "author": "Yves Smith",
-          "description": "Our natty daily links: Faling graupel! Ozempic doubts, Trump courthouse self-immolation, FDA \"forever chemicals\" wet noodle lashing, sinking China? India outsourcers job cuts, Gaza, China-Russia alliance assessed, grocery costs, Boeing flying cars, minimalist deepfakes",
-          "link": "https://www.nakedcapitalism.com/2024/04/links-4-20-2024.html",
-          "publishedOn": "2024-04-20T10:55:50.000Z",
-          "wordCount": 24770,
-          "title": "Links 4/20/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/00-big-turkey-scaled.jpg"
         }
       ]
     },
@@ -1481,7 +1541,7 @@
           "description": "At Slack, we’ve long been conservative technologists. In other words, when we invest in leveraging a new category of infrastructure, we do it rigorously. We’ve done this since we debuted machine learning-powered features in 2016, and we’ve developed a robust process and skilled team in the space. Despite that, over the past year we’ve been […]\nThe post How We Built Slack AI To Be Secure and Private appeared first on Slack Engineering.",
           "link": "https://slack.engineering/how-we-built-slack-ai-to-be-secure-and-private/",
           "publishedOn": "2024-04-18T05:00:33.000Z",
-          "wordCount": 2183,
+          "wordCount": 2186,
           "title": "How We Built Slack AI To Be Secure and Private",
           "imageUrl": "https://slack.engineering/wp-content/uploads/sites/7/2024/04/AI_Marketing_Search_650x450_x2.jpg"
         }
@@ -1493,22 +1553,92 @@
       "siteUrl": "http://feeds.nature.com/nature/rss/current",
       "articles": [
         {
+          "id": "https://www.nature.com/articles/d41586-024-01187-1",
+          "author": "N. S. Prasanna",
+          "description": "Letter to the Editor",
+          "link": "https://www.nature.com/articles/d41586-024-01187-1",
+          "publishedOn": "2024-04-23T00:00:00.000Z",
+          "wordCount": 2820,
+          "title": "India’s 50-year-old Chipko movement is a model for environmental activism",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nature.com/articles/d41586-024-01185-3",
+          "author": "Alireza Mohammadi",
+          "description": "Letter to the Editor",
+          "link": "https://www.nature.com/articles/d41586-024-01185-3",
+          "publishedOn": "2024-04-23T00:00:00.000Z",
+          "wordCount": 2863,
+          "title": "The Middle East’s largest hypersaline lake risks turning into an environmental disaster zone",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nature.com/articles/d41586-024-01188-0",
+          "author": "Fun Man Fung",
+          "description": "Letter to the Editor",
+          "link": "https://www.nature.com/articles/d41586-024-01188-0",
+          "publishedOn": "2024-04-23T00:00:00.000Z",
+          "wordCount": 2833,
+          "title": "Chemistry lab destroyed by Taiwan earthquake has physical and mental impacts",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nature.com/articles/d41586-024-01186-2",
+          "author": "Jinlou Huang",
+          "description": "Letter to the Editor",
+          "link": "https://www.nature.com/articles/d41586-024-01186-2",
+          "publishedOn": "2024-04-23T00:00:00.000Z",
+          "wordCount": 2858,
+          "title": "More work is needed to take on the rural wastewater challenge",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nature.com/articles/d41586-024-01181-7",
+          "author": "Jack Leeming",
+          "description": "Nature’s annual photography competition attracted stunning images from around the world, including two very different shots featuring the Polarstern research vessel.",
+          "link": "https://www.nature.com/articles/d41586-024-01181-7",
+          "publishedOn": "2024-04-23T00:00:00.000Z",
+          "wordCount": 8142,
+          "title": "Breaking ice, and helicopter drops: winning photos of working scientists",
+          "imageUrl": "https://www.nature.com/immersive/d41586-024-01181-7/assets/nkFaZtq5lO/2024-04-26_careers-feat_photography-competition_sm-1066x600.jpg"
+        },
+        {
+          "id": "https://www.nature.com/articles/d41586-024-01177-3",
+          "author": "Charlotte E. Blattner",
+          "description": "The European Court of Human Rights’ judgment in a Swiss case cements the concept that climate inaction violates human rights — responsible nations around the world will take heed.",
+          "link": "https://www.nature.com/articles/d41586-024-01177-3",
+          "publishedOn": "2024-04-23T00:00:00.000Z",
+          "wordCount": 3656,
+          "title": "European ruling linking climate change to human rights could be a game changer — here’s how",
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01177-3/d41586-024-01177-3_26983638.jpg"
+        },
+        {
+          "id": "https://www.nature.com/articles/d41586-024-01029-0",
+          "author": "David Adam",
+          "description": "Autonomous weapons guided by artificial intelligence are already in use. Researchers, legal experts and ethicists are struggling with what should be allowed on the battlefield.",
+          "link": "https://www.nature.com/articles/d41586-024-01029-0",
+          "publishedOn": "2024-04-23T00:00:00.000Z",
+          "wordCount": 5168,
+          "title": "Lethal AI weapons are here: how can we control them?",
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01029-0/d41586-024-01029-0_26993750.jpg"
+        },
+        {
           "id": "https://www.nature.com/articles/s41586-024-07412-1",
           "author": "Sirio Belli",
           "description": "Nature - Star Formation Shut Down by Multiphase Gas Outflow in a Galaxy at a Redshift of 2.45",
           "link": "https://www.nature.com/articles/s41586-024-07412-1",
           "publishedOn": "2024-04-22T00:00:00.000Z",
-          "wordCount": 3559,
+          "wordCount": 3657,
           "title": "Star Formation Shut Down by Multiphase Gas Outflow in a Galaxy at a Redshift of 2.45",
           "imageUrl": null
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07413-0",
           "author": "Dwight Koeberl",
-          "description": "",
+          "description": "Nature - Author Correction: Interim analyses of a first-in-human phase 1/2 mRNA trial for propionic acidaemia",
           "link": "https://www.nature.com/articles/s41586-024-07413-0",
           "publishedOn": "2024-04-22T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2340,
           "title": "Author Correction: Interim analyses of a first-in-human phase 1/2 mRNA trial for propionic acidaemia",
           "imageUrl": null
         },
@@ -1518,99 +1648,99 @@
           "description": "Nature - Author Correction: Targeting SWI/SNF ATPases in enhancer-addicted prostate cancer",
           "link": "https://www.nature.com/articles/s41586-024-07393-1",
           "publishedOn": "2024-04-22T00:00:00.000Z",
-          "wordCount": 3939,
+          "wordCount": 3941,
           "title": "Author Correction: Targeting SWI/SNF ATPases in enhancer-addicted prostate cancer",
           "imageUrl": null
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01182-6",
           "author": "Kendall Powell",
-          "description": "",
+          "description": "In Grenada, public-health researcher Lindonne Telesford tests a soil additive made from recycled glass that could help farmers adapt to climate change.",
           "link": "https://www.nature.com/articles/d41586-024-01182-6",
           "publishedOn": "2024-04-22T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2969,
           "title": "How ground glass might save crops from drought on a Caribbean island",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01182-6/d41586-024-01182-6_26962944.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01147-9",
           "author": null,
-          "description": "",
+          "description": "Findings underscore that genetic factors contribute to development of the condition after a traumatic incident.",
           "link": "https://www.nature.com/articles/d41586-024-01147-9",
           "publishedOn": "2024-04-22T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2700,
           "title": "Dozens of genes are linked to post-traumatic stress disorder",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01147-9/d41586-024-01147-9_27002780.jpg"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07348-6",
           "author": "Yiwei Lai",
-          "description": "",
+          "description": "The Human Muscle Ageing Cell Atlas provides a series of integrated cellular and molecular explanations for sarcopenia and frailty development in advanced ages.",
           "link": "https://www.nature.com/articles/s41586-024-07348-6",
           "publishedOn": "2024-04-22T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 21756,
           "title": "Multimodal cell atlas of the ageing human skeletal muscle",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07348-6/MediaObjects/41586_2024_7348_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01130-4",
           "author": "Julian  Nowogrodzki",
-          "description": "",
+          "description": "The model organism Caenorhabditis elegans is quick to forget a notable odour — unless it is chilled or given lithium.",
           "link": "https://www.nature.com/articles/d41586-024-01130-4",
           "publishedOn": "2024-04-22T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3237,
           "title": "How to freeze a memory: putting worms on ice stops them forgetting",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01130-4/d41586-024-01130-4_26995042.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01169-3",
           "author": "Lilly Tozer",
-          "description": "",
+          "description": "Features of a scene such as size and clutter can affect the brain’s sense of how much time has passed while observing it.",
           "link": "https://www.nature.com/articles/d41586-024-01169-3",
           "publishedOn": "2024-04-22T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3270,
           "title": "Your perception of time is skewed by what you see",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01169-3/d41586-024-01169-3_27002616.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01179-1",
           "author": "Heather Handley",
-          "description": "",
+          "description": "The world should learn from past disasters and prepare for the effects of future, inevitable volcanic catastrophes, a wide-reaching book teaches us.",
           "link": "https://www.nature.com/articles/d41586-024-01179-1",
           "publishedOn": "2024-04-22T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 4043,
           "title": "How volcanoes shaped our planet — and why we need to be ready for the next big eruption",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01179-1/d41586-024-01179-1_26993490.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01137-x",
           "author": "Amy  Luers",
-          "description": "",
+          "description": "As artificial intelligence transforms the global economy, researchers need to explore scenarios to assess how it can help, rather than harm, the climate.",
           "link": "https://www.nature.com/articles/d41586-024-01137-x",
           "publishedOn": "2024-04-22T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 5061,
           "title": "Will AI accelerate or delay the race to net-zero emissions?",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01137-x/d41586-024-01137-x_26989498.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01158-6",
           "author": "Benjamin Thompson",
-          "description": "",
+          "description": "Kelly and Zach Weinersmith talk to Nature about the hurdles facing humans living in outer space.",
           "link": "https://www.nature.com/articles/d41586-024-01158-6",
           "publishedOn": "2024-04-19T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2668,
           "title": "Living on Mars would probably suck — here's why",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01158-6/d41586-024-01158-6_26989296.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01073-w",
           "author": null,
-          "description": "",
+          "description": "Antarctic observatory gathers the first clear evidence of mysterious subatomic particles from space.",
           "link": "https://www.nature.com/articles/d41586-024-01073-w",
           "publishedOn": "2024-04-19T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2682,
           "title": "Detectors deep in South Pole ice pin down elusive tau neutrino",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01073-w/d41586-024-01073-w_26992764.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01160-y",
@@ -1618,19 +1748,19 @@
           "description": "Andrew Robinson reviews five of the best science picks.",
           "link": "https://www.nature.com/articles/d41586-024-01160-y",
           "publishedOn": "2024-04-19T00:00:00.000Z",
-          "wordCount": 2808,
+          "wordCount": 2954,
           "title": "Dogwhistles, drilling and the roots of Western civilization: Books in brief",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01160-y/d41586-024-01160-y_26984026.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01151-z",
           "author": "Bianca Nogrady",
-          "description": "",
+          "description": "The coral reef is experiencing its worst mass bleaching event on record — and warming waters brought on by climate change are to blame.",
           "link": "https://www.nature.com/articles/d41586-024-01151-z",
           "publishedOn": "2024-04-19T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3400,
           "title": "Australia’s Great Barrier Reef is ‘transforming’ because of repeated coral bleaching",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01151-z/d41586-024-01151-z_26996998.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01144-y",
@@ -1638,19 +1768,19 @@
           "description": "A declaration signed by dozens of scientists says there is “a realistic possibility” for elements of consciousness in reptiles, insects and molluscs.",
           "link": "https://www.nature.com/articles/d41586-024-01144-y",
           "publishedOn": "2024-04-19T00:00:00.000Z",
-          "wordCount": 3440,
+          "wordCount": 3574,
           "title": "Do insects have an inner life? Animal consciousness needs a rethink",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01144-y/d41586-024-01144-y_26997594.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01156-8",
           "author": "Jack Leeming",
-          "description": "",
+          "description": "Nature’s Where I Work images are being exhibited in the UK capital until June.",
           "link": "https://www.nature.com/articles/d41586-024-01156-8",
           "publishedOn": "2024-04-18T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2813,
           "title": "Londoners see what a scientist looks like up close in 50 photographs",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01156-8/d41586-024-01156-8_26984354.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01037-0",
@@ -1658,7 +1788,7 @@
           "description": "Feelings of hunger, nausea and fullness seem to be governed by separate brain circuits, finds a study in mice.",
           "link": "https://www.nature.com/articles/d41586-024-01037-0",
           "publishedOn": "2024-04-18T00:00:00.000Z",
-          "wordCount": 2835,
+          "wordCount": 2965,
           "title": "Why queasiness kills hunger: brain circuit identified",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01037-0/d41586-024-01037-0_26979044.jpg"
         },
@@ -1668,7 +1798,7 @@
           "description": "Finds in pyramid at Guatemalan site suggest that remains were disinterred and desecrated in a public ritual.",
           "link": "https://www.nature.com/articles/d41586-024-01075-8",
           "publishedOn": "2024-04-18T00:00:00.000Z",
-          "wordCount": 2577,
+          "wordCount": 2706,
           "title": "Burnt remains of Maya royalty mark a dramatic power shift",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01075-8/d41586-024-01075-8_26992576.jpg"
         },
@@ -1678,7 +1808,7 @@
           "description": "Understanding the volcanic moon’s history could offer fresh insights into conditions on early Earth.",
           "link": "https://www.nature.com/articles/d41586-024-01138-w",
           "publishedOn": "2024-04-18T00:00:00.000Z",
-          "wordCount": 3021,
+          "wordCount": 3148,
           "title": "Violent volcanoes have wracked Jupiter’s moon Io for billions of years",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01138-w/d41586-024-01138-w_26989164.jpg"
         },
@@ -1688,59 +1818,59 @@
           "description": "Sheets of gold might find use as catalysts, or in light-sensing devices.",
           "link": "https://www.nature.com/articles/d41586-024-01118-0",
           "publishedOn": "2024-04-18T00:00:00.000Z",
-          "wordCount": 3049,
+          "wordCount": 3179,
           "title": "Meet ‘goldene’: this gilded cousin of graphene is also one atom thick",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01118-0/d41586-024-01118-0_26988992.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01132-2",
           "author": "Neil Savage",
-          "description": "",
+          "description": "Powered by deep-learning algorithms, artificial intelligence systems could replace agents such as chemicals currently used to augment medical scans.",
           "link": "https://www.nature.com/articles/d41586-024-01132-2",
           "publishedOn": "2024-04-18T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 4773,
           "title": "AI’s keen diagnostic eye",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01132-2/d41586-024-01132-2_26989000.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01149-7",
           "author": "Xiaoying You",
-          "description": "",
+          "description": "Tens of millions of people in the country’s coastal lands might find their homes below sea level by 2120 owing to sinking and sea-level rise.",
           "link": "https://www.nature.com/articles/d41586-024-01149-7",
           "publishedOn": "2024-04-18T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3386,
           "title": "Nearly half of China’s major cities are sinking — some ‘rapidly’",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01149-7/d41586-024-01149-7_26983904.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01074-9",
           "author": null,
-          "description": "",
+          "description": "Static electricity generated by the foot striking the ground can be captured to kill pathogens.",
           "link": "https://www.nature.com/articles/d41586-024-01074-9",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2681,
           "title": "This water bottle purifies your drink with energy from your steps",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01074-9/d41586-024-01074-9_26989586.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01122-4",
           "author": "Dan Fox",
-          "description": "",
+          "description": "New research unveils the workings of one of the most complex bio-mechanical structures in the natural world",
           "link": "https://www.nature.com/articles/d41586-024-01122-4",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2681,
           "title": "AI and robotics demystify the workings of a fly's wing",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01122-4/d41586-024-01122-4_26983646.jpg"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07329-9",
           "author": "Amer A. Hossain",
-          "description": "",
+          "description": "A screen utilizing an environmental DNA library in Escherichia coli is used to identify Brig1, a previously unknown anti-phage defence system with homologues across distinct clades of bacteria.",
           "link": "https://www.nature.com/articles/s41586-024-07329-9",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 21433,
           "title": "DNA glycosylases provide antiviral defence in prokaryotes",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07329-9/MediaObjects/41586_2024_7329_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07263-w",
@@ -1765,22 +1895,22 @@
         {
           "id": "https://www.nature.com/articles/s41586-024-07327-x",
           "author": "Kaavya Krishna Kumar",
-          "description": "",
+          "description": "We propose a model for a sequential, multistep activation mechanism of metabotropic glutamate receptor subtype 5, including a series of structures in lipid nanodiscs, from inactive to fully active, with agonist-bound intermediate states.",
           "link": "https://www.nature.com/articles/s41586-024-07327-x",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 7649,
           "title": "Stepwise activation of a metabotropic glutamate receptor",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07327-x/MediaObjects/41586_2024_7327_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07219-0",
           "author": "Maximilian Kotz",
-          "description": "",
+          "description": "Analysis of projected sub-national damages from temperature and precipitation show an income reduction of 19% of the world economy within the next 26 years independent of future emission choices.",
           "link": "https://www.nature.com/articles/s41586-024-07219-0",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 13849,
           "title": "The economic commitment of climate change",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07219-0/MediaObjects/41586_2024_7219_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07297-0",
@@ -1805,52 +1935,52 @@
         {
           "id": "https://www.nature.com/articles/s41586-024-07245-y",
           "author": "Caroline Chalumeau",
-          "description": "",
+          "description": "Using observations of double-difference relocated earthquakes in a local three-dimensional velocity model for Ecuador, a detailed image of seismicity is created, forming the base for more realistic models of earthquake rupture, slip and hazard in subduction zones.",
           "link": "https://www.nature.com/articles/s41586-024-07245-y",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 9983,
           "title": "Seismological evidence for a multifault network at the subduction interface",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07245-y/MediaObjects/41586_2024_7245_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07337-9",
           "author": "Anshuman Swain",
-          "description": "",
+          "description": "Analysis of a global dataset reveals spatiotemporal patterns of marine plankton and their biogeographical responses during climatic and environmental changes across the Cenozoic era.",
           "link": "https://www.nature.com/articles/s41586-024-07337-9",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 5959,
           "title": "Biogeographic response of marine plankton to Cenozoic environmental changes",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07337-9/MediaObjects/41586_2024_7337_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07309-z",
           "author": "Jonathan Daume",
-          "description": "",
+          "description": "Hippocampal theta–gamma phase–amplitude coupling integrates cognitive control and working memory storage across brain areas in humans.",
           "link": "https://www.nature.com/articles/s41586-024-07309-z",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 22704,
           "title": "Control of working memory by phase–amplitude coupling of human hippocampal neurons",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07309-z/MediaObjects/41586_2024_7309_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07311-5",
           "author": "Michelle K. Cahill",
-          "description": "",
+          "description": "A study investigates subcellular, single-cell and network-level comunication within the astrocyte network in response to the two major neurotransmitter inputs.",
           "link": "https://www.nature.com/articles/s41586-024-07311-5",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 22232,
           "title": "Network-level encoding of local neurotransmitters in cortical astrocytes",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07311-5/MediaObjects/41586_2024_7311_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07279-2",
           "author": "Lei Tang",
-          "description": "",
+          "description": "Near-field radiative heat transfer between two coplanar silicon carbide membranes in close proximity is enhanced by the electromagnetic corner and edge modes.",
           "link": "https://www.nature.com/articles/s41586-024-07279-2",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 4720,
           "title": "Corner- and edge-mode enhancement of near-field radiative heat transfer",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07279-2/MediaObjects/41586_2024_7279_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07314-2",
@@ -1858,139 +1988,139 @@
           "description": "Lipopolysaccharide-induced breakdown of the blood–brain barrier requires activation of GSDMD-mediated plasma membrane permeabilization and pyroptosis in brain endothelial cells.",
           "link": "https://www.nature.com/articles/s41586-024-07314-2",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": 8361,
+          "wordCount": 8376,
           "title": "Brain&#xa0;endothelial GSDMD activation mediates inflammatory BBB breakdown",
           "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07314-2/MediaObjects/41586_2024_7314_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07262-x",
           "author": "Ósmar Rodríguez",
-          "description": "",
+          "description": "Analysis of the energy budget of a sample of 54 well-observed stripped-envelope supernovae of all sub-types shows statistically significant, largely model-independent, observational evidence for a non-radioactive power source in most of them.",
           "link": "https://www.nature.com/articles/s41586-024-07262-x",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 4602,
           "title": "Stripped-envelope supernova light curves argue for central engine activity",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07262-x/MediaObjects/41586_2024_7262_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07274-7",
           "author": "S. L. Maes",
-          "description": "",
+          "description": "Datasets from in situ warming experiments across 28 arctic and alpine tundra sites covering  a span of less than 1 year up to 25 years show the importance of local soil conditions and warming-induced changes therein for future climatic impacts on ecosystem respiration.",
           "link": "https://www.nature.com/articles/s41586-024-07274-7",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 19398,
           "title": "Environmental drivers of increased ecosystem respiration in a warming tundra",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07274-7/MediaObjects/41586_2024_7274_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07293-4",
           "author": "Johan M. Melis",
-          "description": "",
+          "description": "Measurements of fly muscle activity using a genetically encoded calcium indicator and high-speed imaging of wing movement were used to construct a model of the insect wing hinge and the role of steering muscles in flight control.",
           "link": "https://www.nature.com/articles/s41586-024-07293-4",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 7202,
           "title": "Machine learning reveals the control mechanics of an insect wing hinge",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07293-4/MediaObjects/41586_2024_7293_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07218-1",
           "author": "Xinyuan Bi",
-          "description": "",
+          "description": "Research published in Nature shows that surface-enhanced Raman spectroscopy carried out with colloids can quantify a range of molecules down to concentrations at the femtomolar level.",
           "link": "https://www.nature.com/articles/s41586-024-07218-1",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 6122,
           "title": "Digital colloid-enhanced Raman spectroscopy by single-molecule counting",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07218-1/MediaObjects/41586_2024_7218_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07298-z",
           "author": "Qinqin Zhao",
-          "description": "",
+          "description": "Streptomyces are discovered to produce antibacterial protein complexes that selectively inhibit the hyphal growth of related species, a function distinct from that of the small-molecule antibiotics they are known for.",
           "link": "https://www.nature.com/articles/s41586-024-07298-z",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 18447,
           "title": "<i>Streptomyces</i> umbrella toxin particles block hyphal growth of competing species",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07298-z/MediaObjects/41586_2024_7298_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07296-1",
           "author": "Atsushi Yamaguchi",
-          "description": "",
+          "description": "The trapping of triply charged 229mTh3+ is described and its nuclear decay half-life determined, showing useful properties for the development of a nuclear clock and applications in the search for new physics.",
           "link": "https://www.nature.com/articles/s41586-024-07296-1",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 5099,
           "title": "Laser spectroscopy of triply charged <sup>229</sup>Th isomer for a nuclear clock",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07296-1/MediaObjects/41586_2024_7296_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07331-1",
           "author": "Hao Zuo",
-          "description": "",
+          "description": "Structures of the human calcium-sensing receptor can be bound into complex with G proteins from three different Gα subtypes while maintaining G-protein-binding specificity.",
           "link": "https://www.nature.com/articles/s41586-024-07331-1",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 8366,
           "title": "Promiscuous G-protein activation by the calcium-sensing receptor",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07331-1/MediaObjects/41586_2024_7331_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/s41586-024-07317-z",
           "author": "Zeynep Okur",
-          "description": "",
+          "description": "Signalling by the developmental morphogen BMP2 through the transcription factor SMAD1 has a key role in controlling the glutamatergic innervation of parvalbumin-expressing interneurons and maintaining the balance between excitation and inhibition in the mammalian cortex.",
           "link": "https://www.nature.com/articles/s41586-024-07317-z",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 14724,
           "title": "Control of neuronal excitation–inhibition balance by BMP–SMAD1 signalling",
-          "imageUrl": null
+          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07317-z/MediaObjects/41586_2024_7317_Fig1_HTML.png"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-00472-3",
           "author": "Carissa Wong",
-          "description": "",
+          "description": "Countries are cracking down on tobacco use and vaping — the laws could save thousands of lives and billions of dollars, say scientists.",
           "link": "https://www.nature.com/articles/d41586-024-00472-3",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3732,
           "title": "Smoking bans are coming: what does the evidence say?",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-00472-3/d41586-024-00472-3_26988484.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01123-3",
           "author": "Anthony King",
-          "description": "",
+          "description": "Unusual microbial communities in a person’s lower airways could influence the onset and progression of lung cancer and other conditions, and might point the way to therapies.",
           "link": "https://www.nature.com/articles/d41586-024-01123-3",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 4908,
           "title": "Exploring the lung microbiome’s role in disease",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01123-3/d41586-024-01123-3_26962862.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-00920-0",
           "author": "Beth Cato",
-          "description": "",
+          "description": "A clear-cut success.",
           "link": "https://www.nature.com/articles/d41586-024-00920-0",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3950,
           "title": "Dad always mows on summer Saturday mornings",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-00920-0/d41586-024-00920-0_26890620.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01135-z",
           "author": "Dalmeet Singh Chawla",
-          "description": "",
+          "description": "An ‘at a glance’ approach to publication details, such as journal acceptance rates and the number of peer reviewers, would promote transparency, scientists say.",
           "link": "https://www.nature.com/articles/d41586-024-01135-z",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3350,
           "title": "Researchers want a ‘nutrition label’ for academic-paper facts",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01135-z/d41586-024-01135-z_26966012.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01090-9",
           "author": "Martin  Wagner",
-          "description": "",
+          "description": "A United Nations-backed agreement to end plastic pollution is within reach — but only if scientists, civil society and businesses unite against powerful vested interests.",
           "link": "https://www.nature.com/articles/d41586-024-01090-9",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3562,
           "title": "We must protect the global plastics treaty from corporate interference",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01090-9/d41586-024-01090-9_26958754.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01098-1",
@@ -1998,7 +2128,7 @@
           "description": "Virologist Hulda Jónsdóttir studies some of the world’s most pathogenic viruses at the Spiez Laboratory in Switzerland.",
           "link": "https://www.nature.com/articles/d41586-024-01098-1",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": 3804,
+          "wordCount": 3941,
           "title": "Deadly diseases and inflatable suits: how I found my niche in virology research",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01098-1/d41586-024-01098-1_26979562.jpg"
         },
@@ -2008,39 +2138,39 @@
           "description": "A technique for measuring trace quantities of molecules in water.",
           "link": "https://www.nature.com/articles/d41586-024-01015-6",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": 2950,
+          "wordCount": 3085,
           "title": "Nanoparticle fix opens up tricky technique to forensic applications",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01015-6/d41586-024-01015-6_26969946.png"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01102-8",
           "author": "Jitao David  Zhang",
-          "description": "",
+          "description": "Computational biologist Jitao David Zhang says that the country’s vocational training programme teaches key work and life skills.",
           "link": "https://www.nature.com/articles/d41586-024-01102-8",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3963,
           "title": "How young people benefit from Swiss apprenticeships",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01102-8/d41586-024-01102-8_26979680.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-00963-3",
           "author": "Ziv Williams",
-          "description": "",
+          "description": "Temporarily holding on to information depends on coordinated brain waves.",
           "link": "https://www.nature.com/articles/d41586-024-00963-3",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3142,
           "title": "Coupled neural activity controls working memory in humans",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-00963-3/d41586-024-00963-3_26969044.png"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01100-w",
           "author": "Nikki Forrester",
-          "description": "",
+          "description": "A global effort to uncover the nature of the Universe has had resounding effects on scientists and society.",
           "link": "https://www.nature.com/articles/d41586-024-01100-w",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 4883,
           "title": "CERN’s impact goes way beyond tiny particles",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01100-w/d41586-024-01100-w_26979550.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01089-2",
@@ -2048,7 +2178,7 @@
           "description": "Tackling plastic pollution needs scientists to be in the negotiating room at upcoming talks.",
           "link": "https://www.nature.com/articles/d41586-024-01089-2",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": 3425,
+          "wordCount": 3559,
           "title": "UN plastics treaty: don’t let lobbyists drown out researchers",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01089-2/d41586-024-01089-2_26979608.jpg"
         },
@@ -2058,7 +2188,7 @@
           "description": "Government budget includes more money for basic research and notable increases to postgraduate stipends.",
           "link": "https://www.nature.com/articles/d41586-024-01124-2",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": 3199,
+          "wordCount": 3333,
           "title": "Canadian science gets biggest boost to PhD and postdoc pay in 20 years",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01124-2/d41586-024-01124-2_26988968.jpg"
         },
@@ -2068,29 +2198,29 @@
           "description": "Saudi herders have travelled the same routes for millennia, cave discovery suggests.",
           "link": "https://www.nature.com/articles/d41586-024-01131-3",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": 3029,
+          "wordCount": 3159,
           "title": "Humans and their livestock have sheltered in this Saudi Arabian cave for 10,000 years",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01131-3/d41586-024-01131-3_26983970.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01136-y",
           "author": "Benjamin Thompson",
-          "description": "",
+          "description": "Hear the biggest stories from the world of science | 17 April 2024",
           "link": "https://www.nature.com/articles/d41586-024-01136-y",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3017,
           "title": "Keys, wallet, phone: the neuroscience behind working memory",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01136-y/d41586-024-01136-y_26988608.gif"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01099-0",
           "author": "Nikki Forrester",
-          "description": "",
+          "description": "Biologist Carolin Sommer-Trembo describes her fascination for fish and why she enjoys doing science in Switzerland.",
           "link": "https://www.nature.com/articles/d41586-024-01099-0",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3544,
           "title": "I dive for fish in the longest freshwater lake in the world",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01099-0/d41586-024-01099-0_26979578.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01016-5",
@@ -2098,7 +2228,7 @@
           "description": "Streptomyces bacteria make a previously unknown antibacterial agent.",
           "link": "https://www.nature.com/articles/d41586-024-01016-5",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": 2889,
+          "wordCount": 3019,
           "title": "Bacteria deploy umbrella toxins against their competitors",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01016-5/d41586-024-01016-5_26984112.png"
         },
@@ -2108,39 +2238,39 @@
           "description": "Longwing butterfly species found to be a rare type of hybrid.",
           "link": "https://www.nature.com/articles/d41586-024-00858-3",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": 3041,
+          "wordCount": 3176,
           "title": "Surprise hybrid origins of a butterfly species",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-00858-3/d41586-024-00858-3_26933784.png"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-00912-0",
           "author": "Tanvi  Deora",
-          "description": "",
+          "description": "Insights into control of the joints that connect fly wings to their body.",
           "link": "https://www.nature.com/articles/d41586-024-00912-0",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3103,
           "title": "An exploration of how the insect-wing hinge functions",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-00912-0/d41586-024-00912-0_26983982.png"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01110-8",
           "author": "Smriti Mallapaty",
-          "description": "",
+          "description": "Algorithm examines images of metastatic cells to identify the location of the primary tumour.",
           "link": "https://www.nature.com/articles/d41586-024-01110-8",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3227,
           "title": "AI traces mysterious metastatic cancers to their source",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01110-8/d41586-024-01110-8_26979476.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01153-x",
           "author": "Flora Graham",
-          "description": "",
+          "description": "Evidence is growing that targeted dietary interventions can treat, delay and even prevent some illnesses. Plus, an AI model helps track the spread of metastatic cancers and how climate lawsuits push governments and companies to act.",
           "link": "https://www.nature.com/articles/d41586-024-01153-x",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3424,
           "title": "Daily briefing: Food is medicine",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01153-x/d41586-024-01153-x_26979474.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01092-7",
@@ -2148,98 +2278,28 @@
           "description": "Wastewater testing grew tremendously during the pandemic. But is it ready to tackle the opioid crisis, air pollution and antibiotic resistance?",
           "link": "https://www.nature.com/articles/d41586-024-01092-7",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": 5119,
+          "wordCount": 5246,
           "title": "What toilets can reveal about COVID, cancer and other health threats",
           "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01092-7/d41586-024-01092-7_26966876.jpg"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01017-4",
           "author": "Uwe  Ernsberger",
-          "description": "",
+          "description": "Jawless vertebrate has sympathetic neurons.",
           "link": "https://www.nature.com/articles/d41586-024-01017-4",
           "publishedOn": "2024-04-17T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 3109,
           "title": "The sympathetic nervous system arose in the earliest vertebrates",
-          "imageUrl": null
+          "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-024-01017-4/d41586-024-01017-4_26983918.png"
         },
         {
           "id": "https://www.nature.com/articles/d41586-024-01083-8",
           "author": "Kathleen B. Aviso",
-          "description": "",
+          "description": "Letter to the Editor",
           "link": "https://www.nature.com/articles/d41586-024-01083-8",
           "publishedOn": "2024-04-16T00:00:00.000Z",
-          "wordCount": null,
+          "wordCount": 2877,
           "title": "Use game theory for climate models that really help reach net zero goals",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nature.com/articles/d41586-024-01086-5",
-          "author": "Daxin Wang",
-          "description": "Letter to the Editor",
-          "link": "https://www.nature.com/articles/d41586-024-01086-5",
-          "publishedOn": "2024-04-16T00:00:00.000Z",
-          "wordCount": 2684,
-          "title": "Female academics need more support — in China as elsewhere",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nature.com/articles/d41586-024-01084-7",
-          "author": "Manuel Prieto",
-          "description": "",
-          "link": "https://www.nature.com/articles/d41586-024-01084-7",
-          "publishedOn": "2024-04-16T00:00:00.000Z",
-          "wordCount": null,
-          "title": "It’s time to talk about the hidden human cost of the green transition",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nature.com/articles/d41586-024-01094-5",
-          "author": null,
-          "description": "",
-          "link": "https://www.nature.com/articles/d41586-024-01094-5",
-          "publishedOn": "2024-04-16T00:00:00.000Z",
-          "wordCount": null,
-          "title": "A step along the path towards AlphaFold — 50 years ago",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nature.com/articles/d41586-024-01085-6",
-          "author": "Simon Porcher",
-          "description": "Letter to the Editor",
-          "link": "https://www.nature.com/articles/d41586-024-01085-6",
-          "publishedOn": "2024-04-16T00:00:00.000Z",
-          "wordCount": 2650,
-          "title": "The world needs a COP for water like the one for climate change",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nature.com/articles/d41586-024-01088-3",
-          "author": null,
-          "description": "",
-          "link": "https://www.nature.com/articles/d41586-024-01088-3",
-          "publishedOn": "2024-04-16T00:00:00.000Z",
-          "wordCount": null,
-          "title": "How India can become a science powerhouse",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nature.com/articles/d41586-024-00986-w",
-          "author": "Sarah Wild",
-          "description": "",
-          "link": "https://www.nature.com/articles/d41586-024-00986-w",
-          "publishedOn": "2024-04-16T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Shrouded in secrecy: how science is harmed by the bullying and harassment rumour mill",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nature.com/articles/d41586-024-01012-9",
-          "author": null,
-          "description": "",
-          "link": "https://www.nature.com/articles/d41586-024-01012-9",
-          "publishedOn": "2024-04-16T00:00:00.000Z",
-          "wordCount": null,
-          "title": "Long online discussions are consistently the most toxic",
           "imageUrl": null
         }
       ]
@@ -2252,20 +2312,20 @@
         {
           "id": "https://kubernetes.io/blog/2024/04/23/recursive-read-only-mounts/",
           "author": null,
-          "description": "Author: Akihiro Suda (NTT)\nRead-only volume mounts have been a feature of Kubernetes since the beginning.\nSurprisingly, read-only mounts are not completely read-only under certain conditions on Linux.\nAs of the v1.30 release, they can be made completely read-only,\nwith alpha support for recursive read-only mounts.\nRead-only volume mounts are not really read-only by default\nVolume mounts can be deceptively complicated.\nYou might expect that the following manifest makes everything under /mnt in the containers read-only:\n---\napiVersion: v1\nkind: Pod\nspec:\n volumes:\n - name: mnt\n hostPath:\n path: /mnt\n containers:\n - volumeMounts:\n - name: mnt\n mountPath: /mnt\n readOnly: true\n\n\nHowever, any sub-mounts beneath /mnt may still be writable!\nFor example, consider that /mnt/my-nfs-server is writeabl…",
+          "description": "Read-only volume mounts have been a feature of Kubernetes since the beginning.\nSurprisingly, read-only mounts are not completely read-only under certain conditions on Linux.\nAs of the v1.30 release, they can be made completely read-only,\nwith alpha support for recursive read-only mounts.\nRead-only volume mounts are not really read-only by default\nVolume mounts can be deceptively complicated.\nYou might expect that the following manifest makes everything under /mnt in the containers read-only:\n---\napiVersion: v1\nkind: Pod\nspec:\n volumes:\n - name: mnt\n hostPath:\n path: /mnt\n containers:\n - volumeMounts:\n - name: mnt\n mountPath: /mnt\n readOnly: true\n\n\nHowever, any sub-mounts beneath /mnt may still be writable!\nFor example, consider that /mnt/my-nfs-server is writeable on the host.\nInside the c…",
           "link": "https://kubernetes.io/blog/2024/04/23/recursive-read-only-mounts/",
           "publishedOn": "2024-04-23T00:00:00.000Z",
-          "wordCount": 4133,
+          "wordCount": 4135,
           "title": "Kubernetes 1.30: Read-only volume mounts can be finally literally read-only",
           "imageUrl": null
         },
         {
           "id": "https://kubernetes.io/blog/2024/04/22/userns-beta/",
           "author": null,
-          "description": "Authors: Rodrigo Campos Catelin (Microsoft), Giuseppe Scrivano (Red Hat), Sascha Grunert (Red Hat)\nLinux provides different namespaces to isolate processes from each other. For\nexample, a typical Kubernetes pod runs within a network namespace to isolate the\nnetwork identity and a PID namespace to isolate the processes.\nOne Linux namespace that was left behind is the user\nnamespace. This\nnamespace allows us to isolate the user and group identifiers (UIDs and GIDs) we\nuse inside the container from the ones on the host.\nThis is a powerful abstraction that allows us to run containers as \"root\": we\nare root inside the container and can do everything root can inside the pod,\nbut our interactions with the host are limited to what a non-privileged user can\ndo. This is great for limiting the impact…",
+          "description": "Linux provides different namespaces to isolate processes from each other. For\nexample, a typical Kubernetes pod runs within a network namespace to isolate the\nnetwork identity and a PID namespace to isolate the processes.\nOne Linux namespace that was left behind is the user\nnamespace. This\nnamespace allows us to isolate the user and group identifiers (UIDs and GIDs) we\nuse inside the container from the ones on the host.\nThis is a powerful abstraction that allows us to run containers as \"root\": we\nare root inside the container and can do everything root can inside the pod,\nbut our interactions with the host are limited to what a non-privileged user can\ndo. This is great for limiting the impact of a container breakout.\nA container breakout is when a process inside a container can break out\no…",
           "link": "https://kubernetes.io/blog/2024/04/22/userns-beta/",
           "publishedOn": "2024-04-22T00:00:00.000Z",
-          "wordCount": 4771,
+          "wordCount": 4773,
           "title": "Kubernetes 1.30: Beta Support For Pods With User Namespaces",
           "imageUrl": null
         },
@@ -2337,29 +2397,119 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
-          "id": "https://news.ycombinator.com/item?id=40128798",
-          "author": "geox",
-          "description": "Article URL: https://apnews.com/article/high-speed-train-vegas-los-angeles-brightline-595913ff2fa3d9001fb89bfab4e6c4d2\nComments URL: https://news.ycombinator.com/item?id=40128798\nPoints: 22\n# Comments: 13",
-          "link": "https://apnews.com/article/high-speed-train-vegas-los-angeles-brightline-595913ff2fa3d9001fb89bfab4e6c4d2",
-          "publishedOn": "2024-04-23T05:28:32.000Z",
-          "wordCount": 5818,
-          "title": "Work begins on a $12B high-speed rail line between Las Vegas and Los Angeles",
-          "imageUrl": "https://dims.apnews.com/dims4/default/028114e/2147483647/strip/true/crop/5396x3035+0+281/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F5b%2F32%2F20e40fec848de324b00e8c75fbcf%2F2f398a34024b49b6a4f9f6a6d9e74a40"
+          "id": "https://news.ycombinator.com/item?id=40130922",
+          "author": "dzalexin",
+          "description": "Article URL: https://www.ycombinator.com/companies/1build/jobs/oW1x2mB-marketing-lead\nComments URL: https://news.ycombinator.com/item?id=40130922\nPoints: 0\n# Comments: 0",
+          "link": "https://www.ycombinator.com/companies/1build/jobs/oW1x2mB-marketing-lead",
+          "publishedOn": "2024-04-23T12:00:40.000Z",
+          "wordCount": 1130,
+          "title": "1build (YC W20) Is Hiring a Marketing Lead",
+          "imageUrl": "/images/original/missing.png"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=40128310",
-          "author": "Codegres",
-          "description": "Note: I'm in no way affiliated to this Company.\nBut I'm very impressed with what they do. And think they should be an enterprise company like Slack. \nAmazing product !!!\nComments URL: https://news.ycombinator.com/item?id=40128310\nPoints: 4\n# Comments: 0",
-          "link": "https://www.kumospace.com/",
-          "publishedOn": "2024-04-23T03:54:32.000Z",
-          "wordCount": 3186,
-          "title": "Show HN: In love with this Remote working tool",
-          "imageUrl": "https://content.kumospace.com/hubfs/LinkPreviewImage@2x-1.png"
+          "id": "https://news.ycombinator.com/item?id=40130768",
+          "author": "hackmaxim",
+          "description": "Article URL: https://arxiv.org/abs/2404.13813\nComments URL: https://news.ycombinator.com/item?id=40130768\nPoints: 38\n# Comments: 15",
+          "link": "https://arxiv.org/abs/2404.13813",
+          "publishedOn": "2024-04-23T11:44:46.000Z",
+          "wordCount": 637,
+          "title": "Claude 3 beats Google Translate",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40130665",
+          "author": "yaszko",
+          "description": "Article URL: https://imgur.com/a/FRiBYSE\nComments URL: https://news.ycombinator.com/item?id=40130665\nPoints: 18\n# Comments: 16",
+          "link": "https://imgur.com/a/FRiBYSE",
+          "publishedOn": "2024-04-23T11:31:29.000Z",
+          "wordCount": 69,
+          "title": "Llama3 running locally on iPhone 15 Pro",
+          "imageUrl": "https://i.imgur.com/CTlPiM0.png?fb"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40130570",
+          "author": "getToTheChopin",
+          "description": "Article URL: https://en.wikipedia.org/wiki/Segal%27s_law\nComments URL: https://news.ycombinator.com/item?id=40130570\nPoints: 27\n# Comments: 15",
+          "link": "https://en.wikipedia.org/wiki/Segal%27s_law",
+          "publishedOn": "2024-04-23T11:20:01.000Z",
+          "wordCount": 589,
+          "title": "Segal's Law",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40130371",
+          "author": "fanf2",
+          "description": "Article URL: https://www.scattered-thoughts.net/writing/mmio-in-zig/\nComments URL: https://news.ycombinator.com/item?id=40130371\nPoints: 27\n# Comments: 3",
+          "link": "https://www.scattered-thoughts.net/writing/mmio-in-zig/",
+          "publishedOn": "2024-04-23T10:42:04.000Z",
+          "wordCount": 1588,
+          "title": "Memory-mapped IO registers in Zig. (2021)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40130304",
+          "author": "nargaw",
+          "description": "I made this 10 level Game. Excited for people to try it. :) Stay Balanced :)\nComments URL: https://news.ycombinator.com/item?id=40130304\nPoints: 44\n# Comments: 27",
+          "link": "https://www.balanc3dgame.com/",
+          "publishedOn": "2024-04-23T10:22:15.000Z",
+          "wordCount": 3,
+          "title": "Show HN: 10 Level Balancing Game for the Mobile Browser w/ increasing difficulty",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40130302",
+          "author": "bk496",
+          "description": "Article URL: https://jsmonk.github.io/2024-01-29-last-days-of-hegel/\nComments URL: https://news.ycombinator.com/item?id=40130302\nPoints: 46\n# Comments: 19",
+          "link": "https://jsmonk.github.io/2024-01-29-last-days-of-hegel/",
+          "publishedOn": "2024-04-23T10:22:09.000Z",
+          "wordCount": 1287,
+          "title": "The last days of my type checker for JavaScript",
+          "imageUrl": "https://jsmonk.github.io/assets/img/avatar-icon.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40130148",
+          "author": "achairapart",
+          "description": "Article URL: https://webkit.org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3/\nComments URL: https://news.ycombinator.com/item?id=40130148\nPoints: 145\n# Comments: 111",
+          "link": "https://webkit.org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3/",
+          "publishedOn": "2024-04-23T09:32:30.000Z",
+          "wordCount": 4596,
+          "title": "Help us invent CSS Grid Level 3, a.k.a. \"Masonry\" layout",
+          "imageUrl": "https://webkit.org/wp-content/uploads/image1-masonry-light.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40129297",
+          "author": "transpute",
+          "description": "Article URL: https://news.apache.org/foundation/entry/open-source-community-unites-to-build-cra-compliant-cybersecurity-processes\nComments URL: https://news.ycombinator.com/item?id=40129297\nPoints: 59\n# Comments: 57",
+          "link": "https://news.apache.org/foundation/entry/open-source-community-unites-to-build-cra-compliant-cybersecurity-processes",
+          "publishedOn": "2024-04-23T07:00:54.000Z",
+          "wordCount": 1619,
+          "title": "Open Source Community Unites to Build EU CRA-Compliant Cybersecurity Processes",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40129276",
+          "author": "jverrecchia",
+          "description": "Article URL: https://www.webgamedev.com/engines-libraries/web-game-engines-libraries\nComments URL: https://news.ycombinator.com/item?id=40129276\nPoints: 66\n# Comments: 20",
+          "link": "https://www.webgamedev.com/engines-libraries/web-game-engines-libraries",
+          "publishedOn": "2024-04-23T06:56:49.000Z",
+          "wordCount": 1154,
+          "title": "Web Game Engines and Libraries",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40129145",
+          "author": "croes",
+          "description": "Article URL: https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth\nComments URL: https://news.ycombinator.com/item?id=40129145\nPoints: 71\n# Comments: 2",
+          "link": "https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth",
+          "publishedOn": "2024-04-23T06:36:22.000Z",
+          "wordCount": 2968,
+          "title": "NASA's Voyager 1 Resumes Sending Engineering Updates to Earth",
+          "imageUrl": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/1-Voyager_2-copy.jpg"
         },
         {
           "id": "https://news.ycombinator.com/item?id=40128285",
           "author": "wodow",
-          "description": "Article URL: https://blog.funcall.org/lisp/2024/03/22/eurisko-lives/\nComments URL: https://news.ycombinator.com/item?id=40128285\nPoints: 36\n# Comments: 5",
+          "description": "Article URL: https://blog.funcall.org/lisp/2024/03/22/eurisko-lives/\nComments URL: https://news.ycombinator.com/item?id=40128285\nPoints: 69\n# Comments: 21",
           "link": "https://blog.funcall.org/lisp/2024/03/22/eurisko-lives/",
           "publishedOn": "2024-04-23T03:50:46.000Z",
           "wordCount": 156,
@@ -2369,47 +2519,27 @@
         {
           "id": "https://news.ycombinator.com/item?id=40127806",
           "author": "varunvummadi",
-          "description": "Article URL: https://arxiv.org/abs/2404.14219\nComments URL: https://news.ycombinator.com/item?id=40127806\nPoints: 185\n# Comments: 64",
+          "description": "Article URL: https://arxiv.org/abs/2404.14219\nComments URL: https://news.ycombinator.com/item?id=40127806\nPoints: 304\n# Comments: 93",
           "link": "https://arxiv.org/abs/2404.14219",
           "publishedOn": "2024-04-23T02:21:52.000Z",
-          "wordCount": 831,
+          "wordCount": 840,
           "title": "Phi-3 Technical Report",
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
-          "id": "https://news.ycombinator.com/item?id=40127515",
-          "author": "lxm",
-          "description": "Article URL: https://shelftalkblog.wordpress.com/2024/03/13/the-seattle-public-library-is-reducing-our-maximum-digital-holds-heres-why/\nComments URL: https://news.ycombinator.com/item?id=40127515\nPoints: 87\n# Comments: 77",
-          "link": "https://shelftalkblog.wordpress.com/2024/03/13/the-seattle-public-library-is-reducing-our-maximum-digital-holds-heres-why/",
-          "publishedOn": "2024-04-23T01:32:26.000Z",
-          "wordCount": 4520,
-          "title": "The Seattle Public Library is reducing maximum digital holds",
-          "imageUrl": "https://shelftalkblog.files.wordpress.com/2024/03/2015_2023_overdrive_costs_v2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40127483",
-          "author": "ethbr1",
-          "description": "Article URL: https://www.wsj.com/articles/change-healthcare-hackers-broke-in-nine-days-before-ransomware-attack-7119fdc6\nComments URL: https://news.ycombinator.com/item?id=40127483\nPoints: 43\n# Comments: 11",
-          "link": "https://www.wsj.com/articles/change-healthcare-hackers-broke-in-nine-days-before-ransomware-attack-7119fdc6",
-          "publishedOn": "2024-04-23T01:27:14.000Z",
-          "wordCount": null,
-          "title": "Hackers Broke into Change Healthcare's Systems 9 Days Before Cyberattack",
-          "imageUrl": null
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=40127400",
           "author": "thepuppet33r",
-          "description": "I have a friend whose parents are getting up in years. They're still functional enough that they want to be independent and surf the web, check their stocks, etc. He has some remote desktop software installed on their PCs, and antivirus installed and locked down. But they keep destroying their PCs with downloads, keep turning airplane mode on for their phones and can't figure out how to disable it, and recently his dad got in a cleaning mood and deleted a bunch of system files and bricked his machine. He's almost to the point of setting up an Intune tenant just to onboard and lock down his parents devices. Any suggestions on how to manage phones and PCs of the elderly to keep them functional but useful?\nComments URL: https://news.ycombinator.com/item?id=40127400\nPoints: 43\n# Comments: 74",
+          "description": "I have a friend whose parents are getting up in years. They're still functional enough that they want to be independent and surf the web, check their stocks, etc. He has some remote desktop software installed on their PCs, and antivirus installed and locked down. But they keep destroying their PCs with downloads, keep turning airplane mode on for their phones and can't figure out how to disable it, and recently his dad got in a cleaning mood and deleted a bunch of system files and bricked his machine. He's almost to the point of setting up an Intune tenant just to onboard and lock down his parents devices. Any suggestions on how to manage phones and PCs of the elderly to keep them functional but useful?\nComments URL: https://news.ycombinator.com/item?id=40127400\nPoints: 130\n# Comments: 185",
           "link": "https://news.ycombinator.com/item?id=40127400",
           "publishedOn": "2024-04-23T01:12:21.000Z",
-          "wordCount": 6655,
+          "wordCount": 14018,
           "title": "Ask HN: How to manage phones and PCs for elderly parents?",
           "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=40127218",
           "author": "cab404",
-          "description": "Article URL: https://carapace.sh/\nComments URL: https://news.ycombinator.com/item?id=40127218\nPoints: 32\n# Comments: 7",
+          "description": "Article URL: https://carapace.sh/\nComments URL: https://news.ycombinator.com/item?id=40127218\nPoints: 66\n# Comments: 13",
           "link": "https://carapace.sh/",
           "publishedOn": "2024-04-23T00:36:35.000Z",
           "wordCount": 127,
@@ -2419,7 +2549,7 @@
         {
           "id": "https://news.ycombinator.com/item?id=40127162",
           "author": "fzliu",
-          "description": "Article URL: https://zilliz.com/blog/using-your-vector-database-as-JSON-or-relational-datastore\nComments URL: https://news.ycombinator.com/item?id=40127162\nPoints: 11\n# Comments: 6",
+          "description": "Article URL: https://zilliz.com/blog/using-your-vector-database-as-JSON-or-relational-datastore\nComments URL: https://news.ycombinator.com/item?id=40127162\nPoints: 28\n# Comments: 17",
           "link": "https://zilliz.com/blog/using-your-vector-database-as-JSON-or-relational-datastore",
           "publishedOn": "2024-04-23T00:27:02.000Z",
           "wordCount": 3914,
@@ -2429,27 +2559,17 @@
         {
           "id": "https://news.ycombinator.com/item?id=40127124",
           "author": "gajus",
-          "description": "Article URL: https://gajus.com/blog/avoiding-visually-ambiguous-characters-in-ids\nComments URL: https://news.ycombinator.com/item?id=40127124\nPoints: 60\n# Comments: 63",
+          "description": "Article URL: https://gajus.com/blog/avoiding-visually-ambiguous-characters-in-ids\nComments URL: https://news.ycombinator.com/item?id=40127124\nPoints: 138\n# Comments: 122",
           "link": "https://gajus.com/blog/avoiding-visually-ambiguous-characters-in-ids",
           "publishedOn": "2024-04-23T00:20:52.000Z",
-          "wordCount": 1629,
+          "wordCount": 1958,
           "title": "Understanding and avoiding visually ambiguous characters in IDs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40126935",
-          "author": "smlavine",
-          "description": "Article URL: https://wiki.xxiivv.com/site/modal\nComments URL: https://news.ycombinator.com/item?id=40126935\nPoints: 47\n# Comments: 7",
-          "link": "https://wiki.xxiivv.com/site/modal",
-          "publishedOn": "2024-04-22T23:52:32.000Z",
-          "wordCount": 1706,
-          "title": "Modal is a matrioshka language based on pattern-matching to rewrite trees",
           "imageUrl": null
         },
         {
           "id": "https://news.ycombinator.com/item?id=40126751",
           "author": "zdgeier",
-          "description": "Article URL: https://www.krazam.tv/\nComments URL: https://news.ycombinator.com/item?id=40126751\nPoints: 438\n# Comments: 82",
+          "description": "Article URL: https://www.krazam.tv/\nComments URL: https://news.ycombinator.com/item?id=40126751\nPoints: 638\n# Comments: 132",
           "link": "https://www.krazam.tv/",
           "publishedOn": "2024-04-22T23:38:43.000Z",
           "wordCount": 1404,
@@ -2459,7 +2579,7 @@
         {
           "id": "https://news.ycombinator.com/item?id=40122999",
           "author": "sveltecult",
-          "description": "Article URL: https://www.franken-ui.dev/\nComments URL: https://news.ycombinator.com/item?id=40122999\nPoints: 102\n# Comments: 33",
+          "description": "Article URL: https://www.franken-ui.dev/\nComments URL: https://news.ycombinator.com/item?id=40122999\nPoints: 167\n# Comments: 50",
           "link": "https://www.franken-ui.dev/",
           "publishedOn": "2024-04-22T22:18:42.000Z",
           "wordCount": 1845,
@@ -2469,72 +2589,12 @@
         {
           "id": "https://news.ycombinator.com/item?id=40121318",
           "author": "mountainview",
-          "description": "Article URL: https://github.com/langgenius/dify\nComments URL: https://news.ycombinator.com/item?id=40121318\nPoints: 137\n# Comments: 31",
+          "description": "Article URL: https://github.com/langgenius/dify\nComments URL: https://news.ycombinator.com/item?id=40121318\nPoints: 164\n# Comments: 32",
           "link": "https://github.com/langgenius/dify",
           "publishedOn": "2024-04-22T21:32:30.000Z",
           "wordCount": 4648,
           "title": "Dify, a visual workflow to build/test LLM applications",
           "imageUrl": "https://repository-images.githubusercontent.com/626805178/9be4b2a3-59f8-4cf3-9ff3-5bf53f02d1c0"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40120846",
-          "author": "matt_d",
-          "description": "Article URL: https://arxiv.org/abs/2404.10076\nComments URL: https://news.ycombinator.com/item?id=40120846\nPoints: 80\n# Comments: 25",
-          "link": "https://arxiv.org/abs/2404.10076",
-          "publishedOn": "2024-04-22T21:13:51.000Z",
-          "wordCount": 798,
-          "title": "FPGA Architecture for Deep Learning: Survey and Future Directions",
-          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40120616",
-          "author": "tydunn",
-          "description": "Article URL: https://www.ycombinator.com/companies/continue/jobs/smcxRnM-founding-engineer\nComments URL: https://news.ycombinator.com/item?id=40120616\nPoints: 0\n# Comments: 0",
-          "link": "https://www.ycombinator.com/companies/continue/jobs/smcxRnM-founding-engineer",
-          "publishedOn": "2024-04-22T21:00:28.000Z",
-          "wordCount": 721,
-          "title": "Continue (YC S23) is hiring a founding engineer in San Francisco",
-          "imageUrl": "/images/original/missing.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40119958",
-          "author": "AlbertCory",
-          "description": "Article URL: https://www.elysian.press/p/no-one-buys-books\nComments URL: https://news.ycombinator.com/item?id=40119958\nPoints: 354\n# Comments: 301",
-          "link": "https://www.elysian.press/p/no-one-buys-books",
-          "publishedOn": "2024-04-22T20:36:41.000Z",
-          "wordCount": 10401,
-          "title": "No one buys books",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57793261-1fea-4e7c-a2f3-480f5db62d5c_5376x3584.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40117599",
-          "author": "jonathankoren",
-          "description": "Article URL: https://blogs.nasa.gov/voyager/2024/04/22/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/\nComments URL: https://news.ycombinator.com/item?id=40117599\nPoints: 506\n# Comments: 123",
-          "link": "https://blogs.nasa.gov/voyager/2024/04/22/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/",
-          "publishedOn": "2024-04-22T18:59:50.000Z",
-          "wordCount": 1192,
-          "title": "NASA's Voyager 1 Resumes Sending Engineering Updates to Earth",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40116644",
-          "author": "hasheddan",
-          "description": "Article URL: https://16bpp.net/blog/post/the-performance-impact-of-cpp-final-keyword/\nComments URL: https://news.ycombinator.com/item?id=40116644\nPoints: 171\n# Comments: 158",
-          "link": "https://16bpp.net/blog/post/the-performance-impact-of-cpp-final-keyword/",
-          "publishedOn": "2024-04-22T17:32:44.000Z",
-          "wordCount": 2448,
-          "title": "The Performance Impact of C++'s `final` Keyword",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40116602",
-          "author": "thunderbong",
-          "description": "Article URL: https://greg.molnar.io/blog/the-dangers-of-single-line-regular-expressions/\nComments URL: https://news.ycombinator.com/item?id=40116602\nPoints: 74\n# Comments: 61",
-          "link": "https://greg.molnar.io/blog/the-dangers-of-single-line-regular-expressions/",
-          "publishedOn": "2024-04-22T17:28:22.000Z",
-          "wordCount": 656,
-          "title": "The dangers of single line regular expressions",
-          "imageUrl": "https://greg.molnar.io/images/og/posts/the-dangers-of-single-line-regular-expressions.png"
         }
       ]
     },
@@ -2576,9 +2636,9 @@
           "description": "[...]\nRead More...\nThe post Building new custom silicon for Meta’s AI workloads appeared first on Engineering at Meta.",
           "link": "https://www.metacareers.com/life/building-custom-silicon-for-the-future-of-ai",
           "publishedOn": "2024-04-11T16:30:58.000Z",
-          "wordCount": 2204,
+          "wordCount": 2436,
           "title": "Building new custom silicon for Meta’s AI workloads",
-          "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=wcP48YSgFnMAb69j3c-&_nc_oc=Adjvx5Kuba4j4cVJ0kv67Z9VDPrD7HSToJCoRsKMiQzu84cL-jEE6r904l3wKrRWCgk&_nc_ht=scontent-iad3-1.xx&oh=00_AfAlTx0Qw_wdfn0M5MwhdmchmCQMX0z9AFNXytvVgrgVBQ&oe=6641AF3B"
+          "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=wcP48YSgFnMAb6N_y6A&_nc_oc=AdhA3TAaar7q9rOnINiVR_slIVmpULV3A4VgEj61HUvYF6E6r6Accgc6z5VsUCR1z4g&_nc_ht=scontent-iad3-1.xx&oh=00_AfB_oQqt8GLqnpWq6p1KIcGkQTD6w1hwEf-pVhZAU3ESQg&oe=6641E77B"
         },
         {
           "id": "https://engineering.fb.com/?p=21103",
@@ -2586,9 +2646,9 @@
           "description": "[...]\nRead More...\nThe post Building an infrastructure for AI’s future appeared first on Engineering at Meta.",
           "link": "https://www.metacareers.com/life/behind-gen-ai-building-an-infrastructure-for-the-future",
           "publishedOn": "2024-04-11T16:20:49.000Z",
-          "wordCount": 2070,
+          "wordCount": 2302,
           "title": "Building an infrastructure for AI’s future",
-          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=4gBZ4CG8bEgAb42cEcb&_nc_ht=scontent-iad3-2.xx&oh=00_AfBUNzuuS8ls1tKw21GtBhgBZ0eQZPGuXXal8Z5wuVlSCw&oe=66418763"
+          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=4gBZ4CG8bEgAb5gIy4Q&_nc_ht=scontent-iad3-2.xx&oh=00_AfBntVqpHPKJOt1usYFU43WtjEMBOxszZA6Oi1NOySGc1Q&oe=6641F7E3"
         },
         {
           "id": "https://engineering.fb.com/?p=21177",
@@ -2596,9 +2656,9 @@
           "description": "[...]\nRead More...\nThe post Introducing the next-gen Meta Training and Inference Accelerator appeared first on Engineering at Meta.",
           "link": "https://ai.meta.com/blog/next-generation-meta-training-inference-accelerator-AI-MTIA/",
           "publishedOn": "2024-04-10T15:11:03.000Z",
-          "wordCount": 2054,
+          "wordCount": 2060,
           "title": "Introducing the next-gen Meta Training and Inference Accelerator",
-          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/434836173_760640236211764_1047890588714439130_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=CuxDEKzqx1gAb4FyDpA&_nc_ht=scontent-iad3-2.xx&oh=00_AfDGjF4fnqOBAzn5JNonSSSqQ7w5dkXWoSDbkqFWI7x_zA&oe=66419065"
+          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/434836173_760640236211764_1047890588714439130_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=CuxDEKzqx1gAb4IxrkN&_nc_ht=scontent-iad3-2.xx&oh=00_AfDAnwSLpf7aZCuyqRrmUjqASM8qeqn9LB8xjtlda46zhQ&oe=664200E5"
         },
         {
           "id": "https://engineering.fb.com/?p=21166",
@@ -2757,7 +2817,7 @@
           "description": "From the article:\n>>> \"Wouldn’t it be great if you could pay $9.99 a month and read all of the books you want?\"\nI sincerely hope nothing \"disrupts\" public libraries in my lifetime. As a California resident, I can walk into ANY public library in the state and get a free library card with access to physical books, audiobooks, ebooks. Some branches have laptops, hotspots, tablets, e-readers available to borrow. My local branch even has a Makerspace with 3D printers, laser cutters, sewing machines, and other misc tools.",
           "link": "https://news.ycombinator.com/item?id=40128164",
           "publishedOn": "2024-04-23T03:31:37.000Z",
-          "wordCount": null,
+          "wordCount": 3414,
           "title": "New comment by grepLeigh in \"No one buys books\"",
           "imageUrl": null
         },
@@ -2767,8 +2827,38 @@
           "description": "their \"merch store\" https://merch.krazam.tv/ is losing out on a lot of potential revenue by not even making a reference to their most viral videos. Who wouldn't want to rock a Galactus shirt.\ncan we crowdsource merch ideas for these guys pls",
           "link": "https://news.ycombinator.com/item?id=40127268",
           "publishedOn": "2024-04-23T00:45:53.000Z",
-          "wordCount": 343,
+          "wordCount": null,
           "title": "New comment by swyx in \"Krazam OS\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40122586",
+          "author": "paxys",
+          "description": "Can't help but feel for the publishing industry considering how shafted they got by tech.\nYou distribute books all over the country? Amazon can do it better and cheaper.\nYou print books? Well we have e-books now.\nYou have a massive back catalog? Google just scanned all of it.\nYou do marketing? Authors now have their own followings on social media and can reach them directly.\nYou give cash advances? Fans on Kickstarter give 10x more.\nWhat's sad though is that publishers have historically had one power that would have been unassailable – editorial judgement. They could have sustained their brands on quality. Imagine a world where you wanted something good to read, and among all the garbage out there saw a title and went \"this one is by Simon & Schuster, it has to be good\". Instead they went all in on pulp bestsellers and celebrity memoirs at the expense of actual good authors, and here we are.",
+          "link": "https://news.ycombinator.com/item?id=40122586",
+          "publishedOn": "2024-04-22T22:04:29.000Z",
+          "wordCount": 4815,
+          "title": "New comment by paxys in \"No one buys books\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40121411",
+          "author": "yreg",
+          "description": "I recently started buying paper books.\nYes, it's not particularly ecological, but I found that I'm able to focus at the text much better this way. My Kindle (despite plenty of obvious advantages) just doesn't really work for me.\nIt took me years to realize this, but I always start to tinker with the brightness settings, switch pages back and forth, go into the book library and back, play with highlighting words, etc. I will do anything instead of reading the text. Meanwhile with a paper book I don't have an urge to flip a page back and forth and observe how it behaves. I can focus on the text.\nNot sure why I am this way.",
+          "link": "https://news.ycombinator.com/item?id=40121411",
+          "publishedOn": "2024-04-22T21:42:09.000Z",
+          "wordCount": 6959,
+          "title": "New comment by yreg in \"No one buys books\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40116928",
+          "author": "mgaunard",
+          "description": "What final enables is devirtualization in certain cases. The\n main advantage of devirtualization is that it is necessary for inlining.\nInlining has other requirements as well -- LTO pretty much covers it.\nThe article doesn't have sufficient data to tell whether the testcase is built in such a way that any of these optimizations can happen or is beneficial.",
+          "link": "https://news.ycombinator.com/item?id=40116928",
+          "publishedOn": "2024-04-22T18:01:50.000Z",
+          "wordCount": null,
+          "title": "New comment by mgaunard in \"The Performance Impact of C++'s `final` Keyword\"",
           "imageUrl": null
         },
         {
@@ -2787,7 +2877,7 @@
           "description": "I'm guessing it's the opposite. Meta is trying to establish the same OS-level foothold/control that Microsoft, Apple and Google have.",
           "link": "https://news.ycombinator.com/item?id=40116153",
           "publishedOn": "2024-04-22T16:49:30.000Z",
-          "wordCount": 3709,
+          "wordCount": null,
           "title": "New comment by romanhn in \"Meta Horizon OS\"",
           "imageUrl": null
         },
@@ -2797,7 +2887,7 @@
           "description": "Not Mistral, for anyone else that reads the comments first.",
           "link": "https://news.ycombinator.com/item?id=40114606",
           "publishedOn": "2024-04-22T14:15:48.000Z",
-          "wordCount": null,
+          "wordCount": 355,
           "title": "New comment by kristjansson in \"Apple has reportedly acquired Datakalab\"",
           "imageUrl": null
         },
@@ -2832,16 +2922,6 @@
           "imageUrl": null
         },
         {
-          "id": "https://news.ycombinator.com/item?id=40111841",
-          "author": "lll-o-lll",
-          "description": "Because, delivery drivers, unlike uber or whatever, are frequently screwed by things outside their control. No parks near the restaurant, so delay in the pickup?\nBad driver! \nRestaurant behind on orders?\nBad driver!\nSomething missing from order?\nBad driver!\nIncentives can cause perverse outcomes, but it’s worse when you are not in control of the outcomes at all.",
-          "link": "https://news.ycombinator.com/item?id=40111841",
-          "publishedOn": "2024-04-22T06:23:12.000Z",
-          "wordCount": null,
-          "title": "New comment by lll-o-lll in \"The failure of the Domino's 30-minute delivery guarantee\"",
-          "imageUrl": null
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=40111431",
           "author": "foobarbaz321",
           "description": "This is because Ruby inherits it's approach to flow control from Smalltalk, while Python comes from a C/Algol-like heritage.\nIn fact, Smalltalk takes this much further, such that basically all flow control (including if-then-else) is handled as message sends (e.g. if-then is just a message sent to the Boolean object taking a block as it's argument).\nThe downside is the syntax can feel a tad clunky.  The upside is incredibly simple and consistent language grammar, while making it trivial to create new flow control mechanisms since the language has all the tools baked in (primarily first class blocks).",
@@ -2867,7 +2947,7 @@
           "description": "The 1000 Indians story was completely incorrect though.  They has 1000 people in India tagging the videos after the fact for improvements to the machine learning algorithms.  They weren't watching in real time.",
           "link": "https://news.ycombinator.com/item?id=40109574",
           "publishedOn": "2024-04-21T21:55:11.000Z",
-          "wordCount": null,
+          "wordCount": 1329,
           "title": "New comment by jedberg in \"Amazon grows to over 750k robots, replacing 100k humans\"",
           "imageUrl": null
         },
@@ -2932,16 +3012,6 @@
           "imageUrl": null
         },
         {
-          "id": "https://news.ycombinator.com/item?id=40107331",
-          "author": "armchairhacker",
-          "description": "The author could try forking and patching VSCode to fix the annoyances manually.\nYears ago I had an issue with VSCode: it was missing a small feature that was very important to me, with the GitHub issue stuck in limbo.\nI ended up going into the source and implementing the feature myself. It took a few hours after bugfixing, I think the fix was ~100 LOC. Then I used the locally-built version. I recall building took a while, and the source and artifacts took a lot of space, but no other problems.\nI also created a PR referencing the issue and it got merged rather quickly. Someone else ended up finishing the work since there were some problems (I think relating to coding conventions, and possible edge cases I didn’t need or handle).\nMaybe I was lucky for the feature to not require much edits, and probably for the PR to get taken over and then merged fast. But it seems like the author's issues are also small, and it would be easier and more ergonomic to patch VSCode than to create an entirely new debugger.",
-          "link": "https://news.ycombinator.com/item?id=40107331",
-          "publishedOn": "2024-04-21T17:07:22.000Z",
-          "wordCount": null,
-          "title": "New comment by armchairhacker in \"I can't stand using VSCode so I wrote my own\"",
-          "imageUrl": null
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=40106972",
           "author": "kgf1980",
           "description": "I went the opposite way (in the UK) and moved from development (mainly C#) to lorry driving (everything from 12T rigids to 44T artics) however in my free time I’m enjoying developing (some RoR, some Golang) more than when I was paid to do it.\nAlthough I’m working more hours (average 50-52 hours a week compared to 38-40), I’m also much better compensated doing HGV driving than I ever was as a developer (although that may reflect more on my skills/level as a developer than anything else)",
@@ -2962,16 +3032,6 @@
           "imageUrl": null
         },
         {
-          "id": "https://news.ycombinator.com/item?id=40105393",
-          "author": "NovemberWhiskey",
-          "description": "For those who might be worried to click: the penguin chicks are fledging and going off to swim for the first time; they are not jumping to their doom.",
-          "link": "https://news.ycombinator.com/item?id=40105393",
-          "publishedOn": "2024-04-21T12:56:09.000Z",
-          "wordCount": null,
-          "title": "New comment by NovemberWhiskey in \"Drone footage of fledging penguins jumping off cliff\"",
-          "imageUrl": null
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=40105302",
           "author": "halfmatthalfcat",
           "description": "It’s not the “programming industry” that OP hates, it’s the “corporate world”. I’ve worked with (and have been) developers who have mismatched expectations on what “the real world” wants out of them.\nThe corporate world doesn’t give a shit about finesse, abstractions, witty or beautiful code. They care about finding developers who will pump out features to the business requirements. Some human beings in that cog (managers, directors, peers, etc) may allude to enabling developers to actually practice the “art” of programming but the bottom line is if you aren’t moving the needle economically for the company, you’re a liability.\nFind comfort in programming outside of the corporate world and practicing the art but don’t expect the “industry” gives a damn about the how or why of programming, mearly the characters we punch onto the screen into cash. Once you come to terms with this, life gets a lot easier, less frustrating and you can actually find fun in the work (albeit, not necessarily “art”).",
@@ -2987,7 +3047,7 @@
           "description": "I had the same thought as I read that line. I think he's actually describing Linus Torvalds there, who, legend has it, thought about Git for a month or so and when he was done thinking, he got to work coding and in six days delivered the finished product. And then, on the seventh day he rested.\nBut for the rest of us (especially myself), it seems to be more like an interplay between thinking of what to write, writing it, testing it, thinking some more, changing some minor or major parts of what we wrote, and so on, until it feels good enough.\nIn the end, it's a bit of an art, coming up with the final working version.",
           "link": "https://news.ycombinator.com/item?id=40104895",
           "publishedOn": "2024-04-21T11:41:39.000Z",
-          "wordCount": 2599,
+          "wordCount": null,
           "title": "New comment by indigoabstract in \"Programming Is Mostly Thinking (2014)\"",
           "imageUrl": null
         },
