@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-27T01:22:14.755Z</id>
+    <id>urn:2024-04-27T06:28:14.580Z</id>
     <title>osmos::feed</title>
-    <updated>2024-04-27T01:22:14.755Z</updated>
+    <updated>2024-04-27T06:28:14.580Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New comment by k0mplex in "The Vision Pro is a flop"]]></title>
+        <id>https://news.ycombinator.com/item?id=40176832</id>
+        <link href="https://news.ycombinator.com/item?id=40176832"/>
+        <updated>2024-04-27T03:17:56.000Z</updated>
+        <summary type="html"><![CDATA[We actually want big tech to take swings like Vision Pro. And we should also be fine if they fail.]]></summary>
+        <author>
+            <name>k0mplex</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New comment by singlow in "Court upholds New York law that says ISPs must offer $15 broadband"]]></title>
         <id>https://news.ycombinator.com/item?id=40174690</id>
@@ -13,6 +23,22 @@
         <summary type="html"><![CDATA[I think the logic here is that the government has already subsidized them by granting privileges to use public infrastrucure that was built with tax dollars. There can only be so many wires running on the poles or under the streets so in return for that privilege, you have to provide this in return.]]></summary>
         <author>
             <name>singlow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by stephc_int13 in "Leaving Rust gamedev after 3 years"]]></title>
+        <id>https://news.ycombinator.com/item?id=40173475</id>
+        <link href="https://news.ycombinator.com/item?id=40173475"/>
+        <updated>2024-04-26T19:55:20.000Z</updated>
+        <summary type="html"><![CDATA[As a game developer for about two decades, I've never considered Rust to be a good programming language choice.
+My priorities are reasonable performances and the fastest iteration time possible.
+Gameplay code should be flexible, we have tons and tons of edge cases _by design_ because this is the best way to create interesting games.
+Compilation time is very important, but also a flexible enough programming structure, moving things around and changing your mind about the most desirable approach several times a day is common during heavy development phases.
+We almost never have specifications, almost nothing is set until the game is done.
+It is a different story for game engines, renderers, physics, audio, asset loaders etc. those are much closer to system programming but this is also not where we usually spend the most time, as a professional you're supposed to either use off-the-shelf engines or already made frameworks and libraries.
+Also, ECS is, IMHO, a useful pattern for some systems, but it is a pain in the butt to use with gameplay or UI code.]]></summary>
+        <author>
+            <name>stephc_int13</name>
         </author>
     </entry>
     <entry>
@@ -34,6 +60,21 @@ The people using C# and Unity on the same problem are making much faster progres
 [1] https://video.hardlimit.com/w/7usCE3v2RrWK6nuoSr4NHJ]]></summary>
         <author>
             <name>Animats</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by popcar2 in "Leaving Rust gamedev after 3 years"]]></title>
+        <id>https://news.ycombinator.com/item?id=40172593</id>
+        <link href="https://news.ycombinator.com/item?id=40172593"/>
+        <updated>2024-04-26T18:29:23.000Z</updated>
+        <summary type="html"><![CDATA[> Rust gamedev ecosystem lives on hype
+I've been saying this for years. I've tried to get into Rust multiple times the past few years and one of the things I've tried was gamedev with Rust (specifically the library ggez when it was still being worked on, and a little bit of Bevy). I admittedly never got far, but I gave it a solid shot.
+My experience was instantly terrible. Slow compile times and iterations, huge package downloads (my project folder was roughly 1gb for a simple 2D project), and of course Rust itself was difficult to get into with lifetimes and having to wrap and unwrap my variables constantly and getting into wrestling matches with the borrow checker.
+I kept telling myself that everyone loves Rust and the community loves to rave about anything Rust-related and maybe I just don't get it, but it took some time to realize that no... It's just a terrible choice for it. I even tried to make UI with eGUI and was still miserable. Rust is a systems programming language but the community is trying to convince everyone should be used for general purpose stuff.
+And my other biggest problem is that they keep painting other non-Rust things as being fundamentally flawed for not being Rust. "It's not memory safe" is the biggest one thrown around, but when was the last time memory safety was actually a big problem in games? Unity uses C# which is garbage collected, Godot uses its own scripting language which makes it nigh impossible to leak memory, Unreal AFAIK has its own tools that makes memory management trivial. Rust game development feels like a solution looking for a problem to fix.
+I am curious about Bevy when it becomes mature and has its own editor, but for now I'm just not convinced gamedev with Rust will ever take off.]]></summary>
+        <author>
+            <name>popcar2</name>
         </author>
     </entry>
     <entry>
@@ -574,28 +615,6 @@ Bonus points for providing materials to help your clients learn how to move from
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by mgiampapa in "FCC votes to restore net neutrality rules"]]></title>
-        <id>https://news.ycombinator.com/item?id=40163817</id>
-        <link href="https://news.ycombinator.com/item?id=40163817"/>
-        <updated>2024-04-25T22:22:36.000Z</updated>
-        <summary type="html"><![CDATA[Because California saved it. https://en.wikipedia.org/wiki/California_Internet_Consumer_P...
-If any of the companies that wanted to exploit the lack of FCC enforced net neutrality did business with California they would have had a big problem.]]></summary>
-        <author>
-            <name>mgiampapa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by pavlov in "FCC votes to restore net neutrality rules"]]></title>
-        <id>https://news.ycombinator.com/item?id=40161351</id>
-        <link href="https://news.ycombinator.com/item?id=40161351"/>
-        <updated>2024-04-25T18:37:36.000Z</updated>
-        <summary type="html"><![CDATA[“Congress avoided two government shutdowns” is like saying “I avoided pooping in my pants twice today.” It’s factually true and objectively a positive thing, but there’s nothing really commendable about it.
-The debt ceiling is Congress’s own creation, and Congress itself approves the budgets that cause the increase in debt. There isn’t another parliament on the planet that behaves so absurdly, fighting shadow puppets set up by itself.]]></summary>
-        <author>
-            <name>pavlov</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by Cody-99 in "FCC votes to restore net neutrality rules"]]></title>
         <id>https://news.ycombinator.com/item?id=40161258</id>
         <link href="https://news.ycombinator.com/item?id=40161258"/>
@@ -710,16 +729,6 @@ Editor's Note: the following is a guest blog post from Tomaz Bratanic, who focus
 The post Does AI Know What an Apple Is? She Aims to Find Out. first appeared on Quanta Magazine]]></summary>
         <author>
             <name>John Pavlus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by futureshock in "TSMC unveils 1.6nm process technology with backside power delivery"]]></title>
-        <id>https://news.ycombinator.com/item?id=40157515</id>
-        <link href="https://news.ycombinator.com/item?id=40157515"/>
-        <updated>2024-04-25T13:45:22.000Z</updated>
-        <summary type="html"><![CDATA[Comments about the marketing driven nm measurements aside, this still looks like another solid advance for TSMC. They are already significantly ahead of Samsung and Intel on transistor density. TSMC is at 197 MTr/mm2 wile Samsung is at 150 MTr/mm2 and Intel is at 123 MTr/mm2. This 1.6nm process will put them around 230 MTr/mm2 by 2026. When viewed by this metric, Intel is really falling behind.]]></summary>
-        <author>
-            <name>futureshock</name>
         </author>
     </entry>
     <entry>
@@ -2379,16 +2388,6 @@ If 2023 was a breakthrough year for LLMs, then 2024 is shaping up to be the year
         <summary type="html"><![CDATA[Learn about how Capital One’s Applied AI Research is fueling the frontier of AI.]]></summary>
         <author>
             <name>Capital One Tech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LangFriend: a Journal with Long-Term Memory]]></title>
-        <id>65fa3a289333bd00014c371f</id>
-        <link href="https://blog.langchain.dev/langfriend/"/>
-        <updated>2024-03-28T16:03:00.000Z</updated>
-        <summary type="html"><![CDATA[One of the concepts we are most interested in at LangChain is memory. Whenever we are interested in a concept, we like to build an example app showing off that concept. For memory, we decided to build a journaling app! We're hosting a version of it that anyone]]></summary>
-        <author>
-            <name>LangChain</name>
         </author>
     </entry>
 </feed>
