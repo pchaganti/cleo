@@ -354,6 +354,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/containers/",
       "articles": [
         {
+          "id": "cd00a3e5a430b8331a5484c3f93e5b5c418c464a",
+          "author": "Aaron Miller",
+          "description": "Introduction The adoption and large-scale growth of Kubernetes in recent years has resulted in businesses deploying multiple Amazon Elastic Kubernetes Service (Amazon EKS) clusters to support their growing number of microservice based applications. The Amazon EKS clusters are usually deployed in separate Amazon Virtual Private Clouds (Amazon VPCs) and often in separate AWS accounts. A […]",
+          "link": "https://aws.amazon.com/blogs/containers/enable-private-access-to-the-amazon-eks-kubernetes-api-with-aws-privatelink/",
+          "publishedOn": "2024-04-26T16:25:09.000Z",
+          "wordCount": 3141,
+          "title": "Enable Private Access to the Amazon EKS Kubernetes API with AWS PrivateLink",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/11/09/Kubernetes-PrivateLink-Featured-Image.jpg"
+        },
+        {
           "id": "0f65cb4e31baf551e75bb5e5e3aafe0fbc65b084",
           "author": "Raja Ganesan",
           "description": "This blog was updated by Irene Garcia Lopez, Solutions Architect, and Mehdi Yosofie, Solutions Architect, in April 2024 to reflect Karpenter beta changes. Overview Karpenter is a dynamic, high performance, open-source cluster autoscaling solution for the Kubernetes platform introduced at re:Invent 2021. Customers choose an autoscaling solution for a number of reasons, including improving the […]",
@@ -442,16 +452,6 @@
           "wordCount": 3136,
           "title": "Quora achieved 3x lower latency and 25% lower Costs by modernizing model serving with Nvidia Triton on Amazon EKS",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/03/29/Featured-images-for-Containers-Blog-6-1260x630.jpg"
-        },
-        {
-          "id": "684b3d0372958d43471bf306edb684cc1489dc53",
-          "author": "Jooyoung Kim",
-          "description": "Introduction Amazon Elastic Container Service (Amazon ECS) has now enhanced its functionalities by integrating support for Amazon Elastic Block Store (Amazon EBS) volume attachment to Amazon ECS tasks. This feature simplifies using Amazon ECS and AWS Fargate with Amazon EBS. Amazon ECS facilitates seamless provisioning and attachment of EBS volumes to ECS tasks on both […]",
-          "link": "https://aws.amazon.com/blogs/containers/unlocking-aws-fargate-feature-for-attaching-amazon-ebs-volumes-to-ecs-tasks/",
-          "publishedOn": "2024-04-03T16:52:23.000Z",
-          "wordCount": 2795,
-          "title": "Unlocking AWS Fargate feature for attaching Amazon EBS Volumes to ECS Tasks",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/04/02/Featured-images-for-Containers-Blog-1260x630.jpg"
         }
       ]
     },
@@ -900,7 +900,7 @@
           "description": "from Lars Syll In mainstream economics, there’s — still — a lot of talk about ‘economic laws.’ The crux of these laws — and regularities — that allegedly exist in economics, is that they only hold ceteris paribus. That fundamentally means that these laws/regularities only hold when the right conditions are at hand for giving rise […]",
           "link": "https://rwer.wordpress.com/2024/04/26/the-non-existence-of-economic-laws-2/",
           "publishedOn": "2024-04-26T16:03:19.000Z",
-          "wordCount": 4462,
+          "wordCount": 4535,
           "title": "The non-existence of economic laws",
           "imageUrl": "https://www.bokkilden.no/servlet/VisBildeServlet?produktId=2558467&width=1200"
         },
@@ -910,7 +910,7 @@
           "description": "from Crelis Rammelt and current issue of RWER Our presumed dominion over nature is an illusion. No matter how clever technological innovations may seem, they remain subject to the laws of thermodynamics. Consequently, a growth-centered capitalist economy finds itself trapped in futile attempts to completely decouple itself from nature – aiming for a 100% circular, service-oriented and […]",
           "link": "https://rwer.wordpress.com/2024/04/22/in-search-of-radical-alternatives/",
           "publishedOn": "2024-04-22T17:01:08.000Z",
-          "wordCount": 4627,
+          "wordCount": 4647,
           "title": "In search of radical alternatives",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -920,7 +920,7 @@
           "description": "from Lars Syll No sooner had I finished my comment on the irrelevancy of economics but I had confirmation — albeit unwittingly — in this morning’s Financial Times.  There on the editorial page was a short column by Soumaya Keynes talking about the rise of Hank. For those of you not on the cutting edge, […]",
           "link": "https://rwer.wordpress.com/2024/04/19/cutting-edge-macroeconomics/",
           "publishedOn": "2024-04-19T11:25:45.000Z",
-          "wordCount": 5718,
+          "wordCount": 5738,
           "title": "Cutting-edge macroeconomics …",
           "imageUrl": "https://i.pinimg.com/originals/7c/4d/af/7c4daf05e39a2c304b672a9b714b7e1b.jpg"
         },
@@ -930,7 +930,7 @@
           "description": "from Peter Radford What are we to say of a discipline that steadfastly ignores reality in its pursuit of ever more formality in its methods? Wow. Steve Levitt has really shaken me. I come not to mock, but to follow up … Stand up and take a bow Ben Moll!  You daring soul. Clearly I […]",
           "link": "https://rwer.wordpress.com/2024/04/17/the-eclipse-part-wo/",
           "publishedOn": "2024-04-17T15:36:35.000Z",
-          "wordCount": 6216,
+          "wordCount": 6236,
           "title": "The eclipse part wo",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -940,7 +940,7 @@
           "description": "from Junaid Jahangir and current issue of RWER [Ha-Joon] Chang’s latest book Edible Economics (2022) crystallizes the narrative that he has developed through his popular books over the years. . . . I have reviewed the salient ideas as follows in a bid to draw out lessons I could share with my ECON 101 students. […]",
           "link": "https://rwer.wordpress.com/2024/04/15/changs-edible-economics/",
           "publishedOn": "2024-04-15T20:26:42.000Z",
-          "wordCount": 4810,
+          "wordCount": 4830,
           "title": "Chang’s “Edible Economics”",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -950,7 +950,7 @@
           "description": "from Lars Syll Unlike anthropologists … economists simply invent the primitive societies we study, a practice which frees us from limiting ourselves to societies which can be physically visited as sparing us the discomforts of long stays among savages. This method of society-invention is the source of the utopian character of economics; and of the […]",
           "link": "https://rwer.wordpress.com/2024/04/12/chicago-economics-nothing-but-pseudo-scientific-cheating/",
           "publishedOn": "2024-04-12T20:15:30.000Z",
-          "wordCount": 6875,
+          "wordCount": 6895,
           "title": "Chicago economics — nothing but pseudo-scientific cheating",
           "imageUrl": "https://lh5.googleusercontent.com/proxy/4q-6XCes-2n992DjEdgR6flq44y98Ybu6qt1pbR98wL5ysE9jikfPW8FffP9KR9UbrbOeFYEtLeLDtn4aElzX11nma2HvQlza0GhyhUFiTVNs6hDcOWYfgVWf-voMLKcCX4JtKVQL4ndQc2npzxIuZdDMZtNilA"
         },
@@ -960,7 +960,7 @@
           "description": "from a comment by Ikonoclast “A truth is permitted only a brief victory celebration between the two long periods where it is first condemned as paradoxical and later disparaged as trivial.” – Arthur Schopenhauer. As they break new ground, the Capital as Power theoreticians will encounter the “Schopenhauer Effect” over and over. When you point […]",
           "link": "https://rwer.wordpress.com/2024/04/11/the-increasing-collusion-between/",
           "publishedOn": "2024-04-11T11:45:48.000Z",
-          "wordCount": 4425,
+          "wordCount": 4445,
           "title": "The increasing collusion between . . . . . .",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -970,7 +970,7 @@
           "description": "from Blair Fix and current issue of RWER Speaking of competition and losers, Ronald Reagan set the tone of the neoliberal era when, in 1981, he fired 11,000 striking air-traffic controllers (Houlihan, 2021). The message? Workers were losers who would be subjected to the discipline of competition. Reagan called it ‘morning in America’. But really, it was […]",
           "link": "https://rwer.wordpress.com/2024/04/10/wealth-catapulted-up/",
           "publishedOn": "2024-04-10T16:45:34.000Z",
-          "wordCount": 4831,
+          "wordCount": 4851,
           "title": "Wealth catapulted up",
           "imageUrl": "https://i0.wp.com/economicsfromthetopdown.com/wp-content/uploads/2023/11/wealth_gini.png?w=723&ssl=1"
         },
@@ -980,7 +980,7 @@
           "description": "from Giandomenico Scarpelli and current issue of RWER As documented in the previous paragraph, in recent years it finally seems that most orthodox economists have become more aware of the catastrophic outcomes of climatic disturbances; but at this point the traditional policy they recommend could be insufficient to meet the goals set at international level. […]",
           "link": "https://rwer.wordpress.com/2024/04/09/the-need-for-a-new-economic-paradigm/",
           "publishedOn": "2024-04-09T10:14:33.000Z",
-          "wordCount": 4492,
+          "wordCount": 4512,
           "title": "The need for a new economic paradigm",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -990,7 +990,7 @@
           "description": "from Asad Zaman Introduction At first glance, it appears that industrialization, with its rampant overproduction and overconsumption, stands as the primary antagonist in our climate crisis narrative. However, this surface-level perception overlooks a more profound shift that lies beneath: an epistemological revolution birthed in the European Enlightenment. This era marked a pivotal transition in our […]",
           "link": "https://rwer.wordpress.com/2024/04/05/weekend-read-enlightenment-epistemology-and-the-climate-crisis/",
           "publishedOn": "2024-04-05T16:10:01.000Z",
-          "wordCount": 9706,
+          "wordCount": 9726,
           "title": "Weekend read – Enlightenment epistemology and the climate crisis",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -1010,10 +1010,10 @@
         {
           "id": "https://feeds.feedblitz.com/~/882407957/0/themoneyillusion~More-articles/",
           "author": null,
-          "description": "1. Tyler linked to an interesting article on Portugal. This caught my eye: Then, in 2023, the Immigration Control Agency was dissolved, ostensibly in response to an extremely uncharacteristic display of violence where, in March 2020, two officers beat a Ukrainian man to death in the airport of Lisbon. No protests followed the unjust death [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/882407957/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-18-at-2.26.00-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/more-articles-2/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6815209\">No. 2 But then again, an entirely pious US foreign policy would ...</a> <i>by Solon of the East</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6815141\">Andrew, Sure. Completely free trade with China unless they ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6815135\">“A group we now call “working class”.”   Brilliant! I ...</a> <i>by ChrisinVa</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6815098\">Scott,   Re (2), could you provide a thesis for how you think ...</a> <i>by Andrew C</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6815032\">Classical liberalism, Scott, requires representation. It ...</a> <i>by Ricardo</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\">Plus 4 more...</a></li></ul></div>&#160;</div>",
+          "description": "1. Tyler linked to an interesting article on Portugal. This caught my eye: Then, in 2023, the Immigration Control Agency was dissolved, ostensibly in response to an extremely uncharacteristic display of violence where, in March 2020, two officers beat a Ukrainian man to death in the airport of Lisbon. No protests followed the unjust death [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/882407957/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-18-at-2.26.00-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/more-articles-2/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6815682\">I am SURE that that high speed rail line will only need a grant ...</a> <i>by William Peden</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6815209\">No. 2 But then again, an entirely pious US foreign policy would ...</a> <i>by Solon of the East</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6815141\">Andrew, Sure. Completely free trade with China unless they ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6815135\">“A group we now call “working class”.”   Brilliant! I ...</a> <i>by ChrisinVa</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6815098\">Scott,   Re (2), could you provide a thesis for how you think ...</a> <i>by Andrew C</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/882407957/0/themoneyillusion~More-articles/",
           "publishedOn": "2024-04-24T23:08:32.000Z",
-          "wordCount": 3722,
+          "wordCount": 3763,
           "title": "More articles",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-18-at-2.26.00-PM.png"
         },
@@ -1023,7 +1023,7 @@
           "description": "Eventually, I&#8217;ll get to price indices. But first, a long boring digression on why I don&#8217;t want to be &#8220;rich&#8221; (but do want to have a billion dollars.) I recently read a WSJ story about how a $200 million St. Louis skyscraper had sold for only $4 million. That got me wondering what house prices [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/882407960/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-18-at-8.36.41-AM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6815142\">David, I agree.   Tsergo, The mistake was not in buying the ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6815118\">Would you have made more money investing in stocks rather than ...</a> <i>by Tsergo Ri</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6815040\">Good article in the recent Economist on population changes ...</a> <i>by David S</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6815029\">Floccina, Excellent!</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6814683\">By: Floccina\t\t</a> <i>by Floccina <a href=\"http://un-thought.blogspot.com/\">http://un-thought.blogspot.com/</a></i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6814657\">I prefer population by Metropolitan Statistical Area over ...</a> <i>by John Hall</i></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/882407960/0/themoneyillusion~I-dont-wanna-be-%e2%80%9crich%e2%80%9d/",
           "publishedOn": "2024-04-24T23:08:17.000Z",
-          "wordCount": 2767,
+          "wordCount": 2766,
           "title": "I don&#8217;t wanna be &#8220;rich&#8221;",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-18-at-8.36.41-AM.png"
         },
@@ -1033,7 +1033,7 @@
           "description": "Americans remind me of the old song &#8220;Yes, we have no bananas&#8221;. They really, really like to agree with the assertions in poll questions. Should pot be legalized? Yes!! Should people selling pot be executed? Yes? Should Roe v. Wade be reversed? Yes? Should abortion be banned? Yes! Should the corporate tax rate be raised? [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/882407963/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-24-at-4.44.00-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6815347\">Apparently you agree with Masha Gessen. From Sam Harris Episode ...</a> <i>by Trina Halppe</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6815144\">“Considering the general public was against the Iraqi war, ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6815082\">Considering the general public was against the Iraqi war, ...</a> <i>by Sara</i></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/882407963/0/themoneyillusion~Yes-We-have-no-core-values/",
           "publishedOn": "2024-04-24T23:05:13.000Z",
-          "wordCount": 2146,
+          "wordCount": 2145,
           "title": "Yes!  We have no core values",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-24-at-4.44.00-PM.png"
         },
@@ -1043,7 +1043,7 @@
           "description": "The future course of the economy always involves a bit of guesswork. But it seems to me that the following two claims are pretty likely to be true: 1. Over the past three years, monetary policy has been far too expansionary. 2. It is likely that monetary policy is still a bit too expansionary, although [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/881407241/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-16-at-9.30.19-AM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/the-hawkish-case/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6815304\">Thomas, GDP growth was 4.7% in Q1, that's still too strong. ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6815268\">The yield curve inversion first appeared in Jul22, and I’ve ...</a> <i>by Thomas Novak</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6813826\">Harding, So the fact that Trump often says pro-Putin things and ...</a> <i>by Scott Sumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6813760\">“Republican fans of Putin don’t seem to understand that he ...</a> <i>by Eharding</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6813541\">By: Michael Sandifer\t\t</a> <i>by Michael Sandifer <a href=\"http://www.exactmacro.substack.com\">http://www.exactmacro.substack.com</a></i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/881407241/0/themoneyillusion~The-hawkish-case/",
           "publishedOn": "2024-04-16T14:50:14.000Z",
-          "wordCount": 5388,
+          "wordCount": 5387,
           "title": "The hawkish case",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-16-at-9.30.19-AM.png"
         },
@@ -1053,7 +1053,7 @@
           "description": "The Financial Times has a story that points to some disturbing features of South African politics: It is the kind of fervent devotion that has driven a wave of support for the former president [Jacob Zuma] ahead of a critical general election on May 29. Yet as recently as January, the 82-year-old African National Congress [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/881407244/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812451\">the circumstances have changed, the past is a different ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812237\">Viennacapitalist, For most of my life, the US political system ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812192\">Scott,   got it, but I was uncertain of what exactly you are ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6811685\">Viennacapitalist. I'm stunned that people think this post is ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6811497\">Scott,   “…Perhaps Africans cannot handle democracy?..” ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/881407244/0/themoneyillusion~Is-African-politics-inferior-to-American-politics/",
           "publishedOn": "2024-04-16T14:49:58.000Z",
-          "wordCount": 3075,
+          "wordCount": 3074,
           "title": "Is African politics inferior to American politics?",
           "imageUrl": null
         },
@@ -1063,7 +1063,7 @@
           "description": "In a recent post, I listed 6 ways that Trump intends to reduce inflation: Trump has a 6-part plan to bring down inflation: 1. Favors&#160;NIMBY policies&#160;to prevent housing construction in the suburbs. 2. Expel all the illegal workers that pick our food and provide other key services. 3. Put heavy tariffs on imported food and [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/881407247/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6811688\">“pro liberty politician in Bolsonaro”   Liberty? The guy ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6811466\">The only person being exposed as a “moron” is you.   You're ...</a> <i>by Sara</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810674\">And for the record… the exchange between Longstreet (and ...</a> <i>by Student</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810588\">Michael,   If Biden were up 3-5 points in the polling averages, ...</a> <i>by Student</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810581\">>What do the people in the audience think   They think a Trump ...</a> <i>by foosion</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/881407247/0/themoneyillusion~Seven-Trump-is-on-a-roll/",
           "publishedOn": "2024-04-16T14:49:47.000Z",
-          "wordCount": 3004,
+          "wordCount": 3003,
           "title": "Seven!  (Trump is on a roll)",
           "imageUrl": null
         },
@@ -1073,7 +1073,7 @@
           "description": "During the golden age of macroeconomics (roughly 1984-2007), many economists understood that interest rates were not monetary policy. After 2008, economists have been drifting back to old-school Keynesianism, with its emphasis on fiscal policy and interest rates. For the umpteenth time, it makes no sense to talk about interest rates causing changes in other macro [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/879089525/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809959\">Philo, The economic claims of interest are policy ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809884\">Oddly enough, I was in a philosophy reading group talking about ...</a> <i>by William Peden</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809801\">”But other things equal? What does that even mean?” Good ...</a> <i>by Philo</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809700\">Michael, I doubt that, but I hope you are right.</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809671\">@Michael S:   What makes you guess that? Not challenging you, ...</a> <i>by msgkings</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/879089525/0/themoneyillusion~Time-to-add-the-epicycles/",
           "publishedOn": "2024-04-12T19:19:25.000Z",
-          "wordCount": 3646,
+          "wordCount": 3645,
           "title": "Time to add the epicycles!",
           "imageUrl": null
         },
@@ -1083,7 +1083,7 @@
           "description": "Janan Ganesh has an piece in the FT entitled &#8220;The Rise of Bleak Chic&#8221;. I don&#8217;t demand show trials or the ritual egging in public squares of people who were bearish on cities. There is no need for a mea maxima culpa from those who doubted if even the handshake, let alone the restaurant, would [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/879089528/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/879089528/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f03%2fScreen-Shot-2024-03-29-at-8.16.44-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/879089528/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/879089528/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/879089528/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/bleak-chic/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/bleak-chic/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comment-6812234\">Scott,   yes, ppl live in their houses, but they have to cover ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comment-6811695\">Viennacapitalist, That graph shows the 1929 peak to be lower ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comment-6811516\">Scott,   not sure your Phoenix real house price graph proves ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comment-6811515\">Scott,   “Actually, Fisher’s claim was probably reasonable. ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comment-6811131\">Ted, You said: “That in a place where creating a new lot ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/bleak-chic/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/879089528/0/themoneyillusion~Bleak-chic/",
           "publishedOn": "2024-04-12T19:19:13.000Z",
-          "wordCount": 3536,
+          "wordCount": 3535,
           "title": "Bleak chic",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/03/Screen-Shot-2024-03-29-at-8.16.44-PM.png"
         },
@@ -1093,7 +1093,7 @@
           "description": "How are leftists working to re-elect Trump? There are almost too many ways to count: 1. Trump was reeling after his candidates did horrible in the 2022 midterms, and people like Ron DeSantis were soaring in the polls. Then leftists saved him by making him seem like a victim, and he began rising in the [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/879089531/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/leftists-for-trump/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6810001\">@Jim Glass:   Your history lesson on Athens is interesting but ...</a> <i>by msgkings</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809963\">Jim, You are confusing two issues. One is the need for multiple ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809788\">If Democrats were smart, they’d be working on scrapping the ...</a> <i>by Jim Glass</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809702\">Harding, Obviously the Chinese version was 1000 times worse, ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809698\">“Chinese Cultural Revolution style cancel culture” ...</a> <i>by Eharding</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/879089531/0/themoneyillusion~Leftists-for-Trump/",
           "publishedOn": "2024-04-12T19:19:02.000Z",
-          "wordCount": 4421,
+          "wordCount": 4420,
           "title": "Leftists for Trump",
           "imageUrl": null
         },
@@ -1103,7 +1103,7 @@
           "description": "I don&#8217;t know. But the possibility is greater than I would have wished to see. Inflation data is often noisy and unreliable, for a wide variety of reasons. Wage inflation is the most meaningful for monetary policy. Among all of the various price indices, the service sector inflation ex-housing and energy is probably the most [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/876964106/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/876964106/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-10-at-1.58.02-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/876964106/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/876964106/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/876964106/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comment-6808063\">Powell will be remembered as just another Arthur Burns. I heard ...</a> <i>by steve</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comment-6807680\">Powell as Chairman is not a monetarist.   #1 “there was a ...</a> <i>by spencer</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comment-6807677\">And so now Ray thinks I changed my name to “Spencer”. ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comment-6807672\">Monetarism has never been tried. Paul Volcker’s version of ...</a> <i>by spencer</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comment-6807670\">It's very easy to steer the economy as the 1966 Interest Rate ...</a> <i>by spencer</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-inflation-re-accelerating/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/876964106/0/themoneyillusion~Is-inflation-reaccelerating/",
           "publishedOn": "2024-04-10T18:47:48.000Z",
-          "wordCount": 2669,
+          "wordCount": 2668,
           "title": "Is inflation re-accelerating?",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-10-at-1.58.02-PM.png"
         }
@@ -1117,10 +1117,10 @@
         {
           "id": "https://www.nakedcapitalism.com/?p=270571",
           "author": "Lambert Strether",
-          "description": "~ Today's Water Cooler: Politics, pandemics ~",
+          "description": "~ Today's Water Cooler: Politics, pandemics, Seattle Clean Air Collective, Presidential immunity, Susie Wiles, feared political operative and Trump's right hand person, AI infesting Etsy crochet pattern marketplace ~",
           "link": "https://www.nakedcapitalism.com/2024/04/200pm-water-cooler-4-26-2024.html",
           "publishedOn": "2024-04-26T18:00:14.000Z",
-          "wordCount": 6486,
+          "wordCount": 10632,
           "title": "2:00PM Water Cooler 4/26/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/rcp_2024-04-26.png"
         },
@@ -1130,7 +1130,7 @@
           "description": "Celebrated intellectual and historian Wang Hui, author of The Rise of Modern Chinese Thought, discusses the origins and evolution of Chinese values",
           "link": "https://www.nakedcapitalism.com/2024/04/are-you-ready-to-dive-deep-into-chinas-intellectual-odyssey.html",
           "publishedOn": "2024-04-26T15:16:31.000Z",
-          "wordCount": 7037,
+          "wordCount": 8874,
           "title": "Are You Ready to Dive Deep into China’s Intellectual Odyssey?",
           "imageUrl": "https://www.ineteconomics.org/cpresources/userphotos/lynnparramore/150/lynn.jpeg?d=1524671903"
         },
@@ -1140,7 +1140,7 @@
           "description": "Our encamped daily links",
           "link": "https://www.nakedcapitalism.com/2024/04/links-4-26-2024.html",
           "publishedOn": "2024-04-26T10:58:36.000Z",
-          "wordCount": 21193,
+          "wordCount": 26028,
           "title": "Links 4/26/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/bears.jpeg"
         },
@@ -1150,7 +1150,7 @@
           "description": "\"What the US is really interested in is 'security shoring,' not nearshoring,\" as it begins to place national security concerns above all other considerations in its relationship with China.",
           "link": "https://www.nakedcapitalism.com/2024/04/mexico-faces-its-youre-with-us-or-against-us-moment-vis-a-vis-china.html",
           "publishedOn": "2024-04-26T10:45:05.000Z",
-          "wordCount": 6182,
+          "wordCount": 6971,
           "title": "Mexican Economy Faces Its “With U.S. Or Against U.S.” Moment",
           "imageUrl": null
         },
@@ -1160,7 +1160,7 @@
           "description": "The officialdom has just wheeled out much heavier weaponry in the war against free speech, here targeting not-for-profits.",
           "link": "https://www.nakedcapitalism.com/2024/04/free-speech-on-the-ropes-legislation-to-revoke-not-for-profit-status-of-organizations-that-support-palestine-protests-passes-in-house.html",
           "publishedOn": "2024-04-26T08:47:58.000Z",
-          "wordCount": 7538,
+          "wordCount": 8012,
           "title": "Free Speech on the Ropes: Legislation to Revoke Not-for-Profit Status of Organizations that Support Palestine Protests Passes in House",
           "imageUrl": null
         },
@@ -1170,7 +1170,7 @@
           "description": "Climate migration is here, even in rich countries like the US, and set to accelerate.",
           "link": "https://www.nakedcapitalism.com/2024/04/book-review-on-the-move-is-a-must-read-account-of-u-s-climate-migration.html",
           "publishedOn": "2024-04-26T06:55:42.000Z",
-          "wordCount": 5309,
+          "wordCount": 5362,
           "title": "Book Review: “On the Move” Is a Must-Read Account of U.S. Climate Migration",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/00-climate.jpg"
         },
@@ -1180,7 +1180,7 @@
           "description": "~ Today's Water Cooler: Politics, pandemics,  anti-Trump legal cabal revealed, sudden emergence of the Molineux Rule as an issue for Bragg's prosecution, documents unsealed by Judge Cannon with the loss of a judgeship. ~",
           "link": "https://www.nakedcapitalism.com/2024/04/200pm-water-cooler-4-25-2024.html",
           "publishedOn": "2024-04-25T18:00:58.000Z",
-          "wordCount": 14872,
+          "wordCount": 15097,
           "title": "2:00PM Water Cooler 4/25/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/rcp.png"
         },
@@ -1190,7 +1190,7 @@
           "description": "Hooray! Google fully reversed itself on its AI-generated censorship and demonetization threat. But don't assume this sort of thing is over.",
           "link": "https://www.nakedcapitalism.com/2024/04/google-ai-censorship-google-reverses-itself-fully-on-demonetization-threat-after-intervention-by-matt-taibbi-and-our-demonstration-of-pervasive-errors.html",
           "publishedOn": "2024-04-25T14:20:47.000Z",
-          "wordCount": 4643,
+          "wordCount": 4704,
           "title": "Google AI Censorship: Google Reverses Itself Fully on Demonetization Threat After Intervention by Matt Taibbi and Our Demonstration of Pervasive Errors",
           "imageUrl": null
         },
@@ -1200,7 +1200,7 @@
           "description": "Our timely daily links",
           "link": "https://www.nakedcapitalism.com/2024/04/links-2.html",
           "publishedOn": "2024-04-25T10:58:53.000Z",
-          "wordCount": 23832,
+          "wordCount": 23855,
           "title": "Links 4/25/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/fox_dandelion.jpeg"
         },
@@ -1210,7 +1210,7 @@
           "description": "Oh noes! Populism is gaining ground! A report on A/B testing of messaging in Italy to defang it.",
           "link": "https://www.nakedcapitalism.com/2024/04/the-populist-dynamic-experimental-evidence-on-the-effects-of-countering-populism.html",
           "publishedOn": "2024-04-25T07:41:40.000Z",
-          "wordCount": 6145,
+          "wordCount": 6168,
           "title": "The Populist Dynamic: Experimental Evidence on the Effects of Countering Populism",
           "imageUrl": null
         }
@@ -1479,6 +1479,16 @@
       "siteUrl": "https://medium.com/capital-one-tech?source=rss----3db3a67cb648---4",
       "articles": [
         {
+          "id": "https://medium.com/p/085e3e050d14",
+          "author": "Capital One Tech",
+          "description": "The new Capital One Hub will advance data science at UVA and beyond.",
+          "link": "https://medium.com/capital-one-tech/launching-the-capital-one-hub-at-uva-school-of-data-science-085e3e050d14?source=rss----3db3a67cb648---4",
+          "publishedOn": "2024-04-26T18:12:31.000Z",
+          "wordCount": 1893,
+          "title": "Launching the Capital One Hub at UVA School of Data Science",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*a0WD53Eha23HN-2D.jpg"
+        },
+        {
           "id": "https://medium.com/p/cb1e80b00d26",
           "author": "Capital One Tech",
           "description": "Capital One & USC launch the Center for Responsible AI and Decision Making in Finance (CREDIF) to advance the future of AI.",
@@ -1511,7 +1521,7 @@
           "description": "At Slack, we’ve long been conservative technologists. In other words, when we invest in leveraging a new category of infrastructure, we do it rigorously. We’ve done this since we debuted machine learning-powered features in 2016, and we’ve developed a robust process and skilled team in the space. Despite that, over the past year we’ve been […]\nThe post How We Built Slack AI To Be Secure and Private appeared first on Slack Engineering.",
           "link": "https://slack.engineering/how-we-built-slack-ai-to-be-secure-and-private/",
           "publishedOn": "2024-04-18T05:00:33.000Z",
-          "wordCount": 2184,
+          "wordCount": 2185,
           "title": "How We Built Slack AI To Be Secure and Private",
           "imageUrl": "https://slack.engineering/wp-content/uploads/sites/7/2024/04/AI_Marketing_Search_650x450_x2.jpg"
         }
@@ -1672,9 +1682,9 @@
           "description": "[...]\nRead More...\nThe post Building new custom silicon for Meta’s AI workloads appeared first on Engineering at Meta.",
           "link": "https://www.metacareers.com/life/building-custom-silicon-for-the-future-of-ai",
           "publishedOn": "2024-04-11T16:30:58.000Z",
-          "wordCount": 2217,
+          "wordCount": 2215,
           "title": "Building new custom silicon for Meta’s AI workloads",
-          "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=OsXTscAj8ekQ7kNvgHUc0ye&_nc_oc=Adj3nWcKj0QM3PwCqFlWuK7YDyKKEViRG6_i7IVCqWtSiU3SbS6LZdcSs3b_MFtxe_o&_nc_ht=scontent-iad3-1.xx&oh=00_AfC3ayKBNoBXzvxdMcF27XrcJmUMsfRKkpKzhvHNh4b1IQ&oe=66464C7B"
+          "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=OsXTscAj8ekQ7kNvgHuKWkB&_nc_oc=AdgmSXSLHYRCXLhmmBLOW9C5867BEcvQLw1EcgVvZEPne7H0zsxqjl8V4ta8KM-9yrE&_nc_ht=scontent-iad3-1.xx&oh=00_AfCEBTFTqhqOWgzzQ4GDzUJAqiEoNT2l2fl2IxdBSa2lzw&oe=664684BB"
         },
         {
           "id": "https://engineering.fb.com/?p=21103",
@@ -1682,9 +1692,9 @@
           "description": "[...]\nRead More...\nThe post Building an infrastructure for AI’s future appeared first on Engineering at Meta.",
           "link": "https://www.metacareers.com/life/behind-gen-ai-building-an-infrastructure-for-the-future",
           "publishedOn": "2024-04-11T16:20:49.000Z",
-          "wordCount": 2043,
+          "wordCount": 2057,
           "title": "Building an infrastructure for AI’s future",
-          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=2h2Ey7mbFiQAb6ggIBX&_nc_ht=scontent-iad3-2.xx&oh=00_AfBKKwvdbUr_UD4WPEQZ1WYuL30jE0DjkEkBx8qATw_gBg&oe=664624A3"
+          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=2h2Ey7mbFiQQ7kNvgFvpplH&_nc_ht=scontent-iad3-2.xx&oh=00_AfDryizZBGwgukknWAEONwWCgq89fQObqzGqH4FDNGMJRQ&oe=66469523"
         },
         {
           "id": "https://engineering.fb.com/?p=21177",
@@ -1694,7 +1704,7 @@
           "publishedOn": "2024-04-10T15:11:03.000Z",
           "wordCount": 2054,
           "title": "Introducing the next-gen Meta Training and Inference Accelerator",
-          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/434836173_760640236211764_1047890588714439130_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=XRdpmWVAFZEAb5eYeLz&_nc_ht=scontent-iad3-2.xx&oh=00_AfB09EUfOdDcONmxhSY33f0OoSb_Jxy2tJtAWPIsfZWNAA&oe=66462DA5"
+          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/434836173_760640236211764_1047890588714439130_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=XRdpmWVAFZEQ7kNvgG_jevY&_nc_ht=scontent-iad3-2.xx&oh=00_AfAdeQUX65IhNroHrgq9p0juWY9yeO5bLN0VJqaRtFI8VA&oe=66469E25"
         }
       ]
     },
@@ -1848,13 +1858,43 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=40174690",
+          "author": "singlow",
+          "description": "I think the logic here is that the government has already subsidized them by granting privileges to use public infrastrucure that was built with tax dollars. There can only be so many wires running on the poles or under the streets so in return for that privilege, you have to provide this in return.",
+          "link": "https://news.ycombinator.com/item?id=40174690",
+          "publishedOn": "2024-04-26T21:46:33.000Z",
+          "wordCount": 4770,
+          "title": "New comment by singlow in \"Court upholds New York law that says ISPs must offer $15 broadband\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40172952",
+          "author": "Animats",
+          "description": "That's a good article. He's right about many things.\nI've been writing a metaverse client in Rust for several years now. Works with Second Life and Open Simulator servers. Here's some video.[1] It's about 45,000 lines of safe Rust.\nNotes:\n* There are very few people doing serious 3D game work in Rust. There's Veloren, and my stuff, and maybe a few others. No big, popular titles. I'd expected some AAA title to be written in Rust by now. That hasn't happened, and it's probably not going to happen, for the reasons the author gives.\n* He's right about the pain of refactoring and the difficulties of interconnecting different parts of the program. It's quite common for some change to require extensive plumbing work. If the client that talks to the servers needs to talk to the 2D GUI, it has to queue an event.\n* The rendering situation is almost adequate, but the stack isn't finished and reliable yet. The 2D GUI systems are weak and require too much code per dialog box.\n* I tend to agree about the \"async contamination\" problem. The \"async\" system is optimized for someone who needs to run a very large web server, with a huge number of clients sending in requests. I've been pushing back against it creeping into areas that don't really need it.\n* I have less trouble with compile times than he does, because the metaverse client has no built-in \"gameplay\". A metaverse client is more like a 3D web browser than a game.\nAll the objects and their behaviors come from the server.\nI can edit my part of the world from inside the live world.  If the color or behavior or model of something needs to be changed, that's not something that requires a client recompile.\nThe people using C# and Unity on the same problem are making much faster progress.\n[1] https://video.hardlimit.com/w/7usCE3v2RrWK6nuoSr4NHJ",
+          "link": "https://news.ycombinator.com/item?id=40172952",
+          "publishedOn": "2024-04-26T19:16:31.000Z",
+          "wordCount": null,
+          "title": "New comment by Animats in \"Leaving Rust gamedev after 3 years\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40172284",
+          "author": "HL33tibCe7",
+          "description": "> The problem you're having is only a problem because you haven't tried hard enough.\nYou just need to read another 50,000 word fasterthanlime essay. Then you'll not have problems any more.\n> That being said, there is an overwhelming force in the Rust community that when anyone mentions they're having problems with Rust the language on a fundamental level, the answer is \"you just don't get it yet, I promise once you get good enough things will make sense\".\nNot only this, but they openly mock other language communities for not drinking the koolaid.\nI like Rust, and the Rust community, and fasterthanlime, for what it's worth. But I think these points raised in the article are very much valid.",
+          "link": "https://news.ycombinator.com/item?id=40172284",
+          "publishedOn": "2024-04-26T17:57:05.000Z",
+          "wordCount": null,
+          "title": "New comment by HL33tibCe7 in \"Leaving Rust gamedev after 3 years\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=40167519",
           "author": "joshstrange",
           "description": "I’ve avoided passkeys so far because I just don’t have a good mental model of them. All my passwords are randomly generate and stored in a password manager so I really haven’t felt the need to switch or felt constrained by my existing set up.\nI fully understand username/email + password and remembering the pain of things like “app specific passwords” makes me worry that some tools (open source, cli, etc) might not integrate well with password less so it’s best to stay where I am until things settle out better.",
           "link": "https://news.ycombinator.com/item?id=40167519",
           "publishedOn": "2024-04-26T09:56:12.000Z",
-          "wordCount": 9768,
-          "title": "New comment by joshstrange in \"Passkeys: A Shattered Dream\"",
+          "wordCount": 12061,
+          "title": "New comment by joshstrange in \"Passkeys: A shattered dream\"",
           "imageUrl": null
         },
         {
@@ -1864,7 +1904,7 @@
           "link": "https://news.ycombinator.com/item?id=40166723",
           "publishedOn": "2024-04-26T07:24:40.000Z",
           "wordCount": null,
-          "title": "New comment by saagarjha in \"Passkeys: A Shattered Dream\"",
+          "title": "New comment by saagarjha in \"Passkeys: A shattered dream\"",
           "imageUrl": null
         },
         {
@@ -1885,6 +1925,26 @@
           "publishedOn": "2024-04-25T23:58:40.000Z",
           "wordCount": null,
           "title": "New comment by pavel_lishin in \"Jeff Lawson buys The Onion\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40163828",
+          "author": "Karellen",
+          "description": "> If you’re building an abstraction-heavy API, be prepared to think hard before adding new features. If you’re building an abstraction-light API, commit to it and resist the temptation to add abstractions when it comes along.\nYou could always do both.\nProvide a low-level abstraction-light API that allows fine control but requires deep expertise, and write a higher-level abstraction-rich API on top of it that maps to fewer simple operations for the most common use cases - which some of your clients might be implementing their own half-baked versions of anyway.\nIf you maintain a clean separation between the two, having both in place might mean there is less pressure to add abstractions to the low-level API, or to add warts and special-cases to the high-level API. If a client wants one of those things, it already exists - in the other API.\nBonus points for providing materials to help your clients learn how to move from one to the other. You can attract clients who do not yet have deep knowledge of payment network internals, but are looking to improve in that direction.",
+          "link": "https://news.ycombinator.com/item?id=40163828",
+          "publishedOn": "2024-04-25T22:23:36.000Z",
+          "wordCount": null,
+          "title": "New comment by Karellen in \"No Abstractions: our API design principle\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40163817",
+          "author": "mgiampapa",
+          "description": "Because California saved it. https://en.wikipedia.org/wiki/California_Internet_Consumer_P...\nIf any of the companies that wanted to exploit the lack of FCC enforced net neutrality did business with California they would have had a big problem.",
+          "link": "https://news.ycombinator.com/item?id=40163817",
+          "publishedOn": "2024-04-25T22:22:36.000Z",
+          "wordCount": null,
+          "title": "New comment by mgiampapa in \"FCC votes to restore net neutrality rules\"",
           "imageUrl": null
         },
         {
@@ -1918,22 +1978,12 @@
           "imageUrl": null
         },
         {
-          "id": "https://news.ycombinator.com/item?id=40160893",
-          "author": "bearjaws",
-          "description": "I'd flip it and say its what happens when Congress has been dysfunctional for over a decade. It's not even possible to get a house bill with net neutrality passed without it included 99 other things that will inevitably get the bill punted on forever.\nCongress could have drafted this anytime if they had seen fit, but they are \"too busy\" fighting ideology wars.",
-          "link": "https://news.ycombinator.com/item?id=40160893",
-          "publishedOn": "2024-04-25T17:57:34.000Z",
-          "wordCount": null,
-          "title": "New comment by bearjaws in \"FCC votes to restore net neutrality rules\"",
-          "imageUrl": null
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=40160755",
           "author": "SeanAnderson",
           "description": "I'm happy this reversal occurred, but I am exhausted by the continuous flip-flopping of legislation depending on which party is in charge. Feels like we're stagnating as a nation by going in a circle rather than finding commonality to go forward.\nMaybe it's always been this way though and I'm just getting old enough to be bothered by it?",
           "link": "https://news.ycombinator.com/item?id=40160755",
           "publishedOn": "2024-04-25T17:47:29.000Z",
-          "wordCount": 14121,
+          "wordCount": null,
           "title": "New comment by SeanAnderson in \"FCC votes to restore net neutrality rules\"",
           "imageUrl": null
         },
@@ -1945,16 +1995,6 @@
           "publishedOn": "2024-04-25T17:02:46.000Z",
           "wordCount": null,
           "title": "New comment by aldeluis in \"Tribler: An attack-resilient micro-economy for media\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40158957",
-          "author": "AdamH12113",
-          "description": "For those who didn't know, KYC stands for \"know your customer\". It's a good idea to spell out abbreviations the first time they're used, especially since the abbreviation itself is not used in the linked article. It's also worth noting that the proposal is about US infrastructure as a service (IaaS) products specifically, not \"internet services\" in general.",
-          "link": "https://news.ycombinator.com/item?id=40158957",
-          "publishedOn": "2024-04-25T15:48:52.000Z",
-          "wordCount": null,
-          "title": "New comment by AdamH12113 in \"We have 4 days to contest KYC being required by internet services\"",
           "imageUrl": null
         },
         {
@@ -1983,7 +2023,7 @@
           "description": "ELI5:\nICs are manufactured on silicon disks called wafers. Discs have two sides, and traditionally, everything was done on top. We can now do power on the bottom. This makes things go faster and use less power:\n* Power wires are big (and can be a bit crude). The bigger the better. Signal wires are small and precise. Smaller is generally better.\n* Big wires, if near signal wires, can interfere with them working optimally (called \"capacitance\").\n* Capacitance can slow down signals on the fine signal wires.\n* Capacitance also increases power usage when ones become zeros and vice-versa on signal wires.\n* Big wires also take up a lot of space.\n* Putting them on the back of the wafer means that things can go faster and use less power, since you don't have big power wires near your fine signal wires.\n* Putting them in back leaves a lot more space for things in front.\n* Capacitance between power wires (which don't carry signal) actually helps deliver cleaner power too, which is a free bonus!\nThis is hard to do, since it means somehow routing power through the wafer. That's why we didn't do this before. You need very tiny wires through very tiny holes in locations very precisely aligned on both sides. Aligning things on the scale of nanometers is very, very hard.\nHow did I do?",
           "link": "https://news.ycombinator.com/item?id=40157108",
           "publishedOn": "2024-04-25T13:12:27.000Z",
-          "wordCount": null,
+          "wordCount": 1915,
           "title": "New comment by blagie in \"TSMC unveils 1.6nm process technology with backside power delivery\"",
           "imageUrl": null
         },
@@ -2003,7 +2043,7 @@
           "description": "Hmm. The experiences that changed and benefited me most were least predictable. As a result, I try to manage experiences less, and choose the unknown more.\nBut in the spirit of what you've said, I try to avoid doing dumb, damaging, or boring things twice.",
           "link": "https://news.ycombinator.com/item?id=40153137",
           "publishedOn": "2024-04-25T03:38:34.000Z",
-          "wordCount": 1474,
+          "wordCount": null,
           "title": "New comment by daniel_reetz in \"You are what you read, even if you don't always remember it\"",
           "imageUrl": null
         },
@@ -2013,7 +2053,7 @@
           "description": "Don't forget that you are the result of all the past sensory interactions that you experienced in your whole life, people you interacted with, books you read, advertisements, songs, news headlines, etc. Even if you think you don't remember them, at one point in your life it was processed by your brain and may have changed some posterior decisions you made, thus making you what you are now.\nSince I realized this, I am more meticulous when choosing what I do and don't do, there is no going back.",
           "link": "https://news.ycombinator.com/item?id=40153026",
           "publishedOn": "2024-04-25T03:20:55.000Z",
-          "wordCount": null,
+          "wordCount": 17160,
           "title": "New comment by y04nn in \"You are what you read, even if you don't always remember it\"",
           "imageUrl": null
         },
@@ -2063,7 +2103,7 @@
           "description": "As someone who knows somebody that recently had a flight cancelled (then booked another flight at the same airport, only for that flight to get cancelled as well), it was very frustrating to hear that all the airlines in question would do is issue a voucher that expires in 3 months and requires the exact same people to travel alongside you (i.e. if you purchased a ticket for yourself and a relative, then the voucher only applies to flights where you and this exact same relative are boarding). It seems like a pretty blatant way for airlines to keep customer's money. Too bad this rule didn't come sooner.",
           "link": "https://news.ycombinator.com/item?id=40151034",
           "publishedOn": "2024-04-24T23:11:13.000Z",
-          "wordCount": null,
+          "wordCount": 6669,
           "title": "New comment by koito17 in \"Airlines required to refund passengers for canceled, delayed flights\"",
           "imageUrl": null
         },
@@ -2083,7 +2123,7 @@
           "description": "if you've been to China, you'll know that they ban all western products: facebook, google, etc etc and replaced them with their own variants. If they want to run around free-range without any restriction with their own products then they should respond by loosening restrictions in their own country.\nThis is an absolute no-brainer. If you want Tik Tok in the US, lower your middle finger. Am I missing something?",
           "link": "https://news.ycombinator.com/item?id=40146375",
           "publishedOn": "2024-04-24T16:28:23.000Z",
-          "wordCount": null,
+          "wordCount": 5323,
           "title": "New comment by intellix in \"Biden signs TikTok bill into law, starting clock for ByteDance to divest\"",
           "imageUrl": null
         },
@@ -2116,36 +2156,6 @@
           "wordCount": null,
           "title": "New comment by anvuong in \"VideoGigaGAN: Towards detail-rich video super-resolution\"",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40144947",
-          "author": "jmbwell",
-          "description": "It’s true that sometimes an outsider can offer a fresh perspective. From where you sit, there might be a solution you can’t see. The nearest exit might be in the row behind you.\nMaybe this applies more often when the one giving advice has more experience than the one receiving it, or when the person who is stuck has habituated a narrow perspective or some form of learned helplessness.\nBut I recoil at something I think I see more often, which is when several people stand around pointing out the obvious and congratulating each other on their fresh ideas and wondering what’s so hard for the guy who has lived the situation and would love to find a way forward if there were the right resources or the right change in policies or the right change in politics. The peanut gallery loses interest pretty quickly when faced with questions about the real constraints and it turns out their answers are not fresh at all.\nBut now we have someone who’s “marinating in the stuck,” surrounded by people who still agree with each other that they know how it should all be done but have now also been embarrassed.\nIt’s an ugly, toxic cycle that bottoms out at everyone constantly having their knowledge and competence questioned over things they know and can do, by people who don’t and can’t.\nIf someone is stuck, ask if you can help, sure. Ask what seems to be the trouble. Ask what has been tried so far. But maybe don’t lead with your advice.",
-          "link": "https://news.ycombinator.com/item?id=40144947",
-          "publishedOn": "2024-04-24T14:40:34.000Z",
-          "wordCount": null,
-          "title": "New comment by jmbwell in \"Other People’s Problems\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40143097",
-          "author": "NalNezumi",
-          "description": "I think one should attribute a good amount of credit of this to Yann LeCun (head of meta's research). From early stage he have been vocal about keeping things open-source, and voiced that to Mark before even joining. (and credit to Mark for keeping that).\nIt probably also stems from his experience working at Bell Labs, and how his pioneering work very much required a lot of help from things available openly, as is still the case in academia.\nThe man have been repeating the advantage of open-source being the better option, and been very vocal about his opposition to \"regulate AI (read: let a handful of US government aligned closed-source companies have complete monopoly on AI under the guise of ethics)\". On this point he (and meta) stands in a pretty stark contrast to a lot of big-tech AI mainstream voices.\nMe myself recently moved some research tech stack to meta stuff, and unlike platform that basically stops being supported as soon as the main contributor finishes his PhD, it have been great to work on it (and they're usually open to feedback and fixes/PR).",
-          "link": "https://news.ycombinator.com/item?id=40143097",
-          "publishedOn": "2024-04-24T11:35:55.000Z",
-          "wordCount": 4112,
-          "title": "New comment by NalNezumi in \"Meta does everything OpenAI should be\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40142975",
-          "author": "m_fayer",
-          "description": "I had Zoho set up on the lowest tier for a side-hustle project years ago. It did it's job smoothly and without much intrusion. Then the project ended and I forgot about the Zoho account, changed phone numbers, lost the 2fa keys - all of it. Totally my fault. Their support quickly and competently handheld me through the shutdown process. I can't imagine the nightmare Google would've forced me through to shut down a pointless 3$/month charge had I made the same mistake with them.",
-          "link": "https://news.ycombinator.com/item?id=40142975",
-          "publishedOn": "2024-04-24T11:17:44.000Z",
-          "wordCount": null,
-          "title": "New comment by m_fayer in \"Zoho is attracting the attention of African startup founders\"",
-          "imageUrl": null
         }
       ]
     },
@@ -2160,7 +2170,7 @@
           "description": "Culture wars have two main functions. First, to split an existing, dominant social or political coalition apart by the clever use of wedge-issues. (Not all wedge-issues are a part of a culture war.) So, a culture war reveals a latent or induces real divergence in a pre-existing coalition. So, for example, how to think about trans-issues […]",
           "link": "https://crookedtimber.org/2024/04/26/going-meta-on-culture-wars/",
           "publishedOn": "2024-04-26T09:34:42.000Z",
-          "wordCount": 3501,
+          "wordCount": 4508,
           "title": "Going Meta on Culture Wars",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2170,7 +2180,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/04/21/sunday-photoblogging-crossroads/",
           "publishedOn": "2024-04-21T05:49:13.000Z",
-          "wordCount": 1756,
+          "wordCount": 1757,
           "title": "Sunday photoblogging: crossroads",
           "imageUrl": "https://live.staticflickr.com/65535/53667511330_cb02482ff2.jpg"
         },
@@ -2180,7 +2190,7 @@
           "description": "I’ve been doing a bunch of talks and events online, mostly not CT related, but a couple that might be interesting to readers. One that certainly is is this conversation with Francis Spufford, which is a coda to Red Plenty. Some of my bits of the conversation build on this Long Now talk from a […]",
           "link": "https://crookedtimber.org/2024/04/20/online-talks/",
           "publishedOn": "2024-04-20T01:22:13.000Z",
-          "wordCount": 2263,
+          "wordCount": 2264,
           "title": "Online talks",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2190,7 +2200,7 @@
           "description": "Robert Farley has replied to my recent post on the obsolescence of naval power. Unlike our previous exchange, a pile-on where I was (as he points out) in a minority of one, Robert’s tone is mostly civil this time, and I intend to reciprocate. Our disagreements have narrowed a fair way. On many points, it’s […]",
           "link": "https://crookedtimber.org/2024/04/20/expertise-and-naval-power/",
           "publishedOn": "2024-04-20T00:16:56.000Z",
-          "wordCount": 4963,
+          "wordCount": 4964,
           "title": "Expertise and naval power",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2200,7 +2210,7 @@
           "description": "In all the discussion of Leif Wenar’s critique of Effective Altruism , I haven’t seen much mention of the central premise: that development aid is generally counterproductive (unless, perhaps, it’s delivered by wealthy surfers in their spare time). Wenar is quite clear that his argument applies just as much to official development aid and to […]",
           "link": "https://crookedtimber.org/2024/04/17/wenar-on-why-you-shouldnt-try-to-help-poor-people/",
           "publishedOn": "2024-04-17T22:44:13.000Z",
-          "wordCount": 8809,
+          "wordCount": 8810,
           "title": "Wenar on why you shouldn’t try to help poor people",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2210,7 +2220,7 @@
           "description": "Gina’s post on Indiana’s DEI-related law came at a fortuitous time for me, because last week I participated in a panel about State Legislatures, Academic Freedom and Public Universities. The panelists were given about 6 minutes to present some prepared remarks’ and discussion ensued. As far as I could tell there was just one state […]",
           "link": "https://crookedtimber.org/2024/04/17/52615/",
           "publishedOn": "2024-04-17T13:13:28.000Z",
-          "wordCount": 9373,
+          "wordCount": 9374,
           "title": "Academic Freedom, State Legislatures and Public Universities (Wisconsin edition).",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2220,7 +2230,7 @@
           "description": "I’m sure Crooked Timber readers would been keen to learn of exciting new books out just now from Daniel Davies and Kieran Healy. Marion Fourcade and Kieran Healy have published The Ordinal Society , arguing that “argue that technologies of information management, fueled by the abundance of personal data and the infrastructure of the internet, […]",
           "link": "https://crookedtimber.org/2024/04/17/crooked-timberish-books-and-other-writings/",
           "publishedOn": "2024-04-17T07:03:33.000Z",
-          "wordCount": 1969,
+          "wordCount": 1970,
           "title": "Crooked Timberish books and other writings",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2230,7 +2240,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/04/14/sunday-photoblogging-canal-saint-martin-paris-3/",
           "publishedOn": "2024-04-14T07:38:21.000Z",
-          "wordCount": 1809,
+          "wordCount": 1810,
           "title": "Sunday photoblogging: Canal Saint-Martin, Paris (3)",
           "imageUrl": "https://live.staticflickr.com/65535/53610061080_902547dac7.jpg"
         },
@@ -2240,7 +2250,7 @@
           "description": "Since my book Limitarianism: The Case Against Extreme Wealth came out, first in Dutch at the end of November, and then in the US and in the UK a few weeks later, I’ve given more than 60 media interviews and talks. Among them was a long interview in The Observer, a summary of the argument […]",
           "link": "https://crookedtimber.org/2024/04/13/limitarianism-update/",
           "publishedOn": "2024-04-13T14:53:52.000Z",
-          "wordCount": 3489,
+          "wordCount": 3490,
           "title": "Limitarianism update",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2250,7 +2260,7 @@
           "description": "Last year, I received an email asking if I would write an introductory essay for the Tor Essentials reissue of Kim Stanley Robinson’s novel Icehenge. It took me approximately thirty seconds to convince myself that this was not some kind of hallucination, and another three or four to type YES! OF COURSE!!! and hit reply. It […]",
           "link": "https://crookedtimber.org/2024/04/12/the-making-of-icehenge/",
           "publishedOn": "2024-04-12T12:43:17.000Z",
-          "wordCount": 6578,
+          "wordCount": 6579,
           "title": "The making of Icehenge",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2260,7 +2270,7 @@
           "description": "I’ve posted a few times over the years about a trip I made with my partner to Leipzig in East Germany back in 1984, and I confess that the now-defunct country retains a kind of fascination for me. My rather banal judgement then and now is that the country, though marked by annoying shortages and […]",
           "link": "https://crookedtimber.org/2024/04/09/east-german-history/",
           "publishedOn": "2024-04-09T06:20:21.000Z",
-          "wordCount": 24708,
+          "wordCount": 24709,
           "title": "East German history",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2270,7 +2280,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/04/07/sunday-photoblogging-canal-saint-martin-paris-2/",
           "publishedOn": "2024-04-07T06:45:08.000Z",
-          "wordCount": 1692,
+          "wordCount": 1693,
           "title": "Sunday photoblogging: Canal Saint-Martin, Paris (2)",
           "imageUrl": "https://live.staticflickr.com/65535/53609817228_fcb8730869.jpg"
         },
@@ -2280,7 +2290,7 @@
           "description": "In the wake of the sentencing of SBF last week there were two mighty takedowns of effective altruism: one (here) “The Deaths of Effective Altruism Sam Bankman-Fried is finally facing punishment. Let’s also put his ruinous philosophy on trial” by Leif Wenar (Stanford) at Wired; the other and better written, “Neo-Utilitarians Are Utter Philistines” by Justin Smith-Ruiu (Paris) at his […]",
           "link": "https://crookedtimber.org/2024/04/05/on-shallow-ponds-and-effective-altruism/",
           "publishedOn": "2024-04-05T09:59:17.000Z",
-          "wordCount": 10261,
+          "wordCount": 10262,
           "title": "On Shallow Ponds and Effective Altruism",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2290,7 +2300,7 @@
           "description": "Thesis: in the English-speaking world, the last 50 years has seen a dramatic increase in the quantity *and quality* of text and visual mass media intended for children. Let’s define some terms.  I’m talking about books, cartoons, TV, and movies. Music is not included; comics and graphic novels are a special case. When I say […]",
           "link": "https://crookedtimber.org/2024/04/04/kid-stuff-cartoons/",
           "publishedOn": "2024-04-04T18:52:57.000Z",
-          "wordCount": 7889,
+          "wordCount": 7890,
           "title": "Kid Stuff: Cartoons",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2300,7 +2310,7 @@
           "description": "Over the last year, three of the four most powerful navies[1] in the world have suffered humiliating defeats at the hands of opponents with no navy at all. First, there’s Russia’s Black Sea Fleet. Until the invasion of Ukraine in February 2022, it was regularly touted as a decisive factor in any conflict, capable not […]",
           "link": "https://crookedtimber.org/2024/04/03/navies-are-obsolete-but-no-one-will-admit-it/",
           "publishedOn": "2024-04-03T00:49:25.000Z",
-          "wordCount": 16373,
+          "wordCount": 16374,
           "title": "Navies are obsolete, but no one will admit it",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }

@@ -1,18 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-26T18:26:50.756Z</id>
+    <id>urn:2024-04-27T01:22:14.755Z</id>
     <title>osmos::feed</title>
-    <updated>2024-04-26T18:26:50.756Z</updated>
+    <updated>2024-04-27T01:22:14.755Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New comment by singlow in "Court upholds New York law that says ISPs must offer $15 broadband"]]></title>
+        <id>https://news.ycombinator.com/item?id=40174690</id>
+        <link href="https://news.ycombinator.com/item?id=40174690"/>
+        <updated>2024-04-26T21:46:33.000Z</updated>
+        <summary type="html"><![CDATA[I think the logic here is that the government has already subsidized them by granting privileges to use public infrastrucure that was built with tax dollars. There can only be so many wires running on the poles or under the streets so in return for that privilege, you have to provide this in return.]]></summary>
+        <author>
+            <name>singlow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by Animats in "Leaving Rust gamedev after 3 years"]]></title>
+        <id>https://news.ycombinator.com/item?id=40172952</id>
+        <link href="https://news.ycombinator.com/item?id=40172952"/>
+        <updated>2024-04-26T19:16:31.000Z</updated>
+        <summary type="html"><![CDATA[That's a good article. He's right about many things.
+I've been writing a metaverse client in Rust for several years now. Works with Second Life and Open Simulator servers. Here's some video.[1] It's about 45,000 lines of safe Rust.
+Notes:
+* There are very few people doing serious 3D game work in Rust. There's Veloren, and my stuff, and maybe a few others. No big, popular titles. I'd expected some AAA title to be written in Rust by now. That hasn't happened, and it's probably not going to happen, for the reasons the author gives.
+* He's right about the pain of refactoring and the difficulties of interconnecting different parts of the program. It's quite common for some change to require extensive plumbing work. If the client that talks to the servers needs to talk to the 2D GUI, it has to queue an event.
+* The rendering situation is almost adequate, but the stack isn't finished and reliable yet. The 2D GUI systems are weak and require too much code per dialog box.
+* I tend to agree about the "async contamination" problem. The "async" system is optimized for someone who needs to run a very large web server, with a huge number of clients sending in requests. I've been pushing back against it creeping into areas that don't really need it.
+* I have less trouble with compile times than he does, because the metaverse client has no built-in "gameplay". A metaverse client is more like a 3D web browser than a game.
+All the objects and their behaviors come from the server.
+I can edit my part of the world from inside the live world.  If the color or behavior or model of something needs to be changed, that's not something that requires a client recompile.
+The people using C# and Unity on the same problem are making much faster progress.
+[1] https://video.hardlimit.com/w/7usCE3v2RrWK6nuoSr4NHJ]]></summary>
+        <author>
+            <name>Animats</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launching the Capital One Hub at UVA School of Data Science]]></title>
+        <id>https://medium.com/p/085e3e050d14</id>
+        <link href="https://medium.com/capital-one-tech/launching-the-capital-one-hub-at-uva-school-of-data-science-085e3e050d14?source=rss----3db3a67cb648---4"/>
+        <updated>2024-04-26T18:12:31.000Z</updated>
+        <summary type="html"><![CDATA[The new Capital One Hub will advance data science at UVA and beyond.]]></summary>
+        <author>
+            <name>Capital One Tech</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 4/26/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=270571</id>
         <link href="https://www.nakedcapitalism.com/2024/04/200pm-water-cooler-4-26-2024.html"/>
         <updated>2024-04-26T18:00:14.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, pandemics ~]]></summary>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, pandemics, Seattle Clean Air Collective, Presidential immunity, Susie Wiles, feared political operative and Trump's right hand person, AI infesting Etsy crochet pattern marketplace ~]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by HL33tibCe7 in "Leaving Rust gamedev after 3 years"]]></title>
+        <id>https://news.ycombinator.com/item?id=40172284</id>
+        <link href="https://news.ycombinator.com/item?id=40172284"/>
+        <updated>2024-04-26T17:57:05.000Z</updated>
+        <summary type="html"><![CDATA[> The problem you're having is only a problem because you haven't tried hard enough.
+You just need to read another 50,000 word fasterthanlime essay. Then you'll not have problems any more.
+> That being said, there is an overwhelming force in the Rust community that when anyone mentions they're having problems with Rust the language on a fundamental level, the answer is "you just don't get it yet, I promise once you get good enough things will make sense".
+Not only this, but they openly mock other language communities for not drinking the koolaid.
+I like Rust, and the Rust community, and fasterthanlime, for what it's worth. But I think these points raised in the article are very much valid.]]></summary>
+        <author>
+            <name>HL33tibCe7</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enable Private Access to the Amazon EKS Kubernetes API with AWS PrivateLink]]></title>
+        <id>cd00a3e5a430b8331a5484c3f93e5b5c418c464a</id>
+        <link href="https://aws.amazon.com/blogs/containers/enable-private-access-to-the-amazon-eks-kubernetes-api-with-aws-privatelink/"/>
+        <updated>2024-04-26T16:25:09.000Z</updated>
+        <summary type="html"><![CDATA[Introduction The adoption and large-scale growth of Kubernetes in recent years has resulted in businesses deploying multiple Amazon Elastic Kubernetes Service (Amazon EKS) clusters to support their growing number of microservice based applications. The Amazon EKS clusters are usually deployed in separate Amazon Virtual Private Clouds (Amazon VPCs) and often in separate AWS accounts. A […]]]></summary>
+        <author>
+            <name>Aaron Miller</name>
         </author>
     </entry>
     <entry>
@@ -66,7 +131,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by joshstrange in "Passkeys: A Shattered Dream"]]></title>
+        <title type="html"><![CDATA[New comment by joshstrange in "Passkeys: A shattered dream"]]></title>
         <id>https://news.ycombinator.com/item?id=40167519</id>
         <link href="https://news.ycombinator.com/item?id=40167519"/>
         <updated>2024-04-26T09:56:12.000Z</updated>
@@ -97,7 +162,7 @@ I fully understand username/email + password and remembering the pain of things 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by saagarjha in "Passkeys: A Shattered Dream"]]></title>
+        <title type="html"><![CDATA[New comment by saagarjha in "Passkeys: A shattered dream"]]></title>
         <id>https://news.ycombinator.com/item?id=40166723</id>
         <link href="https://news.ycombinator.com/item?id=40166723"/>
         <updated>2024-04-26T07:24:40.000Z</updated>
@@ -495,6 +560,31 @@ allowing only a single webhook in th…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by Karellen in "No Abstractions: our API design principle"]]></title>
+        <id>https://news.ycombinator.com/item?id=40163828</id>
+        <link href="https://news.ycombinator.com/item?id=40163828"/>
+        <updated>2024-04-25T22:23:36.000Z</updated>
+        <summary type="html"><![CDATA[> If you’re building an abstraction-heavy API, be prepared to think hard before adding new features. If you’re building an abstraction-light API, commit to it and resist the temptation to add abstractions when it comes along.
+You could always do both.
+Provide a low-level abstraction-light API that allows fine control but requires deep expertise, and write a higher-level abstraction-rich API on top of it that maps to fewer simple operations for the most common use cases - which some of your clients might be implementing their own half-baked versions of anyway.
+If you maintain a clean separation between the two, having both in place might mean there is less pressure to add abstractions to the low-level API, or to add warts and special-cases to the high-level API. If a client wants one of those things, it already exists - in the other API.
+Bonus points for providing materials to help your clients learn how to move from one to the other. You can attract clients who do not yet have deep knowledge of payment network internals, but are looking to improve in that direction.]]></summary>
+        <author>
+            <name>Karellen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by mgiampapa in "FCC votes to restore net neutrality rules"]]></title>
+        <id>https://news.ycombinator.com/item?id=40163817</id>
+        <link href="https://news.ycombinator.com/item?id=40163817"/>
+        <updated>2024-04-25T22:22:36.000Z</updated>
+        <summary type="html"><![CDATA[Because California saved it. https://en.wikipedia.org/wiki/California_Internet_Consumer_P...
+If any of the companies that wanted to exploit the lack of FCC enforced net neutrality did business with California they would have had a big problem.]]></summary>
+        <author>
+            <name>mgiampapa</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by pavlov in "FCC votes to restore net neutrality rules"]]></title>
         <id>https://news.ycombinator.com/item?id=40161351</id>
         <link href="https://news.ycombinator.com/item?id=40161351"/>
@@ -541,17 +631,6 @@ As for why this is important just because ISPs aren't currently doing it on a la
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by bearjaws in "FCC votes to restore net neutrality rules"]]></title>
-        <id>https://news.ycombinator.com/item?id=40160893</id>
-        <link href="https://news.ycombinator.com/item?id=40160893"/>
-        <updated>2024-04-25T17:57:34.000Z</updated>
-        <summary type="html"><![CDATA[I'd flip it and say its what happens when Congress has been dysfunctional for over a decade. It's not even possible to get a house bill with net neutrality passed without it included 99 other things that will inevitably get the bill punted on forever.
-Congress could have drafted this anytime if they had seen fit, but they are "too busy" fighting ideology wars.]]></summary>
-        <author>
-            <name>bearjaws</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by SeanAnderson in "FCC votes to restore net neutrality rules"]]></title>
         <id>https://news.ycombinator.com/item?id=40160755</id>
         <link href="https://news.ycombinator.com/item?id=40160755"/>
@@ -584,16 +663,6 @@ It was hard. Lost job, six years under juditial prosecution... at the end, the c
 Be careful if you are an activist or have political involvement. I'm unaware of the workings of the current version, hope it encrypts the torrent cache somehow.]]></summary>
         <author>
             <name>aldeluis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by AdamH12113 in "We have 4 days to contest KYC being required by internet services"]]></title>
-        <id>https://news.ycombinator.com/item?id=40158957</id>
-        <link href="https://news.ycombinator.com/item?id=40158957"/>
-        <updated>2024-04-25T15:48:52.000Z</updated>
-        <summary type="html"><![CDATA[For those who didn't know, KYC stands for "know your customer". It's a good idea to spell out abbreviations the first time they're used, especially since the abbreviation itself is not used in the linked article. It's also worth noting that the proposal is about US infrastructure as a service (IaaS) products specifically, not "internet services" in general.]]></summary>
-        <author>
-            <name>AdamH12113</name>
         </author>
     </entry>
     <entry>
@@ -814,7 +883,7 @@ Structured Authentication Configurati…]]></summary>
         <link href="https://feeds.feedblitz.com/~/882407957/0/themoneyillusion~More-articles/"/>
         <updated>2024-04-24T23:08:32.000Z</updated>
         <summary type="html"><![CDATA[1. Tyler linked to an interesting article on Portugal. This caught my eye: Then, in 2023, the Immigration Control Agency was dissolved, ostensibly in response to an extremely uncharacteristic display of violence where, in March 2020, two officers beat a Ukrainian man to death in the airport of Lisbon. No protests followed the unjust death [&#8230;]<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/882407957/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/882407957/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-18-at-2.26.00-PM.png"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/882407957/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/882407957/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/882407957/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/more-articles-2/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/more-articles-2/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&nbsp;
-<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815209">No. 2 But then again, an entirely pious US foreign policy would ...</a> <i>by Solon of the East</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815141">Andrew, Sure. Completely free trade with China unless they ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815135">“A group we now call “working class”.”   Brilliant! I ...</a> <i>by ChrisinVa</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815098">Scott,   Re (2), could you provide a thesis for how you think ...</a> <i>by Andrew C</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815032">Classical liberalism, Scott, requires representation. It ...</a> <i>by Ricardo</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comments">Plus 4 more...</a></li></ul></div>&#160;</div>]]></summary>
+<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815682">I am SURE that that high speed rail line will only need a grant ...</a> <i>by William Peden</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815209">No. 2 But then again, an entirely pious US foreign policy would ...</a> <i>by Solon of the East</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815141">Andrew, Sure. Completely free trade with China unless they ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815135">“A group we now call “working class”.”   Brilliant! I ...</a> <i>by ChrisinVa</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815098">Scott,   Re (2), could you provide a thesis for how you think ...</a> <i>by Andrew C</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comments">Plus 5 more...</a></li></ul></div>&#160;</div>]]></summary>
         <author>
             <name>The Money Illusion</name>
         </author>
@@ -932,21 +1001,6 @@ EDIT: Changed "0.6 million" to "600,000," which seems clearer. Added "or finetun
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by jmbwell in "Other People’s Problems"]]></title>
-        <id>https://news.ycombinator.com/item?id=40144947</id>
-        <link href="https://news.ycombinator.com/item?id=40144947"/>
-        <updated>2024-04-24T14:40:34.000Z</updated>
-        <summary type="html"><![CDATA[It’s true that sometimes an outsider can offer a fresh perspective. From where you sit, there might be a solution you can’t see. The nearest exit might be in the row behind you.
-Maybe this applies more often when the one giving advice has more experience than the one receiving it, or when the person who is stuck has habituated a narrow perspective or some form of learned helplessness.
-But I recoil at something I think I see more often, which is when several people stand around pointing out the obvious and congratulating each other on their fresh ideas and wondering what’s so hard for the guy who has lived the situation and would love to find a way forward if there were the right resources or the right change in policies or the right change in politics. The peanut gallery loses interest pretty quickly when faced with questions about the real constraints and it turns out their answers are not fresh at all.
-But now we have someone who’s “marinating in the stuck,” surrounded by people who still agree with each other that they know how it should all be done but have now also been embarrassed.
-It’s an ugly, toxic cycle that bottoms out at everyone constantly having their knowledge and competence questioned over things they know and can do, by people who don’t and can’t.
-If someone is stuck, ask if you can help, sure. Ask what seems to be the trouble. Ask what has been tried so far. But maybe don’t lead with your advice.]]></summary>
-        <author>
-            <name>jmbwell</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Ecologists Struggle to Get a Grip on ‘Keystone Species’]]></title>
         <id>https://www.quantamagazine.org/?p=137485</id>
         <link href="https://www.quantamagazine.org/ecologists-struggle-to-get-a-grip-on-keystone-species-20240424/"/>
@@ -955,29 +1009,6 @@ If someone is stuck, ask if you can help, sure. Ask what seems to be the trouble
 The post Ecologists Struggle to Get a Grip on ‘Keystone Species’ first appeared on Quanta Magazine]]></summary>
         <author>
             <name>Lesley Evans Ogden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by NalNezumi in "Meta does everything OpenAI should be"]]></title>
-        <id>https://news.ycombinator.com/item?id=40143097</id>
-        <link href="https://news.ycombinator.com/item?id=40143097"/>
-        <updated>2024-04-24T11:35:55.000Z</updated>
-        <summary type="html"><![CDATA[I think one should attribute a good amount of credit of this to Yann LeCun (head of meta's research). From early stage he have been vocal about keeping things open-source, and voiced that to Mark before even joining. (and credit to Mark for keeping that).
-It probably also stems from his experience working at Bell Labs, and how his pioneering work very much required a lot of help from things available openly, as is still the case in academia.
-The man have been repeating the advantage of open-source being the better option, and been very vocal about his opposition to "regulate AI (read: let a handful of US government aligned closed-source companies have complete monopoly on AI under the guise of ethics)". On this point he (and meta) stands in a pretty stark contrast to a lot of big-tech AI mainstream voices.
-Me myself recently moved some research tech stack to meta stuff, and unlike platform that basically stops being supported as soon as the main contributor finishes his PhD, it have been great to work on it (and they're usually open to feedback and fixes/PR).]]></summary>
-        <author>
-            <name>NalNezumi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by m_fayer in "Zoho is attracting the attention of African startup founders"]]></title>
-        <id>https://news.ycombinator.com/item?id=40142975</id>
-        <link href="https://news.ycombinator.com/item?id=40142975"/>
-        <updated>2024-04-24T11:17:44.000Z</updated>
-        <summary type="html"><![CDATA[I had Zoho set up on the lowest tier for a side-hustle project years ago. It did it's job smoothly and without much intrusion. Then the project ended and I forgot about the Zoho account, changed phone numbers, lost the 2fa keys - all of it. Totally my fault. Their support quickly and competently handheld me through the shutdown process. I can't imagine the nightmare Google would've forced me through to shut down a pointless 3$/month charge had I made the same mistake with them.]]></summary>
-        <author>
-            <name>m_fayer</name>
         </author>
     </entry>
     <entry>
@@ -2171,16 +2202,6 @@ Read the full article]]></summary>
         <summary type="html"><![CDATA[Maximizing the value from Enterprise Software tools requires an understanding of who and how users interact with those tools. As we have worked with builders rolling out Amazon CodeWhisperer to their enterprises, identifying usage patterns has been critical. This blog post is a result of that work, builds on Introducing Amazon CodeWhisperer Dashboard blog and […]]]></summary>
         <author>
             <name>David Ernst</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unlocking AWS Fargate feature for attaching Amazon EBS Volumes to ECS Tasks]]></title>
-        <id>684b3d0372958d43471bf306edb684cc1489dc53</id>
-        <link href="https://aws.amazon.com/blogs/containers/unlocking-aws-fargate-feature-for-attaching-amazon-ebs-volumes-to-ecs-tasks/"/>
-        <updated>2024-04-03T16:52:23.000Z</updated>
-        <summary type="html"><![CDATA[Introduction Amazon Elastic Container Service (Amazon ECS) has now enhanced its functionalities by integrating support for Amazon Elastic Block Store (Amazon EBS) volume attachment to Amazon ECS tasks. This feature simplifies using Amazon ECS and AWS Fargate with Amazon EBS. Amazon ECS facilitates seamless provisioning and attachment of EBS volumes to ECS tasks on both […]]]></summary>
-        <author>
-            <name>Jooyoung Kim</name>
         </author>
     </entry>
     <entry>
