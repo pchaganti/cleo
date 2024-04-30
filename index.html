@@ -51,6 +51,65 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-30 datetime="2024-04-30T00:00:00.000Z">2024-04-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-30 datetime="2024-04-30T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes Blog</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/04/30/prevent-unauthorized-volume-mode-conversion-ga/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes 1.30: Preventing unauthorized volume mode conversion moves to GA</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/04/30/prevent-unauthorized-volume-mode-conversion-ga/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>With the release of Kubernetes 1.30, the feature to prevent the modification of the volume mode
+of a PersistentVolumeClaim that was created from
+an existing VolumeSnapshot in a Kubernetes cluster, has moved to GA!
+The problem
+The Volume Mode of a PersistentVolumeClaim
+refers to whether the underlying volume on the storage device is formatted into a filesystem or
+presented as a raw block device to the Pod that uses it.
+Users can leverage the VolumeSnapshot feature, which has been stable since Kubernetes v1.20,
+to create a PersistentVolumeClaim (shortened as PVC) from an existing VolumeSnapshot in
+the Kubernetes cluster. The PVC spec includes a dataSource field, which can point to an
+existing VolumeSnapshot instance.
+Visit Create a PersistentVolumeClaim from a Volume Snapshot
+for more detail…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-29 datetime="2024-04-29T21:25:20.000Z">2024-04-29</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-29 datetime="2024-04-29T21:25:20.000Z"></time>
           </button>
@@ -80,7 +139,7 @@
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/04/palestine_is_everywhere.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>A tour of the Gaza encampments</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;20
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -100,7 +159,7 @@
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/04/rcp_2024-04-26.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>~ Today&#x27;s Water Cooler: Politics, Pandemics, and partially open thread ~</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                &ensp;<span class="article-reading-time">(&hairsp;28
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -120,7 +179,7 @@
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/04/Screenshot-2024-04-28-at-3.53.36 PM-e1714334155721.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;55
+                                &ensp;<span class="article-reading-time">(&hairsp;56
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -139,7 +198,7 @@
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>A look at some of the courses of action to impose costs on Israel and its backers, here, economic costs.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                &ensp;<span class="article-reading-time">(&hairsp;28
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -232,114 +291,6 @@
                             <span class="media-object__text">
                               <span>This was a busy week for Amazon Bedrock with many new features! Using GitHub Actions with AWS CodeBuild is much easier. Also, Amazon Q in Amazon CodeCatalyst can now manage more complex issues. I was amazed to meet so many new and old friends at the AWS Summit London. To give you a quick glimpse, […]</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40201599"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by nanolith in &quot;The Internet Archive&#x27;s last-ditch effort to save itself&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40201599">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>My wife is a librarian. The elephant in the room here is that patrons are shifting toward a preference for digital distribution. However, Fair Use has not caught up. So, libraries end up spending a large portion of their operating budget &quot;leasing&quot; ebooks from publishers at extraordinary markup over the print copies. These leases are only good for so many &quot;check outs&quot; -- often as few as 4-6 -- after which point, the lease must be renewed at a price that can be 2X or 3X the cost of the print book. It&#x27;s downright predatory.
-IA may have gone beyond pushing the envelope and well into stepping over the line on this one, but it is an important legal challenge. I don&#x27;t think IA will or should win, but I do hope that their loss shifts the needle of public opinion a bit toward actual Fair Use.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40201318"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by LeoPanthera in &quot;The Internet Archive&#x27;s last-ditch effort to save itself&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40201318">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The &quot;National Emergency Library&quot; was obviously a huge mistake, and I&#x27;m surprised that IA continues to defend it. The problem is, their online book lending is far from the most important part of the Internet Archive, and by continuing to fight for it, they risk losing everything, including the entire rest of the archive which seems to me to be far more important.
-The Internet Archive has become the de-facto default location to upload anything rare, important, or valuable, and a terrifyingly large amount of history would suddenly blink from existence if it were brought down.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40197822"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by slibhb in &quot;What&#x27;s Going on with ‘Nonplussed’? (2017)&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40197822">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>First they came for literally and I did nothing because I wasn&#x27;t a pedant.
-Then they came for nonplussed and I still did nothing because I&#x27;m still not a pedant.
-I sure hope they don&#x27;t come for pedant next.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40193626"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by jmward01 in &quot;The Myth of the Second Chance&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40193626">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A corollary to this may be that those who get many chances are more likely to succeed. This is often the case for people that have a safety net of some sort compared to those that don&#x27;t when it comes to, for example, starting businesses. Those with a safety net can fail and try again and again and eventually tell the story of how &#x27;gumption and spirit&#x27; made them a success while those that didn&#x27;t have a safety net &#x27;just didn&#x27;t try hard enough&#x27;. I know I have been exceptionally lucky in that I have been given many chances to fail, and taken them! Without those opportunities to fail safely I wouldn&#x27;t have the success I have now.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40193505"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by n9 in &quot;I found one of my first programs (Java, 2011) on the Wayback Machine and it runs&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40193505">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The first major piece of code that I ever wrote was a publishing workflow management system for a major newspaper. It routed page images to presses and generated pdfs of each page in each edition of the newspaper and made pdfs of each day&#x27;s newspaper editions and published them to a static website where they were archived.
-I was only allowed to use perl 4 to write this software and I wasn&#x27;t allowed to use a database, even though the datastructure for a day&#x27;s publishing batch had tens of thousands of keys and values and required RDBMs style queries. It also features a configurable postscript parser that extracts all kinds of data from completed newspaper pages that informs the publishing system. When I wrote it I was told that it would run for a few months only while we figured out how to get a $5M commercial product to handle the work.
-The whole thing was written in perl 4 style OO Perl and came in at about 16k lines of code in the end -- most of the code was for the postscript processor and tons of cruft that I had to write to made a relational DBMS in memory because I wasn&#x27;t allowed to use mysql. It took me four months to write it. I launched it in January of 2002 and it runs to this day. I know this because I got a call about it last month where my replacement&#x27;s replacement&#x27;s replacement asked me a few questions about what OO Perl is because he wanted to make a few changes. Good luck! It still runs and is responsbile for about 80% of what it was originally built to do. It is used by hundreds of people daily, who by all reports absolutely hate it. There are people working at the newspaper today that use it regularly that were not born when I wrote it. I am twice as old as I was when I wrote it.
-They have apparently tried to replace it several times over the last 22 years and have failed to do so... this is likely due to the blockheadedness of my old boss (who is still there) as much as the radically insane obscurity of my code, which is exactly how you&#x27;d expect 16k lines of 22 year old OO Perl 4 would be.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -725,104 +676,11 @@ The post Statement of Four Cornell Students Suspended for Protesting Israel’s 
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-28 datetime="2024-04-28T17:12:46.000Z">2024-04-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-28 datetime="2024-04-28T17:12:46.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-28 datetime="2024-04-28T15:00:47.000Z">2024-04-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-28 datetime="2024-04-28T15:00:47.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40190062"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by claytonwramsey in &quot;Did we lose our way in making efficient software?&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40190062">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>There is perhaps some irony in the fact that this blog was posted to Medium, which serves 10.88 MB for a 265-word article.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40189986"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by s1k3s in &quot;Did we lose our way in making efficient software?&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40189986">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I want to make native apps but Apple and Microsoft seem to be trying really hard to stop me. I have to buy developer accounts, buy certificates for signing binaries, share 30% of my revenue with them for barely any reason and so on. Not to mention the mess they&#x27;ve introduced in their APIs - especially Microsoft. So of course we choose the much simpler, much cheaper way of the web.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;38
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40186791"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by wickedsight in &quot;Google made me ruin a perfectly good website (2023)&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40186791">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Last year a friend and I made a website about the Nurburgring. It provided basic info for first time visitors that we were missing on our first visit. My friend spent a lot of time creating a UI with a custom map for displaying locations and routes. I wrote a bunch of content that was thoroughly researched.
-At a certain point we ended up being invited by one of the largest rental companies to see whether we could work together. They invited us because the content was incredibly useful for their visitors and they preferred our calendar over the official one for ease of use.
-So clearly, our site was adding value for the target audience we had in mind. We were also consistently getting visitors through different search engines that were looking for the info we provided. The number of visitors was growing consistently and pretty much all the feedback we got was positive.
-In March, Google rolled out a new algo which all but completely removed us from search results. Out visitors dropped about 80% and growth has disappeared. What was a fun project that we spent many hours on is now a waste of computing resources.
-I hate that Google gatekeeps the internet.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;30
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40185527"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by tonyarkles in &quot;Google made me ruin a perfectly good website (2023)&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40185527">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I just looked up Cookie and Kate. On my iPad I had to flick 7 times to get past the exposition on Crispy Roasted Chickpeas and find the actual ingredients. When I found the ingredients, they occupied a small squeezed sliver of the page. As I was counting the number of simultaneous ads surrounding the ingredient list (4 separate ads), a pop up covered them all and suggested I sign up for her newsletter.
-The recipe looks good (chickpeas, olive oil, salt, spices, oh shit I stole her blog post). I also think the site counts as &quot;worthless blogspam&quot;.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -920,7 +778,7 @@ The recipe looks good (chickpeas, olive oil, salt, spices, oh shit I stole her b
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>&quot;I will be as harsh as truth, and as uncompromising as justice,&quot; William Lloyd Garrison once said. &quot;On this subject, I do not wish to think, or to speak, or write, with moderation.&quot;</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;39
+                                &ensp;<span class="article-reading-time">(&hairsp;40
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1042,157 +900,11 @@ The post Satan v. Netanyahu et al. appeared first on CounterPunch.org.</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-27 datetime="2024-04-27T16:13:33.000Z">2024-04-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-27 datetime="2024-04-27T16:13:33.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-27 datetime="2024-04-27T14:39:11.000Z">2024-04-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-27 datetime="2024-04-27T14:39:11.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40181071"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by fidotron in &quot;The walls of Apple&#x27;s garden are tumbling down&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40181071">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The thing people love forgetting is a huge part of the iPhone success is based on the North American cellular comms industry being a trustless disaster area. The deal Apple did with AT&amp;T opened the floodgates.
-Android was initially designed so that operators could customise it. The idea was apps were developed (and sold) only by operators, and everything else would be via the browser. If you had used a Nokia device in the EU in 2005 and then the exact same model in the customised form released on a US carrier you&#x27;d understand why this was such a terrible idea. The exclusion of carriers from being able to make modifications to the phone was, and remains, an active feature for end users.
-People keep having to learn that developers cannot be trusted either, someone somewhere will always trend towards the very worst thing they can do, and you need look no further than this forum for the levels of avarice which have overrun the tech industry. The EU regulators live in a parallel universe where they&#x27;re all dependent on WhatsApp as they&#x27;ve never truly internalised that there is no such thing as a free lunch and that people see them as easy marks.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40180279"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by mihai_maruseac in &quot;Google lays off its Python team&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40180279">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Google is an AI first company
-Google&#x27;s future is strictly tied to its AI products
-All AI is written with Python.
-Google lays off all Python team.
-Segmentation fault</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40179056"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by dinckelman in &quot;Apple users are being locked out of their Apple IDs with no explanation&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40179056">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>So i&#x27;m not the only one, huh. Got myself an iPhone, downloaded 2 apps, went to bed, woke up to a complete lockout. They unblocked me through a phone support request, after 18 hours, and then hit me with a fresh ban, not even 24 hours later. Account got permabanned after like 5 more calls, where they just started sending me a legal notice instead.
-The fact that your device can become a complete brick, because of an issue in their completely hands-off account management system, smells like a class action suit</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;42
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40178749"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by webdevver in &quot;World Wide Web (1991)&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40178749">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>just out of curiosity, what were you doing before you had lunch today?</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40176901"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by soupbowl in &quot;British Columbia to recriminalize use of drugs in public spaces&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40176901">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I lived in BC for 40 years and this policy affected me negatively it turned my neighborhood from a clean safe place to a nightmare. This always turns Into a flamewar online, I will keep it at this. I am happy they are finally changing something, whatever they were doing was terrible but I hope whatever they do now, a better solution is found, whatever that means.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40176832"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by k0mplex in &quot;The Vision Pro is a flop&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40176832">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>We actually want big tech to take swings like Vision Pro. And we should also be fine if they fail.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40175876"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by hughesjj in &quot;Court upholds New York law that says ISPs must offer $15 broadband&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40175876">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Not even granting public infra, we straight up paid BILLIONS for them to expand broadband coverage and the ISP&#x27;s didn&#x27;t do jack most of the time
-https://www.huffpost.com/entry/verizon-pennsylvanias-com_b_7...
-&gt; By the end of 2003, Teletruth estimates that every household in Pennsylvania has paid in excess of $1,135.00 for a fiber optic service they will never get. Teletruth estimates that the total overcharging to be $3.9 billion or more in excess profits, tax deductions, and other financial perks, including funding other business ventures through cross-subsidization.
-And it&#x27;s far from just PA
-https://newnetworks.com/bookbrokenpromises/</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1313,187 +1025,11 @@ Inequality</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-26 datetime="2024-04-26T21:46:33.000Z">2024-04-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-26 datetime="2024-04-26T21:46:33.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-26 datetime="2024-04-26T18:12:31.000Z">2024-04-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-26 datetime="2024-04-26T18:12:31.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40174690"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by singlow in &quot;Court upholds New York law that says ISPs must offer $15 broadband&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40174690">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I think the logic here is that the government has already subsidized them by granting privileges to use public infrastrucure that was built with tax dollars. There can only be so many wires running on the poles or under the streets so in return for that privilege, you have to provide this in return.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40173475"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by stephc_int13 in &quot;Leaving Rust gamedev after 3 years&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40173475">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>As a game developer for about two decades, I&#x27;ve never considered Rust to be a good programming language choice.
-My priorities are reasonable performances and the fastest iteration time possible.
-Gameplay code should be flexible, we have tons and tons of edge cases _by design_ because this is the best way to create interesting games.
-Compilation time is very important, but also a flexible enough programming structure, moving things around and changing your mind about the most desirable approach several times a day is common during heavy development phases.
-We almost never have specifications, almost nothing is set until the game is done.
-It is a different story for game engines, renderers, physics, audio, asset loaders etc. those are much closer to system programming but this is also not where we usually spend the most time, as a professional you&#x27;re supposed to either use off-the-shelf engines or already made frameworks and libraries.
-Also, ECS is, IMHO, a useful pattern for some systems, but it is a pain in the butt to use with gameplay or UI code.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40172952"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by Animats in &quot;Leaving Rust gamedev after 3 years&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40172952">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>That&#x27;s a good article. He&#x27;s right about many things.
-I&#x27;ve been writing a metaverse client in Rust for several years now. Works with Second Life and Open Simulator servers. Here&#x27;s some video.[1] It&#x27;s about 45,000 lines of safe Rust.
-Notes:
-* There are very few people doing serious 3D game work in Rust. There&#x27;s Veloren, and my stuff, and maybe a few others. No big, popular titles. I&#x27;d expected some AAA title to be written in Rust by now. That hasn&#x27;t happened, and it&#x27;s probably not going to happen, for the reasons the author gives.
-* He&#x27;s right about the pain of refactoring and the difficulties of interconnecting different parts of the program. It&#x27;s quite common for some change to require extensive plumbing work. If the client that talks to the servers needs to talk to the 2D GUI, it has to queue an event.
-* The rendering situation is almost adequate, but the stack isn&#x27;t finished and reliable yet. The 2D GUI systems are weak and require too much code per dialog box.
-* I tend to agree about the &quot;async contamination&quot; problem. The &quot;async&quot; system is optimized for someone who needs to run a very large web server, with a huge number of clients sending in requests. I&#x27;ve been pushing back against it creeping into areas that don&#x27;t really need it.
-* I have less trouble with compile times than he does, because the metaverse client has no built-in &quot;gameplay&quot;. A metaverse client is more like a 3D web browser than a game.
-All the objects and their behaviors come from the server.
-I can edit my part of the world from inside the live world.  If the color or behavior or model of something needs to be changed, that&#x27;s not something that requires a client recompile.
-The people using C# and Unity on the same problem are making much faster progress.
-[1] https://video.hardlimit.com/w/7usCE3v2RrWK6nuoSr4NHJ</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40172284"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by HL33tibCe7 in &quot;Leaving Rust gamedev after 3 years&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40172284">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>&gt; The problem you&#x27;re having is only a problem because you haven&#x27;t tried hard enough.
-You just need to read another 50,000 word fasterthanlime essay. Then you&#x27;ll not have problems any more.
-&gt; That being said, there is an overwhelming force in the Rust community that when anyone mentions they&#x27;re having problems with Rust the language on a fundamental level, the answer is &quot;you just don&#x27;t get it yet, I promise once you get good enough things will make sense&quot;.
-Not only this, but they openly mock other language communities for not drinking the koolaid.
-I like Rust, and the Rust community, and fasterthanlime, for what it&#x27;s worth. But I think these points raised in the article are very much valid.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40171974"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by zem in &quot;Google lays off its Python team&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40171974">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>i got caught up in this :( really sad about the whole thing; this was by far the best job i&#x27;ve had in my 20-year career (including other teams at google), and i do not know if i will ever have another one as good. we were a chronically understaffed team supporting a large part of the python ecosystem at google, and we did some amazing work over the years.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40167519"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by joshstrange in &quot;Passkeys: A shattered dream&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40167519">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I’ve avoided passkeys so far because I just don’t have a good mental model of them. All my passwords are randomly generate and stored in a password manager so I really haven’t felt the need to switch or felt constrained by my existing set up.
-I fully understand username/email + password and remembering the pain of things like “app specific passwords” makes me worry that some tools (open source, cli, etc) might not integrate well with password less so it’s best to stay where I am until things settle out better.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40166723"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by saagarjha in &quot;Passkeys: A shattered dream&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40166723">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The biggest issue with passkeys is that I just can&#x27;t trust the companies offering them. They are locked into the platform for reasons that are ostensibly security but often indistinguishable from platform lock-in. If you make a passkey on an Apple device as far as I can tell it will never leave that device, ever, and there is no way to change this. Of course this means you can never be phished for your credentials but if Apple decides to delete your key or you want to leave your iPhone behind, what are you supposed to do?</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40166432"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by pavlov in &quot;Open Sourcing DOS 4&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40166432">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>When I was nine years old, I liked poking around with a hex editor on my dad’s PC.
-I didn’t speak English and MS-DOS wasn’t yet localized to Finnish in 1989, so I decided to try translating it myself with a dictionary by manually finding and replacing strings in the SYS/COM files. The result worked and my dad was suitably impressed, if probably a bit peeved that nothing worked anymore in the shell as expected (since I had replaced all the basic command names too — “dir” became “hak” and so on).
-It’s pretty cool to see those strings again in src/MESSAGES.
-At the same time, it feels a bit sad that today’s kids can’t get the same feeling that the computer is really theirs to modify. Modern operating systems don’t run binaries tampered with a hex editor. Most kids are on operating systems like iOS where they can’t even run a C compiler.
-They can play with code in various sandboxes locally and on the web, but the computer fundamentally belongs to someone else today.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1519,40 +1055,6 @@ They can play with code in various sandboxes locally and on the web, but the com
                             <span class="media-object__text">
                               <span>The new Capital One Hub will advance data science at UVA and beyond.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Containers</button>
-                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/containers/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="cd00a3e5a430b8331a5484c3f93e5b5c418c464a"
-                        open
-                      >
-                        <summary class="article-expander__title">Enable Private Access to the Amazon EKS Kubernetes API with AWS PrivateLink</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/containers/enable-private-access-to-the-amazon-eks-kubernetes-api-with-aws-privatelink/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2023/11/09/Kubernetes-PrivateLink-Featured-Image.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Introduction The adoption and large-scale growth of Kubernetes in recent years has resulted in businesses deploying multiple Amazon Elastic Kubernetes Service (Amazon EKS) clusters to support their growing number of microservice based applications. The Amazon EKS clusters are usually deployed in separate Amazon Virtual Private Clouds (Amazon VPCs) and often in separate AWS accounts. A […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2041,62 +1543,11 @@ allowing only a single webhook in th…</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-25 datetime="2024-04-25T23:58:40.000Z">2024-04-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-25 datetime="2024-04-25T23:58:40.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-25 datetime="2024-04-25T17:24:37.000Z">2024-04-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-25 datetime="2024-04-25T17:24:37.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40164477"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by pavel_lishin in &quot;Jeff Lawson buys The Onion&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40164477">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>From a different article: https://www.businessinsider.com/twilio-founder-jeff-lawson-b...
-&gt; When asked whether he had purchased The Onion, Lawson played coy. &quot;What&#x27;s The Onion?&quot; he replied. Then, &quot;What&#x27;s a Tetrahedron?&quot;
-&gt; Business Insider was unsure how to respond to these questions.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40153026"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by y04nn in &quot;You are what you read, even if you don&#x27;t always remember it&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40153026">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Don&#x27;t forget that you are the result of all the past sensory interactions that you experienced in your whole life, people you interacted with, books you read, advertisements, songs, news headlines, etc. Even if you think you don&#x27;t remember them, at one point in your life it was processed by your brain and may have changed some posterior decisions you made, thus making you what you are now.
-Since I realized this, I am more meticulous when choosing what I do and don&#x27;t do, there is no going back.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -2274,96 +1725,11 @@ Structured Authentication Configurati…</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-24 datetime="2024-04-24T23:25:55.000Z">2024-04-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-24 datetime="2024-04-24T23:25:55.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-24 datetime="2024-04-24T23:08:32.000Z">2024-04-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-24 datetime="2024-04-24T23:08:32.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40151199"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by georgeecollins in &quot;Biden signs TikTok bill into law, starting clock for ByteDance to divest&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40151199">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A US company would never be allowed to own any kind of social media company in China.  You can&#x27;t own a broadcast station in the US as a non-US citizen.  Rupert Murdoch had to become a US citizen to buy Fox.   I don&#x27;t know if I agree with this but you can&#x27;t say there is no precedent for it in the US or in China.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40151034"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by koito17 in &quot;Airlines required to refund passengers for canceled, delayed flights&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40151034">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>As someone who knows somebody that recently had a flight cancelled (then booked another flight at the same airport, only for that flight to get cancelled as well), it was very frustrating to hear that all the airlines in question would do is issue a voucher that expires in 3 months and requires the exact same people to travel alongside you (i.e. if you purchased a ticket for yourself and a relative, then the voucher only applies to flights where you and this exact same relative are boarding). It seems like a pretty blatant way for airlines to keep customer&#x27;s money. Too bad this rule didn&#x27;t come sooner.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40149508"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by calgoo in &quot;IBM to buy HashiCorp in $6.4B deal&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40149508">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Well, it was nice while it lasted! HashiCorp always felt like a company made by actual engineers, not &quot;bean counters&quot;. Now it will just be another cog in the IBM machine, slowly grinding it down, removing everything attractive, just like RedHat and CentOS.
-Hopefully this will create a new wave off innovation, and someone will create something to replace the monopoly on IaC that IBM now owns.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40146306"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by returningfory2 in &quot;Biden signs TikTok bill into law, starting clock for ByteDance to divest&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40146306">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The work &quot;ban&quot; is in scare quotes for a reason. The law doesn&#x27;t ban TikTok. Rather, it bans TikTok from having Chinese owners. If the law stands, the end result will likely be that TikTok will be sold to US owners, rather than TikTok going away.
-It&#x27;s surprising to me that this this pretty significant distinction has been glossed over both in media reporting and in general comments here on HN.
-To be clear, I&#x27;m not supporting the law with this comment, just clarifying what the actual content of the law is.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -3372,7 +2738,7 @@ Europe</span>
                               <img src="https://s0.wp.com/i/blank.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>I’ve been doing a bunch of talks and events online, mostly not CT related, but a couple that might be interesting to readers. One that certainly is is this conversation with Francis Spufford, which is a coda to Red Plenty. Some of my bits of the conversation build on this Long Now talk from a […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4469,7 +3835,7 @@ Read the full coverage</span>
                               <img src="http://blog.cloudflare.com/content/images/2024/04/An-Internet-traffic-analysis-during-Iran-s-April-13--2024--attack-on-Israel-OG-1.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>On April 13, 2024, Iran launched a retaliatory attack on Israel. We examined its potential impact on Internet traffic and attacks. While there were some shifts in traffic, we haven&#x27;t observed any large-scale cyberattacks on Israeli domains protected by Cloudflare.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4936,7 +4302,7 @@ Plus 5 more...</span>
                         <summary class="article-expander__title">Building new custom silicon for Meta’s AI workloads</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.metacareers.com/life/building-custom-silicon-for-the-future-of-ai">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat&#x3D;108&amp;ccb&#x3D;1-7&amp;_nc_sid&#x3D;e280be&amp;_nc_ohc&#x3D;JQ_bxdrUuqIAb6mFZtU&amp;_nc_oc&#x3D;Adgw8_L38P-hNHxtB3W2fzzPdF5vJswS-RHvLUwcBpY8LH_XSqA32b0i0wXrMgwRkeY&amp;_nc_ht&#x3D;scontent-iad3-1.xx&amp;oh&#x3D;00_AfAvlSyx_bXjsPp91xBeDTkzhzj3y6-uy7iaHiteSrcKKQ&amp;oe&#x3D;664A793B" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat&#x3D;108&amp;ccb&#x3D;1-7&amp;_nc_sid&#x3D;e280be&amp;_nc_ohc&#x3D;JQ_bxdrUuqIQ7kNvgGN8fzJ&amp;_nc_oc&#x3D;AdjsJjVTZE6RDAMf-ZQzh_TVXvWhec24xzL6I3_adisKZUspolorcnN9CG8kVsugNV0&amp;_nc_ht&#x3D;scontent-iad3-1.xx&amp;oh&#x3D;00_AfA0sQ7Oedc7FbDQ49oblBiCJex-8_WCT4T5czP0yr0Fww&amp;oe&#x3D;664A793B" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>[...]
 Read More...
@@ -4958,7 +4324,7 @@ The post Building new custom silicon for Meta’s AI workloads appeared first on
                         <summary class="article-expander__title">Building an infrastructure for AI’s future</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.metacareers.com/life/behind-gen-ai-building-an-infrastructure-for-the-future">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat&#x3D;106&amp;ccb&#x3D;1-7&amp;_nc_sid&#x3D;e280be&amp;_nc_ohc&#x3D;HudoZubGxYwQ7kNvgH8QUPz&amp;_nc_ht&#x3D;scontent-iad3-2.xx&amp;oh&#x3D;00_AfBUgKMLDus3qatulLQiNXiw0tT0nP_VgwRrhgTg_V2oJQ&amp;oe&#x3D;664A5163" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat&#x3D;106&amp;ccb&#x3D;1-7&amp;_nc_sid&#x3D;e280be&amp;_nc_ohc&#x3D;HudoZubGxYwAb6lVyQO&amp;_nc_ht&#x3D;scontent-iad3-2.xx&amp;oh&#x3D;00_AfDJTAr0fZxM8jGRBhHZQia19WL7c7_WoO7n3t7rtQm9Og&amp;oe&#x3D;664A89A3" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>[...]
 Read More...
@@ -5320,7 +4686,7 @@ Plus 5 more...</span>
                         <summary class="article-expander__title">Introducing the next-gen Meta Training and Inference Accelerator</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://ai.meta.com/blog/next-generation-meta-training-inference-accelerator-AI-MTIA/">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/434836173_760640236211764_1047890588714439130_n.jpg?_nc_cat&#x3D;106&amp;ccb&#x3D;1-7&amp;_nc_sid&#x3D;e280be&amp;_nc_ohc&#x3D;xHOWs8phYHgAb6yII02&amp;_nc_ht&#x3D;scontent-iad3-2.xx&amp;oh&#x3D;00_AfB0JcFZjeqWWi_CSn2uqWosvvXQcrOklV9m_-tEh9H-Mg&amp;oe&#x3D;664A5A65" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/434836173_760640236211764_1047890588714439130_n.jpg?_nc_cat&#x3D;106&amp;ccb&#x3D;1-7&amp;_nc_sid&#x3D;e280be&amp;_nc_ohc&#x3D;xHOWs8phYHgAb4Rdy4h&amp;_nc_ht&#x3D;scontent-iad3-2.xx&amp;oh&#x3D;00_AfDs91jbkbXSbQWhhc9KVCZ7p1uA8paCP-uiVPhUjXHzdQ&amp;oe&#x3D;664A92A5" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>[...]
 Read More...
@@ -6138,6 +5504,26 @@ Why complicate things? - after all, …</span>
                         </a>
                       </details>
                     </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="13210b760e138ac3839d9215805724098210e884"
+                        open
+                      >
+                        <summary class="article-expander__title">Quora achieved 3x lower latency and 25% lower Costs by modernizing model serving with Nvidia Triton on Amazon EKS</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/containers/quora-3x-faster-machine-learning-25-lower-costs-with-nvidia-triton-on-amazon-eks/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/03/29/Featured-images-for-Containers-Blog-6-1260x630.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Introduction Quora is a leading Q&amp;A platform with a mission to share and grow the world’s knowledge, serving hundreds of millions of users worldwide every month. Quora uses machine learning (ML) to generate a custom feed of questions, answers, and content recommendations based on each user’s activity, interests, and preferences. ML drives targeted advertising on […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                 </section>
               </section>
             </li>
@@ -6269,7 +5655,7 @@ Read the full article</span>
                             <span class="media-object__text">
                               <span>Here’s how retrieval-augmented generation, or RAG, uses a variety of data sources to keep AI models fresh with up-to-date information and organizational knowledge.
 The post What is retrieval-augmented generation, and what does it do for generative AI? appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6863,8 +6249,8 @@ If 2023 was a breakthrough year for LLMs, then 2024 is shaping up to be the year
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/8886262964">
-        <time id="build-timestamp" datetime="2024-04-29T22:26:52.421Z">2024-04-29T22:26:52.421Z</time>
+      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/8887872815">
+        <time id="build-timestamp" datetime="2024-04-30T01:29:05.547Z">2024-04-30T01:29:05.547Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
