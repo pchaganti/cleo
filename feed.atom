@@ -1,10 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-30T18:29:19.442Z</id>
+    <id>urn:2024-05-01T01:35:44.548Z</id>
     <title>osmos::feed</title>
-    <updated>2024-04-30T18:29:19.442Z</updated>
+    <updated>2024-05-01T01:35:44.548Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Container Runtime Interface streaming explained]]></title>
+        <id>https://kubernetes.io/blog/2024/05/01/cri-streaming-explained/</id>
+        <link href="https://kubernetes.io/blog/2024/05/01/cri-streaming-explained/"/>
+        <updated>2024-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Kubernetes Container Runtime Interface (CRI)
+acts as the main connection between the kubelet
+and the Container Runtime.
+Those runtimes have to provide a gRPC server which has to
+fulfill a Kubernetes defined Protocol Buffer interface.
+This API definition
+evolves over time, for example when contributors add new features or fields are
+going to become deprecated.
+In this blog post, I'd like to dive into the functionality and history of three
+extraordinary Remote Procedure Calls (RPCs), which are truly outstanding in
+terms of how they work: Exec, Attach and PortForward.
+Exec can be used to run dedicated commands within the container and stream
+the output to a client like kubectl or
+crictl. It also allows interaction with
+that process using standard input (stdin), for example if users want t…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Add your Ruby gems to AWS CodeArtifact]]></title>
+        <id>0775d12391b11338b1a7e4a6ec8ed43cde3d78ae</id>
+        <link href="https://aws.amazon.com/blogs/aws/add-your-ruby-gems-to-aws-codeartifact/"/>
+        <updated>2024-04-30T22:21:53.000Z</updated>
+        <summary type="html"><![CDATA[Ruby developers can now use AWS CodeArtifact to securely store and retrieve their gems. CodeArtifact integrates with standard developer tools like gem and bundler. Applications often use numerous packages to speed up development by providing reusable code for common tasks like network access, cryptography, or data manipulation. Developers also embed SDKs–such as the AWS SDKs–to […]]]></summary>
+        <author>
+            <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by datadrivenangel in "Quitting engineering to pursue art full-time"]]></title>
+        <id>https://news.ycombinator.com/item?id=40216034</id>
+        <link href="https://news.ycombinator.com/item?id=40216034"/>
+        <updated>2024-04-30T20:38:29.000Z</updated>
+        <summary type="html"><![CDATA[Reminds me of the classic: "Sorry I missed your comment of many months ago. I no longer build software; I now make furniture out of wood. The hours are long, the pay sucks, and there's always the opportunity to remove my finger with a table saw, but nobody asks me if I can add an RSS feed to a DBMS, so there's that :-)"
+https://github.com/docker/cli/issues/267#issuecomment-695149...]]></summary>
+        <author>
+            <name>datadrivenangel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[H5N1 Happily Mutates Away, while Public Health Establishment Plods Along, Treating the Virus as a Food Supply Issue, and Not as a Potential Pandemic]]></title>
+        <id>https://www.nakedcapitalism.com/?p=270814</id>
+        <link href="https://www.nakedcapitalism.com/2024/04/h5n1-happily-mutates-away-while-public-health-establishment-plods-along-treating-the-virus-as-a-food-supply-issue-and-not-a-potential-pandemic.html"/>
+        <updated>2024-04-30T20:25:15.000Z</updated>
+        <summary type="html"><![CDATA[Lambert puts on his Mr. Pandemic™ hat.]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Titan Text V2 now available in Amazon Bedrock, optimized for improving RAG]]></title>
+        <id>ccf9cb1edfcf2e819e0bac0a313a9025d5a63946</id>
+        <link href="https://aws.amazon.com/blogs/aws/amazon-titan-text-v2-now-available-in-amazon-bedrock-optimized-for-improving-rag/"/>
+        <updated>2024-04-30T20:06:51.000Z</updated>
+        <summary type="html"><![CDATA[Amazon Titan foundation models (FMs) offer a comprehensive suite of pre-trained image, multimodal, and text models accessible through a fully managed API. They're designed for a range of applications while adhering to responsible AI practices.]]></summary>
+        <author>
+            <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The destruction of Argentina’s higher education and science system]]></title>
+        <id>https://crookedtimber.org/?p=52654</id>
+        <link href="https://crookedtimber.org/2024/04/30/the-destruction-of-argentinas-higher-education-and-science-system/"/>
+        <updated>2024-04-30T19:02:37.000Z</updated>
+        <summary type="html"><![CDATA[Scientific research, academic knowledge production, and higher education are under an obscene and direct attack today in Argentina. Milei’s attack is not an isolated case. To a certain extent, it is part of a global phenomenon, i.e. the rampant anti-intellectualism of the “new” right-wing movements and governments, which has certainly accelerated its spread with the […]]]></summary>
+        <author>
+            <name>Macarena Marey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by mannyv in "US drug control agency will move to reclassify marijuana"]]></title>
+        <id>https://news.ycombinator.com/item?id=40214223</id>
+        <link href="https://news.ycombinator.com/item?id=40214223"/>
+        <updated>2024-04-30T18:15:18.000Z</updated>
+        <summary type="html"><![CDATA[One major effect of this is that weed stores will be able to use banks and payment processors legally once the regulators catch up.]]></summary>
+        <author>
+            <name>mannyv</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 4/30/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=270811</id>
@@ -23,6 +108,31 @@
         <summary type="html"><![CDATA[Editors note April 30, 2024: The information in this post is outdated and the solution has been retired. For more solutions using AWS services, see the AWS Solutions Library. The new version of the AWS Ops Automator, a solution that enables you to automatically manage your AWS resources, features vertical scaling for Amazon EC2 instances. […]]]></summary>
         <author>
             <name>AWS Editorial Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by nimbius in "Tesla failing to deliver Semi-trucks on time to PepsiCo, Sysco, UPS, and Walmart"]]></title>
+        <id>https://news.ycombinator.com/item?id=40211751</id>
+        <link href="https://news.ycombinator.com/item?id=40211751"/>
+        <updated>2024-04-30T15:01:45.000Z</updated>
+        <summary type="html"><![CDATA[diesel engine mechanic here.  ive been following the tesla "truck" thing for about a year now and it seems pretty miserable.  i dont have the sources, but from several blogs and trade rags (trucking news, professional driver, etc..) ive read the situation seems like it wasnt very well thought out.
+- first callout was OTR longhauls.  Musk clearly didnt want his trucks stuck as lot-tenders where they would work brilliantly, he wanted publicity on the road.
+- longhauls cancelled because obvious infrastructure limitations.  batteries and motors failing more frequently due to the load and the range.  reports of using tesla consumer vehicle components in the drivetrain.  switch to regional routes
+- regional routes failing between AZ/CA due to thermal and performance issues.  range issues.
+- prof…]]></summary>
+        <author>
+            <name>nimbius</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by Workaccount2 in "Tesla failing to deliver Semi-trucks on time to PepsiCo, Sysco, UPS, and Walmart"]]></title>
+        <id>https://news.ycombinator.com/item?id=40211496</id>
+        <link href="https://news.ycombinator.com/item?id=40211496"/>
+        <updated>2024-04-30T14:45:52.000Z</updated>
+        <summary type="html"><![CDATA[The craziest thing about Tesla is that people still believe what musk says.
+I agree it makes sense that battery production is the limiting factor, but my ability to trust what Musk says is close to zero.]]></summary>
+        <author>
+            <name>Workaccount2</name>
         </author>
     </entry>
     <entry>
@@ -57,13 +167,25 @@ The post To Pack Spheres Tightly, Mathematicians Throw Them at Random first appe
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Amazon Q Developer, now generally available, includes new capabilities to reimagine developer experience]]></title>
+        <title type="html"><![CDATA[Amazon Q Developer, now generally available, includes previews of new capabilities to reimagine developer experience]]></title>
         <id>61f7326bca5a32b68ab7d5d0e766ef742ab6f30e</id>
         <link href="https://aws.amazon.com/blogs/aws/amazon-q-developer-now-generally-available-includes-new-capabilities-to-reimagine-developer-experience/"/>
         <updated>2024-04-30T12:05:00.000Z</updated>
-        <summary type="html"><![CDATA[When Amazon Web Services (AWS) launched Amazon Q Developer as a preview last year, it changed my experience of interacting with AWS services and, at the same time, maximizing the potential of AWS services on a daily basis. Trained on 17 years of AWS knowledge and experience, this generative artificial intelligence (generative AI)–powered assistant helps […]]]></summary>
+        <summary type="html"><![CDATA[This generative AI–powered assistant helps developers build applications on AWS, research best practices, perform troubleshooting, and resolve errors.]]></summary>
         <author>
             <name>Donnie Prakoso</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by SQLite in "Why SQLite Uses Bytecode"]]></title>
+        <id>https://news.ycombinator.com/item?id=40209833</id>
+        <link href="https://news.ycombinator.com/item?id=40209833"/>
+        <updated>2024-04-30T11:30:32.000Z</updated>
+        <summary type="html"><![CDATA[Performance analysis indicates that SQLite spends very little time doing bytecode decoding and dispatch.  Most CPU cycles are consumed in walking B-Trees, doing value comparisons, and decoding records - all of which happens in compiled C code.  Bytecode dispatch is using less than 3% of the total CPU time, according to my measurements.
+So at least in the case of SQLite, compiling all the way down to machine code might provide a performance boost 3% or less.  That's not very much, considering the size, complexity, and portability costs involved.
+A key point to keep in mind is that SQLite bytecodes tend to be very high-level (create a B-Tree cursor, position a B-Tree cursor, extract a specific column from a record, etc).  You might have had prior experience with bytecode that is lower level (add two numbers, move a value from one memory location to another, jump if the result is non-zero, etc).  The ratio of bytecode overhead to actual work done is much higher with low-level bytecode.  SQLite also does these kinds of low-level bytecodes, but most of its time is spent inside of high-level bytecodes, where the bytecode overhead is negligible compared to the amount of work being done.]]></summary>
+        <author>
+            <name>SQLite</name>
         </author>
     </entry>
     <entry>
@@ -217,6 +339,21 @@ The post Presidential Candidate Jill Stein Attacked in St. Louis appeared first 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by wolf550e in "Why SQLite Uses Bytecode"]]></title>
+        <id>https://news.ycombinator.com/item?id=40207533</id>
+        <link href="https://news.ycombinator.com/item?id=40207533"/>
+        <updated>2024-04-30T05:30:29.000Z</updated>
+        <summary type="html"><![CDATA[The page is the result of this exchange on Twitter:
+https://twitter.com/gorilla0513/status/1784756577465200740
+I was surprised to receive a reply from you, the author. Thank you :)
+Since I'm a novice with both compilers and databases, could you tell me what the advantages and disadvantages are of using a VM with SQLite?
+https://twitter.com/DRichardHipp/status/1784783482788413491
+It is difficult to summarize the advantages and disadvantages of byte-code versus AST for SQL in a tweet.  I need to write a new page on this topic for the SQLite documentation.  Please remind me if something does not appear in about a week.]]></summary>
+        <author>
+            <name>wolf550e</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Let’s Rethink the War in Ukraine]]></title>
         <id>https://www.counterpunch.org/?p=320392</id>
         <link href="https://www.counterpunch.org/2024/04/30/lets-rethink-the-war-in-ukraine/"/>
@@ -250,6 +387,29 @@ for more detail…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by seabass in "Webb captures iconic Horsehead Nebula in unprecedented detail"]]></title>
+        <id>https://news.ycombinator.com/item?id=40205090</id>
+        <link href="https://news.ycombinator.com/item?id=40205090"/>
+        <updated>2024-04-29T22:53:31.000Z</updated>
+        <summary type="html"><![CDATA[You already noticed the technical card [1], but I can describe some of the details that go into this for those unfamiliar with the items on it.
+1. The scope they used is roughly equivalent to shooting with an 800mm telephoto lens. But the fact that it's 8" wide means it can let in a lot of light.
+2. The camera [2] is a cooled monochrome camera. Sensor heat is a major source of noise, so the idea is to cool the sensor to -10deg (C) to reduce that noise. Shooting in mono allows you shoot each color channel separately, with filters that correspond to the precise wavelengths of light that are dominant in the object you're shooting and ideally minimize wavelengths present in light pollution or the moon. Monochrome also allows you to make use of the full sensor rather than splitting the light up…]]></summary>
+        <author>
+            <name>seabass</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by JonChesterfield in "You can't just assume UTF-8"]]></title>
+        <id>https://news.ycombinator.com/item?id=40204729</id>
+        <link href="https://news.ycombinator.com/item?id=40204729"/>
+        <updated>2024-04-29T22:12:47.000Z</updated>
+        <summary type="html"><![CDATA[How about assume utf-8, and if someone has some binary file they'd rather a program interpret as some other format, they turn it into utf-8 using a standalone program first. Instead of burning this guess-what-bytes-they-might-like nonsense into all the software.
+We don't go "oh that input that's supposed to be json? It looks like a malformed csv file, let's silently have a go at fixing that up for you". Or at least we shouldn't, some software probably does.]]></summary>
+        <author>
+            <name>JonChesterfield</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[College Gaza Encampments: Scale, Tactics, Reaction, Prospects]]></title>
         <id>https://www.nakedcapitalism.com/?p=270721</id>
         <link href="https://www.nakedcapitalism.com/2024/04/college-gaza-encampments-scale-tactics-reaction-prospects.html"/>
@@ -257,6 +417,52 @@ for more detail…]]></summary>
         <summary type="html"><![CDATA[A tour of the Gaza encampments]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by cconstantine in "Webb captures iconic Horsehead Nebula in unprecedented detail"]]></title>
+        <id>https://news.ycombinator.com/item?id=40204187</id>
+        <link href="https://news.ycombinator.com/item?id=40204187"/>
+        <updated>2024-04-29T21:12:02.000Z</updated>
+        <summary type="html"><![CDATA[Absolutely incredible.
+For a little bit of context for how impressive this is, here's my take on it with a consumer grade 8" Newtonian telescope from my backyard: https://www.astrobin.com/full/w4tjwt/0/]]></summary>
+        <author>
+            <name>cconstantine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by singluere in "GitHub Copilot Workspace: Technical Preview"]]></title>
+        <id>https://news.ycombinator.com/item?id=40202386</id>
+        <link href="https://news.ycombinator.com/item?id=40202386"/>
+        <updated>2024-04-29T18:52:13.000Z</updated>
+        <summary type="html"><![CDATA[While I've not used this product, I've created somewhat similar setup using open source LLMs that runs locally. After having used it for about three months, I can say that debugging LLM prompts was far more annoying than debugging code. Ultimately, I ended up abandoning my setup and going in favor of writing code the good old fashioned way. YMMV]]></summary>
+        <author>
+            <name>singluere</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by mchannon in "Cheyenne Super Computer Auction"]]></title>
+        <id>https://news.ycombinator.com/item?id=40202332</id>
+        <link href="https://news.ycombinator.com/item?id=40202332"/>
+        <updated>2024-04-29T18:48:27.000Z</updated>
+        <summary type="html"><![CDATA[I once bought a far larger supercomputer. It was 1/8 (roughly) of ASCI Blue Mountain. 72 racks. Commissioned in 1998 as #1 or #2 on the TOP500, officially decommissioned in 2004, purchased my 1/8 for $7k in ~2005.
+Moving 72 racks was NOT easy. After paying substantial storage fees, I rented a 1500sf warehouse after selling off a few of them and they filled it up. Took a while to get 220V/30A service in there to run just one of them for testing purposes. Installing IRIX was 10x worse than any other OS. Imagine 8 CD's and you had to put them each in 2x during the process. Luckily somebody listed a set on eBay. SGI was either already defunct or just very unfriendly to second hand owners like myself.
+The racks ran SGI Origin 2000s with CRAYlink interlinks. Sold 'em off 1-8 at a time, mainly to render farms. Toy Story had been made on similar hardware. The original NFL broadcasts with that magic yellow first down line were synthesized with similar hardware. One customer did the opening credits for a movie with one of my units.
+I remember still having half of them around when Bitcoin first came out. It never occurred to me to try to mine with them, though I suspect if I'd been able to provide sufficient electrical service for the remainder, Satoshi and I would've been neck-and-neck for number of bitcoins in our respective wallets.
+The whole exercise was probably worthwhile. I learned a lot, even if it does feel like seven lifetimes ago.]]></summary>
+        <author>
+            <name>mchannon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by coldpie in "The Internet Archive's last-ditch effort to save itself"]]></title>
+        <id>https://news.ycombinator.com/item?id=40202127</id>
+        <link href="https://news.ycombinator.com/item?id=40202127"/>
+        <updated>2024-04-29T18:32:30.000Z</updated>
+        <summary type="html"><![CDATA[You are directing your ire at the wrong party. Hachette has nothing to gain from continuing to pursue this lawsuit, the only possible outcome (as you correctly state) is the world becomes a worse place. The behavior they object to has already stopped, and they've got a judgment to prevent it happening again. Hachette could drop enforcement of the judgment, both parties can dismiss the appeal, and no one loses anything.
+Hachette's owners see an opportunity here to destroy a public good, and they are taking it. Hachette are the bad actors trying to destroy what you find valuable, not the IA.]]></summary>
+        <author>
+            <name>coldpie</name>
         </author>
     </entry>
     <entry>
@@ -280,6 +486,17 @@ for more detail…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by nanolith in "The Internet Archive's last-ditch effort to save itself"]]></title>
+        <id>https://news.ycombinator.com/item?id=40201599</id>
+        <link href="https://news.ycombinator.com/item?id=40201599"/>
+        <updated>2024-04-29T17:49:16.000Z</updated>
+        <summary type="html"><![CDATA[My wife is a librarian. The elephant in the room here is that patrons are shifting toward a preference for digital distribution. However, Fair Use has not caught up. So, libraries end up spending a large portion of their operating budget "leasing" ebooks from publishers at extraordinary markup over the print copies. These leases are only good for so many "check outs" -- often as few as 4-6 -- after which point, the lease must be renewed at a price that can be 2X or 3X the cost of the print book. It's downright predatory.
+IA may have gone beyond pushing the envelope and well into stepping over the line on this one, but it is an important legal challenge. I don't think IA will or should win, but I do hope that their loss shifts the needle of public opinion a bit toward actual Fair Use.]]></summary>
+        <author>
+            <name>nanolith</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How Upstox built NextGen trading platform using Amazon EKS, Karpenter, and spot instances]]></title>
         <id>deee4e5d917bc248aeaa698812bcfed749cb9381</id>
         <link href="https://aws.amazon.com/blogs/containers/how-upstox-built-nextgen-trading-platform-using-amazon-eks-karpenter-and-spot-instances/"/>
@@ -290,6 +507,65 @@ for more detail…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by hombre_fatal in "GPT-4.5 or GPT-5 being tested on LMSYS?"]]></title>
+        <id>https://news.ycombinator.com/item?id=40201476</id>
+        <link href="https://news.ycombinator.com/item?id=40201476"/>
+        <updated>2024-04-29T17:39:12.000Z</updated>
+        <summary type="html"><![CDATA[Man, its knowledge is insane.
+I run a dying forum. I first prompted with "Who is  at ?" and it gave me a very endearing, weirdly knowledgeable bio of myself and my contributions to the forum including various innovations I made in the space back in the day. It summarized my role on my own forum better than I could have ever written it.
+And then I asked "who are other notable users at " and it gave me a list of some mods but also stand out users. It knew the types of posts they wrote and the subforums they spent time in. And without a single hallucination.]]></summary>
+        <author>
+            <name>hombre_fatal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by LeoPanthera in "The Internet Archive's last-ditch effort to save itself"]]></title>
+        <id>https://news.ycombinator.com/item?id=40201318</id>
+        <link href="https://news.ycombinator.com/item?id=40201318"/>
+        <updated>2024-04-29T17:26:54.000Z</updated>
+        <summary type="html"><![CDATA[The "National Emergency Library" was obviously a huge mistake, and I'm surprised that IA continues to defend it. The problem is, their online book lending is far from the most important part of the Internet Archive, and by continuing to fight for it, they risk losing everything, including the entire rest of the archive which seems to me to be far more important.
+The Internet Archive has become the de-facto default location to upload anything rare, important, or valuable, and a terrifyingly large amount of history would suddenly blink from existence if it were brought down.]]></summary>
+        <author>
+            <name>LeoPanthera</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by sixhobbits in "GitHub Copilot Workspace: Technical Preview"]]></title>
+        <id>https://news.ycombinator.com/item?id=40200748</id>
+        <link href="https://news.ycombinator.com/item?id=40200748"/>
+        <updated>2024-04-29T16:44:56.000Z</updated>
+        <summary type="html"><![CDATA[Accountants thought spreadsheets would kill their profession, instead demand for them exploded.
+Compilers made it much easier to code compared to writing everything in Assembly. Python made it much easier to code than writing C. Both increased the demand for coders.
+Code is a liability, not an asset. The fact that less technical people and people who are not trained engineers can now make useful apps by generating millions of lines of code is also only going to increase the need for professional software engineers.
+If you're doing an HTML or even React boot camp, I think you'd be right to be a bit concerned about your future.
+If you're studying algorithms and data structures and engineering best practices, I doubt you have anything to worry about.]]></summary>
+        <author>
+            <name>sixhobbits</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by packetlost in "GitHub Copilot Workspace: Technical Preview"]]></title>
+        <id>https://news.ycombinator.com/item?id=40200678</id>
+        <link href="https://news.ycombinator.com/item?id=40200678"/>
+        <updated>2024-04-29T16:39:10.000Z</updated>
+        <summary type="html"><![CDATA[The hardest part of software development is not writing code, full stop. It never has been and it never will be. The hard part is designing, understanding, verifying, and repairing complex systems. LLMs do not do this, even a little bit.]]></summary>
+        <author>
+            <name>packetlost</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by garyrob in "Husband and wife outed as GRU spies aiding bombings and poisonings across Europe"]]></title>
+        <id>https://news.ycombinator.com/item?id=40200499</id>
+        <link href="https://news.ycombinator.com/item?id=40200499"/>
+        <updated>2024-04-29T16:28:22.000Z</updated>
+        <summary type="html"><![CDATA[I want to give some advice: Don't judge it by its first few episodes. When I first checked it out, the basic setup seemed rather inane and I stopped watching.
+Then, a couple years later, I needed something to watch during long exercise sessions and I checked it out again. It was getting much more interesting by the end of the first season.
+And every season got better and richer. By the very end, I experienced it as actually deep, especially in the way the Keri Russell character unexpectedly evolves. It was a real pleasure and I'm very glad I had the chance to enjoy it. Recommended!]]></summary>
+        <author>
+            <name>garyrob</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AWS Weekly Roundup: Amazon Bedrock, AWS CodeBuild, Amazon CodeCatalyst, and more (April 29, 2024)]]></title>
         <id>646f6c7158c987ccad244324a7df5b137acafb74</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-aws-codebuild-amazon-codecatalyst-and-more-april-29-2024/"/>
@@ -297,6 +573,19 @@ for more detail…]]></summary>
         <summary type="html"><![CDATA[This was a busy week for Amazon Bedrock with many new features! Using GitHub Actions with AWS CodeBuild is much easier. Also, Amazon Q in Amazon CodeCatalyst can now manage more complex issues. I was amazed to meet so many new and old friends at the AWS Summit London. To give you a quick glimpse, […]]]></summary>
         <author>
             <name>Danilo Poccia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by mk_stjames in "Cheyenne Super Computer Auction"]]></title>
+        <id>https://news.ycombinator.com/item?id=40199051</id>
+        <link href="https://news.ycombinator.com/item?id=40199051"/>
+        <updated>2024-04-29T14:50:02.000Z</updated>
+        <summary type="html"><![CDATA[The Cheyenne numbers are 5.34 petaflops of *FP64*.
+The 5.6PF you quote for 18 A100's would be in BF16.  Not comparable.
+The A100 can only do 9.746 TFLOPS in FP64.
+So you would need 548 A100's to match the FP64 performance of the Cheyenne.]]></summary>
+        <author>
+            <name>mk_stjames</name>
         </author>
     </entry>
     <entry>
@@ -321,6 +610,18 @@ The post How a NASA Probe Solved a Scorching Solar Mystery first appeared on Qua
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by slibhb in "What's Going on with ‘Nonplussed’? (2017)"]]></title>
+        <id>https://news.ycombinator.com/item?id=40197822</id>
+        <link href="https://news.ycombinator.com/item?id=40197822"/>
+        <updated>2024-04-29T13:06:15.000Z</updated>
+        <summary type="html"><![CDATA[First they came for literally and I did nothing because I wasn't a pedant.
+Then they came for nonplussed and I still did nothing because I'm still not a pedant.
+I sure hope they don't come for pedant next.]]></summary>
+        <author>
+            <name>slibhb</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Q1 2024 Internet disruption summary]]></title>
         <id>662b80e17c0f59000a6a925a</id>
         <link href="https://blog.cloudflare.com/q1-2024-internet-disruption-summary"/>
@@ -340,13 +641,14 @@ The post How a NASA Probe Solved a Scorching Solar Mystery first appeared on Qua
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Consumer Boycotts Can Inflict More Pain on Israel-Backing Companies than Divestiture]]></title>
-        <id>https://www.nakedcapitalism.com/?p=270698</id>
-        <link href="https://www.nakedcapitalism.com/2024/04/consumer-boycotts-can-inflict-more-pain-on-israel-backing-companies-than-divestiture.html"/>
-        <updated>2024-04-29T08:52:19.000Z</updated>
-        <summary type="html"><![CDATA[A look at some of the courses of action to impose costs on Israel and its backers, here, economic costs.]]></summary>
+        <title type="html"><![CDATA[New comment by fsh in "Atomic nucleus excited with laser: A breakthrough after decades"]]></title>
+        <id>https://news.ycombinator.com/item?id=40195308</id>
+        <link href="https://news.ycombinator.com/item?id=40195308"/>
+        <updated>2024-04-29T06:54:47.000Z</updated>
+        <summary type="html"><![CDATA[The measurement was already confirmed by a different group: https://arxiv.org/abs/2404.12311
+This is important since impurities in the crystals used lead to all kinds of fluorescence that could be mistaken for a signal from the Thorium ions. Now two groups have seen exactly the same signal in different Thorium-doped crystals which is very covincing that they have found the actual nuclear transition.]]></summary>
         <author>
-            <name>Yves Smith</name>
+            <name>fsh</name>
         </author>
     </entry>
     <entry>
@@ -479,6 +781,107 @@ The post Bans on Non-Compete Clauses Benefit Everyone: The Case of Veterinarians
 The post Statement of Four Cornell Students Suspended for Protesting Israel’s Genocide in Gaza appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>CounterPunch News Service</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jmward01 in "The Myth of the Second Chance"]]></title>
+        <id>https://news.ycombinator.com/item?id=40193626</id>
+        <link href="https://news.ycombinator.com/item?id=40193626"/>
+        <updated>2024-04-29T01:56:21.000Z</updated>
+        <summary type="html"><![CDATA[A corollary to this may be that those who get many chances are more likely to succeed. This is often the case for people that have a safety net of some sort compared to those that don't when it comes to, for example, starting businesses. Those with a safety net can fail and try again and again and eventually tell the story of how 'gumption and spirit' made them a success while those that didn't have a safety net 'just didn't try hard enough'. I know I have been exceptionally lucky in that I have been given many chances to fail, and taken them! Without those opportunities to fail safely I wouldn't have the success I have now.]]></summary>
+        <author>
+            <name>jmward01</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by n9 in "I found one of my first programs (Java, 2011) on the Wayback Machine and it runs"]]></title>
+        <id>https://news.ycombinator.com/item?id=40193505</id>
+        <link href="https://news.ycombinator.com/item?id=40193505"/>
+        <updated>2024-04-29T01:35:54.000Z</updated>
+        <summary type="html"><![CDATA[The first major piece of code that I ever wrote was a publishing workflow management system for a major newspaper. It routed page images to presses and generated pdfs of each page in each edition of the newspaper and made pdfs of each day's newspaper editions and published them to a static website where they were archived.
+I was only allowed to use perl 4 to write this software and I wasn't allowed to use a database, even though the datastructure for a day's publishing batch had tens of thousands of keys and values and required RDBMs style queries. It also features a configurable postscript parser that extracts all kinds of data from completed newspaper pages that informs the publishing system. When I wrote it I was told that it would run for a few months only while we figured out how to get a $5M commercial product to handle the work.
+The whole thing was written in perl 4 style OO Perl and came in at about 16k lines of code in the end -- most of the code was for the postscript processor and tons of cruft that I had to write to made a relational DBMS in memory because I wasn't allowed to use mysql. It took me four months to write it. I launched it in January of 2002 and it runs to this day. I know this because I got a call about it last month where my replacement's replacement's replacement asked me a few questions about what OO Perl is because he wanted to make a few changes. Good luck! It still runs and is responsbile for about 80% of what it was originally built to do. It is used by hundreds of people daily, who by all reports absolutely hate it. There are people working at the newspaper today that use it regularly that were not born when I wrote it. I am twice as old as I was when I wrote it.
+They have apparently tried to replace it several times over the last 22 years and have failed to do so... this is likely due to the blockheadedness of my old boss (who is still there) as much as the radically insane obscurity of my code, which is exactly how you'd expect 16k lines of 22 year old OO Perl 4 would be.]]></summary>
+        <author>
+            <name>n9</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by navane in "A small lathe built in a Japanese prison camp (1949)"]]></title>
+        <id>https://news.ycombinator.com/item?id=40190798</id>
+        <link href="https://news.ycombinator.com/item?id=40190798"/>
+        <updated>2024-04-28T18:46:53.000Z</updated>
+        <summary type="html"><![CDATA[I'm only part into the story, but I already love it.
+The prisoners-of-war were tired hiding their lathe every time they might be searched, that they hung up a sign "workshop" above one of their huts, and timed it so that the new round of guards thought it had always been there.]]></summary>
+        <author>
+            <name>navane</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by pjs_ in "Watch cars evolve using genetic algorithm"]]></title>
+        <id>https://news.ycombinator.com/item?id=40190690</id>
+        <link href="https://news.ycombinator.com/item?id=40190690"/>
+        <updated>2024-04-28T18:34:17.000Z</updated>
+        <summary type="html"><![CDATA[I wrote the original version of this nearly 20 years ago. Cool to see it still pop up here from time to time.
+Still runs in the browser thanks to Ruffle:
+https://peteshadbolt.co.uk/posts/ga/]]></summary>
+        <author>
+            <name>pjs_</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by npilk in "The Myth of the Second Chance"]]></title>
+        <id>https://news.ycombinator.com/item?id=40190500</id>
+        <link href="https://news.ycombinator.com/item?id=40190500"/>
+        <updated>2024-04-28T18:10:58.000Z</updated>
+        <summary type="html"><![CDATA[It's important to recognize that life is path-dependent. But as a counter-point, worrying too much about each decision as a potential mistake can lead to the kind of fear-based paralysis described by Sylvia Plath in the Bell Jar:
+"I saw my life branching out before me like the green fig tree in the story. From the tip of every branch, like a fat purple fig, a wonderful future beckoned and winked. One fig was a husband and a happy home and children, and another fig was a famous poet and another fig was a brilliant professor, and another fig was Ee Gee, the amazing editor, and another fig was Europe and Africa and South America, and another fig was Constantin and Socrates and Attila and a pack of other lovers with queer names and offbeat professions, and another fig was an Olympic lady crew champion, and beyond and above these figs were many more figs I couldn't quite make out. I saw myself sitting in the crotch of this fig tree, starving to death, just because I couldn't make up my mind which of the figs I would choose. I wanted each and every one of them, but choosing one meant losing all the rest, and, as I sat there, unable to decide, the figs began to wrinkle and go black, and, one by one, they plopped to the ground at my feet."]]></summary>
+        <author>
+            <name>npilk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by claytonwramsey in "Did we lose our way in making efficient software?"]]></title>
+        <id>https://news.ycombinator.com/item?id=40190062</id>
+        <link href="https://news.ycombinator.com/item?id=40190062"/>
+        <updated>2024-04-28T17:12:46.000Z</updated>
+        <summary type="html"><![CDATA[There is perhaps some irony in the fact that this blog was posted to Medium, which serves 10.88 MB for a 265-word article.]]></summary>
+        <author>
+            <name>claytonwramsey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by s1k3s in "Did we lose our way in making efficient software?"]]></title>
+        <id>https://news.ycombinator.com/item?id=40189986</id>
+        <link href="https://news.ycombinator.com/item?id=40189986"/>
+        <updated>2024-04-28T17:02:22.000Z</updated>
+        <summary type="html"><![CDATA[I want to make native apps but Apple and Microsoft seem to be trying really hard to stop me. I have to buy developer accounts, buy certificates for signing binaries, share 30% of my revenue with them for barely any reason and so on. Not to mention the mess they've introduced in their APIs - especially Microsoft. So of course we choose the much simpler, much cheaper way of the web.]]></summary>
+        <author>
+            <name>s1k3s</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by justinpombrio in "Fragmented thinking is a bigger threat to flow state than interruptions"]]></title>
+        <id>https://news.ycombinator.com/item?id=40189740</id>
+        <link href="https://news.ycombinator.com/item?id=40189740"/>
+        <updated>2024-04-28T16:31:27.000Z</updated>
+        <summary type="html"><![CDATA[> The good news for these internal interruptions is that it should be much easier to control them.
+For a long-time meditator, this is comedic gold. Just control your internal interruptions, stay focused. That's all, eh? Hehehehehe]]></summary>
+        <author>
+            <name>justinpombrio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by sanderjd in "Fragmented thinking is a bigger threat to flow state than interruptions"]]></title>
+        <id>https://news.ycombinator.com/item?id=40189391</id>
+        <link href="https://news.ycombinator.com/item?id=40189391"/>
+        <updated>2024-04-28T15:37:37.000Z</updated>
+        <summary type="html"><![CDATA[I think the primary point here is that interruptions don't only happen externally, but also internally. I think this point is a bit obscured by the article's use of this "fragmented thinking" terminology, which it does not do a good job of defining before building an argument on top of it. (I found myself searching for those words to see if I had missed the definition.)
+However, I do think this is an insightful point! I think these "internal interruptions" are indeed a big problem for me, and one I don't think about nearly as much, but will try to more now that I've read this article.
+The frustrating thing about external interruptions is the inability to control them. Things like turning off notifications and putting on headphones are mechanisms to reduce that frustration by imposing control over those interruptions.
+The good news for these internal interruptions is that it should be much easier to control them. But it requires being aware of the problem! So I'm thankful to this article for making this more top of mind for me.]]></summary>
+        <author>
+            <name>sanderjd</name>
         </author>
     </entry>
     <entry>
@@ -764,7 +1167,7 @@ Structured Authentication Configurati…]]></summary>
         <link href="https://feeds.feedblitz.com/~/882407957/0/themoneyillusion~More-articles/"/>
         <updated>2024-04-24T23:08:32.000Z</updated>
         <summary type="html"><![CDATA[1. Tyler linked to an interesting article on Portugal. This caught my eye: Then, in 2023, the Immigration Control Agency was dissolved, ostensibly in response to an extremely uncharacteristic display of violence where, in March 2020, two officers beat a Ukrainian man to death in the airport of Lisbon. No protests followed the unjust death [&#8230;]<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/882407957/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/882407957/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-18-at-2.26.00-PM.png"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/882407957/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/882407957/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/882407957/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/more-articles-2/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/more-articles-2/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&nbsp;
-<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6817930">Justin: Despite his career with statistics, Scott relies on an ...</a> <i>by art andreassen</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6817608">I'm finally reading “The Money Illusion” the book and had a ...</a> <i>by Can</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6816500">I thought this moron retired, no?   Nobody at Bentley ...</a> <i>by Edward</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815682">I am SURE that that high speed rail line will only need a grant ...</a> <i>by William Peden</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815209">No. 2 But then again, an entirely pious US foreign policy would ...</a> <i>by Solon of the East</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comments">Plus 5 more...</a></li></ul></div>&#160;</div>]]></summary>
+<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6817966">Can, I wonder if “flight to liquidity” is a better ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6817930">Justin: Despite his career with statistics, Scott relies on an ...</a> <i>by art andreassen</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6817608">I'm finally reading “The Money Illusion” the book and had a ...</a> <i>by Can</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6816500">I thought this moron retired, no?   Nobody at Bentley ...</a> <i>by Edward</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comment-6815682">I am SURE that that high speed rail line will only need a grant ...</a> <i>by William Peden</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/more-articles-2/#comments">Plus 5 more...</a></li></ul></div>&#160;</div>]]></summary>
         <author>
             <name>The Money Illusion</name>
         </author>
@@ -2028,16 +2431,6 @@ Why complicate things? - after all, …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Kid Stuff: Cartoons]]></title>
-        <id>https://crookedtimber.org/?p=52552</id>
-        <link href="https://crookedtimber.org/2024/04/04/kid-stuff-cartoons/"/>
-        <updated>2024-04-04T18:52:57.000Z</updated>
-        <summary type="html"><![CDATA[Thesis: in the English-speaking world, the last 50 years has seen a dramatic increase in the quantity *and quality* of text and visual mass media intended for children. Let’s define some terms.  I’m talking about books, cartoons, TV, and movies. Music is not included; comics and graphic novels are a special case. When I say […]]]></summary>
-        <author>
-            <name>Doug Muir</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Quora achieved 3x lower latency and 25% lower Costs by modernizing model serving with Nvidia Triton on Amazon EKS]]></title>
         <id>13210b760e138ac3839d9215805724098210e884</id>
         <link href="https://aws.amazon.com/blogs/containers/quora-3x-faster-machine-learning-25-lower-costs-with-nvidia-triton-on-amazon-eks/"/>
@@ -2202,16 +2595,6 @@ The post Data Platform Explained appeared first on Spotify Engineering.]]></summ
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Introducing AWS Deadline Cloud: Set up a cloud-based render farm in minutes]]></title>
-        <id>a63b7ed0cfc557e50341fc8a679e5cb5c3c53dda</id>
-        <link href="https://aws.amazon.com/blogs/aws/introducing-aws-deadline-cloud-set-up-a-cloud-based-render-farm-in-minutes/"/>
-        <updated>2024-04-02T17:26:20.000Z</updated>
-        <summary type="html"><![CDATA[A new fully managed service enables creative teams to easily set up a render farm in minutes, scale to run more projects in parallel, and only pay for the resources they use.]]></summary>
-        <author>
-            <name>Channy Yun</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[LangSmith: Production Monitoring & Automations]]></title>
         <id>660acb04241009000105c2fa</id>
         <link href="https://blog.langchain.dev/langsmith-production-logging-automations/"/>
@@ -2234,26 +2617,6 @@ If 2023 was a breakthrough year for LLMs, then 2024 is shaping up to be the year
         <summary type="html"><![CDATA[This post was co-written with Luke Sudgen, Lead DevOps Engineer Post Trade, and Padraig Murphy, Solutions Architect Post Trade, from London Stock Exchange Group. In this post, we’ll discuss some failure scenarios that were tested by London Stock Exchange Group (LSEG) Post Trade Technology teams during a chaos engineering event supported by AWS. Chaos engineering […]]]></summary>
         <author>
             <name>Elias Bedmar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Weekly Roundup: AWS Chips Taste Test, generative AI updates, Community Days, and more (April 1, 2024)]]></title>
-        <id>29a22a04939e0190f624818d8958fa5f905572fc</id>
-        <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-chips-taste-test-generative-ai-updates-community-days-and-more-april-1-2024/"/>
-        <updated>2024-04-01T17:49:38.000Z</updated>
-        <summary type="html"><![CDATA[Today is April Fool’s Day. About 10 years ago, some tech companies would joke about an idea that was thought to be fun and unfeasible on April 1st, to the delight of readers. Jeff Barr has also posted seemingly far-fetched ideas on this blog in the past, and some of these have surprisingly come true! […]]]></summary>
-        <author>
-            <name>Channy Yun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learning by Bouncing: Overdraft Experience and Salience]]></title>
-        <id>https://libertystreeteconomics.newyorkfed.org/?p=28692</id>
-        <link href="https://libertystreeteconomics.newyorkfed.org/2024/04/learning-by-bouncing-overdraft-experience-and-salience/"/>
-        <updated>2024-04-01T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Overdraft credit, when banks and credit unions allow customers to spend more than their checking account holds, has many critics. One fundamental concern is whether overdrafts are salient—whether account holders know how often they overdraw and how much it costs them. To shed light on this question, we asked participants in the New York Fed’s Survey of Consumer Expectations about their experience with and knowledge of their banks’ overdraft programs. The large majority knew how often they overdrew their account and by how much. Their overdraft experience, we find, begets knowledge; of respondents who overdrew their account in the previous year, 84 percent knew the fee they were charged, roughly twice the share for other respondents. However, even experienced overdrafters were relatively unaware of other overdraft terms and practices, such as the maximum overdraft allowed or whether their financial institution processed larger transactions first.]]></summary>
-        <author>
-            <name>Donald P. Morgan and Wilbert van der Klaauw</name>
         </author>
     </entry>
 </feed>
