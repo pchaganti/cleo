@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "86dd5735fb76719fae3fa6f0aa4e8a5a846c0583",
+          "author": "Sébastien Stormacq",
+          "description": "Starting today, you can configure your DNS Firewall to automatically trust all domains in a resolution chain (such as aCNAME, DNAME, or Alias chain). Let’s walk through this in nontechnical terms for those unfamiliar with DNS. Why use DNS Firewall? DNS Firewall provides protection for outbound DNS requests from your private network in the cloud […]",
+          "link": "https://aws.amazon.com/blogs/aws/stop-the-cname-chain-struggle-simplified-management-with-route-53-resolver-dns-firewall/",
+          "publishedOn": "2024-05-01T15:39:55.000Z",
+          "wordCount": 1748,
+          "title": "Stop the CNAME chain struggle: Simplified management with Route 53 Resolver DNS Firewall",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/03/29/firewall-rule-association-v02-1120x630.png"
+        },
+        {
           "id": "0775d12391b11338b1a7e4a6ec8ed43cde3d78ae",
           "author": "Sébastien Stormacq",
           "description": "Ruby developers can now use AWS CodeArtifact to securely store and retrieve their gems. CodeArtifact integrates with standard developer tools like gem and bundler. Applications often use numerous packages to speed up development by providing reusable code for common tasks like network access, cryptography, or data manipulation. Developers also embed SDKs–such as the AWS SDKs–to […]",
@@ -27,8 +37,8 @@
           "description": "Amazon Titan foundation models (FMs) offer a comprehensive suite of pre-trained image, multimodal, and text models accessible through a fully managed API. They're designed for a range of applications while adhering to responsible AI practices.",
           "link": "https://aws.amazon.com/blogs/aws/amazon-titan-text-v2-now-available-in-amazon-bedrock-optimized-for-improving-rag/",
           "publishedOn": "2024-04-30T20:06:51.000Z",
-          "wordCount": 2017,
-          "title": "Amazon Titan Text V2 now available in Amazon Bedrock, optimized for improving RAG",
+          "wordCount": 2020,
+          "title": "Amazon Titan Text Embeddings V2 now available in Amazon Bedrock, optimized for improving RAG",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/25/Text-embed-feat-img3.png"
         },
         {
@@ -200,16 +210,6 @@
           "wordCount": 1830,
           "title": "AWS Weekly Roundup: Amazon EC2 G6 instances, Mistral Large on Amazon Bedrock, AWS Deadline Cloud, and more (April 8, 2024)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
-        },
-        {
-          "id": "4fd909902bf32ca8c7a2918978932b571fc7fc18",
-          "author": "Veliswa Boya",
-          "description": "Update 4/3/2024: We have updated this post to add information about the new Paris Region availability for Amazon Bedrock, and provided a new resource link for guidance on inference requests. Last month, we announced the availability of two high-performing Mistral AI models, Mistral 7B and Mixtral 8x7B on Amazon Bedrock. Mistral 7B, as the ﬁrst […]",
-          "link": "https://aws.amazon.com/blogs/aws/tackle-complex-reasoning-tasks-with-mistral-large-now-available-on-amazon-bedrock/",
-          "publishedOn": "2024-04-03T04:37:49.000Z",
-          "wordCount": 3162,
-          "title": "Tackle complex reasoning tasks with Mistral Large, now available on Amazon Bedrock",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/03/28/Amazon-Mistral-Large-image-1260x630.png"
         }
       ]
     },
@@ -218,16 +218,6 @@
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
       "articles": [
-        {
-          "id": "7175e8c11ba4180774f5103adfe97f4a5772b2f6",
-          "author": "AWS Editorial Team",
-          "description": "Editors note April 30, 2024: The information in this post is outdated and the solution has been retired. For more solutions using AWS services, see the AWS Solutions Library. The new version of the AWS Ops Automator, a solution that enables you to automatically manage your AWS resources, features vertical scaling for Amazon EC2 instances. […]",
-          "link": "https://aws.amazon.com/blogs/architecture/aws-ops-automator-v2-features-vertical-scaling-preview/",
-          "publishedOn": "2024-04-30T16:31:35.000Z",
-          "wordCount": 1041,
-          "title": "AWS Ops Automator v2 features vertical scaling (Preview)",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2019/02/01/ops-automator-vertical-scaling-1-963x630.png"
-        },
         {
           "id": "4bf356a9759a6d15d6fdc1bb91138569ae9f37af",
           "author": "Luca Mezzalira",
@@ -256,12 +246,22 @@
       "siteUrl": "https://github.blog/category/engineering/",
       "articles": [
         {
+          "id": "https://github.blog/2024-05-01-5-tips-to-supercharge-your-developer-career-in-2024/",
+          "author": null,
+          "description": "<p>From mastering prompt engineering to leveraging AI for code security, here’s how you can excel in today's competitive job market.  </p>\n<p>The post <a href=\"https://github.blog/2024-05-01-5-tips-to-supercharge-your-developer-career-in-2024/\">5 tips to supercharge your developer career in 2024</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+          "link": "https://github.blog/2024-05-01-5-tips-to-supercharge-your-developer-career-in-2024/",
+          "publishedOn": "2024-05-01T16:10:45.000Z",
+          "wordCount": 3373,
+          "title": "5 tips to supercharge your developer career in 2024",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Productivity-LightMode-3.png"
+        },
+        {
           "id": "https://github.blog/2024-04-10-github-availability-report-march-2024/",
           "author": null,
           "description": "<p>In March, we experienced two incidents that resulted in degraded performance across GitHub services. </p>\n<p>The post <a href=\"https://github.blog/2024-04-10-github-availability-report-march-2024/\">GitHub Availability Report: March 2024</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-04-10-github-availability-report-march-2024/",
           "publishedOn": "2024-04-10T20:15:17.000Z",
-          "wordCount": 1166,
+          "wordCount": 1160,
           "title": "GitHub Availability Report: March 2024",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Enterprise-DarkMode-1.png"
         },
@@ -271,7 +271,7 @@
           "description": "<p>GitHub Copilot increases efficiency for our engineers by allowing us to automate repetitive tasks, stay focused, and more.</p>\n<p>The post <a href=\"https://github.blog/2024-04-09-4-ways-github-engineers-use-github-copilot/\">4 ways GitHub engineers use GitHub Copilot</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-04-09-4-ways-github-engineers-use-github-copilot/",
           "publishedOn": "2024-04-09T19:00:02.000Z",
-          "wordCount": 2019,
+          "wordCount": 2007,
           "title": "4 ways GitHub engineers use GitHub Copilot",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/04/1200x630-Productivity-Unfurl-LIGHT-Logo@2x.png"
         },
@@ -281,7 +281,7 @@
           "description": "<p>Here’s how retrieval-augmented generation, or RAG, uses a variety of data sources to keep AI models fresh with up-to-date information and organizational knowledge.</p>\n<p>The post <a href=\"https://github.blog/2024-04-04-what-is-retrieval-augmented-generation-and-what-does-it-do-for-generative-ai/\">What is retrieval-augmented generation, and what does it do for generative AI?</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-04-04-what-is-retrieval-augmented-generation-and-what-does-it-do-for-generative-ai/",
           "publishedOn": "2024-04-04T16:00:07.000Z",
-          "wordCount": 2899,
+          "wordCount": 2887,
           "title": "What is retrieval-augmented generation, and what does it do for generative AI?",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/04/rag-header.png"
         }
@@ -522,6 +522,17 @@
           "imageUrl": null
         },
         {
+          "id": "https://www.counterpunch.org/?p=320675",
+          "author": "Walter Smelt III",
+          "description": "When I strolled into Harvard Yard around 6:00 pm on Friday, a Shabbat service was taking place in the student encampment for Palestine. Dozens of young people were seated in a large circle on the lawn, many wearing keffiyehs, a few wearing kippahs, and at least one wearing both. A guitar player strummed and led the circle in a Yiddish song while campers nearby talked in small groups, or stared at laptops, perhaps preparing for finals. Three police SUVs were parked in sight of the camp on the centuries-old Yard, and a keffiyeh was tied around the sculpted head of the university’s namesake, John Harvard. More\nThe post Boston Area Students Against Genocide: Report from the Weekend of April 26 appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/01/boston-area-students-against-genocide-report-from-the-weekend-of-april-26/",
+          "publishedOn": "2024-05-01T05:58:52.000Z",
+          "wordCount": null,
+          "title": "Boston Area Students Against Genocide: Report from the Weekend of April 26",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.counterpunch.org/?p=320615",
           "author": "Makepeace Sitlhou",
           "description": "In March, India’s prime minister, Narendra Modi, said at an election rally in Arunachal Pradesh that previous governments had not cared for states that sent only two representatives to the country’s Parliament, as Arunachal and several others in the Indian Northeast do. Modi failed to see the irony of his claim given that he has  More\nThe post Under Modi, the Northeast Is More United With India, but More Divided Within appeared first on CounterPunch.org.",
@@ -535,7 +546,7 @@
         {
           "id": "https://www.counterpunch.org/?p=320282",
           "author": "Richard Ward",
-          "description": "It’s as if one were an archeologist digging through layers of evil, uncovering a particular atrocity, only to discover, scratching at the earth, deeper levels of depravity. Gaza. Discoveries, unearthed. One, the images of emaciated children, points to an obvious association. At this writing, there are close to 35,000 confirmed deaths, 40% children, thousands of  More\nThe post Unspeakable Archeology of Horror appeared first on CounterPunch.org.",
+          "description": "It’s as if one were an archeologist digging through layers of evil, uncovering a particular atrocity, only to discover, scratching at the earth, deeper levels of depravity. Gaza. Discoveries, unearthed. One, the images of emaciated children, points to an obvious association. At this writing, there are close to 35,000 confirmed deaths, 40% children, thousands of bodies unaccounted for, buried under the rubble. The actual count could be vastly greater. More\nThe post Unspeakable Archeology of Horror appeared first on CounterPunch.org.",
           "link": "https://www.counterpunch.org/2024/05/01/unspeakable-archeology-of-horror/",
           "publishedOn": "2024-05-01T05:55:37.000Z",
           "wordCount": null,
@@ -595,6 +606,17 @@
           "publishedOn": "2024-05-01T05:36:32.000Z",
           "wordCount": null,
           "title": "Ben Linder: 37 Years, ¡Presente!",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=320718",
+          "author": "David Swanson",
+          "description": "May day! May day! We raised young people to believe that genocide was wrong. We told them they had the right to free speech and assembly. We told them that lots of wars were somehow not genocidal (pay no attention to the millions of dark-skinned corpses behind the curtain, children) and that those wars even  More\nThe post Support Students or Support Genocide appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/01/support-students-or-support-genocide/",
+          "publishedOn": "2024-05-01T05:35:45.000Z",
+          "wordCount": null,
+          "title": "Support Students or Support Genocide",
           "itunes": {},
           "imageUrl": null
         },
@@ -817,28 +839,6 @@
           "title": "College Administrators are Falling Into a Tried and True Trap Laid by the Right",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=320227",
-          "author": "David Stewart",
-          "description": "Thursday afternoon, April 25th, 2024,  I was doing my job making sales calls as a staffperson at Indiana University in Bloomington, Indiana,.My wife was walking with me on campus and we heard shouts coming from Dunn Meadow.  Earlier we had seen police cars blocking off Indiana Avenue north of Kirkwood, near the Sample Gates.  As  More\nThe post Confrontation in Dunn Meadow: the Police Raids at Indiana University appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/04/29/confrontation-in-dunn-meadow-the-police-raids-at-indiana-university/",
-          "publishedOn": "2024-04-29T05:38:04.000Z",
-          "wordCount": null,
-          "title": "Confrontation in Dunn Meadow: the Police Raids at Indiana University",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=320215",
-          "author": "Robert Koehler",
-          "description": "Here’s an anniversary no one wants to celebrate: The Columbine school shooting — April 20, 1999 — just passed its 25th anniversary. Fifteen dead (including the two shooters), 21 injured. A new era begins . . . Why, why, why bring up such a horrific event? Perhaps because it hasn’t stopped. Even though I sit  More\nThe post The Humble Pen Takes on the Mighty Sword appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/04/29/the-humble-pen-takes-on-the-mighty-sword/",
-          "publishedOn": "2024-04-29T05:32:54.000Z",
-          "wordCount": null,
-          "title": "The Humble Pen Takes on the Mighty Sword",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -940,7 +940,7 @@
           "description": "from C. P. Chandrasekhar and Jayati Ghosh Once again, low and middle income countries (LMICs) are at the brutal receiving end of the fickle trajectory of international capital flows. As Figure 1 indicates, net financial flows to such countries, which increased rapidly after the Global Financial Crisis that began and was created by advanced economies, […]",
           "link": "https://rwer.wordpress.com/2024/05/01/water-flowing-upwards-net-financial-flows-from-developing-countries/",
           "publishedOn": "2024-05-01T12:08:25.000Z",
-          "wordCount": 5221,
+          "wordCount": 5218,
           "title": "Water Flowing Upwards: Net financial flows from developing countries",
           "imageUrl": "https://www.networkideas.org/wp-content/uploads/2024/04/WFU1.jpg"
         },
@@ -1053,7 +1053,7 @@
           "description": "1. Tyler linked to an interesting article on Portugal. This caught my eye: Then, in 2023, the Immigration Control Agency was dissolved, ostensibly in response to an extremely uncharacteristic display of violence where, in March 2020, two officers beat a Ukrainian man to death in the airport of Lisbon. No protests followed the unjust death [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/882407957/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-18-at-2.26.00-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/more-articles-2/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6817966\">Can, I wonder if “flight to liquidity” is a better ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6817930\">Justin: Despite his career with statistics, Scott relies on an ...</a> <i>by art andreassen</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6817608\">I'm finally reading “The Money Illusion” the book and had a ...</a> <i>by Can</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6816500\">I thought this moron retired, no?   Nobody at Bentley ...</a> <i>by Edward</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6815682\">I am SURE that that high speed rail line will only need a grant ...</a> <i>by William Peden</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/882407957/0/themoneyillusion~More-articles/",
           "publishedOn": "2024-04-24T23:08:32.000Z",
-          "wordCount": 4204,
+          "wordCount": 4293,
           "title": "More articles",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-18-at-2.26.00-PM.png"
         },
@@ -1133,7 +1133,7 @@
           "description": "How are leftists working to re-elect Trump? There are almost too many ways to count: 1. Trump was reeling after his candidates did horrible in the 2022 midterms, and people like Ron DeSantis were soaring in the polls. Then leftists saved him by making him seem like a victim, and he began rising in the [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/879089531/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/879089531/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/leftists-for-trump/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6810001\">@Jim Glass:   Your history lesson on Athens is interesting but ...</a> <i>by msgkings</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809963\">Jim, You are confusing two issues. One is the need for multiple ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809788\">If Democrats were smart, they’d be working on scrapping the ...</a> <i>by Jim Glass</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809702\">Harding, Obviously the Chinese version was 1000 times worse, ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comment-6809698\">“Chinese Cultural Revolution style cancel culture” ...</a> <i>by Eharding</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/leftists-for-trump/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/879089531/0/themoneyillusion~Leftists-for-Trump/",
           "publishedOn": "2024-04-12T19:19:02.000Z",
-          "wordCount": 4325,
+          "wordCount": 4414,
           "title": "Leftists for Trump",
           "imageUrl": null
         },
@@ -1155,12 +1155,32 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=270899",
+          "author": "Lambert Strether",
+          "description": "~ Today's Water Cooler: Politics, pandemics, Trump's plans, Biden's polling, jobs numbers ~",
+          "link": "https://www.nakedcapitalism.com/2024/05/200pm-water-cooler-5-1-2024.html",
+          "publishedOn": "2024-05-01T18:00:00.000Z",
+          "wordCount": 7254,
+          "title": "2:00PM Water Cooler 5/1/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/rcp_2024-04-26.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=270884",
+          "author": "Yves Smith",
+          "description": "How blockchain/crypto tax havens are  displacing traditional tax havens.",
+          "link": "https://www.nakedcapitalism.com/2024/05/taxcast-142-blockchain-havens.html",
+          "publishedOn": "2024-05-01T13:55:11.000Z",
+          "wordCount": 10711,
+          "title": "TaxCast #142: Blockchain Havens",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=270652",
           "author": "Yves Smith",
           "description": "Our vocal daily links: super saber toothed tigers, gambling meds? China LNG shipping orders, rising EU poverty, Rafah inevitable, Aaron Mate on Ukraine, moar protests, FCC v. geolocation abuses, Trump interview, bogus prebunking",
           "link": "https://www.nakedcapitalism.com/2024/05/links-5-1-2024.html",
           "publishedOn": "2024-05-01T10:59:06.000Z",
-          "wordCount": 6890,
+          "wordCount": 16806,
           "title": "Links 5/1/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-28-at-7.28.53-PM.png"
         },
@@ -1170,7 +1190,7 @@
           "description": "Governments across the West are enacting more draconian measures to silence all criticism and are increasingly asking citizens to inform on one another.",
           "link": "https://www.nakedcapitalism.com/2024/05/stasi-in-the-west.html",
           "publishedOn": "2024-05-01T10:00:42.000Z",
-          "wordCount": 6775,
+          "wordCount": 13677,
           "title": "Stasi in the West",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/Screenshot-2024-04-29-at-8.36.21 AM-668x1024.png"
         },
@@ -1180,7 +1200,7 @@
           "description": "AirBnB seems determined to violate customer privacy by demanding government ID images, against the laws of some states. What gives?",
           "link": "https://www.nakedcapitalism.com/2024/05/airbnb-again-in-bed-with-surveillance-state-tactics-by-asking-for-biometric-id-spurring-illinois-mass-arbitration-action.html",
           "publishedOn": "2024-05-01T09:15:15.000Z",
-          "wordCount": 4643,
+          "wordCount": 5146,
           "title": "AirBnB Again in Bed With Surveillance State Tactics by Asking for Biometric ID, Spurring Illinois “Mass Arbitration” Action",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/Screen-Shot-2024-05-01-at-12.14.25-AM-745x1024.png"
         },
@@ -1190,7 +1210,7 @@
           "description": "Health insurers like Oregon's Medicaid find it cost effective to give patients equipment to protect them from heat as well as wildfire smoke",
           "link": "https://www.nakedcapitalism.com/2024/05/ac-power-banks-mini-fridges-oregon-equips-medicaid-patients-for-climate-change.html",
           "publishedOn": "2024-05-01T08:47:37.000Z",
-          "wordCount": 3836,
+          "wordCount": 4127,
           "title": "AC, Power Banks, Mini Fridges: Oregon Equips Medicaid Patients for Climate Change",
           "imageUrl": null
         },
@@ -1200,7 +1220,7 @@
           "description": "Lambert puts on his Mr. Pandemic™ hat.",
           "link": "https://www.nakedcapitalism.com/2024/04/h5n1-happily-mutates-away-while-public-health-establishment-plods-along-treating-the-virus-as-a-food-supply-issue-and-not-a-potential-pandemic.html",
           "publishedOn": "2024-04-30T20:25:15.000Z",
-          "wordCount": 10730,
+          "wordCount": 11920,
           "title": "H5N1 Happily Mutates Away, while Public Health Establishment Plods Along, Treating the Virus as a Food Supply Issue, and Not as a Potential Pandemic",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/hpai-mammals-map.png"
         },
@@ -1210,7 +1230,7 @@
           "description": "~ Today's Water Cooler: Politics, pandemics, and partially open thread ~",
           "link": "https://www.nakedcapitalism.com/2024/04/200pm-water-cooler-4-30-2024.html",
           "publishedOn": "2024-04-30T18:00:57.000Z",
-          "wordCount": 10994,
+          "wordCount": 10991,
           "title": "2:00PM Water Cooler 4/30/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/rcp_2024-04-26.png"
         },
@@ -1220,7 +1240,7 @@
           "description": "The US has launched an LNG war against Russia. How likely is it to prevail?",
           "link": "https://www.nakedcapitalism.com/2024/04/the-four-key-reasons-why-the-u-s-will-never-stop-targeting-russias-lng-sector.html",
           "publishedOn": "2024-04-30T14:00:33.000Z",
-          "wordCount": 7600,
+          "wordCount": 7943,
           "title": "“The Four Key Reasons Why The U.S. Will Never Stop Targeting Russia’s LNG Sector”",
           "imageUrl": null
         },
@@ -1230,29 +1250,9 @@
           "description": "Our epic daily links",
           "link": "https://www.nakedcapitalism.com/2024/04/links-4-30-2024.html",
           "publishedOn": "2024-04-30T10:58:16.000Z",
-          "wordCount": 17769,
+          "wordCount": 17723,
           "title": "Links 4/30/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/hawksbill_turtle.jpeg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=270751",
-          "author": "Nick Corbishley",
-          "description": "“BRICS is an organization, not a military alliance. It is simply a platform to agree on positions and adopt mutually acceptable decisions that are based on sovereignty, independence and mutual respect.”",
-          "link": "https://www.nakedcapitalism.com/2024/04/could-lithium-rich-bolivia-be-next-to-join-brics-alliance-russia-seems-to-think-so.html",
-          "publishedOn": "2024-04-30T10:45:49.000Z",
-          "wordCount": 4548,
-          "title": "Could Lithium-Rich Bolivia Be Next On BRICS’ Membership List? Russia Seems to Think So",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=270704",
-          "author": "Conor Gallagher",
-          "description": "Spies, spies everywhere.",
-          "link": "https://www.nakedcapitalism.com/2024/04/string-of-conveniently-timed-spying-cases-in-germany-influence-eu-elections-undermine-chancellors-conciliatory-efforts-with-china-and-spread-fear-of-russian-fifth-column.html",
-          "publishedOn": "2024-04-30T10:00:00.000Z",
-          "wordCount": 9639,
-          "title": "String of Conveniently Timed Spying Cases in Germany Influence EU Elections, Undermine Chancellor’s China Efforts, and Spread Fear of Russian Fifth Column",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/04/Screenshot-2024-04-25-at-6.36.37 AM-1024x457.png"
         }
       ]
     },
@@ -1551,7 +1551,7 @@
           "description": "At Slack, we’ve long been conservative technologists. In other words, when we invest in leveraging a new category of infrastructure, we do it rigorously. We’ve done this since we debuted machine learning-powered features in 2016, and we’ve developed a robust process and skilled team in the space. Despite that, over the past year we’ve been […]\nThe post How We Built Slack AI To Be Secure and Private appeared first on Slack Engineering.",
           "link": "https://slack.engineering/how-we-built-slack-ai-to-be-secure-and-private/",
           "publishedOn": "2024-04-18T05:00:33.000Z",
-          "wordCount": 3081,
+          "wordCount": 2189,
           "title": "How We Built Slack AI To Be Secure and Private",
           "imageUrl": "https://slack.engineering/wp-content/uploads/sites/7/2024/04/AI_Marketing_Search_650x450_x2.jpg"
         }
@@ -1715,7 +1715,7 @@
           "description": "Visual Studio Code March 2024\nRead the full article",
           "link": "https://code.visualstudio.com/updates/v1_88",
           "publishedOn": "2024-04-04T17:00:00.000Z",
-          "wordCount": 6154,
+          "wordCount": 6117,
           "title": "Visual Studio Code March 2024",
           "imageUrl": "https://code.visualstudio.com/assets/updates/1_88/release-highlights.png"
         }
@@ -1732,9 +1732,9 @@
           "description": "[...]\nRead More...\nThe post Building new custom silicon for Meta’s AI workloads appeared first on Engineering at Meta.",
           "link": "https://www.metacareers.com/life/building-custom-silicon-for-the-future-of-ai",
           "publishedOn": "2024-04-11T16:30:58.000Z",
-          "wordCount": 2220,
+          "wordCount": 2199,
           "title": "Building new custom silicon for Meta’s AI workloads",
-          "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=TXzUiVRR6AAQ7kNvgEoVHNl&_nc_oc=AdhDw82CrKKUJF-IADOp8eDMjmO9PgVZp82SoBibmiaU6GvUEUYhXs3TixdnbY0Fxuk&_nc_ht=scontent-iad3-1.xx&oh=00_AfC1pD2cJvDw8rqXfRISCfyQfHV53x8wCtoUAHue2JTyEw&oe=664C737B"
+          "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=TXzUiVRR6AAQ7kNvgH6L3bR&_nc_oc=AdjVtw0Iy08d6O2z7jvlUFlodDhvaJyhvAu-zqxCZmkEPyF0jCxaHYIBSjlh0NvLDeI&_nc_ht=scontent-iad3-1.xx&oh=00_AfDght9uB9U8ulQltqA4n20iqZfAtuMKFz5TMyorlgsaTA&oe=664CE3FB"
         },
         {
           "id": "https://engineering.fb.com/?p=21103",
@@ -1742,9 +1742,9 @@
           "description": "[...]\nRead More...\nThe post Building an infrastructure for AI’s future appeared first on Engineering at Meta.",
           "link": "https://www.metacareers.com/life/behind-gen-ai-building-an-infrastructure-for-the-future",
           "publishedOn": "2024-04-11T16:20:49.000Z",
-          "wordCount": 2064,
+          "wordCount": 2062,
           "title": "Building an infrastructure for AI’s future",
-          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=vvqPANXnSb4Q7kNvgGPGM9x&_nc_ht=scontent-iad3-2.xx&oh=00_AfCfeCEHzJhGV2EUJG1VY01u4XXx8Pa5B0wIo_7n6yUZPQ&oe=664C83E3"
+          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=vvqPANXnSb4Q7kNvgEt9XuM&_nc_ht=scontent-iad3-2.xx&oh=00_AfChmzo2iZtZamtbAOwijPrQkd4fRwhorSEo0pHICOqMBw&oe=664CBC23"
         },
         {
           "id": "https://engineering.fb.com/?p=21177",
@@ -1754,7 +1754,7 @@
           "publishedOn": "2024-04-10T15:11:03.000Z",
           "wordCount": 2054,
           "title": "Introducing the next-gen Meta Training and Inference Accelerator",
-          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/434836173_760640236211764_1047890588714439130_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=xHOWs8phYHgQ7kNvgEZeIgE&_nc_ht=scontent-iad3-2.xx&oh=00_AfA5vKWe2zCtM5oEhD6djyKPcgnAaHETULEs1LKIDj5pdQ&oe=664C8CE5"
+          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/434836173_760640236211764_1047890588714439130_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=xHOWs8phYHgQ7kNvgFecHq7&_nc_ht=scontent-iad3-2.xx&oh=00_AfDVKwLpyp2keDGKhUbzZ8cWqrlzShjY0uc8pbWFPoOAPw&oe=664CC525"
         }
       ]
     },
@@ -1763,6 +1763,16 @@
       "feedUrl": "https://blog.langchain.dev/rss/",
       "siteUrl": "https://blog.langchain.dev/",
       "articles": [
+        {
+          "id": "66315aa6731090000133350e",
+          "author": "LangChain",
+          "description": "This blog post walks through our improved regression testing experience in LangSmith. If video form is more your style, you can check out our YouTube walkthrough here. Sign up for LangSmith here for free to try it out for yourself!\n\nYouTube Walkthrough\nLangSmith\n\nThe ability to quickly and reliably evaluate",
+          "link": "https://blog.langchain.dev/regression-testing/",
+          "publishedOn": "2024-05-01T16:23:06.000Z",
+          "wordCount": 1209,
+          "title": "Regression Testing with LangSmith",
+          "imageUrl": "https://blog.langchain.dev/content/images/size/w1200/2024/05/Regression-Testing---Blog.png"
+        },
         {
           "id": "6629b3b02bb0ba000167b434",
           "author": "LangChain",
@@ -1841,12 +1851,22 @@
       "siteUrl": "https://www.quantamagazine.org",
       "articles": [
         {
+          "id": "https://www.quantamagazine.org/?p=137650",
+          "author": "Lakshmi Chandrasekaran",
+          "description": "After years of false starts, a team of computer scientists has found a way to efficiently deduce the Hamiltonian of a physical system at any constant temperature.            \nThe post Scientists Find a Fast Way to Describe Quantum Systems first appeared on Quanta Magazine",
+          "link": "https://www.quantamagazine.org/scientists-find-a-fast-way-to-describe-quantum-systems-20240501/",
+          "publishedOn": "2024-05-01T14:13:48.000Z",
+          "wordCount": 5209,
+          "title": "Scientists Find a Fast Way to Describe Quantum Systems",
+          "imageUrl": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2024/05/HamiltonianAlgorithm-byKristinaArmitage-Social.webp"
+        },
+        {
           "id": "https://www.quantamagazine.org/?p=137618",
           "author": "Kelsey Houston-Edwards",
           "description": "Four mathematicians broke a 75-year-old record by finding a denser way to pack high-dimensional spheres.            \nThe post To Pack Spheres Tightly, Mathematicians Throw Them at Random first appeared on Quanta Magazine",
           "link": "https://www.quantamagazine.org/to-pack-spheres-tightly-mathematicians-throw-them-at-random-20240430/",
           "publishedOn": "2024-04-30T14:00:20.000Z",
-          "wordCount": 6050,
+          "wordCount": 6078,
           "title": "To Pack Spheres Tightly, Mathematicians Throw Them at Random",
           "imageUrl": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2024/04/SpherePaching-byDaveWhyte-Social.webp"
         },
@@ -1856,7 +1876,7 @@
           "description": "The outer layers of the sun’s atmosphere are a blistering million degrees hotter than its surface. The hidden culprit? Magnetic activity.             \nThe post How a NASA Probe Solved a Scorching Solar Mystery first appeared on Quanta Magazine",
           "link": "https://www.quantamagazine.org/how-a-nasa-probe-solved-a-scorching-solar-mystery-20240429/",
           "publishedOn": "2024-04-29T13:49:26.000Z",
-          "wordCount": 6432,
+          "wordCount": 6460,
           "title": "How a NASA Probe Solved a Scorching Solar Mystery",
           "imageUrl": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2024/04/Heliophysics-crJamesOBrien-Social.webp"
         },
@@ -1866,7 +1886,7 @@
           "description": "The computer scientist Ellie Pavlick is translating philosophical concepts such as “meaning” into concrete, testable ideas.            \nThe post Does AI Know What an Apple Is? She Aims to Find Out. first appeared on Quanta Magazine",
           "link": "https://www.quantamagazine.org/does-ai-know-what-an-apple-is-she-aims-to-find-out-20240425/",
           "publishedOn": "2024-04-25T14:10:35.000Z",
-          "wordCount": 7009,
+          "wordCount": 7037,
           "title": "Does AI Know What an Apple Is? She Aims to Find Out.",
           "imageUrl": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2024/04/ElliePavlick-crAdamWasilewski-Social.jpg"
         },
@@ -1876,19 +1896,9 @@
           "description": "Human nutrition begins with milk, but the wondrous biofluid does much more than feed babies. In this episode, co-host Steven Strogatz speaks with molecular nutritionist Elizabeth Johnson about her research into the impact of human milk on a healthy microbiome.            \nThe post What Does Milk Do for Babies? first appeared on Quanta Magazine",
           "link": "https://www.quantamagazine.org/what-does-milk-do-for-babies-20240425/",
           "publishedOn": "2024-04-25T13:00:01.000Z",
-          "wordCount": 15146,
+          "wordCount": 15174,
           "title": "What Does Milk Do for Babies?",
           "imageUrl": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2024/04/JoY-S3E7-HumanMilk-byPeterGreenwood-Social-LOGO.webp"
-        },
-        {
-          "id": "https://www.quantamagazine.org/?p=137485",
-          "author": "Lesley Evans Ogden",
-          "description": "More than 50 years after Bob Paine’s experiment with starfish, hundreds of species have been pronounced “keystones” in their ecosystems. Has the powerful metaphor lost its mathematical meaning?            \nThe post Ecologists Struggle to Get a Grip on ‘Keystone Species’ first appeared on Quanta Magazine",
-          "link": "https://www.quantamagazine.org/ecologists-struggle-to-get-a-grip-on-keystone-species-20240424/",
-          "publishedOn": "2024-04-24T14:27:09.000Z",
-          "wordCount": 8412,
-          "title": "Ecologists Struggle to Get a Grip on ‘Keystone Species’",
-          "imageUrl": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2024/04/Multicellularity-byJulian-Nieman-AlamyStockPhoto-Social.webp"
         }
       ]
     },
@@ -1898,12 +1908,22 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=40222360",
+          "author": "ehutch79",
+          "description": "15k people, hitting a site that isn't actively changing content, shouldn't be bringing any webserver to it's knees.\n- They've set the generated page to be uncachable with max-age=0 (https://developers.cloudflare.com/cache/concepts/default-cac...)\n- nginx is clearly not caching dynamic resources (currently 22s (not ms) to respond)\n- lots of 3rd party assets loading. Why are you loading stripe before I'm giving you money?\n- why is there a random 'grey.webp' loading from this michelmeyer.whatever domain?\nThis isn't mastadon or cloudflare, it's a skill issue.",
+          "link": "https://news.ycombinator.com/item?id=40222360",
+          "publishedOn": "2024-05-01T12:43:33.000Z",
+          "wordCount": 1080,
+          "title": "New comment by ehutch79 in \"Please Don't Share Our Links on Mastodon\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=40216034",
           "author": "datadrivenangel",
           "description": "Reminds me of the classic: \"Sorry I missed your comment of many months ago. I no longer build software; I now make furniture out of wood. The hours are long, the pay sucks, and there's always the opportunity to remove my finger with a table saw, but nobody asks me if I can add an RSS feed to a DBMS, so there's that :-)\"\nhttps://github.com/docker/cli/issues/267#issuecomment-695149...",
           "link": "https://news.ycombinator.com/item?id=40216034",
           "publishedOn": "2024-04-30T20:38:29.000Z",
-          "wordCount": 599,
+          "wordCount": null,
           "title": "New comment by datadrivenangel in \"Quitting engineering to pursue art full-time\"",
           "imageUrl": null
         },
@@ -1923,8 +1943,18 @@
           "description": "Wow, this is everything I want from a new Go!\nHaving worked on multiple very large Go codebases with many engineers, the lack of actual enums and a built-in optional type instead of nil drive me crazy.\nI think I'm in love.\nEdit:\nLooks like last commit was 7 months ago. Was this abandoned, or considered feature complete? I hope it's not abandoned!",
           "link": "https://news.ycombinator.com/item?id=40212796",
           "publishedOn": "2024-04-30T16:24:42.000Z",
-          "wordCount": 10256,
+          "wordCount": null,
           "title": "New comment by lordofgibbons in \"Borgo is a statically typed language that compiles to Go\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40211875",
+          "author": "segasaturn",
+          "description": "404Media ran an expose on a new LLM product designed to mimmick real users having discussions on Reddit and plug your product in the comments, called \"Reply Guy\" (lol)\nhttps://www.404media.co/ai-is-poisoning-reddit-to-promote-pr...\nGoogle is failing, so users start putting \"Reddit\" on the ends of their search results. Where do we go when Reddit is no longer useful and contains the same AI generated dreck as all the Google search results? It shows how many single points of failure there are on the informational web. Pretty much the only informational resource on the web that's still unscathed is Wikipedia (thanks herculean-level efforts by its editors, mind you), but I wouldn't bank on it in the same way I wouldn't bank on Reddit. The \"information age\" might be coming to an end.",
+          "link": "https://news.ycombinator.com/item?id=40211875",
+          "publishedOn": "2024-04-30T15:12:14.000Z",
+          "wordCount": 5487,
+          "title": "New comment by segasaturn in \"Reddit is full of bots: thread reposted comment by comment, 10 months later\"",
           "imageUrl": null
         },
         {
@@ -1963,7 +1993,7 @@
           "description": "The page is the result of this exchange on Twitter:\nhttps://twitter.com/gorilla0513/status/1784756577465200740\nI was surprised to receive a reply from you, the author. Thank you :)\nSince I'm a novice with both compilers and databases, could you tell me what the advantages and disadvantages are of using a VM with SQLite?\nhttps://twitter.com/DRichardHipp/status/1784783482788413491\nIt is difficult to summarize the advantages and disadvantages of byte-code versus AST for SQL in a tweet.  I need to write a new page on this topic for the SQLite documentation.  Please remind me if something does not appear in about a week.",
           "link": "https://news.ycombinator.com/item?id=40207533",
           "publishedOn": "2024-04-30T05:30:29.000Z",
-          "wordCount": 4456,
+          "wordCount": null,
           "title": "New comment by wolf550e in \"Why SQLite Uses Bytecode\"",
           "imageUrl": null
         },
@@ -1998,16 +2028,6 @@
           "imageUrl": null
         },
         {
-          "id": "https://news.ycombinator.com/item?id=40202386",
-          "author": "singluere",
-          "description": "While I've not used this product, I've created somewhat similar setup using open source LLMs that runs locally. After having used it for about three months, I can say that debugging LLM prompts was far more annoying than debugging code. Ultimately, I ended up abandoning my setup and going in favor of writing code the good old fashioned way. YMMV",
-          "link": "https://news.ycombinator.com/item?id=40202386",
-          "publishedOn": "2024-04-29T18:52:13.000Z",
-          "wordCount": null,
-          "title": "New comment by singluere in \"GitHub Copilot Workspace: Technical Preview\"",
-          "imageUrl": null
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=40202332",
           "author": "mchannon",
           "description": "I once bought a far larger supercomputer. It was 1/8 (roughly) of ASCI Blue Mountain. 72 racks. Commissioned in 1998 as #1 or #2 on the TOP500, officially decommissioned in 2004, purchased my 1/8 for $7k in ~2005.\nMoving 72 racks was NOT easy. After paying substantial storage fees, I rented a 1500sf warehouse after selling off a few of them and they filled it up. Took a while to get 220V/30A service in there to run just one of them for testing purposes. Installing IRIX was 10x worse than any other OS. Imagine 8 CD's and you had to put them each in 2x during the process. Luckily somebody listed a set on eBay. SGI was either already defunct or just very unfriendly to second hand owners like myself.\nThe racks ran SGI Origin 2000s with CRAYlink interlinks. Sold 'em off 1-8 at a time, mainly to render farms. Toy Story had been made on similar hardware. The original NFL broadcasts with that magic yellow first down line were synthesized with similar hardware. One customer did the opening credits for a movie with one of my units.\nI remember still having half of them around when Bitcoin first came out. It never occurred to me to try to mine with them, though I suspect if I'd been able to provide sufficient electrical service for the remainder, Satoshi and I would've been neck-and-neck for number of bitcoins in our respective wallets.\nThe whole exercise was probably worthwhile. I learned a lot, even if it does feel like seven lifetimes ago.",
@@ -2023,7 +2043,7 @@
           "description": "You are directing your ire at the wrong party. Hachette has nothing to gain from continuing to pursue this lawsuit, the only possible outcome (as you correctly state) is the world becomes a worse place. The behavior they object to has already stopped, and they've got a judgment to prevent it happening again. Hachette could drop enforcement of the judgment, both parties can dismiss the appeal, and no one loses anything.\nHachette's owners see an opportunity here to destroy a public good, and they are taking it. Hachette are the bad actors trying to destroy what you find valuable, not the IA.",
           "link": "https://news.ycombinator.com/item?id=40202127",
           "publishedOn": "2024-04-29T18:32:30.000Z",
-          "wordCount": null,
+          "wordCount": 4318,
           "title": "New comment by coldpie in \"The Internet Archive's last-ditch effort to save itself\"",
           "imageUrl": null
         },
@@ -2043,7 +2063,7 @@
           "description": "Man, its knowledge is insane.\nI run a dying forum. I first prompted with \"Who is  at ?\" and it gave me a very endearing, weirdly knowledgeable bio of myself and my contributions to the forum including various innovations I made in the space back in the day. It summarized my role on my own forum better than I could have ever written it.\nAnd then I asked \"who are other notable users at \" and it gave me a list of some mods but also stand out users. It knew the types of posts they wrote and the subforums they spent time in. And without a single hallucination.",
           "link": "https://news.ycombinator.com/item?id=40201476",
           "publishedOn": "2024-04-29T17:39:12.000Z",
-          "wordCount": 2274,
+          "wordCount": null,
           "title": "New comment by hombre_fatal in \"GPT-4.5 or GPT-5 being tested on LMSYS?\"",
           "imageUrl": null
         },
@@ -2053,7 +2073,7 @@
           "description": "The \"National Emergency Library\" was obviously a huge mistake, and I'm surprised that IA continues to defend it. The problem is, their online book lending is far from the most important part of the Internet Archive, and by continuing to fight for it, they risk losing everything, including the entire rest of the archive which seems to me to be far more important.\nThe Internet Archive has become the de-facto default location to upload anything rare, important, or valuable, and a terrifyingly large amount of history would suddenly blink from existence if it were brought down.",
           "link": "https://news.ycombinator.com/item?id=40201318",
           "publishedOn": "2024-04-29T17:26:54.000Z",
-          "wordCount": null,
+          "wordCount": 11108,
           "title": "New comment by LeoPanthera in \"The Internet Archive's last-ditch effort to save itself\"",
           "imageUrl": null
         },
@@ -2075,16 +2095,6 @@
           "publishedOn": "2024-04-29T16:39:10.000Z",
           "wordCount": null,
           "title": "New comment by packetlost in \"GitHub Copilot Workspace: Technical Preview\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40200499",
-          "author": "garyrob",
-          "description": "I want to give some advice: Don't judge it by its first few episodes. When I first checked it out, the basic setup seemed rather inane and I stopped watching.\nThen, a couple years later, I needed something to watch during long exercise sessions and I checked it out again. It was getting much more interesting by the end of the first season.\nAnd every season got better and richer. By the very end, I experienced it as actually deep, especially in the way the Keri Russell character unexpectedly evolves. It was a real pleasure and I'm very glad I had the chance to enjoy it. Recommended!",
-          "link": "https://news.ycombinator.com/item?id=40200499",
-          "publishedOn": "2024-04-29T16:28:22.000Z",
-          "wordCount": null,
-          "title": "New comment by garyrob in \"Husband and wife outed as GRU spies aiding bombings and poisonings across Europe\"",
           "imageUrl": null
         },
         {
@@ -2133,7 +2143,7 @@
           "description": "I'm only part into the story, but I already love it.\nThe prisoners-of-war were tired hiding their lathe every time they might be searched, that they hung up a sign \"workshop\" above one of their huts, and timed it so that the new round of guards thought it had always been there.",
           "link": "https://news.ycombinator.com/item?id=40190798",
           "publishedOn": "2024-04-28T18:46:53.000Z",
-          "wordCount": null,
+          "wordCount": 4489,
           "title": "New comment by navane in \"A small lathe built in a Japanese prison camp (1949)\"",
           "imageUrl": null
         },
@@ -2183,7 +2193,7 @@
           "description": "> The good news for these internal interruptions is that it should be much easier to control them.\nFor a long-time meditator, this is comedic gold. Just control your internal interruptions, stay focused. That's all, eh? Hehehehehe",
           "link": "https://news.ycombinator.com/item?id=40189740",
           "publishedOn": "2024-04-28T16:31:27.000Z",
-          "wordCount": null,
+          "wordCount": 4047,
           "title": "New comment by justinpombrio in \"Fragmented thinking is a bigger threat to flow state than interruptions\"",
           "imageUrl": null
         },
@@ -2210,7 +2220,7 @@
           "description": "It’s International Workers Day, still celebrated as the May Day public holiday here in Queensland, at least when the Labor party is in office. So, it’s a good day for me to set out some tentative thoughts on work and its future. Via Matt McManus, I found this quote from Marx ‘Fragment on Machines”. The […]",
           "link": "https://crookedtimber.org/2024/05/01/52657/",
           "publishedOn": "2024-05-01T05:52:35.000Z",
-          "wordCount": 2867,
+          "wordCount": 3372,
           "title": "Machines and tools",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2220,7 +2230,7 @@
           "description": "Scientific research, academic knowledge production, and higher education are under an obscene and direct attack today in Argentina. Milei’s attack is not an isolated case. To a certain extent, it is part of a global phenomenon, i.e. the rampant anti-intellectualism of the “new” right-wing movements and governments, which has certainly accelerated its spread with the […]",
           "link": "https://crookedtimber.org/2024/04/30/the-destruction-of-argentinas-higher-education-and-science-system/",
           "publishedOn": "2024-04-30T19:02:37.000Z",
-          "wordCount": 5659,
+          "wordCount": 5691,
           "title": "The destruction of Argentina’s higher education and science system",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2230,7 +2240,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/04/28/sunday-photoblogging-pezenas-4/",
           "publishedOn": "2024-04-28T15:00:47.000Z",
-          "wordCount": 1759,
+          "wordCount": 1753,
           "title": "Sunday photoblogging: Pézenas",
           "imageUrl": "https://live.staticflickr.com/65535/53667264033_404beb0709.jpg"
         },
@@ -2240,7 +2250,7 @@
           "description": "Culture wars have two main functions. First, to split an existing, dominant social or political coalition apart by the clever use of wedge-issues. (Not all wedge-issues are a part of a culture war.) So, a culture war reveals a latent or induces real divergence in a pre-existing coalition. So, for example, how to think about trans-issues […]",
           "link": "https://crookedtimber.org/2024/04/26/going-meta-on-culture-wars/",
           "publishedOn": "2024-04-26T09:34:42.000Z",
-          "wordCount": 13736,
+          "wordCount": 14195,
           "title": "Going Meta on Culture Wars",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2250,7 +2260,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/04/21/sunday-photoblogging-crossroads/",
           "publishedOn": "2024-04-21T05:49:13.000Z",
-          "wordCount": 1757,
+          "wordCount": 1751,
           "title": "Sunday photoblogging: crossroads",
           "imageUrl": "https://live.staticflickr.com/65535/53667511330_cb02482ff2.jpg"
         },
@@ -2260,7 +2270,7 @@
           "description": "I’ve been doing a bunch of talks and events online, mostly not CT related, but a couple that might be interesting to readers. One that certainly is is this conversation with Francis Spufford, which is a coda to Red Plenty. Some of my bits of the conversation build on this Long Now talk from a […]",
           "link": "https://crookedtimber.org/2024/04/20/online-talks/",
           "publishedOn": "2024-04-20T01:22:13.000Z",
-          "wordCount": 2264,
+          "wordCount": 2258,
           "title": "Online talks",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2270,7 +2280,7 @@
           "description": "Robert Farley has replied to my recent post on the obsolescence of naval power. Unlike our previous exchange, a pile-on where I was (as he points out) in a minority of one, Robert’s tone is mostly civil this time, and I intend to reciprocate. Our disagreements have narrowed a fair way. On many points, it’s […]",
           "link": "https://crookedtimber.org/2024/04/20/expertise-and-naval-power/",
           "publishedOn": "2024-04-20T00:16:56.000Z",
-          "wordCount": 5016,
+          "wordCount": 5010,
           "title": "Expertise and naval power",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2280,7 +2290,7 @@
           "description": "In all the discussion of Leif Wenar’s critique of Effective Altruism , I haven’t seen much mention of the central premise: that development aid is generally counterproductive (unless, perhaps, it’s delivered by wealthy surfers in their spare time). Wenar is quite clear that his argument applies just as much to official development aid and to […]",
           "link": "https://crookedtimber.org/2024/04/17/wenar-on-why-you-shouldnt-try-to-help-poor-people/",
           "publishedOn": "2024-04-17T22:44:13.000Z",
-          "wordCount": 8810,
+          "wordCount": 8804,
           "title": "Wenar on why you shouldn’t try to help poor people",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2290,7 +2300,7 @@
           "description": "Gina’s post on Indiana’s DEI-related law came at a fortuitous time for me, because last week I participated in a panel about State Legislatures, Academic Freedom and Public Universities. The panelists were given about 6 minutes to present some prepared remarks’ and discussion ensued. As far as I could tell there was just one state […]",
           "link": "https://crookedtimber.org/2024/04/17/52615/",
           "publishedOn": "2024-04-17T13:13:28.000Z",
-          "wordCount": 9754,
+          "wordCount": 9748,
           "title": "Academic Freedom, State Legislatures and Public Universities (Wisconsin edition).",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2300,7 +2310,7 @@
           "description": "I’m sure Crooked Timber readers would been keen to learn of exciting new books out just now from Daniel Davies and Kieran Healy. Marion Fourcade and Kieran Healy have published The Ordinal Society , arguing that “argue that technologies of information management, fueled by the abundance of personal data and the infrastructure of the internet, […]",
           "link": "https://crookedtimber.org/2024/04/17/crooked-timberish-books-and-other-writings/",
           "publishedOn": "2024-04-17T07:03:33.000Z",
-          "wordCount": 1926,
+          "wordCount": 1920,
           "title": "Crooked Timberish books and other writings",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2310,7 +2320,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/04/14/sunday-photoblogging-canal-saint-martin-paris-3/",
           "publishedOn": "2024-04-14T07:38:21.000Z",
-          "wordCount": 1766,
+          "wordCount": 1760,
           "title": "Sunday photoblogging: Canal Saint-Martin, Paris (3)",
           "imageUrl": "https://live.staticflickr.com/65535/53610061080_902547dac7.jpg"
         },
@@ -2320,7 +2330,7 @@
           "description": "Since my book Limitarianism: The Case Against Extreme Wealth came out, first in Dutch at the end of November, and then in the US and in the UK a few weeks later, I’ve given more than 60 media interviews and talks. Among them was a long interview in The Observer, a summary of the argument […]",
           "link": "https://crookedtimber.org/2024/04/13/limitarianism-update/",
           "publishedOn": "2024-04-13T14:53:52.000Z",
-          "wordCount": 3446,
+          "wordCount": 3440,
           "title": "Limitarianism update",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2330,7 +2340,7 @@
           "description": "Last year, I received an email asking if I would write an introductory essay for the Tor Essentials reissue of Kim Stanley Robinson’s novel Icehenge. It took me approximately thirty seconds to convince myself that this was not some kind of hallucination, and another three or four to type YES! OF COURSE!!! and hit reply. It […]",
           "link": "https://crookedtimber.org/2024/04/12/the-making-of-icehenge/",
           "publishedOn": "2024-04-12T12:43:17.000Z",
-          "wordCount": 6579,
+          "wordCount": 6573,
           "title": "The making of Icehenge",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2340,7 +2350,7 @@
           "description": "I’ve posted a few times over the years about a trip I made with my partner to Leipzig in East Germany back in 1984, and I confess that the now-defunct country retains a kind of fascination for me. My rather banal judgement then and now is that the country, though marked by annoying shortages and […]",
           "link": "https://crookedtimber.org/2024/04/09/east-german-history/",
           "publishedOn": "2024-04-09T06:20:21.000Z",
-          "wordCount": 24709,
+          "wordCount": 24703,
           "title": "East German history",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -2350,7 +2360,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/04/07/sunday-photoblogging-canal-saint-martin-paris-2/",
           "publishedOn": "2024-04-07T06:45:08.000Z",
-          "wordCount": 1693,
+          "wordCount": 1687,
           "title": "Sunday photoblogging: Canal Saint-Martin, Paris (2)",
           "imageUrl": "https://live.staticflickr.com/65535/53609817228_fcb8730869.jpg"
         }

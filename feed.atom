@@ -1,10 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-01T12:39:41.084Z</id>
+    <id>urn:2024-05-01T18:27:30.413Z</id>
     <title>osmos::feed</title>
-    <updated>2024-05-01T12:39:41.084Z</updated>
+    <updated>2024-05-01T18:27:30.413Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[2:00PM Water Cooler 5/1/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=270899</id>
+        <link href="https://www.nakedcapitalism.com/2024/05/200pm-water-cooler-5-1-2024.html"/>
+        <updated>2024-05-01T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, pandemics, Trump's plans, Biden's polling, jobs numbers ~]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Regression Testing with LangSmith]]></title>
+        <id>66315aa6731090000133350e</id>
+        <link href="https://blog.langchain.dev/regression-testing/"/>
+        <updated>2024-05-01T16:23:06.000Z</updated>
+        <summary type="html"><![CDATA[This blog post walks through our improved regression testing experience in LangSmith. If video form is more your style, you can check out our YouTube walkthrough here. Sign up for LangSmith here for free to try it out for yourself!
+
+YouTube Walkthrough
+LangSmith
+
+The ability to quickly and reliably evaluate]]></summary>
+        <author>
+            <name>LangChain</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 tips to supercharge your developer career in 2024]]></title>
+        <id>https://github.blog/2024-05-01-5-tips-to-supercharge-your-developer-career-in-2024/</id>
+        <link href="https://github.blog/2024-05-01-5-tips-to-supercharge-your-developer-career-in-2024/"/>
+        <updated>2024-05-01T16:10:45.000Z</updated>
+        <summary type="html"><![CDATA[<p>From mastering prompt engineering to leveraging AI for code security, here’s how you can excel in today's competitive job market.  </p>
+<p>The post <a href="https://github.blog/2024-05-01-5-tips-to-supercharge-your-developer-career-in-2024/">5 tips to supercharge your developer career in 2024</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
+        <author>
+            <name>The GitHub Blog: Engineering News and Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stop the CNAME chain struggle: Simplified management with Route 53 Resolver DNS Firewall]]></title>
+        <id>86dd5735fb76719fae3fa6f0aa4e8a5a846c0583</id>
+        <link href="https://aws.amazon.com/blogs/aws/stop-the-cname-chain-struggle-simplified-management-with-route-53-resolver-dns-firewall/"/>
+        <updated>2024-05-01T15:39:55.000Z</updated>
+        <summary type="html"><![CDATA[Starting today, you can configure your DNS Firewall to automatically trust all domains in a resolution chain (such as aCNAME, DNAME, or Alias chain). Let’s walk through this in nontechnical terms for those unfamiliar with DNS. Why use DNS Firewall? DNS Firewall provides protection for outbound DNS requests from your private network in the cloud […]]]></summary>
+        <author>
+            <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scientists Find a Fast Way to Describe Quantum Systems]]></title>
+        <id>https://www.quantamagazine.org/?p=137650</id>
+        <link href="https://www.quantamagazine.org/scientists-find-a-fast-way-to-describe-quantum-systems-20240501/"/>
+        <updated>2024-05-01T14:13:48.000Z</updated>
+        <summary type="html"><![CDATA[After years of false starts, a team of computer scientists has found a way to efficiently deduce the Hamiltonian of a physical system at any constant temperature.            
+The post Scientists Find a Fast Way to Describe Quantum Systems first appeared on Quanta Magazine]]></summary>
+        <author>
+            <name>Lakshmi Chandrasekaran</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TaxCast #142: Blockchain Havens]]></title>
+        <id>https://www.nakedcapitalism.com/?p=270884</id>
+        <link href="https://www.nakedcapitalism.com/2024/05/taxcast-142-blockchain-havens.html"/>
+        <updated>2024-05-01T13:55:11.000Z</updated>
+        <summary type="html"><![CDATA[How blockchain/crypto tax havens are  displacing traditional tax havens.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by ehutch79 in "Please Don't Share Our Links on Mastodon"]]></title>
+        <id>https://news.ycombinator.com/item?id=40222360</id>
+        <link href="https://news.ycombinator.com/item?id=40222360"/>
+        <updated>2024-05-01T12:43:33.000Z</updated>
+        <summary type="html"><![CDATA[15k people, hitting a site that isn't actively changing content, shouldn't be bringing any webserver to it's knees.
+- They've set the generated page to be uncachable with max-age=0 (https://developers.cloudflare.com/cache/concepts/default-cac...)
+- nginx is clearly not caching dynamic resources (currently 22s (not ms) to respond)
+- lots of 3rd party assets loading. Why are you loading stripe before I'm giving you money?
+- why is there a random 'grey.webp' loading from this michelmeyer.whatever domain?
+This isn't mastadon or cloudflare, it's a skill issue.]]></summary>
+        <author>
+            <name>ehutch79</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Water Flowing Upwards: Net financial flows from developing countries]]></title>
         <id>http://rwer.wordpress.com/?p=45345</id>
@@ -85,6 +167,17 @@ The post The Fight Over THAAD in Korea appeared first on CounterPunch.org.]]></s
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Boston Area Students Against Genocide: Report from the Weekend of April 26]]></title>
+        <id>https://www.counterpunch.org/?p=320675</id>
+        <link href="https://www.counterpunch.org/2024/05/01/boston-area-students-against-genocide-report-from-the-weekend-of-april-26/"/>
+        <updated>2024-05-01T05:58:52.000Z</updated>
+        <summary type="html"><![CDATA[When I strolled into Harvard Yard around 6:00 pm on Friday, a Shabbat service was taking place in the student encampment for Palestine. Dozens of young people were seated in a large circle on the lawn, many wearing keffiyehs, a few wearing kippahs, and at least one wearing both. A guitar player strummed and led the circle in a Yiddish song while campers nearby talked in small groups, or stared at laptops, perhaps preparing for finals. Three police SUVs were parked in sight of the camp on the centuries-old Yard, and a keffiyeh was tied around the sculpted head of the university’s namesake, John Harvard. More
+The post Boston Area Students Against Genocide: Report from the Weekend of April 26 appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Walter Smelt III</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Under Modi, the Northeast Is More United With India, but More Divided Within]]></title>
         <id>https://www.counterpunch.org/?p=320615</id>
         <link href="https://www.counterpunch.org/2024/05/01/under-modi-the-northeast-is-more-united-with-india-but-more-divided-within/"/>
@@ -100,7 +193,7 @@ The post Under Modi, the Northeast Is More United With India, but More Divided W
         <id>https://www.counterpunch.org/?p=320282</id>
         <link href="https://www.counterpunch.org/2024/05/01/unspeakable-archeology-of-horror/"/>
         <updated>2024-05-01T05:55:37.000Z</updated>
-        <summary type="html"><![CDATA[It’s as if one were an archeologist digging through layers of evil, uncovering a particular atrocity, only to discover, scratching at the earth, deeper levels of depravity. Gaza. Discoveries, unearthed. One, the images of emaciated children, points to an obvious association. At this writing, there are close to 35,000 confirmed deaths, 40% children, thousands of  More
+        <summary type="html"><![CDATA[It’s as if one were an archeologist digging through layers of evil, uncovering a particular atrocity, only to discover, scratching at the earth, deeper levels of depravity. Gaza. Discoveries, unearthed. One, the images of emaciated children, points to an obvious association. At this writing, there are close to 35,000 confirmed deaths, 40% children, thousands of bodies unaccounted for, buried under the rubble. The actual count could be vastly greater. More
 The post Unspeakable Archeology of Horror appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Richard Ward</name>
@@ -172,6 +265,17 @@ The post Ben Linder: 37 Years, ¡Presente! appeared first on CounterPunch.org.]]
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Support Students or Support Genocide]]></title>
+        <id>https://www.counterpunch.org/?p=320718</id>
+        <link href="https://www.counterpunch.org/2024/05/01/support-students-or-support-genocide/"/>
+        <updated>2024-05-01T05:35:45.000Z</updated>
+        <summary type="html"><![CDATA[May day! May day! We raised young people to believe that genocide was wrong. We told them they had the right to free speech and assembly. We told them that lots of wars were somehow not genocidal (pay no attention to the millions of dark-skinned corpses behind the curtain, children) and that those wars even  More
+The post Support Students or Support Genocide appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>David Swanson</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Arizona’s 1864 Abortion Law was Made in a Women’s Rights Desert]]></title>
         <id>https://www.counterpunch.org/?p=320273</id>
         <link href="https://www.counterpunch.org/2024/05/01/arizonas-1864-abortion-law-was-made-in-a-womens-rights-desert/"/>
@@ -238,7 +342,7 @@ https://github.com/docker/cli/issues/267#issuecomment-695149...]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Amazon Titan Text V2 now available in Amazon Bedrock, optimized for improving RAG]]></title>
+        <title type="html"><![CDATA[Amazon Titan Text Embeddings V2 now available in Amazon Bedrock, optimized for improving RAG]]></title>
         <id>ccf9cb1edfcf2e819e0bac0a313a9025d5a63946</id>
         <link href="https://aws.amazon.com/blogs/aws/amazon-titan-text-v2-now-available-in-amazon-bedrock-optimized-for-improving-rag/"/>
         <updated>2024-04-30T20:06:51.000Z</updated>
@@ -278,16 +382,6 @@ https://github.com/docker/cli/issues/267#issuecomment-695149...]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AWS Ops Automator v2 features vertical scaling (Preview)]]></title>
-        <id>7175e8c11ba4180774f5103adfe97f4a5772b2f6</id>
-        <link href="https://aws.amazon.com/blogs/architecture/aws-ops-automator-v2-features-vertical-scaling-preview/"/>
-        <updated>2024-04-30T16:31:35.000Z</updated>
-        <summary type="html"><![CDATA[Editors note April 30, 2024: The information in this post is outdated and the solution has been retired. For more solutions using AWS services, see the AWS Solutions Library. The new version of the AWS Ops Automator, a solution that enables you to automatically manage your AWS resources, features vertical scaling for Amazon EC2 instances. […]]]></summary>
-        <author>
-            <name>AWS Editorial Team</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by lordofgibbons in "Borgo is a statically typed language that compiles to Go"]]></title>
         <id>https://news.ycombinator.com/item?id=40212796</id>
         <link href="https://news.ycombinator.com/item?id=40212796"/>
@@ -299,6 +393,18 @@ Edit:
 Looks like last commit was 7 months ago. Was this abandoned, or considered feature complete? I hope it's not abandoned!]]></summary>
         <author>
             <name>lordofgibbons</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by segasaturn in "Reddit is full of bots: thread reposted comment by comment, 10 months later"]]></title>
+        <id>https://news.ycombinator.com/item?id=40211875</id>
+        <link href="https://news.ycombinator.com/item?id=40211875"/>
+        <updated>2024-04-30T15:12:14.000Z</updated>
+        <summary type="html"><![CDATA[404Media ran an expose on a new LLM product designed to mimmick real users having discussions on Reddit and plug your product in the comments, called "Reply Guy" (lol)
+https://www.404media.co/ai-is-poisoning-reddit-to-promote-pr...
+Google is failing, so users start putting "Reddit" on the ends of their search results. Where do we go when Reddit is no longer useful and contains the same AI generated dreck as all the Google search results? It shows how many single points of failure there are on the informational web. Pretty much the only informational resource on the web that's still unscathed is Wikipedia (thanks herculean-level efforts by its editors, mind you), but I wouldn't bank on it in the same way I wouldn't bank on Reddit. The "information age" might be coming to an end.]]></summary>
+        <author>
+            <name>segasaturn</name>
         </author>
     </entry>
     <entry>
@@ -387,26 +493,6 @@ A key point to keep in mind is that SQLite bytecodes tend to be very high-level 
         <summary type="html"><![CDATA[Our epic daily links]]></summary>
         <author>
             <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Could Lithium-Rich Bolivia Be Next On BRICS’ Membership List? Russia Seems to Think So]]></title>
-        <id>https://www.nakedcapitalism.com/?p=270751</id>
-        <link href="https://www.nakedcapitalism.com/2024/04/could-lithium-rich-bolivia-be-next-to-join-brics-alliance-russia-seems-to-think-so.html"/>
-        <updated>2024-04-30T10:45:49.000Z</updated>
-        <summary type="html"><![CDATA[“BRICS is an organization, not a military alliance. It is simply a platform to agree on positions and adopt mutually acceptable decisions that are based on sovereignty, independence and mutual respect.”]]></summary>
-        <author>
-            <name>Nick Corbishley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[String of Conveniently Timed Spying Cases in Germany Influence EU Elections, Undermine Chancellor’s China Efforts, and Spread Fear of Russian Fifth Column]]></title>
-        <id>https://www.nakedcapitalism.com/?p=270704</id>
-        <link href="https://www.nakedcapitalism.com/2024/04/string-of-conveniently-timed-spying-cases-in-germany-influence-eu-elections-undermine-chancellors-conciliatory-efforts-with-china-and-spread-fear-of-russian-fifth-column.html"/>
-        <updated>2024-04-30T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Spies, spies everywhere.]]></summary>
-        <author>
-            <name>Conor Gallagher</name>
         </author>
     </entry>
     <entry>
@@ -613,16 +699,6 @@ For a little bit of context for how impressive this is, here's my take on it wit
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by singluere in "GitHub Copilot Workspace: Technical Preview"]]></title>
-        <id>https://news.ycombinator.com/item?id=40202386</id>
-        <link href="https://news.ycombinator.com/item?id=40202386"/>
-        <updated>2024-04-29T18:52:13.000Z</updated>
-        <summary type="html"><![CDATA[While I've not used this product, I've created somewhat similar setup using open source LLMs that runs locally. After having used it for about three months, I can say that debugging LLM prompts was far more annoying than debugging code. Ultimately, I ended up abandoning my setup and going in favor of writing code the good old fashioned way. YMMV]]></summary>
-        <author>
-            <name>singluere</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by mchannon in "Cheyenne Super Computer Auction"]]></title>
         <id>https://news.ycombinator.com/item?id=40202332</id>
         <link href="https://news.ycombinator.com/item?id=40202332"/>
@@ -723,18 +799,6 @@ If you're studying algorithms and data structures and engineering best practices
         <summary type="html"><![CDATA[The hardest part of software development is not writing code, full stop. It never has been and it never will be. The hard part is designing, understanding, verifying, and repairing complex systems. LLMs do not do this, even a little bit.]]></summary>
         <author>
             <name>packetlost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by garyrob in "Husband and wife outed as GRU spies aiding bombings and poisonings across Europe"]]></title>
-        <id>https://news.ycombinator.com/item?id=40200499</id>
-        <link href="https://news.ycombinator.com/item?id=40200499"/>
-        <updated>2024-04-29T16:28:22.000Z</updated>
-        <summary type="html"><![CDATA[I want to give some advice: Don't judge it by its first few episodes. When I first checked it out, the basic setup seemed rather inane and I stopped watching.
-Then, a couple years later, I needed something to watch during long exercise sessions and I checked it out again. It was getting much more interesting by the end of the first season.
-And every season got better and richer. By the very end, I experienced it as actually deep, especially in the way the Keri Russell character unexpectedly evolves. It was a real pleasure and I'm very glad I had the chance to enjoy it. Recommended!]]></summary>
-        <author>
-            <name>garyrob</name>
         </author>
     </entry>
     <entry>
@@ -889,28 +953,6 @@ The post Liz Truss and the West: A Failed Former Prime Minister Speaks appeared 
 The post College Administrators are Falling Into a Tried and True Trap Laid by the Right appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Lauren Lassabe Shepherd</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Confrontation in Dunn Meadow: the Police Raids at Indiana University]]></title>
-        <id>https://www.counterpunch.org/?p=320227</id>
-        <link href="https://www.counterpunch.org/2024/04/29/confrontation-in-dunn-meadow-the-police-raids-at-indiana-university/"/>
-        <updated>2024-04-29T05:38:04.000Z</updated>
-        <summary type="html"><![CDATA[Thursday afternoon, April 25th, 2024,  I was doing my job making sales calls as a staffperson at Indiana University in Bloomington, Indiana,.My wife was walking with me on campus and we heard shouts coming from Dunn Meadow.  Earlier we had seen police cars blocking off Indiana Avenue north of Kirkwood, near the Sample Gates.  As  More
-The post Confrontation in Dunn Meadow: the Police Raids at Indiana University appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>David Stewart</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Humble Pen Takes on the Mighty Sword]]></title>
-        <id>https://www.counterpunch.org/?p=320215</id>
-        <link href="https://www.counterpunch.org/2024/04/29/the-humble-pen-takes-on-the-mighty-sword/"/>
-        <updated>2024-04-29T05:32:54.000Z</updated>
-        <summary type="html"><![CDATA[Here’s an anniversary no one wants to celebrate: The Columbine school shooting — April 20, 1999 — just passed its 25th anniversary. Fifteen dead (including the two shooters), 21 injured. A new era begins . . . Why, why, why bring up such a horrific event? Perhaps because it hasn’t stopped. Even though I sit  More
-The post The Humble Pen Takes on the Mighty Sword appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>Robert Koehler</name>
         </author>
     </entry>
     <entry>
@@ -1274,17 +1316,6 @@ World Bank,
 Finance against people]]></summary>
         <author>
             <name>CADTM International</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ecologists Struggle to Get a Grip on ‘Keystone Species’]]></title>
-        <id>https://www.quantamagazine.org/?p=137485</id>
-        <link href="https://www.quantamagazine.org/ecologists-struggle-to-get-a-grip-on-keystone-species-20240424/"/>
-        <updated>2024-04-24T14:27:09.000Z</updated>
-        <summary type="html"><![CDATA[More than 50 years after Bob Paine’s experiment with starfish, hundreds of species have been pronounced “keystones” in their ecosystems. Has the powerful metaphor lost its mathematical meaning?            
-The post Ecologists Struggle to Get a Grip on ‘Keystone Species’ first appeared on Quanta Magazine]]></summary>
-        <author>
-            <name>Lesley Evans Ogden</name>
         </author>
     </entry>
     <entry>
@@ -2536,16 +2567,6 @@ Read the full article]]></summary>
         <summary type="html"><![CDATA[As the frequency and severity of natural disasters increase with climate change, insurance—the main tool for households and businesses to hedge natural disaster risks—becomes increasingly important. Can the insurance sector withstand the stress of climate change? To answer this question, it is necessary to first understand insurers' exposure to physical climate risk, that is, risks coming from physical manifestations of climate change, such as natural disasters. In this post, based on our recent staff report, we construct a novel factor to measure the aggregate physical climate risk in the financial market and discuss its applications, including the assessment of insurers’ exposure to climate risk and the expected capital shortfall of insurers under climate stress scenarios.]]></summary>
         <author>
             <name>Hyeyoon Jung, Robert Engle, Shan Ge, and Xuran Zeng</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tackle complex reasoning tasks with Mistral Large, now available on Amazon Bedrock]]></title>
-        <id>4fd909902bf32ca8c7a2918978932b571fc7fc18</id>
-        <link href="https://aws.amazon.com/blogs/aws/tackle-complex-reasoning-tasks-with-mistral-large-now-available-on-amazon-bedrock/"/>
-        <updated>2024-04-03T04:37:49.000Z</updated>
-        <summary type="html"><![CDATA[Update 4/3/2024: We have updated this post to add information about the new Paris Region availability for Amazon Bedrock, and provided a new resource link for guidance on inference requests. Last month, we announced the availability of two high-performing Mistral AI models, Mistral 7B and Mixtral 8x7B on Amazon Bedrock. Mistral 7B, as the ﬁrst […]]]></summary>
-        <author>
-            <name>Veliswa Boya</name>
         </author>
     </entry>
     <entry>
