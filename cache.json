@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "92e15e319c82446cbaf197341c7d570da966e378",
+          "author": "Matheus Guimaraes",
+          "description": "April has been packed with new releases! Last week continued that trend with many new releases supporting a variety of domains such as security, analytics, devops, and many more, as well as more exciting new capabilities within generative AI. If you missed the AWS Summit London 2024, you can now watch the sessions on demand, […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-q-amazon-quicksight-aws-codeartifact-amazon-bedrock-and-more-may-6-2024/",
+          "publishedOn": "2024-05-06T14:36:59.000Z",
+          "wordCount": 2006,
+          "title": "AWS Weekly Roundup: Amazon Q, Amazon QuickSight, AWS CodeArtifact, Amazon Bedrock, and more (May 6, 2024)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
+        },
+        {
           "id": "b969f642374dd7b33aee58f7ddd2a41df8d86392",
           "author": "Abhishek Gupta",
           "description": "Foundational models (FMs) are trained on large volumes of data and use billions of parameters. However, in order to answer customers’ questions related to domain-specific private data, they need to reference an authoritative knowledge base outside of the model’s training data sources. This is commonly achieved using a technique known as Retrieval Augmented Generation (RAG). […]",
@@ -47,7 +57,7 @@
           "description": "Amazon Titan foundation models (FMs) offer a comprehensive suite of pre-trained image, multimodal, and text models accessible through a fully managed API. They're designed for a range of applications while adhering to responsible AI practices.",
           "link": "https://aws.amazon.com/blogs/aws/amazon-titan-text-v2-now-available-in-amazon-bedrock-optimized-for-improving-rag/",
           "publishedOn": "2024-04-30T20:06:51.000Z",
-          "wordCount": 2020,
+          "wordCount": 2023,
           "title": "Amazon Titan Text Embeddings V2 now available in Amazon Bedrock, optimized for improving RAG",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/25/Text-embed-feat-img3.png"
         },
@@ -200,16 +210,6 @@
           "wordCount": 1318,
           "title": "Congratulations to the PartyRock generative AI hackathon winners",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/15/pr_faith_manga-1.png"
-        },
-        {
-          "id": "4e5d7cfb7df4633ebf361a87535f2d74342b5e6f",
-          "author": "Veliswa Boya",
-          "description": "AWS Community Days conferences are in full swing with AWS communities around the globe. The AWS Community Day Poland was hosted last week with more than 600 cloud enthusiasts in attendance. Community speakers Agnieszka Biernacka, Krzysztof Kąkol, and more, presented talks which captivated the audience and resulted in vibrant discussions throughout the day. My teammate, […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-new-features-on-knowledge-bases-for-amazon-bedrock-oac-for-lambda-function-url-origins-on-amazon-cloudfront-and-more-april-15-2024/",
-          "publishedOn": "2024-04-15T16:18:11.000Z",
-          "wordCount": 1377,
-          "title": "AWS Weekly Roundup: New features on Knowledge Bases for Amazon Bedrock, OAC for Lambda function URL origins on Amazon CloudFront, and more (April 15, 2024)",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         }
       ]
     },
@@ -251,7 +251,7 @@
           "description": "<p>From mastering prompt engineering to leveraging AI for code security, here’s how you can excel in today's competitive job market.  </p>\n<p>The post <a href=\"https://github.blog/2024-05-01-5-tips-to-supercharge-your-developer-career-in-2024/\">5 tips to supercharge your developer career in 2024</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-05-01-5-tips-to-supercharge-your-developer-career-in-2024/",
           "publishedOn": "2024-05-01T16:10:45.000Z",
-          "wordCount": 2481,
+          "wordCount": 3373,
           "title": "5 tips to supercharge your developer career in 2024",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Productivity-LightMode-3.png"
         },
@@ -374,6 +374,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/containers/",
       "articles": [
         {
+          "id": "511682252fe50ea5a72ea086e585c18b81e75fe9",
+          "author": "Vikram Venkataraman",
+          "description": "Bedrock – Slack’s internal Kubernetes platform Slack is the AI-powered platform for work that connects people, conversations, apps, and systems together in one place. Slack adopted Amazon Elastic Kubernetes Service (Amazon ) to build “Bedrock,” the codename for an internal compute orchestration platform that simplifies container deployment and management. Bedrock handles build, deploy, and runtime […]",
+          "link": "https://aws.amazon.com/blogs/containers/how-slack-adopted-karpenter-to-increase-operational-and-cost-efficiency/",
+          "publishedOn": "2024-05-03T16:03:52.000Z",
+          "wordCount": 2253,
+          "title": "How Slack adopted Karpenter to increase Operational and Cost Efficiency",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/05/03/Featured-images-for-Containers-Blog-1260x630.jpg"
+        },
+        {
           "id": "deee4e5d917bc248aeaa698812bcfed749cb9381",
           "author": "Pranav Kapoor",
           "description": "This is a guest post by Pranav Kapoor, Head of DevOps at Upstox co-authored with Jayesh Vartak, Solutions Architect at AWS and Jitendra Shihani, Technical Account Manager (TAM) at AWS. Upstox is India’s largest investech, a multi-unicorn valued at $3.5 billion. It allows you to buy and sell stocks, mutual funds, and derivatives, and is […]",
@@ -463,7 +473,7 @@
         {
           "id": "https://www.counterpunch.org/?p=321249",
           "author": "Sonali Kolhatkar",
-          "description": "The student-led movement against the genocide in Gaza that is sweeping college campuses across the United States, has made “divestment” from Israel central to its demands. It’s what the “D” in BDS stands for—Boycott, Divestment, and Sanctions—a Palestinian-led international and nonviolent means of holding Israel accountable for decades of colonization, occupation, and war. Now, just  More\nThe post Student Demands for Divestment Are Not New appeared first on CounterPunch.org.",
+          "description": "Divestment can mean different things depending on the nature of the institution’s financial ties. But the idea behind it is simple: It means removing all financial ties, such as withdrawing investments, and therefore ending direct complicity in criminal and unjust actions. American institutions of higher learning are economic powerhouses with massive endowments, and ultimately can be described as “big businesses.” Many of them use their funds to directly or indirectly invest in Israel. Harvard University, for example, was found in 2020 to have invested nearly $200 million of its $40 billion endowment in companies with ties to Israel’s occupation of Palestine. More\nThe post Student Demands for Divestment Are Not New appeared first on CounterPunch.org.",
           "link": "https://www.counterpunch.org/2024/05/06/student-demands-for-divestment-are-not-new/",
           "publishedOn": "2024-05-06T06:01:54.000Z",
           "wordCount": null,
@@ -484,7 +494,7 @@
         },
         {
           "id": "https://www.counterpunch.org/?p=321438",
-          "author": "Josh Frank",
+          "author": "Steve Early",
           "description": "When we first reached Zach Shrewsbury to interview the former Marine about his U.S. Senate campaign in West Virginia, he was trying to navigate the mountain roads of his home state amid a severe weather advisory. There was high water throughout Kanawha River Valley, due to creeks and streams over-flowing. Near Charleston, the state capital,  More\nThe post Zach Shrewsbury Says His Senate Campaign in West Virginia is Bigger Than Party Politics appeared first on CounterPunch.org.",
           "link": "https://www.counterpunch.org/2024/05/06/zach-shrewsbury-says-his-senate-campaign-in-west-virginia-is-bigger-than-party-politics/",
           "publishedOn": "2024-05-06T05:58:15.000Z",
@@ -574,7 +584,7 @@
           "id": "https://www.counterpunch.org/?p=321230",
           "author": "Cecilia Yearsley",
           "description": "In November of last year, the Tonawanda Seneca Nation sued the U.S. Fish and Wildlife Service (USFWS) over its illegal approval of a wastewater disposal pipeline that would service STAMP. According to the Tonawanda Seneca Nation, the USFWS approved the Genesee County Economic Development Center’s (GCEDC) construction of the 9.5-mile pipeline without conducting a sufficient environmental review and without a government-to-government consultation with the Nation—in direct violation of their sovereign rights.\nhere or subscribe here.\nIf you are logged in but can't read CP+ articles, check the status of your access here\nIn order to read CP+ articles, your web browser must be set to accept cookies.\t\t    \n\n\t\t More\nThe post Green Colonialism in the Empire State appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/05/05/321230/",
+          "link": "https://www.counterpunch.org/2024/05/05/green-colonialism-in-the-empire-state/",
           "publishedOn": "2024-05-05T05:58:35.000Z",
           "wordCount": null,
           "title": "Green Colonialism in the Empire State",
@@ -798,12 +808,22 @@
       "siteUrl": "https://libertystreeteconomics.newyorkfed.org/",
       "articles": [
         {
+          "id": "https://libertystreeteconomics.newyorkfed.org/?p=29544",
+          "author": "Felix Aidala, Andrew Haughwout, Ben Hyman, Jason Somerville, and Wilbert van der Klaauw",
+          "description": "The U.S. housing market has had a tumultuous few years. After falling to record lows during the pandemic, the average 30-year mortgage rate rapidly increased in 2022 and 2023 and now hovers near a two-decade high of 7.2 percent. For those that locked in a low mortgage rate prior to 2022, this steep increase has significantly increased the cost of moving, as taking out a mortgage at current rates would potentially increase their monthly housing payment by hundreds or thousands of dollars, even if the amount they borrowed remained unchanged. As shown by Ferreira et al. (2011), this lock-in effect has the potential to reduce geographic mobility and turnover in the housing market and has gained the attention of  Federal Reserve leaders. In this post, we utilize special questions from the Federal Reserve Bank of New York’s 2023 and 2024 SCE Housing Surveys to estimate the extent to which mortgage rate lock-in is suppressing U.S. household’s moving plans.",
+          "link": "https://libertystreeteconomics.newyorkfed.org/2024/05/mortgage-rate-lock-in-and-homeowners-moving-plans/",
+          "publishedOn": "2024-05-06T15:00:00.000Z",
+          "wordCount": 4233,
+          "title": "Mortgage Rate Lock‑In and Homeowners’ Moving Plans",
+          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/05/LSE_2024_SCE-housing_aidala_460.jpg"
+        },
+        {
           "id": "https://libertystreeteconomics.newyorkfed.org/?p=29400",
           "author": "Mary Amiti and Sebastian Heise",
           "description": "The increasing dominance of large firms in the United States has raised concerns about pricing power in the product market. The worry is that large firms, facing fewer competitors, could increase their markups over marginal costs without fear of losing market share. In a recently published paper, we show that although sales of domestic firms have become more concentrated in the manufacturing sector, this development has been accompanied by the entry and growth of foreign firms. Import competition has lowered U.S. producers’ share of the U.S. market and put smaller, less efficient domestic firms out of business.  Overall, market concentration in manufacturing was stable in recent decades, though import penetration has greatly altered the makeup of the U.S. manufacturing sector.",
           "link": "https://libertystreeteconomics.newyorkfed.org/2024/05/has-market-concentration-in-u-s-manufacturing-increased/",
           "publishedOn": "2024-05-03T11:00:00.000Z",
-          "wordCount": 4164,
+          "wordCount": 4173,
           "title": "Has Market Concentration in U.S. Manufacturing Increased?",
           "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/05/LSE_2024_market-concentration_heise_460.jpg"
         },
@@ -890,7 +910,7 @@
           "description": "from C. P. Chandrasekhar and Jayati Ghosh Once again, low and middle income countries (LMICs) are at the brutal receiving end of the fickle trajectory of international capital flows. As Figure 1 indicates, net financial flows to such countries, which increased rapidly after the Global Financial Crisis that began and was created by advanced economies, […]",
           "link": "https://rwer.wordpress.com/2024/05/01/water-flowing-upwards-net-financial-flows-from-developing-countries/",
           "publishedOn": "2024-05-01T12:08:25.000Z",
-          "wordCount": 5293,
+          "wordCount": 5298,
           "title": "Water Flowing Upwards: Net financial flows from developing countries",
           "imageUrl": "https://www.networkideas.org/wp-content/uploads/2024/04/WFU1.jpg"
         },
@@ -900,7 +920,7 @@
           "description": "from Lars Syll In mainstream economics, there’s — still — a lot of talk about ‘economic laws.’ The crux of these laws — and regularities — that allegedly exist in economics, is that they only hold ceteris paribus. That fundamentally means that these laws/regularities only hold when the right conditions are at hand for giving rise […]",
           "link": "https://rwer.wordpress.com/2024/04/26/the-non-existence-of-economic-laws-2/",
           "publishedOn": "2024-04-26T16:03:19.000Z",
-          "wordCount": 4953,
+          "wordCount": 4942,
           "title": "The non-existence of economic laws",
           "imageUrl": "https://www.bokkilden.no/servlet/VisBildeServlet?produktId=2558467&width=1200"
         },
@@ -910,7 +930,7 @@
           "description": "from Crelis Rammelt and current issue of RWER Our presumed dominion over nature is an illusion. No matter how clever technological innovations may seem, they remain subject to the laws of thermodynamics. Consequently, a growth-centered capitalist economy finds itself trapped in futile attempts to completely decouple itself from nature – aiming for a 100% circular, service-oriented and […]",
           "link": "https://rwer.wordpress.com/2024/04/22/in-search-of-radical-alternatives/",
           "publishedOn": "2024-04-22T17:01:08.000Z",
-          "wordCount": 4616,
+          "wordCount": 4620,
           "title": "In search of radical alternatives",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -920,7 +940,7 @@
           "description": "from Lars Syll No sooner had I finished my comment on the irrelevancy of economics but I had confirmation — albeit unwittingly — in this morning’s Financial Times.  There on the editorial page was a short column by Soumaya Keynes talking about the rise of Hank. For those of you not on the cutting edge, […]",
           "link": "https://rwer.wordpress.com/2024/04/19/cutting-edge-macroeconomics/",
           "publishedOn": "2024-04-19T11:25:45.000Z",
-          "wordCount": 6366,
+          "wordCount": 6350,
           "title": "Cutting-edge macroeconomics …",
           "imageUrl": "https://i.pinimg.com/originals/7c/4d/af/7c4daf05e39a2c304b672a9b714b7e1b.jpg"
         },
@@ -930,7 +950,7 @@
           "description": "from Peter Radford What are we to say of a discipline that steadfastly ignores reality in its pursuit of ever more formality in its methods? Wow. Steve Levitt has really shaken me. I come not to mock, but to follow up … Stand up and take a bow Ben Moll!  You daring soul. Clearly I […]",
           "link": "https://rwer.wordpress.com/2024/04/17/the-eclipse-part-wo/",
           "publishedOn": "2024-04-17T15:36:35.000Z",
-          "wordCount": 6225,
+          "wordCount": 6209,
           "title": "The eclipse part wo",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -940,7 +960,7 @@
           "description": "from Junaid Jahangir and current issue of RWER [Ha-Joon] Chang’s latest book Edible Economics (2022) crystallizes the narrative that he has developed through his popular books over the years. . . . I have reviewed the salient ideas as follows in a bid to draw out lessons I could share with my ECON 101 students. […]",
           "link": "https://rwer.wordpress.com/2024/04/15/changs-edible-economics/",
           "publishedOn": "2024-04-15T20:26:42.000Z",
-          "wordCount": 4819,
+          "wordCount": 4803,
           "title": "Chang’s “Edible Economics”",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -950,7 +970,7 @@
           "description": "from Lars Syll Unlike anthropologists … economists simply invent the primitive societies we study, a practice which frees us from limiting ourselves to societies which can be physically visited as sparing us the discomforts of long stays among savages. This method of society-invention is the source of the utopian character of economics; and of the […]",
           "link": "https://rwer.wordpress.com/2024/04/12/chicago-economics-nothing-but-pseudo-scientific-cheating/",
           "publishedOn": "2024-04-12T20:15:30.000Z",
-          "wordCount": 6884,
+          "wordCount": 6873,
           "title": "Chicago economics — nothing but pseudo-scientific cheating",
           "imageUrl": "https://lh5.googleusercontent.com/proxy/4q-6XCes-2n992DjEdgR6flq44y98Ybu6qt1pbR98wL5ysE9jikfPW8FffP9KR9UbrbOeFYEtLeLDtn4aElzX11nma2HvQlza0GhyhUFiTVNs6hDcOWYfgVWf-voMLKcCX4JtKVQL4ndQc2npzxIuZdDMZtNilA"
         },
@@ -960,7 +980,7 @@
           "description": "from a comment by Ikonoclast “A truth is permitted only a brief victory celebration between the two long periods where it is first condemned as paradoxical and later disparaged as trivial.” – Arthur Schopenhauer. As they break new ground, the Capital as Power theoreticians will encounter the “Schopenhauer Effect” over and over. When you point […]",
           "link": "https://rwer.wordpress.com/2024/04/11/the-increasing-collusion-between/",
           "publishedOn": "2024-04-11T11:45:48.000Z",
-          "wordCount": 4434,
+          "wordCount": 4418,
           "title": "The increasing collusion between . . . . . .",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -970,7 +990,7 @@
           "description": "from Blair Fix and current issue of RWER Speaking of competition and losers, Ronald Reagan set the tone of the neoliberal era when, in 1981, he fired 11,000 striking air-traffic controllers (Houlihan, 2021). The message? Workers were losers who would be subjected to the discipline of competition. Reagan called it ‘morning in America’. But really, it was […]",
           "link": "https://rwer.wordpress.com/2024/04/10/wealth-catapulted-up/",
           "publishedOn": "2024-04-10T16:45:34.000Z",
-          "wordCount": 4840,
+          "wordCount": 4824,
           "title": "Wealth catapulted up",
           "imageUrl": "https://i0.wp.com/economicsfromthetopdown.com/wp-content/uploads/2023/11/wealth_gini.png?w=723&ssl=1"
         },
@@ -1000,10 +1020,10 @@
         {
           "id": "https://feeds.feedblitz.com/~/895715483/0/themoneyillusion~Immigration-wages-and-the-Phillips-Curve/",
           "author": null,
-          "description": "As you may know, the actual Phillips Curve is about the relationship between unemployment and wage inflation. That&#8217;s the relationship A.W. Phillips actually identified, and it&#8217;s still the correct version. Price inflation doesn&#8217;t correlate well with unemployment. Painful disinflation is and always has been about getting wage inflation down. Forget payroll employment, the big news [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/895715483/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/895715483/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f05%2fScreen-Shot-2024-05-03-at-2.46.30-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/895715483/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/895715483/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/895715483/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comment-6821148\">Scott,   “..as you may know, the actual Phillips Curve is ...</a> <i>by Viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comment-6821047\">@MD Sandifer:   The problem, which you allude to, is that the ...</a> <i>by msgkings</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comment-6821041\">By: Michael David Sandifer\t\t</a> <i>by Michael David Sandifer <a href=\"http://www.exactmacro.substack.com\">http://www.exactmacro.substack.com</a></i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comment-6821026\">Why do they expect lower inflation? Lags?</a> <i>by Bobster</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comment-6821002\">Michael, I agree on the economy, not sure about the symmetric ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
+          "description": "As you may know, the actual Phillips Curve is about the relationship between unemployment and wage inflation. That&#8217;s the relationship A.W. Phillips actually identified, and it&#8217;s still the correct version. Price inflation doesn&#8217;t correlate well with unemployment. Painful disinflation is and always has been about getting wage inflation down. Forget payroll employment, the big news [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/895715483/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/895715483/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f05%2fScreen-Shot-2024-05-03-at-2.46.30-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/895715483/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/895715483/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/895715483/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comment-6821343\">Scott, you said, “It looks to me like wages are about 8% ...</a> <i>by Travis Allison</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comment-6821148\">Scott,   “..as you may know, the actual Phillips Curve is ...</a> <i>by Viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comment-6821047\">@MD Sandifer:   The problem, which you allude to, is that the ...</a> <i>by msgkings</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comment-6821041\">By: Michael David Sandifer\t\t</a> <i>by Michael David Sandifer <a href=\"http://www.exactmacro.substack.com\">http://www.exactmacro.substack.com</a></i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comment-6821026\">Why do they expect lower inflation? Lags?</a> <i>by Bobster</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/immigration-wages-and-the-phillips-curve/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/895715483/0/themoneyillusion~Immigration-wages-and-the-Phillips-Curve/",
           "publishedOn": "2024-05-03T20:52:22.000Z",
-          "wordCount": 2678,
+          "wordCount": 3133,
           "title": "Immigration, wages, and the Phillips Curve",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/05/Screen-Shot-2024-05-03-at-2.46.30-PM.png"
         },
@@ -1013,7 +1033,7 @@
           "description": "1. Commenter Floccina directed me to a video showing Matt Yglesias&#8217;s ideal city. 2. A back issue of Harpers had an article discussing the possibility of legalizing drugs. This comment caught my eye: At the time, I was writing a book about the politics of drug prohibition. I started to ask [former Nixon aide] Ehrlichman [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/895715492/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-27-at-12.41.30-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6821128\">Gabbard is also a finalist.</a> <i>by sara</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6820840\">EHarding, You said:   “she is a moderate Republican” ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6820814\">The irony of you denigrating Trump as 'exceedingly dumb,' and ...</a> <i>by DBrooks</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6820739\">sumner never has evidence. he is all polemics and poetry, and ...</a> <i>by agrippa postumus</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6820387\">“One area where the horseshoe theory applies is that the ...</a> <i>by Eharding</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/895715492/0/themoneyillusion~Odds-and-ends/",
           "publishedOn": "2024-05-03T20:52:13.000Z",
-          "wordCount": 3142,
+          "wordCount": 3392,
           "title": "Odds and ends",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-27-at-12.41.30-PM.png"
         },
@@ -1023,7 +1043,7 @@
           "description": "You: What do you think of the Gaza situation? Me: That&#8217;s the problem. You: What do you mean? I asked for your view on the situation. Me: My view is that the question you asked is the problem. The problem is that we are asking questions about Gaza. If we were not asking those questions, [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/895715498/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/895715498/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/895715498/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/895715498/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/895715498/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comment-6821241\">In terms of global politics, and the potential for a world war, ...</a> <i>by Ricardo</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comment-6821140\">Scott,   “…It’s also human nature to rape and murder and ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comment-6821130\">This is actually the MAGA position.   Nobody cares if you get ...</a> <i>by Sara</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comment-6820844\">Jensen, I strongly disagree. It's nowhere near as bad as the ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comment-6820758\">as would be expected, sumner has never really understood ...</a> <i>by agrippa postumus</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/895715498/0/themoneyillusion~The-question-is-the-problem/",
           "publishedOn": "2024-05-03T20:52:01.000Z",
-          "wordCount": 3434,
+          "wordCount": 3523,
           "title": "The question is the problem",
           "imageUrl": null
         },
@@ -1033,7 +1053,7 @@
           "description": "1. Tyler linked to an interesting article on Portugal. This caught my eye: Then, in 2023, the Immigration Control Agency was dissolved, ostensibly in response to an extremely uncharacteristic display of violence where, in March 2020, two officers beat a Ukrainian man to death in the airport of Lisbon. No protests followed the unjust death [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/882407957/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-18-at-2.26.00-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/more-articles-2/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6819143\">#5 seems like it is clearly a reflection of the stereotype of ...</a> <i>by derek</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6817966\">Can, I wonder if “flight to liquidity” is a better ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6817930\">Justin: Despite his career with statistics, Scott relies on an ...</a> <i>by art andreassen</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6817608\">I'm finally reading “The Money Illusion” the book and had a ...</a> <i>by Can</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6816500\">I thought this moron retired, no?   Nobody at Bentley ...</a> <i>by Edward</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/882407957/0/themoneyillusion~More-articles/",
           "publishedOn": "2024-04-24T23:08:32.000Z",
-          "wordCount": 4375,
+          "wordCount": 4377,
           "title": "More articles",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-18-at-2.26.00-PM.png"
         },
@@ -1043,7 +1063,7 @@
           "description": "Eventually, I&#8217;ll get to price indices. But first, a long boring digression on why I don&#8217;t want to be &#8220;rich&#8221; (but do want to have a billion dollars.) I recently read a WSJ story about how a $200 million St. Louis skyscraper had sold for only $4 million. That got me wondering what house prices [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/882407960/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-18-at-8.36.41-AM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6817295\">Jeff, Interesting article, but I don't buy the claim that ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6817285\">Interesting theory on decline of midwest cities using St. Louis ...</a> <i>by Jeff</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6815142\">David, I agree.   Tsergo, The mistake was not in buying the ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6815118\">Would you have made more money investing in stocks rather than ...</a> <i>by Tsergo Ri</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6815040\">Good article in the recent Economist on population changes ...</a> <i>by David S</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comments\">Plus 3 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/882407960/0/themoneyillusion~I-dont-wanna-be-%e2%80%9crich%e2%80%9d/",
           "publishedOn": "2024-04-24T23:08:17.000Z",
-          "wordCount": 2859,
+          "wordCount": 2856,
           "title": "I don&#8217;t wanna be &#8220;rich&#8221;",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-18-at-8.36.41-AM.png"
         },
@@ -1053,7 +1073,7 @@
           "description": "Americans remind me of the old song &#8220;Yes, we have no bananas&#8221;. They really, really like to agree with the assertions in poll questions. Should pot be legalized? Yes!! Should people selling pot be executed? Yes? Should Roe v. Wade be reversed? Yes? Should abortion be banned? Yes! Should the corporate tax rate be raised? [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/882407963/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-24-at-4.44.00-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6818792\">You are inching closer to admitting the gravity of digital ...</a> <i>by Morgan Warstler</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6816289\">Trina, Good quote.</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6815347\">Apparently you agree with Masha Gessen. From Sam Harris Episode ...</a> <i>by Trina Halppe</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6815144\">“Considering the general public was against the Iraqi war, ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6815082\">Considering the general public was against the Iraqi war, ...</a> <i>by Sara</i></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/882407963/0/themoneyillusion~Yes-We-have-no-core-values/",
           "publishedOn": "2024-04-24T23:05:13.000Z",
-          "wordCount": 2538,
+          "wordCount": 2451,
           "title": "Yes!  We have no core values",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-24-at-4.44.00-PM.png"
         },
@@ -1063,7 +1083,7 @@
           "description": "The future course of the economy always involves a bit of guesswork. But it seems to me that the following two claims are pretty likely to be true: 1. Over the past three years, monetary policy has been far too expansionary. 2. It is likely that monetary policy is still a bit too expansionary, although [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/881407241/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-16-at-9.30.19-AM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/the-hawkish-case/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6815304\">Thomas, GDP growth was 4.7% in Q1, that's still too strong. ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6815268\">The yield curve inversion first appeared in Jul22, and I’ve ...</a> <i>by Thomas Novak</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6813826\">Harding, So the fact that Trump often says pro-Putin things and ...</a> <i>by Scott Sumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6813760\">“Republican fans of Putin don’t seem to understand that he ...</a> <i>by Eharding</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6813541\">By: Michael Sandifer\t\t</a> <i>by Michael Sandifer <a href=\"http://www.exactmacro.substack.com\">http://www.exactmacro.substack.com</a></i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/881407241/0/themoneyillusion~The-hawkish-case/",
           "publishedOn": "2024-04-16T14:50:14.000Z",
-          "wordCount": 5390,
+          "wordCount": 5394,
           "title": "The hawkish case",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-16-at-9.30.19-AM.png"
         },
@@ -1073,7 +1093,7 @@
           "description": "The Financial Times has a story that points to some disturbing features of South African politics: It is the kind of fervent devotion that has driven a wave of support for the former president [Jacob Zuma] ahead of a critical general election on May 29. Yet as recently as January, the 82-year-old African National Congress [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/881407244/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812451\">the circumstances have changed, the past is a different ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812237\">Viennacapitalist, For most of my life, the US political system ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812192\">Scott,   got it, but I was uncertain of what exactly you are ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6811685\">Viennacapitalist. I'm stunned that people think this post is ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6811497\">Scott,   “…Perhaps Africans cannot handle democracy?..” ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/881407244/0/themoneyillusion~Is-African-politics-inferior-to-American-politics/",
           "publishedOn": "2024-04-16T14:49:58.000Z",
-          "wordCount": 3077,
+          "wordCount": 3074,
           "title": "Is African politics inferior to American politics?",
           "imageUrl": null
         },
@@ -1083,7 +1103,7 @@
           "description": "In a recent post, I listed 6 ways that Trump intends to reduce inflation: Trump has a 6-part plan to bring down inflation: 1. Favors&#160;NIMBY policies&#160;to prevent housing construction in the suburbs. 2. Expel all the illegal workers that pick our food and provide other key services. 3. Put heavy tariffs on imported food and [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/881407247/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6811688\">“pro liberty politician in Bolsonaro”   Liberty? The guy ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6811466\">The only person being exposed as a “moron” is you.   You're ...</a> <i>by Sara</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810674\">And for the record… the exchange between Longstreet (and ...</a> <i>by Student</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810588\">Michael,   If Biden were up 3-5 points in the polling averages, ...</a> <i>by Student</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810581\">>What do the people in the audience think   They think a Trump ...</a> <i>by foosion</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/881407247/0/themoneyillusion~Seven-Trump-is-on-a-roll/",
           "publishedOn": "2024-04-16T14:49:47.000Z",
-          "wordCount": 3006,
+          "wordCount": 3003,
           "title": "Seven!  (Trump is on a roll)",
           "imageUrl": null
         },
@@ -1093,7 +1113,7 @@
           "description": "During the golden age of macroeconomics (roughly 1984-2007), many economists understood that interest rates were not monetary policy. After 2008, economists have been drifting back to old-school Keynesianism, with its emphasis on fiscal policy and interest rates. For the umpteenth time, it makes no sense to talk about interest rates causing changes in other macro [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/879089525/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/879089525/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809959\">Philo, The economic claims of interest are policy ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809884\">Oddly enough, I was in a philosophy reading group talking about ...</a> <i>by William Peden</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809801\">”But other things equal? What does that even mean?” Good ...</a> <i>by Philo</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809700\">Michael, I doubt that, but I hope you are right.</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comment-6809671\">@Michael S:   What makes you guess that? Not challenging you, ...</a> <i>by msgkings</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/time-to-add-the-epicycles/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/879089525/0/themoneyillusion~Time-to-add-the-epicycles/",
           "publishedOn": "2024-04-12T19:19:25.000Z",
-          "wordCount": 3559,
+          "wordCount": 3645,
           "title": "Time to add the epicycles!",
           "imageUrl": null
         }
@@ -1105,24 +1125,24 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=271135",
+          "author": "Lambert Strether",
+          "description": "~ Today's Water Cooler: Politics, pandemics, Trump faces jail, Hope Hicks testifies (and cries), Texas dairies refuse to allow Federal epidemiological field studies ~",
+          "link": "https://www.nakedcapitalism.com/2024/05/200pm-water-cooler-5-6-2024.html",
+          "publishedOn": "2024-05-06T18:00:01.000Z",
+          "wordCount": 7288,
+          "title": "2:00PM Water Cooler 5/6/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/rcp_05-02-2024.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=271114",
           "author": "Lambert Strether",
           "description": "Our sure-footed daily links",
           "link": "https://www.nakedcapitalism.com/2024/05/links-5-6-2024.html",
           "publishedOn": "2024-05-06T10:58:07.000Z",
-          "wordCount": 5390,
+          "wordCount": 11914,
           "title": "Links 5/6/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/baby_goat.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=271124",
-          "author": "Lambert Strether",
-          "description": "The meaning of “apocalypse” has expanded in recent decades from an exclusively religious idea to include other, more human-driven apocalyptic scenarios",
-          "link": "https://www.nakedcapitalism.com/2024/05/how-apocalypse-became-a-secular-as-well-as-a-religious-idea.html",
-          "publishedOn": "2024-05-06T10:50:42.000Z",
-          "wordCount": 4194,
-          "title": "How ‘Apocalypse’ Became a Secular as Well as a Religious Idea",
-          "imageUrl": "https://images.theconversation.com/files/590752/original/file-20240426-16-6je8l0.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=754&fit=clip"
         },
         {
           "id": "https://www.nakedcapitalism.com/?p=271098",
@@ -1130,7 +1150,7 @@
           "description": "Russia celebrates its victory over Nazism on May 9 while in the West decades of historical revisionism blaming the USSR for WWII has helped rehabilitate Nazis and lead us to the New Cold War crisis today.",
           "link": "https://www.nakedcapitalism.com/2024/05/remembering-a-day-the-west-wants-to-forget.html",
           "publishedOn": "2024-05-06T10:00:43.000Z",
-          "wordCount": 7819,
+          "wordCount": 13021,
           "title": "Remembering A Day the West Wants to Forget",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/Screenshot-2024-05-06-at-8.33.34 AM-1024x235.png"
         },
@@ -1140,9 +1160,19 @@
           "description": "The rise in tuberculosis cases as an indictment of US public health and immigration policy.",
           "link": "https://www.nakedcapitalism.com/2024/05/tuberculosis-emergency-in-california-after-death-in-homeless-shelter-outbreak-follows-chicago-migrant-shelter-cluster-and-earlier-im-doc-anecdata.html",
           "publishedOn": "2024-05-06T08:00:36.000Z",
-          "wordCount": 5293,
+          "wordCount": 7643,
           "title": "Tuberculosis Emergency in California After Death in Homeless Shelter Outbreak; Follows Chicago Migrant Shelter Cluster and Earlier IM Doc Anecdata",
           "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=271124",
+          "author": "Lambert Strether",
+          "description": "The meaning of “apocalypse” has expanded in recent decades from an exclusively religious idea to include other, more human-driven apocalyptic scenarios",
+          "link": "https://www.nakedcapitalism.com/2024/05/how-apocalypse-became-a-secular-as-well-as-a-religious-idea.html",
+          "publishedOn": "2024-05-06T06:50:42.000Z",
+          "wordCount": 6067,
+          "title": "How ‘Apocalypse’ Became a Secular as Well as a Religious Idea",
+          "imageUrl": "https://images.theconversation.com/files/590752/original/file-20240426-16-6je8l0.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=754&fit=clip"
         },
         {
           "id": "https://www.nakedcapitalism.com/?p=271080",
@@ -1150,7 +1180,7 @@
           "description": "Industrial farming, with its international trade and specialization, has disturbed the nitrogen cycle, undermining the feeding of the world.",
           "link": "https://www.nakedcapitalism.com/2024/05/the-problem-of-feeding-a-still-growing-population-nitrogen-agrochemical-corporations-and-international-trade-a-perilous-mix.html",
           "publishedOn": "2024-05-06T05:52:24.000Z",
-          "wordCount": 9934,
+          "wordCount": 10921,
           "title": "The Problem of Feeding a Still-Growing Population: Nitrogen, Agrochemical Corporations and International Trade: A Perilous Mix",
           "imageUrl": null
         },
@@ -1160,7 +1190,7 @@
           "description": "WHO's terminology and WHO's science are both questionable.",
           "link": "https://www.nakedcapitalism.com/2024/05/whos-technical-report-on-pathogens-that-tranmit-through-the-air-already-rendered-obsolete-by-advancing-aerosol-science.html",
           "publishedOn": "2024-05-05T19:55:43.000Z",
-          "wordCount": 7095,
+          "wordCount": 7407,
           "title": "Could WHO’s Technical Report on “Pathogens That Transmit Through the Air” Already Be Obsolete, Two Weeks After Its Release?",
           "imageUrl": null
         },
@@ -1170,7 +1200,7 @@
           "description": "Which Industries Lost Jobs, Which Gained Jobs: Longer-Term Employment Trends in Charts",
           "link": "https://www.nakedcapitalism.com/2024/05/which-industries-lost-jobs-which-gained-jobs-longer-term-employment-trends-in-charts.html",
           "publishedOn": "2024-05-05T11:29:28.000Z",
-          "wordCount": 4861,
+          "wordCount": 4863,
           "title": "Which Industries Lost Jobs, Which Gained Jobs: Longer-Term Employment Trends in Charts",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/US-employment-2024-05-03-construction.png"
         },
@@ -1180,7 +1210,7 @@
           "description": "Our breezy daily links",
           "link": "https://www.nakedcapitalism.com/2024/05/links-5-5-2024.html",
           "publishedOn": "2024-05-05T10:58:27.000Z",
-          "wordCount": 21000,
+          "wordCount": 21308,
           "title": "Links 5/5/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/colonial_anenome.jpg"
         },
@@ -1190,19 +1220,9 @@
           "description": "\"It's time to tax the billionaires,\" economist Gabriel Zucman argues in a new analysis.",
           "link": "https://www.nakedcapitalism.com/2024/05/absurd-us-billionaires-pay-lower-tax-rate-than-working-class-for-first-time.html",
           "publishedOn": "2024-05-04T13:45:04.000Z",
-          "wordCount": 6485,
+          "wordCount": 6860,
           "title": "‘Absurd!’: US Billionaires Pay Lower Tax Rate Than Working Class for First Time",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/00-billionaires.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=271039",
-          "author": "Yves Smith",
-          "description": "An assessment of how far BRICS has gotten in creating new monetary arrangements and institutions. The short version is \"not very\".",
-          "link": "https://www.nakedcapitalism.com/2024/05/are-the-brics-and-their-new-development-bank-offering-alternatives-to-the-world-bank-the-imf.html",
-          "publishedOn": "2024-05-04T13:20:35.000Z",
-          "wordCount": 6547,
-          "title": "Are the BRICS and Their New Development Bank Offering Alternatives to the World Bank, the IMF?",
-          "imageUrl": null
         }
       ]
     },
@@ -1349,12 +1369,22 @@
       "siteUrl": "https://medium.com/capital-one-tech?source=rss----3db3a67cb648---4",
       "articles": [
         {
+          "id": "https://medium.com/p/2d5259b58eb5",
+          "author": "Capital One Tech",
+          "description": "Reflecting on Amy’s first year as Chief Data Officer, her 20+ year tenure at Capital One and how data powers innovation.",
+          "link": "https://medium.com/capital-one-tech/getting-to-know-amy-lenander-chief-data-officer-2d5259b58eb5?source=rss----3db3a67cb648---4",
+          "publishedOn": "2024-05-06T13:09:44.000Z",
+          "wordCount": 4778,
+          "title": "Getting to know Amy Lenander, Chief Data Officer",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*g72vD5pOo4-G24u8.jpg"
+        },
+        {
           "id": "https://medium.com/p/085e3e050d14",
           "author": "Capital One Tech",
           "description": "The new Capital One Hub will advance data science at UVA and beyond.",
           "link": "https://medium.com/capital-one-tech/launching-the-capital-one-hub-at-uva-school-of-data-science-085e3e050d14?source=rss----3db3a67cb648---4",
           "publishedOn": "2024-04-26T18:12:31.000Z",
-          "wordCount": 1894,
+          "wordCount": 1893,
           "title": "Launching the Capital One Hub at UVA School of Data Science",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*a0WD53Eha23HN-2D.jpg"
         },
@@ -1381,7 +1411,7 @@
           "description": "At Slack, we’ve long been conservative technologists. In other words, when we invest in leveraging a new category of infrastructure, we do it rigorously. We’ve done this since we debuted machine learning-powered features in 2016, and we’ve developed a robust process and skilled team in the space. Despite that, over the past year we’ve been […]\nThe post How We Built Slack AI To Be Secure and Private appeared first on Slack Engineering.",
           "link": "https://slack.engineering/how-we-built-slack-ai-to-be-secure-and-private/",
           "publishedOn": "2024-04-18T05:00:33.000Z",
-          "wordCount": 2192,
+          "wordCount": 2183,
           "title": "How We Built Slack AI To Be Secure and Private",
           "imageUrl": "https://slack.engineering/wp-content/uploads/sites/7/2024/04/AI_Marketing_Search_650x450_x2.jpg"
         }
@@ -1522,9 +1552,9 @@
           "description": "[...]\nRead More...\nThe post Building new custom silicon for Meta’s AI workloads appeared first on Engineering at Meta.",
           "link": "https://www.metacareers.com/life/building-custom-silicon-for-the-future-of-ai",
           "publishedOn": "2024-04-11T16:30:58.000Z",
-          "wordCount": 2256,
+          "wordCount": 2229,
           "title": "Building new custom silicon for Meta’s AI workloads",
-          "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZxO4CVUrDwsQ7kNvgGsEmY7&_nc_oc=AdiZxfPO97_KN1LtROgEZl1OH0kxUEX3we_lQ9eKpW1h11Cf_-AlCubkvI65eEpj6PU&_nc_ht=scontent-sjc3-1.xx&oh=00_AfDFWwF3HvPJbuKb8dUBC8OiUzOn1NZY9519g0jaJarQJw&oe=66530AFB"
+          "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZxO4CVUrDwsQ7kNvgGAbDpy&_nc_oc=AdhyZ9sj6TOuMB-EtHhA-QydOCxR4h_CyPRH4e7U225_g41KxztAboK7qpR3Gesl3xs&_nc_ht=scontent-iad3-1.xx&oh=00_AfC3CcbajNxLxLxVIVDw1Vt51-NqKsNuq4gfrODzzHw7ww&oe=66537B7B"
         },
         {
           "id": "https://engineering.fb.com/?p=21103",
@@ -1532,9 +1562,9 @@
           "description": "[...]\nRead More...\nThe post Building an infrastructure for AI’s future appeared first on Engineering at Meta.",
           "link": "https://www.metacareers.com/life/behind-gen-ai-building-an-infrastructure-for-the-future",
           "publishedOn": "2024-04-11T16:20:49.000Z",
-          "wordCount": 2091,
+          "wordCount": 2083,
           "title": "Building an infrastructure for AI’s future",
-          "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=zzQ-agtqLCAQ7kNvgFglhXX&_nc_ht=scontent-sjc3-1.xx&oh=00_AfDovMNMZwDKYSsWoMvCa0I26EUCpJ1vB83PX6te8jybhQ&oe=66531B63"
+          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=zzQ-agtqLCAQ7kNvgFVTBCp&_nc_ht=scontent-iad3-2.xx&oh=00_AfBkuolsomWoyBpcrwoTmt522OUFgy42cBlfnkD2D87XGA&oe=665353A3"
         },
         {
           "id": "https://engineering.fb.com/?p=21177",
@@ -1544,7 +1574,7 @@
           "publishedOn": "2024-04-10T15:11:03.000Z",
           "wordCount": 2054,
           "title": "Introducing the next-gen Meta Training and Inference Accelerator",
-          "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/434836173_760640236211764_1047890588714439130_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=VczGe7vkjXwQ7kNvgHrGQTU&_nc_ht=scontent-sjc3-1.xx&oh=00_AfAv6SUZHzGEN6N0gefmR-Dq7w63cBKVKQo7Shkp7ori6Q&oe=66532465"
+          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.2365-6/434836173_760640236211764_1047890588714439130_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=VczGe7vkjXwQ7kNvgE0UDnF&_nc_ht=scontent-iad3-2.xx&oh=00_AfBWJ_UO1JwuwN6r-zsZTCQFU5VTTL7tqn3NVT_g4VCrAg&oe=66535CA5"
         }
       ]
     },
@@ -1552,7 +1582,308 @@
       "title": "Hacker News: Best Comments",
       "feedUrl": "https://hnrss.org/bestcomments",
       "siteUrl": "https://news.ycombinator.com/bestcomments",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=40273996",
+          "author": "lenerdenator",
+          "description": "It really is amazing. We were thiiiiiiis close to having a generation that wasn't addicted to nicotine for the first time in hundreds of years (like, since trade between North America and Europe really became a thing) and these guys pulled this thumb drive that tastes like cotton candy out of nowhere and every young person is just jonesing.\nAnd the regulatory/public opinion environment isn't what it was in the 80s and 90s when we decided to take on cigarettes. Imagine a company being told today that they now have to stop advertising on billboards, can't advertise to kids, and have to pay a fifth of a trillion dollars over 25 years for the harms they caused to Medicaid. Can't, can you?",
+          "link": "https://news.ycombinator.com/item?id=40273996",
+          "publishedOn": "2024-05-06T12:46:51.000Z",
+          "wordCount": 10519,
+          "title": "New comment by lenerdenator in \"NYU professors who defended vaping didn't disclose ties to Juul\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40271299",
+          "author": "willvarfar",
+          "description": "So next the attackers playing the long game will just set out to develop the next great everybody-uses-it open-source library, so they control it from inception?\nGreat that we'll finally get state-sponsored open-source development :D",
+          "link": "https://news.ycombinator.com/item?id=40271299",
+          "publishedOn": "2024-05-06T05:06:47.000Z",
+          "wordCount": 2394,
+          "title": "New comment by willvarfar in \"Social engineering takeovers of open source projects\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40270369",
+          "author": "sensanaty",
+          "description": "The western idea of DEI has always puzzled me ever since I first came across it (or at least the D portion of DEI, which in my mind is the most important one).\nI'm a Serb by blood and grew up in and have lived in Indonesia for the majority of my life, and I went to an international school with kids from quite literally every single corner of the earth, many of them being some exotic mix of various ethnicities.\nDespite that, many of us are actually amazingly similar in many ways - We have a very distinct int'l kid accent that we all share, we grew up with extremely similar experiences, listening to the same music, being exposed to all the same things. Despite the superficial differences, I actually wouldn't call us a very diverse group at all when you really look at us. Some years later whe…",
+          "link": "https://news.ycombinator.com/item?id=40270369",
+          "publishedOn": "2024-05-06T01:44:17.000Z",
+          "wordCount": null,
+          "title": "New comment by sensanaty in \"MIT abandons requirement of DEI statements for hiring and promotions\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40269520",
+          "author": "notatoad",
+          "description": "i'm not entirely sure what the author intended, but what i took from the article is that there should be a general consensus that some sort of physical separation between cars and pedestrians is necessary to protect pedestrians from cars, and failing to build that protection means you're failing to protect pedestrians.\nit's up to each individual jurisdiction to decide how much they want to protect pedestrians, but when a pedestrian is killed by a car it should be acknowledged that a bollard probably could have prevented that, and not doing the thing that would have protected a pedestrian was a decision that was made for reasons such as \"it's expensive\" or \"it's ugly\".  The people or organizations making decisions to not protect pedestrians should be held liable for choosing to endanger pedestrians.\ntoo often, the response to a car running into a person or building is to either claim nothing can be done about it, or to blame the driver.  no protections from cars is seen as a road designer following best practices, and they've done their job acceptably well.  and that should be corrected.",
+          "link": "https://news.ycombinator.com/item?id=40269520",
+          "publishedOn": "2024-05-05T23:18:32.000Z",
+          "wordCount": null,
+          "title": "New comment by notatoad in \"Bollards: Why and What\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40269243",
+          "author": "afruitpie",
+          "description": "I’m surprised how “cheap” the Manhattan Project and Apollo Program were.\nIt’s bizarre we put people on the Moon in the ‘60s for an amount of money similar to Apple’s recent stock buybacks.",
+          "link": "https://news.ycombinator.com/item?id=40269243",
+          "publishedOn": "2024-05-05T22:38:22.000Z",
+          "wordCount": 9323,
+          "title": "New comment by afruitpie in \"“Meta spent almost as much as the Manhattan Project on GPUs in today's dollars”\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40268948",
+          "author": "crazygringo",
+          "description": "This article is a bit difficult to read, as it seems to be written with a heavy dose of sarcasm/irony.\nI genuinely can't tell what the author is arguing for, as it's extremely difficult to tell if he's quoting things because he agrees or disagrees with them.\nMy biggest question is: is the author arguing that there should be spaced bollards along literally every sidewalk in the country/world, and around all edges of every parking lot?\nIf so, it's an interesting idea, but I also can't help but think that would not just be expensive, but also possibly extremely ugly.\nI'm curious if there are estimates of both installation cost as well as lives saved and other damage to buildings avoided.",
+          "link": "https://news.ycombinator.com/item?id=40268948",
+          "publishedOn": "2024-05-05T22:07:02.000Z",
+          "wordCount": null,
+          "title": "New comment by crazygringo in \"Bollards: Why and What\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40268920",
+          "author": "bsuvc",
+          "description": "I'm a maintainer (one of many) of an open source project, and this topic has been on my mind a lot lately as I review PRs.\nI am more suspicious of PRs from new contributors by default now. Of course I keep these suspicions to myself, but besides simply reviewing code for all the regular things, I now ask myself \"what sort of sneaky thing could they be doing that appears benign on the surface?\"",
+          "link": "https://news.ycombinator.com/item?id=40268920",
+          "publishedOn": "2024-05-05T22:04:10.000Z",
+          "wordCount": null,
+          "title": "New comment by bsuvc in \"Social engineering takeovers of open source projects\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40268542",
+          "author": "suddenexample",
+          "description": "> The US White House press secretary issued a weak statement condemning Israel's action, but it was on April 1st and the costumed Easter Bunny overshadowed that statement.[7]\nWow you can't make this stuff up",
+          "link": "https://news.ycombinator.com/item?id=40268542",
+          "publishedOn": "2024-05-05T21:22:42.000Z",
+          "wordCount": 856,
+          "title": "New comment by suddenexample in \"Israel shuts down local Al Jazeera offices\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40268421",
+          "author": "cjk2",
+          "description": "Just a point about Al Jazeera that is worth mentioning. There are two Al Jazeeras. One which is presented to Western audiences and one which is presented to Middle-Eastern audiences. The media and articles are politically aligned in each region. Don't assume what you read in the US/UK/wherever is the same as over there.\nIn the case of Israel, the Middle-Eastern unit were literally showing videos demanding further uprising against Israel across the region directly from Hamas. Also the entire point of Al Jazeera was for Qatar to provide political influence through media, not as an unbiased news agency.\nIt's even banned in some Arab countries for being a security risk.\nWhy would you allow that to continue in your country?",
+          "link": "https://news.ycombinator.com/item?id=40268421",
+          "publishedOn": "2024-05-05T21:10:09.000Z",
+          "wordCount": 13238,
+          "title": "New comment by cjk2 in \"Israel shuts down local Al Jazeera offices\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40268301",
+          "author": "Animats",
+          "description": "\"and block its websites.\" So this keeps Israelis from reading Al Jazeera.\nNow that's new. Israel started Internet censorship in 2017.[1] Initially it was limited to \"terror group websites, online illegal gambling, prostitution services, hard drug sales\". At the time, \"due to warnings from rights groups that the law poses a slippery slope toward additional censorship, the final version of the legislation dictates that rights groups may appeal the decisions.\"\nThen, in 2021, there was the \"Facebook bill\", authorizing very broad censorship.[2] That does not seem to have passed. It was first proposed in 2016, almost passed in 2018 [3], tried in 2021, and tried again in 2022. It doesn't seem to have passed.\nBut something new happened recently. Wikipedia has a note at Censorship in Israel: \"This article needs to be updated. The reason given is: New ban issued by the knesset on foreign media channels. Please help update this article to reflect recent events or newly available information. (April 2024)\"[4]\nThe Knesset gave the government the authority to ban foreign media on April 1, 2024.[5]\nThis isn't just about preventing outside media from reporting from Israel. It keeps Israelis from viewing media the government doesn't like. Haarez has good coverage.[6]\nThe US White House press secretary issued a weak statement condemning Israel's action, but it was on April 1st and the costumed Easter Bunny overshadowed that statement.[7]\n[1] https://www.timesofisrael.com/to-tackle-online-crime-israel-...\n[2] https://www.timesofisrael.com/proposed-censorship-bill-more-...\n[3] https://www.timesofisrael.com/how-israel-nearly-destroyed-fr...\n[4] https://en.wikipedia.org/wiki/Censorship_in_Israel\n[5] https://www.msn.com/en-us/news/world/israels-knesset-approve...\n[6] https://www.haaretz.com/israel-news/2024-05-05/ty-article/is...\n[7] https://www.whitehouse.gov/briefing-room/press-briefings/202...",
+          "link": "https://news.ycombinator.com/item?id=40268301",
+          "publishedOn": "2024-05-05T20:58:14.000Z",
+          "wordCount": null,
+          "title": "New comment by Animats in \"Israel shuts down local Al Jazeera offices\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40267846",
+          "author": "afavour",
+          "description": "I’m not sure about “dark day for the media” but it does feel like a dark day for Israel.\nOnce you’ve established that the government can unilaterally ban a voice for reasons of “national security” you’ve essentially given them a free pass. As Americans living post-9/11 will know, “national security” is a deliberately elastic term that can cover anything required in the moment.",
+          "link": "https://news.ycombinator.com/item?id=40267846",
+          "publishedOn": "2024-05-05T20:14:24.000Z",
+          "wordCount": null,
+          "title": "New comment by afavour in \"Israel shuts down local Al Jazeera offices\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40267756",
+          "author": "dang",
+          "description": "All: if you're about to comment in this thread, please review https://news.ycombinator.com/newsguidelines.html and make sure your post is in the intended spirit of the site. If it isn't, please edit it until it is; or simply remember that the internet is usually wrong and refrain from posting.\nThe intended spirit is curious, respectful conversation in which we learn from each other. Yes, that is hard when emotions run strong, but hard != impossible, and it's what the site rules ask: \"Comments should get more thoughtful and substantive, not less, as a topic gets more divisive.\"",
+          "link": "https://news.ycombinator.com/item?id=40267756",
+          "publishedOn": "2024-05-05T20:04:37.000Z",
+          "wordCount": null,
+          "title": "New comment by dang in \"Israel shuts down local Al Jazeera offices\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40267547",
+          "author": "hn_throwaway_99",
+          "description": "In the spirit of trying to learn something from the community: while I can certainly understand the rationale and goals behind DEI programs (many of which I agree with, others not), I honestly can't understand these \"DEI statements\" at all. They always seemed very \"1984\" to me, and almost designed to engender resentment in a way that would ultimately backfire. So perhaps I'm in a like-minded echo chamber, but is there anyone that actually defends these DEI statements with a coherent argument, or can you point me to one online? If so, I'd honestly love to hear it, and I mean this quite genuinely. I did some googling beforehand and found loads of \"how to write a good DEI statement\" articles, but literally every single one of them just took it at face value that these were a good thing to begin with (or, perhaps in their defense, that \"academic jobs require it\", so you better learn how to write one in any case).",
+          "link": "https://news.ycombinator.com/item?id=40267547",
+          "publishedOn": "2024-05-05T19:39:30.000Z",
+          "wordCount": null,
+          "title": "New comment by hn_throwaway_99 in \"MIT abandons requirement of DEI statements for hiring and promotions\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40267353",
+          "author": "dang",
+          "description": "All: Please don't use HN for ideological battle. There are too many low-quality/predictable comments here. We want curious conversation, not sharp recitals.\nI know it's hard when the topic is itself an ideological battle, but that's a good time to review the site guidelines,  including this one: \"Comments should get more thoughtful and substantive, not less, as a topic gets more divisive.\"\nhttps://news.ycombinator.com/newsguidelines.html",
+          "link": "https://news.ycombinator.com/item?id=40267353",
+          "publishedOn": "2024-05-05T19:11:41.000Z",
+          "wordCount": null,
+          "title": "New comment by dang in \"MIT abandons requirement of DEI statements for hiring and promotions\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40265558",
+          "author": "sph",
+          "description": "Traefik is pretty cool, but suffers from the same, terrible problem of Ansible: there is a lot of documentation, and a lot of words written, yet you can never find anything you need.\nI have used it since v1 and I routinely get lost in their docs, and get immensely frustrated. I have been using Caddy for smaller projects simply because its documentation is not as terrible (though not great by any stretch)\nTechnical writers: documentation by example is good only for newbies skimming through. People familiar with your product need a reference and exhaustive lists, not explanation for different fields spread over 10 tutorial pages. Focus on those that use the product day in and day out, not solely on the \"onboarding\" procedure.\nThis is my pet peeve and the reason why I hate using Ansible so damn much, and Traefik to a lesser extent.",
+          "link": "https://news.ycombinator.com/item?id=40265558",
+          "publishedOn": "2024-05-05T15:26:05.000Z",
+          "wordCount": null,
+          "title": "New comment by sph in \"Take a look at Traefik, even if you don't use containers\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40261922",
+          "author": "ummonk",
+          "description": "It’s not AM causing interference in EVs. It’s EVs causing interference in their AM radios.",
+          "link": "https://news.ycombinator.com/item?id=40261922",
+          "publishedOn": "2024-05-05T02:51:09.000Z",
+          "wordCount": null,
+          "title": "New comment by ummonk in \"AM radio law opposed by tech and auto industries is close to passing\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40258200",
+          "author": "akudha",
+          "description": "As I become older (and grumpier) I have realized that not engaging is the best thing to do, wherever possible. Dirty  restaurant / rude staff? Don't go there. Don't like dark patterns on a website? Contact forms don't work? Don't use those sites. And so on. Two reasons - first, most of the time, these businesses know their shit is broken or they're doing low quality work etc. They just don't care. Second, it is good for our own stress levels to avoid dealing with shitty stuff.\nObviously this can't be applied to essential services like healthcare etc.",
+          "link": "https://news.ycombinator.com/item?id=40258200",
+          "publishedOn": "2024-05-04T15:05:58.000Z",
+          "wordCount": 5750,
+          "title": "New comment by akudha in \"I don't want to fill out your contact form\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40255488",
+          "author": "surfingdino",
+          "description": "I am skeptical.\nWell before AI co-pilots something happened to the good old admins--they started to disappear only to be replaced by \"AWS devops\" (their job titles) who have never wired a network using routers, switches, and cables. I noticed that they started lacking basic networking knowledge and couldn't set up networking inside AWS. They just didn't know what a gateway, NAT, or subnet is.\nSimilar things are happening with AI co-pilots. We have an increasing number of people who \"write code\", but the number of people who can understand and review code is not increasing. There is also a problem of injecting ethics and politics into those tools, which can produce silly results. I asked Bard to write me a Python function to turn the US Constitution into a palindrome. Bard refused and gave ma a lecture on how the US Constitution is too important to be played with in such trivial fashion. I then asked it to produce code that turns the US national anthem into a palindrome, it refused again. So I asked it do the same but with the Russian national anthem and it spat out code without telling me off. I then asked it to generate code for simple tasks and it did an OK job, except the formatting and the fonts used were different every time, because it just lifted code from different webpages and recombined it like a massively hungover student waking up to realise he's supposed to hand in the assignment in one hour.",
+          "link": "https://news.ycombinator.com/item?id=40255488",
+          "publishedOn": "2024-05-04T06:46:38.000Z",
+          "wordCount": 8612,
+          "title": "New comment by surfingdino in \"AI copilots are changing how coding is taught\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40254012",
+          "author": "sasaf5",
+          "description": "Early 2023, when everyone started using chat GPT for coding, I thought it would be a big boost because it enabled us to quickly employ a large number of people in a project regardless of language or framework.\nAn year into the project I am forced to revise my opinion. When browsing my code-base I often stumble in abstruse niche solutions for problems that should not have existed. It was clearly the work of someone inexperienced walking through walls in an AI-fuelled coding frenzy.\nHaving an oracle that knows all answers is useless if you don't know what to ask.",
+          "link": "https://news.ycombinator.com/item?id=40254012",
+          "publishedOn": "2024-05-04T01:13:52.000Z",
+          "wordCount": 9887,
+          "title": "New comment by sasaf5 in \"AI copilots are changing how coding is taught\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40252687",
+          "author": "dgacmu",
+          "description": "Related, there are a few cryptocurrencies that used things related to finding large primes as part of their proof of work functions. It turns out that ~8 years ago, a really fast primality test implementation could make you a lot of money. (For some period of time I was the author and maintainer of mining software for riecoin. Why, I have no idea, except that I like prime numbers.)\nThis article omits the number one optimization for fast primality testing: Montgomery multiplication\nhttps://en.m.wikipedia.org/wiki/Montgomery_modular_multiplic...\nIt forms the basis of fast practical modular exponentiation implementations.\nNiall Emmart, then in academia and now I believe at Nvidia, released a really, spectacularly fast GPU bigint library, CGBN: https://github.com/NVlabs/CGBN\nIt's still the fastest batch modexp implentation that I'm aware of. It's breathtaking, if I can gush in geek for a moment.\n(Someday I should write up the story of how that helped me dominate production of a small cryptocurrency for about 5 years. Thanks, Niall - owe you a beer if we ever cross paths!)\nAlso worth noting that python includes an entirely fine modexp in the three-argument form of pow(x, y, m) --> compute x^y % m\nWith that, you can very easily implement a fermat or miller-rabin primality test if you want to roll your own, which is quite fun. If you don't, the gmp library provides a very nice mpz_probab_prime() function. Gmp is obviously faster, but it's hard to beat the fun of a two liner fermat test for playing with big primes.",
+          "link": "https://news.ycombinator.com/item?id=40252687",
+          "publishedOn": "2024-05-03T21:39:10.000Z",
+          "wordCount": null,
+          "title": "New comment by dgacmu in \"How hard can generating 1024-bit primes be?\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40252212",
+          "author": "minusLik",
+          "description": "What the article does not seem to mention is that an usual electric wheelchair costs about $65,000 (and is intended to be replaced every six years or so). This and the non-availability of replacement parts is why some wheelchair users started a project to open-source a wheelchair from standard parts:\nhttps://themif.org/\nLouis Rossmann interviewed the founder of the project here:\nhttps://www.youtube.com/watch?v=eaAj59025Kk",
+          "link": "https://news.ycombinator.com/item?id=40252212",
+          "publishedOn": "2024-05-03T20:47:41.000Z",
+          "wordCount": null,
+          "title": "New comment by minusLik in \"As private equity dominates wheelchair market, users wait months for repairs\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40251683",
+          "author": "nickff",
+          "description": "Private equity discovered that regulations, compliance requirements, & other similar barriers to entry are the most effective 'moats' which allow businesses to raise prices and have little impact on demand; they are now exploiting this 'hack' ruthlessly.",
+          "link": "https://news.ycombinator.com/item?id=40251683",
+          "publishedOn": "2024-05-03T19:56:06.000Z",
+          "wordCount": null,
+          "title": "New comment by nickff in \"As private equity dominates wheelchair market, users wait months for repairs\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40250835",
+          "author": "tombert",
+          "description": "I'm all for moving to higher-level skills, when I was an adjunct professor I usually didn't put a huge emphasis on syntax unless I thought it was important to explain a concept, and I very rarely took off points for syntax.\nThat said, I don't know that I would allow AI for learning to code in the class.  I do not consider \"prompt engineering\" to be a substitute for programming, and it's very easy to get AI to write some code and copypaste it, not understand anything it said, and be done.\nLast year, when I was administering a test, I said that they were allowed to use any IDE they wanted, but they could not use any AI assistance.  I am pretty convinced one student just copypasted my test questions into ChatGPT or BingAI and then copied the answers. I didn't have a way to prove it so I had to give him the benefit of the doubt and grade it assuming he did it honestly.\nBefore someone says \"YOU SHOULD TEACH THEM TO USE THE AI TOOLS LOL THAT'S THE FUTURE!!!\", stop.  That's not true, not yet at least.  Just because I can call an Uber doesn't mean I get to say I know how to drive.  Just because I can go to McDonalds doesn't mean I get to say I know how to cook. I was teaching them how to write Java and Python, the goal of the class was for them to learn Java and Python, it wasn't learning how to copypaste into OpenAI.",
+          "link": "https://news.ycombinator.com/item?id=40250835",
+          "publishedOn": "2024-05-03T18:39:05.000Z",
+          "wordCount": null,
+          "title": "New comment by tombert in \"AI copilots are changing how coding is taught\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40249330",
+          "author": "vegetablepotpie",
+          "description": "We’re undergoing a Cambrian explosion of battery chemistries at the moment. Other startups, such as From Energy is scaling up production of Iron Air batteries in West Virginia, which will be an order of magnitude cheaper than lithium ion and will provide grid scale power [1]. North Harbour Clean Energy Promised to build a manufacturing facility in Australia to build Vanadium Flow batteries, which have very high charge cycle in their lifetime and can store energy for longer durations [2].\nThe advantage with Sodium Ion is that, although energy densities are lower than Lithium Ion, it could still be used to power mobile devices and electric vehicles.\n[1] https://www.wesa.fm/environment-energy/2024-02-19/weirton-fo...\n[2] https://www.abc.net.au/news/science/2023-02-02/vanadium-redo...",
+          "link": "https://news.ycombinator.com/item?id=40249330",
+          "publishedOn": "2024-05-03T16:14:29.000Z",
+          "wordCount": null,
+          "title": "New comment by vegetablepotpie in \"Lithium-free sodium batteries exit the lab and enter US production\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40248095",
+          "author": "pqdbr",
+          "description": "Blog posts like this (instead of endless YouTube sponsorships like their competitors do) are what made me choose them as my VPN service.",
+          "link": "https://news.ycombinator.com/item?id=40248095",
+          "publishedOn": "2024-05-03T14:30:08.000Z",
+          "wordCount": null,
+          "title": "New comment by pqdbr in \"DNS traffic can leak outside the VPN tunnel on Android\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40247762",
+          "author": "nazgulsenpai",
+          "description": "I don't use Mullvad, but I respect the shit out of them. This is a good, information dense explanation of the problem, their short term workaround and potential workarounds for others, as well as what will need to be fixed in Android. Good stuff.",
+          "link": "https://news.ycombinator.com/item?id=40247762",
+          "publishedOn": "2024-05-03T14:01:54.000Z",
+          "wordCount": null,
+          "title": "New comment by nazgulsenpai in \"DNS traffic can leak outside the VPN tunnel on Android\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40246243",
+          "author": "mhaberl",
+          "description": "> Even my last team leader sent me a message out of the blue saying “I think I’ll run a bar. I want to be a bartender and listen to other people’s stories, not figure out why protobuf doesn’t deserialize data that worked JUST FINE for the past three years”.\nI worked at a bar when I was young, listened to the stories; the most annoying protobuf deserialization issues or 'Agile meetings' are freaking fun compared to the most of the stories you can hear.\nThis is just comparing apples to oranges. Woodworking or any other hobby that you enjoy will be more pleasing than any real job you will do. Programming is fun, that is why you started doing it. Working as software developer can be less so.",
+          "link": "https://news.ycombinator.com/item?id=40246243",
+          "publishedOn": "2024-05-03T10:54:37.000Z",
+          "wordCount": null,
+          "title": "New comment by mhaberl in \"Woodworking as an escape from the absurdity of software\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40246033",
+          "author": "sukruh",
+          "description": "Most of the people I know who pursue creative/crafting hobbies alongside a software development job have chosen to work for well-known big companies, for prestige and safety, and ended up unfulfilled in their jobs.\nMost big companies are not good if you want to solve problems and build stuff. Especially \"the enterprise\", where software is seen as a cost center so the less of it the better. The effort of managing up eats a creative person's soul.\nI want the clarity of being able to talk to \"the boss/the customer\" and solve their problems and get paid the market rate for my skills. Not prepare endless PowerPoints for my skip-level, who has no ownership but has to act in their own best interests in a swamp of principal-agent problems.\nThis is why I am very happy at a fast-growing small tech company where one can have honest conversations about the customer and the product. How do other people deal with this?",
+          "link": "https://news.ycombinator.com/item?id=40246033",
+          "publishedOn": "2024-05-03T10:15:55.000Z",
+          "wordCount": null,
+          "title": "New comment by sukruh in \"Woodworking as an escape from the absurdity of software\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40240262",
+          "author": "megraf",
+          "description": "Of course they did. They have to pay separate licensing for the use of DAS – which is developed by M$ and resold from NYPD.\nhttps://en.wikipedia.org/wiki/Domain_Awareness_System",
+          "link": "https://news.ycombinator.com/item?id=40240262",
+          "publishedOn": "2024-05-02T19:10:09.000Z",
+          "wordCount": null,
+          "title": "New comment by megraf in \"Microsoft bans U.S. police from using enterprise AI tool for facial recognition\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40239065",
+          "author": "asdfman123",
+          "description": "Increasingly I think the financialization of everything makes us less capable of understanding the world.\n\"Red Lobster failed because of X corporate restructuring,\" \"Red Lobster succeeded due to Y ad campaign.\" People go to restaurants for reasons completely unrelated to things like that. Those things are important, but just constitute the small slice of reality that can easily be measured.\nI saw a Twitter thread arguing how the video game Stardew Valley succeeded due to the way it was marketed. Marketing is important, but maybe the game succeeded because it was cute and had a soul and is fun to play. You can't measure that.",
+          "link": "https://news.ycombinator.com/item?id=40239065",
+          "publishedOn": "2024-05-02T17:41:13.000Z",
+          "wordCount": null,
+          "title": "New comment by asdfman123 in \"The fishy death of Red Lobster\"",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Crooked Timber",
@@ -2103,6 +2434,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://frings.space/ship-to-oblivion-is-finished/",
+          "author": null,
+          "description": "This post goes something like this: I was really happy yesterday.\nIt feels extraordinarily silly to write about that, but I think it matters.\nI should've written this yesterday! Whilst feeling the emotions and thinking the thoughts! But alas, I did not.\nPart of the reason why I didn’t is the same reason why I’ve never been able to keep a journal, no matter how many of those my mother gifted me when I was a child in an attempt to encourage the habit. (Same goes for a blog, ironically, or at least one that is about myself.)\nThat reason is that I think in words. Not in the sense of hearing them, not quite in the sense of saying them either, but I think the way I write: the words, sentences, just kind of come to me. I don’t exactly conjure them. But I do almost see them, like you would see a h…",
+          "link": "https://frings.space/ship-to-oblivion-is-finished/",
+          "publishedOn": "2024-05-05T19:36:32.020Z",
+          "wordCount": 1704,
+          "title": "ship to oblivion is finished",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/frings-1714933760-0.png"
+        },
+        {
           "id": "https://bowlofmisua.bearblog.dev/death-and-an-update/",
           "author": null,
           "description": "how many people die in a year?\nwe visited my a-ma on may 1st, a day before her birthday. while waiting for my dad to finish placing the flowers by her vault, i looked around the room. it seemed so empty, yet so full at the same time. everyone in her room was old, unsurprisingly.\nwhen we went to the temple to visit my taima and taikong1, i looked around again. just on the column that housed my great grandparents was the resting place of what seemed like a young child.\nthe slot is packed with calico critters and a lone sonny angel, sugary sweet snacks and drinks and a cute candle. in another slot, cigarettes and a can of coke. further down the temple, in slot L-28: baby formula and a bottle, alongside a new pink onesie. the name on the slot is yellowed. the baby has been here a while. two sl…",
@@ -2210,16 +2551,6 @@
           "publishedOn": "2024-05-03T00:52:53.039Z",
           "wordCount": 816,
           "title": "recounting a dream",
-          "imageUrl": null
-        },
-        {
-          "id": "https://tiramisu.bearblog.dev/cul-de-sac-soccer/",
-          "author": null,
-          "description": "Yesterday I was walking around the neighborhood when I spotted the two brothers I play soccer with in the cul-de-sac. They came running as they always do, screaming and waving their arms around wildly, and as usual I couldn't help but grin. I don't know where else I can get a reception like that.\nIt's been a long time since we played. When we first started playing on the street I was still in college and the older brother Daniel in middle school. Now he towers over me and plays on his high school's varsity team. They made it to the state finals on Saturday. I had half a mind to go cheer him on, but it's on the other side of the city, an hour and a half away by car.\nTo temper their good news about the state finals I tell them I'm moving to New York again soon.\n\"For good?\" the younger one Ma…",
-          "link": "https://tiramisu.bearblog.dev/cul-de-sac-soccer/",
-          "publishedOn": "2024-05-02T19:10:02.928Z",
-          "wordCount": 947,
-          "title": "are we still playing soccer that sunny june afternoon?",
           "imageUrl": null
         },
         {
