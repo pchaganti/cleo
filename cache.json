@@ -14,10 +14,10 @@
         {
           "id": "983b96f69eee4d261c9d226a1ddd8568914827b3",
           "author": "Channy Yun",
-          "description": "Today, we are announcing the general availability of the generative engine of Amazon Polly with three voices: Ruth and Matthew in American English and Amy in British English. The new generative engine was trained with publicly available and proprietary data and a variety of voices, languages, and styles. It performs with the highest precision to […]",
+          "description": "With Amazon Polly, you can select various voice options, including neural, long-form, and generative voices, which deliver ground-breaking improvements in speech quality and produce human-like, highly expressive, and emotionally adept voices.",
           "link": "https://aws.amazon.com/blogs/aws/a-new-generative-engine-and-three-voices-are-now-generally-available-on-amazon-polly/",
           "publishedOn": "2024-05-09T03:17:10.000Z",
-          "wordCount": 1630,
+          "wordCount": 1635,
           "title": "A new generative engine and three voices are now generally available on Amazon Polly",
           "enclosure": {
             "length": "277987",
@@ -29,20 +29,20 @@
         {
           "id": "0a7eb872edc2fce55e074bed2c98c3983d999e68",
           "author": "Antje Barth",
-          "description": "Today, we’re happy to welcome a new member of the Amazon Titan family of models: Amazon Titan Text Premier, now available in Amazon Bedrock. Following Amazon Titan Text Lite and Titan Text Express, Titan Text Premier is the latest large language model (LLM) in the Amazon Titan family of models, further increasing your model choice […]",
+          "description": "Titan Text Premier is the latest large language model (LLM) in the Amazon Titan family of models, further increasing your model choice within Amazon Bedrock.",
           "link": "https://aws.amazon.com/blogs/aws/build-rag-and-agent-based-generative-ai-applications-with-new-amazon-titan-text-premier-model-available-in-amazon-bedrock/",
           "publishedOn": "2024-05-07T19:22:08.000Z",
-          "wordCount": 2559,
+          "wordCount": 2565,
           "title": "Build RAG and agent-based generative AI applications with new Amazon Titan Text Premier model, available in Amazon Bedrock",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/19/Text-premier-feat-img2.png"
         },
         {
           "id": "b9d853eedbab2fe828eb6466784995e2bfaf55ec",
           "author": "Antje Barth",
-          "description": "Today, we’re introducing Amazon Bedrock Studio, a new web-based generative artificial intelligence (generative AI) development experience, in public preview. Amazon Bedrock Studio accelerates the development of generative AI applications by providing a rapid prototyping environment with key Amazon Bedrock features, including Knowledge Bases, Agents, and Guardrails. As a developer, you can now use your company’s single sign-on credentials to […]",
+          "description": "Amazon Bedrock Studio accelerates the development of generative AI applications by providing a rapid prototyping environment with key Amazon Bedrock features, including Knowledge Bases, Agents, and Guardrails.",
           "link": "https://aws.amazon.com/blogs/aws/build-generative-ai-applications-with-amazon-bedrock-studio-preview/",
           "publishedOn": "2024-05-07T16:01:26.000Z",
-          "wordCount": 1665,
+          "wordCount": 1670,
           "title": "Build generative AI applications with Amazon Bedrock Studio (preview)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/05/03/Bedrock-main-feat-image.png"
         },
@@ -266,7 +266,7 @@
           "description": "<p>In April, we experienced four incidents that resulted in degraded performance across GitHub services.</p>\n<p>The post <a href=\"https://github.blog/2024-05-10-github-availability-report-april-2024/\">GitHub Availability Report: April 2024</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-05-10-github-availability-report-april-2024/",
           "publishedOn": "2024-05-10T17:13:01.000Z",
-          "wordCount": 1377,
+          "wordCount": 1378,
           "title": "GitHub Availability Report: April 2024",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/05/Enterprise-DarkMode-3.png"
         },
@@ -276,7 +276,7 @@
           "description": "<p>From mastering prompt engineering to leveraging AI for code security, here’s how you can excel in today's competitive job market.  </p>\n<p>The post <a href=\"https://github.blog/2024-05-01-5-tips-to-supercharge-your-developer-career-in-2024/\">5 tips to supercharge your developer career in 2024</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/2024-05-01-5-tips-to-supercharge-your-developer-career-in-2024/",
           "publishedOn": "2024-05-01T16:10:45.000Z",
-          "wordCount": 2415,
+          "wordCount": 3298,
           "title": "5 tips to supercharge your developer career in 2024",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Productivity-LightMode-3.png"
         }
@@ -378,6 +378,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/containers/",
       "articles": [
         {
+          "id": "33ff514263343545b1e1a64d247156147200d56e",
+          "author": "Dumlu Timuralp",
+          "description": "Introduction Amazon Elastic File System (EFS) is a managed storage service that can be used to provide shared access to data for Kubernetes Pods running across compute nodes in different Availability Zones (AZ) managed by Amazon Elastic Kubernetes Service (EKS). Amazon EFS supports native replication of data across AWS Regions. This feature helps in designing a multi-Region disaster […]",
+          "link": "https://aws.amazon.com/blogs/containers/multi-region-disaster-recovery-with-amazon-eks-and-amazon-efs-for-stateful-workloads/",
+          "publishedOn": "2024-05-10T19:28:07.000Z",
+          "wordCount": 2228,
+          "title": "Multi-Region Disaster Recovery with Amazon EKS and Amazon EFS for Stateful workloads",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/05/09/Featured-images-for-Containers-Blog-3-1260x630.jpg"
+        },
+        {
           "id": "8d6c93c3f70c38054eee1a222aed4f64f3cda8e2",
           "author": "Rodrigo Bersa",
           "description": "AWS users need to continuously enhance their infrastructure and security processes. This typically involves a two-phase approach: discovery and design, followed by implementation. In the discovery phase, an assessment of the current infrastructure is conducted, leading to the creation of architecture documents and patterns for the subsequent implementation phase. This process delves into Account Structure, […]",
@@ -456,6 +466,343 @@
           "wordCount": 2456,
           "title": "Using OPA to validate Amazon EKS Blueprint Templates",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/04/12/Featured-images-for-Containers-Blog-3-1260x630.jpg"
+        }
+      ]
+    },
+    {
+      "title": "CounterPunch.org",
+      "feedUrl": "https://www.counterpunch.org/feed/",
+      "siteUrl": "https://www.counterpunch.org/",
+      "articles": [
+        {
+          "id": "https://www.counterpunch.org/?p=321852",
+          "author": "Jeffrey St. Clair",
+          "description": "Adnan Al-Bursh was intelligent, humane, and committed. He could speak multiple languages. He saw and could explain the ravages of the occupation and the horrors of the war. He was exactly the kind of person, like the still imprisoned Marwan Barghouti, Israel has always feared might become a leader of the Palestinian people. For that reason, he was also exactly the kind of person Israel has been targeting for elimination under the cover of its bombardment and invasion of Gaza. More\nThe post Medicide in Gaza: the Killing of Dr. Adnan al-Bursh appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/medicide-in-gaza-the-killing-of-dr-adnan-al-bursh/",
+          "publishedOn": "2024-05-10T06:01:36.000Z",
+          "wordCount": null,
+          "title": "Medicide in Gaza: the Killing of Dr. Adnan al-Bursh",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321945",
+          "author": "Michael Hudson",
+          "description": "A discussion of the origins of urbanization may provide some insight into the character of modern social problems by highlighting the long historical dynamic at work. It may not be out of place here to point out that anti‑states are well known in the modern world, above all in what the U.S. Federal Reserve Board classifies as eleven offshore banking centers. Five such enclaves are in the Caribbean: Panama, the Netherlands Antilles (Curacao), Bermuda, the Bahamas, and the British West Indies (Cayman Islands). Three enclaves—Hong Kong, Macao, and Singapore—were founded to conduct the China trade. The remaining three are Liberia, Lebanon, and Bahrain at the mouth of the Persian Gulf—the island which Bronze Age Sumerians called Dilmun when they used it to trade with the Indus valley and the Iranian shore. More\nThe post The Parallels Between Archaic Entrepots and Modern Offshore Banking Centers appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/the-parallels-between-archaic-entrepots-and-modern-offshore-banking-centers/",
+          "publishedOn": "2024-05-10T05:59:00.000Z",
+          "wordCount": null,
+          "title": "The Parallels Between Archaic Entrepots and Modern Offshore Banking Centers",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321732",
+          "author": "Eve Ottenberg",
+          "description": "The UAW is on a roll. After winning stupendous contracts at the Big Three automakers this past year, the union then organized Volkswagen in Tennessee April 20. What’s eye-popping about this is that the UAW succeeded not only in the South, but also with a foreign car manufacturer – a twofer. Now as the union zooms in on a May vote by 5000 workers at Mercedes in Alabama, the larger implications of Shawn Fain’s still relatively new union presidency have become clear, namely, a change in workers’ culture in the anti-union, right-to-work South; because if the UAW racks up more wins in the region, that will alter the local political ecosystem. Politicos will find themselves in an environment that includes a growing union presence, something they have sought to extirpate for generations. More\nThe post How the UAW Could Change the South appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/how-the-uaw-could-change-the-south/",
+          "publishedOn": "2024-05-10T05:58:55.000Z",
+          "wordCount": null,
+          "title": "How the UAW Could Change the South",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321847",
+          "author": "Melvin Goodman",
+          "description": "It’s difficult to imagine an Israeli war in the Middle East that allowed any Arab country to claim victory.  The history of the Middle East over the past 75 years has been a history of war, and the Israelis have been the overwhelming victor in each and every one of them.  Israel’s War of Independence in 1948 marked an overwhelming victory for the Israelis; it created the profound antagonisms that have marked Israeli relations with the Arab states over the past 75 years.  The United States and Israel over the years have indulged in a dialogue about a “peace process,” but Arab refugees have known neither “peace” nor “process.” More\nThe post Washington Post’s David Ignatius Remains Clueless About the Middle East appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/washington-posts-david-ignatius-remains-clueless-about-the-middle-east/",
+          "publishedOn": "2024-05-10T05:58:25.000Z",
+          "wordCount": null,
+          "title": "Washington Post’s David Ignatius Remains Clueless About the Middle East",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321737",
+          "author": "Vijay Prashad",
+          "description": "Israel’s disregard for the negotiations and the level of its violence can be measured based on two political realities. It does not take negotiations with the Palestinians seriously and it feels that it can bomb with impunity. This is so because, firstly, Israel is backed fully by the Global North states (mainly the United States and Europe) and secondly, it does not regard Palestinian political views as vital because it has succeeded in breaking the political unity amongst Palestinians and it has succeeded in politically disorienting the various factions by the arrest of their main leadership. More\nThe post Will Palestinian Groups Create a New Palestinian Political Project? appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/will-palestinian-groups-create-a-new-palestinian-political-project/",
+          "publishedOn": "2024-05-10T05:58:17.000Z",
+          "wordCount": null,
+          "title": "Will Palestinian Groups Create a New Palestinian Political Project?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321848",
+          "author": "Robert Hunziker",
+          "description": "Sea levels are surging along the US coastline, exceeding 30-year expectations. Scientists are confused, concerned, searching for answers. In that regard, an excellent new series by The Washington Post d/d April 29th, 2024 “Must Reads” is an eye-opening view into the impact of global warming in real time with real people and real images. For  More\nThe post Surprising Rising Seas “Must Reads” appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/surprising-rising-seas-must-reads/",
+          "publishedOn": "2024-05-10T05:57:57.000Z",
+          "wordCount": null,
+          "title": "Surprising Rising Seas “Must Reads”",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321871",
+          "author": "Stephen F. Eisenman",
+          "description": "Rules for protests I’ve been struck lately, by the inertness of criticism lodged against student protesters — they might have been written by AI. They all begin with a vague expression of support for Jewish and Islamic students, proceed to condemn anti-Semitism “in all its forms”, endorse free speech, and conclude with a vow to  More\nThe post The Soft Anti-Semitism of Polite Expectations  appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/the-soft-anti-semitism-of-polite-expectations/",
+          "publishedOn": "2024-05-10T05:56:58.000Z",
+          "wordCount": null,
+          "title": "The Soft Anti-Semitism of Polite Expectations",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321947",
+          "author": "Paul Street",
+          "description": "Many friends and allies, especially younger ones, have been getting The Lecture from older Democratic Party relatives or friends – the Lesser Evil Lecture. This year the lecture comes not only with the admonition to hold your nose and vote for Joe Biden to get a second term to block the fascist monster Trump but  More\nThe post A Sick, Dystopian System Worth Overthrowing appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/a-sick-dystopian-system-worth-overthrowing/",
+          "publishedOn": "2024-05-10T05:56:46.000Z",
+          "wordCount": null,
+          "title": "A Sick, Dystopian System Worth Overthrowing",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321833",
+          "author": "Kathleen Wallace",
+          "description": "It's becoming clearer every day that our governments and leaders have no intention to promote a livable world or even one with a destination of eventual equitability. No, the goal is clearly to promote the interests of the few and to use the vast swath of humanity in much the way a parasite would utilize its host. This has likely always been the case with modern governments, but even now, a few nations seem to realize that there has to be some form of quid pro quo between their leaders and the masses. Sadly, however, in the US and Great Britain in particular, there has been a callous disregard for even the most basic well-being of their populations. The question is, how did we get to such a place? More\nThe post The Road to Hell appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/the-road-to-hell/",
+          "publishedOn": "2024-05-10T05:56:26.000Z",
+          "wordCount": null,
+          "title": "The Road to Hell",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321909",
+          "author": "Kathy Kelly",
+          "description": "On April 30, when Columbia University student protesters took over Hamilton Hall, they renamed it “Hind’s Hall,” dropping a large banner out the windows above the building’s entrance. This was a hall famously occupied by students in the 1968 protests against the Vietnam War and against Jim Crow racism in the United States. The students are  More\nThe post Unfurling Love from the Window appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/unfurling-love-from-the-window/",
+          "publishedOn": "2024-05-10T05:55:56.000Z",
+          "wordCount": null,
+          "title": "Unfurling Love from the Window",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321902",
+          "author": "Binoy Kampmark",
+          "description": "“Politics,” as the harsh, albeit successful German Chancellor Otto von Bismarck claimed, “is the art of the possible, the attainable – the art of the next best.”  To that should be added the stark awareness of being prudent, gingerly wise, appropriately cautious.  Mind how you go in avoiding any foolishness on the way. Going after the motley  More\nThe post Israel’s Battle Against Free Speech: The Shuttering of Al Jazeera appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/israels-battle-against-free-speech-the-shuttering-of-al-jazeera/",
+          "publishedOn": "2024-05-10T05:55:53.000Z",
+          "wordCount": null,
+          "title": "Israel’s Battle Against Free Speech: The Shuttering of Al Jazeera",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=322003",
+          "author": "David Yearsley",
+          "description": "Cornell University in central New York State commands a spectacular position above the city of Ithaca with Lake Cayuga stretching out of sight to the north. The Cornell alma mater casts higher education in literal terms, first, “Far above Cayuga’s waters”; then, in the second stanza, “Far above …the bustling town.” With altitude comes power.  More\nThe post Non-Silent Spring: Cornell’s Slope Day, 2024 appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/non-silent-spring-cornells-slope-day-2024/",
+          "publishedOn": "2024-05-10T05:55:47.000Z",
+          "wordCount": null,
+          "title": "Non-Silent Spring: Cornell’s Slope Day, 2024",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321949",
+          "author": "Ramzy Baroud",
+          "description": "Identity is fluid, because concepts such as culture, history and collective self-perceptions are never fixed. They are in a constant state of flux and revision. For hundreds of years, the map of the Roman Empire seemed more Mediterranean and, ultimately, Middle Eastern than European – per the geographic, or even geopolitical demarcation of today’s Europe.  More\nThe post Civilizational Unity, Not Clash: How Gaza Challenged Samuel Huntington’s Fantasies appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/civilizational-unity-not-clash-how-gaza-challenged-samuel-huntingtons-fantasies/",
+          "publishedOn": "2024-05-10T05:55:43.000Z",
+          "wordCount": null,
+          "title": "Civilizational Unity, Not Clash: How Gaza Challenged Samuel Huntington’s Fantasies",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=322009",
+          "author": "Erica Cirino",
+          "description": "Louisiana’s “River Parishes,” located along the Mississippi River between New Orleans and Baton Rouge, shoulder some of the worst industry impacts in the United States. As a result, this region has acquired a grim reputation as “Cancer Alley.” Stretching across 85 miles of rural land along both banks of the Mississippi River are around 200 industrial  More\nThe post Plastic Pollution is a Crime Against People and the Planet appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/plastic-pollution-is-a-crime-against-people-and-the-planet/",
+          "publishedOn": "2024-05-10T05:55:36.000Z",
+          "wordCount": null,
+          "title": "Plastic Pollution is a Crime Against People and the Planet",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321907",
+          "author": "Joseph Scalia III",
+          "description": "Sadism is the word that psychoanalysts use to describe the specific malformation of manhood in the recent merciless and prideful torture and killing of a gray wolf. The young female was rendered helpless by her killer when he cravenly duct-taped her mouth shut, after he’d run over her with a snowmobile. The gleeful smile on  More\nThe post Anatomy of a Wolf Torturer appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/anatomy-of-a-wolf-torturer/",
+          "publishedOn": "2024-05-10T05:55:33.000Z",
+          "wordCount": null,
+          "title": "Anatomy of a Wolf Torturer",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321898",
+          "author": "M. Reza Behnam",
+          "description": "Students on campuses across the United States have “upset the U.S.-Israel military apartheid applecart” — a plan long in the making whose aim has been Israeli control over all of historic Palestine.  Israel’s plan to claim every inch of it is stated unequivocally in the Likud Party Platform of 1977.  It reads, “between the Sea and the Jordan  More\nThe post Palestinian Resistance: Upsetting the U.S.-Israel Apple Cart appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/palestinian-resistance-upsetting-the-u-s-israel-apple-cart/",
+          "publishedOn": "2024-05-10T05:55:32.000Z",
+          "wordCount": null,
+          "title": "Palestinian Resistance: Upsetting the U.S.-Israel Apple Cart",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321893",
+          "author": "Norman Solomon",
+          "description": "Persisting in his support for an unpopular war, the Democrat in the White House has helped spark a rebellion close to home. Young people — least inclined to deference, most inclined to moral outrage — are leading public opposition to the ongoing slaughter in Gaza. The campus upheaval is a clash between accepting and resisting,  More\nThe post War Culture Hates the Ethical Passion of the Young, In the Thrall of a Dominant Death Culture appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/war-culture-hates-the-ethical-passion-of-the-young-in-the-thrall-of-a-dominant-death-culture/",
+          "publishedOn": "2024-05-10T05:55:23.000Z",
+          "wordCount": null,
+          "title": "War Culture Hates the Ethical Passion of the Young, In the Thrall of a Dominant Death Culture",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321864",
+          "author": "Daniel Falcone",
+          "description": "Japan’s Prime Minister Fumio Kishida visited Washington in early April 2024 to reaffirm strategic partnership and geopolitical interests with the United States. Japanese National Security Adviser, Takeo Akiba defined the visit as illustrative of an “epic shift in Japan’s defense posture.” He observed that Japan was experiencing its most extreme security situation since the Second World  More\nThe post Japan’s Visit to America Exposed US Leadership Legitimacy Issues appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/japans-visit-to-america-exposed-us-leadership-legitimacy-issues/",
+          "publishedOn": "2024-05-10T05:55:05.000Z",
+          "wordCount": null,
+          "title": "Japan’s Visit to America Exposed US Leadership Legitimacy Issues",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=322014",
+          "author": "Steven Rosenfeld",
+          "description": "As the 2020 presidential election entered its final stretch, Christina Bobb was not just covering it as a TV newswoman for the pro-Donald Trump One America News Network (OANN). The tall, dark-haired, clear-speaking ex-marine and lawyer was working to overturn it. Bobb believed that Democrats and election officials colluded to fabricate thousands of voter registrations,  More\nThe post Trump Loyalists Preview Strategies to Upend 2024 Election appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/trump-loyalists-preview-strategies-to-upend-2024-election/",
+          "publishedOn": "2024-05-10T05:55:01.000Z",
+          "wordCount": null,
+          "title": "Trump Loyalists Preview Strategies to Upend 2024 Election",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321733",
+          "author": "Daniel Warner",
+          "description": "While attention is focused on the Middle East and the possibilities for a cease-fire and a major regional peace plan, the Swiss government is convening a high-level meeting on the Russia/Ukraine conflict. On May 2, the Swiss government announced that “more than 160 delegations from all over the world were invited to join the first  More\nThe post A Ukraine Peace Conference Without Russia appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/a-ukraine-peace-conference-without-russia/",
+          "publishedOn": "2024-05-10T05:54:11.000Z",
+          "wordCount": null,
+          "title": "A Ukraine Peace Conference Without Russia",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=322051",
+          "author": "Carlos Zacarias de Sena Junior",
+          "description": "The strike of professors at universities and federal institutes across Brazil ended its third week by drawing attention to the problems in education, such as precarious budgets, lack of infrastructure, and low salaries. ANDES-SN, the trade union entity that represents the majority of university professors, counts 47 paralyzed institutions, while the Federal Institutes (IFES), according  More\nThe post The Media and the Federal University Strike in Brazil appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/the-media-and-the-federal-university-strike-in-brazil/",
+          "publishedOn": "2024-05-10T05:52:21.000Z",
+          "wordCount": null,
+          "title": "The Media and the Federal University Strike in Brazil",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321997",
+          "author": "Bob Topper",
+          "description": "One could understand the Dobb’s decision. The Supreme Court was wrong to ignore precedence, reason, and evidence when it took away a woman’s constitutional right to choose. But when one recognized that the majority of the justices were devout Catholics who had been indoctrinated with the belief that abortion was wrong and against their Gods  More\nThe post An Anti-liberal Supreme Court Poised to Subvert Justice appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/an-anti-liberal-supreme-court-poised-to-subvert-justice/",
+          "publishedOn": "2024-05-10T05:50:18.000Z",
+          "wordCount": null,
+          "title": "An Anti-liberal Supreme Court Poised to Subvert Justice",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=322094",
+          "author": "Bernie Sanders",
+          "description": "For five days, almost no humanitarian aid has gotten into Gaza. Israel’s military operation in Rafah has displaced another 110,000 people and closed both main border crossings. That means no food, no water, no medicine, no fuel. And now Israel is threatening to expand that operation. Hundreds of thousands of children were starving and famine  More\nThe post The Rafah Disaster appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/the-rafah-disaster/",
+          "publishedOn": "2024-05-10T05:48:03.000Z",
+          "wordCount": null,
+          "title": "The Rafah Disaster",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321763",
+          "author": "Nicky Reid",
+          "description": "I grew up in the American far left and I’m really not exaggerating when I tell you that the movement saved my life. I discovered libertarian socialism and its various stateless subspecies at an age when I was feeling increasingly endangered as the last genderqueer kid on earth in the thick of rural Pennsylvania’s conservative  More\nThe post The Free Palestine Movement is Re-Defining the American Left appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/the-free-palestine-movement-is-re-defining-the-american-left/",
+          "publishedOn": "2024-05-10T05:47:39.000Z",
+          "wordCount": null,
+          "title": "The Free Palestine Movement is Re-Defining the American Left",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321842",
+          "author": "Gerard Boyce",
+          "description": "A win for the uMkhonto we Sizwe (MK) Party, the upstart political party currently polling at roughly eight percent of which former President Jacob Zuma is the face, is a win for Russia. Ergo, it is a win for the BRICS+ grouping of countries. According to this line of thinking, greater support for the MK  More\nThe post A Win for MK in South Africa will Not Necessarily be OK for the BRICS+ Group of Countries appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/a-win-for-mk-in-south-africa-will-not-necessarily-be-ok-for-the-brics-group-of-countries/",
+          "publishedOn": "2024-05-10T05:47:35.000Z",
+          "wordCount": null,
+          "title": "A Win for MK in South Africa will Not Necessarily be OK for the BRICS+ Group of Countries",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321745",
+          "author": "Edward Hunt",
+          "description": "Violent crackdowns on student protesters across the United States have brought to light an uncomfortable truth that goes unacknowledged by universities, the White House, and the mass media: the United States is an obstacle to peace in Gaza. As Israel has directed an unrelenting military assault against Gaza, the United States has enabled it every  More\nThe post The United States is an Obstacle to Peace in Gaza appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/the-united-states-is-an-obstacle-to-peace-in-gaza/",
+          "publishedOn": "2024-05-10T05:47:10.000Z",
+          "wordCount": null,
+          "title": "The United States is an Obstacle to Peace in Gaza",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321867",
+          "author": "Karl Grossman",
+          "description": "I first got to learn about PSEG (Public Service Enterprise Group) in the early 1970s driving down Dune Road in the Hamptons of Long Island, east of New York City, and there, next to Hot Dog Beach, was a weather station with various devices. It was surrounded by a chain link fence with a sign  More\nThe post Floating Nuclear Plants? appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/floating-nuclear-plants/",
+          "publishedOn": "2024-05-10T05:45:54.000Z",
+          "wordCount": null,
+          "title": "Floating Nuclear Plants?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321736",
+          "author": "Ron Jacobs",
+          "description": "I have been listening to the music of Sun Ra since the mid-1970s.  His Arkestra performed somewhere in Washington, DC right around that time.  I didn’t attend the show (I was broke), but a few friends did.  I believe it was at a church.  My friends who attended maintained a certain ecstatic energy for a  More\nThe post Moon Ships and Mardi Gras: Sun Ra and the Arkestra in the 1970s appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/moon-ships-and-mardi-gras-sun-ra-and-the-arkestra-in-the-1970s/",
+          "publishedOn": "2024-05-10T05:44:28.000Z",
+          "wordCount": null,
+          "title": "Moon Ships and Mardi Gras: Sun Ra and the Arkestra in the 1970s",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321914",
+          "author": "Erika Schelby",
+          "description": "Teaser: If you are Einstein, you can get away with telling kids to read fairy tales as groundwork for becoming scientists. In our STEM-fixated age where science is all-encompassing and the humanities are relegated to the status of Cinderellas, advice from a leading scientist that kids should read fairy tales is refreshing.  Attributed to Albert  More\nThe post Einstein Made Them Do It appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/einstein-made-them-do-it/",
+          "publishedOn": "2024-05-10T05:43:56.000Z",
+          "wordCount": null,
+          "title": "Einstein Made Them Do It",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=321743",
+          "author": "Ariel Dorfman",
+          "description": "Daniel Noboa, the president of Ecuador, might have saved himself a lot of trouble, if he had only read more Latin American literature. Perhaps he would not have ordered the police to storm the Mexican embassy to arrest former Vice President Jorge Glas, who had been granted asylum there. That unprecedented action—breaching long-standing treaties that  More\nThe post What Latin American Novels Could Teach Latin American Leaders appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/05/10/what-latin-american-novels-could-teach-latin-american-leaders/",
+          "publishedOn": "2024-05-10T05:42:53.000Z",
+          "wordCount": null,
+          "title": "What Latin American Novels Could Teach Latin American Leaders",
+          "itunes": {},
+          "imageUrl": null
         }
       ]
     },
@@ -553,16 +900,6 @@
           "wordCount": 4026,
           "title": "The Anatomy of Export Controls",
           "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/04/LSE_2024_export-controls_crosigniani_460.jpg"
-        },
-        {
-          "id": "https://libertystreeteconomics.newyorkfed.org/?p=28848",
-          "author": "Marco Cipriani, Daniel Fricke, Stefan Greppmair, Gabriele La Spada, and Karol Paludkiewicz",
-          "description": "As shown in a past Liberty Street Economics post, in the United States, the yields of money market fund (MMF) shares respond to changes in monetary policy rates much more than the rates of bank deposits; in other words, the MMF beta is much higher than the deposit beta. Consistent with this, the size of the U.S. MMF industry fluctuates over the interest rate cycle, expanding during times of monetary policy tightening. In this post, we show that the relationship between the policy rates of the European Central Bank (ECB) and the size of European MMFs investing in euro-denominated securities is also positive—as long as policy rates are positive; after the ECB introduced negative policy rates in 2015, that relationship broke down, as MMFs received large inflows during this period.",
-          "link": "https://libertystreeteconomics.newyorkfed.org/2024/04/monetary-policy-and-money-market-funds-in-europe/",
-          "publishedOn": "2024-04-11T11:00:00.000Z",
-          "wordCount": 4279,
-          "title": "Monetary Policy and Money Market Funds in Europe",
-          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/04/LSE_2024_mmf-euro_cipriani_460_df6b18.jpg"
         }
       ]
     },
@@ -577,7 +914,7 @@
           "description": "from Lars Syll It’s hard not to agree with DeMartino’s critique of mainstream economics — an unethical, irresponsible, and harmful kind of science where models and procedures become ends in themselves, without consideration of their lack of explanatory value as regards real-world phenomena. Many mainstream economists working in the field of economic theory think that […]",
           "link": "https://rwer.wordpress.com/2024/05/09/economics-a-dismal-and-harmful-science/",
           "publishedOn": "2024-05-09T11:23:26.000Z",
-          "wordCount": 4890,
+          "wordCount": 4891,
           "title": "Economics — a dismal and harmful science",
           "imageUrl": "https://larspsyll.files.wordpress.com/2017/11/austerity22.jpg?w=250&h=250"
         },
@@ -587,7 +924,7 @@
           "description": "Planet is headed for at least 2.5C of heating with disastrous results for humanity, poll of hundreds of scientists finds",
           "link": "https://rwer.wordpress.com/2024/05/08/real-world-economists-take-note/",
           "publishedOn": "2024-05-08T11:28:40.000Z",
-          "wordCount": 4149,
+          "wordCount": 4163,
           "title": "Real-world economists take note!",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -607,7 +944,7 @@
           "description": "from Lars Syll In mainstream economics, there’s — still — a lot of talk about ‘economic laws.’ The crux of these laws — and regularities — that allegedly exist in economics, is that they only hold ceteris paribus. That fundamentally means that these laws/regularities only hold when the right conditions are at hand for giving rise […]",
           "link": "https://rwer.wordpress.com/2024/04/26/the-non-existence-of-economic-laws-2/",
           "publishedOn": "2024-04-26T16:03:19.000Z",
-          "wordCount": 5326,
+          "wordCount": 5325,
           "title": "The non-existence of economic laws",
           "imageUrl": "https://www.bokkilden.no/servlet/VisBildeServlet?produktId=2558467&width=1200"
         },
@@ -617,7 +954,7 @@
           "description": "from Crelis Rammelt and current issue of RWER Our presumed dominion over nature is an illusion. No matter how clever technological innovations may seem, they remain subject to the laws of thermodynamics. Consequently, a growth-centered capitalist economy finds itself trapped in futile attempts to completely decouple itself from nature – aiming for a 100% circular, service-oriented and […]",
           "link": "https://rwer.wordpress.com/2024/04/22/in-search-of-radical-alternatives/",
           "publishedOn": "2024-04-22T17:01:08.000Z",
-          "wordCount": 4576,
+          "wordCount": 4590,
           "title": "In search of radical alternatives",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -627,7 +964,7 @@
           "description": "from Lars Syll No sooner had I finished my comment on the irrelevancy of economics but I had confirmation — albeit unwittingly — in this morning’s Financial Times.  There on the editorial page was a short column by Soumaya Keynes talking about the rise of Hank. For those of you not on the cutting edge, […]",
           "link": "https://rwer.wordpress.com/2024/04/19/cutting-edge-macroeconomics/",
           "publishedOn": "2024-04-19T11:25:45.000Z",
-          "wordCount": 6306,
+          "wordCount": 6307,
           "title": "Cutting-edge macroeconomics …",
           "imageUrl": "https://i.pinimg.com/originals/7c/4d/af/7c4daf05e39a2c304b672a9b714b7e1b.jpg"
         },
@@ -637,7 +974,7 @@
           "description": "from Peter Radford What are we to say of a discipline that steadfastly ignores reality in its pursuit of ever more formality in its methods? Wow. Steve Levitt has really shaken me. I come not to mock, but to follow up … Stand up and take a bow Ben Moll!  You daring soul. Clearly I […]",
           "link": "https://rwer.wordpress.com/2024/04/17/the-eclipse-part-wo/",
           "publishedOn": "2024-04-17T15:36:35.000Z",
-          "wordCount": 6166,
+          "wordCount": 6177,
           "title": "The eclipse part wo",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -647,7 +984,7 @@
           "description": "from Junaid Jahangir and current issue of RWER [Ha-Joon] Chang’s latest book Edible Economics (2022) crystallizes the narrative that he has developed through his popular books over the years. . . . I have reviewed the salient ideas as follows in a bid to draw out lessons I could share with my ECON 101 students. […]",
           "link": "https://rwer.wordpress.com/2024/04/15/changs-edible-economics/",
           "publishedOn": "2024-04-15T20:26:42.000Z",
-          "wordCount": 4760,
+          "wordCount": 4759,
           "title": "Chang’s “Edible Economics”",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -660,16 +997,6 @@
           "wordCount": 6824,
           "title": "Chicago economics — nothing but pseudo-scientific cheating",
           "imageUrl": "https://lh5.googleusercontent.com/proxy/4q-6XCes-2n992DjEdgR6flq44y98Ybu6qt1pbR98wL5ysE9jikfPW8FffP9KR9UbrbOeFYEtLeLDtn4aElzX11nma2HvQlza0GhyhUFiTVNs6hDcOWYfgVWf-voMLKcCX4JtKVQL4ndQc2npzxIuZdDMZtNilA"
-        },
-        {
-          "id": "http://rwer.wordpress.com/?p=45311",
-          "author": "Editor",
-          "description": "from a comment by Ikonoclast “A truth is permitted only a brief victory celebration between the two long periods where it is first condemned as paradoxical and later disparaged as trivial.” – Arthur Schopenhauer. As they break new ground, the Capital as Power theoreticians will encounter the “Schopenhauer Effect” over and over. When you point […]",
-          "link": "https://rwer.wordpress.com/2024/04/11/the-increasing-collusion-between/",
-          "publishedOn": "2024-04-11T11:45:48.000Z",
-          "wordCount": 4375,
-          "title": "The increasing collusion between . . . . . .",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -690,7 +1017,7 @@
           "description": "I don&#8217;t think people realize how profoundly nationalism distorts their view of the world. Consider a recent comment in response to my complaint about people&#8217;s obsession with the Gaza War: I suggest you ask a Palestinian for their views. Maybe he was joking, as from a certain perspective this is an amusing response to my [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/895988168/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/895988168/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/895988168/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/895988168/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/895988168/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/nationalism-rots-your-brain/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/nationalism-rots-your-brain/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/nationalism-rots-your-brain/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/nationalism-rots-your-brain/#comment-6823780\">Sorry for the grammar, it’s a shame there’s no “edit” ...</a> <i>by Camden</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/nationalism-rots-your-brain/#comment-6823770\">This article makes a good case against being so dismissive of ...</a> <i>by Camden</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/nationalism-rots-your-brain/#comment-6823155\">Camden, You said:   “The problem with the analogy is that ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/nationalism-rots-your-brain/#comment-6823046\">“In a rational world they would not hold different views.” ...</a> <i>by Ricardo</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/nationalism-rots-your-brain/#comment-6822905\">The problem with the analogy is that European governments ...</a> <i>by Camden</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/nationalism-rots-your-brain/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/895988168/0/themoneyillusion~Nationalism-rots-your-brain/",
           "publishedOn": "2024-05-06T22:13:13.000Z",
-          "wordCount": 7549,
+          "wordCount": 7638,
           "title": "Nationalism rots your brain",
           "imageUrl": null
         },
@@ -707,10 +1034,10 @@
         {
           "id": "https://feeds.feedblitz.com/~/895715492/0/themoneyillusion~Odds-and-ends/",
           "author": null,
-          "description": "1. Commenter Floccina directed me to a video showing Matt Yglesias&#8217;s ideal city. 2. A back issue of Harpers had an article discussing the possibility of legalizing drugs. This comment caught my eye: At the time, I was writing a book about the politics of drug prohibition. I started to ask [former Nixon aide] Ehrlichman [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/895715492/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-27-at-12.41.30-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6821975\">@ Scott   “Job opening: Vice President of the United States ...</a> <i>by Tom M</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6821379\">I did a quick check of the immigrant statistics to the EU and ...</a> <i>by Carl</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6821128\">Gabbard is also a finalist.</a> <i>by sara</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6820840\">EHarding, You said:   “she is a moderate Republican” ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6820814\">The irony of you denigrating Trump as 'exceedingly dumb,' and ...</a> <i>by DBrooks</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
+          "description": "1. Commenter Floccina directed me to a video showing Matt Yglesias&#8217;s ideal city. 2. A back issue of Harpers had an article discussing the possibility of legalizing drugs. This comment caught my eye: At the time, I was writing a book about the politics of drug prohibition. I started to ask [former Nixon aide] Ehrlichman [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/895715492/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-27-at-12.41.30-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/895715492/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6823883\">Scott,   I a previous post you referred to Switzerland as a ...</a> <i>by bb</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6821975\">@ Scott   “Job opening: Vice President of the United States ...</a> <i>by Tom M</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6821379\">I did a quick check of the immigrant statistics to the EU and ...</a> <i>by Carl</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6821128\">Gabbard is also a finalist.</a> <i>by sara</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comment-6820840\">EHarding, You said:   “she is a moderate Republican” ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/odds-and-ends-8/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/895715492/0/themoneyillusion~Odds-and-ends/",
           "publishedOn": "2024-05-03T20:52:13.000Z",
-          "wordCount": 3425,
+          "wordCount": 3463,
           "title": "Odds and ends",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-27-at-12.41.30-PM.png"
         },
@@ -720,7 +1047,7 @@
           "description": "You: What do you think of the Gaza situation? Me: That&#8217;s the problem. You: What do you mean? I asked for your view on the situation. Me: My view is that the question you asked is the problem. The problem is that we are asking questions about Gaza. If we were not asking those questions, [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/895715498/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/895715498/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/895715498/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/895715498/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/895715498/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comment-6822550\">VC, OK, but my claims are based on my definition.   Tom, I ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comment-6822463\">@Scott   Israel is MUCH closer to Denmark and New Zealand in ...</a> <i>by Tom M</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comment-6822309\">Scott,   agree, which is why I try to avoid the term. ...</a> <i>by viennacapitslist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comment-6822109\">Tom, “Israel is a liberal, . . .”   Compared to its Arab ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comment-6821968\">Israel is a liberal, democratic, free speech oriented, rights ...</a> <i>by Tom M</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-question-is-the-problem/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/895715498/0/themoneyillusion~The-question-is-the-problem/",
           "publishedOn": "2024-05-03T20:52:01.000Z",
-          "wordCount": 4656,
+          "wordCount": 4567,
           "title": "The question is the problem",
           "imageUrl": null
         },
@@ -730,7 +1057,7 @@
           "description": "1. Tyler linked to an interesting article on Portugal. This caught my eye: Then, in 2023, the Immigration Control Agency was dissolved, ostensibly in response to an extremely uncharacteristic display of violence where, in March 2020, two officers beat a Ukrainian man to death in the airport of Lisbon. No protests followed the unjust death [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/882407957/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-18-at-2.26.00-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/882407957/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/more-articles-2/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6819143\">#5 seems like it is clearly a reflection of the stereotype of ...</a> <i>by derek</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6817966\">Can, I wonder if “flight to liquidity” is a better ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6817930\">Justin: Despite his career with statistics, Scott relies on an ...</a> <i>by art andreassen</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6817608\">I'm finally reading “The Money Illusion” the book and had a ...</a> <i>by Can</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comment-6816500\">I thought this moron retired, no?   Nobody at Bentley ...</a> <i>by Edward</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/more-articles-2/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/882407957/0/themoneyillusion~More-articles/",
           "publishedOn": "2024-04-24T23:08:32.000Z",
-          "wordCount": 4348,
+          "wordCount": 4258,
           "title": "More articles",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-18-at-2.26.00-PM.png"
         },
@@ -740,7 +1067,7 @@
           "description": "Eventually, I&#8217;ll get to price indices. But first, a long boring digression on why I don&#8217;t want to be &#8220;rich&#8221; (but do want to have a billion dollars.) I recently read a WSJ story about how a $200 million St. Louis skyscraper had sold for only $4 million. That got me wondering what house prices [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/882407960/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-18-at-8.36.41-AM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/882407960/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6817295\">Jeff, Interesting article, but I don't buy the claim that ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6817285\">Interesting theory on decline of midwest cities using St. Louis ...</a> <i>by Jeff</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6815142\">David, I agree.   Tsergo, The mistake was not in buying the ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6815118\">Would you have made more money investing in stocks rather than ...</a> <i>by Tsergo Ri</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comment-6815040\">Good article in the recent Economist on population changes ...</a> <i>by David S</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/i-dont-wanna-be-rich/#comments\">Plus 3 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/882407960/0/themoneyillusion~I-dont-wanna-be-%e2%80%9crich%e2%80%9d/",
           "publishedOn": "2024-04-24T23:08:17.000Z",
-          "wordCount": 2832,
+          "wordCount": 2831,
           "title": "I don&#8217;t wanna be &#8220;rich&#8221;",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-18-at-8.36.41-AM.png"
         },
@@ -750,7 +1077,7 @@
           "description": "Americans remind me of the old song &#8220;Yes, we have no bananas&#8221;. They really, really like to agree with the assertions in poll questions. Should pot be legalized? Yes!! Should people selling pot be executed? Yes? Should Roe v. Wade be reversed? Yes? Should abortion be banned? Yes! Should the corporate tax rate be raised? [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/882407963/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-24-at-4.44.00-PM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/882407963/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6818792\">You are inching closer to admitting the gravity of digital ...</a> <i>by Morgan Warstler</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6816289\">Trina, Good quote.</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6815347\">Apparently you agree with Masha Gessen. From Sam Harris Episode ...</a> <i>by Trina Halppe</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6815144\">“Considering the general public was against the Iraqi war, ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/yes-we-have-no-core-values/#comment-6815082\">Considering the general public was against the Iraqi war, ...</a> <i>by Sara</i></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/882407963/0/themoneyillusion~Yes-We-have-no-core-values/",
           "publishedOn": "2024-04-24T23:05:13.000Z",
-          "wordCount": 2511,
+          "wordCount": 2510,
           "title": "Yes!  We have no core values",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-24-at-4.44.00-PM.png"
         },
@@ -760,7 +1087,7 @@
           "description": "The future course of the economy always involves a bit of guesswork. But it seems to me that the following two claims are pretty likely to be true: 1. Over the past three years, monetary policy has been far too expansionary. 2. It is likely that monetary policy is still a bit too expansionary, although [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/881407241/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f04%2fScreen-Shot-2024-04-16-at-9.30.19-AM.png\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/881407241/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/the-hawkish-case/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6815304\">Thomas, GDP growth was 4.7% in Q1, that's still too strong. ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6815268\">The yield curve inversion first appeared in Jul22, and I’ve ...</a> <i>by Thomas Novak</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6813826\">Harding, So the fact that Trump often says pro-Putin things and ...</a> <i>by Scott Sumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6813760\">“Republican fans of Putin don’t seem to understand that he ...</a> <i>by Eharding</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comment-6813541\">By: Michael Sandifer\t\t</a> <i>by Michael Sandifer <a href=\"http://www.exactmacro.substack.com\">http://www.exactmacro.substack.com</a></i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/the-hawkish-case/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/881407241/0/themoneyillusion~The-hawkish-case/",
           "publishedOn": "2024-04-16T14:50:14.000Z",
-          "wordCount": 5363,
+          "wordCount": 5362,
           "title": "The hawkish case",
           "imageUrl": "https://www.themoneyillusion.com/wp-content/uploads/2024/04/Screen-Shot-2024-04-16-at-9.30.19-AM.png"
         },
@@ -770,7 +1097,7 @@
           "description": "The Financial Times has a story that points to some disturbing features of South African politics: It is the kind of fervent devotion that has driven a wave of support for the former president [Jacob Zuma] ahead of a critical general election on May 29. Yet as recently as January, the 82-year-old African National Congress [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/881407244/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/881407244/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812451\">the circumstances have changed, the past is a different ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812237\">Viennacapitalist, For most of my life, the US political system ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6812192\">Scott,   got it, but I was uncertain of what exactly you are ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6811685\">Viennacapitalist. I'm stunned that people think this post is ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comment-6811497\">Scott,   “…Perhaps Africans cannot handle democracy?..” ...</a> <i>by viennacapitalist</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/is-african-politics-inferior-to-american-politics/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/881407244/0/themoneyillusion~Is-African-politics-inferior-to-American-politics/",
           "publishedOn": "2024-04-16T14:49:58.000Z",
-          "wordCount": 2961,
+          "wordCount": 3049,
           "title": "Is African politics inferior to American politics?",
           "imageUrl": null
         },
@@ -780,7 +1107,7 @@
           "description": "In a recent post, I listed 6 ways that Trump intends to reduce inflation: Trump has a 6-part plan to bring down inflation: 1. Favors&#160;NIMBY policies&#160;to prevent housing construction in the suburbs. 2. Expel all the illegal workers that pick our food and provide other key services. 3. Put heavy tariffs on imported food and [&#8230;]<div style=\"clear:both;padding-top:0.2em;\"><a title=\"Like on Facebook\" href=\"https://feeds.feedblitz.com/_/28/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/fblike20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Pin it!\" href=\"https://feeds.feedblitz.com/_/29/881407247/themoneyillusion,\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/pinterest20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Post to X.com\" href=\"https://feeds.feedblitz.com/_/24/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/x.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by email\" href=\"https://feeds.feedblitz.com/_/19/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/email20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a title=\"Subscribe by RSS\" href=\"https://feeds.feedblitz.com/_/20/881407247/themoneyillusion\"><img height=\"20\" src=\"https://assets.feedblitz.com/i/rss20.png\" style=\"border:0;margin:0;padding:0;\"></a>&#160;<a rel=\"NOFOLLOW\" title=\"View Comments\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/comments20.png\"></a>&#160;<a title=\"Follow Comments via RSS\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/feed/atom/\"><img height=\"20\" style=\"border:0;margin:0;padding:0;\" src=\"https://assets.feedblitz.com/i/commentsrss20.png\"></a>&nbsp;\r\n<div style=\"clear:left;\"><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\"><h3>Comments</h3></a><ul><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6811688\">“pro liberty politician in Bolsonaro”   Liberty? The guy ...</a> <i>by ssumner</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6811466\">The only person being exposed as a “moron” is you.   You're ...</a> <i>by Sara</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810674\">And for the record… the exchange between Longstreet (and ...</a> <i>by Student</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810588\">Michael,   If Biden were up 3-5 points in the polling averages, ...</a> <i>by Student</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comment-6810581\">>What do the people in the audience think   They think a Trump ...</a> <i>by foosion</i><li><a rel=\"NOFOLLOW\" href=\"https://www.themoneyillusion.com/seven-trump-is-on-a-roll/#comments\">Plus 5 more...</a></li></ul></div>&#160;</div>",
           "link": "https://feeds.feedblitz.com/~/881407247/0/themoneyillusion~Seven-Trump-is-on-a-roll/",
           "publishedOn": "2024-04-16T14:49:47.000Z",
-          "wordCount": 2979,
+          "wordCount": 2978,
           "title": "Seven!  (Trump is on a roll)",
           "imageUrl": null
         }
@@ -794,10 +1121,10 @@
         {
           "id": "https://www.nakedcapitalism.com/?p=271370",
           "author": "Lambert Strether",
-          "description": "~ Today's Water Cooler: Politics, pandemics: (1) New  swing state polling, Hillary Clinton on the ignorance of  youth, potential nasal spray, and you'll never guess from whom. ~",
+          "description": "~ Today's Water Cooler: Politics, pandemics: (1) New  swing state polling, Hillary Clinton on the ignorance of  youth, Trump will love jail, potential nasal spray, and you'll never guess from whom. ~",
           "link": "https://www.nakedcapitalism.com/2024/05/200pm-water-cooler-5-10-2024.html",
           "publishedOn": "2024-05-10T18:00:34.000Z",
-          "wordCount": 8542,
+          "wordCount": 16086,
           "title": "2:00PM Water Cooler 5/10/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/rcp_05-10-2024.png"
         },
@@ -807,7 +1134,7 @@
           "description": "Experts describe how requiring U.S. seniors to work in their old age often threatens their health and well-being.",
           "link": "https://www.nakedcapitalism.com/2024/05/work-longer-die-sooner-americas-dire-need-to-expand-social-security-and-medicare.html",
           "publishedOn": "2024-05-10T13:55:07.000Z",
-          "wordCount": 5299,
+          "wordCount": 6682,
           "title": "Work Longer, Die Sooner! America’s Dire Need to Expand Social Security and Medicare",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/00-work-scaled.jpg"
         },
@@ -817,7 +1144,7 @@
           "description": "Our feather-light daily links",
           "link": "https://www.nakedcapitalism.com/2024/05/links-5-10-2024.html",
           "publishedOn": "2024-05-10T10:58:48.000Z",
-          "wordCount": 14853,
+          "wordCount": 18115,
           "title": "Links 5/10/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/cfr_ukraine.png"
         },
@@ -827,8 +1154,8 @@
           "description": "At a time when the dominant narrative around cash is that its demise is all but inevitable, as well as broadly desirable, the 2024 payment report by Sweden's Riksbank may offer a cautionary tale.",
           "link": "https://www.nakedcapitalism.com/2024/05/swedens-riksbank-is-sounding-the-alarm-on-fragility-of-cashless-payment-systems.html",
           "publishedOn": "2024-05-10T10:45:31.000Z",
-          "wordCount": 8120,
-          "title": "World’s Oldest Central Bank Keeps Sounding Alarm on Fragility Risks of Cashless Economies. Are Other Central Banks Listening?",
+          "wordCount": 9252,
+          "title": "World’s Oldest Central Bank Keeps Sounding Alarm on Fragility of Cashless Economies. Are Other Central Banks Listening?",
           "imageUrl": null
         },
         {
@@ -837,7 +1164,7 @@
           "description": "How the fall of the USSR reshaped thinking in the discipline of geopolitics.",
           "link": "https://www.nakedcapitalism.com/2024/05/what-is-critical-global-geopolitics.html",
           "publishedOn": "2024-05-10T09:26:34.000Z",
-          "wordCount": 6002,
+          "wordCount": 6152,
           "title": "What Is Critical Global Geopolitics?",
           "imageUrl": null
         },
@@ -847,7 +1174,7 @@
           "description": "There is perilous little that is novel in modern finance. Our offshore, as in tax havens, have analogues in the ancient world.",
           "link": "https://www.nakedcapitalism.com/2024/05/michael-hudson-parallels-between-archaic-entrepots-and-modern-offshore-banking-centers.html",
           "publishedOn": "2024-05-10T07:27:28.000Z",
-          "wordCount": 4539,
+          "wordCount": 4605,
           "title": "Michael Hudson: Parallels Between Archaic Entrepots and Modern Offshore Banking Centers",
           "imageUrl": null
         },
@@ -857,7 +1184,7 @@
           "description": "~ Today's Water Cooler: Politics, pandemics , Antisemitism Awareness Act, Trump's Bragg trial, the perfect cheese sauce ~",
           "link": "https://www.nakedcapitalism.com/2024/05/200pm-water-cooler-5-9-2024.html",
           "publishedOn": "2024-05-09T18:00:03.000Z",
-          "wordCount": 14968,
+          "wordCount": 14996,
           "title": "2:00PM Water Cooler 5/9/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/rcp_05-02-2024.png"
         },
@@ -867,7 +1194,7 @@
           "description": "How trade liberalization cut  Africa's modest production capacities, industry and food security.",
           "link": "https://www.nakedcapitalism.com/2024/05/how-trade-liberalisation-kicked-away-african-development-ladder.html",
           "publishedOn": "2024-05-09T13:54:59.000Z",
-          "wordCount": 4071,
+          "wordCount": 4104,
           "title": "How Trade Liberalisation Kicked Away African Development Ladder",
           "imageUrl": null
         },
@@ -877,7 +1204,7 @@
           "description": "Our thorough-going daily links",
           "link": "https://www.nakedcapitalism.com/2024/05/links-5-9-2024.html",
           "publishedOn": "2024-05-09T10:58:59.000Z",
-          "wordCount": 15018,
+          "wordCount": 15046,
           "title": "Links 5/9/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/Lightmatter_elephanttrunk.jpg"
         },
@@ -887,7 +1214,7 @@
           "description": "A hard look at the use of the notion of populism in recent political discourse, starting with the curious lack of self-professed populists.",
           "link": "https://www.nakedcapitalism.com/2024/05/populism-and-state-power.html",
           "publishedOn": "2024-05-09T10:45:41.000Z",
-          "wordCount": 12108,
+          "wordCount": 12136,
           "title": "Populism and State Power",
           "imageUrl": null
         }
@@ -1078,7 +1405,7 @@
           "description": "The Data Engineering team is responsible for Slack’s data lake, analytics dashboards, and other data services. The team’s mission is to empower users to leverage data to make decisions quickly, accurately, and easily. Slack’s data lake grew in size from sub-petabyte to over 100 petabytes in recent years and it now spans millions of tables. […]\nThe post How Women Lead Data Engineering at Slack appeared first on Slack Engineering.",
           "link": "https://slack.engineering/how-women-lead-data-engineering-at-slack/",
           "publishedOn": "2024-05-08T17:37:00.000Z",
-          "wordCount": 2497,
+          "wordCount": 2501,
           "title": "How Women Lead Data Engineering at Slack",
           "imageUrl": "https://slack.engineering/wp-content/uploads/sites/7/2024/05/Screenshot-2024-05-07-at-3.14.51 PM.png?w=168"
         },
@@ -1088,7 +1415,7 @@
           "description": "At Slack, we’ve long been conservative technologists. In other words, when we invest in leveraging a new category of infrastructure, we do it rigorously. We’ve done this since we debuted machine learning-powered features in 2016, and we’ve developed a robust process and skilled team in the space. Despite that, over the past year we’ve been […]\nThe post How We Built Slack AI To Be Secure and Private appeared first on Slack Engineering.",
           "link": "https://slack.engineering/how-we-built-slack-ai-to-be-secure-and-private/",
           "publishedOn": "2024-04-18T05:00:33.000Z",
-          "wordCount": 2150,
+          "wordCount": 2144,
           "title": "How We Built Slack AI To Be Secure and Private",
           "imageUrl": "https://slack.engineering/wp-content/uploads/sites/7/2024/04/AI_Marketing_Search_650x450_x2.jpg"
         }
@@ -1239,9 +1566,9 @@
           "description": "[...]\nRead More...\nThe post Building new custom silicon for Meta’s AI workloads appeared first on Engineering at Meta.",
           "link": "https://www.metacareers.com/life/building-custom-silicon-for-the-future-of-ai",
           "publishedOn": "2024-04-11T16:30:58.000Z",
-          "wordCount": 2227,
+          "wordCount": 2237,
           "title": "Building new custom silicon for Meta’s AI workloads",
-          "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=jo6mW0cPqTcQ7kNvgHZoD7j&_nc_oc=Adgjr8MG8DDexWJi-IUb562MzqdDMwZZozET-EuN2wRlLiUT0dNBZMCMX2hlB2X2VU0&_nc_ht=scontent-sjc3-1.xx&oh=00_AYAmjgc8r-aKKUyiCYak6u3rh3fxq4HtCdaYMd2ODEa0tw&oe=6658C17B"
+          "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/435127496_2075542872823362_38076352269500018_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=jo6mW0cPqTcQ7kNvgEOqG-9&_nc_oc=AdjHipMI4FZkn1JPq6YjRYNhNIXGSUXK7I-PS70UOUeEXwmqcWajT9_SlexUNPt4JBA&_nc_ht=scontent-sjc3-1.xx&oh=00_AYDAd9Le3f-eRs58F4cL6oynlJdAcSAqiBGrcL_CqOymng&oe=6658F9BB"
         },
         {
           "id": "https://engineering.fb.com/?p=21103",
@@ -1249,9 +1576,9 @@
           "description": "[...]\nRead More...\nThe post Building an infrastructure for AI’s future appeared first on Engineering at Meta.",
           "link": "https://www.metacareers.com/life/behind-gen-ai-building-an-infrastructure-for-the-future",
           "publishedOn": "2024-04-11T16:20:49.000Z",
-          "wordCount": 2074,
+          "wordCount": 2089,
           "title": "Building an infrastructure for AI’s future",
-          "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=_6ipdiWmSk8Q7kNvgHPgK0m&_nc_ht=scontent-sjc3-1.xx&oh=00_AYAc91TWTdc8bYJbzJODWuk0XctR0nqzU_bjP9Isgg6-_w&oe=665899A3"
+          "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/429858221_317770164613807_7331549189136645290_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=_6ipdiWmSk8Q7kNvgEdS55t&_nc_ht=scontent-sjc3-1.xx&oh=00_AYBr15zaokhXnpYSau4K8V8T9mBChS7Ee-oBxxdq6LKGCQ&oe=66590A23"
         }
       ]
     },
@@ -1267,12 +1594,22 @@
       "siteUrl": "https://crookedtimber.org",
       "articles": [
         {
+          "id": "https://crookedtimber.org/?p=52678",
+          "author": "Macarena Marey",
+          "description": "This text is not about Baby Reindeer, Netflix’s latest hit. It’s about one of the most perverse dimensions of sanism and anti-madness: the exploitation of madness as an edifying aesthetic resource. It is also about the obsolescence of narratives centered on the uncritical perspective of the traditional agent of the banality of evil, the mediocre […]",
+          "link": "https://crookedtimber.org/2024/05/10/exploiting-other-peoples-madness-on-sanism-and-baby-reindeer-this-entry-contains-spoilers/",
+          "publishedOn": "2024-05-10T18:46:40.000Z",
+          "wordCount": 3793,
+          "title": "Exploiting other people’s madness –On sanism and Baby Reindeer (This entry contains spoilers)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "https://crookedtimber.org/?p=52672",
           "author": "Chris Armstrong",
           "description": "Later this month it will be World Biodiversity Day, and we will again celebrate the remarkable contributions that biodiversity makes to the resilience and productivity of the earth’s ecosystems. But it will also be a fitting time to face the continued failure of our institutions to grasp the scale of biodiversity loss. Or, if not […]",
           "link": "https://crookedtimber.org/2024/05/08/why-has-global-biodiversity-governance-failed-so-badly/",
           "publishedOn": "2024-05-08T06:16:51.000Z",
-          "wordCount": 3321,
+          "wordCount": 3333,
           "title": "Why has global biodiversity governance failed so badly?",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1282,7 +1619,7 @@
           "description": "A transcript from memory of an evening conversation with my two older sons: “I heard that Jeff Bezos could run through the streets every day, throwing hundred dollar bills in the air, and he’d still be making money.” “I wonder if that’s true?” “Okay, how much is Jeff Bezos worth?” “Uh [googling]… wow, it says […]",
           "link": "https://crookedtimber.org/2024/05/06/run-bezos-run/",
           "publishedOn": "2024-05-06T11:06:55.000Z",
-          "wordCount": 5385,
+          "wordCount": 5397,
           "title": "Run, Bezos, Run",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1292,7 +1629,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/05/05/sunday-photoblogging-pink-salt-lake-at-gruissan/",
           "publishedOn": "2024-05-05T09:27:39.000Z",
-          "wordCount": 1751,
+          "wordCount": 1763,
           "title": "Sunday photoblogging: pink salt lake at Gruissan",
           "imageUrl": "https://live.staticflickr.com/65535/53667264808_3b707203b6.jpg"
         },
@@ -1302,7 +1639,7 @@
           "description": "It’s International Workers Day, still celebrated as the May Day public holiday here in Queensland, at least when the Labor party is in office. So, it’s a good day for me to set out some tentative thoughts on work and its future. Via Matt McManus, I found this quote from Marx ‘Fragment on Machines”. The […]",
           "link": "https://crookedtimber.org/2024/05/01/52657/",
           "publishedOn": "2024-05-01T05:52:35.000Z",
-          "wordCount": 5114,
+          "wordCount": 5126,
           "title": "Machines and tools",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1312,7 +1649,7 @@
           "description": "Scientific research, academic knowledge production, and higher education are under an obscene and direct attack today in Argentina. Milei’s attack is not an isolated case. To a certain extent, it is part of a global phenomenon, i.e. the rampant anti-intellectualism of the “new” right-wing movements and governments, which has certainly accelerated its spread with the […]",
           "link": "https://crookedtimber.org/2024/04/30/the-destruction-of-argentinas-higher-education-and-science-system/",
           "publishedOn": "2024-04-30T19:02:37.000Z",
-          "wordCount": 5948,
+          "wordCount": 5960,
           "title": "The destruction of Argentina’s higher education and science system",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1322,7 +1659,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/04/28/sunday-photoblogging-pezenas-4/",
           "publishedOn": "2024-04-28T15:00:47.000Z",
-          "wordCount": 1723,
+          "wordCount": 1735,
           "title": "Sunday photoblogging: Pézenas",
           "imageUrl": "https://live.staticflickr.com/65535/53667264033_404beb0709.jpg"
         },
@@ -1332,7 +1669,7 @@
           "description": "Culture wars have two main functions. First, to split an existing, dominant social or political coalition apart by the clever use of wedge-issues. (Not all wedge-issues are a part of a culture war.) So, a culture war reveals a latent or induces real divergence in a pre-existing coalition. So, for example, how to think about trans-issues […]",
           "link": "https://crookedtimber.org/2024/04/26/going-meta-on-culture-wars/",
           "publishedOn": "2024-04-26T09:34:42.000Z",
-          "wordCount": 23040,
+          "wordCount": 23008,
           "title": "Going Meta on Culture Wars",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1342,7 +1679,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/04/21/sunday-photoblogging-crossroads/",
           "publishedOn": "2024-04-21T05:49:13.000Z",
-          "wordCount": 1677,
+          "wordCount": 1689,
           "title": "Sunday photoblogging: crossroads",
           "imageUrl": "https://live.staticflickr.com/65535/53667511330_cb02482ff2.jpg"
         },
@@ -1352,7 +1689,7 @@
           "description": "I’ve been doing a bunch of talks and events online, mostly not CT related, but a couple that might be interesting to readers. One that certainly is is this conversation with Francis Spufford, which is a coda to Red Plenty. Some of my bits of the conversation build on this Long Now talk from a […]",
           "link": "https://crookedtimber.org/2024/04/20/online-talks/",
           "publishedOn": "2024-04-20T01:22:13.000Z",
-          "wordCount": 2184,
+          "wordCount": 2196,
           "title": "Online talks",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1362,7 +1699,7 @@
           "description": "Robert Farley has replied to my recent post on the obsolescence of naval power. Unlike our previous exchange, a pile-on where I was (as he points out) in a minority of one, Robert’s tone is mostly civil this time, and I intend to reciprocate. Our disagreements have narrowed a fair way. On many points, it’s […]",
           "link": "https://crookedtimber.org/2024/04/20/expertise-and-naval-power/",
           "publishedOn": "2024-04-20T00:16:56.000Z",
-          "wordCount": 4936,
+          "wordCount": 4948,
           "title": "Expertise and naval power",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1372,7 +1709,7 @@
           "description": "In all the discussion of Leif Wenar’s critique of Effective Altruism , I haven’t seen much mention of the central premise: that development aid is generally counterproductive (unless, perhaps, it’s delivered by wealthy surfers in their spare time). Wenar is quite clear that his argument applies just as much to official development aid and to […]",
           "link": "https://crookedtimber.org/2024/04/17/wenar-on-why-you-shouldnt-try-to-help-poor-people/",
           "publishedOn": "2024-04-17T22:44:13.000Z",
-          "wordCount": 8730,
+          "wordCount": 8742,
           "title": "Wenar on why you shouldn’t try to help poor people",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1382,7 +1719,7 @@
           "description": "Gina’s post on Indiana’s DEI-related law came at a fortuitous time for me, because last week I participated in a panel about State Legislatures, Academic Freedom and Public Universities. The panelists were given about 6 minutes to present some prepared remarks’ and discussion ensued. As far as I could tell there was just one state […]",
           "link": "https://crookedtimber.org/2024/04/17/52615/",
           "publishedOn": "2024-04-17T13:13:28.000Z",
-          "wordCount": 9674,
+          "wordCount": 9686,
           "title": "Academic Freedom, State Legislatures and Public Universities (Wisconsin edition).",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1392,7 +1729,7 @@
           "description": "I’m sure Crooked Timber readers would been keen to learn of exciting new books out just now from Daniel Davies and Kieran Healy. Marion Fourcade and Kieran Healy have published The Ordinal Society , arguing that “argue that technologies of information management, fueled by the abundance of personal data and the infrastructure of the internet, […]",
           "link": "https://crookedtimber.org/2024/04/17/crooked-timberish-books-and-other-writings/",
           "publishedOn": "2024-04-17T07:03:33.000Z",
-          "wordCount": 1890,
+          "wordCount": 1902,
           "title": "Crooked Timberish books and other writings",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1402,19 +1739,9 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/04/14/sunday-photoblogging-canal-saint-martin-paris-3/",
           "publishedOn": "2024-04-14T07:38:21.000Z",
-          "wordCount": 1730,
+          "wordCount": 1742,
           "title": "Sunday photoblogging: Canal Saint-Martin, Paris (3)",
           "imageUrl": "https://live.staticflickr.com/65535/53610061080_902547dac7.jpg"
-        },
-        {
-          "id": "https://crookedtimber.org/?p=52544",
-          "author": "Ingrid Robeyns",
-          "description": "Since my book Limitarianism: The Case Against Extreme Wealth came out, first in Dutch at the end of November, and then in the US and in the UK a few weeks later, I’ve given more than 60 media interviews and talks. Among them was a long interview in The Observer, a summary of the argument […]",
-          "link": "https://crookedtimber.org/2024/04/13/limitarianism-update/",
-          "publishedOn": "2024-04-13T14:53:52.000Z",
-          "wordCount": 3410,
-          "title": "Limitarianism update",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -1840,12 +2167,22 @@
       "siteUrl": "https://bearblog.dev/discover/",
       "articles": [
         {
+          "id": "https://sreekarscribbles.com/finally-found-the-fiction-i-love/",
+          "author": null,
+          "description": "I have always been a non-fiction fan. Learning something new, diving deep into it, discussing it, and debating it—that's how I keep the curious-me happy!\nHowever, the curious-me also wanted to explore fiction. And I did try—not once, not twice, but multiple times. Yet, I could never enjoy reading fiction.\nBut but but....something happened recently! I read a couple of novels—The Sun is Also a Star by Nicola Yoon, and A Man Called Ove by Fredrik Backman—and I enjoyed them!\nThis got me thinking—what was different this time? Why did these novels click with me?\nI pondered over these questions plus all my failed attempts at fiction and I made some interesting observations:\nNo slow burns for me—I need the plot to keep moving!\nCharacters are way more interesting to me than settings. I'd rather delve into a character's life than read a bunch of scenic descriptions.\nI hate high-end vocab. Simple, easy-to-understand words—that's what I prefer.\nBook length doesn't bother me, but I like my chapters short and sweet—ten pages tops.\nPlus, brownie points if the story has an element of suspense.\nSo, these are my current reading preferences, though I'm sure they'll evolve as I read more.\nFor now, I'm sticking to stories that match my taste, but who knows? Maybe I'll venture out of my comfort zone soon.\nRight now, I'm reading Anxious People—another amazing book by Fredrik Backman. It's packed into 74 short chapters, each only a few pages long. I've breezed through about ten chapters and I'm already in love with it! 🫶",
+          "link": "https://sreekarscribbles.com/finally-found-the-fiction-i-love/",
+          "publishedOn": "2024-05-10T17:27:14.948Z",
+          "wordCount": 699,
+          "title": "Finally Found the Fiction I Love",
+          "imageUrl": null
+        },
+        {
           "id": "https://tiramisu.bearblog.dev/2024-tokyo-to-china/",
           "author": null,
-          "description": "The plane I’m taking to China is appallingly shabby, especially after Tokyo’s sleek futurism. It’s a fitting liminal space for the transition: while I’ll miss Tokyo, I’m looking forward to not being the least put-together person on the streets. Going from understanding nothing of what I see and hear to about half is another plus, I suppose. (Though Tokyo has a LOT more English than where I’m going.) Still, it’ll be nice to respond to questions in the same language they’re asked without too much thought.\nSeeing other tourists in Tokyo made me feel a small rush of relief, kinship. I’m not the only one lost here! Except it took me seeing a few of them to realize that when they see me, they probably don’t think the same. Fashion choices and occasional blank stare aside, I look like just anothe…",
+          "description": "The plane I’m taking to China is appallingly shabby, especially after Tokyo’s sleek futurism. It’s a fitting liminal space for the transition: while I’ll miss Tokyo, I’m looking forward to not being the least put-together person on the streets. Going from understanding none of what I see and hear to about half is another plus, I suppose. (Though Tokyo has a LOT more English than where I’m going.) Still, it’ll be nice to respond to questions in the same language they’re asked without too much thought.\nSeeing other tourists in Tokyo made me feel a small rush of relief, kinship. I’m not the only one lost here! Except it took me seeing a few of them to realize that when they see me, they probably don’t think the same. Fashion choices and occasional blank stare aside, I look like just another J…",
           "link": "https://tiramisu.bearblog.dev/2024-tokyo-to-china/",
           "publishedOn": "2024-05-10T11:46:49.743Z",
-          "wordCount": 1177,
+          "wordCount": 1184,
           "title": "flying back one hour and fourteen years",
           "imageUrl": null
         },
@@ -1907,16 +2244,6 @@
           "publishedOn": "2024-05-07T16:39:20.338Z",
           "wordCount": 2595,
           "title": "155. Happy 1st Bear birthday to me",
-          "imageUrl": null
-        },
-        {
-          "id": "https://reaverswutc.bearblog.dev/a-review-wolves-upon-the-coast-as-a-system/",
-          "author": null,
-          "description": "I have played a lot of Wolves Upon the Coast. I love it and recommend this system to anyone that wants the vibes of Iron Age Warriors seeking to make great stories. So if this is what you are looking for is just \"is it worth it\" I would say Yes. Past that I am going to do a review of my favorite and least favorite bits of this system. I also am going to review Wolves the system before Wolves the setting I will do the setting in the future but for now I wanted to talk about this system.\nThe Good:\nBoasting - Wolves did away with traditional levels and moved to a more diegetic method of advancement that still provides a solid framework for players to look at when they question how else to advance. Pure diegetic systems can leave players feeling a bit lost as to what they are expected to do an…",
-          "link": "https://reaverswutc.bearblog.dev/a-review-wolves-upon-the-coast-as-a-system/",
-          "publishedOn": "2024-05-05T21:37:35.441Z",
-          "wordCount": 1445,
-          "title": "A Review: Wolves Upon the Coast as a System",
           "imageUrl": null
         },
         {
