@@ -3,6 +3,12 @@
 # https://github.com/osmoscraft/osmosfeed/blob/master/docs/osmosfeed-yaml-reference.md
 #########################
 
+siteTitle: "pchaganti | cleo"
+
+cacheMaxDays: 7
+
+timezone: America/New_York
+
 # cacheUrl: https://pchaganti.github.io/cleo/cache.json
 sources:
   - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
