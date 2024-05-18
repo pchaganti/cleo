@@ -1,10 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-18T01:31:48.559Z</id>
+    <id>urn:2024-05-18T06:27:42.963Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-05-18T01:31:48.559Z</updated>
+    <updated>2024-05-18T06:27:42.963Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New comment by mwigdahl in "OpenAI departures: Why can’t former employees talk?"]]></title>
+        <id>https://news.ycombinator.com/item?id=40396395</id>
+        <link href="https://news.ycombinator.com/item?id=40396395"/>
+        <updated>2024-05-18T04:13:00.000Z</updated>
+        <summary type="html"><![CDATA[The best approach to circumventing the nondisclosure agreement is for the affected employees to get together, write out everything they want to say about OpenAI, train an LLM on that text, and then release it.
+Based on these companies' arguments that copyrighted material is not actually reproduced by these models, and that any seemingly-infringing use is the responsibility of the user of the model rather than those who produced it, anyone could freely generate an infinite number of high-truthiness OpenAI anecdotes, freshly laundered by the inference engine, that couldn't be used against the original authors without OpenAI invalidating their own legal stance with respect to their own models.]]></summary>
+        <author>
+            <name>mwigdahl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jay-barronville in "OpenAI departures: Why can’t former employees talk?"]]></title>
+        <id>https://news.ycombinator.com/item?id=40395702</id>
+        <link href="https://news.ycombinator.com/item?id=40395702"/>
+        <updated>2024-05-18T01:06:22.000Z</updated>
+        <summary type="html"><![CDATA[It probably would be better to switch the link from the X post to the Vox article [0].
+From the article:
+“““
+It turns out there’s a very clear reason for [why no one who had once worked at OpenAI was talking]. I have seen the extremely restrictive off-boarding agreement that contains nondisclosure and non-disparagement provisions former OpenAI employees are subject to. It forbids them, for the rest of their lives, from criticizing their former employer. Even acknowledging that the NDA exists is a violation of it.
+If a departing employee declines to sign the document, or if they violate it, they can lose all vested equity they earned during their time at the company, which is likely worth millions of dollars. One former employee, Daniel Kokotajlo, who posted that he quit OpenAI “due to losing confidence that it would behave responsibly around the time of AGI,” has confirmed publicly that he had to surrender what would have likely turned out to be a huge sum of money in order to quit without signing the document.
+”””
+[0]: https://www.vox.com/future-perfect/2024/5/17/24158478/openai...]]></summary>
+        <author>
+            <name>jay-barronville</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by fragmede in "OpenAI departures: Why can’t former employees talk?"]]></title>
+        <id>https://news.ycombinator.com/item?id=40395483</id>
+        <link href="https://news.ycombinator.com/item?id=40395483"/>
+        <updated>2024-05-18T00:26:16.000Z</updated>
+        <summary type="html"><![CDATA[It's time to find a lawyer. I'm not one but  there's an intersection with California SB 331, also known as “The Silenced No More Act”. while it is focused more on sexual harrasment, it's not limited to that, and these contracts may run afoul of that.
+https://silencednomore.org/the-silenced-no-more-act]]></summary>
+        <author>
+            <name>fragmede</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[To my Sunflower]]></title>
+        <id>https://lvrz.org/to-my-sunflower-i/</id>
+        <link href="https://lvrz.org/to-my-sunflower-i/"/>
+        <updated>2024-05-17T20:26:07.405Z</updated>
+        <summary type="html"><![CDATA[A little bird came to see me,
+What’s you name? - I asked.
+And he chirped the following words:
+Leave a comment or Stay in touch]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New comment by CorrectingYou in "Bend: a high-level language that runs on GPUs (via HVM2)"]]></title>
         <id>https://news.ycombinator.com/item?id=40393253</id>
@@ -13,6 +64,21 @@
         <summary type="html"><![CDATA[OP comes around with some of the coolest things posted in HN recently, and all he gets is extensive criticism, when it is clear that this is an early version :/]]></summary>
         <author>
             <name>CorrectingYou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by zero_k in "Computer scientists invent an efficient new way to count"]]></title>
+        <id>https://news.ycombinator.com/item?id=40392831</id>
+        <link href="https://news.ycombinator.com/item?id=40392831"/>
+        <updated>2024-05-17T18:25:16.000Z</updated>
+        <summary type="html"><![CDATA[I was involved with implementing the DNF volume counting version of this with the authors. You can see my blog post of it here:
+https://www.msoos.org/2023/09/pepin-our-probabilistic-approx...
+And the code here: https://github.com/meelgroup/pepin
+Often, 30% of the time is spent in IO of reading the file, that's how incredibly fast this algorithm is. Crazy stuff.
+BTW, Knuth contributed to the algo, Knuths' notes: https://cs.stanford.edu/~knuth/papers/cvm-note.pdf
+He actually took time off (a whole month) from TAOCP to do this. Also, he is exactly as crazy good as you'd imagine. Just mind-blowing.]]></summary>
+        <author>
+            <name>zero_k</name>
         </author>
     </entry>
     <entry>
@@ -155,18 +221,6 @@ It is about estimating the cardinality of a set of elements derived from a strea
 The authors are explicit about the target audience and purpose for the algorithm: undergraduates and textbooks.]]></summary>
         <author>
             <name>usgroup</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by sph in "The Downfall of DeviantArt"]]></title>
-        <id>https://news.ycombinator.com/item?id=40387452</id>
-        <link href="https://news.ycombinator.com/item?id=40387452"/>
-        <updated>2024-05-17T07:46:32.000Z</updated>
-        <summary type="html"><![CDATA[> This had consequences for deviantArt's revenue. It meant that we could not run ads from the "reputable" ad networks
-Advertising: perhaps the best and most effective involuntary ally of the Puritan movement.
-It is a shame that the Internet that we have created depends pretty much solely on that form of revenue.]]></summary>
-        <author>
-            <name>sph</name>
         </author>
     </entry>
     <entry>
@@ -544,20 +598,6 @@ The post Reply to a Zionist Troll appeared first on CounterPunch.org.]]></summar
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by hilti in "A forged Apple employee badge"]]></title>
-        <id>https://news.ycombinator.com/item?id=40386735</id>
-        <link href="https://news.ycombinator.com/item?id=40386735"/>
-        <updated>2024-05-17T05:41:45.000Z</updated>
-        <summary type="html"><![CDATA[There is so much wrong with the faked Red Cross invoice
-1) A German date is always written DD.MM.YYYY
-2) PLZ not ZIP
-3) „Wir danken für ihr Unternehmen“ is a bad translation for „Thank you for your business“ … but it means a complete different thing -> „Thank you for your company“
-But I‘m still impressed how much effort this guy put into all this. And I‘m sure my friends would have bought me this badge, because they had no idea it‘s fake.]]></summary>
-        <author>
-            <name>hilti</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by constantcrying in "Deutsche Bahn introduces "MetaWindow""]]></title>
         <id>https://news.ycombinator.com/item?id=40386533</id>
         <link href="https://news.ycombinator.com/item?id=40386533"/>
@@ -611,17 +651,6 @@ An electric typewriter, playing out a pre-buffered line with a crisp, predictabl
 (Also, ignoring electric typewriters for a sec: inks bleed more on thin, cheap paper. But this is [a forgery of] an employee ID card — where, for durability, a nice heavyweight paper or cardstock would have been used. You're always going to get a better-looking result inking such paper.)]]></summary>
         <author>
             <name>derefr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by mayank in "Slack AI Training with Customer Data"]]></title>
-        <id>https://news.ycombinator.com/item?id=40385031</id>
-        <link href="https://news.ycombinator.com/item?id=40385031"/>
-        <updated>2024-05-17T00:25:28.000Z</updated>
-        <summary type="html"><![CDATA[> They need to reword this. Whoever wrote it is a liability
-Sounds like it’s been written specifically to avoid liability.]]></summary>
-        <author>
-            <name>mayank</name>
         </author>
     </entry>
     <entry>
@@ -750,16 +779,6 @@ I sai…]]></summary>
         <summary type="html"><![CDATA[Introduction ComfyUI is an open-source node-based workflow solution for Stable Diffusion. It offers the following advantages: Significant performance optimization for SDXL model inference High customizability, allowing users granular control Portable workflows that can be shared easily Developer-friendly Due to these advantages, ComfyUI is increasingly being used by artistic creators. In this post, we will introduce […]]]></summary>
         <author>
             <name>Wang Rui</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by zitterbewegung in "The spy who flunked it: Kurt Gödel's forgotten part in the atom-bomb story"]]></title>
-        <id>https://news.ycombinator.com/item?id=40379429</id>
-        <link href="https://news.ycombinator.com/item?id=40379429"/>
-        <updated>2024-05-16T15:15:44.000Z</updated>
-        <summary type="html"><![CDATA[One does not send Kurt Gödel to do this. He had to be coached during his citizenship test. “1947, he took the test to become a U.S. citizen, sponsored by Einstein and their mutual friend, the economist Oskar Morgenstern. When he appeared before the judge, after answering the first questions satisfactorily, he told the judge that he had analyzed the U.S. Constitution and that it had a drafting problem, which allowed the U.S. to legally become a dictatorship or a fascist state, as had happened in Austria. Gödel’s two friends were horrified because they saw that his citizenship was in jeopardy, and he could be deported to Europe. The judge himself stopped Gödel by uttering the pragmatic phrase “Oh God, let’s not get into this” and ending the examination before the logician could say anything more.” [1] https://english.elpais.com/science-tech/2023-07-01/kurt-gode...]]></summary>
-        <author>
-            <name>zitterbewegung</name>
         </author>
     </entry>
     <entry>
@@ -1638,18 +1657,6 @@ Source: <wsm.ie/c/anarchism-intersecionality-gender-race-class>
  As class-struggle anarchists dealing with the relations between gender, race and class, we must, in theory and practice, pick a path between two pitfalls. On one side is economic reductionism – the reduction of all political questions to the social relations of production – which erases the perspectives and struggles of women, queers and people of colour; submerges their voices within an overly generalised class narrative, in which the idealised Worker is implicitly white heterosexual and male; or consigns their struggles to a secondary importance compared to the “real struggle” of (economic) class against class. On the other is …]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fully Onchain Games]]></title>
-        <id>https://nadz.xyz/fully-onchain-games/</id>
-        <link href="https://nadz.xyz/fully-onchain-games/"/>
-        <updated>2024-05-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Fully onchain games are the only "web3 games" that I find interesting or worthwhile.
-Like many of you, I have always been a gamer and have spent tens of thousands of hours exploring in-game worlds. These days, I'm too busy with my full-time job (helping people build interesting products using blockchains) to play much, and I tend to spend more time consuming content about games than playing them. I barely ever beat/100% a game like I used to. I still find myself driven to the aura that surrounds a game, often comprising of lore, community, roleplaying, extensive multi-party discussion and the creation of adjacent media.
-I understand that this opening statement might be controversial, but I have seen enough of the behind-the-scenes of web3 gaming (or its name-of-the-month; I'm glad we dropp…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
