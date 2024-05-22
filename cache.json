@@ -81,6 +81,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/containers/",
       "articles": [
         {
+          "id": "6094b32da7c2d5cacc202444ec0b024d73ee06c4",
+          "author": "Sebastian Lee",
+          "description": "Independent Service Vendor (ISV) users often offer their end-user solutions hosted on a multi-tenant architecture to reduce cost and operational management. However, this approach can lead Kubernetes clusters to resource exhaustion or network starvation issues that impact neighboring workloads. By default, Kubernetes provides capabilities to enforce resource availability such as CPU and memory to prevent […]",
+          "link": "https://aws.amazon.com/blogs/containers/ensuring-fair-bandwidth-allocation-for-amazon-eks-workloads/",
+          "publishedOn": "2024-05-21T19:56:45.000Z",
+          "wordCount": 3248,
+          "title": "Ensuring fair bandwidth allocation for Amazon EKS Workloads",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/05/08/Featured-images-for-Containers-Blog-1-1260x630.jpg"
+        },
+        {
           "id": "f2c6d73c0a99a5e7cc62d68bc9a22528e5bead29",
           "author": "Mirash Gjolaj",
           "description": "Containers have become the dominant method for deploying and managing applications in recent years. Their widespread adoption is attributed to numerous advantages, such as isolation, efficient hardware use, scalability, and portability. In situations where resource isolation is critical for system security, many users are forced to rely on virtual machines (VMs) to mitigate the impact […]",
@@ -473,16 +483,6 @@
           "wordCount": 4443,
           "title": "Is the Recent Inflationary Spike a Global Phenomenon?",
           "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/05/LSE_2024_global-inflation_almuzara_460.jpg"
-        },
-        {
-          "id": "https://libertystreeteconomics.newyorkfed.org/?p=29398",
-          "author": "Jacob Weber",
-          "description": "The past year’s steady decline in nominal wage growth now appears in danger of stalling. Given ongoing uncertainty in Ukraine and the Middle East, this seems an opportune moment to revisit the conventional wisdom about the relationship between inflation and wages: if an unexpected increase in energy costs drives up the cost of living, will workers demand higher wages, reversing the recent moderation in wage growth? In new work with Justin Bloesch and Seung Joo Lee examining those concerns, our analysis shows that the pass-through of such inflationary shocks to wages is weak.",
-          "link": "https://libertystreeteconomics.newyorkfed.org/2024/05/do-unexpected-inflationary-shocks-raise-workers-wages/",
-          "publishedOn": "2024-05-15T11:00:00.000Z",
-          "wordCount": 3912,
-          "title": "Do Unexpected Inflationary Shocks Raise Workers’ Wages?",
-          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/05/LSE_2024_cost-of-living_weber_460_77acaf.jpg"
         }
       ]
     },
@@ -497,7 +497,7 @@
           "description": "from Lars Syll While one can understand that some of the elements in DSGE models seem to appeal to Keynesians at first sight, after closer examination, these models are in fundamental contradiction to Post-Keynesian and even traditional Keynesian thinking. The DSGE model is a model in which output is determined in the labour market as […]",
           "link": "https://rwer.wordpress.com/2024/05/20/dsge-models-a-total-waste-of-time/",
           "publishedOn": "2024-05-20T00:52:00.000Z",
-          "wordCount": 5219,
+          "wordCount": 5218,
           "title": "DSGE models — a total waste of time",
           "imageUrl": "https://larspsyll.wordpress.com/wp-content/uploads/2013/12/12-02-03-ostwc3a4rts-dullien-01.jpeg?w=550"
         },
@@ -536,7 +536,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics, Trump trial winding down, Biden's path to victory, a one-liner to revert Google search results to a list of blue links again ~",
           "link": "https://www.nakedcapitalism.com/2024/05/200pm-water-cooler-5-21-2024.html",
           "publishedOn": "2024-05-21T18:00:52.000Z",
-          "wordCount": 8756,
+          "wordCount": 14045,
           "title": "2:00PM Water Cooler 5/21/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/rcp_05-17-2024.png"
         },
@@ -546,7 +546,7 @@
           "description": "For those looking  for the libretto to the Middle East version of Gotterdammerung, a compact retelling of the First Intifada.",
           "link": "https://www.nakedcapitalism.com/2024/05/from-the-history-of-israel%e2%88%92palestine-conflict-the-first-palestinian-intifada-against-the-state-of-israel-1987%e2%88%921993-and-its-political-consequences.html",
           "publishedOn": "2024-05-21T13:55:00.000Z",
-          "wordCount": 4385,
+          "wordCount": 4359,
           "title": "From the History of Israel−Palestine Conflict: The First Palestinian Intifada Against the State of Israel (1987−1993) and its Political Consequences",
           "imageUrl": null
         },
@@ -556,7 +556,7 @@
           "description": "Our ferocious daily links: Darwin award winner, Singapore Covid outbreak, EU China poking doubts, Assange appeal, UK water investor heist, ICC Israel prosecution plan, DR Congo coup defeated, Russia growth, Iran succession, RFK, Jr. address questions, toxic Biden? real wages rising?",
           "link": "https://www.nakedcapitalism.com/2024/05/links-5-21-2024.html",
           "publishedOn": "2024-05-21T10:55:15.000Z",
-          "wordCount": 12835,
+          "wordCount": 15290,
           "title": "Links 5/21/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/00-lion.jpg"
         },
@@ -566,7 +566,7 @@
           "description": "“We have found ourselves in a situation where we feel the need to move forward unilaterally because the European response has been so weak.”",
           "link": "https://www.nakedcapitalism.com/2024/05/amid-gaza-genocide-why-is-it-taking-so-long-for-spain-and-other-eu-countries-to-recognise-palestine-as-a-state.html",
           "publishedOn": "2024-05-21T10:45:20.000Z",
-          "wordCount": 6142,
+          "wordCount": 6514,
           "title": "Why Is It Taking So Painfully Long for Spain, Ireland and Other EU Countries to Recognise Palestinian Statehood?",
           "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Palestine_recognition_only.svg/450px-Palestine_recognition_only.svg.png"
         },
@@ -576,7 +576,7 @@
           "description": "An important new paper contradicts Democratic pundits, showing  that most workers lost in real wage terms under Biden",
           "link": "https://www.nakedcapitalism.com/2024/05/trump-versus-biden-the-substantial-fall-in-real-wages-for-most-workers-under-biden.html",
           "publishedOn": "2024-05-21T10:01:20.000Z",
-          "wordCount": 8562,
+          "wordCount": 9388,
           "title": "Trump Versus Biden: The Substantial Fall in Real Wages for Most Workers Under Biden",
           "imageUrl": null
         },
@@ -586,7 +586,7 @@
           "description": "Why coal's share of US energy output has not fallen as far as the ecologically-minded had hoped.",
           "link": "https://www.nakedcapitalism.com/2024/05/coal-still-powers-more-u-s-electricity-than-any-renewable-energy-source.html",
           "publishedOn": "2024-05-21T04:44:58.000Z",
-          "wordCount": 4543,
+          "wordCount": 5735,
           "title": "Coal Still Powers More U.S. Electricity Than Any Renewable Energy Source",
           "imageUrl": null
         },
@@ -596,7 +596,7 @@
           "description": "~ Today's Water Cooler: Politics, Pandemics, wastewater data debacle as Bionbot ends its wasterwater visualization, Michael Cohen stole $30,000 from Trump, interviews with Kennedy voters, small beer ~",
           "link": "https://www.nakedcapitalism.com/2024/05/200pm-water-cooler-5-20-2024.html",
           "publishedOn": "2024-05-20T18:00:53.000Z",
-          "wordCount": 12331,
+          "wordCount": 12482,
           "title": "2:00PM Water Cooler 5/20/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/rcp_05-17-2024.png"
         },
@@ -606,7 +606,7 @@
           "description": "Our buzzy daily links",
           "link": "https://www.nakedcapitalism.com/2024/05/links-5-20-2024.html",
           "publishedOn": "2024-05-20T10:58:56.000Z",
-          "wordCount": 17008,
+          "wordCount": 16982,
           "title": "Links 5/20/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/05/dragonfly.jpeg"
         },
@@ -616,7 +616,7 @@
           "description": "In “The Internet of Animals,” Martin Wikelski highlights what insights humans can learn from creatures great and small.",
           "link": "https://www.nakedcapitalism.com/2024/05/book-review-the-untapped-knowledge-of-animals.html",
           "publishedOn": "2024-05-20T10:50:54.000Z",
-          "wordCount": 4790,
+          "wordCount": 4840,
           "title": "Book Review: The Untapped Knowledge of Animals",
           "imageUrl": "https://logs-01.loggly.com/inputs/4a05953f-1607-4284-825e-7df393822342.gif?postid=86342&title=Book-Review:-The-Untapped-Knowledge-of-Animals"
         },
@@ -626,7 +626,7 @@
           "description": "New desperate ideas to fix chronic US trade imbalances, like capital controls, are getting a hearing.",
           "link": "https://www.nakedcapitalism.com/2024/05/us-trade-desperation-trump-insider-robert-lightheizer-recommends-third-world-capital-controls-to-achieve-balanced-trade.html",
           "publishedOn": "2024-05-20T10:00:06.000Z",
-          "wordCount": 11236,
+          "wordCount": 11394,
           "title": "US Trade Desperation: Trump Insider Robert Lightheizer Recommends Third-World Capital Controls to Achieve Balanced Trade",
           "imageUrl": null
         }
@@ -636,18 +636,7 @@
       "title": "The Cloudflare Blog",
       "feedUrl": "https://blog.cloudflare.com/rss",
       "siteUrl": "https://blog.cloudflare.com",
-      "articles": [
-        {
-          "id": "664272e7abf9e2000aee82a0",
-          "author": "Yo'av Moshe",
-          "description": "Zaraz Consent Management now supports Google Consent Mode v2 and is compliant with the IAB Europe Transparency and Consent Framework. Zaraz also added Bot Management support for keeping your analytics data clean",
-          "link": "https://blog.cloudflare.com/new-consent-and-bot-management-features-for-cloudflare-zaraz",
-          "publishedOn": "2024-05-15T13:00:50.000Z",
-          "wordCount": 1137,
-          "title": "New Consent and Bot Management features for Cloudflare Zaraz",
-          "imageUrl": "http://blog.cloudflare.com/content/images/2024/05/BLOG-2415-1.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Capital One Tech - Medium",
@@ -706,13 +695,63 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=40433333",
+          "author": "constantcrying",
+          "description": "Seems insane. Surely every single company would fire you for doing that. If you put this in its proper term it is \"corruption\" and you should definitely worry about the legal implications of doing this.",
+          "link": "https://news.ycombinator.com/item?id=40433333",
+          "publishedOn": "2024-05-21T20:17:54.000Z",
+          "wordCount": 3716,
+          "title": "New comment by constantcrying in \"Show HN: Pls Fix – Hire big tech employees to appeal account suspensions\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40433060",
+          "author": "jpgvm",
+          "description": "Gordon was the first investor in my first startup, the first guy that believed in us.\nEven though I only met him later in his life he was still sharp as a tack, never lost the mind of the engineer. Sometimes it's best not to meet your heroes but Gordon lived up to the hype and then some.\nSuper gentle, generous with his time, the consummate gentleman.\nOne of my fondest memories from my startup years was enjoying dinner with Gordon and his wife in Sydney, she made the most amazing cookies. To this day I don't think I have had a better cookie haha.\nVisited the computer history museum with him once for a bit of a VIP tour I guess. So many stories about PDPs and all the friends he made along the way.\nThanks for all the stories and memories old man, you have earned your rest.\nRIP.",
+          "link": "https://news.ycombinator.com/item?id=40433060",
+          "publishedOn": "2024-05-21T19:54:44.000Z",
+          "wordCount": 295,
+          "title": "New comment by jpgvm in \"Gordon Bell has died\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40432845",
+          "author": "cchance",
+          "description": "Seriously confused, the article first screws up royally saying its not opensource, which they correct, but then discuss \"shoved down their throats\" ... a feature that exists but is not enabled by default and doesn't even work if you don't provide a key.\nIt's absolutely rediculous that supporting something, thats opt-in not opt-out is causing a ruckus lol, people really have too much fuckin time on their hands to bitch about things.\nThis is like bitching that Firefox allows us to enable a proxy server, and throwing a fit that a feature exists even as an option to be enabled.",
+          "link": "https://news.ycombinator.com/item?id=40432845",
+          "publishedOn": "2024-05-21T19:37:41.000Z",
+          "wordCount": null,
+          "title": "New comment by cchance in \"iTerm2 and AI Hype Overload\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40431495",
+          "author": "jsheard",
+          "description": "Your loss, I will keep expanding my brain with the wisdom of Googles powerful AI\nhttps://imgur.com/a/g4qOU9a",
+          "link": "https://news.ycombinator.com/item?id=40431495",
+          "publishedOn": "2024-05-21T17:46:34.000Z",
+          "wordCount": null,
+          "title": "New comment by jsheard in \"How to Turn Off AI Overview in Google and Set \"Web\" as Default\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=40425855",
           "author": "SilverBirch",
           "description": "It really is incredible how something as small and simple as this gives such incredible bad vibes. This is like early 2010s facebook vibes. It's just... if they're going to steal her voice, what would they do to yours?\nBut it also points to a wider problem in OpenAI's existence. They're built on theft. If you wrote something on the internet in the last 20 years, they've stolen it. They've stolen it, they're put it into their little magic box and now they want to sell it back to you. OpenAI is amazing technology, and once the equity of the company is redistributed back to the content owners who actually provided the value, it'll be great to see what they can do from there.",
           "link": "https://news.ycombinator.com/item?id=40425855",
           "publishedOn": "2024-05-21T09:05:57.000Z",
-          "wordCount": 6950,
+          "wordCount": null,
           "title": "New comment by SilverBirch in \"The OpenAI board was right\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40425735",
+          "author": "kashyapc",
+          "description": "Altman often uses tactical charisma to trap gullible people, government entities, and any unsuspecting powerful person for his ends.  He will not bat an eyelid to take whatever unethical route if that gives him \"moat\".  He relentlessly talks as if \"near-term AGI\" is straining to get out of the bottle in his ClosedAI basement.  He will tell you with great concern about how \"nervous\" or \"scared\" (he said this to the US Congress[1]) of what he thinks his newest LLM model is gonna let loose on humanity.\nSo he's here to help regulate it all with an \"international agency\" (see the reference[2] by windexh8er in this thread)!  Don't forget that Altman is the same hack who came up with \"Worldcoin\" and the so-called \"Orb\" that'll scan your eyeballs for \"proof of personhood\".\nIs this sleazy marketer the one to be trusted to lead an effort that has a lasting impact on humanity?  Hell no.\n[1] https://news.ycombinator.com/item?id=38312294\n[2] https://news.ycombinator.com/item?id=40423483",
+          "link": "https://news.ycombinator.com/item?id=40425735",
+          "publishedOn": "2024-05-21T08:52:55.000Z",
+          "wordCount": null,
+          "title": "New comment by kashyapc in \"Statement from Scarlett Johansson on the OpenAI \"Sky\" voice\"",
           "imageUrl": null
         },
         {
@@ -721,7 +760,7 @@
           "description": "Altman wants to be a part of AI regulation in the same way Bankman Fried wanted to be a part of cryptocurrency regulation.",
           "link": "https://news.ycombinator.com/item?id=40424722",
           "publishedOn": "2024-05-21T06:10:20.000Z",
-          "wordCount": 420,
+          "wordCount": null,
           "title": "New comment by trustno2 in \"Statement from Scarlett Johansson on the OpenAI \"Sky\" voice\"",
           "imageUrl": null
         },
@@ -741,8 +780,18 @@
           "description": "The thing about the situation is that Altman is willing to lie and steal a celebrity's voice for use in ChatGPT.  What he did, the timeline, everything - is sleazy if, in fact, that's the story.\nThe really concerning part here is that Altman is, and wants to be, a large part of AI regulation [0].  Quite the public contradiction.\n[0] https://www.businessinsider.com/sam-altman-openai-artificial...",
           "link": "https://news.ycombinator.com/item?id=40423483",
           "publishedOn": "2024-05-21T02:43:47.000Z",
-          "wordCount": 6215,
+          "wordCount": null,
           "title": "New comment by windexh8er in \"Statement from Scarlett Johansson on the OpenAI \"Sky\" voice\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40422360",
+          "author": "minimaxir",
+          "description": "Given the timeline, I’m still baffled Sam Altman tweeted “her.” That just makes plausible deniability go away for a random shitpost.",
+          "link": "https://news.ycombinator.com/item?id=40422360",
+          "publishedOn": "2024-05-21T00:14:20.000Z",
+          "wordCount": 895,
+          "title": "New comment by minimaxir in \"Statement from Scarlett Johansson on the OpenAI \"Sky\" voice\"",
           "imageUrl": null
         },
         {
@@ -751,7 +800,7 @@
           "description": "When people cheat on (relatively) small things, it's usually an indication they'll cheat on big things too",
           "link": "https://news.ycombinator.com/item?id=40421850",
           "publishedOn": "2024-05-20T23:23:15.000Z",
-          "wordCount": 774,
+          "wordCount": null,
           "title": "New comment by npunt in \"Statement from Scarlett Johansson on the OpenAI \"Sky\" voice\"",
           "imageUrl": null
         },
@@ -761,7 +810,7 @@
           "description": "This statement from scarlet really changed my perspective. I use and loved the Sky voice and I did feel it sounded a little like her, but moreover it was the best of their voice offerings. I was mad when they removed it. But now I’m mad it was ever there to begin with. This timeline makes it clear that this wasn’t a coincidence and maybe not even a hiring of an impressionist (which is where things get a little more wishy washy for me).",
           "link": "https://news.ycombinator.com/item?id=40421712",
           "publishedOn": "2024-05-20T23:10:38.000Z",
-          "wordCount": 19034,
+          "wordCount": null,
           "title": "New comment by nickthegreek in \"Statement from Scarlett Johansson on the OpenAI \"Sky\" voice\"",
           "imageUrl": null
         },
@@ -773,6 +822,16 @@
           "publishedOn": "2024-05-20T22:58:41.000Z",
           "wordCount": null,
           "title": "New comment by anon373839 in \"Statement from Scarlett Johansson on the OpenAI \"Sky\" voice\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40421489",
+          "author": "steveBK123",
+          "description": "She choose to forego being a billion lonely guys AI girlfriend\nNot a bad call for someone already rich",
+          "link": "https://news.ycombinator.com/item?id=40421489",
+          "publishedOn": "2024-05-20T22:52:04.000Z",
+          "wordCount": 419,
+          "title": "New comment by steveBK123 in \"Statement from Scarlett Johansson on the OpenAI \"Sky\" voice\"",
           "imageUrl": null
         },
         {
@@ -791,7 +850,7 @@
           "description": "Why do I feel like Sam's 'her' tweet pretty much gave Scarlett Johansson's legal counsel all the ammo they needed lol.",
           "link": "https://news.ycombinator.com/item?id=40421293",
           "publishedOn": "2024-05-20T22:35:34.000Z",
-          "wordCount": null,
+          "wordCount": 1118,
           "title": "New comment by alsodumb in \"Statement from Scarlett Johansson on the OpenAI \"Sky\" voice\"",
           "imageUrl": null
         },
@@ -801,8 +860,38 @@
           "description": "I would say the compiler explorer[0] fits the definition perfectly. It may seem like a straightforward piece of software, but it has immensely changed the way people discuss and share knowledge around compilers and performance optimization.\nI regularly feel the impact on the quality of forum discussions. There's a lot less speculation about if \"call X gets inlined\", or \"Y gets vectorized\". Bold claims can be supported or disproven quickly by sharing a link. And then you have tools like llvm-mca[1] or uiCA[2], if you don't mind going into the weeds.\n[0] https://godbolt.org/\n[1] https://llvm.org/docs/CommandGuide/llvm-mca.html\n[2] https://uica.uops.info/",
           "link": "https://news.ycombinator.com/item?id=40421113",
           "publishedOn": "2024-05-20T22:16:34.000Z",
-          "wordCount": null,
+          "wordCount": 612,
           "title": "New comment by dist1ll in \"Enlightenmentware\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40420123",
+          "author": "orph",
+          "description": "It made sense when I named GitHub Copilot, since that product was a passive addition to your regular workflow.\nThe name was sticky enough that they've run with it, misunderstanding or ignoring that fundamental metaphor.",
+          "link": "https://news.ycombinator.com/item?id=40420123",
+          "publishedOn": "2024-05-20T20:44:51.000Z",
+          "wordCount": 189,
+          "title": "New comment by orph in \"Introducing Copilot+ PCs\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40420077",
+          "author": "bambax",
+          "description": "> We set out to solve one of the most frustrating problems we encounter daily – finding something we know we have seen before on our PC. Today, we must remember what file folder it was stored in, what website it was on, or scroll through hundreds of emails trying to find it.\nIt is indeed frustrating that one still cannot search effectively a local device, but it doesn't need AI to solve. It needs a proper search engine, and Microsoft has resisted that, for some mysterious reason, for 30+ years.",
+          "link": "https://news.ycombinator.com/item?id=40420077",
+          "publishedOn": "2024-05-20T20:40:41.000Z",
+          "wordCount": null,
+          "title": "New comment by bambax in \"Introducing Copilot+ PCs\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40419292",
+          "author": "EvanAnderson",
+          "description": "> Their \"copilot\" brand is so weird and... muddled.\nMicrosoft can't brand anything cleanly and unambiguously.\n\"MSN Messenger\" / \"Windows Messenger\" / \"Windows Live Messenger\" / \"Microsoft Lync\"\n\"Internet Explorer\" / \"Windows Explorer\" / \"MSN Explorer\"\nWindows 95 email client \"Exchange\" / email server platform \"Exchange\"\n\"Outlook\" / \"Outlook Web Access\" / \"Outlook Web App\" / \"Outlook.com\" / \"new Outlook for Windows\"\n\"Microsoft Teams\" / \"New Microsoft Teams\"\n\"Office Communicator\" / \"Microsoft Lync\" / \"Skype for Business\" / \"Skype\" / \"Skype for Business Online\" / \"Skype for Business for Microsoft 365\"\nThe most guffaw-inducing branding, to me, was the recently-announced remote desktop client called \"Windows App\". That's going to be an easy one for users to search for.\n(For guffaw-inducing I suppose there's also the Windows 98-era \"Critical Update Notification Tool\"[0])\n[0] https://en.wikipedia.org/wiki/Windows_Update#Critical_Update...\n(Edit: Yikes. I didn't even consider .NET. Windows.NET server. .NET Framework. ASP.NET. .NET Core. Ugh...)\nMore editing because I can't stop myself:\n\"Great Plains\" / \"Navision\" / \"Solomon\" / \"Axapta\" / \"Dynamics AX\" / \"Dynamics GP\" / \"Dynamics SL\" / \"Dynamics NAV\" / \"Dynamics 365\" / \"Dynamics 365 for Finance and Operations\" / \"Dynamics 365 Business Central\"\nMore editing because I was egged-on... >smile",
+          "link": "https://news.ycombinator.com/item?id=40419292",
+          "publishedOn": "2024-05-20T19:34:13.000Z",
+          "wordCount": 1987,
+          "title": "New comment by EvanAnderson in \"Introducing Copilot+ PCs\"",
           "imageUrl": null
         },
         {
@@ -836,6 +925,56 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=40415822",
+          "author": "tlb",
+          "description": "It's not any kind of paradox. Structural unemployment happens when the skills of the work force don't match the needs of employers, so there is both unemployment and difficulty hiring.\nStructural unemployment is usually high when there's a rapid change in demand for skills, as of course there is in tech. It results in crazy high salaries too. People with machine learning experience are getting 7-figure offers, while people with jQuery experience can't find jobs.\nAs an individual, you can both improve the economy AND make fat stacks by learning the skills that are in high demand. As an employer, you can do better by finding skill sets that aren't in high demand, with enough overlap with what you need that you can retrain. There are a lot of unemployed video game programmers right now, so if you can figure out how to use people with those skills you can hire some smart, energetic people at moderate salaries.",
+          "link": "https://news.ycombinator.com/item?id=40415822",
+          "publishedOn": "2024-05-20T14:26:48.000Z",
+          "wordCount": null,
+          "title": "New comment by tlb in \"Discussion: Job seekers can't find a job and Employers can't find an employees\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40414124",
+          "author": "drpotato",
+          "description": "The original[1][2] articles are a better read IMO. The link is just a summary of the two with added spelling and grammatical errors that materially impact the meaning.\n1. https://www.uber.com/blog/how-ledgerstore-supports-trillions...\n2. https://www.uber.com/blog/migrating-from-dynamodb-to-ledgers...",
+          "link": "https://news.ycombinator.com/item?id=40414124",
+          "publishedOn": "2024-05-20T10:50:16.000Z",
+          "wordCount": null,
+          "title": "New comment by drpotato in \"Migrating Uber's ledger data from DynamoDB to LedgerStore\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40413427",
+          "author": "kqr",
+          "description": "I didn't live through the early space programmes, but having read about them recently, I'm surprised by how incremental they (and the Soviet Sputnik and Vostok counterparts) were.\n- The early Mercury flights developed the idea of putting a human in a capsule on top of an ICBM to see what happens at altitude and during re-entry.\n- Later Mercury flights experimented with de-orbiting techniques. (The early flights didn't need that because the ICBMs that launched the first people into space did so on a ballistic trajectory – they never achieved orbit.)\n- With Gemini we figured out things like endurance (what is it like to have humans in space for weeks), rendezvous and docking (incredibly difficult), and extravehicular activities (preparation for walking on another astronomical body.)\n- Early …",
+          "link": "https://news.ycombinator.com/item?id=40413427",
+          "publishedOn": "2024-05-20T08:22:22.000Z",
+          "wordCount": null,
+          "title": "New comment by kqr in \"The Lunacy of Artemis\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40410439",
+          "author": "DangitBobby",
+          "description": "Half of the stories about billing for unused gas are clearly just theft. Why do consumers have no recourse against companies that steal from them? If I made charges to someone's card for services that weren't rendered, I'd probably go to jail.",
+          "link": "https://news.ycombinator.com/item?id=40410439",
+          "publishedOn": "2024-05-19T23:09:19.000Z",
+          "wordCount": null,
+          "title": "New comment by DangitBobby in \"Hertz Charging a Tesla Renter for Gas Was Not an Isolated Incident\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40410199",
+          "author": "geerlingguy",
+          "description": "Awesome work, and I'm glad you could post some results! I'm hoping to get time to delid one, put on a peltier cooler, and try to control the temperature a little better for a run to see how high it'll go before either burning up or going unstable.\nFrom my testing on clocks on the Pi 5, it looks like the default clock of 2.4 GHz is pretty close to the sweet spot for this chip (BCM2712), and you burn a lot of power for small incremental gains after that[1]. (Which you seem to also show with the 3.3 GHz overclock!).\nI also spoke to one of the Pi engineers about the chip behavior at higher clocks, and he suggested unlike some chips, this chip might run more stably at higher temperatures (like 50-60°C) rather than 'as cold as you can get it'. So that poses some challenges since most cooling solutions aren't tuned for 'keep a temperature' but instead 'get it as cold as possible', without a lot of manual tweaking.\n[1] https://www.jeffgeerling.com/blog/2023/overclocking-and-unde...",
+          "link": "https://news.ycombinator.com/item?id=40410199",
+          "publishedOn": "2024-05-19T22:24:22.000Z",
+          "wordCount": null,
+          "title": "New comment by geerlingguy in \"Beating Jeff's 3.14 Ghz Raspberry Pi 5\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=40410017",
           "author": "miki123211",
           "description": "If you like this, it's also worth looking at llama2.c[1], an implementation of the Llama 2 architecture in about 1000 lines of plain, dependency-free C, tokenizer and all. THe fact that this 960-line file and a somewhat modern C compiler is all you really need to run a state-of-the-art language model is really surprising to many.\nOf course, this is not all there is to a modern LLM, it would probably take another thousand lines or two to implement training, and many more than that to make it fast on all the major CPU and GPU architectures. If you want a flexible framework that lets a developer define any model you want and still goes as fast as it can, the complexity spirals.\nMost programmers have an intuition that duplicating a large software project from scratch, like Linux or Chromium for example, would require incredible amounts of expertise, manpower and time. It's not something that a small team can achieve in a few months. You're limited by talent, not hardware.\nLLMs are very different. THe code isn't that complicated, you could probably implement training and inference for a single model architecture, from scratch, on a single kind of GPU, with reasonable performance, as an individual with a background in programming and who still remembers their calculus and linear algebra, with a year or so of self study. What makes LLMs difficult is getting access to all the hardware to train them, getting the data, and being able to preprocess that data.",
@@ -854,156 +993,6 @@
           "wordCount": null,
           "title": "New comment by xivzgrev in \"Ask HN: Video streaming is expensive yet YouTube \"seems\" to do it for free. How?\"",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40400813",
-          "author": "Hayvok",
-          "description": "We did night CTF (~9 pm) at our local grade school campus. Easily 40-50 kids. We just rode our bikes to the gathering. Similar rules to what this article had, except no out of bounds. We had kids making huge circuits around a nearby corn field to evade detection.\nIt was indeed someone of my best childhood memories.\nUnfortunately it was all brought to an end because people kept calling the cops. They’d see kids after dark at the school and just assume we were up to no good. No property was ever damaged, the principal knew what we were up to, etc. Wholesome fun.\nAfter the fifth time of coming home with a “the cops showed up” story, our well-meaning parents asked us to please find another game to play.",
-          "link": "https://news.ycombinator.com/item?id=40400813",
-          "publishedOn": "2024-05-18T18:09:25.000Z",
-          "wordCount": null,
-          "title": "New comment by Hayvok in \"I organized a 20-acre game of Capture the Flag\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40396533",
-          "author": "smt88",
-          "description": "Look at Sam Altman's career and tweets. He's a clown at best, and at worst he's a manipulative crook who only cares about his own enrichment and uses pro-social ideas to give himself a veneer of trustworthiness.",
-          "link": "https://news.ycombinator.com/item?id=40396533",
-          "publishedOn": "2024-05-18T04:56:44.000Z",
-          "wordCount": null,
-          "title": "New comment by smt88 in \"OpenAI departures: Why can’t former employees talk?\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40396395",
-          "author": "mwigdahl",
-          "description": "The best approach to circumventing the nondisclosure agreement is for the affected employees to get together, write out everything they want to say about OpenAI, train an LLM on that text, and then release it.\nBased on these companies' arguments that copyrighted material is not actually reproduced by these models, and that any seemingly-infringing use is the responsibility of the user of the model rather than those who produced it, anyone could freely generate an infinite number of high-truthiness OpenAI anecdotes, freshly laundered by the inference engine, that couldn't be used against the original authors without OpenAI invalidating their own legal stance with respect to their own models.",
-          "link": "https://news.ycombinator.com/item?id=40396395",
-          "publishedOn": "2024-05-18T04:13:00.000Z",
-          "wordCount": null,
-          "title": "New comment by mwigdahl in \"OpenAI departures: Why can’t former employees talk?\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40396209",
-          "author": "throwaway598",
-          "description": "That OpenAI are institutionally unethical. That such a young company can be become rotten so quickly can only be due to leadership instruction or leadership failure.",
-          "link": "https://news.ycombinator.com/item?id=40396209",
-          "publishedOn": "2024-05-18T03:08:52.000Z",
-          "wordCount": 6521,
-          "title": "New comment by throwaway598 in \"OpenAI departures: Why can’t former employees talk?\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40395918",
-          "author": "Buttons840",
-          "description": "So part of their compensation for working is equity, and when they leave thay have to sign an additional agreement in order to keep their previously earned compensation? How is this legal? Mine as well tell them they have to give all their money back too.\nWhat's the consideration for this contract?",
-          "link": "https://news.ycombinator.com/item?id=40395918",
-          "publishedOn": "2024-05-18T01:52:45.000Z",
-          "wordCount": null,
-          "title": "New comment by Buttons840 in \"OpenAI departures: Why can’t former employees talk?\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40395842",
-          "author": "modeless",
-          "description": "A lot of the brouhaha about OpenAI is silly, I think. But this is gross. Forcing employees to sign a perpetual non-disparagement agreement under threat of clawing back the large majority of their already earned compensation should not be legal. Honestly it probably isn't, but it'll take someone brave enough to sue to find out.",
-          "link": "https://news.ycombinator.com/item?id=40395842",
-          "publishedOn": "2024-05-18T01:37:36.000Z",
-          "wordCount": null,
-          "title": "New comment by modeless in \"OpenAI departures: Why can’t former employees talk?\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40395702",
-          "author": "jay-barronville",
-          "description": "It probably would be better to switch the link from the X post to the Vox article [0].\nFrom the article:\n“““\nIt turns out there’s a very clear reason for [why no one who had once worked at OpenAI was talking]. I have seen the extremely restrictive off-boarding agreement that contains nondisclosure and non-disparagement provisions former OpenAI employees are subject to. It forbids them, for the rest of their lives, from criticizing their former employer. Even acknowledging that the NDA exists is a violation of it.\nIf a departing employee declines to sign the document, or if they violate it, they can lose all vested equity they earned during their time at the company, which is likely worth millions of dollars. One former employee, Daniel Kokotajlo, who posted that he quit OpenAI “due to losing confidence that it would behave responsibly around the time of AGI,” has confirmed publicly that he had to surrender what would have likely turned out to be a huge sum of money in order to quit without signing the document.\n”””\n[0]: https://www.vox.com/future-perfect/2024/5/17/24158478/openai...",
-          "link": "https://news.ycombinator.com/item?id=40395702",
-          "publishedOn": "2024-05-18T01:06:22.000Z",
-          "wordCount": null,
-          "title": "New comment by jay-barronville in \"OpenAI departures: Why can’t former employees talk?\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40395483",
-          "author": "fragmede",
-          "description": "It's time to find a lawyer. I'm not one but  there's an intersection with California SB 331, also known as “The Silenced No More Act”. while it is focused more on sexual harrasment, it's not limited to that, and these contracts may run afoul of that.\nhttps://silencednomore.org/the-silenced-no-more-act",
-          "link": "https://news.ycombinator.com/item?id=40395483",
-          "publishedOn": "2024-05-18T00:26:16.000Z",
-          "wordCount": null,
-          "title": "New comment by fragmede in \"OpenAI departures: Why can’t former employees talk?\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40394442",
-          "author": "phire",
-          "description": "Has it really been 9 years since I started working on Ubershaders?\nI'm a little surprised no better solution has come along. Vulkan didn't even exist back then (and DirectX 12 had only just released) but instead of making things better, it digs it's feet even deeper into the assumption that all shaders will be known ahead of time (resulting in long \"shader recompilation\" dialogs on startup on many games).\nI've been tempted to build my own fast shader compiler into Dolphin for many common GPU architectures. Hell, it wouldn't even be a proper compiler, more of a templated emitter as all shaders fit a pattern. Register allocation and scheduling could all be pre-calculated.\nBut that would be even more insane than ubershaders, as it would be one backend per gpu arch. And some drivers (like Nvidia) don't provide a way to inject pre-compiled shader binaries.\nOn the positive side, ubershaders do solve the problem, and modern GPU drivers do a much better job at accepting ubershaders than they did 9 years ago. Though that's primarily because (as far as I'm aware) examples of Dolphin's ubershader have made their way into every single shader compiler test suite.",
-          "link": "https://news.ycombinator.com/item?id=40394442",
-          "publishedOn": "2024-05-17T21:39:48.000Z",
-          "wordCount": null,
-          "title": "New comment by phire in \"Ubershaders: A Ridiculous Solution to an Impossible Problem (2017)\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40394319",
-          "author": "ttul",
-          "description": "I run one of the largest email sending services on the internet. I have been living the “mess” of internet email for over 20 years.\nHere’s the thing: despite the internet’s email system being complex and confusing and riddled with problems, it is universally adopted and interoperable. No other open communication tool can boast of email’s massive interoperability.\nAny new system will face the impossible burden of winning hearts and minds while the old system continues to chug along with billions of annual R&D spending and dozens of conferences full of smart people working on solving problems.\nEven if “MX2” can peacefully coexist in the DNS, why would anyone spend the millions of dollars in engineering effort to move while their teams are busy building the latest layer that’s been invented to patch over the current system?\nBy all means if you want to propose a new email system, show up at IETF or M3AAWG and make a bold proposal. Someone will buy you a beer while they explain why you are much better off getting into the mud pit with the rest of us and working on the next pragmatic fix to keep things rolling along.",
-          "link": "https://news.ycombinator.com/item?id=40394319",
-          "publishedOn": "2024-05-17T21:20:03.000Z",
-          "wordCount": null,
-          "title": "New comment by ttul in \"Thinking out loud about 2nd-gen email\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40393253",
-          "author": "CorrectingYou",
-          "description": "OP comes around with some of the coolest things posted in HN recently, and all he gets is extensive criticism, when it is clear that this is an early version :/",
-          "link": "https://news.ycombinator.com/item?id=40393253",
-          "publishedOn": "2024-05-17T19:08:16.000Z",
-          "wordCount": null,
-          "title": "New comment by CorrectingYou in \"Bend: a high-level language that runs on GPUs (via HVM2)\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40392831",
-          "author": "zero_k",
-          "description": "I was involved with implementing the DNF volume counting version of this with the authors. You can see my blog post of it here:\nhttps://www.msoos.org/2023/09/pepin-our-probabilistic-approx...\nAnd the code here: https://github.com/meelgroup/pepin\nOften, 30% of the time is spent in IO of reading the file, that's how incredibly fast this algorithm is. Crazy stuff.\nBTW, Knuth contributed to the algo, Knuths' notes: https://cs.stanford.edu/~knuth/papers/cvm-note.pdf\nHe actually took time off (a whole month) from TAOCP to do this. Also, he is exactly as crazy good as you'd imagine. Just mind-blowing.",
-          "link": "https://news.ycombinator.com/item?id=40392831",
-          "publishedOn": "2024-05-17T18:25:16.000Z",
-          "wordCount": null,
-          "title": "New comment by zero_k in \"Computer scientists invent an efficient new way to count\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40385401",
-          "author": "20after4",
-          "description": "I worked at deviantArt from 2009 to 2013. It was my dream job. At the time deviantArt made money a few ways.\nIn no particular order, because I don't know which were profitable or which represented a larger portion of revenue:\n- Subscriptions (users could pay for a few extra features and to disable ads on the site)\n- DeviantArt branded merch.\n- Prints and products with users' art printed on them\n- Sponsored Contests. These promoted movies or other media properties, or software of interest to artists. Often the prizes included Wacom tablets and Adobe Photoshop licenses.\nDuring my time there a significant problem we were dealing with was due to deviantArt's stance on adult content. Anything was allowed as long as it wasn't outright pornography.  In practice that meant that nudes were allowed but sexual acts were not. This had consequences for deviantArt's revenue. It meant that we could not run ads from the \"reputable\" ad networks and were forced to deal with seedier outfits that often (e.g. constantly) included malware in the display ads, exposing users to all sorts of nasty stuff. One of my projects was to detect and/or prevent the malware ads which proved challenging and at least given the amount of resources devoted to it, it was not very fruitful.\nIt really is sad for me to see what deviantArt has devolved into. Once the original founders sold out a few years ago I really didn't hold out much hope for the site's future.",
-          "link": "https://news.ycombinator.com/item?id=40385401",
-          "publishedOn": "2024-05-17T01:29:12.000Z",
-          "wordCount": null,
-          "title": "New comment by 20after4 in \"The Downfall of DeviantArt\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40385318",
-          "author": "derefr",
-          "description": "> And that typed text is way, way cleaner than any typewriter I’ve seen.\nPedantic point: electric typewriters (which have existed since the 1960s) do type in a way that looks exactly like this.\n(In fact, note that the text on the real employee ID card, shown later in the article, doesn't look any less clean! It's just set in a different, narrower font.)\nThe smudginess of mechanical typewriters comes from 1. them striking (and especially, releasing) at the same speed you're depressing the key, and 2. having many of the keys necessarily approach the ribbon from an angle.\nThe keys being swung weakly by your fingers, also has the additional implication that the ink ribbons used in mechanical typewriters have to be soft and squishy (so: made of cloth), and use thin inks. These properties ensure a transfer from even a low-velocity impact. But the trade-off is that cloth ink ribbons transfer only a rough outline of what's struck; and thin inks are high-bleed inks.\nAn electric typewriter, playing out a pre-buffered line with a crisp, predictable report, using linear actuators and a rotating-ball type-head to bang a tape ribbon loaded with high-viscosity ink onto the page, can create text indistinguishable from books/newspapers of the same period, or from modern laser-printer reproductions of the same font faces. They're essentially character-at-a-time letterpresses!\n(Also, ignoring electric typewriters for a sec: inks bleed more on thin, cheap paper. But this is [a forgery of] an employee ID card — where, for durability, a nice heavyweight paper or cardstock would have been used. You're always going to get a better-looking result inking such paper.)",
-          "link": "https://news.ycombinator.com/item?id=40385318",
-          "publishedOn": "2024-05-17T01:14:14.000Z",
-          "wordCount": null,
-          "title": "New comment by derefr in \"A forged Apple employee badge\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40384975",
-          "author": "zmmmmm",
-          "description": "> For any model that will be used broadly across all of our customers, we do not build or train these models in such a way that they could learn, memorise, or be able to reproduce some part of Customer Data\nThis feels so full of subtle qualifiers and weasel words that it generates far more distrust than trust.\nIt only refers to models used \"broadly across all\" customers - so if it's (a) not used \"broadly\" or (b) only used for some subset of customers, the whole statement doesn't apply. Which actually sounds really bad because the logical implication is that data CAN leak outside those circumstances.\nThey need to reword this. Whoever wrote it is a liability.",
-          "link": "https://news.ycombinator.com/item?id=40384975",
-          "publishedOn": "2024-05-17T00:18:28.000Z",
-          "wordCount": null,
-          "title": "New comment by zmmmmm in \"Slack AI Training with Customer Data\"",
-          "imageUrl": null
         }
       ]
     },
@@ -1021,16 +1010,6 @@
           "wordCount": 1779,
           "title": "Sunday photoblogging: Pézenas",
           "imageUrl": "https://live.staticflickr.com/65535/53718888843_95f592d913.jpg"
-        },
-        {
-          "id": "https://crookedtimber.org/?p=52696",
-          "author": "John Holbo",
-          "description": "After a couple days to think on it, I think this post is right on. I just stumbled on a paper that stumbles, badly, over one of my two obvious thoughts about originalism. So let me point that out. Quick review. My first obvious thought is it’s weird, if you think about it, that one […]",
-          "link": "https://crookedtimber.org/2024/05/15/i-found-a-paper-that-denies-one-of-my-two-obvious-thoughts-about-originalism-so-stating-the-obvious-turns-out-to-be-useful/",
-          "publishedOn": "2024-05-15T07:13:51.000Z",
-          "wordCount": 3498,
-          "title": "I found a paper that denies one of my two obvious thoughts about originalism, so stating the obvious turns out to be useful!",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -1073,16 +1052,6 @@
             "type": "image/png"
           },
           "imageUrl": "https://www.cadtm.org/IMG/png/sans_titre-21.png"
-        },
-        {
-          "id": "https://www.cadtm.org/Presidents-Barber-Conable-and-Lewis-Preston-1986-1995",
-          "author": "Eric Toussaint",
-          "description": "In July 2024, the World Bank and the IMF will be 80 years old. 80 years of financial neo-colonialism and the imposition of austerity policies in the name of debt repayment. 80 years is enough! The Bretton Woods institutions must be abolished and replaced by democratic institutions serving an ecological, feminist and anti-racist bifurcation. To mark these 80 years, we are republishing a series of articles every Wednesday until July, looking in detail at the history and damage caused by these (...)\nEnglish\n\n/ \nWorld Bank, \nDebt in History, \nFinance against people, \n80 ans BM FMI EN",
-          "link": "https://www.cadtm.org/Presidents-Barber-Conable-and-Lewis-Preston-1986-1995",
-          "publishedOn": "2024-05-15T07:00:00.000Z",
-          "wordCount": 4337,
-          "title": "Presidents Barber Conable and Lewis Preston (1986-1995)",
-          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L710xH373/833cfe7c2f034e142e95ddc716bf3e-a190b.jpg"
         }
       ]
     },
@@ -1110,12 +1079,52 @@
       "siteUrl": "https://disassociated.com",
       "articles": [
         {
+          "id": "https://disassociated.com/?p=7631",
+          "author": "J",
+          "description": "Two and bit years ago, I spotted an entry on Fandom about a “remake” of the Stanley Kubrick sci-fi classic, 2001: A Space Odyssey. Being a 2001 fan, I naturally wrote about it. I’ve had a lot of fun with the post ever since. People stumble upon it every now and again, and link to […]",
+          "link": "https://disassociated.com/2001-a-space-odyssey-remake-joke-post-trained-google-ai/",
+          "publishedOn": "2024-05-21T21:00:21.000Z",
+          "wordCount": 422,
+          "title": "My 2001: A Space Odyssey remake joke post trained Google AI?",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
+          "id": "https://disassociated.com/?p=7637",
+          "author": "J",
+          "description": "She is the Earth, a work of verse, written by Yankunytjatjara (South Australia) poet Ali Cobby Eckermann, was named the NSW Premiers Literary Awards book of the year, on Monday 20 May 2024. Award judges were unstinting in their praise of Eckermann’s writing: She is the Earth is a stunning verse novel that takes the […]",
+          "link": "https://disassociated.com/she-is-the-earth-wins-nsw-premiers-literary-awards-book-year-2024/",
+          "publishedOn": "2024-05-21T20:30:32.000Z",
+          "wordCount": 228,
+          "title": "She is the Earth wins NSW Premiers Literary Awards book of year 2024",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
+          "id": "https://disassociated.com/?p=7641",
+          "author": "J",
+          "description": "Sydney based product designer Wing Pang, whom I wrote about last week, has published a comprehensive guide to the IndieWeb. Coming from a design background, joining the IndieWeb was an incredibly exciting and rewarding, yet maze-like journey. To be honest, almost every step of the way was like a leap! But I’ve learnt so much […]",
+          "link": "https://disassociated.com/indie-guide-indieweb-wing-pang/",
+          "publishedOn": "2024-05-21T20:00:07.000Z",
+          "wordCount": 180,
+          "title": "An indie guide to the IndieWeb, by Wing Pang",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
+          "id": "https://disassociated.com/?p=7643",
+          "author": "J",
+          "description": "Blog of the .Day, yes, styled as Blog of the .Day, a collaboration between James of James’ Coffee Blog, and Joe Crawford, will highlight a new blog every day. Aside from casting the spotlight daily on a blog, another goal of the project is to bring the term blogosphere back into popular usage. For those […]",
+          "link": "https://disassociated.com/blog-of-the-day-bringing-back-blogosphere-one-blog-time/",
+          "publishedOn": "2024-05-21T19:30:32.000Z",
+          "wordCount": 193,
+          "title": "Blog of the .Day, bringing back the blogosphere one blog at a time",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
           "id": "https://disassociated.com/?p=7628",
           "author": "J",
           "description": "As with many things we consume, the science on coffee can be conflicted. One decade caffeine consumption is a no-no, the next it seems coffee is quite beneficial. Regular readers will know I’m a coffee drinker, but in — what I consider to be — moderation: two (large serve) cups per day. But some people […]",
           "link": "https://disassociated.com/health-benefits-giving-up-drinking-coffee/",
           "publishedOn": "2024-05-20T21:00:32.000Z",
-          "wordCount": 274,
+          "wordCount": 287,
           "title": "The health benefits of giving up drinking coffee",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         },
@@ -1241,6 +1250,16 @@
       "siteUrl": "https://bearblog.dev/discover/",
       "articles": [
         {
+          "id": "https://tiramisu.bearblog.dev/2024-tokyo-0/",
+          "author": null,
+          "description": "I'm feeling lazy, so the travel recaps I'm going to do for this trip are going to be less thorough than my usual fare, more like annotated photo dumps than anything. I hope they're still fun to scroll through and read!\nWe flew ANA from LAX to Tokyo and United Airlines on the way back. The food on ANA was more Japanese and better tasting than the more Americanized fare on the United flight.\nI noticed the Rolls Royce logo on the turbines on of our plane. Maybe they manufacture them?\n\n\n\n\nMy first photograph in Japan! No surprise that it's of public transit. I love how accessible and easy to use the metro system is. The subway cars are unbelievably clean and well-designed.\n\nGinza\nI spent my first day in Ginza, near where I stayed. Ginza is cleaner, glitzier Fifth Ave: lots of luxury stores and…",
+          "link": "https://tiramisu.bearblog.dev/2024-tokyo-0/",
+          "publishedOn": "2024-05-21T16:16:47.885Z",
+          "wordCount": 1237,
+          "title": "tokyo, day 0-1: ginza, tsukiji, ueno",
+          "imageUrl": null
+        },
+        {
           "id": "https://that-bloke.com/mouth-dildos/",
           "author": null,
           "description": "People that use mouth dildos annoy the shit out of me. Either commit and smoke a cigarette, or give it up.\nI hate smoking. I think it's fucking disgusting and I don't understand why anyone would want to do it. I especially hate it when there's a gaggle of smokers huddled around the front door of a pub, tooting away on their fags. It's vile and I don't want my pink fluffy lungs affected by that shit.\nBut do you know what I hate more than smoking?\nMouth dildos.\nWhat the fuck is a mouth dildo?\n-- Everyone\nThis is a mouth dildo:\n\nNot only do you look ridiculous putting that stupid fucking contraption in your mouth, but the plumes of flavoured vapour that bellow from these things make you look even more like an utter cunt.\nI don't want to be subjected to the cherry ice cream vapour pouring from your mouth dildos, seemingly by the bucket load. At least smokers are committing, knowing they're gonna kill themselves, have decided to enjoy it while they're here.\nBut you mouth dildo fuckers are the worst. We don't want to smell your stupid fucking vape. So put it away because you look (and smell) like a dick head.\nPeace ✌🏻\nReply by email",
@@ -1256,7 +1275,7 @@
           "description": "Back in the glory days of the internet, when social media was just becoming mainstream, I used to blog regularly. I would write and publish a post anywhere from 1 - 3 times a week.\nI didn't monetize my blog and I had no dreams of my personal site becoming a business. It was simply a place for me to share things that were on my mind and lessons learned from books I was reading.\nFast forward many years and what we have is the current state of the internet.\nEverything is an ad. Everyone is an influencer. And the algorithms determine what we see and dictate what we post. And for some reason they insist on the entire population becoming video producers.\nIt's an endless game that I lost my taste for long ago.\nThat's why I'm attempting to blog again. I need somewhere to get my thoughts and opinions out without distraction and without too much tech.\nIf the internet stresses you out as much as it does me, might I suggest starting your own blog?\nOr heck, maybe just quit the social internet altogether.",
           "link": "https://quincyzikmund.com/why-im-blogging-again/",
           "publishedOn": "2024-05-20T17:55:38.443Z",
-          "wordCount": 612,
+          "wordCount": 620,
           "title": "Why I'm blogging again",
           "imageUrl": null
         },
@@ -1379,6 +1398,36 @@
       "feedUrl": "https://theanarchistlibrary.org/feed",
       "siteUrl": "https://theanarchistlibrary.org",
       "articles": [
+        {
+          "id": "https://theanarchistlibrary.org/library/ilya-kharkow-the-advice-led-to-hell-cs?v=1716239906",
+          "author": null,
+          "description": "Author: Ilya Kharkow\nTitle: The Advice Led to Hell\nDate: May 16, 2024\nSource: https://actionweek.noblogs.org/post/2024/05/16/rady-vedou-do-pekla-ilya-kharkow/#more-1104\n\n I wrote about how difficult it was to get from Kyiv to Lviv on the first day of a full-scale war in the novel THE MINING BOYS. But when I finally got there, it only got worse. \n The people who sheltered me sincerely did not understand why I did not want to defend the country with weapons in my hands. My hope to go to Europe seemed like a betrayal to them. At the same time, I had to hide from them not only my fear, but also my culture and my orientation. \n These same people advised me to voluntarily join the territorial defense. Their acquaintances, who also didn’t want to fight, deliberately signed up there so they wouldn…",
+          "link": "https://theanarchistlibrary.org/library/ilya-kharkow-the-advice-led-to-hell-cs?v=1716239906",
+          "publishedOn": "2024-05-20T21:18:26.000Z",
+          "wordCount": 1044,
+          "title": "Ilya Kharkow - The Advice Led to Hell",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "5931",
+            "url": "https://theanarchistlibrary.org/library/ilya-kharkow-the-advice-led-to-hell-cs.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/anarchy-in-action-anarchy-in-the-haitian-revolution?v=1716166084",
+          "author": null,
+          "description": "Author: Anarchy In Action\nTitle: Anarchy in the Haitian Revolution\nSource: Retrieved on 19 May 2024 from anarchyinaction.org/index.php?title=Anarchy_in_the_Haitian_Revolution\n\n Following many years of hidden and small-scale resistance, African slaves in the French colony of Saint Domingue (or San Domingo) rose up in 1791 against their colonizers and slave masters. By 1804, they abolished slavery, expelled the French colonizers, and established the independent republic of Haiti. Haiti was the name given to the Caribbean island by the Tainos before colonizers arrived, slaughtered the entire indigenous population, and imported African slaves. \n While the 1776 and 1789 revolutions of the USA and France were grounded in exclusionary “citizens’ rights,” the Haitian Revolution stood out for a com…",
+          "link": "https://theanarchistlibrary.org/library/anarchy-in-action-anarchy-in-the-haitian-revolution?v=1716166084",
+          "publishedOn": "2024-05-20T00:48:04.000Z",
+          "wordCount": 2749,
+          "title": "Anarchy In Action - Anarchy in the Haitian Revolution",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "14012",
+            "url": "https://theanarchistlibrary.org/library/anarchy-in-action-anarchy-in-the-haitian-revolution.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
         {
           "id": "https://theanarchistlibrary.org/library/john-zerzan-he-means-it-do-you?v=1715942581",
           "author": null,
