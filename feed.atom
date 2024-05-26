@@ -1,10 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-26T06:28:25.803Z</id>
+    <id>urn:2024-05-26T12:37:42.123Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-05-26T06:28:25.803Z</updated>
+    <updated>2024-05-26T12:37:42.123Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Links 5/26/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=272187</id>
+        <link href="https://www.nakedcapitalism.com/2024/05/links-5-26-2024.html"/>
+        <updated>2024-05-26T10:55:24.000Z</updated>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘To Be America’s Friend Is Fatal’: A Current Overview]]></title>
+        <id>https://www.nakedcapitalism.com/?p=272203</id>
+        <link href="https://www.nakedcapitalism.com/2024/05/to-be-americas-friend-is-fatal-a-current-overview.html"/>
+        <updated>2024-05-26T10:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Nowadays, to be America’s enemy is largely beneficial.]]></summary>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lost in negotiation: Re-positioning public health in the Pandemic Agreement]]></title>
+        <id>https://www.cadtm.org/Lost-in-negotiation-Re-positioning-public-health-in-the-Pandemic-Agreement</id>
+        <link href="https://www.cadtm.org/Lost-in-negotiation-Re-positioning-public-health-in-the-Pandemic-Agreement"/>
+        <updated>2024-05-26T09:04:42.000Z</updated>
+        <summary type="html"><![CDATA[In December 2021 during the Covid-19 pandemic, the WHO World Health Assembly established an international body to negotiate a convention, agreement, or other international instrument to strengthen pandemic prevention, preparedness, and response. The negotiations have been difficult. Furthermore, the focus on public health in the Pandemic Agreement remains fragile before the World Health Assembly starting on the 27th of May 2024. 
+English
+
+/ 
+Health, 
+WHO]]></summary>
+        <author>
+            <name>Abbe Brown, Alison McCallum, Amitabha Sarkar, Chloe Stephenson, Corrado Piroddi, Lynda Gilby, Meri Koivusalo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clues From Bird Flu’s Ground Zero on Dairy Farms in the Texas Panhandle]]></title>
+        <id>https://www.nakedcapitalism.com/?p=272199</id>
+        <link href="https://www.nakedcapitalism.com/2024/05/clues-from-bird-flus-ground-zero-on-dairy-farms-in-the-texas-panhandle.html"/>
+        <updated>2024-05-26T09:00:06.000Z</updated>
+        <summary type="html"><![CDATA[The failures is the US response to the bird flu outbreak are piling up.]]></summary>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sunday photoblogging: Kilmainham Gaol]]></title>
+        <id>https://crookedtimber.org/?p=52720</id>
+        <link href="https://crookedtimber.org/2024/05/26/sunday-photoblogging-kilmainham-gaol/"/>
+        <updated>2024-05-26T07:31:37.000Z</updated>
+        <summary type="html"><![CDATA[Visit the post for more.]]></summary>
+        <author>
+            <name>Chris Bertram</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Capitalism Attacks Argentine Workers and You May be Next]]></title>
         <id>https://www.counterpunch.org/?p=322913</id>
@@ -42,18 +96,19 @@ The post Blaming Soros for Campus Protests is Anti-Semitic — Just Ask Israel a
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Lost in negotiation: Re-positioning public health in the Pandemic Agreement]]></title>
-        <id>https://www.cadtm.org/Lost-in-negotiation-Re-positioning-public-health-in-the-Pandemic-Agreement</id>
-        <link href="https://www.cadtm.org/Lost-in-negotiation-Re-positioning-public-health-in-the-Pandemic-Agreement"/>
-        <updated>2024-05-25T19:42:42.000Z</updated>
-        <summary type="html"><![CDATA[In December 2021 during the Covid-19 pandemic, the WHO World Health Assembly established an international body to negotiate a convention, agreement, or other international instrument to strengthen pandemic prevention, preparedness, and response. The negotiations have been difficult. Furthermore, the focus on public health in the Pandemic Agreement remains fragile before the World Health Assembly starting on the 27th of May 2024. 
-English
-
-/ 
-Health, 
-WHO]]></summary>
+        <title type="html"><![CDATA[New comment by dataflow in "Why is x & -x equal to the largest power of 2 that divides x?"]]></title>
+        <id>https://news.ycombinator.com/item?id=40478558</id>
+        <link href="https://news.ycombinator.com/item?id=40478558"/>
+        <updated>2024-05-25T23:18:14.000Z</updated>
+        <summary type="html"><![CDATA[Short explanation:
+1. The largest power of 2 that divides x is just 2^(number of trailing zeros in x)
+2. Crucial observation: -x == ~x + 1
+3. ~x flips all the bits of x bits, so none of the bits of ~x match those of x. (i.e. (x & ~x) == 0)
+4. When you do +1, all the trailing 1's flip AGAIN, becoming zero like they were in x. The next highest 0 (say it was the n'th) also flips, becoming 1... like it was in x.
+5. Crucial observation: The n'th 0 did NOT match the corresponding bit in x prior to the increment, therefore it MUST match after the increment. All higher bits stay as-is.
+6. This leaves only the n'th bits matching in x and ~x + 1, isolating the highest power-of-2 divisor of x when you AND them.]]></summary>
         <author>
-            <name>Abbe Brown, Alison McCallum, Amitabha Sarkar, Chloe Stephenson, Corrado Piroddi, Meri Koivusalo</name>
+            <name>dataflow</name>
         </author>
     </entry>
     <entry>
@@ -376,16 +431,6 @@ So in essence develop an egoless conviction. Be open to being challenged. Don't 
         <link href="https://www.nakedcapitalism.com/2024/05/national-grid-wants-to-heat-more-homes-with-converted-food-waste-and-make-you-pay-for-it.html"/>
         <updated>2024-05-24T09:28:50.000Z</updated>
         <summary type="html"><![CDATA[National Grid's biogas plant is performing poorly, as shown by downtimes and methane flaring, yet it wants more consumer subsidies to expand.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Michael Hudson: Some Myths Regarding the Genesis of Enterprise]]></title>
-        <id>https://www.nakedcapitalism.com/?p=272120</id>
-        <link href="https://www.nakedcapitalism.com/2024/05/michael-hudson-some-myths-regarding-the-genesis-of-enterprise.html"/>
-        <updated>2024-05-24T08:19:49.000Z</updated>
-        <summary type="html"><![CDATA[“Modern” elements of enterprise were present  in Mesopotamia in the third millennium BC and the institutions supported long-term growth]]></summary>
         <author>
             <name>Yves Smith</name>
         </author>
@@ -792,17 +837,6 @@ I'm attempting to make this device my main driver over the next few months and w
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by mrlongroots in "We're ending our Samsung collaboration"]]></title>
-        <id>https://news.ycombinator.com/item?id=40459882</id>
-        <link href="https://news.ycombinator.com/item?id=40459882"/>
-        <updated>2024-05-23T21:02:29.000Z</updated>
-        <summary type="html"><![CDATA[I swore to never buy Samsung after an ordeal with their warranty repair. Some of the data pins on its USB port wore out, so my Android Auto and fast charging became extremely flaky. It was still under warranty so I took it to their authorized repair centres. They did not have a fast charger and showed me that the standard charging was working, and refused to admit a problem. Finally I mailed it to Samsung, and they said that the display needed to be replaced because of some water damage (it worked perfectly fine!) as well.
-Finally I got some local electronics repair guy to just solder a new USB port onto the circuit board and that fixed everything. But never buying their phones again.]]></summary>
-        <author>
-            <name>mrlongroots</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Telstra redundancies, AI robots come in, the future is now]]></title>
         <id>https://disassociated.com/?p=7664</id>
         <link href="https://disassociated.com/telstra-redundancies-ai-robots-future-now/"/>
@@ -884,16 +918,6 @@ Disliking the feature is fine. Voicing your concerns and feedback is fine. But i
 EDIT: gnachman, if you're reading this, thank you for your tireless work on iTerm. It serves me extremely well whenever I'm on macOS and holds a special place in my heart. I bought a MacBook in 2013 and it was the first *nix system that I daily drove as a desktop for a long time. I installed iTerm  2 in my first week and it was a constant companion for many years.]]></summary>
         <author>
             <name>Cu3PO42</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2:00PM Water Cooler 5/23/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=272083</id>
-        <link href="https://www.nakedcapitalism.com/2024/05/200pm-water-cooler-5-23-2024.html"/>
-        <updated>2024-05-23T18:00:43.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, Pandemics;  can the Democrats allow Trump to take office, White House issues corrections, Marijuana policy ("and boogie they will") ~]]></summary>
-        <author>
-            <name>Lambert Strether</name>
         </author>
     </entry>
     <entry>
@@ -1020,16 +1044,6 @@ A popular night market in 沈阳 which runs every night. If you're there at the 
 Night markets have been ruined for me forever. How can anything measure up to that? Not to mention we passed two markets en route to 老北市 that also looked better than anything I'd ever seen.]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Masks Work, Our Comprehensive Review Has Found]]></title>
-        <id>https://www.nakedcapitalism.com/?p=272067</id>
-        <link href="https://www.nakedcapitalism.com/2024/05/masks-work-our-comprehensive-review-has-found.html"/>
-        <updated>2024-05-23T13:55:57.000Z</updated>
-        <summary type="html"><![CDATA[Finally, a rigorous study on mask use shows definitively that masks do indeed work, as in reduce transmission of respiratory diseases.]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -1429,31 +1443,6 @@ Source: Retrieved on 19 May 2024 from anarchyinaction.org/index.php?title=Anarch
  While the 1776 and 1789 revolutions of the USA and France were grounded in exclusionary “citizens’ rights,” the Haitian Revolution stood out for a com…]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Completing the largest migration in Kubernetes history]]></title>
-        <id>https://kubernetes.io/blog/2024/05/20/completing-cloud-provider-migration/</id>
-        <link href="https://kubernetes.io/blog/2024/05/20/completing-cloud-provider-migration/"/>
-        <updated>2024-05-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Since as early as Kubernetes v1.7, the Kubernetes project has pursued the ambitious goal of removing built-in cloud provider integrations (KEP-2395).
-While these integrations were instrumental in Kubernetes' early development and growth, their removal was driven by two key factors:
-the growing complexity of maintaining native support for every cloud provider across millions of lines of Go code, and the desire to establish
-Kubernetes as a truly vendor-neutral platform.
-After many releases, we're thrilled to announce that all cloud provider integrations have been successfully migrated from the core Kubernetes repository to external plugins.
-In addition to achieving our initial objectives, we've also significantly streamlined Kubernetes by removing roughly 1.5 million lines of code and reduci…]]></summary>
-        <author>
-            <name>Kubernetes Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What has happened to cover versions of popular songs?]]></title>
-        <id>https://disassociated.com/?p=7624</id>
-        <link href="https://disassociated.com/what-happened-cover-versions-popular-songs/"/>
-        <updated>2024-05-19T21:00:17.000Z</updated>
-        <summary type="html"><![CDATA[Every week, Australian radio station Triple J, invites a band or musician to record a cover of a song, for their Like A Version show. Anything goes here. About two years ago, Sydney based Australian DJ Dave Winnel performed a cover of Africa, by Toto, not the sort of music you’d usually hear on the […]]]></summary>
-        <author>
-            <name>J</name>
         </author>
     </entry>
 </feed>
