@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-28T06:29:51.852Z</id>
+    <id>urn:2024-05-28T12:41:18.495Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-05-28T06:29:51.852Z</updated>
+    <updated>2024-05-28T12:41:18.495Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Reports of a death exaggerated]]></title>
+        <id>https://crookedtimber.org/?p=52718</id>
+        <link href="https://crookedtimber.org/2024/05/28/reports-of-a-death-exaggerated/"/>
+        <updated>2024-05-28T11:52:53.000Z</updated>
+        <summary type="html"><![CDATA[Here’s a metaphor. There’s an elderly person you’ve known for years.  Not a close relative, no, but someone whose career you’ve followed.  You feel tremendous respect for them, maybe some affection. They’re getting old and frail, but they’ve kept active.  Now and then you might see an article or something, and you’ll think, huh: still […]]]></summary>
+        <author>
+            <name>Doug Muir</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do Exchange‑Traded Products Improve Bitcoin Trading?]]></title>
+        <id>https://libertystreeteconomics.newyorkfed.org/?p=30080</id>
+        <link href="https://libertystreeteconomics.newyorkfed.org/2024/05/do-exchange-traded-products-improve-bitcoin-trading/"/>
+        <updated>2024-05-28T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Spot bitcoin exchange-traded products (ETPs) began trading in the U.S. on January 11, 2024. For investors, these ETPs purport improved liquidity and price efficiency, and more convenient access to bitcoin trading compared to other means of trading bitcoin in spot markets. Proponents also cite bitcoin holdings as a portfolio diversification opportunity due to historically low correlation with traditional financial securities. Others argue that bitcoin remains a speculative asset and that ETPs increase its interconnections with the traditional financial system. In this post, we examine the initial performance, trading costs, and price efficiency of spot bitcoin ETPs in the U.S.]]></summary>
+        <author>
+            <name>Ken Armstrong, Asani Sarkar, and Leslie Conner Warren</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links 5/28/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=272232</id>
+        <link href="https://www.nakedcapitalism.com/2024/05/links-5-28-2024.html"/>
+        <updated>2024-05-28T10:55:17.000Z</updated>
+        <summary type="html"><![CDATA[Our lyrical daily links: Greenpeace v. golden rice, fierce US weather, Biden v. Chinese EVs, Africa. Habeck v. German homeowners, outrage over Rafah strikes, Russia electronic war prowess, Georgia treason, nuclear war worries, Trump hung jury? moar AI, real estae woes]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are European Politicians Beginning to Worry About Their Own Possible Complicity in Israel’s War Crimes?]]></title>
+        <id>https://www.nakedcapitalism.com/?p=272263</id>
+        <link href="https://www.nakedcapitalism.com/2024/05/are-european-leaders-beginning-to-worry-about-their-complicity-in-israels-war-crimes.html"/>
+        <updated>2024-05-28T10:45:11.000Z</updated>
+        <summary type="html"><![CDATA["If you are encouraging a party to undertake a war crime you become complicit in that crime itself."]]></summary>
+        <author>
+            <name>Nick Corbishley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IM Doc on the Accelerating Decline in American Medicine]]></title>
+        <id>https://www.nakedcapitalism.com/?p=272299</id>
+        <link href="https://www.nakedcapitalism.com/2024/05/im-doc-on-the-accelerating-decline-in-american-medicine.html"/>
+        <updated>2024-05-28T09:55:35.000Z</updated>
+        <summary type="html"><![CDATA[On the rot in US medicine....and as you might expect, it started from the head.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lost in the Green Transition: Which Workers Win and Lose]]></title>
+        <id>https://www.nakedcapitalism.com/?p=272305</id>
+        <link href="https://www.nakedcapitalism.com/2024/05/lost-in-the-green-transition-which-workers-win-and-lose.html"/>
+        <updated>2024-05-28T09:40:27.000Z</updated>
+        <summary type="html"><![CDATA[Most green energy boosters skip over which workers will win and lose. This post addresses that oversight.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tariffs on China: Trump was Dumb, Biden is Dumber]]></title>
         <id>https://www.counterpunch.org/?p=323835</id>
@@ -163,6 +223,19 @@ What will cause prices to fall is higher interest rates. This is what has been h
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by jupp0r in "Should I use JWTs for authentication tokens?"]]></title>
+        <id>https://news.ycombinator.com/item?id=40493818</id>
+        <link href="https://news.ycombinator.com/item?id=40493818"/>
+        <updated>2024-05-27T19:31:09.000Z</updated>
+        <summary type="html"><![CDATA["Just use the normal session mechanism that comes with your web framework and that you were using before someone told you that Google uses jwt. It has stood the test of time and is probably fine."
+You don't need to be Facebook or Google to have more than one service in your infrastructure that needs to authenticate a user's existing session without forcing the user to log in again. Sharing the session across multiple services is its own distributed systems problem with numerous security implications to be aware of and bearer tokens might be a good alternative.
+If all you have is a single monolith web app that is the identity provider, makes all authentication decisions etc then yes, you don't need JWTs probably. There is a huge gap between that and being Google/Facebook.
+Apart from that, Google and Facebook don't even use JWTs between the browser and backends after the initial login but actually do have some sort of distributed session concept last time I checked.]]></summary>
+        <author>
+            <name>jupp0r</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AWS Weekly Roundup – LlamaIndex support for Amazon Neptune, force AWS CloudFormation stack deletion, and more (May 27, 2024)]]></title>
         <id>1bf9fbbce923c6324942d76ec84a66ab6cd7527a</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-llamaindex-support-for-amazon-neptune-force-aws-cloudformation-stack-deletion-and-more-may-27-2024/"/>
@@ -220,12 +293,27 @@ Whereas they just hook up an IR lamp and use the exact same lighting control pro
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[memories under the jambu tree]]></title>
+        <id>https://mgx.me/memories-under-the-jambu-tree/</id>
+        <link href="https://mgx.me/memories-under-the-jambu-tree/"/>
+        <updated>2024-05-27T16:55:03.811Z</updated>
+        <summary type="html"><![CDATA[Last night, as I watched a YouTube video, the backdrop featured white wax jambu trees in a field. Seeing those Jambu flowers took me back to my childhood visits to my friend J's home.
+During my childhood, I often went to J's place on weekends to play video games. Afterward, we would head to the nearby playground to play cricket with his local friends. When we returned, we would wash up using the outdoor tap next to a huge white wax jambu tree in J's backyard.
+During peak season, that tree was laden with jambu fruits. Being curious kids, J's aunt or mother would help us pick the fruits using a long-handled fruit picker. Mostly, his aunt assisted us, gently guiding us to the ripest jambus high in the tree branches.
+J's aunt was like family to me. Though older than our mothers, she had never married. She doted on her nephew J and always welcomed me, addressing me affectionately as "mone" which means son in Malayalam. I fondly remember weekends spent at their home, enjoying her delicious home-cooked meals.
+Fast forward several years after I moved away for college. J called me with devastating news - his beloved aunt had been diagnosed with cancer. I was in shock. During my next weekend visit home, my mother and I made a trip to see her. Sadly, not long after, the cancer took her life. Losing someone so full of life and love at a young age was deeply distressing.
+Last night, as I gazed at those white jambu flowers on my screen, memories of that gem of a lady and our carefree childhood days flooded me with profound nostalgia and sorrow. Jambus will always be a poignant reminder of happier times and that kind soul who left us too soon.]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Happy Memorial Day]]></title>
         <id>https://feeds.feedblitz.com/~/897795989/0/themoneyillusion~Happy-Memorial-Day/</id>
         <link href="https://feeds.feedblitz.com/~/897795989/0/themoneyillusion~Happy-Memorial-Day/"/>
         <updated>2024-05-27T16:34:06.000Z</updated>
         <summary type="html"><![CDATA[Some messages from our current and future leaders:<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/897795989/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/897795989/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f05%2fScreen-Shot-2024-05-27-at-9.18.39-AM-1024x875.png"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/897795989/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/897795989/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/897795989/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/happy-memorial-day/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/happy-memorial-day/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&nbsp;
-<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comment-6835895">Peter, did you read your own message? You are defending Trump's ...</a> <i>by Kenneth Duda</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comment-6835878">@Peter:   Classy. Happy Memorial Day to you too.</a> <i>by msgkings</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comment-6835877">I would hope that Biden didn't write the message and doesn't ...</a> <i>by Aram</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comment-6835842">Being a POW doesn't mean you are a hero, in fact it generally ...</a> <i>by Peter</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comment-6835832">@Ryan:   Well we do know Trump wrote his. LOL that you support ...</a> <i>by msgkings</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comments">Plus 3 more...</a></li></ul></div>&#160;</div>]]></summary>
+<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comment-6836027">Everyone, It's amazing how many people cannot recognize when a ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comment-6836018">First of all, Biden didn't write that. His handlers did. ...</a> <i>by Sara</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comment-6835895">Peter, did you read your own message? You are defending Trump's ...</a> <i>by Kenneth Duda</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comment-6835878">@Peter:   Classy. Happy Memorial Day to you too.</a> <i>by msgkings</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comment-6835877">I would hope that Biden didn't write the message and doesn't ...</a> <i>by Aram</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/happy-memorial-day/#comments">Plus 5 more...</a></li></ul></div>&#160;</div>]]></summary>
         <author>
             <name>The Money Illusion</name>
         </author>
@@ -236,7 +324,7 @@ Whereas they just hook up an IR lamp and use the exact same lighting control pro
         <link href="https://feeds.feedblitz.com/~/897795596/0/themoneyillusion~The-new-NIMBY-Trump/"/>
         <updated>2024-05-27T16:33:51.000Z</updated>
         <summary type="html"><![CDATA[In the upcoming presidential election, the issues really don&#8217;t matter at all. Nobody in their right mind believes a thing that Trump says, so it&#8217;s all guesswork as to what he will do in office. And even if I agreed with Trump 100% on &#8220;the issues&#8221; (I don&#8217;t) I&#8217;d still vote against him because he&#8217;s [&#8230;]<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/897795596/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/897795596/themoneyillusion,"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/897795596/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/897795596/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/897795596/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/the-new-nimby-trump/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&nbsp;
-<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comment-6835894">'And even if I agreed with Trump 100% on “the issues” (I ...</a> <i>by Tacticus</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comment-6835876">A year ago he said he wanted the death penalty for drug ...</a> <i>by Will</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comment-6835818">Is it difficult to understand that right wing anti-solarites ...</a> <i>by Richard A.</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comment-6835807">We really don't need to put apartments in all single family ...</a> <i>by Bobster</i></ul></div>&#160;</div>]]></summary>
+<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comment-6836030">Bobster, You said:   “Zoning isn’t even the binding ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comment-6836012">Nobody in their “right mind” believes anything he says. In ...</a> <i>by Sara</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comment-6835894">'And even if I agreed with Trump 100% on “the issues” (I ...</a> <i>by Tacticus</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comment-6835876">A year ago he said he wanted the death penalty for drug ...</a> <i>by Will</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comment-6835818">Is it difficult to understand that right wing anti-solarites ...</a> <i>by Richard A.</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/the-new-nimby-trump/#comment-6835807">We really don't need to put apartments in all single family ...</a> <i>by Bobster</i></ul></div>&#160;</div>]]></summary>
         <author>
             <name>The Money Illusion</name>
         </author>
@@ -247,7 +335,7 @@ Whereas they just hook up an IR lamp and use the exact same lighting control pro
         <link href="https://feeds.feedblitz.com/~/897795599/0/themoneyillusion~Trust-but-verify/"/>
         <updated>2024-05-27T16:33:33.000Z</updated>
         <summary type="html"><![CDATA[In a recent post, Tyler Cowen offers some views on a wide variety of issues. He begins with some reassuring remarks about the future of American democracy, and then offers some highly pessimistic remarks about Germany: Meanwhile, being reasonable with your constituents is overrated. Look at Germany, which has non-ideological, non-polarized politics. They&#8217;ve gotten every [&#8230;]<div style="clear:both;padding-top:0.2em;"><a title="Like on Facebook" href="https://feeds.feedblitz.com/_/28/897795599/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/fblike20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Pin it!" href="https://feeds.feedblitz.com/_/29/897795599/themoneyillusion,https%3a%2f%2fwww.themoneyillusion.com%2fwp-content%2fuploads%2f2024%2f05%2fScreen-Shot-2024-05-19-at-9.08.07-AM-1024x476.png"><img height="20" src="https://assets.feedblitz.com/i/pinterest20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Post to X.com" href="https://feeds.feedblitz.com/_/24/897795599/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/x.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by email" href="https://feeds.feedblitz.com/_/19/897795599/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/email20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a title="Subscribe by RSS" href="https://feeds.feedblitz.com/_/20/897795599/themoneyillusion"><img height="20" src="https://assets.feedblitz.com/i/rss20.png" style="border:0;margin:0;padding:0;"></a>&#160;<a rel="NOFOLLOW" title="View Comments" href="https://www.themoneyillusion.com/trust-but-verify/#comments"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/comments20.png"></a>&#160;<a title="Follow Comments via RSS" href="https://www.themoneyillusion.com/trust-but-verify/feed/atom/"><img height="20" style="border:0;margin:0;padding:0;" src="https://assets.feedblitz.com/i/commentsrss20.png"></a>&nbsp;
-<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comment-6835928">“America has a bad habit of not realizing when other ...</a> <i>by Robert Benkeser</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comment-6835873">The sanctions on Russia are *not* draconian. They’re being ...</a> <i>by Robert Benkeser</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comment-6835871">“1. Russia would easily defeat Ukraine within a few weeks. ...</a> <i>by Eharding</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comment-6835825">On the German military thing, he's not wrong. Perun (just ...</a> <i>by Peter</i></ul></div>&#160;</div>]]></summary>
+<div style="clear:left;"><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comments"><h3>Comments</h3></a><ul><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comment-6836170">Robert,   sanctions are beeing weakly enforced, because it is ...</a> <i>by Viennacapitalist</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comment-6836160">Tyler's analyisis is wrong on several counts,   The ...</a> <i>by Viennacapitalist</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comment-6836118">This isn't a case of those “experts”, this is a case of ...</a> <i>by Peter</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comment-6836032">Peter, Yeah, those “experts” have been wrong about ...</a> <i>by ssumner</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comment-6835928">“America has a bad habit of not realizing when other ...</a> <i>by Robert Benkeser</i><li><a rel="NOFOLLOW" href="https://www.themoneyillusion.com/trust-but-verify/#comments">Plus 3 more...</a></li></ul></div>&#160;</div>]]></summary>
         <author>
             <name>The Money Illusion</name>
         </author>
@@ -457,19 +545,6 @@ I am prone to the same fallacy: when I learn how to use a hammer, everything loo
         <updated>2024-05-27T10:55:09.000Z</updated>
         <author>
             <name>Conor Gallagher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by davedx in "Big data is dead (2023)"]]></title>
-        <id>https://news.ycombinator.com/item?id=40489537</id>
-        <link href="https://news.ycombinator.com/item?id=40489537"/>
-        <updated>2024-05-27T10:50:08.000Z</updated>
-        <summary type="html"><![CDATA[> 2) Plan for success
-95% of businesses never become unicorns, but that's the goal for most (for the 5% which do). If you don't plan for it, you won't make it.
-That's exactly what every architecture astronaut everywhere says. In my experience it's completely untrue, and actually "planning for success" more often than not causes huge drags on productivity, and even more important for startups, on agility. Because people never just make plans, they usually implement too.
-Plan for the next 3 months and you'll be much more agile and productive. Your startup will never become a unicorn if you can't execute.]]></summary>
-        <author>
-            <name>davedx</name>
         </author>
     </entry>
     <entry>
@@ -724,23 +799,6 @@ Ah, finally, another puzzlement from my childhood explained.]]></summary>
         <summary type="html"><![CDATA[ASL? Another artefact of the early days of the (mainstream) internet will soon be no more. Instant messaging service, ICQ, launched in 1996, will cease operating, as of Wednesday 26 June 2024. ICQ (I seek you, get it?) allowed users to chat to pretty much anyone who let them. I can’t remember when I stopped […]]]></summary>
         <author>
             <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[all the bells and whistles]]></title>
-        <id>https://itskristin.bearblog.dev/all-the-bells-and-whistles/</id>
-        <link href="https://itskristin.bearblog.dev/all-the-bells-and-whistles/"/>
-        <updated>2024-05-26T19:34:54.498Z</updated>
-        <summary type="html"><![CDATA[guyssssss... look at the blog!!!! we got a newsletter now! it's just for me send out notifs about new blog posts and some other stuff, probably more personal stuff for my buddies :p also, check out the reply via email link at the ends of my posts.
-I've been looking around this website as much as i can (very difficult btw) to find interesting blog layouts and generally read the room and determine the culture bearbloggers have going on here. I'll be honest, and sorry to offend if I do, but this seems like a very serious website... imma keep doing what I do on here of course, but a lot of the posts I've read have a very sterile voice to them. I hope more friends come on here and we can liven up the space a bit more. let's smile and laugh you guys <3
-I'm still enjoying many of the blogs on here, especially those ran by women. not to be reese witherspoon "women's stories matter. they just matter." but women's stories really do matter and I really enjoy reading about other women's lives on this website. blogging gives a space to introspect and reflect on our lives, and I enjoy hearing other women's voices and beliefs. I'm hoping to hear more queer voices, too.
-to my dear friends who actually read my blog, I hope you guys will come on here one day, too. I think you're all so wonderful anyway, and I love to read more from you guys.
-thank you to all the now-strangers that are also reading this blog, I really appreciate you and the grace you've given me to feel more welcomed on this website. if you like it here, feel free to subscribe to the newsletter <3
-love love love you guys! byeeee~
-Reply via email
-subscribe to the newsletter so you never have to miss a post ᯓ★]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -1111,36 +1169,6 @@ The post Three Strikes appeared first on CounterPunch.org.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Links 5/25/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=272122</id>
-        <link href="https://www.nakedcapitalism.com/2024/05/links-5-25-2024.html"/>
-        <updated>2024-05-25T10:55:53.000Z</updated>
-        <summary type="html"><![CDATA[Our bouncy daily links: child artist, ICJ v. Israel Rafah offensive, Covid causing heart disease rise? Germany depends on Chinese arms, UK snap elections, Macron New Caledonia failing, Trump underwhelming Bronx rally, voters reject Biden econ happy talk, childbirth/abortion debate, moar social media censorship]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remember Headlines 2 Weeks Ago, Labor Market “Suddenly” Weakens as Unemployment Claims “Spike”: It Just Got Unwound]]></title>
-        <id>https://www.nakedcapitalism.com/?p=272171</id>
-        <link href="https://www.nakedcapitalism.com/2024/05/remember-headlines-2-weeks-ago-labor-market-suddenly-weakens-as-unemployment-claims-spike-it-just-got-unwound.html"/>
-        <updated>2024-05-25T07:38:43.000Z</updated>
-        <summary type="html"><![CDATA[A wee unpacking of unemployment data to show how Fed rate cut cheerleaders are still ahead of themselves]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[U.S. Remains Painfully Dependent on China for Silicon and Solar Panels]]></title>
-        <id>https://www.nakedcapitalism.com/?p=272168</id>
-        <link href="https://www.nakedcapitalism.com/2024/05/u-s-remains-painfully-dependent-on-china-for-silicon-and-solar-panels.html"/>
-        <updated>2024-05-25T06:58:07.000Z</updated>
-        <summary type="html"><![CDATA[Yet another own goal in the US economic war against China. We chose to make ourselves dependent and don't like where we are.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Are you milking the basics anon?]]></title>
         <id>https://sankalp.bearblog.dev/are-you-milking-the-basics-anon/</id>
         <link href="https://sankalp.bearblog.dev/are-you-milking-the-basics-anon/"/>
@@ -1226,16 +1254,6 @@ People didn't stop working on this in 1989 - they realised they can make lots of
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2:00PM Water Cooler 5/24/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=272149</id>
-        <link href="https://www.nakedcapitalism.com/2024/05/200pm-water-cooler-5-24-2024.html"/>
-        <updated>2024-05-24T18:00:30.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics, the Bragg trial winds down. imperceptible skin sensors, Hokusai's  Great Wave ~]]></summary>
-        <author>
-            <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Tom Hazeldine: &ldquo;Favoured Nation&rdquo;]]></title>
         <id>https://newleftreview.org/sidecar/posts/favoured-nation</id>
         <link href="https://newleftreview.org/sidecar/posts/favoured-nation"/>
@@ -1265,19 +1283,6 @@ What if your conviction is that penguins can fly, they only need the right motiv
 And your ego attaches itself tightly to your penguin motivator persona. So anyone trying to challenge you is attacking you and your community. So you viciously attack this person back. Congratulations. You are now in a toxic pointless echo chamber.
 The only solution is selecting convictions using first principles. Employ the scientific method. Be open to being challenged as long as the challenge comes through solid first principles thinking as well. All the while keeping the ego in check.
 So in essence develop an egoless conviction. Be open to being challenged. Don't end up in pointless toxic echo chambers.]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[my favorite restaurant closed]]></title>
-        <id>https://itskristin.bearblog.dev/my-favorite-restaurant-closed/</id>
-        <link href="https://itskristin.bearblog.dev/my-favorite-restaurant-closed/"/>
-        <updated>2024-05-24T07:45:34.975Z</updated>
-        <summary type="html"><![CDATA[i'm watching the bear and sydney said something along the lines of "it's hard to work in a restaurant and not lose your mind."
-when you have a neighborhood place, somewhere that's been a cornerstone of your community, it is like heartbreak to see it close. The Press in Claremont, California is, and has, been my favorite restaurant for years. it's where my family would go to eat before I was born, where my teenage cousin revealed to them that she was pregnant with my cousins, where my parents would go on date nights before I came around. and now it's gone.
-they closed it in 2020 with lockdown, and their website has said they were coming back soon for months, for years. I'm watching the bear
-and sydney's risotto is a dish they would've had as a special and I'm thinking of them. I'm thinking …]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
@@ -1579,71 +1584,6 @@ Source: Retrieved on 05/21/24 from https://www.instagram.com/p/C7QQwJQtWsf/
  What’s peculiar about this season of self-generated and self-organized…]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Productivity]]></title>
-        <id>https://kartikay.bearblog.dev/productivity/</id>
-        <link href="https://kartikay.bearblog.dev/productivity/"/>
-        <updated>2024-05-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The fundamental selling point of all productivity advice is getting more done in less time. It's a good hook. I have over the years consumed a lot of content around productivity. It took me a long time to realise I was making a fundamental mistake.
-I assumed I would stumble upon some specific protocol that I can follow perfectly and my life is set. So I have tried it all. All kinds of wake-sleep times. Journaling. All kinds of productivity apps and timing techniques. Trying to get as much damn sunlight in my little eye holes within x minutes of waking up(yes, I had a Huberman era). Nothing worked.
-The fundamental mistake in all of this is I thought of my mind as some unmotivated child that I could be strict with and discipline into getting stuff done. But if you have ever taught young children( I have) you will know that discipline and fear only get you so far. Getting them interested in the topic changes the game.
-This realisation drastically changed my life. I can get my mind interested in doing things through self-programming. Everyone is different on how to do this. Many of these routines and techniques that we hear about are just outcomes of effective self-programming unique to that individual. Each of us needs to find our unique way.
-How to program your mind? You can introspect and the documentation of your mind will reveal itself to you. Also, there are some ways you can make the mind more malleable to programming. I have given a framework I follow for this in my 'Hacking Hardwork' post.
-There is no golden technique that will save you. Only you can save yourself.]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My 2001: A Space Odyssey remake joke post trained Google AI?]]></title>
-        <id>https://disassociated.com/?p=7631</id>
-        <link href="https://disassociated.com/2001-a-space-odyssey-remake-joke-post-trained-google-ai/"/>
-        <updated>2024-05-21T21:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Two and bit years ago, I spotted an entry on Fandom about a “remake” of the Stanley Kubrick sci-fi classic, 2001: A Space Odyssey. Being a 2001 fan, I naturally wrote about it. I’ve had a lot of fun with the post ever since. People stumble upon it every now and again, and link to […]]]></summary>
-        <author>
-            <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[She is the Earth wins NSW Premiers Literary Awards book of year 2024]]></title>
-        <id>https://disassociated.com/?p=7637</id>
-        <link href="https://disassociated.com/she-is-the-earth-wins-nsw-premiers-literary-awards-book-year-2024/"/>
-        <updated>2024-05-21T20:30:32.000Z</updated>
-        <summary type="html"><![CDATA[She is the Earth, a work of verse, written by Yankunytjatjara (South Australia) poet Ali Cobby Eckermann, was named the NSW Premiers Literary Awards book of the year, on Monday 20 May 2024. Award judges were unstinting in their praise of Eckermann’s writing: She is the Earth is a stunning verse novel that takes the […]]]></summary>
-        <author>
-            <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An indie guide to the IndieWeb, by Wing Pang]]></title>
-        <id>https://disassociated.com/?p=7641</id>
-        <link href="https://disassociated.com/indie-guide-indieweb-wing-pang/"/>
-        <updated>2024-05-21T20:00:07.000Z</updated>
-        <summary type="html"><![CDATA[Sydney based product designer Wing Pang, whom I wrote about last week, has published a comprehensive guide to the IndieWeb. Coming from a design background, joining the IndieWeb was an incredibly exciting and rewarding, yet maze-like journey. To be honest, almost every step of the way was like a leap! But I’ve learnt so much […]]]></summary>
-        <author>
-            <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ensuring fair bandwidth allocation for Amazon EKS Workloads]]></title>
-        <id>6094b32da7c2d5cacc202444ec0b024d73ee06c4</id>
-        <link href="https://aws.amazon.com/blogs/containers/ensuring-fair-bandwidth-allocation-for-amazon-eks-workloads/"/>
-        <updated>2024-05-21T19:56:45.000Z</updated>
-        <summary type="html"><![CDATA[Independent Service Vendor (ISV) users often offer their end-user solutions hosted on a multi-tenant architecture to reduce cost and operational management. However, this approach can lead Kubernetes clusters to resource exhaustion or network starvation issues that impact neighboring workloads. By default, Kubernetes provides capabilities to enforce resource availability such as CPU and memory to prevent […]]]></summary>
-        <author>
-            <name>Sebastian Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blog of the .Day, bringing back the blogosphere one blog at a time]]></title>
-        <id>https://disassociated.com/?p=7643</id>
-        <link href="https://disassociated.com/blog-of-the-day-bringing-back-blogosphere-one-blog-time/"/>
-        <updated>2024-05-21T19:30:32.000Z</updated>
-        <summary type="html"><![CDATA[Blog of the .Day, yes, styled as Blog of the .Day, a collaboration between James of James’ Coffee Blog, and Joe Crawford, will highlight a new blog every day. Aside from casting the spotlight daily on a blog, another goal of the project is to bring the term blogosphere back into popular usage. For those […]]]></summary>
-        <author>
-            <name>disassociated.com</name>
         </author>
     </entry>
 </feed>
