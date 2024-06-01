@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-01T12:38:45.402Z</id>
+    <id>urn:2024-06-01T18:27:53.483Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-06-01T12:38:45.402Z</updated>
+    <updated>2024-06-01T18:27:53.483Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Mexico: from AMLO to Sheinbaum]]></title>
+        <id>https://www.cadtm.org/Mexico-from-AMLO-to-Sheinbaum</id>
+        <link href="https://www.cadtm.org/Mexico-from-AMLO-to-Sheinbaum"/>
+        <updated>2024-06-01T16:07:44.000Z</updated>
+        <summary type="html"><![CDATA[Mexico has its general election this Sunday. With a population of over 130 million, Mexico is among the 15 largest economies in the world and the second-largest economy in Latin America. 
+English
+
+/ 
+Mexico, 
+Private debt, 
+Inequality, 
+Precarity]]></summary>
+        <author>
+            <name>Michael Roberts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It’s Coming From Within the House]]></title>
+        <id>https://www.counterpunch.org/?p=324271</id>
+        <link href="https://www.counterpunch.org/2024/06/01/324271/"/>
+        <updated>2024-06-01T14:34:45.000Z</updated>
+        <summary type="html"><![CDATA[The ruins of Jabalia refugee camp, after the second invasion by the IDF since October. Photo: UNRWA.
+On Tuesday, Stacy Gilbert, a 20-year veteran of the State Department, resigned in protest, after charging that Biden’s State Department falsified a report on whether Israel was restricting the flow of humanitarian goods into Gaza. Gilbert had been one of the Department’s experts helping to assemble the NSM-20 report to Congress assessing Israel’s compliance with US law in its military operations in Gaza. But she charges the report was removed from the experts before it was completed and its conclusions adulterated by the leadership of the department.
+here or subscribe here.
+If you are logged in but can't read CP+ articles, check the status of your access here
+In order to read CP+ articles, your web browser must be set to accept cookies.		    
+
+		 More
+The post It’s Coming From Within the House appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Jeffrey St. Clair</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Links 6/1/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=272472</id>
@@ -26,6 +60,18 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by tanepiper in "60 kHz (2022)"]]></title>
+        <id>https://news.ycombinator.com/item?id=40543669</id>
+        <link href="https://news.ycombinator.com/item?id=40543669"/>
+        <updated>2024-06-01T07:31:25.000Z</updated>
+        <summary type="html"><![CDATA[> I’m not particularly patriotic, but this kind of thing feels particularly American.
+Maybe that tinge of patriotism is why Americans don't even bother to see if something isn't an American invention - https://en.wikipedia.org/wiki/Time_from_NPL_(MSF) - they'll just claim it anyways since they barely read outside their borders.
+Radio 4 would also like a word: https://en.wikipedia.org/wiki/Greenwich_Time_Signal]]></summary>
+        <author>
+            <name>tanepiper</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Death and the Cinema]]></title>
         <id>https://www.nakedcapitalism.com/?p=272587</id>
         <link href="https://www.nakedcapitalism.com/2024/06/death-and-the-cinema.html"/>
@@ -36,16 +82,15 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by hangtime79 in "Snowflake breach: Hacker confirms access through infostealer infection"]]></title>
-        <id>https://news.ycombinator.com/item?id=40538632</id>
-        <link href="https://news.ycombinator.com/item?id=40538632"/>
-        <updated>2024-05-31T18:23:13.000Z</updated>
-        <summary type="html"><![CDATA[I don't work for Snowflake but I spend a lot of time working with them and their SE organisation.
-When working and building demos with clients, SEs create demonstration environments on the same $400 Snowflake demo accounts anyone can. To build demos the client would grant access to that SE. The SE would take some of the data to the demo environment and then work on it. This is further confirmed by the name of the environment Hudson Rock just published.
-As far as I can tell, this is a process issue of clients not expiring an ID of someone who they were sharing data with and a threat actor swiping credentials. There is nothing novel about this as there is no exploit.
-Also congrats Hudson Rock you just outed a person who was taken due to having malware on their computer. This is no different then if you gave a contractor credentials and they had those swiped. Dicks.]]></summary>
+        <title type="html"><![CDATA[New comment by zachmu in "Go: Sentinel errors and errors.Is() slow your code down by 3000%"]]></title>
+        <id>https://news.ycombinator.com/item?id=40542035</id>
+        <link href="https://news.ycombinator.com/item?id=40542035"/>
+        <updated>2024-06-01T01:21:55.000Z</updated>
+        <summary type="html"><![CDATA[Blog author here with a regretful correction. This result is not accurate, mea culpa. The headline should read: errors.Is() is 500% slower.
+Basically: the critical functions in the benchmark are small enough they were being inlined by the compiler, which means it's possible for the compiler to further optimize the loop to avoid all comparisons in some cases, producing an inaccurate result for some of the benchmarks. You can fix this by adding noinline directives to the methods.
+I'll be publishing an update to the article and a post-mortem on how this slipped past review. The rank ordering of techniques in the article is unchanged, but the magnitude of the difference is not nearly so large.]]></summary>
         <author>
-            <name>hangtime79</name>
+            <name>zachmu</name>
         </author>
     </entry>
     <entry>
@@ -265,6 +310,18 @@ Follow: email · rss]]></summary>
         <summary type="html"><![CDATA[Trump was convicted on all 34 counts in his New York "hush money" trial. What next?]]></summary>
         <author>
             <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[toast button!!! 🥐🥐🥐]]></title>
+        <id>https://valentine.bearblog.dev/toast-button/</id>
+        <link href="https://valentine.bearblog.dev/toast-button/"/>
+        <updated>2024-05-31T08:50:39.130Z</updated>
+        <summary type="html"><![CDATA[I've finally gotten around to messing with the blog's CSS! I found this fantastic toast button by A Functioning Blog, which is everything I've ever wanted: the opportunity to make the toast button actual toast. Well, a croissant, in this case. Please have fun with it. Thank you so much, A Functioning Blog.
+I've also been thinking about messing with the font on this site. I love serif fonts as much as the next guy, but I might go and change it to a sans serif for better readability. And the colors. I love the color of the blog as it is right now (off-white backgrounds hurt less than pure white!), but accent colors...
+While I'm deciding, please enjoy the croissant button. It's given me more serotonin than it should.]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -631,17 +688,6 @@ The post Irish American Punk Musician Mat Callahan Takes Deep Dive into Black Am
 The post Animals Self-Medicate With Plants, Behavior People Have Observed and Emulated for Millennia appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Adrienne Mayor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Donald Trump and the Uses of Violence]]></title>
-        <id>https://www.counterpunch.org/?p=324171</id>
-        <link href="https://www.counterpunch.org/2024/05/31/donald-trump-and-the-uses-of-violence/"/>
-        <updated>2024-05-31T05:36:20.000Z</updated>
-        <summary type="html"><![CDATA[In a wide-ranging interview with a Time Magazine reporter this past April, Donald Trump said he expected victory in the coming presidential election, but he wouldn’t rule out the possibility of political violence if victory didn’t materialize. As he explained, “I don’t think we’re going to have that [political violence]. I think we’re going to  More
-The post Donald Trump and the Uses of Violence appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>Andrew Moss</name>
         </author>
     </entry>
     <entry>
@@ -1072,19 +1118,6 @@ Probably because the "Sam Altman is an amoral, power hungry mastermind who was r
         <summary type="html"><![CDATA[Something that’s bothered me for a while is the relationship between politics and friendship. Not just close friendship but also people who you are happy to hang out with socially. Some topics – I’d include Brexit, trans rights and Israel/Palestine – are especially divisive in that people who disagree on these seem to find it […]]]></summary>
         <author>
             <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by zellyn in "How Waymo outlasted the competition and made robo-taxis a real business"]]></title>
-        <id>https://news.ycombinator.com/item?id=40520939</id>
-        <link href="https://news.ycombinator.com/item?id=40520939"/>
-        <updated>2024-05-30T06:58:33.000Z</updated>
-        <summary type="html"><![CDATA[This seems silly. It’s been obvious even to casual observers like myself for years that Waymo/Google was one of the only groups taking the problem seriously and trying to actually solve it, as opposed to pretending you could add self-driving with just cameras in an over-the-air update (Tesla), or trying to move fast and break things (Uber), or pretending you could gradually improve lane-keeping all the way into autonomous driving (car manufacturers). That’s why it’s working for them. (IIUC, Cruise has pretty much also always been legit?)
-Don’t even get me started on the “didn’t take psych 102: Attention and Memory”-level cluelessness required to believe a human can safely pay attention well enough in a vehicle that reliably tricks you into believing it’s autonomous to take over in the split seconds before a disaster…
-I find it hard to believe that the Tesla and Auto Manufacturer positions aren’t knowingly deceptive. I mean, what are they going to say? “It’s too hard so we’re just waiting for Waymo or Cruise to license their tech once it works”?
-I’m gonna stop here before I start mocking geohot… I seriously can’t believe the journalists who wrote those early stories were willing to risk their lives like that…]]></summary>
-        <author>
-            <name>zellyn</name>
         </author>
     </entry>
     <entry>
