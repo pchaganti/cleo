@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-01T06:29:00.428Z</id>
+    <id>urn:2024-06-01T12:38:45.402Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-06-01T06:29:00.428Z</updated>
+    <updated>2024-06-01T12:38:45.402Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Links 6/1/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=272472</id>
+        <link href="https://www.nakedcapitalism.com/2024/06/links-6-1-2024.html"/>
+        <updated>2024-06-01T10:55:22.000Z</updated>
+        <summary type="html"><![CDATA[Our truculent daily links: Christianity as a trip? N95s validated, more China-Philippines dustupery, France downgraded, Biden says Hamas defeated, US backing to Ukraine debated, more Raisi death speculation, McConnell + R billionaries back Trump, new Boeing suit, why consumers are gloomy]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Centers Set to Consume 9% of U.S. Electricity by 2030]]></title>
+        <id>https://www.nakedcapitalism.com/?p=272589</id>
+        <link href="https://www.nakedcapitalism.com/2024/06/data-centers-set-to-consume-9-of-u-s-electricity-by-2030.html"/>
+        <updated>2024-06-01T10:35:46.000Z</updated>
+        <summary type="html"><![CDATA[Electricity demand is set to increase markedly thanks to uses like AI and cryptocurrencies.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Death and the Cinema]]></title>
         <id>https://www.nakedcapitalism.com/?p=272587</id>
@@ -13,6 +33,19 @@
         <summary type="html"><![CDATA[A discussion of film, even films about death, will hopefully come as a distraction from turbulent news.]]></summary>
         <author>
             <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by hangtime79 in "Snowflake breach: Hacker confirms access through infostealer infection"]]></title>
+        <id>https://news.ycombinator.com/item?id=40538632</id>
+        <link href="https://news.ycombinator.com/item?id=40538632"/>
+        <updated>2024-05-31T18:23:13.000Z</updated>
+        <summary type="html"><![CDATA[I don't work for Snowflake but I spend a lot of time working with them and their SE organisation.
+When working and building demos with clients, SEs create demonstration environments on the same $400 Snowflake demo accounts anyone can. To build demos the client would grant access to that SE. The SE would take some of the data to the demo environment and then work on it. This is further confirmed by the name of the environment Hudson Rock just published.
+As far as I can tell, this is a process issue of clients not expiring an ID of someone who they were sharing data with and a threat actor swiping credentials. There is nothing novel about this as there is no exploit.
+Also congrats Hudson Rock you just outed a person who was taken due to having malware on their computer. This is no different then if you gave a contractor credentials and they had those swiped. Dicks.]]></summary>
+        <author>
+            <name>hangtime79</name>
         </author>
     </entry>
     <entry>
@@ -41,6 +74,19 @@ So, see you again tomorrow with an ordinary thought and a bunch of words!]]></su
         <summary type="html"><![CDATA[94% of Americans make less than $200k a year. Not everything is meant for "software engineers in California".]]></summary>
         <author>
             <name>dmd</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by Anthony-G in "Spotify won't open-source Car Thing, but starts refund process"]]></title>
+        <id>https://news.ycombinator.com/item?id=40538360</id>
+        <link href="https://news.ycombinator.com/item?id=40538360"/>
+        <updated>2024-05-31T18:01:11.000Z</updated>
+        <summary type="html"><![CDATA[When I read stories about companies like Spotify creating e-waste like this, I think it’s worth pointing out that commercial companies don’t have to behave this way.
+As a counter-point, back around 2008, I purchased two Squeezebox music players from Logitech (digital music players that Logitech had acquired from Slim Devices: high quality DACs that supported every audio format, gap-less playback, synchronised playing on multiple devices, and were very configurable).
+They discontinued these products four years later (2012) but kept their mysqueezebox.com online service running up until the start of this year (2024). They kept the user forums running and archived the knowledge-base wiki. Most importantly, they open-sourced the stand-alone server software for running a local Squeezebox server and continued to pay the main developer to maintain the project for more than a decade after they discontinued the products. He’s still the lead developer and project maintainer of the server software, now called Lyrion Music Server: https://lyrion.org/
+Correction: the stand-alone server software was always open source, specifically GPLv2. In addition to the audio quality and features, that was one of the selling points for me. It being written in Perl, meant that it was both cross-platform and easy to run on a GNU/Linux system.]]></summary>
+        <author>
+            <name>Anthony-G</name>
         </author>
     </entry>
     <entry>
@@ -143,7 +189,7 @@ Pika
 Scribbles
 They are all fantastic! If you're on one of them today and find it to be the right blogging tool for you, congratulations. You made a great choice!
 For me, Bear ended up being the winner. I will write a separate post on this later, but basically, it was the combination of simplicity and customization that won me over forever.
-When I say "forever," I mean for the rest of my life. I decided to upgrade to the lifetime plan. Partly because it's a great deal, but also to keep me from looking elsewhere. This is my home, and I'm very happy to have found my way back.
+When I say "forever," I mean “for the rest of my life”. I decided to upgrade to the lifetime plan. Partly because it's a great deal, but also to keep me from looking elsewhere. This is my home, and I'm very happy to have found my way back.
 I look forward to writing many more posts, but more importantly, I look forward to reading what other "Bears" publish in this beautiful community.
 Happy blogging!
 Follow: email · rss]]></summary>
@@ -855,16 +901,6 @@ The difference is important, and later editions of the Pragmatic Programmer call
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Global South Suffering Due to Powerful Nations’ Elite-Serving Policies]]></title>
-        <id>https://www.nakedcapitalism.com/?p=272445</id>
-        <link href="https://www.nakedcapitalism.com/2024/05/global-south-suffering-due-to-powerful-nations-elite-serving-policies.html"/>
-        <updated>2024-05-30T13:55:22.000Z</updated>
-        <summary type="html"><![CDATA[The World Bank projects the worst slowdown in over four decades in 2024. This is mainly due to Western powers’ contractionary policies]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by llm_trw in "I got tired of hearing that YC fired Sam, so here's what actually happened"]]></title>
         <id>https://news.ycombinator.com/item?id=40523177</id>
         <link href="https://news.ycombinator.com/item?id=40523177"/>
@@ -1004,16 +1040,6 @@ I don't think this tweet by Paul is weird at all.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Links 5/30/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=272420</id>
-        <link href="https://www.nakedcapitalism.com/2024/05/links-5-29-2024-2.html"/>
-        <updated>2024-05-30T10:58:30.000Z</updated>
-        <summary type="html"><![CDATA[Today's warbling links]]></summary>
-        <author>
-            <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by atsjie in "After 6 years, I'm over GraphQL"]]></title>
         <id>https://news.ycombinator.com/item?id=40521939</id>
         <link href="https://news.ycombinator.com/item?id=40521939"/>
@@ -1084,18 +1110,6 @@ I'm alive. That's something.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by khazhoux in "Google releases smart watch for kids"]]></title>
-        <id>https://news.ycombinator.com/item?id=40519047</id>
-        <link href="https://news.ycombinator.com/item?id=40519047"/>
-        <updated>2024-05-30T01:09:38.000Z</updated>
-        <summary type="html"><![CDATA[> This constant tracking of kids is unnecessary and dangerous. Generations of kids survived without their parents needing to know their location at all times.
-This topic is always so alarmist.  I have kids and a spouse.  We all have Find My and Location Sharing on our phones.  I don't FrEaK oUt that my kids are going to die if I'm not tracking their every movement.  But it's nice to glance at Find My app and see if the kids are still hanging out at Starbucks or they got to school on time.  It's convenient to see which corner of the park they're at when I need to go pick them up.  I can see if my wife's still at Whole Foods and send her a message to pick up baru nuts.  They can see if I'm still at work or headed home.
-This idea of helicopter parents vs free-range glory is a false dichotomy.]]></summary>
-        <author>
-            <name>khazhoux</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[I love bearblog]]></title>
         <id>https://stern.bearblog.dev/i-love-bearblog/</id>
         <link href="https://stern.bearblog.dev/i-love-bearblog/"/>
@@ -1151,20 +1165,6 @@ Last Sunday I went on an overnight staycation with my friends at a small villa o
         <summary type="html"><![CDATA[Smartwatches may be an overlooked answer to the kid phone conundrum. Watches have the communication and location tracking that parents demand without the distraction of phones.]]></summary>
         <author>
             <name>wmf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by shooker435 in "I sold TinyPilot, my first successful business"]]></title>
-        <id>https://news.ycombinator.com/item?id=40515340</id>
-        <link href="https://news.ycombinator.com/item?id=40515340"/>
-        <updated>2024-05-29T18:45:41.000Z</updated>
-        <summary type="html"><![CDATA[This mindset assumes that the only measure of success is monetary. If he left Google to try and get richer than staying at Google, then sure, he probably lost.
-However, he kept trying again before job hunting or returning to big tech. This tells me the monetary factor was smaller than something else.
-You mention the underrated educational experience in your last sentence, but there's so much more than that. He was probably never worried about his autonomy, being laid off, working with (or for) people he didn't want to work with, corporate politics, or anything else corporate bureaucracy introduces. This likely freed up his brain to be more creative and actually be used to 100% of its capacity.
-I believe the obsession with TC in tech is highly problematic and there are a lot of talented folks optimizing for promotions via internal politics, rather than solving real problems for real people.
-I also wish healthcare wasn't tied to employment, but that's a post for another time.]]></summary>
-        <author>
-            <name>shooker435</name>
         </author>
     </entry>
     <entry>
@@ -1718,33 +1718,6 @@ WHO]]></summary>
         <summary type="html"><![CDATA[Visit the post for more.]]></summary>
         <author>
             <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Writing]]></title>
-        <id>https://kartikay.bearblog.dev/on-writing/</id>
-        <link href="https://kartikay.bearblog.dev/on-writing/"/>
-        <updated>2024-05-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Almost a month ago I had a problem. Information overload. I had filled up all my free time with audiobooks and podcasts. Every free moment I was consuming information. It was getting frustrating. My general productivity was going down as well. So I quit cold turkey.
-This wasn't the first time I had done this. At first, it was uncomfortable but I got used to my company. Like meeting an old friend after a long time. The ideas just started flowing and I needed an outlet, I found one in writing.
-My writing process is simple. I spend time with myself as much as I can. I let the ideas flow till I feel almost compelled to write them down. It is like the compulsion and excitement of picking up the controller of your favorite video game. Sometimes though I don't feel like writing a post but I push through and kinda get myself in that state because consistency is important.
-All of this was not planned. I let myself flow with life instead of overthinking and getting in my own way. A lot of this creative stuff is undefined and weird. Yes, your process needs some essence of discipline and consistency. But you just kinda let it flow in a sense. And get out of your own way as fast as possible.
-The last part sounds all woo-woo to my logical brain but this has been my experience with the art of writing so far.]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do the work]]></title>
-        <id>https://kartikay.bearblog.dev/do-the-work/</id>
-        <link href="https://kartikay.bearblog.dev/do-the-work/"/>
-        <updated>2024-05-25T18:43:27.312Z</updated>
-        <summary type="html"><![CDATA[There is a lot of well-meaning advice on the internet, including this blog. Gives you some new insights. Maybe some insights you knew and had to relearn. It makes you feel good. And you move on to the next advice without ever implementing it. I know, I have been there.
-Just do the work is probably another advice people will read, feel good about, and move on. But as a recovering productivity addict, I have to say this - 'Stop reading all kinds of cool things about how to do great work, feel good about yourself for a few days or hours, and not change a single thing in your life'.
-There is a lot of alpha in just doing the work. If you are not doing the work. JUST DO THE WORK. All the nifty tricks and mental models and whatnot are just icing on the cake. They are supposed to make the 'Just do the work' part easier with time. But you gotta get started.
-Start in a dumb inefficient way but start. You are better than the guy reading about all this and not doing anything.]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
 </feed>
