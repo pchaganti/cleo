@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-08T06:29:05.241Z</id>
+    <id>urn:2024-06-08T12:38:16.036Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-06-08T06:29:05.241Z</updated>
+    <updated>2024-06-08T12:38:16.036Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Links 6/8/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=272861</id>
+        <link href="https://www.nakedcapitalism.com/2024/06/links-6-8-2024.html"/>
+        <updated>2024-06-08T10:59:35.000Z</updated>
+        <summary type="html"><![CDATA[Our boisterous daily links: modeling dog barks, altruism on flight, climate and food crises, China mortgage worries, Macron freakout about far right, Israel into Lebanon? moar Russian retaliation worries, official narcissism, Trump v. Schumer, Hunter bad look, Supreme $ revelations, syndicated loan losses]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Sea Port Becomes Geopolitical Battleground Between China and the EU]]></title>
+        <id>https://www.nakedcapitalism.com/?p=272970</id>
+        <link href="https://www.nakedcapitalism.com/2024/06/black-sea-port-becomes-geopolitical-battleground-between-china-and-the-eu.html"/>
+        <updated>2024-06-08T10:58:10.000Z</updated>
+        <summary type="html"><![CDATA[Western handwringing over China building a port a little too close to Europe's backyard.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Whoops, They Did It Again]]></title>
         <id>https://www.counterpunch.org/?p=324934</id>
@@ -19,6 +39,29 @@ In order to read CP+ articles, your web browser must be set to accept cookies.
 The post Whoops, They Did It Again appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Jeffrey St. Clair</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[parecen viernes]]></title>
+        <id>https://tiramisu.bearblog.dev/parecen-viernes/</id>
+        <link href="https://tiramisu.bearblog.dev/parecen-viernes/"/>
+        <updated>2024-06-08T03:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Friday nights in New York have an energy about them, one that's been easier for me to pick up on after arriving in the city midweek. I'm not used to it, like a river fish dumped in a tank. Everyone's dressed up in skin and mascara and waiting to go to the clubs and even though that life is not for me I love soaking in their anticipation on the subway platforms. Back when I worked abroad in that job I hated I remember writing something about how my soul left my body on Monday mornings and returned on Friday nights. I don't miss that feeling one bit, but I do sometimes think about that hunger for life I felt on Friday evenings, that burning desire to avenge the week of my life I sold to live for two days. If I could bottle that joie de vivre and down it everyday, I'd be unstoppable.
+I'm gett…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by mikeortman in "Own a weather station? We want your data"]]></title>
+        <id>https://news.ycombinator.com/item?id=40614898</id>
+        <link href="https://news.ycombinator.com/item?id=40614898"/>
+        <updated>2024-06-08T02:47:30.000Z</updated>
+        <summary type="html"><![CDATA[Hi, hobbyist here! This is a huge area where government meteorologists and "Big Weather" differ and you can help close that gap!
+For context:
+The governments of the world provides these big weather companies (weather.com (cough IBM), Accuweather (cough IBM cough), etc) a metric shit ton of their data completely for free (by law) including data transfer. These are things like radar, satellite, ground station data, forecasts, composite models, etc. These companies profit substantially on it, as in billions of dollars. You as citizens also can get this data completely for free as well! MADIS is a system the government is working on to make that data access easier by bringing together many of these systems together and removing the bureaucratic redundancy and abstracting out the aging infrastr…]]></summary>
+        <author>
+            <name>mikeortman</name>
         </author>
     </entry>
     <entry>
@@ -58,6 +101,19 @@ Picked up my Ricoh GRIIIx that I reserved and put a down payment on earlier in M
 The microwave that came with the house we bought less …]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by janosdebugs in "OpenSSH introduces options to penalize undesirable behavior"]]></title>
+        <id>https://news.ycombinator.com/item?id=40611450</id>
+        <link href="https://news.ycombinator.com/item?id=40611450"/>
+        <updated>2024-06-07T18:25:54.000Z</updated>
+        <summary type="html"><![CDATA[Having written an SSH server that is used in a few larger places, I find the perspective of enabling these features on a per-address basis by default in the future troubling. First, with IPv4 this will have the potential to increasingly penalize innocent bystanders as CGNs are deployed. Worst case, this will give bad actors the option to lock the original owner out of their own server if they have a botnet host in the same network. With IPv6 on the other hand, it is trivially easy to get a new IP, so the protection method described here will be completely ineffective.
+From my experiments with several honeypots over a longer period of time, most of these attacks are dumb dictionary attacks. Unless you are using default everything (user, port, password), these attacks don't represent a significant threat and more targeted attacks won't be caught by this. (Please use SSH keys.)
+I have seen experienced sysadmins create the test user with the password of "test" on a live server on port 22 because they were having an "autopilot moment". It got hacked within 20 minutes of going online and these mechanisms wouldn't have saved it, the attacker got in on the second or third try.
+If you want to have a read about unsolved problems around SSH that should be addressed, Tatu Ylonen (the inventor of SSH) has written a paper about it in 2019: https://helda.helsinki.fi/server/api/core/bitstreams/471f0ff...]]></summary>
+        <author>
+            <name>janosdebugs</name>
         </author>
     </entry>
     <entry>
@@ -140,6 +196,21 @@ Want more “proof”? Check out Alyssa’s post Thoughts on Being in My 30s.]]>
         <summary type="html"><![CDATA[Trump and the courts.]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by cs702 in "σ-GPTs: A new approach to autoregressive models"]]></title>
+        <id>https://news.ycombinator.com/item?id=40608690</id>
+        <link href="https://news.ycombinator.com/item?id=40608690"/>
+        <updated>2024-06-07T13:49:14.000Z</updated>
+        <summary type="html"><![CDATA[This looks great.
+The authors randomly permute (i.e., shuffle) input tokens in training and add two positional encodings to each token: one with the token's position and another with the position of the token to be predicted. Otherwise, the model is a standard autoregressive GPT. The consequences of this seemingly "simple" modification are significant:
+* The authors can prompt the trained model with part of a sequence and then decode the missing tokens, all at once, in parallel, regardless of order -- i.e., the model can in-fill in parallel.
+* The authors can compute conditional probability densities for every missing token in a sequence, again in parallel, i.e., densities for all missing tokens at once.
+* The authors propose a rejection-sampling method for generating in-fill tokens, again in parallel. Their method seems to work well in practice.
+I've added this to my reading list. Thank you for sharing it on HN.]]></summary>
+        <author>
+            <name>cs702</name>
         </author>
     </entry>
     <entry>
@@ -720,17 +791,6 @@ People say we don't (currently) know why they output what they output, because .
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by somenameforme in "Super Heavy has splashed down in The Gulf of Mexico"]]></title>
-        <id>https://news.ycombinator.com/item?id=40600231</id>
-        <link href="https://news.ycombinator.com/item?id=40600231"/>
-        <updated>2024-06-06T17:40:27.000Z</updated>
-        <summary type="html"><![CDATA[The 'worst' thing about watching space launches on streams is that you simply cannot grasp how ridiculously huge these things are. Even if, like in the stream today, you see a water tower for some scale, the size discrepancies just make it so hard to intuit. Starship is 121 meters high. That's something taller than a football field, jetting off into space! I've only gotten to see a decommissioned Space Shuttle in person, but that was also amazing. Even its fuel tank [1] makes you feel just tiny, yet it's merely 47m. Getting to see Starship live would be such an amazing opportunity.
-[1] - https://en.wikipedia.org/wiki/Space_Shuttle_external_tank]]></summary>
-        <author>
-            <name>somenameforme</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Drums of War are Banging in Europe]]></title>
         <id>https://www.cadtm.org/The-Drums-of-War-are-Banging-in-Europe</id>
         <link href="https://www.cadtm.org/The-Drums-of-War-are-Banging-in-Europe"/>
@@ -883,26 +943,6 @@ Whatever I do in my free time is nobody's business.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Links 6/6/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=272837</id>
-        <link href="https://www.nakedcapitalism.com/2024/06/links-6-6-2024.html"/>
-        <updated>2024-06-06T10:58:14.000Z</updated>
-        <summary type="html"><![CDATA[Our bearish daily links]]></summary>
-        <author>
-            <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In Virginia, Data Centers Collide with Zero-Carbon Goals]]></title>
-        <id>https://www.nakedcapitalism.com/?p=272844</id>
-        <link href="https://www.nakedcapitalism.com/2024/06/in-virginia-data-centers-collide-with-zero-carbon-goals.html"/>
-        <updated>2024-06-06T10:54:27.000Z</updated>
-        <summary type="html"><![CDATA[With electric demand from data centers skyrocketing, the state considers how to meet its goal of decarbonizing the grid.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by rudnevr in "Squatting in Spain: Understanding Spain's "okupas" problem"]]></title>
         <id>https://news.ycombinator.com/item?id=40595807</id>
         <link href="https://news.ycombinator.com/item?id=40595807"/>
@@ -933,30 +973,6 @@ What you describe is a feature of a high-trust society, where you don't have to 
 I have read suggestions that this was a major contributor to the growth of the Western economies, relative to other low-trust societies. If this was the case, we are in for a bumpy ride, as we seem to be rapidly changing from a high-trust to a low-trust society.]]></summary>
         <author>
             <name>alvah</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by renegat0x0 in "Microsoft AI spying scandal: time to rethink privacy standards"]]></title>
-        <id>https://news.ycombinator.com/item?id=40594264</id>
-        <link href="https://news.ycombinator.com/item?id=40594264"/>
-        <updated>2024-06-06T06:40:03.000Z</updated>
-        <summary type="html"><![CDATA[Normalization of abusive behavior is not OK! If one company abuses you for 10+ years, then it is not OK for other companies to abuse you!
-If big data were not lucrative, they could not sell your data. If your data was not valuable Facebook and Google would immediately remove it from their servers without hesitation.
-Mantra.
-- I don't care about privacy
-- I don't care big tech has access to all my data
-- I don't care that Google has access all my politicians data
-- I don't care I am building a worse future for society
-- I don't care that I am being recorded while having sex in Tesla
-- I don't care I am building surveillance state
-- I don't care that my data are being sold to China, to India, to wherever highest bidder lives
-- I don't care how my data are being used. I don't care if my data are being used to train military robot dogs that will be used for wars
-- I don't care that I will not receive insurance because my medical data are sold wherever
-- I don't care about privacy
-- I don't care about privacy
-- I don't care about privacy]]></summary>
-        <author>
-            <name>renegat0x0</name>
         </author>
     </entry>
     <entry>
@@ -1008,16 +1024,6 @@ Hitting the only successful company in a difficult field with legal assaults is 
 So around 18 years ago. That’s a long time for researchers that believed in this papar's conclusions to be going down the wrong rabbit hole.  What a huge waste of effort and the lives of those with Alzheimer's.]]></summary>
         <author>
             <name>kristianp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by 20after4 in "Photoshop ToS grants Adobe access to user projects for 'content moderation'"]]></title>
-        <id>https://news.ycombinator.com/item?id=40592444</id>
-        <link href="https://news.ycombinator.com/item?id=40592444"/>
-        <updated>2024-06-06T01:20:34.000Z</updated>
-        <summary type="html"><![CDATA[If you're still using Adobe's products, stop. Better late than never. Adobe had some great products. Then they over charged for them. Then they required a "cloud" subscription. There are alternatives. Support one of the startups or open source projects that are competing with them. Don't give Adobe another cent.]]></summary>
-        <author>
-            <name>20after4</name>
         </author>
     </entry>
     <entry>
