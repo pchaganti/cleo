@@ -51,11 +51,53 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-16 datetime="2024-06-16T10:58:16.000Z">2024-06-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-16 datetime="2024-06-16T10:58:16.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-16 datetime="2024-06-16T14:08:15.000Z">2024-06-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-16 datetime="2024-06-16T14:08:15.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >The Anarchist Library</button>
+                  <a class="source-heading__link" href="https://theanarchistlibrary.org">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://theanarchistlibrary.org/library/cracks-in-a-grey-sky-an-anthology-of-do-or-die?v&#x3D;1718546895"
+                        open
+                      >
+                        <summary class="article-expander__title">Various Authors - Cracks in a Grey Sky: An Anthology of Do or Die</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://theanarchistlibrary.org/library/cracks-in-a-grey-sky-an-anthology-of-do-or-die?v&#x3D;1718546895">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://theanarchistlibrary.org/uploads/en/thumbnails/c-i-cracks-in-a-grey-sky-an-anthology-of-do-or-die-1.jpg.large.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Author: Various Authors
+Title: Cracks in a Grey Sky: An Anthology of Do or Die
+Subtitle: Voices from the Ecological Resistance
+Date: 2016
+Notes: End footnotes 1, 2 &amp; 3 were missing from “Bashing the GE-nie back in the Bottle” in the source book &amp; original source magazine, and so marked as missing. Text body footnotes were marked, but missing from “Reports and Thoughts on the Action in Derbyshire”, but found from the original source magazine and so added back in. A marked, but missing footnote from “An Open Letter to the Minister for Transport” was found in the original source magazine and so added back in.
+Source: PDF provided by publisher
+
+An Introduction
+ It’s strange to put together a collection of articles from a publication that has been defunct for 13+ years and from nearly 9000 km a…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;512
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -80,7 +122,7 @@
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/06/secretary_bird.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Our feather-light daily links</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;50
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -99,7 +141,7 @@
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>&quot;It’s hard to not compare this to covid, where early on we only tested people who had traveled.&quot;</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                &ensp;<span class="article-reading-time">(&hairsp;18
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -150,6 +192,48 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hacker News: Best Comments</button>
+                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40695141"
+                        open
+                      >
+                        <summary class="article-expander__title">New comment by BLKNSLVR in &quot;What You Get After Running an SSH Honeypot for 30 Days&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40695141">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I self-host a (non-critical) mail server and a few other things and occasionally look at live firewall logs, seeing the constant flow of illegitimate traffic hitting random ports all over the place, some hitting legitimate service ports but others just probing basically anything and everything. I decided to setup a series of scripts that detect activity on ports that aren&#x27;t open (and therefore there&#x27;s no legitimate reason for the traffic to exist) and block those IP addresses from the service ports since the traffic source isn&#x27;t to be trusted.
+Something that came out of analysis of the blocked IP addresses was that I discovered a few untrustworthy /24 networks belonging to a bunch of &quot;internet security companies&quot; whose core business seems to depend on flooding the entire IPv4 space with daily scans. Blocking these Internet scanner networks significantly reduced the uninvited activity on my open service ports. And by significantly I mean easily over 50% of unwanted traffic is blocked.
+Network lists and various scripts to achieve my setup can be found here:
+https://github.com/UninvitedActivity/UninvitedActivity
+Internet Scanner lists are here:
+https://github.com/UninvitedActivity/UninvitedActivity/tree/...
+Large networks that seem responsible for more than their fair share of uninvited activity are listed here:
+https://github.com/UninvitedActivity/UninvitedActivity/tree/...
+I&#x27;m semi-aware of the futility of blocking IP addresses and networks. I do believe, however, that it can significantly reduce the load on the next layers of security that require computation for pattern matching etc.
+Be aware: there are footguns to be found here.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >CounterPunch.org</button>
                   <a class="source-heading__link" href="https://www.counterpunch.org/">Open</a>
                 </h3>
@@ -180,6 +264,41 @@ The post Closing in on the Kill appeared first on CounterPunch.org.</span>
                 </section>
               </section>
             </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Bear Blog Trending Posts</button>
+                  <a class="source-heading__link" href="https://bearblog.dev/discover/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://sankalp.bearblog.dev/just-keep-doing-the-bit-karma-yoga-edition/"
+                        open
+                      >
+                        <summary class="article-expander__title">Just keep doing the bit (Karma Yoga Edition)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://sankalp.bearblog.dev/just-keep-doing-the-bit-karma-yoga-edition/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I have been preparing for job interviews (looking to get into genai+backend roles you know). I like building projects and learning new stuff but job search is something that scares me. Partly because of the various uncertainties involved like places to apply, strenous interview processes, where I would work next, what kind of work I will get. It’s not the first time I am going through this process but it sucks (a lot in the beginning atleast). The other aspect is the grind.
+Translation: I am not afraid of slap sir, I am afraid of job search
+I could be solving some leetcode problems right now, I could be applying right now… I have many things to do even outside job search - oh no - fuck fuck fuck. That’s sort of the state of my mind - atleast in the background. Till I don’t build some momen…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -189,8 +308,8 @@ The post Closing in on the Kill appeared first on CounterPunch.org.</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-15 datetime="2024-06-16T00:21:44.000Z">2024-06-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-15 datetime="2024-06-16T00:21:44.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-15 datetime="2024-06-16T00:36:45.000Z">2024-06-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-15 datetime="2024-06-16T00:36:45.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -209,10 +328,31 @@ The post Closing in on the Kill appeared first on CounterPunch.org.</span>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40693760"
+                        open
+                      >
+                        <summary class="article-expander__title">New comment by bognition in &quot;French court orders Google, Cloudflare, Cisco to poison DNS to stop piracy&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40693760">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>In the last decade Tech has become part of the establishment. They are one of the dominant controlling forces.
+The blackout was _not_ about preserving free speech, or any other moral high road.  It was purely about control. Tech hadn’t yet cemented their position as a dominant player and didn’t want to cede the control they had.
+Now that they’ve embedded themselves in the ruling class they don’t care as much because they already have control.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40693679"
                         open
                       >
-                        <summary class="article-expander__title">New comment by snowwrestler in &quot;Google, Cloudflare and Cisco will poison DNS to stop piracy block circumvention&quot;</summary>
+                        <summary class="article-expander__title">New comment by snowwrestler in &quot;French court orders Google, Cloudflare, Cisco to poison DNS to stop piracy&quot;</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40693679">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
@@ -239,6 +379,8 @@ The first concern is the most legitimate one: can I stop an LLM from training it
 The second concern, though, is can Perplexity do a live web query to my website and present data from my website in a format that the user asks for? Arguing that we should ban this moves into very dangerous territory.
 Everything from ad blockers to reader mode to screen readers do exactly the same thing that Perplexity is doing here, with the only difference being that they tend to be exclusively local. The very nature of a &quot;user agent&quot; is to be an automated tool that manipulates content hosted on the internet according to the specifications given to the tool by the user. I have a hard time seeing an argument against Perplexity using this data in this way that wouldn&#x27;t apply equally to countless tools that we already all use and which companies try with varying degrees of success to block.
 I don&#x27;t want to live in a world where website owners can use DRM to force me to display their website in exactly the way that their designers envisioned it. I want to be able to write scripts to manipulate the page and present it in a way that&#x27;s useful for me. I don&#x27;t currently use llms this way, but I&#x27;m uncomfortable with arguing that it&#x27;s unethical for them to do that so long as they&#x27;re citing the source.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;55
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -369,6 +511,45 @@ The post It Must be High or Low appeared first on CounterPunch.org.</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Bear Blog Trending Posts</button>
+                  <a class="source-heading__link" href="https://bearblog.dev/discover/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://birming.com/chose-bear-blogging/"
+                        open
+                      >
+                        <summary class="article-expander__title">Why I chose Bear for blogging</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://birming.com/chose-bear-blogging/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert-1718454353-0.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>I want to start by saying that this will not be a &quot;Bear is best&quot; or &quot;10 reasons why you should switch to Bear&quot; kind of post.
+There are many excellent blogging platforms available nowadays. The concept of &quot;better&quot; is not especially relevant. Ultimately, it depends on your personal preferences and requirements.
+This post outlines why I chose Bear after trying many different tools. If your blogging preferences align with mine, then Bear might be the right platform for you too. If you&#x27;re already happy with your current tool, congratulations – no need to keep reading.
+Simplicity
+At the last minute, I decided to leave this part out. Not that Bear isn&#x27;t easy to use, it&#x27;s very straightforward, but so are most other &quot;indie platforms&quot;. You&#x27;ll be up and running in no time, no matter what you pick.
+Cu…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >naked capitalism</button>
                   <a class="source-heading__link" href="https://www.nakedcapitalism.com">Open</a>
                 </h3>
@@ -406,7 +587,7 @@ The post It Must be High or Low appeared first on CounterPunch.org.</span>
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/06/Screen-Shot-2024-06-15-at-5.54.57-PM-1024x581.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>What are the practical consequences if French President Emmanuel Macron&#x27;s centrist bloc fares poorly in the upcoming snap elections?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;32
+                                &ensp;<span class="article-reading-time">(&hairsp;33
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -425,7 +606,7 @@ The post It Must be High or Low appeared first on CounterPunch.org.</span>
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>Yet another cryptocurrency scheme, here for its major use case, tax evasion. But for a good cause, the US dollar!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
+                                &ensp;<span class="article-reading-time">(&hairsp;21
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -680,8 +861,6 @@ Is it technically happening already? Sure, there&#x27;s nasty nasty spyware bein
                             <span class="media-object__text">
                               <span>This is confusing and vague to me, which I believe is exactly the intent. It focuses on security, reiterates that security is their top priority (and we know that this is untrue). What were the security problems? They don&#x27;t even allude to the existence or detection of any specific security problems.
 It sounds to me like they&#x27;re figuring out a new marketing approach, or they&#x27;re softening the blow by &quot;listening to users&quot; and then rolling out more slowly, when outrage has died down and people will just accept it.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;47
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -1011,27 +1190,6 @@ I&#x27;ve published a few essays about how journaling has impacted my life by pr
 This may seem strange, since what is the point of writing if not to be read. But that isn&#x27;t why I do it. I write as a practice. As a thing that I do. If all my journals were lost in a house fire, I&#x27;d be sad, yes. But the documentation of my life isn&#x27;t what&#x27;s valuable. That value has already been gleaned through the act itself.
 That being said, I tried reading one of my old journals at the beginning of this year and it turns out I can…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://sankalp.bearblog.dev/just-keep-doing-the-bit-karma-yoga-edition/"
-                        open
-                      >
-                        <summary class="article-expander__title">Just keep doing the bit (Karma Yoga Edition)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://sankalp.bearblog.dev/just-keep-doing-the-bit-karma-yoga-edition/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I have been preparing for job interviews (looking to get into genai+backend roles you know). I like building projects and learning new stuff but job search is something that scares me. Partly because of the various uncertainties involved like places to apply, strenous interview processes, where I would work next, what kind of work I will get. It’s not the first time I am going through this process but it sucks (a lot in the beginning atleast). The other aspect is the grind.
-Translation: I am not afraid of slap sir, I am afraid of job search
-I could be solving some leetcode problems right now, I could be applying right now… I have many things to do even outside job search - oh no - fuck fuck fuck. That’s sort of the state of my mind - atleast in the background. Till I don’t build some momen…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1962,8 +2120,6 @@ Other posts include &quot;Google Meet option to punish interrupters by sending t
                             <span class="media-object__text">
                               <span>The Microsoft bribes scandal broke not too long after I had to take the &quot;hey don&#x27;t do bribes&quot; training at Microsoft.
 That event really drove home for me the fact that all of the trainings, emails, processes, etc. are mostly plausible deniability. There are people who care about security at MS. I know, I&#x27;ve met them, but for the most part all of this exists so that Satya can plausibly say in court or in front of congress, &quot;well we told them to do security better. This is clearly the fault of product teams or individual contributors, not Microsoft policy and incentives.&quot;</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -2003,7 +2159,7 @@ Satya&#x27;s model of making security a priority at Microsoft:
                             <span class="media-object__text">
                               <span>&gt; The machine also automatically outputs a report that details any deviations during printing, removing the need for postfabrication qualification.
 Anyone who&#x27;s previously worked with 3D printing knows that this simply does not pass any kind of a sniff test. Both preventing and detecting internal defects is one of the, if not the hardest problem in 3D printing. There are many large companies trying to find ways to reliably solve just this problem alone. Saying that this method doesn&#x27;t require any checks after production is simply false.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
+                                &ensp;<span class="article-reading-time">(&hairsp;28
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2022,8 +2178,6 @@ Anyone who&#x27;s previously worked with 3D printing knows that this simply does
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>I was one the developers responsible for implementing the netcode on Serious Sam.  We often slept under the desks in the offices at croteam after lurking usenet.  One post in particular described the QuakeWorld prediction system which inspired us.  That night we coded a simplistic mvp as a colleague (hi dan) tested it over an old 486 nix machine acting as a router that we could simulate lag with.  This was well before the actual game was built around it</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -2427,8 +2581,6 @@ IMHO, it&#x27;s very easy not to regret, with those particular numbers.
 I&#x27;d take $500K now plus possibly $45M later -- over $0 now and possibly $50M later.
 I&#x27;d take that deal even if &quot;possibly&quot; were &quot;guaranteed&quot;.
 (Who might regret that is a founder who was otherwise already wealthy.)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -2465,8 +2617,6 @@ Anyway that ended in tears, but I got what I was looking for from it. A look und
                             <span class="media-object__text">
                               <span>I only ever bought Pis because it was a mission focused company.
 Now that they are in stock-price-go-up mode, I am inclined to buy and promote cheap clones, and I expect most will feel the same.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;24
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -2484,26 +2634,6 @@ Now that they are in stock-price-go-up mode, I am inclined to buy and promote ch
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>This post has managed to piss off everyone: employees who didn&#x27;t realize founders were getting liquidity events while they&#x27;re still sitting on their more-often-than-not valueless equity, and founders who feel they&#x27;ve earned it and don&#x27;t like the implication they haven&#x27;t.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40654725"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by jmward01 in &quot;Silicon Valley&#x27;s best kept secret: Founder liquidity&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40654725">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I was mentally, physically and emotionally worn out when I left my previous startup after being an early employee. Despite that I really wanted to stay and be part of what my friends and I were building. Had I had the chance to &#x27;de-risk my life&#x27; with some equity to replenish my empty bank account, which was empty from taking an early employee salary, I may have been able to stay but in the end I had to get out.
-Getting out for an early employee after funding rounds is expensive because buying options can hit you with massive tax bills on top of the cost of buying the options. Worse, the stats aren&#x27;t great for a chance on return. Your lotto ticket gets expensive and risky as soon as you decide to leave.
-Articles like this one hammer home more and more to me how little VCs actually value early employees. Paying out founders to stay is a strategic move. Keeping them is worth it because they are the face of the company and turmoil at that level hurts their payout. Burning out early employees is not a concern because you can just swap them without drama. In fact, with the way options are structured and the &#x27;industry wisdom&#x27; to hold off purchasing, it feels like a strategic move to burn out early employees since many employees that are forced out often can&#x27;t even buy their options. They are left with nothing after all that work and risk. From a purely cynical view this is a great thing for VCs since now the company got all the benefit of an early employee and just lost all the costs.
-I don&#x27;t know about the other three points, but I can guarantee you point 1 of &#x27;right sizing perceptions&#x27; is wrong.</span>
                             </span>
                           </div>
                         </a>
@@ -3032,30 +3162,43 @@ Editorial — Post-anarchism Today
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
+                  >Last Week in Kubernetes Development</button>
+                  <a class="source-heading__link" href="https://lwkd.info/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;40653284"
+                        data-accordion-key="https://lwkd.info/2024/20240611"
                         open
                       >
-                        <summary class="article-expander__title">New comment by gumby in &quot;How much of a genius-level move was binary space partitioning in Doom? (2019)&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;40653284">
+                        <summary class="article-expander__title">Week Ending June 9, 2024</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://lwkd.info/2024/20240611">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>&gt; So Carmack ... started reading research papers.
-This in itself is a superpower, especially in computer science where history is considered a waste of time.
-This is commonly even true in actual research computer science, where you&#x27;d think papers were crucial.  Nowadays with the flood of &quot;PR&quot; preprints particularly in machine learning, it would be impossible to keep up and so nobody tries -- most of those papers write-once-read-never.
-When I moved out of computing into biochemistry and medicine, and now into climate, I found people take papers seriously, which is a pleasure.</span>
+                              <span>Developer News</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
                       </details>
                     </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hacker News: Best Comments</button>
+                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
+                </h3>
+                <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
@@ -3145,39 +3288,6 @@ It is amazing, tragic, and triumphant in so many ways.</span>
 She invented superscalar architecture at IBM, just to be fired in 1968 after she revealed her intention to transition, then 52 years later IBM formally apologized to her in 2020. She successfully rebooted her life, invented and taught VLSI design to industry pioneers who founded many successful companies based on the design methodology she invented, wrote the book on, and personally taught to them, and then she became a trans activist who helped many people transition, find each other, and avoid suicide, fight abuse and bigotry, and find acceptance, by telling her story and building an online community.
 Lynn Conway receives 2009 IEEE Computer Society Computer Pioneer Award:
 https://www.youtube.com/watch?v&#x3D;i4Txvjia3p0</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Last Week in Kubernetes Development</button>
-                  <a class="source-heading__link" href="https://lwkd.info/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://lwkd.info/2024/20240611"
-                        open
-                      >
-                        <summary class="article-expander__title">Week Ending June 9, 2024</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://lwkd.info/2024/20240611">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Developer News</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -3306,6 +3416,27 @@ When I get lucky, I get to read and discover some nice things happening to a str
 I guess it’s time to clean up my morning newspaper and manually curate it if I want to read quality human posts from now on. I feel sad for all the new, worthy blogs I won’t get to randomly discover because of this change, but I know I will eventually find my way to it if I’m meant to encounter it.
 Life has always been that way, and I know it always will.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://tiramisu.bearblog.dev/first-days-work/"
+                        open
+                      >
+                        <summary class="article-expander__title">so it begins (pick one)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://tiramisu.bearblog.dev/first-days-work/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The first two days at work have been alright. People have been pretty nice, which is always a good start. Orientation is a little messy though. I started on Monday with maybe twelve or so other new hires, mostly summer interns. The trainings are geared more heavily towards them and less towards us full-timers, which I totally understand, but it has meant that there are empty blocks in my calendar when I have no idea where to go or what to do.
+My team&#x27;s pretty small — there are only four or five of us total spread out across the globe — and I&#x27;m the only new hire, so I&#x27;m on my own when the other new hires group up by team and eat lunch together in the cafeteria. I ate lunch alone today, which was somehow more awful than I anticipated. Social anxiety hits me hard at work.
+On Monday I had lunc…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3689,8 +3820,8 @@ The post Serverless Jupyter Notebooks at Meta appeared first on Engineering at M
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/9536034246">
-        <time id="build-timestamp" datetime="2024-06-16T12:40:13.605Z">2024-06-16T12:40:13.605Z</time>
+      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/9538070815">
+        <time id="build-timestamp" datetime="2024-06-16T18:29:18.482Z">2024-06-16T18:29:18.482Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

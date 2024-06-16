@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-16T12:40:13.625Z</id>
+    <id>urn:2024-06-16T18:29:18.503Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-06-16T12:40:13.625Z</updated>
+    <updated>2024-06-16T18:29:18.503Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Various Authors - Cracks in a Grey Sky: An Anthology of Do or Die]]></title>
+        <id>https://theanarchistlibrary.org/library/cracks-in-a-grey-sky-an-anthology-of-do-or-die?v=1718546895</id>
+        <link href="https://theanarchistlibrary.org/library/cracks-in-a-grey-sky-an-anthology-of-do-or-die?v=1718546895"/>
+        <updated>2024-06-16T14:08:15.000Z</updated>
+        <summary type="html"><![CDATA[Author: Various Authors
+Title: Cracks in a Grey Sky: An Anthology of Do or Die
+Subtitle: Voices from the Ecological Resistance
+Date: 2016
+Notes: End footnotes 1, 2 & 3 were missing from “Bashing the GE-nie back in the Bottle” in the source book & original source magazine, and so marked as missing. Text body footnotes were marked, but missing from “Reports and Thoughts on the Action in Derbyshire”, but found from the original source magazine and so added back in. A marked, but missing footnote from “An Open Letter to the Minister for Transport” was found in the original source magazine and so added back in.
+Source: PDF provided by publisher
+
+An Introduction
+ It’s strange to put together a collection of articles from a publication that has been defunct for 13+ years and from nearly 9000 km a…]]></summary>
+        <author>
+            <name>The Anarchist Library</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Links 6/16/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=273378</id>
@@ -36,6 +54,25 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by BLKNSLVR in "What You Get After Running an SSH Honeypot for 30 Days"]]></title>
+        <id>https://news.ycombinator.com/item?id=40695141</id>
+        <link href="https://news.ycombinator.com/item?id=40695141"/>
+        <updated>2024-06-16T06:43:45.000Z</updated>
+        <summary type="html"><![CDATA[I self-host a (non-critical) mail server and a few other things and occasionally look at live firewall logs, seeing the constant flow of illegitimate traffic hitting random ports all over the place, some hitting legitimate service ports but others just probing basically anything and everything. I decided to setup a series of scripts that detect activity on ports that aren't open (and therefore there's no legitimate reason for the traffic to exist) and block those IP addresses from the service ports since the traffic source isn't to be trusted.
+Something that came out of analysis of the blocked IP addresses was that I discovered a few untrustworthy /24 networks belonging to a bunch of "internet security companies" whose core business seems to depend on flooding the entire IPv4 space with daily scans. Blocking these Internet scanner networks significantly reduced the uninvited activity on my open service ports. And by significantly I mean easily over 50% of unwanted traffic is blocked.
+Network lists and various scripts to achieve my setup can be found here:
+https://github.com/UninvitedActivity/UninvitedActivity
+Internet Scanner lists are here:
+https://github.com/UninvitedActivity/UninvitedActivity/tree/...
+Large networks that seem responsible for more than their fair share of uninvited activity are listed here:
+https://github.com/UninvitedActivity/UninvitedActivity/tree/...
+I'm semi-aware of the futility of blocking IP addresses and networks. I do believe, however, that it can significantly reduce the load on the next layers of security that require computation for pattern matching etc.
+Be aware: there are footguns to be found here.]]></summary>
+        <author>
+            <name>BLKNSLVR</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Closing in on the Kill]]></title>
         <id>https://www.counterpunch.org/?p=325526</id>
         <link href="https://www.counterpunch.org/2024/06/16/closing-in-on-the-kill/"/>
@@ -52,7 +89,31 @@ The post Closing in on the Kill appeared first on CounterPunch.org.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by snowwrestler in "Google, Cloudflare and Cisco will poison DNS to stop piracy block circumvention"]]></title>
+        <title type="html"><![CDATA[Just keep doing the bit (Karma Yoga Edition)]]></title>
+        <id>https://sankalp.bearblog.dev/just-keep-doing-the-bit-karma-yoga-edition/</id>
+        <link href="https://sankalp.bearblog.dev/just-keep-doing-the-bit-karma-yoga-edition/"/>
+        <updated>2024-06-16T05:15:00.000Z</updated>
+        <summary type="html"><![CDATA[I have been preparing for job interviews (looking to get into genai+backend roles you know). I like building projects and learning new stuff but job search is something that scares me. Partly because of the various uncertainties involved like places to apply, strenous interview processes, where I would work next, what kind of work I will get. It’s not the first time I am going through this process but it sucks (a lot in the beginning atleast). The other aspect is the grind.
+Translation: I am not afraid of slap sir, I am afraid of job search
+I could be solving some leetcode problems right now, I could be applying right now… I have many things to do even outside job search - oh no - fuck fuck fuck. That’s sort of the state of my mind - atleast in the background. Till I don’t build some momen…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by bognition in "French court orders Google, Cloudflare, Cisco to poison DNS to stop piracy"]]></title>
+        <id>https://news.ycombinator.com/item?id=40693760</id>
+        <link href="https://news.ycombinator.com/item?id=40693760"/>
+        <updated>2024-06-16T00:36:45.000Z</updated>
+        <summary type="html"><![CDATA[In the last decade Tech has become part of the establishment. They are one of the dominant controlling forces.
+The blackout was _not_ about preserving free speech, or any other moral high road.  It was purely about control. Tech hadn’t yet cemented their position as a dominant player and didn’t want to cede the control they had.
+Now that they’ve embedded themselves in the ruling class they don’t care as much because they already have control.]]></summary>
+        <author>
+            <name>bognition</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by snowwrestler in "French court orders Google, Cloudflare, Cisco to poison DNS to stop piracy"]]></title>
         <id>https://news.ycombinator.com/item?id=40693679</id>
         <link href="https://news.ycombinator.com/item?id=40693679"/>
         <updated>2024-06-16T00:21:44.000Z</updated>
@@ -100,6 +161,21 @@ In order to read CP+ articles, your web browser must be set to accept cookies.
 The post What’s a Palestinian Life Worth? appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Jeffrey St. Clair</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why I chose Bear for blogging]]></title>
+        <id>https://birming.com/chose-bear-blogging/</id>
+        <link href="https://birming.com/chose-bear-blogging/"/>
+        <updated>2024-06-15T14:39:00.000Z</updated>
+        <summary type="html"><![CDATA[I want to start by saying that this will not be a "Bear is best" or "10 reasons why you should switch to Bear" kind of post.
+There are many excellent blogging platforms available nowadays. The concept of "better" is not especially relevant. Ultimately, it depends on your personal preferences and requirements.
+This post outlines why I chose Bear after trying many different tools. If your blogging preferences align with mine, then Bear might be the right platform for you too. If you're already happy with your current tool, congratulations – no need to keep reading.
+Simplicity
+At the last minute, I decided to leave this part out. Not that Bear isn't easy to use, it's very straightforward, but so are most other "indie platforms". You'll be up and running in no time, no matter what you pick.
+Cu…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -736,18 +812,6 @@ The post Local and EU Elections appeared first on CounterPunch.org.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Just keep doing the bit (Karma Yoga Edition)]]></title>
-        <id>https://sankalp.bearblog.dev/just-keep-doing-the-bit-karma-yoga-edition/</id>
-        <link href="https://sankalp.bearblog.dev/just-keep-doing-the-bit-karma-yoga-edition/"/>
-        <updated>2024-06-14T05:15:00.000Z</updated>
-        <summary type="html"><![CDATA[I have been preparing for job interviews (looking to get into genai+backend roles you know). I like building projects and learning new stuff but job search is something that scares me. Partly because of the various uncertainties involved like places to apply, strenous interview processes, where I would work next, what kind of work I will get. It’s not the first time I am going through this process but it sucks (a lot in the beginning atleast). The other aspect is the grind.
-Translation: I am not afraid of slap sir, I am afraid of job search
-I could be solving some leetcode problems right now, I could be applying right now… I have many things to do even outside job search - oh no - fuck fuck fuck. That’s sort of the state of my mind - atleast in the background. Till I don’t build some momen…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[What you post determines your tribe]]></title>
         <id>https://sankalp.bearblog.dev/tribe/</id>
         <link href="https://sankalp.bearblog.dev/tribe/"/>
@@ -1240,19 +1304,6 @@ Finance against people,
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by jmward01 in "Silicon Valley's best kept secret: Founder liquidity"]]></title>
-        <id>https://news.ycombinator.com/item?id=40654725</id>
-        <link href="https://news.ycombinator.com/item?id=40654725"/>
-        <updated>2024-06-12T05:05:29.000Z</updated>
-        <summary type="html"><![CDATA[I was mentally, physically and emotionally worn out when I left my previous startup after being an early employee. Despite that I really wanted to stay and be part of what my friends and I were building. Had I had the chance to 'de-risk my life' with some equity to replenish my empty bank account, which was empty from taking an early employee salary, I may have been able to stay but in the end I had to get out.
-Getting out for an early employee after funding rounds is expensive because buying options can hit you with massive tax bills on top of the cost of buying the options. Worse, the stats aren't great for a chance on return. Your lotto ticket gets expensive and risky as soon as you decide to leave.
-Articles like this one hammer home more and more to me how little VCs actually value early employees. Paying out founders to stay is a strategic move. Keeping them is worth it because they are the face of the company and turmoil at that level hurts their payout. Burning out early employees is not a concern because you can just swap them without drama. In fact, with the way options are structured and the 'industry wisdom' to hold off purchasing, it feels like a strategic move to burn out early employees since many employees that are forced out often can't even buy their options. They are left with nothing after all that work and risk. From a purely cynical view this is a great thing for VCs since now the company got all the benefit of an early employee and just lost all the costs.
-I don't know about the other three points, but I can guarantee you point 1 of 'right sizing perceptions' is wrong.]]></summary>
-        <author>
-            <name>jmward01</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by Finbarr in "Silicon Valley's best kept secret: Founder liquidity"]]></title>
         <id>https://news.ycombinator.com/item?id=40654678</id>
         <link href="https://news.ycombinator.com/item?id=40654678"/>
@@ -1331,19 +1382,6 @@ Communique on the arson against the French press agency (Athens, 3/12/2008)
  Striking at the ordinary flaw of the system, using aggres…]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by gumby in "How much of a genius-level move was binary space partitioning in Doom? (2019)"]]></title>
-        <id>https://news.ycombinator.com/item?id=40653284</id>
-        <link href="https://news.ycombinator.com/item?id=40653284"/>
-        <updated>2024-06-12T00:41:31.000Z</updated>
-        <summary type="html"><![CDATA[> So Carmack ... started reading research papers.
-This in itself is a superpower, especially in computer science where history is considered a waste of time.
-This is commonly even true in actual research computer science, where you'd think papers were crucial.  Nowadays with the flood of "PR" preprints particularly in machine learning, it would be impossible to keep up and so nobody tries -- most of those papers write-once-read-never.
-When I moved out of computing into biochemistry and medicine, and now into climate, I found people take papers seriously, which is a pleasure.]]></summary>
-        <author>
-            <name>gumby</name>
         </author>
     </entry>
     <entry>
@@ -1560,6 +1598,18 @@ Life has always been that way, and I know it always will.]]></summary>
         <summary type="html"><![CDATA[from Edward Fullbrook Humankind urgently needs a new discipline.  Our very survival may depend on it.  Natural science tells us that the economy now threatens humanity with calamity and potentially with extinction; and the daily news tells us that the economy’s forty-year upward redistribution of wealth, income and power threatens democracy and social order.  But […]]]></summary>
         <author>
             <name>Edward Fullbrook</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[so it begins (pick one)]]></title>
+        <id>https://tiramisu.bearblog.dev/first-days-work/</id>
+        <link href="https://tiramisu.bearblog.dev/first-days-work/"/>
+        <updated>2024-06-11T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The first two days at work have been alright. People have been pretty nice, which is always a good start. Orientation is a little messy though. I started on Monday with maybe twelve or so other new hires, mostly summer interns. The trainings are geared more heavily towards them and less towards us full-timers, which I totally understand, but it has meant that there are empty blocks in my calendar when I have no idea where to go or what to do.
+My team's pretty small — there are only four or five of us total spread out across the globe — and I'm the only new hire, so I'm on my own when the other new hires group up by team and eat lunch together in the cafeteria. I ate lunch alone today, which was somehow more awful than I anticipated. Social anxiety hits me hard at work.
+On Monday I had lunc…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
