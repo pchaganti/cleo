@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "08ada00504b244657e6aef9431dc3e5146c80453",
+          "author": "Veliswa Boya",
+          "description": "Use Amazon SageMaker with MLflow to track experiments, compare runs, register candidate models, and transition models from experimentation to production.",
+          "link": "https://aws.amazon.com/blogs/aws/manage-ml-and-generative-ai-experiments-using-amazon-sagemaker-with-mlflow/",
+          "publishedOn": "2024-06-19T16:31:51.000Z",
+          "wordCount": 2185,
+          "title": "Announcing the general availability of fully managed MLflow on Amazon SageMaker",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/06/10/SageMaker3.png"
+        },
+        {
           "id": "c11376e3f92ed3b119fb01c51a1adc56ea646a7a",
           "author": "Veliswa Boya",
           "description": "Last week, my alma mater Standard Bank Group (SBG) hosted a Software Engineering Conference and invited me to be one of the keynote speakers. SBG has presence throughout Africa and this hybrid conference was attended by almost 2,000 engineers from across the continent. It was amazing to reconnect with long-time friends and former colleagues, and […]",
@@ -52,6 +62,26 @@
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
         {
+          "id": "c563b7b56de1bb98ce0af62f110d3bfe4644c1d1",
+          "author": "Ajay Mehta",
+          "description": "Introduction Many customers use Amazon Elastic Container Service (ECS) for running their mission critical container-based applications on AWS. These customers are looking for safe deployment of application and infrastructure changes with minimal downtime, leveraging AWS CodeDeploy and AWS CloudFormation. AWS CloudFormation natively supports performing Blue/Green deployments on ECS using a CodeDeploy Blue/Green hook, but this […]",
+          "link": "https://aws.amazon.com/blogs/devops/blue-green-deployments-to-amazon-ecs-using-aws-cloudformation-and-aws-codedeploy/",
+          "publishedOn": "2024-06-19T17:48:51.000Z",
+          "wordCount": 2533,
+          "title": "Blue/Green Deployments to Amazon ECS using AWS CloudFormation and AWS CodeDeploy",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/06/07/featured-image-template.png"
+        },
+        {
+          "id": "b60372369f3a21376c62a03980413e24b51b8836",
+          "author": "Kevin DeJong",
+          "description": "Introduction The CloudFormation Linter, cfn-lint, is a powerful tool designed to enhance the development process of AWS CloudFormation templates. It serves as a static analysis tool that checks CloudFormation templates for potential errors and best practices, ensuring that your infrastructure as code adheres to AWS best practices and standards. With its comprehensive rule set and […]",
+          "link": "https://aws.amazon.com/blogs/devops/aws-cloudformation-linter-v1/",
+          "publishedOn": "2024-06-19T16:02:05.000Z",
+          "wordCount": 1607,
+          "title": "AWS CloudFormation Linter (cfn-lint) v1",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/04/24/cfn-lintv1blogfeatureimage-1-1260x623.jpg"
+        },
+        {
           "id": "2a274dd411ad478fe3fbb5e1dcb478cd5f524535",
           "author": "Venugopalan Vasudevan",
           "description": "When Amazon Web Services (AWS) launched Amazon Q Developer agent for code transformation as a preview last year to upgrade Java applications, we saw many organizations desire to significantly accelerate their Java upgrades. Previously, these upgrades were considered daunting, a time-consuming manual task requiring weeks if not months of effort and with Amazon Q Developer they […]",
@@ -67,7 +97,18 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://techblog.netflix.com/feeds/posts/default",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/8ebdda0b2db4",
+          "author": "Netflix Technology Blog",
+          "description": "Harness domain expertise with Video Annotator: streamline ML annotations, cut costs, and deploy faster using a human-in-the-loop system 🚀",
+          "link": "https://netflixtechblog.com/video-annotator-building-video-classifiers-using-vision-language-models-and-active-learning-8ebdda0b2db4?source=rss----2615bd06b42e---4",
+          "publishedOn": "2024-06-19T15:29:29.000Z",
+          "wordCount": 3451,
+          "title": "Video annotator: building video classifiers using vision-language models and active learning",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:620/1*hqNZjvWBlREV5GIv4uEmHw.png"
+        }
+      ]
     },
     {
       "title": "Spotify Engineering",
@@ -111,7 +152,7 @@
         {
           "id": "https://www.counterpunch.org/?p=325905",
           "author": "Binoy Kampmark",
-          "description": "You could almost sense the smacking of lips, accompanied by the rubbing of hands.  The departure of Benny Gantz from the Israeli war cabinet, which had served as a checking forum against the conventional security cabinet, presented a perfect opportunity for those who felt his presence stifling.  In these febrile times, Gantz, the leader of the opposition  More\nThe post Fractious Arenas: Netanyahu Dissolves the War Cabinet appeared first on CounterPunch.org.",
+          "description": "You could almost sense the smacking of lips, accompanied by the rubbing of hands.  The departure of Benny Gantz from the Israeli war cabinet, which had served as a checking forum against the conventional security cabinet, presented a perfect opportunity for those who felt his presence stifling.  In these febrile times, Gantz, the leader of the opposition National Unity party, passes as a moderate centrist and had been one of its three voting members, alongside Prime Minister Benjamin Netanyahu and Defence Minister Yoav Gallant. More\nThe post Fractious Arenas: Netanyahu Dissolves the War Cabinet appeared first on CounterPunch.org.",
           "link": "https://www.counterpunch.org/2024/06/19/fractious-arenas-netanyahu-dissolves-the-war-cabinet/",
           "publishedOn": "2024-06-19T05:57:35.000Z",
           "wordCount": null,
@@ -155,7 +196,7 @@
         {
           "id": "https://www.counterpunch.org/?p=325901",
           "author": "Alfred de Zayas",
-          "description": "In the US State Department’s toolkit, unilateral coercive measures (UCMs) are used to blackmail, bully and intimidate States that do not readily accept US hegemony. Placing a country in the US list of countries sponsors for terrorism is intended to lend some phoney legitimacy to UCMs imposed against targeted States. Unilateral Coercive Measures are not  More\nThe post The US List of Countries Allegedly Sponsors of Terrorism: Another Imperialistic Scam appeared first on CounterPunch.org.",
+          "description": "In the US State Department’s toolkit, unilateral coercive measures (UCMs) are used to blackmail, bully and intimidate States that do not readily accept US hegemony. Placing a country in the US list of countries sponsors for terrorism is intended to lend some phony legitimacy to UCMs imposed against targeted States. Unilateral Coercive Measures are not  More\nThe post The US List of Countries Allegedly Sponsors of Terrorism: Another Imperialistic Scam appeared first on CounterPunch.org.",
           "link": "https://www.counterpunch.org/2024/06/19/the-us-list-of-countries-allegedly-sponsors-of-terrorism-another-imperialistic-scam/",
           "publishedOn": "2024-06-19T05:55:45.000Z",
           "wordCount": null,
@@ -477,7 +518,7 @@
           "description": "from Lars Syll In a word, Economics is an Impossible Science because by its own definition the determining conditions of the economy are not economic: they are “exogenous.” Supposedly a science of things, it is by definition without substance, being rather a mode of behavior: the application of scarce means to alternative ends so as […]",
           "link": "https://rwer.wordpress.com/2024/06/17/why-economics-is-such-an-impossible-science/",
           "publishedOn": "2024-06-17T04:54:00.000Z",
-          "wordCount": 4479,
+          "wordCount": 4474,
           "title": "Why economics is such an impossible science",
           "imageUrl": "https://larspsyll.wordpress.com/wp-content/uploads/2019/09/stun.jpg"
         },
@@ -487,7 +528,7 @@
           "description": "from Asad Zaman and WEA Pedagogy Blog The Most Valuable Kind of Knowledge These lectures aim to provide the reader with knowledge. But what is knowledge? Our lives consist of a small number of infinitely precious moments. What makes it worthwhile to invest these moments in the acquisition of knowledge? Is it the kind of […]",
           "link": "https://rwer.wordpress.com/2024/06/14/our-meaningless-modern-lives-part-1/",
           "publishedOn": "2024-06-14T08:10:00.000Z",
-          "wordCount": 4959,
+          "wordCount": 4954,
           "title": "Our meaningless modern lives: Part 1",
           "imageUrl": "https://weapedagogy.wordpress.com/wp-content/uploads/2024/05/meaninglesslives.jpg?w=1024"
         },
@@ -497,7 +538,7 @@
           "description": "from Dean Baker New York Times columnist Peter Coy did a piece yesterday questioning the existence of a gap between productivity growth and the typical worker’s pay. This gap was established decades ago by my friends and former colleagues at the Economic Policy Institute (EPI). The fact that it is now being questioned says a lot […]",
           "link": "https://rwer.wordpress.com/2024/06/13/the-productivity-pay-gap-and-phony-debates/",
           "publishedOn": "2024-06-13T08:00:00.000Z",
-          "wordCount": 5551,
+          "wordCount": 5546,
           "title": "The productivity/pay gap and phony debates",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -515,12 +556,42 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=273598",
+          "author": "Lambert Strether",
+          "description": "~ Today's Water Cooler: Politics, pandemics; Democrat plotting; RFK doens't make the cut for the debates; how a serious country (Finland) handled bird flu; The physics of knitting. ~",
+          "link": "https://www.nakedcapitalism.com/2024/06/200pm-water-cooler-6-19-2024.html",
+          "publishedOn": "2024-06-19T18:00:44.000Z",
+          "wordCount": 7321,
+          "title": "2:00PM Water Cooler 6/19/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/06/rcp_2024-06-14-e1718641688460.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=273544",
+          "author": "Yves Smith",
+          "description": "A long time ago, the US intervened on the side of underwater sovereign borrowers. Private creditors now extract even more than back then.",
+          "link": "https://www.nakedcapitalism.com/2024/06/power-in-sovereign-debt-markets-explaining-the-uneven-debtor-creditor-landscape-and-its-implications.html",
+          "publishedOn": "2024-06-19T13:55:34.000Z",
+          "wordCount": 4194,
+          "title": "Power in Sovereign Debt Markets: Explaining the Uneven Debtor–Creditor Landscape and Its Implications",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=273587",
+          "author": "Lambert Strether",
+          "description": "A new report shows oil majors fall short of meeting Paris Agreement targets while fueling global military conflicts.",
+          "link": "https://www.nakedcapitalism.com/2024/06/inside-big-oils-business-as-usual-failure-on-climate-and-profits-from-war.html",
+          "publishedOn": "2024-06-19T13:55:15.000Z",
+          "wordCount": 4777,
+          "title": "Inside Big Oil’s Business as Usual: Failure on Climate and Profits from War",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=273575",
           "author": "Lambert Strether",
           "description": "Our red hot daily links",
           "link": "https://www.nakedcapitalism.com/2024/06/links-6-19-2024.html",
           "publishedOn": "2024-06-19T10:58:27.000Z",
-          "wordCount": 7303,
+          "wordCount": 14418,
           "title": "Links 6/19/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/06/Eastern_Grey_Kangaroo_Feeding.jpg"
         },
@@ -530,7 +601,7 @@
           "description": "Bird flu as a case study in the category error of libertarian medicine, the misuse of preprints, and resulting poor public health policy.",
           "link": "https://www.nakedcapitalism.com/2024/06/bird-flu-and-biomedicine-an-essay-on-what-we-might-expect.html",
           "publishedOn": "2024-06-19T10:14:47.000Z",
-          "wordCount": 5164,
+          "wordCount": 5881,
           "title": "Bird Flu and Biomedicine, An Essay on What We Might Expect",
           "imageUrl": null
         },
@@ -540,7 +611,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics; the Trump v. Biden debate; the Black vote, and who will get it; epigenetics: heritable memories? ~",
           "link": "https://www.nakedcapitalism.com/2024/06/200pm-water-cooler-6-18-2024.html",
           "publishedOn": "2024-06-18T18:00:35.000Z",
-          "wordCount": 15107,
+          "wordCount": 15316,
           "title": "2:00PM Water Cooler 6/18/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/06/rcp_2024-06-14-e1718641688460.png"
         },
@@ -550,7 +621,7 @@
           "description": "A good, high level review of how Israel's long-standing and now accelerating ethnic cleansing in Palestine depends on US backing.",
           "link": "https://www.nakedcapitalism.com/2024/06/the-united-states-is-the-main-obstacle-to-peace-in-palestine.html",
           "publishedOn": "2024-06-18T13:55:41.000Z",
-          "wordCount": 5532,
+          "wordCount": 5934,
           "title": "The United States Is the Main Obstacle to Peace in Palestine",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/06/Screen-Shot-2024-06-18-at-6.38.47-PM-1024x707.png"
         },
@@ -560,7 +631,7 @@
           "description": "Our amped-up daily links: sleep bennies, zapping space junk? fake climate remediation, China v. EU pork, Sudan famine, Houthis untamed, NATO nuke escalation, BRICS w/o Turkiye? Biden ad, GOP v. no-fault divorce, Chomsky, CEO pay, attacks on populitsts",
           "link": "https://www.nakedcapitalism.com/2024/06/links-6-18-2024.html",
           "publishedOn": "2024-06-18T10:55:35.000Z",
-          "wordCount": 18635,
+          "wordCount": 19102,
           "title": "Links 6/18/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/06/Screen-Shot-2024-06-18-at-5.35.17-PM.png"
         },
@@ -570,7 +641,7 @@
           "description": "The world's largest live CBDC program (to date) has so far been a destructive flop. And that is probably the last thing the editors of the New York Times want its readers to know.",
           "link": "https://www.nakedcapitalism.com/2024/06/nyt-studiously-ignores-elephant-in-room-in-article-on-nigerias-crumbling-economy-the-central-banks-cbdc-experiment.html",
           "publishedOn": "2024-06-18T10:45:20.000Z",
-          "wordCount": 7160,
+          "wordCount": 7212,
           "title": "Quelle Surprise: NYT Piece on Nigeria’s “Worst Economic Crisis in Decades” Completely Ignores Its Disastrous CBDC Experiment",
           "imageUrl": null
         },
@@ -580,39 +651,9 @@
           "description": "Oopsie! Private equity firms are hanging on to investor money for an unseemly amount of time! What to do?",
           "link": "https://www.nakedcapitalism.com/2024/06/private-equity-becomes-roach-motel-as-public-pension-funds-and-other-investors-borrow-as-funds-remain-tied-up.html",
           "publishedOn": "2024-06-18T08:41:47.000Z",
-          "wordCount": 6626,
+          "wordCount": 6713,
           "title": "Private Equity Becomes Roach Motel as Public Pension Funds and Other Investors Borrow As Funds Remain Tied Up",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=273432",
-          "author": "Yves Smith",
-          "description": "Under the radar, investment funds have been buying farm land in poor countries, leading to substantial price rises.",
-          "link": "https://www.nakedcapitalism.com/2024/06/land-grabs-squeeze-rural-poor-worldwide.html",
-          "publishedOn": "2024-06-18T05:48:18.000Z",
-          "wordCount": 3539,
-          "title": "Land Grabs Squeeze Rural Poor Worldwide",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=273498",
-          "author": "Lambert Strether",
-          "description": "~ Today's Water Cooler: Politics, syndemics; Trump polling shows effects of conviction among independents; first Harris mailer; Biden fundraiser video; H5N1 cluster continues apace ~",
-          "link": "https://www.nakedcapitalism.com/2024/06/200pm-water-cooler-6-17-2024.html",
-          "publishedOn": "2024-06-17T18:00:32.000Z",
-          "wordCount": 13305,
-          "title": "2:00PM Water Cooler 6/17/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/06/rcp_2024-06-14-e1718641688460.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=273477",
-          "author": "Lambert Strether",
-          "description": "Banking and financial market expertise is by no means a given.",
-          "link": "https://www.nakedcapitalism.com/2024/06/insufficient-supervisory-board-competence-as-a-risk-factor-for-banks.html",
-          "publishedOn": "2024-06-17T13:55:46.000Z",
-          "wordCount": 5917,
-          "title": "Insufficient Supervisory Board Competence as a Risk Factor for Banks",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/06/hau10junefig1.png"
         }
       ]
     },
@@ -663,12 +704,22 @@
       "siteUrl": "https://engineering.fb.com/",
       "articles": [
         {
+          "id": "https://engineering.fb.com/?p=21376",
+          "author": null,
+          "description": "We’re introducing parameter vulnerability factor (PVF), a novel metric for understanding and measuring AI systems’ vulnerability against silent data corruptions (SDCs) in model parameters. PVF can be tailored to different AI models and tasks, adapted to different hardware faults, and even extended to the training phase of AI models. We’re sharing results of our own [...]\nRead More...\nThe post PVF: A novel metric for understanding AI systems’ vulnerability against SDCs in model parameters appeared first on Engineering at Meta.",
+          "link": "https://engineering.fb.com/2024/06/19/data-infrastructure/parameter-vulnerability-factor-pvf-ai-silent-data-corruption/",
+          "publishedOn": "2024-06-19T16:00:46.000Z",
+          "wordCount": 2758,
+          "title": "PVF: A novel metric for understanding AI systems’ vulnerability against SDCs in model parameters",
+          "imageUrl": "https://engineering.fb.com/wp-content/uploads/2023/10/Eng-Blog-Self-Serve-Hero-Images-DEBUGGING-201-Teale.jpg"
+        },
+        {
           "id": "https://engineering.fb.com/?p=21258",
           "author": null,
           "description": "At Meta, we support real-time communication (RTC) for billions of people through our apps, including WhatsApp, Instagram, and Messenger.  We are working to make RTC accessible by providing a high-quality experience for everyone – even those who might not have the fastest connections or the latest phones. As more and more people have relied on [...]\nRead More...\nThe post MLow: Meta’s low bitrate audio codec appeared first on Engineering at Meta.",
           "link": "https://engineering.fb.com/2024/06/13/web/mlow-metas-low-bitrate-audio-codec/",
           "publishedOn": "2024-06-13T14:45:58.000Z",
-          "wordCount": 2681,
+          "wordCount": 2665,
           "title": "MLow: Meta’s low bitrate audio codec",
           "imageUrl": "https://engineering.fb.com/wp-content/uploads/2024/06/MLow-Hero-1.png"
         }
@@ -680,12 +731,52 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=40727795",
+          "author": "miah_",
+          "description": "Maybe they have saved enough from working in tech that they can grow vegetables for themselves in a very low scale way. Its nice to escape from the career you've had for decades. Sometimes its not even an escape from the career, but the career and the city you've lived in. Moving to the forest and growing some vegetables and raising chickens isn't that difficult. You certainly don't need \"millions in equipment\". Its exactly what I did.\nI found it difficult to get a job in tech at the start of COVID after working in it for ~25 years. I moved to Michigan, and now live in the woods. My Cost of Living is a fraction of what it was. My mortgage is only 80% of what I was paying for rent in the SFBay area. Its peaceful and quiet here. It actually gets dark too. I no longer hear BART screeching on the rails at 2am or the constant flow of traffic. I.. do once again work in tech though at a much 'smaller' scale. My company is small and work demands don't dominate my life. I have balance.\nThis year I've planted ~200 onions, ~100 potatoes, ~100 garlic, ~60 strawberry. I have blueberry from a few years back starting to flourish. I have wild blackberry, and mushrooms galore. \"touching grass\" is a daily activity as we manage our small flock of chickens.",
+          "link": "https://news.ycombinator.com/item?id=40727795",
+          "publishedOn": "2024-06-19T12:50:16.000Z",
+          "wordCount": 3516,
+          "title": "New comment by miah_ in \"Neofetch developer archives all his repositories: \"Have taken up farming\"\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40727702",
+          "author": "driverdan",
+          "description": "Every time this topic comes up I say the same thing. If you've never worked on a farm and have some kind of romantic idea about it then you shouldn't do this. Farming is hard work. Modern farmers have college degrees, millions in equipment, and a vast amount of knowledge and experience you do not have.\nIf you're thinking of doing this and do not have experience go work on a farm for a year before you buy in.",
+          "link": "https://news.ycombinator.com/item?id=40727702",
+          "publishedOn": "2024-06-19T12:39:46.000Z",
+          "wordCount": 10439,
+          "title": "New comment by driverdan in \"Neofetch developer archives all his repositories: \"Have taken up farming\"\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40726935",
+          "author": "anymouse123456",
+          "description": "Misleading title. Maybe try this one?\n\"Slack uses ASTs to convert test code from Enzyme to React with 22% success rate\"\nThis article is a poor summary of the actual article, which is at least linked to Slack's engineering blog [0].\n[0] https://slack.engineering/balancing-old-tricks-with-new-feat...\n[updated]",
+          "link": "https://news.ycombinator.com/item?id=40726935",
+          "publishedOn": "2024-06-19T10:43:25.000Z",
+          "wordCount": 923,
+          "title": "New comment by anymouse123456 in \"AI-Powered Conversion From Enzyme to React Testing Library\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40725547",
+          "author": "johndoe0815",
+          "description": "Would I trust an OS which states \"Why don’t you use GCC? – Because GCC is a crap.\" in the project's FAQ [1]? This isn't really inspiring confidence.\nAlso, it's completely not obvious from your web pages which features already work in your OS. And, IMHO, Discord is definitely not \"the perfect place to connect, collaborate, and contribute\".\nJust my 2ct...\n[1] https://exectos.eu.org/faq/",
+          "link": "https://news.ycombinator.com/item?id=40725547",
+          "publishedOn": "2024-06-19T06:50:03.000Z",
+          "wordCount": 1245,
+          "title": "New comment by johndoe0815 in \"ExectOS – brand new operating system which derives from NT architecture\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=40721785",
           "author": "BenFranklin100",
           "description": "I have long maintained that the NIH should set aside 25% of its budget to fund spot checking of the research output of the remaining 75% of funded research. Even if this funding is only sufficient to review a handful of papers each year, it stands to have a transformative effect on the level of hype and p-hacking in many fields, and could nearly eliminate the rare cases of actual fraud. It would also improve the overall quality and reliability of the literature too.",
           "link": "https://news.ycombinator.com/item?id=40721785",
           "publishedOn": "2024-06-18T20:17:08.000Z",
-          "wordCount": 3790,
+          "wordCount": null,
           "title": "New comment by BenFranklin100 in \"Nature retracts paper that claimed adult stem cell could become any type of cell\"",
           "imageUrl": null
         },
@@ -705,7 +796,7 @@
           "description": "There seems to be a perception in big companies that if you're not pissing off your customers enough to drive them away, you're leaving money on the table. So there's this constant pseudo-optimizer running to get the maximum profit possible.\nThank you Harvard Business School.",
           "link": "https://news.ycombinator.com/item?id=40714124",
           "publishedOn": "2024-06-18T04:37:46.000Z",
-          "wordCount": 1378,
+          "wordCount": null,
           "title": "New comment by dreamcompiler in \"FTC sues Adobe for hiding fees and inhibiting cancellations\"",
           "imageUrl": null
         },
@@ -715,7 +806,7 @@
           "description": "(ARC Prize co-founder here).\nRyan's work is legitimately interesting and novel \"LLM reasoning\" research! The core idea:\n> get GPT-4o to generate around 8,000 python programs which attempt to implement the transformation, select a program which is right on all the examples (usually there are 3 examples), and then submit the output this function produces when applied to the additional test input(s)\nRoughly, he's implemented an outer loop and using 4o to sample reasoning traces/programs from training data and test. Hybrid DL + program synthesis approaches are solutions we'd love to see more of.\nA couple important notes:\n1. this result is on the public eval set vs private set (ARC Prize $).\n2. the current private set SOTA ~35% solution also performed ~50% on the public set. so this new result might be SOTA but hasn't been validated or scrutinized yet.\nAll said, I do expect verified public set results to flow down to the private set over time. We'll be publishing all the SOTA scores and open source reproductions here once available: https://arcprize.org/leaderboard\nEDIT: also, congrats and kudos to Ryan for achieving this and putting the effort in to document and share his approach. we hope to inspire more frontier AI research sharing like this",
           "link": "https://news.ycombinator.com/item?id=40712282",
           "publishedOn": "2024-06-17T23:14:08.000Z",
-          "wordCount": 8128,
+          "wordCount": 8261,
           "title": "New comment by mikeknoop in \"Getting 50% (SoTA) on Arc-AGI with GPT-4o\"",
           "imageUrl": null
         },
@@ -735,7 +826,7 @@
           "description": "hey folks, i'm the creator of htmx\nthis isn't much of a feature upgrade, but we took the opportunity to clean up a few things and drop IE support, which will help us slim down the library over time\nhopefully it's an easy upgrade for most htmx users, upgrade guide is here:\nhttps://htmx.org/migration-guide-htmx-1/\nhappy to answer any questions",
           "link": "https://news.ycombinator.com/item?id=40709818",
           "publishedOn": "2024-06-17T19:14:32.000Z",
-          "wordCount": null,
+          "wordCount": 2310,
           "title": "New comment by recursivedoubts in \"Htmx 2.0.0 has been released\"",
           "imageUrl": null
         },
@@ -745,7 +836,7 @@
           "description": "It's weird to watch Adobe make these fundamentally short sighted decisions. I can only assume the ultimate cause is the individual motivations of executives and managers. \"Oooo, if we raise subscriptions $10/mo, we'll make lots of money, and it'll look really good on my annual review.\" \"Oooo, this cancellation fee will really help our retention, which will look really good on my annual review.\" \"Making Photoshop subscription only will do amazing things for our revenue.\"\nWhen you have complete market dominance, you have little opportunity for growth. If your employees and investors have an insatiable need for growth, you have to try anyway, and that's where things fall apart. The #1 threat to your magical money faucet is something replacing your product as the photo editor of choice, and you should be 100% focused on making sure that doesn't happen. To do that, you need to be focused on keeping up quality, periodically adding the latest features, and making absolutely sure that the next generation of artists is coming up using your tool.\nThat Adobe rep 25 years ago was 100% correct, but \"I keep the money pipe flowing and did not actively make it worse\" does not get you a promotion.",
           "link": "https://news.ycombinator.com/item?id=40708910",
           "publishedOn": "2024-06-17T18:02:52.000Z",
-          "wordCount": 7280,
+          "wordCount": null,
           "title": "New comment by CobrastanJorji in \"FTC sues Adobe for hiding fees and inhibiting cancellations\"",
           "imageUrl": null
         },
@@ -755,18 +846,8 @@
           "description": "I remember doing laser cooling of rubidium atoms in physics class. It's really cool how it works:\n* Rubidium will absorb photons of a certain wavelength and re-emit it in a random direction. Since photons have momentum, it will get some net momentum change from absorbing photons all coming from a particular direction, but the re-emissions are in random directions so they have net zero momentum.\n* Shine laser light at it from all directions but at a wavelength slightly longer than the wavelength at which it will absorb. Now, if the rubidium atom is moving, the light hitting it head on will be Doppler shifted into the wavelength that it absorbs, slowing it down, whereas the other light wouldn't affect it. So, no matter how it is moving, it will slow down.\nRubidium is a good material since it has an S shell on the outside as though it were a big hydrogen atom, but it is so massive that it is a lot nicer to work with for this application.",
           "link": "https://news.ycombinator.com/item?id=40708762",
           "publishedOn": "2024-06-17T17:54:23.000Z",
-          "wordCount": 3121,
+          "wordCount": null,
           "title": "New comment by porphyra in \"London Underground hosts tests for 'quantum compass' that could replace GPS\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40708470",
-          "author": "Eji1700",
-          "description": "> When creative cloud was very first released, it was excellent value. I was actually quite supportive of Adobe's initial SaaS strategy. It was well and truly a \"why would anyone ever pirate photoshop ever again?\" type of product.\nThis is the entire issue with these kinds of things.  They always launch at a good value because they know they can capture the market.  Yes if they were benevolent or whatever it'd be fine, but these things almost ALWAYS turn into cluster fucks.\nThey couldn't launch at worse value than the current product line because they need full adoption before they can put the screws to you.",
-          "link": "https://news.ycombinator.com/item?id=40708470",
-          "publishedOn": "2024-06-17T17:34:49.000Z",
-          "wordCount": 1622,
-          "title": "New comment by Eji1700 in \"FTC sues Adobe for hiding fees and inhibiting cancellations\"",
           "imageUrl": null
         },
         {
@@ -790,32 +871,12 @@
           "imageUrl": null
         },
         {
-          "id": "https://news.ycombinator.com/item?id=40707380",
-          "author": "extr",
-          "description": "Good IMO. Adobe is a uniquely bad actor here, I can't think of many other services that operate in a similar way.",
-          "link": "https://news.ycombinator.com/item?id=40707380",
-          "publishedOn": "2024-06-17T16:20:05.000Z",
-          "wordCount": null,
-          "title": "New comment by extr in \"FTC sues Adobe for hiding fees and inhibiting cancellations\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40706695",
-          "author": "solatic",
-          "description": "If you're writing a CRUD app and mocking your database calls instead of just starting an actual Postgres instance before running the tests, you're probably using mocking wrong.\nIf you're writing a custom frontend for GitHub using the GitHub API and don't bother writing a decent set of mocks for how you expect the GitHub API to behave, your app will quickly require either full manual QA at best or become untestable at worst. Some APIs are very stable, and testing against the API itself can hit rate limiting, bans, and other anti-abuse mechanisms that introduce all kinds of instability to your test suite.\nUse the right tools to solve your problems.",
-          "link": "https://news.ycombinator.com/item?id=40706695",
-          "publishedOn": "2024-06-17T15:36:27.000Z",
-          "wordCount": null,
-          "title": "New comment by solatic in \"How to test without mocking\"",
-          "imageUrl": null
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=40703566",
           "author": "surfingdino",
           "description": "It's proof positive that there exists a generation of devs who have never seen a physical user interface made of buttons, knobs, or sliders. E for effort.",
           "link": "https://news.ycombinator.com/item?id=40703566",
           "publishedOn": "2024-06-17T08:44:20.000Z",
-          "wordCount": 2501,
+          "wordCount": null,
           "title": "New comment by surfingdino in \"Developer Takes 'Retro' Concept to New Level by Creating Physical Winamp Player\"",
           "imageUrl": null
         },
@@ -845,7 +906,7 @@
           "description": "I think a lot of people don't realize that there was a decent size, but small market for SBCs for low-volume embedded work (including hobbyists) before Raspberry Pi. You could get a lot of different kinds of boards with good Linux support and a not terrible price. Often, a processor vendor would explicitly provide support for these things because it was a good vector for selling chips.\nBroadcom, having never wanted anything to do with this market since volumes were too low, had an abundance of a CPU SKU that was good for this. So some broadcom engineers founded Raspberry Pi to use up this excess stock, essentially getting these chips for free. The original RPi blew every other SBC out of the water on price performance (and many manufacturers out of the market) because by getting the most expensive component for free, they could sell Pis for an extremely low price. It also massively expanded the market for SBCs, as hobbyists flooded in to work with RPis.\n5-10 years ago, the sweetheart deal with Broadcom went away. Now Raspberry Pi has to compete with everyone else for Broadcom SoCs, and during the semiconductor shortage of 2020, Broadcom had tremendous leverage. Now, Raspberry Pi pricing is nothing special, but they still have the brand name and they have captured the community (on the back of behavior that was borderline anticompetitive).",
           "link": "https://news.ycombinator.com/item?id=40698732",
           "publishedOn": "2024-06-16T17:37:49.000Z",
-          "wordCount": null,
+          "wordCount": 4221,
           "title": "New comment by pclmulqdq in \"The Raspberry Pi 5 Is No Match for a Tini-Mini-Micro PC\"",
           "imageUrl": null
         },
@@ -877,16 +938,6 @@
           "publishedOn": "2024-06-16T06:43:45.000Z",
           "wordCount": null,
           "title": "New comment by BLKNSLVR in \"What You Get After Running an SSH Honeypot for 30 Days\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40694293",
-          "author": "rsc",
-          "description": "My notes say it was 193k at the start. The final dashboard when we stopped said \"216,626 / 216,890 = 99.8%; 264 to go\".\nThe other correction I would make is that this post does not mention Nilton Volpato, who had written an earlier Buildifier and graciously accepted replacing his implementation with a new one and then taking over ownership for that new implementation as well. (Eventually ownership moved to Laurent's team.)\nIt looks like it was just under 2,000 commits. We did pretty extensive testing, by having Blaze load a BUILD file and its transitive closure and then dump that parsed form back out to a binary format. Any automated commit had to preserve that parsed-and-dumped binary format bit for bit. The slowest part of the testing was waiting for Blaze to do all the loads.\nEvery day I would prepare and test as many files as I could, break them into CLs (think PRs), mail Rob a shell script he could run to approve them all, and go to bed. Then I'd get up early in the morning (5am ET) to submit the changes, because there were various cached indexes that got updated when BUILD files got submitted, and it seemed better to send them when not many people would be working.\nThat scheme worked until a system did fall over and someone got paged, and then after that I agreed to only submit the large changes during business hours. :-)",
-          "link": "https://news.ycombinator.com/item?id=40694293",
-          "publishedOn": "2024-06-16T02:38:43.000Z",
-          "wordCount": null,
-          "title": "New comment by rsc in \"Reformatting 100k Files at Google in 2011\"",
           "imageUrl": null
         },
         {
@@ -1164,7 +1215,18 @@
       "title": "Last Week in Kubernetes Development",
       "feedUrl": "https://lwkd.info/feed.xml",
       "siteUrl": "https://lwkd.info/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://lwkd.info/2024/20240618",
+          "author": null,
+          "description": "Developer News",
+          "link": "https://lwkd.info/2024/20240618",
+          "publishedOn": "2024-06-18T22:00:00.000Z",
+          "wordCount": 530,
+          "title": "Week Ending June 16, 2024",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "New Left Review Sidecar recent posts",
@@ -1237,16 +1299,6 @@
           "wordCount": 1367,
           "title": "Life After Death",
           "imageUrl": null
-        },
-        {
-          "id": "https://notes.jeddacp.com/collecting-and-reading-the-classics/",
-          "author": null,
-          "description": "I have always loved reading, even as a child. I remember reading under the covers until 2am, way past lights out and my bedtime. I would go to the library after school and put my name down on the waiting list for newly released books. I'd (im)patiently wait for my turn.\nBut for some reason, I never appreciated the books we were assigned to read in school. I'm not quite sure if it's due to the selection of books, or just the fact that I was required to read it (I’m not great at being told what to do). Either way, I would read the books I wanted, and read cliff notes (are cliff notes still a thing today?) of those that I didn't read for school.\nNeedless to say, I completely regret showing a lack of appreciation for the classic books. To make up for it, I am attempting to build up a collection of books I admire that I should've appreciated a long time ago. The goal is to get the covers I remember from back in the day, instead of the more modernized version.\nYesterday’s thrift finds:\nBridge to Terabithia\nA Wrinkle in Time\nThe Great Gatsby\nThe Metamorphoses\nIt joins my (still small) existing collection of:\nLord of the Flies\nTo Kill a Mockingbird\nA Tale of Two Cities\nFahrenheit 451\nGulliver's Travels\nOne Flew Over the Cuckoo's Nest\nNow I just need to find the time to re-read them all. Do you have a favorite classic must-read?\nBonus find: An original Sound of Music vinyl record -- this was a super happy find. I initially found a really scratched one, but thankfully found a total of THREE at the thrift store. I was able to pick the one that didn't have a lot of scratches on it. Super excited to play it on the record player.\n🐘 Reply on Mastodon // 📧 Reply by email\nSubscribe via RSS here",
-          "link": "https://notes.jeddacp.com/collecting-and-reading-the-classics/",
-          "publishedOn": "2024-06-16T17:57:00.000Z",
-          "wordCount": 871,
-          "title": "Collecting (and reading) the classics",
-          "imageUrl": "https://img.playbook.com/PpJz3ZNs-wfBPrpCpRDE_d3p3_jJdtGEqHVMsfIJsKg/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzAwNjM5NGZk/LTFmZTEtNDM0My1h/MTgwLTY5MDdhNjFj/MTMyMA"
         },
         {
           "id": "https://martinschuhmann.com/tiny-things-that-i-like/",
