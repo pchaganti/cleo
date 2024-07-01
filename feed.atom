@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-01T12:45:15.667Z</id>
+    <id>urn:2024-07-01T18:30:02.899Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-07-01T12:45:15.667Z</updated>
+    <updated>2024-07-01T18:30:02.899Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[2:00PM Water Cooler 7/1/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=274299</id>
+        <link href="https://www.nakedcapitalism.com/2024/07/200pm-water-cooler-7-1-2024.html"/>
+        <updated>2024-07-01T18:00:19.000Z</updated>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Supreme Court decision on Presidential immunity and Open Thread ~]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Weekly Roundup: AI21 Labs’ Jamba-Instruct in Amazon Bedrock, Amazon WorkSpaces Pools, and more (July 1, 2024)]]></title>
+        <id>f2b2f1eca783c03eca935bbe7a8b88226b14d5e3</id>
+        <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ai21-labs-jamba-instruct-in-amazon-bedrock-amazon-workspaces-pools-and-more-july-1-2024/"/>
+        <updated>2024-07-01T16:18:19.000Z</updated>
+        <summary type="html"><![CDATA[AWS Summit New York is 10 days away, and I am very excited about the new announcements and more than 170 sessions. There will be A Night Out with AWS event after the summit for professionals from the media and entertainment, gaming, and sports industries who are existing Amazon Web Services (AWS) customers or have […]]]></summary>
+        <author>
+            <name>Esra Kayabali</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Puppies Behind Bars and the Question of the Role of Prisons]]></title>
+        <id>https://www.nakedcapitalism.com/?p=274261</id>
+        <link href="https://www.nakedcapitalism.com/2024/07/puppies-behind-bars-and-the-question-of-the-role-of-prisons.html"/>
+        <updated>2024-07-01T13:55:47.000Z</updated>
+        <summary type="html"><![CDATA[A beautifully written story about a program which has inmates train service dogs shows some of our conflicts about the purpose of prisons.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Links 7/1/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=274241</id>
@@ -244,6 +274,31 @@ While I had already conceptualized and begun writing this piece prior to the pub
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by eschaton in "Writing GUI apps for Windows is painful"]]></title>
+        <id>https://news.ycombinator.com/item?id=40839937</id>
+        <link href="https://news.ycombinator.com/item?id=40839937"/>
+        <updated>2024-06-30T20:08:15.000Z</updated>
+        <summary type="html"><![CDATA[If instead of insisting on custom UI styling the author just used the system UI, they could probably build a pretty straightforward Windows application. It’s the scourge of “brand identity” that has people thinking graphical applications are hard.
+Same on the Mac: If you want to build a Mac application, your best bet will be AppKit or SwiftUI and using system controls. And when the OS updates your application will either update with it, or need only minor tweaks and a rebuild to look good.]]></summary>
+        <author>
+            <name>eschaton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by Aurornis in "Writing GUI apps for Windows is painful"]]></title>
+        <id>https://news.ycombinator.com/item?id=40839536</id>
+        <link href="https://news.ycombinator.com/item?id=40839536"/>
+        <updated>2024-06-30T19:29:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a good overview of some of the options, but the author’s specific requirements push it in a specific direction that eliminates a lot of options.
+Specifically, the requirement for completely custom GUI styling without writing his own render functions means it’s really a task of selecting easy, customizable GUI libraries rather than generic GUI work.
+The requirements to be self-contained executables and under a 40MB limit also rule out a lot of options. The author admits that Qt could have met these requirements but the open-source licensing part wasn’t compatible with his goals and he didn’t want to pay for a license.
+If you relax the requirements to tolerate some dependencies, allow larger download sizes, or to simply use built-in Windows GUI controls the situation is very different.
+For writing a lightweight, completely custom GUI with no external dependencies and permissive licensing I could have guessed ImGui would be the answer before I started reading.]]></summary>
+        <author>
+            <name>Aurornis</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by whazor in "Butterflies flew 2,600 miles across the Atlantic without stopping"]]></title>
         <id>https://news.ycombinator.com/item?id=40839364</id>
         <link href="https://news.ycombinator.com/item?id=40839364"/>
@@ -333,6 +388,22 @@ Not mentioned in this article, but certainly related, was the Canadian governmen
 https://en.wikipedia.org/wiki/Emergencies_Act]]></summary>
         <author>
             <name>janice1999</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We Blog 24/7]]></title>
+        <id>https://birming.com/we-blog-247/</id>
+        <link href="https://birming.com/we-blog-247/"/>
+        <updated>2024-06-30T16:25:00.000Z</updated>
+        <summary type="html"><![CDATA[I heard someone describe an artist as "someone who never takes a break from being an artist”.
+I think that's an excellent description. As everyday bloggers, we may not call ourselves artists, but we can certainly call ourselves creators.
+Our inspiration for blogging varies, but the common factor is that we are constantly creating in one way or another. Our blog posts are based on personal impressions, experiences, and lessons learned. We "blog" even when we are not sitting in front of a computer screen.
+We see or hear something, draw parallels to our lives, and make a mental note of it. Then, when the opportunity arises, we sit down and create something unique based on our history.
+It becomes a blog post right then and there, but the content is not limited to the time it takes to digitize it. It contains a lifetime.
+We never take a break from blogging.
+We are bloggers 24/7.]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -848,36 +919,6 @@ Thinking about it though, June was the first month I felt proud of myself since 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by kstenerud in "I'm terrified of old people"]]></title>
-        <id>https://news.ycombinator.com/item?id=40828705</id>
-        <link href="https://news.ycombinator.com/item?id=40828705"/>
-        <updated>2024-06-29T08:31:07.000Z</updated>
-        <summary type="html"><![CDATA[Every 10 years or so I'll look back on my life and cringe at all the stupid stuff I said and believed over the past 10 years and how I naively thought that I knew everything. And then I'd breathe a sigh of relief now that I finally do know everything.]]></summary>
-        <author>
-            <name>kstenerud</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Survey Trolls, Opt-In Polls, and the New Era of Survey Science]]></title>
-        <id>https://www.nakedcapitalism.com/?p=274188</id>
-        <link href="https://www.nakedcapitalism.com/2024/06/survey-trolls-opt-in-polls-and-the-new-era-of-survey-science.html"/>
-        <updated>2024-06-29T07:30:47.000Z</updated>
-        <summary type="html"><![CDATA[As polling methods evolve, it can be hard to distinguish solid survey findings from those that dissolve under scrutiny.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Michael Hudson: 18th Century Writers Understand Effects of War Debt Better Than IMF]]></title>
-        <id>https://www.nakedcapitalism.com/?p=274186</id>
-        <link href="https://www.nakedcapitalism.com/2024/06/michael-hudson-18th-century-writers-understand-effects-of-war-debt-better-than-imf.html"/>
-        <updated>2024-06-29T07:18:05.000Z</updated>
-        <summary type="html"><![CDATA[Michael Hudson explains how the IMF's view of war debt is dangerously misguided and older economic thinkers had much better take.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by tw04 in "Supreme Court overturns 40-year-old "Chevron deference" doctrine"]]></title>
         <id>https://news.ycombinator.com/item?id=40827429</id>
         <link href="https://news.ycombinator.com/item?id=40827429"/>
@@ -897,42 +938,6 @@ It would literally be impossible for congress to make a law covering every singl
 Here is where I might usually lay into all of the ways I've fucked up my goals and plans for this year...but I don't feel like doing that right now!
 I'm in a really good mood. So I wanna talk about what I feel like I've actually done a good job of this year!!!
 Okay! Number one: I've been so social! This is probably the most social-butterfly version of myself I've managed to muster up in years. Maybe not so much throughout this month in particular, but I've been recharging from all of the events, reconnections, and …]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Week Notes 011]]></title>
-        <id>https://notes.jeddacp.com/week-notes-011/</id>
-        <link href="https://notes.jeddacp.com/week-notes-011/"/>
-        <updated>2024-06-28T22:10:00.000Z</updated>
-        <summary type="html"><![CDATA[🗓️ // 062224 - 062824
-When you’re not paying attention, time seems to zoom by without even giving you a chance to take a breath. I drowned in meetings throughout the week that I thought would never end, and then before I could even inhale and exhale, it’s Friday.
-It’s good, and bad depending on how you look at it. Time keeps getting away from me, but at the same time, I feel like I’m not accomplishing enough.
-Our Internet was down for 26 hours at home, which forced us to work in a nearby cafe. I was in that cafe for 9.5 hours straight in a little corner, 6+ of which I was in some sort of Zoom video meeting. Not the most ideal, and would definitely not want to repeat again.
-They redid the asphalt on our side street / alley way. I’m itching to take my longboard down it because it looks like it’d be a really smooth and fun ride.
-I started a new Thursday series on my photoblog to highlight some of my photos from the archive.
-Did some changes here and there on the blog this week, including introducing dark mode. Created a Changelog page to keep track of everything.
-📸 Photos
-Cali Alley in Berkeley, CA
-A Stop sign spotted in Berkeley
-Throwback Thursday 001 - State Fair
-📚 Reading
-Finished book 19 of 2024 - Sorry for the Inconvenience by Farah Naz Rishi (4/5⭐)
-Started: A Court of Silver Flames by Sarah J Maas - last book of the series
-📺 Watching
-Watched Ender’s Game (2013) on Netflix. It was LSC’s first time. (4.5/5⭐)
-Watched the Presidential debate. That’s it. No other comment.
-The Incredibly True Adventure of Two Girls in Love (1995) on Netflix. This movie was absolutely terrible but it had Tina from the L Word (1.5/5⭐️)
-🎧 Listening
-Recently played tracks on Spotify
-Chelsea by The Summer Set
-The Perfect Mistake by Cartel
-Hells Over Head by BOYS LIKE GIRLS
-Say You Love Me by Jessie Ware
-Buzzcut Season by Lorde
-🐘 Reply on Mastodon // 📧 Reply by email
-Subscribe via RSS here]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
@@ -986,16 +991,6 @@ Treat everyone with respect and stay safe!
 It was in C, but the process was expected to run for months without crashing or running out of memory; if it had an abnormal exit, you'd (the owner as set in some code thing) get an email with the core backtrace. If it had a memory leak, ops would be on you quickly. Ops was considered a primary driver of requirements to dev, and absolutely everything could be reloaded into a running server without restarting it. There was a TCP control port where a TCL interpreter inside the service was exposed and generally you wrote the (very simple, CS 101 style) TCL commands to manage the server.  It was a "No…]]></summary>
         <author>
             <name>lanstin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by paxys in "Ask HN: What is the best code base you ever worked on?"]]></title>
-        <id>https://news.ycombinator.com/item?id=40823777</id>
-        <link href="https://news.ycombinator.com/item?id=40823777"/>
-        <updated>2024-06-28T18:48:29.000Z</updated>
-        <summary type="html"><![CDATA[One that was written from scratch, by me. All others are terrible.]]></summary>
-        <author>
-            <name>paxys</name>
         </author>
     </entry>
     <entry>
@@ -1574,17 +1569,6 @@ Welcome to my Notes. I am so glad you're here.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by BobAliceInATree in "Living Computers Museum to permanently close, auction vintage items"]]></title>
-        <id>https://news.ycombinator.com/item?id=40804651</id>
-        <link href="https://news.ycombinator.com/item?id=40804651"/>
-        <updated>2024-06-26T21:13:47.000Z</updated>
-        <summary type="html"><![CDATA[The sad reality is that you can spend a lifetime collecting something, the but likelihood that any of your potential heirs is also interested in it, is pretty close to zero. That's true of multi-million dollar vintage computers, or your childhood stamp collection that's mostly worthless. Paul's mistake was not properly establishing a foundation & endowment to maintain this musuem, which almost certainly leaks lots of money.
-I personally have a decent art collection that I've amassed over the past couple decades. I have a few pieces earmarked in my will to specific friends & family that have really liked certain pieces (they don't know), but the reality is that my estate executor is going to sell the vast majority of it, and at 50¢ on the dollar of what I paid.]]></summary>
-        <author>
-            <name>BobAliceInATree</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Did the universe exist before the Big Bang? Maybe…]]></title>
         <id>https://disassociated.com/?p=7915</id>
         <link href="https://disassociated.com/did-the-universe-exist-before-the-big-bang-maybe/"/>
@@ -1712,6 +1696,16 @@ The best kind of reason :)]]></summary>
         <summary type="html"><![CDATA[A new DDoS rule resulted in an increase in error responses and latency for Cloudflare customers. Here’s how it went wrong, and what we’ve learned]]></summary>
         <author>
             <name>Lloyd Wallis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jb1991 in "Ball: A ball that lives in your dock"]]></title>
+        <id>https://news.ycombinator.com/item?id=40798546</id>
+        <link href="https://news.ycombinator.com/item?id=40798546"/>
+        <updated>2024-06-26T10:58:40.000Z</updated>
+        <summary type="html"><![CDATA[We’ve been using this in production for the last three months and I can report it has been fairly smooth overall. Only very minor downtime, and we’ve received a lot of communication from our customers about it, they like it quite a bit. So that’s been nice.]]></summary>
+        <author>
+            <name>jb1991</name>
         </author>
     </entry>
     <entry>
