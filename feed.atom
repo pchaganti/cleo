@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-09T06:37:10.666Z</id>
+    <id>urn:2024-07-09T12:44:52.708Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-07-09T06:37:10.666Z</updated>
+    <updated>2024-07-09T12:44:52.708Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[RADIUS/UDP vulnerable to improved MD5 collision attack]]></title>
+        <id>6687c6e3a4598c000bd7103d</id>
+        <link href="https://blog.cloudflare.com/radius-udp-vulnerable-md5-attack"/>
+        <updated>2024-07-09T12:00:59.000Z</updated>
+        <summary type="html"><![CDATA[The RADIUS protocol is commonly used to control administrative access to networking gear. Despite its importance, RADIUS hasn’t changed much in decades. We discuss an attack on RADIUS as a case study for why it’s important for legacy protocols to keep up with advancements in cryptography]]></summary>
+        <author>
+            <name>Sharon Goldberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links 7/9/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=274656</id>
+        <link href="https://www.nakedcapitalism.com/2024/07/links-7-9-2024.html"/>
+        <updated>2024-07-09T10:55:09.000Z</updated>
+        <summary type="html"><![CDATA[Our expansive daily links: Ozempic vision risk, zero Covid community, EV battery BK? EU-China chip row, France left surprise win, UK budget crunch, Netanyahu v. ceasefire, Ukraine lack of air defenses, GPS foes, Biden defiant, misreading of Supremes on immunity, Goldman doubts AI, Bloomberg gives John Hopkins free tuition $]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It Is Now Labour’s Turn to Expand the Piecemeal Privatisation of the UK’s National Health Service]]></title>
+        <id>https://www.nakedcapitalism.com/?p=274646</id>
+        <link href="https://www.nakedcapitalism.com/2024/07/under-new-labour-government-the-privatisation-of-uks-national-health-service-is-if-anything-likely-to-intensify-including-in-scotland.html"/>
+        <updated>2024-07-09T10:45:58.000Z</updated>
+        <summary type="html"><![CDATA[To treat the NHS's ills, Keir Starmer's government is talking about bringing back Tony Blair’s health secretary, Alan Milburn, who is now in the pay of corporations with interests in the UK's healthcare sector.]]></summary>
+        <author>
+            <name>Nick Corbishley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘How Do We Control Palestinians? We Make Them Feel Like We Are Everywhere’]]></title>
+        <id>https://www.nakedcapitalism.com/?p=274675</id>
+        <link href="https://www.nakedcapitalism.com/2024/07/how-do-we-control-palestinians-we-make-them-feel-like-we-are-everywhere.html"/>
+        <updated>2024-07-09T09:59:02.000Z</updated>
+        <summary type="html"><![CDATA[How Israel uses inhumane, experimental surveillance technology against Palestinians. Will this become that new normal?]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EU Undershoots 155MM Shell Capacity Target by More Than Half, Blames All Sorts of Things Besides Lack of Operational Capability]]></title>
+        <id>https://www.nakedcapitalism.com/?p=274671</id>
+        <link href="https://www.nakedcapitalism.com/2024/07/eu-undershoots-155mm-shell-capacity-target-by-more-than-half-blames-all-sorts-of-things-besides-lack-of-operational-capability.html"/>
+        <updated>2024-07-09T09:55:47.000Z</updated>
+        <summary type="html"><![CDATA[EU inability to meaningful increase 155mm shell production show the high cost of giving private arms-makers free rein.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Critiquing Biden’s Worldview, Democratic Party Tactics and America’s Destiny]]></title>
         <id>https://www.counterpunch.org/?p=327578</id>
@@ -148,6 +198,42 @@ The post Teaching a Lesson to the Palestinians appeared first on CounterPunch.or
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by yjftsjthsd-h in "No more boot loader: Please use the kernel instead"]]></title>
+        <id>https://news.ycombinator.com/item?id=40909611</id>
+        <link href="https://news.ycombinator.com/item?id=40909611"/>
+        <updated>2024-07-08T20:57:40.000Z</updated>
+        <summary type="html"><![CDATA[If I'm understanding correctly, it might help to point out that in spite of the title they are proposing a bootloader, which can still let you modify the cmdline, boot to other OSs, etc. It's just that the bootloader is itself using the Linux kernel so it can do things like read all Linux filesystems for "free" without having to rewrite filesystem drivers.]]></summary>
+        <author>
+            <name>yjftsjthsd-h</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by alerighi in "No more boot loader: Please use the kernel instead"]]></title>
+        <id>https://news.ycombinator.com/item?id=40908918</id>
+        <link href="https://news.ycombinator.com/item?id=40908918"/>
+        <updated>2024-07-08T19:55:27.000Z</updated>
+        <summary type="html"><![CDATA[It's something you can do since a lot of years. I used to do so 10 years ago, when I've got the first motherboard with UEFI. But is it useful? It saves a minimal time in the boot sequence, but at what cost?
+The bootloader (being it grub, or something more simple as systemd-boot) is useful to me for a couple of reasons:
+- it allows to dual-boot with Windows easily: motherboard boot menu is often not easy to access, you need to perform some key combination in a short window, also modern bootloader save the last boot option such that if Windows reboots for an update Linux does not start
+- it allows to edit the cmdline of the kernel to recover a system that does not boot, e.g. start in single user mode. That can really save your day if you don't have on hand an USB stick and another PC to flash it
+- it allows you to choose between multiple kernels and initrd images easily, again for recovery purposes
+- it has a voice for entering the UEFI setup menu: in most modern systems again entering the UEFI with a keyboard combination is unnecessarily difficult and has a too short timeout
+- it allows you to boot any other EFI application, such as memtest, or efi shell. Most UEFI firmwares doesn't have a menu to do so.]]></summary>
+        <author>
+            <name>alerighi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by artninja1988 in "Z-Library admins "escape house arrest" after judge approves U.S. extradition"]]></title>
+        <id>https://news.ycombinator.com/item?id=40908837</id>
+        <link href="https://news.ycombinator.com/item?id=40908837"/>
+        <updated>2024-07-08T19:48:52.000Z</updated>
+        <summary type="html"><![CDATA[If operating z library is their only "crime" I wish the couple luck and thank them for their service. Hard to say what the money laundering charges are about though]]></summary>
+        <author>
+            <name>artninja1988</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 7/8/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=274587</id>
         <link href="https://www.nakedcapitalism.com/2024/07/200pm-water-cooler-7-8-2024.html"/>
@@ -184,6 +270,17 @@ IMF]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by RScholar in "Reverse engineering Ticketmaster's rotating barcodes"]]></title>
+        <id>https://news.ycombinator.com/item?id=40907022</id>
+        <link href="https://news.ycombinator.com/item?id=40907022"/>
+        <updated>2024-07-08T16:50:49.000Z</updated>
+        <summary type="html"><![CDATA[> Software developers are the wizards and shamans of the modern age. We ought to use our powers with the austerity and integrity such power implies.
+This is one of the most powerful truths underlying the world we currently inhabit. The sooner we can agree to behave accordingly, the better our prospects for ripping the reigns of society from the hands of those whose only animating principles are avarice and exploitation.]]></summary>
+        <author>
+            <name>RScholar</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AWS Weekly Roundup: Amazon S3 Access Grants, AWS Lambda, European Sovereign Cloud Region, and more (July 8, 2024).]]></title>
         <id>33de3473228bf0a8001c1a2fab34dcc5d6379d50</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-s3-access-grants-aws-lambda-european-sovereign-cloud-region-and-more-july-8-2024/"/>
@@ -191,6 +288,18 @@ IMF]]></summary>
         <summary type="html"><![CDATA[I counted only 21 AWS news since last Monday, most of them being Regional expansions of existing services and capabilities. I hope you enjoyed a relatively quiet week, because this one will be busier. This week, we’re welcoming our customers and partners at the Jacob Javits Convention Center for the AWS Summit New York on […]]]></summary>
         <author>
             <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by ikesau in "Reverse engineering Ticketmaster's rotating barcodes"]]></title>
+        <id>https://news.ycombinator.com/item?id=40906688</id>
+        <link href="https://news.ycombinator.com/item?id=40906688"/>
+        <updated>2024-07-08T16:16:57.000Z</updated>
+        <summary type="html"><![CDATA[Really good post! I also found this quote which distilled their position in the 404media coverage of the situation.
+> “What I can say for sure is that TicketMaster and AXS have had every opportunity to support scam-free third party ticket resale and delivery platforms if they wished: By documenting their ticket QR code cryptography, and by exposing apps and APIs which would allow verification and rotation of ticket secrets,” Conduition told me in an email. “But they intentionally choose not to do so, and then they act all surprised-pikachu when 3rd party resale scams proliferate. They're opting to play legal whack-a-mole with scammers instead of fixing the problem directly with better technology, because they make more money as a resale monopoly than as an open and secure ecosystem.”
+from https://www.404media.co/scalpers-are-working-with-hackers-to...]]></summary>
+        <author>
+            <name>ikesau</name>
         </author>
     </entry>
     <entry>
@@ -224,6 +333,22 @@ Noise Reduc…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Sascha Engel - Primitive anarchy and the anti-alphabet]]></title>
+        <id>https://theanarchistlibrary.org/library/sascha-engel-primitive-anarchy-and-the-anti-alphabet?v=1720450402</id>
+        <link href="https://theanarchistlibrary.org/library/sascha-engel-primitive-anarchy-and-the-anti-alphabet?v=1720450402"/>
+        <updated>2024-07-08T14:53:22.000Z</updated>
+        <summary type="html"><![CDATA[Author: Sascha Engel
+Title: Primitive anarchy and the anti-alphabet
+Date: Summer 2024
+Source: Plastic in Utero issue #3
+
+ The way I see it, primitive anarchy is a total challenge to the pacified social field. This means that it is multi-faceted and at once constructive and destructive. Sabotaging the horrors of deep sea mining or “artificial intelligence” requires a different approach than the rewilding of everyday life. Inasmuch as the anti-alphabet is a part of primitive anarchy, it belongs with efforts to rewild everyday life. From this perspective, I think what it does can be summarized in three theses, on which I’ll expand below: 
+ 1) The terms of the pacified social field – the nouns, verbs, and adjectives of everyday language – are not actually words. Language abolition is only a se…]]></summary>
+        <author>
+            <name>The Anarchist Library</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[What Would a Russian Victory in Ukraine Look Like?]]></title>
         <id>https://www.nakedcapitalism.com/?p=274585</id>
         <link href="https://www.nakedcapitalism.com/2024/07/what-would-a-russian-victory-in-ukraine-look-like.html"/>
@@ -231,6 +356,17 @@ Noise Reduc…]]></summary>
         <summary type="html"><![CDATA[Russia has some thorny and apparently not resolved questions about its end game in Ukraine.]]></summary>
         <author>
             <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by deeth_starr_v in "Boeing to plead guilty to criminal fraud charge stemming from 737 MAX crashes"]]></title>
+        <id>https://news.ycombinator.com/item?id=40905437</id>
+        <link href="https://news.ycombinator.com/item?id=40905437"/>
+        <updated>2024-07-08T13:50:48.000Z</updated>
+        <summary type="html"><![CDATA[From the article: Paul Cassell, a lawyer for victims’ family members, said he plans to ask the federal judge on the case to reject the deal and “simply set the matter for a public trial, so that all the facts surrounding the case will be aired in a fair and open forum before a jury.”
+Hard to disagree]]></summary>
+        <author>
+            <name>deeth_starr_v</name>
         </author>
     </entry>
     <entry>
@@ -270,6 +406,18 @@ Noise Reduc…]]></summary>
         <summary type="html"><![CDATA[US and Fed bad cooking has led to weak growth the world, and by urging poor countries to borrow at once-low rates, debt distress.]]></summary>
         <author>
             <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by supernova87a in "Boeing to plead guilty to criminal fraud charge stemming from 737 MAX crashes"]]></title>
+        <id>https://news.ycombinator.com/item?id=40903239</id>
+        <link href="https://news.ycombinator.com/item?id=40903239"/>
+        <updated>2024-07-08T07:11:04.000Z</updated>
+        <summary type="html"><![CDATA[Our governmental methods of punishment for corporations strike me as lacking.  This seems similar to Wells Fargo, where ok, the company was fined, sued, made to pay restitution (somewhat) to victims.  But underlying it all, the culture and incentives at the company that produced the situation didn't get fundamentally changed.   Which often perpetuates across specific leaders, boards, and is a part of what a company is -- and doesn't just get replaced by removing one or two people.
+What does it take?   You have to dismantle a company before it changes these kinds of deep-rooted issues?    Or can a government penalty call for that?  That is hard to achieve.  Who's going to change the evaluation procedures that HR has in place to measure what rating or bonus you get this year?  That seems to me as important as who is CEO.
+None of the penalties courts mete out (short of dissolution/fined into bankruptcy) seem to be able to achieve this level of change needed.]]></summary>
+        <author>
+            <name>supernova87a</name>
         </author>
     </entry>
     <entry>
@@ -430,22 +578,62 @@ I don't know what my dad was listening for when he tapped and slapped all those 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Links 7/7/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=274533</id>
-        <link href="https://www.nakedcapitalism.com/2024/07/links-7-7-2024.html"/>
-        <updated>2024-07-07T10:55:49.000Z</updated>
+        <title type="html"><![CDATA[New comment by __turbobrew__ in "A reawakening of systems programming meetups"]]></title>
+        <id>https://news.ycombinator.com/item?id=40898727</id>
+        <link href="https://news.ycombinator.com/item?id=40898727"/>
+        <updated>2024-07-07T16:45:45.000Z</updated>
+        <summary type="html"><![CDATA[I was on the board of directors for a local Linux Users Group and can echo the difficulties in finding a venue. In a city full of empty office spaces on a weekday night it was virtually impossible to find a stable meeting location. Without a stable meeting location you are much less likely to establish a core group since people do not like to have to learn how to get to different venues.
+Mozilla hosted us at one point but the political tides changed there and we got kicked out. I think having strong buy in from someone in the C-suite of a company is the only real way to do it. Otherwise you are beholden to the changing winds of the company.
+In the end we are now in a stable location in the local library, but only because we had someone on the inside. Previously when we approached the library we were stone walled without someone to grease the wheels.
+I do believe that it should be a mandate for the municipality to provide meeting space for local non-profit and special interest groups. In many locations you can no longer pool some money with your buddies to buy a piece of land to build your clubhouse on. In my city there are many such clubs which were formed 50 years ago — the sailing club, the badminton club, the lawn bowling club, etc — but land is too scarce in many places now and we need the municipalities to pick up the slack.]]></summary>
         <author>
-            <name>Conor Gallagher</name>
+            <name>__turbobrew__</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spook Scholarship: A Prominent Former CIA Analyst and Project Ukraine Backer Moonlights as a Collegiate Textbook Coauthor]]></title>
-        <id>https://www.nakedcapitalism.com/?p=274555</id>
-        <link href="https://www.nakedcapitalism.com/2024/07/spook-scholarship-a-prominent-former-cia-analyst-and-project-ukraine-backer-moonlights-as-a-collegiate-textbook-coauthor.html"/>
-        <updated>2024-07-07T10:30:50.000Z</updated>
-        <summary type="html"><![CDATA[Students lucky enough to be assigned the books will learn that foreign countries resisting US imperialism aren’t the only danger to “democracy,” but the American people are as well.]]></summary>
+        <title type="html"><![CDATA[New comment by Aurornis in "A reawakening of systems programming meetups"]]></title>
+        <id>https://news.ycombinator.com/item?id=40897897</id>
+        <link href="https://news.ycombinator.com/item?id=40897897"/>
+        <updated>2024-07-07T14:16:03.000Z</updated>
+        <summary type="html"><![CDATA[> I used to attend a bunch of meetups before the pandemic. But I quickly got disillusioned. Almost every meetup was varying degrees of startups pitching their product. The last straw for me was sitting through a talk at a JavaScript meetup that was by a devrel employee of a startup who literally gave a tutorial for their product.
+My favorite local meetups fell to problems like this.
+It was easy to filter out the DevRel people trying to advertise. The hard problem was filtering out people who were only interested in presenting something so they could show another presentation on their resume or personal brand website, with no interest in engaging with the meetup.
+These people would want to only show up for the one meetup where they got to present. They’d present some simple content designed to make them look good, with little regard to educating or discussing things. They’d often have some excuse for needing to leave quickly after presenting, some times before any QA time.
+And they always needed a video recording of themselves speaking. For a while we had these to stream to remote viewers, but if the camera gear wasn’t available they’d panic and spend a lot of time improvising a way to record it with their phone even if delayed the presentation. Getting the recording of themselves speaking was the primary goal, not actually speaking to the group.
+After this happens enough times, the core members realize they’re being used as audience props for someone’s career advancement and they stop coming. The meetup collapses.
+I hope my local meetup groups can have a little resurgence like this where people are primarily interested in the meetup, not the self promotion opportunity.]]></summary>
         <author>
-            <name>Conor Gallagher</name>
+            <name>Aurornis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by charrondev in "YouTube embeds are heavy and it’s fixable"]]></title>
+        <id>https://news.ycombinator.com/item?id=40897715</id>
+        <link href="https://news.ycombinator.com/item?id=40897715"/>
+        <updated>2024-07-07T13:48:45.000Z</updated>
+        <summary type="html"><![CDATA[I work on a community forum platform and we detect YouTube embeds and replace them proxied thumbnails that don’t load until clicked.
+Just because one person in a thread shares a YouTube video doesn’t mean everyone else loading that page should have to download 1MB+ of YouTube’s JavaScript bloat and have their IPs tracked by google.]]></summary>
+        <author>
+            <name>charrondev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jitl in "Show HN: Execute JavaScript in a WebAssembly QuickJS sandbox"]]></title>
+        <id>https://news.ycombinator.com/item?id=40897658</id>
+        <link href="https://news.ycombinator.com/item?id=40897658"/>
+        <updated>2024-07-07T13:40:56.000Z</updated>
+        <summary type="html"><![CDATA[Hi, I’m the author of the underlying quickjs-emscripten runtime library. I like your ergonomic kind of “standard library” for quickjs-emscripten :)
+Did you try running in the browser or with a bundler? I think accepting the variant name as a string you pass to import(variantName) dynamically may not play well with Webpack et al.
+EDIT: SECURITY WARNING: this library exposes the ability for the guest (untrusted) code to `fetch` with the same cookies as the host `fetch` function. You must not run untrusted code if enabling `fetch`. Library should come with a big blinking warning about what is safe and unsafe to enable when running untrusted code. It’s not a “sandbox” if the sandboxed code can call arbitrary HTTP APIs authenticated as the host context!
+The reason quickjs-emscripten  is low-level and avoids magic is so I can confidently claim that the APIs it does provide are secure. I generally reject feature requests for magical serialization or easy network/filesystem access because that kind of code is a rich area for security mistakes. When you run untrusted code, you should carefully audit the sandbox itself, but also audit all the code you write to expose APIs to the sandbox.
+In this case a comment from an other HN user asking about Fetch cookies tipped me off to the potential security issue.
+More reading:
+Figma blog posts on plugin sandbox security:
+- https://www.figma.com/blog/how-we-built-the-figma-plugin-sys...
+- https://www.figma.com/blog/an-update-on-plugin-security/
+Quickjs-emscripten README: https://github.com/justjake/quickjs-emscripten]]></summary>
+        <author>
+            <name>jitl</name>
         </author>
     </entry>
     <entry>
@@ -485,16 +673,6 @@ Next time you find yourself with your index finger resting on the delete button,
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[As New Campaign Implores Him to ‘Pass the Torch,’ Biden Rejects Calls to Drop Out]]></title>
-        <id>https://www.nakedcapitalism.com/?p=274539</id>
-        <link href="https://www.nakedcapitalism.com/2024/07/as-new-campaign-implores-him-to-pass-the-torch-biden-rejects-calls-to-drop-out.html"/>
-        <updated>2024-07-07T09:00:02.000Z</updated>
-        <summary type="html"><![CDATA[A shadowy group of Democrat insiders leads the effort to pick the party’s nominee in smoke-filled room.]]></summary>
-        <author>
-            <name>Conor Gallagher</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Sunday photoblogging: Swift]]></title>
         <id>https://crookedtimber.org/?p=52856</id>
         <link href="https://crookedtimber.org/2024/07/07/sunday-photoblogging-swift-3/"/>
@@ -502,6 +680,19 @@ Next time you find yourself with your index finger resting on the delete button,
         <summary type="html"><![CDATA[I’ve spent many hours trying to take pictures of these over the past three years and have a large collection of indistinct blurs as a result. But I went back to basics, studied the camera setting, watched a bunch of “how to” videos on YouTube and actually managed this one:]]></summary>
         <author>
             <name>Chris Bertram</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by curl-up in "Why Italy Fell Out of Love with Cilantro"]]></title>
+        <id>https://news.ycombinator.com/item?id=40895904</id>
+        <link href="https://news.ycombinator.com/item?id=40895904"/>
+        <updated>2024-07-07T07:44:35.000Z</updated>
+        <summary type="html"><![CDATA[> In 1544, physician and botanist Pietro Andrea Mattioli described the leaves as smelling like bed bugs or stink bugs...
+Incredible that neither this, nor the other linked article, even mention the fact that this stink-bug/soap taste is genetically predetermined for some people [1], so above quote can by no means be taken as an argument that cilantro "became unfashionable" so authors started describing it negatively.
+Instead, the real story is probably much more interesting, as the changes in cilantro popularity could probably be connected to waves of migrations and general genetic pool changes in a particular place.
+[1] https://en.wikipedia.org/wiki/OR6A2]]></summary>
+        <author>
+            <name>curl-up</name>
         </author>
     </entry>
     <entry>
@@ -552,6 +743,49 @@ The post Migration is Not a Crime appeared first on CounterPunch.org.]]></summar
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by LeFantome in "Advantages of incompetent management"]]></title>
+        <id>https://news.ycombinator.com/item?id=40894595</id>
+        <link href="https://news.ycombinator.com/item?id=40894595"/>
+        <updated>2024-07-07T01:33:23.000Z</updated>
+        <summary type="html"><![CDATA[[Edit: apologies for the wall of text. A lot of pent up emotion around Creo.]
+Best place I ever worked.
+This was “the Creo Philosophy”:
+Our priority is to provide unique and sustainable value to our customers.
+1. All decisions must be based on sound economics.
+2. Key decisions are made in consensus, with full team agreement to accept and implement the decision.
+3. We believe that people are most effective when self-managed.
+4. Compensation is based on contribution, gauged largely by an annual peer review.
+5. All employees share the wealth created by their hard work and innovation.
+Creo was extremely proud of how “flat” the organization was but my primary take-away from there as an ex-employee is actually how important management is.
+First and foremost, management created a shared vision of…]]></summary>
+        <author>
+            <name>LeFantome</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by netcoyote in "Starcraft (A History in Two Acts)"]]></title>
+        <id>https://news.ycombinator.com/item?id=40894363</id>
+        <link href="https://news.ycombinator.com/item?id=40894363"/>
+        <updated>2024-07-07T00:34:23.000Z</updated>
+        <summary type="html"><![CDATA[As a data point, the Blizzard sales team’s projections were that we would sell 4,000 copies of StarCraft in a year in South Korea, so there was no reason to in localize the game.
+First year sales were on the order of 100x that amount, quite the surprise for everyone at Blizzard!]]></summary>
+        <author>
+            <name>netcoyote</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by tonyarkles in "The magic of small engineering teams"]]></title>
+        <id>https://news.ycombinator.com/item?id=40892151</id>
+        <link href="https://news.ycombinator.com/item?id=40892151"/>
+        <updated>2024-07-06T18:22:18.000Z</updated>
+        <summary type="html"><![CDATA[One of the most interesting discussions I've had around this was at a small company who mass-hired a bunch of people from a big company. We went round and round in circles for a while because of issues similar to what you're describing. I ran a small 4-6 person hardware team (softly blurry on the edges) and the new people wanted significant amounts of design and documentation review as well as financial oversight. We needed $40 worth of solder and connectors and had to wait a week for PO approval as well as demonstrate that we had gotten multiple quotes... even though there was just a store down the block that sold exactly what we needed.
+Anyway, after a month or two of this I started catching significant flak because my team was nowhere near as productive as it used to be. Complaining about slow POs was met with "maybe you should plan better". Complaining about design reviews for one-off boards that would go from idea-to-problem solved was met with "you're engineers, you need to document your work". It was painful and I came very close to resigning.
+What ultimately worked, though, was figuring out a catch phrase that spoke the language of the new people: "accountability without authority". This ruffled some feathers but once I repeated "you are trying to hold me accountable for delivering a $500,000 project on time but are not giving me authority to buy $40 worth of stuff to execute on that" enough times it finally got through and the system started to change. But man did it suck for a while.]]></summary>
+        <author>
+            <name>tonyarkles</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[You've Got Mail]]></title>
         <id>https://alexandrawolfe.ca/youve-got-mail/</id>
         <link href="https://alexandrawolfe.ca/youve-got-mail/"/>
@@ -561,6 +795,28 @@ It sent a shiver down my spine not just because that was over 20 years ago, but 
 Where ever I was in the world, travelling and or working, my mother almost religiously took time out of her day to write an aerogramme to me. Do you remember those? You buy them at any post office, singularly or in packs. I think my mother had a draw full of them—after …]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by throwup238 in "First anode-free sodium solid-state battery"]]></title>
+        <id>https://news.ycombinator.com/item?id=40891799</id>
+        <link href="https://news.ycombinator.com/item?id=40891799"/>
+        <updated>2024-07-06T17:25:15.000Z</updated>
+        <summary type="html"><![CDATA[The difference in their geochemistry is substantial so even if chromium isn't technically that much more abundant, it's significantly easier to mine.
+The Gibbs free energy of formation for chromium oxides and chromite is much more negative than for lithium-bearing minerals so Cr compounds are thermodynamically favored to precipitate out of melts and solutions, forming minerals with high concentrations that then get pushed up by other processes. Li+, with its lone valence electron, just doesn't form strong bonds or highly stable mineral phases in comparison. On top of that the diffusion coefficients for Cr species in magmas and rocks are generally orders of magnitude lower than for Li. Cr gets locked into crystal structures early and stays put, while Li keeps migrating and diffusing in the form of water soluble minerals. There's also a whole biogeochemical cycle for Cr involving microbes that can concentrate it in sediments.]]></summary>
+        <author>
+            <name>throwup238</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by thrtythreeforty in "Amazon is bricking $2,350 Astro robots 10 months after release"]]></title>
+        <id>https://news.ycombinator.com/item?id=40891415</id>
+        <link href="https://news.ycombinator.com/item?id=40891415"/>
+        <updated>2024-07-06T16:23:22.000Z</updated>
+        <summary type="html"><![CDATA[They are refunding for them. But in my opinion, you only get a couple of these un-launches before you get a reputation like Google has.
+Amazon has cancelled lots of consumer stuff in the past (the Alexa buttons or whatever they were) but cancelling business-facing things is new. Businesses are much more cancellation averse than forgetful consumers have proven to be.]]></summary>
+        <author>
+            <name>thrtythreeforty</name>
         </author>
     </entry>
     <entry>
@@ -580,13 +836,36 @@ The post Moving Human Targets appeared first on CounterPunch.org.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Links 7/6/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=274415</id>
-        <link href="https://www.nakedcapitalism.com/2024/07/links-7-6-2024.html"/>
-        <updated>2024-07-06T10:55:09.000Z</updated>
-        <summary type="html"><![CDATA[Our tetchy daily links: 2000 year old calculator, more Covid damage evidence, coal forever? EU v. China, Starmer's weak landslide, Nigeria starvation, Houthis punching harder, Putin Q&A, Interpol hates digital roaming, NATO wobbles? Biden agonistes, vending machine bullets, shareholder driven crapification, American dream dead]]></summary>
+        <title type="html"><![CDATA[New comment by supermatt in "Apple okays Epic Games marketplace app in Europe"]]></title>
+        <id>https://news.ycombinator.com/item?id=40888774</id>
+        <link href="https://news.ycombinator.com/item?id=40888774"/>
+        <updated>2024-07-06T07:31:32.000Z</updated>
+        <summary type="html"><![CDATA[That third party app stores are subject to review by apple is a problem in itself.]]></summary>
         <author>
-            <name>Yves Smith</name>
+            <name>supermatt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by kelnos in "YouTube's eraser tool removes copyrighted music without impacting other audio"]]></title>
+        <id>https://news.ycombinator.com/item?id=40886120</id>
+        <link href="https://news.ycombinator.com/item?id=40886120"/>
+        <updated>2024-07-05T21:21:34.000Z</updated>
+        <summary type="html"><![CDATA[I guess it's good that there's a new solution to this problem, but I wish it just wasn't a problem in the first place.  It's ridiculous that someone can't just walk around outside, making a video of what they're doing, and post it, without having to worry that some copyrighted music is playing in the background for some portion of it.
+That sort of situation should be considered fair use, and copyright owners who attempt to make trouble for people caught up in this situation should be slapped down, hard, and fined.]]></summary>
+        <author>
+            <name>kelnos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by inopinatus in "PostgreSQL and UUID as Primary Key"]]></title>
+        <id>https://news.ycombinator.com/item?id=40885948</id>
+        <link href="https://news.ycombinator.com/item?id=40885948"/>
+        <updated>2024-07-05T20:59:05.000Z</updated>
+        <summary type="html"><![CDATA[The best advice I can give you is to use bigserial for B-tree friendly primary keys and consider a string-encoded UUID as one of your external record locator options. Consider other simple options like PNR-style (airline booking) locators first, especially if nontechnical users will quote them. It may even be OK if they’re reused every few years. Do not mix PK types within the schema for a service or application, especially a line-of-business application. Use UUIDv7 only as an identifier for data that is inherently timecoded, otherwise it leaks information (even if timeshifted). Do not use hashids - they have no cryptographic qualities and are less friendly to everyday humans than the integers they represent; you may as well just use the sequence ID.  As for the encoding, do not use base64 or other hyphenated alphabets, nor any identifier scheme that can produce a leading ‘0’ (zero) or ‘+’ (plus) when encoded (for the day your stuff is pasted via Excel).
+Generally, the principles of separation of concerns and mechanical sympathy should be top of mind when designing a lasting and purposeful database schema.
+Finally, since folks often say “I like stripe’s typed random IDs” in these kind of threads: Stripe are lying when they say their IDs are random. They have some random parts but when analyzed in sets, a large chunk of the binary layout is clearly metadata, including embedded timestamps, shard and reference keys, and versioning, in varying combinations depending on the service.  I estimate they typically have 48-64 bits of randomness. That’s still plenty for most systems; you can do the same. Personally I am very fond of base58-encoded AES-encrypted bigserial+HMAC locators with a leading type prefix and a trailing metadata digit, and you can in a pinch even do this inside the database with plv8.]]></summary>
+        <author>
+            <name>inopinatus</name>
         </author>
     </entry>
     <entry>
@@ -597,6 +876,19 @@ The post Moving Human Targets appeared first on CounterPunch.org.]]></summary>
         <summary type="html"><![CDATA[On France’s far-right vote.]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by gcp123 in "Let's stop counting centuries"]]></title>
+        <id>https://news.ycombinator.com/item?id=40884673</id>
+        <link href="https://news.ycombinator.com/item?id=40884673"/>
+        <updated>2024-07-05T17:52:42.000Z</updated>
+        <summary type="html"><![CDATA[Author makes a good point. "1700s" is both more intuitive and more concise than "18th century". 
+The very first episode of Alex Trebeck's Jeopardy in 1984 illustrates how confusing this can be:
+https://www.youtube.com/watch?v=KDTxS9_CwZA
+The "Final Jeopardy" question simply asked on what date did the 20th century begin, and all three contestants got it wrong, leading to a 3-way tie.]]></summary>
+        <author>
+            <name>gcp123</name>
         </author>
     </entry>
     <entry>
@@ -643,6 +935,16 @@ But now and then, we can try to remind ourselves of the emptiness that surrounds
         <summary type="html"><![CDATA[The photography of Johny Pitts.]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by wavemode in "I have no constructor, and I must initialize"]]></title>
+        <id>https://news.ycombinator.com/item?id=40882247</id>
+        <link href="https://news.ycombinator.com/item?id=40882247"/>
+        <updated>2024-07-05T12:47:36.000Z</updated>
+        <summary type="html"><![CDATA[Always obligatory https://mikelui.io/img/c++_init_forest.gif]]></summary>
+        <author>
+            <name>wavemode</name>
         </author>
     </entry>
     <entry>
@@ -711,6 +1013,41 @@ The post Sharon Revisited: Netanyahu’s Ultimate Aim in Gaza and Why It Will Fa
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by duffpkg in "Batteries: How cheap can they get?"]]></title>
+        <id>https://news.ycombinator.com/item?id=40877710</id>
+        <link href="https://news.ycombinator.com/item?id=40877710"/>
+        <updated>2024-07-04T20:15:06.000Z</updated>
+        <summary type="html"><![CDATA[Lifepo4 (lithium iron phosphate) batteries for the home are pretty cheap as of today. Power storage for residential use in a 48v metal rackable linkable system with battery management system (BMS) is $89/kwh shipped/duty paid from reputable chinese suppliers CATL/Seplos etc. You have to wait for sea shipping, add $30/kwh if you want to buy it in the US today.
+From the same suppliers sodium batteries are currently $130/kwh and about 26% less efficient in the same form factor. I look forward to this changing.
+Due to rising power costs I moved one of my homes completely to solar and battery (lifepo4) and haven't had any problems. I can't imagine ever going back to the power company. Panels have gotten to the point of being ridiculously cheap. I have a lot of space. I purchased pallets of used panels for more or less the cost of transportation ($34 per panel 270w). They produce about 85% of their nominal rating.
+I mention this because other comments mention costs that are much much higher.]]></summary>
+        <author>
+            <name>duffpkg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by Schiphol in "Gravitational wave researchers cast new light on Antikythera mechanism mystery"]]></title>
+        <id>https://news.ycombinator.com/item?id=40877288</id>
+        <link href="https://news.ycombinator.com/item?id=40877288"/>
+        <updated>2024-07-04T19:12:43.000Z</updated>
+        <summary type="html"><![CDATA[The paper [here](https://bhi.co.uk/wp-content/uploads/2024/06/07-HJJuly24-AOT...) makes it clear that these researchers (whose main topic is gravitational waves) have used Bayesian analyses to estimate how likely different counts for holes present in the full calendar ring are. This is cool, but the bit about "techniques developed to analyse the ripples in spacetime" is, well, making reference to Bayesian analysis.]]></summary>
+        <author>
+            <name>Schiphol</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by pembrook in "Twilio confirms data breach after hackers leak 33M Authy user phone numbers"]]></title>
+        <id>https://news.ycombinator.com/item?id=40876410</id>
+        <link href="https://news.ycombinator.com/item?id=40876410"/>
+        <updated>2024-07-04T17:02:28.000Z</updated>
+        <summary type="html"><![CDATA[While this sucks, my phone is in so many data breaches at this point it doesn’t matter.
+The spam-to-ham ratio on my phone number is now far worse than any other channel for me. The traditional phone network is at risk of going the way of the fax machine if we don’t do something about the spam problem like we did with email.
+If I’m on a call, even with family, it’s now almost exclusively on FaceTime/zoom/meet/etc. I can’t remember the last time I talked on the traditional phone network or received a legitimate call. Which isn’t great because those aforementioned platforms are all proprietary walled gardens with terrible incentives — once they capture the market fully they will eventually dump ads all over your calls. Don’t believe me? Just look at what Gmail did to monetize the lock-in on your inbox.]]></summary>
+        <author>
+            <name>pembrook</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[William Gillis - What’s In A Slogan? “KYLR” and Militant Anarcha-feminism]]></title>
         <id>https://theanarchistlibrary.org/library/william-gillis-what-s-in-a-slogan-kylr-and-militant-anarcha-feminism?v=1720111778</id>
         <link href="https://theanarchistlibrary.org/library/william-gillis-what-s-in-a-slogan-kylr-and-militant-anarcha-feminism?v=1720111778"/>
@@ -749,6 +1086,20 @@ Source: Retrieved on July 4, 2024 from https://c4ss.org/content/59691
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by adamgordonbell in "Jeffrey Snover and the Making of PowerShell"]]></title>
+        <id>https://news.ycombinator.com/item?id=40874156</id>
+        <link href="https://news.ycombinator.com/item?id=40874156"/>
+        <updated>2024-07-04T11:55:08.000Z</updated>
+        <summary type="html"><![CDATA[Host here, thanks for sharing.
+PowerShell faced extreme opposition at Microsoft, and its creator Jeffrey Snover was demoted for pursuing it.
+Jeffrey was originally brought into Microsoft to help MS learn how to compete in the data center, but culturally they were so tied to the personal computer model of the world, that they fought him every step of the way.
+Edit: Another interesting thing, is how Powershell exists because Windows isn't file based. Jeffrey's goal was server administration, but on Windows you can't just edit files to administer things, you need to call various APIs and get structured data back forth. The rich object model fell out of that. It was the only way.
+( Also, apologies if the transcript has errors. I've gone from professional transcriptions to Descript and then a pass of GPT4 trying to find the right punctation breaks and then me doing a quick read through. I don't think its coming out as high quality as I'd like. )]]></summary>
+        <author>
+            <name>adamgordonbell</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Weekend read: Theory and reality in economics]]></title>
         <id>http://rwer.wordpress.com/?p=45462</id>
         <link href="https://rwer.wordpress.com/2024/07/04/weekend-read-theory-and-reality-in-economics/"/>
@@ -773,6 +1124,16 @@ Inequality,
 Inflation]]></summary>
         <author>
             <name>Michael Roberts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by febeling in "Shipt’s algorithm squeezed gig workers, who fought back"]]></title>
+        <id>https://news.ycombinator.com/item?id=40873472</id>
+        <link href="https://news.ycombinator.com/item?id=40873472"/>
+        <updated>2024-07-04T09:09:18.000Z</updated>
+        <summary type="html"><![CDATA[I had similar thoughts. But let's not overlook the information asymmetry, which contributed to the dissatisfaction. I don't want to live in a world which is controlled unilaterally, and intransparently by a group of people who assume they have a full picture of the situation and assume they understand moral completely, and also don't think it necessary to explain how they think so highly of themselves.]]></summary>
+        <author>
+            <name>febeling</name>
         </author>
     </entry>
     <entry>
@@ -807,6 +1168,21 @@ Source: Retrieved on 04/07/2024 from https://jewishcurrents.org/yiddish-anarchis
 On Friday, August 23rd, 1929, exaggerated rumors about the extent of Jewish violence against Palestinians and the desecration of holy sites in Jerusalem reached the Palestinian community of Hebron (Al-Khalil, in Arabic). What started as incensed Palestinians throwing stone…]]></summary>
         <author>
             <name>The Anarchist Library</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by vouwfietsman in "The saddest "Just Ship It" story ever (2020)"]]></title>
+        <id>https://news.ycombinator.com/item?id=40872836</id>
+        <link href="https://news.ycombinator.com/item?id=40872836"/>
+        <updated>2024-07-04T06:38:52.000Z</updated>
+        <summary type="html"><![CDATA[> It's worth repeating: Unless you have a stake in the company, it is NOT your job to make sure the company is the most profitable it can be. Your job is to create great software
+This is a terrible take, and one I generally see as a signal of lack of seniority in a software dev. It is absolutely everybody's job in the company to make sure it is profitable, unless you work for a non-profit.
+The thing is though, that profitable is not the same as "just ship it". If you're in a company where those things are conflated frequently, that's a sign of lack of seniority in management.
+> Your job is to create great software
+It really isn't, your job is to make a great product. Making a great product often, but not always, requires great software. Many great products have terrible software behind them. The tension between product, sales and development should result in a compromise that creates the most value short, middle and long term. It is 100% your job as a developer to understand what can and cannot be hacked, what priorities the company has beside delivering great software, and finally: when great software must be made, because compromise is unwise.
+Just like the boy who cried wolf, the developer who can never compromise on software quality is powerless when there is an actual reason to not compromise on software quality, and rightfully so.]]></summary>
+        <author>
+            <name>vouwfietsman</name>
         </author>
     </entry>
     <entry>
@@ -883,6 +1259,20 @@ Source: <actforfree.nostate.net/?p=16535>. Retrieved on 03/07/2024 from lib.anar
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by LarsDu88 in "AI's $600B Question"]]></title>
+        <id>https://news.ycombinator.com/item?id=40869863</id>
+        <link href="https://news.ycombinator.com/item?id=40869863"/>
+        <updated>2024-07-03T20:51:30.000Z</updated>
+        <summary type="html"><![CDATA[According to Jensen it takes about 8000 H100s running for 90 days to train a 1.8 Trillion param MoE GPT-4 scale model.
+Meta has about 350,000 of these GPUs and a whole bunch of A100s. This means the ability to train 50 GPT-4 scale models every 90 days or 200 such models per year.
+This level of overkill suggests to me that the core models will be commoditized to oblivion, making the actual profit margins from AI-centric companies close to 0, especially if Microsoft and Meta keep giving away these models for free.
+This is actually terrible for investors, but amazing for builders (ironically).
+The real value methinks is actually over the control of proprietary data used for training which is the single most important factor for model output quality. And this is actually as much an issue for copyright lawyers rather than software engineers once the big regulatory hammers start dropping to protect American workers.]]></summary>
+        <author>
+            <name>LarsDu88</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Refactoring to Serverless: From Application to Automation]]></title>
         <id>0b8bd15cb28746b280e7ed11144ffd013485b5aa</id>
         <link href="https://aws.amazon.com/blogs/devops/refactoring-to-serverless-from-application-to-automation/"/>
@@ -890,6 +1280,19 @@ Source: <actforfree.nostate.net/?p=16535>. Retrieved on 03/07/2024 from lib.anar
         <summary type="html"><![CDATA[Refactor serverless apps by swapping application code with cloud automation: reduce costs, decouple logic from architecture, and leverage managed services' native capabilities.]]></summary>
         <author>
             <name>Sindhu Pillai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by iforgotpassword in "The Cheapest NAS"]]></title>
+        <id>https://news.ycombinator.com/item?id=40868676</id>
+        <link href="https://news.ycombinator.com/item?id=40868676"/>
+        <updated>2024-07-03T18:23:56.000Z</updated>
+        <summary type="html"><![CDATA[My secret protip: old Fujitsu desktop/nuc PCs. At least in Germany (Europe?) they are cheap on ebay since a lot of businesses use them and upgrade on a regular schedule.
+If you care about power consumption like I do, you can Google "$model energy consumption white paper" which contains very accurate data about idle usage, for example https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-energy...
+In one case I had a nuc where on Linux after enabling power saving features for the sata controller, idle usage even fell to 5W when the pdf claimed 9.
+Having an actual pc instead of a random sbc ensures best connectivity, expandability, and software support forever. With almost all sbcs you're stuck with a random-ass kernel from when the damn thing was released, and you basically have to frankenstein together your own up-to-date distro with the old kernel because the vendor certainly doesn't care about updating the random armbian fork they created for that thing.]]></summary>
+        <author>
+            <name>iforgotpassword</name>
         </author>
     </entry>
     <entry>
@@ -1053,28 +1456,6 @@ Source: Retrieved on 2 July 2024 from butchanarchy.medium.com/leave-or-else-a60b
  Abuse is ubiquitous in our society, and as a result there are very few among us, if any, who have not been abused themselves or in proximity to someone else being abused. Myths about why and how abuse occurs run rampant and the ones that dominate are ones that ultimately serve in the maintenance of the status quo that keeps victims disempowered and silent. As a result, even those few who do actually believe victims of abuse and see the danger such abuse poses to them still often respond to the conditions the victim is entrapped within in ways that ultimately affirm the abuser’s narrative and fur…]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I like your old music better than your new music]]></title>
-        <id>https://disassociated.com/?p=7938</id>
-        <link href="https://disassociated.com/like-old-music-better-than-new-music/"/>
-        <updated>2024-07-02T21:00:29.000Z</updated>
-        <summary type="html"><![CDATA[I might say that of U2, whose music I once really liked, especially the stuff they did in the nineties. Achtung Baby. Zooropa. Pop. Even 2000’s All That You Can’t Leave Behind. These albums mostly represented their electronic music phase. I’d have them on loop for days at a time. I drew the ire of […]]]></summary>
-        <author>
-            <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[To Blogroll, or to not?]]></title>
-        <id>https://notes.jeddacp.com/to-blogroll-or-to-not/</id>
-        <link href="https://notes.jeddacp.com/to-blogroll-or-to-not/"/>
-        <updated>2024-07-02T20:11:00.000Z</updated>
-        <summary type="html"><![CDATA[I really love the idea of having a Blogroll. When checking out a new blog, after reading and perusing said blog, I typically check to see if it has one. I think it’s one of the best ways to find new people to subscribe to, new content to read, and/or new perspectives to be exposed to. However, I don’t have one on my blog. Hypocritical? Maybe. Or maybe it’s just really personal preference.
-I grew up in the days of MySpace, and this irrational want to be included in everyone’s Top 8. Then when you’re in their Top 8, you watch that list like a hawk in case you drop from Top 2 to Top 5, or even worse, drop off altogether. Granted, blogrolls are a bit different since there’s no hard limit on how many can be included (or specified order), but the idea is similar.
-You see, I’m fine and OK with no…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
 </feed>
