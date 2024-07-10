@@ -12,6 +12,46 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "08f8205391b4f54c420072e762445c6a8d490a15",
+          "author": "Elizabeth Fuentes",
+          "description": "CloudTrail data event logging enables auditing for governance and compliance of object operations like PutObject and GetObject. Leverage high performance and low cost for latency-sensitive workloads.",
+          "link": "https://aws.amazon.com/blogs/aws/monitor-data-events-in-amazon-s3-express-one-zone-with-aws-cloudtrail/",
+          "publishedOn": "2024-07-09T22:19:17.000Z",
+          "wordCount": 1976,
+          "title": "Monitor data events in Amazon S3 Express One Zone with AWS CloudTrail",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/11/18/Express-One-Zone-Thumbnail-Final.png"
+        },
+        {
+          "id": "8ed151291b1f97b46f2655d37b994f085e5bd6eb",
+          "author": "AWS News Blog Team",
+          "description": "Along with a plethora of new launches, read about the latest models in Amazon Bedrock and new features for Amazon Q.",
+          "link": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2024-2/",
+          "publishedOn": "2024-07-09T21:45:50.000Z",
+          "wordCount": 923,
+          "title": "Top Announcements of the AWS Summit in New York, 2024",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/07/08/NY-Summit-feat-img-1260x630.png"
+        },
+        {
+          "id": "3dbcc75ef8554e17d4ce640b34987f60e1ed5ea5",
+          "author": "Veliswa Boya",
+          "description": "With AWS Glue's new visual interface, data teams can collaboratively build ETL pipelines, bridging the gap between analysts and engineers through an intuitive, shareable canvas.",
+          "link": "https://aws.amazon.com/blogs/aws/integrate-your-data-and-collaborate-using-data-preparation-in-aws-glue-studio/",
+          "publishedOn": "2024-07-09T21:39:32.000Z",
+          "wordCount": 1501,
+          "title": "Integrate your data and collaborate using data preparation in AWS Glue Studio",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/07/03/Glue-feat.png"
+        },
+        {
+          "id": "07a71bd7ce6b0c97862edd3bdcb3b2e5005fcf1c",
+          "author": "Esra Kayabali",
+          "description": "Discover the price performance and sustainability benefits of Graviton4 with Amazon EC2 R8g instances, ideal for memory-intensive workloads.",
+          "link": "https://aws.amazon.com/blogs/aws/aws-graviton4-based-amazon-ec2-r8g-instances-best-price-performance-in-amazon-ec2/",
+          "publishedOn": "2024-07-09T19:33:24.000Z",
+          "wordCount": 1596,
+          "title": "AWS Graviton4-based Amazon EC2 R8g instances: best price performance in Amazon EC2",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/06/18/EC2-r8g-feat-img.png"
+        },
+        {
           "id": "33de3473228bf0a8001c1a2fab34dcc5d6379d50",
           "author": "Sébastien Stormacq",
           "description": "I counted only 21 AWS news since last Monday, most of them being Regional expansions of existing services and capabilities. I hope you enjoyed a relatively quiet week, because this one will be busier. This week, we’re welcoming our customers and partners at the Jacob Javits Convention Center for the AWS Summit New York on […]",
@@ -33,7 +73,18 @@
       "title": "The GitHub Blog: Engineering News and Updates",
       "feedUrl": "http://githubengineering.com/atom.xml",
       "siteUrl": "https://github.blog/category/engineering/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://github.blog/2024-07-09-exploring-the-challenges-in-creating-an-accessible-sortable-list-drag-and-drop/",
+          "author": null,
+          "description": "<p>Drag-and-drop is a highly interactive and visual interface. We often use drag-and-drop to perform tasks like uploading files, reordering browser bookmarks, or even moving a card in solitaire.</p>\n<p>The post <a href=\"https://github.blog/2024-07-09-exploring-the-challenges-in-creating-an-accessible-sortable-list-drag-and-drop/\">Exploring the challenges in creating an accessible sortable list (drag-and-drop)</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+          "link": "https://github.blog/2024-07-09-exploring-the-challenges-in-creating-an-accessible-sortable-list-drag-and-drop/",
+          "publishedOn": "2024-07-09T19:06:50.000Z",
+          "wordCount": 2427,
+          "title": "Exploring the challenges in creating an accessible sortable list (drag-and-drop)",
+          "imageUrl": "https://github.blog/wp-content/uploads/2024/05/Collaboration-LightMode-3-1.png"
+        }
+      ]
     },
     {
       "title": "AWS DevOps Blog",
@@ -411,18 +462,7 @@
       "title": "Liberty Street Economics",
       "feedUrl": "https://libertystreeteconomics.newyorkfed.org/feed/",
       "siteUrl": "https://libertystreeteconomics.newyorkfed.org/",
-      "articles": [
-        {
-          "id": "https://libertystreeteconomics.newyorkfed.org/?p=30686",
-          "author": "Marco Del Negro, Keshav Dogra, Pranay Gundam, Donggyu Lee, and Brian Pacula",
-          "description": "This post discusses the distributional consequences of an aggressive policy response to inflation using a Heterogeneous Agent New Keynesian (HANK) model. We find that, when facing demand shocks, stabilizing inflation and real activity go hand in hand, with very large benefits for households at the bottom of the wealth distribution. The converse is true however when facing supply shocks: stabilizing inflation makes real outcomes more volatile, especially for poorer households. We conclude that distributional considerations make it much more important for policy to take into account the tradeoffs between stabilizing inflation and economic activity. This is because the optimal policy response depends very strongly on whether these tradeoffs are present (that is, when the economy is facing supply shocks) or absent (when the economy is facing demand shocks).",
-          "link": "https://libertystreeteconomics.newyorkfed.org/2024/07/on-the-distributional-consequences-of-responding-aggressively-to-inflation/",
-          "publishedOn": "2024-07-03T11:00:00.000Z",
-          "wordCount": 4595,
-          "title": "On the Distributional Consequences of Responding Aggressively to Inflation",
-          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/07/LSE_2024_HANK-aggressive-inflation_delnegro_460.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Real-World Economics Review Blog",
@@ -435,7 +475,7 @@
           "description": "from Peter Radford “Economics has become irrelevant.” PART ONE Oh my.  Apparently Brad DeLong and I have the same problem.  He, of course, is part of the elite club.  I am decidedly not.  So it is quite a shock to share something. What? He set out to write an 800 word review of Dan Davies’ […]",
           "link": "https://rwer.wordpress.com/2024/07/08/on-janeways-mesoeconomics/",
           "publishedOn": "2024-07-08T17:36:49.000Z",
-          "wordCount": 8986,
+          "wordCount": 8995,
           "title": "On Janeway’s Mesoeconomics",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -445,7 +485,7 @@
           "description": "from Lars Syll So, certainly, both non-theorists and some theorists have little patience for research that displays mathematical ingenuity but has no value as social science. But defining this work exactly is impossible. This sort of work is like pornography quite simple to recognize when one sees it. Jeffrey Ely As researchers, we (mostly) want […]",
           "link": "https://rwer.wordpress.com/2024/07/04/weekend-read-theory-and-reality-in-economics/",
           "publishedOn": "2024-07-04T11:06:52.000Z",
-          "wordCount": 7577,
+          "wordCount": 7590,
           "title": "Weekend read: Theory and reality in economics",
           "imageUrl": "https://larspsyll.wordpress.com/wp-content/uploads/2013/12/math15.gif"
         }
@@ -468,7 +508,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics; New Covid charts (no good news at all); Biden on Morning Joe; open processes to replacing Biden; the Enneagram ~",
           "link": "https://www.nakedcapitalism.com/2024/07/200pm-water-cooler-7-9-2024.html",
           "publishedOn": "2024-07-09T18:00:53.000Z",
-          "wordCount": 7111,
+          "wordCount": 13480,
           "title": "2:00PM Water Cooler 7/9/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/07/rcp_2024-07-05.png"
         },
@@ -478,7 +518,7 @@
           "description": "Big donors and Biden are duking it out as to whether he goes or stays. How much does it matter that voters are visibly disenfranchised?",
           "link": "https://www.nakedcapitalism.com/2024/07/the-biden-donor-convention.html",
           "publishedOn": "2024-07-09T13:46:43.000Z",
-          "wordCount": 6969,
+          "wordCount": 8532,
           "title": "The Biden Donor Convention",
           "imageUrl": null
         },
@@ -488,7 +528,7 @@
           "description": "Our expansive daily links: Ozempic vision risk, zero Covid community, EV battery BK? EU-China chip row, France left surprise win, UK budget crunch, Netanyahu v. ceasefire, Ukraine lack of air defenses, GPS foes, Biden defiant, misreading of Supremes on immunity, Goldman doubts AI, Bloomberg gives John Hopkins free tuition $",
           "link": "https://www.nakedcapitalism.com/2024/07/links-7-9-2024.html",
           "publishedOn": "2024-07-09T10:55:09.000Z",
-          "wordCount": 17190,
+          "wordCount": 19555,
           "title": "Links 7/9/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/07/00-bird-on-nest.jpg"
         },
@@ -498,7 +538,7 @@
           "description": "To treat the NHS's ills, Keir Starmer's government is talking about bringing back Tony Blair’s health secretary, Alan Milburn, who is now in the pay of corporations with interests in the UK's healthcare sector.",
           "link": "https://www.nakedcapitalism.com/2024/07/under-new-labour-government-the-privatisation-of-uks-national-health-service-is-if-anything-likely-to-intensify-including-in-scotland.html",
           "publishedOn": "2024-07-09T10:45:58.000Z",
-          "wordCount": 5659,
+          "wordCount": 5717,
           "title": "It Is Now Labour’s Turn to Expand the Piecemeal Privatisation of the UK’s National Health Service",
           "imageUrl": null
         },
@@ -508,7 +548,7 @@
           "description": "How Israel uses inhumane, experimental surveillance technology against Palestinians. Will this become that new normal?",
           "link": "https://www.nakedcapitalism.com/2024/07/how-do-we-control-palestinians-we-make-them-feel-like-we-are-everywhere.html",
           "publishedOn": "2024-07-09T09:59:02.000Z",
-          "wordCount": 4451,
+          "wordCount": 4420,
           "title": "‘How Do We Control Palestinians? We Make Them Feel Like We Are Everywhere’",
           "imageUrl": null
         },
@@ -518,7 +558,7 @@
           "description": "EU inability to meaningful increase 155mm shell production show the high cost of giving private arms-makers free rein.",
           "link": "https://www.nakedcapitalism.com/2024/07/eu-undershoots-155mm-shell-capacity-target-by-more-than-half-blames-all-sorts-of-things-besides-lack-of-operational-capability.html",
           "publishedOn": "2024-07-09T09:55:47.000Z",
-          "wordCount": 10427,
+          "wordCount": 10462,
           "title": "EU Undershoots 155MM Shell Capacity Target by More Than Half, Blames All Sorts of Things Besides Lack of Operational Capability",
           "imageUrl": null
         },
@@ -528,7 +568,7 @@
           "description": "~ Today's Water Cooler: Open Thread ~",
           "link": "https://www.nakedcapitalism.com/2024/07/200pm-water-cooler-7-8-2024.html",
           "publishedOn": "2024-07-08T18:00:10.000Z",
-          "wordCount": 8494,
+          "wordCount": 8479,
           "title": "2:00PM Water Cooler 7/8/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/07/fritillary.jpeg"
         },
@@ -538,7 +578,7 @@
           "description": "Russia has some thorny and apparently not resolved questions about its end game in Ukraine.",
           "link": "https://www.nakedcapitalism.com/2024/07/what-would-a-russian-victory-in-ukraine-look-like.html",
           "publishedOn": "2024-07-08T13:55:49.000Z",
-          "wordCount": 22342,
+          "wordCount": 22817,
           "title": "What Would a Russian Victory in Ukraine Look Like?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/00-Ukraine_disputed_regions.svg_.png"
         },
@@ -548,7 +588,7 @@
           "description": "",
           "link": "https://www.nakedcapitalism.com/2024/07/links-7-8-2024.html",
           "publishedOn": "2024-07-08T10:55:34.000Z",
-          "wordCount": 17547,
+          "wordCount": 17532,
           "title": "Links 7/8/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/07/Screenshot-2024-07-08-at-9.08.32 AM-1024x768.png"
         },
@@ -558,7 +598,7 @@
           "description": "Permaculture is a sustainable alternative to conventional agriculture.",
           "link": "https://www.nakedcapitalism.com/2024/07/nature-communications-permaculture-as-a-better-alternative-to-conventional-agriculture.html",
           "publishedOn": "2024-07-08T10:50:23.000Z",
-          "wordCount": 10758,
+          "wordCount": 10743,
           "title": "Nature Communications: Permaculture as a Better Alternative to Conventional Agriculture?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/07/ego_system.jpeg"
         }
@@ -618,26 +658,6 @@
           "wordCount": 3907,
           "title": "Cloudflare 1.1.1.1 incident on June 27, 2024",
           "imageUrl": "http://blog.cloudflare.com/content/images/2024/07/Cloudflare-1.1.1.1-incident-on-June-27--2024-OG-1.png"
-        },
-        {
-          "id": "66853348a4598c000bd709b9",
-          "author": "João Tomé",
-          "description": "How Cloudflare mitigated DDoS attacks targeting French political parties during the 2024 legislative elections, as detailed in our ongoing election coverage",
-          "link": "https://blog.cloudflare.com/first-round-of-french-election-2024-party-attacks-and-a-modest-traffic-dip",
-          "publishedOn": "2024-07-03T13:00:34.000Z",
-          "wordCount": 1006,
-          "title": "First round of French election: party attacks and a modest traffic dip",
-          "imageUrl": "http://blog.cloudflare.com/content/images/2024/07/First-round-of-French-election--party-attacks-and-a-modest-traffic-dip-OG-1.png"
-        },
-        {
-          "id": "668274eea4598c000bd707cf",
-          "author": "Alex Bocharov",
-          "description": "To help preserve a safe Internet for content creators, we’ve just launched a brand new “easy button” to block all AI bots. It’s available for all customers, including those on our free tier",
-          "link": "https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with-a-single-click",
-          "publishedOn": "2024-07-03T13:00:26.000Z",
-          "wordCount": 1941,
-          "title": "Declare your AIndependence: block AI bots, scrapers and crawlers with a single click",
-          "imageUrl": "http://blog.cloudflare.com/content/images/2024/07/Declareyour-AIndependence--block-AI-bots--scrapers-and-crawlers-with-a-single-click-OG-1.jpg"
         }
       ]
     },
@@ -688,12 +708,52 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=40919040",
+          "author": "miki123211",
+          "description": "> I think the explanation is quite mundane\n> There’ll be plots of various stats, including CPU utilization. I think meet will also helpfully suggest closing tabs if your machine is overloaded\nThis is not mundane at all, it's a perfect example of giving your product an unfair competitive advantage.\nIf Meet users are told why their meeting isn't working correctly but Zoom, Teams and Slack, Meet users are going to have a better experience that Zoom, Teams or Slack has no way of replicating.\nNo wonder every other meeting provider pushes you aggressively into using their desktop app, Google Meet's desktop app is just Chrome!",
+          "link": "https://news.ycombinator.com/item?id=40919040",
+          "publishedOn": "2024-07-09T18:01:34.000Z",
+          "wordCount": 520,
+          "title": "New comment by miki123211 in \"Google Chrome has an API accesible only from *.google.com\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40918007",
+          "author": "jonplackett",
+          "description": "Just reading these comments - is everyone OK with them sending your password to a server, but not with the lack of encryption?\nI would not expect my password to be sent to the server in the first place.",
+          "link": "https://news.ycombinator.com/item?id=40918007",
+          "publishedOn": "2024-07-09T16:30:47.000Z",
+          "wordCount": 4034,
+          "title": "New comment by jonplackett in \"Linksys Velop routers send Wi-Fi passwords in plaintext to US servers\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40916092",
+          "author": "cosmotic",
+          "description": "I presume the only people you're hurting by downloading gigabytes of docs are the people on the plain that paid for the service. Maybe the company providing the service because those people experiencing the slow connection might never buy again. You're probably a also costing stripe for their upload bandwidth.\nAnd here I am, avoiding downloading things on cell service because it might negatively impact other people around me.",
+          "link": "https://news.ycombinator.com/item?id=40916092",
+          "publishedOn": "2024-07-09T13:46:18.000Z",
+          "wordCount": 2388,
+          "title": "New comment by cosmotic in \"PySkyWiFi: Free stupid wi-fi on long-haul flights\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40916024",
+          "author": "jmkb",
+          "description": "Decades ago, my partner used Google Voice for texting -- really handy, texts just showed up in the gmail inbox, and could be replied to from there. She didn't like cellphones, but usually carried one of the old \"Kindle Keyboard\" models with unlimited 3G data. The Kindle had simple web browser that could load the low-spec gmail interface, so in essence she had a fully functional SMS device, with no monthly charges.\nNotification of incoming texts was the only problem. I jailbroke the thing and started trying to schedule network requests, thinking I'd add some kind of new message counter on the home screen. This proved hard. But it occurred to me that the best place for the counter would be right next to the Kindle's device name, at the top of the screen. And the device name could be updated from her Amazon account.\nSo I automated a web browser on the home server to log into Amazon and update the device name to \"My Kindle (x)\" where x was the number of unread Google Voice texts. The Kindle would update the name on the home screen in less than a minute. This worked for years!\n(Eventually that Kindle was stolen. I wanted to update its name to something foul but the device disappeared from her account too quickly.)",
+          "link": "https://news.ycombinator.com/item?id=40916024",
+          "publishedOn": "2024-07-09T13:40:01.000Z",
+          "wordCount": 1982,
+          "title": "New comment by jmkb in \"PySkyWiFi: Free stupid wi-fi on long-haul flights\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=40911245",
           "author": "deamanto",
           "description": "I'd also like to highlight another bad practice by Ticketmaster.\nWhen you purchase a ticket from them and resell it on their marketplace, once someone purchases it, they(Ticketmaster) hold your funds and only give you the money ~7-14 business days after the event is over. They say this is to verify the validity of the ticket.\nOn the buyer side, you purchase the ticket from the marketplace and it gets added to your account immediately. (I think) You get the barcode some time ~1 week before the actual event begins.\nThe confusion for me? Ticketmaster owned the ticket and all logic relating to the validity of it. The logic to validate this shouldn't be complex at all. They OWN the ticket. They KNOW it's legitimate because it never left their database. Yet they double dip and hold both buyer and seller funds. Events can be close to a year in the future but the seller won't see that until after that event ends.",
           "link": "https://news.ycombinator.com/item?id=40911245",
           "publishedOn": "2024-07-09T00:15:47.000Z",
-          "wordCount": 2760,
+          "wordCount": null,
           "title": "New comment by deamanto in \"Reverse engineering Ticketmaster's rotating barcodes\"",
           "imageUrl": null
         },
@@ -703,7 +763,7 @@
           "description": "If I'm understanding correctly, it might help to point out that in spite of the title they are proposing a bootloader, which can still let you modify the cmdline, boot to other OSs, etc. It's just that the bootloader is itself using the Linux kernel so it can do things like read all Linux filesystems for \"free\" without having to rewrite filesystem drivers.",
           "link": "https://news.ycombinator.com/item?id=40909611",
           "publishedOn": "2024-07-08T20:57:40.000Z",
-          "wordCount": 2298,
+          "wordCount": null,
           "title": "New comment by yjftsjthsd-h in \"No more boot loader: Please use the kernel instead\"",
           "imageUrl": null
         },
@@ -713,7 +773,7 @@
           "description": "You really shouldn't start a PhD without doing the PhD simulator first [0]. Sadly, people who haven't yet been through the PhD experience think that this game is exaggerating for comic effect. It really isn't.\n[0] https://research.wmz.ninja/projects/phd/index.html",
           "link": "https://news.ycombinator.com/item?id=40909068",
           "publishedOn": "2024-07-08T20:07:37.000Z",
-          "wordCount": 2364,
+          "wordCount": 2531,
           "title": "New comment by lqet in \"How I turned seemingly 'failed' experiments into a successful PhD\"",
           "imageUrl": null
         },
@@ -723,7 +783,7 @@
           "description": "It's something you can do since a lot of years. I used to do so 10 years ago, when I've got the first motherboard with UEFI. But is it useful? It saves a minimal time in the boot sequence, but at what cost?\nThe bootloader (being it grub, or something more simple as systemd-boot) is useful to me for a couple of reasons:\n- it allows to dual-boot with Windows easily: motherboard boot menu is often not easy to access, you need to perform some key combination in a short window, also modern bootloader save the last boot option such that if Windows reboots for an update Linux does not start\n- it allows to edit the cmdline of the kernel to recover a system that does not boot, e.g. start in single user mode. That can really save your day if you don't have on hand an USB stick and another PC to flash it\n- it allows you to choose between multiple kernels and initrd images easily, again for recovery purposes\n- it has a voice for entering the UEFI setup menu: in most modern systems again entering the UEFI with a keyboard combination is unnecessarily difficult and has a too short timeout\n- it allows you to boot any other EFI application, such as memtest, or efi shell. Most UEFI firmwares doesn't have a menu to do so.",
           "link": "https://news.ycombinator.com/item?id=40908918",
           "publishedOn": "2024-07-08T19:55:27.000Z",
-          "wordCount": 8130,
+          "wordCount": 8611,
           "title": "New comment by alerighi in \"No more boot loader: Please use the kernel instead\"",
           "imageUrl": null
         },
@@ -733,7 +793,7 @@
           "description": "If operating z library is their only \"crime\" I wish the couple luck and thank them for their service. Hard to say what the money laundering charges are about though",
           "link": "https://news.ycombinator.com/item?id=40908837",
           "publishedOn": "2024-07-08T19:48:52.000Z",
-          "wordCount": 2365,
+          "wordCount": null,
           "title": "New comment by artninja1988 in \"Z-Library admins \"escape house arrest\" after judge approves U.S. extradition\"",
           "imageUrl": null
         },
@@ -743,7 +803,7 @@
           "description": "> Software developers are the wizards and shamans of the modern age. We ought to use our powers with the austerity and integrity such power implies.\nThis is one of the most powerful truths underlying the world we currently inhabit. The sooner we can agree to behave accordingly, the better our prospects for ripping the reigns of society from the hands of those whose only animating principles are avarice and exploitation.",
           "link": "https://news.ycombinator.com/item?id=40907022",
           "publishedOn": "2024-07-08T16:50:49.000Z",
-          "wordCount": 5066,
+          "wordCount": null,
           "title": "New comment by RScholar in \"Reverse engineering Ticketmaster's rotating barcodes\"",
           "imageUrl": null
         },
@@ -753,7 +813,7 @@
           "description": "Really good post! I also found this quote which distilled their position in the 404media coverage of the situation.\n> “What I can say for sure is that TicketMaster and AXS have had every opportunity to support scam-free third party ticket resale and delivery platforms if they wished: By documenting their ticket QR code cryptography, and by exposing apps and APIs which would allow verification and rotation of ticket secrets,” Conduition told me in an email. “But they intentionally choose not to do so, and then they act all surprised-pikachu when 3rd party resale scams proliferate. They're opting to play legal whack-a-mole with scammers instead of fixing the problem directly with better technology, because they make more money as a resale monopoly than as an open and secure ecosystem.”\nfrom https://www.404media.co/scalpers-are-working-with-hackers-to...",
           "link": "https://news.ycombinator.com/item?id=40906688",
           "publishedOn": "2024-07-08T16:16:57.000Z",
-          "wordCount": 745,
+          "wordCount": null,
           "title": "New comment by ikesau in \"Reverse engineering Ticketmaster's rotating barcodes\"",
           "imageUrl": null
         },
@@ -785,16 +845,6 @@
           "publishedOn": "2024-07-07T16:45:45.000Z",
           "wordCount": null,
           "title": "New comment by __turbobrew__ in \"A reawakening of systems programming meetups\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40897897",
-          "author": "Aurornis",
-          "description": "> I used to attend a bunch of meetups before the pandemic. But I quickly got disillusioned. Almost every meetup was varying degrees of startups pitching their product. The last straw for me was sitting through a talk at a JavaScript meetup that was by a devrel employee of a startup who literally gave a tutorial for their product.\nMy favorite local meetups fell to problems like this.\nIt was easy to filter out the DevRel people trying to advertise. The hard problem was filtering out people who were only interested in presenting something so they could show another presentation on their resume or personal brand website, with no interest in engaging with the meetup.\nThese people would want to only show up for the one meetup where they got to present. They’d present some simple content designed to make them look good, with little regard to educating or discussing things. They’d often have some excuse for needing to leave quickly after presenting, some times before any QA time.\nAnd they always needed a video recording of themselves speaking. For a while we had these to stream to remote viewers, but if the camera gear wasn’t available they’d panic and spend a lot of time improvising a way to record it with their phone even if delayed the presentation. Getting the recording of themselves speaking was the primary goal, not actually speaking to the group.\nAfter this happens enough times, the core members realize they’re being used as audience props for someone’s career advancement and they stop coming. The meetup collapses.\nI hope my local meetup groups can have a little resurgence like this where people are primarily interested in the meetup, not the self promotion opportunity.",
-          "link": "https://news.ycombinator.com/item?id=40897897",
-          "publishedOn": "2024-07-07T14:16:03.000Z",
-          "wordCount": 1493,
-          "title": "New comment by Aurornis in \"A reawakening of systems programming meetups\"",
           "imageUrl": null
         },
         {
@@ -928,26 +978,6 @@
           "imageUrl": null
         },
         {
-          "id": "https://news.ycombinator.com/item?id=40877288",
-          "author": "Schiphol",
-          "description": "The paper [here](https://bhi.co.uk/wp-content/uploads/2024/06/07-HJJuly24-AOT...) makes it clear that these researchers (whose main topic is gravitational waves) have used Bayesian analyses to estimate how likely different counts for holes present in the full calendar ring are. This is cool, but the bit about \"techniques developed to analyse the ripples in spacetime\" is, well, making reference to Bayesian analysis.",
-          "link": "https://news.ycombinator.com/item?id=40877288",
-          "publishedOn": "2024-07-04T19:12:43.000Z",
-          "wordCount": null,
-          "title": "New comment by Schiphol in \"Gravitational wave researchers cast new light on Antikythera mechanism mystery\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40874156",
-          "author": "adamgordonbell",
-          "description": "Host here, thanks for sharing.\nPowerShell faced extreme opposition at Microsoft, and its creator Jeffrey Snover was demoted for pursuing it.\nJeffrey was originally brought into Microsoft to help MS learn how to compete in the data center, but culturally they were so tied to the personal computer model of the world, that they fought him every step of the way.\nEdit: Another interesting thing, is how Powershell exists because Windows isn't file based. Jeffrey's goal was server administration, but on Windows you can't just edit files to administer things, you need to call various APIs and get structured data back forth. The rich object model fell out of that. It was the only way.\n( Also, apologies if the transcript has errors. I've gone from professional transcriptions to Descript and then a pass of GPT4 trying to find the right punctation breaks and then me doing a quick read through. I don't think its coming out as high quality as I'd like. )",
-          "link": "https://news.ycombinator.com/item?id=40874156",
-          "publishedOn": "2024-07-04T11:55:08.000Z",
-          "wordCount": null,
-          "title": "New comment by adamgordonbell in \"Jeffrey Snover and the Making of PowerShell\"",
-          "imageUrl": null
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=40873472",
           "author": "febeling",
           "description": "I had similar thoughts. But let's not overlook the information asymmetry, which contributed to the dissatisfaction. I don't want to live in a world which is controlled unilaterally, and intransparently by a group of people who assume they have a full picture of the situation and assume they understand moral completely, and also don't think it necessary to explain how they think so highly of themselves.",
@@ -976,16 +1006,6 @@
           "wordCount": null,
           "title": "New comment by LarsDu88 in \"AI's $600B Question\"",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40868676",
-          "author": "iforgotpassword",
-          "description": "My secret protip: old Fujitsu desktop/nuc PCs. At least in Germany (Europe?) they are cheap on ebay since a lot of businesses use them and upgrade on a regular schedule.\nIf you care about power consumption like I do, you can Google \"$model energy consumption white paper\" which contains very accurate data about idle usage, for example https://sp.ts.fujitsu.com/dmsp/Publications/public/wp-energy...\nIn one case I had a nuc where on Linux after enabling power saving features for the sata controller, idle usage even fell to 5W when the pdf claimed 9.\nHaving an actual pc instead of a random sbc ensures best connectivity, expandability, and software support forever. With almost all sbcs you're stuck with a random-ass kernel from when the damn thing was released, and you basically have to frankenstein together your own up-to-date distro with the old kernel because the vendor certainly doesn't care about updating the random armbian fork they created for that thing.",
-          "link": "https://news.ycombinator.com/item?id=40868676",
-          "publishedOn": "2024-07-03T18:23:56.000Z",
-          "wordCount": null,
-          "title": "New comment by iforgotpassword in \"The Cheapest NAS\"",
-          "imageUrl": null
         }
       ]
     },
@@ -1000,7 +1020,7 @@
           "description": "I’ve spent many hours trying to take pictures of these over the past three years and have a large collection of indistinct blurs as a result. But I went back to basics, studied the camera setting, watched a bunch of “how to” videos on YouTube and actually managed this one:",
           "link": "https://crookedtimber.org/2024/07/07/sunday-photoblogging-swift-3/",
           "publishedOn": "2024-07-07T07:45:41.000Z",
-          "wordCount": 1769,
+          "wordCount": 1767,
           "title": "Sunday photoblogging: Swift",
           "imageUrl": "https://live.staticflickr.com/65535/53825059791_9146a056b1.jpg"
         },
@@ -1010,7 +1030,7 @@
           "description": "In the UK, we’re all waking up to the prospect of a new government. The election was an oddity: Labour has converted a modest 35% vote share into a whopping Parliamentary majority; the Tories did somewhat better than suggested, on around 24%, but have lost more than two-thirds of their MPs. (The final figures were […]",
           "link": "https://crookedtimber.org/2024/07/05/bye-bye-tories-hello-what/",
           "publishedOn": "2024-07-05T09:53:40.000Z",
-          "wordCount": 11453,
+          "wordCount": 11451,
           "title": "Bye bye, Tories, hello what?",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1020,7 +1040,7 @@
           "description": "In the 18 months since I quit Twitter, I can feel the atrophy of my vibe detector. I’m reading more than ever, on Substack and the FT, Discord and group chats — much of the same “content” I would’ve encountered on Twitter, in fact, but without the ever-present spiderweb of the social graph, the network […]",
           "link": "https://crookedtimber.org/2024/07/03/does-social-media-cause-anything/",
           "publishedOn": "2024-07-03T17:34:39.000Z",
-          "wordCount": 8231,
+          "wordCount": 8531,
           "title": "Does Social Media Cause Anything?",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F400487e4-3d8d-4e00-b637-462496a892f1_493x302.png"
         }
@@ -1050,16 +1070,6 @@
           "wordCount": 4259,
           "title": "Broken Britain",
           "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L1061xH558/6d7e96c9a2bd611e28a7418b709dd2-22c23.jpg"
-        },
-        {
-          "id": "https://www.cadtm.org/Structural-Adjustment-and-the-Washington-Consensus-Are-Not-Abandoned-in-2000",
-          "author": "Eric Toussaint",
-          "description": "In July 2024, the World Bank and the IMF will be 80 years old. 80 years of financial neo-colonialism and the imposition of austerity policies in the name of debt repayment. 80 years is enough! The Bretton Woods institutions must be abolished and replaced by democratic institutions serving an ecological, feminist and anti-racist bifurcation. To mark these 80 years, we are republishing a series of articles every Wednesday until July, looking in detail at the history and damage caused by these (...)\nEnglish\n\n/ \nAusterity/Structural Adjustment, \nIMF, \nWorld Bank, \nFinance against people, \n80 ans BM FMI EN",
-          "link": "https://www.cadtm.org/Structural-Adjustment-and-the-Washington-Consensus-Are-Not-Abandoned-in-2000",
-          "publishedOn": "2024-07-03T09:36:55.000Z",
-          "wordCount": 5828,
-          "title": "Structural Adjustment and the Washington Consensus Are Not Abandoned in 2000",
-          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L640xH336/71d4d4e0c2ffc7444e2bf3a93e276f-a4794.jpg"
         }
       ]
     },
@@ -1087,12 +1097,22 @@
       "siteUrl": "https://disassociated.com",
       "articles": [
         {
+          "id": "https://disassociated.com/?p=7977",
+          "author": "disassociated.com",
+          "description": "From The Daily Aus. Aside from being linked to a slight decrease in life expectancy, COVID-19 was the third highest cause of death in Australia in 2022, claiming almost ten-thousand lives: COVID-19 was the third leading cause of death in Australia in 2022, according to AIHW. It was the first time in more than 50 […]",
+          "link": "https://disassociated.com/covid-19-third-most-lethal-cause-death-australia-2022/",
+          "publishedOn": "2024-07-09T21:00:08.000Z",
+          "wordCount": 224,
+          "title": "COVID-19: third most lethal cause of death in Australia",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
           "id": "https://disassociated.com/?p=7973",
           "author": "disassociated.com",
           "description": "Apparently red wines made in Australia — and quite possibly elsewhere, I imagine — have been increasing in alcoholic strength over recent decades. This seems like a mystery of the times, because the go-to culprit, global warming, may not be responsible. Rather, the way grapes are grown, and changes in fermenting methods — which apparently […]",
           "link": "https://disassociated.com/climate-change-increasing-strength-australian-red-wine/",
           "publishedOn": "2024-07-08T21:00:45.000Z",
-          "wordCount": 249,
+          "wordCount": 258,
           "title": "Is climate change increasing the strength of Australian red wine?",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         },
@@ -1198,6 +1218,16 @@
       "siteUrl": "https://bearblog.dev/discover/",
       "articles": [
         {
+          "id": "https://mylog.bearblog.dev/to-all-the-bloggers-use-fucking-grammar/",
+          "author": null,
+          "description": "Use the fucking grammar.\n\nAll sentences start with a capital letter.\n\nCommas have been made to show a break in your chain of thoughts.\nTake a breath and emphasise an idea.\n\nWhen you write like you have a thought diarrhoea, it's unbearable to read.\n\nRespect your reader.\n\nYou cunt.",
+          "link": "https://mylog.bearblog.dev/to-all-the-bloggers-use-fucking-grammar/",
+          "publishedOn": "2024-07-09T21:53:00.000Z",
+          "wordCount": 263,
+          "title": "To all the bloggers. Use the fucking grammar.",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
+        },
+        {
           "id": "https://notes.jeddacp.com/a-reminder-to-take-a-walk-and-breathe/",
           "author": null,
           "description": "A non-stressful day at work is hard to come by. I am constantly straddling the fine line between being burnt out, and just flipping a table and walking away. At the end of the day, those two feelings are basically the same side of a coin.\nI work remotely full-time, for the most part. Sometimes I travel for workshops, but that’s mostly just at the beginning of kicking off a new product that I’ve been asked to build. Any other time, I’m mostly working in my home office, which has become my favorite place in the house, yet the place where I stress out the most.\nI spend a lot of time in front of a computer. I’m in meetings probably 5-6 hours a day. With a majority of my current team in Central and Eastern time zones (2-3 hours ahead of me), sometimes I also forget to take a break and eat. It’s easy to lose track of time when I’m focused on solving this problem or that.\nI also forget to breathe.\nThe weather finally cooled down yesterday, and a little bit today before we hit another heat wave. LSC constantly encourages me, and at times pushes me to go for a walk. Take a walk around the block, and just breathe. We practice breathing together, inhaling and exhaling. Inhale the fresh air slowly, keep it in for a few seconds, exhale slowly. Then we go back in the house, and I feel a tiny bit better.\nSometimes we get into what we’re doing so deeply that we forget the essentials. We forget to breathe. We don’t notice it until we’re drowning, and it’s even harder to get back to the surface. Sometimes all it takes is a reminder to stop what you’re doing, take a walk if you can, and breathe.\nSo hey, let this be a reminder.\nGo for a walk. Inhale that fresh air. Hold it in. Exhale.\n7/100\nReply by email",
@@ -1208,11 +1238,21 @@
           "imageUrl": "https://live.staticflickr.com/65535/53782563411_08bc0b1e71_c.jpg"
         },
         {
+          "id": "https://passerine.bearblog.dev/morning-commute/",
+          "author": null,
+          "description": "hello! it’s been a while since anything at all. june wasn’t uneventful or anything (quite the opposite, really!). i was just lost for words and it’s taken me some time to find them again – life lately has felt like a lot, when it really shouldn’t have been.\ni’ve finally started a new job after my month-long vacation in europe. i’m still working in design, which is still not really my ideal (even if my high-school self was convinced it was)1. either way, it’s fun and i like it better than my previous one.\nmy last job was 100% remote. (they were changing this policy just as i was leaving though). i enjoyed having so much free time, of course. the commute in the philippines eats away up to 4 hours of your day, if you’re lucky. that’s not including time you spend getting ready, or time spent s…",
+          "link": "https://passerine.bearblog.dev/morning-commute/",
+          "publishedOn": "2024-07-09T14:51:00.000Z",
+          "wordCount": 1508,
+          "title": "morning commute",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
+        },
+        {
           "id": "https://notes.jeddacp.com/how-i-edit-my-photos/",
           "author": null,
           "description": "During National Camera Day , I wrote about my non-exhaustive list of cameras I’ve owned. A lot of great discussions came out of this, both via Mastodon and email. One of those things is in regard to my post-processing workflow.\n\nAs you can see in my respose to Lou, I currently do very little when it comes to post-processing photos. It wasn’t always like this, but I think that’s a story for another post. This one will focus specifically on what I do now (which isn’t much).\nBoth of my primary cameras (Fujifilm X100V and Ricoh GRIIIx) have some sort of film simulation that I can set up in-camera and I rely on that to do a majority of my edits.\nIn my Fujifilm X100V, I primarily use the Reggie’s Portra film sim\nClassic Chrome\nDynamic Range: DR-Auto\nHighlight: -1\nShadow: -1\nColor: +2\nNoise Reduc…",
           "link": "https://notes.jeddacp.com/how-i-edit-my-photos/",
-          "publishedOn": "2024-07-08T15:47:04.262Z",
+          "publishedOn": "2024-07-08T15:47:00.000Z",
           "wordCount": 1181,
           "title": "How I Edit My Photos",
           "imageUrl": "https://live.staticflickr.com/65535/53343625084_67cc9a1c96_c.jpg"
@@ -1236,16 +1276,6 @@
           "wordCount": 730,
           "title": "slapping watermelons",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
-        },
-        {
-          "id": "https://yordi.me/re-reading-indie-blogs-right/",
-          "author": null,
-          "description": "Hi Loren,\nThe story of how I found your blog is an interesting one. It fits perfectly with why I'm writing this to you (and any other reader who stumbles upon it). I came across a post by Chris on Uncountable about the magic of reading blog posts on the original website. He linked to your post with the same title. This is how the IndieWeb is supposed to work: you visit someone's website via a link and then embark on an adventure through the indie jungle, arriving somewhere you didn't expect.\nThese moments are magical. Adventures like these lead you from one scenic website to another. It's like walking through an ancient forest that seems straight out of The Lord of the Rings, only to find a light at the end where you enter a place as stunning as Rivendell.\nThis post could have been a Fw: (forward) instead of a Re: (reply). I couldn't agree more with your statement:\n\"These bloggers put time and effort into making their websites – the design, the 'About Me' page, the Archives. In an app, all that disappears, replaced by a sterile, uniform layout.\"\nThe real magic is in this effort, the years of tears and sweat that people put into creating their websites. It's something you completely miss out on when reading everything in the blandness of an RSS reader. It's like watching Mad Max on the tiny screen of your phone instead of the magnificent and overwhelming IMAX cinema experience.\nThere is so much enchantment in taking that little extra effort to open a post on someone's website.\nThis is where the real IndieWeb comes to life.\nWith love,\nYordi",
-          "link": "https://yordi.me/re-reading-indie-blogs-right/",
-          "publishedOn": "2024-07-07T09:53:00.000Z",
-          "wordCount": 1501,
-          "title": "Re: Reading Indie Blogs Right",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/yordi-1720345894.webp"
         },
         {
           "id": "https://birming.com/trash-treasure/",
@@ -1293,7 +1323,7 @@
           "description": "A lot of my posts have covered stuff I don't ever have the time of day to talk about. I work too much and almost all of my coworkers are conservative boomers. I don't talk to most of them  much but every once in a while I'll have to share a store with some of them. Sometimes they give me random phone calls. Luckily I have the option of just not picking up the phone.\nI just don't relate with the people I have to interact with on the regular. I mean we aren't having heavy political conversations 24/7 but it just doesn't feel comfortable being around people who you know are the polar opposite of who you are.\nI feel like being able to write about the stuff I never get to talk about is a healthy counterweight to that. I'm not a great writer, I know a lot of the stuff I write won't be read for weeks, or possibly ever. Some of it might be boring or come across cheesy. Sometimes I cover really broad, uninteresting things.\nBut it has had the unexpected effect of making me feel more valid as a person. It feels odd saying that, but it's true.\nMaybe it's because I haven't had a hobby I can get lost in for too long. Making the rounds in different indie web neighborhoods, learning little bits of CSS and bringing my vision to life one piece at a time does a pretty good job at keeping me from getting bored and letting my mind wander to stress. Then when I'm done with that for a while I can write some more. Sometimes I'm proud of it, sometimes I delete it after a couple hours.\nIt feels... healthier than doomscrolling. I prefer this over traditional social media because of the ownership and freedom, and the fact that I sort of get to whisper what I'm saying rather than blasting it over a megaphone and putting myself on stage in front of an audience riding algorithmic dopamine waves.",
           "link": "https://grubz.blog/the-indie-web-is-saving-my-sanity/",
           "publishedOn": "2024-07-04T04:13:14.001Z",
-          "wordCount": 990,
+          "wordCount": 984,
           "title": "The indie web is saving my sanity",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         },
@@ -1337,6 +1367,66 @@
       "siteUrl": "https://theanarchistlibrary.org",
       "articles": [
         {
+          "id": "https://theanarchistlibrary.org/library/ichikawa-hakugen-a-preliminary-conception-of-zen-social-ethics?v=1720575200",
+          "author": null,
+          "description": "Author: Ichikawa Hakugen\nTitle: A Preliminary Conception of Zen Social Ethics\nDate: 1963\nSource: Retrieved on 7/4/2024 from https://www.jstage.jst.go.jp/article/ibk1952/11/1/11_1_359/_pdf/-char/ja\n\n A short poem “Adoring Naivety” by a Christian poet Jukichi Yagi (1827-1927) runs as follows: \n Rice bread, \n Whole-rice bread, \n Fresh and steaming! \n Whole-rice bread! \n A bread seller goes about a\"Non-acting\" (Mu-i 無 爲 akarma) path singing cries of wares, as if in ecstacy over his singing.[1]\n This verse seems to suggest the aesthetic character of the Japanese folks. In the early days, Japanese peddlers, such as gold-fish vendors, beancurd dealers and seedling-peddlers used to peddle by crying in rythmical voices. Mood, relish, flavour and atmosphere carry great weight in a Japanese life. \"Ja…",
+          "link": "https://theanarchistlibrary.org/library/ichikawa-hakugen-a-preliminary-conception-of-zen-social-ethics?v=1720575200",
+          "publishedOn": "2024-07-10T01:33:20.000Z",
+          "wordCount": 4696,
+          "title": "Ichikawa Hakugen - A Preliminary Conception of Zen Social Ethics",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "16606",
+            "url": "https://theanarchistlibrary.org/library/ichikawa-hakugen-a-preliminary-conception-of-zen-social-ethics.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/gerasimos-tsakalos-c-c-f-individuality-and-the-anarchist-group?v=1720573604",
+          "author": null,
+          "description": "Author: Gerasimos Tsakalos (C.C.F)\nTitle: Individuality and the Anarchist Group\nDate: December 2015\nSource: Web archive capture on 13 Sep 2016 from <web.archive.org/.../325.nostate.net/.../>\n\nInstead of a Prologue\n About the subject of “Individuality and the anarchist group”, one could say that it’s a timeless issue within the anarchist milieu… Is an anarchist individuality subjugated or liberated within a group? How does the individual encounter the collective? Can disagreements between comrades of the same collective be creative or do they inevitably lead to disputes, rivalries, intrigues, competitions and end up in rupture? \n How are friendships and cliques able to bring about a cancellation of an anarchist group? \n What is the relationship of an anarchist organization to the expulsions…",
+          "link": "https://theanarchistlibrary.org/library/gerasimos-tsakalos-c-c-f-individuality-and-the-anarchist-group?v=1720573604",
+          "publishedOn": "2024-07-10T01:06:44.000Z",
+          "wordCount": 13742,
+          "title": "Gerasimos Tsakalos (C.C.F) - Individuality and the Anarchist Group",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "44418",
+            "url": "https://theanarchistlibrary.org/library/gerasimos-tsakalos-c-c-f-individuality-and-the-anarchist-group.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/kostas-sakkas-political-statement-at-the-terror-trial-of-koridallos-prison?v=1720569724",
+          "author": null,
+          "description": "Author: Kostas Sakkas\nTitle: Political statement at the terror-trial of Koridallos prison\nDate: January 14, 2015, anarchists in trouble\nSource: <actforfree.nostate.net/?p=18709>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\n I am sending the following text to Athens lawyer Dimitrios Katsaris in order for him to deliver it to his client and my co-accused Giorgos Karagiannidis, in order to read it out in the courtroom during the testimony procedure. \n I realize absolutely that what a relative of mine testified during the witnesses’ testimonies was done with the best of intentions. However I must clarify that a large part of it does not reflect reality and does not express me as an individual. Unfortunately the conditions in which I find myself in, my inability to communicate and the restr…",
+          "link": "https://theanarchistlibrary.org/library/kostas-sakkas-political-statement-at-the-terror-trial-of-koridallos-prison?v=1720569724",
+          "publishedOn": "2024-07-10T00:02:04.000Z",
+          "wordCount": 4654,
+          "title": "Kostas Sakkas - Political statement at the terror-trial of Koridallos prison",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "14440",
+            "url": "https://theanarchistlibrary.org/library/kostas-sakkas-political-statement-at-the-terror-trial-of-koridallos-prison.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/clarence-lee-swartz-in-collaboration-with-the-mutualist-associates-what-is-mutualism?v=1720568727",
+          "author": null,
+          "description": "Author: Clarence Lee Swartz, in collaboration with The Mutualist Associates\nTitle: What Is Mutualism?\nDate: 1927\nNotes: This is a very interesting and valuable text on Mutualism. It is slightly dated in some points and a bit off the target when dealing with monetary matters. Nevertheless it remains a powerful exposition of the main tenets of Mutualism and a sincere plea in favour of the freedom and autonomy of the individual.\nSource: <c4ss.org/wp-content/uploads/2009/06/what-is-mutualism.pdf>\n\nMUTUALISM — A Social System Based on Equal Freedom, Reciprocity, and the Sovereignty of the Individual Over Himself, His Affairs, and His Products; Realized Through Individual Initiative, Free Contract, Cooperation, Competition, and Voluntary Association for Defense Against the Invasive and for the P…",
+          "link": "https://theanarchistlibrary.org/library/clarence-lee-swartz-in-collaboration-with-the-mutualist-associates-what-is-mutualism?v=1720568727",
+          "publishedOn": "2024-07-09T23:45:27.000Z",
+          "wordCount": 64209,
+          "title": "Clarence Lee Swartz, in collaboration with The Mutualist Associates - What Is Mutualism?",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "213469",
+            "url": "https://theanarchistlibrary.org/library/clarence-lee-swartz-in-collaboration-with-the-mutualist-associates-what-is-mutualism.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
           "id": "https://theanarchistlibrary.org/library/sascha-engel-primitive-anarchy-and-the-anti-alphabet?v=1720450402",
           "author": null,
           "description": "Author: Sascha Engel\nTitle: Primitive anarchy and the anti-alphabet\nDate: Summer 2024\nSource: Plastic in Utero issue #3\n\n The way I see it, primitive anarchy is a total challenge to the pacified social field. This means that it is multi-faceted and at once constructive and destructive. Sabotaging the horrors of deep sea mining or “artificial intelligence” requires a different approach than the rewilding of everyday life. Inasmuch as the anti-alphabet is a part of primitive anarchy, it belongs with efforts to rewild everyday life. From this perspective, I think what it does can be summarized in three theses, on which I’ll expand below: \n 1) The terms of the pacified social field – the nouns, verbs, and adjectives of everyday language – are not actually words. Language abolition is only a se…",
@@ -1352,16 +1442,226 @@
           "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
         },
         {
+          "id": "https://theanarchistlibrary.org/library/josh-john-zerzan-is-running-on-emptiness?v=1720149660",
+          "author": null,
+          "description": "Author: Josh\nTitle: John Zerzan Is Running on Emptiness\nDate: September 2008\nSource: Earth First! Journal, Volume 28, Issue 6, 1 September 2008. <archive.org/details/earth_first_2008/page/n159>\n\n Twilight of the Machines, by John Zerzan, Feral House, 2008.\n John Zerzan’s newest collection of essays is a disappointing one. Unlike his previous books — which balance a primitivist critique of civilization with topics as diverse as labor history and classical music — Twilight of the Machines almost completely rejects this fascinating variety for a series of redundant, muddled and ultimately boring essays on a limited selection of topics. A hit-or-completely-miss collection, the book does contain a few thought-provoking essays that are certain to become classics. \nTwilight is divided into two pa…",
+          "link": "https://theanarchistlibrary.org/library/josh-john-zerzan-is-running-on-emptiness?v=1720149660",
+          "publishedOn": "2024-07-05T03:21:00.000Z",
+          "wordCount": 1199,
+          "title": "Josh - John Zerzan Is Running on Emptiness",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "6957",
+            "url": "https://theanarchistlibrary.org/library/josh-john-zerzan-is-running-on-emptiness.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/l-removing-the-trash?v=1720129128",
+          "author": null,
+          "description": "Author: L\nTitle: Removing the Trash\nDate: October 29th, 2017\nSource: Web archive capture on 29 Oct 2017 from <web.archive.org/.../325.nostate.net/2017/10/29/removing-the-trash-by-l-uk>\n\n“There are so many stupidities, lies, fakes that it is almost impossible to respond in the rhythm indicated… lies after lies and a rhythm of vertiginous updating. \n Millimeter by millimeter it is necessary to remove this trash… without discussion, without half-tints and without space for dialogue. Since always we were quite critical of the anarchist pages that began to publish ITS and its derivations… it was to give them space in view of the “novelty”, to feed egos and messianic delusions that today we have to pay dearly.”\nFrom comrades in Chile\n The eco-fascist and nihilist-right groupscule ITS Mexico, whi…",
+          "link": "https://theanarchistlibrary.org/library/l-removing-the-trash?v=1720129128",
+          "publishedOn": "2024-07-04T21:38:48.000Z",
+          "wordCount": 852,
+          "title": "L - Removing the Trash",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "5785",
+            "url": "https://theanarchistlibrary.org/library/l-removing-the-trash.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/kostas-gournas-interview-by-soccorso-rosso-internazionale-international-red-aid?v=1720126359",
+          "author": null,
+          "description": "Author: Kostas Gournas\nTitle: Interview made by Soccorso Rosso Internazionale [International Red Aid]\nDate: August 12, 2014\nSource: <actforfree.nostate.net/?p=17593>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\n This is and interview that S.R.I made with Kostas Gournas, a comrade of Revolutionary Struggle locked up in the prison of Koridallos, Athens: \n1) What can you tell us about the current situation in Greece?\n Greece is experiencing the biggest crisis in times of peace, a crisis composed of multiple aspects. The turmoil that has been unfolding in the country for 5 and a half years is something that one would expect only in times of war. The global financial crisis of 2008 drove Greece to the frontline of the debt crisis in Europe and led to the adoption of a selective insolvency m…",
+          "link": "https://theanarchistlibrary.org/library/kostas-gournas-interview-by-soccorso-rosso-internazionale-international-red-aid?v=1720126359",
+          "publishedOn": "2024-07-04T20:52:39.000Z",
+          "wordCount": 1843,
+          "title": "Kostas Gournas - Interview made by Soccorso Rosso Internazionale [International Red Aid]",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "8274",
+            "url": "https://theanarchistlibrary.org/library/kostas-gournas-interview-by-soccorso-rosso-internazionale-international-red-aid.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/konspiration-d-individualites-complices-et-kaotiques-incendiary-attack-against-the-offices-of-e?v=1720126078",
+          "author": null,
+          "description": "Author: Konspiration d’Individualités Complices et Kaotiques\nTitle: Incendiary Attack Against the Offices of Energy Company Enedis\nDate: July 7, 2017\nSource: <actforfree.nostate.net/?p=27614>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\nA proposal for dialogue, solidarity and attack\nIncendiary Attack for a Dangerous June\n As individuals, it is difficult to speak of solidarity because we do not want to express it as a group, but to individuals whose feelings we feel would be sufficiently close to establish a dialogue. \n We feel in solidarity with people who, through their actions and their discourse, seem to convey a will to fight in the here and now against power in all its forms. \n For us the most sincere way of supporting individuals in revolt is to revolt ourselves and to attack. Th…",
+          "link": "https://theanarchistlibrary.org/library/konspiration-d-individualites-complices-et-kaotiques-incendiary-attack-against-the-offices-of-e?v=1720126078",
+          "publishedOn": "2024-07-04T20:47:58.000Z",
+          "wordCount": 1385,
+          "title": "Konspiration d’Individualités Complices et Kaotiques - Incendiary Attack Against the Offices of Energy Company Enedis",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "7113",
+            "url": "https://theanarchistlibrary.org/library/konspiration-d-individualites-complices-et-kaotiques-incendiary-attack-against-the-offices-of-e.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/joaquin-garcia-a-letter?v=1720125922",
+          "author": null,
+          "description": "Author: Joaquin Garcia\nTitle: A letter\nDate: March 12, 2017\nSource: <actforfree.nostate.net/?p=26593>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\n It has been five months since I returned to inhabit the cells of the Maximum Security Section of the High Security Prison and I think it is necessary to refer to both the personal and the prison scenario. The reasons for not writing before are obviously personal; but more than anything it is due to the belief – despite being convinced that sharing experiences generates inexhaustible links – that the virtual platforms and their set of communications is far removed from the real and approaches an abstract idea of the day to day life of jail and that of the individual. Irreducible? Yes, whether or not there is a swing of emotions, neither conv…",
+          "link": "https://theanarchistlibrary.org/library/joaquin-garcia-a-letter?v=1720125922",
+          "publishedOn": "2024-07-04T20:45:22.000Z",
+          "wordCount": 1543,
+          "title": "Joaquin Garcia - A letter",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "8845",
+            "url": "https://theanarchistlibrary.org/library/joaquin-garcia-a-letter.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/individualidades-por-la-dispersion-del-caos-fai-fri-atms-and-security-companies-damaged-and-set?v=1720124346",
+          "author": null,
+          "description": "Author: Individualidades por la dispersion del caos/FAI-FRI\nTitle: ATMs and security companies damaged and set to fire in solidarity with prisoners\nDate: December 7, 2015\nSource: <actforfree.nostate.net/?p=21846>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\nClaim:\nBarcelona, Spanish State: the attack continues in the face of the blows inflicted by power\n After the recent police operations against anarchist milieus, so much has been written and said; statements and opinions mainly denounce or ‘condemn’ the repression inflicted by the authorities. After the latest repressive operation and the reactions that followed, we reckon we should give our point of view. \n Starting from the fact that the ongoing repression is the State’s logic response to those who consider themselves (or the State…",
+          "link": "https://theanarchistlibrary.org/library/individualidades-por-la-dispersion-del-caos-fai-fri-atms-and-security-companies-damaged-and-set?v=1720124346",
+          "publishedOn": "2024-07-04T20:19:06.000Z",
+          "wordCount": 1574,
+          "title": "Individualidades por la dispersion del caos/FAI-FRI - ATMs and security companies damaged and set to fire in solidarity with prisoners",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "7651",
+            "url": "https://theanarchistlibrary.org/library/individualidades-por-la-dispersion-del-caos-fai-fri-atms-and-security-companies-damaged-and-set.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/giorgos-karagiannidis-political-statement-at-the-terror-trial-of-koriadallos-prison?v=1720124251",
+          "author": null,
+          "description": "Author: Giorgos Karagiannidis\nTitle: Political statement at the terror-trial of Koriadallos prison\nDate: December 31, 2014\nSource: <actforfree.nostate.net/?p=18594>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\n To begin I would like to state once more that at no moment, from my arrest up to now, have I felt a defendant. And since I do not feel like a defendant I cannot feel apologetic either. I do not recognize this system of values condensed in the legal code based upon which this court makes judgement. Since we are referring to a different – and antithetic – code of values I believe that this court and no court has the jurisdiction to judge me. I in no way recognize its jurisdiction to judge resistance and the attempt to subvert the status-quo, as well as the people who are inspired …",
+          "link": "https://theanarchistlibrary.org/library/giorgos-karagiannidis-political-statement-at-the-terror-trial-of-koriadallos-prison?v=1720124251",
+          "publishedOn": "2024-07-04T20:17:31.000Z",
+          "wordCount": 6767,
+          "title": "Giorgos Karagiannidis - Political statement at the terror-trial of Koriadallos prison",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "18836",
+            "url": "https://theanarchistlibrary.org/library/giorgos-karagiannidis-political-statement-at-the-terror-trial-of-koriadallos-prison.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/giorgos-karagiannidis-a-letter-about-hunger-strike?v=1720123760",
+          "author": null,
+          "description": "Author: Giorgos Karagiannidis\nTitle: A letter about hunger strike\nDate: January 27, 2017\nSource: <actforfree.nostate.net/?p=26200>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\n HUNGER STRIKE HIDES IMPORTANCE. Importance that results from a combination of body weakening and debilitation of the strikers, and from the actions/reactions that are created. These two factors usually (but not necessarily always) are connected in relation. \n The sharpness that is hidden in the act of hunger strike creates sections within our milleau and also within the handlers of state authority. Main target of every strike is the creation of flows in the social ground. Till now in Greece, the handling of hunger strikes from the state is relatively “painless” (compared with examples that have written the histo…",
+          "link": "https://theanarchistlibrary.org/library/giorgos-karagiannidis-a-letter-about-hunger-strike?v=1720123760",
+          "publishedOn": "2024-07-04T20:09:20.000Z",
+          "wordCount": 3068,
+          "title": "Giorgos Karagiannidis - A letter about hunger strike",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "10976",
+            "url": "https://theanarchistlibrary.org/library/giorgos-karagiannidis-a-letter-about-hunger-strike.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/giannis-naxakis-letter-from-prison?v=1720123534",
+          "author": null,
+          "description": "Author: Giannis Naxakis\nTitle: Letter from prison\nDate: June 10, 2013\nSource: <actforfree.nostate.net/?p=14573>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\n A month after my arrest I still remain sunken in thoughts trying to find moments of calm and clarity, so I can finally put the pen down to write a couple of words. My mood changes at the speed of light, it goes up and down non-stop and is finding it hard to find a steady point to hold on to. The account of what happened in Nea Filadelfia sickens me, the renewed conclusions that come out hurt me, the realization of what exactly happened kills me. I relapse when listening to daily boring and endless discussions evaluating months, years, charges and all the other relevant matters. We know very well why we are in here and the reason i…",
+          "link": "https://theanarchistlibrary.org/library/giannis-naxakis-letter-from-prison?v=1720123534",
+          "publishedOn": "2024-07-04T20:05:34.000Z",
+          "wordCount": 2178,
+          "title": "Giannis Naxakis - Letter from prison",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "8951",
+            "url": "https://theanarchistlibrary.org/library/giannis-naxakis-letter-from-prison.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/gerasimmos-tsakalos-c-c-f-we-have-rage?v=1720123227",
+          "author": null,
+          "description": "Author: Gerasimos Tsakalos (C.C.F)\nTitle: We have rage\nDate: January 8, 2011\nSource: <actforfree.nostate.net/?p=3463>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\n On the morning of November 1st we were moving around in the area of Pagkrati in order to act in the framework of the campaign for international solidarity the organization had decided together with comrade and brother P.Argirou. Because, however, of the police-like curiosity of an employee of a courier company, certain personal errors and our being surrounded by the pigs of the DIAS group and other police forces that isolated the area, there was little choice and we were led to the building of GADA (police headquarters building) to the floor of the anti-terrorist police. \n Despite the fact that my recognition was immediate, …",
+          "link": "https://theanarchistlibrary.org/library/gerasimmos-tsakalos-c-c-f-we-have-rage?v=1720123227",
+          "publishedOn": "2024-07-04T20:00:27.000Z",
+          "wordCount": 3505,
+          "title": "Gerasimos Tsakalos (C.C.F) - We have rage",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "12165",
+            "url": "https://theanarchistlibrary.org/library/gerasimmos-tsakalos-c-c-f-we-have-rage.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/fires-on-the-horizon-fai-responsability-claim-for-arson-attacks-in-kifissia-athens?v=1720122602",
+          "author": null,
+          "description": "Author: Fires on the Horizon (FAI)\nTitle: Responsability claim for arson attacks in Kifissia Athens.\nDate: May 6, 2012\nSource: <actforfree.nostate.net/?p=9234>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\n As an objective of force, the policy is practised having before its eyes a possibility of exacerbation and violence. Behind the policy hovers the image of violence and war, precisely behind all limited violence hovers the image of blind violence. The beginning of intelligence means the end of blind aggressiveness, that is to say the intellect is imposed on the instincts that require their direct discharge into violence, it channels them according to their aims and it puts in action more drastic means to exercise violence. As soon as this is realised violence enters the service of the…",
+          "link": "https://theanarchistlibrary.org/library/fires-on-the-horizon-fai-responsability-claim-for-arson-attacks-in-kifissia-athens?v=1720122602",
+          "publishedOn": "2024-07-04T19:50:02.000Z",
+          "wordCount": 1842,
+          "title": "Fires on the Horizon (FAI) - Responsability claim for arson attacks in Kifissia Athens.",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "9593",
+            "url": "https://theanarchistlibrary.org/library/fires-on-the-horizon-fai-responsability-claim-for-arson-attacks-in-kifissia-athens.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/fire-to-sweatshops-fai-fri-claim-of-responsibility-for-incendiary-attack-against-trastor-reic?v=1720122061",
+          "author": null,
+          "description": "Author: Fire to Sweatshops (FAI/FRI)\nTitle: Claim of responsibility for incendiary attack against Trastor REIC\nDate: August 22, 2012\nSource: <actforfree.nostate.net/?p=11027>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\n We are witnessing the most extreme contradictions that are born and die in this shit-world. While the calculators of sorcerer’s apprentices of economic statistics are counting 23,000 dead in Syria, billions of people are watching besotted the London Olympic Games; the distance between the Olympic and the ‘practical’ shooting in the field of operations is just a simple push of the button on a remote control. If only it could happen… all these rivers of blood to become an impetuous torrent which will drown athletes and spectators. If only it could happen… We can refer al…",
+          "link": "https://theanarchistlibrary.org/library/fire-to-sweatshops-fai-fri-claim-of-responsibility-for-incendiary-attack-against-trastor-reic?v=1720122061",
+          "publishedOn": "2024-07-04T19:41:01.000Z",
+          "wordCount": 1662,
+          "title": "Fire to Sweatshops (FAI/FRI) - Claim of responsibility for incendiary attack against Trastor REIC",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "8384",
+            "url": "https://theanarchistlibrary.org/library/fire-to-sweatshops-fai-fri-claim-of-responsibility-for-incendiary-attack-against-trastor-reic.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/eco-struggle-tendencies-informal-group-molotov-against-bayer-vehicles?v=1720117351",
+          "author": null,
+          "description": "Author: Eco-struggle-tendencies Informal Group\nTitle: Molotov against Bayer vehicles\nDate: October 4, 2014\nSource: <actforfree.nostate.net/?p=17862>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\n In the night between 26th and 27th July 2014 we tossed molotov bottles at several ‘Bayer AG’ vehicles – and with this action we started off our Tendency of Eco Struggle. \nPoisoning and exploiting\n During the first world war ‘Friedr. Bayer & Co’ (which later became ‘Bayer AG’) produced explosives and chemicals for war purposes. Their troubles in getting supplies were not due to humanitarian scruples but to security risks and lack of labour force. As soon as the war turned into trench warfare gas begun to be strategically used as a weapon, and Bayer begun to supply the army with tens of thousands…",
+          "link": "https://theanarchistlibrary.org/library/eco-struggle-tendencies-informal-group-molotov-against-bayer-vehicles?v=1720117351",
+          "publishedOn": "2024-07-04T18:22:31.000Z",
+          "wordCount": 2766,
+          "title": "Eco-struggle-tendencies Informal Group - Molotov against Bayer vehicles",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "12612",
+            "url": "https://theanarchistlibrary.org/library/eco-struggle-tendencies-informal-group-molotov-against-bayer-vehicles.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
+          "id": "https://theanarchistlibrary.org/library/die-netzbeschmutzer-innen-incendiary-actions-against-telekom-deutsche-bahn-and-vodafone?v=1720115203",
+          "author": null,
+          "description": "Author: Die Netzbeschmutzer*Innen\nTitle: Incendiary Actions Against Telekom, Deutsche Bahn and Vodafone\nDate: June 25, 2018\nSource: <actforfree.nostate.net/?p=30842>. Retrieved on 03/07/2024 from lib.anarhija.net.\n\nBerlin, June 2018\n Restructuring power via digitization is in full swing. Hardly anything that cannot be complemented by a ‘smart’ in its name and thus a new place in this world has escaped this process. Everything is networked. Cameras, sensors and chips are constantly sending and letting things communicate. ‘Big Data’ is the currency of tomorrow. Even our relationships, actions and thinking are permanently exposed to digital access. Reduced to information, we feed the algorithms of the machines, helping to make the future manageable and controllable. \n It’s not always easy to …",
+          "link": "https://theanarchistlibrary.org/library/die-netzbeschmutzer-innen-incendiary-actions-against-telekom-deutsche-bahn-and-vodafone?v=1720115203",
+          "publishedOn": "2024-07-04T17:46:43.000Z",
+          "wordCount": 2296,
+          "title": "Die Netzbeschmutzer*Innen - Incendiary Actions Against Telekom, Deutsche Bahn and Vodafone",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "11116",
+            "url": "https://theanarchistlibrary.org/library/die-netzbeschmutzer-innen-incendiary-actions-against-telekom-deutsche-bahn-and-vodafone.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
+        {
           "id": "https://theanarchistlibrary.org/library/william-gillis-what-s-in-a-slogan-kylr-and-militant-anarcha-feminism?v=1720111778",
           "author": null,
           "description": "Author: William Gillis\nTitle: What’s In A Slogan? “KYLR” and Militant Anarcha-feminism\nDate: June 25, 2024\nNotes: William Gillis: https://twitter.com/rechelon\nSource: Retrieved on July 4, 2024 from https://c4ss.org/content/59691\n\n An anarchist walks out of a punk show to smoke. On her vest are anarchist patches with various standard slogans, “No Gods No Masters,” “Death To Transphobes,” “Kill Your Local Rapist,” “All Cops Are Bastards,” “Punch Nazis,” “From The River To The Sea Palestine Will Be Free,” “Make Total Destroy,” “The Only Good Cop Is A Dead Cop,” “Eat The Rich,” “Death Before Detransition” and… “Fire To The Prisons.” \n A suddenly red-faced bystander trots up to her to argue. \n“Oh so you’re saying you support a blanket social policy of allowing anyone to burn anything they accus…",
           "link": "https://theanarchistlibrary.org/library/william-gillis-what-s-in-a-slogan-kylr-and-militant-anarcha-feminism?v=1720111778",
           "publishedOn": "2024-07-04T16:49:38.000Z",
-          "wordCount": 18894,
+          "wordCount": 18906,
           "title": "William Gillis - What’s In A Slogan? “KYLR” and Militant Anarcha-feminism",
           "enclosure": {
             "type": "application/epub+zip",
-            "length": "59309",
+            "length": "59511",
             "url": "https://theanarchistlibrary.org/library/william-gillis-what-s-in-a-slogan-kylr-and-militant-anarcha-feminism.epub"
           },
           "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
