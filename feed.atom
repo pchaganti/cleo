@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-13T01:38:36.441Z</id>
+    <id>urn:2024-07-13T06:30:58.504Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-07-13T01:38:36.441Z</updated>
+    <updated>2024-07-13T06:30:58.504Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New comment by whyenot in "AT&T says criminals stole phone records of 'nearly all' customers in data breach"]]></title>
+        <id>https://news.ycombinator.com/item?id=40949181</id>
+        <link href="https://news.ycombinator.com/item?id=40949181"/>
+        <updated>2024-07-12T20:37:24.000Z</updated>
+        <summary type="html"><![CDATA[AT&T has 110 million customers. Let's be optimistic and assume that each customer only has to spend one minute of extra time managing their account due to the break-in. That is more than 209 years of lost time.
+Laws related to data breaches need to have much sharper teeth. Companies are going to do the bare minimum when it comes to securing data as long as breaches have almost no real consequences. Maybe pierce the corporate veil and criminally prosecute those whose negligence made this possible. Maybe have fines that are so massive that company leadership and stockholders face real consequences.]]></summary>
+        <author>
+            <name>whyenot</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Availability Report: June 2024]]></title>
         <id>https://github.blog/2024-07-12-github-availability-report-june-2024/</id>
@@ -14,6 +25,22 @@
 <p>The post <a href="https://github.blog/2024-07-12-github-availability-report-june-2024/">GitHub Availability Report: June 2024</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
         <author>
             <name>The GitHub Blog: Engineering News and Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fucking grammar? That doesn’t sound very comfortable…]]></title>
+        <id>https://oops.bearblog.dev/fucking-grammar-that-doesnt-sound-very-comfortable/</id>
+        <link href="https://oops.bearblog.dev/fucking-grammar-that-doesnt-sound-very-comfortable/"/>
+        <updated>2024-07-12T19:22:00.000Z</updated>
+        <summary type="html"><![CDATA[writers who follow the rules oft forget that breaking rules is itself a form of expression — sometimes more expressive than words themselves can be.
+a lack of capitalization could denote a quiet voice or a flippant attitude depending on the context.
+at the end of the day, words are tools for us to use, and we can bend them, twist them, warp them, and break them however we want.
+maybe their blog is simply about the aesthetics of their own expression.
+i find it much more interesting to wonder why rules are being broken rather than attempt to enforce them, personally.
+(written in response)
+Reply via email]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -571,6 +598,17 @@ I hope this helps, though it’s just my personal experience.]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by AegirLeet in "Second factor SMS: Worse than its reputation"]]></title>
+        <id>https://news.ycombinator.com/item?id=40937274</id>
+        <link href="https://news.ycombinator.com/item?id=40937274"/>
+        <updated>2024-07-11T14:37:04.000Z</updated>
+        <summary type="html"><![CDATA[Turns out ads aren't just annoying little acts of psychological terrorism that eat up a lot of bandwidth and computing power, they are also the #1 vector for spreading scams and malware on the web.
+In other words: If you're trying to improve your security posture, installing an ad-blocker is one of the best things you can do. If you have less tech-savvy friends and relatives, I would strongly recommend setting up uBlock Origin for them.]]></summary>
+        <author>
+            <name>AegirLeet</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New Agenda of Russia-India Relations]]></title>
         <id>https://www.nakedcapitalism.com/?p=274818</id>
         <link href="https://www.nakedcapitalism.com/2024/07/new-agenda-of-russia-india-relations.html"/>
@@ -578,6 +616,16 @@ I hope this helps, though it’s just my personal experience.]]></summary>
         <summary type="html"><![CDATA[Modi and Putin had a bear hug earlier this week. Some context on India-Russia dealings and US upset about them.]]></summary>
         <author>
             <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jimnotgym in "Microsoft cutting crucial link to Gaza, Palestinians say"]]></title>
+        <id>https://news.ycombinator.com/item?id=40936200</id>
+        <link href="https://news.ycombinator.com/item?id=40936200"/>
+        <updated>2024-07-11T12:55:09.000Z</updated>
+        <summary type="html"><![CDATA[These companies want to become as ubiquitous as a public utility. Therefore they should be regulated like a public utility]]></summary>
+        <author>
+            <name>jimnotgym</name>
         </author>
     </entry>
     <entry>
@@ -608,6 +656,17 @@ I hope this helps, though it’s just my personal experience.]]></summary>
         <summary type="html"><![CDATA[Despite reports of ruthless Biden efforts at containment, calls for him to withdraw from the 2024 race grow.]]></summary>
         <author>
             <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by mos_basik in "Show HN: Dut – a fast Linux disk usage calculator"]]></title>
+        <id>https://news.ycombinator.com/item?id=40933613</id>
+        <link href="https://news.ycombinator.com/item?id=40933613"/>
+        <updated>2024-07-11T04:07:12.000Z</updated>
+        <summary type="html"><![CDATA[Something like that exists for btrfs; it's called bdtu. It has the accuracy/time trade-off you're interested in, but the implementation is quite different. It samples random points on the disk and finds out what file path they belong to. The longer it runs the more accurate it gets. The readme is good at explaining why this approach makes sense for btrfs and what its limitations are.
+https://github.com/CyberShadow/btdu]]></summary>
+        <author>
+            <name>mos_basik</name>
         </author>
     </entry>
     <entry>
@@ -1365,6 +1424,20 @@ So I automated a web browser on the home server to log into Amazon and update th
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by charliermarsh in "Rye: A Hassle-Free Python Experience"]]></title>
+        <id>https://news.ycombinator.com/item?id=40912375</id>
+        <link href="https://news.ycombinator.com/item?id=40912375"/>
+        <updated>2024-07-09T03:47:47.000Z</updated>
+        <summary type="html"><![CDATA[A lot of our core packaging development is now happening in uv [1]. Rye uses uv under the hood, so as we improve uv, Rye gets better too.
+E.g., we recently added support for "universal" resolution in uv, so you can generate a locked requirements.txt file with a single resolution that works on all platforms and operating systems (as opposed to _just_ the system you're running on). And Rye supports it too in the latest release.
+[1] https://github.com/astral-sh/uv
+---
+I work on Rye and uv, if you have any questions :)]]></summary>
+        <author>
+            <name>charliermarsh</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by deamanto in "Reverse engineering Ticketmaster's rotating barcodes"]]></title>
         <id>https://news.ycombinator.com/item?id=40911245</id>
         <link href="https://news.ycombinator.com/item?id=40911245"/>
@@ -1557,17 +1630,6 @@ Source: Plastic in Utero issue #3
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by deeth_starr_v in "Boeing to plead guilty to criminal fraud charge stemming from 737 MAX crashes"]]></title>
-        <id>https://news.ycombinator.com/item?id=40905437</id>
-        <link href="https://news.ycombinator.com/item?id=40905437"/>
-        <updated>2024-07-08T13:50:48.000Z</updated>
-        <summary type="html"><![CDATA[From the article: Paul Cassell, a lawyer for victims’ family members, said he plans to ask the federal judge on the case to reject the deal and “simply set the matter for a public trial, so that all the facts surrounding the case will be aired in a fair and open forum before a jury.”
-Hard to disagree]]></summary>
-        <author>
-            <name>deeth_starr_v</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Bearblog in a nutshell]]></title>
         <id>https://corneliuswastaken.bearblog.dev/bearblog-in-a-nutshell/</id>
         <link href="https://corneliuswastaken.bearblog.dev/bearblog-in-a-nutshell/"/>
@@ -1575,18 +1637,6 @@ Hard to disagree]]></summary>
         <summary type="html"><![CDATA[I would hurl words into this darkness, wait for an echo, and if an echo sounded, no matter how faintly, I would send other words to march, to fight, to create a sense of the hunger for life that gnaws in us all, to keep alive in our hearts a sense of the inexpressibly human. -- Richard Wright]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by supernova87a in "Boeing to plead guilty to criminal fraud charge stemming from 737 MAX crashes"]]></title>
-        <id>https://news.ycombinator.com/item?id=40903239</id>
-        <link href="https://news.ycombinator.com/item?id=40903239"/>
-        <updated>2024-07-08T07:11:04.000Z</updated>
-        <summary type="html"><![CDATA[Our governmental methods of punishment for corporations strike me as lacking.  This seems similar to Wells Fargo, where ok, the company was fined, sued, made to pay restitution (somewhat) to victims.  But underlying it all, the culture and incentives at the company that produced the situation didn't get fundamentally changed.   Which often perpetuates across specific leaders, boards, and is a part of what a company is -- and doesn't just get replaced by removing one or two people.
-What does it take?   You have to dismantle a company before it changes these kinds of deep-rooted issues?    Or can a government penalty call for that?  That is hard to achieve.  Who's going to change the evaluation procedures that HR has in place to measure what rating or bonus you get this year?  That seems to me as important as who is CEO.
-None of the penalties courts mete out (short of dissolution/fined into bankruptcy) seem to be able to achieve this level of change needed.]]></summary>
-        <author>
-            <name>supernova87a</name>
         </author>
     </entry>
     <entry>
@@ -1610,49 +1660,6 @@ A crate of watermelons greeted me at the supermarket last week and I decided I w
 I don't know what my dad was listening for when he tapped and slapped all those watermelons. Like with most things, I'm sure I asked him about it and promptly forgot his answer. In hindsight, I don't think he was that good at choosing them, despite growing up on a farm, because he took home a number of watermelons that were pale and watery inside. And I've been thinking about that as I sprinkle tajín on my watermelon slices and drip pink juice on the counter, how he was probably winging it too, along with the rest of adult- and parenthood, the same way I was slapping watermelons at the market last week and feeling like a fool waiting to be found out.]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by __turbobrew__ in "A reawakening of systems programming meetups"]]></title>
-        <id>https://news.ycombinator.com/item?id=40898727</id>
-        <link href="https://news.ycombinator.com/item?id=40898727"/>
-        <updated>2024-07-07T16:45:45.000Z</updated>
-        <summary type="html"><![CDATA[I was on the board of directors for a local Linux Users Group and can echo the difficulties in finding a venue. In a city full of empty office spaces on a weekday night it was virtually impossible to find a stable meeting location. Without a stable meeting location you are much less likely to establish a core group since people do not like to have to learn how to get to different venues.
-Mozilla hosted us at one point but the political tides changed there and we got kicked out. I think having strong buy in from someone in the C-suite of a company is the only real way to do it. Otherwise you are beholden to the changing winds of the company.
-In the end we are now in a stable location in the local library, but only because we had someone on the inside. Previously when we approached the library we were stone walled without someone to grease the wheels.
-I do believe that it should be a mandate for the municipality to provide meeting space for local non-profit and special interest groups. In many locations you can no longer pool some money with your buddies to buy a piece of land to build your clubhouse on. In my city there are many such clubs which were formed 50 years ago — the sailing club, the badminton club, the lawn bowling club, etc — but land is too scarce in many places now and we need the municipalities to pick up the slack.]]></summary>
-        <author>
-            <name>__turbobrew__</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by charrondev in "YouTube embeds are heavy and it’s fixable"]]></title>
-        <id>https://news.ycombinator.com/item?id=40897715</id>
-        <link href="https://news.ycombinator.com/item?id=40897715"/>
-        <updated>2024-07-07T13:48:45.000Z</updated>
-        <summary type="html"><![CDATA[I work on a community forum platform and we detect YouTube embeds and replace them proxied thumbnails that don’t load until clicked.
-Just because one person in a thread shares a YouTube video doesn’t mean everyone else loading that page should have to download 1MB+ of YouTube’s JavaScript bloat and have their IPs tracked by google.]]></summary>
-        <author>
-            <name>charrondev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by jitl in "Show HN: Execute JavaScript in a WebAssembly QuickJS sandbox"]]></title>
-        <id>https://news.ycombinator.com/item?id=40897658</id>
-        <link href="https://news.ycombinator.com/item?id=40897658"/>
-        <updated>2024-07-07T13:40:56.000Z</updated>
-        <summary type="html"><![CDATA[Hi, I’m the author of the underlying quickjs-emscripten runtime library. I like your ergonomic kind of “standard library” for quickjs-emscripten :)
-Did you try running in the browser or with a bundler? I think accepting the variant name as a string you pass to import(variantName) dynamically may not play well with Webpack et al.
-EDIT: SECURITY WARNING: this library exposes the ability for the guest (untrusted) code to `fetch` with the same cookies as the host `fetch` function. You must not run untrusted code if enabling `fetch`. Library should come with a big blinking warning about what is safe and unsafe to enable when running untrusted code. It’s not a “sandbox” if the sandboxed code can call arbitrary HTTP APIs authenticated as the host context!
-The reason quickjs-emscripten  is low-level and avoids magic is so I can confidently claim that the APIs it does provide are secure. I generally reject feature requests for magical serialization or easy network/filesystem access because that kind of code is a rich area for security mistakes. When you run untrusted code, you should carefully audit the sandbox itself, but also audit all the code you write to expose APIs to the sandbox.
-In this case a comment from an other HN user asking about Fetch cookies tipped me off to the potential security issue.
-More reading:
-Figma blog posts on plugin sandbox security:
-- https://www.figma.com/blog/how-we-built-the-figma-plugin-sys...
-- https://www.figma.com/blog/an-update-on-plugin-security/
-Quickjs-emscripten README: https://github.com/justjake/quickjs-emscripten]]></summary>
-        <author>
-            <name>jitl</name>
         </author>
     </entry>
     <entry>
@@ -1680,18 +1687,6 @@ Next time you find yourself with your index finger resting on the delete button,
         <summary type="html"><![CDATA[I’ve spent many hours trying to take pictures of these over the past three years and have a large collection of indistinct blurs as a result. But I went back to basics, studied the camera setting, watched a bunch of “how to” videos on YouTube and actually managed this one:]]></summary>
         <author>
             <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You've Got Mail]]></title>
-        <id>https://alexandrawolfe.ca/youve-got-mail/</id>
-        <link href="https://alexandrawolfe.ca/youve-got-mail/"/>
-        <updated>2024-07-06T17:44:04.350Z</updated>
-        <summary type="html"><![CDATA[I was reading Veronique's post this afternoon, Just A Small Town Girl, and smiled at her lovely doodles. But there was one that caught my eye and then, brought a lump to my throat. It featured a stamp and the words, Post Air Mail. And it hit me. I hadn't had any real mail from anyone (not including birthday or Christmas cards) not since my mum passed back in 1999.
-It sent a shiver down my spine not just because that was over 20 years ago, but because, the last handwritten letter I ever got, was from a dead woman: my mother.
-Where ever I was in the world, travelling and or working, my mother almost religiously took time out of her day to write an aerogramme to me. Do you remember those? You buy them at any post office, singularly or in packs. I think my mother had a draw full of them—after …]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
 </feed>
