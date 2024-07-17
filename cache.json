@@ -20,86 +20,6 @@
           "wordCount": 2102,
           "title": "AWS Weekly Roundup: Advanced capabilities in Amazon Bedrock and Amazon Q, and more (July 15, 2024).",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
-        },
-        {
-          "id": "a2931bd0421d69f5d03ea0b81d6deb2d21e7adfa",
-          "author": "Channy Yun",
-          "description": "Store, index, retrieve, and search vectors with in-memory performance for use cases like retrieval augmentation, semantic caching, and anomaly detection through single-digit millisecond queries.",
-          "link": "https://aws.amazon.com/blogs/aws/vector-search-for-amazon-memorydb-is-now-generally-available/",
-          "publishedOn": "2024-07-10T16:35:12.000Z",
-          "wordCount": 2194,
-          "title": "Vector search for Amazon MemoryDB is now generally available",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/07/01/MemoryMind-blog-graphic-V2.png"
-        },
-        {
-          "id": "675e924e6be607327f2b94aa9a414b0452cc18b1",
-          "author": "Donnie Prakoso",
-          "description": "Effortlessly build apps with AI-powered low-code tools, enabling organizations to create secure custom apps in minutes without dev teams - streamlining processes like claims, inventory, and approvals.",
-          "link": "https://aws.amazon.com/blogs/aws/build-custom-business-applications-without-cloud-expertise-using-aws-app-studio-preview/",
-          "publishedOn": "2024-07-10T16:32:44.000Z",
-          "wordCount": 2706,
-          "title": "Build enterprise-grade applications with natural language using AWS App Studio (preview)",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/07/03/App-Studio_Blog_Image_800x400_1.5X.jpg"
-        },
-        {
-          "id": "58d223451397f47b42448e9f3d0eb7a68ab67077",
-          "author": "Prasad Rao",
-          "description": "Craft generative AI apps from conversations using natural language and approved data sources. Customize securely shared apps, specifying data sources per card and new APIs for programmatic app management.",
-          "link": "https://aws.amazon.com/blogs/aws/amazon-q-apps-now-generally-available-enables-users-to-build-their-own-generative-ai-apps/",
-          "publishedOn": "2024-07-10T16:20:40.000Z",
-          "wordCount": 2360,
-          "title": "Amazon Q Apps, now generally available, enables users to build their own generative AI apps",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/07/03/Amazon-Q-feat-img.png"
-        },
-        {
-          "id": "dbb8742329cd1fae053e5dd3ea9c6f968b17483f",
-          "author": "Sébastien Stormacq",
-          "description": "Unlock hyper-relevant code suggestions tailored to your codebase; enhance productivity with Amazon Q Developer's private customization while maintaining robust data privacy and security standards.",
-          "link": "https://aws.amazon.com/blogs/aws/customize-amazon-q-developer-in-your-ide-with-your-private-code-base/",
-          "publishedOn": "2024-07-10T16:17:15.000Z",
-          "wordCount": 1998,
-          "title": "Customize Amazon Q Developer (in your IDE) with your private code base",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/10/17/Site-Merch_Amazon-CodeWhisperer_Blog.png"
-        },
-        {
-          "id": "cb2425b75e646718c827c993d8716db44573e98a",
-          "author": "Danilo Poccia",
-          "description": "Agents for Amazon Bedrock now offer Memory to retain user context and Code Interpreter to dynamically execute code snippets—whether for data analysis, visualization, or complex problem-solving.",
-          "link": "https://aws.amazon.com/blogs/aws/agents-for-amazon-bedrock-now-support-memory-retention-and-code-interpretation-preview/",
-          "publishedOn": "2024-07-10T16:04:43.000Z",
-          "wordCount": 3869,
-          "title": "Agents for Amazon Bedrock now support memory retention and code interpretation (preview)",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/07/03/Agents-feat-img3.png"
-        },
-        {
-          "id": "e71f10193867cd708459006c696412bbd9e25212",
-          "author": "Abhishek Gupta",
-          "description": "Guardrails for Amazon Bedrock adds hallucination detection and an independent API to fortify generative AI applications with customized guardrails across any model, ensuring responsible and trustworthy outputs.",
-          "link": "https://aws.amazon.com/blogs/aws/guardrails-for-amazon-bedrock-can-now-detect-hallucinations-and-safeguard-apps-built-using-custom-or-third-party-fms/",
-          "publishedOn": "2024-07-10T15:46:38.000Z",
-          "wordCount": 2699,
-          "title": "Guardrails for Amazon Bedrock can now detect hallucinations and safeguard apps built using custom or third-party FMs",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/07/03/Guardrails-feat-img.png"
-        },
-        {
-          "id": "d1ac6c04af654f43a3f18f82c30276aa6defb928",
-          "author": "Antje Barth",
-          "description": "Enhance company knowledge bases with new Amazon Bedrock connectors for Confluence, Salesforce, SharePoint, and web domains - empowering RAG models with contextual data for more accurate and relevant responses.",
-          "link": "https://aws.amazon.com/blogs/aws/knowledge-bases-for-amazon-bedrock-now-supports-additional-data-connectors-in-preview/",
-          "publishedOn": "2024-07-10T15:43:11.000Z",
-          "wordCount": 1702,
-          "title": "Knowledge Bases for Amazon Bedrock now supports additional data connectors (in preview)",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/04/25/knowledge-bases-feat-img.png"
-        },
-        {
-          "id": "2f43e4416aa370a33fa9f2f85b61010b3aa3c5d8",
-          "author": "Esra Kayabali",
-          "description": "Streamline your ML workflows with this generative AI assistant providing tailored guidance, code generation, and error troubleshooting, to build, train, and deploy models efficiently.",
-          "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-q-developer-in-sagemaker-studio-to-streamline-ml-workflows/",
-          "publishedOn": "2024-07-10T15:24:20.000Z",
-          "wordCount": 1454,
-          "title": "Introducing Amazon Q Developer in SageMaker Studio to streamline ML workflows",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/06/10/SageMaker3.png"
         }
       ]
     },
@@ -163,18 +83,7 @@
       "title": "Spotify Engineering",
       "feedUrl": "https://labs.spotify.com/feed/",
       "siteUrl": "https://engineering.atspotify.com/",
-      "articles": [
-        {
-          "id": "https://engineering.atspotify.com/?p=7142",
-          "author": "Spotify Engineering",
-          "description": "Car rides have become connected and interactive these days with drivers jamming to music or catching up on podcasts or [...]\nThe post Technical Decision-Making in a Fragmented Space: Spotify In-Car Case Study appeared first on Spotify Engineering.",
-          "link": "https://engineering.atspotify.com/2024/07/technical-decision-making-in-a-fragmented-space-spotify-in-car-case-study/",
-          "publishedOn": "2024-07-10T15:53:29.000Z",
-          "wordCount": 2582,
-          "title": "Technical Decision-Making in a Fragmented Space: Spotify In-Car Case Study",
-          "imageUrl": "https://storage.googleapis.com/production-eng/1/2024/07/EN220-Spotify-in-your-Car-1200-x-630.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Containers",
@@ -208,6 +117,138 @@
       "feedUrl": "https://www.counterpunch.org/feed/",
       "siteUrl": "https://www.counterpunch.org/",
       "articles": [
+        {
+          "id": "https://www.counterpunch.org/?p=328322",
+          "author": "Walden Bello",
+          "description": "Thirty years ago, U.S. corporate capital, along with the Clinton administration, envisioned globalization, achieved through trade, investment, and financial liberalization, as the spearhead of its greater domination of the global economy. Wall Street and Washington were wrong. It was China that was the biggest beneficiary of globalization and the United States one of its main victims. More\nThe post Crisis in the West, Opportunity for the Rest? appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/crisis-in-the-west-opportunity-for-the-rest/",
+          "publishedOn": "2024-07-17T06:03:39.000Z",
+          "wordCount": null,
+          "title": "Crisis in the West, Opportunity for the Rest?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=328358",
+          "author": "Ashley Smith",
+          "description": "Israel’s genocidal war is both massacring Palestinians and destroying their physical and social infrastructure. In particular, Israel has targeted Palestinian educational institutions. In late April, UN experts concluded, “with more than 80% of schools in Gaza damaged or destroyed, it may be reasonable to ask if there is an intentional effort to comprehensively destroy the Palestinian education system, an action known as ‘scholasticide’.”1 The aim of this settler-colonial project is to eradicate the physical, intellectual, and political reproduction of the Palestinian people. As Maya Wind documents in her new book Towers of Ivory and Steel, the Israeli higher education system plays a key role in this agenda. Spectre’s Ashley Smith interviews Wind about the current war, the nature of Zionist higher educational institutions, and the case for a boycott of Israeli universities. More\nThe post Resisting Israeli Scholasticide and Academic Apartheid appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/resisting-israeli-scholasticide-and-academic-apartheid/",
+          "publishedOn": "2024-07-17T05:57:27.000Z",
+          "wordCount": null,
+          "title": "Resisting Israeli Scholasticide and Academic Apartheid",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=328401",
+          "author": "W. T. Whitney",
+          "description": "Cuba and Cuban science gained acclaim worldwide for producing their own very effective Covid-19 vaccines. The achievement stood out among nations of the Global South. The feat reflects Cuba’s development over decades of a formidable scientific establishment engaged in the development and marketing of biologic products oriented to healthcare mostly, and also to food production.  More\nThe post How the Knowledge Economy and Science Bolster Cuba’s Socialist Revolution appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/how-the-knowledge-economy-and-science-bolster-cubas-socialist-revolution/",
+          "publishedOn": "2024-07-17T05:55:42.000Z",
+          "wordCount": null,
+          "title": "How the Knowledge Economy and Science Bolster Cuba’s Socialist Revolution",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=328404",
+          "author": "Giuliana Perrone",
+          "description": "If you’re looking for a rare bit of good news, look no further: California is finally taking steps to abolish slavery from its constitution by banning it in state prisons. On June 27, 2024, the state legislature passed the End Slavery in California Act, teeing up a statewide vote this fall on whether to end  More\nThe post California Moves to Ban Forced Prison Labor, But There’s Still More to Do appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/california-moves-to-ban-forced-prison-labor-but-theres-still-more-to-do/",
+          "publishedOn": "2024-07-17T05:55:29.000Z",
+          "wordCount": null,
+          "title": "California Moves to Ban Forced Prison Labor, But There’s Still More to Do",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=328407",
+          "author": "Martha Rosenberg",
+          "description": "In 2019, a ban on junk food advertising across London’s entire public transport network–– foods and drinks high in fat, salt and ads for foods––resulted in prevention of 100,000 obesity cases according to some academics. Yet the U.S. love affair with the new semaglutide-based weight loss drugs like Ozempic gives junk food advertising and availability a huge  More\nThe post Rapid Weight Loss Drugs Give Junk Food Sellers a Pass appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/rapid-weight-loss-drugs-give-junk-food-sellers-a-pass/",
+          "publishedOn": "2024-07-17T05:54:05.000Z",
+          "wordCount": null,
+          "title": "Rapid Weight Loss Drugs Give Junk Food Sellers a Pass",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=328419",
+          "author": "Nan Levinson",
+          "description": "It began with Aaron Bushnell and a visceral response of mine: Why would anyone do such a thing? Bushnell was the 25-year-old active-duty airman who set himself ablaze on February 25th in front of the Israeli embassy in Washington, D.C., to protest that country’s brutal war in Gaza. The first question was tough enough, but  More\nThe post Assessing the Flames of Protest appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/assessing-the-flames-of-protest/",
+          "publishedOn": "2024-07-17T05:52:43.000Z",
+          "wordCount": null,
+          "title": "Assessing the Flames of Protest",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=328226",
+          "author": "Peter Bach",
+          "description": "Another four people died last week after their dinghy capsized in the Channel. ‘When you’re drowning, you don’t say ‘I would be incredibly pleased if someone would have the foresight to notice me drowning and come and help me,’ you just scream,’ once said former Beatle John Lennon. Attempting foresight, our new UK Home Secretary  More\nThe post Letter from London: Offshore Man and the Wages of Foresight appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/letter-from-london-offshore-man-and-the-wages-of-foresight/",
+          "publishedOn": "2024-07-17T05:50:21.000Z",
+          "wordCount": null,
+          "title": "Letter from London: Offshore Man and the Wages of Foresight",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=328417",
+          "author": "Nick Pemberton",
+          "description": "“Friends, Romans, countrymen, lend me your ears; I come to bury Caesar, not to praise him.” —Shakespeare, from Julias Ceasar, spoken by Marc Antony “A proposition might fall kindly on your ear.” —Prop Joe, The Wire But do you condemn Thomas Matthew Crooks? With or without their ears, none of the ruling class hears the  More\nThe post An Ear For An Ear Leaves The Whole World What? appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/an-ear-for-an-ear-leaves-the-whole-world-what/",
+          "publishedOn": "2024-07-17T05:47:44.000Z",
+          "wordCount": null,
+          "title": "An Ear For An Ear Leaves The Whole World What?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=328228",
+          "author": "Dave Kraft",
+          "description": "On Wednesday July 10th President Joe Biden signed the “ADVANCE Act,” which stands for “Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy.” The controversial bill aggressively promotes the narrow, short-term interests of the U.S. nuclear industry in ways that threaten the long-term national environmental, climate and national/international security interests. Further, it functionally rewrites the  More\nThe post  appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/328228/",
+          "publishedOn": "2024-07-17T05:45:31.000Z",
+          "wordCount": null,
+          "title": "Untitled",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=328225",
+          "author": "John Feffer",
+          "description": "The Right is resurgent! The Left is Back! The Center is on the march! It’s always tempting to declare, on the basis of a few elections, that a political tendency is on the ascendant. I should know: I’ve done it myself. But the only commonality in the most recent consequential elections—France, the UK, and Iran—is  More\nThe post What Do Voters Want? appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/what-do-voters-want/",
+          "publishedOn": "2024-07-17T05:45:27.000Z",
+          "wordCount": null,
+          "title": "What Do Voters Want?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=328334",
+          "author": "Kary Love",
+          "description": "The US has a long, chequered relationship with assassination. On one hand, the myths of 1776 recount of a nation born through resistance to the tyranny that it holds at the core of its identity. Values legitimizing tyrannicide can be imputed from the second paragraph of the Declaration of Independence. On the other hand, the US  More\nThe post Tyrannicide: An American Value? appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/tyrannicide-an-american-value/",
+          "publishedOn": "2024-07-17T05:31:12.000Z",
+          "wordCount": null,
+          "title": "Tyrannicide: An American Value?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=328254",
+          "author": "Matthew Hoh",
+          "description": "The elected majorities of both political parties argue Israel’s genocide of Palestinians must be supported because Israel is the only democracy in the Middle East. $175 billion, in just 2 1/2 years, has been appropriated for war in Ukraine to defend democracy. The GOP and the Democrats have brought about a needless and reckless cold  More\nThe post Defending Democracy: When Wars Come Home appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/07/17/defending-democracy-when-wars-come-home/",
+          "publishedOn": "2024-07-17T05:28:22.000Z",
+          "wordCount": null,
+          "title": "Defending Democracy: When Wars Come Home",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.counterpunch.org/?p=328298",
           "author": "Ellen Cantarow",
@@ -405,138 +446,6 @@
           "title": "Warning From the Edge of the Abyss",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328128",
-          "author": "Ralph Nader",
-          "description": "In the early weeks of Israel’s massive bombardment and invasion of Gaza, the Israeli military was killing anyone who moved and destroying anything that stood.  In response to telephone calls from President Joe Biden and U.S. Secretary of State Antony Blinken urging Netanyahu to minimize civilian casualties reportedly he would respond:  Don’t lecture me, look  More\nThe post The Gaza Genocide Deepens: The Reckoning Begins for the Perpetrators appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/the-gaza-genocide-deepens-the-reckoning-begins-for-the-perpetrators/",
-          "publishedOn": "2024-07-15T06:00:44.000Z",
-          "wordCount": null,
-          "title": "The Gaza Genocide Deepens: The Reckoning Begins for the Perpetrators",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328084",
-          "author": "Jeffrey St. Clair",
-          "description": "Biden held his first press conference in a year last Thursday. His staff had promoted the event all week as a “Big Boy” press conference that would demonstrate to NATO leaders and the American public that his inept performance during his debate against Trump two weeks ago that so terrified the Democratic donor class was merely an aberration and that the President still had the mojo to run the Empire. More\nThe post Big Boy Biden in His Own Words appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/big-boy-biden-in-his-own-words/",
-          "publishedOn": "2024-07-15T05:58:39.000Z",
-          "wordCount": null,
-          "title": "Big Boy Biden in His Own Words",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328158",
-          "author": "Evaggelos Vallianatos",
-          "description": "Late July 1987 was a bad time for Athens, Greece. A suffocating heat wave embraced the polis of Athena. Hundreds of Athenians died. The government ordered gravediggers to work overtime days and nights. And to keep bodies chill, hospitals received ice from the fish market. “The Athens summer,” said Alan Cowell, a New York Times  More\nThe post Climate and Political Heatwaves Kill appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/climate-and-political-heatwaves-kill/",
-          "publishedOn": "2024-07-15T05:55:58.000Z",
-          "wordCount": null,
-          "title": "Climate and Political Heatwaves Kill",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328190",
-          "author": "Binoy Kampmark",
-          "description": "As a nation, the United States, as if we did not already know, is convulsed.  Paranoid and divided, giddy with conspiracy and deranged by a fear of totalitarian seizure, hyper partisan and hostile to debate and any loose definition of facts (this condition afflicts the entire political spectrum), the only thing missing so far was this:  More\nThe post The Convulsed Republic: The Shooting of Donald Trump appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/the-convulsed-republic-the-shooting-of-donald-trump/",
-          "publishedOn": "2024-07-15T05:55:29.000Z",
-          "wordCount": null,
-          "title": "The Convulsed Republic: The Shooting of Donald Trump",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328193",
-          "author": "Kawenaʻulaokalā Kapahua and Joy Lehuanani Enomoto",
-          "description": "Every two years, the Indo-Pacific Command Center of the United States convenes the largest maritime war exercises on the planet. With over 35,000 troops participating, 29 nations, 46 naval surface ships, 4 nuclear submarines, and a multitude of air and ground forces, the Rim of the Pacific military exercises, or RIMPAC, is one of the  More\nThe post U.S. War Games in Pacific Seek Global Participation in Imperialist Maneuvers appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/u-s-war-games-in-pacific-seek-global-participation-in-imperialist-maneuvers/",
-          "publishedOn": "2024-07-15T05:55:24.000Z",
-          "wordCount": null,
-          "title": "U.S. War Games in Pacific Seek Global Participation in Imperialist Maneuvers",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328196",
-          "author": "David McCall",
-          "description": "Wayne Creasy turned the corner in his municipal work truck, saw emergency vehicles idling at the railroad crossing, and instinctively pulled over to help. About 12 feet in the air, a railroad worker writhed in agony, pinned against his seat by a 39-foot-long, 1,500-pound slab of rail that fell from the claws of the crane  More\nThe post How Empowering Public-Sector Workers Builds Stronger Communities appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/how-empowering-public-sector-workers-builds-stronger-communities/",
-          "publishedOn": "2024-07-15T05:54:46.000Z",
-          "wordCount": null,
-          "title": "How Empowering Public-Sector Workers Builds Stronger Communities",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328200",
-          "author": "Jenipher Changwanda and Freddie Clayton",
-          "description": "To the 2021 Global Climate Risk Index, Malawi is among the five nations worldwide most affected by extreme weather events. The country experiences distinct wet and dry seasons, so climate phenomena like El Niño can disrupt normal rain patterns and lead to periods of drought. The nation’s proximity to the Indian Ocean also makes it  More\nThe post Malawi’s Farmers Face a Precarious Future From Climate Change-Related Storms appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/malawis-farmers-face-a-precarious-future-from-climate-change-related-storms/",
-          "publishedOn": "2024-07-15T05:54:43.000Z",
-          "wordCount": null,
-          "title": "Malawi’s Farmers Face a Precarious Future From Climate Change-Related Storms",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328203",
-          "author": "Pete Tucker",
-          "description": "Joe Biden reminds me of Jack Evans, a disgraced former DC councilman I’ve written about more than anyone over the years. Both grew up in working-class families in Pennsylvania. At the outset of their careers, both had a touch of progressive in them, as well as a touch of scandal. And for both, the scandal  More\nThe post Biden’s Death Grip appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/bidens-death-grip/",
-          "publishedOn": "2024-07-15T05:54:36.000Z",
-          "wordCount": null,
-          "title": "Biden’s Death Grip",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328197",
-          "author": "George Ochenski",
-          "description": "It’s truly a mystery right now watching the incredible efforts by Montana’s Secretary of State, Christi Jacobsen, to try and disqualify voters who signed citizen initiatives from being counted.   Their twisted logic and faulty interpretation of the Montana Constitution reflects a deep paranoia on the part of the Republicans toward Montana’s citizens and voters. The  More\nThe post Why is the GOP so Paranoid About Montana Voters? appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/why-is-the-gop-so-paranoid-about-montana-voters/",
-          "publishedOn": "2024-07-15T05:54:19.000Z",
-          "wordCount": null,
-          "title": "Why is the GOP so Paranoid About Montana Voters?",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328096",
-          "author": "Jake Johnston",
-          "description": "At 9:16 a.m. on June 25, a Kenya Airways plane touched down in Port-au-Prince, Haiti. On board were some 200 Kenyan police, the vanguard of the Multinational Security Support (MSS) mission approved by the United Nations Security Council late last year. Eventually, the force is expected to consist of 2,500 officers from at least a  More\nThe post Give Peace a Chance in Haiti appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/give-peace-a-chance-in-haiti/",
-          "publishedOn": "2024-07-15T05:50:43.000Z",
-          "wordCount": null,
-          "title": "Give Peace a Chance in Haiti",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328167",
-          "author": "Roger Harris",
-          "description": "The future of Venezuela’s 25-year-old socialist movement will be decided in the upcoming July 28 election. Venezuelans will go to the polls knowing that a vote for incumbent President Nicolás Maduro means no relief from US unilateral coercive measures. These so-called “sanctions” have been central to Washington’s regime-change campaign explicitly designed to asphyxiate the Venezuelan  More\nThe post Venezuelans to Vote on Continuing the Bolivarian Revolution appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/venezuelans-to-vote-on-continuing-the-bolivarian-revolution-2/",
-          "publishedOn": "2024-07-15T05:48:25.000Z",
-          "wordCount": null,
-          "title": "Venezuelans to Vote on Continuing the Bolivarian Revolution",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=328165",
-          "author": "Joe Allen",
-          "description": "A Response to Mike Johnston I read Mike Johnston’s article Choosing Our Opponent: Why I will work to elect Joe Biden in the Stansbury Forum with a mixture of curiosity and concern. Not because I find it surprising that he is going to campaign for Biden’s reelection, but because he reaches back to the Carter presidency to  More\nThe post Jimmy Carter and the U.S. Left: Lessons for Today? appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/07/15/jimmy-carter-and-the-u-s-left-lessons-for-today/",
-          "publishedOn": "2024-07-15T05:44:35.000Z",
-          "wordCount": null,
-          "title": "Jimmy Carter and the U.S. Left: Lessons for Today?",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -578,7 +487,7 @@
           "description": "Visit the post for more.",
           "link": "https://rwer.wordpress.com/2024/07/15/u-s-top-1-now-have-more-wealth-than-the-middle-class/",
           "publishedOn": "2024-07-15T16:41:13.000Z",
-          "wordCount": 3949,
+          "wordCount": 3944,
           "title": "U.S. Top 1% now have more wealth than the middle class",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/07/wealth-inequality-usa-2.png"
         },
@@ -588,7 +497,7 @@
           "description": "from Lars Syll ZEIT: Today, the debate focuses on the labor shortages facing many industrialized countries. Angus Deaton: I am always cautious when people talk about a scarcity of labor but don’t talk about wages. The argument always is: Americans don’t want to do these jobs, Germans don’t want to do these jobs. So we have to […]",
           "link": "https://rwer.wordpress.com/2024/07/12/deaton-on-labour-shortages-and-wages/",
           "publishedOn": "2024-07-12T15:48:06.000Z",
-          "wordCount": 4346,
+          "wordCount": 4361,
           "title": "Deaton on labour shortages and wages",
           "imageUrl": "https://i.insider.com/60a6cfeff27b4c0019445c17"
         }
@@ -611,7 +520,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics; Keystone Cops  at Trump's assassination attempt; unelecting Biden effort continues privately; the Republican National Convention and J.D. Vance ~",
           "link": "https://www.nakedcapitalism.com/2024/07/200pm-water-cooler-7-16-2024.html",
           "publishedOn": "2024-07-16T18:00:22.000Z",
-          "wordCount": 17088,
+          "wordCount": 18015,
           "title": "2:00PM Water Cooler 7/16/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/07/rcp_2024-07-12.png"
         },
@@ -621,7 +530,7 @@
           "description": "Rent has become unaffordable in many US cities. But Biden makes a gesture about it only when his campaign is floundering.",
           "link": "https://www.nakedcapitalism.com/2024/07/targeting-corporate-landlords-biden-to-unveil-national-rent-control-plan.html",
           "publishedOn": "2024-07-16T13:55:05.000Z",
-          "wordCount": 5955,
+          "wordCount": 6176,
           "title": "Targeting Corporate Landlords, Biden to Unveil National Rent Control Plan",
           "imageUrl": null
         },
@@ -631,7 +540,7 @@
           "description": "Our calm-inducing daily links",
           "link": "https://www.nakedcapitalism.com/2024/07/links-7-16-2024.html",
           "publishedOn": "2024-07-16T10:58:39.000Z",
-          "wordCount": 25055,
+          "wordCount": 25540,
           "title": "Links 7/16/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/07/Mountain_Lion.jpg"
         },
@@ -641,7 +550,7 @@
           "description": "London's newfound ambitions in the South Atlantic Sea are unlikely to meet much resistance from the Milei government.",
           "link": "https://www.nakedcapitalism.com/2024/07/uk-government-with-help-from-israeli-firm-is-preparing-to-drill-for-oil-in-disputed-seas-off-falkland-islands.html",
           "publishedOn": "2024-07-16T10:45:59.000Z",
-          "wordCount": 5714,
+          "wordCount": 5949,
           "title": "UK Government and Israeli Energy Firm Are Preparing to Drill for Oil in Disputed Seas Off Falkland Islands (Malvinas)",
           "imageUrl": null
         },
@@ -651,7 +560,7 @@
           "description": "A McKinsey report focusing on an extremely high job vacancy ratio in recent years cherry-picks data about the state of the U.S. labor market.",
           "link": "https://www.nakedcapitalism.com/2024/07/a-new-era-of-endless-labor-shortages-a-critical-analysis-of-mckinseys-new-report.html",
           "publishedOn": "2024-07-16T09:55:56.000Z",
-          "wordCount": 7672,
+          "wordCount": 7683,
           "title": "A New Era of Endless Labor Shortages? A Critical Analysis of McKinsey’s New Report",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/07/00-McKinsey-Figure-1-1024x757.png"
         },
@@ -661,7 +570,7 @@
           "description": "\"Starmer’s stance on Gaza has already reduced support for Labour – and that will only worsen in the coming months\"",
           "link": "https://www.nakedcapitalism.com/2024/07/devastation-in-gaza-poses-an-increasingly-serious-problem-for-starmer.html",
           "publishedOn": "2024-07-16T09:45:31.000Z",
-          "wordCount": 5471,
+          "wordCount": 5557,
           "title": "Devastation in Gaza Poses an Increasingly Serious Problem for Starmer",
           "imageUrl": null
         },
@@ -671,7 +580,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics; Judge Cannon throws out Smith's case; Trump's would-be assassin appeared in a Blackrock ad; unelecting Biden: how's that going? Bird flu~",
           "link": "https://www.nakedcapitalism.com/2024/07/200pm-water-cooler-7-15-2024.html",
           "publishedOn": "2024-07-15T18:00:17.000Z",
-          "wordCount": 22178,
+          "wordCount": 22189,
           "title": "2:00PM Water Cooler 7/15/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/07/hamptons.png"
         },
@@ -681,7 +590,7 @@
           "description": "An update on Israel's horrific campaign against Palestinians.",
           "link": "https://www.nakedcapitalism.com/2024/07/israels-inertial-genocide.html",
           "publishedOn": "2024-07-15T15:37:39.000Z",
-          "wordCount": 8482,
+          "wordCount": 8493,
           "title": "Israel’s Inertial Genocide",
           "imageUrl": null
         },
@@ -691,7 +600,7 @@
           "description": "The cost-effective investments in healthcare infrastructure disproportionately benefited historically marginalised groups, had long-run benefits, and complemented, rather than substituted, medical innovation.",
           "link": "https://www.nakedcapitalism.com/2024/07/investments-in-hospital-infrastructure-reduced-mortality-in-the-us-south.html",
           "publishedOn": "2024-07-15T13:50:26.000Z",
-          "wordCount": 4326,
+          "wordCount": 4337,
           "title": "Investments in Hospital Infrastructure Reduced Mortality in the US South",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/07/karbownik15julyfig1.png"
         },
@@ -701,7 +610,7 @@
           "description": "Our unvanquished daily links",
           "link": "https://www.nakedcapitalism.com/2024/07/links-7-15-2024.html",
           "publishedOn": "2024-07-15T10:58:21.000Z",
-          "wordCount": 18934,
+          "wordCount": 19026,
           "title": "Links 7/15/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/07/Eastern_Tiger.jpg"
         }
@@ -799,7 +708,7 @@
           "description": "Tail utilization is a significant system issue and a major factor in overload-related failures and low compute utilization. The tail utilization optimizations at Meta have had a profound impact on model serving capacity footprint and reliability.  Failure rates, which are mostly timeout errors, were reduced by two-thirds; the compute footprint delivered 35% more work for [...]\nRead More...\nThe post Taming the tail utilization of ads inference at Meta scale appeared first on Engineering at Meta.",
           "link": "https://engineering.fb.com/2024/07/10/production-engineering/tail-utilization-ads-inference-meta/",
           "publishedOn": "2024-07-10T20:30:26.000Z",
-          "wordCount": 3891,
+          "wordCount": 3921,
           "title": "Taming the tail utilization of ads inference at Meta scale",
           "imageUrl": "https://engineering.fb.com/wp-content/uploads/2024/07/Meta-Data-Center-Cold-Storage.jpg"
         }
@@ -811,12 +720,22 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=40980299",
+          "author": "KothuRoti",
+          "description": "My personal experience with story points is that the number never really mattered, but the process of the team discussing how to rate the complexity of a task was very useful. In terms of having utility of estimating how long something will take, I personally have never been able to translate story points into a reliable indicator for that for many reasons (e.g team changing, domain changing, variability in operational load outside of development work).\nOverall I tend to avoid using story points, but on the few teams I worked on who really wanted to use it, I always framed it around building shared understanding rather than a metric that is actually useful for estimating work.",
+          "link": "https://news.ycombinator.com/item?id=40980299",
+          "publishedOn": "2024-07-16T21:02:40.000Z",
+          "wordCount": 4278,
+          "title": "New comment by KothuRoti in \"Story points are pointless, measure queues\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=40979009",
           "author": "MarcScott",
           "description": "I think teaching is one of the few roles that can't be replaced by AI. If you're a self-motivated learner, eager to gain new skills, then AI is perfect for you. Having a virtual Feynman coach you through a Physics course is perfect.\nMost learners, the world over, are not self-motivated. The pandemic showed us exactly what children would prefer to do, when they don't have a physical teacher standing over them, which is bugger all. We send kids to school, in the hope they get some education, but the reality is that we use schools for free childcare while we work. If parents have to additionally monitor their child's learning, it breaks down pretty quickly.\nI see AI being more of a teaching assistant, rather than a replacement for teachers. Having been in the education game for over twenty five years, I know the difference in impact when comparing virtual learning to in-person training.",
           "link": "https://news.ycombinator.com/item?id=40979009",
           "publishedOn": "2024-07-16T18:29:21.000Z",
-          "wordCount": 12132,
+          "wordCount": 13770,
           "title": "New comment by MarcScott in \"I am starting an AI+Education company\"",
           "imageUrl": null
         },
@@ -826,8 +745,18 @@
           "description": "Enough of this waiting for virtuous entities to address legitimate concerns of the public.\nThe \"ad industry\" is a cancer and we need legal protection against this \"industry\". The solution is political not technical and definitely can not be left to \"the market\".\nHaven't you had enough?",
           "link": "https://news.ycombinator.com/item?id=40975303",
           "publishedOn": "2024-07-16T10:51:14.000Z",
-          "wordCount": 7401,
+          "wordCount": 7433,
           "title": "New comment by temporarely in \"For advertising, Firefox now collects user data by default\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40974909",
+          "author": "ceronman",
+          "description": "The author seems very anxious because Rust is getting traction and they don't like Rust. They're afraid that one day Rust will become a \"monoculture\" and everything will be written in it.\nI like Rust, but I consider this very, very unlikely.\nRust has actually brought more choice to the programming language scenario. If we're talking about monoculture, let's talk about C/C++. For decades this was the only viable option for systems programming. All new languages were focusing on a higher lever. Languages for lower level stuff were rare. There was D, but it never got enough traction.\nThen Rust appeared and there is finally an alternative. And not only that, I because of that, other language designers decided to create new systems languages, and now we have Zig, and Odin, and Vale, etc.\nSo if anything, Rust is helping in breaking the monoculture, not creating it. C and C++ are not going away, but now we have alternatives.\nAnd I think it's important to acknowledge that even if you don't like a language, if you see a bunch of software being written in such language, it's because the language is useful. I don't like C++ but I admit it's damn useful! People are writing interesting software in Rust because they find it useful.",
+          "link": "https://news.ycombinator.com/item?id=40974909",
+          "publishedOn": "2024-07-16T09:39:18.000Z",
+          "wordCount": 2315,
+          "title": "New comment by ceronman in \"I Hope Rust Does Not Oxidize Everything\"",
           "imageUrl": null
         },
         {
@@ -846,7 +775,7 @@
           "description": "There are many others that are better.\n1/ The Annotated Transformer\nAttention is All You Need\nhttp://nlp.seas.harvard.edu/annotated-transformer/\n2/ Transformers from Scratch\nhttps://e2eml.school/transformers.html\n3/ Andrej Karpathy has really good series of intros:\nhttps://karpathy.ai/zero-to-hero.html\nLet's build GPT: from scratch, in code, spelled out.\nhttps://www.youtube.com/watch?v=kCc8FmEb1nY\nGPT with Andrej Karpathy: Part 1\nhttps://medium.com/@kdwa2404/gpt-with-andrej-karpathy-part-1...\n4/ 3Blue1Brown: But what is a GPT? Visual intro to transformers | Chapter 5, Deep Learning\nhttps://www.youtube.com/watch?v=wjZofJX0v4M\nAttention in transformers, visually explained | Chapter 6, Deep Learning https://www.youtube.com/watch?v=eMlx5fFNoYc\nFull 3Blue1Brown Neural Networks playlist https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_6700...",
           "link": "https://news.ycombinator.com/item?id=40974756",
           "publishedOn": "2024-07-16T09:06:15.000Z",
-          "wordCount": 865,
+          "wordCount": null,
           "title": "New comment by MAXPOOL in \"The Engineer’s Guide to Deep Learning: Understanding the Transformer Model\"",
           "imageUrl": null
         },
@@ -866,7 +795,7 @@
           "description": "The CTO of Mozilla just posted on /r/firefox about this:\nhttps://old.reddit.com/r/firefox/comments/1e43w7v/a_word_abo...",
           "link": "https://news.ycombinator.com/item?id=40974390",
           "publishedOn": "2024-07-16T07:47:21.000Z",
-          "wordCount": 13146,
+          "wordCount": null,
           "title": "New comment by eco in \"For advertising, Firefox now collects user data by default\"",
           "imageUrl": null
         },
@@ -878,6 +807,16 @@
           "publishedOn": "2024-07-16T07:19:23.000Z",
           "wordCount": 2128,
           "title": "New comment by quadhome in \"The Delusion of the Polygraph\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40974172",
+          "author": "crystal_revenge",
+          "description": "I awhile back I used to do work with a major DARPA contractor. If you're familiar with security clearance for these roles, you know that at the higher levels of clearance you eventually need to take a polygraph exam.\nI was never interested in going the clearance route, but got into a conversation with a grizzled industry vet that seemed like a character torn from a hard-boiled detective novel.\nAt the time I had recently learned that polygraph exams were \"fake\" and when the topic of the exam came up I was quick to point this out. His comment surprised me, and, in a sense, demonstrated to me that saying a polygraph is \"fake\" is akin to saying WWE wrestling is \"fake\". Of course it is, but that is a misunderstanding that what you're watching is a real performance.\nHe said the polygraph itself is just a tool for the interviewer. The real value was in someone who knew how to use the machine to convince the subject that they knew the truth. He continue that in his time he knew some mighty good interviewers who could easily extract anything they needed from you.\nMy father did go the clearance route, and when I asked him about the polygraph he told me he confessed things to the interviewers he would never have told my mother. \"Fake\" or \"real\" the polygraph does work in this sense.",
+          "link": "https://news.ycombinator.com/item?id=40974172",
+          "publishedOn": "2024-07-16T06:56:00.000Z",
+          "wordCount": null,
+          "title": "New comment by crystal_revenge in \"The Delusion of the Polygraph\"",
           "imageUrl": null
         },
         {
@@ -901,6 +840,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=40971093",
+          "author": "eslaught",
+          "description": "Are you aware of HIP? It's officially supported and, for code that avoids obscure features of CUDA like inline PTX, it's pretty much a find-and-replace to get a working build:\nhttps://github.com/ROCm/HIP\nDon't believe me? Include this at the top of your CUDA code, build with hipcc, and see what happens:\nhttps://gitlab.com/StanfordLegion/legion/-/blob/master/runti...\nIt's incomplete because I'm lazy but you can see most things are just a single #ifdef away in the implementation.",
+          "link": "https://news.ycombinator.com/item?id=40971093",
+          "publishedOn": "2024-07-15T20:13:18.000Z",
+          "wordCount": null,
+          "title": "New comment by eslaught in \"Run CUDA, unmodified, on AMD GPUs\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=40970717",
           "author": "modeless",
           "description": "A lot of people think AMD should support these translation layers but I think it's a bad idea. CUDA is not designed to be vendor agnostic and Nvidia can make things arbitrarily difficult both technically and legally. For example I think it would be against the license agreement of cuDNN or cuBLAS to run them on this. So those and other Nvidia libraries would become part of the API boundary that AMD would need to reimplement and support.\nChasing bug-for-bug compatibility is a fool's errand. The important users of CUDA are open source. AMD can implement support directly in the upstream projects like pytorch or llama.cpp. And once support is there it can be maintained by the community.",
@@ -908,6 +857,46 @@
           "publishedOn": "2024-07-15T19:22:27.000Z",
           "wordCount": null,
           "title": "New comment by modeless in \"Run CUDA, unmodified, on AMD GPUs\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40966895",
+          "author": "account42",
+          "description": "> The scare quotes here are uncalled for: it is privacy-preserving.\nIt is strictly less privacy-preserving than not implementing this \"feature\" that has zero benefit to the user running the browser. At the very least it pings yet another third party, most likely it effectively leaks much more.\n> The best objection to these proposals isn't privacy, it's that a browser vendor is lifting a finger for advertisers. I guess the fundamental question there is if we prefer to outright shut down online advertising, or give it the tools it needs to be less bad. Opinions differ, but all major browser vendors are in the latter category.\nThat is a very very generous assumption of the browser makers' goals. Particularily when one of them IS an online advertising company and another one is almost exclusively funded by said advertising company. They do not deserve the benefit of the doubt.",
+          "link": "https://news.ycombinator.com/item?id=40966895",
+          "publishedOn": "2024-07-15T11:33:34.000Z",
+          "wordCount": 2004,
+          "title": "New comment by account42 in \"Firefox 128 enables \"privacy-preserving\" ad measurements by default\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40965329",
+          "author": "ejiblabahaba",
+          "description": "As someone with a hardware background, I'll throw in my $0.02. The schematic capture elements to connect up large blocks of HDL with a ton of I/O going everywhere are one of the few applications of visual programming that I like. Once you get past defining the block behaviors in HDL, instantiation can become tedious and error-prone in text, since the tools all kinda suck with very little hinting or argument checking, and the modules can and regularly do have dozens of I/O arguments. Instead, it's often very easy to map the module inputs to schematic-level wires, particularly in situations where large buses can be combined into single fat lines, I/O types can be visually distinguished, etc. IDE keyboard shortcuts also make these signals easy to follow and trace as they pass through hierarch…",
+          "link": "https://news.ycombinator.com/item?id=40965329",
+          "publishedOn": "2024-07-15T04:45:23.000Z",
+          "wordCount": null,
+          "title": "New comment by ejiblabahaba in \"We need visual programming. No, not like that\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40964331",
+          "author": "JKCalhoun",
+          "description": "Retired from Apple a few years ago (at age 57).\nI was not obsolete. A big company like Apple, there are always things that need taken care of.\nI assumed with iOS, Swift, etc., maybe the guys on the Cocoa team were obsolete? Of course not. That code is still there, still needs maintaining, interoperability with the new languages, frameworks, etc.\nI'm more surprised they want to stay on.\nAnd that is in fact why I left Apple: the job had changed, the \"career\" had changed. The engineers were no longer steering the ship. It had been that way when I started in 1995 though. A \"team\", let's say the graphics team, would figure out what API to revisit, what new ones to add — perhaps how to refactor the entire underlying workflow. The \"tech lead\" (who would regularly attend Siggraph since we're talking about the graphics team) would make the call as to what got priority. Marketing would come around after the fact to \"create a narrative\" around all the changes to the OS. I hate to say it, but many, those were the good ole' days.\n(And let's be clear, in the 90's, Apple's customers were more or less like the engineers, we also loved the machine for the same reasons they did — so we did right by them, made changes they would like because we wanted them too. You can't say that as convincingly for the phone, being a mass consumer device.)\nMarketing took the reins long ago though — especially as Apple began to succeed with the iPhone (which, someone can correct me if I am wrong, but I think was an engineer driven project initially — I mean most things were up to that point).\nI stuck around nonetheless though because there was money to be made and kids still to raise.\nWhen the last daughter flew the coop though, so did I.",
+          "link": "https://news.ycombinator.com/item?id=40964331",
+          "publishedOn": "2024-07-15T00:27:07.000Z",
+          "wordCount": null,
+          "title": "New comment by JKCalhoun in \"How to Know When It's Time to Go\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40962886",
+          "author": "Scarblac",
+          "description": "I started programming at 10 and now I'm 50, and right now it feels like I've reached this point -- it's boring, I have trouble keeping up, I feel the things work lets me work on are not important. Interesting work goes to younger colleagues.\nThe problem is, I have a family and finding fulfilling work that you have no experience in, in this country, at 50, is close to impossible.\nSo for now I consider myself lucky and try to rediscover the fun things in programming.",
+          "link": "https://news.ycombinator.com/item?id=40962886",
+          "publishedOn": "2024-07-14T20:04:30.000Z",
+          "wordCount": null,
+          "title": "New comment by Scarblac in \"How to Know When It's Time to Go\"",
           "imageUrl": null
         },
         {
@@ -948,6 +937,16 @@
           "publishedOn": "2024-07-13T06:21:55.000Z",
           "wordCount": null,
           "title": "New comment by imroot in \"AT&T says criminals stole phone records of 'nearly all' customers in data breach\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=40951402",
+          "author": "rsingel",
+          "description": "There's no federal law requiring AT&T to hold onto this data.\nThere's possibly a FISA court requirement (too secret to reveal), but AT&T has long been an exceedingly willing part of the gov's spying apparatus. It fed these records and Internet data to the feds without any court order, and only escaped legal troubles when Obama, contrary to his campaign promises, gave AT&T, Verizon and more retroactive immunity",
+          "link": "https://news.ycombinator.com/item?id=40951402",
+          "publishedOn": "2024-07-13T02:53:33.000Z",
+          "wordCount": null,
+          "title": "New comment by rsingel in \"AT&T says criminals stole phone records of 'nearly all' customers in data breach\"",
           "imageUrl": null
         },
         {
@@ -1006,108 +1005,18 @@
           "description": "I never got the impression that the market ever cares about data breaches. It seems most companies are rarely held financially responsible for data breaches anyway.\nI would bet any effects you’re seeing in stocks is unrelated to this news.",
           "link": "https://news.ycombinator.com/item?id=40945527",
           "publishedOn": "2024-07-12T13:44:44.000Z",
-          "wordCount": 2267,
+          "wordCount": null,
           "title": "New comment by jader201 in \"AT&T says criminals stole phone records of 'nearly all' customers in data breach\"",
           "imageUrl": null
         },
         {
-          "id": "https://news.ycombinator.com/item?id=40937960",
-          "author": "dtagames",
-          "description": "The article's title really downplays how much terrific cultural analysis there is here. This write-up has great depth, not only on typography but also architecture, art styles, film, and music! Many links and reference images, too.\nA worthwhile read that I thoroughly enjoyed.",
-          "link": "https://news.ycombinator.com/item?id=40937960",
-          "publishedOn": "2024-07-11T15:51:11.000Z",
+          "id": "https://news.ycombinator.com/item?id=40944685",
+          "author": "kibwen",
+          "description": "Graphical fidelity isn't the reason I don't play mobile games. I don't play mobile games because touchscreens are terribly deficient compared to a controller, and because the monetization of mobile games is invariably psychotic.",
+          "link": "https://news.ycombinator.com/item?id=40944685",
+          "publishedOn": "2024-07-12T11:52:18.000Z",
           "wordCount": null,
-          "title": "New comment by dtagames in \"The Typeset of Wall·E (2018)\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40937383",
-          "author": "aroopchandra",
-          "description": "I was diagnosed with lupus a few years ago. My mom also had it and passed away after 10 years due to complications. My initial symptoms were severe joint pains, which made daily activities difficult. This happened during the COVID lockdown, which helped me maintain my job.\nI did a lot of research and tried various treatments. Functional medicines and expensive vitamins didn’t help. I read about long-term fasting and tried different routines at home. I did several 1-day, 3-day, and 7-day fasts. During the 7-day fasts, my pain disappeared, but it returned once I resumed eating. This led me to believe that food was causing inflammation.\nPreviously, I ate a lot of lean meat and occasional red meat. I then cut down to eating meat once a week and ate mostly raw leafy vegetables the rest of the time. My pain would come back after eating meat and decrease over the week. I eventually stopped eating meat entirely and consumed a ton on greens, and within six weeks, I was pain-free.\nI also tried Benlysta for months, but it didn’t help much. Vegetables seemed to reduce my inflammation more effectively. I stopped taking Benlysta but continued regular blood tests. After a year, my doctor agreed I could stop the medication. I’ve been in remission for the last two years with no pain or inflammation.\nI hope this helps, though it’s just my personal experience.",
-          "link": "https://news.ycombinator.com/item?id=40937383",
-          "publishedOn": "2024-07-11T14:47:59.000Z",
-          "wordCount": null,
-          "title": "New comment by aroopchandra in \"Scientists discover a cause of lupus, possible way to reverse it\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40937274",
-          "author": "AegirLeet",
-          "description": "Turns out ads aren't just annoying little acts of psychological terrorism that eat up a lot of bandwidth and computing power, they are also the #1 vector for spreading scams and malware on the web.\nIn other words: If you're trying to improve your security posture, installing an ad-blocker is one of the best things you can do. If you have less tech-savvy friends and relatives, I would strongly recommend setting up uBlock Origin for them.",
-          "link": "https://news.ycombinator.com/item?id=40937274",
-          "publishedOn": "2024-07-11T14:37:04.000Z",
-          "wordCount": null,
-          "title": "New comment by AegirLeet in \"Second factor SMS: Worse than its reputation\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40936200",
-          "author": "jimnotgym",
-          "description": "These companies want to become as ubiquitous as a public utility. Therefore they should be regulated like a public utility",
-          "link": "https://news.ycombinator.com/item?id=40936200",
-          "publishedOn": "2024-07-11T12:55:09.000Z",
-          "wordCount": null,
-          "title": "New comment by jimnotgym in \"Microsoft cutting crucial link to Gaza, Palestinians say\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40935075",
-          "author": "carom",
-          "description": "This is missing the largest argument in my opinion. The weights are the derivative work of the GPL licensed code and should therefore be released under the GPL. I would say these companies release their weights or simply not train on copyleft code.\nIt is truly amazing how many people will shill for these massive corporations that claim they love open source or that their AI is open while they profit off of the violation of licenses and contribute very little back.",
-          "link": "https://news.ycombinator.com/item?id=40935075",
-          "publishedOn": "2024-07-11T10:03:20.000Z",
-          "wordCount": null,
-          "title": "New comment by carom in \"GitHub Copilot is not infringing your copyright (2021)\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40934197",
-          "author": "dabiged",
-          "description": "The best bit: They recursively reference the paper to provide proof that too many parents choose the same common names:\n> For instance, a parent might anticipate the name “Kate” would be a pleasantly traditional yet unique name with only moderate popularity. They would be wrong [6].\nReference 6 is the paper.",
-          "link": "https://news.ycombinator.com/item?id=40934197",
-          "publishedOn": "2024-07-11T06:47:13.000Z",
-          "wordCount": null,
-          "title": "New comment by dabiged in \"An abundance of Katherines: The game theory of baby naming\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40933613",
-          "author": "mos_basik",
-          "description": "Something like that exists for btrfs; it's called bdtu. It has the accuracy/time trade-off you're interested in, but the implementation is quite different. It samples random points on the disk and finds out what file path they belong to. The longer it runs the more accurate it gets. The readme is good at explaining why this approach makes sense for btrfs and what its limitations are.\nhttps://github.com/CyberShadow/btdu",
-          "link": "https://news.ycombinator.com/item?id=40933613",
-          "publishedOn": "2024-07-11T04:07:12.000Z",
-          "wordCount": 223,
-          "title": "New comment by mos_basik in \"Show HN: Dut – a fast Linux disk usage calculator\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40933462",
-          "author": "matthewmcg",
-          "description": "Author listing: Katy Blumer, Kate Donahue, Katie Fritz, Kate Ivanovich, Katherine Lee, Katie Luo, Cathy Meng, Katie Van Koevering\nFor people unfamiliar with common English names, all of the authors have first names similar to or derived from Katherine.",
-          "link": "https://news.ycombinator.com/item?id=40933462",
-          "publishedOn": "2024-07-11T03:35:21.000Z",
-          "wordCount": 2571,
-          "title": "New comment by matthewmcg in \"An abundance of Katherines: The game theory of baby naming\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40931097",
-          "author": "wsay",
-          "description": "As someone who has designed and taught those courses, my experience (admittedly only one persons) is that you pick what will work with the least hassle - because you'll have plenty of hassle elsewhere and probably no real time to deal with any of it without making more.",
-          "link": "https://news.ycombinator.com/item?id=40931097",
-          "publishedOn": "2024-07-10T20:20:17.000Z",
-          "wordCount": null,
-          "title": "New comment by wsay in \"AMD to buy Silo AI for $665M\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=40930865",
-          "author": "j1elo",
-          "description": "I'm on the same camp, but in the end it turns out we were not putting it to the actual, real, hard-world test.\nVSCode is very fast for me, when I open it in the morning and just starting my day.\nBut once I've opened the main project and 7 support library's projects, and I'm in a video-call on Chrome sharing my screen (which is something that eats CPU for breakfast), and I'm live-debugging a difficult to reproduce scenario while changing code on the fly, then the test conditions are really set up where differences between slow/heavy and fast/lightweight software can be noticed.\nThings like slowness in syntax highlighting, or jankyness when opening different files. Not to mention what happened when I wanted to show the step-by-step debugging of the software to my colleagues.\nIn summary: our modern computer's sheer power are camouflaging poor software performance. The difference between using native and Electron apps, is a huge reduction in the upper limit of how many things you can do at the same time in your machine, or having a lower ceiling on how many heavy-load work tasks your system can be doing before it breaks.",
-          "link": "https://news.ycombinator.com/item?id=40930865",
-          "publishedOn": "2024-07-10T19:57:33.000Z",
-          "wordCount": null,
-          "title": "New comment by j1elo in \"Zed on Linux Is Here\"",
+          "title": "New comment by kibwen in \"Arm Accuracy Super Resolution\"",
           "imageUrl": null
         }
       ]
@@ -1123,7 +1032,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/07/14/sunday-photoblogging-house-martins/",
           "publishedOn": "2024-07-14T07:28:16.000Z",
-          "wordCount": 1702,
+          "wordCount": 1706,
           "title": "Sunday photoblogging: house martins",
           "imageUrl": "https://live.staticflickr.com/65535/53823287020_d0db15fffb.jpg"
         },
@@ -1133,7 +1042,7 @@
           "description": "What to do when we can’t trust our own eyes (or at least, the videos we are looking at. I spoke last weekend at a panel discussion on Navigating Lies, Deepfakes & Fake News, organised by McPherson Independent. This a group promoting the idea of an independent community candidate in the electorate of McPherson south of […]",
           "link": "https://crookedtimber.org/2024/07/14/sex-lies-and-videotape/",
           "publishedOn": "2024-07-14T06:00:40.000Z",
-          "wordCount": 3860,
+          "wordCount": 3864,
           "title": "Sex, lies and Videotape",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -1143,28 +1052,7 @@
       "title": "CADTM",
       "feedUrl": "https://www.cadtm.org/spip.php?page=backend-en",
       "siteUrl": "https://www.cadtm.org/",
-      "articles": [
-        {
-          "id": "https://www.cadtm.org/The-conjuncture-in-the-crisis",
-          "author": "Balasingham Skanthakumar",
-          "description": "“Aaranchiya Subhai!” (‘Await Good News') read posters plastered across the country recently. It was the build-up to Ranil Wickremesinghe's televised speech on June 26, passing off a bad deal with official creditors on debt servicing as “Sri Lanka has won”. \nEnglish\n\n/ \nSri Lanka, \nIMF, \nCrisis, \nDebt crisis",
-          "link": "https://www.cadtm.org/The-conjuncture-in-the-crisis",
-          "publishedOn": "2024-07-10T18:05:57.000Z",
-          "wordCount": 7667,
-          "title": "The conjuncture in the crisis",
-          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L600xH315/c59143cd91d459b2017808d9c2093d-2436c.png"
-        },
-        {
-          "id": "https://www.cadtm.org/France-Thanks-to-a-massive-mobilization-of-the-Left-the-Far-Right-cannot",
-          "author": "Eric Toussaint",
-          "description": "What are the results of the parliamentary elections in France on 7 July 2024? \nEnglish\n\n/ \nFrance, \nAntifascism, \nNorth",
-          "link": "https://www.cadtm.org/France-Thanks-to-a-massive-mobilization-of-the-Left-the-Far-Right-cannot",
-          "publishedOn": "2024-07-10T15:01:46.000Z",
-          "wordCount": 5310,
-          "title": "France: Thanks to a massive mobilization of the Left the Far Right cannot control the government",
-          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L568xH298/aa5ed81edf59de0615baa3f8c3da82-593bf.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Meta Research",
@@ -1321,6 +1209,16 @@
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/usamainsights-1721147751.png"
         },
         {
+          "id": "https://birming.com/unedited-thoughts/",
+          "author": null,
+          "description": "I had planned to write a post about which text editor I use and why. Another idea was to write about why my next phone might be a Pixel instead of an iPhone. But it feels so incredibly boring to write about.\nI don't know what it is, but lately these things feel completely pointless to write about. I'm a tech geek, so it's natural for these ideas to come up, but writing serves a different purpose. At least for me.\nAm I saying that writing about technology is \"bad\"? No, of course not. I read blogs like MacRumors and 9to5Google every day with great interest (I used to run similar blogs myself). But that's not what I want to write about, at least not right now.\nNow I like writing mainly for the therapeutic, almost meditative effect it has on me. I write every day, and I find it very rewarding on a personal level.\nThese thoughts also lead me to a topic I've been writing about several times now: my ambivalence toward writing in English. I'm writing this text in Swedish because it's too hard and time-consuming to do it in English (I've tried many times) and then using DeepL to translate it.\nWhy bother with all of that? Well, that's what I'm asking myself.\nIf I'm writing mainly for personal gain, why not just in Swedish? The only thing I can think of is because of the increased attention, which honestly feels like an idiotic argument.\nOk, this was not a text I had planned. Maybe I shouldn't even post it, but that doesn't matter.\nThese are my thoughts here and now, unedited.",
+          "link": "https://birming.com/unedited-thoughts/",
+          "publishedOn": "2024-07-16T15:09:00.000Z",
+          "wordCount": 917,
+          "title": "Unedited thoughts",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert-1717834500-0.jpeg"
+        },
+        {
           "id": "https://tiramisu.bearblog.dev/lost-dreams/",
           "author": null,
           "description": "This post is inspired by Misha’s post a life lived diligently.\nI started playing the piano when I was five. My first dream was to be a concert pianist like Lang Lang. I was drawn to the glitz and glamor of playing in cavernous concert halls to people in suits sitting on red velvet chairs. I let go of that dream a few years later when it became painfully apparent that I lacked both the talent and the dedication to fulfill it.\nFor a brief period after, I settled on a more realistic goal — playing the viola in a symphony orchestra. There were more orchestras than world-famous concert pianists, after all, and less violists than pianists to go around. I thought it a nice compromise between my childhood fantasies and reality.\nMom pulled the plug on my private lessons when I was seventeen, after …",
@@ -1353,10 +1251,10 @@
         {
           "id": "https://notes.jeddacp.com/on-keeping-a-book-past-its-due-date/",
           "author": null,
-          "description": "I consider myself a pretty fast reader. I typically get through a book way before it needs to be returned back on Libby1. I get 21 days to finish a book (although my friends have reported 14 days), and that is usually plenty of time. With that said, I’ve never stressed about finishing a book in time.\nUntil now.\nIt’s taking me forever to finish A Court of Silver Flames by Sarah J. Maas. It’s not that it’s a terrible book but I haven’t been finding enough energy to read lately. I even switched to listening on Spotify Premium, and I’m still not done.\nAnyways.\nThe return due date has come and gone, but I’m still not done with the book. For those who are familiar with the ACOTAR series, it’s pretty popular right now so the wait time is pretty long. I was on hold for several months for each book in the series… and I’m registered in three libraries. Doing another hold on this book means I’m going to have to wait months again.\n💡 Enter the Kindle / Libby workaround.\nI read my e-books via my Kindle Oasis and/or Kindle Paperwhite. To avoid the book auto returning on its due date, I just put the Kindle where it’s downloaded on Airplane mode. Voila! The book is there until you connect back to the Internet.\nIf you have a ton of books you want to get through way past your deadline, this is the way to go.\n📙 Bonus hack: did you buy a Kindle with ads? Typically you have to pay $20(?) to get it removed. I just called Customer Service and told them that some of these ads are inappropriate for the minor who also has access to my account. They removed it for free. Now my Kindle screensaver is the cover of the book that I am currently reading.\nYou’re welcome, and happy reading!\nIf you have your own tips and tricks, feel free to reach out to me in however way you feel most comfortable!\n🖊️ And while you’re at it, please say hello in my Guestbook if you haven’t done so already!\n11/100\nReply by email\nA service that allows you to borrow e-books (and other media formats) from your public library.↩",
+          "description": "I consider myself a pretty fast reader. I typically get through a book way before it needs to be returned back on Libby1. I get 21 days to finish a book (although my friends have reported 14 days), and that is usually plenty of time. With that said, I’ve never stressed about finishing a book in time.\nUntil now.\nIt’s taking me forever to finish A Court of Silver Flames by Sarah J. Maas. It’s not that it’s a terrible book but I haven’t been finding enough energy to read lately. I even switched to listening on Spotify Premium, and I’m still not done.\nAnyways.\nThe return due date has come and gone, but I’m still not done with the book. For those who are familiar with the ACOTAR series, it’s pretty popular right now so the wait time is pretty long. I was on hold for several months for each book…",
           "link": "https://notes.jeddacp.com/on-keeping-a-book-past-its-due-date/",
           "publishedOn": "2024-07-15T22:03:00.000Z",
-          "wordCount": 1086,
+          "wordCount": 1097,
           "title": "On keeping a book past its due date",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/jedda-1721080785.png"
         },
@@ -1431,16 +1329,6 @@
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert-1717834500-0.jpeg"
         },
         {
-          "id": "https://kartikay.bearblog.dev/techninal-blognotes/",
-          "author": null,
-          "description": "So, these wont be the traditional notes where you write down your understanding or something. No. Never worked for me. Too boring and I never actually read again. What works is just having a bunch of questions that I can answer again and understand. So thats what it would be. Do it with your favorite llm for additional fun but take the effort to answer yourself first. That is the point.\nAnd for the blog part, I will write if I feel I can add some new value by connecting things or simplify things down in a unique way.\nTechnical Notes :\nTechnical Blog :",
-          "link": "https://kartikay.bearblog.dev/techninal-blognotes/",
-          "publishedOn": "2024-07-12T15:30:00.000Z",
-          "wordCount": 532,
-          "title": "Techninal Blog/Notes",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
-        },
-        {
           "id": "https://dostoynikov.com/the-torture-of-being-exposed-to-people-who-live-on-a-totally-different-frequency/",
           "author": null,
           "description": "There are some people around us who live on a totally different frequency, especially in the work environment.\nThey never shut up.\nThey always seek a chance to talk to you.\nThey don't let you have a peaceful and silent moment.\nThey talk but don't say anything.\nThey do not understand that we just need peaceful and silent moment.\nThey do not understand that we don't like them.\nThey expect attention and response.\nIt is hell when I see them around. I just cannot escape. I usually try to put my headphones on and listen to music at full volume. But this time, they wave their hand at me to talk to me - and in that moment I want to scream.\nIt does not matter if you give them very short answers and ignore. They never stop.\n\nBecause of this, I developed a habit of looking at the floor so that I won't have eye contact with them. Sometimes I close my eyes and pretend to be sleeping. It's so difficult to be kind sometimes. \n\nMy social battery is already pretty weak and people who live on a different frequency are just torturing my soul. People like me should work at a cave or something like that. I lose my sanity when I want peaceful moment while having no escape.",
@@ -1448,26 +1336,6 @@
           "publishedOn": "2024-07-11T20:08:00.277Z",
           "wordCount": 917,
           "title": "The torture of being exposed to people who live on a totally different frequency",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
-        },
-        {
-          "id": "https://kylevallans.bearblog.dev/life-update/",
-          "author": null,
-          "description": "Enter your email if you'd like to get inside our overnight momentum trading chat for a free month.\nI started writing about Going Infinite about the highly autistic Sam Bankman-Fried, Alameda Research, FTX and its downfall. However, I couldn't do it justice. I recommend picking up the book and reading it for yourself. FWIW, after reading it, your pov should remain the same of \"crypto is highly retarded\".\nInstead of going down that rabbit hole, I decided to go for a feel-good post with a little update since deciding to step away from my former profession...\nOkay, so I left on April 3rd, 2024 so it's been a total of 97 days and during that time I have:\nSeverely reduced the stress and anxiety I was dealing with day to day by no longer making my life revolve solely around work.\nStarted to enjoy…",
-          "link": "https://kylevallans.bearblog.dev/life-update/",
-          "publishedOn": "2024-07-10T14:29:00.000Z",
-          "wordCount": 1379,
-          "title": "Life Update",
-          "imageUrl": "(https://bear-images.sfo2.cdn.digitaloceanspaces.com/kylevallans-1720636116.jpg)"
-        },
-        {
-          "id": "https://junejuice.bearblog.dev/grammar-aggression/",
-          "author": null,
-          "description": "you sound so aggressively passionate about grammar. i get it. don't worry. being passionate about something you want everyone to follow through. order.\nand then there's these people who are going against that order yuck\noh no ! no ! no ! /stomps three times i'll curse you out! >:(\nor\noh no the world will end if i don't use grammar right. /dramatically flops on the ground tongue lolling to the side\ncome on now, don't get your knickers in a twist\nlet people write what they want, post what they want and however they want. because guess what?\nit's their blog /dramatic gasp\nthe reader also, also, guess again, have the choice to click away. shocker\nalso don't cuss people out that's not nice\nread original post here",
-          "link": "https://junejuice.bearblog.dev/grammar-aggression/",
-          "publishedOn": "2024-07-10T14:16:00.000Z",
-          "wordCount": 310,
-          "title": "grammar aggression",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         }
       ]
@@ -1489,6 +1357,21 @@
       "feedUrl": "https://theanarchistlibrary.org/feed",
       "siteUrl": "https://theanarchistlibrary.org",
       "articles": [
+        {
+          "id": "https://theanarchistlibrary.org/library/anonymous-words-and-history-mean-things-a-response-to-addicted-to-losing?v=1721164918",
+          "author": null,
+          "description": "Author: Anonymous\nTitle: Words and History Mean Things\nSubtitle: A Response to “Addicted to Losing”\nDate: 2024-05-02\nSource: Retrieved on 2024-07-16 from https://bbnews.noblogs.org/post/2024/05/02/words-and-history-mean-things-a-response-to-addicted-to-losing/\n\n Most of what comes out in the text “Addicted to Losing” is not new. Black anarchists and anti-authoritarians have been critiquing black non-profits, Black academics, Black activists and black authoritarians for years before the 2020 uprising. Black anarchists who have been active PRIOR to 2020 have been deeply aware of these critiques, mainly based on their experiences. We are unsure how connected the author is to Black anti-authoritarians but, best believe Black anarchists been having these conversations. There has been so much ta…",
+          "link": "https://theanarchistlibrary.org/library/anonymous-words-and-history-mean-things-a-response-to-addicted-to-losing?v=1721164918",
+          "publishedOn": "2024-07-16T21:21:58.000Z",
+          "wordCount": 2168,
+          "title": "Anonymous - Words and History Mean Things",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "68487",
+            "url": "https://theanarchistlibrary.org/library/anonymous-words-and-history-mean-things-a-response-to-addicted-to-losing.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
         {
           "id": "https://theanarchistlibrary.org/special/index?v=1721150856",
           "author": null,
