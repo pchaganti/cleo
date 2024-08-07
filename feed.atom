@@ -1,10 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-06T18:32:02.198Z</id>
+    <id>urn:2024-08-07T01:41:46.295Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-06T18:32:02.198Z</updated>
+    <updated>2024-08-07T01:41:46.295Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Spotlight on SIG API Machinery]]></title>
+        <id>https://kubernetes.io/blog/2024/08/07/sig-api-machinery-spotlight-2024/</id>
+        <link href="https://kubernetes.io/blog/2024/08/07/sig-api-machinery-spotlight-2024/"/>
+        <updated>2024-08-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We recently talked with Federico Bongiovanni (Google) and David
+Eads (Red Hat), Chairs of SIG API Machinery, to know a bit more about
+this Kubernetes Special Interest Group.
+Introductions
+Frederico (FSM): Hello, and thank your for your time. To start with, could you tell us about
+yourselves and how you got involved in Kubernetes?
+David: I started working on
+OpenShift (the Red Hat
+distribution of Kubernetes) in the fall of 2014 and got involved pretty quickly in API Machinery. My
+first PRs were fixing kube-apiserver error messages and from there I branched out to kubectl
+(kubeconfigs are my fault!), auth (RBAC and *Review APIs are ports
+from OpenShift), apps (workqueues and sharedinformers for example). Don’t tell the others,
+but API Machinery is still my favorite :)
+Federico: I was not as …]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Actually listening to 10cc.]]></title>
+        <id>https://crookedtimber.org/?p=52956</id>
+        <link href="https://crookedtimber.org/2024/08/06/52956/"/>
+        <updated>2024-08-06T22:30:27.000Z</updated>
+        <summary type="html"><![CDATA[Once you know my age my musical tastes as a teenager are very easy to guess. Obviously Dylan, Mitchell, the Kinks and the Beatles – equally obviously not the Stones or the Who. Richard Thompson, Sandy Denny, Fairport, Steeleye Span, Roy Harper, The Watersons, Carthy, etc, etc and more than any of them, Kevin Coyne. […]]]></summary>
+        <author>
+            <name>Harry</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Who needs LinkedIn when you can network at music festivals?]]></title>
+        <id>https://disassociated.com/?p=8159</id>
+        <link href="https://disassociated.com/who-needs-linkedin-network-music-festivals/"/>
+        <updated>2024-08-06T21:00:08.000Z</updated>
+        <summary type="html"><![CDATA[Networking tips for music festivals, by Harry Carr: Don’t make the mistake that most people make and switch off as soon as you reach Paddington. Maximise your train journey by reaching out to your extended network, to see if they are going to Glastonbury Music Festival. If there’s a speaker or business guru you admire […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dense Discovery notches three hundred editions, opens reader community]]></title>
+        <id>https://disassociated.com/?p=8193</id>
+        <link href="https://disassociated.com/dense-discovery-three-hundred-editions-reader-community/"/>
+        <updated>2024-08-06T20:30:18.000Z</updated>
+        <summary type="html"><![CDATA[Melbourne based Australian designer and publisher Kai Brach’s weekly publication, Dense Discovery (DD), is one of the few newsletters I subscribe to. If you have an interest in, well, everything, then DD is for you. First published in September 2018, the three-hundredth edition was posted yesterday. And to mark this most impressive of milestones, Brach […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Titan Image Generator v2 is now available in Amazon Bedrock]]></title>
+        <id>2d71dc91ba8d25a9634204389216e742e9917a1e</id>
+        <link href="https://aws.amazon.com/blogs/aws/amazon-titan-image-generator-v2-is-now-available-in-amazon-bedrock/"/>
+        <updated>2024-08-06T19:03:08.000Z</updated>
+        <summary type="html"><![CDATA[Amazon Titan Image Generator v2 provides unprecedented creative capabilities: image conditioning, color control, background removal, and subject preservation via fine-tuning for brand consistency.]]></summary>
+        <author>
+            <name>Channy Yun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by vngzs in "Show HN: 1-FPS encrypted screen sharing for introverts"]]></title>
+        <id>https://news.ycombinator.com/item?id=41173644</id>
+        <link href="https://news.ycombinator.com/item?id=41173644"/>
+        <updated>2024-08-06T18:23:36.000Z</updated>
+        <summary type="html"><![CDATA[Good job releasing your project! It's a cool idea and surprisingly minimalist. That said, I've found a number of cryptographic flaws in the application source. This should not be used in instances where the encryption is mission-critical.
+1) You generate a random key [0] and then feed it into PBKDF2 [1] to generate a 32-byte AES-GCM key. If you can generate 32 random bytes instead of 10 reduced-ASCII characters and a key stretch, just do that. PBKDF2 is for turning a password into a key, and it's far from the recommended algorithm nowadays; prefer scrypt if you need to do this sort of thing.
+2) AES-GCM with random 12-byte nonces. Never use random IVs with GCM; this breaks the authentication [2] [3]. Given the pitfalls of AES-GCM with respect to random nonces, you might prefer switching to XSalsa20+Poly1305. The advantage of XSalsa is it has an extended nonce length, so you can use random nonces without fear.
+3) Random key derivation with a restricted character set can make brute force attacks easier. You should have a 256-bit random key, and if you want that key to be within a certain character set, then encode the byte output from the CSPRNG using that character set.
+4) 1fps achieves symmetric key distribution via a URL with a fragment identifier ("#") which IIRC is not sent to the server. Therefore it assumes you have a secure key distribution channel - the link contains the key, so it's important that only the intended recipient can view the part after the "#". If the server is truly malicious, it can deploy client-side Javascript to send the fragment to the server, allowing the server to access the key (and thus cleartext communication).
+[0]: https://github.com/1fpsvideo/1fps/blob/main/1fps.go#L99
+[1]: https://github.com/1fpsvideo/1fps/blob/main/1fps.go#L287
+[2]: https://eprint.iacr.org/2016/475.pdf
+[3]: https://soatok.blog/2020/05/13/why-aes-gcm-sucks/]]></summary>
+        <author>
+            <name>vngzs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 8/6/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=276295</id>
@@ -13,6 +94,34 @@
         <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics; best Olympic story; Walz is Kamala's VP choice; Climate tipping points unpredictable; Andy Warhol's lost Amiga Art ~]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by dang in "Twitter kills its San Francisco headquarters, will relocate to South Bay"]]></title>
+        <id>https://news.ycombinator.com/item?id=41173303</id>
+        <link href="https://news.ycombinator.com/item?id=41173303"/>
+        <updated>2024-08-06T17:49:45.000Z</updated>
+        <summary type="html"><![CDATA[All: can you please not post low-quality angry/snarky junk comments to HN threads? They're tedious and have nasty effects.
+I realize this story is a cluster of divisive topics but that's why HN's guidelines say "Comments should get more thoughtful and substantive, not less, as a topic gets more divisive."
+If you wouldn't mind reviewing https://news.ycombinator.com/newsguidelines.html and taking the intended spirit of the site to heart, we'd be grateful.]]></summary>
+        <author>
+            <name>dang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sometimes things are just hard.]]></title>
+        <id>https://notes.jeddacp.com/sometimes-things-are-just-hard/</id>
+        <link href="https://notes.jeddacp.com/sometimes-things-are-just-hard/"/>
+        <updated>2024-08-06T15:19:18.940Z</updated>
+        <summary type="html"><![CDATA[Lately, I’ve been feeling upset and frustrated about some of the things happening in my life. I’m screaming into the unknown because I’m not really sure what else to do. The right words have been hard to come by, probably because I’m not really sure what I’m legally allowed to say, and not say. I know I’m not the only one.
+Talking to people in the same space as me is a challenge in itself. There is a very small circle of people that I trust, but those numbers are dwindling down even more. There are a few that I’d love to open up to, but with the environment we’re in, I’m really not too sure who to trust. With everything that’s happening, I’m not sure whether or not to be grateful about where and how I currently stand.
+I have this nagging feeling that the worst is yet to come for me. I don’t know if this is just me overthinking or irrationally being a pessimist. All I know is that my mental health keeps going downhill, even when I think I’m nearing the bottom. My physical health isn’t doing any better. The more stressed I am, the worst my immune system gets.
+Every day, I’m faced with another challenge, another thing actively blocking that light at the end of the tunnel. I’m trying to convince myself that I just need to persevere through this and everything will be OK, but at the same time, I think it may be time to try to actively dig my way out of it.
+I just need to figure out how.
+6/31 - Blaugust
+Reply by email]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +152,16 @@
         <summary type="html"><![CDATA[Read through the latest milestones and expansions of Cloudflare's global backbone and how it supports our Connectivity Cloud and our services]]></summary>
         <author>
             <name>Shozo Moritz Takaya</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by TheAdamist in "Twitter kills its San Francisco headquarters, will relocate to South Bay"]]></title>
+        <id>https://news.ycombinator.com/item?id=41169901</id>
+        <link href="https://news.ycombinator.com/item?id=41169901"/>
+        <updated>2024-08-06T11:46:44.000Z</updated>
+        <summary type="html"><![CDATA[Thats generally the point with sudden disruptive moves - high attrition. Reduce the headcount without having to be in the news for layoffs.]]></summary>
+        <author>
+            <name>TheAdamist</name>
         </author>
     </entry>
     <entry>
@@ -218,6 +337,18 @@ The post Project 2025 and Some Poison Gas for the Future appeared first on Count
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by alvah in "Google loses antitrust suit over search deals on phones"]]></title>
+        <id>https://news.ycombinator.com/item?id=41167740</id>
+        <link href="https://news.ycombinator.com/item?id=41167740"/>
+        <updated>2024-08-06T04:20:15.000Z</updated>
+        <summary type="html"><![CDATA["They simply have a better product"
+I disagree. 100% they had a better product, but they have absolutely mangled it over the last few updates. Honestly, if I wanted the opinion of randomnumbers45123 on Reddit, I'd just search Reddit.
+Google achieved dominance ~25 years ago by being better than the alternatives, and the other search engines pretty much withered away rapidly. They (Google) are in a very precarious position right now. They will certainly not disappear overnight, but if / when the public becomes aware of something better, the implosion could be spectacular.]]></summary>
+        <author>
+            <name>alvah</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Shaky Sheehy Calls for Dubious Reinforcements]]></title>
         <id>https://www.counterpunch.org/?p=329986</id>
         <link href="https://www.counterpunch.org/2024/08/06/shaky-sheehy-calls-for-dubious-reinforcements/"/>
@@ -304,6 +435,18 @@ It may sound snobby - but I'm not super excited about the idea of lowering the b
 To be clear - I think improving technology and lowering costs = good. Lowering early-skill requirements for pilots and pushing more people without all the other skills into federal airspace = very bad. In general, I'd frame this effort more as an effort to raise the bar for system technology, not lower the bar to become a pilot in the first place.]]></summary>
         <author>
             <name>sethkim</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by cletus in "Google loses antitrust suit over search deals on phones"]]></title>
+        <id>https://news.ycombinator.com/item?id=41164566</id>
+        <link href="https://news.ycombinator.com/item?id=41164566"/>
+        <updated>2024-08-05T19:27:55.000Z</updated>
+        <summary type="html"><![CDATA[I expect this to be bad for everyone except Google if the ruling holds. Why? Mozilla and Apple will lose significant revenue from having Google as the default search engine and Google will no longer have to pay those billions. What's more, no one else can pay to be the default either (eg the short-lived Mozilla Bing deal).
+So what's going to happen? Most users will probably still use Google, nobody is getting paid and Google is saving a bundle.
+I get the thinking that you have to prevent lock-in (eg Ticketmaster and venues) but Google didn't buy its way into dominance annd maintain their dominance through exclusivity deals. They simply have a better product and I don't expect anyone to match them anytime soon (cue the DDG "I switched from Google to DDG 78 years ago" crowd).]]></summary>
+        <author>
+            <name>cletus</name>
         </author>
     </entry>
     <entry>
@@ -1079,6 +1222,20 @@ This last category, non-consumer third places are formerly the domain of kid-fri
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by bane in "Ask HN: What is the best software to visualize a graph with a billion nodes?"]]></title>
+        <id>https://news.ycombinator.com/item?id=41140071</id>
+        <link href="https://news.ycombinator.com/item?id=41140071"/>
+        <updated>2024-08-02T16:14:44.000Z</updated>
+        <summary type="html"><![CDATA[Visualizing large graphs is a natural desire for people with lots of connected data. But after a fairly small size, there's almost no utility in visualizing graphs. It's much more useful to compute various measures on the graph, and then query the graph using some combination of node/edge values and these computed values. You might subset out the nodes and edges of particular interest if you really want to see them -- or don't visualize at all and just inspect the graph nodes and edges very locally with some kind of tabular data viewer.
+It used to be thought that visualizing super large graphs would reveal some kind of macro-scale structural insight, but it turns out that the visual structure ends up becoming dominated by the graph layout algorithm and the need to squash often inherently high-dimensional structures into 2 or 3 dimensions. You end up basically seeing patterns in the artifacts of the algorithm instead of any real structure.
+There's a similar, but unrelated desire to overlay sequenced transaction data (like transportation logs) on a geographical map as a kind of visualization, which also almost never reveals any interesting insights. The better technique is almost always a different abstraction like a sequence diagram with the lanes being aggregated locations.
+There's a bunch of these kinds of pitfalls in visualization that people who work in the space inevitably end up grinding against for a while before realizing it's pointless or there's a better abstraction.
+(source: I used to run an infoviz startup for a few years that dealt with this exact topic)]]></summary>
+        <author>
+            <name>bane</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by weberer in "The upstream cause of the youth mental health crisis is the loss of community"]]></title>
         <id>https://news.ycombinator.com/item?id=41139925</id>
         <link href="https://news.ycombinator.com/item?id=41139925"/>
@@ -1352,17 +1509,6 @@ Maybe this will give them some empathy for their users who bought their services
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by eskibars in "Australia starts peanut allergy treatment for babies"]]></title>
-        <id>https://news.ycombinator.com/item?id=41133686</id>
-        <link href="https://news.ycombinator.com/item?id=41133686"/>
-        <updated>2024-08-01T21:13:17.000Z</updated>
-        <summary type="html"><![CDATA[Our son is very allergic to peanuts and less so to cashew, and sesame. We went through oral immunotherapy and it's been absolutely life changing. He used to need an epi pen in case of chance encounter, but now he eats 2 whole peanut m&ms every day to keep his dosage up. It's been difficult finding an allergist in Germany that's willing to accept this and move forward
-Obviously everyone's mileage will vary, but I'm happy to see this treatment being more widely adopted]]></summary>
-        <author>
-            <name>eskibars</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Praiseworthy by Alexis Wright wins 2024 Miles Franklin Literary Award]]></title>
         <id>https://disassociated.com/?p=8133</id>
         <link href="https://disassociated.com/praiseworthy-alexis-wright-wins-2024-miles-franklin-literary-award/"/>
@@ -1395,47 +1541,6 @@ or leave altogether]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by tomcam in "Russ Cox is stepping down as the Go tech lead"]]></title>
-        <id>https://news.ycombinator.com/item?id=41133238</id>
-        <link href="https://news.ycombinator.com/item?id=41133238"/>
-        <updated>2024-08-01T20:26:57.000Z</updated>
-        <summary type="html"><![CDATA[IMHO Go has been one of the best-managed open source projects ever. Hats off to Google for supporting it.]]></summary>
-        <author>
-            <name>tomcam</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by ainar-g in "Russ Cox is stepping down as the Go tech lead"]]></title>
-        <id>https://news.ycombinator.com/item?id=41132815</id>
-        <link href="https://news.ycombinator.com/item?id=41132815"/>
-        <updated>2024-08-01T19:45:22.000Z</updated>
-        <summary type="html"><![CDATA[Thank you, rsc, for all your work.  Development in Go has become much more enjoyable in these 12 years: race detector, standardized error wrapping, modules, generics, toolchain updates, and so on.  And while there are still things to be desired (sum types, better enum/range types, immutability, and non-nilness in my personal wishlist), Go is still the most enjoyable ecosystem I've ever developed in.]]></summary>
-        <author>
-            <name>ainar-g</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by Animats in "Hundred Rabbits is a small collective exploring the failability of modern tech"]]></title>
-        <id>https://news.ycombinator.com/item?id=41132532</id>
-        <link href="https://news.ycombinator.com/item?id=41132532"/>
-        <updated>2024-08-01T19:14:02.000Z</updated>
-        <summary type="html"><![CDATA[Site: "This website has no tracking or analytics."
-Privacy Badger blocked tracking from:
-    googleads.g.doubleclick.net
-    static.doubleclick.net
-    play.google.com
-    www.google.com
-    www.youtube.com
-
-    
-    
-
-If you use anything from Google, you will be tracked.]]></summary>
-        <author>
-            <name>Animats</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[new issue of RWER]]></title>
         <id>http://rwer.wordpress.com/?p=45508</id>
         <link href="https://rwer.wordpress.com/2024/08/01/new-issue-of-rwer-2/"/>
@@ -1443,16 +1548,6 @@ If you use anything from Google, you will be tracked.]]></summary>
         <summary type="html"><![CDATA[real-world economics review Please click here to support this journal and the WEA Issue no. 108July 2024 download whole issue The creationist foundations of Herman Daly’s steady state economyJohn Gowdy and Lisi Krall2 Data: a critical perspectiveCarlos Guerrero de Lizardi16 Enlightenment Epistemology and the Climate CrisisAsad Zaman29 Fabulous MacroeconomicsGerald Holtham33 A Tour of the Jevons […]]]></summary>
         <author>
             <name>Editor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by drewchew in "Robot dentist performs first human procedure"]]></title>
-        <id>https://news.ycombinator.com/item?id=41131364</id>
-        <link href="https://news.ycombinator.com/item?id=41131364"/>
-        <updated>2024-08-01T17:19:03.000Z</updated>
-        <summary type="html"><![CDATA[Will robot dentists facilitate the option to lay face down for procedures so that the debris and saliva falls out instead of needing the suction tool?]]></summary>
-        <author>
-            <name>drewchew</name>
         </author>
     </entry>
     <entry>
@@ -1474,19 +1569,6 @@ Read the full article]]></summary>
         <summary type="html"><![CDATA[Cloudflare Radar is constantly monitoring the Internet for widespread disruptions. Here we examine several recent  noteworthy disruptions detected in the first month of Q3, including traffic anomalies observed in Bangladesh, Syria, Pakistan, and Venezuela]]></summary>
         <author>
             <name>David Belson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by DannyBee in "How I got my laser eye injury"]]></title>
-        <id>https://news.ycombinator.com/item?id=41128339</id>
-        <link href="https://news.ycombinator.com/item?id=41128339"/>
-        <updated>2024-08-01T12:10:06.000Z</updated>
-        <summary type="html"><![CDATA[So I laser weld, and beyond my own PPE, interlocks (gun won't fire if it's not touching metal, etc), the most important part of the whole setup is laser safety curtains.
-Because it's a 2500 watt laser, if i didn't have laser safety curtains , the relections/etc could very easily blind someone at a fairly long distance.
-The NOHD (nominal ocular hazard distance) is something like 10km (2500 watt laser, 0.06mm spot size, divergence is very very small).  The actual hazard distance is shorter, but still, kinda crazy.
-(as for why i have a laser welder - i got it cheap and besides the downsides above, it is very easy to weld ~anything without much skill.  A person who has never welded in their life can weld sheet metal and have it come out basically perfect in 5 minutes)]]></summary>
-        <author>
-            <name>DannyBee</name>
         </author>
     </entry>
     <entry>
@@ -1598,79 +1680,6 @@ Source: Retrieved on 31st July 2024 from pure.mpg.de
  CGT, Confederación General del Trabajo, is the confederation that represents the majoritarian sector of Spanish anarcho-syndicalism. The railway section of CGT is among the strongest in the confederation, and the 2015 elections, despite a frontal attack against the union aimed at reducing its representation, secured the presence of CGT in the works’ council of both RENFE and ADIF (Administrador de Infraestructuras Ferroviarias, the Spanish railway…]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accelerate your Terraform development with Amazon Q Developer]]></title>
-        <id>300d4fcca3cc4ddfaa28c69451423124ef91adaa</id>
-        <link href="https://aws.amazon.com/blogs/devops/accelerate-your-terraform-development-with-amazon-q-developer/"/>
-        <updated>2024-07-31T11:02:14.000Z</updated>
-        <summary type="html"><![CDATA[This post demonstrates how Amazon Q Developer, a generative AI-powered assistant for software development, helps create Terraform templates. Terraform is an infrastructure as code (IaC) tool that provisions and manages infrastructure on AWS safely and predictably. When used in an integrated development environment (IDE), Amazon Q Developer assists with software development, including code generation, explanation, […]]]></summary>
-        <author>
-            <name>Dr. Rahul Sharad Gaikwad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Balance deployment speed and stability with DORA metrics]]></title>
-        <id>8a8dea22000e821c0a8e952928cc68ca33f60778</id>
-        <link href="https://aws.amazon.com/blogs/devops/balance-deployment-speed-and-stability-with-dora-metrics/"/>
-        <updated>2024-07-31T10:49:29.000Z</updated>
-        <summary type="html"><![CDATA[Development teams adopt DevOps practices to increase the speed and quality of their software delivery. The DevOps Research and Assessment (DORA) metrics provide a popular method to measure progress towards that outcome. Using four key metrics, senior leaders can assess the current state of team maturity and address areas of optimization. This blog post shows […]]]></summary>
-        <author>
-            <name>Rostislav Markov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unified Grid: How We Re-Architected Slack for Our Largest Customers]]></title>
-        <id>https://slack.engineering/?p=16924</id>
-        <link href="https://slack.engineering/unified-grid-how-we-re-architected-slack-for-our-largest-customers/"/>
-        <updated>2024-07-31T09:00:39.000Z</updated>
-        <summary type="html"><![CDATA[All software is built atop a core set of assumptions. As new code is added and new use-cases emerge, software can become unmoored from those assumptions. When this happens, a fundamental tension arises between revisiting those foundational assumptions—which usually entails a lot of work—or trying to support new behavior atop the existing architecture. The latter […]
-The post Unified Grid: How We Re-Architected Slack for Our Largest Customers appeared first on Slack Engineering.]]></summary>
-        <author>
-            <name>Ian Hoffman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tom Nomad - On Why Dr John Drury Is A Collaborationist Asshole]]></title>
-        <id>https://theanarchistlibrary.org/library/tom-nomad-on-why-dr-john-drury-is-a-collaborationist-asshole?v=1722415859</id>
-        <link href="https://theanarchistlibrary.org/library/tom-nomad-on-why-dr-john-drury-is-a-collaborationist-asshole?v=1722415859"/>
-        <updated>2024-07-31T08:50:59.000Z</updated>
-        <summary type="html"><![CDATA[Author: Tom Nomad
-Title: On Why Dr John Drury Is A Collaborationist Asshole
-Subtitle: A Review of Cop-Out: The Significance of Aufhebengate
-Date: 2013, May
-Source: Retrieved on July 29, 2021 from <theanvilreview.org/print/aufhebengate>
-
- On many levels it seems almost pointless to write yet another text on Aufhebengate, especially a review about a book on the scandal and the controversies and collaboration-sympathizing that occurred in the vain, and inexplicable, attempt to defend John Drury from his own actions. Usually interpersonal issues point more to the poverty of the militancy and viability of certain circles of so-called “radical scenes” than anything of consequence. In these cases I would usually not waste my time writing a critique of a second-rate academic who writes for a gener…]]></summary>
-        <author>
-            <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Liao - A Catalyst for Fascist Reaction]]></title>
-        <id>https://theanarchistlibrary.org/library/liao-a-catalyst-for-fascist-reaction?v=1722415497</id>
-        <link href="https://theanarchistlibrary.org/library/liao-a-catalyst-for-fascist-reaction?v=1722415497"/>
-        <updated>2024-07-31T08:44:57.000Z</updated>
-        <summary type="html"><![CDATA[Author: Liao
-Title: A Catalyst for Fascist Reaction
-Date: 7/20/2024
-Source: https://www.thecommoner.org.uk/a-catalyst-for-fascist-reaction/
-
- The fallout from the attempted assassination on United States presidential candidate, Donald J. Trump, will bring an increase in fascist propaganda and reactionary attitudes, while also having serious societal repercussions for marginalized groups and political dissidents. While anarchists typically, and rightfully, disparage engagement in electoral politics, the occurrence of this event will likely have effects far beyond just the 2024 United States election. The main focus of this article is to engage with the likely fallout and effects of such an assassination attempt, rather than discuss the actuality of the attempt in a substantive manner. 
- Lik…]]></summary>
-        <author>
-            <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Troubled by Google Maps Reviews]]></title>
-        <id>https://crookedtimber.org/?p=52892</id>
-        <link href="https://crookedtimber.org/2024/07/31/troubled-by-google-maps-reviews/"/>
-        <updated>2024-07-31T06:58:38.000Z</updated>
-        <summary type="html"><![CDATA[We just got home from a wonderful trip to Prague, Budapest, and Krakow. All three cities have a rich history of Jewish communities, and one can visit synagogues, musea, and Jewish cemeteries. We visited a number of them, including the very impressive Dohány Street Synagogue in Budapest, which was once the largest synagogue in the […]]]></summary>
-        <author>
-            <name>Ingrid Robeyns</name>
         </author>
     </entry>
 </feed>
