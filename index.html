@@ -51,11 +51,181 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-13 datetime="2024-08-13T18:00:30.000Z">2024-08-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-13 datetime="2024-08-13T18:00:30.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-13 datetime="2024-08-14T00:00:00.000Z">2024-08-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-13 datetime="2024-08-14T00:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes Blog</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/08/14/kubernetes-1-31-moving-cgroup-v1-support-maintenance-mode/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes 1.31: Moving cgroup v1 Support into Maintenance Mode</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/08/14/kubernetes-1-31-moving-cgroup-v1-support-maintenance-mode/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>As Kubernetes continues to evolve and adapt to the changing landscape of
+container orchestration, the community has decided to move cgroup v1 support
+into maintenance mode in v1.31.
+This shift aligns with the broader industry&#x27;s move towards cgroup v2, offering
+improved functionalities: including scalability and a more consistent interface.
+Before we dive into the consequences for Kubernetes, let&#x27;s take a step back to
+understand what cgroups are and their significance in Linux.
+Understanding cgroups
+Control groups, or
+cgroups, are a Linux kernel feature that allows the allocation, prioritization,
+denial, and management of system resources (such as CPU, memory, disk I/O,
+and network bandwidth) among processes. This functionality is crucial for
+maintaining system performance and ensuring that…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/08/14/last-phase-transition-time-ga/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes v1.31: PersistentVolume Last Phase Transition Time Moves to GA</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/08/14/last-phase-transition-time-ga/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Announcing the graduation to General Availability (GA) of the PersistentVolume lastTransitionTime status
+field, in Kubernetes v1.31!
+The Kubernetes SIG Storage team is excited to announce that the &quot;PersistentVolumeLastPhaseTransitionTime&quot; feature, introduced
+as an alpha in Kubernetes v1.28, has now reached GA status and is officially part of the Kubernetes v1.31 release. This enhancement
+helps Kubernetes users understand when a PersistentVolume transitions between
+different phases, allowing for more efficient and informed resource management.
+For a v1.31 cluster, you can now assume that every PersistentVolume object has a
+.status.lastTransitionTime field, that holds a timestamp of
+when the volume last transitioned its phase. This change is not immediate; the new field will be populated whenever a PersistentVolume
+is updated and first transitions between phases (Pending, Bound, or Released) after upgrading to Kubernetes v1.31.
+What changed?
+The API strategy for updating PersistentVolume objects has been modified to populate the .status.lastTransitionTime field with the
+current timestamp whenever a PersistentVolume transitions phases. Users are allowed to set this field manually if needed, but it will
+be overwritten when the PersistentVolume transitions phases again.
+For more details, read about
+Phase transition timestamp in the Kubernetes documentation.
+You can also read the previous blog post announcing the feature as alpha in v1.28.
+To provide feedback, join our Kubernetes Storage Special-Interest-Group (SIG)
+or participate in discussions on our public Slack channel.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Real-World Economics Review Blog</button>
+                  <a class="source-heading__link" href="https://rwer.wordpress.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://rwer.wordpress.com/?p&#x3D;45537"
+                        open
+                      >
+                        <summary class="article-expander__title">Manufacturing jobs: unions made them good, not the factories</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://rwer.wordpress.com/2024/08/13/manufacturing-jobs-unions-made-them-good-not-the-factories/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cepr.net/wp-content/uploads/2024/08/Book2_5241_image001-2.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>from Dean Baker The effort to bring back manufacturing jobs has been a major theme in the 2024 election. Both parties say they consider this a high priority for the next administration. However, there is a notable difference in that the Biden-Harris administration has actively supported an increase in unionization, while the Republicans have indicated, […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >| disassociated.com</button>
+                  <a class="source-heading__link" href="https://disassociated.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://disassociated.com/?p&#x3D;8281"
+                        open
+                      >
+                        <summary class="article-expander__title">Create an AI version of yourself on Instagram to do who knows what</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://disassociated.com/create-ai-version-yourself-instagram/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Maybe back in 2006, I was in a discussion with then Australian web designer Jen Leheny, on the then forums of the Australian INfront, a design community we had helped establish in the late 1990’s, about WordPress. I was still using static HTML files to run disassociated, but was considering migrating to the then much […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://disassociated.com/?p&#x3D;8275"
+                        open
+                      >
+                        <summary class="article-expander__title">Seven thousand five hundred tabs open in Firefox, a new world record?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://disassociated.com/seven-thousand-five-hundred-tabs-firefox-new-world-record/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>A dedicated Firefox web browser fan had nearly seven thousand five hundred browser tabs open, all at the same time, at one point. And maybe still does. Seven thousand five hundred? I feel I’m lucky to have seventy-five tabs, no, half that number really, open, across the three browsers I run, which include Firefox. That […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -81,7 +251,7 @@
                             <span class="media-object__text">
                               <span>~ Today&#x27;s Water Cooler: Politics, syndemics; 
 Transcript of Trump&#x27;s X interview; NIH shuts down its COVID-19 treatment guidelines website for special populations; geofence warrants  banned by Fifth Circuit; €16.9 trillion in labour  extorted from the Global South by the Global North. ~</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;24
+                                &ensp;<span class="article-reading-time">(&hairsp;41
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -100,7 +270,7 @@ Transcript of Trump&#x27;s X interview; NIH shuts down its COVID-19 treatment gu
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>More and more, officials are using anger as an excuse of censorship and arrests. Is capitalism the root? And is there actually &quot;mass anger&quot;?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
+                                &ensp;<span class="article-reading-time">(&hairsp;26
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -120,7 +290,7 @@ Transcript of Trump&#x27;s X interview; NIH shuts down its COVID-19 treatment gu
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/08/00-Doodles-on-tree.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Our vast daily links: Pigeon cannabis drop, kink scale, China bond market clampdown, Bangladesh coup post-mortems, Germany stallout, UK authoritarianism, COVID-Monkey-AIDS-Pox, Israel downgrade, Kursk offensive stalls, Emmanuel Todd, Trump-Musk chat, EU + UK Musk censorship threats, Mr. Markte worries</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;50
+                                &ensp;<span class="article-reading-time">(&hairsp;54
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -158,7 +328,7 @@ Transcript of Trump&#x27;s X interview; NIH shuts down its COVID-19 treatment gu
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>Tensions are high and the US has made a move to increase its already substantial military forces in the Middle East</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;24
+                                &ensp;<span class="article-reading-time">(&hairsp;26
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -296,57 +466,24 @@ Transcript of Trump&#x27;s X interview; NIH shuts down its COVID-19 treatment gu
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
+                  >The Cloudflare Blog</button>
+                  <a class="source-heading__link" href="https://blog.cloudflare.com">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41234572"
+                        data-accordion-key="66b64e2b4a25d6000ae1cc8f"
                         open
                       >
-                        <summary class="article-expander__title">New comment by elzbardico in &quot;NASA investigation finds Boeing hindering Americans&#x27; return to moon&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41234572">
+                        <summary class="article-expander__title">Introducing HTTP request traffic insights on Cloudflare Radar</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.cloudflare.com/http-requests-on-cloudflare-radar">
                           <div class="article-summary-box-inner media-object">
+                              <img src="http://blog.cloudflare.com/content/images/2024/08/BLOG-2493-1.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>What MBAs and Financists destroyed so far:
-- Western Industry.
-- The blue-collar middle class
-- The Middle Class
-- Our health care system
-- Our education
-- Western Economic Leadership.
-- Social Mobility
-Now they are busy destroying western technology, science and innovation on their never-ending selfish wealth-extraction quest.
-They convinced us that our homes are investments, so they can fleece us with their usurary schemes. So, what next? our organs?
-They convinced us to exchange our pensions for the privilege of being the mark on a market where the sharks like them do whatever the fuck they want, from blatant insider trading, to pump and dump schemes, to outright fraud, having for all practical purposes bought the SEC a long time ago.
-What they will kill next?
-How long are we going to transfer wealth to those slimmy sweet talking ignorant greedy bean counters?
-Our daily work is like being in a mad house because almost everything is subordinated to the the most sacred goal of cooking the next quarter numbers to ensure we maximize executive bonuses, and fuck the long run! crazy projects started, spin offs, merges, projects cancelled, company killing layoffs, fuck long term value generation! they want more and more, and more, and they fucking want it right now! the fucking bonus gollums.
-Everything is fucked in our society but executive compensation. Xerox, HP, IBM, Boeing... How many other proud symbols of our economy and civilization are we going to let them destroy?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41232477"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by azinman2 in &quot;Study shows that tacking the “AI” label on products may drive people away&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41232477">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>&gt; said Dogan Gursoy, one of the study’s authors and the Taco Bell Distinguished Professor of hospitality business management at Washington State University
-The irony… I cannot imagine a more hilariously negative way to reduce a title than to say someone is the Taco Bell professor.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
+                              <span>The traffic graphs on Cloudflare Radar have been enhanced to include HTTP request traffic. This new metric complements the existing bytes-based “HTTP traffic” view, and the new graphs can be found on Radar’s Overview and Traffic pages</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -685,190 +822,6 @@ Kubernetes v1.31 mar…</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41230563"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by mananaysiempre in &quot;NASA investigation finds Boeing hindering Americans&#x27; return to moon&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41230563">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>&gt; During a visit to Michoud in 2023, for example, inspectors discovered that welding on a component of the SLS Core Stage 3 did not meet NASA standards. Per the report, unsatisfactory welding performed on a set of fuel tanks led directly to a seven-month delay in EUS completion.
-&gt; “According to NASA officials, the welding issues arose due to Boeing’s inexperienced technicians and inadequate work order planning and supervision,” the OIG says. [...]
-Welders are highly qualified and well-paid craftsmen. Wouldn’t surprise me if they’d been hit particularly hard by management that doesn’t value tenured, expensive employees.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41229769"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by FickleRaptor in &quot;Room inspections at Resorts World confuse, annoy DEF CON attendees&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41229769">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I was walking through resortsworld when a security guard started walking next to us. After about 50 feet, he demanded our ID, informed us we were on private property, and threatened to have us arrested for trespassing, all in the same sentence. The issue was that my colleague was one of the amateur radio VE for the ham radio village and happened to have his handheld with him. The guard was aggressive, entitled, and arrogant.
-Yesterday, I poked another friend to see where they were at the conference. They were not at the conference. They were stuck at resorts world three hours after the conference had started. Their conference badges had been confiscated by security. The security team had tried to force them to throw them in the garbage, and for a while it appeared that security had thrown …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41228545"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by danShumway in &quot;Apple&#x27;s requirements are about to hit creators and fans on Patreon&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41228545">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Another point that Patreon isn&#x27;t really emphasizing here that seems relevant to any conversations about &quot;fairness&quot; is that Apple&#x27;s fees on Patreon subscriptions in-app are now higher than Patreon&#x27;s fees.
-It&#x27;s important to recognize any time that we&#x27;re talking about the market that services charge what they can, not what is fair. The market does not have a concept of fairness, only competition. This is why there is no such thing as a benevolent monopoly that charges fair prices - because fairness does not exist in the market, only competition.
-BUT... since fairness gets so often brought into conversations about Apple&#x27;s fees, often with the implicit suggestion that Apple &quot;deserves&quot; to be compensated for all of the work they&#x27;re putting into hosting and curating apps and for (in heavy quotes) &quot;creating&quot; a market that they supposedly also don&#x27;t have duopoly control over: does anybody want to argue that Apple hosting the Patreon app on iOS provides more value to Patreon subscribers and creators than the existence of Patreon itself does?
-Like, if we&#x27;re going to talk about what&#x27;s egregious and what&#x27;s not egregious, charging higher fees per-transaction than the platforms you are hosting seems like it might be a good indicator that things have gotten out of control.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41227566"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by AlexandrB in &quot;Apple&#x27;s requirements are about to hit creators and fans on Patreon&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41227566">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Apple has quietly been one of the biggest culprits in the proliferation of subscription software. They still don&#x27;t support upgrades/upgrade pricing. Subscriptions are also the easiest way to implement a software demo or trial in the App Store. Finally they use their control of the App Store to coerce anyone doing something different than monthly/yearly subscriptions into that model (as we see here).
-It sucks big time.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41226460"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by bkraz in &quot;Apple&#x27;s requirements are about to hit creators and fans on Patreon&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41226460">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>As a longtime YouTube creator who uses Patreon for financial support, the news is terrible: Patreon informed me that all creators must switch to a monthly subscription schedule instead of the per-creation schedule that I and many other currently use. The whole point of per-creation is that it allows me to take time off, and only charge people when I release something, thus incentivizing me, and being fair to my supporters. I&#x27;m really annoyed by this change, and will start pushing back, but if it happens as planned, I may be forced to switch to another platform, or come up with some other solution.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41225827"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by whywhywhywhy in &quot;Apple&#x27;s requirements are about to hit creators and fans on Patreon&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41225827">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The world where Apple is just completely fine with Apple users paying $13 instead of $10 for a subscription if they do it through an app is an interesting one.
-Obviously this makes a lot of money for them but when you think about it they must think very little of their customers treating them with disrespect like this. This is how &#x27;Tim Cook&#x27;s Apple&#x27; should be remembered.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;30
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41225668"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by jprete in &quot;Apple&#x27;s requirements are about to hit creators and fans on Patreon&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41225668">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I remember reading that per-creation billing is a very important feature for Patreon creators, because it removes the moral obligation to produce content just to justify a subscription.
-If Patreon really doesn&#x27;t want to kill the feature itself, but is just responding to Apple&#x27;s enforcement, then it seems like a really clear illustration of monopoly power - pushing unrelated markets to change their own structure and products just to fit Apple&#x27;s preferred billing flow.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41224877"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by lairv in &quot;Go is my hammer, and everything is a nail&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41224877">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Go is everything I don’t want in a language for my personal projects. It’s verbose, every simple task feels like a lot to write. It’s not expressive, what would be a one-liner in Python makes you write three for loops in Go. I constantly need to find workarounds for the lack of proper enums, lack of sum types, no null safety etc.
-I’m sure these are the exact reasons why Go is good for enterprise software, but for personal projects, I get no fun out of using it</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41224825"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by bborud in &quot;Go is my hammer, and everything is a nail&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41224825">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>People always under-estimate the cost of properly learning a language.  At any given time I tend to have a &quot;main go-to language&quot;.  I typically spend 2-4 years getting to the point where I can say I &quot;know&quot; a language.  Then I try to stick to it long enough for the investment to pay off.  Usually 8-10 years.
-A surprising number of people think this is a very long time. It isn&#x27;t.  This is typically the time it takes to understand enough of the language, the compiler, the runtime, the standard library, and idiomatic ways to do things.  It is the time it takes to where you can start to meaningfully contribute to evolving how the language is used and meaningfully coach architects, programmers and system designers. It is also what you need to absorb novices into the organization and train them fast.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >The Cloudflare Blog</button>
                   <a class="source-heading__link" href="https://blog.cloudflare.com">Open</a>
                 </h3>
@@ -906,7 +859,7 @@ A surprising number of people think this is a very long time. It isn&#x27;t.  Th
                               <img src="http://blog.cloudflare.com/content/images/2024/06/BLOG-2361-1.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Explore how Cloudflare&#x27;s JA4 fingerprinting and inter-request signals provide robust and scalable insights for advanced web security and threat detection</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1088,26 +1041,6 @@ A surprising number of people think this is a very long time. It isn&#x27;t.  Th
                             <span class="media-object__text">
                               <span>Overview As businesses increasingly embrace cloud computing, many organizations are seeking to migrate their existing .NET applications from on-premises data centers to AWS. However, the transition of these workloads can often be complex and time-consuming. To simplify this process, AWS App2Container(A2C) is a robust command-line tool that assists users in lifting and shifting their on-premises […]</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="94c09e9e264ea0f58ded29d7f22edf19a693faf4"
-                        open
-                      >
-                        <summary class="article-expander__title">Yleisradio enhances digital services with Amazon EKS and IPv6 Adoption</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/containers/yleisradio-enhances-digital-services-with-amazon-eks-and-ipv6-adoption/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/07/30/Featured-images-for-Containers-Blog-6-1260x630.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Yleisradio is a Finnish broadcasting company running most of its online and mobile services – which roughly 2.1 million Finns use every day – on AWS. Like many organizations, they use IP Address Management (IPAM) systems to allocate IP addresses across their AWS environment to make sure routing works, even between AWS and their on-premises […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1347,12 +1280,12 @@ The post Media Coverage of Venezuela’s Presidential Election Normalizes US Int
                         data-accordion-key="https://www.counterpunch.org/?p&#x3D;330516"
                         open
                       >
-                        <summary class="article-expander__title">De-escalation vs Self-defense: Double Standards or Racism?</summary>
+                        <summary class="article-expander__title">De-Escalation vs Self-Defense: Double Standards or Racism?</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.counterpunch.org/2024/08/12/de-escalation-vs-self-defense-double-standards-or-racism/">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>On the evening of July 30, an Israeli drone targeted a residential building in South Beirut, killing a woman and two children, and injuring 74 civilians. Israel claimed the attack was aimed at an officer of the Lebanese resistance. Targeting residential infrastructures outside a war zone is part of the Israeli army’s Artificial Intelligence (AI)  More
-The post De-escalation vs Self-defense: Double Standards or Racism? appeared first on CounterPunch.org.</span>
+The post De-Escalation vs Self-Defense: Double Standards or Racism? appeared first on CounterPunch.org.</span>
                             </span>
                           </div>
                         </a>
@@ -1630,37 +1563,6 @@ Source: Retrieved on August 11, 2024 from Black and Red Press PDF
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41216030"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by erlend_sh in &quot;Verso – Web browser built on top of the Servo web engine&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41216030">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>In other exciting Servo-browser news, Servo and Redox OS have submitted a joint proposal to fund the porting of SpiderMonkey and WebRender to Redox: https://www.redox-os.org/news/this-month-240731/</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Crooked Timber</button>
                   <a class="source-heading__link" href="https://crookedtimber.org">Open</a>
                 </h3>
@@ -1906,107 +1808,6 @@ The post Israel’s Torture Archipelago appeared first on CounterPunch.org.</spa
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41209068"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by mistercow in &quot;A wonderful coincidence or an expected connection: why π² ≈ g&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41209068">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>This is interesting, but I have to quibble with this:
-&gt; If you express this value in any other units, the magic immediately disappears. So, this is no coincidence
-Ordinarily, this would be extremely indicative of a coincidence. If you’re looking for a heuristic for non-coincidences, “sticks around when you change units” is the one you want. This is just an unusual case where that heuristic fails.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41207918"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by lchengify in &quot;Susan Wojcicki has died&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41207918">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Was shocked to hear this news. I worked for Google years ago but I was in the NYC office, so we didn&#x27;t run into the YouTube folks much.
-Opinions about YouTube may be mixed here on HN, but it is objectively one of the most successful businesses in tech or media to emerge in the past 15 years. If it weren&#x27;t buried inside Alphabet, Youtube would be worth on the order of $400 billion, more than Disney and Comcast combined. It&#x27;s a weird mix of a huge creator monetization network, a music channel, an education platform, a forever-store of niche content, and a utility.
-It&#x27;s also not a business that rested on it&#x27;s laurels. It&#x27;s easy to forget how novel creator monetization was when YouTube adopted it. They do a lot of active work to manage their creators, and now have grown into a music and podcast platform that is challenging Apple. To top it off, YouTube TV, despite costing just as much as cable, is objectively a good product.
-Few products have the brand, the reach, monetization, and the endurance that YouTube has had within Google. And I know for a fact that this is in no small part due to the way it was managed.
-I&#x27;ve probably watched tens of thousands of hours of YouTube at this point. Some of it sublime, some of it absurd, some of it critical for my work or my degree. I couldn&#x27;t imagine a world without it.
-RIP.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;49
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41207776"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by yyyfb in &quot;Susan Wojcicki has died&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41207776">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Next time you&#x27;re thinking &quot;I wish I was the one who had made a billion dollars with my startup idea&quot;, remember that only health and family matter, and to have fun while you&#x27;re alive. RIP.
-Edit: some people misinterpreted my comment. I&#x27;m just one anonymous  voice on the Internet, but am deeply saddened by the passing of Susan Wojcicki, who meant a lot to me as one of the many people who crossed paths with her professionally. I wish her family strength in a very trying moment. She did not deserve this. I&#x27;ve not met another business leader demonstrate everyday kindness to the degree that she did.
-Her untimely passing is also a reminder to those of us who sometimes look up to such successful businesspeople that we should all appreciate our luck to be alive and enjoy it to the fullest, as I hope that she did as well, and as I&#x27;m sure that she&#x27;d prefer we did. RIP</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41207331"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by gorgoiler in &quot;Rivian reduced electrical wiring by 1.6 miles and 44 pounds&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41207331">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The before/after ECU layout diagram is very instructional.
-I like to imagine some kind of engineering “meet cute” whereby, one random day, the headlights engineer and the parking radar engineer happen to be working on the front of the car together.  Their eyes meet:
-“hey, I’m John — I didn’t know you had an ECU here!”,
-“hi, I’m Claire — wow, you have an ECU right up front too?  It’s, like, right next to mine and we never knew!”
-“I know, crazy right?!  Hey this is going to sound really forward and I don’t normally do this but I’m only running at 70% compute capacity.  I don’t suppose you need any real-time budget this evening?”
-“So funny you should ask, I was just about to run a whole bunch of heavy new wiring to…”
-And in a story as old as time they get ECU married and raise their control loops in the same front-of-vehicle ECU together instead of living their separate, lonely, ECU-right-next-to-each-other-and-they-didn’t-know-it lives.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Crooked Timber</button>
                   <a class="source-heading__link" href="https://crookedtimber.org">Open</a>
                 </h3>
@@ -2043,158 +1844,11 @@ And in a story as old as time they get ECU married and raise their control loops
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-09 datetime="2024-08-10T03:51:16.000Z">2024-08-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-09 datetime="2024-08-10T03:51:16.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-09 datetime="2024-08-09T22:41:22.000Z">2024-08-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-09 datetime="2024-08-09T22:41:22.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41207172"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by oefrha in &quot;Building a highly-available web service without a database&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41207172">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Seems weird to start with “not talking about using something like SQLite where your data is still serialized”, then end up with a home grown transaction log that requires serialization and needs to be replicated, which is how databases are replicated anyway.
-If your load fits entirely on one server, then just run the database on that damn server and forget about “special architectures to reduce round-trips to your database”. If your data fits entirely in RAM, then use a ramdisk for the database if you want, and replicate it to permanent storage with standard tools. Now that’s actually simple.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41206823"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by asveikau in &quot;Daily marijuana use linked to increased risk of deadly head and neck cancers&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41206823">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>People tend to get defensive at even the most vague insinuation that cannabis may have potential negative health effects. Comment section already has evidence of this.
-Edit just to clarify: I&#x27;m generally in favor of legalization and I don&#x27;t believe in restricting responsible use by adults. I&#x27;ve just noticed really strong reactions to this kind of discussion.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41206550"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by BessS in &quot;Jake Seliger has died&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41206550">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hi everyone,
-This is Bess, Jake&#x27;s wife. I just want to say how deeply touched I am to see how much Jake and his writing are appreciated here on HN. The intellectual online community which made up a big piece of his life for so long was important to him, as was having a positive influence on others, and it would have meant so much to him- as it does to me- to see the impact he made. Thank you for the people who reached out while he was still alive to make sure he knew just how large that impact was.
-I&#x27;ve lost the love of my life, as well as my thinking and writing partner, and everything is strange and disorienting right now. It&#x27;s a comfort when nothing feels comfortable to know how appreciated he was and still is. As soon as I&#x27;m able, and for anyone who is interested in joining the efforts, I promised him I&#x27;d continue the push for FDA reform, and to try to find ways to improve agency for cancer patients so that other people in his position might suffer less than he did. I&#x27;ve never known a braver person. I&#x27;ll miss him forever, but won&#x27;t stop trying to keep his legacy alive.
-Please feel free to reach out anytime (I&#x27;m at drbstillman@gmail.com). Thank you also for all the well wishes for myself and Athena, who I hope will be just like her Dad.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41205729"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by 8organicbits in &quot;.INTERNAL is now reserved for private-use applications&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41205729">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>My biggest frustration with .internal is that it requires a private certificate authority. Lots of organizations struggle to fully set up trust for the private CA on all internal systems. When you add BYOD or contractor systems, it&#x27;s a mess.
-Using a publicly valid domain offers a number of benefits, like being able to use a free public CA like Lets Encrypt. Every machine will trust your internal certificates out of the box, so there is minimal toil.
-Last year I built getlocalcert [1] as a free way to automate this approach. It allows you to register a subdomain, publish TXT records for ACME DNS certificate validation, and use your own internal DNS server for all private use.
-[1] https://www.getlocalcert.net/</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41205326"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by rseliger in &quot;Jake Seliger has died&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41205326">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>This is Jake’s sister. He was reading and replying to as much as he could up until the end. He loved this community and would in turn be touched by this entire thread. Thank you all who supported him and read and shared his writing. He said it was bittersweet to go out on top.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41203548"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by dredmorbius in &quot;Jake Seliger has died&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41203548">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Jake posted as jseliger on HN:  https://news.ycombinator.com/user?id&#x3D;jseliger
-He blogged at https://jakeseliger.com/&gt;, and numerous of his blog articles were submitted to HN:  https://news.ycombinator.com/from?site&#x3D;jakeseliger.com&gt;.  That includes numerous topics, over the past year or so his experience with cancer, often concerning frustrations with the process and mechanism.
-His essay on agenticness especially strikes me as hugely insightful and underappreciated.  It was submitted several times to HN but saw little discussion:
-https://jakeseliger.com/2024/07/29/more-isnt-always-better-d...&gt;
-Jake&#x27;s wife, now widow, Bess, blogs at Everything is an Emergency:  https://bessstillman.substack.com&gt;.  That also details the cancer / caregiving experience, from the point of view of a wife, caregiver, expectant mother, and emergency-room doctor.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41198724"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by chocolatkey in &quot;USPS text scammers duped his wife, so he hacked their operation&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41198724">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Here are the original posts themselves, probably more interesting to people here:
-https://blog.smithsecurity.biz/hacking-the-scammers
-https://blog.smithsecurity.biz/systematic-destruction-hackin...</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -2521,135 +2175,6 @@ Microcredit</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41196363"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by jessetemp in &quot;Do quests, not goals&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41196363">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I think what’s going on behind the verbal sleight of hand here, is focusing on the process (quest) instead of the outcome (goal). It’s the difference between doing a thing and having done a thing. I might enjoy having written a book, but I don’t think I would enjoy writing a book. And I don’t think calling it a quest instead of a goal would make much difference</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41195709"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by solatic in &quot;How we migrated onto K8s in less than 12 months&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41195709">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I don&#x27;t get the hate for Kubernetes in this thread. TFA is from Figma. You can talk all day long about how early startups just don&#x27;t need the kind of management benefits that Kubernetes offers, but the article isn&#x27;t written by someone working for a startup, it&#x27;s written by a company that nearly got sold to Adobe for $20 billion.
-Y&#x27;all really don&#x27;t think a company like Figma stands to benefit from the flexibility that Kubernetes offers?</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41194744"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by davedx in &quot;Ask HN: Should we bring software dev in-house?&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41194744">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>IME what works best getting new projects kick started is hiring a very small team of senior freelancers, making one of them lead, and letting them loose. I worked on such a team once and it was really excellent. The advantage of this strategy is if the experiment doesn&#x27;t work out, terminating freelancers is much easier than permanent (I noted you&#x27;re based in Europe).
-Contrary to what other people said, I wouldn&#x27;t try find a CTO straightaway. It&#x27;s a hard role to hire for, especially at the start. I think you&#x27;re better off unleashing a small, excellent team of builders then hire management later to help build out the team if the initial effort succeeds.
-Happy to chat more about my experiences with this strategy, davedx@gmail.com (I&#x27;m in Europe too)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;36
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41193140"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by Retr0id in &quot;Firefox Sidebar and Vertical tabs: try them out&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41193140">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I used to be a tree-style-tabs power user but at some point I went back to regular tabs. I find that the amount of horizontal tab space is pretty close to the actual number of things I can usefully have open at once. Seeing the tabs get &quot;squished&quot; is my reminder to close the ones I no longer need.
-I was using the tab-state as a sort of short-term working memory and I don&#x27;t think it was doing me any favours, particularly in terms of focus.
-Now when I&#x27;m working on a project, I keep a list of relevant URLs in a text file (i.e. bookmarks but checked into source control).
-I also use two browser windows, a regular one for &quot;stateful&quot; browsing, and a private-mode one for &quot;stateless&quot; browsing. Quick queries and exploratory research happens in the &quot;stateless&quot; session, with the understanding that I can close any of these tabs (or nuke the whole session) at any time without losing anything important. If I do come across something important, it gets noted down elsewhere.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41190527"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by diffeomorphism in &quot;The Story of Samsung&#x27;s failed deal with iFixit, as told by iFixit&#x27;s CEO&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41190527">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I would argue the opposite. They are not aiming to be a neutral arbiter but an active advocate for better repairability. For that they should have for-profit business relationships with basically all companies manufacturing such devices. In particular, that would allow them to pressure or drop any one misbehaving company.
-&gt; Providing consumers with information on where to find reputable companies selling repair parts would be a much more palatable alternative to selling them yourself.
-That does not really make sense. They are a repair company and the only company selling specialized parts is, of course, the manufacturer.
-&gt; also stands in the way of advocating for consumers.
-That is much too bleak. They made a deal happen in the first place, which is large progress even if it did not quite work out, and compromises are a fact of life.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41189189"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by somenameforme in &quot;NASA says Boeing Starliner astronauts may fly home on SpaceX in 2025&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41189189">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I think many might not be aware of Starliner&#x27;s sordid history. It has failed essentially every qualification test in various ways. Their pad abort test (where you simulate a launch abort while on the launch pad) resulted in only 2 of the 3 parachutes deploying in beyond optimal conditions. NASA considered that such a resounding success that they let them completely skip the far more challenging in-flight abort test. Their first automated mission to the ISS completely failed and did not make it to the station. NASA finally required a redo from Boeing and their second one did make it to the ISS, but only after experiencing widespread leaks and thruster failures literally identical to the ones that have now left these astronauts stranded.
-If SpaceX or another company had remotely similar results, they would never have been greenlit. For instance in spite of a flawless pad abort test, NASA required SpaceX also carry out an in-flight abort. And that&#x27;s completely reasonable - you don&#x27;t simply skip tests, even with optimal performance. Skipping tests following suboptimal performance is simply unjustifiable. And so I think we&#x27;re largely looking at another Challenger type disaster caused by a disconnect between management (and likely political appointees) versus engineering staff, rather than inherent risk. But this is not a vessel that should have ever had a single human anywhere near it, and so their official comments (and even actions) on the situation are going to be heavily biased due to their own behaviors.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >| disassociated.com</button>
                   <a class="source-heading__link" href="https://disassociated.com">Open</a>
                 </h3>
@@ -2807,42 +2332,11 @@ Financial crisis</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-07 datetime="2024-08-08T01:30:08.000Z">2024-08-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-07 datetime="2024-08-08T01:30:08.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-07 datetime="2024-08-08T00:24:02.000Z">2024-08-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-07 datetime="2024-08-08T00:24:02.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41187239"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by dongobread in &quot;GPT-4 LLM simulates people well enough to replicate social science experiments&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41187239">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I&#x27;m very skeptical on this, the paper they linked is not convincing. It says that GPT-4 is correct at predicting the experiment outcome direction 69% of the time versus 66% of the time for human forecasters. But this is a silly benchmark because people are not trusting human forecasters in the first place, that&#x27;s the whole purpose for why the experiment is run. Knowing that GPT-4 is slightly better at predicting experiments than some human guessing doesn&#x27;t make it a useful substitute for the actual experiment.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -2867,7 +2361,7 @@ Financial crisis</span>
                               <img src="https://s0.wp.com/i/blank.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>I have a letter in The Chronicle of Higher Education responding to Steven Teles’ call for more conservative college professors. It’s a shortened version of a longer piece I wrote, which I’m posting here. The fact that conservatives are thin in the humanities and social sciences departments of US college campuses is well known. A […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;71
+                                &ensp;<span class="article-reading-time">(&hairsp;73
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3106,46 +2600,12 @@ Financial crisis</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Liberty Street Economics</button>
-                  <a class="source-heading__link" href="https://libertystreeteconomics.newyorkfed.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://libertystreeteconomics.newyorkfed.org/?p&#x3D;31057"
-                        open
-                      >
-                        <summary class="article-expander__title">The Anatomy of Labor Demand Pre‑ and Post‑COVID</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://libertystreeteconomics.newyorkfed.org/2024/08/the-anatomy-of-labor-demand-pre-and-post-covid/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/08/LSE_2024_anatomy-of-labor_topa_460_1acc65.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Has labor demand changed since the COVID-19 pandemic? In this post, we leverage detailed data on the universe of U.S. online job listings to study the dynamics of labor demand pre- and post-COVID. We find that there has been a significant shift in listings out of the central cities and into the “fringe” portion of large metro areas, smaller metro areas, and rural areas. We also find a substantial decline in job listings in computer and mathematical and business and financial operations occupations, and a corresponding increase in job openings in sales, office and administrative support, food preparation, and especially healthcare occupations. These patterns (by geography and by occupation) are interconnected: the biggest declines in job listings by occupation occurred in the largest and densest geographies, and the strongest increases in job listings by occupation occurred in the smaller and less populated geographies.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/10375241663">
-        <time id="build-timestamp" datetime="2024-08-13T18:31:54.943Z">2024-08-13T18:31:54.943Z</time>
+      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/10379970197">
+        <time id="build-timestamp" datetime="2024-08-14T01:42:12.845Z">2024-08-14T01:42:12.845Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
