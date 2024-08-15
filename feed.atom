@@ -1,10 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-14T18:31:29.049Z</id>
+    <id>urn:2024-08-15T01:35:31.412Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-14T18:31:29.049Z</updated>
+    <updated>2024-08-15T01:35:31.412Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Young men aren’t shifting right …]]></title>
+        <id>https://crookedtimber.org/?p=52985</id>
+        <link href="https://crookedtimber.org/2024/08/15/young-men-arent-shifting-right/"/>
+        <updated>2024-08-15T01:12:33.000Z</updated>
+        <summary type="html"><![CDATA[… at least in the “Anglosphere” One of the striking features of the racist riots in Britain has been the wide spread of ages among those (nearly all men) convicted so far[1]. This is unusual, since criminal violence of all kinds is most commonly associated with young men. And it’s a counter-example to what has […]]]></summary>
+        <author>
+            <name>John Q</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Side discussion]]></title>
+        <id>https://crookedtimber.org/?p=52983</id>
+        <link href="https://crookedtimber.org/2024/08/15/side-discussion/"/>
+        <updated>2024-08-15T00:58:46.000Z</updated>
+        <summary type="html"><![CDATA[As requested by a couple of commenters, I’ve created a separate thread to discuss the issues raised by commenter “closet conservative” in response to my post on US academia. I’ll moderate, but not participate]]></summary>
+        <author>
+            <name>John Q</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes v1.31: Accelerating Cluster Performance with Consistent Reads from Cache]]></title>
+        <id>https://kubernetes.io/blog/2024/08/15/consistent-read-from-cache-beta/</id>
+        <link href="https://kubernetes.io/blog/2024/08/15/consistent-read-from-cache-beta/"/>
+        <updated>2024-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kubernetes is renowned for its robust orchestration of containerized applications,
+but as clusters grow, the demands on the control plane can become a bottleneck.
+A key challenge has been ensuring strongly consistent reads from the etcd datastore,
+requiring resource-intensive quorum reads.
+Today, the Kubernetes community is excited to announce a major improvement:
+consistent reads from cache, graduating to Beta in Kubernetes v1.31.
+Why consistent reads matter
+Consistent reads are essential for ensuring that Kubernetes components have an accurate view of the latest cluster state.
+Guaranteeing consistent reads is crucial for maintaining the accuracy and reliability of Kubernetes operations,
+enabling components to make informed decisions based on up-to-date information.
+In large-scale cluster…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Meta animates AI-generated images at scale]]></title>
+        <id>https://engineering.fb.com/?p=21542</id>
+        <link href="https://engineering.fb.com/2024/08/14/production-engineering/how-meta-animates-ai-generated-images-at-scale/"/>
+        <updated>2024-08-14T21:20:04.000Z</updated>
+        <summary type="html"><![CDATA[We launched Meta AI with the goal of giving people new ways to be more productive and unlock their creativity with generative AI (GenAI). But GenAI also comes with challenges of scale. As we deploy new GenAI technologies at Meta, we also focus on delivering these services to people as quickly and efficiently as possible. [...]
+Read More...
+The post How Meta animates AI-generated images at scale appeared first on Engineering at Meta.]]></summary>
+        <author>
+            <name>Engineering at Meta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Threat of AI, demise of blogging, the world in February 2015]]></title>
+        <id>https://disassociated.com/?p=8288</id>
+        <link href="https://disassociated.com/threat-ai-demise-blogging-world-february-2015/"/>
+        <updated>2024-08-14T21:00:55.000Z</updated>
+        <summary type="html"><![CDATA[Since re-booting disassociated in May 2022, I’ve been slowly (incredibly slowly) restoring selected posts from the previous version of the blog that was online between 2007 and 2017. The restored posts are tagged legacy, and also include a few posts written prior to 2007, going back to 2003. On checking as I typed this, I […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week Ending August 11, 2024]]></title>
+        <id>https://lwkd.info/2024/20240814</id>
+        <link href="https://lwkd.info/2024/20240814"/>
+        <updated>2024-08-14T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Developer News]]></summary>
+        <author>
+            <name>Last Week in Kubernetes Development</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Karpenter 1.0]]></title>
+        <id>3adac2c0ec9122f00dd8e58fe5412f2d5a1d5f9f</id>
+        <link href="https://aws.amazon.com/blogs/containers/announcing-karpenter-1-0/"/>
+        <updated>2024-08-14T20:56:15.000Z</updated>
+        <summary type="html"><![CDATA[Introduction In November 2021, AWS announced the launch of v0.5 of Karpenter, “a new open source Kubernetes cluster auto scaling project.” Originally conceived as a flexible, dynamic, and high-performance alternative to the Kubernetes Cluster Autoscaler, in the nearly three years since then Karpenter has evolved substantially into a fully featured, Kubernetes native node lifecycle manager. […]]]></summary>
+        <author>
+            <name>Alex Kestner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Achieving Frugal Architecture using the AWS Well-Architected Framework guidance]]></title>
+        <id>663012dc40f89e066329be90a662febacc172e3c</id>
+        <link href="https://aws.amazon.com/blogs/architecture/achieving-frugal-architecture-using-the-aws-well-architected-framework-guidance/"/>
+        <updated>2024-08-14T19:55:53.000Z</updated>
+        <summary type="html"><![CDATA[As part of the re:Invent 2023 keynote, Dr. Werner Vogels introduced the Frugal Architect mindset. This mindset emphasizes the importance of continuous learning, curiosity, and regular revision of architectural choices with a focus on cost and sustainability. Cost and sustainability should be treated as critical non-functional requirements, alongside factors like security, compliance, and performance. The […]]]></summary>
+        <author>
+            <name>Ashley DeLoach</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 8/14/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=276716</id>
@@ -13,6 +105,51 @@
         <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, Syndemics ~]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by slazaro in "Show HN: If YouTube had actual channels"]]></title>
+        <id>https://news.ycombinator.com/item?id=41247704</id>
+        <link href="https://news.ycombinator.com/item?id=41247704"/>
+        <updated>2024-08-14T16:12:34.000Z</updated>
+        <summary type="html"><![CDATA[I'd echo the sentiment that this is amazing, and that a TV guide would be awesome.
+I'd also suggest maybe adding the channel names (like the comment you posted here) to the app itself (although i think it's cool when it's unnamed and you get the old-school feeling of channels just being numbers).
+Also, I'd love to have permalinks for the channels. Not for the individual videos themselves, but just a link that when sharing would bring somebody else to the same channel you're watching right now.
+Another thing, although probably outside your control, is that I use a Firefox extension called "SoundFixer" that I use to force the youtube audio to mono (since a lot of channels are annoying to me using headphones, they pan the audio sources too hard left/right and it's super distracting), but it doesn't seem to work on this website, probably because of the way they're embedded. I don't know if this can be changed somehow, or have a mode to force mono audio (which would be also oldschool like old TVs with one speaker only!). It's probably too niche and hard to do though.
+Also I don't seem to find any volume control except mute?]]></summary>
+        <author>
+            <name>slazaro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by tantalor in "Show HN: If YouTube had actual channels"]]></title>
+        <id>https://news.ycombinator.com/item?id=41247268</id>
+        <link href="https://news.ycombinator.com/item?id=41247268"/>
+        <updated>2024-08-14T15:33:35.000Z</updated>
+        <summary type="html"><![CDATA[The best part of this is the channel doesn't pause when you flip away from it. It is always "running" and if you flip away you will miss it. That builds in a FOMO trade-off which causes user to automatically/subconciously decide on channel they most want to watch, because they can't watch everything.]]></summary>
+        <author>
+            <name>tantalor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by hadisafa in "Show HN: If YouTube had actual channels"]]></title>
+        <id>https://news.ycombinator.com/item?id=41247037</id>
+        <link href="https://news.ycombinator.com/item?id=41247037"/>
+        <updated>2024-08-14T15:11:33.000Z</updated>
+        <summary type="html"><![CDATA[Channel 1: Science and Technology
+Channel 2: Travel and Events
+Channel 3: Food
+Channel 4: Architecture
+Channel 5: Film and Animation
+Channel 6: Documentaries
+Channel 7: Comedy
+Channel 8: Music
+Channel 9: Autos and Vehicles
+Channel 10: News and Politics
+Channel 11: UFC
+Channel 12: Podcasts/Interviews/Talk Shows]]></summary>
+        <author>
+            <name>hadisafa</name>
         </author>
     </entry>
     <entry>
@@ -392,17 +529,6 @@ Who thinks they are booking phone sales as AI revenue to juice the numbers?]]></
         <summary type="html"><![CDATA[Dive into the numbers from Amazon's record-breaking Prime Day 2024, from AI chip deployment to the staggering transaction volumes across AWS services like Amazon DynamoDB, Aurora, CloudFront, and more.]]></summary>
         <author>
             <name>Channy Yun (윤석찬)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by chongli in "The Webb Telescope further deepens the Hubble tension controversy in cosmology"]]></title>
-        <id>https://news.ycombinator.com/item?id=41236091</id>
-        <link href="https://news.ycombinator.com/item?id=41236091"/>
-        <updated>2024-08-13T14:55:37.000Z</updated>
-        <summary type="html"><![CDATA[The controversy is that we get 2 different numbers depending on which method (cosmic microwave background vs cosmic distance ladder) we use to calculate the present rate of expansion. These numbers used to have their error bars overlapping, so we assumed they would eventually converge to the true value. But as we get more data the opposite is happening: the numbers are diverging and their error bars are shrinking such that they no longer overlap.
-This tells us that either our model of the universe is wrong (therefore the cosmic microwave background method is giving us an incorrect answer) or that something is wrong with how we're calculating the distances along the cosmic distance ladder. The latter was originally the assumption that should be proven true with more and better data from newer telescopes. This is now turning out not to be the case: our cosmic distance ladder calculations seem to have been very good, so it now seems more likely that our model of the universe is wrong.]]></summary>
-        <author>
-            <name>chongli</name>
         </author>
     </entry>
     <entry>
@@ -1025,16 +1151,6 @@ Microcredit]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by erlend_sh in "Verso – Web browser built on top of the Servo web engine"]]></title>
-        <id>https://news.ycombinator.com/item?id=41216030</id>
-        <link href="https://news.ycombinator.com/item?id=41216030"/>
-        <updated>2024-08-11T13:33:33.000Z</updated>
-        <summary type="html"><![CDATA[In other exciting Servo-browser news, Servo and Redox OS have submitted a joint proposal to fund the porting of SpiderMonkey and WebRender to Redox: https://www.redox-os.org/news/this-month-240731/]]></summary>
-        <author>
-            <name>erlend_sh</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Sunday photoblogging: Cranes]]></title>
         <id>https://crookedtimber.org/?p=52970</id>
         <link href="https://crookedtimber.org/2024/08/11/sunday-photoblogging-cranes/"/>
@@ -1185,17 +1301,6 @@ If your load fits entirely on one server, then just run the database on that dam
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by asveikau in "Daily marijuana use linked to increased risk of deadly head and neck cancers"]]></title>
-        <id>https://news.ycombinator.com/item?id=41206823</id>
-        <link href="https://news.ycombinator.com/item?id=41206823"/>
-        <updated>2024-08-10T02:11:21.000Z</updated>
-        <summary type="html"><![CDATA[People tend to get defensive at even the most vague insinuation that cannabis may have potential negative health effects. Comment section already has evidence of this.
-Edit just to clarify: I'm generally in favor of legalization and I don't believe in restricting responsible use by adults. I've just noticed really strong reactions to this kind of discussion.]]></summary>
-        <author>
-            <name>asveikau</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by BessS in "Jake Seliger has died"]]></title>
         <id>https://news.ycombinator.com/item?id=41206550</id>
         <link href="https://news.ycombinator.com/item?id=41206550"/>
@@ -1333,59 +1438,6 @@ https://blog.smithsecurity.biz/systematic-destruction-hackin...]]></summary>
         <summary type="html"><![CDATA[Bad weather continues to hit coffee growers in Brazil and Vietnam, forcing Australian coffee suppliers to warn of shortages, and more price increases. It’s been a tough few years for coffee producers. When I wrote about production problems almost three years ago, droughts in Brazil were impacting harvest yields, causing a reduction in supply. Labour […]]]></summary>
         <author>
             <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Laundering Carbon—The Gulf's ‘New Scramble for Africa']]></title>
-        <id>https://www.cadtm.org/Laundering-Carbon-The-Gulf-s-New-Scramble-for-Africa</id>
-        <link href="https://www.cadtm.org/Laundering-Carbon-The-Gulf-s-New-Scramble-for-Africa"/>
-        <updated>2024-08-08T13:13:21.000Z</updated>
-        <summary type="html"><![CDATA[In early November 2023, shortly before the COP28 summit opened in Dubai, a hitherto obscure UAE firm attracted significant media attention around news of their prospective land deals in Africa. 
- Reports suggested that Blue Carbon—a company privately owned by Sheikh Ahmed al-Maktoum, a member of Dubai's ruling family—had signed deals—a land grab enacted in the name of climate change mitigation. In response, Blue Carbon insisted the discussions were merely exploratory and would require (...)
-English
-
-/ 
-Ecological debt, 
-Africa, 
-Ecology/Climate]]></summary>
-        <author>
-            <name>Adam Hanieh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Automatic SSL/TLS: securing and simplifying origin connectivity]]></title>
-        <id>66b406ef4a25d6000ae1ca70</id>
-        <link href="https://blog.cloudflare.com/introducing-automatic-ssl-tls-securing-and-simplifying-origin-connectivity"/>
-        <updated>2024-08-08T13:05:18.000Z</updated>
-        <summary type="html"><![CDATA[This new Automatic SSL/TLS setting will maximize and simplify the encryption modes Cloudflare uses to communicate with origin servers by using the SSL/TLS Recommender]]></summary>
-        <author>
-            <name>Alex Krivit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Celebrating one year of Project Cybersafe Schools]]></title>
-        <id>66b360254a25d6000ae1c9cb</id>
-        <link href="https://blog.cloudflare.com/celebrating-one-year-of-project-cybersafe-schools"/>
-        <updated>2024-08-08T13:00:25.000Z</updated>
-        <summary type="html"><![CDATA[August 8, 2024, marks the first anniversary of Project Cybersafe Schools, Cloudflare’s initiative to provide small K-12 public school districts in the United States with a package of Zero Trust cybersecurity solutions – for free, and with no time limit]]></summary>
-        <author>
-            <name>Zaid Zaid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Persistence of Global Capitalism's Long Depression]]></title>
-        <id>https://www.cadtm.org/The-Persistence-of-Global-Capitalism-s-Long-Depression</id>
-        <link href="https://www.cadtm.org/The-Persistence-of-Global-Capitalism-s-Long-Depression"/>
-        <updated>2024-08-08T10:49:42.000Z</updated>
-        <summary type="html"><![CDATA[While the Biden administration and its liberal apologists crow about the economic recovery, in reality US capitalism, and indeed global capitalism, remain stuck in a slump with seemingly no end in sight. Spectre's Ashley Smith interviews Michael Roberts about the state of the US and world economy, the reasons for what he calls the Long Depression, and how it is driving political polarization within countries and imperial rivalries between the globe's dominant and rising powers. 
-English
-
-/ 
-United States of America (USA), 
-Capitalism, 
-Financial crisis]]></summary>
-        <author>
-            <name>Ashley Smith, Michael Roberts</name>
         </author>
     </entry>
 </feed>

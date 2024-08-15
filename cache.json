@@ -37,7 +37,18 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": []
+      "articles": [
+        {
+          "id": "663012dc40f89e066329be90a662febacc172e3c",
+          "author": "Ashley DeLoach",
+          "description": "As part of the re:Invent 2023 keynote, Dr. Werner Vogels introduced the Frugal Architect mindset. This mindset emphasizes the importance of continuous learning, curiosity, and regular revision of architectural choices with a focus on cost and sustainability. Cost and sustainability should be treated as critical non-functional requirements, alongside factors like security, compliance, and performance. The […]",
+          "link": "https://aws.amazon.com/blogs/architecture/achieving-frugal-architecture-using-the-aws-well-architected-framework-guidance/",
+          "publishedOn": "2024-08-14T19:55:53.000Z",
+          "wordCount": 2906,
+          "title": "Achieving Frugal Architecture using the AWS Well-Architected Framework guidance",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2024/02/23/well-architected-blog-logo.png"
+        }
+      ]
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
@@ -79,6 +90,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/containers/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/containers/",
       "articles": [
+        {
+          "id": "3adac2c0ec9122f00dd8e58fe5412f2d5a1d5f9f",
+          "author": "Alex Kestner",
+          "description": "Introduction In November 2021, AWS announced the launch of v0.5 of Karpenter, “a new open source Kubernetes cluster auto scaling project.” Originally conceived as a flexible, dynamic, and high-performance alternative to the Kubernetes Cluster Autoscaler, in the nearly three years since then Karpenter has evolved substantially into a fully featured, Kubernetes native node lifecycle manager. […]",
+          "link": "https://aws.amazon.com/blogs/containers/announcing-karpenter-1-0/",
+          "publishedOn": "2024-08-14T20:56:15.000Z",
+          "wordCount": 3120,
+          "title": "Announcing Karpenter 1.0",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/08/12/Featured-images-for-Containers-Blog-1-1260x630.jpg"
+        },
         {
           "id": "94c09e9e264ea0f58ded29d7f22edf19a693faf4",
           "author": "Andreas Asuja",
@@ -506,7 +527,7 @@
           "description": "from Dean Baker The effort to bring back manufacturing jobs has been a major theme in the 2024 election. Both parties say they consider this a high priority for the next administration. However, there is a notable difference in that the Biden-Harris administration has actively supported an increase in unionization, while the Republicans have indicated, […]",
           "link": "https://rwer.wordpress.com/2024/08/13/manufacturing-jobs-unions-made-them-good-not-the-factories/",
           "publishedOn": "2024-08-13T21:53:33.000Z",
-          "wordCount": 4380,
+          "wordCount": 4383,
           "title": "Manufacturing jobs: unions made them good, not the factories",
           "imageUrl": "https://cepr.net/wp-content/uploads/2024/08/Book2_5241_image001-2.png"
         },
@@ -516,7 +537,7 @@
           "description": "from Lars Syll This is not new to most of you of course. You are already steeped in McCloskey’s Rhetoric. Or you ought to be. After all economists are simply telling stories about the economy. Sometimes we are taken in. Sometimes we are not. Unfortunately McCloskey herself gets a little too caught up in her […]",
           "link": "https://rwer.wordpress.com/2024/08/12/deirdre-mccloskeys-shallow-and-misleading-rhetoric/",
           "publishedOn": "2024-08-12T15:13:13.000Z",
-          "wordCount": 4209,
+          "wordCount": 4218,
           "title": "Deirdre McCloskey’s shallow and misleading rhetoric",
           "imageUrl": "https://larspsyll.wordpress.com/wp-content/uploads/2015/08/spin-meme-generator-dont-say-capitalism-replace-it-with-either-economic-freedom-or-free-market-3ba401.jpg?w=360"
         },
@@ -526,7 +547,7 @@
           "description": "from Peter Radford – a critique of the absurdity of economics I finally read “The Accountability Machine”, the book by Dan Davies.  It’s worth the effort.  You can read it in a number of ways.  As a peon to cybernetics and Stafford Beer.  As a critique of the absurdity of economics.  As a summary of […]",
           "link": "https://rwer.wordpress.com/2024/08/08/a-review-of-dan-davies-book/",
           "publishedOn": "2024-08-08T21:17:54.000Z",
-          "wordCount": 5416,
+          "wordCount": 5418,
           "title": "A review of Dan Davies’ book",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -549,7 +570,7 @@
           "description": "~ Today's Water Cooler: Politics, Syndemics ~",
           "link": "https://www.nakedcapitalism.com/2024/08/200pm-water-cooler-8-14-2024.html",
           "publishedOn": "2024-08-14T18:00:46.000Z",
-          "wordCount": 7984,
+          "wordCount": 17433,
           "title": "2:00PM Water Cooler 8/14/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/helper_olympic.png"
         },
@@ -559,7 +580,7 @@
           "description": "An effort to track culture changes over time via diversity of coiffure and attire....but the data has some not-acknowledged biases.",
           "link": "https://www.nakedcapitalism.com/2024/08/culture-clash-what-14-million-images-tell-us-about-times-a-changin.html",
           "publishedOn": "2024-08-14T13:59:40.000Z",
-          "wordCount": 4587,
+          "wordCount": 4909,
           "title": "Culture Clash: What 14 Million Images Tell Us About Times A-Changin’",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/00-culture.png"
         },
@@ -569,7 +590,7 @@
           "description": "Our vivid daily links: runaway turtle, Ozempic as magic? Covid Olympics, King Coal still reigns, China's rising diplomatic power, CIA in Argentina, Iran reaffirms retaliation, Kursk incursion debate, DEF CON Bluetooth and WiFI warning, Kamala planting fake news, EU retreats on Must, Google breakup? VCs heart jerks",
           "link": "https://www.nakedcapitalism.com/2024/08/links-8-14-2024.html",
           "publishedOn": "2024-08-14T10:55:10.000Z",
-          "wordCount": 18149,
+          "wordCount": 20475,
           "title": "Links 8/14/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/00-sheep-scaled.jpg"
         },
@@ -579,7 +600,7 @@
           "description": "Recalling what good union jobs  once meant for workers and communities and describing some damage done by the war on labor",
           "link": "https://www.nakedcapitalism.com/2024/08/reflections-on-the-war-on-work-as-a-war-on-workers.html",
           "publishedOn": "2024-08-14T10:54:04.000Z",
-          "wordCount": 6756,
+          "wordCount": 7478,
           "title": "Reflections on the War on Work as a War on Workers",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/00-workers.png"
         },
@@ -589,7 +610,7 @@
           "description": "The FDA is wary of approving club drugs like MDMA and psychedelics for medial purposes.",
           "link": "https://www.nakedcapitalism.com/2024/08/fda-rejects-mdma-assisted-therapy-for-ptsd-treatment-a-drug-researcher-explains-the-challenges-psychedelics-face.html",
           "publishedOn": "2024-08-14T10:53:34.000Z",
-          "wordCount": 5974,
+          "wordCount": 6222,
           "title": "FDA Rejects MDMA-Assisted Therapy for PTSD Treatment – A Drug Researcher Explains the Challenges Psychedelics Face",
           "imageUrl": null
         },
@@ -599,7 +620,7 @@
           "description": "On Intel's storied history and self-destruction via greed, and now US stealthy financial support with no accountability.",
           "link": "https://www.nakedcapitalism.com/2024/08/america-needs-intel-economically-and-politically-but-is-it-too-late.html",
           "publishedOn": "2024-08-14T07:16:12.000Z",
-          "wordCount": 8401,
+          "wordCount": 8574,
           "title": "America Needs Intel Economically and Politically—But Is It Too Late?",
           "imageUrl": null
         },
@@ -609,7 +630,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics; Transcript of Trump's X interview; NIH shuts down its COVID-19 treatment guidelines website for special populations; geofence warrants  banned by Fifth Circuit; €16.9 trillion in labour  extorted from the Global South by the Global North. ~",
           "link": "https://www.nakedcapitalism.com/2024/08/200pm-water-cooler-8-13-2024.html",
           "publishedOn": "2024-08-13T18:00:30.000Z",
-          "wordCount": 14838,
+          "wordCount": 14868,
           "title": "2:00PM Water Cooler 8/13/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/helper_olympic.png"
         },
@@ -619,7 +640,7 @@
           "description": "More and more, officials are using anger as an excuse of censorship and arrests. Is capitalism the root? And is there actually \"mass anger\"?",
           "link": "https://www.nakedcapitalism.com/2024/08/capitalism-mass-anger-and-2024-elections.html",
           "publishedOn": "2024-08-13T14:07:30.000Z",
-          "wordCount": 9022,
+          "wordCount": 9238,
           "title": "Capitalism, Mass Anger, and 2024 Elections",
           "imageUrl": null
         },
@@ -629,7 +650,7 @@
           "description": "Our vast daily links: Pigeon cannabis drop, kink scale, China bond market clampdown, Bangladesh coup post-mortems, Germany stallout, UK authoritarianism, COVID-Monkey-AIDS-Pox, Israel downgrade, Kursk offensive stalls, Emmanuel Todd, Trump-Musk chat, EU + UK Musk censorship threats, Mr. Markte worries",
           "link": "https://www.nakedcapitalism.com/2024/08/links-8-13-2024.html",
           "publishedOn": "2024-08-13T10:55:13.000Z",
-          "wordCount": 17757,
+          "wordCount": 17787,
           "title": "Links 8/13/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/00-Doodles-on-tree.jpg"
         },
@@ -639,7 +660,7 @@
           "description": "\"We see ATM blasts all over the world, but the intensity that we experience in Germany is really in a league of its own.\"",
           "link": "https://www.nakedcapitalism.com/2024/08/wave-of-atm-bombings-in-cash-addicted-germany-prompts-calls-for-fewer-atms-and-less-use-of-cash.html",
           "publishedOn": "2024-08-13T10:45:40.000Z",
-          "wordCount": 7606,
+          "wordCount": 7636,
           "title": "Wave of ATM Bombings in “Cash-Addicted” Germany Prompts Calls for Fewer ATMs and Less Use of Cash",
           "imageUrl": null
         }
@@ -689,26 +710,6 @@
           "wordCount": 3666,
           "title": "Advancing Threat Intelligence: JA4 fingerprints and inter-request signals",
           "imageUrl": "http://blog.cloudflare.com/content/images/2024/06/BLOG-2361-1.png"
-        },
-        {
-          "id": "66b406ef4a25d6000ae1ca70",
-          "author": "Alex Krivit",
-          "description": "This new Automatic SSL/TLS setting will maximize and simplify the encryption modes Cloudflare uses to communicate with origin servers by using the SSL/TLS Recommender",
-          "link": "https://blog.cloudflare.com/introducing-automatic-ssl-tls-securing-and-simplifying-origin-connectivity",
-          "publishedOn": "2024-08-08T13:05:18.000Z",
-          "wordCount": 3093,
-          "title": "Introducing Automatic SSL/TLS: securing and simplifying origin connectivity",
-          "imageUrl": "http://blog.cloudflare.com/content/images/2024/08/Introducing-Automatic-SSL-TLS--securing-and-simplifying-origin-connectivity-OG-1.png"
-        },
-        {
-          "id": "66b360254a25d6000ae1c9cb",
-          "author": "Zaid Zaid",
-          "description": "August 8, 2024, marks the first anniversary of Project Cybersafe Schools, Cloudflare’s initiative to provide small K-12 public school districts in the United States with a package of Zero Trust cybersecurity solutions – for free, and with no time limit",
-          "link": "https://blog.cloudflare.com/celebrating-one-year-of-project-cybersafe-schools",
-          "publishedOn": "2024-08-08T13:00:25.000Z",
-          "wordCount": 1807,
-          "title": "Celebrating one year of Project Cybersafe Schools",
-          "imageUrl": "http://blog.cloudflare.com/content/images/2024/08/image1-4.png"
         }
       ]
     },
@@ -730,12 +731,22 @@
       "siteUrl": "https://kubernetes.io/",
       "articles": [
         {
+          "id": "https://kubernetes.io/blog/2024/08/15/consistent-read-from-cache-beta/",
+          "author": null,
+          "description": "Kubernetes is renowned for its robust orchestration of containerized applications,\nbut as clusters grow, the demands on the control plane can become a bottleneck.\nA key challenge has been ensuring strongly consistent reads from the etcd datastore,\nrequiring resource-intensive quorum reads.\nToday, the Kubernetes community is excited to announce a major improvement:\nconsistent reads from cache, graduating to Beta in Kubernetes v1.31.\nWhy consistent reads matter\nConsistent reads are essential for ensuring that Kubernetes components have an accurate view of the latest cluster state.\nGuaranteeing consistent reads is crucial for maintaining the accuracy and reliability of Kubernetes operations,\nenabling components to make informed decisions based on up-to-date information.\nIn large-scale cluster…",
+          "link": "https://kubernetes.io/blog/2024/08/15/consistent-read-from-cache-beta/",
+          "publishedOn": "2024-08-15T00:00:00.000Z",
+          "wordCount": 4537,
+          "title": "Kubernetes v1.31: Accelerating Cluster Performance with Consistent Reads from Cache",
+          "imageUrl": null
+        },
+        {
           "id": "https://kubernetes.io/blog/2024/08/14/kubernetes-1-31-moving-cgroup-v1-support-maintenance-mode/",
           "author": null,
           "description": "As Kubernetes continues to evolve and adapt to the changing landscape of\ncontainer orchestration, the community has decided to move cgroup v1 support\ninto maintenance mode in v1.31.\nThis shift aligns with the broader industry's move towards cgroup v2, offering\nimproved functionalities: including scalability and a more consistent interface.\nBefore we dive into the consequences for Kubernetes, let's take a step back to\nunderstand what cgroups are and their significance in Linux.\nUnderstanding cgroups\nControl groups, or\ncgroups, are a Linux kernel feature that allows the allocation, prioritization,\ndenial, and management of system resources (such as CPU, memory, disk I/O,\nand network bandwidth) among processes. This functionality is crucial for\nmaintaining system performance and ensuring that…",
           "link": "https://kubernetes.io/blog/2024/08/14/kubernetes-1-31-moving-cgroup-v1-support-maintenance-mode/",
           "publishedOn": "2024-08-14T00:00:00.000Z",
-          "wordCount": 4419,
+          "wordCount": 4428,
           "title": "Kubernetes 1.31: Moving cgroup v1 Support into Maintenance Mode",
           "imageUrl": null
         },
@@ -745,7 +756,7 @@
           "description": "Announcing the graduation to General Availability (GA) of the PersistentVolume lastTransitionTime status\nfield, in Kubernetes v1.31!\nThe Kubernetes SIG Storage team is excited to announce that the \"PersistentVolumeLastPhaseTransitionTime\" feature, introduced\nas an alpha in Kubernetes v1.28, has now reached GA status and is officially part of the Kubernetes v1.31 release. This enhancement\nhelps Kubernetes users understand when a PersistentVolume transitions between\ndifferent phases, allowing for more efficient and informed resource management.\nFor a v1.31 cluster, you can now assume that every PersistentVolume object has a\n.status.lastTransitionTime field, that holds a timestamp of\nwhen the volume last transitioned its phase. This change is not immediate; the new field will be populated whenever a PersistentVolume\nis updated and first transitions between phases (Pending, Bound, or Released) after upgrading to Kubernetes v1.31.\nWhat changed?\nThe API strategy for updating PersistentVolume objects has been modified to populate the .status.lastTransitionTime field with the\ncurrent timestamp whenever a PersistentVolume transitions phases. Users are allowed to set this field manually if needed, but it will\nbe overwritten when the PersistentVolume transitions phases again.\nFor more details, read about\nPhase transition timestamp in the Kubernetes documentation.\nYou can also read the previous blog post announcing the feature as alpha in v1.28.\nTo provide feedback, join our Kubernetes Storage Special-Interest-Group (SIG)\nor participate in discussions on our public Slack channel.",
           "link": "https://kubernetes.io/blog/2024/08/14/last-phase-transition-time-ga/",
           "publishedOn": "2024-08-14T00:00:00.000Z",
-          "wordCount": 4096,
+          "wordCount": 4105,
           "title": "Kubernetes v1.31: PersistentVolume Last Phase Transition Time Moves to GA",
           "imageUrl": null
         },
@@ -755,7 +766,7 @@
           "description": "Editors: Matteo Bianchi, Yigit Demirbas, Abigail McCarthy, Edith Puclla, Rashan Smith\nAnnouncing the release of Kubernetes v1.31: Elli!\nSimilar to previous releases, the release of Kubernetes v1.31 introduces new\nstable, beta, and alpha features.\nThe consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community.\nThis release consists of 45 enhancements.\nOf those enhancements, 11 have graduated to Stable, 22 are entering Beta,\nand 12 have graduated to Alpha.\nRelease theme and logo\nThe Kubernetes v1.31 Release Theme is \"Elli\".\nKubernetes v1.31's Elli is a cute and joyful dog, with a heart of gold and a nice sailor's cap, as a playful wink to the huge and diverse family of Kubernetes contributors.\nKubernetes v1.31 mar…",
           "link": "https://kubernetes.io/blog/2024/08/13/kubernetes-v1-31-release/",
           "publishedOn": "2024-08-13T00:00:00.000Z",
-          "wordCount": 7764,
+          "wordCount": 7773,
           "title": "Kubernetes v1.31: Elli",
           "imageUrl": null
         },
@@ -765,7 +776,7 @@
           "description": "Kubernetes components use on-off switches called feature gates to manage the risk of adding a new feature.\nThe feature gate mechanism is what enables incremental graduation of a feature through the stages Alpha, Beta, and GA.\nKubernetes components, such as kube-controller-manager and kube-scheduler, use the client-go library to interact with the API.\nThe same library is used across the Kubernetes ecosystem to build controllers, tools, webhooks, and more. client-go now includes\nits own feature gating mechanism, giving developers and cluster administrators more control over how they adopt client features.\nTo learn more about feature gates in Kubernetes, visit Feature Gates.\nMotivation\nIn the absence of client-go feature gates, each new feature separated feature availability from enablement i…",
           "link": "https://kubernetes.io/blog/2024/08/12/feature-gates-in-client-go/",
           "publishedOn": "2024-08-12T00:00:00.000Z",
-          "wordCount": 4695,
+          "wordCount": 4704,
           "title": "Introducing Feature Gates to Client-Go: Enhancing Flexibility and Control",
           "imageUrl": null
         }
@@ -781,7 +792,18 @@
       "title": "Engineering at Meta",
       "feedUrl": "https://code.facebook.com/posts/rss/",
       "siteUrl": "https://engineering.fb.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://engineering.fb.com/?p=21542",
+          "author": null,
+          "description": "We launched Meta AI with the goal of giving people new ways to be more productive and unlock their creativity with generative AI (GenAI). But GenAI also comes with challenges of scale. As we deploy new GenAI technologies at Meta, we also focus on delivering these services to people as quickly and efficiently as possible. [...]\nRead More...\nThe post How Meta animates AI-generated images at scale appeared first on Engineering at Meta.",
+          "link": "https://engineering.fb.com/2024/08/14/production-engineering/how-meta-animates-ai-generated-images-at-scale/",
+          "publishedOn": "2024-08-14T21:20:04.000Z",
+          "wordCount": 3342,
+          "title": "How Meta animates AI-generated images at scale",
+          "imageUrl": "https://engineering.fb.com/wp-content/uploads/2024/08/image2.gif"
+        }
+      ]
     },
     {
       "title": "Hacker News: Best Comments",
@@ -789,12 +811,42 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=41247704",
+          "author": "slazaro",
+          "description": "I'd echo the sentiment that this is amazing, and that a TV guide would be awesome.\nI'd also suggest maybe adding the channel names (like the comment you posted here) to the app itself (although i think it's cool when it's unnamed and you get the old-school feeling of channels just being numbers).\nAlso, I'd love to have permalinks for the channels. Not for the individual videos themselves, but just a link that when sharing would bring somebody else to the same channel you're watching right now.\nAnother thing, although probably outside your control, is that I use a Firefox extension called \"SoundFixer\" that I use to force the youtube audio to mono (since a lot of channels are annoying to me using headphones, they pan the audio sources too hard left/right and it's super distracting), but it doesn't seem to work on this website, probably because of the way they're embedded. I don't know if this can be changed somehow, or have a mode to force mono audio (which would be also oldschool like old TVs with one speaker only!). It's probably too niche and hard to do though.\nAlso I don't seem to find any volume control except mute?",
+          "link": "https://news.ycombinator.com/item?id=41247704",
+          "publishedOn": "2024-08-14T16:12:34.000Z",
+          "wordCount": null,
+          "title": "New comment by slazaro in \"Show HN: If YouTube had actual channels\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=41247268",
+          "author": "tantalor",
+          "description": "The best part of this is the channel doesn't pause when you flip away from it. It is always \"running\" and if you flip away you will miss it. That builds in a FOMO trade-off which causes user to automatically/subconciously decide on channel they most want to watch, because they can't watch everything.",
+          "link": "https://news.ycombinator.com/item?id=41247268",
+          "publishedOn": "2024-08-14T15:33:35.000Z",
+          "wordCount": 2780,
+          "title": "New comment by tantalor in \"Show HN: If YouTube had actual channels\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=41247037",
+          "author": "hadisafa",
+          "description": "Channel 1: Science and Technology\nChannel 2: Travel and Events\nChannel 3: Food\nChannel 4: Architecture\nChannel 5: Film and Animation\nChannel 6: Documentaries\nChannel 7: Comedy\nChannel 8: Music\nChannel 9: Autos and Vehicles\nChannel 10: News and Politics\nChannel 11: UFC\nChannel 12: Podcasts/Interviews/Talk Shows",
+          "link": "https://news.ycombinator.com/item?id=41247037",
+          "publishedOn": "2024-08-14T15:11:33.000Z",
+          "wordCount": null,
+          "title": "New comment by hadisafa in \"Show HN: If YouTube had actual channels\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=41243048",
           "author": "tgsovlerkhgsel",
           "description": "The bug in the legal system is that by filing this motion/claim, Disney can only win.\nIn the unlikely best case, they get the case dismissed, but even in the most likely case that the motion is denied, they win by wearing down their opponent who has much more limited resources and is personally affected by the case dragging out, i.e. more likely to accept a (lower) settlement than without this tactic. The only downside is a tiny bit of legal costs.\nCourts should be able to issue sanctions/extra damages for the use of such tactics. If using such a tactic turned the claim from \"you killed this person negligently\" to \"you killed this person negligently, then willfully tried sleazy tricks to create additional suffering for the husband\", and had the potential to double the award, companies would be much less eager to play this game.",
           "link": "https://news.ycombinator.com/item?id=41243048",
           "publishedOn": "2024-08-14T06:01:25.000Z",
-          "wordCount": 5571,
+          "wordCount": null,
           "title": "New comment by tgsovlerkhgsel in \"Disney seeks dismissal of wrongful death lawsuit citing waiver in Disney+ terms\"",
           "imageUrl": null
         },
@@ -824,18 +876,8 @@
           "description": "\"Unlock Gemini Advanced for a year on us ($239 value)\"\nWho thinks they are booking phone sales as AI revenue to juice the numbers?",
           "link": "https://news.ycombinator.com/item?id=41237483",
           "publishedOn": "2024-08-13T17:33:00.000Z",
-          "wordCount": 2209,
-          "title": "New comment by bloggie in \"Google Pixel 9 Pro\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41236091",
-          "author": "chongli",
-          "description": "The controversy is that we get 2 different numbers depending on which method (cosmic microwave background vs cosmic distance ladder) we use to calculate the present rate of expansion. These numbers used to have their error bars overlapping, so we assumed they would eventually converge to the true value. But as we get more data the opposite is happening: the numbers are diverging and their error bars are shrinking such that they no longer overlap.\nThis tells us that either our model of the universe is wrong (therefore the cosmic microwave background method is giving us an incorrect answer) or that something is wrong with how we're calculating the distances along the cosmic distance ladder. The latter was originally the assumption that should be proven true with more and better data from newer telescopes. This is now turning out not to be the case: our cosmic distance ladder calculations seem to have been very good, so it now seems more likely that our model of the universe is wrong.",
-          "link": "https://news.ycombinator.com/item?id=41236091",
-          "publishedOn": "2024-08-13T14:55:37.000Z",
           "wordCount": null,
-          "title": "New comment by chongli in \"The Webb Telescope further deepens the Hubble tension controversy in cosmology\"",
+          "title": "New comment by bloggie in \"Google Pixel 9 Pro\"",
           "imageUrl": null
         },
         {
@@ -904,7 +946,7 @@
           "description": "Apple has quietly been one of the biggest culprits in the proliferation of subscription software. They still don't support upgrades/upgrade pricing. Subscriptions are also the easiest way to implement a software demo or trial in the App Store. Finally they use their control of the App Store to coerce anyone doing something different than monthly/yearly subscriptions into that model (as we see here).\nIt sucks big time.",
           "link": "https://news.ycombinator.com/item?id=41227566",
           "publishedOn": "2024-08-12T18:12:23.000Z",
-          "wordCount": 4073,
+          "wordCount": null,
           "title": "New comment by AlexandrB in \"Apple's requirements are about to hit creators and fans on Patreon\"",
           "imageUrl": null
         },
@@ -954,18 +996,8 @@
           "description": "People always under-estimate the cost of properly learning a language.  At any given time I tend to have a \"main go-to language\".  I typically spend 2-4 years getting to the point where I can say I \"know\" a language.  Then I try to stick to it long enough for the investment to pay off.  Usually 8-10 years.\nA surprising number of people think this is a very long time. It isn't.  This is typically the time it takes to understand enough of the language, the compiler, the runtime, the standard library, and idiomatic ways to do things.  It is the time it takes to where you can start to meaningfully contribute to evolving how the language is used and meaningfully coach architects, programmers and system designers. It is also what you need to absorb novices into the organization and train them fast.",
           "link": "https://news.ycombinator.com/item?id=41224825",
           "publishedOn": "2024-08-12T14:31:51.000Z",
-          "wordCount": null,
+          "wordCount": 8805,
           "title": "New comment by bborud in \"Go is my hammer, and everything is a nail\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41216030",
-          "author": "erlend_sh",
-          "description": "In other exciting Servo-browser news, Servo and Redox OS have submitted a joint proposal to fund the porting of SpiderMonkey and WebRender to Redox: https://www.redox-os.org/news/this-month-240731/",
-          "link": "https://news.ycombinator.com/item?id=41216030",
-          "publishedOn": "2024-08-11T13:33:33.000Z",
-          "wordCount": null,
-          "title": "New comment by erlend_sh in \"Verso – Web browser built on top of the Servo web engine\"",
           "imageUrl": null
         },
         {
@@ -994,7 +1026,7 @@
           "description": "Was shocked to hear this news. I worked for Google years ago but I was in the NYC office, so we didn't run into the YouTube folks much.\nOpinions about YouTube may be mixed here on HN, but it is objectively one of the most successful businesses in tech or media to emerge in the past 15 years. If it weren't buried inside Alphabet, Youtube would be worth on the order of $400 billion, more than Disney and Comcast combined. It's a weird mix of a huge creator monetization network, a music channel, an education platform, a forever-store of niche content, and a utility.\nIt's also not a business that rested on it's laurels. It's easy to forget how novel creator monetization was when YouTube adopted it. They do a lot of active work to manage their creators, and now have grown into a music and podcast platform that is challenging Apple. To top it off, YouTube TV, despite costing just as much as cable, is objectively a good product.\nFew products have the brand, the reach, monetization, and the endurance that YouTube has had within Google. And I know for a fact that this is in no small part due to the way it was managed.\nI've probably watched tens of thousands of hours of YouTube at this point. Some of it sublime, some of it absurd, some of it critical for my work or my degree. I couldn't imagine a world without it.\nRIP.",
           "link": "https://news.ycombinator.com/item?id=41207918",
           "publishedOn": "2024-08-10T07:26:05.000Z",
-          "wordCount": null,
+          "wordCount": 15044,
           "title": "New comment by lchengify in \"Susan Wojcicki has died\"",
           "imageUrl": null
         },
@@ -1014,7 +1046,7 @@
           "description": "The before/after ECU layout diagram is very instructional.\nI like to imagine some kind of engineering “meet cute” whereby, one random day, the headlights engineer and the parking radar engineer happen to be working on the front of the car together.  Their eyes meet:\n“hey, I’m John — I didn’t know you had an ECU here!”,\n“hi, I’m Claire — wow, you have an ECU right up front too?  It’s, like, right next to mine and we never knew!”\n“I know, crazy right?!  Hey this is going to sound really forward and I don’t normally do this but I’m only running at 70% compute capacity.  I don’t suppose you need any real-time budget this evening?”\n“So funny you should ask, I was just about to run a whole bunch of heavy new wiring to…”\nAnd in a story as old as time they get ECU married and raise their control loops in the same front-of-vehicle ECU together instead of living their separate, lonely, ECU-right-next-to-each-other-and-they-didn’t-know-it lives.",
           "link": "https://news.ycombinator.com/item?id=41207331",
           "publishedOn": "2024-08-10T04:32:52.000Z",
-          "wordCount": null,
+          "wordCount": 355,
           "title": "New comment by gorgoiler in \"Rivian reduced electrical wiring by 1.6 miles and 44 pounds\"",
           "imageUrl": null
         },
@@ -1026,16 +1058,6 @@
           "publishedOn": "2024-08-10T03:51:16.000Z",
           "wordCount": null,
           "title": "New comment by oefrha in \"Building a highly-available web service without a database\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41206823",
-          "author": "asveikau",
-          "description": "People tend to get defensive at even the most vague insinuation that cannabis may have potential negative health effects. Comment section already has evidence of this.\nEdit just to clarify: I'm generally in favor of legalization and I don't believe in restricting responsible use by adults. I've just noticed really strong reactions to this kind of discussion.",
-          "link": "https://news.ycombinator.com/item?id=41206823",
-          "publishedOn": "2024-08-10T02:11:21.000Z",
-          "wordCount": null,
-          "title": "New comment by asveikau in \"Daily marijuana use linked to increased risk of deadly head and neck cancers\"",
           "imageUrl": null
         },
         {
@@ -1064,7 +1086,7 @@
           "description": "This is Jake’s sister. He was reading and replying to as much as he could up until the end. He loved this community and would in turn be touched by this entire thread. Thank you all who supported him and read and shared his writing. He said it was bittersweet to go out on top.",
           "link": "https://news.ycombinator.com/item?id=41205326",
           "publishedOn": "2024-08-09T20:52:42.000Z",
-          "wordCount": null,
+          "wordCount": 303,
           "title": "New comment by rseliger in \"Jake Seliger has died\"",
           "imageUrl": null
         },
@@ -1096,12 +1118,32 @@
       "siteUrl": "https://crookedtimber.org",
       "articles": [
         {
+          "id": "https://crookedtimber.org/?p=52985",
+          "author": "John Q",
+          "description": "… at least in the “Anglosphere” One of the striking features of the racist riots in Britain has been the wide spread of ages among those (nearly all men) convicted so far[1]. This is unusual, since criminal violence of all kinds is most commonly associated with young men. And it’s a counter-example to what has […]",
+          "link": "https://crookedtimber.org/2024/08/15/young-men-arent-shifting-right/",
+          "publishedOn": "2024-08-15T01:12:33.000Z",
+          "wordCount": 2217,
+          "title": "Young men aren’t shifting right …",
+          "imageUrl": "https://crookedtimber.org/wp-content/uploads/2024/08/Screenshot-2024-08-15-at-11.05.18?AM.png"
+        },
+        {
+          "id": "https://crookedtimber.org/?p=52983",
+          "author": "John Q",
+          "description": "As requested by a couple of commenters, I’ve created a separate thread to discuss the issues raised by commenter “closet conservative” in response to my post on US academia. I’ll moderate, but not participate",
+          "link": "https://crookedtimber.org/2024/08/15/side-discussion/",
+          "publishedOn": "2024-08-15T00:58:46.000Z",
+          "wordCount": 1716,
+          "title": "Side discussion",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "https://crookedtimber.org/?p=52981",
           "author": "Chris Bertram",
           "description": "I spent yesterday evening watching Agnieszka Holland’s remarkable film “Green Border” which has just been released to streaming in the UK after spending about 30 seconds in cinemas. The episode that provides the film’s context is the 2021 decision of Alexander Lukashenko, dictator of Belarus and Putin’s puppet, to make use of refugees as a […]",
           "link": "https://crookedtimber.org/2024/08/14/green-border/",
           "publishedOn": "2024-08-14T10:04:13.000Z",
-          "wordCount": 2578,
+          "wordCount": 2569,
           "title": "Green Border",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1111,7 +1153,7 @@
           "description": "Earlier this week, I received my contributor copy of The Art of Teaching Philosophy: Reflective Values and Concrete Practices, edited by Brynn Welch.[1] It’s an exciting book, and I’m proud to have gotten to contribute to it. My chapter on advising graduate students about teaching was coauthored with an excellent teacher (and researcher), a near-former […]",
           "link": "https://crookedtimber.org/2024/08/13/p-sets-in-philosophy/",
           "publishedOn": "2024-08-13T13:58:57.000Z",
-          "wordCount": 3486,
+          "wordCount": 3619,
           "title": "P-Sets in Philosophy",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1121,7 +1163,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/08/11/sunday-photoblogging-cranes/",
           "publishedOn": "2024-08-11T10:23:06.000Z",
-          "wordCount": 1741,
+          "wordCount": 1732,
           "title": "Sunday photoblogging: Cranes",
           "imageUrl": "https://live.staticflickr.com/65535/53896280657_d1fa19c7ea.jpg"
         },
@@ -1131,7 +1173,7 @@
           "description": "Often on a Friday evening, we order a curry from our local “Indian” takeaway. They deliver, but it is easier and quicker for me to walk round and collect, and, anyway, I enjoy chatting to the guy behind the counter. He’s a Man United fan, I’m Liverpool, so we have some banter with a bit […]",
           "link": "https://crookedtimber.org/2024/08/10/fascist-violence-and-the-imaginative-failure-of-the-labour-government/",
           "publishedOn": "2024-08-10T07:55:31.000Z",
-          "wordCount": 4567,
+          "wordCount": 4558,
           "title": "Fascist violence and the imaginative failure of the Labour government",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -1181,26 +1223,6 @@
           "wordCount": 4781,
           "title": "The unfulfilled promises of microcredit: some new evidence",
           "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L153xH80/7d67b536955c2d468284cb35bf57de-31f2b.png"
-        },
-        {
-          "id": "https://www.cadtm.org/Laundering-Carbon-The-Gulf-s-New-Scramble-for-Africa",
-          "author": "Adam Hanieh",
-          "description": "In early November 2023, shortly before the COP28 summit opened in Dubai, a hitherto obscure UAE firm attracted significant media attention around news of their prospective land deals in Africa. \n Reports suggested that Blue Carbon—a company privately owned by Sheikh Ahmed al-Maktoum, a member of Dubai's ruling family—had signed deals—a land grab enacted in the name of climate change mitigation. In response, Blue Carbon insisted the discussions were merely exploratory and would require (...)\nEnglish\n\n/ \nEcological debt, \nAfrica, \nEcology/Climate",
-          "link": "https://www.cadtm.org/Laundering-Carbon-The-Gulf-s-New-Scramble-for-Africa",
-          "publishedOn": "2024-08-08T13:13:21.000Z",
-          "wordCount": 3565,
-          "title": "Laundering Carbon—The Gulf's ‘New Scramble for Africa'",
-          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L153xH80/7d67b536955c2d468284cb35bf57de-31f2b.png"
-        },
-        {
-          "id": "https://www.cadtm.org/The-Persistence-of-Global-Capitalism-s-Long-Depression",
-          "author": "Ashley Smith, Michael Roberts",
-          "description": "While the Biden administration and its liberal apologists crow about the economic recovery, in reality US capitalism, and indeed global capitalism, remain stuck in a slump with seemingly no end in sight. Spectre's Ashley Smith interviews Michael Roberts about the state of the US and world economy, the reasons for what he calls the Long Depression, and how it is driving political polarization within countries and imperial rivalries between the globe's dominant and rising powers. \nEnglish\n\n/ \nUnited States of America (USA), \nCapitalism, \nFinancial crisis",
-          "link": "https://www.cadtm.org/The-Persistence-of-Global-Capitalism-s-Long-Depression",
-          "publishedOn": "2024-08-08T10:49:42.000Z",
-          "wordCount": 5696,
-          "title": "The Persistence of Global Capitalism's Long Depression",
-          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L846xH445/52a07ed0e52226205a30a6ce66b4ac-ac6d4.png"
         }
       ]
     },
@@ -1228,12 +1250,22 @@
       "siteUrl": "https://disassociated.com",
       "articles": [
         {
+          "id": "https://disassociated.com/?p=8288",
+          "author": "disassociated.com",
+          "description": "Since re-booting disassociated in May 2022, I’ve been slowly (incredibly slowly) restoring selected posts from the previous version of the blog that was online between 2007 and 2017. The restored posts are tagged legacy, and also include a few posts written prior to 2007, going back to 2003. On checking as I typed this, I […]",
+          "link": "https://disassociated.com/threat-ai-demise-blogging-world-february-2015/",
+          "publishedOn": "2024-08-14T21:00:55.000Z",
+          "wordCount": 400,
+          "title": "Threat of AI, demise of blogging, the world in February 2015",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
           "id": "https://disassociated.com/?p=8281",
           "author": "disassociated.com",
           "description": "Maybe back in 2006, I was in a discussion with then Australian web designer Jen Leheny, on the then forums of the Australian INfront, a design community we had helped establish in the late 1990’s, about WordPress. I was still using static HTML files to run disassociated, but was considering migrating to the then much […]",
           "link": "https://disassociated.com/create-ai-version-yourself-instagram/",
           "publishedOn": "2024-08-13T21:00:07.000Z",
-          "wordCount": 403,
+          "wordCount": 414,
           "title": "Create an AI version of yourself on Instagram to do who knows what",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         },
@@ -1303,7 +1335,18 @@
       "title": "Last Week in Kubernetes Development",
       "feedUrl": "https://lwkd.info/feed.xml",
       "siteUrl": "https://lwkd.info/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://lwkd.info/2024/20240814",
+          "author": null,
+          "description": "Developer News",
+          "link": "https://lwkd.info/2024/20240814",
+          "publishedOn": "2024-08-14T21:00:00.000Z",
+          "wordCount": 514,
+          "title": "Week Ending August 11, 2024",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "New Left Review Sidecar recent posts",
