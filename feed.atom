@@ -1,16 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-15T12:44:42.711Z</id>
+    <id>urn:2024-08-15T18:32:01.449Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-15T12:44:42.711Z</updated>
+    <updated>2024-08-15T18:32:01.449Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[2:00PM Water Cooler 8/15/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=276771</id>
+        <link href="https://www.nakedcapitalism.com/2024/08/200pm-water-cooler-8-15-2024.html"/>
+        <updated>2024-08-15T18:00:45.000Z</updated>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics; Walter Kim on Kamala; Trump campaign shake-up; Sanders on 2020; Monkeypox ~]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nuclear is Not the Solution: M.V. Ramana]]></title>
+        <id>https://www.counterpunch.org/?p=330941</id>
+        <link href="https://www.counterpunch.org/2024/08/15/nuclear-is-not-the-solution-m-v-ramana/"/>
+        <updated>2024-08-15T17:39:38.000Z</updated>
+        <summary type="html"><![CDATA[This week on CounterPunch Radio, Erik Wallenberg and Joshua Frank interview M.V. Ramana on nuclear power and why it's not an answer to the climate crisis. Ramana is the Simons Chair in Disarmament, Global and Human Security and Professor at the School of Public Policy and Global Affairs, at the University of British Columbia in Vancouver, Canada. He is the author of The Power of Promise: Examining Nuclear Energy in India (Penguin Books, 2012) and co-editor of Prisoners of the Nuclear Dream (Orient Longman, 2003). Ramana is a member of the International Panel on Fissile Materials, the Canadian Pugwash Group, the International Nuclear Risk Assessment Group, and the team that produces the annual World Nuclear Industry Status Report. He is the recipient of a Guggenheim Fellowship and a Leo Szilard Award from the American Physical Society. 
+He is the author of the new book, “Nuclear is Not the Solution: The Folly of Atomic Power in the Age of Climate Change” published by Verso.
+More
+The post Nuclear is Not the Solution: M.V. Ramana appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Josh Frank</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“New Keynesian” DSGE models]]></title>
+        <id>http://rwer.wordpress.com/?p=45540</id>
+        <link href="https://rwer.wordpress.com/2024/08/15/new-keynesian-dsge-models-2/"/>
+        <updated>2024-08-15T16:00:26.000Z</updated>
+        <summary type="html"><![CDATA[from Lars Syll To be fair to academia, it has realized that the pure DSGE model is incapable of explaining observable phenomena so they have introduced numerous amendments, known, oddly, as “imperfections” in the model. Long-term nominal contracts, other labour market frictions, imperfection in credit markets, all these and more are prayed in aid and, […]]]></summary>
+        <author>
+            <name>Lars Syll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Rat Race for Research Funding Delays Scientific Progress]]></title>
+        <id>https://www.nakedcapitalism.com/?p=276767</id>
+        <link href="https://www.nakedcapitalism.com/2024/08/the-rat-race-for-research-funding-delays-scientific-progress.html"/>
+        <updated>2024-08-15T15:01:09.000Z</updated>
+        <summary type="html"><![CDATA[How bad incentives and funders' love of glitz lead to poor scientific research outcomes and demotivated academics.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Anton Jäger: &ldquo;Into the Void&rdquo;]]></title>
         <id>https://newleftreview.org/sidecar/posts/into-the-void</id>
         <link href="https://newleftreview.org/sidecar/posts/into-the-void"/>
         <updated>2024-08-15T13:42:21.000Z</updated>
-        <summary type="html"><![CDATA[A reply to Richard Seymour.]]></summary>
+        <summary type="html"><![CDATA[Explaining British pogromism.]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
         </author>
@@ -194,6 +237,28 @@ The post Homophobia’s Role in Political Manipulation appeared first on Counter
         <summary type="html"><![CDATA[As requested by a couple of commenters, I’ve created a separate thread to discuss the issues raised by commenter “closet conservative” in response to my post on US academia. I’ll moderate, but not participate]]></summary>
         <author>
             <name>John Q</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: VolumeAttributesClass for Volume Modification Beta]]></title>
+        <id>https://kubernetes.io/blog/2024/08/15/kubernetes-1-31-volume-attributes-class/</id>
+        <link href="https://kubernetes.io/blog/2024/08/15/kubernetes-1-31-volume-attributes-class/"/>
+        <updated>2024-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Volumes in Kubernetes have been described by two attributes: their storage class, and
+their capacity. The storage class is an immutable property of the volume, while the
+capacity can be changed dynamically with volume
+resize.
+This complicates vertical scaling of workloads with volumes. While cloud providers and
+storage vendors often offer volumes which allow specifying IO quality of service
+(Performance) parameters like IOPS or throughput and tuning them as workloads operate,
+Kubernetes has no API which allows changing them.
+We are pleased to announce that the VolumeAttributesClass
+KEP,
+alpha since Kubernetes 1.29, will be beta in 1.31. This provides a generic,
+Kubernetes-native API for modifying volume parameters like provisioned IO.
+Like all new volume features in Kubernetes, this API is…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
         </author>
     </entry>
     <entry>
@@ -418,16 +483,6 @@ Spanish State]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[FDA Rejects MDMA-Assisted Therapy for PTSD Treatment – A Drug Researcher Explains the Challenges Psychedelics Face]]></title>
-        <id>https://www.nakedcapitalism.com/?p=276690</id>
-        <link href="https://www.nakedcapitalism.com/2024/08/fda-rejects-mdma-assisted-therapy-for-ptsd-treatment-a-drug-researcher-explains-the-challenges-psychedelics-face.html"/>
-        <updated>2024-08-14T10:53:34.000Z</updated>
-        <summary type="html"><![CDATA[The FDA is wary of approving club drugs like MDMA and psychedelics for medial purposes.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Green Border]]></title>
         <id>https://crookedtimber.org/?p=52981</id>
         <link href="https://crookedtimber.org/2024/08/14/green-border/"/>
@@ -435,16 +490,6 @@ Spanish State]]></summary>
         <summary type="html"><![CDATA[I spent yesterday evening watching Agnieszka Holland’s remarkable film “Green Border” which has just been released to streaming in the UK after spending about 30 seconds in cinemas. The episode that provides the film’s context is the 2021 decision of Alexander Lukashenko, dictator of Belarus and Putin’s puppet, to make use of refugees as a […]]]></summary>
         <author>
             <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[America Needs Intel Economically and Politically—But Is It Too Late?]]></title>
-        <id>https://www.nakedcapitalism.com/?p=276657</id>
-        <link href="https://www.nakedcapitalism.com/2024/08/america-needs-intel-economically-and-politically-but-is-it-too-late.html"/>
-        <updated>2024-08-14T07:16:12.000Z</updated>
-        <summary type="html"><![CDATA[On Intel's storied history and self-destruction via greed, and now US stealthy financial support with no accountability.]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -900,17 +945,6 @@ The post A False Accusation Put Me in Prison, a Safety Net Could Have Kept Me Ou
 The post Putting War and Peace on the Ballot appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Robert Koehler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enough With The “Stolen Valor” Whining Already]]></title>
-        <id>https://www.counterpunch.org/?p=330627</id>
-        <link href="https://www.counterpunch.org/2024/08/13/enough-with-the-stolen-valor-whining-already/"/>
-        <updated>2024-08-13T05:45:46.000Z</updated>
-        <summary type="html"><![CDATA[Ah, the tempest teapot of vice-presidential campaigns: Republican veep nominee JD Vance, Senator from Ohio, accuses Democratic veep nominee apparent Tim Walz, governor of Minnesota, of engaging in “stolen valor garbage.” Vance’s allegations seem to involve three components: First, that Walz retired from the National Guard after 24 years in infantry and artillery jobs, instead  More
-The post Enough With The “Stolen Valor” Whining Already appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>Thomas Knapp</name>
         </author>
     </entry>
     <entry>
@@ -1390,24 +1424,6 @@ If your load fits entirely on one server, then just run the database on that dam
         <summary type="html"><![CDATA[This article guides the setting up of a RAG service using Alibaba Cloud Model Studio, Compute Nest, and AnalyticDB for PostgreSQL.]]></summary>
         <author>
             <name>Alibaba Cloud</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The unfulfilled promises of microcredit: some new evidence]]></title>
-        <id>https://www.cadtm.org/The-unfulfilled-promises-of-microcredit-some-new-evidence</id>
-        <link href="https://www.cadtm.org/The-unfulfilled-promises-of-microcredit-some-new-evidence"/>
-        <updated>2024-08-09T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The student movement in Bangladesh ousted Sheikh Hasina last Monday, August 5, 2024. A new interim government has been formed to restore order, end repression, and hold a fair election to facilitate a democratic transition of power. Nobel laureate Muhammad Yunus has been sworn in as the interim government's chief adviser, and many civil society activists and student leaders who have led the rebellion are included in the advisory group. There is a widespread hope that Prof. Yunus, the (...)
-English
-
-/ 
-Poverty, 
-Bangladesh, 
-Third World Debt, 
-Private debt, 
-Microcredit]]></summary>
-        <author>
-            <name>CADTM, Stéphanie Jacquemont</name>
         </author>
     </entry>
 </feed>
