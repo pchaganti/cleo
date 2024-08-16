@@ -51,11 +51,232 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-15 datetime="2024-08-15T18:00:45.000Z">2024-08-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-15 datetime="2024-08-15T18:00:45.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-15 datetime="2024-08-16T00:00:00.000Z">2024-08-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-15 datetime="2024-08-16T00:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes Blog</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes 1.31: MatchLabelKeys in PodAffinity graduates to beta</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Kubernetes 1.29 introduced new fields MatchLabelKeys and MismatchLabelKeys in PodAffinity and PodAntiAffinity.
+In Kubernetes 1.31, this feature moves to beta and the corresponding feature gate (MatchLabelKeysInPodAffinity) gets enabled by default.
+MatchLabelKeys - Enhanced scheduling for versatile rolling updates
+During a workload&#x27;s (e.g., Deployment) rolling update, a cluster may have Pods from multiple versions at the same time.
+However, the scheduler cannot distinguish between old and new versions based on the LabelSelector specified in PodAffinity or PodAntiAffinity. As a result, it will co-locate or disperse Pods regardless of their versions.
+This can lead to sub-optimal scheduling outcome, for example:
+New version Pods are co-located with old version Pods (PodAffinity), which will ev…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-prevent-persistentvolume-leaks-when-deleting-out-of-order/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes 1.31: Prevent PersistentVolume Leaks When Deleting out of Order</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-prevent-persistentvolume-leaks-when-deleting-out-of-order/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>PersistentVolume (or PVs for short) are
+associated with Reclaim Policy.
+The reclaim policy is used to determine the actions that need to be taken by the storage
+backend on deletion of the PVC Bound to a PV.
+When the reclaim policy is Delete, the expectation is that the storage backend
+releases the storage resource allocated for the PV. In essence, the reclaim
+policy needs to be honored on PV deletion.
+With the recent Kubernetes v1.31 release, a beta feature lets you configure your
+cluster to behave that way and honor the configured reclaim policy.
+How did reclaim work in previous Kubernetes releases?
+PersistentVolumeClaim (or PVC for short) is
+a user&#x27;s request for storage. A PV and PVC are considered Bound
+if a newly created PV or a matching PV is found. The PVs themselves are
+backed by vo…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-image-volume-source/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes 1.31: Read Only Volumes Based On OCI Artifacts (alpha)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-image-volume-source/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The Kubernetes community is moving towards fulfilling more Artificial
+Intelligence (AI) and Machine Learning (ML) use cases in the future. While the
+project has been designed to fulfill microservice architectures in the past,
+it’s now time to listen to the end users and introduce features which have a
+stronger focus on AI/ML.
+One of these requirements is to support Open Container Initiative (OCI)
+compatible images and artifacts (referred as OCI objects) directly as a native
+volume source. This allows users to focus on OCI standards as well as enables
+them to store and distribute any content using OCI registries. A feature like
+this gives the Kubernetes project a chance to grow into use cases which go
+beyond running particular images.
+Given that, the Kubernetes community is proud to present…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >| disassociated.com</button>
+                  <a class="source-heading__link" href="https://disassociated.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://disassociated.com/?p&#x3D;8297"
+                        open
+                      >
+                        <summary class="article-expander__title">Introverts and extraverts are at war, and introverts are winning. WTF?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://disassociated.com/introverts-extraverts-war-introverts-winning-wtf/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Marie Le Conte, writing for New Humanist, in a provocatively titled article: the introverts are winning, seems to suggest introverts and extraverts are embroiled in some sort of global conflict. A quick explainer. People generally fall into one of two personality traits: extraversion or introversion. It’s a scale. You can be close to either end, […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://disassociated.com/?p&#x3D;8302"
+                        open
+                      >
+                        <summary class="article-expander__title">iOS 18 will bring distraction free browsing to parts of the web</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://disassociated.com/ios-18-distraction-free-browsing-parts-web/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>News sites seem to be the worst, but they’re not alone*. You want to read a news item, but are assailed by a plethora of interfering popups of some sort. But a new feature in the soon to be released iPhone operating system, iOS 18, for Apple’s Safari browser, is a step in the right […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >CADTM</button>
+                  <a class="source-heading__link" href="https://www.cadtm.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.cadtm.org/Social-Movements-and-the-Politics-of-Debt"
+                        open
+                      >
+                        <summary class="article-expander__title">Social Movements and the Politics of Debt</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.cadtm.org/Social-Movements-and-the-Politics-of-Debt">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.cadtm.org/local/cache-vignettes/L1200xH630/e34b4947add76e7652572a6d2077db-35d33.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Social Movements and the Politics of Debt, Transnational Resistance against Debt on Three Continents, Christoph Sorg, Amsterdam University Press, 2022 
+English
+
+/ 
+Debt campaign, 
+Debt crisis, 
+Debt in History</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;34
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.cadtm.org/Bangladesh-the-Global-South-debt-crisis-intensifies"
+                        open
+                      >
+                        <summary class="article-expander__title">Bangladesh: the ‘Global South&#x27; debt crisis intensifies</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.cadtm.org/Bangladesh-the-Global-South-debt-crisis-intensifies">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.cadtm.org/local/cache-vignettes/L640xH336/4a1ddc8bdd91b99b0e1ebabd5f40cc-cb52c.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The overthrow of the Sheikh Hasina&#x27;s dictatorial government in Bangladesh by students and the populace last week is a startling outcome of the economic nightmare. The country&#x27;s average GDP growth over the past decade, according to government statistics, was around 6.6%. As late as April this year, the World Bank reckoned that Bangladesh would grow by 5.6% this year, led by its highly successful garment industry, which relies on cheap labour sweat shops to gain market share globally. It (...)
+English
+
+/ 
+Bangladesh, 
+Debt crisis, 
+South</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -79,8 +300,8 @@
                           <div class="article-summary-box-inner media-object">
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/08/helper_olympic.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>~ Today&#x27;s Water Cooler: Politics, syndemics; Walter Kim on Kamala; Trump campaign shake-up; Sanders on 2020; Monkeypox ~</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
+                              <span>~ Today&#x27;s Water Cooler: Politics, syndemics; Walter Kirn on Kamala; Trump to jail September 18?; Sanders on 2020; Monkeypox ~</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;36
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -99,7 +320,7 @@
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>How bad incentives and funders&#x27; love of glitz lead to poor scientific research outcomes and demotivated academics.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                &ensp;<span class="article-reading-time">(&hairsp;16
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -119,7 +340,7 @@
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/08/Ostrich.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Our tastefully presented daily links</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;57
+                                &ensp;<span class="article-reading-time">(&hairsp;66
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -157,7 +378,7 @@
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>Debunking yet another appealing-sounding but elite-serving idea, here the premise that savings is always good and more is better.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;20
+                                &ensp;<span class="article-reading-time">(&hairsp;21
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -459,6 +680,63 @@ The post Homophobia’s Role in Political Manipulation appeared first on Counter
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Hacker News: Best Comments</button>
+                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41256788"
+                        open
+                      >
+                        <summary class="article-expander__title">New comment by andrewmutz in &quot;CockroachDB license change&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41256788">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>It seems that whenever an open source project is run by a VC-backed company, it sooner or later ends up like this.  Increasingly it seems that &quot;open source&quot; is just the teaser to get people interested and then when investors want revenue growth, the rug gets pulled.
+IMO, it&#x27;s not really open source if its run by a company that will eventually use its position to squeeze its users for cash.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41256621"
+                        open
+                      >
+                        <summary class="article-expander__title">New comment by AYBABTME in &quot;CockroachDB license change&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41256621">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I understand the goal, and the perceived abuse of the Core edition. But the problem with the Enterprise edition is that it&#x27;s quite expensive, &quot;contact us&quot; salesy, and it feels like taking a bite of this edition is possibly getting into bed with a future Oracle/landlord type of relationship where you end up squeezed by your database vendor.
+The Core offering made this palatable, one could fallback to Core features if the relationship with Cockroach Labs degraded, which made it possible to entertain the Enterprise license since there&#x27;s was a way to walk back from it. But now there&#x27;s no such mitigation available. By using non-PG native features, users of the Enterprise edition are accepting to get in bed with Cockroach Labs for effectively forever (databases), a single provider that has no competition.
+I think this may backfire, as it now seems imprudent to go all in on Cockroach Labs. They may be nice folks today, but who knows who will run the place in 5y when the next round of squeeze comes?
+I wish them the best, they&#x27;re a great team and I always liked the project and toyed with it for years, and currently am involved with a paid Enterprise license. But this change in the dynamics is really giving me pause.
+Getting in bed with a single vendor for an incredibly sticky tool comes with a _lot_ of risk. It took at least 17y for Amazon to get rid of its last Oracle database: https://aws.amazon.com/blogs/aws/migration-complete-amazons-...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;17
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >New Left Review Sidecar recent posts</button>
                   <a class="source-heading__link" href="https://newleftreview.org/sidecar/feed">Open</a>
                 </h3>
@@ -544,7 +822,7 @@ The post Homophobia’s Role in Political Manipulation appeared first on Counter
                               <img src="https://s0.wp.com/i/blank.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>As requested by a couple of commenters, I’ve created a separate thread to discuss the issues raised by commenter “closet conservative” in response to my post on US academia. I’ll moderate, but not participate</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                &ensp;<span class="article-reading-time">(&hairsp;9
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -854,6 +1132,25 @@ The post How Meta animates AI-generated images at scale appeared first on Engine
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41249566"
+                        open
+                      >
+                        <summary class="article-expander__title">New comment by neontomo in &quot;How I won $2,750 using JavaScript, AI, and a can of WD-40&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41249566">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I&#x27;m in the art scene, and when it comes to submitting proposals for exhibitions and being in art/film festivals and such, competing against other people being picked is surprisingly easy when you realise that most people don&#x27;t study the brief that tells you exactly what the organisations is looking for. make sure you nail everything in the brief and you&#x27;re in the lead, even if your art is terrible. I feel this is similar in nature, but taken to its extreme.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41249310"
                         open
                       >
@@ -862,6 +1159,8 @@ The post How Meta animates AI-generated images at scale appeared first on Engine
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>I love that 75% of the post was OP checking the math on whether or not he should join the contest.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -879,6 +1178,8 @@ The post How Meta animates AI-generated images at scale appeared first on Engine
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>Fun fact, as a owner of a GMC auto I got a innocent looking email about the discontinuation of the Onstar Smart driver service which was the service in question that violated many US laws and sent data to insurance companies without customers authorization. I hope this hits GM really hard as this type of behavior will never cease until massive amounts of money is extracted from the perpetrators(GM etc).</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;22
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -900,7 +1201,7 @@ I&#x27;d also suggest maybe adding the channel names (like the comment you poste
 Also, I&#x27;d love to have permalinks for the channels. Not for the individual videos themselves, but just a link that when sharing would bring somebody else to the same channel you&#x27;re watching right now.
 Another thing, although probably outside your control, is that I use a Firefox extension called &quot;SoundFixer&quot; that I use to force the youtube audio to mono (since a lot of channels are annoying to me using headphones, they pan the audio sources too hard left/right and it&#x27;s super distracting), but it doesn&#x27;t seem to work on this website, probably because of the way they&#x27;re embedded. I don&#x27;t know if this can be changed somehow, or have a mode to force mono audio (which would be also oldschool like old TVs with one speaker only!). It&#x27;s probably too niche and hard to do though.
 Also I don&#x27;t seem to find any volume control except mute?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                &ensp;<span class="article-reading-time">(&hairsp;13
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -949,6 +1250,27 @@ Channel 9: Autos and Vehicles
 Channel 10: News and Politics
 Channel 11: UFC
 Channel 12: Podcasts/Interviews/Talk Shows</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41243859"
+                        open
+                      >
+                        <summary class="article-expander__title">New comment by espadrine in &quot;Grok-2 Beta Release&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41243859">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The technology is impressive; achieving such a level requires a lot of efforts in dataset creation, neural architectural costs, and GPU shepherding.
+What is the company’s ethical position though? It officially stemmed from Mr Musk’s objection that OpenAI was not open-source, but it too is not open-source. It followed Mr Musk’s letter to stop all AI development on frontier models, but it is a frontier model. It followed complaints that OpenAI trained on tweets, but it also trained on tweets.
+Companies like Meta, Mistral, or DeepSeek, address those complaints better, and all now play in the big league.</span>
                             </span>
                           </div>
                         </a>
@@ -989,8 +1311,6 @@ The terms do require Disney+ users to &quot;agree to resolve, by binding individ
 But &quot;Disputes&quot; is a term of art that &quot;includes any claim, dispute, action, or other controversy, whether based on past, present, or future events, whether based in contract, tort, statute, or common law, between you and Disney concerning the Disney Products or this Agreement&quot; (emphasis added).
 What are the Disney Products? They are &quot;certain websites, software, applications, content, products, and services in any media format or channel.&quot;
 I hope the lawyers get sanctioned and disbarred.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -1494,8 +1814,6 @@ The post Harris and Trump Agree on a Key Point: Moths Will Not Be a 2024 Campaig
                               <span>Captain D produces some of the most impressive technical content out there, wrapped in subtle and not-so-subtle zingers, and breathtakingly illustrated. Decomposing a frame into its brightness channel, rotating it, and collapsing the columns to make a waveform graph? Mind completely blown.
 The debunk videos are his major stock in trade, but I personally love (and discovered him through) the explainers about frame rate and shutter speed, color spaces, interlacing, and other details of the video art.
 And of course, his mindbogglingly detailed exploration of Flight of the Navigator -- if you&#x27;ve seen the film, make some time tonight and watch it.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -1514,6 +1832,41 @@ And of course, his mindbogglingly detailed exploration of Flight of the Navigato
                             <span class="media-object__text">
                               <span>&quot;Unlock Gemini Advanced for a year on us ($239 value)&quot;
 Who thinks they are booking phone sales as AI revenue to juice the numbers?</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41237470"
+                        open
+                      >
+                        <summary class="article-expander__title">New comment by mnw21cam in &quot;Tell HN: Google OAuth consent screen issue could be costing you signups&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41237470">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Just a PSA - I (and probably others) find the &quot;Sign in with Google&quot; pop-over extremely annoying. It annoys me both because it&#x27;s over the top of stuff I might want to read, and also because it&#x27;s Google threatening to tell this web site who I am even though I have no desire whatsoever to do that. Please hide it behind a login button or otherwise only show it when the visitor has actually demonstrated a desire to log in specifically using Google.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41236091"
+                        open
+                      >
+                        <summary class="article-expander__title">New comment by chongli in &quot;The Webb Telescope further deepens the Hubble tension controversy in cosmology&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41236091">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The controversy is that we get 2 different numbers depending on which method (cosmic microwave background vs cosmic distance ladder) we use to calculate the present rate of expansion. These numbers used to have their error bars overlapping, so we assumed they would eventually converge to the true value. But as we get more data the opposite is happening: the numbers are diverging and their error bars are shrinking such that they no longer overlap.
+This tells us that either our model of the universe is wrong (therefore the cosmic microwave background method is giving us an incorrect answer) or that something is wrong with how we&#x27;re calculating the distances along the cosmic distance ladder. The latter was originally the assumption that should be proven true with more and better data from newer telescopes. This is now turning out not to be the case: our cosmic distance ladder calculations seem to have been very good, so it now seems more likely that our model of the universe is wrong.</span>
                             </span>
                           </div>
                         </a>
@@ -1554,6 +1907,24 @@ Everything is fucked in our society but executive compensation. Xerox, HP, IBM, 
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41232533"
+                        open
+                      >
+                        <summary class="article-expander__title">New comment by alwa in &quot;Hacking the largest airline and hotel rewards platform (2023)&quot;</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41232533">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I’m really impressed at the number of times they say their counterparts responded to their report in under an hour, immediately took the affected site offline, then resolved the issue quickly.
+That seems like an enviable operation.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41232477"
                         open
                       >
@@ -1563,8 +1934,6 @@ Everything is fucked in our society but executive compensation. Xerox, HP, IBM, 
                             <span class="media-object__text">
                               <span>&gt; said Dogan Gursoy, one of the study’s authors and the Taco Bell Distinguished Professor of hospitality business management at Washington State University
 The irony… I cannot imagine a more hilariously negative way to reduce a title than to say someone is the Taco Bell professor.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -2303,8 +2672,6 @@ It sucks big time.</span>
                             <span class="media-object__text">
                               <span>The world where Apple is just completely fine with Apple users paying $13 instead of $10 for a subscription if they do it through an app is an interesting one.
 Obviously this makes a lot of money for them but when you think about it they must think very little of their customers treating them with disrespect like this. This is how &#x27;Tim Cook&#x27;s Apple&#x27; should be remembered.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;31
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -2323,8 +2690,6 @@ Obviously this makes a lot of money for them but when you think about it they mu
                             <span class="media-object__text">
                               <span>I remember reading that per-creation billing is a very important feature for Patreon creators, because it removes the moral obligation to produce content just to justify a subscription.
 If Patreon really doesn&#x27;t want to kill the feature itself, but is just responding to Apple&#x27;s enforcement, then it seems like a really clear illustration of monopoly power - pushing unrelated markets to change their own structure and products just to fit Apple&#x27;s preferred billing flow.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -2756,11 +3121,11 @@ In the absence of client-go feature gates, each new feature separated feature av
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.cadtm.org/Bangladesh-Who-is-Muhammad-Yunus-the-new-primer-minister"
+                        data-accordion-key="https://www.cadtm.org/Bangladesh-Who-is-Muhammad-Yunus-the-new-prime-minister"
                         open
                       >
                         <summary class="article-expander__title">Bangladesh : Who is Muhammad Yunus, the new prime minister ?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.cadtm.org/Bangladesh-Who-is-Muhammad-Yunus-the-new-primer-minister">
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.cadtm.org/Bangladesh-Who-is-Muhammad-Yunus-the-new-prime-minister">
                           <div class="article-summary-box-inner media-object">
                               <img src="https://www.cadtm.org/local/cache-vignettes/L710xH373/18a4bcf087e0cdf619d0bfaa8e0593-e85f2.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
@@ -2775,54 +3140,6 @@ South,
 Microcredit</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;16
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41216030"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by erlend_sh in &quot;Verso – Web browser built on top of the Servo web engine&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41216030">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>In other exciting Servo-browser news, Servo and Redox OS have submitted a joint proposal to fund the porting of SpiderMonkey and WebRender to Redox: https://www.redox-os.org/news/this-month-240731/</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41214646"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by gklitz in &quot;Captain Disillusion debunks David Beckham beach kicks [video]&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41214646">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>As always this is so much more than merely a video debunking. It’s a great piece of comedy, an insightful analysis of technology and even great commentary on the historical development both back when the video was made but also the now current state of the environment around social media creators. Absolutely amazing.</span>
                             </span>
                           </div>
                         </a>
@@ -2984,103 +3301,6 @@ Source: Retrieved on 8/8/2024 from https://dsa-lsc.org/2024/08/08/a-letter-to-th
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41209068"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by mistercow in &quot;A wonderful coincidence or an expected connection: why π² ≈ g&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41209068">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>This is interesting, but I have to quibble with this:
-&gt; If you express this value in any other units, the magic immediately disappears. So, this is no coincidence
-Ordinarily, this would be extremely indicative of a coincidence. If you’re looking for a heuristic for non-coincidences, “sticks around when you change units” is the one you want. This is just an unusual case where that heuristic fails.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41207918"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by lchengify in &quot;Susan Wojcicki has died&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41207918">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Was shocked to hear this news. I worked for Google years ago but I was in the NYC office, so we didn&#x27;t run into the YouTube folks much.
-Opinions about YouTube may be mixed here on HN, but it is objectively one of the most successful businesses in tech or media to emerge in the past 15 years. If it weren&#x27;t buried inside Alphabet, Youtube would be worth on the order of $400 billion, more than Disney and Comcast combined. It&#x27;s a weird mix of a huge creator monetization network, a music channel, an education platform, a forever-store of niche content, and a utility.
-It&#x27;s also not a business that rested on it&#x27;s laurels. It&#x27;s easy to forget how novel creator monetization was when YouTube adopted it. They do a lot of active work to manage their creators, and now have grown into a music and podcast platform that is challenging Apple. To top it off, YouTube TV, despite costing just as much as cable, is objectively a good product.
-Few products have the brand, the reach, monetization, and the endurance that YouTube has had within Google. And I know for a fact that this is in no small part due to the way it was managed.
-I&#x27;ve probably watched tens of thousands of hours of YouTube at this point. Some of it sublime, some of it absurd, some of it critical for my work or my degree. I couldn&#x27;t imagine a world without it.
-RIP.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41207776"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by yyyfb in &quot;Susan Wojcicki has died&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41207776">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Next time you&#x27;re thinking &quot;I wish I was the one who had made a billion dollars with my startup idea&quot;, remember that only health and family matter, and to have fun while you&#x27;re alive. RIP.
-Edit: some people misinterpreted my comment. I&#x27;m just one anonymous  voice on the Internet, but am deeply saddened by the passing of Susan Wojcicki, who meant a lot to me as one of the many people who crossed paths with her professionally. I wish her family strength in a very trying moment. She did not deserve this. I&#x27;ve not met another business leader demonstrate everyday kindness to the degree that she did.
-Her untimely passing is also a reminder to those of us who sometimes look up to such successful businesspeople that we should all appreciate our luck to be alive and enjoy it to the fullest, as I hope that she did as well, and as I&#x27;m sure that she&#x27;d prefer we did. RIP</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41207331"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by gorgoiler in &quot;Rivian reduced electrical wiring by 1.6 miles and 44 pounds&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41207331">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>The before/after ECU layout diagram is very instructional.
-I like to imagine some kind of engineering “meet cute” whereby, one random day, the headlights engineer and the parking radar engineer happen to be working on the front of the car together.  Their eyes meet:
-“hey, I’m John — I didn’t know you had an ECU here!”,
-“hi, I’m Claire — wow, you have an ECU right up front too?  It’s, like, right next to mine and we never knew!”
-“I know, crazy right?!  Hey this is going to sound really forward and I don’t normally do this but I’m only running at 70% compute capacity.  I don’t suppose you need any real-time budget this evening?”
-“So funny you should ask, I was just about to run a whole bunch of heavy new wiring to…”
-And in a story as old as time they get ECU married and raise their control loops in the same front-of-vehicle ECU together instead of living their separate, lonely, ECU-right-next-to-each-other-and-they-didn’t-know-it lives.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Crooked Timber</button>
                   <a class="source-heading__link" href="https://crookedtimber.org">Open</a>
                 </h3>
@@ -3110,144 +3330,10 @@ And in a story as old as time they get ECU married and raise their control loops
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-09 datetime="2024-08-10T03:51:16.000Z">2024-08-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-09 datetime="2024-08-10T03:51:16.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41207172"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by oefrha in &quot;Building a highly-available web service without a database&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41207172">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Seems weird to start with “not talking about using something like SQLite where your data is still serialized”, then end up with a home grown transaction log that requires serialization and needs to be replicated, which is how databases are replicated anyway.
-If your load fits entirely on one server, then just run the database on that damn server and forget about “special architectures to reduce round-trips to your database”. If your data fits entirely in RAM, then use a ramdisk for the database if you want, and replicate it to permanent storage with standard tools. Now that’s actually simple.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >AWS DevOps &amp; Developer Productivity Blog</button>
-                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/devops/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="f383bcb9ec048b73375bec51ac8752a5b1290f19"
-                        open
-                      >
-                        <summary class="article-expander__title">Code Clarity: Enhancing Code Understanding and Efficiency with Amazon Q Developer</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/devops/code-clarity-enhancing-code-understanding-and-efficiency-with-amazon-q-developer/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/08/08/CodeC.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>“All code will become legacy”. This saying, widely recognized amongst software developers, highlights the reality of their day-to-day activities. While writing new code is an integral part of a developer’s role, a significant portion of their time is dedicated to refactoring and maintaining existing codebases. Developers typically encounter numerous challenges when attempting to understand and […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Stories by Alibaba Cloud on Medium</button>
-                  <a class="source-heading__link" href="https://medium.com/@alibaba-cloud?source&#x3D;rss-8cdb52f9cdca------2">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://medium.com/p/d29c26909580"
-                        open
-                      >
-                        <summary class="article-expander__title">Alibaba Cloud 2024 Autumn MVP Application Now Open</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://alibaba-cloud.medium.com/alibaba-cloud-2024-autumn-mvp-application-now-open-d29c26909580?source&#x3D;rss-8cdb52f9cdca------2">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/v2/resize:fit:1200/1*Pkv2jy8WoUfGEHCYD05H5A.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The latest batch of Alibaba Cloud MVP applications is now open! Apply before 10 September, 2024.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://medium.com/p/8f26bee20273"
-                        open
-                      >
-                        <summary class="article-expander__title">Building RAG Services on Compute Nest with Alibaba Cloud Model Studio and AnalyticDB for…</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://alibaba-cloud.medium.com/building-rag-services-on-compute-nest-with-alibaba-cloud-model-studio-and-analyticdb-for-8f26bee20273?source&#x3D;rss-8cdb52f9cdca------2">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/v2/resize:fit:1200/1*XeJ0pQ4yZGLKUjwfpJHcNQ.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>This article guides the setting up of a RAG service using Alibaba Cloud Model Studio, Compute Nest, and AnalyticDB for PostgreSQL.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/10408670618">
-        <time id="build-timestamp" datetime="2024-08-15T18:32:01.428Z">2024-08-15T18:32:01.428Z</time>
+      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/10413243484">
+        <time id="build-timestamp" datetime="2024-08-16T01:41:25.593Z">2024-08-16T01:41:25.593Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

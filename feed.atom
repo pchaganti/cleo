@@ -1,16 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-15T18:32:01.449Z</id>
+    <id>urn:2024-08-16T01:41:25.614Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-15T18:32:01.449Z</updated>
+    <updated>2024-08-16T01:41:25.614Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: MatchLabelKeys in PodAffinity graduates to beta]]></title>
+        <id>https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/</id>
+        <link href="https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/"/>
+        <updated>2024-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kubernetes 1.29 introduced new fields MatchLabelKeys and MismatchLabelKeys in PodAffinity and PodAntiAffinity.
+In Kubernetes 1.31, this feature moves to beta and the corresponding feature gate (MatchLabelKeysInPodAffinity) gets enabled by default.
+MatchLabelKeys - Enhanced scheduling for versatile rolling updates
+During a workload's (e.g., Deployment) rolling update, a cluster may have Pods from multiple versions at the same time.
+However, the scheduler cannot distinguish between old and new versions based on the LabelSelector specified in PodAffinity or PodAntiAffinity. As a result, it will co-locate or disperse Pods regardless of their versions.
+This can lead to sub-optimal scheduling outcome, for example:
+New version Pods are co-located with old version Pods (PodAffinity), which will ev…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Prevent PersistentVolume Leaks When Deleting out of Order]]></title>
+        <id>https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-prevent-persistentvolume-leaks-when-deleting-out-of-order/</id>
+        <link href="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-prevent-persistentvolume-leaks-when-deleting-out-of-order/"/>
+        <updated>2024-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[PersistentVolume (or PVs for short) are
+associated with Reclaim Policy.
+The reclaim policy is used to determine the actions that need to be taken by the storage
+backend on deletion of the PVC Bound to a PV.
+When the reclaim policy is Delete, the expectation is that the storage backend
+releases the storage resource allocated for the PV. In essence, the reclaim
+policy needs to be honored on PV deletion.
+With the recent Kubernetes v1.31 release, a beta feature lets you configure your
+cluster to behave that way and honor the configured reclaim policy.
+How did reclaim work in previous Kubernetes releases?
+PersistentVolumeClaim (or PVC for short) is
+a user's request for storage. A PV and PVC are considered Bound
+if a newly created PV or a matching PV is found. The PVs themselves are
+backed by vo…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Read Only Volumes Based On OCI Artifacts (alpha)]]></title>
+        <id>https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-image-volume-source/</id>
+        <link href="https://kubernetes.io/blog/2024/08/16/kubernetes-1-31-image-volume-source/"/>
+        <updated>2024-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Kubernetes community is moving towards fulfilling more Artificial
+Intelligence (AI) and Machine Learning (ML) use cases in the future. While the
+project has been designed to fulfill microservice architectures in the past,
+it’s now time to listen to the end users and introduce features which have a
+stronger focus on AI/ML.
+One of these requirements is to support Open Container Initiative (OCI)
+compatible images and artifacts (referred as OCI objects) directly as a native
+volume source. This allows users to focus on OCI standards as well as enables
+them to store and distribute any content using OCI registries. A feature like
+this gives the Kubernetes project a chance to grow into use cases which go
+beyond running particular images.
+Given that, the Kubernetes community is proud to present…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introverts and extraverts are at war, and introverts are winning. WTF?]]></title>
+        <id>https://disassociated.com/?p=8297</id>
+        <link href="https://disassociated.com/introverts-extraverts-war-introverts-winning-wtf/"/>
+        <updated>2024-08-15T21:00:01.000Z</updated>
+        <summary type="html"><![CDATA[Marie Le Conte, writing for New Humanist, in a provocatively titled article: the introverts are winning, seems to suggest introverts and extraverts are embroiled in some sort of global conflict. A quick explainer. People generally fall into one of two personality traits: extraversion or introversion. It’s a scale. You can be close to either end, […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Social Movements and the Politics of Debt]]></title>
+        <id>https://www.cadtm.org/Social-Movements-and-the-Politics-of-Debt</id>
+        <link href="https://www.cadtm.org/Social-Movements-and-the-Politics-of-Debt"/>
+        <updated>2024-08-15T20:43:26.000Z</updated>
+        <summary type="html"><![CDATA[Social Movements and the Politics of Debt, Transnational Resistance against Debt on Three Continents, Christoph Sorg, Amsterdam University Press, 2022 
+English
+
+/ 
+Debt campaign, 
+Debt crisis, 
+Debt in History]]></summary>
+        <author>
+            <name>Christoph Sorg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bangladesh: the ‘Global South' debt crisis intensifies]]></title>
+        <id>https://www.cadtm.org/Bangladesh-the-Global-South-debt-crisis-intensifies</id>
+        <link href="https://www.cadtm.org/Bangladesh-the-Global-South-debt-crisis-intensifies"/>
+        <updated>2024-08-15T20:36:00.000Z</updated>
+        <summary type="html"><![CDATA[The overthrow of the Sheikh Hasina's dictatorial government in Bangladesh by students and the populace last week is a startling outcome of the economic nightmare. The country's average GDP growth over the past decade, according to government statistics, was around 6.6%. As late as April this year, the World Bank reckoned that Bangladesh would grow by 5.6% this year, led by its highly successful garment industry, which relies on cheap labour sweat shops to gain market share globally. It (...)
+English
+
+/ 
+Bangladesh, 
+Debt crisis, 
+South]]></summary>
+        <author>
+            <name>Michael Roberts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOS 18 will bring distraction free browsing to parts of the web]]></title>
+        <id>https://disassociated.com/?p=8302</id>
+        <link href="https://disassociated.com/ios-18-distraction-free-browsing-parts-web/"/>
+        <updated>2024-08-15T20:30:19.000Z</updated>
+        <summary type="html"><![CDATA[News sites seem to be the worst, but they’re not alone*. You want to read a news item, but are assailed by a plethora of interfering popups of some sort. But a new feature in the soon to be released iPhone operating system, iOS 18, for Apple’s Safari browser, is a step in the right […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 8/15/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=276771</id>
         <link href="https://www.nakedcapitalism.com/2024/08/200pm-water-cooler-8-15-2024.html"/>
         <updated>2024-08-15T18:00:45.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics; Walter Kim on Kamala; Trump campaign shake-up; Sanders on 2020; Monkeypox ~]]></summary>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics; Walter Kirn on Kamala; Trump to jail September 18?; Sanders on 2020; Monkeypox ~]]></summary>
         <author>
             <name>Lambert Strether</name>
         </author>
@@ -46,6 +158,31 @@ The post Nuclear is Not the Solution: M.V. Ramana appeared first on CounterPunch
         <summary type="html"><![CDATA[How bad incentives and funders' love of glitz lead to poor scientific research outcomes and demotivated academics.]]></summary>
         <author>
             <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by andrewmutz in "CockroachDB license change"]]></title>
+        <id>https://news.ycombinator.com/item?id=41256788</id>
+        <link href="https://news.ycombinator.com/item?id=41256788"/>
+        <updated>2024-08-15T14:48:49.000Z</updated>
+        <summary type="html"><![CDATA[It seems that whenever an open source project is run by a VC-backed company, it sooner or later ends up like this.  Increasingly it seems that "open source" is just the teaser to get people interested and then when investors want revenue growth, the rug gets pulled.
+IMO, it's not really open source if its run by a company that will eventually use its position to squeeze its users for cash.]]></summary>
+        <author>
+            <name>andrewmutz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by AYBABTME in "CockroachDB license change"]]></title>
+        <id>https://news.ycombinator.com/item?id=41256621</id>
+        <link href="https://news.ycombinator.com/item?id=41256621"/>
+        <updated>2024-08-15T14:33:48.000Z</updated>
+        <summary type="html"><![CDATA[I understand the goal, and the perceived abuse of the Core edition. But the problem with the Enterprise edition is that it's quite expensive, "contact us" salesy, and it feels like taking a bite of this edition is possibly getting into bed with a future Oracle/landlord type of relationship where you end up squeezed by your database vendor.
+The Core offering made this palatable, one could fallback to Core features if the relationship with Cockroach Labs degraded, which made it possible to entertain the Enterprise license since there's was a way to walk back from it. But now there's no such mitigation available. By using non-PG native features, users of the Enterprise edition are accepting to get in bed with Cockroach Labs for effectively forever (databases), a single provider that has no competition.
+I think this may backfire, as it now seems imprudent to go all in on Cockroach Labs. They may be nice folks today, but who knows who will run the place in 5y when the next round of squeeze comes?
+I wish them the best, they're a great team and I always liked the project and toyed with it for years, and currently am involved with a paid Enterprise license. But this change in the dynamics is really giving me pause.
+Getting in bed with a single vendor for an incredibly sticky tool comes with a _lot_ of risk. It took at least 17y for Amazon to get rid of its last Oracle database: https://aws.amazon.com/blogs/aws/migration-complete-amazons-...]]></summary>
+        <author>
+            <name>AYBABTME</name>
         </author>
     </entry>
     <entry>
@@ -334,6 +471,16 @@ The post How Meta animates AI-generated images at scale appeared first on Engine
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by neontomo in "How I won $2,750 using JavaScript, AI, and a can of WD-40"]]></title>
+        <id>https://news.ycombinator.com/item?id=41249566</id>
+        <link href="https://news.ycombinator.com/item?id=41249566"/>
+        <updated>2024-08-14T19:19:30.000Z</updated>
+        <summary type="html"><![CDATA[I'm in the art scene, and when it comes to submitting proposals for exhibitions and being in art/film festivals and such, competing against other people being picked is surprisingly easy when you realise that most people don't study the brief that tells you exactly what the organisations is looking for. make sure you nail everything in the brief and you're in the lead, even if your art is terrible. I feel this is similar in nature, but taken to its extreme.]]></summary>
+        <author>
+            <name>neontomo</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by TrackerFF in "How I won $2,750 using JavaScript, AI, and a can of WD-40"]]></title>
         <id>https://news.ycombinator.com/item?id=41249310</id>
         <link href="https://news.ycombinator.com/item?id=41249310"/>
@@ -490,6 +637,18 @@ Spanish State]]></summary>
         <summary type="html"><![CDATA[I spent yesterday evening watching Agnieszka Holland’s remarkable film “Green Border” which has just been released to streaming in the UK after spending about 30 seconds in cinemas. The episode that provides the film’s context is the 2021 decision of Alexander Lukashenko, dictator of Belarus and Putin’s puppet, to make use of refugees as a […]]]></summary>
         <author>
             <name>Chris Bertram</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by espadrine in "Grok-2 Beta Release"]]></title>
+        <id>https://news.ycombinator.com/item?id=41243859</id>
+        <link href="https://news.ycombinator.com/item?id=41243859"/>
+        <updated>2024-08-14T08:24:51.000Z</updated>
+        <summary type="html"><![CDATA[The technology is impressive; achieving such a level requires a lot of efforts in dataset creation, neural architectural costs, and GPU shepherding.
+What is the company’s ethical position though? It officially stemmed from Mr Musk’s objection that OpenAI was not open-source, but it too is not open-source. It followed Mr Musk’s letter to stop all AI development on frontier models, but it is a frontier model. It followed complaints that OpenAI trained on tweets, but it also trained on tweets.
+Companies like Meta, Mistral, or DeepSeek, address those complaints better, and all now play in the big league.]]></summary>
+        <author>
+            <name>espadrine</name>
         </author>
     </entry>
     <entry>
@@ -770,6 +929,16 @@ Who thinks they are booking phone sales as AI revenue to juice the numbers?]]></
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by mnw21cam in "Tell HN: Google OAuth consent screen issue could be costing you signups"]]></title>
+        <id>https://news.ycombinator.com/item?id=41237470</id>
+        <link href="https://news.ycombinator.com/item?id=41237470"/>
+        <updated>2024-08-13T17:31:17.000Z</updated>
+        <summary type="html"><![CDATA[Just a PSA - I (and probably others) find the "Sign in with Google" pop-over extremely annoying. It annoys me both because it's over the top of stuff I might want to read, and also because it's Google threatening to tell this web site who I am even though I have no desire whatsoever to do that. Please hide it behind a login button or otherwise only show it when the visitor has actually demonstrated a desire to log in specifically using Google.]]></summary>
+        <author>
+            <name>mnw21cam</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How AWS powered Prime Day 2024 for record-breaking sales]]></title>
         <id>d7b5d20444338457f621b12a46f70828e2d3fbc6</id>
         <link href="https://aws.amazon.com/blogs/aws/how-aws-powered-prime-day-2024-for-record-breaking-sales/"/>
@@ -777,6 +946,17 @@ Who thinks they are booking phone sales as AI revenue to juice the numbers?]]></
         <summary type="html"><![CDATA[Dive into the numbers from Amazon's record-breaking Prime Day 2024, from AI chip deployment to the staggering transaction volumes across AWS services like Amazon DynamoDB, Aurora, CloudFront, and more.]]></summary>
         <author>
             <name>Channy Yun (윤석찬)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by chongli in "The Webb Telescope further deepens the Hubble tension controversy in cosmology"]]></title>
+        <id>https://news.ycombinator.com/item?id=41236091</id>
+        <link href="https://news.ycombinator.com/item?id=41236091"/>
+        <updated>2024-08-13T14:55:37.000Z</updated>
+        <summary type="html"><![CDATA[The controversy is that we get 2 different numbers depending on which method (cosmic microwave background vs cosmic distance ladder) we use to calculate the present rate of expansion. These numbers used to have their error bars overlapping, so we assumed they would eventually converge to the true value. But as we get more data the opposite is happening: the numbers are diverging and their error bars are shrinking such that they no longer overlap.
+This tells us that either our model of the universe is wrong (therefore the cosmic microwave background method is giving us an incorrect answer) or that something is wrong with how we're calculating the distances along the cosmic distance ladder. The latter was originally the assumption that should be proven true with more and better data from newer telescopes. This is now turning out not to be the case: our cosmic distance ladder calculations seem to have been very good, so it now seems more likely that our model of the universe is wrong.]]></summary>
+        <author>
+            <name>chongli</name>
         </author>
     </entry>
     <entry>
@@ -945,6 +1125,17 @@ The post A False Accusation Put Me in Prison, a Safety Net Could Have Kept Me Ou
 The post Putting War and Peace on the Ballot appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Robert Koehler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by alwa in "Hacking the largest airline and hotel rewards platform (2023)"]]></title>
+        <id>https://news.ycombinator.com/item?id=41232533</id>
+        <link href="https://news.ycombinator.com/item?id=41232533"/>
+        <updated>2024-08-13T05:27:31.000Z</updated>
+        <summary type="html"><![CDATA[I’m really impressed at the number of times they say their counterparts responded to their report in under an hour, immediately took the affected site offline, then resolved the issue quickly.
+That seems like an enviable operation.]]></summary>
+        <author>
+            <name>alwa</name>
         </author>
     </entry>
     <entry>
@@ -1220,8 +1411,8 @@ In the absence of client-go feature gates, each new feature separated feature av
     </entry>
     <entry>
         <title type="html"><![CDATA[Bangladesh : Who is Muhammad Yunus, the new prime minister ?]]></title>
-        <id>https://www.cadtm.org/Bangladesh-Who-is-Muhammad-Yunus-the-new-primer-minister</id>
-        <link href="https://www.cadtm.org/Bangladesh-Who-is-Muhammad-Yunus-the-new-primer-minister"/>
+        <id>https://www.cadtm.org/Bangladesh-Who-is-Muhammad-Yunus-the-new-prime-minister</id>
+        <link href="https://www.cadtm.org/Bangladesh-Who-is-Muhammad-Yunus-the-new-prime-minister"/>
         <updated>2024-08-11T17:21:42.000Z</updated>
         <summary type="html"><![CDATA[The CADTM welcomes the departure of Prime Minister Sheikh Hasina as a victory for the courageous student movement, which has been in July-August 2024 the victim of a terrible repression that left over 400 people dead. Nevertheless, given the social and economic orientation of the new Prime Minister, Muhammad Yunus, we can only fear that the neo-liberal capitalist extractivist export model will continue and that the debt system will also continue. 
 English
@@ -1237,16 +1428,6 @@ Microcredit]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by erlend_sh in "Verso – Web browser built on top of the Servo web engine"]]></title>
-        <id>https://news.ycombinator.com/item?id=41216030</id>
-        <link href="https://news.ycombinator.com/item?id=41216030"/>
-        <updated>2024-08-11T13:33:33.000Z</updated>
-        <summary type="html"><![CDATA[In other exciting Servo-browser news, Servo and Redox OS have submitted a joint proposal to fund the porting of SpiderMonkey and WebRender to Redox: https://www.redox-os.org/news/this-month-240731/]]></summary>
-        <author>
-            <name>erlend_sh</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Sunday photoblogging: Cranes]]></title>
         <id>https://crookedtimber.org/?p=52970</id>
         <link href="https://crookedtimber.org/2024/08/11/sunday-photoblogging-cranes/"/>
@@ -1254,16 +1435,6 @@ Microcredit]]></summary>
         <summary type="html"><![CDATA[Visit the post for more.]]></summary>
         <author>
             <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by gklitz in "Captain Disillusion debunks David Beckham beach kicks [video]"]]></title>
-        <id>https://news.ycombinator.com/item?id=41214646</id>
-        <link href="https://news.ycombinator.com/item?id=41214646"/>
-        <updated>2024-08-11T07:59:09.000Z</updated>
-        <summary type="html"><![CDATA[As always this is so much more than merely a video debunking. It’s a great piece of comedy, an insightful analysis of technology and even great commentary on the historical development both back when the video was made but also the now current state of the environment around social media creators. Absolutely amazing.]]></summary>
-        <author>
-            <name>gklitz</name>
         </author>
     </entry>
     <entry>
@@ -1304,18 +1475,6 @@ Declaration at the trial (October 30 2013) for the wounding of Ansaldo Nucleare 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by mistercow in "A wonderful coincidence or an expected connection: why π² ≈ g"]]></title>
-        <id>https://news.ycombinator.com/item?id=41209068</id>
-        <link href="https://news.ycombinator.com/item?id=41209068"/>
-        <updated>2024-08-10T12:45:36.000Z</updated>
-        <summary type="html"><![CDATA[This is interesting, but I have to quibble with this:
-> If you express this value in any other units, the magic immediately disappears. So, this is no coincidence
-Ordinarily, this would be extremely indicative of a coincidence. If you’re looking for a heuristic for non-coincidences, “sticks around when you change units” is the one you want. This is just an unusual case where that heuristic fails.]]></summary>
-        <author>
-            <name>mistercow</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Fascist violence and the imaginative failure of the Labour government]]></title>
         <id>https://crookedtimber.org/?p=52963</id>
         <link href="https://crookedtimber.org/2024/08/10/fascist-violence-and-the-imaginative-failure-of-the-labour-government/"/>
@@ -1323,33 +1482,6 @@ Ordinarily, this would be extremely indicative of a coincidence. If you’re loo
         <summary type="html"><![CDATA[Often on a Friday evening, we order a curry from our local “Indian” takeaway. They deliver, but it is easier and quicker for me to walk round and collect, and, anyway, I enjoy chatting to the guy behind the counter. He’s a Man United fan, I’m Liverpool, so we have some banter with a bit […]]]></summary>
         <author>
             <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by lchengify in "Susan Wojcicki has died"]]></title>
-        <id>https://news.ycombinator.com/item?id=41207918</id>
-        <link href="https://news.ycombinator.com/item?id=41207918"/>
-        <updated>2024-08-10T07:26:05.000Z</updated>
-        <summary type="html"><![CDATA[Was shocked to hear this news. I worked for Google years ago but I was in the NYC office, so we didn't run into the YouTube folks much.
-Opinions about YouTube may be mixed here on HN, but it is objectively one of the most successful businesses in tech or media to emerge in the past 15 years. If it weren't buried inside Alphabet, Youtube would be worth on the order of $400 billion, more than Disney and Comcast combined. It's a weird mix of a huge creator monetization network, a music channel, an education platform, a forever-store of niche content, and a utility.
-It's also not a business that rested on it's laurels. It's easy to forget how novel creator monetization was when YouTube adopted it. They do a lot of active work to manage their creators, and now have grown into a music and podcast platform that is challenging Apple. To top it off, YouTube TV, despite costing just as much as cable, is objectively a good product.
-Few products have the brand, the reach, monetization, and the endurance that YouTube has had within Google. And I know for a fact that this is in no small part due to the way it was managed.
-I've probably watched tens of thousands of hours of YouTube at this point. Some of it sublime, some of it absurd, some of it critical for my work or my degree. I couldn't imagine a world without it.
-RIP.]]></summary>
-        <author>
-            <name>lchengify</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by yyyfb in "Susan Wojcicki has died"]]></title>
-        <id>https://news.ycombinator.com/item?id=41207776</id>
-        <link href="https://news.ycombinator.com/item?id=41207776"/>
-        <updated>2024-08-10T06:44:27.000Z</updated>
-        <summary type="html"><![CDATA[Next time you're thinking "I wish I was the one who had made a billion dollars with my startup idea", remember that only health and family matter, and to have fun while you're alive. RIP.
-Edit: some people misinterpreted my comment. I'm just one anonymous  voice on the Internet, but am deeply saddened by the passing of Susan Wojcicki, who meant a lot to me as one of the many people who crossed paths with her professionally. I wish her family strength in a very trying moment. She did not deserve this. I've not met another business leader demonstrate everyday kindness to the degree that she did.
-Her untimely passing is also a reminder to those of us who sometimes look up to such successful businesspeople that we should all appreciate our luck to be alive and enjoy it to the fullest, as I hope that she did as well, and as I'm sure that she'd prefer we did. RIP]]></summary>
-        <author>
-            <name>yyyfb</name>
         </author>
     </entry>
     <entry>
@@ -1367,63 +1499,6 @@ Source: Retrieved on 8/8/2024 from https://dsa-lsc.org/2024/08/08/a-letter-to-th
  We in the Libertarian Socialist Caucus (LSC) of the Democratic Socialists of America (DSA) recognize that our formation has dual obligations, both to the development of the socialist movement in the United States and to the broader libertarian socialist movement that exists outside of DSA. While much of our caucus’ focus thus far has been on DSA’s internal politics, we believe in cross-pollination with the broader libertarian left via an …]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by gorgoiler in "Rivian reduced electrical wiring by 1.6 miles and 44 pounds"]]></title>
-        <id>https://news.ycombinator.com/item?id=41207331</id>
-        <link href="https://news.ycombinator.com/item?id=41207331"/>
-        <updated>2024-08-10T04:32:52.000Z</updated>
-        <summary type="html"><![CDATA[The before/after ECU layout diagram is very instructional.
-I like to imagine some kind of engineering “meet cute” whereby, one random day, the headlights engineer and the parking radar engineer happen to be working on the front of the car together.  Their eyes meet:
-“hey, I’m John — I didn’t know you had an ECU here!”,
-“hi, I’m Claire — wow, you have an ECU right up front too?  It’s, like, right next to mine and we never knew!”
-“I know, crazy right?!  Hey this is going to sound really forward and I don’t normally do this but I’m only running at 70% compute capacity.  I don’t suppose you need any real-time budget this evening?”
-“So funny you should ask, I was just about to run a whole bunch of heavy new wiring to…”
-And in a story as old as time they get ECU married and raise their control loops in the same front-of-vehicle ECU together instead of living their separate, lonely, ECU-right-next-to-each-other-and-they-didn’t-know-it lives.]]></summary>
-        <author>
-            <name>gorgoiler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by oefrha in "Building a highly-available web service without a database"]]></title>
-        <id>https://news.ycombinator.com/item?id=41207172</id>
-        <link href="https://news.ycombinator.com/item?id=41207172"/>
-        <updated>2024-08-10T03:51:16.000Z</updated>
-        <summary type="html"><![CDATA[Seems weird to start with “not talking about using something like SQLite where your data is still serialized”, then end up with a home grown transaction log that requires serialization and needs to be replicated, which is how databases are replicated anyway.
-If your load fits entirely on one server, then just run the database on that damn server and forget about “special architectures to reduce round-trips to your database”. If your data fits entirely in RAM, then use a ramdisk for the database if you want, and replicate it to permanent storage with standard tools. Now that’s actually simple.]]></summary>
-        <author>
-            <name>oefrha</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Code Clarity: Enhancing Code Understanding and Efficiency with Amazon Q Developer]]></title>
-        <id>f383bcb9ec048b73375bec51ac8752a5b1290f19</id>
-        <link href="https://aws.amazon.com/blogs/devops/code-clarity-enhancing-code-understanding-and-efficiency-with-amazon-q-developer/"/>
-        <updated>2024-08-09T13:30:56.000Z</updated>
-        <summary type="html"><![CDATA[“All code will become legacy”. This saying, widely recognized amongst software developers, highlights the reality of their day-to-day activities. While writing new code is an integral part of a developer’s role, a significant portion of their time is dedicated to refactoring and maintaining existing codebases. Developers typically encounter numerous challenges when attempting to understand and […]]]></summary>
-        <author>
-            <name>Jehu Gray</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alibaba Cloud 2024 Autumn MVP Application Now Open]]></title>
-        <id>https://medium.com/p/d29c26909580</id>
-        <link href="https://alibaba-cloud.medium.com/alibaba-cloud-2024-autumn-mvp-application-now-open-d29c26909580?source=rss-8cdb52f9cdca------2"/>
-        <updated>2024-08-09T09:05:15.000Z</updated>
-        <summary type="html"><![CDATA[The latest batch of Alibaba Cloud MVP applications is now open! Apply before 10 September, 2024.]]></summary>
-        <author>
-            <name>Alibaba Cloud</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building RAG Services on Compute Nest with Alibaba Cloud Model Studio and AnalyticDB for…]]></title>
-        <id>https://medium.com/p/8f26bee20273</id>
-        <link href="https://alibaba-cloud.medium.com/building-rag-services-on-compute-nest-with-alibaba-cloud-model-studio-and-analyticdb-for-8f26bee20273?source=rss-8cdb52f9cdca------2"/>
-        <updated>2024-08-09T07:39:00.000Z</updated>
-        <summary type="html"><![CDATA[This article guides the setting up of a RAG service using Alibaba Cloud Model Studio, Compute Nest, and AnalyticDB for PostgreSQL.]]></summary>
-        <author>
-            <name>Alibaba Cloud</name>
         </author>
     </entry>
 </feed>
