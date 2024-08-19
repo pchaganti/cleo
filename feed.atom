@@ -1,10 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-18T18:29:05.417Z</id>
+    <id>urn:2024-08-19T01:43:37.010Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-18T18:29:05.417Z</updated>
+    <updated>2024-08-19T01:43:37.010Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Pod Failure Policy for Jobs Goes GA]]></title>
+        <id>https://kubernetes.io/blog/2024/08/19/kubernetes-1-31-pod-failure-policy-for-jobs-goes-ga/</id>
+        <link href="https://kubernetes.io/blog/2024/08/19/kubernetes-1-31-pod-failure-policy-for-jobs-goes-ga/"/>
+        <updated>2024-08-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This post describes Pod failure policy, which graduates to stable in Kubernetes
+1.31, and how to use it in your Jobs.
+About Pod failure policy
+When you run workloads on Kubernetes, Pods might fail for a variety of reasons.
+Ideally, workloads like Jobs should be able to ignore transient, retriable
+failures and continue running to completion.
+To allow for these transient failures, Kubernetes Jobs include the backoffLimit
+field, which lets you specify a number of Pod failures that you're willing to tolerate
+during Job execution. However, if you set a large value for the backoffLimit field
+and rely solely on this field, you might notice unnecessary increases in operating
+costs as Pods restart excessively until the backoffLimit is met.
+This becomes particularly problematic when running large-sc…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Zone of Interest, a film by Jonathan Glazer, with Christian Friedel, Sandra Huller]]></title>
+        <id>https://disassociated.com/?p=8315</id>
+        <link href="https://disassociated.com/film-the-zone-of-interest-jonathan-glazer-christian-friedel-sandra-huller/"/>
+        <updated>2024-08-18T21:00:38.000Z</updated>
+        <summary type="html"><![CDATA[The Zone of Interest, trailer, the 2023 film by British director Jonathan Glazer (Sexy Beast, Under the Skin), explores a slightly different aspect of the World War II Holocaust, which resulted in the deaths of six million European Jews at the hands of the Nazis. Rudolf Höss (Christian Friedel), the commandant of Auschwitz, a Nazi […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Threads micro-blogging features, badge number Easter egg]]></title>
+        <id>https://disassociated.com/?p=8327</id>
+        <link href="https://disassociated.com/new-threads-micro-blogging-features-badge-number-easter-egg/"/>
+        <updated>2024-08-18T20:30:36.000Z</updated>
+        <summary type="html"><![CDATA[Coming soon to Threads on the website: the facility to save post drafts, and schedule posts. Post insights, similar I imagine, to those on Instagram, are also on the way, according to a recent thread by Meta CEO Mark Zuckerberg. Scheduling posts and saving drafts — at least if using Threads through the website — […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by nimbius in "Police Cannot Seize Property Indefinitely After an Arrest, Federal Court Rules"]]></title>
+        <id>https://news.ycombinator.com/item?id=41284917</id>
+        <link href="https://news.ycombinator.com/item?id=41284917"/>
+        <updated>2024-08-18T19:54:21.000Z</updated>
+        <summary type="html"><![CDATA[I once had the cops seize $800 in cash I had on me to pay for motorcycle service (15% discount with cash) and hold it for 3 months.
+Eventually I got a letter saying I had to show up and prove I wasnt going to do drugs with it.  So I showed up with my invoice.
+Then I was told I had to submit fingerprints and sign a letter promising I wasnt going to do drugs and I refused.
+Finally a month later they sent me a letter saying I had forfeited the money and I showed up again (took a day off work) and they said I had to go to court.  So I went to court, and the judge spent ten minutes telling the cops that didnt show up I had to get my money back.
+Next month after that I got a call saying I had property to pick up and that I'd be fined daily if I didnt.  So I got the money back.]]></summary>
+        <author>
+            <name>nimbius</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Silent Sunday (coffee)]]></title>
+        <id>https://notes.jeddacp.com/silent-sunday-coffee/</id>
+        <link href="https://notes.jeddacp.com/silent-sunday-coffee/"/>
+        <updated>2024-08-18T18:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Last week, I “participated” in Silent Sunday partially due to my social battery being drained. I initially thought that Silent Sunday meant posting a photo that conveys silence, tranquility, and the like. Perhaps in some ways, it still can be. However, I’d be remiss not to acknowledge it’s actual origin1 as described by mocha beanie mummy.
+Sometimes I find that words can clutter a photograph. Sometimes I want to look at a photograph, and make up my own mind about it, what I think about it, rather than what others might think it should be about.
+The rules guidelines are simple:2
+Only one photo.
+The photo you post must be taken by you.
+Photo must be taken the week you post it.
+No other words in the post. Title can be: Silent Sunday or date, nothing else.
+Of course, like everything out there, people have done their own Silent Sunday renditions. However, from what I see in the Mastodon hashtag, people are mostly keeping to its original concept.
+
+18/31 - Blaugust
+Reply by email
+Many thanks to R Scott Jones for pointing me in the right direction.↩
+
+
+wording taken from the site but paraphrased.↩]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sunday photoblogging: gull]]></title>
         <id>https://crookedtimber.org/?p=53009</id>
@@ -13,6 +92,25 @@
         <summary type="html"><![CDATA[Visit the post for more.]]></summary>
         <author>
             <name>Chris Bertram</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[169. Curate your love]]></title>
+        <id>https://marblethoughts.bearblog.dev/curate-your-love/</id>
+        <link href="https://marblethoughts.bearblog.dev/curate-your-love/"/>
+        <updated>2024-08-18T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There’s a really nice quote that goes along the lines of “we’re a combination of everything we’ve ever known.” We’re just composed of things that we come across in our lives, and I find that very beautiful.
+You are a museum.
+Some people will stay away because they’re simply not interested.
+Some will only explore the first floor because they find the whole thing intimidating.
+Some will only visit for the temporary exhibit.
+And some will scan all the floors but won’t learn any of the context.
+Only few will spend hours reading into the depths of what’s on display.
+And those are the ones who will cherish you.
+~evie
+In essence, love is much like the art of curating a museum. We consider, assess, and most importantly choose the "artifacts" of most significance based on what we (uniquely) enjoy. …]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -83,6 +181,17 @@ Or accept and announce shamelessly that you don't have either the knowledge or t
         <summary type="html"><![CDATA[I use it to inspect video frames by frames, particularly being able to go back one frame. VLC doesn't support it, this thread about the feature is hilarious https://forum.videolan.org/viewtopic.php?t=120627]]></summary>
         <author>
             <name>lairv</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by etra0 in "Mpv – A free, open-source, and cross-platform media player"]]></title>
+        <id>https://news.ycombinator.com/item?id=41277640</id>
+        <link href="https://news.ycombinator.com/item?id=41277640"/>
+        <updated>2024-08-17T20:20:49.000Z</updated>
+        <summary type="html"><![CDATA[A fantastic mediaplayer, quite minimalistic and performant; it does what it's supposed to do!
+Also has a fantastic commit where the author rants about locales: https://github.com/mpv-player/mpv/commit/1e70e82baa9193f6f02... worth a read for some chuckles.]]></summary>
+        <author>
+            <name>etra0</name>
         </author>
     </entry>
     <entry>
@@ -1638,16 +1747,6 @@ Who thinks they are booking phone sales as AI revenue to juice the numbers?]]></
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by mnw21cam in "Tell HN: Google OAuth consent screen issue could be costing you signups"]]></title>
-        <id>https://news.ycombinator.com/item?id=41237470</id>
-        <link href="https://news.ycombinator.com/item?id=41237470"/>
-        <updated>2024-08-13T17:31:17.000Z</updated>
-        <summary type="html"><![CDATA[Just a PSA - I (and probably others) find the "Sign in with Google" pop-over extremely annoying. It annoys me both because it's over the top of stuff I might want to read, and also because it's Google threatening to tell this web site who I am even though I have no desire whatsoever to do that. Please hide it behind a login button or otherwise only show it when the visitor has actually demonstrated a desire to log in specifically using Google.]]></summary>
-        <author>
-            <name>mnw21cam</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How AWS powered Prime Day 2024 for record-breaking sales]]></title>
         <id>d7b5d20444338457f621b12a46f70828e2d3fbc6</id>
         <link href="https://aws.amazon.com/blogs/aws/how-aws-powered-prime-day-2024-for-record-breaking-sales/"/>
@@ -1667,17 +1766,6 @@ I will admit, I visit the analytics page of my blog at least once a day. Maybe i
 I try to make writing a habit, but a huge part of it is you who are reading it. The sense of community is what makes my writing habit the strongest.]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by chongli in "The Webb Telescope further deepens the Hubble tension controversy in cosmology"]]></title>
-        <id>https://news.ycombinator.com/item?id=41236091</id>
-        <link href="https://news.ycombinator.com/item?id=41236091"/>
-        <updated>2024-08-13T14:55:37.000Z</updated>
-        <summary type="html"><![CDATA[The controversy is that we get 2 different numbers depending on which method (cosmic microwave background vs cosmic distance ladder) we use to calculate the present rate of expansion. These numbers used to have their error bars overlapping, so we assumed they would eventually converge to the true value. But as we get more data the opposite is happening: the numbers are diverging and their error bars are shrinking such that they no longer overlap.
-This tells us that either our model of the universe is wrong (therefore the cosmic microwave background method is giving us an incorrect answer) or that something is wrong with how we're calculating the distances along the cosmic distance ladder. The latter was originally the assumption that should be proven true with more and better data from newer telescopes. This is now turning out not to be the case: our cosmic distance ladder calculations seem to have been very good, so it now seems more likely that our model of the universe is wrong.]]></summary>
-        <author>
-            <name>chongli</name>
         </author>
     </entry>
     <entry>
@@ -1761,17 +1849,6 @@ The following is a preliminary draft of the preface to the Turkish edition of my
  This book is the result of spoken improvisations that occurred during a strange period of wandering. I was removed from my position as Professor and Chair of Sociology at a major Russian university due in part to a renewed military conflict between Russia and Ukraine. The consequent wandering extended also to the streets of Tomsk, Sochi, Nur Sultan, Vienna, and Budapest, before arriving for a prolonged residential retreat in Cork, Ireland, under a temporary protection order from the Europe…]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Labada Laundry Service]]></title>
-        <id>https://seacielo.bearblog.dev/labada-laundry-service/</id>
-        <link href="https://seacielo.bearblog.dev/labada-laundry-service/"/>
-        <updated>2024-08-13T05:54:00.000Z</updated>
-        <summary type="html"><![CDATA[Since I got married then became a mum, I allowed myself to lose everything that made me part of the human lot. Being a writer. (No really, I was a professional writer before the Internet mocked writing as “anybody could write”). I wrote in the real world. Blogging, yes I admit, was fun-writing. A soul release. I got paid to promote product and service by writing, and not by placing actual or visual ad on my website/blog. I felt disgusted eventually. I felt like a literary prostitute.I sold by the number of words. Eww! Eek!
-I lost interest in writing, both professionally and leisurely. I started travelling. It took up a new watersport called skimboarding. I wrote again. I wrote about skimboarding. I wrote about skimboarding season. I wrote about anything skimboarding. I even made a brand fo…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -1902,53 +1979,6 @@ I've come a long way now from my disastrous freshman year. I've pulled up my gra
         <summary type="html"><![CDATA[from Lars Syll This is not new to most of you of course. You are already steeped in McCloskey’s Rhetoric. Or you ought to be. After all economists are simply telling stories about the economy. Sometimes we are taken in. Sometimes we are not. Unfortunately McCloskey herself gets a little too caught up in her […]]]></summary>
         <author>
             <name>Lars Syll</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[internet diaries and screennames]]></title>
-        <id>https://blog.wolves.rest/internet-diaries-and-screennames/</id>
-        <link href="https://blog.wolves.rest/internet-diaries-and-screennames/"/>
-        <updated>2024-08-12T13:40:15.321Z</updated>
-        <summary type="html"><![CDATA[Bear blog reminds me so much of diaryland.com back in the early, early 2000s. I think there's more people trying to advertise themselves here, but we live in post-Facebook/LinkedIn hell so real names and entangling your resume with your daily thoughts is never gonna leave us in peace. BUT, a lot of the blogs I've read have been so real, it's like going back in time.
-It's not just the ads and all the tracking being shoved up your computer's ass that piss me off, but the molds people have willingly shoved themselves into. I've missed people having space to just experiment with their own existence online. People are so, so polished and trying their hardest to sell themselves. Distilling themselves into brands, then just dumping half their CV in a post about their dog, or trying to conjure the…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Advancing Threat Intelligence: JA4 fingerprints and inter-request signals]]></title>
-        <id>667deb80a4598c000bd706b4</id>
-        <link href="https://blog.cloudflare.com/ja4-signals"/>
-        <updated>2024-08-12T13:00:52.000Z</updated>
-        <summary type="html"><![CDATA[Explore how Cloudflare's JA4 fingerprinting and inter-request signals provide robust and scalable insights for advanced web security and threat detection]]></summary>
-        <author>
-            <name>Alex Bocharov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reallocating Liquidity to Resolve a Crisis]]></title>
-        <id>https://libertystreeteconomics.newyorkfed.org/?p=30992</id>
-        <link href="https://libertystreeteconomics.newyorkfed.org/2024/08/reallocating-liquidity-to-resolve-a-crisis/"/>
-        <updated>2024-08-12T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Shortly after the collapse of Silicon Valley Bank (SVB) in March 2023, a consortium of eleven large U.S. financial institutions deposited $30 billion into First Republic Bank to bolster its liquidity and assuage panic among uninsured depositors. In the end, however, First Republic Bank did not survive, raising the question of whether a reallocation of liquidity among financial institutions can ever reduce the need for central bank balance sheet expansion in the fight against bank runs. We explore this question in this post, based on a recent working paper.]]></summary>
-        <author>
-            <name>Kinda Hachem</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[antifa λευkoşa - From Fortress-Europe to Menogeia]]></title>
-        <id>https://theanarchistlibrary.org/library/from-fortress-europe-to-menogeia?v=1723458360</id>
-        <link href="https://theanarchistlibrary.org/library/from-fortress-europe-to-menogeia?v=1723458360"/>
-        <updated>2024-08-12T10:26:00.000Z</updated>
-        <summary type="html"><![CDATA[Author: antifa λευkoşa
-Title: From Fortress-Europe to Menogeia
-Date: 2014
-Source: https://movementsarchive.org/doku.php?id=en:brochures:antifalefkosha:antifalefkosha_menogia
-
-Sketching Fortress-Europe
- Fortress-Europe means: strict guarding the sea and land borders of an imaginary, unified, “clean” European territory from the Others, the non-Europeans, those who live outside the fortress of supposed well-being. Fortress-Europe is the Dublin 2 law which forces immigrants to stay in their first country of arrival, trapping them there, destining them for deportation or an illegal journey. Fortress-Europe is the construction of visible (from the mines at Evros to Frontex) and invisible walls (see legal difficulties, minimal rights etc) that end up in deaths or deportations. Fortress-Europe mea…]]></summary>
-        <author>
-            <name>The Anarchist Library</name>
         </author>
     </entry>
 </feed>
