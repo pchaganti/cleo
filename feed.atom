@@ -1,16 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-19T18:31:18.771Z</id>
+    <id>urn:2024-08-20T01:41:13.541Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-19T18:31:18.771Z</updated>
+    <updated>2024-08-20T01:41:13.541Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Streaming Transitions from SPDY to WebSockets]]></title>
+        <id>https://kubernetes.io/blog/2024/08/20/websockets-transition/</id>
+        <link href="https://kubernetes.io/blog/2024/08/20/websockets-transition/"/>
+        <updated>2024-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In Kubernetes 1.31, by default kubectl now uses the WebSocket protocol
+instead of SPDY for streaming.
+This post describes what these changes mean for you and why these streaming APIs
+matter.
+Streaming APIs in Kubernetes
+In Kubernetes, specific endpoints that are exposed as an HTTP or RESTful
+interface are upgraded to streaming connections, which require a streaming
+protocol. Unlike HTTP, which is a request-response protocol, a streaming
+protocol provides a persistent connection that's bi-directional, low-latency,
+and lets you interact in real-time. Streaming protocols support reading and
+writing data between your client and the server, in both directions, over the
+same connection. This type of connection is useful, for example, when you create
+a shell in a running container from your local…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Henry James Opposes Wildly Unlikeable Guys]]></title>
+        <id>https://crookedtimber.org/?p=53018</id>
+        <link href="https://crookedtimber.org/2024/08/19/henry-james-opposes-wildly-unlikeable-guys/"/>
+        <updated>2024-08-19T22:19:09.000Z</updated>
+        <summary type="html"><![CDATA[Henry James: girl, you are so cool and smart, and well-dressed, and beautiful. And I mean this in the least-sexual, but not sassy-gay-best-friend way, exactly, but more like just, your good friend who is also gay? And do you know, that guy is the worst. The worst. I feel like someone should leave you a […]]]></summary>
+        <author>
+            <name>Belle Waring</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Add macOS to your continuous integration pipelines with AWS CodeBuild]]></title>
+        <id>7c92c240b5751fb505e0a2c423b6891c4fe90c69</id>
+        <link href="https://aws.amazon.com/blogs/aws/add-macos-to-your-continuous-integration-pipelines-with-aws-codebuild/"/>
+        <updated>2024-08-19T21:14:31.000Z</updated>
+        <summary type="html"><![CDATA[AWS CodeBuild now supports macOS, simplifying CI/CD pipelines for Apple apps, using managed M2 machines with pre-installed tools like Xcode. Auto scale capacity seamlessly while CodeBuild manages the fleet.]]></summary>
+        <author>
+            <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Australian Prime Minister’s Literary Awards 2024 shortlist]]></title>
+        <id>https://disassociated.com/?p=8320</id>
+        <link href="https://disassociated.com/australian-prime-ministers-literary-awards-2024-shortlist/"/>
+        <updated>2024-08-19T21:00:29.000Z</updated>
+        <summary type="html"><![CDATA[Do Australian Prime Ministers have time to read books? They may not, but they do have a literary award for Australian publications, created in 2008, of which the 2024 shortlist was announced last week. Five titles, across the six award categories of fiction, non-fiction, Australian history, poetry, children’s, and young adult, were included. Among books […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mpox (“Monkeypox”) Round-Up: History, Wastewater, R0, and Is It Airborne? (Yes)]]></title>
+        <id>https://www.nakedcapitalism.com/?p=276972</id>
+        <link href="https://www.nakedcapitalism.com/2024/08/mpox-monkeypox-round-up-history-wastewater-r0-and-is-it-airborne-yes.html"/>
+        <updated>2024-08-19T20:25:54.000Z</updated>
+        <summary type="html"><![CDATA[Great news on wastewater, less great news on R0 and airborne transmission.]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Weekly Roundup: G6e instances, Karpenter, Amazon Prime Day metrics, AWS Certifications update and more (August 19, 2024)]]></title>
+        <id>204a9127d101972ff3aeb38af0a2c2198f16f9ba</id>
+        <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-g6e-instances-karpenter-amazon-prime-day-metrics-aws-certifications-update-and-more-august-19-2024/"/>
+        <updated>2024-08-19T20:18:23.000Z</updated>
+        <summary type="html"><![CDATA[You know what I find more exciting than the Amazon Prime Day sale? Finding out how Amazon Web Services (AWS) makes it all happen. Every year, I wait eagerly for Jeff Barr’s annual post to read the chart-topping metrics. The scale never ceases to amaze me. This year, Channy Yun and Jeff Barr bring us […]]]></summary>
+        <author>
+            <name>Prasad Rao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Work on Gender and Development: Soledad Artiz Prillaman’s The Patriarchal Political Order]]></title>
+        <id>https://crookedtimber.org/?p=53014</id>
+        <link href="https://crookedtimber.org/2024/08/19/new-work-on-gender-and-development-soledad-artiz-prillamans-the-patriarchal-political-order/"/>
+        <updated>2024-08-19T20:02:07.000Z</updated>
+        <summary type="html"><![CDATA[The value of individualism often comes up in attempts to make sense of the elusiveness of women’s empowerment. “Investing in women” has not uniformly yielded either the quick reduction in women’s poverty or the decrease in women’s adherence to sexist norms or deference to men policymakers had hoped it would. Of course, this is partly […]]]></summary>
+        <author>
+            <name>Serene Khader</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 8/19/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=276974</id>
         <link href="https://www.nakedcapitalism.com/2024/08/200pm-water-cooler-8-19-2024.html"/>
         <updated>2024-08-19T18:00:26.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, pandemics: Updated Covid data: First sighting of XDV.1 variant from China; a campaign scenario and the Democrat National Convention. ~]]></summary>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, pandemics: Updated Covid data: First sighting of XDV.1 variant from China; a campaign scenario and the Democrat National Convention; Israel accepts US ceasefire deal, but not Hamas. Nice timing! ~]]></summary>
         <author>
             <name>Lambert Strether</name>
         </author>
@@ -50,6 +132,19 @@ Source: https://movementsarchive.org/doku.php?id=en:leaflets:xrisalllida:kakakak
         <summary type="html"><![CDATA[The Federal Reserve Bank of New York’s July 2024 SCE Labor Market Survey shows a year-over-year increase in the average reservation wage—the lowest wage respondents would be willing to accept for a new job—to $81,147, but a decline from a series’ high of $81,822 in March 2024. In this post, we investigate how the recent dynamics of reservation wages differed across individuals and how reservation wages are related to individuals’ expectations about their future labor market movements.]]></summary>
         <author>
             <name>Gizem Kosar, Davide Melcangi, and Sasha Thomas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by GNOMES in "Roblox is the biggest game in the world, but is unprofitable"]]></title>
+        <id>https://news.ycombinator.com/item?id=41291192</id>
+        <link href="https://news.ycombinator.com/item?id=41291192"/>
+        <updated>2024-08-19T14:09:39.000Z</updated>
+        <summary type="html"><![CDATA[My kiddo has easily spent 500+ on Roblox across birthday/Xmas gift cards/chores.
+I can't stand that almost all of the games seem to have a pay to win aspect, or are heavily advertising every chance they get.
+As a gamer dad, I try to show my kid better games to play, but because they aren't free, his friends can't play. Just drives him to keep playing and wanting more Robux. It's compounded when his favorite Youtubers play...
+Seriously don't understand how Roblox isn't being investigated for predatory practices. I imagine they can hide behind the fact users are making most of the mini games, and they are just providing a platform.]]></summary>
+        <author>
+            <name>GNOMES</name>
         </author>
     </entry>
     <entry>
@@ -267,6 +362,18 @@ Wow. I've never though about this before, but this is an awful second-order cons
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by wavemode in "Roblox is the biggest game in the world, but is unprofitable"]]></title>
+        <id>https://news.ycombinator.com/item?id=41287638</id>
+        <link href="https://news.ycombinator.com/item?id=41287638"/>
+        <updated>2024-08-19T03:47:50.000Z</updated>
+        <summary type="html"><![CDATA[> Though Roblox isn’t profitable, there are some significant caveats to the situation. Over the last twelve months, operating cash flow—a far more important measure than accounting-defined profits—were $650MM, about 20% of revenue. Roblox has been cash-positive for at least twenty-four quarters.
+This feels like an example of the phenomenon highlighted in another recent post: https://news.ycombinator.com/item?id=41263855
+Namely, that as long as Roblox's cash flow is increasing year-over-year, they probably don't care about profit. (And if cash flow ever does stop increasing, they can always get back to sustainability by pumping the brakes on reinvestment spending.)]]></summary>
+        <author>
+            <name>wavemode</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by burnte in "Google took three months to remove scam app that stole over $5M"]]></title>
         <id>https://news.ycombinator.com/item?id=41286672</id>
         <link href="https://news.ycombinator.com/item?id=41286672"/>
@@ -341,6 +448,19 @@ Finally a month later they sent me a letter saying I had forfeited the money and
 Next month after that I got a call saying I had property to pick up and that I'd be fined daily if I didnt.  So I got the money back.]]></summary>
         <author>
             <name>nimbius</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by alberth in "Leaving Neovim for Zed"]]></title>
+        <id>https://news.ycombinator.com/item?id=41284801</id>
+        <link href="https://news.ycombinator.com/item?id=41284801"/>
+        <updated>2024-08-18T19:35:31.000Z</updated>
+        <summary type="html"><![CDATA[I initially loved Zed.
+But as their focus has shifted to building Collaboration & AI features, and still haven’t yet nailed just being a good/great base editor, its become less useful to me.
+I still have a lot of hope for Zed.
+But for the time being, I’ve switched back to my old editor & IDE … and I’ll try Zed again at a much later date.]]></summary>
+        <author>
+            <name>alberth</name>
         </author>
     </entry>
     <entry>
@@ -720,16 +840,6 @@ South]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Home Improvement]]></title>
-        <id>https://www.nakedcapitalism.com/?p=276854</id>
-        <link href="https://www.nakedcapitalism.com/2024/08/home-improvement.html"/>
-        <updated>2024-08-17T07:29:08.000Z</updated>
-        <summary type="html"><![CDATA[The North Missoula Community Development Corporation brings permanent affordable housing to Montana]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[A Punk Rock Paean]]></title>
         <id>https://www.counterpunch.org/?p=330342</id>
         <link href="https://www.counterpunch.org/2024/08/17/a-punk-rock-paean/"/>
@@ -863,6 +973,16 @@ Keep writing!]]></summary>
         <summary type="html"><![CDATA[Meet Cloud Connector — a new free product to simplify your cloud routing and object storage configurations. Say goodbye to frustrating Host Header workarounds and hello to protecting your assets, accelerating applications, and routing your traffic between multiple cloud providers seamlessly]]></summary>
         <author>
             <name>Nikita Cano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by idop in "VCs don't care if you're nice, they want founders who take risks"]]></title>
+        <id>https://news.ycombinator.com/item?id=41265149</id>
+        <link href="https://news.ycombinator.com/item?id=41265149"/>
+        <updated>2024-08-16T10:49:02.000Z</updated>
+        <summary type="html"><![CDATA[VCs want founders who are willing to play the game and can do it well: lying to (potential) customers, making insane promises, presenting fake demos as if they were real products and using fancy accounting tricks to make the business look profitable, when in fact it is bleeding their money, all so that they can easily find _other_ investors to bail them out. VCs have perfected legal Ponzi schemes.]]></summary>
+        <author>
+            <name>idop</name>
         </author>
     </entry>
     <entry>
@@ -1211,6 +1331,20 @@ Me.  I am exactly opposite on this.  I don't want to watch a video if it could h
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by rtpg in "CEOs are running companies from afar even as workers return to office"]]></title>
+        <id>https://news.ycombinator.com/item?id=41262253</id>
+        <link href="https://news.ycombinator.com/item?id=41262253"/>
+        <updated>2024-08-16T01:26:46.000Z</updated>
+        <summary type="html"><![CDATA[A recurring theme in so many startups I've seen inside is how the CEO in particular is extremely aloof with regards to presence. Sometimes that translates to aloofness for staff, but what more often happens is that when the CEO _does_ come in they expect other people to be there. So long as the alignment is good they don't care, but when it's not aligned, they just assume nobody is ever around and get real pissy about people showing up on time.
+Fortunately the "good" ones are able to disassociate how much of that emotion is just them being lonely vs how much of it is actual synergy-seeking or whatever. The worst cases are people who get real tyranical, on top of just like... outright not showing up to do the actual day-to-day work that they are blockers on. A proper theory of the mind can often be quite absent.
+My really glib take on this phenomenom is that a not-insignificant chunk of decision making for HR stuff is "make the CEO fill the tip-top of their
+Maslovian pyramind". And to a lesser extent other executives who have decided that their job is their life.
+Very annoying to listen to post-facto RTO arguments when you can feel the loneliness as the driving factor. Make a fun space, and make people's work schedules be loose enough to where they can actually relax in the space, and some people will show up! Or at the very least, give the CEO a fun side project to work on or something.]]></summary>
+        <author>
+            <name>rtpg</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by bearjaws in "CEOs are running companies from afar even as workers return to office"]]></title>
         <id>https://news.ycombinator.com/item?id=41262007</id>
         <link href="https://news.ycombinator.com/item?id=41262007"/>
@@ -1343,6 +1477,23 @@ South]]></summary>
         <summary type="html"><![CDATA[News sites seem to be the worst, but they’re not alone*. You want to read a news item, but are assailed by a plethora of interfering popups of some sort. But a new feature in the soon to be released iPhone operating system, iOS 18, for Apple’s Safari browser, is a step in the right […]]]></summary>
         <author>
             <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jaaron in "CockroachDB license change"]]></title>
+        <id>https://news.ycombinator.com/item?id=41258559</id>
+        <link href="https://news.ycombinator.com/item?id=41258559"/>
+        <updated>2024-08-15T17:43:37.000Z</updated>
+        <summary type="html"><![CDATA[> IMO, it's not really open source if its run by a company that will eventually use its position to squeeze its users for cash.
+I know it's not as popular or sexy as it used to be, but the whole point of a foundation like Apache was to avoid these situations, even more than the way the Linux Foundation is setup. Apache _explicitly_ manages projects to avoid these downsides.
+- Single corporation ownership. Projects cannot get out of the Incubator unless they demonstrate a diverse and healthy community. That doesn't mean popular, it doesn't necessarily mean best-in-class, but it means that there shouldn't be just one entity backing a project.
+- Membership in Apache is _personal_ not a seat for a given company. If you're a committer on an Apache project and you move jobs, you're _still_ a committer on that project
+- The Foundation owns the trademarks. There have been fights about this in the past, but the whole idea is that the _community_ owns the name, so some corporation can't claim to be the sole or official owner by naming their company or product after the open source product.
+The core premise of the Apache Software Foundation is community over code, that healthy, diverse communities have a better chance of standing the test of time than open source projects backed by a single individual or company. That's the thesis at least.
+The is starkly different from several other foundations, notably the Linux Foundation or Eclipse Foundation which are modeled more around industry consortiums.
+Both models have their place, but I believe Apache better models the core values many of us feel strongly about when it comes to free and open source software.]]></summary>
+        <author>
+            <name>jaaron</name>
         </author>
     </entry>
     <entry>
@@ -1531,6 +1682,19 @@ In large-scale cluster…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by femto in "I put a toaster in the dishwasher (2012)"]]></title>
+        <id>https://news.ycombinator.com/item?id=41251234</id>
+        <link href="https://news.ycombinator.com/item?id=41251234"/>
+        <updated>2024-08-14T22:33:03.000Z</updated>
+        <summary type="html"><![CDATA[I was once involved in a similar (unintentional) experiment with a multi-billion dollar defence radar.  A several metres deep underground bunker, containing several 19" racks full of electrical/electronic gear, filled to ground level with a combination of mineralised surface water and mud during a storm.
+What we wanted to do was cut the power, pump the water out of the bunker ASAP and immediately clean the whole lot with pure water.
+What the (arse-covering) site manager did was nothing, not even cut the power, until a "risk-assessment" had been done.  For the first few days we were able to peer into the bunker's hatch and watch der blinkenlights happily operating in the gloom underwater.  That stopped after a few days.  About a week later the risk had been assessed and a path of action determined: the power was turned off, the water was pumped out and everything was washed with pure water.  By then electrolysis had dissolved just about every conductor in the system.
+Electrical systems will happily cope with water in the short term, but the longer the exposure the less likely they are to survive.  Time is part of the risk.]]></summary>
+        <author>
+            <name>femto</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How Meta animates AI-generated images at scale]]></title>
         <id>https://engineering.fb.com/?p=21542</id>
         <link href="https://engineering.fb.com/2024/08/14/production-engineering/how-meta-animates-ai-generated-images-at-scale/"/>
@@ -1596,16 +1760,6 @@ Different from pictures, one of the biggest advantages I leverage is the ability
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by TrackerFF in "How I won $2,750 using JavaScript, AI, and a can of WD-40"]]></title>
-        <id>https://news.ycombinator.com/item?id=41249310</id>
-        <link href="https://news.ycombinator.com/item?id=41249310"/>
-        <updated>2024-08-14T18:52:45.000Z</updated>
-        <summary type="html"><![CDATA[I love that 75% of the post was OP checking the math on whether or not he should join the contest.]]></summary>
-        <author>
-            <name>TrackerFF</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[John Creaghe - Correspondence]]></title>
         <id>https://theanarchistlibrary.org/library/john-creaghe-correspondence?v=1723661187</id>
         <link href="https://theanarchistlibrary.org/library/john-creaghe-correspondence?v=1723661187"/>
@@ -1655,61 +1809,6 @@ As our readers may be interested in Comrade Creaghe's "trial for libel" at Sheff
  Our Comrade said: “I wish to make a statement about the matter and leave it for you to decide whether you wish to dismiss it here. I think it was absurd that a number of people should have to come together and have to oc…]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by subsubzero in "Texas sues GM for unlaw­ful­ly collecting and selling dri­vers' pri­vate data [pdf]"]]></title>
-        <id>https://news.ycombinator.com/item?id=41248584</id>
-        <link href="https://news.ycombinator.com/item?id=41248584"/>
-        <updated>2024-08-14T17:40:41.000Z</updated>
-        <summary type="html"><![CDATA[Fun fact, as a owner of a GMC auto I got a innocent looking email about the discontinuation of the Onstar Smart driver service which was the service in question that violated many US laws and sent data to insurance companies without customers authorization. I hope this hits GM really hard as this type of behavior will never cease until massive amounts of money is extracted from the perpetrators(GM etc).]]></summary>
-        <author>
-            <name>subsubzero</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by slazaro in "Show HN: If YouTube had actual channels"]]></title>
-        <id>https://news.ycombinator.com/item?id=41247704</id>
-        <link href="https://news.ycombinator.com/item?id=41247704"/>
-        <updated>2024-08-14T16:12:34.000Z</updated>
-        <summary type="html"><![CDATA[I'd echo the sentiment that this is amazing, and that a TV guide would be awesome.
-I'd also suggest maybe adding the channel names (like the comment you posted here) to the app itself (although i think it's cool when it's unnamed and you get the old-school feeling of channels just being numbers).
-Also, I'd love to have permalinks for the channels. Not for the individual videos themselves, but just a link that when sharing would bring somebody else to the same channel you're watching right now.
-Another thing, although probably outside your control, is that I use a Firefox extension called "SoundFixer" that I use to force the youtube audio to mono (since a lot of channels are annoying to me using headphones, they pan the audio sources too hard left/right and it's super distracting), but it doesn't seem to work on this website, probably because of the way they're embedded. I don't know if this can be changed somehow, or have a mode to force mono audio (which would be also oldschool like old TVs with one speaker only!). It's probably too niche and hard to do though.
-Also I don't seem to find any volume control except mute?]]></summary>
-        <author>
-            <name>slazaro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by tantalor in "Show HN: If YouTube had actual channels"]]></title>
-        <id>https://news.ycombinator.com/item?id=41247268</id>
-        <link href="https://news.ycombinator.com/item?id=41247268"/>
-        <updated>2024-08-14T15:33:35.000Z</updated>
-        <summary type="html"><![CDATA[The best part of this is the channel doesn't pause when you flip away from it. It is always "running" and if you flip away you will miss it. That builds in a FOMO trade-off which causes user to automatically/subconciously decide on channel they most want to watch, because they can't watch everything.]]></summary>
-        <author>
-            <name>tantalor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by hadisafa in "Show HN: If YouTube had actual channels"]]></title>
-        <id>https://news.ycombinator.com/item?id=41247037</id>
-        <link href="https://news.ycombinator.com/item?id=41247037"/>
-        <updated>2024-08-14T15:11:33.000Z</updated>
-        <summary type="html"><![CDATA[Channel 1: Science and Technology
-Channel 2: Travel and Events
-Channel 3: Food
-Channel 4: Architecture
-Channel 5: Film and Animation
-Channel 6: Documentaries
-Channel 7: Comedy
-Channel 8: Music
-Channel 9: Autos and Vehicles
-Channel 10: News and Politics
-Channel 11: UFC
-Channel 12: Podcasts/Interviews/Talk Shows]]></summary>
-        <author>
-            <name>hadisafa</name>
         </author>
     </entry>
     <entry>
@@ -1798,32 +1897,6 @@ South,
 80 ans BM FMI EN]]></summary>
         <author>
             <name>Eric Toussaint</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by tgsovlerkhgsel in "Disney seeks dismissal of wrongful death lawsuit citing waiver in Disney+ terms"]]></title>
-        <id>https://news.ycombinator.com/item?id=41243048</id>
-        <link href="https://news.ycombinator.com/item?id=41243048"/>
-        <updated>2024-08-14T06:01:25.000Z</updated>
-        <summary type="html"><![CDATA[The bug in the legal system is that by filing this motion/claim, Disney can only win.
-In the unlikely best case, they get the case dismissed, but even in the most likely case that the motion is denied, they win by wearing down their opponent who has much more limited resources and is personally affected by the case dragging out, i.e. more likely to accept a (lower) settlement than without this tactic. The only downside is a tiny bit of legal costs.
-Courts should be able to issue sanctions/extra damages for the use of such tactics. If using such a tactic turned the claim from "you killed this person negligently" to "you killed this person negligently, then willfully tried sleazy tricks to create additional suffering for the husband", and had the potential to double the award, companies would be much less eager to play this game.]]></summary>
-        <author>
-            <name>tgsovlerkhgsel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by torstenvl in "Disney seeks dismissal of wrongful death lawsuit citing waiver in Disney+ terms"]]></title>
-        <id>https://news.ycombinator.com/item?id=41242682</id>
-        <link href="https://news.ycombinator.com/item?id=41242682"/>
-        <updated>2024-08-14T04:57:07.000Z</updated>
-        <summary type="html"><![CDATA[If the agreement at the time is anything like the current agreement, this is a serious misrepresentation to the court.
-The terms do require Disney+ users to "agree to resolve, by binding individual arbitration as provided below, all Disputes" with some IP exceptions.
-But "Disputes" is a term of art that "includes any claim, dispute, action, or other controversy, whether based on past, present, or future events, whether based in contract, tort, statute, or common law, between you and Disney concerning the Disney Products or this Agreement" (emphasis added).
-What are the Disney Products? They are "certain websites, software, applications, content, products, and services in any media format or channel."
-I hope the lawyers get sanctioned and disbarred.]]></summary>
-        <author>
-            <name>torstenvl</name>
         </author>
     </entry>
     <entry>
@@ -1973,42 +2046,6 @@ Reply by email]]></summary>
         <summary type="html"><![CDATA[Earlier this week, I received my contributor copy of The Art of Teaching Philosophy: Reflective Values and Concrete Practices, edited by Brynn Welch.[1] It’s an exciting book, and I’m proud to have gotten to contribute to it. My chapter on advising graduate students about teaching was coauthored with an excellent teacher (and researcher), a near-former […]]]></summary>
         <author>
             <name>Gina Schouten</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing HTTP request traffic insights on Cloudflare Radar]]></title>
-        <id>66b64e2b4a25d6000ae1cc8f</id>
-        <link href="https://blog.cloudflare.com/http-requests-on-cloudflare-radar"/>
-        <updated>2024-08-13T13:00:24.000Z</updated>
-        <summary type="html"><![CDATA[The traffic graphs on Cloudflare Radar have been enhanced to include HTTP request traffic. This new metric complements the existing bytes-based “HTTP traffic” view, and the new graphs can be found on Radar’s Overview and Traffic pages]]></summary>
-        <author>
-            <name>David Belson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When Are Central Bank Reserves Ample?]]></title>
-        <id>https://libertystreeteconomics.newyorkfed.org/?p=31340</id>
-        <link href="https://libertystreeteconomics.newyorkfed.org/2024/08/when-are-central-bank-reserves-ample/"/>
-        <updated>2024-08-13T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Federal Reserve (Fed) implements monetary policy in a regime of ample reserves, whereby short-term interest rates are controlled mainly through the setting of administered rates. To do so, the quantity of reserves in the banking system needs to be large enough that everyday changes in reserves do not cause large variations in the policy rate, the so-called federal funds rate. As the Fed shrinks its balance sheet following the plan laid out by the Federal Open Market Committee (FOMC) in 2022, how can it assess when to stop so that the supply of reserves remains ample? In the first post of a two-part series, based on the methodology developed in our recent Staff Report, we propose to assess the ampleness of reserves in real time by estimating the slope of the reserve demand curve.]]></summary>
-        <author>
-            <name>Gara Afonso, Domenico Giannone, Gabriele La Spada, and John C. Williams</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Duane Rousselle - Preface to Turkish Edition of “Post-Anarchism and Psychoanalysis”]]></title>
-        <id>https://theanarchistlibrary.org/library/duane-rousselle-preface-to-turkish-edition?v=1723543794</id>
-        <link href="https://theanarchistlibrary.org/library/duane-rousselle-preface-to-turkish-edition?v=1723543794"/>
-        <updated>2024-08-13T10:09:54.000Z</updated>
-        <summary type="html"><![CDATA[Author: Duane Rousselle
-Title: Preface to Turkish Edition of “Post-Anarchism and Psychoanalysis”
-Date: 2024
-Source: duanerousselle.medium.com
-
-The following is a preliminary draft of the preface to the Turkish edition of my book Post-Anarchism and Psychoanalysis, which will be published in a few months.
- This book is the result of spoken improvisations that occurred during a strange period of wandering. I was removed from my position as Professor and Chair of Sociology at a major Russian university due in part to a renewed military conflict between Russia and Ukraine. The consequent wandering extended also to the streets of Tomsk, Sochi, Nur Sultan, Vienna, and Budapest, before arriving for a prolonged residential retreat in Cork, Ireland, under a temporary protection order from the Europe…]]></summary>
-        <author>
-            <name>The Anarchist Library</name>
         </author>
     </entry>
 </feed>
