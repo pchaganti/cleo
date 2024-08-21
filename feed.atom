@@ -1,10 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-20T18:31:08.593Z</id>
+    <id>urn:2024-08-21T01:41:35.616Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-20T18:31:08.593Z</updated>
+    <updated>2024-08-21T01:41:35.616Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Autoconfiguration For Node Cgroup Driver (beta)]]></title>
+        <id>https://kubernetes.io/blog/2024/08/21/cri-cgroup-driver-lookup-now-beta/</id>
+        <link href="https://kubernetes.io/blog/2024/08/21/cri-cgroup-driver-lookup-now-beta/"/>
+        <updated>2024-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Historically, configuring the correct cgroup driver has been a pain point for users running new
+Kubernetes clusters. On Linux systems, there are two different cgroup drivers:
+cgroupfs and systemd. In the past, both the kubelet
+and CRI implementation (like CRI-O or containerd) needed to be configured to use
+the same cgroup driver, or else the kubelet would exit with an error. This was a
+source of headaches for many cluster admins. However, there is light at the end of the tunnel!
+Automated cgroup driver detection
+In v1.28.0, the SIG Node community introduced the feature gate
+KubeletCgroupDriverFromCRI, which instructs the kubelet to ask the CRI
+implementation which cgroup driver to use. A few minor releases of Kubernetes
+happened whilst we waited for support to land in the major two CRI implementations
+(containerd and CRI-O), but as of v1.31.0, this feature is now beta!
+In addition to setting the feature gate, a cluster admin needs to ensure their
+CRI implementation is new enough:
+containerd: Support was added in v2.0.0
+CRI-O: Support was added in v1.28.0
+Then, they should ensure their CRI implementation is configured to the
+cgroup_driver they would like to use.
+Future work
+Eventually, support for the kubelet's cgroupDriver configuration field will be
+dropped, and the kubelet will fail to start if the CRI implementation isn't new
+enough to have support for this feature.]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wanting to read more novels, versus trying to do everything else]]></title>
+        <id>https://disassociated.com/?p=8334</id>
+        <link href="https://disassociated.com/wanting-read-more-novels-versus-everything-else/"/>
+        <updated>2024-08-20T21:00:18.000Z</updated>
+        <summary type="html"><![CDATA[About six years ago I decided I wasn’t reading enough novels. Books sat on the side table untouched, gathering dust, and inducing a pang of guilt whenever I took notice of them. I wondered what I could do to get more into reading. One thing I am good at is meeting deadlines, and doing things […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The crisis of knowledge and enlightenment’s imitations]]></title>
+        <id>http://rwer.wordpress.com/?p=45560</id>
+        <link href="https://rwer.wordpress.com/2024/08/20/the-crisis-of-knowledge-and-enlightenments-imitations/"/>
+        <updated>2024-08-20T20:55:26.000Z</updated>
+        <summary type="html"><![CDATA[from Asad Zaman and current issue of RWER Our current environmental predicament is fundamentally a crisis of knowledge, rooted in the Enlightenment’s narrow conceptualization of epistemology. This shift fostered an illusion of objectivity that has since permeated our understanding of the world, particularly in the context of societal dynamics. The Enlightenment’s emphasis on objective knowledge […]]]></summary>
+        <author>
+            <name>Editor</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 8/20/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=277067</id>
@@ -25,6 +76,22 @@ Read More...
 The post Aparna Ramani discusses the future of AI infrastructure appeared first on Engineering at Meta.]]></summary>
         <author>
             <name>Engineering at Meta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[There's No Secret]]></title>
+        <id>https://birming.com/no-secret/</id>
+        <link href="https://birming.com/no-secret/"/>
+        <updated>2024-08-20T15:08:00.000Z</updated>
+        <summary type="html"><![CDATA["What's the secret?"
+I asked this question to one of my clients today. He was 85 years old, looked 60, and was as fit and agile as a 50-year-old.
+He replied: "There's no secret. I enjoy walking. That’s all."
+No secrets. No tricks. Completely natural.
+But that's often how it is, isn’t it; we think there's a code to crack, a secret recipe to follow to achieve success. When in reality, the answer lies in the most natural thing in the world.
+If we want to increase our chances of being in good shape, then we need to make sure we move around a bit. If we want to become a better writer, then we need to make sure we write a lot.
+There's no secret.]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -68,9 +135,10 @@ Source: Retrieved on 20th August 2024 from telegra.ph and t.me
         <id>https://zarar.dev/anatomy-of-a-mental-breakdown/</id>
         <link href="https://zarar.dev/anatomy-of-a-mental-breakdown/"/>
         <updated>2024-08-20T13:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Around 2AM this morning I had a realization that this was the most stressed I have ever been. On verge of a complete breakdown.
+        <summary type="html"><![CDATA[Note: this made it on HN somehow.
+Around 2AM this morning I had a realization that this was the most stressed I have ever been. On verge of a complete breakdown.
 Why? Because I noticed around 10PM that jumpcomedy.com was entirely broken with all HTTP POST calls made by RTK Query failing. Nothing worked and though I had deployed recent changes, none of them would cause this. I was at a complete loss as to where to look, especially as this is working locally. Posting on the usual Discords (NextJS, Vercel) is leading to dead silence. I'm alone and have to fix this issue which I didn't cause.
-This isn't the first production defect I've introduced in my 25 years of working, but this is the first one where I had absolutely nobody to turn to in a time of crisis while customer complaints are piling up at a rate never seen before. …]]></summary>
+This isn't the first production defect I've introduced in my 25 years of working, but this is the first one where I had absolutely nobody to turn to in a time of crisis while customer complaints are pilin…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
@@ -93,6 +161,16 @@ This isn't the first production defect I've introduced in my 25 years of working
         <summary type="html"><![CDATA[“To promote open inquiry and free, market-based technological progress, you need an open society, not one founded on the enemy principle. The understandable desire to escape criticism, misunderstanding, and the frustrations of ordinary politics does not entail the radical remaking of the global geoeconomic order to confound the New York Times and its allies. The cult of […]]]></summary>
         <author>
             <name>Henry Farrell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What a Day]]></title>
+        <id>https://louplummer.lol/what-a-day/</id>
+        <link href="https://louplummer.lol/what-a-day/"/>
+        <updated>2024-08-20T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Today was the first day of classes at the university where I work in IT support. That means campus was full of people who needed help in a variety of ways. The second anyone ventured outside of their office, they's be accosted by an innocent freshman or newly hired professor who needed directions to some other building. In the technology world, there dozens of people who a) forgot their password b) did not want to click the self-service link for forgotten passwords. Later on in the year, I'll make them use the self-service link but today there was no time to convince these neo-adults to take the responsible route out of their self-created problems. I just reset their password for them and moved along to the next person. Some people would listen to the directions on what to do next and say …]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -369,19 +447,6 @@ a shell in a running container from your local…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by delroth in "The gigantic and unregulated power plants in the cloud"]]></title>
-        <id>https://news.ycombinator.com/item?id=41292982</id>
-        <link href="https://news.ycombinator.com/item?id=41292982"/>
-        <updated>2024-08-19T17:38:25.000Z</updated>
-        <summary type="html"><![CDATA[> In the Netherlands alone, these solar panels generate a power output equivalent to at least 25 medium sized nuclear power plants.
-Since this didn't pass the smell test: the author is looking at nameplate capacity, which is a completely useless metric for variable electricity production sources (a solar panel in my sunless basement has the same nameplate capacity as the same panel installed in the Sahara desert).
-Looking at actual yearly energy generation data, this is more like 1.5 times the generation of an average nuclear power plant (NL solar production in 2023: 21TWh, US nuclear production in 2021: 778TWh by 54 plants).
-Which maybe puts more into perspective the actual risks involved here. I'm not saying there shouldn't be more regulations and significantly better security practices, but otoh you could likely drive a big truck into the right power poles and cause a similar sized outage.]]></summary>
-        <author>
-            <name>delroth</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Anarchists - The Hooligans, the Stingies, the Starved People and the Bad Asses]]></title>
         <id>https://theanarchistlibrary.org/library/anarchists-the-hooligans-the-stingies-the-starved-people-and-the-bad-asses?v=1724088997</id>
         <link href="https://theanarchistlibrary.org/library/anarchists-the-hooligans-the-stingies-the-starved-people-and-the-bad-asses?v=1724088997"/>
@@ -428,19 +493,6 @@ What about depression, for instance? Peopl…]]></summary>
         <summary type="html"><![CDATA[The Federal Reserve Bank of New York’s July 2024 SCE Labor Market Survey shows a year-over-year increase in the average reservation wage—the lowest wage respondents would be willing to accept for a new job—to $81,147, but a decline from a series’ high of $81,822 in March 2024. In this post, we investigate how the recent dynamics of reservation wages differed across individuals and how reservation wages are related to individuals’ expectations about their future labor market movements.]]></summary>
         <author>
             <name>Gizem Kosar, Davide Melcangi, and Sasha Thomas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by GNOMES in "Roblox is the biggest game in the world, but is unprofitable"]]></title>
-        <id>https://news.ycombinator.com/item?id=41291192</id>
-        <link href="https://news.ycombinator.com/item?id=41291192"/>
-        <updated>2024-08-19T14:09:39.000Z</updated>
-        <summary type="html"><![CDATA[My kiddo has easily spent 500+ on Roblox across birthday/Xmas gift cards/chores.
-I can't stand that almost all of the games seem to have a pay to win aspect, or are heavily advertising every chance they get.
-As a gamer dad, I try to show my kid better games to play, but because they aren't free, his friends can't play. Just drives him to keep playing and wanting more Robux. It's compounded when his favorite Youtubers play...
-Seriously don't understand how Roblox isn't being investigated for predatory practices. I imagine they can hide behind the fact users are making most of the mini games, and they are just providing a platform.]]></summary>
-        <author>
-            <name>GNOMES</name>
         </author>
     </entry>
     <entry>
@@ -611,56 +663,6 @@ The post When Offense is Defined as Defense—Kursk Version appeared first on Co
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by fishtoaster in "Markov chains are funnier than LLMs"]]></title>
-        <id>https://news.ycombinator.com/item?id=41287805</id>
-        <link href="https://news.ycombinator.com/item?id=41287805"/>
-        <updated>2024-08-19T04:24:03.000Z</updated>
-        <summary type="html"><![CDATA[I came to this same conclusion some years ago while working on a side project.
-Before anything LLM existed, I built a site[0] to generate fake "AWS Blog Posts."  I trained a markov chain generator on all AWS announcement posts up to that point, copied the html + css of aws's standard blog posts, then glued them all together with some python + JS.  It turned out, IMO, pretty funny!  People familiar with AWS's blog posts would often get several sentences in before they realized they were looking at word-soup.
-When GPT was new, I looked into using that to "upgrade" it.  I spent a weekend messing around with Minimaxir's gpt-2-simple generating blog posts based on AWS content.  What I found was, ultimately, it was way less fun.  The posts were far too realistic to be interesting.  They read like totally-real blog posts that just happened to not be true.
-I realized then that the humor of those early markov generations was the ridiculousness.  The point where, a few words or sentences in, you realized it was all nonsense.  LLM's these days are too good for that - the text they generate is sometimes wrong, but rarely nonsense in a humorous way.
-Markov chain content was wrong in a "kid's say the darndest things" way, while modern LLMs are wrong in a "My uncle doesn't know basic geography" way.
-[0] https://totes-not-amazon.com/ - click any link to get a new one.]]></summary>
-        <author>
-            <name>fishtoaster</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by andyferris in "Roblox is the biggest game in the world, but is unprofitable"]]></title>
-        <id>https://news.ycombinator.com/item?id=41287768</id>
-        <link href="https://news.ycombinator.com/item?id=41287768"/>
-        <updated>2024-08-19T04:17:18.000Z</updated>
-        <summary type="html"><![CDATA[> Unlike other social platforms, Roblox’s revenue is nearly all via user spending rather than advertising. As such, Roblox pays 25% of its revenue to Apple and Google (30% of transactions on those platforms) whereas Facebook, Snap, et al pay effectively 0. Note that Facebook, which has structurally lower costs to service users than Roblox and is far more mature, has an operating margin of roughly 40% — if the company had to pay out 25-30% first, it would never have “tech company” profit margins, let alone profit dollars.
-Wow. I've never though about this before, but this is an awful second-order consequence of the high app store fees set by Apple and Google. It essentially incentivizes App makers to treat users as products not customers!
-(Not too surprising for Google, but certainly goes against Apple's public stance).]]></summary>
-        <author>
-            <name>andyferris</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by wavemode in "Roblox is the biggest game in the world, but is unprofitable"]]></title>
-        <id>https://news.ycombinator.com/item?id=41287638</id>
-        <link href="https://news.ycombinator.com/item?id=41287638"/>
-        <updated>2024-08-19T03:47:50.000Z</updated>
-        <summary type="html"><![CDATA[> Though Roblox isn’t profitable, there are some significant caveats to the situation. Over the last twelve months, operating cash flow—a far more important measure than accounting-defined profits—were $650MM, about 20% of revenue. Roblox has been cash-positive for at least twenty-four quarters.
-This feels like an example of the phenomenon highlighted in another recent post: https://news.ycombinator.com/item?id=41263855
-Namely, that as long as Roblox's cash flow is increasing year-over-year, they probably don't care about profit. (And if cash flow ever does stop increasing, they can always get back to sustainability by pumping the brakes on reinvestment spending.)]]></summary>
-        <author>
-            <name>wavemode</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by burnte in "Google took three months to remove scam app that stole over $5M"]]></title>
-        <id>https://news.ycombinator.com/item?id=41286672</id>
-        <link href="https://news.ycombinator.com/item?id=41286672"/>
-        <updated>2024-08-19T00:19:56.000Z</updated>
-        <summary type="html"><![CDATA[That's amazing, it took them 3 months to kill a scam app, but they proactively shutdown smaller apps that break no rules constantly. I swear someone in Google's exec team is going out of their way to make Google products suck. They've all been getting worse for the past several years. Search gives bad results, search qualifiers only work in "verbatim" mode, GMail sucks at spam filtering now, Android is becoming a PITA, Chrome is shoving in new bad features while killing old good features, etc. There was even a big thing about Google Voice having some massive change where lots of features were going away, so I pulled GV out of my life expecting it to go away, and literally nothing changed.
-It's almost like Google is suicidal and these are calls for help.]]></summary>
-        <author>
-            <name>burnte</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Kubernetes 1.31: Pod Failure Policy for Jobs Goes GA]]></title>
         <id>https://kubernetes.io/blog/2024/08/19/kubernetes-1-31-pod-failure-policy-for-jobs-goes-ga/</id>
         <link href="https://kubernetes.io/blog/2024/08/19/kubernetes-1-31-pod-failure-policy-for-jobs-goes-ga/"/>
@@ -682,17 +684,6 @@ This becomes particularly problematic when running large-sc…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by __MatrixMan__ in "Police cannot seize property indefinitely after an arrest, federal court rules"]]></title>
-        <id>https://news.ycombinator.com/item?id=41286072</id>
-        <link href="https://news.ycombinator.com/item?id=41286072"/>
-        <updated>2024-08-18T22:30:51.000Z</updated>
-        <summary type="html"><![CDATA[They took my camera and then when I tried to get it back they claimed that nothing like that was in evidence.  So I filed a police report because the police stole my camera, but I never heard back about it.
-Glad you eventually got your money.]]></summary>
-        <author>
-            <name>__MatrixMan__</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Zone of Interest, a film by Jonathan Glazer, with Christian Friedel, Sandra Huller]]></title>
         <id>https://disassociated.com/?p=8315</id>
         <link href="https://disassociated.com/film-the-zone-of-interest-jonathan-glazer-christian-friedel-sandra-huller/"/>
@@ -710,33 +701,6 @@ Glad you eventually got your money.]]></summary>
         <summary type="html"><![CDATA[Coming soon to Threads on the website: the facility to save post drafts, and schedule posts. Post insights, similar I imagine, to those on Instagram, are also on the way, according to a recent thread by Meta CEO Mark Zuckerberg. Scheduling posts and saving drafts — at least if using Threads through the website — […]]]></summary>
         <author>
             <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by nimbius in "Police cannot seize property indefinitely after an arrest, federal court rules"]]></title>
-        <id>https://news.ycombinator.com/item?id=41284917</id>
-        <link href="https://news.ycombinator.com/item?id=41284917"/>
-        <updated>2024-08-18T19:54:21.000Z</updated>
-        <summary type="html"><![CDATA[I once had the cops seize $800 in cash I had on me to pay for motorcycle service (15% discount with cash) and hold it for 3 months.
-Eventually I got a letter saying I had to show up and prove I wasnt going to do drugs with it.  So I showed up with my invoice.
-Then I was told I had to submit fingerprints and sign a letter promising I wasnt going to do drugs and I refused.
-Finally a month later they sent me a letter saying I had forfeited the money and I showed up again (took a day off work) and they said I had to go to court.  So I went to court, and the judge spent ten minutes telling the cops that didnt show up I had to get my money back.
-Next month after that I got a call saying I had property to pick up and that I'd be fined daily if I didnt.  So I got the money back.]]></summary>
-        <author>
-            <name>nimbius</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by alberth in "Leaving Neovim for Zed"]]></title>
-        <id>https://news.ycombinator.com/item?id=41284801</id>
-        <link href="https://news.ycombinator.com/item?id=41284801"/>
-        <updated>2024-08-18T19:35:31.000Z</updated>
-        <summary type="html"><![CDATA[I initially loved Zed.
-But as their focus has shifted to building Collaboration & AI features, and still haven’t yet nailed just being a good/great base editor, its become less useful to me.
-I still have a lot of hope for Zed.
-But for the time being, I’ve switched back to my old editor & IDE … and I’ll try Zed again at a much later date.]]></summary>
-        <author>
-            <name>alberth</name>
         </author>
     </entry>
     <entry>
@@ -761,18 +725,6 @@ Many thanks to R Scott Jones for pointing me in the right direction.↩
 wording taken from the site but paraphrased.↩]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by OutOfHere in "Police cannot seize property indefinitely after an arrest, federal court rules"]]></title>
-        <id>https://news.ycombinator.com/item?id=41283829</id>
-        <link href="https://news.ycombinator.com/item?id=41283829"/>
-        <updated>2024-08-18T17:38:10.000Z</updated>
-        <summary type="html"><![CDATA[This is a well-intentioned but largely useless ruling because it fails to define the maximum duration for which property can be held. As such, it's up to the police as to what qualifies as indefinite. If the ruling had capped it to 14 or 30 days, that would be a useful ruling.
-A hard time cap is essential because one's life too has a cap. The amount of time for which one can go without earning a livelihood also has a cap. Imagine if prison sentences didn't have a time cap.
-This illustrates a common problem with our laws. They're very often vaguely defined, needlessly so, in a way that keeps attorneys and judges very rich, and the police abusive, to the detriment of the individual. In a sensible world, the laws would all be rewritten for clarity and consistency, starting with the Constitution.]]></summary>
-        <author>
-            <name>OutOfHere</name>
         </author>
     </entry>
     <entry>
@@ -853,42 +805,6 @@ The post Puncak Jaya, Center of the World appeared first on CounterPunch.org.]]>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by j1elo in "Mpv – A free, open-source, and cross-platform media player"]]></title>
-        <id>https://news.ycombinator.com/item?id=41278719</id>
-        <link href="https://news.ycombinator.com/item?id=41278719"/>
-        <updated>2024-08-17T22:57:21.000Z</updated>
-        <summary type="html"><![CDATA[Wow those answers are indeed funny. I agree that as an OSS dev/maintainer, it's easy to fall on the vice of over-generalization and crusade for the perfect solution, and it feels that's exactly what happened there.
-> this feature is algorithmically impossible
-> You're just looking at one specific video, not the general problem.
-> is not generally possible.
-As a fellow multimedia dev, man, who cares? Sometimes we forget that software ought to be useful, not hypothetical ideals of truth. Just implement the feature for those codecs that support it and which probably are in the 98% percentile of what users actually use, regardless of the damned "general case".
-Or accept and announce shamelessly that you don't have either the knowledge or the development resources to tackle such a complex feature. But excuses about not being possible for absolutely every possible codec in a completely generic way is just denying that the world is just a chaotic and dirty place where things are not ideal nor perfect. Just give your users a real-world solution (or rejection).]]></summary>
-        <author>
-            <name>j1elo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by lairv in "Mpv – A free, open-source, and cross-platform media player"]]></title>
-        <id>https://news.ycombinator.com/item?id=41278203</id>
-        <link href="https://news.ycombinator.com/item?id=41278203"/>
-        <updated>2024-08-17T21:38:40.000Z</updated>
-        <summary type="html"><![CDATA[I use it to inspect video frames by frames, particularly being able to go back one frame. VLC doesn't support it, this thread about the feature is hilarious https://forum.videolan.org/viewtopic.php?t=120627]]></summary>
-        <author>
-            <name>lairv</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by etra0 in "Mpv – A free, open-source, and cross-platform media player"]]></title>
-        <id>https://news.ycombinator.com/item?id=41277640</id>
-        <link href="https://news.ycombinator.com/item?id=41277640"/>
-        <updated>2024-08-17T20:20:49.000Z</updated>
-        <summary type="html"><![CDATA[A fantastic mediaplayer, quite minimalistic and performant; it does what it's supposed to do!
-Also has a fantastic commit where the author rants about locales: https://github.com/mpv-player/mpv/commit/1e70e82baa9193f6f02... worth a read for some chuckles.]]></summary>
-        <author>
-            <name>etra0</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Week Notes 018]]></title>
         <id>https://notes.jeddacp.com/week-notes-018/</id>
         <link href="https://notes.jeddacp.com/week-notes-018/"/>
@@ -902,31 +818,6 @@ A co-worker turned friend recently started a blog. I’ve been talking about my 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by lotharrr in "Magic Wormhole: get things from one computer to another, safely"]]></title>
-        <id>https://news.ycombinator.com/item?id=41276769</id>
-        <link href="https://news.ycombinator.com/item?id=41276769"/>
-        <updated>2024-08-17T18:32:53.000Z</updated>
-        <summary type="html"><![CDATA[(magic-wormhole author here)
-Thanks for making a donation!
-I run the relay server, but the Debian maintainer agreed to bake an alternate hostname into the packaged versions (a CNAME for the same address that the upstream git code uses), so we could change it easily if the cost ever got to be a burden. It hasn't been a problem so far, it moves 10-15 TB per month, but shares a bandwidth pool with other servers I'm renting anyways, so I've only ever had to pay an overage charge once. And TBH if someone made a donation to me, I'd just send it off to Debian anyways.
-Every once in a while, somebody moves half a terabyte through it, and then I think I should either move to a slower-but-flat-rate provider, or implement some better rate-limiting code, or finally implement the protocol extension where clients state up front how much data they're going to transfer, and the server can say no. But so far it's never climbed the priority ranking high enough to take action on.
-Thanks for using magic wormhole!]]></summary>
-        <author>
-            <name>lotharrr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by SoftTalker in "Flaw has Microsoft Authenticator overwriting MFA accounts, locking users out"]]></title>
-        <id>https://news.ycombinator.com/item?id=41276507</id>
-        <link href="https://news.ycombinator.com/item?id=41276507"/>
-        <updated>2024-08-17T17:59:46.000Z</updated>
-        <summary type="html"><![CDATA["This is a small example of a big problem with usability and cybersecurity. This is what happens when apps are developed by engineers who don’t have a strong knowledge of customers"
-This really rings true. Just think of all the nonsense you have to deal with in the name of "security." Mandatory password change intervals. Insane rules for constructing passwords. Completely undocumented password requirements that you just have to figure out by trial and error. Complicated error messages full of security jargon. "Secret Questions" that you can't remember the answers to. And on the other side of the coin, the security of these systems themselves is like a sieve. So many data breaches, information disclosures, they are in the news almost daily. I often wonder how they get away with it all.]]></summary>
-        <author>
-            <name>SoftTalker</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Amazon blocks advertising of a novel whose narrator is an economist]]></title>
         <id>http://rwer.wordpress.com/?p=45543</id>
         <link href="https://rwer.wordpress.com/2024/08/17/amazon-blocks-advertising-of-a-novel-whose-narrator-is-an-economist/"/>
@@ -934,36 +825,6 @@ This really rings true. Just think of all the nonsense you have to deal with in 
         <summary type="html"><![CDATA[from Edward Fullbrook A few years ago, I wrote a novel that was published under a pen name and titled Two American Dreams; Which is yours?  Recently its publisher realized that, although set in the Sixties (mostly in Berkeley) this novel pertains to the coming US presidential election to a remarkable degree.  With that in […]]]></summary>
         <author>
             <name>Edward Fullbrook</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by virgulino in "X says it is closing operations in Brazil due to judge's content orders"]]></title>
-        <id>https://news.ycombinator.com/item?id=41276038</id>
-        <link href="https://news.ycombinator.com/item?id=41276038"/>
-        <updated>2024-08-17T17:13:24.000Z</updated>
-        <summary type="html"><![CDATA[Brazilian here. If anyone wants a great introduction to the context and the bigger picture, there's this great article from the NYT in 2022, written by an excellent reporter who lives in Brazil. I highly recommend this article to anyone who hasn't lived in Brazil for the last 10 years:
-"To Defend Democracy, Is Brazil’s Top Court Going Too Far?"
-https://www.nytimes.com/2022/09/26/world/americas/bolsonaro-...
-https://archive.is/plQFT
-It covers the judge at the center of the current issue: "Mr. Moraes has jailed five people without a trial for posts on social media that he said attacked Brazil’s institutions. He has also ordered social networks to remove thousands of posts and videos with little room for appeal. And this year, 10 of the court’s 11 justices sentenced a congressman to nearly nine years in prison for making what they said were threats against them in a livestream."
-Rumble has been blocked in Brazil for over a year, and WhatsApp and Telegram have been briefly blocked multiple times.]]></summary>
-        <author>
-            <name>virgulino</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by oldprogrammer2 in "Ask HN: Do we need to pay billions in fees to Stripe, Block, PayPal and Visa/MC?"]]></title>
-        <id>https://news.ycombinator.com/item?id=41275901</id>
-        <link href="https://news.ycombinator.com/item?id=41275901"/>
-        <updated>2024-08-17T16:57:17.000Z</updated>
-        <summary type="html"><![CDATA[Stripe, Block, and PayPal each solved a massive pain point.
-PayPal provided a way to pay people and vendors without giving away your credit card number.
-Square made it easy to accept payment in person on a phone, without an extensive upfront underwriting experience and without expensive fixed monthly fees.
-Stripe did the same as Square, but for accepting online payments.
-Fraud and Risk come in many forms, and these providers, even with their UX innovations, sit on top of those same rails to reduce fraud.  Without those rails, buyers can’t trust sellers and sellers can’t trust buyers.
-In my opinion, you need to find a way to solve that problem before you can eliminate the fees being captured by these providers.]]></summary>
-        <author>
-            <name>oldprogrammer2</name>
         </author>
     </entry>
     <entry>
@@ -984,16 +845,6 @@ You can simply delete the ones you don't want to use. If you want to use the hig
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by lenerdenator in "China's manufacturers are going broke"]]></title>
-        <id>https://news.ycombinator.com/item?id=41275258</id>
-        <link href="https://news.ycombinator.com/item?id=41275258"/>
-        <updated>2024-08-17T15:34:38.000Z</updated>
-        <summary type="html"><![CDATA[Well, if they want to learn from the US, they should ship their manufacturing capacity and intellectual property off to their geopolitical rival for short-term monetary gain.]]></summary>
-        <author>
-            <name>lenerdenator</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ebbs and flows]]></title>
         <id>https://vixiss.bearblog.dev/ebbs-and-flows/</id>
         <link href="https://vixiss.bearblog.dev/ebbs-and-flows/"/>
@@ -1005,57 +856,6 @@ This might all sound hopeless, but I know that this will soon pass and that thes
 17/31]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by DarkNova6 in "Just use Postgres"]]></title>
-        <id>https://news.ycombinator.com/item?id=41273310</id>
-        <link href="https://news.ycombinator.com/item?id=41273310"/>
-        <updated>2024-08-17T10:20:50.000Z</updated>
-        <summary type="html"><![CDATA[> If you see a college student or fresh grad using MongoDB stop them. They need help. They have been led astray.
-I like this sentence way more than I should.]]></summary>
-        <author>
-            <name>DarkNova6</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by sleepless in "Google removed Organic Maps from the Play Store"]]></title>
-        <id>https://news.ycombinator.com/item?id=41273180</id>
-        <link href="https://news.ycombinator.com/item?id=41273180"/>
-        <updated>2024-08-17T09:57:53.000Z</updated>
-        <summary type="html"><![CDATA[And here's the Fediverse post about the incident if you don't want to click on a twitter link https://fosstodon.org/@organicmaps/112976308191001762]]></summary>
-        <author>
-            <name>sleepless</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by thor-rodrigues in "X ordered to pay €550k to Irish employee fired after yes-or-resign ultimatum"]]></title>
-        <id>https://news.ycombinator.com/item?id=41272908</id>
-        <link href="https://news.ycombinator.com/item?id=41272908"/>
-        <updated>2024-08-17T08:58:52.000Z</updated>
-        <summary type="html"><![CDATA[I am glad to hear that workers rights are being enforced in Europe.
-As an employee in Germany, it sounds deranged to receive an email saying I have one day to completely change my work contract, or be fired from my job.]]></summary>
-        <author>
-            <name>thor-rodrigues</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by CharlieDigital in "Interviewing the Interviewer: Questions to Uncover a Company's True Culture"]]></title>
-        <id>https://news.ycombinator.com/item?id=41272867</id>
-        <link href="https://news.ycombinator.com/item?id=41272867"/>
-        <updated>2024-08-17T08:48:06.000Z</updated>
-        <summary type="html"><![CDATA[I ask these indirectly.
-    "What types of people tend to succeed and do well with your team?  What types of people tend to struggle in your team?"
-
-    "What are your main objectives in the next 6 to 12 months?  What's your plan to meet those objectives?"
-
-    "How do you see the candidate in this role contributing to that objective?"
-
-    "Tell me about how the team collaborates and coordinates work"
-
-(Am I going to be stuck in 1 hour all-hands daily "stand-ups" every day?)]]></summary>
-        <author>
-            <name>CharlieDigital</name>
         </author>
     </entry>
     <entry>
@@ -1167,24 +967,6 @@ CADTM]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Write Your Way]]></title>
-        <id>https://birming.com/write-your-way/</id>
-        <link href="https://birming.com/write-your-way/"/>
-        <updated>2024-08-16T15:33:00.000Z</updated>
-        <summary type="html"><![CDATA[I read that Cole has been experimenting with blogging from his iPhone. He says:
-Using my iPhone to write blog posts feels more casual and personable. It’s like drafting a note to a friend or texting them about the latest happenings.
-Sounds wonderful!
-For me, it’s the opposite. When I write on my phone, I stop and “overthink” things. I lose the flow I crave, just letting the thoughts flow onto the page. That’s why I can’t write in English either. It becomes awkwardly stilted.
-I've tried a bunch of different ways to write, and I've figured out that writing in Swedish first is the way to go for me. I usually type it up on my computer, using TextEdit in full-screen, and then translate it. After that, I go through the text and edit some parts here and there.
-It might sound like a lot of extra work, but I've actually grown to enjoy the process. It’s fun, interesting, and I'm learning a ton.
-Whether we choose to write on a computer, phone, or in a notebook doesn’t matter. The important thing is that we find a setup that suits us. Besides, as Cole mentions, one doesn’t exclude the other.
-Changing your method for a period can work wonders if writer’s block comes knocking.
-Keep writing!]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Introducing high-definition portrait video support for Cloudflare Stream]]></title>
         <id>66be142d4a25d6000ae1d42b</id>
         <link href="https://blog.cloudflare.com/introducing-high-definition-portrait-video-support-for-cloudflare-stream"/>
@@ -1205,16 +987,6 @@ Keep writing!]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by idop in "VCs don't care if you're nice, they want founders who take risks"]]></title>
-        <id>https://news.ycombinator.com/item?id=41265149</id>
-        <link href="https://news.ycombinator.com/item?id=41265149"/>
-        <updated>2024-08-16T10:49:02.000Z</updated>
-        <summary type="html"><![CDATA[VCs want founders who are willing to play the game and can do it well: lying to (potential) customers, making insane promises, presenting fake demos as if they were real products and using fancy accounting tricks to make the business look profitable, when in fact it is bleeding their money, all so that they can easily find _other_ investors to bail them out. VCs have perfected legal Ponzi schemes.]]></summary>
-        <author>
-            <name>idop</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Caitlín Doherty: &ldquo;Prospects&rdquo;]]></title>
         <id>https://newleftreview.org/sidecar/posts/prospects</id>
         <link href="https://newleftreview.org/sidecar/posts/prospects"/>
@@ -1222,18 +994,6 @@ Keep writing!]]></summary>
         <summary type="html"><![CDATA[Forecasting Starmerism.]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by Ozzie_osman in "Former Google CEO Eric Schmidt's Leaked Stanford Talk"]]></title>
-        <id>https://news.ycombinator.com/item?id=41263864</id>
-        <link href="https://news.ycombinator.com/item?id=41263864"/>
-        <updated>2024-08-16T07:03:57.000Z</updated>
-        <summary type="html"><![CDATA[His explanation for Google losing to OpenAI on GenAI: "Google decided that work life balance and going home early and working from home was more important than winning."
-What a tremendous lack of self-awareness. Let's put aside all the leadership issues, all the politics, all the complacency, all the bureaucracy, and blame people for working from home.
-(Not saying there aren't folks at Google who are just cruising, etc... but that's a fraction of the problem compared to the leadership issues)]]></summary>
-        <author>
-            <name>Ozzie_osman</name>
         </author>
     </entry>
     <entry>
@@ -1428,28 +1188,6 @@ Source: https://unravel.noblogs.org/the-unemployment-problem/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by hatethissite42 in "Why won't some people pay for news? (2022)"]]></title>
-        <id>https://news.ycombinator.com/item?id=41262610</id>
-        <link href="https://news.ycombinator.com/item?id=41262610"/>
-        <updated>2024-08-16T02:33:15.000Z</updated>
-        <summary type="html"><![CDATA[> who really wants to read an interview - I want to watch an interview. Give me information that can't be expressed in video and that isn't 2000 words long with long, drawn out flowery language.
-Me.  I am exactly opposite on this.  I don't want to watch a video if it could have been an article.  I don't think this is uncommon, either.]]></summary>
-        <author>
-            <name>hatethissite42</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by bearjaws in "CEOs are running companies from afar even as workers return to office"]]></title>
-        <id>https://news.ycombinator.com/item?id=41262007</id>
-        <link href="https://news.ycombinator.com/item?id=41262007"/>
-        <updated>2024-08-16T00:44:38.000Z</updated>
-        <summary type="html"><![CDATA[Anyone surprised by this? I remember my first programming job it was FREQUENT that the execs would fly to other offices ~12+ weeks a year. Of course our office was in Orlando so every exec would also magically have their family flown in as well to go to Disney World.
-5 jobs later, its been the same at any company that isn't a startup. Execs have never been in the office, they have "offsite" meetings.]]></summary>
-        <author>
-            <name>bearjaws</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Kubernetes 1.31: MatchLabelKeys in PodAffinity graduates to beta]]></title>
         <id>https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/</id>
         <link href="https://kubernetes.io/blog/2024/08/16/matchlabelkeys-podaffinity/"/>
@@ -1510,18 +1248,6 @@ Given that, the Kubernetes community is proud to present…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by oceanplexian in "Kim Dotcom's extradition to the U.S. given green light by New Zealand"]]></title>
-        <id>https://news.ycombinator.com/item?id=41261142</id>
-        <link href="https://news.ycombinator.com/item?id=41261142"/>
-        <updated>2024-08-15T22:29:58.000Z</updated>
-        <summary type="html"><![CDATA[> Isn't it wiser to stop at some point, and find other stuff to do, even if all your nerves say otherwise?
-The problem is that government doesn’t have a line, that line is defined by the resistance it faces. Today it might be people sharing MP3s, tomorrow they will come after you for hosting a parody of mickey mouse. 10 years from now they’ll be busting down doors for sharing illegal memes (Seems to already be the case in the UK).
-Sitting by passively and praying that the system will come to its senses is a fool’s errand. Copyright holders, the government, and powerful interests are entities that have no problem playing dirty.]]></summary>
-        <author>
-            <name>oceanplexian</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Introverts and extraverts are at war, and introverts are winning. WTF?]]></title>
         <id>https://disassociated.com/?p=8297</id>
         <link href="https://disassociated.com/introverts-extraverts-war-introverts-winning-wtf/"/>
@@ -1574,23 +1300,6 @@ South]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by jaaron in "CockroachDB license change"]]></title>
-        <id>https://news.ycombinator.com/item?id=41258559</id>
-        <link href="https://news.ycombinator.com/item?id=41258559"/>
-        <updated>2024-08-15T17:43:37.000Z</updated>
-        <summary type="html"><![CDATA[> IMO, it's not really open source if its run by a company that will eventually use its position to squeeze its users for cash.
-I know it's not as popular or sexy as it used to be, but the whole point of a foundation like Apache was to avoid these situations, even more than the way the Linux Foundation is setup. Apache _explicitly_ manages projects to avoid these downsides.
-- Single corporation ownership. Projects cannot get out of the Incubator unless they demonstrate a diverse and healthy community. That doesn't mean popular, it doesn't necessarily mean best-in-class, but it means that there shouldn't be just one entity backing a project.
-- Membership in Apache is _personal_ not a seat for a given company. If you're a committer on an Apache project and you move jobs, you're _still_ a committer on that project
-- The Foundation owns the trademarks. There have been fights about this in the past, but the whole idea is that the _community_ owns the name, so some corporation can't claim to be the sole or official owner by naming their company or product after the open source product.
-The core premise of the Apache Software Foundation is community over code, that healthy, diverse communities have a better chance of standing the test of time than open source projects backed by a single individual or company. That's the thesis at least.
-The is starkly different from several other foundations, notably the Linux Foundation or Eclipse Foundation which are modeled more around industry consortiums.
-Both models have their place, but I believe Apache better models the core values many of us feel strongly about when it comes to free and open source software.]]></summary>
-        <author>
-            <name>jaaron</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Mx. Flow - Buddhist Anarchism: Theory and Practice]]></title>
         <id>https://theanarchistlibrary.org/library/mx-flow-buddhist-anarchism-theory-and-practice?v=1723741802</id>
         <link href="https://theanarchistlibrary.org/library/mx-flow-buddhist-anarchism-theory-and-practice?v=1723741802"/>
@@ -1632,17 +1341,6 @@ Recently, I have been forcing myself to leave the house. Depression tries to tri
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by andrewmutz in "CockroachDB license change"]]></title>
-        <id>https://news.ycombinator.com/item?id=41256788</id>
-        <link href="https://news.ycombinator.com/item?id=41256788"/>
-        <updated>2024-08-15T14:48:49.000Z</updated>
-        <summary type="html"><![CDATA[It seems that whenever an open source project is run by a VC-backed company, it sooner or later ends up like this.  Increasingly it seems that "open source" is just the teaser to get people interested and then when investors want revenue growth, the rug gets pulled.
-IMO, it's not really open source if its run by a company that will eventually use its position to squeeze its users for cash.]]></summary>
-        <author>
-            <name>andrewmutz</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[My Millennial Memories]]></title>
         <id>https://notes.jeddacp.com/my-millennial-memories/</id>
         <link href="https://notes.jeddacp.com/my-millennial-memories/"/>
@@ -1660,20 +1358,6 @@ Music
 Playing the perfect song on my stereo then re…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by AYBABTME in "CockroachDB license change"]]></title>
-        <id>https://news.ycombinator.com/item?id=41256621</id>
-        <link href="https://news.ycombinator.com/item?id=41256621"/>
-        <updated>2024-08-15T14:33:48.000Z</updated>
-        <summary type="html"><![CDATA[I understand the goal, and the perceived abuse of the Core edition. But the problem with the Enterprise edition is that it's quite expensive, "contact us" salesy, and it feels like taking a bite of this edition is possibly getting into bed with a future Oracle/landlord type of relationship where you end up squeezed by your database vendor.
-The Core offering made this palatable, one could fallback to Core features if the relationship with Cockroach Labs degraded, which made it possible to entertain the Enterprise license since there's was a way to walk back from it. But now there's no such mitigation available. By using non-PG native features, users of the Enterprise edition are accepting to get in bed with Cockroach Labs for effectively forever (databases), a single provider that has no competition.
-I think this may backfire, as it now seems imprudent to go all in on Cockroach Labs. They may be nice folks today, but who knows who will run the place in 5y when the next round of squeeze comes?
-I wish them the best, they're a great team and I always liked the project and toyed with it for years, and currently am involved with a paid Enterprise license. But this change in the dynamics is really giving me pause.
-Getting in bed with a single vendor for an incredibly sticky tool comes with a _lot_ of risk. It took at least 17y for Amazon to get rid of its last Oracle database: https://aws.amazon.com/blogs/aws/migration-complete-amazons-...]]></summary>
-        <author>
-            <name>AYBABTME</name>
         </author>
     </entry>
     <entry>
@@ -1916,68 +1600,6 @@ First, I have a somewhat strange attachment to these challenges, especia…]]></
         <summary type="html"><![CDATA[Yleisradio is a Finnish broadcasting company running most of its online and mobile services – which roughly 2.1 million Finns use every day – on AWS. Like many organizations, they use IP Address Management (IPAM) systems to allocate IP addresses across their AWS environment to make sure routing works, even between AWS and their on-premises […]]]></summary>
         <author>
             <name>Andreas Asuja</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Paris 2024 Olympics recap: Internet trends, cyber threats, and popular moments]]></title>
-        <id>66bbc4064a25d6000ae1cf95</id>
-        <link href="https://blog.cloudflare.com/paris-2024-olympics-recap"/>
-        <updated>2024-08-14T13:00:34.000Z</updated>
-        <summary type="html"><![CDATA[As the Paris 2024 Olympics ended, our analysis shows the event’s impact on the Internet in France and other countries at different moments, its effect on specific web properties, and a spike in cyber threats and emails related to Simone Biles and others]]></summary>
-        <author>
-            <name>João Tomé</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our media, Puigdemont's Catalonia and the violent undemocratic traditions of the Spanish state!]]></title>
-        <id>https://www.cadtm.org/Our-media-Puigdemont-s-Catalonia-and-the-violent-undemocratic-traditions-of-the</id>
-        <link href="https://www.cadtm.org/Our-media-Puigdemont-s-Catalonia-and-the-violent-undemocratic-traditions-of-the"/>
-        <updated>2024-08-14T12:42:21.000Z</updated>
-        <summary type="html"><![CDATA[It's true that we couldn't expect better coverage of the new Puigdemont affair from our media. For decades now, the international media, of almost all political persuasions, has either ignored the often historic events taking place in Catalonia, or presented them in a way that would not displease Madrid's rulers, of all persuasions, including the nostalgics of Franco. 
-English
-
-/ 
-Spanish State]]></summary>
-        <author>
-            <name>Yorgos Mitralias</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[­­A New Set of Indicators of Reserve Ampleness]]></title>
-        <id>https://libertystreeteconomics.newyorkfed.org/?p=31294</id>
-        <link href="https://libertystreeteconomics.newyorkfed.org/2024/08/a-new-set-of-indicators-of-reserve-ampleness/"/>
-        <updated>2024-08-14T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Federal Reserve (Fed) implements monetary policy in a regime of ample reserves, where short-term interest rates are controlled mainly through the setting of administered rates, and active management of the reserve supply is not required. In yesterday’s post, we proposed a methodology to evaluate the ampleness of reserves in real time based on the slope of the reserve demand curve—the elasticity of the federal (fed) funds rate to reserve shocks. In this post, we propose a suite of complementary indicators of reserve ampleness that, jointly with our elasticity measure, can help policymakers ensure that reserves remain ample as the Fed shrinks its balance sheet.]]></summary>
-        <author>
-            <name>Gara Afonso, Kevin Clark, Brian Gowen, Gabriele La Spada, JC Martinez, Jason Miu, and Will Riordan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Green Border]]></title>
-        <id>https://crookedtimber.org/?p=52981</id>
-        <link href="https://crookedtimber.org/2024/08/14/green-border/"/>
-        <updated>2024-08-14T10:04:13.000Z</updated>
-        <summary type="html"><![CDATA[I spent yesterday evening watching Agnieszka Holland’s remarkable film “Green Border” which has just been released to streaming in the UK after spending about 30 seconds in cinemas. The episode that provides the film’s context is the 2021 decision of Alexander Lukashenko, dictator of Belarus and Putin’s puppet, to make use of refugees as a […]]]></summary>
-        <author>
-            <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ecuador's poisoned loans from the World Bank and the IMF]]></title>
-        <id>https://www.cadtm.org/Ecuador-s-poisoned-loans-from-the-World-Bank-and-the-IMF</id>
-        <link href="https://www.cadtm.org/Ecuador-s-poisoned-loans-from-the-World-Bank-and-the-IMF"/>
-        <updated>2024-08-14T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The World Bank and the IMF are 80 years old. 80 years of financial neo-colonialism and the imposition of austerity policies in the name of debt repayment. 80 years is enough! The Bretton Woods institutions must be abolished and replaced by democratic institutions serving an ecological, feminist and anti-racist bifurcation. To mark these 80 years, we are republishing a series of articles every Wednesday until July, looking in detail at the history and damage caused by these two institutions. (...)
-English
-
-/ 
-Ecuador, 
-IMF, 
-World Bank, 
-South, 
-80 ans BM FMI EN]]></summary>
-        <author>
-            <name>Eric Toussaint</name>
         </author>
     </entry>
 </feed>

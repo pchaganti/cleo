@@ -51,11 +51,133 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-20 datetime="2024-08-20T18:00:33.000Z">2024-08-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-20 datetime="2024-08-20T18:00:33.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-20 datetime="2024-08-21T00:00:00.000Z">2024-08-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-20 datetime="2024-08-21T00:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Kubernetes Blog</button>
+                  <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kubernetes.io/blog/2024/08/21/cri-cgroup-driver-lookup-now-beta/"
+                        open
+                      >
+                        <summary class="article-expander__title">Kubernetes 1.31: Autoconfiguration For Node Cgroup Driver (beta)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kubernetes.io/blog/2024/08/21/cri-cgroup-driver-lookup-now-beta/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Historically, configuring the correct cgroup driver has been a pain point for users running new
+Kubernetes clusters. On Linux systems, there are two different cgroup drivers:
+cgroupfs and systemd. In the past, both the kubelet
+and CRI implementation (like CRI-O or containerd) needed to be configured to use
+the same cgroup driver, or else the kubelet would exit with an error. This was a
+source of headaches for many cluster admins. However, there is light at the end of the tunnel!
+Automated cgroup driver detection
+In v1.28.0, the SIG Node community introduced the feature gate
+KubeletCgroupDriverFromCRI, which instructs the kubelet to ask the CRI
+implementation which cgroup driver to use. A few minor releases of Kubernetes
+happened whilst we waited for support to land in the major two CRI implementations
+(containerd and CRI-O), but as of v1.31.0, this feature is now beta!
+In addition to setting the feature gate, a cluster admin needs to ensure their
+CRI implementation is new enough:
+containerd: Support was added in v2.0.0
+CRI-O: Support was added in v1.28.0
+Then, they should ensure their CRI implementation is configured to the
+cgroup_driver they would like to use.
+Future work
+Eventually, support for the kubelet&#x27;s cgroupDriver configuration field will be
+dropped, and the kubelet will fail to start if the CRI implementation isn&#x27;t new
+enough to have support for this feature.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >| disassociated.com</button>
+                  <a class="source-heading__link" href="https://disassociated.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://disassociated.com/?p&#x3D;8334"
+                        open
+                      >
+                        <summary class="article-expander__title">Wanting to read more novels, versus trying to do everything else</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://disassociated.com/wanting-read-more-novels-versus-everything-else/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>About six years ago I decided I wasn’t reading enough novels. Books sat on the side table untouched, gathering dust, and inducing a pang of guilt whenever I took notice of them. I wondered what I could do to get more into reading. One thing I am good at is meeting deadlines, and doing things […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Real-World Economics Review Blog</button>
+                  <a class="source-heading__link" href="https://rwer.wordpress.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://rwer.wordpress.com/?p&#x3D;45560"
+                        open
+                      >
+                        <summary class="article-expander__title">The crisis of knowledge and enlightenment’s imitations</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://rwer.wordpress.com/2024/08/20/the-crisis-of-knowledge-and-enlightenments-imitations/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://s0.wp.com/i/blank.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>from Asad Zaman and current issue of RWER Our current environmental predicament is fundamentally a crisis of knowledge, rooted in the Enlightenment’s narrow conceptualization of epistemology. This shift fostered an illusion of objectivity that has since permeated our understanding of the world, particularly in the context of societal dynamics. The Enlightenment’s emphasis on objective knowledge […]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -80,7 +202,7 @@
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/08/rcp_2024-08-16.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>~ Today&#x27;s Water Cooler: Politics, Syndemics; Democrat National Convention vignettes; Highest Covid wave in two years; Stupid money and blood money ~</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                &ensp;<span class="article-reading-time">(&hairsp;44
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -100,7 +222,7 @@
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/08/00-storm.webp" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Do you stand your ground or seek out a climate haven? Some resources to help you decide.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                &ensp;<span class="article-reading-time">(&hairsp;34
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -120,7 +242,7 @@
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/08/00-Eric-pretty-kitty-scaled.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Our peregrinating daily links: looks and smart? moar mpox, Long Covid, carbon scheme doubts, China boat busting, Die Welt after secret Hitlers, Netanyahu retrades peace deal, Putin nixes negotiations, cars go full Stasi? Trump v. EV subsidies, Dem convention, Phil Donahue RIP, election AI fakes</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;43
+                                &ensp;<span class="article-reading-time">(&hairsp;48
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -177,7 +299,7 @@
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>The EU leads in managing autonomous and separatist movements in its states, but non-EU countries can be more vulnerable to outside interference.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;21
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -214,6 +336,89 @@
 Read More...
 The post Aparna Ramani discusses the future of AI infrastructure appeared first on Engineering at Meta.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Bear Blog Trending Posts</button>
+                  <a class="source-heading__link" href="https://bearblog.dev/discover/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://birming.com/no-secret/"
+                        open
+                      >
+                        <summary class="article-expander__title">There&#x27;s No Secret</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://birming.com/no-secret/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert-1724166275.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>&quot;What&#x27;s the secret?&quot;
+I asked this question to one of my clients today. He was 85 years old, looked 60, and was as fit and agile as a 50-year-old.
+He replied: &quot;There&#x27;s no secret. I enjoy walking. That’s all.&quot;
+No secrets. No tricks. Completely natural.
+But that&#x27;s often how it is, isn’t it; we think there&#x27;s a code to crack, a secret recipe to follow to achieve success. When in reality, the answer lies in the most natural thing in the world.
+If we want to increase our chances of being in good shape, then we need to make sure we move around a bit. If we want to become a better writer, then we need to make sure we write a lot.
+There&#x27;s no secret.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://zarar.dev/anatomy-of-a-mental-breakdown/"
+                        open
+                      >
+                        <summary class="article-expander__title">The anatomy of a 2AM mental breakdown</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://zarar.dev/anatomy-of-a-mental-breakdown/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Note: this made it on HN somehow.
+Around 2AM this morning I had a realization that this was the most stressed I have ever been. On verge of a complete breakdown.
+Why? Because I noticed around 10PM that jumpcomedy.com was entirely broken with all HTTP POST calls made by RTK Query failing. Nothing worked and though I had deployed recent changes, none of them would cause this. I was at a complete loss as to where to look, especially as this is working locally. Posting on the usual Discords (NextJS, Vercel) is leading to dead silence. I&#x27;m alone and have to fix this issue which I didn&#x27;t cause.
+This isn&#x27;t the first production defect I&#x27;ve introduced in my 25 years of working, but this is the first one where I had absolutely nobody to turn to in a time of crisis while customer complaints are pilin…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://louplummer.lol/what-a-day/"
+                        open
+                      >
+                        <summary class="article-expander__title">What a Day</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://louplummer.lol/what-a-day/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/livingoutloud-1724113552.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Today was the first day of classes at the university where I work in IT support. That means campus was full of people who needed help in a variety of ways. The second anyone ventured outside of their office, they&#x27;s be accosted by an innocent freshman or newly hired professor who needed directions to some other building. In the technology world, there dozens of people who a) forgot their password b) did not want to click the self-service link for forgotten passwords. Later on in the year, I&#x27;ll make them use the self-service link but today there was no time to convince these neo-adults to take the responsible route out of their self-created problems. I just reset their password for them and moved along to the next person. Some people would listen to the directions on what to do next and say …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -288,42 +493,6 @@ Source: Retrieved on 20th August 2024 from telegra.ph and t.me
  Another fighter became a martyr. On August 9, our comrade and anarchist-internationalist from Russia, Vladislav Iurchenko (nom de guerre “Pirate”), was killed in battle. He was 22 years old. Vladislav was part of the “Siberian Battalion” of the International Legion, and he was martyred in a fight during a landing operation on the Kinburn Spit. 
  Before coming to Ukraine, Vladislav participated in actions of solidarity with anarchist and other anti-government prisoners. He fought against Russian fascism and imperialism. Knowing that anarchists in Ukraine…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Bear Blog Trending Posts</button>
-                  <a class="source-heading__link" href="https://bearblog.dev/discover/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://zarar.dev/anatomy-of-a-mental-breakdown/"
-                        open
-                      >
-                        <summary class="article-expander__title">The anatomy of a 2AM mental breakdown</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://zarar.dev/anatomy-of-a-mental-breakdown/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Around 2AM this morning I had a realization that this was the most stressed I have ever been. On verge of a complete breakdown.
-Why? Because I noticed around 10PM that jumpcomedy.com was entirely broken with all HTTP POST calls made by RTK Query failing. Nothing worked and though I had deployed recent changes, none of them would cause this. I was at a complete loss as to where to look, especially as this is working locally. Posting on the usual Discords (NextJS, Vercel) is leading to dead silence. I&#x27;m alone and have to fix this issue which I didn&#x27;t cause.
-This isn&#x27;t the first production defect I&#x27;ve introduced in my 25 years of working, but this is the first one where I had absolutely nobody to turn to in a time of crisis while customer complaints are piling up at a rate never seen before. …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -892,7 +1061,7 @@ a shell in a running container from your local…</span>
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2024/08/cdc_mpox_ww.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Great news on wastewater, less great news on R0 and airborne transmission.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;28
+                                &ensp;<span class="article-reading-time">(&hairsp;27
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -951,110 +1120,7 @@ a shell in a running container from your local…</span>
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>Trying to make sense of a Washington Post story depicting Russia as willing give up its best weapon, its electrical war, for very little.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;65
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41292982"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by delroth in &quot;The gigantic and unregulated power plants in the cloud&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41292982">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>&gt; In the Netherlands alone, these solar panels generate a power output equivalent to at least 25 medium sized nuclear power plants.
-Since this didn&#x27;t pass the smell test: the author is looking at nameplate capacity, which is a completely useless metric for variable electricity production sources (a solar panel in my sunless basement has the same nameplate capacity as the same panel installed in the Sahara desert).
-Looking at actual yearly energy generation data, this is more like 1.5 times the generation of an average nuclear power plant (NL solar production in 2023: 21TWh, US nuclear production in 2021: 778TWh by 54 plants).
-Which maybe puts more into perspective the actual risks involved here. I&#x27;m not saying there shouldn&#x27;t be more regulations and significantly better security practices, but otoh you could likely drive a big truck into the right power poles and cause a similar sized outage.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41291192"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by GNOMES in &quot;Roblox is the biggest game in the world, but is unprofitable&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41291192">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>My kiddo has easily spent 500+ on Roblox across birthday/Xmas gift cards/chores.
-I can&#x27;t stand that almost all of the games seem to have a pay to win aspect, or are heavily advertising every chance they get.
-As a gamer dad, I try to show my kid better games to play, but because they aren&#x27;t free, his friends can&#x27;t play. Just drives him to keep playing and wanting more Robux. It&#x27;s compounded when his favorite Youtubers play...
-Seriously don&#x27;t understand how Roblox isn&#x27;t being investigated for predatory practices. I imagine they can hide behind the fact users are making most of the mini games, and they are just providing a platform.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41287805"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by fishtoaster in &quot;Markov chains are funnier than LLMs&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41287805">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I came to this same conclusion some years ago while working on a side project.
-Before anything LLM existed, I built a site[0] to generate fake &quot;AWS Blog Posts.&quot;  I trained a markov chain generator on all AWS announcement posts up to that point, copied the html + css of aws&#x27;s standard blog posts, then glued them all together with some python + JS.  It turned out, IMO, pretty funny!  People familiar with AWS&#x27;s blog posts would often get several sentences in before they realized they were looking at word-soup.
-When GPT was new, I looked into using that to &quot;upgrade&quot; it.  I spent a weekend messing around with Minimaxir&#x27;s gpt-2-simple generating blog posts based on AWS content.  What I found was, ultimately, it was way less fun.  The posts were far too realistic to be interesting.  They read like totally-real blog posts that just happened to not be true.
-I realized then that the humor of those early markov generations was the ridiculousness.  The point where, a few words or sentences in, you realized it was all nonsense.  LLM&#x27;s these days are too good for that - the text they generate is sometimes wrong, but rarely nonsense in a humorous way.
-Markov chain content was wrong in a &quot;kid&#x27;s say the darndest things&quot; way, while modern LLMs are wrong in a &quot;My uncle doesn&#x27;t know basic geography&quot; way.
-[0] https://totes-not-amazon.com/ - click any link to get a new one.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41287768"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by andyferris in &quot;Roblox is the biggest game in the world, but is unprofitable&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41287768">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>&gt; Unlike other social platforms, Roblox’s revenue is nearly all via user spending rather than advertising. As such, Roblox pays 25% of its revenue to Apple and Google (30% of transactions on those platforms) whereas Facebook, Snap, et al pay effectively 0. Note that Facebook, which has structurally lower costs to service users than Roblox and is far more mature, has an operating margin of roughly 40% — if the company had to pay out 25-30% first, it would never have “tech company” profit margins, let alone profit dollars.
-Wow. I&#x27;ve never though about this before, but this is an awful second-order consequence of the high app store fees set by Apple and Google. It essentially incentivizes App makers to treat users as products not customers!
-(Not too surprising for Google, but certainly goes against Apple&#x27;s public stance).</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;31
+                                &ensp;<span class="article-reading-time">(&hairsp;67
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1505,142 +1571,11 @@ The post When Offense is Defined as Defense—Kursk Version appeared first on Co
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-18 datetime="2024-08-19T03:47:50.000Z">2024-08-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-18 datetime="2024-08-19T03:47:50.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-18 datetime="2024-08-19T00:00:00.000Z">2024-08-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-18 datetime="2024-08-19T00:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41287638"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by wavemode in &quot;Roblox is the biggest game in the world, but is unprofitable&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41287638">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>&gt; Though Roblox isn’t profitable, there are some significant caveats to the situation. Over the last twelve months, operating cash flow—a far more important measure than accounting-defined profits—were $650MM, about 20% of revenue. Roblox has been cash-positive for at least twenty-four quarters.
-This feels like an example of the phenomenon highlighted in another recent post: https://news.ycombinator.com/item?id&#x3D;41263855
-Namely, that as long as Roblox&#x27;s cash flow is increasing year-over-year, they probably don&#x27;t care about profit. (And if cash flow ever does stop increasing, they can always get back to sustainability by pumping the brakes on reinvestment spending.)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41286672"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by burnte in &quot;Google took three months to remove scam app that stole over $5M&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41286672">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>That&#x27;s amazing, it took them 3 months to kill a scam app, but they proactively shutdown smaller apps that break no rules constantly. I swear someone in Google&#x27;s exec team is going out of their way to make Google products suck. They&#x27;ve all been getting worse for the past several years. Search gives bad results, search qualifiers only work in &quot;verbatim&quot; mode, GMail sucks at spam filtering now, Android is becoming a PITA, Chrome is shoving in new bad features while killing old good features, etc. There was even a big thing about Google Voice having some massive change where lots of features were going away, so I pulled GV out of my life expecting it to go away, and literally nothing changed.
-It&#x27;s almost like Google is suicidal and these are calls for help.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41286072"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by __MatrixMan__ in &quot;Police cannot seize property indefinitely after an arrest, federal court rules&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41286072">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>They took my camera and then when I tried to get it back they claimed that nothing like that was in evidence.  So I filed a police report because the police stole my camera, but I never heard back about it.
-Glad you eventually got your money.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41284917"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by nimbius in &quot;Police cannot seize property indefinitely after an arrest, federal court rules&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41284917">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I once had the cops seize $800 in cash I had on me to pay for motorcycle service (15% discount with cash) and hold it for 3 months.
-Eventually I got a letter saying I had to show up and prove I wasnt going to do drugs with it.  So I showed up with my invoice.
-Then I was told I had to submit fingerprints and sign a letter promising I wasnt going to do drugs and I refused.
-Finally a month later they sent me a letter saying I had forfeited the money and I showed up again (took a day off work) and they said I had to go to court.  So I went to court, and the judge spent ten minutes telling the cops that didnt show up I had to get my money back.
-Next month after that I got a call saying I had property to pick up and that I&#x27;d be fined daily if I didnt.  So I got the money back.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41284801"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by alberth in &quot;Leaving Neovim for Zed&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41284801">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I initially loved Zed.
-But as their focus has shifted to building Collaboration &amp; AI features, and still haven’t yet nailed just being a good/great base editor, its become less useful to me.
-I still have a lot of hope for Zed.
-But for the time being, I’ve switched back to my old editor &amp; IDE … and I’ll try Zed again at a much later date.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41283829"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by OutOfHere in &quot;Police cannot seize property indefinitely after an arrest, federal court rules&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41283829">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>This is a well-intentioned but largely useless ruling because it fails to define the maximum duration for which property can be held. As such, it&#x27;s up to the police as to what qualifies as indefinite. If the ruling had capped it to 14 or 30 days, that would be a useful ruling.
-A hard time cap is essential because one&#x27;s life too has a cap. The amount of time for which one can go without earning a livelihood also has a cap. Imagine if prison sentences didn&#x27;t have a time cap.
-This illustrates a common problem with our laws. They&#x27;re very often vaguely defined, needlessly so, in a way that keeps attorneys and judges very rich, and the police abusive, to the detriment of the individual. In a sensible world, the laws would all be rewritten for clarity and consistency, starting with the Constitution.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1675,7 +1610,7 @@ during Job execution. However, if you set a large value for the backoffLimit fie
 and rely solely on this field, you might notice unnecessary increases in operating
 costs as Pods restart excessively until the backoffLimit is met.
 This becomes particularly problematic when running large-sc…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                &ensp;<span class="article-reading-time">(&hairsp;17
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1962,263 +1897,11 @@ The post Puncak Jaya, Center of the World appeared first on CounterPunch.org.</s
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-17 datetime="2024-08-17T22:57:21.000Z">2024-08-17</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-17 datetime="2024-08-17T22:57:21.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-17 datetime="2024-08-17T18:54:00.000Z">2024-08-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-17 datetime="2024-08-17T18:54:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41278719"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by j1elo in &quot;Mpv – A free, open-source, and cross-platform media player&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41278719">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Wow those answers are indeed funny. I agree that as an OSS dev/maintainer, it&#x27;s easy to fall on the vice of over-generalization and crusade for the perfect solution, and it feels that&#x27;s exactly what happened there.
-&gt; this feature is algorithmically impossible
-&gt; You&#x27;re just looking at one specific video, not the general problem.
-&gt; is not generally possible.
-As a fellow multimedia dev, man, who cares? Sometimes we forget that software ought to be useful, not hypothetical ideals of truth. Just implement the feature for those codecs that support it and which probably are in the 98% percentile of what users actually use, regardless of the damned &quot;general case&quot;.
-Or accept and announce shamelessly that you don&#x27;t have either the knowledge or the development resources to tackle such a complex feature. But excuses about not being possible for absolutely every possible codec in a completely generic way is just denying that the world is just a chaotic and dirty place where things are not ideal nor perfect. Just give your users a real-world solution (or rejection).</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41278203"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by lairv in &quot;Mpv – A free, open-source, and cross-platform media player&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41278203">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I use it to inspect video frames by frames, particularly being able to go back one frame. VLC doesn&#x27;t support it, this thread about the feature is hilarious https://forum.videolan.org/viewtopic.php?t&#x3D;120627</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;82
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41277640"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by etra0 in &quot;Mpv – A free, open-source, and cross-platform media player&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41277640">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>A fantastic mediaplayer, quite minimalistic and performant; it does what it&#x27;s supposed to do!
-Also has a fantastic commit where the author rants about locales: https://github.com/mpv-player/mpv/commit/1e70e82baa9193f6f02... worth a read for some chuckles.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41276769"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by lotharrr in &quot;Magic Wormhole: get things from one computer to another, safely&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41276769">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>(magic-wormhole author here)
-Thanks for making a donation!
-I run the relay server, but the Debian maintainer agreed to bake an alternate hostname into the packaged versions (a CNAME for the same address that the upstream git code uses), so we could change it easily if the cost ever got to be a burden. It hasn&#x27;t been a problem so far, it moves 10-15 TB per month, but shares a bandwidth pool with other servers I&#x27;m renting anyways, so I&#x27;ve only ever had to pay an overage charge once. And TBH if someone made a donation to me, I&#x27;d just send it off to Debian anyways.
-Every once in a while, somebody moves half a terabyte through it, and then I think I should either move to a slower-but-flat-rate provider, or implement some better rate-limiting code, or finally implement the protocol extension where clients state up front how much data they&#x27;re going to transfer, and the server can say no. But so far it&#x27;s never climbed the priority ranking high enough to take action on.
-Thanks for using magic wormhole!</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41276507"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by SoftTalker in &quot;Flaw has Microsoft Authenticator overwriting MFA accounts, locking users out&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41276507">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>&quot;This is a small example of a big problem with usability and cybersecurity. This is what happens when apps are developed by engineers who don’t have a strong knowledge of customers&quot;
-This really rings true. Just think of all the nonsense you have to deal with in the name of &quot;security.&quot; Mandatory password change intervals. Insane rules for constructing passwords. Completely undocumented password requirements that you just have to figure out by trial and error. Complicated error messages full of security jargon. &quot;Secret Questions&quot; that you can&#x27;t remember the answers to. And on the other side of the coin, the security of these systems themselves is like a sieve. So many data breaches, information disclosures, they are in the news almost daily. I often wonder how they get away with it all.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41276038"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by virgulino in &quot;X says it is closing operations in Brazil due to judge&#x27;s content orders&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41276038">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Brazilian here. If anyone wants a great introduction to the context and the bigger picture, there&#x27;s this great article from the NYT in 2022, written by an excellent reporter who lives in Brazil. I highly recommend this article to anyone who hasn&#x27;t lived in Brazil for the last 10 years:
-&quot;To Defend Democracy, Is Brazil’s Top Court Going Too Far?&quot;
-https://www.nytimes.com/2022/09/26/world/americas/bolsonaro-...
-https://archive.is/plQFT
-It covers the judge at the center of the current issue: &quot;Mr. Moraes has jailed five people without a trial for posts on social media that he said attacked Brazil’s institutions. He has also ordered social networks to remove thousands of posts and videos with little room for appeal. And this year, 10 of the court’s 11 justices sentenced a congressman to nearly nine years in prison for making what they said were threats against them in a livestream.&quot;
-Rumble has been blocked in Brazil for over a year, and WhatsApp and Telegram have been briefly blocked multiple times.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41275901"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by oldprogrammer2 in &quot;Ask HN: Do we need to pay billions in fees to Stripe, Block, PayPal and Visa/MC?&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41275901">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Stripe, Block, and PayPal each solved a massive pain point.
-PayPal provided a way to pay people and vendors without giving away your credit card number.
-Square made it easy to accept payment in person on a phone, without an extensive upfront underwriting experience and without expensive fixed monthly fees.
-Stripe did the same as Square, but for accepting online payments.
-Fraud and Risk come in many forms, and these providers, even with their UX innovations, sit on top of those same rails to reduce fraud.  Without those rails, buyers can’t trust sellers and sellers can’t trust buyers.
-In my opinion, you need to find a way to solve that problem before you can eliminate the fees being captured by these providers.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41275258"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by lenerdenator in &quot;China&#x27;s manufacturers are going broke&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41275258">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Well, if they want to learn from the US, they should ship their manufacturing capacity and intellectual property off to their geopolitical rival for short-term monetary gain.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41273310"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by DarkNova6 in &quot;Just use Postgres&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41273310">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>&gt; If you see a college student or fresh grad using MongoDB stop them. They need help. They have been led astray.
-I like this sentence way more than I should.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41273180"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by sleepless in &quot;Google removed Organic Maps from the Play Store&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41273180">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>And here&#x27;s the Fediverse post about the incident if you don&#x27;t want to click on a twitter link https://fosstodon.org/@organicmaps/112976308191001762</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41272908"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by thor-rodrigues in &quot;X ordered to pay €550k to Irish employee fired after yes-or-resign ultimatum&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41272908">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I am glad to hear that workers rights are being enforced in Europe.
-As an employee in Germany, it sounds deranged to receive an email saying I have one day to completely change my work contract, or be fired from my job.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41272867"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by CharlieDigital in &quot;Interviewing the Interviewer: Questions to Uncover a Company&#x27;s True Culture&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41272867">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I ask these indirectly.
-    &quot;What types of people tend to succeed and do well with your team?  What types of people tend to struggle in your team?&quot;
-
-    &quot;What are your main objectives in the next 6 to 12 months?  What&#x27;s your plan to meet those objectives?&quot;
-
-    &quot;How do you see the candidate in this role contributing to that objective?&quot;
-
-    &quot;Tell me about how the team collaborates and coordinates work&quot;
-
-(Am I going to be stuck in 1 hour all-hands daily &quot;stand-ups&quot; every day?)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -2686,98 +2369,6 @@ BM-FMI-Equateur_EN</span>
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Bear Blog Trending Posts</button>
-                  <a class="source-heading__link" href="https://bearblog.dev/discover/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://birming.com/write-your-way/"
-                        open
-                      >
-                        <summary class="article-expander__title">Write Your Way</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://birming.com/write-your-way/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert-1723822197.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I read that Cole has been experimenting with blogging from his iPhone. He says:
-Using my iPhone to write blog posts feels more casual and personable. It’s like drafting a note to a friend or texting them about the latest happenings.
-Sounds wonderful!
-For me, it’s the opposite. When I write on my phone, I stop and “overthink” things. I lose the flow I crave, just letting the thoughts flow onto the page. That’s why I can’t write in English either. It becomes awkwardly stilted.
-I&#x27;ve tried a bunch of different ways to write, and I&#x27;ve figured out that writing in Swedish first is the way to go for me. I usually type it up on my computer, using TextEdit in full-screen, and then translate it. After that, I go through the text and edit some parts here and there.
-It might sound like a lot of extra work, but I&#x27;ve actually grown to enjoy the process. It’s fun, interesting, and I&#x27;m learning a ton.
-Whether we choose to write on a computer, phone, or in a notebook doesn’t matter. The important thing is that we find a setup that suits us. Besides, as Cole mentions, one doesn’t exclude the other.
-Changing your method for a period can work wonders if writer’s block comes knocking.
-Keep writing!</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41265149"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by idop in &quot;VCs don&#x27;t care if you&#x27;re nice, they want founders who take risks&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41265149">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>VCs want founders who are willing to play the game and can do it well: lying to (potential) customers, making insane promises, presenting fake demos as if they were real products and using fancy accounting tricks to make the business look profitable, when in fact it is bleeding their money, all so that they can easily find _other_ investors to bail them out. VCs have perfected legal Ponzi schemes.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41263864"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by Ozzie_osman in &quot;Former Google CEO Eric Schmidt&#x27;s Leaked Stanford Talk&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41263864">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>His explanation for Google losing to OpenAI on GenAI: &quot;Google decided that work life balance and going home early and working from home was more important than winning.&quot;
-What a tremendous lack of self-awareness. Let&#x27;s put aside all the leadership issues, all the politics, all the complacency, all the bureaucracy, and blame people for working from home.
-(Not saying there aren&#x27;t folks at Google who are just cruising, etc... but that&#x27;s a fraction of the problem compared to the leadership issues)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >New Left Review Sidecar recent posts</button>
                   <a class="source-heading__link" href="https://newleftreview.org/sidecar/feed">Open</a>
                 </h3>
@@ -3187,138 +2778,6 @@ Source: Retrieved on August 11, 2024 from Black and Red Press PDF
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Hacker News: Best Comments</button>
-                  <a class="source-heading__link" href="https://news.ycombinator.com/bestcomments">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41262610"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by hatethissite42 in &quot;Why won&#x27;t some people pay for news? (2022)&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41262610">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>&gt; who really wants to read an interview - I want to watch an interview. Give me information that can&#x27;t be expressed in video and that isn&#x27;t 2000 words long with long, drawn out flowery language.
-Me.  I am exactly opposite on this.  I don&#x27;t want to watch a video if it could have been an article.  I don&#x27;t think this is uncommon, either.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41262007"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by bearjaws in &quot;CEOs are running companies from afar even as workers return to office&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41262007">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Anyone surprised by this? I remember my first programming job it was FREQUENT that the execs would fly to other offices ~12+ weeks a year. Of course our office was in Orlando so every exec would also magically have their family flown in as well to go to Disney World.
-5 jobs later, its been the same at any company that isn&#x27;t a startup. Execs have never been in the office, they have &quot;offsite&quot; meetings.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41261142"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by oceanplexian in &quot;Kim Dotcom&#x27;s extradition to the U.S. given green light by New Zealand&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41261142">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>&gt; Isn&#x27;t it wiser to stop at some point, and find other stuff to do, even if all your nerves say otherwise?
-The problem is that government doesn’t have a line, that line is defined by the resistance it faces. Today it might be people sharing MP3s, tomorrow they will come after you for hosting a parody of mickey mouse. 10 years from now they’ll be busting down doors for sharing illegal memes (Seems to already be the case in the UK).
-Sitting by passively and praying that the system will come to its senses is a fool’s errand. Copyright holders, the government, and powerful interests are entities that have no problem playing dirty.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41258559"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by jaaron in &quot;CockroachDB license change&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41258559">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>&gt; IMO, it&#x27;s not really open source if its run by a company that will eventually use its position to squeeze its users for cash.
-I know it&#x27;s not as popular or sexy as it used to be, but the whole point of a foundation like Apache was to avoid these situations, even more than the way the Linux Foundation is setup. Apache _explicitly_ manages projects to avoid these downsides.
-- Single corporation ownership. Projects cannot get out of the Incubator unless they demonstrate a diverse and healthy community. That doesn&#x27;t mean popular, it doesn&#x27;t necessarily mean best-in-class, but it means that there shouldn&#x27;t be just one entity backing a project.
-- Membership in Apache is _personal_ not a seat for a given company. If you&#x27;re a committer on an Apache project and you move jobs, you&#x27;re _still_ a committer on that project
-- The Foundation owns the trademarks. There have been fights about this in the past, but the whole idea is that the _community_ owns the name, so some corporation can&#x27;t claim to be the sole or official owner by naming their company or product after the open source product.
-The core premise of the Apache Software Foundation is community over code, that healthy, diverse communities have a better chance of standing the test of time than open source projects backed by a single individual or company. That&#x27;s the thesis at least.
-The is starkly different from several other foundations, notably the Linux Foundation or Eclipse Foundation which are modeled more around industry consortiums.
-Both models have their place, but I believe Apache better models the core values many of us feel strongly about when it comes to free and open source software.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41256788"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by andrewmutz in &quot;CockroachDB license change&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41256788">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>It seems that whenever an open source project is run by a VC-backed company, it sooner or later ends up like this.  Increasingly it seems that &quot;open source&quot; is just the teaser to get people interested and then when investors want revenue growth, the rug gets pulled.
-IMO, it&#x27;s not really open source if its run by a company that will eventually use its position to squeeze its users for cash.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.ycombinator.com/item?id&#x3D;41256621"
-                        open
-                      >
-                        <summary class="article-expander__title">New comment by AYBABTME in &quot;CockroachDB license change&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;41256621">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>I understand the goal, and the perceived abuse of the Core edition. But the problem with the Enterprise edition is that it&#x27;s quite expensive, &quot;contact us&quot; salesy, and it feels like taking a bite of this edition is possibly getting into bed with a future Oracle/landlord type of relationship where you end up squeezed by your database vendor.
-The Core offering made this palatable, one could fallback to Core features if the relationship with Cockroach Labs degraded, which made it possible to entertain the Enterprise license since there&#x27;s was a way to walk back from it. But now there&#x27;s no such mitigation available. By using non-PG native features, users of the Enterprise edition are accepting to get in bed with Cockroach Labs for effectively forever (databases), a single provider that has no competition.
-I think this may backfire, as it now seems imprudent to go all in on Cockroach Labs. They may be nice folks today, but who knows who will run the place in 5y when the next round of squeeze comes?
-I wish them the best, they&#x27;re a great team and I always liked the project and toyed with it for years, and currently am involved with a paid Enterprise license. But this change in the dynamics is really giving me pause.
-Getting in bed with a single vendor for an incredibly sticky tool comes with a _lot_ of risk. It took at least 17y for Amazon to get rid of its last Oracle database: https://aws.amazon.com/blogs/aws/migration-complete-amazons-...</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Kubernetes Blog</button>
                   <a class="source-heading__link" href="https://kubernetes.io/">Open</a>
                 </h3>
@@ -3557,7 +3016,7 @@ South</span>
                               <img src="https://payhip.com/cdn-cgi/image/format&#x3D;auto/https://pe56d.s3.amazonaws.com/o_1hmdpulj11999i721qvu1h3p1dqar.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>from Lars Syll To be fair to academia, it has realized that the pure DSGE model is incapable of explaining observable phenomena so they have introduced numerous amendments, known, oddly, as “imperfections” in the model. Long-term nominal contracts, other labour market frictions, imperfection in credit markets, all these and more are prayed in aid and, […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3747,26 +3206,6 @@ Ten years ago I discovered the community of Apple People who were separate from 
                             <span class="media-object__text">
                               <span>As requested by a couple of commenters, I’ve created a separate thread to discuss the issues raised by commenter “closet conservative” in response to my post on US academia. I’ll moderate, but not participate</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;24
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://crookedtimber.org/?p&#x3D;52981"
-                        open
-                      >
-                        <summary class="article-expander__title">Green Border</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://crookedtimber.org/2024/08/14/green-border/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://s0.wp.com/i/blank.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I spent yesterday evening watching Agnieszka Holland’s remarkable film “Green Border” which has just been released to streaming in the UK after spending about 30 seconds in cinemas. The episode that provides the film’s context is the 2021 decision of Alexander Lukashenko, dictator of Belarus and Putin’s puppet, to make use of refugees as a […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4200,146 +3639,12 @@ As our readers may be interested in Comrade Creaghe&#x27;s &quot;trial for libel
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >The Cloudflare Blog</button>
-                  <a class="source-heading__link" href="https://blog.cloudflare.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="66bbc4064a25d6000ae1cf95"
-                        open
-                      >
-                        <summary class="article-expander__title">Paris 2024 Olympics recap: Internet trends, cyber threats, and popular moments</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.cloudflare.com/paris-2024-olympics-recap">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="http://blog.cloudflare.com/content/images/2024/08/Paris-2024-Olympics-recap--Internet-trends--cyber-threats--and-popular-moments-OG-1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>As the Paris 2024 Olympics ended, our analysis shows the event’s impact on the Internet in France and other countries at different moments, its effect on specific web properties, and a spike in cyber threats and emails related to Simone Biles and others</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CADTM</button>
-                  <a class="source-heading__link" href="https://www.cadtm.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.cadtm.org/Our-media-Puigdemont-s-Catalonia-and-the-violent-undemocratic-traditions-of-the"
-                        open
-                      >
-                        <summary class="article-expander__title">Our media, Puigdemont&#x27;s Catalonia and the violent undemocratic traditions of the Spanish state!</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.cadtm.org/Our-media-Puigdemont-s-Catalonia-and-the-violent-undemocratic-traditions-of-the">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.cadtm.org/local/cache-vignettes/L640xH336/f145f0a7dd974089918eb2cb428212-30f63.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>It&#x27;s true that we couldn&#x27;t expect better coverage of the new Puigdemont affair from our media. For decades now, the international media, of almost all political persuasions, has either ignored the often historic events taking place in Catalonia, or presented them in a way that would not displease Madrid&#x27;s rulers, of all persuasions, including the nostalgics of Franco. 
-English
-
-/ 
-Spanish State</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.cadtm.org/Ecuador-s-poisoned-loans-from-the-World-Bank-and-the-IMF"
-                        open
-                      >
-                        <summary class="article-expander__title">Ecuador&#x27;s poisoned loans from the World Bank and the IMF</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.cadtm.org/Ecuador-s-poisoned-loans-from-the-World-Bank-and-the-IMF">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.cadtm.org/local/cache-vignettes/L610xH320/79b1ee41c77306472b66b441cb975e-1b9fb.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The World Bank and the IMF are 80 years old. 80 years of financial neo-colonialism and the imposition of austerity policies in the name of debt repayment. 80 years is enough! The Bretton Woods institutions must be abolished and replaced by democratic institutions serving an ecological, feminist and anti-racist bifurcation. To mark these 80 years, we are republishing a series of articles every Wednesday until July, looking in detail at the history and damage caused by these two institutions. (...)
-English
-
-/ 
-Ecuador, 
-IMF, 
-World Bank, 
-South, 
-80 ans BM FMI EN</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Liberty Street Economics</button>
-                  <a class="source-heading__link" href="https://libertystreeteconomics.newyorkfed.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://libertystreeteconomics.newyorkfed.org/?p&#x3D;31294"
-                        open
-                      >
-                        <summary class="article-expander__title">­­A New Set of Indicators of Reserve Ampleness</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://libertystreeteconomics.newyorkfed.org/2024/08/a-new-set-of-indicators-of-reserve-ampleness/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/08/LSE_2024_complimentary-indicators_afonso_460.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Federal Reserve (Fed) implements monetary policy in a regime of ample reserves, where short-term interest rates are controlled mainly through the setting of administered rates, and active management of the reserve supply is not required. In yesterday’s post, we proposed a methodology to evaluate the ampleness of reserves in real time based on the slope of the reserve demand curve—the elasticity of the federal (fed) funds rate to reserve shocks. In this post, we propose a suite of complementary indicators of reserve ampleness that, jointly with our elasticity measure, can help policymakers ensure that reserves remain ample as the Fed shrinks its balance sheet.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/10477192372">
-        <time id="build-timestamp" datetime="2024-08-20T18:31:08.564Z">2024-08-20T18:31:08.564Z</time>
+      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/10482009795">
+        <time id="build-timestamp" datetime="2024-08-21T01:41:35.586Z">2024-08-21T01:41:35.586Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
