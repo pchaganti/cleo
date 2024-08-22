@@ -1,16 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-21T18:31:18.696Z</id>
+    <id>urn:2024-08-22T01:43:37.651Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-21T18:31:18.696Z</updated>
+    <updated>2024-08-22T01:43:37.651Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Now open — AWS Asia Pacific (Malaysia) Region]]></title>
+        <id>c7447db6c34719e72bdc50b8f0ffb80c00a60878</id>
+        <link href="https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-malaysia-region/"/>
+        <updated>2024-08-22T01:03:25.000Z</updated>
+        <summary type="html"><![CDATA[The new AWS Asia Pacific (Malaysia) Region bolsters cloud innovation, empowering local businesses and government initiatives while aligning with Malaysia's sustainability goals through Amazon's renewable energy commitment.]]></summary>
+        <author>
+            <name>Donnie Prakoso</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Custom Profiling in Kubectl Debug Graduates to Beta]]></title>
+        <id>https://kubernetes.io/blog/2024/08/22/kubernetes-1-31-custom-profiling-kubectl-debug/</id>
+        <link href="https://kubernetes.io/blog/2024/08/22/kubernetes-1-31-custom-profiling-kubectl-debug/"/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There are many ways of troubleshooting the pods and nodes in the cluster. However, kubectl debug is one of the easiest, highly used and most prominent ones. It
+provides a set of static profiles and each profile serves for a different kind of role. For instance, from the network administrator's point of view,
+debugging the node should be as easy as this:
+$ kubectl debug node/mynode -it --image=busybox --profile=netadmin
+
+
+On the other hand, static profiles also bring about inherent rigidity, which has some implications for some pods contrary to their ease of use.
+Because there are various kinds of pods (or nodes) that all have their specific
+necessities, and unfortunately, some can't be debugged by only using the static profiles.
+Take an instance of a simple pod consisting of a container wh…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes 1.31: Fine-grained SupplementalGroups control]]></title>
+        <id>https://kubernetes.io/blog/2024/08/22/fine-grained-supplementalgroups-control/</id>
+        <link href="https://kubernetes.io/blog/2024/08/22/fine-grained-supplementalgroups-control/"/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This blog discusses a new feature in Kubernetes 1.31 to improve the handling of supplementary groups in containers within Pods.
+Motivation: Implicit group memberships defined in /etc/group in the container image
+Although this behavior may not be popular with many Kubernetes cluster users/admins, kubernetes, by default, merges group information from the Pod with information defined in /etc/group in the container image.
+Let's see an example, below Pod specifies runAsUser=1000, runAsGroup=3000 and supplementalGroups=4000 in the Pod's security context.
+implicit-groups.yaml
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+ name: implicit-groups
+spec:
+ securityContext:
+ runAsUser: 1000
+ runAsGroup: 3000
+ supplementalGroups: [4000]
+ containers:
+ - name: ctr
+ image: registry.k8s.io/e2e-test-images/agnhost:2.4…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes v1.31: New Kubernetes CPUManager Static Policy: Distribute CPUs Across Cores]]></title>
+        <id>https://kubernetes.io/blog/2024/08/22/cpumanager-static-policy-distributed-cpu-across-cores/</id>
+        <link href="https://kubernetes.io/blog/2024/08/22/cpumanager-static-policy-distributed-cpu-across-cores/"/>
+        <updated>2024-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In Kubernetes v1.31, we are excited to introduce a significant enhancement to CPU management capabilities: the distribute-cpus-across-cores option for the CPUManager static policy. This feature is currently in alpha and hidden by default, marking a strategic shift aimed at optimizing CPU utilization and improving system performance across multi-core processors.
+Understanding the feature
+Traditionally, Kubernetes' CPUManager tends to allocate CPUs as compactly as possible, typically packing them onto the fewest number of physical cores. However, allocation strategy matters, CPUs on the same physical host still share some resources of the physical core, such as the cache and execution units, etc.
+While default approach minimizes inter-core communication and can be beneficial under certain sc…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jofer in "US hospital told family their daughter had checked out when in fact she'd died"]]></title>
+        <id>https://news.ycombinator.com/item?id=41314291</id>
+        <link href="https://news.ycombinator.com/item?id=41314291"/>
+        <updated>2024-08-21T21:19:35.000Z</updated>
+        <summary type="html"><![CDATA[You'd be amazed how bad hospitals can be at keeping track of fairly critical things.
+I had a cousin who voluntarily checked himself into the hospital related to severe withdrawal symptoms (and had bouts of psychosis related to said with withdrawal - meth addictions are nasty).  His mother stayed for awhile but had to leave for work. She was repeatedly guaranteed by multiple doctors and nurses that he could not check himself out and would be there for several days at least. They told her to come back the next morning.
+Late that night, he was discharged. Not even "he checked himself out". The hospital discharged him (and that's over an hour ride away from home, btw - no hospitals in rural areas these days).
+He had no phone and no wallet.  According to staff, he tried to call his mother to pick him up, but couldn't remember her cell phone number (it had changed recently). He called his sister and left a message, but she was traveling and didn't get it until much later.  According to the hospital, he tried to call several different numbers trying to get a ride home and they made him stop and made him leave.  In a quite rough downtown area he was not familiar with. While clearly not in his right mind. At 2am. With no wallet, no phone, no nothing.
+The hospital had his mother's contact info.  They did not give it to him even when he requested it. They did not attempt to contact her in any way.
+We still don't know what happened afterwards. His body was found four days later in the river and it had been there for awhile.
+Forcibly discharging someone under those circumstances and refusing to even contact their emergency contacts is beyond belief.  I'm furious about it.  Apparently it's common and not even something there's any recourse for.]]></summary>
+        <author>
+            <name>jofer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 8/21/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=277121</id>
         <link href="https://www.nakedcapitalism.com/2024/08/200pm-water-cooler-8-21-2024.html"/>
         <updated>2024-08-21T18:00:25.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, pandemics; Democrat National Convention vignettes ; new Boeing 777X and 787debacles; Covid, anosmia, and loss of executive function ~]]></summary>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, pandemics; Democrat National Convention vignettes ; Sabato moves North Carolina to toss-up from Republican;  new Boeing 777X and 787debacles; Covid, anosmia, and loss of executive function ~]]></summary>
         <author>
             <name>Lambert Strether</name>
         </author>
@@ -38,6 +124,27 @@ The post Bringing Llama 3 to life appeared first on Engineering at Meta.]]></sum
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Ditching the Desk for Dreams]]></title>
+        <id>https://birming.com/ditching-desk-dreams/</id>
+        <link href="https://birming.com/ditching-desk-dreams/"/>
+        <updated>2024-08-21T15:17:00.000Z</updated>
+        <summary type="html"><![CDATA["I don't want to work in IT anymore."
+I saw this comment pop up on my Mastodon feed today. It really resonated with me, as I was in the same boat a few years ago.
+I had a great job at a great company. The people were friendly, the boss was understanding, the pay was good, and it was a short walk from home. In short, it was perfect!
+But over time, something started to feel off. I couldn't quite put my finger on what it was. Everything ought to be great, which my family and friends were quick to point out when I told them how I felt.
+Then one day, a window cleaner came to the office. I completely lost track of time watching him work. When I finally snapped out of it, I told him it looked like a peaceful job.
+– Yes, I can't imagine a better job, he replied cheerfully.
+In that moment, a seed was planted. Six months later, I was on a plane to Bangkok for a sabbatical in Asia. It was such a rewarding experience!
+When I got back, I explained to my employer that it was time for something new. He admired my adventurous spirit and completely understood.
+Fast forward ten years, and here I am now. I love my current job as a house inspector, even though I still make less than I did back then.
+And when it comes to IT, I'm more passionate about it now that it's a hobby instead of a career. It's fun again!
+Are you happy with your job? If not, do what you can to change the situation. Life is too short and precious to spend a large part of it unhappy.
+Chok Dee, as they say in Thailand.]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Sometimes there are just too many words]]></title>
         <id>https://notes.jeddacp.com/sometimes-there-are-just-too-many-words/</id>
         <link href="https://notes.jeddacp.com/sometimes-there-are-just-too-many-words/"/>
@@ -51,9 +158,26 @@ My life has become such a broken record. It seems like I’m just repeating the 
 Words, sentences, paragraphs. It’s just all too much.
 Even this post has just way too many.
 21/31 - Blaugust
+💬 Community Echoes
+"I know you might be worried about regrets later, but sometimes it's okay to break the ritual, to interrupt the flow, to just pause and breathe it all in. No achievement is going to light up above your head when you write all the words, read all the books, collect all the things. Not one that'll be worth it in the long run anyway. Be joyful when you can, be reflective when you need to be, but most of all, focus on being. If that means writing, great. If that means quiet, that's great too." by Netigen
 Reply by email]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by shash7 in "I've built my first successful side project, and I hate it"]]></title>
+        <id>https://news.ycombinator.com/item?id=41310700</id>
+        <link href="https://news.ycombinator.com/item?id=41310700"/>
+        <updated>2024-08-21T14:32:57.000Z</updated>
+        <summary type="html"><![CDATA[Can relate, I've been in a similar boat running a small B2B Saas over the last 2 years. It does get easier over time.
+I've learnt a few tricks for managing early stage pain points.
+- You need to develop a polite but curt tone of voice for customer support.
+- Once your core product is built, its worthwhile spending some time automating the heck out of everything. This will save a TON of time in the near future.
+- Invest in good docs, even if you're not running a api saas. Good docs + consistent ux + rock solid support will solve most of your support issues.
+I think a lot of literature around running a online biz has been boiled down to rather basic advice and its hard to find anything solid in this area. I've been running a small blog where I document these issues(operational.co) if anyone wants to check it out.]]></summary>
+        <author>
+            <name>shash7</name>
         </author>
     </entry>
     <entry>
@@ -165,7 +289,7 @@ The post Secret Histories appeared first on CounterPunch.org.]]></summary>
         <id>https://www.counterpunch.org/?p=331410</id>
         <link href="https://www.counterpunch.org/2024/08/21/numerous-pro-palestine-protestors-arrested-outside-consulate-of-israel-chicago/"/>
         <updated>2024-08-21T05:59:38.000Z</updated>
-        <summary type="html"><![CDATA[As former President Barack Obama prepared to speak at the Democratic National Convention in Chicago on the evening of August 20, pro-Palestine protestors outside the Consulate General of Israel were arrested. Over sixty-six arrests were reported, including press members—photos by Steel Brooks.  
+        <summary type="html"><![CDATA[As former President Barack Obama prepared to speak at the Democratic National Convention in Chicago on the evening of August 20, pro-Palestine protestors outside the Consulate General of Israel were arrested. Over fifty-five arrests were reported, including press members—photos by Steel Brooks.  
 The post Numerous Pro-Palestine Protestors Arrested Outside Consulate of Israel Chicago appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>CounterPunch News Service</name>
@@ -297,18 +421,6 @@ If you ever wondered what kind of moron would get this completely backwards and 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by iambateman in "US judge throws out FTC's ban on non-compete agreements"]]></title>
-        <id>https://news.ycombinator.com/item?id=41305945</id>
-        <link href="https://news.ycombinator.com/item?id=41305945"/>
-        <updated>2024-08-21T01:38:46.000Z</updated>
-        <summary type="html"><![CDATA[I literally got a pointless noncompete removed from a contract just because of the FTC announcement.
-The proposed noncompete had a 10-year lockup for a freelance contract…obviously nonsense. But it was so helpful to say “these aren’t sticking around so let’s just cut it out.”
-These changes make a big difference in encouraging entrepreneurs and helping our economy, as well as just reducing stress for a lot of people.]]></summary>
-        <author>
-            <name>iambateman</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Kubernetes 1.31: Autoconfiguration For Node Cgroup Driver (beta)]]></title>
         <id>https://kubernetes.io/blog/2024/08/21/cri-cgroup-driver-lookup-now-beta/</id>
         <link href="https://kubernetes.io/blog/2024/08/21/cri-cgroup-driver-lookup-now-beta/"/>
@@ -337,6 +449,16 @@ dropped, and the kubelet will fail to start if the CRI implementation isn't new
 enough to have support for this feature.]]></summary>
         <author>
             <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week Ending August 18, 2024]]></title>
+        <id>https://lwkd.info/2024/20240820</id>
+        <link href="https://lwkd.info/2024/20240820"/>
+        <updated>2024-08-20T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Developer News]]></summary>
+        <author>
+            <name>Last Week in Kubernetes Development</name>
         </author>
     </entry>
     <entry>
@@ -764,6 +886,24 @@ a shell in a running container from your local…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[A Special Opp on $ZM - It's so cheap!]]></title>
+        <id>https://kylevallans.bearblog.dev/zoom_video_is_cheap/</id>
+        <link href="https://kylevallans.bearblog.dev/zoom_video_is_cheap/"/>
+        <updated>2024-08-19T22:54:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome!
+Okay, today I am going to be discussing Zoom Video ($ZM) and how it's incredibly "cheap", at least on paper!
+Let's start with the obvious.
+There are a few things that are important to understand for each company. How much cash they have, how much debt they have, and what is the market cap. These 3 things provide you with the ability to calculate the enterprise value (total value).
+Let's take a look at this sheet.
+
+We can see that $ZM has $7.9 billion dollars worth of cash or cash equivalents (instruments that can be easily converted).
+Zoom also has less than a billion dollars in debt - basically zero debt.
+And finally, we can calculate the market cap (as of 8/19/24) which is just taking the share price and multiplying it by the outstanding shares. The market cap comes in around $1…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[When did you stop studying?]]></title>
         <id>https://bearlysignificant.com/when-did-you-stop-studying/</id>
         <link href="https://bearlysignificant.com/when-did-you-stop-studying/"/>
@@ -869,18 +1009,6 @@ Source: https://movementsarchive.org/doku.php?id=en:leaflets:xrisalllida:kakakak
         <summary type="html"><![CDATA[from Lars Syll To be fair to academia, it has realized that the pure DSGE model is incapable of explaining observable phenomena so they have introduced numerous amendments, known, oddly, as “imperfections” in the model. Long-term nominal contracts, other labour market frictions, imperfection in credit markets, all these and more are prayed in aid and, […]]]></summary>
         <author>
             <name>Lars Syll</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Just because it’s all in your head doesn’t mean it’s not real]]></title>
-        <id>https://meadow.cafe/just-because-its-all-in-your-head-doesnt-mean-its-not-real/</id>
-        <link href="https://meadow.cafe/just-because-its-all-in-your-head-doesnt-mean-its-not-real/"/>
-        <updated>2024-08-19T15:33:00.000Z</updated>
-        <summary type="html"><![CDATA[If you're anything like me, then you're frequently told by those around you something along the lines of "Oh, don't worry about it, it's all in your head" or perhaps the more common "You're imagining things." These people usually mean well when they give such advise; they're trying to help in their own way. My parents did this all the time while I was growing up, so much so that I ended up believing it. And sometimes, it's true. It could be that "that person" is not being mean to me because they don't like me, but rather because they're having a bad day in general. I get that, and I agree that sometimes (most of the time), we make up our own problems out of confusion, miscommunication, or ignorance.
-But what about deeper, more pervasive scenarios?
-What about depression, for instance? Peopl…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -1500,16 +1628,6 @@ CADTM]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by idop in "VCs don't care if you're nice, they want founders who take risks"]]></title>
-        <id>https://news.ycombinator.com/item?id=41265149</id>
-        <link href="https://news.ycombinator.com/item?id=41265149"/>
-        <updated>2024-08-16T10:49:02.000Z</updated>
-        <summary type="html"><![CDATA[VCs want founders who are willing to play the game and can do it well: lying to (potential) customers, making insane promises, presenting fake demos as if they were real products and using fancy accounting tricks to make the business look profitable, when in fact it is bleeding their money, all so that they can easily find _other_ investors to bail them out. VCs have perfected legal Ponzi schemes.]]></summary>
-        <author>
-            <name>idop</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Caitlín Doherty: &ldquo;Prospects&rdquo;]]></title>
         <id>https://newleftreview.org/sidecar/posts/prospects</id>
         <link href="https://newleftreview.org/sidecar/posts/prospects"/>
@@ -1838,32 +1956,6 @@ Music
 Playing the perfect song on my stereo then re…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anton Jäger: &ldquo;Into the Void&rdquo;]]></title>
-        <id>https://newleftreview.org/sidecar/posts/into-the-void</id>
-        <link href="https://newleftreview.org/sidecar/posts/into-the-void"/>
-        <updated>2024-08-15T13:42:21.000Z</updated>
-        <summary type="html"><![CDATA[Explaining British pogromism.]]></summary>
-        <author>
-            <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Grandizo Munis - Unions Against Revolution]]></title>
-        <id>https://theanarchistlibrary.org/library/grandizo-munis-unions-against-revolution?v=1723704444</id>
-        <link href="https://theanarchistlibrary.org/library/grandizo-munis-unions-against-revolution?v=1723704444"/>
-        <updated>2024-08-15T06:47:24.000Z</updated>
-        <summary type="html"><![CDATA[Author: Grandizo Munis
-Title: Unions Against Revolution
-Date: 1960
-Notes: Unions Against Revolution is a translation of a work by G. Munis written in 1960 and reprinted in France after the events of May 1968. The English version appearing here is from Internationalism No. 3. Black and Red, Detroit
-Source: Retrieved on August 11, 2024 from Black and Red Press PDF
-
- No contradiction can exist between the economic and the political aspects of a revolutionary conception, even supposing the clearest organic and functional demarcation between them. The same is true for any reactionary conception. Hence the present interpenetration, the agreement and collaboration between unions—economic organs —and political parties—ideological organs—gives us the key to understanding both, from whichever side o…]]></summary>
-        <author>
-            <name>The Anarchist Library</name>
         </author>
     </entry>
 </feed>
