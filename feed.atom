@@ -1,10 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-22T18:31:34.394Z</id>
+    <id>urn:2024-08-23T01:42:22.785Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-22T18:31:34.394Z</updated>
+    <updated>2024-08-23T01:42:22.785Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes v1.31: kubeadm v1beta4]]></title>
+        <id>https://kubernetes.io/blog/2024/08/23/kubernetes-1-31-kubeadm-v1beta4/</id>
+        <link href="https://kubernetes.io/blog/2024/08/23/kubernetes-1-31-kubeadm-v1beta4/"/>
+        <updated>2024-08-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As part of the Kubernetes v1.31 release, kubeadm is
+adopting a new (v1beta4) version of
+its configuration file format. Configuration in the previous v1beta3 format is now formally
+deprecated, which means it's supported but you should migrate to v1beta4 and stop using
+the deprecated format.
+Support for v1beta3 configuration will be removed after a minimum of 3 Kubernetes minor releases.
+In this article, I'll walk you through key changes;
+I'll explain about the kubeadm v1beta4 configuration format,
+and how to migrate from v1beta3 to v1beta4.
+You can read the reference for the v1beta4 configuration format:
+kubeadm Configuration (v1beta4).
+A list of changes since v1beta3
+This version improves on the v1beta3
+format by fixing some minor issues and adding a few new fields.
+To put it simply,
+Two n…]]></summary>
+        <author>
+            <name>Kubernetes Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reading: good for your mental and overall health?]]></title>
+        <id>https://disassociated.com/?p=8339</id>
+        <link href="https://disassociated.com/reading-good-mental-overall-health/"/>
+        <updated>2024-08-22T21:00:35.000Z</updated>
+        <summary type="html"><![CDATA[Ceridwen Dovey, writing for the New Yorker, in 2015: For all avid readers who have been self-medicating with great books their entire lives, it comes as no surprise that reading books can be good for your mental health and your relationships with others, but exactly why and how is now becoming clearer, thanks to new […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Use AWS CloudFormation Git sync to configure resources in customer accounts]]></title>
+        <id>aebf09b75aba8adfcdae97ec0df726ceec9f277b</id>
+        <link href="https://aws.amazon.com/blogs/devops/use-aws-cloudformation-git-sync-to-configure-resources-in-customer-accounts/"/>
+        <updated>2024-08-22T19:53:43.000Z</updated>
+        <summary type="html"><![CDATA[AWS partners often have a requirement to create resources, such as cross-account roles, in their customers’ accounts. A good choice for consistently provisioning these resources is AWS CloudFormation, an Infrastructure as Code (IaC) service that allows you to specify your architecture in a template file written in JSON or YAML. CloudFormation also makes it easy […]]]></summary>
+        <author>
+            <name>Eric Z. Beard</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jamest in "Show HN: InstantDB – A Modern Firebase"]]></title>
+        <id>https://news.ycombinator.com/item?id=41322809</id>
+        <link href="https://news.ycombinator.com/item?id=41322809"/>
+        <updated>2024-08-22T18:00:27.000Z</updated>
+        <summary type="html"><![CDATA[[Firebase founder] The thing I'm excited about w/Instant is the quad-fecta of offline + real-time + relational queries + open source. The amount of requests we had for relational queries was off-the-charts (and is a hard engineering problem), and, while the Firebase clients are OSS, I failed to open source a reference backend (a longer story).
+Good luck, Joe, Stopa and team!]]></summary>
+        <author>
+            <name>jamest</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 8/22/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=277159</id>
@@ -1182,19 +1238,6 @@ I can't wait to learn with you all.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by delroth in "The gigantic and unregulated power plants in the cloud"]]></title>
-        <id>https://news.ycombinator.com/item?id=41292982</id>
-        <link href="https://news.ycombinator.com/item?id=41292982"/>
-        <updated>2024-08-19T17:38:25.000Z</updated>
-        <summary type="html"><![CDATA[> In the Netherlands alone, these solar panels generate a power output equivalent to at least 25 medium sized nuclear power plants.
-Since this didn't pass the smell test: the author is looking at nameplate capacity, which is a completely useless metric for variable electricity production sources (a solar panel in my sunless basement has the same nameplate capacity as the same panel installed in the Sahara desert).
-Looking at actual yearly energy generation data, this is more like 1.5 times the generation of an average nuclear power plant (NL solar production in 2023: 21TWh, US nuclear production in 2021: 778TWh by 54 plants).
-Which maybe puts more into perspective the actual risks involved here. I'm not saying there shouldn't be more regulations and significantly better security practices, but otoh you could likely drive a big truck into the right power poles and cause a similar sized outage.]]></summary>
-        <author>
-            <name>delroth</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Anarchists - The Hooligans, the Stingies, the Starved People and the Bad Asses]]></title>
         <id>https://theanarchistlibrary.org/library/anarchists-the-hooligans-the-stingies-the-starved-people-and-the-bad-asses?v=1724088997</id>
         <link href="https://theanarchistlibrary.org/library/anarchists-the-hooligans-the-stingies-the-starved-people-and-the-bad-asses?v=1724088997"/>
@@ -1414,6 +1457,26 @@ Source: https://unravel.noblogs.org/a-friend-of-mine-or-a-friend-of-ours-an-essa
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Quit or Stay?]]></title>
+        <id>https://birming.com/quit-stay/</id>
+        <link href="https://birming.com/quit-stay/"/>
+        <updated>2024-08-18T12:21:00.000Z</updated>
+        <summary type="html"><![CDATA[A close friend of mine recently landed a new job and is now considering quitting.
+It's impossible to predict whether you'll enjoy a workplace, but it usually becomes apparent soon after starting. If you consistently feel like "this is the wrong place for me," I strongly believe you should quit as soon as possible. I've personally quit jobs within the first week.
+Given that work occupies a significant portion of our lives, it's crucial that it feels right. But the very fact that work constitutes a large part of our lives can also mislead us.
+Besides work, we have relationships, hobbies, financial responsibilities, and our health to maintain. And, as we all know, life isn't always a constant joyride. Relationships can strain, health can deteriorate, and unexpected financial problems can arise.
+Life is often challenging. We feel down and want to feel better.
+We seek solutions and try to identify what needs to change. We yearn for a quick fix, and it's easy to blame work. Considering it occupies around a third of our daily lives, it's not surprising that we hold our jobs accountable.
+"Yes, of course, it's my workplace. There we have it. I gotta quit!"
+But is that really the root of the problem?
+It might be partially, or not at all. Regardless, it's never wise to make major decisions based on fleeting, fluctuating, and undefined emotions.
+There's usually no rush. It's worth waiting a while. The most important thing is that it's the right decision, whenever and whatever we decide.
+You can't eliminate ripples on water with a slap. Wait, and they will eventually subside. Against this still background, the correct answer will emerge.]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[169. Curate your love]]></title>
         <id>https://marblethoughts.bearblog.dev/curate-your-love/</id>
         <link href="https://marblethoughts.bearblog.dev/curate-your-love/"/>
@@ -1522,7 +1585,7 @@ In my opinion, you need to find a way to solve that problem before you can elimi
         <summary type="html"><![CDATA[Bearming is a theme for the Bear blogging platform, and you're seeing it in action right now.
 It offers a clean and crisp reading experience, using high contrast and clear fonts to enhance readability for readers with low vision.
 Beyond the basic styles, Bearming offers a continually expanding selection of optional add-ons and color palettes (coming soon). These provide additional customization and design options to match your personal style.
-The Bearming theme, which is free to use and customize as desired, was last updated ago {{ post_last_modified }} (see the changelog).
+The Bearming theme, which is free to use and customize as desired, was last updated {{ post_last_modified }} ago (see the changelog).
 
 
 Theme Add-ons Palettes (coming soon)
@@ -1653,36 +1716,6 @@ Debt crisis,
 CADTM]]></summary>
         <author>
             <name>Christoph Sorg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing high-definition portrait video support for Cloudflare Stream]]></title>
-        <id>66be142d4a25d6000ae1d42b</id>
-        <link href="https://blog.cloudflare.com/introducing-high-definition-portrait-video-support-for-cloudflare-stream"/>
-        <updated>2024-08-16T13:00:53.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare Stream is an end-to-end solution for video encoding, storage, delivery, and playback, focused on simplifying all aspects of video for developers. Newly uploaded or ingested portrait videos will now automatically be processed in full HD quality]]></summary>
-        <author>
-            <name>Alex Huang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Simplify cloud routing and object storage configurations with Cloud Connector]]></title>
-        <id>66bcdb694a25d6000ae1d2f8</id>
-        <link href="https://blog.cloudflare.com/cloud-connector"/>
-        <updated>2024-08-16T13:00:18.000Z</updated>
-        <summary type="html"><![CDATA[Meet Cloud Connector — a new free product to simplify your cloud routing and object storage configurations. Say goodbye to frustrating Host Header workarounds and hello to protecting your assets, accelerating applications, and routing your traffic between multiple cloud providers seamlessly]]></summary>
-        <author>
-            <name>Nikita Cano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Caitlín Doherty: &ldquo;Prospects&rdquo;]]></title>
-        <id>https://newleftreview.org/sidecar/posts/prospects</id>
-        <link href="https://newleftreview.org/sidecar/posts/prospects"/>
-        <updated>2024-08-16T10:22:07.000Z</updated>
-        <summary type="html"><![CDATA[Forecasting Starmerism.]]></summary>
-        <author>
-            <name>New Left Review Sidecar recent posts</name>
         </author>
     </entry>
 </feed>
