@@ -72,6 +72,36 @@
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
         {
+          "id": "9d5fa8083ea0a2adaa25b3e468f4416b7ccfbddc",
+          "author": "Fahim Sajjad",
+          "description": "According to the Well-Architected DevOps Guidance, “A peer review process for code changes is a strategy for ensuring code quality and shared responsibility. To support separation of duties in a DevOps environment, every change should be reviewed and approved by at least one other person before merging.” Development teams often implement the peer review process […]",
+          "link": "https://aws.amazon.com/blogs/devops/best-practices-for-working-with-pull-requests-in-amazon-codecatalyst/",
+          "publishedOn": "2024-08-23T12:12:19.000Z",
+          "wordCount": 2611,
+          "title": "Best Practices for working with Pull Requests in Amazon CodeCatalyst",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/08/11/Screenshot-2024-08-11-at-7.22.40 PM-1123x630.png"
+        },
+        {
+          "id": "9d66aeba842bce1fe217e4d75736dab43a40f72c",
+          "author": "Mangesh Budkule",
+          "description": "Overview In this blog post, I’ll explain how to use a Microsoft Entra ID and Visual Studio Code editor to access Amazon Q developer service and speed up your development. Additionally, I’ll explain how to minimize the time spent on repetitive tasks and quickly integrate users from external identity sources so they can immediately use […]",
+          "link": "https://aws.amazon.com/blogs/devops/accessing-amazon-q-developer-using-microsoft-entra-id-and-vs-code-to-accelerate-development/",
+          "publishedOn": "2024-08-23T12:04:41.000Z",
+          "wordCount": 3569,
+          "title": "Accessing Amazon Q Developer using Microsoft Entra ID and VS Code to accelerate development",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/08/23/featured-image-template-1-1120x630.png"
+        },
+        {
+          "id": "89662c44e5b3e2a8f5b40f7decc5c325c781017d",
+          "author": "Sai Srinivas Somarouthu",
+          "description": "Introduction In the rapidly evolving landscape of Generative AI, the ability to deploy and iterate on features quickly and reliably is paramount. We, the Amazon Q Developer service team, relied on several offline and online testing methods, such as evaluating models on datasets, to gauge improvements. Once positive results are observed, features were rolled out […]",
+          "link": "https://aws.amazon.com/blogs/devops/how-a-b-testing-and-multi-model-hosting-accelerate-generative-ai-feature-development-in-amazon-q/",
+          "publishedOn": "2024-08-23T12:02:29.000Z",
+          "wordCount": 1913,
+          "title": "How A/B Testing and Multi-Model Hosting Accelerate Generative AI Feature Development in Amazon Q",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/08/15/featured-image-template.png"
+        },
+        {
           "id": "aebf09b75aba8adfcdae97ec0df726ceec9f277b",
           "author": "Eric Z. Beard",
           "description": "AWS partners often have a requirement to create resources, such as cross-account roles, in their customers’ accounts. A good choice for consistently provisioning these resources is AWS CloudFormation, an Infrastructure as Code (IaC) service that allows you to specify your architecture in a template file written in JSON or YAML. CloudFormation also makes it easy […]",
@@ -487,7 +517,7 @@
           "description": "from Peter Radford Price-gouging is now a topic in politics.  Kamala Harris has put it there.  Naturally there has been the predictable outcry of opposition coupled with and equally predictable sneer of disapproval: how could she say something so uneducated?  Has she no grasp of Econ.101?  Oh the illiteracy! Perhaps even more predictable is that […]",
           "link": "https://rwer.wordpress.com/2024/08/22/cochrane-on-price-gouging/",
           "publishedOn": "2024-08-22T12:05:10.000Z",
-          "wordCount": 5147,
+          "wordCount": 5151,
           "title": "Cochrane on PRICE-GOUGING",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -497,7 +527,7 @@
           "description": "from Asad Zaman and current issue of RWER Our current environmental predicament is fundamentally a crisis of knowledge, rooted in the Enlightenment’s narrow conceptualization of epistemology. This shift fostered an illusion of objectivity that has since permeated our understanding of the world, particularly in the context of societal dynamics. The Enlightenment’s emphasis on objective knowledge […]",
           "link": "https://rwer.wordpress.com/2024/08/20/the-crisis-of-knowledge-and-enlightenments-imitations/",
           "publishedOn": "2024-08-20T20:55:26.000Z",
-          "wordCount": 4204,
+          "wordCount": 4208,
           "title": "The crisis of knowledge and enlightenment’s imitations",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -507,7 +537,7 @@
           "description": "from Lars Syll To be fair to academia, it has realized that the pure DSGE model is incapable of explaining observable phenomena so they have introduced numerous amendments, known, oddly, as “imperfections” in the model. Long-term nominal contracts, other labour market frictions, imperfection in credit markets, all these and more are prayed in aid and, […]",
           "link": "https://rwer.wordpress.com/2024/08/19/new-keynesian-dsge-models-3/",
           "publishedOn": "2024-08-19T15:33:19.000Z",
-          "wordCount": 4192,
+          "wordCount": 4195,
           "title": "“New Keynesian” DSGE models",
           "imageUrl": "https://payhip.com/cdn-cgi/image/format=auto/https://pe56d.s3.amazonaws.com/o_1hmdpulj11999i721qvu1h3p1dqar.png"
         },
@@ -517,7 +547,7 @@
           "description": "from Edward Fullbrook A few years ago, I wrote a novel that was published under a pen name and titled Two American Dreams; Which is yours?  Recently its publisher realized that, although set in the Sixties (mostly in Berkeley) this novel pertains to the coming US presidential election to a remarkable degree.  With that in […]",
           "link": "https://rwer.wordpress.com/2024/08/17/amazon-blocks-advertising-of-a-novel-whose-narrator-is-an-economist/",
           "publishedOn": "2024-08-17T17:45:18.000Z",
-          "wordCount": 4076,
+          "wordCount": 4080,
           "title": "Amazon blocks advertising of a novel whose narrator is an economist",
           "imageUrl": "https://m.media-amazon.com/images/I/4132jYJQ03L._SY342_.jpg"
         }
@@ -535,12 +565,42 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=277207",
+          "author": "Lambert Strether",
+          "description": "Our savory and delicious daily links",
+          "link": "https://www.nakedcapitalism.com/2024/08/links-8-23-2024.html",
+          "publishedOn": "2024-08-23T10:58:38.000Z",
+          "wordCount": 5330,
+          "title": "Links 8/23/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/hedgehogs.jpg"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=277182",
+          "author": "Nick Corbishley",
+          "description": "Desperate Times, Desperate Measures",
+          "link": "https://www.nakedcapitalism.com/2024/08/desperate-times-desperate-measures-us-looking-to-take-over-argentine-arms-manufacturers-to-bolster-weapons-output.html",
+          "publishedOn": "2024-08-23T10:45:34.000Z",
+          "wordCount": 4569,
+          "title": "US & NATO Allies Are Considering Taking Over State-Owned Argentine Arms Manufacturer to Bolster Munitions for Ukraine",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=277201",
+          "author": "Yves Smith",
+          "description": "Remarkable detail of how a gift card scammer successfully worked a mark, even with a bank and police trying to intervene.",
+          "link": "https://www.nakedcapitalism.com/2024/08/gift-gard-scams-generate-billions-for-fraudsters-and-industry-as-regulators-fail-to-protect-consumers-%e2%88%92-how-one-fell-into-the-fear-bubble.html",
+          "publishedOn": "2024-08-23T09:36:56.000Z",
+          "wordCount": 8906,
+          "title": "Gift Gard Scams Generate Billions for Fraudsters and Industry as Regulators Fail to Protect Consumers − How One Fell into the ‘fear bubble’",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/00-gift-card.jpg"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=277159",
           "author": "Lambert Strether",
           "description": "~ Today's Water Cooler: Politics, syndemics; Shots fired, as Biden consigliere Anita Dunn lets loose on her way out; Coach, coach, coach! ; Trump steps outside the bulletproof glass to check on a fainting crowd member; On euphemisms. ~",
           "link": "https://www.nakedcapitalism.com/2024/08/200pm-water-cooler-8-22-2024.html",
           "publishedOn": "2024-08-22T18:00:25.000Z",
-          "wordCount": 18864,
+          "wordCount": 19863,
           "title": "2:00PM Water Cooler 8/22/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/rcp_2024-08-16.png"
         },
@@ -550,7 +610,7 @@
           "description": "A look at how some turning points in the history of Corporate America, such as CEO changes of guard, explain how America hollowed itself out.",
           "link": "https://www.nakedcapitalism.com/2024/08/the-death-of-the-engineer-ceo-evidence-that-short-termism-and-financialization-had-become-ascendant.html",
           "publishedOn": "2024-08-22T13:59:30.000Z",
-          "wordCount": 6393,
+          "wordCount": 6678,
           "title": "The Death of the Engineer CEO: Evidence that Short-Termism and Financialization Had Become Ascendant",
           "imageUrl": null
         },
@@ -560,7 +620,7 @@
           "description": "Our realistic daily links",
           "link": "https://www.nakedcapitalism.com/2024/08/links-8-22-2024.html",
           "publishedOn": "2024-08-22T10:58:17.000Z",
-          "wordCount": 14631,
+          "wordCount": 14717,
           "title": "Links 8/22/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/Prairie_Dog.jpg"
         },
@@ -570,7 +630,7 @@
           "description": "A patient stares down a fabricated surgery charge. But what does it say about the prevalence of billing fraud that this matter went to court?",
           "link": "https://www.nakedcapitalism.com/2024/08/patient-underwent-one-surgery-but-was-billed-for-two-even-after-being-sued-she-refused-to-pay.html",
           "publishedOn": "2024-08-22T10:49:49.000Z",
-          "wordCount": 6094,
+          "wordCount": 6172,
           "title": "Patient Underwent One Surgery but Was Billed for Two. Even After Being Sued, She Refused To Pay",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/00-duplicate-surgery-.jpg"
         },
@@ -580,7 +640,7 @@
           "description": "The party convention demonstrates how dangerously disconnected the DNC is about our disastrous strategies in Ukraine and the Middle East.",
           "link": "https://www.nakedcapitalism.com/2024/08/the-dnc-fiddles-while-the-world-burns.html",
           "publishedOn": "2024-08-22T06:00:31.000Z",
-          "wordCount": 6857,
+          "wordCount": 6949,
           "title": "The DNC Fiddles While the World Burns",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/Screen-Shot-2024-08-21-at-11.38.43-PM.png"
         },
@@ -590,7 +650,7 @@
           "description": "So how did language, and specifically syntax, develop?",
           "link": "https://www.nakedcapitalism.com/2024/08/who-invented-syntax.html",
           "publishedOn": "2024-08-22T04:37:23.000Z",
-          "wordCount": 8346,
+          "wordCount": 8370,
           "title": "Who Invented Syntax?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/00-syntax-.webp"
         },
@@ -600,39 +660,9 @@
           "description": "~ Today's Water Cooler: Politics, pandemics; Democrat National Convention vignettes ; Sabato moves North Carolina to toss-up from Republican;  new Boeing 777X and 787debacles; Covid, anosmia, and loss of executive function ~",
           "link": "https://www.nakedcapitalism.com/2024/08/200pm-water-cooler-8-21-2024.html",
           "publishedOn": "2024-08-21T18:00:25.000Z",
-          "wordCount": 16202,
+          "wordCount": 16226,
           "title": "2:00PM Water Cooler 8/21/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/rcp_2024-08-16.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=277106",
-          "author": "Yves Smith",
-          "description": "Limited liability has come to cover for not just incompetent but also criminal conduct. But what to do?",
-          "link": "https://www.nakedcapitalism.com/2024/08/no-one-has-a-right-to-limited-liability.html",
-          "publishedOn": "2024-08-21T13:55:10.000Z",
-          "wordCount": 7414,
-          "title": "“No One Has a Right to Limited Liability”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=277051",
-          "author": "Yves Smith",
-          "description": "Our fanciful daily links: student nuclear reactor, WHO reassurance on mpox (?!?!), Middle East heat records, China housing support doubts, 25% of Brits plan not to heat this winter, Hezbollah excalating? Putin rejects negotiation, Kamala $500 million fund raise, RFK to jump to Trump? court nixes non-compete ban",
-          "link": "https://www.nakedcapitalism.com/2024/08/links-8-21-2024.html",
-          "publishedOn": "2024-08-21T10:55:31.000Z",
-          "wordCount": 18341,
-          "title": "Links 8/21/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/00-sandhilll-crane.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=277092",
-          "author": "Conor Gallagher",
-          "description": "The favorite to succeed Jake Sullivan is a diehard Russophobe who is critical of Germany for not launching Taurus missiles at Russia.",
-          "link": "https://www.nakedcapitalism.com/2024/08/kamalas-national-security-adviser-points-to-continuation-of-bidens-russia-policy.html",
-          "publishedOn": "2024-08-21T10:00:37.000Z",
-          "wordCount": 9712,
-          "title": "Kamala’s National Security Adviser Points to Continuation of Biden’s Russia Policy",
-          "imageUrl": null
         }
       ]
     },
@@ -806,7 +836,7 @@
           "description": "[Firebase founder] The thing I'm excited about w/Instant is the quad-fecta of offline + real-time + relational queries + open source. The amount of requests we had for relational queries was off-the-charts (and is a hard engineering problem), and, while the Firebase clients are OSS, I failed to open source a reference backend (a longer story).\nGood luck, Joe, Stopa and team!",
           "link": "https://news.ycombinator.com/item?id=41322809",
           "publishedOn": "2024-08-22T18:00:27.000Z",
-          "wordCount": null,
+          "wordCount": 919,
           "title": "New comment by jamest in \"Show HN: InstantDB – A Modern Firebase\"",
           "imageUrl": null
         },
@@ -816,7 +846,7 @@
           "description": "We cannot forget that we also loose something with working remotely (say more than 75% of the time) and that is the occasional bumping into each other at the water cooler or in the morning when coming in. These are situations you can artificially create by scheduling calls to socialize etc, but that is still not comparable with being in an actual office.\nBy categorically saying no to quick calls, you're isolating yourself even more. While it can be distracting to jump on a call while you actually meant to focus on some coding, it can also be great to have a quick chat and brainstorm about an idea rather than let the other person work out the solution in isolation only for me to then suggest a totally different approach in the PR review (yay! asynchronous!).",
           "link": "https://news.ycombinator.com/item?id=41318712",
           "publishedOn": "2024-08-22T10:40:10.000Z",
-          "wordCount": null,
+          "wordCount": 8916,
           "title": "New comment by rethab in \"No \"Hello\", No \"Quick Call\", and No Meetings Without an Agenda\"",
           "imageUrl": null
         },
@@ -826,7 +856,7 @@
           "description": "wasn't aware that 'anonym' existed. I don't care if PII is stripped or not. the answer to 'helping advertisers' or anything with advertisement metrics in any fashion is always 'No.' - training things so that there's better data on how to best manipulate our psyche / give people data to psychologically manipulate us in to buying/doing things is a hard 'No.'\n> Asked whether Mozilla has any concerns that its user base, many ardent ad-blockers among them, will oppose Anonym, a spokesperson for the Firefox house told The Register advertising as a business model is what allows the internet to be free and open to everyone, though there's still room for improvement.\nNo, the internet being free and open is what allows advertisers to exploit us. They can find other business models other than advertisement. It's not our problem. They need to stop making it our problem.\nI turned it off in about:config",
           "link": "https://news.ycombinator.com/item?id=41315656",
           "publishedOn": "2024-08-22T00:54:40.000Z",
-          "wordCount": null,
+          "wordCount": 10585,
           "title": "New comment by mrinfinitiesx in \"Make Firefox Private Again\"",
           "imageUrl": null
         },
@@ -836,7 +866,7 @@
           "description": "When I was a teenageer a school counselor incorrectly perceived me to be in a crisis and had me sent to 72 hour hold (which stays on certain records for quite a while and can be incredibly disruptive, but that's besides the point) - for some reason I was sent almost 40 miles away in another county in a city I'd never been. The hospital doctors took one look at me and realized I didn't belong there, but to do a discharge apparently is a pretty lengthy process once this process is initiated - almost 20 hours later (again, being held completely against my will for no reason) they released me. I asked them where I was supposed to go and if I could call my dad. They said no, but they gave me two (2) bus tokens, which wasn't enough to get back where my car was parked at the school, plus I had no idea how to use the bus system in that county, and didn't have my glasses, phone, or wallet.\nI really don't know how long it took or how I made it, but many many hours later I made it back to my car. I had to beg for money and walk the last several miles once I recognized finally where I was. It really sucked, and ever since then I've had a great deal of sympathy for people that are churned through this terrible system and spit right back out with no dignity whatsoever, let alone empathy. This incident disrupted my life irreversibly (ended up missing tests and having to do a medical withdrawal from school, lost scholarships, etc) and derailed a lot of things I had wanted to do for many, many years. The hospital/medical care industrial complex doesn't optimize for empathy. They're just trying to get the bodies through as quickly as possible.",
           "link": "https://news.ycombinator.com/item?id=41314388",
           "publishedOn": "2024-08-21T21:31:56.000Z",
-          "wordCount": null,
+          "wordCount": 2268,
           "title": "New comment by JohnMakin in \"US hospital told family their daughter had checked out when in fact she'd died\"",
           "imageUrl": null
         },
@@ -846,7 +876,7 @@
           "description": "You'd be amazed how bad hospitals can be at keeping track of fairly critical things.\nI had a cousin who voluntarily checked himself into the hospital related to severe withdrawal symptoms (and had bouts of psychosis related to said with withdrawal - meth addictions are nasty).  His mother stayed for awhile but had to leave for work. She was repeatedly guaranteed by multiple doctors and nurses that he could not check himself out and would be there for several days at least. They told her to come back the next morning.\nLate that night, he was discharged. Not even \"he checked himself out\". The hospital discharged him (and that's over an hour ride away from home, btw - no hospitals in rural areas these days).\nHe had no phone and no wallet.  According to staff, he tried to call his mother to pick him up, but couldn't remember her cell phone number (it had changed recently). He called his sister and left a message, but she was traveling and didn't get it until much later.  According to the hospital, he tried to call several different numbers trying to get a ride home and they made him stop and made him leave.  In a quite rough downtown area he was not familiar with. While clearly not in his right mind. At 2am. With no wallet, no phone, no nothing.\nThe hospital had his mother's contact info.  They did not give it to him even when he requested it. They did not attempt to contact her in any way.\nWe still don't know what happened afterwards. His body was found four days later in the river and it had been there for awhile.\nForcibly discharging someone under those circumstances and refusing to even contact their emergency contacts is beyond belief.  I'm furious about it.  Apparently it's common and not even something there's any recourse for.",
           "link": "https://news.ycombinator.com/item?id=41314291",
           "publishedOn": "2024-08-21T21:19:35.000Z",
-          "wordCount": 9872,
+          "wordCount": 10177,
           "title": "New comment by jofer in \"US hospital told family their daughter had checked out when in fact she'd died\"",
           "imageUrl": null
         },
@@ -866,7 +896,7 @@
           "description": "One suggestion is simply increase the price.  Price is strongly correlated with quality of customer.   Price also acts as signaling that this is a tool for professionals who make actual money and so shouldn't be bothered coughing up something trivial like $100 for a subscription.  You end up making more with far less customer support.",
           "link": "https://news.ycombinator.com/item?id=41312162",
           "publishedOn": "2024-08-21T17:04:06.000Z",
-          "wordCount": null,
+          "wordCount": 2539,
           "title": "New comment by siliconc0w in \"I've built my first successful side project, and I hate it\"",
           "imageUrl": null
         },
@@ -876,7 +906,7 @@
           "description": "> Forgings have the added advantage of variable grain direction which generally can be tailored to the stress patterns of a specific design.\nThis is a super underappreciated fact!  It's often repeated that forging is just stronger, but just squishing steel does NOT make it stronger.  Forging a part is so much more than just smashing it into a shape.\nSteel cable is made of pretty ordinary steel which is stretched 100s of times its original length.  That process alone makes it 2-4x stronger in that direction. You stretch steel and it gets stronger in that direction.\nDo you see how complicated that optimization process becomes?  The process steps are not just trying to take it to the final shape. Your piston rod needs to be strong lengthwise, so you actually want to start with a short fat ingot and stretch it out instead of one that is near-final size.\nThink of making an I-beam.  You could hammer out the middle, making it thinner.  That would give you a bit of strength there but very little on the edges. If you instead pull the edges out, you create a long continuous stretch that will be very strong against bending.  Where, how, and in what order you stretch makes all the difference. You may want to leave extra material and cut it off later, so that your grains are all oriented together instead of tapering to a point.\nFor any moderately complex part, this process is as complicated as modern engineering problems.  With poor steel you genuinely need to understand how to foster and bring out those continuous lines or your corkscrew will unwind like playdough.  Blacksmiths had a legitimately intellectual job back in the day!",
           "link": "https://news.ycombinator.com/item?id=41312018",
           "publishedOn": "2024-08-21T16:49:50.000Z",
-          "wordCount": 4211,
+          "wordCount": null,
           "title": "New comment by hwillis in \"How to build a 50k ton forging press\"",
           "imageUrl": null
         },
@@ -896,7 +926,7 @@
           "description": "Can relate, I've been in a similar boat running a small B2B Saas over the last 2 years. It does get easier over time.\nI've learnt a few tricks for managing early stage pain points.\n- You need to develop a polite but curt tone of voice for customer support.\n- Once your core product is built, its worthwhile spending some time automating the heck out of everything. This will save a TON of time in the near future.\n- Invest in good docs, even if you're not running a api saas. Good docs + consistent ux + rock solid support will solve most of your support issues.\nI think a lot of literature around running a online biz has been boiled down to rather basic advice and its hard to find anything solid in this area. I've been running a small blog where I document these issues(operational.co) if anyone wants to check it out.",
           "link": "https://news.ycombinator.com/item?id=41310700",
           "publishedOn": "2024-08-21T14:32:57.000Z",
-          "wordCount": 10405,
+          "wordCount": null,
           "title": "New comment by shash7 in \"I've built my first successful side project, and I hate it\"",
           "imageUrl": null
         },
@@ -926,7 +956,7 @@
           "description": "I literally got a pointless noncompete removed from a contract just because of the FTC announcement.\nThe proposed noncompete had a 10-year lockup for a freelance contract…obviously nonsense. But it was so helpful to say “these aren’t sticking around so let’s just cut it out.”\nThese changes make a big difference in encouraging entrepreneurs and helping our economy, as well as just reducing stress for a lot of people.",
           "link": "https://news.ycombinator.com/item?id=41305945",
           "publishedOn": "2024-08-21T01:38:46.000Z",
-          "wordCount": null,
+          "wordCount": 1756,
           "title": "New comment by iambateman in \"US judge throws out FTC's ban on non-compete agreements\"",
           "imageUrl": null
         },
@@ -936,7 +966,7 @@
           "description": "Some random bits of context.\nThis conflict goes back a long time. In the early 1990's, with online journals just getting started, MIT was able to insist on principles like \"anyone physically in the library has full access, even if they are not otherwise affiliated with MIT\". A couple of years later, power shifted, and Elsevier could \"our terms, take it or leave it\". Then three decades, a human generation, of Elsevier rent-seeking, and so many people working towards Open Access, unbundling, google scholar, arXiv, sci-hub, and so on. Societal change can be so very slow, nonmonotonic, and profoundly discouraging. And yet here we are, making progress.\nFor anyone unfamiliar with \"author [...] required to relinquish copyright [...] generous reuse rights\", journals would require authors to completely sign over copyright, so authors' subsequent other-than-fair-use usage of fragments would be a copyright violation. Rarely enforced, but legally you'd have to obtain permission. While some institutions sign contracts easily, and struggle with the fallout later, MIT legal culture has been pain-up-front careful with contracts. Which is sometimes painful. But IIRC, we're today using X Windows instead of CMU's Andrew, because MIT could say \"sure!\" while CMU was \"sure, err,... we'll get back to you... some mess to clean up first\".",
           "link": "https://news.ycombinator.com/item?id=41304500",
           "publishedOn": "2024-08-20T21:55:03.000Z",
-          "wordCount": 1937,
+          "wordCount": null,
           "title": "New comment by mncharity in \"MIT leaders describe the experience of not renewing Elsevier contract\"",
           "imageUrl": null
         },
@@ -956,7 +986,7 @@
           "description": "First time I visited the US it was Houston, Texas. My host was perplexed because I laughed out loud while we were driving.  Experiencing highways and those massive gas stations felt like someone had made a state that mocked America by taking prejudices we have about the American traffic and making them 200% larger in real life.  My mind was blown.",
           "link": "https://news.ycombinator.com/item?id=41303549",
           "publishedOn": "2024-08-20T20:09:49.000Z",
-          "wordCount": 2530,
+          "wordCount": null,
           "title": "New comment by nabla9 in \"Why are Texas interchanges so tall?\"",
           "imageUrl": null
         },
@@ -966,7 +996,7 @@
           "description": "The key thing to understand here is the exfiltration vector.\nSlack can render Markdown links, where the URL is hidden behind the text of that link.\nIn this case the attacker tricks Slack AI into showing a user a link that says something like \"click here to reauthenticate\" - the URL attached to that link goes to the attacker's server, with a query string that includes private information that was visible to Slack AI as part of the context it has access to.\nIf the user falls for the trick and clicks the link, the data will be exfiltrated to the attacker's server logs.\nHere's my attempt at explaining this attack: https://simonwillison.net/2024/Aug/20/data-exfiltration-from...",
           "link": "https://news.ycombinator.com/item?id=41302961",
           "publishedOn": "2024-08-20T19:07:00.000Z",
-          "wordCount": 3009,
+          "wordCount": null,
           "title": "New comment by simonw in \"Data Exfiltration from Slack AI via indirect prompt injection\"",
           "imageUrl": null
         },
@@ -996,7 +1026,7 @@
           "description": ">We create rules enforcing mandatory sleep requirements stupidly believing that we can eliminate the potential for a user of the system to be drowsy while at the controls.\n>stupidly believing\nDick move by author to reveal his level of ignorance of USN operation tempo around McCain collision until the last few paragraphs. There were lol 4 fucking surface ship collisions and a grounding in westpac in 2017 because sailors were ran ragged, leading to operation pause. UX wasn't the primary problem. Sailors weren't \"drowsy\", they were sleep deprived, hopped up on stimulants etc due to manning shortages and long deployments, and likely lax training (due to shortages), which caused USS Connecticut accident a few years later. I'm sure you can improve UI for audience subsisting on 3-5 hours of sleep, but maybe the more pressing thing to try is to get them more sleep. IIRC there was study on navy sleep hyigene and like 100% of sailors in bottom quartile experienced bewilderment/confusion.\nhttps://news.usni.org/2017/09/18/admiral-captain-removed-par...",
           "link": "https://news.ycombinator.com/item?id=41298359",
           "publishedOn": "2024-08-20T09:31:30.000Z",
-          "wordCount": 5651,
+          "wordCount": null,
           "title": "New comment by maxglute in \"The U.S. Navy's $100M checkbox (2019)\"",
           "imageUrl": null
         },
@@ -1113,7 +1143,7 @@
           "description": "Gina’s post about David O’Brien’s chapter in The Art of Teaching Philosophy reminded me that I should tell you about the class our department (Philosophy) has for all beginning Teaching Assistants (beginning at Madison, whether or not they have already taught elsewhere). The focus is pretty relentlessly practical: providing them with strategies, techniques, and advice […]",
           "link": "https://crookedtimber.org/2024/08/21/6-or-more-things-you-might-want-to-know-how-to-do-as-a-new-ta/",
           "publishedOn": "2024-08-21T16:07:15.000Z",
-          "wordCount": 6425,
+          "wordCount": 6429,
           "title": "6 (or more) things you might want to know how to do as a new TA.",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1123,7 +1153,7 @@
           "description": "“To promote open inquiry and free, market-based technological progress, you need an open society, not one founded on the enemy principle. The understandable desire to escape criticism, misunderstanding, and the frustrations of ordinary politics does not entail the radical remaking of the global geoeconomic order to confound the New York Times and its allies. The cult of […]",
           "link": "https://crookedtimber.org/2024/08/20/what-went-wrong-with-the-silicon-valley-right/",
           "publishedOn": "2024-08-20T12:57:48.000Z",
-          "wordCount": 5299,
+          "wordCount": 5775,
           "title": "What went wrong with the Silicon Valley right",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1133,7 +1163,7 @@
           "description": "This is a midsummer short and light hearted post, but I find that Summer is often the time when I am most reminded of my bodily existence, and of how naïve us philosophers are in forgetting (de facto, if not in principle) how much our thoughts and beliefs are embedded in our bodily experience. Indeed,often […]",
           "link": "https://crookedtimber.org/2024/08/20/against-the-sleepboring-analogy/",
           "publishedOn": "2024-08-20T08:22:02.000Z",
-          "wordCount": 3588,
+          "wordCount": 3592,
           "title": "Against the Sleep=Boring Analogy",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1143,7 +1173,7 @@
           "description": "Henry James: girl, you are so cool and smart, and well-dressed, and beautiful. And I mean this in the least-sexual, but not sassy-gay-best-friend way, exactly, but more like just, your good friend who is also gay? And do you know, that guy is the worst. The worst. I feel like someone should leave you a […]",
           "link": "https://crookedtimber.org/2024/08/19/henry-james-opposes-wildly-unlikeable-guys/",
           "publishedOn": "2024-08-19T22:19:09.000Z",
-          "wordCount": 2788,
+          "wordCount": 3044,
           "title": "Henry James Opposes Wildly Unlikeable Guys",
           "imageUrl": "https://img.youtube.com/vi/pB4gIRunnhM/0.jpg"
         },
@@ -1153,7 +1183,7 @@
           "description": "The value of individualism often comes up in attempts to make sense of the elusiveness of women’s empowerment. “Investing in women” has not uniformly yielded either the quick reduction in women’s poverty or the decrease in women’s adherence to sexist norms or deference to men policymakers had hoped it would. Of course, this is partly […]",
           "link": "https://crookedtimber.org/2024/08/19/new-work-on-gender-and-development-soledad-artiz-prillamans-the-patriarchal-political-order/",
           "publishedOn": "2024-08-19T20:02:07.000Z",
-          "wordCount": 2837,
+          "wordCount": 2841,
           "title": "New Work on Gender and Development: Soledad Artiz Prillaman’s The Patriarchal Political Order",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1163,7 +1193,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/08/18/sunday-photoblogging-gull/",
           "publishedOn": "2024-08-18T16:00:36.000Z",
-          "wordCount": 1993,
+          "wordCount": 1997,
           "title": "Sunday photoblogging: gull",
           "imageUrl": "https://live.staticflickr.com/65535/53897622235_5bd50828c2.jpg"
         }
@@ -1240,8 +1270,18 @@
           "description": "Ceridwen Dovey, writing for the New Yorker, in 2015: For all avid readers who have been self-medicating with great books their entire lives, it comes as no surprise that reading books can be good for your mental health and your relationships with others, but exactly why and how is now becoming clearer, thanks to new […]",
           "link": "https://disassociated.com/reading-good-mental-overall-health/",
           "publishedOn": "2024-08-22T21:00:35.000Z",
-          "wordCount": 196,
+          "wordCount": 195,
           "title": "Reading: good for your mental and overall health?",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
+          "id": "https://disassociated.com/?p=8337",
+          "author": "disassociated.com",
+          "description": "Tooth decay. Entropy. Heat death of the universe. These are things to worry about, and we’ve known about them for a long time. But recently scientists have identified something else to lose sleep over: vacuum decay: Vacuum decay, a process that could end the universe as we know it, may happen 10,000 times sooner than […]",
+          "link": "https://disassociated.com/vacuum-decay-one-more-existential-threat/",
+          "publishedOn": "2024-08-21T21:00:39.000Z",
+          "wordCount": 211,
+          "title": "Vacuum decay, one more existential threat to lose sleep over",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         },
         {
@@ -1250,7 +1290,7 @@
           "description": "About six years ago I decided I wasn’t reading enough novels. Books sat on the side table untouched, gathering dust, and inducing a pang of guilt whenever I took notice of them. I wondered what I could do to get more into reading. One thing I am good at is meeting deadlines, and doing things […]",
           "link": "https://disassociated.com/wanting-read-more-novels-versus-everything-else/",
           "publishedOn": "2024-08-20T21:00:18.000Z",
-          "wordCount": 799,
+          "wordCount": 801,
           "title": "Wanting to read more novels, versus trying to do everything else",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         },
@@ -1309,6 +1349,16 @@
       "siteUrl": "https://newleftreview.org/sidecar/feed",
       "articles": [
         {
+          "id": "https://newleftreview.org/sidecar/posts/counter-music",
+          "author": null,
+          "description": "Amelia Rosselli’s ‘Sleep’.",
+          "link": "https://newleftreview.org/sidecar/posts/counter-music",
+          "publishedOn": "2024-08-23T11:00:37.000Z",
+          "wordCount": 2533,
+          "title": "Luke Roberts: &ldquo;Counter-Music&rdquo;",
+          "imageUrl": "https://newleftreview.org/blog-uploads/2024/08/amelia_rosselli_dino_ignani.jpeg"
+        },
+        {
           "id": "https://newleftreview.org/sidecar/posts/fraud-foretold",
           "author": null,
           "description": "Elections in Venezuela.",
@@ -1354,6 +1404,16 @@
           "wordCount": 1282,
           "title": "I Am Not Proud",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/livingoutloud-1724287302.jpg"
+        },
+        {
+          "id": "https://andyiterations.bearblog.dev/coding-frustrations/",
+          "author": null,
+          "description": "As I improve my programming skills and explore new tech, I keep getting overwhelmed by all the information. Maybe I’m just impatient, but it’s incredibly frustrating to spend time messing around with code and end up with nothing to show for it. I mentioned this in another blog, but I still don’t know how to feel about it. Is it me? Is it just the nature of programming?\nI’ve been coding as a hobbyist for a while, but this year I decided to take it more seriously and learn better practices. I wanted to make coding a daily habit. However, as I dive into more complex repositories, I often find myself going down a rabbit hole of reading docs, code, and comments, trying to figure out what I need to produce the results I want. I end up coding all day, only to see a few lines of code actually make it into the final product.\nIt’s definitely a lack of domain knowledge in the libraries I’m using, but is there no faster way to learn them?\nNow that I think about it, I’ve been exploring a lot of new repos lately—botting, Roblox scripting, Textual, and Hugo. Maybe it’s just an odd situation where I feel like I’m drowning in technology.\nDo you feel the same way? If you’re more experienced, does this feeling go away as you get better? I doubt it. Love to hear back from someone.\nP.S. I think I just need to keep at it.\nemail me andysit173@gmail.com",
+          "link": "https://andyiterations.bearblog.dev/coding-frustrations/",
+          "publishedOn": "2024-08-22T06:18:00.000Z",
+          "wordCount": 745,
+          "title": "Coding Frustrations",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         },
         {
           "id": "https://srsbsns.lol/i-got-a-new-job/",
@@ -1466,16 +1526,6 @@
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         },
         {
-          "id": "https://notes.jeddacp.com/week-notes-018/",
-          "author": null,
-          "description": "🗓️ // August 10 - August 16, 2024\nI am enjoying writing these Week Notes on Saturday mornings as I drink my first cup of coffee. Today’s a late start since I’m still slightly under the weather but feeling a tiny bit better.\nTook our friend CS down the coast while she was here this past weekend. Every year she visits from the east coast, we take her to a different part of the Bay (Area). Her first year, we explored the city (San Francisco), the second year we went to Point Reyes, and this year we went a little past Half Moon Bay. Pictures slowly incoming in the photo blog.\nA co-worker turned friend recently started a blog. I’ve been talking about my blogging experience the past few months, and since she was looking to start something new, figured she’d try her hand in it. She’s currently t…",
-          "link": "https://notes.jeddacp.com/week-notes-018/",
-          "publishedOn": "2024-08-17T18:54:00.000Z",
-          "wordCount": 1517,
-          "title": "Week Notes 018",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/jedda-1721425535.png"
-        },
-        {
           "id": "https://birming.com/bearming/",
           "author": null,
           "description": "Bearming is a theme for the Bear blogging platform, and you're seeing it in action right now.\nIt offers a clean and crisp reading experience, using high contrast and clear fonts to enhance readability for readers with low vision.\nBeyond the basic styles, Bearming offers a continually expanding selection of optional add-ons and color palettes (coming soon). These provide additional customization and design options to match your personal style.\nThe Bearming theme, which is free to use and customize as desired, was last updated {{ post_last_modified }} ago (see the changelog).\n\n\nTheme Add-ons Palettes (coming soon)\n/*\n  Name: Bearming\n  Version: 1.2\n  About: birming.com/bearming\n*/\n\n/* Import fonts from fonts.google.com */\n@import url(\"https://fonts.googleapis.com/css2?family=Atkinson+Hyperle…",
@@ -1504,6 +1554,21 @@
       "feedUrl": "https://theanarchistlibrary.org/feed",
       "siteUrl": "https://theanarchistlibrary.org",
       "articles": [
+        {
+          "id": "https://theanarchistlibrary.org/library/liao-the-equality-society-a-preliminary-archival-reconstruction-of-the-chinese-american-anarchi?v=1724403295",
+          "author": null,
+          "description": "Author: Liao\nTitle: The Equality Society\nSubtitle: A Preliminary Archival Reconstruction of The Chinese American Anarchist Movement\nDate: 8/20\nSource: https://www.thecommoner.org.uk/the-equality-society-a-preliminary-archival-reconstruction-of-the-chinese-american-anarchist-movement/\n\n “Anarchism is still the most beautiful ideal, and I think someday it will come,” wrote Lau Chung-Si (Ray Jones) from a small apartment in San Francisco. At the time he put these words to paper in 1974, he was a relic of another time. Jones was a Chinese man who, in 1909, immigrated to the United States and quickly became enamoured with the ideas of anarchism. He was involved in a collective of Chinese American anarchists in San Francisco named Pingsheh (Equality Society). He also attended meetings held by ot…",
+          "link": "https://theanarchistlibrary.org/library/liao-the-equality-society-a-preliminary-archival-reconstruction-of-the-chinese-american-anarchi?v=1724403295",
+          "publishedOn": "2024-08-23T08:54:55.000Z",
+          "wordCount": 6890,
+          "title": "Liao - The Equality Society",
+          "enclosure": {
+            "type": "application/epub+zip",
+            "length": "22693",
+            "url": "https://theanarchistlibrary.org/library/liao-the-equality-society-a-preliminary-archival-reconstruction-of-the-chinese-american-anarchi.epub"
+          },
+          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
+        },
         {
           "id": "https://theanarchistlibrary.org/library/uchiyama-gudo-thoughts-during-imprisonment?v=1724225818",
           "author": null,
@@ -1578,21 +1643,6 @@
             "url": "https://theanarchistlibrary.org/library/margaret-killjoy-why-i-joined-the-industrial-workers-of-the-world.epub"
           },
           "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
-        },
-        {
-          "id": "https://theanarchistlibrary.org/library/zhachev-anarchy-and-the-mythic-path?v=1723842478",
-          "author": null,
-          "description": "Author: Zhachev\nTitle: Anarchy and the Mythic Path\nDate: 08/09/2024\nSource: https://zhachev.substack.com/p/anarchy-and-the-mythic-path\n\n Fluctuations within a continuum can be generated from diverging narratives. Uncertain climes, alternative timelines. Chronoflipping, retroswitching, taleshifting. An alterverse created via timeforge. Terra incognita.\n Narratives serve the function of temporal modulators, unbound by the shackles of progress and linearity. Vectors of radivergence. Distorting, disrupting, and corrupting conventional chronologies, conduits to alternative realities proliferate with every shift in narrative azimuth. Each story is a potential rupture in the continuum of time, a machinic assemblage capable of bearing a plethora of parallel existences. Through an intricate tango b…",
-          "link": "https://theanarchistlibrary.org/library/zhachev-anarchy-and-the-mythic-path?v=1723842478",
-          "publishedOn": "2024-08-16T21:07:58.000Z",
-          "wordCount": 1154,
-          "title": "Zhachev - Anarchy and the Mythic Path",
-          "enclosure": {
-            "type": "application/epub+zip",
-            "length": "6461",
-            "url": "https://theanarchistlibrary.org/library/zhachev-anarchy-and-the-mythic-path.epub"
-          },
-          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
         }
       ]
     },
@@ -1600,7 +1650,18 @@
       "title": "Stories by Alibaba Cloud on Medium",
       "feedUrl": "https://alibaba-cloud.medium.com/feed",
       "siteUrl": "https://medium.com/@alibaba-cloud?source=rss-8cdb52f9cdca------2",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/91c1ad508b6e",
+          "author": "Alibaba Cloud",
+          "description": "The Apsara Conference 2024 of Alibaba Cloud will be held in Hangzhou, China from September 19th to 21st, 2024.",
+          "link": "https://alibaba-cloud.medium.com/apsara-conference-2024-is-here-91c1ad508b6e?source=rss-8cdb52f9cdca------2",
+          "publishedOn": "2024-08-23T10:12:22.000Z",
+          "wordCount": 820,
+          "title": "Apsara Conference 2024 Is Here",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*MUCUSmqxPJNSbjdLKF8u5w.jpeg"
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
