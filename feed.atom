@@ -1,10 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-23T18:31:16.462Z</id>
+    <id>urn:2024-08-24T01:40:05.776Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-23T18:31:16.462Z</updated>
+    <updated>2024-08-24T01:40:05.776Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Did you lose your AirPods?]]></title>
+        <id>https://alexyancey.com/lost-airpods/</id>
+        <link href="https://alexyancey.com/lost-airpods/"/>
+        <updated>2024-08-23T23:34:00.000Z</updated>
+        <summary type="html"><![CDATA[A friend found some AirPods on the ground and tapped them to his phone, revealing only the serial number and the last four digits of the owner's number. He turned to me for help.
+All Out
+Could I really brute-force spam all phone numbers ending in 1234 and find the right owner? This seemed a bit impractical, so I had to think of ways to whittle the number down to something more manageable.
+Area Code
+I started with the assumption that the owner lived near me in the Portland metropolitan area. With that, I restricted the search to our local area code*. Sure, they could be from out of town, but hey, let's give it a shot.
+999 numbers is a manageable list, but I wanted to trim the number a bit more. Sure, sending a thousand SMS messages isn't much to a determined spammer, but I didn't want to be that noisy or piss off Twilio.
+Possible matches: 999
+Prefixes
+Next, I narrowed it down by central office code (commonly called prefix) (those three digits after the area code). Most of Portland’s are assigned, but only 26% to wireless carriers. Also, 000-199 are reserved codes that aren't available for telcos. I lied earlier, sorry.
+Possible matches: 232
+iMessage Lookup API
+
+Next, I had to assume the owner had iMessage enabled, which seemed like a safe bet. I ran an iMessage check using an API. (The API is probably used for shady stuff, but my intentions were pure.)
+Total matches: 84
+Did you lose your AirPods?
+With the list whittled down, I avoided Twilio entirely by using a script on my MacBook to send iMessages in bulk. Now we wait.
+1 Match
+Bingo! I found the owner, relayed the contact info to my friend, and the AirPods were returned to the right ears.
+Notes
+Yes, Find My exists, but they had no idea how to use it. Plus, where's the fun in that?
+I did have to field a few messages from confused people, but I got really lucky and hit in less than 10 messages. We confirmed that the AirPods paired, which wouldn't be possible if they didn't belong to them.
+*Portland has two area codes, but I only had to try one. Luck, right?]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leo Robson: &ldquo;To Be Continued&rdquo;]]></title>
+        <id>https://newleftreview.org/sidecar/posts/to-be-continued</id>
+        <link href="https://newleftreview.org/sidecar/posts/to-be-continued"/>
+        <updated>2024-08-23T21:17:36.000Z</updated>
+        <summary type="html"><![CDATA[On Wei Shujun.]]></summary>
+        <author>
+            <name>New Left Review Sidecar recent posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Publish packages to AWS CodeArtifact using Amazon CodeCatalyst Actions]]></title>
+        <id>e8258fd18a1ab4295fa19354682af40f46311ed2</id>
+        <link href="https://aws.amazon.com/blogs/devops/publish-packages-to-aws-codeartifact-using-amazon-codecatalyst-actions/"/>
+        <updated>2024-08-23T20:18:26.000Z</updated>
+        <summary type="html"><![CDATA[Amazon CodeCatalyst is a unified software development service for development teams to quickly build, deliver and scale applications on AWS while adhering to organization-specific best practices. Developers can automate development tasks and innovate faster with generative AI capabilities, and spend less time setting up project tools, managing CI/CD pipelines, provisioning and configuring various development environments […]]]></summary>
+        <author>
+            <name>Muhammad Shahzad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kennedy Suspends Campaign, Endorses Trump]]></title>
+        <id>https://www.nakedcapitalism.com/?p=277258</id>
+        <link href="https://www.nakedcapitalism.com/2024/08/kennedy-suspends-campaign-endorses-trump.html"/>
+        <updated>2024-08-23T19:24:29.000Z</updated>
+        <summary type="html"><![CDATA[Holy moley!]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How empirical is ’empirical’ macroeconomics?]]></title>
+        <id>http://rwer.wordpress.com/?p=45572</id>
+        <link href="https://rwer.wordpress.com/2024/08/23/how-empirical-is-empirical-macroeconomics/"/>
+        <updated>2024-08-23T18:59:49.000Z</updated>
+        <summary type="html"><![CDATA[from Lars Syll At a first glance, DSGE models seem to imply total ignorance because representative agents (or representative groups of agents with limited heterogeneity) featuring objective utility functions populate the literature. At a second glance, however, it becomes obvious that “methodological individualism” prevails and even dominates. To understand this dominance one only has to […]]]></summary>
+        <author>
+            <name>Lars Syll</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 8/23/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=277240</id>
@@ -13,6 +84,20 @@
         <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, Syndemics; Kennedy live briefing at 2:00PM ET; This week's RCP polling averages (neck and neck); New Covid charts (no improvements); The toll of scientific lies ~]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by CliffStoll in "Cautionary tale on using Chase bank for indie business"]]></title>
+        <id>https://news.ycombinator.com/item?id=41330893</id>
+        <link href="https://news.ycombinator.com/item?id=41330893"/>
+        <updated>2024-08-23T17:18:26.000Z</updated>
+        <summary type="html"><![CDATA[Similar experience: Citibank Retirement.
+I had about $80,000 in IRA/CD's. I'd created & contributed to them over a period of 35 years.
+Last year, it's time to retire, and Citibank won't give me half the money.  It seems that some CD's are for "Cliff Stoll" and some for "Clifford Stoll".
+Citibank Retirement demanded a "Marriage Certificate, Divorce Decree, or Court Order" to demonstrate that "Cliff Stoll" is the same person as "Clifford Stoll".
+Took more than 8 months, dozens of emails, five visits to Citibank offices, and a letter to the Citibank president, to shake loose money that I'd deposited across three decades.]]></summary>
+        <author>
+            <name>CliffStoll</name>
         </author>
     </entry>
     <entry>
@@ -332,6 +417,17 @@ The post Before It’s Too Late appeared first on CounterPunch.org.]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Rationalism Has Been a Disastrous Guide for Civilization]]></title>
+        <id>https://www.counterpunch.org/?p=331610</id>
+        <link href="https://www.counterpunch.org/2024/08/23/rationalism-has-been-a-disastrous-guide-for-civilization/"/>
+        <updated>2024-08-23T05:50:05.000Z</updated>
+        <summary type="html"><![CDATA[The triumph of the concept of rationalism, which lay at the center of the processes that formed our Western civilization from the 16th century on, was not as swift or easy as it would seem to the modern mind, because it had to disprove all the other ways of explaining the world that had gone  More
+The post Rationalism Has Been a Disastrous Guide for Civilization appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Kirkpatrick Sale</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Declining Significance of Race in America, Not Quite]]></title>
         <id>https://www.counterpunch.org/?p=331471</id>
         <link href="https://www.counterpunch.org/2024/08/23/the-declining-significance-of-race-in-america-not-quite/"/>
@@ -450,17 +546,6 @@ The post Kamala is Still a Cop appeared first on CounterPunch.org.]]></summary>
 The post A Message from Michigan Undecideds appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Raouf Halaby</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Architecture of Cities: Julius Shulman and the Light of My Moon]]></title>
-        <id>https://www.counterpunch.org/?p=331559</id>
-        <link href="https://www.counterpunch.org/2024/08/23/architecture-of-cities-julius-shulman-and-the-light-of-my-moon/"/>
-        <updated>2024-08-23T05:35:31.000Z</updated>
-        <summary type="html"><![CDATA[If Scout was a boy: Would Harper Lee have named him “Scout”: Maybe Gregory Peck knew the answer: Scout’s inquisitive is mine: We merely share similar symbiotic curious curiosities:  A history of curiosities have become truth seekers reality; Adventurer’s dreams: Everyone who sought the secrets that behold more are mine: I have made curiosities for days  More
-The post Architecture of Cities: Julius Shulman and the Light of My Moon appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>Richard Schulman</name>
         </author>
     </entry>
     <entry>
@@ -666,16 +751,6 @@ P.S. I think I just need to keep at it.
 email me andysit173@gmail.com]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The DNC Fiddles While the World Burns]]></title>
-        <id>https://www.nakedcapitalism.com/?p=277120</id>
-        <link href="https://www.nakedcapitalism.com/2024/08/the-dnc-fiddles-while-the-world-burns.html"/>
-        <updated>2024-08-22T06:00:31.000Z</updated>
-        <summary type="html"><![CDATA[The party convention demonstrates how dangerously disconnected the DNC is about our disastrous strategies in Ukraine and the Middle East.]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -1150,16 +1225,6 @@ https://marblethoughts.bearblog.dev/]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by nabla9 in "Why are Texas interchanges so tall?"]]></title>
-        <id>https://news.ycombinator.com/item?id=41303549</id>
-        <link href="https://news.ycombinator.com/item?id=41303549"/>
-        <updated>2024-08-20T20:09:49.000Z</updated>
-        <summary type="html"><![CDATA[First time I visited the US it was Houston, Texas. My host was perplexed because I laughed out loud while we were driving.  Experiencing highways and those massive gas stations felt like someone had made a state that mocked America by taking prejudices we have about the American traffic and making them 200% larger in real life.  My mind was blown.]]></summary>
-        <author>
-            <name>nabla9</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by simonw in "Data Exfiltration from Slack AI via indirect prompt injection"]]></title>
         <id>https://news.ycombinator.com/item?id=41302961</id>
         <link href="https://news.ycombinator.com/item?id=41302961"/>
@@ -1481,16 +1546,6 @@ Source: https://movementsarchive.org/doku.php?id=en:leaflets:xrisalllida:kakakak
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[“New Keynesian” DSGE models]]></title>
-        <id>http://rwer.wordpress.com/?p=45554</id>
-        <link href="https://rwer.wordpress.com/2024/08/19/new-keynesian-dsge-models-3/"/>
-        <updated>2024-08-19T15:33:19.000Z</updated>
-        <summary type="html"><![CDATA[from Lars Syll To be fair to academia, it has realized that the pure DSGE model is incapable of explaining observable phenomena so they have introduced numerous amendments, known, oddly, as “imperfections” in the model. Long-term nominal contracts, other labour market frictions, imperfection in credit markets, all these and more are prayed in aid and, […]]]></summary>
-        <author>
-            <name>Lars Syll</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[An Update on the Reservation Wages in the SCE Labor Market Survey]]></title>
         <id>https://libertystreeteconomics.newyorkfed.org/?p=31414</id>
         <link href="https://libertystreeteconomics.newyorkfed.org/2024/08/an-update-on-the-reservation-wages-in-the-sce-labor-market-survey/"/>
@@ -1696,20 +1751,6 @@ Source: https://unravel.noblogs.org/a-friend-of-mine-or-a-friend-of-ours-an-essa
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[169. Curate your love]]></title>
-        <id>https://marblethoughts.bearblog.dev/curate-your-love/</id>
-        <link href="https://marblethoughts.bearblog.dev/curate-your-love/"/>
-        <updated>2024-08-18T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There’s a really nice quote that goes along the lines of “we’re a combination of everything we’ve ever known.” We’re just composed of things that we come across in our lives, and I find that very beautiful.
-You are a museum.
-~evie\
-In essence, love is much like the art of curating a museum. We consider, assess, and most importantly choose the "artifacts" of most significance based on what we (uniquely) enjoy. The things we (uniquely) enjoy are informed by factors as varied and disparate as our blood-sugar levels, among other things. We carefully display our "exhibit of love" in beautiful frames and tags. "This is so me."
-Or, to put it differently - imagine an unimaginably vast wall that contains every interest, hobby, passion, and person to ever exist. The concepts of "self" and "taste" le…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Amazon blocks advertising of a novel whose narrator is an economist]]></title>
         <id>http://rwer.wordpress.com/?p=45543</id>
         <link href="https://rwer.wordpress.com/2024/08/17/amazon-blocks-advertising-of-a-novel-whose-narrator-is-an-economist/"/>
@@ -1741,38 +1782,6 @@ Theme Add-ons Palettes (coming soon)
 @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperle…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Margaret Killjoy - Why I Joined the Industrial Workers of the World]]></title>
-        <id>https://theanarchistlibrary.org/library/margaret-killjoy-why-i-joined-the-industrial-workers-of-the-world?v=1723882411</id>
-        <link href="https://theanarchistlibrary.org/library/margaret-killjoy-why-i-joined-the-industrial-workers-of-the-world?v=1723882411"/>
-        <updated>2024-08-17T08:13:31.000Z</updated>
-        <summary type="html"><![CDATA[Author: Margaret Killjoy
-Title: Why I Joined the Industrial Workers of the World
-Date: August 14, 2024
-Source: Retrieved on 17th August 2024 from margaretkilljoy.substack.com
-
- Back in probably 2004, maybe 2005, I was working in Portland, Oregon as a landscaper. It was a small crew, just three of us and our boss. Our boss was, for the most part, pretty cool. He didn’t work us to the bone. He was flexible about time off. He was down to call me Magpie. He paid us under the table. Sometimes he’d cancel work to go surfing. That kind of guy. 
- In fact, after my first week of work, I told him: “hey I’m going to leave for about a month to go block roads in Southern Oregon to stop this old growth timber sale, maybe do some treesitting. When I come back, can I have my job back?” and he said yes, an…]]></summary>
-        <author>
-            <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The worst ever global debt crisis]]></title>
-        <id>https://www.cadtm.org/The-worst-ever-global-debt-crisis</id>
-        <link href="https://www.cadtm.org/The-worst-ever-global-debt-crisis"/>
-        <updated>2024-08-17T07:51:08.000Z</updated>
-        <summary type="html"><![CDATA[This policy briefing, based on the new Debt Service Watch database, shows that the citizens of the Global South now face the worst debt crisis since global records began. Debt service is absorbing an average 38% of budget revenue and 30% of spending across the South, rising to 54% of revenue and 40% of spending in Africa. Spread across all continents, 35 countries are paying more than half of revenue, and 54 over one third. (...)
-English
-
-/ 
-Austerity/Structural Adjustment, 
-Illegitimate debt, 
-South]]></summary>
-        <author>
-            <name>Collective, Development finance international</name>
         </author>
     </entry>
 </feed>
