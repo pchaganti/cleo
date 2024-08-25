@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-24T18:30:00.383Z</id>
+    <id>urn:2024-08-25T01:49:25.917Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-24T18:30:00.383Z</updated>
+    <updated>2024-08-25T01:49:25.917Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Week Notes 019]]></title>
+        <id>https://notes.jeddacp.com/week-notes-019/</id>
+        <link href="https://notes.jeddacp.com/week-notes-019/"/>
+        <updated>2024-08-24T15:52:00.000Z</updated>
+        <summary type="html"><![CDATA[🗓️ // August 17 - August 23, 2024
+Woke up a few hours early on a Saturday morning to make a cup of coffee and get this written before we are out and about today.
+I went back to work on Monday + Tuesday feeling absolutely sick and miserable. I really struggled but pushed through it to ensure that the team was prepared before I take a few days off next week. If only my co-workers could’ve seen how terrible I felt running all of the meetings. Thankfully stopped feeling like the walking dead by Wednesday.
+Still trying to get myself out of this feeling I’ve been feeling lately, whatever it may be.
+Blaugust 2024 is almost over. Will I make it to 31 days? Spoiler Alert: I still don’t have any pre-written posts. I’ve been winging it all month. Can you tell?
+📸 Photos
+As Blue as the Sky
+Throwback …]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Meet the New Boss, Worse Than the Old?]]></title>
         <id>https://www.counterpunch.org/?p=331653</id>
@@ -52,6 +69,19 @@ The post Meet the New Boss, Worse Than the Old? appeared first on CounterPunch.o
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by mubu in "Reddit banned me for developing Geddit"]]></title>
+        <id>https://news.ycombinator.com/item?id=41336679</id>
+        <link href="https://news.ycombinator.com/item?id=41336679"/>
+        <updated>2024-08-24T08:55:38.000Z</updated>
+        <summary type="html"><![CDATA[Reddit was my favorite website growing up. I'd discover new interesting subs, read random posts and comments. The frontpage was somewhat interesting too, but now it feels like a bot fest and propaganda machine.
+I still use Reddit but way less than I used to before, and I no longer use it for fun but just to read niche tech subs.
+I refuse to use the official mobile app. I've always used Baconreader and then Relay on Android. Relay survived the API changes and adopted a subscription model.
+But thanks to Revanced I was able to patch an old version of Relay to use my own API key for free.]]></summary>
+        <author>
+            <name>mubu</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by ExoticPearTree in "Microsoft formally deprecates the Windows Control Panel"]]></title>
         <id>https://news.ycombinator.com/item?id=41336094</id>
         <link href="https://news.ycombinator.com/item?id=41336094"/>
@@ -87,23 +117,7 @@ All Out
 Could I really brute-force spam all phone numbers ending in 1234 and find the right owner? This seemed a bit impractical, so I had to think of ways to whittle the number down to something more manageable.
 Area Code
 I started with the assumption that the owner lived near me in the Portland metropolitan area. With that, I restricted the search to our local area code*. Sure, they could be from out of town, but hey, let's give it a shot.
-999 numbers is a manageable list, but I wanted to trim the number a bit more. Sure, sending a thousand SMS messages isn't much to a determined spammer, but I didn't want to be that noisy or piss off Twilio.
-Possible matches: 999
-Prefixes
-Next, I narrowed it down by central office code (commonly called prefix) (those three digits after the area code). Most of Portland’s are assigned, but only 26% to wireless carriers. Also, 000-199 are reserved codes that aren't available for telcos. I lied earlier, sorry.
-Possible matches: 232
-iMessage Lookup API
-
-Next, I had to assume the owner had iMessage enabled, which seemed like a safe bet. I ran an iMessage check using an API. (The API is probably used for shady stuff, but my intentions were pure.)
-Total matches: 84
-Did you lose your AirPods?
-With the list whittled down, I avoided Twilio entirely by using a script on my MacBook to send iMessages in bulk. Now we wait.
-1 Match
-Bingo! I found the owner, relayed the contact info to my friend, and the AirPods were returned to the right ears.
-Notes
-Yes, Find My exists, but they had no idea how to use it. Plus, where's the fun in that?
-I did have to field a few messages from confused people, but I got really lucky and hit in less than 10 messages. We confirmed that the AirPods paired, which wouldn't be possible if they didn't belong to them.
-*Portland has two area codes, but I only had to try one. Luck, right?]]></summary>
+999 numbers is a manageable list, but I wanted to trim the number a bit more. Sure, sending a thousand SMS messages isn't much to a determined spammer, but I didn't want to be…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
@@ -126,25 +140,6 @@ I did have to field a few messages from confused people, but I got really lucky 
         <summary type="html"><![CDATA[Amazon CodeCatalyst is a unified software development service for development teams to quickly build, deliver and scale applications on AWS while adhering to organization-specific best practices. Developers can automate development tasks and innovate faster with generative AI capabilities, and spend less time setting up project tools, managing CI/CD pipelines, provisioning and configuring various development environments […]]]></summary>
         <author>
             <name>Muhammad Shahzad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by jinwoo68 in "Microsoft formally deprecates the Windows Control Panel"]]></title>
-        <id>https://news.ycombinator.com/item?id=41332624</id>
-        <link href="https://news.ycombinator.com/item?id=41332624"/>
-        <updated>2024-08-23T20:06:43.000Z</updated>
-        <summary type="html"><![CDATA[I can imagine a series of events at MS like below (A pure imagination):
-1. A new UX head is hired and looks for something that will make them look important.
-2. Initiate a usability research across all the features in the Windows UI.
-3. Make an internal announcement. "Our research shows that many users are scared of changing settings in Control Panel. They are afraid of breaking the system by changing anything there. We will create a new UX for changing settings in a simple, intuitive, and innovative way."
-4. They hire many UX researchers, visual designers, UI prototypers, and of course many middle managers.
-5. A year later, another announcement. "We now have a complete understanding of how we can create a simple, intuitive, and innovative user experience. Now our engineering team will implement this in upcoming years."
-6. They hire many product managers, UI engineers, program managers, QA team, and of course many middle managers.
-7. Two years later, another announcement. "We are launching the new innovative UX that replaces Control Panel".
-8. Get a lot of internal feedback. "The new UI doesn't let me change X or Y setting", "The new UI is too slow", "Too much whitespace in the new UI", etc. They are all ignored as "working as intended". They say "X and Y settings are used by very few users. Use the old UI for those settings."
-9. Several years later, "We don't have enough engineering resources to maintain two different apps. Let's kill Control Panel."]]></summary>
-        <author>
-            <name>jinwoo68</name>
         </author>
     </entry>
     <entry>
