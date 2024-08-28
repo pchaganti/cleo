@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-27T18:32:16.517Z</id>
+    <id>urn:2024-08-28T01:44:46.893Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-27T18:32:16.517Z</updated>
+    <updated>2024-08-28T01:44:46.893Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Facebook operates a little differently in Australia]]></title>
+        <id>https://disassociated.com/?p=8351</id>
+        <link href="https://disassociated.com/facebook-operates-differently-australia/"/>
+        <updated>2024-08-27T21:00:58.000Z</updated>
+        <summary type="html"><![CDATA[David Swan, writing for the Sydney Morning Herald: Rampant celebrity cryptocurrency scam ads are as Australian as Tim Tams, koalas or the Great Barrier Reef, according to American Facebook whistleblower Frances Haugen, who says the tech giant’s lack of focus on Australia has let scams run wild on its platform compared with other markets. It’s […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by zbowling in "Microsoft donates the Mono Project to the Wine team"]]></title>
+        <id>https://news.ycombinator.com/item?id=41371554</id>
+        <link href="https://news.ycombinator.com/item?id=41371554"/>
+        <updated>2024-08-27T19:06:27.000Z</updated>
+        <summary type="html"><![CDATA[I worked on Mono a lot back in the early 2000s (back in the SVN days before it moved to Git, even). This move makes a lot of sense. Things evolved a lot over the years. Mono's legacy goals, which are to be a portable CLR (.NET) runtime for platforms that Microsoft didn't care about, don't make much sense today.
+Mono made a lot of sense for running places where full .NET didn't, like in full AOT environments like on the iPhone where you can't JIT, or for random architectures that don't matter anymore but once did for Linux (Alpha, Itanium, PPC, MIPs, etc.). When Microsoft bought Xamarin (which itself was born out of the ashes of the Novell shutdown of the Mono effort) and started the DotNET Core efforts to make .NET more portable itself and less a system-provided framework and merge in a lot of the stuff Mono did a single more focused project made more sense.
+Mono was still left out there to support the edge cases where DotNET Core didn't make sense, which was mostly things like being a backend for Wine stuff in some cases, some GNOME Desktop stuff (via GTK#, which is pretty dead now), and older niche use cases (second life and Unity still embed mono as a runtime for their systems). The project was limping, though, and sharing a standard library but different runtimes after much merging. Mono's runtime was always a little more portable (C instead of C++) and more accessible to experiment with, but we need that less and less, but it's still perfect for Wine. So, having it live on in Wine makes sense. It's a natural fit.]]></summary>
+        <author>
+            <name>zbowling</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by pif in "Why is the Oral-B iOS app almost 300 MB? And why is Colgate's app even bigger..?"]]></title>
+        <id>https://news.ycombinator.com/item?id=41371345</id>
+        <link href="https://news.ycombinator.com/item?id=41371345"/>
+        <updated>2024-08-27T18:53:36.000Z</updated>
+        <summary type="html"><![CDATA[My question is: why do an Oral-B app and a Colgate app even exist?]]></summary>
+        <author>
+            <name>pif</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 8/27/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=277445</id>
@@ -13,6 +45,27 @@
         <summary type="html"><![CDATA[~ Today's Water Cooler : Politics; syndemics; "It's too soon to tell"; Detective sought for Kamala mask video; Pandemics are mobility-borne ~]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by silverquiet in "Zuckerberg claims regret on caving to White House pressure on content"]]></title>
+        <id>https://news.ycombinator.com/item?id=41369889</id>
+        <link href="https://news.ycombinator.com/item?id=41369889"/>
+        <updated>2024-08-27T17:00:42.000Z</updated>
+        <summary type="html"><![CDATA[A few years back it started showing me obvious political ragebait. I ignored it and then it started showing me pictures of women whose nipples were obviously showing through their clothing, which was an improvement, but still not the reason I signed up for Facebook. I've always understood it as the algorithm is looking for engagement and will try some lowest common denominator tactics to engage in it. As someone who just wanted to see the odd picture of a friend or relative, I don't have much use for Facebook these days.]]></summary>
+        <author>
+            <name>silverquiet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by object-a in "Zuckerberg claims regret on caving to White House pressure on content"]]></title>
+        <id>https://news.ycombinator.com/item?id=41369244</id>
+        <link href="https://news.ycombinator.com/item?id=41369244"/>
+        <updated>2024-08-27T16:20:43.000Z</updated>
+        <summary type="html"><![CDATA[It's funny because Facebook's news feed in the last couple years is unusable, filled with AI slop and clickbait. Twitter similarly requires aggressive use of block + mute to eliminate scams, clickbait, and other content I'm not interested in.
+I don't know if this is due to their changes in moderation policy, or if AI has overwhelmed them, but I vastly preferred the old news feeds]]></summary>
+        <author>
+            <name>object-a</name>
         </author>
     </entry>
     <entry>
@@ -297,7 +350,8 @@ Jd
 Jedda
 Brandon
 Dominik
-Shrutarshi Basu]]></summary>
+Shrutarshi Basu
+Lou Plummer]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
@@ -651,17 +705,6 @@ https://www.forbes.com/sites/anthonykosner/2012/08/05/how-se...]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by albertgoeswoof in "Lidl's Cloud Gambit: Europe's Shift to Sovereign Computing"]]></title>
-        <id>https://news.ycombinator.com/item?id=41349154</id>
-        <link href="https://news.ycombinator.com/item?id=41349154"/>
-        <updated>2024-08-25T17:17:45.000Z</updated>
-        <summary type="html"><![CDATA[I run a European cloud service, 80% of our customers are basically looking for a European alternative to the big clouds. The market is huge and in my opinion underserved.
-What makes it very exciting is that there not too much innovation required to compete]]></summary>
-        <author>
-            <name>albertgoeswoof</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by arianvanp in "Lidl's Cloud Gambit: Europe's Shift to Sovereign Computing"]]></title>
         <id>https://news.ycombinator.com/item?id=41348977</id>
         <link href="https://news.ycombinator.com/item?id=41348977"/>
@@ -865,20 +908,6 @@ The post Apologists for Rape appeared first on CounterPunch.org.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by wenc in "Anthropic Claude 3.5 can create icalendar files, so I did this"]]></title>
-        <id>https://news.ycombinator.com/item?id=41344714</id>
-        <link href="https://news.ycombinator.com/item?id=41344714"/>
-        <updated>2024-08-25T05:44:25.000Z</updated>
-        <summary type="html"><![CDATA[You just have to double check the results whenever you tell Claude to extract lists and data.
-99.9% of it will be correct, but sometimes 1 or 2 records are off. This kind of error  is especially hard to notice because  you're so impressed that Claude managed to do the extract task at all --  plus the results look wholly plausible upon eyeballing -- that you wouldn't expect anything to be wrong at all.
-But LLMs can get things ever slightly wrong when it comes to long lists/tables. I've been bitten by this before.
-Trust but verify.
-(edit: if the answer is "machine verifiable", one approach  to ask an LLM to write a Python validator which it can execute internally. ChatGPT can execute code. I believe Sonnet 3.5 can too, but I haven't tried.)]]></summary>
-        <author>
-            <name>wenc</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by joegibbs in "Ask HN: What are you working on (August 2024)?"]]></title>
         <id>https://news.ycombinator.com/item?id=41343553</id>
         <link href="https://news.ycombinator.com/item?id=41343553"/>
@@ -899,16 +928,6 @@ I've got a free prologue that I'm releasing on October 1, so now until then is a
         <summary type="html"><![CDATA[Boeing was awarded more money for their vehicle, had years of extra time and two previous demonstration flights. This flight should have been close to flawless given the additional time Boeing had for remediation and testing. Boeing engineers should have understood their systems well enough to convincingly demonstrate the vehicle met NASA's safety requirements. Even after much additional testing during the flight they couldn't make their case. Starliner will probably complete its third uncrewed return intact and people might question if NASA was being overly cautious but perhaps Boeing should have supplied a crewed vehicle with reliable thrusters and avoided this embarrassment.]]></summary>
         <author>
             <name>shirro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by hintymad in "NASA announces Boeing Starliner crew will return on SpaceX Crew-9"]]></title>
-        <id>https://news.ycombinator.com/item?id=41341311</id>
-        <link href="https://news.ycombinator.com/item?id=41341311"/>
-        <updated>2024-08-24T20:39:16.000Z</updated>
-        <summary type="html"><![CDATA[I wonder if there are books or articles that analyze how and why Boeing declined so fast and so spectacularly. Boeing used to be able to build 747 under budget and ahead of schedule, just like Lockheed could dazzle the world by creating U2 ahead of schedule and under budget with fewer than 200 people (or]]></summary>
-        <author>
-            <name>hintymad</name>
         </author>
     </entry>
     <entry>
@@ -1023,25 +1042,6 @@ I started with the assumption that the owner lived near me in the Portland metro
         <summary type="html"><![CDATA[Amazon CodeCatalyst is a unified software development service for development teams to quickly build, deliver and scale applications on AWS while adhering to organization-specific best practices. Developers can automate development tasks and innovate faster with generative AI capabilities, and spend less time setting up project tools, managing CI/CD pipelines, provisioning and configuring various development environments […]]]></summary>
         <author>
             <name>Muhammad Shahzad</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by jinwoo68 in "Microsoft formally deprecates the Windows Control Panel"]]></title>
-        <id>https://news.ycombinator.com/item?id=41332624</id>
-        <link href="https://news.ycombinator.com/item?id=41332624"/>
-        <updated>2024-08-23T20:06:43.000Z</updated>
-        <summary type="html"><![CDATA[I can imagine a series of events at MS like below (A pure imagination):
-1. A new UX head is hired and looks for something that will make them look important.
-2. Initiate a usability research across all the features in the Windows UI.
-3. Make an internal announcement. "Our research shows that many users are scared of changing settings in Control Panel. They are afraid of breaking the system by changing anything there. We will create a new UX for changing settings in a simple, intuitive, and innovative way."
-4. They hire many UX researchers, visual designers, UI prototypers, and of course many middle managers.
-5. A year later, another announcement. "We now have a complete understanding of how we can create a simple, intuitive, and innovative user experience. Now our engineering team will implement this in upcoming years."
-6. They hire many product managers, UI engineers, program managers, QA team, and of course many middle managers.
-7. Two years later, another announcement. "We are launching the new innovative UX that replaces Control Panel".
-8. Get a lot of internal feedback. "The new UI doesn't let me change X or Y setting", "The new UI is too slow", "Too much whitespace in the new UI", etc. They are all ignored as "working as intended". They say "X and Y settings are used by very few users. Use the old UI for those settings."
-9. Several years later, "We don't have enough engineering resources to maintain two different apps. Let's kill Control Panel."]]></summary>
-        <author>
-            <name>jinwoo68</name>
         </author>
     </entry>
     <entry>
@@ -1564,49 +1564,6 @@ Even this post has just way too many.
 Reply by email]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gabriel Hetland: &ldquo;Fraud Foretold?&rdquo;]]></title>
-        <id>https://newleftreview.org/sidecar/posts/fraud-foretold</id>
-        <link href="https://newleftreview.org/sidecar/posts/fraud-foretold"/>
-        <updated>2024-08-21T10:20:03.000Z</updated>
-        <summary type="html"><![CDATA[Elections in Venezuela.]]></summary>
-        <author>
-            <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Debt System: The CADTM's analyses and theoretical foundations]]></title>
-        <id>https://www.cadtm.org/The-Debt-System-The-CADTM-s-analyses-and-theoretical-foundations</id>
-        <link href="https://www.cadtm.org/The-Debt-System-The-CADTM-s-analyses-and-theoretical-foundations"/>
-        <updated>2024-08-21T07:56:57.000Z</updated>
-        <summary type="html"><![CDATA[Extract from “Social Movements and the Politics of Debt: Transnational Resistance against Debt on Three Continents” 
-English
-
-/ 
-Debt campaign, 
-Capitalism, 
-CADTM]]></summary>
-        <author>
-            <name>Christoph Sorg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Uchiyama Gudō - Thoughts During Imprisonment]]></title>
-        <id>https://theanarchistlibrary.org/library/uchiyama-gudo-thoughts-during-imprisonment?v=1724225818</id>
-        <link href="https://theanarchistlibrary.org/library/uchiyama-gudo-thoughts-during-imprisonment?v=1724225818"/>
-        <updated>2024-08-21T07:36:58.000Z</updated>
-        <summary type="html"><![CDATA[Author: Uchiyama Gudō
-Title: Thoughts During Imprisonment
-Date: Oct 26, 1909
-Source: Nihon Rekishi Issue 131 (1951)
-
- It is government suppression. It is tyranny. 
- Even until now, I am unable to give a viewpoint on whether the ending of a human life is a good or bad thing, regardless of someone giving me a good or bad name for it. Daring to be brief about whether or not to end a human life, I am neither for nor against either choice, because I am for the sake of everybody’s happiness, with an unshakeable faith to stand on the impossible conviction of working for the freedom of any or even all people. 
- I wish that I will behave in accordance with the demands of reason and not based on the demands of immediate emotions or instincts based on material desire. If this course of action is in a…]]></summary>
-        <author>
-            <name>The Anarchist Library</name>
         </author>
     </entry>
 </feed>
