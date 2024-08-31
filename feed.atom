@@ -1,10 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-31T06:31:31.711Z</id>
+    <id>urn:2024-08-31T12:44:08.105Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-31T06:31:31.711Z</updated>
+    <updated>2024-08-31T12:44:08.105Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Michael Hudson: Debt, Economic Collapse and the Ancient World]]></title>
+        <id>https://www.nakedcapitalism.com/?p=277672</id>
+        <link href="https://www.nakedcapitalism.com/2024/08/michael-hudson-debt-economic-collapse-and-the-ancient-world.html"/>
+        <updated>2024-08-31T12:04:50.000Z</updated>
+        <summary type="html"><![CDATA[Robinson Erhardt conducts a wide-ranging discussion of Michael Hudson's work, including  the social cost of debt bondage and rentierism]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links 8/31/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=277573</id>
+        <link href="https://www.nakedcapitalism.com/2024/08/links-8-31-2024.html"/>
+        <updated>2024-08-31T10:55:35.000Z</updated>
+        <summary type="html"><![CDATA[Our puckish daily links: fingerprint loss, Long Covid Alzheimerish brain effects, US government solar farms, China growth worries, Mpox economic fallout in Africa, UK suicide rises, painters' union divests from Israel, Ukraine F-16 "crash", Trump wobbles,Kamala interview splat, Durov arrest, Intel breakup? Federal ruling curbs Section 230]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Problem with AI]]></title>
+        <id>https://www.nakedcapitalism.com/?p=277653</id>
+        <link href="https://www.nakedcapitalism.com/2024/08/the-problem-with-ai.html"/>
+        <updated>2024-08-31T07:56:21.000Z</updated>
+        <summary type="html"><![CDATA[Why AI is likely to have more limited use than boosters anticipate, particularly in replacing professionals like teachers and accountants.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PSA: Remove your location when uploading pictures to bearblog]]></title>
+        <id>https://bakavic.net/psa-remove-your-location-when-uploading-pictures-to-bearblog/</id>
+        <link href="https://bakavic.net/psa-remove-your-location-when-uploading-pictures-to-bearblog/"/>
+        <updated>2024-08-31T06:09:07.696Z</updated>
+        <summary type="html"><![CDATA[TL;DR: Bearblog doesn't (currently) strip location data from your uploads, so you need to do it yourself
+I noticed that bear blog posts with pictures were loading rather slowly - turns out images are being stored and served as-is, full-sized and all.
+This is probably a Good Thing(tm) for people running photo blogs, but I also realised that photo metadata, including your location, are being retained - not something you would want, e.g. if your pictures were taken at home.
+If you have posted images via the native bearblog insert image feature in the past, it is a good idea to check that your location hasn't been inadvertently leaked.
+Also, if you would like this to be solved for everyone, please help to upvote the suggestion to preprocess images.
+I'm not too sure how to this natively in Android (do let me know if you have an elegant way to remove location data!) - I'm wary to recommend any of the numerous apps that seem to do this, as I'm not sure which of them can be trusted.
+In the meantime, if you're on iOS 17+, there is an option in the photo picker when inserting images, to remove location and resize the image:
+Example images (of a sunrise on Alishan)
+Original image, with GPS metadata:
+
+Inspector in macOS Preview:
+Resized image, without GPS metadata:
+
+Inspector in macOS Preview:]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New comment by tux1968 in "Crows are even smarter than we thought"]]></title>
         <id>https://news.ycombinator.com/item?id=41405773</id>
@@ -93,7 +146,7 @@ This lets you start out as a shell script and then after some setup switch over 
 
 rvm use 3.3.4
 
-ruby $0 "$@"
+exec ruby $0 "$@"
 
 echo "I am a bash line too but I will never run"
 
@@ -105,7 +158,7 @@ There is some ugliness to this hack though. The interpreter only looks for the w
 
 rvm use 3.3.4
 
-ruby $0 "$@"
+exec ruby $0 "$@"
 
 echo "I am a bash line too but I will never run"
 
@@ -117,7 +170,7 @@ will work but
 
 rvm use 3.3.4
 
-ruby $0 "$@"
+exec ruby $0 "$@"
 
 echo "I am a bash line too but I will never run"
 
@@ -131,7 +184,7 @@ I am not a fan of such hacks in a language. Python lets you do something similar
 '''':
 source /path/to/venv/bin/activate.sh
 
-python $0 "$@"
+exec python $0 "$@"
 
 echo "I am a bash line too but I will never run"
 '''
@@ -802,16 +855,6 @@ https://github.com/jehna/humanify]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Rob Urie:  Kamala Harris is the New Face Being Put on America’s Wars]]></title>
-        <id>https://www.nakedcapitalism.com/?p=277504</id>
-        <link href="https://www.nakedcapitalism.com/2024/08/rob-urie-kamala-harris-is-the-new-face-being-put-on-americas-wars.html"/>
-        <updated>2024-08-29T10:00:01.000Z</updated>
-        <summary type="html"><![CDATA[An unvarnished assessment of what a Kamala Harris presidency would amount to.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Margaret Killjoy - Anti-Communist communists]]></title>
         <id>https://theanarchistlibrary.org/library/margaret-killjoy-anti-communist-communists?v=1724924772</id>
         <link href="https://theanarchistlibrary.org/library/margaret-killjoy-anti-communist-communists?v=1724924772"/>
@@ -837,26 +880,6 @@ Source: Retrieved on 29th August 2024 from margaretkilljoy.substack.com
         <summary type="html"><![CDATA[There has been much attention online to a piece by Joseph Heath arguing that analytical Marxism disappeared because the analytical Marxists all turned into Rawlsian liberals. At a certain level of resolution (blurred, zoomed out) the argument has something going for it. But at that level, all it amounts to is the claim that this […]]]></summary>
         <author>
             <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Activists Link Climate Change, Gaza in a Campaign Targeting Citigroup]]></title>
-        <id>https://www.nakedcapitalism.com/?p=277543</id>
-        <link href="https://www.nakedcapitalism.com/2024/08/activists-link-climate-change-gaza-in-a-campaign-targeting-citigroup.html"/>
-        <updated>2024-08-29T08:28:01.000Z</updated>
-        <summary type="html"><![CDATA[Protesters are pushing Citigroup to divest from fossil fuels and companies that are sending arms to Israel.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Poverty Reduction Under Capitalism Is a Myth]]></title>
-        <id>https://www.nakedcapitalism.com/?p=277540</id>
-        <link href="https://www.nakedcapitalism.com/2024/08/why-poverty-reduction-under-capitalism-is-a-myth.html"/>
-        <updated>2024-08-29T07:09:17.000Z</updated>
-        <summary type="html"><![CDATA[A full-throated critique of the claim that capitalism benefits the poors.]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -1361,16 +1384,17 @@ The post How Meta enforces purpose limitation via Privacy Aware Infrastructure a
         <summary type="html"><![CDATA[I read a lot. Probably more than a lot of people, but still not as much as some.
 When you read a lot, libraries can become your best friend. Although I would love to buy all of the books, it's just not sustainable. As much as I love having a physical collection, there are times when just borrowing a book over buying it, makes more sense.
 I loved visiting libraries growing up. There was one next to my middle school that I would go to after school. I remember getting lost in the pages of a book, tucked in a corner between shelves.
-I went to libraries less and less growing up. Then e-books happened. I still read a lot, and found myself buying most of the e-books I read. At some point, I got a Kindle Unlimited subscription. Despite its name, the book selection really wasn't unlimited, especially if you read outside of the genre of their book offerings.
+I went to libraries less and less as an adult. Then e-books happened. I still read a lot, and found myself buying most of the e-books I read. At some point, I got a Kindle Unlimited subscription. Despite its name, the book selection really wasn't unlimited, especially if you read outside of the genre of their book offerings.
 Enter Libby.
 If you haven't heard of it, Libby is a game changer for anyone who loves reading. All you need is a library card, and suddenly you have access to the library's entire e-book collection.
-I started a Libby account with a local library card to start with. Simple enough, right? But then I had an epiphany: as long as I'm a California resident, I can get different library cards across the state. Now that is the real game changer. More library cards = even more selection of books.
+I started a Libby account with just one local library card. Simple enough, right? But then I had an epiphany: as long as I'm a California resident, I can get different library cards across the state. Now that is the real game changer. More library cards = even more selection of books.
 Now, every time I visit a new California town, I try to stop by their library to get a card. Yesterday, we visited a new town for my birthday. We passed a library while roaming around town. Guess what I did?
 I got myself yet another library card.
 Thinking about collecting all of the cards up and down California at this point. A librarian Thanos, if you will.
 27/31 - Blaugust
 💬 Community Echoes
 Multiple Library Cards and Libby by Noisy Deadlines
+Tab Cleaning by axxuy
 Reply by email]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
