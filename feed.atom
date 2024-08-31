@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-30T18:32:45.867Z</id>
+    <id>urn:2024-08-31T01:45:19.675Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-08-30T18:32:45.867Z</updated>
+    <updated>2024-08-31T01:45:19.675Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Engineering with Empathy: My Journey to Understanding the User Experience]]></title>
+        <id>https://slack.engineering/?p=16945</id>
+        <link href="https://slack.engineering/engineering-with-empathy-my-journey-to-understanding-the-user-experience/"/>
+        <updated>2024-08-30T22:54:41.000Z</updated>
+        <summary type="html"><![CDATA[“What are your goals for this quarter?” It’s the question every manager asks, and one that often prompts a flurry of technical objectives and project milestones. Jumping into this internship, I knew my answer. I wanted to practice making informed decisions on my project, since that was one of the challenges I faced last summer. […]
+The post Engineering with Empathy: My Journey to Understanding the User Experience appeared first on Slack Engineering.]]></summary>
+        <author>
+            <name>Kaili Liang</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 8/30/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=277617</id>
@@ -13,6 +24,94 @@
         <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics; New RCP averages show 2024 race neck-and-neck, plus new Covid charts show positivity improvement; Kamala and joy; Trump needs a campaign reset; Unions and worker power ~]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oops! I Did It Again]]></title>
+        <id>https://birming.com/oops-did-again/</id>
+        <link href="https://birming.com/oops-did-again/"/>
+        <updated>2024-08-30T17:46:00.000Z</updated>
+        <summary type="html"><![CDATA[A month ago, I decided to shut down this blog. The next day I changed my mind, which I wrote about in the post "The blog that refuses to die."
+Yesterday, I launched a membership called Birming Buddies. When I woke up this morning after a long and good night's sleep, I realized it didn't feel right. I have now removed the page.
+It probably sounds crazy – and maybe it is.
+But neither the decision to start Birming Buddies nor to shut down the blog were impulsive actions. It's always been a long period of consideration before I hit the OK button. Once I've done that, I quickly realize whether it was the right decision or not.
+It's as if I can't reason my way through some decisions. I have to put them into action to really be able to determine what is right and what is not. Not very practical, I know, but that's apparently how I work.
+Anyway, no harm done. The member fees are  refunded and the blog lives on. And I'll continue to develop the Bearming theme. Today I released an add-on to show excerpts of your blog posts (see example on my home page), and a new color palette named Green Screen.
+I hope you have the patience to continue following my rather crooked blog journey. Hopefully, the transparency will bring some comfort to those who can relate.
+By the way, I also launched a newsletter today. Subscribe now, who knows, maybe I'll delete it tomorrow ;)
+I wish you a wonderful weekend!]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ruby shebang behavior]]></title>
+        <id>https://agj.bearblog.dev/ruby-shebang-behavior/</id>
+        <link href="https://agj.bearblog.dev/ruby-shebang-behavior/"/>
+        <updated>2024-08-30T14:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Ruby has a surprising hack in its interpreter. If the file starts with a shebang line, ruby will skip all lines until it encounters a shebang line which contains the string "ruby" in it.
+This lets you start out as a shell script and then after some setup switch over to ruby
+#!/bin/bash
+
+rvm use 3.3.4
+
+ruby $0 "$@"
+
+echo "I am a bash line too but I will never run"
+
+#!/usr/bin/env ruby
+puts "I run in ruby"
+
+There is some ugliness to this hack though. The interpreter only looks for the word "ruby" so the shebang line could be whatever including.
+#!/bin/bash
+
+rvm use 3.3.4
+
+ruby $0 "$@"
+
+echo "I am a bash line too but I will never run"
+
+#!/I/am/a/rubyist
+puts "I run in ruby"
+
+will work but
+#!/bin/bash
+
+rvm use 3.3.4
+
+ruby $0 "$@"
+
+echo "I am a bash line too but I will never run"
+
+#!/bin/rb
+puts "I run in ruby"
+
+will result in a print of "no Ruby script found in input"
+Source: ruby.c#L2681
+I am not a fan of such hacks in a language. Python lets you do something similar too - but it takes advantage of the fact that triple-quoted strings are side-effect free in Python and """": is the same as just a : which is two empty strings followed by a true in bash.
+#!/bin/bash
+'''':
+source /path/to/venv/bin/activate.sh
+
+python $0 "$@"
+
+echo "I am a bash line too but I will never run"
+'''
+
+print("I am in python")]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by ryukoposting in "AnandTech Farewell"]]></title>
+        <id>https://news.ycombinator.com/item?id=41400911</id>
+        <link href="https://news.ycombinator.com/item?id=41400911"/>
+        <updated>2024-08-30T14:10:40.000Z</updated>
+        <summary type="html"><![CDATA[Anandtech is how I learned what Ubuntu is. I must have been about 10 years old, and the concept of any OS besides Windows or MacOS was completely foreign to me. Within a few weeks, I had dug an old laptop out of my dad's bin of "stuff work wasn't using anymore" and I managed to put Ubuntu on it. I think it was an HP. I don't remember the exact specs but I do remember that the GPU was failing, there were weird video glitches all the time, and the battery held a charge for about 15 minutes.
+That was my first experience with Linux. That broken-ass computer was what I used when I learned Arduino. I'm now a firmware engineer, writing this comment on my work laptop, which is running Ubuntu.]]></summary>
+        <author>
+            <name>ryukoposting</name>
         </author>
     </entry>
     <entry>
@@ -497,6 +596,25 @@ And adults who aren’t authorities over them except insofar that they have cool
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Work Notifications Set to Off]]></title>
+        <id>https://notes.jeddacp.com/work-notifications-set-to-off/</id>
+        <link href="https://notes.jeddacp.com/work-notifications-set-to-off/"/>
+        <updated>2024-08-29T21:04:36.381Z</updated>
+        <summary type="html"><![CDATA[First day back to work.
+One of my self-sabotaging behavior is my occasional inability to set boundaries, specifically when it comes to my personal time and work.
+I rarely take days off from work. I know that it’s a problem because I have maxed out my vacation accrual days (like now) during several occasions. When I do take the time off from work, I still check my messages in case there’s something on fire and I need to fix it. I also have my notifications on in the evenings, because some of my co-workers also don’t have boundaries when it comes to work, and will ping me because they too are working late.
+I know, it’s bad.
+This time around, very in line with my Do Not Disturb mentality, I decided to turn my Slack messages and work email notifications off during my time off.
+It worked out so well. I mostly didn’t think about work. I didn’t see any messages that needed my attention right away. I didn’t have to think about the things I need to solve for my team during my time off. I had a clear separation of me enjoying my time off, and work that stresses me out more than it should.
+Because of this, I decided to make this separation a little bit more permanent. I’m going to actually turn my (work) notifications off when it’s time to log off, so that I’m not unintentionally working during the evenings. We’ll see if this pans out.
+Just the little things to get my mental health sorted out.
+29/31 - Blaugust
+Reply by email]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Dusk, a novel by Robbie Arnott, being published in October 2024]]></title>
         <id>https://disassociated.com/?p=8373</id>
         <link href="https://disassociated.com/dusk-novel-robbie-arnott-published-october-2024/"/>
@@ -514,17 +632,6 @@ And adults who aren’t authorities over them except insofar that they have cool
         <summary type="html"><![CDATA[Backbeat, the word is on the street, Oasis, the old nineties Britpop act — that was, in the words of co-founder Noel Gallagher — bigger than the Beatles, is set to play a series of reunion concerts. Honestly, I was more excited when in 2011, the Stone Roses, an even older act, announced they were* […]]]></summary>
         <author>
             <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by caymanjim in "Can solar costs keep shrinking?"]]></title>
-        <id>https://news.ycombinator.com/item?id=41394613</id>
-        <link href="https://news.ycombinator.com/item?id=41394613"/>
-        <updated>2024-08-29T19:49:07.000Z</updated>
-        <summary type="html"><![CDATA[I spend four months of the year traveling in an RV. Two years ago, I budgeted over $6000 for my desired solar setup (at least 1200Ah of battery, at least 2400W of solar, plus various controllers and other components). It was expensive enough for me to hold off, and more importantly, I didn't have the space on my current RV for the solar panels.
-In just the two years since then, prices on batteries and panels have dropped 25% or more, and solar power per square foot at a good price point has gone up significantly (400W monocrystalline panels can be gotten for $200, in the same form factor as the 200W panels I had been budgeting for). I've now lowered my budget to $4000 for the same setup I was planning to spend $6000 on two years ago, and with 400W panels, I no longer need to upgrade to a l…]]></summary>
-        <author>
-            <name>caymanjim</name>
         </author>
     </entry>
     <entry>
@@ -598,7 +705,8 @@ It is really telling that they try to cover up and deny instead of fix it, but n
         <id>https://birming.com/be-my-buddy/</id>
         <link href="https://birming.com/be-my-buddy/"/>
         <updated>2024-08-29T16:57:00.000Z</updated>
-        <summary type="html"><![CDATA[I've been considering starting a supporters page for a while, but I've been feeling conflicted...
+        <summary type="html"><![CDATA[Update Aug 30: I changed my mind on this. Please read the Oops! I Did It Again post for more information.
+I've been considering starting a supporters page for a while, but I've been feeling conflicted...
 I don't want to launch it just for the sake of it. While I want it to add some value, I don't want it to feel like a cheaper experience for those who don't want to or can contribute financially.
 The solution became Birming Buddies.
 This gives you early access to new add-ons and palettes for the Bearming theme. You'll also be mentioned on the Birming Buddies page, and your name will be highlighted in blog challenges that you participate in.
@@ -891,22 +999,6 @@ Source: Retrieved on 28th August 2024 from meduza.io
         <summary type="html"><![CDATA[One Minute Park by Elliott Cost, has been named winner of the main prize of the Tiny Awards 2024, while One Million Checkboxes by Nolen Royalty, took out the multiplayer player gong. One is your lucky number this year. Held annually since last year, 2023, the Tiny Awards recognise excellence in non-commercial websites designed by […]]]></summary>
         <author>
             <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[$HIMS is doing it!]]></title>
-        <id>https://kylevallans.bearblog.dev/hims-is-doing-it/</id>
-        <link href="https://kylevallans.bearblog.dev/hims-is-doing-it/"/>
-        <updated>2024-08-28T19:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Subscribe to receive weekly updates!
-Before I start, I must say, I am a user of $HIMS when it comes to their preventative "hair-loss" lineup. I wish I had an affiliate link to plug to help hedge this trade, but I'm shit out of luck.
-Okay, so what's the trade? Why do I think it's a pretty damn good opp, and what is going on?
-Well, $HIMS is down 32.54% in the past month and has a current enterprise value of just over 3 billion with a market cap of 3.2 billion. Staircase up and elevator down type of action... somewhat.
-
-Back on June 18th of this year, we had an enterprise value of 5.13B before quickly drifting on off after allegations that the company's GLP-1 weight-loss drugs were sourced from a "shady supplier." This has raised concerns about the quality and safety of their products.
-Here's…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
