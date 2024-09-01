@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-01T06:33:37.885Z</id>
+    <id>urn:2024-09-01T12:44:23.009Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-01T06:33:37.885Z</updated>
+    <updated>2024-09-01T12:44:23.009Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Links 9/1/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=277677</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/links-9-1-2024.html"/>
+        <updated>2024-09-01T10:55:14.000Z</updated>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Responsible Is the Rental Housing Cartel for the Explosion in Homelessness?]]></title>
+        <id>https://www.nakedcapitalism.com/?p=277656</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/how-responsible-is-the-rental-housing-cartel-for-the-explosion-in-homelessness.html"/>
+        <updated>2024-09-01T10:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Since collusion in pricing and vacancy hit critical mass in 2016, homelessness has soared.]]></summary>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Lessons From Ancient Civilizations for Keeping Homes Cool in Hot, Dry Climates]]></title>
+        <id>https://www.nakedcapitalism.com/?p=277690</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/5-lessons-from-ancient-civilizations-for-keeping-homes-cool-in-hot-dry-climates.html"/>
+        <updated>2024-09-01T09:00:03.000Z</updated>
+        <summary type="html"><![CDATA[To prepare for an even hotter future, designers today could learn from the past.]]></summary>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Revolutionary Inheritance]]></title>
         <id>https://www.counterpunch.org/?p=332027</id>
@@ -48,6 +77,30 @@ In order to read CP+ articles, your web browser must be set to accept cookies.
 The post Clowns Can Be Killers, Too appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Scott Remer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by pfraze in "Brazil's X ban is sending lots of people to Bluesky"]]></title>
+        <id>https://news.ycombinator.com/item?id=41412758</id>
+        <link href="https://news.ycombinator.com/item?id=41412758"/>
+        <updated>2024-08-31T23:15:18.000Z</updated>
+        <summary type="html"><![CDATA[Copying over my latest backend status update; figure folks would find it interesting
+Servers are holding up so far! Fortunately we were overprovisioned. If we hit 4mm new signups then things should get interesting. We did have some degradations (user handles entering an invalid state, event-stream crashed a couple times, algo crashed a couple times, image servers hit bad latencies) but we managed to avoid a full outage.
+We use an event-sourcing model which is: K/V database for primary storage (actually sqlite), into a golang event stream, then into scylladb for computed views. Various separate services for search, algorithms, and images. Hybrid on-prem & cloud. There are ~20 of the k/v servers, 1 event-stream, 2 scylla clusters (I believe).
+The event-stream crash would cause the application to stop making progress on ingesting events, but we still got the writes, so you'd see eg likes failing to increment the counter but then magically taking effect 60 seconds later. Since the scylla cluster and the KV stores stayed online, we avoided a full outage.]]></summary>
+        <author>
+            <name>pfraze</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by rzimmerman in "My fake job in Y2K preparedness"]]></title>
+        <id>https://news.ycombinator.com/item?id=41410912</id>
+        <link href="https://news.ycombinator.com/item?id=41410912"/>
+        <updated>2024-08-31T18:46:49.000Z</updated>
+        <summary type="html"><![CDATA[I worked for about a year with a consulting firm that handled "Y2K compliance". Unlike this Andersen exercise in legal face-saving, it was a real job. Big companies hired us to do a full inventory of their site equipment (this included manufacturing plants, Pharma stuff) and go line by line with their vendors and figure out which components had known Y2K issues, which had not been tested at all, and which ones were fine/had simple fixes. We helped them replace and fix what needed to be fixed.
+Y2K was a real problem. The end-of-the-world blackouts + planes falling from the sky was sensationalism, but there were real issues and most of them got fixed. Not trying to take away from this very interesting story of corrupt cronyism, but there were serious people dealing with serious problems out there. "Remember Y2K? Nothing happened!" is a super toxic lesson to take away from a rare success where people came together and fixed something instead of firefighting disasters.]]></summary>
+        <author>
+            <name>rzimmerman</name>
         </author>
     </entry>
     <entry>
@@ -146,13 +199,20 @@ Let’s make the most of our precious time while we can.]]></summary>
         <title type="html"><![CDATA[PSA: Remove your location when uploading pictures to bearblog]]></title>
         <id>https://bakavic.net/psa-remove-your-location-when-uploading-pictures-to-bearblog/</id>
         <link href="https://bakavic.net/psa-remove-your-location-when-uploading-pictures-to-bearblog/"/>
-        <updated>2024-08-31T06:09:07.696Z</updated>
+        <updated>2024-08-31T06:09:00.000Z</updated>
         <summary type="html"><![CDATA[TL;DR: Bearblog doesn't (currently) strip location data from your uploads, so you need to do it yourself
 I noticed that bear blog posts with pictures were loading rather slowly - turns out images are being stored and served as-is, full-sized and all.
 This is probably a Good Thing(tm) for people running photo blogs, but I also realised that photo metadata, including your location, are being retained - not something you would want, e.g. if your pictures were taken at home.
 If you have posted images via the native bearblog insert image feature in the past, it is a good idea to check that your location hasn't been inadvertently leaked.
 Also, if you would like this to be solved for everyone, please help to upvote the suggestion to preprocess images.
+Android
 I'm not too sure how to this natively in Android (do let me know if you have an elegant way to remove location data!) - I'm wary to recommend any of the numerous apps that seem to do this, as I'm not sure which of them can be trusted.
+EDIT: Jd dropped me an email recommending Aves (F-Droid|Github) for Android :-
+Just saw your post and I was thinking to write the same a few days ago.
+To remove metadata on your android phone, Aves is a really good gallery app. You can edit all of your metadata and also sort images in different ways.
+It is available on playstore as well as fdroid.
+Thanks for the recommendation! I haven't been in touch with the Android ecosystem for a while, and it's great to see photo/file manager apps which are not riddled with ads.
+iOS
 In the meantime, if you're on iOS 17+, there is an option in the photo picker when inserting images, to remove location and resize the image:
 Example images (of a sunrise on Alishan)
 Original image, with GPS metadata:
@@ -398,16 +458,6 @@ South Asia]]></summary>
         <link href="https://www.nakedcapitalism.com/2024/08/beijing-and-washington-clash-over-russia-sanctions.html"/>
         <updated>2024-08-30T08:35:15.000Z</updated>
         <summary type="html"><![CDATA[The US continues to talk at, rather than with, China about its close ties to Russia.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Holiday Weekend Coverage]]></title>
-        <id>https://www.nakedcapitalism.com/?p=277602</id>
-        <link href="https://www.nakedcapitalism.com/2024/08/holiday-weekend-coverage.html"/>
-        <updated>2024-08-30T06:47:59.000Z</updated>
-        <summary type="html"><![CDATA[We are kicking back a wee bit this Labor Day holiday weekend and hope you can too!]]></summary>
         <author>
             <name>Yves Smith</name>
         </author>
@@ -839,16 +889,6 @@ But there are other benefits, too—like advancing my career as a software engin
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2:00PM Water Cooler 8/29/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=277562</id>
-        <link href="https://www.nakedcapitalism.com/2024/08/200pm-water-cooler-8-29-2024.html"/>
-        <updated>2024-08-29T18:00:19.000Z</updated>
-        <summary type="html"><![CDATA[Today's Water Cooler: Politics, syndemics; Kamala's stint at McDonalds: Fact or fiction?; Kennedyon healthy food, and on the environment.; Section 230 decision: "The business model of Big Tech is over.";]]></summary>
-        <author>
-            <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by VyseofArcadia in "Bypassing airport security via SQL injection"]]></title>
         <id>https://news.ycombinator.com/item?id=41393216</id>
         <link href="https://news.ycombinator.com/item?id=41393216"/>
@@ -879,16 +919,6 @@ What should really be investigated is who on the government side approved and ve
 It is really telling that they try to cover up and deny instead of fix it, but not surprising. That is a natural consequence of authoritarian thinking, which is the entire premise and culture of the TSA. Any institution that covers up and ignores existential risks instead of confronting them head on will eventually implode by consequences of its own negligence- which hopefully will happen to the TSA.]]></summary>
         <author>
             <name>UniverseHacker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by dylan604 in "Bypassing airport security via SQL injection"]]></title>
-        <id>https://news.ycombinator.com/item?id=41392963</id>
-        <link href="https://news.ycombinator.com/item?id=41392963"/>
-        <updated>2024-08-29T17:03:36.000Z</updated>
-        <summary type="html"><![CDATA[Since they actually went past the SQL injection and then created a fake record for an employee, I'm shocked that Homeland did not come after and arrest those involved. Homeland would have been top of the list to misinterpret a disclosure and prefer to refer to the disclosure as malicious hacking instead of responsible disclosure. I'm more impressed by this than the incompetence of the actual issue.]]></summary>
-        <author>
-            <name>dylan604</name>
         </author>
     </entry>
     <entry>
@@ -941,16 +971,6 @@ Honestly, I think I'd love to see what changes this ruling brings about. HN is q
 https://github.com/jehna/humanify]]></summary>
         <author>
             <name>jehna1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links 8/29/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=277548</id>
-        <link href="https://www.nakedcapitalism.com/2024/08/links-8-29-2024.html"/>
-        <updated>2024-08-29T10:58:48.000Z</updated>
-        <summary type="html"><![CDATA[Our high-flying daily links]]></summary>
-        <author>
-            <name>Lambert Strether</name>
         </author>
     </entry>
     <entry>
@@ -1386,20 +1406,6 @@ If you literally have plaintext documents responsive to criminal inquiries in a 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by vessenes in "Diffusion models are real-time game engines"]]></title>
-        <id>https://news.ycombinator.com/item?id=41375657</id>
-        <link href="https://news.ycombinator.com/item?id=41375657"/>
-        <updated>2024-08-28T03:29:24.000Z</updated>
-        <summary type="html"><![CDATA[So, this is surprising. Apparently there’s more cause, effect, and sequencing in diffusion models than what I expected, which would be roughly ‘none’. Google here uses SD 1.4, as the core of the diffusion model, which is a nice reminder that open models are useful to even giant cloud monopolies.
-The two main things of note I took away from the summary were: 1) they got infinite training data using agents playing doom (makes sense), and 2) they added Gaussian noise to source frames and rewarded the agent for ‘correcting’ sequential frames back, and said this was critical to get long range stable ‘rendering’ out of the model.
-That last is intriguing — they explain the intuition as teaching the model to do error correction / guide it to be stable.
-Finally, I wonder if this model would be easy to fine tune for ‘photo realistic’ / ray traced restyling — I’d be super curious to see how hard it would be to get a ‘nicer’ rendering out of this model, treating it as a doom foundation model of sorts.
-Anyway, a fun idea that worked! Love those.]]></summary>
-        <author>
-            <name>vessenes</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Facebook operates a little differently in Australia]]></title>
         <id>https://disassociated.com/?p=8351</id>
         <link href="https://disassociated.com/facebook-operates-differently-australia/"/>
@@ -1622,16 +1628,6 @@ Reply by email]]></summary>
         <summary type="html"><![CDATA[According to The New York Times (23 August), The Justice Department “filed an antitrust lawsuit on Friday against the real estate software company RealPage, alleging its software enabled landlords to collude to raise rents across the United States.” I am not an expert in law or anti-trust, but there is another (systemic risk management) angle to this story that the […]]]></summary>
         <author>
             <name>Eric Schliesser</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The asterism: the proposed new symbol for the fediverse. So say we]]></title>
-        <id>https://disassociated.com/?p=8342</id>
-        <link href="https://disassociated.com/asterism-proposed-new-symbol-fediverse/"/>
-        <updated>2024-08-25T21:00:22.000Z</updated>
-        <summary type="html"><![CDATA[The asterism, ⁂, a typographic symbol made up three stars, is being proposed as the new symbol for the fediverse. If the fediverse needs a symbol, it’s not half bad. Does the web have a symbol? I’m not even sure. But for those who came in late, the fediverse can be defined thusly: The fediverse […]]]></summary>
-        <author>
-            <name>disassociated.com</name>
         </author>
     </entry>
 </feed>
