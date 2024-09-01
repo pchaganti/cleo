@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-01T12:44:23.009Z</id>
+    <id>urn:2024-09-01T18:30:44.307Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-01T12:44:23.009Z</updated>
+    <updated>2024-09-01T18:30:44.307Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[A thought about conservative psychology re: the abortion issue]]></title>
+        <id>https://crookedtimber.org/?p=53107</id>
+        <link href="https://crookedtimber.org/2024/09/01/a-thought-about-conservative-psychology-re-the-abortion-issue/"/>
+        <updated>2024-09-01T13:00:18.000Z</updated>
+        <summary type="html"><![CDATA[So is Trump going to be able to pivot to pro-choice in the run-up to the election? I mean: he’s trying. But will it work? And will his pro-life base accept it, because he’s Trump? I hope no pro-choice voters are fooled. I hope they hold him responsible for overturning Roe. It’s beyond obvious they […]]]></summary>
+        <author>
+            <name>John Holbo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Links 9/1/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=277677</id>
@@ -80,27 +90,15 @@ The post Clowns Can Be Killers, Too appeared first on CounterPunch.org.]]></summ
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by pfraze in "Brazil's X ban is sending lots of people to Bluesky"]]></title>
-        <id>https://news.ycombinator.com/item?id=41412758</id>
-        <link href="https://news.ycombinator.com/item?id=41412758"/>
-        <updated>2024-08-31T23:15:18.000Z</updated>
-        <summary type="html"><![CDATA[Copying over my latest backend status update; figure folks would find it interesting
-Servers are holding up so far! Fortunately we were overprovisioned. If we hit 4mm new signups then things should get interesting. We did have some degradations (user handles entering an invalid state, event-stream crashed a couple times, algo crashed a couple times, image servers hit bad latencies) but we managed to avoid a full outage.
-We use an event-sourcing model which is: K/V database for primary storage (actually sqlite), into a golang event stream, then into scylladb for computed views. Various separate services for search, algorithms, and images. Hybrid on-prem & cloud. There are ~20 of the k/v servers, 1 event-stream, 2 scylla clusters (I believe).
-The event-stream crash would cause the application to stop making progress on ingesting events, but we still got the writes, so you'd see eg likes failing to increment the counter but then magically taking effect 60 seconds later. Since the scylla cluster and the KV stores stayed online, we avoided a full outage.]]></summary>
+        <title type="html"><![CDATA[Blogs are weird and I do not understand them]]></title>
+        <id>https://unwissen.bearblog.dev/blogs-are-weird-and-i-do-not-understand-them/</id>
+        <link href="https://unwissen.bearblog.dev/blogs-are-weird-and-i-do-not-understand-them/"/>
+        <updated>2024-08-31T19:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Off course I knew what a blog was before finding Bear.1 I read blogposts and used tumblr (…), and I think my mother had a blog for some time, too. But I did not know about the technicalities (wtf is RSS?) and the culture of blogging. And although it took some time to set this whole endeavor up2, it is the culture-thing that is the hardest for me.
+I am used to Twitter and Bluesky, where posts have to be short and draw attention. This combination rewards posts that say divisive shit3 and punishes those that are nuanced and complex. It is easier to wish death onto some asshole politician than to explain what they did wrong. If you want to write something personal or sincere you have to meme and/or bury it under ironic detachment.
+Like posts on microblogging platforms, blogposts follow their o…]]></summary>
         <author>
-            <name>pfraze</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by rzimmerman in "My fake job in Y2K preparedness"]]></title>
-        <id>https://news.ycombinator.com/item?id=41410912</id>
-        <link href="https://news.ycombinator.com/item?id=41410912"/>
-        <updated>2024-08-31T18:46:49.000Z</updated>
-        <summary type="html"><![CDATA[I worked for about a year with a consulting firm that handled "Y2K compliance". Unlike this Andersen exercise in legal face-saving, it was a real job. Big companies hired us to do a full inventory of their site equipment (this included manufacturing plants, Pharma stuff) and go line by line with their vendors and figure out which components had known Y2K issues, which had not been tested at all, and which ones were fine/had simple fixes. We helped them replace and fix what needed to be fixed.
-Y2K was a real problem. The end-of-the-world blackouts + planes falling from the sky was sensationalism, but there were real issues and most of them got fixed. Not trying to take away from this very interesting story of corrupt cronyism, but there were serious people dealing with serious problems out there. "Remember Y2K? Nothing happened!" is a super toxic lesson to take away from a rare success where people came together and fixed something instead of firefighting disasters.]]></summary>
-        <author>
-            <name>rzimmerman</name>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -226,19 +224,6 @@ Inspector in macOS Preview:]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by tux1968 in "Crows are even smarter than we thought"]]></title>
-        <id>https://news.ycombinator.com/item?id=41405773</id>
-        <link href="https://news.ycombinator.com/item?id=41405773"/>
-        <updated>2024-08-31T00:30:24.000Z</updated>
-        <summary type="html"><![CDATA[Have posted this before, but it really left an impression about crows, and the bond between their mates:
-Years ago I was putting out the garbage in the back alley behind our building where I lived on the 8th floor. A crow attacked me out of the blue. Distracted by the attack, the back door slammed shut behind me. Since my key was only good for the front door, I had to walk around the building. That damn crow followed me the entire time, dive bombing my head, and screaming bloody murder at me. It was a little spooky.
-When I finally got back inside and upstairs, I went and looked out the living room window, which looked out the same direction as the back alley. The crow had flown back around and was at the 8th floor looking in the window, from the other side of the pigeon netting we had on our balcony. On the inside of the pigeon netting, was another crow, desperately trying to figure out how it could escape. Not really sure how it had got itself through the pigeon netting in the first place.
-I went out and sliced a hole through the netting and the trapped crow quickly joined its mate outside, who finally stopped screaming bloody murder. To this day it still amazes me that the crow's mate, knew which apartment I lived in and spotted me downstairs.]]></summary>
-        <author>
-            <name>tux1968</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Engineering with Empathy: My Journey to Understanding the User Experience]]></title>
         <id>https://slack.engineering/?p=16945</id>
         <link href="https://slack.engineering/engineering-with-empathy-my-journey-to-understanding-the-user-experience/"/>
@@ -260,18 +245,6 @@ This thought reminded me of an excellent essay by Paul Graham, Write Like You Ta
 I’m the fi…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by rock_artist in "AnandTech Farewell"]]></title>
-        <id>https://news.ycombinator.com/item?id=41403970</id>
-        <link href="https://news.ycombinator.com/item?id=41403970"/>
-        <updated>2024-08-30T20:05:38.000Z</updated>
-        <summary type="html"><![CDATA[> Finally, I’d like to end this piece with a comment on the Cable TV-ification of the web. A core belief that Anand and I have held dear for years, and is still on our About page to this day, is AnandTech’s rebuke of sensationalism, link baiting, and the path to shallow 10-o'clock-news reporting. It has been our mission over the past 27 years to inform and educate our readers by providing high-quality content
-That’s the core of it. And too bad they’re off. Finding a news outlet that isn’t “tweeting” an article and isn’t a blog post on HN was great. And while they mention Tom’s hardware. It always felt (to me) less verbose where I needed it.
-Fair well.]]></summary>
-        <author>
-            <name>rock_artist</name>
         </author>
     </entry>
     <entry>
@@ -298,19 +271,6 @@ Anyway, no harm done. The member fees are  refunded and the blog lives on. And I
 I hope you have the patience to continue following my rather crooked blog journey. Hopefully, the transparency will bring some comfort to those who can relate.
 By the way, I also launched a newsletter today. Subscribe now, who knows, maybe I'll delete it tomorrow ;)
 I wish you a wonderful weekend!]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Seven Year Slip by Ashley Poston]]></title>
-        <id>https://notes.jeddacp.com/the-seven-year-slip-by-ashley-poston/</id>
-        <link href="https://notes.jeddacp.com/the-seven-year-slip-by-ashley-poston/"/>
-        <updated>2024-08-30T15:05:00.000Z</updated>
-        <summary type="html"><![CDATA[📚 ==Book 22 of 2024== - Finished: The Seven Year Slip by Ashley Poston (⭐5/5)
-I really enjoyed this book. I initially put this on hold earlier this year on Libby, but it had a really long wait. I ended up reading other books in the meantime and kept delaying it once it was ready. I almost decided to just not read it since I’ve been in such a reading funk. I wanted an in-between book before I started my book club book so I went ahead and borrowed it.
-Absolutely no regrets. Actually, I will need to shout from the rooftops that if you want to read about “acceptance of change and personal growth, reconciling passion and practicality, and the complexities of grief” all tied in to some sort of time travel theme, then this is the book for you.
-Although I absolutely loved the storyline, I think m…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
@@ -372,38 +332,6 @@ echo "I am a bash line too but I will never run"
 print("I am in python")]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by ryukoposting in "AnandTech Farewell"]]></title>
-        <id>https://news.ycombinator.com/item?id=41400911</id>
-        <link href="https://news.ycombinator.com/item?id=41400911"/>
-        <updated>2024-08-30T14:10:40.000Z</updated>
-        <summary type="html"><![CDATA[Anandtech is how I learned what Ubuntu is. I must have been about 10 years old, and the concept of any OS besides Windows or MacOS was completely foreign to me. Within a few weeks, I had dug an old laptop out of my dad's bin of "stuff work wasn't using anymore" and I managed to put Ubuntu on it. I think it was an HP. I don't remember the exact specs but I do remember that the GPU was failing, there were weird video glitches all the time, and the battery held a charge for about 15 minutes.
-That was my first experience with Linux. That broken-ass computer was what I used when I learned Arduino. I'm now a firmware engineer, writing this comment on my work laptop, which is running Ubuntu.]]></summary>
-        <author>
-            <name>ryukoposting</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by Sesse__ in "AnandTech Farewell"]]></title>
-        <id>https://news.ycombinator.com/item?id=41400265</id>
-        <link href="https://news.ycombinator.com/item?id=41400265"/>
-        <updated>2024-08-30T13:00:13.000Z</updated>
-        <summary type="html"><![CDATA[Extremely sad. There basically is nothing like Anandtech; the depth, the ability to explain, the lack of sensationalism, and the integrity in benchmarking (I still vividly remember when they noticed an issue with HPET in Windows affecting their benchmarks, and promptly pulled all of them offline until they could reassess). Chips and Cheese is great but only covers a certain segment of it.
-In the end, I would assume it just boiled down to lack of money. There were people among us who would gladly pay for this kind of coverage, but Anandtech said at some point they had considered it and couldn't find a good model. (As an aside, I pay for LWN, and I would pay for something that covered similar areas to Phoronix but actually was good.)]]></summary>
-        <author>
-            <name>Sesse__</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by codeslave13 in "AnandTech Farewell"]]></title>
-        <id>https://news.ycombinator.com/item?id=41400161</id>
-        <link href="https://news.ycombinator.com/item?id=41400161"/>
-        <updated>2024-08-30T12:48:25.000Z</updated>
-        <summary type="html"><![CDATA[A sad day. My buddy and I were the original developers of anandtech when it went live running on cold fusion and oracle as the backend. I started a hosting company and hosted anadtrch for a few years. Lots of memories there.]]></summary>
-        <author>
-            <name>codeslave13</name>
         </author>
     </entry>
     <entry>
@@ -770,60 +698,6 @@ The post The Notebooks of Sonny Rollins appeared first on CounterPunch.org.]]></
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by adityapurwa in "The secret inside One Million Checkboxes"]]></title>
-        <id>https://news.ycombinator.com/item?id=41396943</id>
-        <link href="https://news.ycombinator.com/item?id=41396943"/>
-        <updated>2024-08-30T01:14:37.000Z</updated>
-        <summary type="html"><![CDATA[I don’t know. Reading this made me tear up a bit. I learned software engineering when I was in junior high school. I learned it because I sucked at math, and I want to write  programs that solve my homework. Then I continue writing LAN chat, HTTP server, Anti Virus, and a lot more things just because it was fun to do.
-It was fun, it was challenging, it was rewarding, it was amazing.
-Now that I’m working, with the endless stream of new technologies, the debates of X considered harmful, J is better than K, and a barrage of never ending new things. It started to numb my mind.
-Somehow, those joyful feeling of engineering no longer feels like the blue sky. I think its still blue, but for an eye washed in silvers, everything looks gray.
-Reading this story somehow light up that childhood feeling of me learning software engineering. It can still be fun. I can still write things for the sake of me and not for the sake of exit nor a new shiny SaaS.
-Thank your for writing this. It gave me a ray of hope that it can still be fun.]]></summary>
-        <author>
-            <name>adityapurwa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by tgsovlerkhgsel in "Visit Bletchley Park"]]></title>
-        <id>https://news.ycombinator.com/item?id=41396635</id>
-        <link href="https://news.ycombinator.com/item?id=41396635"/>
-        <updated>2024-08-30T00:14:45.000Z</updated>
-        <summary type="html"><![CDATA[If you're interested in historical buildings, go ahead, visit Bletchley Park. But expect most of the exhibits to be buildings, living quarters, offices etc. and mundane descriptions of day-to-day life there, not exhibits about the technical/cryptological aspects (although they do have some of those too).
-If you're interested in computer history and Bombe/Colossus, visit the much lesser known National Museum of Computing at the same site. https://www.tnmoc.org/
-I spent way too much time at the the boring parts of Bletchley Park and as a result didn't have enough time for the Museum of Computing.
-I'd recommend starting at the Museum of Computing, then if you have time left, the 1-2 buildings inside the official Bletchley Park museum that have the crypto exhibits.]]></summary>
-        <author>
-            <name>tgsovlerkhgsel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by eieio in "The secret inside One Million Checkboxes"]]></title>
-        <id>https://news.ycombinator.com/item?id=41396053</id>
-        <link href="https://news.ycombinator.com/item?id=41396053"/>
-        <updated>2024-08-29T22:36:54.000Z</updated>
-        <summary type="html"><![CDATA[author here :)
-this is my favorite story from running the site, and possibly the best story I've ever been a part of. I'm not a big crier but I have cried so many times thinking and trying to write about it over the past 2 months. And of course, the process of discovery (and going from panic to excitement) was pretty crazy too.
-One of my favorite things about this is that it validated one of the core beliefs I have when making these things - that you need constraints for the small group of people that are jerks, but that for the most part those constraints are fodder for the largely-good and very creative folks that play around on the internet.
-Happy to answer any questions folks have!]]></summary>
-        <author>
-            <name>eieio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by asolove in "The secret inside One Million Checkboxes"]]></title>
-        <id>https://news.ycombinator.com/item?id=41395709</id>
-        <link href="https://news.ycombinator.com/item?id=41395709"/>
-        <updated>2024-08-29T21:58:32.000Z</updated>
-        <summary type="html"><![CDATA[This part is so important:
-> The adults in my life were largely not mad at me. They asked me to knock it off, but also made me a t-shirt. I don’t think I’d be doing what I do now without the encouragement that I received then.
-Teena need a place to be moderately mischievous, with semi-real social outcomes, but also some boundaries and help to not take it too far.
-And adults who aren’t authorities over them except insofar that they have cool talents the kids want to learn.]]></summary>
-        <author>
-            <name>asolove</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Work Notifications Set to Off]]></title>
         <id>https://notes.jeddacp.com/work-notifications-set-to-off/</id>
         <link href="https://notes.jeddacp.com/work-notifications-set-to-off/"/>
@@ -865,17 +739,6 @@ Reply by email]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by caymanjim in "Can solar costs keep shrinking?"]]></title>
-        <id>https://news.ycombinator.com/item?id=41394613</id>
-        <link href="https://news.ycombinator.com/item?id=41394613"/>
-        <updated>2024-08-29T19:49:07.000Z</updated>
-        <summary type="html"><![CDATA[I spend four months of the year traveling in an RV. Two years ago, I budgeted over $6000 for my desired solar setup (at least 1200Ah of battery, at least 2400W of solar, plus various controllers and other components). It was expensive enough for me to hold off, and more importantly, I didn't have the space on my current RV for the solar panels.
-In just the two years since then, prices on batteries and panels have dropped 25% or more, and solar power per square foot at a good price point has gone up significantly (400W monocrystalline panels can be gotten for $200, in the same form factor as the 200W panels I had been budgeting for). I've now lowered my budget to $4000 for the same setup I was planning to spend $6000 on two years ago, and with 400W panels, I no longer need to upgrade to a l…]]></summary>
-        <author>
-            <name>caymanjim</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[I Quit My Job to Focus on My Studies]]></title>
         <id>https://matanabudy.com/i-quit-my-job-to-focus-on-my-studies/</id>
         <link href="https://matanabudy.com/i-quit-my-job-to-focus-on-my-studies/"/>
@@ -886,91 +749,6 @@ Working and studying simultaneously has its advantages—the first one is obviou
 But there are other benefits, too—like advancing my career as a software engineer, working on interesting problems, interacting with customers, and having the routine of going to the office and spe…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by VyseofArcadia in "Bypassing airport security via SQL injection"]]></title>
-        <id>https://news.ycombinator.com/item?id=41393216</id>
-        <link href="https://news.ycombinator.com/item?id=41393216"/>
-        <updated>2024-08-29T17:28:54.000Z</updated>
-        <summary type="html"><![CDATA[> Hilarious that the entire TSA system is vulnerable to the most basic web programming error that you generally learn to avoid 10 minutes
-The article mentions that FlyCASS seems to be run by one person. This isn't a matter of technical chops, this is a matter of someone who is good at navigating bureaucracy convincing the powers that be that they should have a special hook into the system.
-What should really be investigated is who on the government side approved and vetted the initial FlyCASS proposal and subsequent development? And why, as something with a special hook into airline security infrastructure, was it never security audited?]]></summary>
-        <author>
-            <name>VyseofArcadia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by macNchz in "Bypassing airport security via SQL injection"]]></title>
-        <id>https://news.ycombinator.com/item?id=41393163</id>
-        <link href="https://news.ycombinator.com/item?id=41393163"/>
-        <updated>2024-08-29T17:24:29.000Z</updated>
-        <summary type="html"><![CDATA[What was surprising to me was that they didn't immediately do pre-dawn raids on the pentesters' homes and hold them without a lawyer under some provision of an anti-terror law.]]></summary>
-        <author>
-            <name>macNchz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by UniverseHacker in "Bypassing airport security via SQL injection"]]></title>
-        <id>https://news.ycombinator.com/item?id=41393115</id>
-        <link href="https://news.ycombinator.com/item?id=41393115"/>
-        <updated>2024-08-29T17:19:34.000Z</updated>
-        <summary type="html"><![CDATA[Hilarious that the entire TSA system is vulnerable to the most basic web programming error that you generally learn to avoid 10 minutes into reading about web programming- and that every decent quality web framework automatically prevents.
-It is really telling that they try to cover up and deny instead of fix it, but not surprising. That is a natural consequence of authoritarian thinking, which is the entire premise and culture of the TSA. Any institution that covers up and ignores existential risks instead of confronting them head on will eventually implode by consequences of its own negligence- which hopefully will happen to the TSA.]]></summary>
-        <author>
-            <name>UniverseHacker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by woodruffw in "Bypassing airport security via SQL injection"]]></title>
-        <id>https://news.ycombinator.com/item?id=41392938</id>
-        <link href="https://news.ycombinator.com/item?id=41392938"/>
-        <updated>2024-08-29T17:00:45.000Z</updated>
-        <summary type="html"><![CDATA[The TSA's response here is childish and embarrassing, although perhaps unsurprising given the TSA's institutional disinterest in actual security. It's interesting to see that DHS seemingly (initially) handled the report promptly and professionally, but then failed to maintain top-level authority over the fix and disclosure process.]]></summary>
-        <author>
-            <name>woodruffw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Be My Buddy]]></title>
-        <id>https://birming.com/be-my-buddy/</id>
-        <link href="https://birming.com/be-my-buddy/"/>
-        <updated>2024-08-29T16:57:00.000Z</updated>
-        <summary type="html"><![CDATA[Update Aug 30: I changed my mind on this. Please read the Oops! I Did It Again post for more information.
-I've been considering starting a supporters page for a while, but I've been feeling conflicted...
-I don't want to launch it just for the sake of it. While I want it to add some value, I don't want it to feel like a cheaper experience for those who don't want to or can contribute financially.
-The solution became Birming Buddies.
-This gives you early access to new add-ons and palettes for the Bearming theme. You'll also be mentioned on the Birming Buddies page, and your name will be highlighted in blog challenges that you participate in.
-Additionally, you'll have the opportunity to comment and make suggestions for theme features when new posts are made on the Ko-fi supporters page.
-I hope this adds value for those who wish to contribute, while still allowing everyone else to continue using this blog and the theme without restrictions.
-Thank you so much for your support!
-PS. Despite the Birming Buddies name, I consider anyone who visits my blog a true buddy. You're awesome!]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by nsagent in "Judges rule Big Tech's free ride on Section 230 is over"]]></title>
-        <id>https://news.ycombinator.com/item?id=41392867</id>
-        <link href="https://news.ycombinator.com/item?id=41392867"/>
-        <updated>2024-08-29T16:55:26.000Z</updated>
-        <summary type="html"><![CDATA[The current comments seem to say this is rings the death knell of social media and that this just leads to government censorship. I'm not so sure.
-I think the ultimate problem is that social media is not unbiased — it curates what people are shown. In that role they are no longer an impartial party merely hosting content. It seems this ruling is saying that the curation being algorithmic does not absolve the companies from liability.
-In a very general sense, this ruling could be seen as a form of net neutrality. Currently social media platforms favor certain content, while down weighting others. Sure, it might be at a different level than peer agreements between ISPs and websites, but it amounts to a similar phenomenon when most people interact on social media through the feed.
-Honestly, I think I'd love to see what changes this ruling brings about. HN is quite literally the only social media site (loosely interpreted) I even have an account on anymore, mainly because of how truly awful all the sites have become. Maybe this will make social media more palatable again? Maybe not, but I'm inclined to see what shakes out.]]></summary>
-        <author>
-            <name>nsagent</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by jehna1 in "OpenAI is good at unminifying code"]]></title>
-        <id>https://news.ycombinator.com/item?id=41390033</id>
-        <link href="https://news.ycombinator.com/item?id=41390033"/>
-        <updated>2024-08-29T12:19:32.000Z</updated>
-        <summary type="html"><![CDATA[Author of HumanifyJS here! I've created specifically a LLM based tool for this, which uses LLMs on AST level to guarantee that the code keeps working after the unminification step:
-https://github.com/jehna/humanify]]></summary>
-        <author>
-            <name>jehna1</name>
         </author>
     </entry>
     <entry>
@@ -999,60 +777,6 @@ Source: Retrieved on 29th August 2024 from margaretkilljoy.substack.com
         <summary type="html"><![CDATA[There has been much attention online to a piece by Joseph Heath arguing that analytical Marxism disappeared because the analytical Marxists all turned into Rawlsian liberals. At a certain level of resolution (blurred, zoomed out) the argument has something going for it. But at that level, all it amounts to is the claim that this […]]]></summary>
         <author>
             <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by broodbucket in "HDMI Forum rejects AMD's HDMI 2.1 open-source driver"]]></title>
-        <id>https://news.ycombinator.com/item?id=41387420</id>
-        <link href="https://news.ycombinator.com/item?id=41387420"/>
-        <updated>2024-08-29T04:48:08.000Z</updated>
-        <summary type="html"><![CDATA[>On the one hand, this move ensures the quality and consistency of HDMI experience.
-Does it though? Does it really?
-I don't understand this move from HDMI Forum. They're handing a win to DisplayPort.]]></summary>
-        <author>
-            <name>broodbucket</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by gstar in "Air Con: $1697 for an on/off switch"]]></title>
-        <id>https://news.ycombinator.com/item?id=41387112</id>
-        <link href="https://news.ycombinator.com/item?id=41387112"/>
-        <updated>2024-08-29T03:52:44.000Z</updated>
-        <summary type="html"><![CDATA[Incidentally, if you root your tablet you can just change the build.MODEL to "MyAir5" and everything will work on a third party tablet.]]></summary>
-        <author>
-            <name>gstar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by gstar in "Air Con: $1697 for an on/off switch"]]></title>
-        <id>https://news.ycombinator.com/item?id=41387108</id>
-        <link href="https://news.ycombinator.com/item?id=41387108"/>
-        <updated>2024-08-29T03:51:50.000Z</updated>
-        <summary type="html"><![CDATA[OMFG; I am in Perth, I have the same system, the very same problem and solved it almost the same way and was in the process of writing it up.
-The system uses RS422, with a base64 encoded AES key in the aaservice binary, and I was contemplating building an esp32 based open source implementation of the controller.
-That's a crazy weird coincidence.]]></summary>
-        <author>
-            <name>gstar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by ranebo in "Air Con: $1697 for an on/off switch"]]></title>
-        <id>https://news.ycombinator.com/item?id=41386992</id>
-        <link href="https://news.ycombinator.com/item?id=41386992"/>
-        <updated>2024-08-29T03:28:40.000Z</updated>
-        <summary type="html"><![CDATA[You have no idea how true this is :).  I had to upgrade everything, the old site didn't even have SSL.  But this annoyed me so much I wanted others to know how to fix it.]]></summary>
-        <author>
-            <name>ranebo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by redact207 in "Air Con: $1697 for an on/off switch"]]></title>
-        <id>https://news.ycombinator.com/item?id=41386671</id>
-        <link href="https://news.ycombinator.com/item?id=41386671"/>
-        <updated>2024-08-29T02:29:30.000Z</updated>
-        <summary type="html"><![CDATA[I love that this man resurrected his blog after 10 years just to write this. Anger and spite are strong motivators.]]></summary>
-        <author>
-            <name>redact207</name>
         </author>
     </entry>
     <entry>
@@ -1214,19 +938,6 @@ The post Unlocking Insights with High-Quality Dashboards at Scale appeared first
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by aj7 in "A dishwasher can make or break a restaurant (2017)"]]></title>
-        <id>https://news.ycombinator.com/item?id=41382859</id>
-        <link href="https://news.ycombinator.com/item?id=41382859"/>
-        <updated>2024-08-28T18:49:50.000Z</updated>
-        <summary type="html"><![CDATA[I have a PhD in Physics from Berkeley. Still, in the strictest real estate sense, my best and highest use is as a dishwasher.
-I was managing a small optics factory in Livermore. We made laser mirrors to order there — any wavelength, any reflectivity, any angle, any polarization, you name it. I was working my ass off and was unmarried at the time. Thanksgiving came around and I had nowhere to go. But I hooked up with a church in San Jose that had a dinner for poor people and went as a volunteer. After serving the dinner, I wandered back into the dish room. I immediately went over to the sink and kicked out the lady who was pretending to work. I then washed all the dishes and left.
-Comes one year later.  I’m in the exact same situation.  I call up that church.  The lady says, “Oh, that’s very nice of you.  But we don’t need any more volunteers, we have enough.”  Oh shit.  What to do.  I found my old replica army parka I had bought in a Cambridge surplus store 20 years earlier. I went as a poor person. I didn’t want to be alone.
-The first thing I found out is that poor people are herded, controlled, treated like children. We had to wait outside the church in the mild cold until permitted to enter, in a kind of line. So I sit down.  I will never forget the beatific smiles of the volunteers that served us.  This was performance art, and they were the stars.  Everyone on the supplicant end noticed this, I’m sure. So the meal ends. I walk back into the dish room, survey the situation, once again kick out whoever was pretending to do the dishes, do the dishes, and leave.]]></summary>
-        <author>
-            <name>aj7</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Dear Dad]]></title>
         <id>https://birming.com/dear-dad/</id>
         <link href="https://birming.com/dear-dad/"/>
@@ -1319,18 +1030,6 @@ I
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by wavemode in "Diffusion models are real-time game engines"]]></title>
-        <id>https://news.ycombinator.com/item?id=41378523</id>
-        <link href="https://news.ycombinator.com/item?id=41378523"/>
-        <updated>2024-08-28T11:59:33.000Z</updated>
-        <summary type="html"><![CDATA[> Apparently there’s more cause, effect, and sequencing in diffusion models than what I expected
-To temper this a bit, you may want to pay close attention to the demo videos. The player rarely backtracks, and for good reason - the few times the character does turn around and look back at something a second time, it has changed significantly (the most noticeable I think is the room with the grey wall and triangle sign).
-This falls in line with how we'd expect a diffusion model to behave - it's trained on many billions of frames of gameplay, so it's very good at generating a plausible -next- frame of gameplay based on some previous frames. But it doesn't deeply understand logical gameplay constraints, like remembering level geometry.]]></summary>
-        <author>
-            <name>wavemode</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[G.A. Cohen on the output bias]]></title>
         <id>https://crookedtimber.org/?p=53064</id>
         <link href="https://crookedtimber.org/2024/08/28/g-a-cohen-on-the-output-bias/"/>
@@ -1395,17 +1094,6 @@ sup { font-size: 0.6em; }
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by tptacek in "Thoughts on the Durov Arrest"]]></title>
-        <id>https://news.ycombinator.com/item?id=41376204</id>
-        <link href="https://news.ycombinator.com/item?id=41376204"/>
-        <updated>2024-08-28T05:21:47.000Z</updated>
-        <summary type="html"><![CDATA[This analysis leaves out the fact that Pavel Durov is, with Telegram, in approximately the same position Ladar Levison was with Lavabit. Unlike Meredith Whitaker, Durov actually is in a position to furnish documents to the French government, where he has citizenship. He's in that position because he has repeatedly made deliberate product decisions, to the bafflement of cryptographers around the world, to keep himself in that position.
-If you literally have plaintext documents responsive to criminal inquiries in a jurisdiction you are subject to, we don't reach the "internet censorship wars". You're in a place not dissimilar to a 1970s telephone company; the "random people can't simply declare themselves above the law wars". Don't be in that place. Encrypt end-to-end.]]></summary>
-        <author>
-            <name>tptacek</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Facebook operates a little differently in Australia]]></title>
         <id>https://disassociated.com/?p=8351</id>
         <link href="https://disassociated.com/facebook-operates-differently-australia/"/>
@@ -1413,49 +1101,6 @@ If you literally have plaintext documents responsive to criminal inquiries in a 
         <summary type="html"><![CDATA[David Swan, writing for the Sydney Morning Herald: Rampant celebrity cryptocurrency scam ads are as Australian as Tim Tams, koalas or the Great Barrier Reef, according to American Facebook whistleblower Frances Haugen, who says the tech giant’s lack of focus on Australia has let scams run wild on its platform compared with other markets. It’s […]]]></summary>
         <author>
             <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by zbowling in "Microsoft donates the Mono Project to the Wine team"]]></title>
-        <id>https://news.ycombinator.com/item?id=41371554</id>
-        <link href="https://news.ycombinator.com/item?id=41371554"/>
-        <updated>2024-08-27T19:06:27.000Z</updated>
-        <summary type="html"><![CDATA[I worked on Mono a lot back in the early 2000s (back in the SVN days before it moved to Git, even). This move makes a lot of sense. Things evolved a lot over the years. Mono's legacy goals, which are to be a portable CLR (.NET) runtime for platforms that Microsoft didn't care about, don't make much sense today.
-Mono made a lot of sense for running places where full .NET didn't, like in full AOT environments like on the iPhone where you can't JIT, or for random architectures that don't matter anymore but once did for Linux (Alpha, Itanium, PPC, MIPs, etc.). When Microsoft bought Xamarin (which itself was born out of the ashes of the Novell shutdown of the Mono effort) and started the DotNET Core efforts to make .NET more portable itself and less a system-provided framework and merge in a lot of the stuff Mono did a single more focused project made more sense.
-Mono was still left out there to support the edge cases where DotNET Core didn't make sense, which was mostly things like being a backend for Wine stuff in some cases, some GNOME Desktop stuff (via GTK#, which is pretty dead now), and older niche use cases (second life and Unity still embed mono as a runtime for their systems). The project was limping, though, and sharing a standard library but different runtimes after much merging. Mono's runtime was always a little more portable (C instead of C++) and more accessible to experiment with, but we need that less and less, but it's still perfect for Wine. So, having it live on in Wine makes sense. It's a natural fit.]]></summary>
-        <author>
-            <name>zbowling</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by pif in "Why is the Oral-B iOS app almost 300 MB? And why is Colgate's app even bigger..?"]]></title>
-        <id>https://news.ycombinator.com/item?id=41371345</id>
-        <link href="https://news.ycombinator.com/item?id=41371345"/>
-        <updated>2024-08-27T18:53:36.000Z</updated>
-        <summary type="html"><![CDATA[My question is: why do an Oral-B app and a Colgate app even exist?]]></summary>
-        <author>
-            <name>pif</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by silverquiet in "Zuckerberg claims regret on caving to White House pressure on content"]]></title>
-        <id>https://news.ycombinator.com/item?id=41369889</id>
-        <link href="https://news.ycombinator.com/item?id=41369889"/>
-        <updated>2024-08-27T17:00:42.000Z</updated>
-        <summary type="html"><![CDATA[A few years back it started showing me obvious political ragebait. I ignored it and then it started showing me pictures of women whose nipples were obviously showing through their clothing, which was an improvement, but still not the reason I signed up for Facebook. I've always understood it as the algorithm is looking for engagement and will try some lowest common denominator tactics to engage in it. As someone who just wanted to see the odd picture of a friend or relative, I don't have much use for Facebook these days.]]></summary>
-        <author>
-            <name>silverquiet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by object-a in "Zuckerberg claims regret on caving to White House pressure on content"]]></title>
-        <id>https://news.ycombinator.com/item?id=41369244</id>
-        <link href="https://news.ycombinator.com/item?id=41369244"/>
-        <updated>2024-08-27T16:20:43.000Z</updated>
-        <summary type="html"><![CDATA[It's funny because Facebook's news feed in the last couple years is unusable, filled with AI slop and clickbait. Twitter similarly requires aggressive use of block + mute to eliminate scams, clickbait, and other content I'm not interested in.
-I don't know if this is due to their changes in moderation policy, or if AI has overwhelmed them, but I vastly preferred the old news feeds]]></summary>
-        <author>
-            <name>object-a</name>
         </author>
     </entry>
     <entry>
@@ -1490,6 +1135,18 @@ Thinking about collecting all of the cards up and down California at this point.
 Multiple Library Cards and Libby by Noisy Deadlines
 Tab Cleaning by axxuy
 Reply by email]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Do You Do for Fun]]></title>
+        <id>https://louplummer.lol/what-do-you-do-for-fun/</id>
+        <link href="https://louplummer.lol/what-do-you-do-for-fun/"/>
+        <updated>2024-08-27T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Photo by Wonder Woman
+People in the first world take having fun very seriously. We sure spend enough money on it. Some kinds of fun are pricing themselves out of the middle-class range. Tickets and all that goes with them (parking, food, souvenirs) to major league sports and top-tier concerts can easily take a family outing into four figures. A day at a Disney theme park for a family of four is well over $1000.
+I've never been to a Disney Park, and my last concert was 15 years ago. I guess I'll die without seeing Bruce Springsteen. I heard the other day that he's reached billionaire status, and I'm not giving a billionaire any of my dough to be entertained for three hours, no matter how good a showman he is. I enjoy amateur and minor league sports. Hell, I like watching my grandson's socce…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
@@ -1565,7 +1222,8 @@ Dominik
 Shrutarshi Basu
 Lou Plummer
 Jason Kratz
-Barry Sampson]]></summary>
+Barry Sampson
+David (Forking Mad)]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
