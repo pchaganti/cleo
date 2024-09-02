@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-02T12:48:05.953Z</id>
+    <id>urn:2024-09-02T18:32:08.650Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-02T12:48:05.953Z</updated>
+    <updated>2024-09-02T18:32:08.650Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AWS Weekly Roundup: AWS Parallel Computing Service, Amazon EC2 status checks, and more (September 2, 2024)]]></title>
+        <id>4fb73ba1739dd770b73cc79b69696086e450955f</id>
+        <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-parallel-computing-service-amazon-ec2-status-checks-and-more-september-2-2024/"/>
+        <updated>2024-09-02T17:42:42.000Z</updated>
+        <summary type="html"><![CDATA[With the arrival of September, AWS re:Invent 2024 is now 3 months away and I am very excited for the new upcoming services and announcements at the conference. I remember attending re:Invent 2019, just before the COVID-19 pandemic. It was the biggest in-person re:Invent with 60,000+ attendees and it was my second one. It was […]]]></summary>
+        <author>
+            <name>Esra Kayabali</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Be Yourself and Get Along Online]]></title>
+        <id>https://louplummer.lol/how-to-be-yourself-and-get-along-online/</id>
+        <link href="https://louplummer.lol/how-to-be-yourself-and-get-along-online/"/>
+        <updated>2024-09-02T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Since I started blogging in January, I've invested time in several different communities, starting with OMG.LOL, followed by Microblog, Scribbles, r/MacApps, r/Obsidian, BearBlog, 500.social and the Blaugust Discord. The most personal of these are the Mastodon community around OMG.LOL, Scribbles and Microblog. The two Reddit communities are the most impersonal. As in any group environment, I have personal interactions with other people and with groups of other people. I also get to watch interactions where I'm not directly involved because of the way the Internet is structured.
+Some of my rules are:
+Stay out of other people's fights
+Never ignore racism, homophobia or misogyny
+Never go "Well, actually…"
+Give lots of complements
+Offer sympathy
+Answer questions
+Avoid taking sides unless moral…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Links 9/2/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=277742</id>
@@ -147,6 +175,21 @@ Remember, as you give people access to passwords, that those passwords will need
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How I mastered English through sheer Anger]]></title>
+        <id>https://secemp9.bearblog.dev/how-i-mastered-english-through-sheer-anger/</id>
+        <link href="https://secemp9.bearblog.dev/how-i-mastered-english-through-sheer-anger/"/>
+        <updated>2024-09-01T22:06:00.000Z</updated>
+        <summary type="html"><![CDATA[I was once so angry that I reached this current level of understanding English, the level you see right now.
+It was in the summer of 2016.
+I wasn’t particularly angry at the time, until a certain event occurred. Looking back, it probably wasn’t that significant, but, to put it briefly, the main cause was an English teacher I had at the time. It might have been a childish reason, but I was just a kid back then.
+During that summer, fueled by anger, I took the first hardcover English book I could find at home (I remember the title was "Frankenstein") and tried to read it.
+I didn’t have my laptop, internet, TV, or even a paper dictionary at the time. I was furious and struggled to read the book.
+On my first read, I understood only about 1-5% of the entire book. But I kept going. As I struggled…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Academic nepo babies ?]]></title>
         <id>https://crookedtimber.org/?p=53118</id>
         <link href="https://crookedtimber.org/2024/09/01/academic-nepo-babies/"/>
@@ -154,6 +197,19 @@ Remember, as you give people access to passwords, that those passwords will need
         <summary type="html"><![CDATA[This study showing that US academic faculty members are 25 times more likely than Americans in general to have a parent with a PhD or Masters degree has attracted a lot of attention, and comments suggesting that this is unusual and unsatisfactory. But is it? For various reasons, I’ve interacted quite a bit with farmers, […]]]></summary>
         <author>
             <name>John Q</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by apetresc in "Escaping from Anaconda's Stranglehold on macOS"]]></title>
+        <id>https://news.ycombinator.com/item?id=41420455</id>
+        <link href="https://news.ycombinator.com/item?id=41420455"/>
+        <updated>2024-09-01T21:15:13.000Z</updated>
+        <summary type="html"><![CDATA[> 10. What Changes When You Are Free
+> You will not be forced to work inside something known as a “virtual environment.”
+Oof, this terrible advice cancels out an otherwise reasonable post. Beginners who don't know what they're doing are the last people who should be `pip install -r requirements.txt`-ing into the system Python the way this article is recommending. That's not only going to make working on multiple projects nearly impossible (especially for the kind of beginning students who get recommended Anaconda, which are almost always the Data Science-y crowd using NumPy, Pandas, Scikit, etc, which are notoriously finicky with version conflicts), but it stands a good chance of breaking other Python-based system utilities in completely opaque ways. This sort of advice can fubar a naive user's entire workflow.
+I know virtualenvs suck to explain to people, but in my opinion it needs to be done before you ever tell them about `pip install`.]]></summary>
+        <author>
+            <name>apetresc</name>
         </author>
     </entry>
     <entry>
@@ -613,19 +669,6 @@ That was my first experience with Linux. That broken-ass computer was what I use
 In the end, I would assume it just boiled down to lack of money. There were people among us who would gladly pay for this kind of coverage, but Anandtech said at some point they had considered it and couldn't find a good model. (As an aside, I pay for LWN, and I would pay for something that covered similar areas to Phoronix but actually was good.)]]></summary>
         <author>
             <name>Sesse__</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How a Raging Atheist Like Me Became an Ordained Minister and Wedding Officiant]]></title>
-        <id>https://linkage.lol/universal-life-church/</id>
-        <link href="https://linkage.lol/universal-life-church/"/>
-        <updated>2024-08-30T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[About 15 years ago, two heathen friends of mine were planning to get married. They were severely unchurched, as we say in the South, meaning they didn't have a relationship with anyone in the clergy. I'm a lot of things, buy shy is not one of them, so I said that I'd be more than glad to marry them if I could figure out a way to get ordained by some online church. After some Google searching, I found the website for the Universal Life Church, filled out a form, clicked a button and became entitled to perform marriages. I went on to perform the ceremony for my friends and since then for about a dozen other couples, including my own daughter. I live in North Carolina and here the Universal Church checks the boxes to make such ceremonies legal (but voidable). Although the church claims to be able top make you legal in all 50 states, you are advised to do your research, since some states have regulations that make wedding officiants register and pay a fee. And, like anything on the Internet, there are conflicting opinions and homemade websites purporting to be experts in wedding law (I didn't know that was a thing ) People who charge money to perform weddings do not like the Universal Life Church and make a number of claims against it. Just saying.
-Become Ordained - Universal Life Church (ulc.org)
-Is Getting Ordained in the Universal Life Church legit? : r/wedding (reddit.com)
-Enjoyed it? Please upvote 👇]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -1410,18 +1453,6 @@ I
  Once Bakunin was truly a great name. While one would search in vain in the edition of the great encyclopedic dictionary published in 1866 for the name of Karl Marx, tha…]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by wavemode in "Diffusion models are real-time game engines"]]></title>
-        <id>https://news.ycombinator.com/item?id=41378523</id>
-        <link href="https://news.ycombinator.com/item?id=41378523"/>
-        <updated>2024-08-28T11:59:33.000Z</updated>
-        <summary type="html"><![CDATA[> Apparently there’s more cause, effect, and sequencing in diffusion models than what I expected
-To temper this a bit, you may want to pay close attention to the demo videos. The player rarely backtracks, and for good reason - the few times the character does turn around and look back at something a second time, it has changed significantly (the most noticeable I think is the room with the grey wall and triangle sign).
-This falls in line with how we'd expect a diffusion model to behave - it's trained on many billions of frames of gameplay, so it's very good at generating a plausible -next- frame of gameplay based on some previous frames. But it doesn't deeply understand logical gameplay constraints, like remembering level geometry.]]></summary>
-        <author>
-            <name>wavemode</name>
         </author>
     </entry>
     <entry>
