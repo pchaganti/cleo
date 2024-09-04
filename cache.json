@@ -72,18 +72,7 @@
       "title": "Spotify Engineering",
       "feedUrl": "https://labs.spotify.com/feed/",
       "siteUrl": "https://engineering.atspotify.com/",
-      "articles": [
-        {
-          "id": "https://engineering.atspotify.com/?p=7186",
-          "author": "Spotify Engineering",
-          "description": "We have a lot of dashboards at Spotify. Our Insight teams and analysts from across the company are constantly whipping [...]\nThe post Unlocking Insights with High-Quality Dashboards at Scale appeared first on Spotify Engineering.",
-          "link": "https://engineering.atspotify.com/2024/08/unlocking-insights-with-high-quality-dashboards-at-scale/",
-          "publishedOn": "2024-08-28T19:29:39.000Z",
-          "wordCount": 2020,
-          "title": "Unlocking Insights with High-Quality Dashboards at Scale",
-          "imageUrl": "https://storage.googleapis.com/production-eng/1/2024/08/EN221-1200-x-630-black.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Containers",
@@ -99,16 +88,6 @@
           "wordCount": 3474,
           "title": "How to optimize log management for Amazon EKS with Amazon FSx for NetApp ONTAP",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/09/03/Featured-images-for-Containers-Blog-6-1260x630.jpg"
-        },
-        {
-          "id": "ed82f2e2617bb8ba0abe2dbd4214f8982ac7d851",
-          "author": "Elamaran Shanmugam",
-          "description": "Kubernetes has become the de-facto standard for container orchestration, providing powerful capabilities for deploying and managing stateless workloads. However, users running stateful applications on Kubernetes face unique challenges, especially in VMware environments. A key issue is that the virtual disks used by stateful apps can’t be attached to pods as easily as ephemeral storage. The […]",
-          "link": "https://aws.amazon.com/blogs/containers/using-gitops-for-stateful-workload-management-with-vsphere-csi-driver-on-on-premises-kubernetes-2/",
-          "publishedOn": "2024-08-28T22:37:57.000Z",
-          "wordCount": 3221,
-          "title": "Using GitOps for Stateful Workload Management with vSphere CSI driver on on-premises Kubernetes",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/08/14/Featured-images-for-Containers-Blog-4-1260x630.jpg"
         }
       ]
     },
@@ -455,12 +434,32 @@
       "siteUrl": "https://libertystreeteconomics.newyorkfed.org/",
       "articles": [
         {
+          "id": "https://libertystreeteconomics.newyorkfed.org/?p=31531",
+          "author": "Jaison R. Abel, Richard Deitz, Natalia Emanuel, and Benjamin Hyman",
+          "description": "The rapid rise in Artificial Intelligence (AI) has the potential to dramatically change the labor market, and indeed possibly even the nature of work itself. However, how firms are adjusting their workforces to accommodate this emerging technology is not yet clear. Our August regional business surveys asked manufacturing and service firms special topical questions about their use of AI, and how it is changing their workforces. Most firms that report expected AI use in the next six months plan to retrain their workforces, with far fewer reporting adjustments to planned headcounts.",
+          "link": "https://libertystreeteconomics.newyorkfed.org/2024/09/ai-and-the-labor-market-will-firms-hire-fire-or-retrain/",
+          "publishedOn": "2024-09-04T12:30:00.000Z",
+          "wordCount": 4339,
+          "title": "AI and the Labor Market: Will Firms Hire, Fire, or Retrain?",
+          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/08/LSE_2024_artificial-intelligence_hyman_460.jpg"
+        },
+        {
+          "id": "https://libertystreeteconomics.newyorkfed.org/?p=31494",
+          "author": "Marco Del Negro",
+          "description": "Economic surveys are very popular these days and for a good reason. They tell us how the folks being surveyed—professional forecasters, households, firm managers—feel about the economy. So, for instance, the New York Fed’s Survey of Consumer Expectations (SCE) website displays an inflation uncertainty measure that tells us households are more uncertain about inflation than they were pre-COVID, but a bit less than they were a few months ago. The Philadelphia Fed’s Survey of Professional Forecasters (SPF) tells us that forecasters believed last May that there was a lower risk of negative 2024 real GDP growth than there was last February. The question addressed in this post is: Does this information actually have any predictive content? Specifically, I will focus on the SPF and ask: When professional forecasters indicate that their uncertainty about future output or inflation is higher, does that mean that output or inflation is actually becoming more uncertain, in the sense that the SPF will have a harder time predicting these variables?",
+          "link": "https://libertystreeteconomics.newyorkfed.org/2024/09/can-professional-forecasters-predict-uncertain-times/",
+          "publishedOn": "2024-09-04T11:00:00.000Z",
+          "wordCount": 4105,
+          "title": "Can Professional Forecasters Predict Uncertain Times?",
+          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/08/LSE_2024_forecasting-uncertainty_delnegro_460.jpg"
+        },
+        {
           "id": "https://libertystreeteconomics.newyorkfed.org/?p=31528",
           "author": "Marco Del Negro",
           "description": "The post-COVID years have not been kind to professional forecasters, whether from the private sector or policy institutions: their forecast errors for both output growth and inflation have increased dramatically relative to pre-COVID (see Figure 1 in this paper). In this two-post series we ask: First, are forecasters aware of their own fallibility? That is, when they provide measures of the uncertainty around their forecasts, are such measures on average in line with the size of the prediction errors they make? Second, can forecasters predict uncertain times? That is, does their own assessment of uncertainty change on par with changes in their forecasting ability? As we will see, the answer to both questions sheds light of whether forecasters are rational. And the answer to both questions is “no” for horizons longer than one year but is perhaps surprisingly “yes” for shorter-run forecasts.",
           "link": "https://libertystreeteconomics.newyorkfed.org/2024/09/are-professional-forecasters-overconfident/",
           "publishedOn": "2024-09-03T11:00:00.000Z",
-          "wordCount": 4672,
+          "wordCount": 4680,
           "title": "Are Professional Forecasters Overconfident?",
           "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/08/LSE_2024_overconfidence_delnegro_460.jpg"
         }
@@ -477,7 +476,7 @@
           "description": "from Dean Baker In the last-half century, productivity has outpaced the growth of real compensation for the median worker by more than 40 percent. This means that if workers’ pay had kept pace with productivity, as it did in the three decades after World War II, it would be roughly 40 percent higher than it is today. […]",
           "link": "https://rwer.wordpress.com/2024/09/03/diverting-class-warfare-into-generational-warfare/",
           "publishedOn": "2024-09-03T15:13:46.000Z",
-          "wordCount": 4329,
+          "wordCount": 4403,
           "title": "Diverting class warfare into generational warfare",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -505,12 +504,42 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=277824",
+          "author": "Yves Smith",
+          "description": "Our trumpeting daily links: giant NYC pigeon, tube tying doubts? non-recycled plastic, Xi protest scuffle, more Germany econ doubts, DoJ v. Sinwar, Ukraine cabinet shake-up, facial ID company fined, Trump v. press, Kamala collard prep questioned, Microsoft AI doubts, dining alone",
+          "link": "https://www.nakedcapitalism.com/2024/09/links-9-4-2024.html",
+          "publishedOn": "2024-09-04T10:59:08.000Z",
+          "wordCount": 5397,
+          "title": "Links 9/4/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/Screen-Shot-2024-09-04-at-4.42.41-PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=277874",
+          "author": "Yves Smith",
+          "description": "An attempt by the Wall Street Journal to mine data on immigration falls short by not providing strong enough caveats.",
+          "link": "https://www.nakedcapitalism.com/2024/09/wall-street-journal-tries-to-analyze-not-great-data-on-us-immigration-generating-reader-pushback.html",
+          "publishedOn": "2024-09-04T10:15:19.000Z",
+          "wordCount": 5005,
+          "title": "Wall Street Journal Tries to Analyze Not-Great Data on US Immigration, Generating Reader Pushback",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/Screen-Shot-2024-09-04-at-5.03.45-PM-1024x978.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=277859",
+          "author": "Yves Smith",
+          "description": "The Nasdaq Composite dropped 3.3% yesterday.  If the tech stock index declines another 6.7%, it’ll be back to November 2021.",
+          "link": "https://www.nakedcapitalism.com/2024/09/bloodletting-in-semiconductor-stocks-kicks-off-september-nvidia-11-7-regular-late-trading-stock-market-cap-drops-by-half-a-tesla.html",
+          "publishedOn": "2024-09-04T08:04:04.000Z",
+          "wordCount": 4010,
+          "title": "Bloodletting in Semiconductor Stocks Kicks Off September: Nvidia -11.7% Regular & Late Trading, Stock Market Cap Drops by Half a Tesla",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/Screen-Shot-2024-09-04-at-2.41.27-PM.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=277832",
           "author": "Lambert Strether",
           "description": "~ Today's Water Cooler: Politics, syndemics; The Democrat debate; Kamala's staff; McDonalds store bans masks; Florida real estate ~",
           "link": "https://www.nakedcapitalism.com/2024/09/200pm-water-cooler-9-3-2024.html",
           "publishedOn": "2024-09-03T18:00:12.000Z",
-          "wordCount": 15755,
+          "wordCount": 17205,
           "title": "2:00PM Water Cooler 9/3/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/rcp_2024-08-30.png"
         },
@@ -520,7 +549,7 @@
           "description": "Gee, even super-rich kids have trouble deciding what they want to be when they grow up.",
           "link": "https://www.nakedcapitalism.com/2024/09/who-are-the-global-super-rich-of-tomorrow-we-interviewed-teens-at-one-of-the-worlds-most-expensive-schools-to-find-out.html",
           "publishedOn": "2024-09-03T13:55:26.000Z",
-          "wordCount": 3633,
+          "wordCount": 3689,
           "title": "Who Are the Global Super-Rich of Tomorrow? We Interviewed Teens at One of the World’s Most Expensive Schools to Find Out",
           "imageUrl": null
         },
@@ -530,7 +559,7 @@
           "description": "Our finnicky daily links: NZ tourist charges, high Covid rates in US, carbon scheme costs, China econ worries, Maduro plane seized, German freakout over AfD success, Israel strikes over hostages, Russian advances, Turkiye to join BRICS? scurvy in US? Kamala ducks questions, campuses v. protestors, high housing costs",
           "link": "https://www.nakedcapitalism.com/2024/09/links-9-3-2024.html",
           "publishedOn": "2024-09-03T10:55:22.000Z",
-          "wordCount": 17129,
+          "wordCount": 17294,
           "title": "Links 9/3/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/Screen-Shot-2024-09-03-at-3.58.19-PM.png"
         },
@@ -540,7 +569,7 @@
           "description": "\"China firmly supports the just position of Latin American countries on opposing foreign interference and safeguarding their nations’ sovereignty.\"",
           "link": "https://www.nakedcapitalism.com/2024/09/in-rare-intervention-china-urges-us-to-give-up-monroe-doctrine.html",
           "publishedOn": "2024-09-03T10:45:59.000Z",
-          "wordCount": 6094,
+          "wordCount": 6494,
           "title": "China Urges US to Give Up Monroe Doctrine, As Washington Intensifies Its Meddling in Latin America",
           "imageUrl": null
         },
@@ -550,7 +579,7 @@
           "description": "The Skunk Party Manifesto explained how the best political system money can buy is great for its customers and lousy  for the rest of us",
           "link": "https://www.nakedcapitalism.com/2024/09/naked-capitalisms-skunk-party-manifesto-finds-a-home-in-the-new-kentucky-party.html",
           "publishedOn": "2024-09-03T10:00:19.000Z",
-          "wordCount": 10075,
+          "wordCount": 10114,
           "title": "Naked Capitalism’s  Skunk Party Manifesto Finds a Home in the New Kentucky Party",
           "imageUrl": null
         },
@@ -560,7 +589,7 @@
           "description": "A reminder that it would not be hard to \"save\" and even expand Social Security, save the reluctance to tax the rich a smidge more.",
           "link": "https://www.nakedcapitalism.com/2024/09/this-labor-day-working-families-earned-social-security-benefits-are-at-risk.html",
           "publishedOn": "2024-09-03T09:56:55.000Z",
-          "wordCount": 3932,
+          "wordCount": 3971,
           "title": "This Labor Day, Working Families’ Earned Social Security Benefits Are at Risk",
           "imageUrl": null
         },
@@ -570,39 +599,9 @@
           "description": "UAW President Shawn Fain's call for a general strike: Background, critique, and possibilities",
           "link": "https://www.nakedcapitalism.com/2024/09/will-there-be-a-general-strike-on-may-day2028.html",
           "publishedOn": "2024-09-02T20:25:51.000Z",
-          "wordCount": 10880,
+          "wordCount": 10919,
           "title": "Will There Be a General Strike on May Day, 2028?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/uaw_strike.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=277742",
-          "author": "Conor Gallagher",
-          "description": "",
-          "link": "https://www.nakedcapitalism.com/2024/09/links-9-2-2024.html",
-          "publishedOn": "2024-09-02T10:55:54.000Z",
-          "wordCount": 20504,
-          "title": "Links 9/2/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/Screenshot-2024-09-01-at-11.04.48 PM-581x1024.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=277750",
-          "author": "Conor Gallagher",
-          "description": "Is Kamala's price gouging proposal is a ruse, and why won't she voice support for Lina Khan at the Federal Trade Commission?",
-          "link": "https://www.nakedcapitalism.com/2024/09/the-stupid-price-gouging-discourse.html",
-          "publishedOn": "2024-09-02T09:00:46.000Z",
-          "wordCount": 6857,
-          "title": "The Stupid Price Gouging Discourse",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=277677",
-          "author": "Conor Gallagher",
-          "description": "",
-          "link": "https://www.nakedcapitalism.com/2024/09/links-9-1-2024.html",
-          "publishedOn": "2024-09-01T10:55:14.000Z",
-          "wordCount": 20832,
-          "title": "Links 9/1/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/08/Screenshot-2024-08-31-at-6.31.41 PM-1024x772.png"
         }
       ]
     },
@@ -640,7 +639,7 @@
           "description": "“What are your goals for this quarter?” It’s the question every manager asks, and one that often prompts a flurry of technical objectives and project milestones. Jumping into this internship, I knew my answer. I wanted to practice making informed decisions on my project, since that was one of the challenges I faced last summer. […]\nThe post Engineering with Empathy: My Journey to Understanding the User Experience appeared first on Slack Engineering.",
           "link": "https://slack.engineering/engineering-with-empathy-my-journey-to-understanding-the-user-experience/",
           "publishedOn": "2024-08-30T22:54:41.000Z",
-          "wordCount": 2206,
+          "wordCount": 2204,
           "title": "Engineering with Empathy: My Journey to Understanding the User Experience",
           "imageUrl": "https://slack.engineering/wp-content/uploads/sites/7/2024/08/featured_image.png"
         }
@@ -670,12 +669,32 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=41441178",
+          "author": "JimDabell",
+          "description": "This is not how these kinds of things should be designed for the web.\nInstead of putting resources in the root of the web, this is what /.well-known/ was designed for. See RFC 5785:\nhttps://datatracker.ietf.org/doc/html/rfc5785\nInstead of munging URLs to get alternate formats, this is what content negotiation or rel=alternate were designed for.\nI’m not sure making it easier to consume content is something that is needed. I think it might be more useful to define script type=llm that would expose function calling to LLMs embedded in browsers.",
+          "link": "https://news.ycombinator.com/item?id=41441178",
+          "publishedOn": "2024-09-04T02:06:11.000Z",
+          "wordCount": 987,
+          "title": "New comment by JimDabell in \"Llms.txt\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=41438346",
+          "author": "panarky",
+          "description": "It's not just YubiKey.\nNinjaLab: \"All Infineon security microcontrollers (including TPMs) that run the Infineon cryptographic library (as far as we know, any existing version) are vulnerable to the attack.\"\n- Chips in e-passports from the US, China, India, Brazil and numerous European and Asian nations\n- Secure enclaves in Samsung and OnePlus phones\n- Cryptocurrency hardware wallets like Ledger and Trezor\n- SIM cards\n- TPMs in laptops from Lenovo, Dell, and HP\n- EMV chips in credit and debit cards",
+          "link": "https://news.ycombinator.com/item?id=41438346",
+          "publishedOn": "2024-09-03T19:34:45.000Z",
+          "wordCount": null,
+          "title": "New comment by panarky in \"EUCLEAK Side-Channel Attack on the YubiKey 5 Series\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=41437728",
           "author": "edent",
           "description": "As per https://arstechnica.com/security/2024/09/yubikeys-are-vulner...\nAn attacker not only needs your username and password, they also need physical access to your key. They then have to disassemble the device. If they want to give it back to you, they'll need to reassemble it.\nSo not exactly trivial!\nA blob of nail-varnish over a plastic seam might be a useful canary.\nBut this does highlight one weakness of these FIDO tokens - you have to manually maintain a list of where you've registered them. And if your token is lost or stolen, you have to manually revoke every single one.",
           "link": "https://news.ycombinator.com/item?id=41437728",
           "publishedOn": "2024-09-03T18:35:44.000Z",
-          "wordCount": 2393,
+          "wordCount": 3450,
           "title": "New comment by edent in \"EUCLEAK Side-Channel Attack on the YubiKey 5 Series\"",
           "imageUrl": null
         },
@@ -685,7 +704,7 @@
           "description": "I found this interesting:\n> Another option is to put it to beneficial use to create heat or even electricity. The Puente Hills landfill I showed earlier has a gas-to-energy facility that’s been running since 1987, and even though the landfill is now closed, it currently provides enough electricity to power around 70,000 homes.\nAnd towards the end\n> Landfills seem like an environmental blight, but really, properly designed ones play a huge role in making sure waste products don’t end up in our soil or air or water. It’s not possible to landfill waste everywhere... But my point is: landfills are a surprisingly low-impact way to manage solid waste in a lot of cases. I hope the future is a utopia where all the stuff we make maintains its beneficial value forever, but for now, I am thankful for the sanitary engineers and the other professions involved in safely and economically dealing with our trash so we don’t have to.\nI love reading about landfills. I wish more environmentalists would be excited about engineering solving environmental ills and relied less on knee-jerk reactions.",
           "link": "https://news.ycombinator.com/item?id=41436904",
           "publishedOn": "2024-09-03T17:05:33.000Z",
-          "wordCount": 5629,
+          "wordCount": 7522,
           "title": "New comment by bko in \"The Engineering of Landfills\"",
           "imageUrl": null
         },
@@ -695,7 +714,7 @@
           "description": "So obviously claiming that there's no good reason for process to read argv[0] is either demonstrating the author's ignorance or needs a much stronger defense; I'd be fascinated to hear how they think busybox should work on an OpenWrt box with a 16MB root filesystem.\nHowever, I am willing to consider the discussion about whether there could be merit to restricting the ability to write that value; I could imagine a system that populated it only from the actual file name and did not allow it to be written by the parent process or the child process at runtime. The obvious place this still falls apart is that an attacker could just\n    ln /bin/curl ./some\\ other\\ name\n\nbut there are sometimes security measures that we use even though they're less than 100% effective so it at least conceivable that this might be a trade off worth making.",
           "link": "https://news.ycombinator.com/item?id=41435515",
           "publishedOn": "2024-09-03T14:50:41.000Z",
-          "wordCount": null,
+          "wordCount": 6331,
           "title": "New comment by yjftsjthsd-h in \"Why bother with argv[0]?\"",
           "imageUrl": null
         },
@@ -715,7 +734,7 @@
           "description": "Grepping for symbols like function names and class names feels so anemic compared to using a tool that has a syntactic understanding of the code. Just \"go to definition\" and \"find usages\" alone reduce the need for text search enormously.\nFor the past decade-plus I have mostly only searched for user facing strings. Those have the advantage of being longer, so are more easily searched.\nHonestly, posts like this sound like the author needs to invest some time in learning about better tools for his language. A good IDE  alone will save you so much time.",
           "link": "https://news.ycombinator.com/item?id=41431701",
           "publishedOn": "2024-09-03T05:51:50.000Z",
-          "wordCount": null,
+          "wordCount": 12384,
           "title": "New comment by lucumo in \"Greppability is an underrated code metric\"",
           "imageUrl": null
         },
@@ -755,7 +774,7 @@
           "description": "I think this is flawed. You quickly end up on a color that's clearly not \"blue\" or \"green\" and you're unlikely to keep hitting \"this is green\" several times in a row, conceding that ok, fine, maybe this is blue, whatever. You're basically measuring how many times people are willing to click the same button in a row.\nEdit: Possible improvements: changing the wording to \"this is MORE green\" and \"this is MORE blue\" and randomizing the order in which they are shown, somehow. I realize you're just doing some kind of binary search, narrowing the color range.\nThis is not to mention color calibration of your monitor, or your eyes adjusting / fatiguing to the bold color over time...",
           "link": "https://news.ycombinator.com/item?id=41430477",
           "publishedOn": "2024-09-03T01:55:17.000Z",
-          "wordCount": null,
+          "wordCount": 3933,
           "title": "New comment by fogleman in \"Is My Blue Your Blue?\"",
           "imageUrl": null
         },
@@ -785,7 +804,7 @@
           "description": "You generally want to minimize the number of passwords you manage; for instance, you should generally be paying the SSO tax and getting as many services as you can onto OIDC. After that, just do the cloud version of 1Password, which is easy to audit and manage access for, which you'll thank yourself for when it comes time to SOC2.\nRemember, as you give people access to passwords, that those passwords will need to be rotated when those people change to incompatible roles or depart the company. If passwords aren't a total pain in the ass for you, you're probably doing something wrong.",
           "link": "https://news.ycombinator.com/item?id=41420875",
           "publishedOn": "2024-09-01T22:16:32.000Z",
-          "wordCount": 4280,
+          "wordCount": null,
           "title": "New comment by tptacek in \"Ask HN: How to store and share passwords in a company?\"",
           "imageUrl": null
         },
@@ -795,7 +814,7 @@
           "description": "A friend bootstrapped his fastfood tiny chain to 5 locations and a couple of mill in revenue in two years. Low financial leverage, happy customers.\nAn expert told him to hire experts to keep growing it. Now he's down to two locations, high in debt and uncertainty.\nCorpo bois are not founders, they know nothing of growing a startup. The have never produced value from thin air. They are just good at playing the corpo role. Job security is their main concern.",
           "link": "https://news.ycombinator.com/item?id=41420633",
           "publishedOn": "2024-09-01T21:42:17.000Z",
-          "wordCount": 672,
+          "wordCount": null,
           "title": "New comment by bikamonki in \"Founder Mode\"",
           "imageUrl": null
         },
@@ -805,7 +824,7 @@
           "description": "> 10. What Changes When You Are Free\n> You will not be forced to work inside something known as a “virtual environment.”\nOof, this terrible advice cancels out an otherwise reasonable post. Beginners who don't know what they're doing are the last people who should be `pip install -r requirements.txt`-ing into the system Python the way this article is recommending. That's not only going to make working on multiple projects nearly impossible (especially for the kind of beginning students who get recommended Anaconda, which are almost always the Data Science-y crowd using NumPy, Pandas, Scikit, etc, which are notoriously finicky with version conflicts), but it stands a good chance of breaking other Python-based system utilities in completely opaque ways. This sort of advice can fubar a naive user's entire workflow.\nI know virtualenvs suck to explain to people, but in my opinion it needs to be done before you ever tell them about `pip install`.",
           "link": "https://news.ycombinator.com/item?id=41420455",
           "publishedOn": "2024-09-01T21:15:13.000Z",
-          "wordCount": 6650,
+          "wordCount": null,
           "title": "New comment by apetresc in \"Escaping from Anaconda's Stranglehold on macOS\"",
           "imageUrl": null
         },
@@ -840,16 +859,6 @@
           "imageUrl": null
         },
         {
-          "id": "https://news.ycombinator.com/item?id=41418686",
-          "author": "dublinben",
-          "description": "This is nothing but blogspam of the embedded Tom Scott video: https://www.youtube.com/watch?v=d99_h30swtM. This article adds nothing that is not already included in the video itself.",
-          "link": "https://news.ycombinator.com/item?id=41418686",
-          "publishedOn": "2024-09-01T17:36:28.000Z",
-          "wordCount": null,
-          "title": "New comment by dublinben in \"Using the moiré effect to show different arrows to each observer (2018)\"",
-          "imageUrl": null
-        },
-        {
           "id": "https://news.ycombinator.com/item?id=41418149",
           "author": "smugglerFlynn",
           "description": "This whole article is written around one key sentence:\n  > There are things founders can do that managers can't, and not doing them feels wrong to founders, because it is.\n\nAnd to be honest this hn comment section scares me, as it feels like people are discussing Paul’s new clothes without actually voicing out what they are talking about.\nWhat the hell is “Founder mode”, exactly?",
@@ -857,16 +866,6 @@
           "publishedOn": "2024-09-01T16:26:28.000Z",
           "wordCount": null,
           "title": "New comment by smugglerFlynn in \"Founder Mode\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41417795",
-          "author": "trunnell",
-          "description": "Counter-example: Reed Hastings, co-founder and the CEO of Netflix for 22 years, famously did the opposite of what pg is saying.  Reed insisted on a particular style of employee freedom & responsibility that IMO set the benchmark for innovating year after year and avoiding micro-managers, even as it scaled up past 2000 engineers. This story still has not been fully told.  Reed was closely involved but perhaps the opposite of Steve Jobs.\nSounds like chesky and pg want to turn the tide on that dominant culture in software companies.  And I couldn't agree more!  A big problem IMO is that most \"professional software managers\" are taught a management style that focuses on risk.  Risk-aversion permeates every decision from compensation to project priorities.  It's so pervasive it's like the air they breathe, they don't even realize their doing it.  This is how things run in 99% of companies.\nSo, my fellow hackers.  There is a better way.  It's neither the Steve Jobs model nor the John Sculley model.  Looks like pg has not yet found it.  I hope he does, though.  It would be great for YC to encourage experimentation here.",
-          "link": "https://news.ycombinator.com/item?id=41417795",
-          "publishedOn": "2024-09-01T15:39:53.000Z",
-          "wordCount": 5963,
-          "title": "New comment by trunnell in \"Founder Mode\"",
           "imageUrl": null
         },
         {
@@ -977,12 +976,22 @@
       "siteUrl": "https://crookedtimber.org",
       "articles": [
         {
+          "id": "https://crookedtimber.org/?p=53130",
+          "author": "Ingrid Robeyns",
+          "description": "On Monday, the first day of our academic year, I went to a demonstration. The reason for the demonstration are the announced budget cuts for higher education, which our new right/extreme-right government wants to implement. The figures aren’t set in stone yet, but the financial appendix that was presented when the new government took office […]",
+          "link": "https://crookedtimber.org/2024/09/04/dark-clouds-over-dutch-universities/",
+          "publishedOn": "2024-09-04T06:46:46.000Z",
+          "wordCount": 2869,
+          "title": "Dark clouds over Dutch Universities",
+          "imageUrl": "https://crookedtimber.org/wp-content/uploads/2024/09/Demonstration-Utrecht-CT-300x225.jpg"
+        },
+        {
           "id": "https://crookedtimber.org/?p=53118",
           "author": "John Q",
           "description": "This study showing that US academic faculty members are 25 times more likely than Americans in general to have a parent with a PhD or Masters degree has attracted a lot of attention, and comments suggesting that this is unusual and unsatisfactory. But is it? For various reasons, I’ve interacted quite a bit with farmers, […]",
           "link": "https://crookedtimber.org/2024/09/01/academic-nepo-babies/",
           "publishedOn": "2024-09-01T21:47:08.000Z",
-          "wordCount": 5486,
+          "wordCount": 5481,
           "title": "Academic nepo babies ?",
           "imageUrl": "https://crookedtimber.org/wp-content/uploads/2024/09/InheritedJobs-300x279.png"
         },
@@ -992,7 +1001,7 @@
           "description": "So is Trump going to be able to pivot to pro-choice in the run-up to the election? I mean: he’s trying. But will it work? And will his pro-life base accept it, because he’s Trump? I hope no pro-choice voters are fooled. I hope they hold him responsible for overturning Roe. It’s beyond obvious they […]",
           "link": "https://crookedtimber.org/2024/09/01/a-thought-about-conservative-psychology-re-the-abortion-issue/",
           "publishedOn": "2024-09-01T13:00:18.000Z",
-          "wordCount": 12648,
+          "wordCount": 14341,
           "title": "A thought about conservative psychology re: the abortion issue",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1002,7 +1011,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/09/01/sunday-photoblogging-looking-towards-great-howard-street-liverpool-at-night/",
           "publishedOn": "2024-09-01T05:57:25.000Z",
-          "wordCount": 1901,
+          "wordCount": 1896,
           "title": "Sunday photoblogging: Looking towards Great Howard Street (Liverpool) at night",
           "imageUrl": "https://live.staticflickr.com/65535/53951428111_69ecbd9b9a.jpg"
         },
@@ -1012,7 +1021,7 @@
           "description": "I read reddit. Yeah, I know. Plain People of Crooked Timber: “why would you go and do a thing like that when you could sit on the kitchen floor and watch your packet of English muffins slowly pass its sell-by date and develop that unpleasant sour flavour you usually don’t notice until it’s too late […]",
           "link": "https://crookedtimber.org/2024/08/31/how-best-to-do-bad-things-that-hurt-your-spirit/",
           "publishedOn": "2024-08-31T14:57:05.000Z",
-          "wordCount": 2952,
+          "wordCount": 3028,
           "title": "How Best to Do Bad Things That Hurt Your Spirit",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1022,7 +1031,7 @@
           "description": "I am very pleased that our very own Chris Bertram has responded to Joseph Heath’s very entertaining and polemical “John Rawls and the death of Western Marxism,” a widely shared Substack post [HT: Dailynous]. Chris has made some important corrections to the public record, and the comments on his post are extending that. As it happens, I […]",
           "link": "https://crookedtimber.org/2024/08/30/53089/",
           "publishedOn": "2024-08-30T01:54:54.000Z",
-          "wordCount": 5101,
+          "wordCount": 5096,
           "title": "On Heath and the demise of western Marxism",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1032,18 +1041,8 @@
           "description": "There has been much attention online to a piece by Joseph Heath arguing that analytical Marxism disappeared because the analytical Marxists all turned into Rawlsian liberals. At a certain level of resolution (blurred, zoomed out) the argument has something going for it. But at that level, all it amounts to is the claim that this […]",
           "link": "https://crookedtimber.org/2024/08/29/on-joseph-heaths-account-of-the-trajectory-of-analytical-marxism/",
           "publishedOn": "2024-08-29T08:41:12.000Z",
-          "wordCount": 7107,
+          "wordCount": 7102,
           "title": "On Joseph Heath’s account of the trajectory of analytical Marxism",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://crookedtimber.org/?p=53071",
-          "author": "Belle Waring",
-          "description": "OK guys, here’s the deal. Last night I had a decently long dream in which Vishnu appeared to me personally, blue but golden with godly light and so on, to explain to me that he was real, and that I should worship him but not necessarily his avatars, more just him, (though I objected that […]",
-          "link": "https://crookedtimber.org/2024/08/28/should-i-become-a-vaishnavite/",
-          "publishedOn": "2024-08-28T21:56:04.000Z",
-          "wordCount": 4096,
-          "title": "Should I Become a Vaishnavite?",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
@@ -1053,6 +1052,16 @@
       "feedUrl": "https://www.cadtm.org/spip.php?page=backend-en",
       "siteUrl": "https://www.cadtm.org/",
       "articles": [
+        {
+          "id": "https://www.cadtm.org/Ecuador-From-Rafael-Correa-to-Guillermo-Lasso-via-Lenin-Moreno",
+          "author": "Eric Toussaint",
+          "description": "The World Bank and the IMF are 80 years old. 80 years of financial neo-colonialism and the imposition of austerity policies in the name of debt repayment. 80 years is enough! The Bretton Woods institutions must be abolished and replaced by democratic institutions serving an ecological, feminist and anti-racist bifurcation. To mark these 80 years, we are republishing a series of articles every Wednesday until July, looking in detail at the history and damage caused by these two institutions. (...)\nEnglish\n\n/ \nEcuador, \nSouth, \n80 ans BM FMI EN",
+          "link": "https://www.cadtm.org/Ecuador-From-Rafael-Correa-to-Guillermo-Lasso-via-Lenin-Moreno",
+          "publishedOn": "2024-09-04T08:00:00.000Z",
+          "wordCount": 6921,
+          "title": "Ecuador: From Rafael Correa to Guillermo Lasso via Lenin Moreno",
+          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L710xH373/fd445ef503d94fcc2b5f65e72879c3-a9a94.png"
+        },
         {
           "id": "https://www.cadtm.org/Alarming-development-Rights-activists-including-a-young-woman-face-blasphemy",
           "author": null,
@@ -1147,46 +1156,6 @@
           "wordCount": 312,
           "title": "Oasis regroup, this is not the second coming we were waiting for",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
-        },
-        {
-          "id": "https://disassociated.com/?p=8368",
-          "author": "disassociated.com",
-          "description": "What we learned in our first year of 404 Media, by 404 Media. Has it really been a year? Here we are a year later, and we are very proud and humbled to report that, because of your support, 404 Media is working. Our business is sustainable, we are happy, and we aren’t going anywhere. […]",
-          "link": "https://disassociated.com/404-media-not-going-anywhere-but-they-are/",
-          "publishedOn": "2024-08-28T21:00:35.000Z",
-          "wordCount": 172,
-          "title": "404 Media are not going anywhere, but yes they are",
-          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
-        },
-        {
-          "id": "https://disassociated.com/?p=8363",
-          "author": "disassociated.com",
-          "description": "Chris Welch, a writer for The Verge, on the new “reimagine” feature, that shipped with Google’s recently launched Pixel 9 smartphones. Long story short, “reimagine” allows someone to edit/enhance any photo, anyway they choose: With a simple prompt, you can add things to photos that were never there. And the company’s Gemini AI makes it […]",
-          "link": "https://disassociated.com/photorealistic-ai-generation-revolution-here/",
-          "publishedOn": "2024-08-28T20:30:58.000Z",
-          "wordCount": 201,
-          "title": "The photorealistic AI-generation revolution is here",
-          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
-        },
-        {
-          "id": "https://disassociated.com/?p=8358",
-          "author": "disassociated.com",
-          "description": "Speaking in 1964, the late British author and futurist made numerous predictions, mainly relating to advances in technology, many of which were prescient. Clarke called artificial intelligence (no surprise there, coming from the co-writer of the 1968 movie, 2001: A Space Odyssey). He also foresaw the internet, working from home, and a favourite of mine, […]",
-          "link": "https://disassociated.com/arthur-c-clarke-predicts-future-1964/",
-          "publishedOn": "2024-08-28T20:00:53.000Z",
-          "wordCount": 340,
-          "title": "Arthur C Clarke predicts some of the future in 1964",
-          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
-        },
-        {
-          "id": "https://disassociated.com/?p=8355",
-          "author": "disassociated.com",
-          "description": "One Minute Park by Elliott Cost, has been named winner of the main prize of the Tiny Awards 2024, while One Million Checkboxes by Nolen Royalty, took out the multiplayer player gong. One is your lucky number this year. Held annually since last year, 2023, the Tiny Awards recognise excellence in non-commercial websites designed by […]",
-          "link": "https://disassociated.com/one-minute-park-one-million-checkboxes-tiny-awards-2024/",
-          "publishedOn": "2024-08-28T19:30:32.000Z",
-          "wordCount": 163,
-          "title": "One Minute Park, One Million Checkboxes, win Tiny Awards 2024",
-          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         }
       ]
     },
@@ -1194,18 +1163,7 @@
       "title": "Last Week in Kubernetes Development",
       "feedUrl": "https://lwkd.info/feed.xml",
       "siteUrl": "https://lwkd.info/",
-      "articles": [
-        {
-          "id": "https://lwkd.info/2024/20240828",
-          "author": null,
-          "description": "Developer News",
-          "link": "https://lwkd.info/2024/20240828",
-          "publishedOn": "2024-08-28T23:00:00.000Z",
-          "wordCount": 636,
-          "title": "Week Ending August 25, 2024",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "New Left Review Sidecar recent posts",
@@ -1218,7 +1176,7 @@
           "description": "Britain’s colonial pathologies.",
           "link": "https://newleftreview.org/sidecar/posts/something-monstrous",
           "publishedOn": "2024-09-04T00:44:56.000Z",
-          "wordCount": 1614,
+          "wordCount": 1522,
           "title": "Nadine El-Enany: &ldquo;Something Monstrous&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2024/09/vip-54420.jpg"
         }
@@ -1410,66 +1368,6 @@
             "type": "application/epub+zip",
             "length": "8424",
             "url": "https://theanarchistlibrary.org/library/margaret-killjoy-anti-communist-communists.epub"
-          },
-          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
-        },
-        {
-          "id": "https://theanarchistlibrary.org/library/ignacy-jozwiak-interview-with-denys-pankratov-organizer-of-the-crane-operators-union-of-the-lvi?v=1724876882",
-          "author": null,
-          "description": "Author: Ignacy Jóźwiak\nTitle: Interview with Denys Pankratov, organizer of the Crane Operators Union of the Lviv Region — Ukraine\nSubtitle: Comrades from the Polish trade union OZZ IP, a member of the International Labour Network of Solidarity and Struggles give a voice to trade unionists from Ukraine\nDate: March 5, 2022\nSource: Retrieved on 28th August 2024 from laboursolidarity.org\n\n We met Denys and members of the Crane Operators Union in spring 2021, during online meetings and exchange of experience between unionised operators in Poland and Ukraine. At the time, protests were underway in both countries over pay rises and improved workplace safety in this sector. Ukrainian operators regularly informed about our actions and expressed solidarity in their social media. We wrote about the s…",
-          "link": "https://theanarchistlibrary.org/library/ignacy-jozwiak-interview-with-denys-pankratov-organizer-of-the-crane-operators-union-of-the-lvi?v=1724876882",
-          "publishedOn": "2024-08-28T20:28:02.000Z",
-          "wordCount": 1216,
-          "title": "Ignacy Jóźwiak - Interview with Denys Pankratov, organizer of the Crane Operators Union of the Lviv Region — Ukraine",
-          "enclosure": {
-            "type": "application/epub+zip",
-            "length": "6516",
-            "url": "https://theanarchistlibrary.org/library/ignacy-jozwiak-interview-with-denys-pankratov-organizer-of-the-crane-operators-union-of-the-lvi.epub"
-          },
-          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
-        },
-        {
-          "id": "https://theanarchistlibrary.org/library/whitney-kimball-revenge-spectrum-workers-on-strike-build-their-own-isp?v=1724876594",
-          "author": null,
-          "description": "Author: Whitney Kimball\nTitle: Revenge: Spectrum Workers on Strike Build Their Own ISP\nDate: April 14, 2021\nSource: Retrieved on 28th August 2024 from gizmodo.com\n\n If, for any number of reasons, you’d like to burn telecoms to the ground and build a new internet service provider on their smoldering remains, good news for you. New York City Spectrum workers, who’ve weathered an anguishing four-year strike, have built their own internet service provider. If the city throws its support behind it, People’s Choice Communications could liberate New Yorkers from cable gangsters once and for all. \n The city itself is almost constantly fighting Spectrum. With its rise to dominance in New York, Gov. Andrew Cuomo has tried to evict it; attorneys general had to chase it around for allegedly defrauding…",
-          "link": "https://theanarchistlibrary.org/library/whitney-kimball-revenge-spectrum-workers-on-strike-build-their-own-isp?v=1724876594",
-          "publishedOn": "2024-08-28T20:23:14.000Z",
-          "wordCount": 2060,
-          "title": "Whitney Kimball - Revenge: Spectrum Workers on Strike Build Their Own ISP",
-          "enclosure": {
-            "type": "application/epub+zip",
-            "length": "8924",
-            "url": "https://theanarchistlibrary.org/library/whitney-kimball-revenge-spectrum-workers-on-strike-build-their-own-isp.epub"
-          },
-          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
-        },
-        {
-          "id": "https://theanarchistlibrary.org/library/patrick-le-trehondat-i-kostya-ukrainian-high-school-student-member-of-the-direct-action-union?v=1724876246",
-          "author": null,
-          "description": "Author: Patrick Le Tréhondat\nTitle: “I, Kostya, Ukrainian high school student, member of the Direct Action union”\nSubtitle: Interview by Patrick Le Tréhondat\nDate: April 19, 2023\nSource: Retrieved on 28th August 2024 from laboursolidarity.org\n\nPlease introduce yourself to our readers\n My name is Kostya, I am a student of the second grade. [Kostya lives in the Volyn region in northwestern Ukraine.] \nHow did you experience the beginning of the war?\n In fact, I sensed that a full-scale invasion would soon occur, but I did not expect it to be so large and destructive. I remember the beginning very well. My mother asked me to buy food, which was practically non-existent, and told me to stay at home. The first week was very scary, nobody knew what was going to happen. We were just hoping for the…",
-          "link": "https://theanarchistlibrary.org/library/patrick-le-trehondat-i-kostya-ukrainian-high-school-student-member-of-the-direct-action-union?v=1724876246",
-          "publishedOn": "2024-08-28T20:17:26.000Z",
-          "wordCount": 1041,
-          "title": "Patrick Le Tréhondat - “I, Kostya, Ukrainian high school student, member of the Direct Action union”",
-          "enclosure": {
-            "type": "application/epub+zip",
-            "length": "6116",
-            "url": "https://theanarchistlibrary.org/library/patrick-le-trehondat-i-kostya-ukrainian-high-school-student-member-of-the-direct-action-union.epub"
-          },
-          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
-        },
-        {
-          "id": "https://theanarchistlibrary.org/library/volodya-vagner-builders-in-solidarity?v=1724876004",
-          "author": null,
-          "description": "Author: Volodya Vagner\nTitle: Builders in Solidarity\nSubtitle: A rambunctious Russian-speaking union shakes up Sweden’s labor movement\nDate: August 16, 2024\nSource: Retrieved on 28th August 2024 from meduza.io\n\n Sweden is usually outside of The Beet’s purview, but the migrant workers at the heart of its growing shadow economy are not. In the construction sector in particular, many of these migrants hail from the countries that emerged from the Soviet Union’s collapse and they still use Russian as their lingua franca. To fight for their rights and combat exploitation, hundreds of these workers have formed Builders in Solidarity (Solidariska Byggare, in Swedish). Freelance journalist Volodya Vagner reports on this rapidly growing Russian-speaking union shaking up the Swedish labor movement. …",
-          "link": "https://theanarchistlibrary.org/library/volodya-vagner-builders-in-solidarity?v=1724876004",
-          "publishedOn": "2024-08-28T20:13:24.000Z",
-          "wordCount": 2562,
-          "title": "Volodya Vagner - Builders in Solidarity",
-          "enclosure": {
-            "type": "application/epub+zip",
-            "length": "12396",
-            "url": "https://theanarchistlibrary.org/library/volodya-vagner-builders-in-solidarity.epub"
           },
           "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
         }
