@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-03T18:32:20.309Z</id>
+    <id>urn:2024-09-04T01:46:29.240Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-03T18:32:20.309Z</updated>
+    <updated>2024-09-04T01:46:29.240Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Nadine El-Enany: &ldquo;Something Monstrous&rdquo;]]></title>
+        <id>https://newleftreview.org/sidecar/posts/something-monstrous</id>
+        <link href="https://newleftreview.org/sidecar/posts/something-monstrous"/>
+        <updated>2024-09-04T00:44:56.000Z</updated>
+        <summary type="html"><![CDATA[Britain’s colonial pathologies.]]></summary>
+        <author>
+            <name>New Left Review Sidecar recent posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to optimize log management for Amazon EKS with Amazon FSx for NetApp ONTAP]]></title>
+        <id>ee6078e423b3fd64703d6132396bdc3f58b8887c</id>
+        <link href="https://aws.amazon.com/blogs/containers/optimize-log-management-for-amazon-eks-with-amazon-fsx-for-netapp-ontap/"/>
+        <updated>2024-09-03T23:01:10.000Z</updated>
+        <summary type="html"><![CDATA[Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments. Among Cloud Native patterns, Containers, and Kubernetes are mainstream across multiple businesses. According to the Cloud Native Computing Foundation Annual Survey of 2022, 44% of respondents are already using containers for nearly all applications and business segments, and another 35% say containers are […]]]></summary>
+        <author>
+            <name>Tsahi Duek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS named as a Leader in the first Gartner Magic Quadrant for AI Code Assistants]]></title>
+        <id>148be78c8c914b1e3dc764e8933faaf4e4bf8aad</id>
+        <link href="https://aws.amazon.com/blogs/aws/aws-named-as-a-leader-in-the-first-gartner-magic-quadrant-for-ai-code-assistants/"/>
+        <updated>2024-09-03T21:48:08.000Z</updated>
+        <summary type="html"><![CDATA[Amazon Web Services (AWS) AI code assistant Amazon Q Developer named a Leader in Gartner's first Magic Quadrant for its Ability to Execute and Completeness of Vision, driving innovation across the software development lifecycle with enterprise-grade controls.]]></summary>
+        <author>
+            <name>Channy Yun (윤석찬)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Indie Web, small web, social web, whatever web, my web]]></title>
+        <id>https://disassociated.com/?p=8399</id>
+        <link href="https://disassociated.com/indie-web-small-web-social-web-whatever-web-my-web/"/>
+        <updated>2024-09-03T21:00:49.000Z</updated>
+        <summary type="html"><![CDATA[There’s been a bit of a surge in discussion recently about Indie Web, and seemingly what it means to be a true adherent. This time the focus appears to be about what I’m going to call technical proficiency. From what I can gather, having your own website, with your own domain name, and your own […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BearBoost Shortcut for Bear Bloggers]]></title>
+        <id>https://birming.com/bearboost-shortcut-bloggers/</id>
+        <link href="https://birming.com/bearboost-shortcut-bloggers/"/>
+        <updated>2024-09-03T19:29:00.000Z</updated>
+        <summary type="html"><![CDATA[BearBoost
+
+BearBoost is an Apple shortcut designed to help you boost your blogging.
+It's for all bloggers, but especially those who use the Bear blogging platform. The idea is to give you a quick and easy tool to help you get writing when you're feeling stuck.
+It's like having your personal muse whisper, "No more writer's block! Let's turn this blank page into a blog masterpiece!" Okay, maybe not exactly that, but kind of.
+The shortcut currently offers nine menu options:
+Trending Posts (Bear discovery feed)
+Recent Posts (Bear discovery feed)
+Ten Topics (pick one and start writing)
+Daily Prompt (via Kevin McDonald)
+Random Prompt (from Blog Prompts)
+Random Quote (from Random Quotations)
+Today’s Word (via Merriam-Webster)
+Blog Inspiration (a page of mine)
+Discover Blogs (the blog directory)
+I'll likely add more features over time. If you have any requests, please let me know.
+Get the BearBoost shortcut]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 9/3/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=277832</id>
@@ -23,6 +89,20 @@
         <summary type="html"><![CDATA[from Dean Baker In the last-half century, productivity has outpaced the growth of real compensation for the median worker by more than 40 percent. This means that if workers’ pay had kept pace with productivity, as it did in the three decades after World War II, it would be roughly 40 percent higher than it is today. […]]]></summary>
         <author>
             <name>deanbaker1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by yjftsjthsd-h in "Why bother with argv[0]?"]]></title>
+        <id>https://news.ycombinator.com/item?id=41435515</id>
+        <link href="https://news.ycombinator.com/item?id=41435515"/>
+        <updated>2024-09-03T14:50:41.000Z</updated>
+        <summary type="html"><![CDATA[So obviously claiming that there's no good reason for process to read argv[0] is either demonstrating the author's ignorance or needs a much stronger defense; I'd be fascinated to hear how they think busybox should work on an OpenWrt box with a 16MB root filesystem.
+However, I am willing to consider the discussion about whether there could be merit to restricting the ability to write that value; I could imagine a system that populated it only from the actual file name and did not allow it to be written by the parent process or the child process at runtime. The obvious place this still falls apart is that an attacker could just
+    ln /bin/curl ./some\ other\ name
+
+but there are sometimes security measures that we use even though they're less than 100% effective so it at least conceivable that this might be a trade off worth making.]]></summary>
+        <author>
+            <name>yjftsjthsd-h</name>
         </author>
     </entry>
     <entry>
@@ -251,6 +331,16 @@ This is not to mention color calibration of your monitor, or your eyes adjusting
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Making progress on routing security: the new White House roadmap]]></title>
+        <id>10dR1e1P8WbOojN0JGTPOp</id>
+        <link href="https://blog.cloudflare.com/white-house-routing-security"/>
+        <updated>2024-09-02T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On September 3, 2024, the White House published a report on Internet routing security. We’ll talk about what that means and how you can help.]]></summary>
+        <author>
+            <name>Mike Conlow</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[A short film shot on the iPhone 15 Pro Max, with no lens, filter, or AI]]></title>
         <id>https://disassociated.com/?p=8394</id>
         <link href="https://disassociated.com/short-film-iphone-15-pro-max/"/>
@@ -447,17 +537,6 @@ The post The State of American Labor on Labor Day appeared first on CounterPunch
 The post Dirty Deleting, a Lack of Accountability, and Next Steps appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Wim Laven</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by tithe in "The Pentium as a Navajo Weaving"]]></title>
-        <id>https://news.ycombinator.com/item?id=41421177</id>
-        <link href="https://news.ycombinator.com/item?id=41421177"/>
-        <updated>2024-09-01T23:16:25.000Z</updated>
-        <summary type="html"><![CDATA[That's some serious...multithreading!
-(I applaud others for resisting such cringe, but I just couldn't help myself.)]]></summary>
-        <author>
-            <name>tithe</name>
         </author>
     </entry>
     <entry>
@@ -748,33 +827,18 @@ The post A Whiter Shade of Genocide appeared first on CounterPunch.org.]]></summ
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[PSA: Remove your location when uploading pictures to bearblog]]></title>
+        <title type="html"><![CDATA[PSA: Remove your location when uploading pictures to bearblog (fixed!)]]></title>
         <id>https://bakavic.net/psa-remove-your-location-when-uploading-pictures-to-bearblog/</id>
         <link href="https://bakavic.net/psa-remove-your-location-when-uploading-pictures-to-bearblog/"/>
         <updated>2024-08-31T06:09:00.000Z</updated>
         <summary type="html"><![CDATA[TL;DR: Bearblog doesn't (currently) strip location data from your uploads, so you need to do it yourself
+UPDATE: Herman just added a comment in the nolt suggestion that locations are now removed, and there is a corresponding commit.
+A new uploaded photo shows that EXIF metadata (including location) is now removed:
+
+Thanks Herman for the fast work! 💨
 I noticed that bear blog posts with pictures were loading rather slowly - turns out images are being stored and served as-is, full-sized and all.
 This is probably a Good Thing(tm) for people running photo blogs, but I also realised that photo metadata, including your location, are being retained - not something you would want, e.g. if your pictures were taken at home.
-If you have posted images via the native bearblog insert image feature in the past, it is a good idea to check that your location hasn't been inadvertently leaked.
-Also, if you would like this to be solved for everyone, please help to upvote the suggestion to preprocess images.
-EDIT: Herman has marked this suggestion as ‘planned’ ＼ʕ •ᴥ•ʔ／
-Thanks everyone for upvoting this issue!
-Android
-I'm not too sure how to this natively in Android (do let me know if you have an elegant way to remove location data!) - I'm wary to recommend any of the numerous apps that seem to do this, as I'm not sure which of them can be trusted.
-EDIT: Jd dropped me an email recommending Aves (F-Droid|Github) for Android :-
-Just saw your post and I was thinking to write the same a few days ago.
-To remove metadata on your android phone, Aves is a really good gallery app. You can edit all of your metadata and also sort images in different ways.
-It is available on playstore as well as fdroid.
-Thanks for the recommendation! I haven't been in touch with the Android ecosystem for a while, and it's great to see photo/file manager apps which are not riddled with ads.
-iOS
-In the meantime, if you're on iOS 17+, there is an option in the photo picker when inserting images, to remove location and resize the image:
-Example images (of a sunrise on Alishan)
-Original image, with GPS metadata:
-
-Inspector in macOS Preview:
-Resized image, without GPS metadata:
-
-Inspector in macOS Preview:]]></summary>
+If you have posted images via the native bearblog insert image feature in th…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
@@ -1091,27 +1155,6 @@ Teena need a place to be moderately mischievous, with semi-real social outcomes,
 And adults who aren’t authorities over them except insofar that they have cool talents the kids want to learn.]]></summary>
         <author>
             <name>asolove</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Work Notifications Set to Off]]></title>
-        <id>https://notes.jeddacp.com/work-notifications-set-to-off/</id>
-        <link href="https://notes.jeddacp.com/work-notifications-set-to-off/"/>
-        <updated>2024-08-29T21:04:00.000Z</updated>
-        <summary type="html"><![CDATA[First day back to work.
-One of my self-sabotaging behavior is my occasional inability to set boundaries, specifically when it comes to my personal time and work.
-I rarely take days off from work. I know that it’s a problem because I have maxed out my vacation accrual days (like now) during several occasions. When I do take the time off from work, I still check my messages in case there’s something on fire and I need to fix it. I also have my notifications on in the evenings, because some of my co-workers also don’t have boundaries when it comes to work, and will ping me because they too are working late.
-I know, it’s bad.
-This time around, very in line with my Do Not Disturb mentality, I decided to turn my Slack messages and work email notifications off during my time off.
-It worked out so well. I mostly didn’t think about work. I didn’t see any messages that needed my attention right away. I didn’t have to think about the things I need to solve for my team during my time off. I had a clear separation of me enjoying my time off, and work that stresses me out more than it should.
-Because of this, I decided to make this separation a little bit more permanent. I’m going to actually turn my (work) notifications off when it’s time to log off, so that I’m not unintentionally working during the evenings. We’ll see if this pans out.
-Just the little things to get my mental health sorted out.
-29/31 - Blaugust
-💬 Community Echoes
-Always On - Freelancers and Notifications by Nathan Friend
-Reply by email]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -1511,70 +1554,6 @@ I
  Once Bakunin was truly a great name. While one would search in vain in the edition of the great encyclopedic dictionary published in 1866 for the name of Karl Marx, tha…]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[G.A. Cohen on the output bias]]></title>
-        <id>https://crookedtimber.org/?p=53064</id>
-        <link href="https://crookedtimber.org/2024/08/28/g-a-cohen-on-the-output-bias/"/>
-        <updated>2024-08-28T10:34:44.000Z</updated>
-        <summary type="html"><![CDATA[(Originally drafted for a conference at Frankfurt in 2018 to mark the 40th anniversary of Karl Marx’s Theory of History: A Defence. I’ve done a bit of editing of my conference script and added a few footnotes etc, but it isn’t necessarily produced to the scholarly standards one might require of a journal article.) In […]]]></summary>
-        <author>
-            <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Polar Bear]]></title>
-        <id>https://wait.lol/polar-bear/</id>
-        <link href="https://wait.lol/polar-bear/"/>
-        <updated>2024-08-28T09:12:00.000Z</updated>
-        <summary type="html"><![CDATA[:root {
-  --image-border: rgba(0,0,0,0.1);
-  --image-shadow: rgba(0,0,0,0.1);
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --image-border: rgba(255,255,255,0.2);
-    --image-shadow: rgba(255,255,255,0.1);
-  }
-}
-.app-image {
-  box-shadow: 0 4px 8px var(--image-shadow);
-  border: 1px solid var(--image-border);
-}
-@media (prefers-color-scheme: dark) {
-  .app-image {
-    box-shadow: 0 4px 8px var(--image-shadow), 0 0 0 1px var(--image-border);
-  }
-}
-sup { font-size: 0.6em; }
-.footnotes { font-size: 0.8em; color: #666; }
-@media (prefers-color-scheme: dark) {
-  .footnotes { color: #aaa; }
-}
-.image-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  margin: 60px 0;
-}
-.image-container img {
-  width: calc(50% - 5px);
-  height: auto;
-  object-fit: cover;
-  cursor: p…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The (Electoral) Politics of Age Gaps]]></title>
-        <id>https://crookedtimber.org/?p=53062</id>
-        <link href="https://crookedtimber.org/2024/08/28/the-electoral-politics-of-age-gaps/"/>
-        <updated>2024-08-28T09:05:49.000Z</updated>
-        <summary type="html"><![CDATA[Harris’ nomination locks in another Boomer presidency. This single generation — those born in the nineteen years between 1946 and 1964 — is guaranteed another presidency. 36 consecutive years, not counting the Biden Interregnum (he’s technically too old). Despite being a Boomer, you may have noticed that she’s the young, exciting candidate. Yes, the generational […]]]></summary>
-        <author>
-            <name>Kevin Munger</name>
         </author>
     </entry>
 </feed>
