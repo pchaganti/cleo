@@ -1,10 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-08T12:44:11.941Z</id>
+    <id>urn:2024-09-08T18:31:30.828Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-08T12:44:11.941Z</updated>
+    <updated>2024-09-08T18:31:30.828Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Degrowth Communism: Kōhei Saitō]]></title>
+        <id>https://www.counterpunch.org/?p=333057</id>
+        <link href="https://www.counterpunch.org/2024/09/08/degrowth-communism-kohei-saito/"/>
+        <updated>2024-09-08T17:09:17.000Z</updated>
+        <summary type="html"><![CDATA[Unavoidable evidence of the catastrophic consequences of climate change confronts us at every turn. Record high ocean temperatures. Once-a-century storms that appear every other year. And on and on. In the face of ongoing ecological disaster, international best-selling author Kōhei Saitō asks why our society continues to prioritize corporate profits (and the rapacious expansion on which they depend), and proposes a revolutionary alternative to unfettered capitalism: degrowth communism.
+In Slow Down, Saitō provocatively argues that any solutions that don’t directly confront capitalism itself—from the COP agreements to the “Green New Deal”—represent dangerous compromises that may ultimately worsen the climate emergency. Because it creates artificial scarcity and endlessly produces commodities based on their value, rather than their usefulness, our economic system itself makes it impossible to reverse climate change so long as capitalism remains in place. The biggest contributor to the problem cannot be an integral part of its solution.
+Instead, Saitō advocates for degrowth and deceleration, which he conceives as the slowing of economic activity through the democratic reform of labor and our system of production. By returning to a system of social ownership, degrowth communism, we can restore the abundance of things that we truly need, and can focus on those activities that are essential for human life.
+What would this alternative look like? How do we end mass production and mass consumption without reducing living standards? What do we need to do to redress global inequality without accelerating the rate at which the planet burns?
+For this launch event Saitō will be in conversation on all of this, and more, with Science for the People editor, and Pilsen Community Books collective member and CounterPunch Radio co-host Erik Wallenberg. This event occurred on May 24, 2024 at Haymarket House in Chicago. More
+The post Degrowth Communism: Kōhei Saitō appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Josh Frank</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Failed Attempt at Market Manipulation]]></title>
+        <id>https://www.nakedcapitalism.com/?p=278123</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/a-failed-attempt-at-market-manipulation.html"/>
+        <updated>2024-09-08T13:55:31.000Z</updated>
+        <summary type="html"><![CDATA[Markets that reference prices in other markets are common in the world of finance—all stock options and index futures have this property. But when it comes to electoral prediction markets, I see no rationale for such derivative contracts.]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Patrick O’Brian is a great conservative writer]]></title>
+        <id>https://crookedtimber.org/?p=53174</id>
+        <link href="https://crookedtimber.org/2024/09/08/patrick-obrian-is-a-great-conservative-writer/"/>
+        <updated>2024-09-08T12:46:13.000Z</updated>
+        <summary type="html"><![CDATA[[Commercial announcement: My and Abraham Newman’s book, Underground Empire: How America Weaponized the World Economy is still available for $2.99 on Amazon Kindle. Also, it is about to come out in paperback in the UK and US. We now return you to your scheduled programming. Also: this post was first published at Programmable Mutter]. After nuzzling up against […]]]></summary>
+        <author>
+            <name>Henry Farrell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Image Gallery for Bear Blog]]></title>
+        <id>https://birming.com/image-gallery-blog/</id>
+        <link href="https://birming.com/image-gallery-blog/"/>
+        <updated>2024-09-08T12:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Image Gallery for Bear Blog
+This gallery add-on for the Bearming theme is the first where I felt a separate page was needed. It's also been the hardest to make – a good example of the joy of limitations.
+Actually, the gallery add-on itself isn't very complicated. The challenge has been to make it fairly simple for anyone to use, and making it compatible with Markdown. Here's the result (instructions below):
+
+
+
+
+
+
+
+
+
+Instructions
+The gallery uses an unordered list, and the list is wrapped around a div (a "section") with the class gallery. Example:
+<div class="gallery">
+
+* ![Photo 1](https:/link-to-photo-1.jpg)
+* ![Photo 2](https:/link-to-photo-2.jpg)
+* ![Photo 3](https:/link-to-photo-3.jpg)
+
+</div>
+
+Since the page becomes quite heavy if you have many images in the gallery, I recommend using smaller versions and linking them to the original image. Example:
+<div class="gallery">
+
+* [![Photo 1](https:/link-to-photo-1-thumbnail.jpg)](https:/link-to-photo-1.jpg)
+* [![Photo 2](https:/link-to-photo-2-thumbnail.jpg)](https:/link-to-photo-2.jpg)
+* [![Photo 3](https:/link-to-photo-3-thumbnail.jpg)](https:/link-to-photo-3.jpg)
+
+</div>
+
+Finally, add the following style to your theme:
+/* Gallery */
+.gallery ul  {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 150px;
+  grid-gap: 12px;
+  padding: 20px 0;
+  list-style: none;
+}
+.gallery li {
+  position: relative;
+  flex-basis: calc(50% - 20px);
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+There have been some improvements to the Bear media center in recent days. Hopefully Herman has more in the works. I would love to see thumbnails created automatically and the ability to copy the Markdown code for embedding images, not just the URL.
+I hope you find the gallery useful!]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Links 9/8/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=278109</id>
@@ -290,6 +388,18 @@ This is going to keep happening until IT companies stop cutting headcounts to ma
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[i don’t wanna live in a ring world]]></title>
+        <id>https://blog.avas.space/ring-world/</id>
+        <link href="https://blog.avas.space/ring-world/"/>
+        <updated>2024-09-06T16:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Ring cameras freak me out. Whenever I am unfortunate enough to see their ads, they seem dystopian to me. What I am fortunate in is not being in a country that is seemingly dominated by them, at least not yet.
+It was already enough that entering people’s home increasingly meant being comfortable with Alexa and others, or that being in public meant you could either be in the background or the unkowing main topic of some TikTok video. I guess we are now increasingly entering an era where being outside means being filmed by a private person’s camera somewhere, or that you’ll even be recorded while visiting someone inside their home.
+Now, I will say, I feel sympathy for the people using these in genuinely rough areas, or having survived some horrible break-ins. It hasn’t ever happened to me, bu…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[What's Something You Regularly Fail At?]]></title>
         <id>https://darrenhester.com/what-is-something-you-regularly-fail-at/</id>
         <link href="https://darrenhester.com/what-is-something-you-regularly-fail-at/"/>
@@ -368,16 +478,6 @@ Also, I've personally seen more interest in AI in devs that have little interest
         <summary type="html"><![CDATA[In the Sahel.]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links 9/6/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=278037</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/links-9-6-2024.html"/>
-        <updated>2024-09-06T10:58:12.000Z</updated>
-        <summary type="html"><![CDATA[Our joyful daily links]]></summary>
-        <author>
-            <name>Lambert Strether</name>
         </author>
     </entry>
     <entry>
@@ -703,17 +803,6 @@ The post Are We Better Off Accepting There’s No Free Will? appeared first on C
 The post From Hiroshima to Genocide in Gaza appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Paul Street</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Intervention and Neoliberalism Aggravate Political Upheaval in Bangladesh]]></title>
-        <id>https://www.counterpunch.org/?p=332897</id>
-        <link href="https://www.counterpunch.org/2024/09/06/us-intervention-and-neoliberalism-aggravate-political-upheaval-in-bangladesh/"/>
-        <updated>2024-09-06T05:48:03.000Z</updated>
-        <summary type="html"><![CDATA[Weeks of student-led and often violent protests forced the resignation and exile on August 5 of Bangladesh’s prime minister Sheikh Hasina. Demonstrators were reacting to inflation, unemployment, governmental and banking corruption and a quota system that preferentially opens up government jobs to descendants of people participating in the national liberation struggle. Brutal police repression and  More
-The post US Intervention and Neoliberalism Aggravate Political Upheaval in Bangladesh appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>W. T. Whitney</name>
         </author>
     </entry>
     <entry>
@@ -1336,32 +1425,6 @@ NinjaLab: "All Infineon security microcontrollers (including TPMs) that run the 
 - EMV chips in credit and debit cards]]></summary>
         <author>
             <name>panarky</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BearBoost Shortcut for Bear Bloggers]]></title>
-        <id>https://birming.com/bearboost-shortcut-bloggers/</id>
-        <link href="https://birming.com/bearboost-shortcut-bloggers/"/>
-        <updated>2024-09-03T19:29:00.000Z</updated>
-        <summary type="html"><![CDATA[BearBoost
-
-BearBoost is an Apple shortcut designed to help you boost your blogging.
-It's for all bloggers, but especially those who use the Bear blogging platform. The idea is to give you a quick and easy tool to help you get writing when you're feeling stuck.
-It's like having your personal muse whisper, "No more writer's block! Let's turn this blank page into a blog masterpiece!" Okay, maybe not exactly that, but kind of.
-The shortcut currently offers nine menu options:
-Trending Posts (Bear discovery feed)
-Recent Posts (Bear discovery feed)
-Ten Topics (pick one and start writing)
-Daily Prompt (via Kevin McDonald)
-Random Prompt (from Blog Prompts)
-Random Quote (from Random Quotations)
-Today’s Word (via Merriam-Webster)
-Blog Inspiration (a page of mine)
-Discover Blogs (the blog directory)
-I'll likely add more features over time. If you have any requests, please let me know.
-Get the BearBoost shortcut]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
