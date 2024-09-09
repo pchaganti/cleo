@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-09T06:36:52.467Z</id>
+    <id>urn:2024-09-09T12:48:17.106Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-09T06:36:52.467Z</updated>
+    <updated>2024-09-09T12:48:17.106Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Links 9/9/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=278190</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/links-9-9-2024.html"/>
+        <updated>2024-09-09T10:55:29.000Z</updated>
+        <summary type="html"><![CDATA[Our shaken-not-stirred daily links]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tomorrow’s Canvas | Writing Competition]]></title>
+        <id>https://medium.com/p/968ae3a68f1d</id>
+        <link href="https://alibaba-cloud.medium.com/tomorrows-canvas-writing-competition-968ae3a68f1d?source=rss-8cdb52f9cdca------2"/>
+        <updated>2024-09-09T10:31:26.000Z</updated>
+        <summary type="html"><![CDATA[The Alibaba Cloud Blog team are inviting you to share your insights into how AI will transform our futures.]]></summary>
+        <author>
+            <name>Alibaba Cloud</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Polish Foreign Minister Volunteers Country to Fight Russia]]></title>
+        <id>https://www.nakedcapitalism.com/?p=278162</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/polish-foreign-minister-volunteers-country-to-fight-russia.html"/>
+        <updated>2024-09-09T10:00:32.000Z</updated>
+        <summary type="html"><![CDATA[Sikorski wants to shoot down Russian missiles as pressure buildis on Germany to start footing more of the bill for US imperial ambitions.]]></summary>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Where Can We Live? The Homeless Crisis in America]]></title>
+        <id>https://www.nakedcapitalism.com/?p=278178</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/where-can-we-live-the-homeless-crisis-in-america.html"/>
+        <updated>2024-09-09T07:01:00.000Z</updated>
+        <summary type="html"><![CDATA[The war on the homeless in the US has entered a very ugly phase.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Decline of the U.S. Empire: Where Is It Taking Us All?]]></title>
         <id>https://www.counterpunch.org/?p=333018</id>
@@ -116,6 +156,34 @@ The post There Was a Housing Bubble in Atlanta Prior to the Crash appeared first
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by raggi in "QUIC is not quick enough over fast internet"]]></title>
+        <id>https://news.ycombinator.com/item?id=41485526</id>
+        <link href="https://news.ycombinator.com/item?id=41485526"/>
+        <updated>2024-09-09T04:45:19.000Z</updated>
+        <summary type="html"><![CDATA[There are a number of concrete problems:
+- syscall interfaces are a mess, the primitive APIs are too slow for regular sized packets (~1500 bytes), the overhead is too high. GSO helps but it’s a horrible API, and it’s been buggy even lately due to complexity and poor code standards.
+- the syscall costs got even higher with spectre mitigation - and this story likely isn’t over. We need a replacement for the BSD sockets / POSIX APIs they’re terrible this decade. Yes, uring is fancy, but there’s a tutorial level API middle ground possible that should be safe and 10x less overhead without resorting to uring level complexity.
+- system udp buffers are far too small by default - they’re much much smaller than their tcp siblings, essentially no one but experts have been using them, and experts just retune stuff.
+- udp stack optimizations are possible (such as possible route lookup reuse without connect(2)), gso demonstrates this, though as noted above gso is highly fallible, quite expensive itself, and the design is wholly unnecessarily intricate for what we need, particularly as we want to do this safely from unprivileged userspace.
+- several optimizations currently available only work at low/mid-scale, such as connect binding to (potentially) avoid route lookups / GSO only being applicable on a socket without high peer-competition (competing peers result in short offload chains due to single-peer constraints, eroding the overhead wins).
+Despite all this, you can implement GSO and get substantial performance improvements, we (tailscale) have on Linux. There will be a need at some point for platforms to increase platform side buffer sizes for lower end systems, high load/concurrency, bdp and so on, but buffers and congestion control are a high complex and sometimes quite sensitive topic - nonetheless, when you have many applications doing this (presumed future state), there will be a need.]]></summary>
+        <author>
+            <name>raggi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by TechDebtDevin in "FBI recommends using an ad blocker (2022)"]]></title>
+        <id>https://news.ycombinator.com/item?id=41483690</id>
+        <link href="https://news.ycombinator.com/item?id=41483690"/>
+        <updated>2024-09-08T22:14:02.000Z</updated>
+        <summary type="html"><![CDATA[It's always an insane experience when you hop on someone's laptop/PC who has zero ad blocking installed.
+POV:
+https://m.youtube.com/shorts/iV3js9pd5IE]]></summary>
+        <author>
+            <name>TechDebtDevin</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Authors slam NaNoWriMo neither for nor against AI stance]]></title>
         <id>https://disassociated.com/?p=8423</id>
         <link href="https://disassociated.com/authors-slam-nanowrimo-neutral-ai-stance/"/>
@@ -143,23 +211,6 @@ The post There Was a Housing Bubble in Atlanta Prior to the Crash appeared first
         <summary type="html"><![CDATA[from C. P. Chandrasekhar and Jayati Ghosh It is more than a year since China, reportedly in retaliation to US-driven restrictions on exports of advanced semiconductors and related manufacturing equipment, imposed export controls on two crucial materials—germanium and gallium—that enter into the production of semiconductors and military and communications equipment (advanced microprocessors, fibre-optic products and […]]]></summary>
         <author>
             <name>Editor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tears of Joy]]></title>
-        <id>https://birming.com/tears-joy/</id>
-        <link href="https://birming.com/tears-joy/"/>
-        <updated>2024-09-08T17:26:00.000Z</updated>
-        <summary type="html"><![CDATA[I came across this writing prompt:
-"What makes you shed a tear of joy?"
-I'm a real sucker for tearjerker movies. I fall for them every time. It doesn't matter if it's an animated children's film or a half-hearted drama that recycles every worn-out cliché. It works on me, every time.
-A recurring theme that usually triggers tears for me is reunion and reconciliation. I don't know why. Maybe there's something deep down that resonates with that kind of plot. It's not something I've been able to connect to so far, if that's the case.
-I love going to the movies, preferably alone. It's so relaxing and pleasant. But I avoid movies that I more or less know will make me burst into tears.
-It's not that I think it's embarrassing to cry openly, absolutely not. But I still find myself holding back in a way I wouldn't if I were sitting at home watching. And tears should be cried out unrestrained, not stifled like a sneeze (which, by the way, should also not be held back).
-There's something liberating about crying, whether it's for joy or sorrow. It's cathartic. And if you think about it, it's a pretty odd thing compared to most
-other creatures on our planet.]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -464,18 +515,6 @@ While fun, I would expect this specific scenario to actually be worse for the us
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by kaycebasques in "Things to know about the Great Wave"]]></title>
-        <id>https://news.ycombinator.com/item?id=41475185</id>
-        <link href="https://news.ycombinator.com/item?id=41475185"/>
-        <updated>2024-09-07T17:44:30.000Z</updated>
-        <summary type="html"><![CDATA[Wow! Never thought about it like this before:
-> Because Japanese text is read from right to left, the earliest viewers of The Great Wave would have likely read the print that way too, first encountering the boaters and then meeting the great claw of water about to swallow them. So instead of riding along with the gargantuan wave as you might in a left-to-right reading, they would face right into the massive wall of ocean.
-Reversed image from the article to demonstrate: https://artic-web.imgix.net/5c05c38c-1c80-446f-a3db-4b95b42e...]]></summary>
-        <author>
-            <name>kaycebasques</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Week Notes 021]]></title>
         <id>https://notes.jeddacp.com/week-notes-021/</id>
         <link href="https://notes.jeddacp.com/week-notes-021/"/>
@@ -554,36 +593,6 @@ That's how it _always_ starts out, the "its for your own good, trust me" excuse.
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Richard Wolff: The Decline of the U.S. Empire – Where Is It Taking Us All?]]></title>
-        <id>https://www.nakedcapitalism.com/?p=278090</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/richard-wolff-the-decline-of-the-u-s-empire-where-is-it-taking-us-all.html"/>
-        <updated>2024-09-07T10:48:13.000Z</updated>
-        <summary type="html"><![CDATA[Taking stock of the trajectory of the US running into the limits of its empire, and what the history of imperial declines suggests is in store]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Israel: 11 Months of War Have Battered the Country’s Economy]]></title>
-        <id>https://www.nakedcapitalism.com/?p=278085</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/israel-11-months-of-war-have-battered-the-countrys-economy.html"/>
-        <updated>2024-09-07T10:28:47.000Z</updated>
-        <summary type="html"><![CDATA[Israel's economy continues to suffer as its war in Gaza drags on and unless the conflict ends soon, the damage will be lasting and deep.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2:00PM Water Cooler 9/6/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=278055</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/200pm-water-cooler-9-6-2024.html"/>
-        <updated>2024-09-06T18:00:23.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics ~]]></summary>
-        <author>
-            <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by ang_cire in "Effects of Gen AI on High Skilled Work: Experiments with Software Developers"]]></title>
         <id>https://news.ycombinator.com/item?id=41468219</id>
         <link href="https://news.ycombinator.com/item?id=41468219"/>
@@ -598,6 +607,18 @@ Is anyone really surprised they are using ChatGPT to keep up?
 This is going to keep happening until IT companies stop cutting headcounts to make line go up (instead of good business strategy).]]></summary>
         <author>
             <name>ang_cire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[i don’t wanna live in a ring world]]></title>
+        <id>https://blog.avas.space/ring-world/</id>
+        <link href="https://blog.avas.space/ring-world/"/>
+        <updated>2024-09-06T16:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Ring cameras freak me out. Whenever I am unfortunate enough to see their ads, they seem dystopian to me. What I am fortunate in is not being in a country that is seemingly dominated by them, at least not yet.
+It was already enough that entering people’s home increasingly meant being comfortable with Alexa and others, or that being in public meant you could either be in the background or the unkowing main topic of some TikTok video. I guess we are now increasingly entering an era where being outside means being filmed by a private person’s camera somewhere, or that you’ll even be recorded while visiting someone inside their home.
+Now, I will say, I feel sympathy for the people using these in genuinely rough areas, or having survived some horrible break-ins. It hasn’t ever happened to me, bu…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -1057,17 +1078,6 @@ with great gratitu…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by jwr in "A SpamAssassin Surprise"]]></title>
-        <id>https://news.ycombinator.com/item?id=41455281</id>
-        <link href="https://news.ycombinator.com/item?id=41455281"/>
-        <updated>2024-09-05T10:29:22.000Z</updated>
-        <summary type="html"><![CDATA[Please do not let a story like that discourage you from running your own mail server. I am really worried about the future where 2-3 adtech corporations control what we receive and read, and we are not far away from that future.
-As a counterpoint, I have been running my own E-mail server for the last 25 years or so, and haven't found it to be terribly problematic. Yes, there is an occasional issue, but I'd rather control my mail, than hand it off to someone else.]]></summary>
-        <author>
-            <name>jwr</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by dannyobrien in "The Internet Archive has lost its appeal in Hachette vs. Internet Archive"]]></title>
         <id>https://news.ycombinator.com/item?id=41454990</id>
         <link href="https://news.ycombinator.com/item?id=41454990"/>
@@ -1504,26 +1514,6 @@ My wife is a classic introvert. Our home is her haven, the place where she recha
 i've been doing a lot of things recently, which has been nice. i've been seeing friends and getting out of the house most days. at times i wonder if this is what life is supposed to be all about; these joyful moments shared with others, kept a secret from the rest of the world. i don't take many photos when i'm out like that. my mom gets mad i don't have anything to show for my outings. having a photo of the occasion makes me feel like i have cheated myself out of a memory by constraining it to a handful of pixels. who do i need prove i had a good time to?]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making progress on routing security: the new White House roadmap]]></title>
-        <id>10dR1e1P8WbOojN0JGTPOp</id>
-        <link href="https://blog.cloudflare.com/white-house-routing-security"/>
-        <updated>2024-09-02T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[On September 3, 2024, the White House published a report on Internet routing security. We’ll talk about what that means and how you can help.]]></summary>
-        <author>
-            <name>Mike Conlow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A short film shot on the iPhone 15 Pro Max, with no lens, filter, or AI]]></title>
-        <id>https://disassociated.com/?p=8394</id>
-        <link href="https://disassociated.com/short-film-iphone-15-pro-max/"/>
-        <updated>2024-09-02T21:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Well, I’m sure pretty no AI is involved. What’s really incredible about this three minute video, made by Faruk Korkmaz, is that it was filmed entirely by a device, a smartphone, many of us carry in our pockets. The narration is fitting also. It comes from a speech given by Canadian-American actor and comedian Jim […]]]></summary>
-        <author>
-            <name>disassociated.com</name>
         </author>
     </entry>
 </feed>
