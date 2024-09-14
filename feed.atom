@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-14T06:33:26.521Z</id>
+    <id>urn:2024-09-14T12:44:53.633Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-14T06:33:26.521Z</updated>
+    <updated>2024-09-14T12:44:53.633Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Links 9/14/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=278599</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/links-9-14-2024.html"/>
+        <updated>2024-09-14T10:58:18.000Z</updated>
+        <summary type="html"><![CDATA[Our popular daily links]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Announcing Our New Small Donation “Double Your Donations” Challenge]]></title>
         <id>https://www.nakedcapitalism.com/?p=278549</id>
@@ -36,6 +46,19 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by st3fan in "CrowdStrike ex-employees: 'Quality control was not part of our process'"]]></title>
+        <id>https://news.ycombinator.com/item?id=41535901</id>
+        <link href="https://news.ycombinator.com/item?id=41535901"/>
+        <updated>2024-09-13T22:46:25.000Z</updated>
+        <summary type="html"><![CDATA[Found out that the CrowdStrike Mac agent (Falcon) sends all your secrets from environment variables to their cloud hosted SIEM. In plain text.
+Anyone with access to your CS SIEM can search for GitHub, aws, etc creds. Anything your devs, ops and sec teams use on their Macs.
+Only the Mac version does this. There is no way to disable this behaviour or a way to redact things.
+Another really odd design decision. They probably have many many thousands of plain text secrets from their customers stored in their SIEM.]]></summary>
+        <author>
+            <name>st3fan</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Unlocking Benefits with Bottlerocket: A Purpose-Built Container OS]]></title>
         <id>7fd5d2aa425994eb182752ee6f7b22bfd45719d3</id>
         <link href="https://aws.amazon.com/blogs/containers/benefiting-from-bottlerocket-an-open-source-container-optimized-operating-system/"/>
@@ -43,6 +66,18 @@
         <summary type="html"><![CDATA[This post discusses Bottlerocket, a Linux-based open source operating system (OS) that is purpose-built for running containers. We walk through fleet management at scale and how users can benefit from it. We also share how the product roadmap of Bottlerocket is driven based on community and user feedback. The challenges of fleet management with General-Purpose […]]]></summary>
         <author>
             <name>Sai Charan Teja Gopaluni</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by nyc_data_geek1 in "CrowdStrike ex-employees: 'Quality control was not part of our process'"]]></title>
+        <id>https://news.ycombinator.com/item?id=41535130</id>
+        <link href="https://news.ycombinator.com/item?id=41535130"/>
+        <updated>2024-09-13T21:06:40.000Z</updated>
+        <summary type="html"><![CDATA[>>So basically we have nothing.
+Except the biggest IT outage ever.  And a postmortem showing their validation checks were insufficient.  And a rollout process that did not stage at all, just rawdogged straight to global prod.  And no lab where the new code was actually installed and run prior to global rawdogging.
+I'd say there's smoke, and numerous accounts of fire, which this can be taken in the context of.]]></summary>
+        <author>
+            <name>nyc_data_geek1</name>
         </author>
     </entry>
     <entry>
@@ -188,16 +223,6 @@ I think it says something quite dark about our society as a whole that we have b
         <link href="https://www.nakedcapitalism.com/2024/09/can-we-afford-the-welfare-state.html"/>
         <updated>2024-09-13T08:53:01.000Z</updated>
         <summary type="html"><![CDATA[Unpacking why the obstacle to preserving the welfare state is not national income or demographics but rentiers increasing their take.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rajiv Sethi: On Models, Markets, and Disagreement]]></title>
-        <id>https://www.nakedcapitalism.com/?p=278516</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/rajiv-sethi-on-models-markets-and-disagreement.html"/>
-        <updated>2024-09-13T08:42:51.000Z</updated>
-        <summary type="html"><![CDATA[A look at prediction market reactions to the Harris-Trump debate, and why they need to be taken with at least a bit of salt.]]></summary>
         <author>
             <name>Yves Smith</name>
         </author>
@@ -1482,35 +1507,6 @@ So thanks for all your work making the world a better place.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by swyx in "iPhone 16 Pro and iPhone 16 Pro Max"]]></title>
-        <id>https://news.ycombinator.com/item?id=41493023</id>
-        <link href="https://news.ycombinator.com/item?id=41493023"/>
-        <updated>2024-09-09T20:08:12.000Z</updated>
-        <summary type="html"><![CDATA[i clipped the 5 mins on apple intelligence here for those interested https://x.com/swyx/status/1833231875537850659
-notes:
-- photos/album search now includes video understanding, which imo seems very good from the first 2 examples they showed. includes scroll to exact time of the moment you describe.
-- Mail and Notifications will show summaries instead of str[:x]
-- Siri now knows iPhone, becomes the ultimate manual on how to use the increasingly complicated iOS 18. and can read your texts (!) to suggest actions with Personal Context Understanding (also it will try to advertise apple tv shows to you... i'm SURE it will be totally objective and aligned to your preferences amirite)
-- new iphone 16 camera control button is PRIME real estate - notice how OpenAI/ChatGPT is now next to Google search, and both are secondary clicks to Apple's visual search, which comes first
-- camera adds events to calendar!
-- "all done on device" and on cloud (though craig doesnt say that haha)
-overall i think insanely good ideas on ai + phone integrations.]]></summary>
-        <author>
-            <name>swyx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by paxys in "iPhone 16 Pro and iPhone 16 Pro Max"]]></title>
-        <id>https://news.ycombinator.com/item?id=41492320</id>
-        <link href="https://news.ycombinator.com/item?id=41492320"/>
-        <updated>2024-09-09T19:07:57.000Z</updated>
-        <summary type="html"><![CDATA[Smaller notch? Touch ID? Better battery life? Faster charging? Larger default storage? Nope, let's skip all that and spend most of the event talking about video recording.
-Is anyone here actually excited about the features they just announced? Or are people simply upgrading because they get the latest iPhone every year or two by default?]]></summary>
-        <author>
-            <name>paxys</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by Animats in "Synthetic diamonds are now purer, more beautiful, and cheaper than mined"]]></title>
         <id>https://news.ycombinator.com/item?id=41492001</id>
         <link href="https://news.ycombinator.com/item?id=41492001"/>
@@ -1724,49 +1720,6 @@ I hope you find the gallery useful!]]></summary>
         <summary type="html"><![CDATA[Visit the post for more.]]></summary>
         <author>
             <name>Chris Bertram</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Camp Snap 103 - new and improved]]></title>
-        <id>https://jeddacp.me/campsnap103/</id>
-        <link href="https://jeddacp.me/campsnap103/"/>
-        <updated>2024-09-07T19:16:00.000Z</updated>
-        <summary type="html"><![CDATA[I’ve been testing the new Camp Snap 103 version the past few months, and it’s officially available so that means I can tell you all about it now.
-For those who are new around here, I’ve written a little bit about my initial Camp Snap Adventure, as well as when the first version of the Camp Snap retro filter came out. Here’s another post I wrote about my favorite screen-free digital camera.
-So back to the update…
-Key Updates
-Changing the date and time (metadata) is super easy straight out of the box. Now it’s much easier to organize your photos by the timestamp.
-You will also be able to toggle through the volume (3 levels) of your camera in that same section where you can change the date (bottom of the camera hidden by a panel you have to unscrew).
-There is an updated shutter sound. I much prefer this one to the older sound. The shutter sound also triggers as you’re turning off the camera, which can get confusing, but you get used to it.
-A battery meter has been added. When you’re charging, it will say FULL when charging has been completed. It will also show the battery meter in percentage as soon as you turn on the camera for a few seconds.
-The long awaited camera loops so you can attach a lanyard are now available.
-The counter is now an LCD instead of LED, so it will no longer blind you when youre out taking photos at night.
-Updated vintage filter - the colors lean more magenta than green (see sample photos).
-The response between clicking the shutter button and the camera actually taking the photo is so much faster now. I took quite a few photos from a slow moving car, and they didn’t turn out blurry!
-…and of course, much better photo quality that renders the highlights SO. MUCH. BETTER.
-Sample photos
-Photos taken with the new vintage filter, all straight out of the camera with absolutely no edits.
-If you're interested in getting your hands on a Camp Snap, feel free to use CAMP51 at checkout for $5 off your order at campsnapphoto.com. Looks like they're shipping these new cameras now.
-
-
-
-
-
-
-affiliate code.↩]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[the worst thing about depression is indifference]]></title>
-        <id>https://tala.bearblog.dev/the-worst-thing-about-depression-is-indifference/</id>
-        <link href="https://tala.bearblog.dev/the-worst-thing-about-depression-is-indifference/"/>
-        <updated>2024-09-07T18:34:00.000Z</updated>
-        <summary type="html"><![CDATA[When I was first diagnosed with depression, I found myself going down the rabbit hole - Reddit posts from ten years ago, outdated mental health forums, and scattered blogposts written by other people with depression. In a sense, I felt like a pariah compared to my peers, and I was curious how depression manifests in others compared to me, because, despite living with this condition for years, I was clueless about what it was.
-People tend to think that the most telltale sign of depression is sadness, but I discovered depression manifests overwhelmingly different across individuals: those who experience the crushing sadness, those with the intense mood swings, or those with detachment from their lives. There are depressed people who neglect hygiene for days, people who live in messy rooms ov…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
 </feed>
