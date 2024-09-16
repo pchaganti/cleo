@@ -1,10 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-16T12:50:04.756Z</id>
+    <id>urn:2024-09-16T18:33:54.448Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-16T12:50:04.756Z</updated>
+    <updated>2024-09-16T18:33:54.448Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[2:00PM Water Cooler 9/16/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=278732</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/200pm-water-cooler-9-16-2024.html"/>
+        <updated>2024-09-16T18:00:20.000Z</updated>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics ~]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Weekly Roundup: Oracle Database@AWS, Amazon RDS, AWS PrivateLink, Amazon MSK, Amazon EventBridge, Amazon SageMaker and more]]></title>
+        <id>1e2b496c082939ff24646a6cf3fb563215fbbe69</id>
+        <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-oracle-databaseaws-amazon-rds-aws-privatelink-amazon-msk-amazon-eventbridge-amazon-sagemaker-and-more/"/>
+        <updated>2024-09-16T17:32:13.000Z</updated>
+        <summary type="html"><![CDATA[Hello, everyone! It’s been an interesting week full of AWS news as usual, but also full of vibrant faces filling up the rooms in a variety of events happening this month. Let’s start by covering some of the releases that have caught my attention this week. My Top 3 AWS news of the week Amazon […]]]></summary>
+        <author>
+            <name>Matheus Guimaraes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the Second Trump Assassination Attempt: What We Know So Far]]></title>
+        <id>https://www.nakedcapitalism.com/?p=278676</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/on-the-second-trump-assassination-attempt-what-we-know-so-far.html"/>
+        <updated>2024-09-16T14:55:39.000Z</updated>
+        <summary type="html"><![CDATA[Taking another shot.]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vicky Cookies: Naked Capitalism – One of the Few Worthwhile Things]]></title>
+        <id>https://www.nakedcapitalism.com/?p=278656</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/vicky-cookies-naked-capitalism-one-of-the-few-worthwhile-things.html"/>
+        <updated>2024-09-16T13:35:11.000Z</updated>
+        <summary type="html"><![CDATA[Naked Capitalism is a welcome alternative to the often dystopian mainstream media as well as an aid to people's movements everywhere.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[using htmx on bear]]></title>
+        <id>https://jkap.io/using-htmx-on-bear/</id>
+        <link href="https://jkap.io/using-htmx-on-bear/"/>
+        <updated>2024-09-16T13:27:00.000Z</updated>
+        <summary type="html"><![CDATA[over the weekend, i decided i wanted to add a now page to my site. the problem here is that i am bad at remembering to update things (especially more than one thing). in my ideal world, i could have it live update with things like what movies i've watched recently (from letterboxd), tv (trakt, which i don't currently use but maybe should), music (only once i fix my scrobbling setup), books (storygraph), etc etc etc.
+at a glance, you'd assume that bear doesn't support this sort of thing, given its static-approach. i would say that this is a limitation of imagination; you can actually just throw whatever in here, including in the header and footer.
+my first test for this is using htmx to populate a list of recently watched movies (served by a small app at blog-data.jkap.io) on page load. while it's not perfect (i don't love the "loading" flash and layout shift) it was easy to setup and works Well Enough for now.
+when i say easy, i mean it. this is the extent of the code:
+<div hx-get="https://blog-data.jkap.io/letterboxd" hx-trigger="load">
+  <span hx-indicator>loading...</span>
+</div>
+
+you can see it in action on my now page. i'm planning to add more in here over time. just gimme a bit.]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by doix in "How to Succeed in Mr Beast Production (Leaked PDF)"]]></title>
+        <id>https://news.ycombinator.com/item?id=41555216</id>
+        <link href="https://news.ycombinator.com/item?id=41555216"/>
+        <updated>2024-09-16T12:09:25.000Z</updated>
+        <summary type="html"><![CDATA[There are lot of comments here disliking MrBeast and what not, but some of the advice can definitely apply to all organizations.
+> Your goal here is to make the best YOUTUBE videos possible. That’s the number one goal of this production company. It’s not to make the best produced videos. Not to make the funniest videos. Not to make the best looking videos. Not the highest quality videos.. It’s to make the best YOUTUBE videos possible.
+Replace "youtube videos" with whatever the company is trying to achieve. I see it all the time in large organizations, where different teams forget what the goal of the company is and instead get hyperfocused on their teams KPI's to the detriment of the company as a whole.
+Lawyers finding problems and trying to stop things from happening instead of finding solutions. Security blocking things and not suggesting alternatives. IT blocking this or that instead of trying solve problems, etc.]]></summary>
+        <author>
+            <name>doix</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Links 9/16/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=278663</id>
@@ -131,6 +202,17 @@ The post Childish Fantasies: Age Verification for Social Media Down Under appear
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[What Goes Around, Comes Back Around]]></title>
+        <id>https://www.counterpunch.org/?p=333747</id>
+        <link href="https://www.counterpunch.org/2024/09/16/what-goes-around-comes-back-around/"/>
+        <updated>2024-09-16T05:53:37.000Z</updated>
+        <summary type="html"><![CDATA[Knock, knock!  “Who’s there?” says Donald Trump. “Karma.” “Karma who?” “Karmala Harris.” They say “what goes around comes around” and that surely happened at the presidential debate when Donald Trump got a huge helping of “comes around” served up by Vice President Kamala Harris who, surprise, surprise, isn’t Joe Biden. It couldn’t happen to a  More
+The post What Goes Around, Comes Back Around appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>George Ochenski</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Cats, Childlessness, And The Politics Of Subtraction]]></title>
         <id>https://www.counterpunch.org/?p=333642</id>
         <link href="https://www.counterpunch.org/2024/09/16/cats-childlessness-and-the-politics-of-subtraction/"/>
@@ -198,6 +280,18 @@ You could say that about literally any shady business. Imagine seeing a PDF prov
 Being monetarily successful does not mean you’re good or shouldn’t be criticised.]]></summary>
         <author>
             <name>latexr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by dakiol in "How to Lead Your Team When the House Is on Fire"]]></title>
+        <id>https://news.ycombinator.com/item?id=41550937</id>
+        <link href="https://news.ycombinator.com/item?id=41550937"/>
+        <updated>2024-09-15T22:20:40.000Z</updated>
+        <summary type="html"><![CDATA[It all feels like theatre. Been working in many companies in “war mode” and they all think that in order to become profitable (none of them were) you need to push the most “important” features out of the door asap, otherwise your competitors will eat you alive.
+It’s a lie. Executives and VPs and all those folks that earn 5x what a normal engineer earns, don’t really care about the company they work for. All they care about is to keep receiving the big pay checks until the ship sinks. Obviously you cannot just mandate “normal mode”, otherwise it wouldn’t look as if everyone is doing their best to keep the company afloat.
+I hope in 10 years or so, we’ll see “wartime software engineering” with the same eyes we see today Agile and Scrum masters: snake oil.]]></summary>
+        <author>
+            <name>dakiol</name>
         </author>
     </entry>
     <entry>
@@ -272,6 +366,20 @@ Keep on blogging!]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by mrb in "Bitcoin puzzle #66 was solved: 6.6 BTC (~$400k) withdrawn"]]></title>
+        <id>https://news.ycombinator.com/item?id=41547443</id>
+        <link href="https://news.ycombinator.com/item?id=41547443"/>
+        <updated>2024-09-15T13:40:31.000Z</updated>
+        <summary type="html"><![CDATA[Discussion thread here: https://bitcointalk.org/index.php?topic=1306983.msg64526037#...
+Bitcoin puzzles are private keys with just a few unknown bits so that anyone can bruteforce them to collect a reward. Puzzle 66 contained 66 unknown bits and had 6.6 BTC deposited into it by the initial puzzle creator. The private key was 0x000000000000000000000000000000000000000000000002832ed74f2b5e35ee or 256 bits with mostly zeroes but 66 random ones.
+The next Bitcoin puzzle, #67, has 67 unknown bits, and contains 6.7 BTC up for grabs: https://www.blockchain.com/explorer/addresses/btc/1BY8GQbnue...
+The previous puzzle by order of difficulty was #64 (not #65, because see below) and was solved on 9/9/2022, so about 2 years ago. In other words, it took about 2 years of compute time to run the 2^66 bruteforcing task.
+Puzzles that are multiple of 5 (#65 or #70) are special: they have twice more entropy. So that private key #65 doesn't have 65-bit of entropy but 130-bit of entropy. And the creator of the puzzle intentionally published their public key on the blockchain. When you know the public key, brutetforcing the n-bit private key only requires 2^(n/2) work. So puzzle #65 with a 130-bit key actually require bruteforcing up to only 2^65 keys.]]></summary>
+        <author>
+            <name>mrb</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New Apple Stuff and the Regular People]]></title>
         <id>https://louplummer.lol/new-apple-stuff-and-the-regular-people/</id>
         <link href="https://louplummer.lol/new-apple-stuff-and-the-regular-people/"/>
@@ -287,26 +395,6 @@ The first project I was assigned when …]]></summary>
         <id>https://www.nakedcapitalism.com/?p=278619</id>
         <link href="https://www.nakedcapitalism.com/2024/09/links-9-15-2024.html"/>
         <updated>2024-09-15T10:55:13.000Z</updated>
-        <author>
-            <name>Conor Gallagher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The EU Retreats Further into a World of Self-Delusion]]></title>
-        <id>https://www.nakedcapitalism.com/?p=278635</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/the-eu-retreats-further-into-a-world-of-self-delusion.html"/>
-        <updated>2024-09-15T10:00:10.000Z</updated>
-        <summary type="html"><![CDATA[Mario Draghi calls for Europe, decimated by self-inflicted energy crisis and social austerity, to go on borrowing spree to pay for endless fight against Russia.]]></summary>
-        <author>
-            <name>Conor Gallagher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Harris Can’t Embrace Billionaires if She Wants to Win]]></title>
-        <id>https://www.nakedcapitalism.com/?p=278646</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/harris-cant-embrace-billionaires-if-she-wants-to-win.html"/>
-        <updated>2024-09-15T09:00:37.000Z</updated>
-        <summary type="html"><![CDATA[But has she already embraced them?]]></summary>
         <author>
             <name>Conor Gallagher</name>
         </author>
@@ -342,7 +430,7 @@ The post Hunted by Israeli Tanks and Drones, an English Teacher Protects Her Fam
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by AnarchismIsCool in "Why Scrum Is Stressing You Out"]]></title>
+        <title type="html"><![CDATA[New comment by AnarchismIsCool in "Why Scrum is stressing you out"]]></title>
         <id>https://news.ycombinator.com/item?id=41544698</id>
         <link href="https://news.ycombinator.com/item?id=41544698"/>
         <updated>2024-09-15T02:18:47.000Z</updated>
@@ -432,16 +520,6 @@ side: a lot of people who complain on HN that (paid/good - only Sonnet 3.5 and G
 Many of us who have discovered how to exploit LLMs in their areas of strength -- and know how to check for their mistakes --  often find them providing significant leverage in our work.]]></summary>
         <author>
             <name>wenc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kudos! Met Our Fifth Goal, and on to the Sixth: Expanding Our Reach]]></title>
-        <id>https://www.nakedcapitalism.com/?p=278609</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/kudos-bravo-met-our-fifth-goal-and-on-to-the-sixth-expanding-our-reach.html"/>
-        <updated>2024-09-14T15:03:44.000Z</updated>
-        <summary type="html"><![CDATA[In this hostile media environment, getting the word out about Naked Capitalism is ever more important! Please help fund promoting the site!]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -576,22 +654,6 @@ Honestly with all the hubbub about superintelligence you'd almost think o1 is se
         <summary type="html"><![CDATA[from Lars Syll Few issues in politics and economics are nowadays more discussed — and less understood — than public debt. Many raise their voices to urge for reducing the debt, but few explain why and in what way reducing the debt would be conducive to a better economy or a fairer society. And there […]]]></summary>
         <author>
             <name>Lars Syll</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cocoa turns 13 today]]></title>
-        <id>https://notes.jeddacp.com/cocoa-turns-13-today/</id>
-        <link href="https://notes.jeddacp.com/cocoa-turns-13-today/"/>
-        <updated>2024-09-13T15:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Cocoa Chanel (Probably) is officially a teenager today. It's crazy how fast time flies when you're raising a puppy and grandma all in the same hotdog package.
-13 facts and things I love about Cocoa1
-The way she lights up when she's excited, doing those adorable hoppity hops to express her joy.
-Typically, she grabs her closest toy, runs away, and then circles back when she's excited—her unique way of releasing cute aggression.
-Those little licks (kisses) as she passes by, letting me know she's thinking of me and loves me.
-When we're hanging out on the couch, she always has to be touching me somehow, usually making sure her butt is pressed against me. Bonus points if she's touching both LC and me at the same time.
-The constant smell of Fritos, as if she's working overtime at the Frito factor…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -871,17 +933,6 @@ The post A Personal Meditation on Growing Old appeared first on CounterPunch.org
 The post Don’t Be Bamboozled by Nuclear Power appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Prerna Gupta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nick Kyrgios: The Donald Trump of Tennis]]></title>
-        <id>https://www.counterpunch.org/?p=333294</id>
-        <link href="https://www.counterpunch.org/2024/09/13/nick-kyrgios-the-donald-trump-of-tennis/"/>
-        <updated>2024-09-13T05:50:55.000Z</updated>
-        <summary type="html"><![CDATA[In mid-August, a few days before the US Open kicked off, it was revealed that the number one in the men’s world ranking and the eventual winner of the tournament, Jannik Sinner of Italy, had left two positive doping tests earlier this year. During and shortly after a tournament the ATP (Association of Tennis Professionals)  More
-The post Nick Kyrgios: The Donald Trump of Tennis appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>Gabriel Kuhn</name>
         </author>
     </entry>
     <entry>
@@ -1270,30 +1321,6 @@ Greece]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by dsr_ in "Ask HN: Why is Pave legal?"]]></title>
-        <id>https://news.ycombinator.com/item?id=41513186</id>
-        <link href="https://news.ycombinator.com/item?id=41513186"/>
-        <updated>2024-09-11T16:55:45.000Z</updated>
-        <summary type="html"><![CDATA[You make an excellent argument here for tight regulation of the industry.]]></summary>
-        <author>
-            <name>dsr_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by dghlsakjg in "David Chang on the long, hard, stupid way"]]></title>
-        <id>https://news.ycombinator.com/item?id=41512972</id>
-        <link href="https://news.ycombinator.com/item?id=41512972"/>
-        <updated>2024-09-11T16:36:25.000Z</updated>
-        <summary type="html"><![CDATA[David Chang is a salesman and a businessman first. I get the point being made, but keep in mind that he is a brand, and part of that is the stories he tells.
-He has slapped his name on so many subpar food goods that were a total disappointment that I actually have started avoiding things marketed under his brand name.
-He might do things the hard way in his restaurants, but they certainly aren't ensuring tasty or high quality goods under his brand. I would rather he do things in a way that makes sense and provides the best tasting food.
-More broadly, the point is that you should take advice only from people whose successes you want to emulate. The actual advice I get out of this article is:
-Tell stories that paint the picture you want your customers to have about your product.]]></summary>
-        <author>
-            <name>dghlsakjg</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How the Harris-Trump US presidential debate influenced Internet traffic]]></title>
         <id>4NI7PBab9zePZzucqLYhPh</id>
         <link href="https://blog.cloudflare.com/how-the-harris-trump-us-presidential-debate-influenced-internet-traffic"/>
@@ -1301,17 +1328,6 @@ Tell stories that paint the picture you want your customers to have about your p
         <summary type="html"><![CDATA[See how the first 2024 US presidential debate between Kamala Harris and Donald Trump influenced Internet traffic patterns compared to the Biden-Trump debate. We also review email trends and observed attack activity.]]></summary>
         <author>
             <name>João Tomé</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by wing-_-nuts in "Ask HN: Why is Pave legal?"]]></title>
-        <id>https://news.ycombinator.com/item?id=41512326</id>
-        <link href="https://news.ycombinator.com/item?id=41512326"/>
-        <updated>2024-09-11T15:30:46.000Z</updated>
-        <summary type="html"><![CDATA[I downloaded a personal report from the work number website and found to my horror that my employer was reporting every. single. paystub. gross and net, to equifax.
-That felt like a huge breach of privacy.  Given that equifax had already proven incompetent at keeping my data secure, I immediately sent HR a request to stop sending my supposedly 'confidential' pay info.  They politely told me to kick rocks, so I went on TWN's website and froze that report so no one would be able to request it, and it will be a cold day in hell before I thaw it.]]></summary>
-        <author>
-            <name>wing-_-nuts</name>
         </author>
     </entry>
     <entry>
