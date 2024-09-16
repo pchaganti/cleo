@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-15T18:32:18.480Z</id>
+    <id>urn:2024-09-16T01:54:14.468Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-15T18:32:18.480Z</updated>
+    <updated>2024-09-16T01:54:14.468Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New comment by shalmanese in "How to Succeed in Mr Beast Production (Leaked PDF)"]]></title>
+        <id>https://news.ycombinator.com/item?id=41551180</id>
+        <link href="https://news.ycombinator.com/item?id=41551180"/>
+        <updated>2024-09-15T22:53:46.000Z</updated>
+        <summary type="html"><![CDATA[One distressing trend I've noticed becoming ubiquitous on HN is that any writing that is confronting to a consensus worldview becomes flooded with highly upvoted comments that are, in essence, excuses for why it's not necessary in this instance to re-examine your priors.
+He's making low value content/the culture of the company is horrible/he's a fraud/it's more luck than skill. The actual critiques are personalized to the content and, to one extent or another, valid, but the social purpose of the critiques is universal which is that I felt uncomfortable that reading this might mean I have to re-evaluate my worldview and I'm going to dive into the comment section and upvote all the people telling me actually, I don't have to do that.
+I actually spent over an hour writing 750+ words of my takeaways reading this document and shared it privately with a few founder friends of mine and I briefly considered also posting to share with the community but I took a look at the comments and took a look at what I wrote and decided I didn't have the energy to face the endless onslaught of nitpicks and misunderstandings that are driven, at the end of the day, not by a genuine intellectual desire to reach an understanding, but by the need to prove emotionally that others are not taking this seriously so I don't have to either.
+All I can do is be vague and say I think this was an enormously valuable piece of writing that is worth engaging seriously for what it is as it might change your worldview in several important ways.
+But also my larger meta-point is that there's a now near ubiquitous "sour grapes" attitude that's pervaded HN that makes it an extremely unpleasant place to hold a conversation and people reading should be aware of this systematic bias when reading comments here.]]></summary>
+        <author>
+            <name>shalmanese</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Should the Australian government ban social media access to young Australians?]]></title>
+        <id>https://disassociated.com/?p=8471</id>
+        <link href="https://disassociated.com/should-australian-government-ban-social-media-access-young-australians/"/>
+        <updated>2024-09-15T21:00:17.000Z</updated>
+        <summary type="html"><![CDATA[Last week the Australian federal government announced its intention to restrict access to social media platforms to younger Australians. For now details remain scant. The government is yet to specify an exact age at which young Australians would be able to begin using social media. The Prime Minister, Anthony Albanese, however has indicated somewhere between […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mark Ames:  Why Finance Is Too Important to Leave to Larry Summers]]></title>
         <id>https://www.nakedcapitalism.com/?p=278581</id>
@@ -35,6 +59,17 @@ It should work no matter where you are.
 It should be easy to go from writing to publishing.
 We live in a time of almost unlimited possibilities. Take this opportunity to play around. Find a setup that suits you, and don't be afraid to try new methods.
 Keep on blogging!]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Apple Stuff and the Regular People]]></title>
+        <id>https://louplummer.lol/new-apple-stuff-and-the-regular-people/</id>
+        <link href="https://louplummer.lol/new-apple-stuff-and-the-regular-people/"/>
+        <updated>2024-09-15T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[I'm looking forward to the annual release of new operating systems for my Apple gear in a couple of days. I don't have extra computers and phones lying around like some folks do, so I avoid installing beta editions of the software on my devices, content to following along in the news as new features are trotted out and perfected in  the period between the June announcement and the fall release of the final product. The majority of iPhone users and Mac owners have no idea what's coming though. They are going to wake up on Monday to an unwelcome notification that there is an update available. Many of them will ask their techie friends (like you) if there is a way to make the update notification go away. They will want to know if they have to install it.
+The first project I was assigned when …]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
@@ -317,19 +352,6 @@ My mother was the daughter of a tobacco farmer in Southeast North Carolina. She 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by haileys in "Techniques I use to create a great user experience for shell scripts"]]></title>
-        <id>https://news.ycombinator.com/item?id=41536036</id>
-        <link href="https://news.ycombinator.com/item?id=41536036"/>
-        <updated>2024-09-13T23:14:03.000Z</updated>
-        <summary type="html"><![CDATA[Don't output ANSI colour codes directly - your output could redirect to a file, or perhaps the user simply prefers no colour. Use tput instead, and add a little snippet like this to the top of your script:
-    command -v tput &>/dev/null && [ -t 1 ] && [ -z "${NO_COLOR:-}" ] || tput() { true; }
-
-This little snippet of setup lets you sprinkle tput invocations through your script knowing that it's going to do the right thing in any situation.]]></summary>
-        <author>
-            <name>haileys</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by st3fan in "CrowdStrike ex-employees: 'Quality control was not part of our process'"]]></title>
         <id>https://news.ycombinator.com/item?id=41535901</id>
         <link href="https://news.ycombinator.com/item?id=41535901"/>
@@ -396,22 +418,6 @@ Honestly with all the hubbub about superintelligence you'd almost think o1 is se
         <summary type="html"><![CDATA[from Lars Syll Few issues in politics and economics are nowadays more discussed — and less understood — than public debt. Many raise their voices to urge for reducing the debt, but few explain why and in what way reducing the debt would be conducive to a better economy or a fairer society. And there […]]]></summary>
         <author>
             <name>Lars Syll</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cocoa turns 13 today]]></title>
-        <id>https://notes.jeddacp.com/cocoa-turns-13-today/</id>
-        <link href="https://notes.jeddacp.com/cocoa-turns-13-today/"/>
-        <updated>2024-09-13T15:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Cocoa Chanel (Probably) is officially a teenager today. It's crazy how fast time flies when you're raising a puppy and grandma all in the same hotdog package.
-13 facts and things I love about Cocoa1
-The way she lights up when she's excited, doing those adorable hoppity hops to express her joy.
-Typically, she grabs her closest toy, runs away, and then circles back when she's excited—her unique way of releasing cute aggression.
-Those little licks (kisses) as she passes by, letting me know she's thinking of me and loves me.
-When we're hanging out on the couch, she always has to be touching me somehow, usually making sure her butt is pressed against me. Bonus points if she's touching both LC and me at the same time.
-The constant smell of Fritos, as if she's working overtime at the Frito factor…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -1650,16 +1656,6 @@ Source: https://movementsarchive.org/doku.php?id=en:leaflets:anarxikospirinas:an
         <summary type="html"><![CDATA[The Federal Reserve’s dilemma.]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tomorrow’s Canvas | Writing Competition]]></title>
-        <id>https://medium.com/p/968ae3a68f1d</id>
-        <link href="https://alibaba-cloud.medium.com/tomorrows-canvas-writing-competition-968ae3a68f1d?source=rss-8cdb52f9cdca------2"/>
-        <updated>2024-09-09T10:31:26.000Z</updated>
-        <summary type="html"><![CDATA[The Alibaba Cloud Blog team are inviting you to share your insights into how AI will transform our futures.]]></summary>
-        <author>
-            <name>Alibaba Cloud</name>
         </author>
     </entry>
 </feed>
