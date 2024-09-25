@@ -40,26 +40,6 @@
           "wordCount": 1426,
           "title": "AWS named as a Leader in the 2024 Gartner Magic Quadrant for Desktop as a Service (DaaS)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/08/29/DaaS-blog-feat-img.png"
-        },
-        {
-          "id": "7812a543b049dc928be3d9f6c4a97e0231eb9baa",
-          "author": "Jeff Barr",
-          "description": "New memory-optimized X8g instances offer up to 3 TiB DDR5 memory, 192 vCPUs, and 50 Gbps network bandwidth, designed for memory-intensive workloads like databases, analytics, and caching with unparalleled price/performance and efficiency.",
-          "link": "https://aws.amazon.com/blogs/aws/now-available-graviton4-powered-memory-optimized-amazon-ec2-x8g-instances/",
-          "publishedOn": "2024-09-18T19:46:35.000Z",
-          "wordCount": 1651,
-          "title": "Now available: Graviton4-powered memory-optimized Amazon EC2 X8g instances",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/08/29/Graviton-blog-feat-img.png"
-        },
-        {
-          "id": "985360e0d64907d9a064c7b368f96ac8e90b72b5",
-          "author": "Betty Zheng (郑予彬)",
-          "description": "Gain indispensable data engineering expertise through a hands-on specialization by DeepLearning.AI and AWS. This professional certificate covers ingestion, storage, querying, modeling, and more.",
-          "link": "https://aws.amazon.com/blogs/aws/data-engineering-professional-certificate-new-hands-on-specialization-by-deeplearning-ai-and-aws/",
-          "publishedOn": "2024-09-18T18:50:29.000Z",
-          "wordCount": 2024,
-          "title": "Data engineering professional certificate: New hands-on specialization by DeepLearning.AI and AWS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/08/26/V2_-AWS-deep-learning-blog-img-1260x630.png"
         }
       ]
     },
@@ -79,24 +59,24 @@
       "title": "AWS DevOps & Developer Productivity Blog",
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
-      "articles": []
+      "articles": [
+        {
+          "id": "732e837a33a0bac22b031107313b5c620ea3746f",
+          "author": "Piyush Mattoo",
+          "description": "Many AWS customers run their mission-critical workloads across multiple AWS regions to serve geographically dispersed customer base, meet disaster recovery objectives or address local laws and regulations. Amazon CodeCatalyst is a unified software development service designed to streamline and accelerate the process of building and delivering applications on AWS. It is an all-in-one platform for […]",
+          "link": "https://aws.amazon.com/blogs/devops/amazon-ecs-multi-region-deployment-with-amazon-codecatalyst/",
+          "publishedOn": "2024-09-25T11:13:52.000Z",
+          "wordCount": 3376,
+          "title": "Amazon ECS Multi-region Deployment with Amazon CodeCatalyst",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/09/25/featured-image-template-1120x630.png"
+        }
+      ]
     },
     {
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://techblog.netflix.com/feeds/posts/default",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/1ea8a0a11b30",
-          "author": "Netflix Technology Blog",
-          "description": "Vidhya Arvind, Rajasekhar Ummadisetty, Joey Lynch, Vinay Chella",
-          "link": "https://netflixtechblog.com/introducing-netflixs-key-value-data-abstraction-layer-1ea8a0a11b30?source=rss----2615bd06b42e---4",
-          "publishedOn": "2024-09-18T22:49:04.000Z",
-          "wordCount": 6628,
-          "title": "Introducing Netflix’s Key-Value Data Abstraction Layer",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:755/0*9Ny8Uc-diSDnVGnk"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Spotify Engineering",
@@ -464,12 +444,22 @@
       "siteUrl": "https://libertystreeteconomics.newyorkfed.org/",
       "articles": [
         {
+          "id": "https://libertystreeteconomics.newyorkfed.org/?p=31680",
+          "author": "Kristian Blickle, Evan Perry, and João A.C. Santos",
+          "description": "In support of the National Flood Insurance Program (NFIP), the Federal Emergency Management Agency (FEMA) creates flood maps that indicate areas with high flood risk, where mortgage applicants must buy flood insurance. The effects of flood insurance mandates were discussed in detail in a prior blog series. In 2021 alone, more than $200 billion worth of mortgages were originated in areas covered by a flood map. However, these maps are discrete, whereas the underlying flood risk may be continuous, and they are sometimes outdated. As a result, official flood maps may not fully capture the true flood risk an area faces. In this post, we make use of unique property-level mortgage data and find that in 2021, mortgages worth over $600 billion were originated in areas with high flood risk but no flood map. We examine what types of lenders are aware of this “unmapped” flood risk and how they adjust their lending practices. We find that—on average—lenders are more reluctant to lend in these unmapped yet risky regions. Those that do, such as nonbanks, are more aggressive at securitizing and selling off risky loans.",
+          "link": "https://libertystreeteconomics.newyorkfed.org/2024/09/flood-risk-outside-flood-zones-a-look-at-mortgage-lending-in-risky-areas/",
+          "publishedOn": "2024-09-25T11:00:00.000Z",
+          "wordCount": 4541,
+          "title": "Flood Risk Outside Flood Zones — A Look at Mortgage Lending in Risky Areas",
+          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/09/LSE_2024_flood-risk-outside_blickle_460.jpg"
+        },
+        {
           "id": "https://libertystreeteconomics.newyorkfed.org/?p=31859",
           "author": "Henry Dyer, Michael Fleming, and Or Shachar",
           "description": "Trading activity in benchmark U.S. Treasury securities now concentrates on the last trading day of the month. Moreover, this stepped-up activity is associated with lower transaction costs, as shown by a smaller price impact of trades. We conjecture that increased turn-of-month portfolio rebalancing by passive investment funds that manage relative to fixed-income indices helps explain these patterns.",
           "link": "https://libertystreeteconomics.newyorkfed.org/2024/09/end-of-month-liquidity-in-the-treasury-market/",
           "publishedOn": "2024-09-24T11:00:00.000Z",
-          "wordCount": 4785,
+          "wordCount": 4801,
           "title": "End‑of‑Month Liquidity in the Treasury Market",
           "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/09/LSE_2024_end-of-month_fleming_460.jpg"
         },
@@ -516,7 +506,7 @@
           "description": "from Peter Radford Is it a cult? Is it a guild? Both perhaps? I remember reading sometime not long ago that Steve Levitt was leaving Chicago.  Two things stood out in the article bringing that news:  first, Levitt said he was concerned that economics was becoming irrelevant; second, someone had told him he was not […]",
           "link": "https://rwer.wordpress.com/2024/09/20/rizzo-goes-for-the-guild/",
           "publishedOn": "2024-09-20T14:30:44.000Z",
-          "wordCount": 4984,
+          "wordCount": 4995,
           "title": "Rizzo goes for the guild",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -534,12 +524,52 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=279262",
+          "author": "Yves Smith",
+          "description": "Our dazzling daily links: Poland v. beavers, heebie jeebie pix, long Covid finds, recycling EV batteries? China missile test, moar Starmer wobbles, Israel-Lebanon escalation, Zelensky's lame victory plan, Biden war lust UN speech, Haitan groups sue Trump + Vance, Ellison sentenced, US port strike?",
+          "link": "https://www.nakedcapitalism.com/2024/09/links-9-25-2024.html",
+          "publishedOn": "2024-09-25T10:55:45.000Z",
+          "wordCount": 4918,
+          "title": "Links 9/25/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/00-owl.jpg"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=279299",
+          "author": "Yves Smith",
+          "description": "As the Fed unloads Treasuries, others are purchasing them...including foreign central banks.",
+          "link": "https://www.nakedcapitalism.com/2024/09/who-holds-all-these-us-treasuries-update-on-the-investors-in-the-ballooning-us-national-debt-in-q2.html",
+          "publishedOn": "2024-09-25T10:54:15.000Z",
+          "wordCount": 4285,
+          "title": "Who Holds All These US Treasuries? Update on the Investors in the Ballooning US National Debt in Q2",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/00-Treasuries.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=279295",
+          "author": "Yves Smith",
+          "description": "How afflicted cities are trying to cope with water shortages.",
+          "link": "https://www.nakedcapitalism.com/2024/09/how-cities-run-dry.html",
+          "publishedOn": "2024-09-25T10:36:49.000Z",
+          "wordCount": 3647,
+          "title": "How Cities Run Dry",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/00-water-.webp"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=279293",
+          "author": "Yves Smith",
+          "description": "Debunking Big Pharma whinging over Inflation Reduction Act drug price negotiations.",
+          "link": "https://www.nakedcapitalism.com/2024/09/what-is-a-fair-drug-price.html",
+          "publishedOn": "2024-09-25T10:18:22.000Z",
+          "wordCount": 3547,
+          "title": "What Is a “Fair” Drug Price?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=279264",
           "author": "Lambert Strether",
           "description": "~ Today's Water Cooler: Politics, syndemics; The state of the electoral college; Trump turning populist in the home stretch? Democrats: institutional advantages, political disabilitiesBoeing \"Best And Final Offer\" roundly rejected by machinists ~",
           "link": "https://www.nakedcapitalism.com/2024/09/200pm-water-cooler-9-24-2024.html",
           "publishedOn": "2024-09-24T18:00:40.000Z",
-          "wordCount": 14736,
+          "wordCount": 15287,
           "title": "2:00PM Water Cooler 9/24/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/rcp_2024-09-20.png"
         },
@@ -549,7 +579,7 @@
           "description": "Some updates on the escalating Israel-Lebanon conflict and on the poor state of reporting.",
           "link": "https://www.nakedcapitalism.com/2024/09/fog-of-disinformation-in-escalating-israel-lebanon-conflict.html",
           "publishedOn": "2024-09-24T16:00:45.000Z",
-          "wordCount": 9292,
+          "wordCount": 10172,
           "title": "Fog of (Dis)Information in Escalating Israel-Lebanon Conflict",
           "imageUrl": null
         },
@@ -559,7 +589,7 @@
           "description": "Our driven daily links: snow leopard longevity, high radiation at Los Alamos, ban on China car tech? moar German economic slowdown, pantygate continues, Israel-Lebenon escalation, Zelensky victory plan, Supreme Court leak, AI now laible, Largarde crisis warnings, Marx endures",
           "link": "https://www.nakedcapitalism.com/2024/09/links-9-24-2024.html",
           "publishedOn": "2024-09-24T10:55:51.000Z",
-          "wordCount": 16266,
+          "wordCount": 16817,
           "title": "Links 9/24/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/Screen-Shot-2024-09-24-at-3.55.10-PM.png"
         },
@@ -569,7 +599,7 @@
           "description": "Amid rising diplomatic tensions with the US, Mexico's diplomatic and economic relations with China appear to be going from strength to strength.",
           "link": "https://www.nakedcapitalism.com/2024/09/beijing-and-mexico-focus-on-deepening-cooperation-as-bilateral-trade-surges-to-record-levels.html",
           "publishedOn": "2024-09-24T10:45:35.000Z",
-          "wordCount": 7337,
+          "wordCount": 7336,
           "title": "China and Mexico Seek to Deepen Cooperation As Bilateral Trade Surges to Record Levels",
           "imageUrl": "https://th.bing.com/th/id/OIP.1zOEF9IZetJCYyKKarhs3AHaFf?w=242&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
         },
@@ -579,7 +609,7 @@
           "description": "S&P: “The “reacceleration of inflation” suggests “the Fed cannot totally shift its focus away from its inflation target.”",
           "link": "https://www.nakedcapitalism.com/2024/09/days-after-rate-cut-sps-flash-pmi-sees-rising-inflation-and-exhorts-the-fed-to-move-cautiously-with-further-rate-cuts.html",
           "publishedOn": "2024-09-24T09:55:02.000Z",
-          "wordCount": 4080,
+          "wordCount": 4079,
           "title": "Days After Rate Cut, S&P’s Flash PMI Sees Rising Inflation and Exhorts the Fed to “Move Cautiously” with “Further Rate Cuts”",
           "imageUrl": null
         },
@@ -589,49 +619,9 @@
           "description": "A look at how chronic disease by age and income cohort affects health inequality.",
           "link": "https://www.nakedcapitalism.com/2024/09/closing-the-health-gap-how-chronic-illness-drives-health-inequality-early-on.html",
           "publishedOn": "2024-09-24T09:50:43.000Z",
-          "wordCount": 4146,
+          "wordCount": 4145,
           "title": "Closing the Health Gap: How Chronic Illness Drives Health Inequality Early On",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/00-chronic.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=279230",
-          "author": "Lambert Strether",
-          "description": "~ Today's Water Cooler: Politics, syndemics; Latest on Trump assassinations; there's now a price on Trump's head; Spooks move toward authenticating election outcomes; Latest on MI, MT, NC, PA, etc.; Boeing $30 billion share issue to solve its $10 billion cash crunch? ~",
-          "link": "https://www.nakedcapitalism.com/2024/09/200pm-water-cooler-9-23-2024.html",
-          "publishedOn": "2024-09-23T18:00:04.000Z",
-          "wordCount": 19673,
-          "title": "2:00PM Water Cooler 9/23/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/routh_letter.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=279212",
-          "author": "Lambert Strether",
-          "description": "DeSmog re-launches investigative series to track agribusiness’ influence over climate and nature policy in a critical year for decisions on the future of food and farming.",
-          "link": "https://www.nakedcapitalism.com/2024/09/big-ags-road-to-brazil.html",
-          "publishedOn": "2024-09-23T13:55:41.000Z",
-          "wordCount": 4114,
-          "title": "Big Ag’s Road to Brazil",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=279198",
-          "author": "Lambert Strether",
-          "description": "Our balanced daily links",
-          "link": "https://www.nakedcapitalism.com/2024/09/links-9-23-2024.html",
-          "publishedOn": "2024-09-23T10:58:55.000Z",
-          "wordCount": 14622,
-          "title": "Links 9/23/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/Goliath_Heron.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=279186",
-          "author": "Yves Smith",
-          "description": "The Fed's half point rate reduction was unseemly large. What gives?",
-          "link": "https://www.nakedcapitalism.com/2024/09/the-feds-reactive-looking-half-point-rate-cut.html",
-          "publishedOn": "2024-09-23T10:54:43.000Z",
-          "wordCount": 9285,
-          "title": "The Fed’s Reactive-Looking Half-Point Rate Cut",
-          "imageUrl": null
         }
       ]
     },
@@ -646,7 +636,7 @@
           "description": "Today, we are taking some big steps forward in our mission to help build a better Internet. Cloudflare is giving everyone free access to 10+ different website and network security products and features.",
           "link": "https://blog.cloudflare.com/a-safer-internet-with-cloudflare",
           "publishedOn": "2024-09-24T13:00:00.000Z",
-          "wordCount": 3194,
+          "wordCount": 3244,
           "title": "A safer Internet with Cloudflare: free threat intelligence, analytics, and new threat detections",
           "imageUrl": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/XnNxePLKdNSOFCHnO9vQ9/642c59a62667d3c81915d6a5f68c9c85/A_safer_Internet_with_Cloudflare-_free_threat_intelligence__analytics__and_new_threat_detections-OG.png"
         },
@@ -656,7 +646,7 @@
           "description": "Cloudflare is extending the use of our public DNS resolver through partnering with ISPs and network providers to deliver a safer browsing experience directly to families. Join us in protecting every Internet user from unsafe content with the click of a button, powered by 1.1.1.1 for Families.",
           "link": "https://blog.cloudflare.com/safer-resolver",
           "publishedOn": "2024-09-24T13:00:00.000Z",
-          "wordCount": 1726,
+          "wordCount": 1735,
           "title": "Cloudflare partners with Internet Service Providers and network equipment providers to deliver a safer browsing experience to millions of homes",
           "imageUrl": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/1jC49BsSZPd7VLkqEIFuxf/3153c9155a65579ea0118ad3b255deb1/Cloudflare_partners_with_Internet_Service_Providers_and_network_equipment_providers_to_deliver_a_safer_browsing_experience_t.png"
         },
@@ -666,7 +656,7 @@
           "description": "The Cloudflare Terraform provider used to be manually maintained. With the help of our existing OpenAPI code generation pipeline, we’re now automatically generating the provider for better endpoint and attribute coverage, faster updates when new products are announced and a new API documentation site to top it all off. Read on to see how we pulled it all together.",
           "link": "https://blog.cloudflare.com/automatically-generating-cloudflares-terraform-provider",
           "publishedOn": "2024-09-24T13:00:00.000Z",
-          "wordCount": 3485,
+          "wordCount": 3486,
           "title": "Automatically generating Cloudflare’s Terraform provider",
           "imageUrl": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/2jMU7eEhUq17urGaWaoNmk/e48e3863a88636afb308649452f4c38f/Automatically_generating_Cloudflare_s_Terraform_provider-OG.png"
         },
@@ -773,7 +763,7 @@
           "description": "Capital One is proud to support USC’s Stimulating STEM Summer Program to promote STEM education among underrepresented students.",
           "link": "https://medium.com/capital-one-tech/supporting-the-stimulating-stem-summer-program-at-usc-5d18c4782911?source=rss----3db3a67cb648---4",
           "publishedOn": "2024-09-24T18:13:19.000Z",
-          "wordCount": 2372,
+          "wordCount": 2371,
           "title": "Supporting the Stimulating STEM Summer Program at USC",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*F2YX19xVJeeZTwsn.png"
         }
@@ -790,7 +780,7 @@
           "description": "After a lot of hard work, you’ve landed that coveted internship. Now comes the next big challenge: delivering a meaningful project over the summer. Leading a project independently is an opportunity to sharpen your skills, demonstrate your capabilities, and experience personal growth. As you drive the project on your own, the support from your mentor […]\nThe post Driving a Project: Intern Edition appeared first on Slack Engineering.",
           "link": "https://slack.engineering/driving-a-project-intern-edition/",
           "publishedOn": "2024-09-23T07:00:03.000Z",
-          "wordCount": 1913,
+          "wordCount": 1916,
           "title": "Driving a Project: Intern Edition",
           "imageUrl": "https://slack.engineering/wp-content/uploads/sites/7/2024/09/sravya.jpeg?w=640"
         }
@@ -836,7 +826,7 @@
           "description": "Is anyone at Google even aware how much this hurts their brand?\nI received an email from Google today with the subject line \"Meet the new Google TV Streamer (4K)\"\nThe sender was Google Chromecast. Apparently it's some sort of streaming hardware they are selling for £99.\nI won't even consider buying one. How long until it's an obsolete brick? And when it's a brick, what are the chances I can wipe it and install my own software on it? Probably zero.\nNo thanks, Google. You've blotched your copybook too many times.",
           "link": "https://news.ycombinator.com/item?id=41641134",
           "publishedOn": "2024-09-24T21:27:19.000Z",
-          "wordCount": 5528,
+          "wordCount": 6225,
           "title": "New comment by jjbinx007 in \"Google Cache is fully dead\"",
           "imageUrl": null
         },
@@ -846,7 +836,7 @@
           "description": "I always thought this was a stupid restriction.  \nYou can't view the post while authenticated but you can view the post while unauthenticated.",
           "link": "https://news.ycombinator.com/item?id=41633688",
           "publishedOn": "2024-09-24T06:42:04.000Z",
-          "wordCount": 5697,
+          "wordCount": null,
           "title": "New comment by nicexe in \"Twitter/X will let people you've blocked see your posts\"",
           "imageUrl": null
         },
@@ -866,7 +856,7 @@
           "description": "Hey HN, we recently fine-tuned the llama3.1 405B model on 8xAMD MI300x GPUs using JAX instead of PyTorch. JAX's advanced sharding APIs allowed us to achieve great performance. Check out our blog post to learn about the cool sharding tricks we used. We've also open-sourced the code: https://github.com/felafax/felafax\nWe're a small startup building AI infra for fine-tuning and serving LLMs on non-NVIDIA hardware (TPUs, AMD, Trainium).\nProblem: Many companies are trying to get PyTorch working on AMD GPUs, but we believe this is a treacherous path. PyTorch is deeply intertwined with the NVIDIA ecosystem in a lot of ways (e.g., `torch.cuda` or scaled_dot_product_attention is an NVIDIA CUDA kernel exposed as a PyTorch function). So, to get PyTorch code running on non-NVIDIA hardware, there's a lot of \"de-NVIDIAfying\" that needs to be done.\nSolution: We believe JAX is a better fit for non-NVIDIA hardware. In JAX, ML model code compiles to hardware-independent HLO graphs, which are then optimized by the XLA compiler before hardware-specific optimization. This clean separation allowed us to run the same LLaMA3 JAX code both on Google TPUs and AMD GPUs with no changes.\nOur strategy as a company is to invest upfront in porting models to JAX, then leverage its framework and XLA kernels to extract maximum performance from non-NVIDIA backends. This is why we first ported Llama 3.1 from PyTorch to JAX, and now the same JAX model works great on TPUs and runs perfectly on AMD GPUs.\nWe'd love to hear your thoughts on our vision and repo!",
           "link": "https://news.ycombinator.com/item?id=41631152",
           "publishedOn": "2024-09-23T22:14:40.000Z",
-          "wordCount": 3542,
+          "wordCount": null,
           "title": "New comment by felarof in \"We fine-tuned Llama 405B on AMD GPUs\"",
           "imageUrl": null
         },
@@ -886,7 +876,7 @@
           "description": "I know that this is a website for startups, but looking at art that people enjoy and put their soul into and thinking \"how can I extract profit from this\" I think is actually close to a mental illness.\nI understand that commodification is inevitable (and yes anime is already a soulless business), but goddamn if it doesn't look like some form of neurosis. It's like walking into an old growth forest and seeing the potential for a toothpick factory.",
           "link": "https://news.ycombinator.com/item?id=41630264",
           "publishedOn": "2024-09-23T20:39:14.000Z",
-          "wordCount": 2086,
+          "wordCount": null,
           "title": "New comment by wormlord in \"Anime is eating the world\"",
           "imageUrl": null
         },
@@ -896,7 +886,7 @@
           "description": "I love articles like this. I feel like too often in science education (at least my science education) that laws and theories are presented as just something that you need to memorize, when in my opinion the stories of how things were originally discovered and figured out is eminently more fascinating and inspiring. Like I remember having to learn all of these biochemical pathways, but I left school with nary a clue as to how these pathways were uncovered in the first place.\nThanks for submitting! Would welcome suggestions for any other publications on how scientific theories were first discovered.",
           "link": "https://news.ycombinator.com/item?id=41630034",
           "publishedOn": "2024-09-23T20:17:57.000Z",
-          "wordCount": null,
+          "wordCount": 3424,
           "title": "New comment by hn_throwaway_99 in \"In 1870, Lord Rayleigh used oil and water to calculate the size of molecules\"",
           "imageUrl": null
         },
@@ -906,7 +896,7 @@
           "description": "> If we want to put AI into the hands of as many people as possible, we need to drive down the cost of compute and make it abundant (which requires lots of energy and chips). If we don’t build enough infrastructure, AI will be a very limited resource that wars get fought over and that becomes mostly a tool for rich people.\nTranslation for the rest of us: \"we need to fully privatize the OA subsidiary and turn it into a B-corp which can raise a lot more capital over the next decade, in order to achieve the goals of the nonprofit, because the chief threat is not anything like existential risk from autonomous agents in the next few years or arms races, but inadequate commercialization due to fundraising constraints\".",
           "link": "https://news.ycombinator.com/item?id=41629493",
           "publishedOn": "2024-09-23T19:11:01.000Z",
-          "wordCount": 3618,
+          "wordCount": null,
           "title": "New comment by gwern in \"The Intelligence Age\"",
           "imageUrl": null
         },
@@ -916,8 +906,18 @@
           "description": "Common Crawl is shown in their screen shot of \"Providers\" along side OpenAI and Antropic. The challenge is that Common Crawl is used for a lot of things that are not AI training. For example, it's a major source of content for the Wayback machine.\nIn fact, that's the entire point of the Common Crawl project. Instead of dozens of companies writing and running their (poorly) designed crawlers and hitting everyone's site, Common Crawl runs once and exposes the data in industry standard formats like WARC for other consumers. Their crawler is quite well behaved (exponential backoff, obeys Crawl-Delay, will use SiteMaps.xml to know when to revisit, follows Robots.txt, etc.).\nThere are significant knock-on effects if CloudFlare starts (literally) gatekeeping content. This feels like a step down the path to a world where the majority of websites use sophisticated security products that gatekeep access to those who pay and those who don't, and that applied whether they are bots or people.",
           "link": "https://news.ycombinator.com/item?id=41626660",
           "publishedOn": "2024-09-23T14:39:48.000Z",
-          "wordCount": 10993,
+          "wordCount": null,
           "title": "New comment by billyhoffman in \"Cloudflare's new marketplace lets websites charge AI bots for scraping\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=41624724",
+          "author": "nicbou",
+          "description": "I love just how committed this website is to its mission. It extends beyond content and tools, into influencing policy. They are doing good and being successful at it. It’s a template I hope to reproduce at a much smaller scale in my industry.",
+          "link": "https://news.ycombinator.com/item?id=41624724",
+          "publishedOn": "2024-09-23T11:05:37.000Z",
+          "wordCount": 228,
+          "title": "New comment by nicbou in \"How the iPhone 16's electrically-released adhesive works\"",
           "imageUrl": null
         },
         {
@@ -936,7 +936,7 @@
           "description": "> Is this what the peak ordering experience looks like?\nCall me old-fashioned, but to me the peak experience is a paper menu to choose from, and a waiter that patiently takes the order. Far prefer that to everyone at the table fiddling on their phones in some weird-ass website or even god forbid custom app.",
           "link": "https://news.ycombinator.com/item?id=41623005",
           "publishedOn": "2024-09-23T06:43:30.000Z",
-          "wordCount": 11307,
+          "wordCount": 11369,
           "title": "New comment by rapnie in \"What's inside the QR code menu at this cafe?\"",
           "imageUrl": null
         },
@@ -946,7 +946,7 @@
           "description": "Love this. Years ago I hand-wired a CPU that natively executes Brainfuck code: https://youtube.com/watch?v=q8G2fWprwyo\nMight have to test some of these :)",
           "link": "https://news.ycombinator.com/item?id=41622325",
           "publishedOn": "2024-09-23T04:08:53.000Z",
-          "wordCount": 190,
+          "wordCount": null,
           "title": "New comment by jfktrey in \"Brainfuck Enterprise Solutions\"",
           "imageUrl": null
         },
@@ -956,7 +956,7 @@
           "description": "Anecdotal, but it seems like all the people who “build in public” end up trapped by their chosen distribution strategy.\nWhat I mean by this is, if you’re building in public there’s a 99% chance you’re going to end up building products for other indiehackers who are interested in following people who build in public.\nThis means you’re probably going to end up building yet another micro-Saas dev tool (Saas boilerplate, incident monitoring, etc) or growth hacking tool (for social media, SEO, cold email, AI content, etc).\nAnd you’ll probably get modest success fast, since indiehackers like tools that help them indiehack and if they follow you on social media to hear stories of how they can get rich quick, they’ll definitely buy a product from you promising to help them do that.\nHowever, I think you’ll struggle to ever “cross the chasm” so to speak into building a company that’s bigger than whatever online personality you build (no mass markets or low churn businesses without pyramid scheme dynamics).",
           "link": "https://news.ycombinator.com/item?id=41619113",
           "publishedOn": "2024-09-22T18:56:54.000Z",
-          "wordCount": 2207,
+          "wordCount": null,
           "title": "New comment by pembrook in \"Does “building in public” work?\"",
           "imageUrl": null
         },
@@ -966,7 +966,7 @@
           "description": "It’s beating a dead horse at this point, but private health insurance is quite possibly the worst middleman I have ever dealt with.\nThey not only make the patients life worse but the doctors and hospitals as well. Dealing with insurance means small practices need a dedicated office staff to file the right paperwork and get paid for each patient visit.",
           "link": "https://news.ycombinator.com/item?id=41618353",
           "publishedOn": "2024-09-22T17:08:39.000Z",
-          "wordCount": 5250,
+          "wordCount": null,
           "title": "New comment by xyst in \"'I Don't Want to Die.' He needed mental health care. He found a ghost network\"",
           "imageUrl": null
         },
@@ -986,7 +986,7 @@
           "description": "Nextcloud is a nightmare.\nFirst if all, it wants to do everything and does none well (or better than specialized apps)\nIts internals are a shitshow - a question about getting the real IP of the calling client raised a 10 pages discussion where people said \"it works\" and other days \"it does not\". The \"solution\" required you to change a volatile setting within the docker container (and do it again when the container changes)\nFinally the upgrade is insane. I once tried to upgrade my installation, was told that n+2 upgrades are not possible (fair enough) and ... the installer destroyed the database. What a piece of crap. Thanks god for backups.",
           "link": "https://news.ycombinator.com/item?id=41616422",
           "publishedOn": "2024-09-22T11:55:20.000Z",
-          "wordCount": 5948,
+          "wordCount": null,
           "title": "New comment by BrandoElFollito in \"Nextcloud: Open-Source Cloud Apps\"",
           "imageUrl": null
         },
@@ -1026,7 +1026,7 @@
           "description": "I think this somewhat misses an important nuance. Japanese PCs had to be different early on because of the complexities of the written language. All of the important characters could be handled in just a few bits (7 or 8) and low resolution in Western markets, with different fonts and character maps dropped in to support a few different alphabets.\nBut in CJK countries, things were much harder and the entire I/O system had to be significantly more capable than what might pass for usable elsewhere. This meant larger ROMs, larger framebuffers, higher resolution displays, more complex keyboarding systems, the works. Everything was harder and more expensive for a long time. A common add-on was ROMs with Kanji (Chinese derived characters) support in the same way a person in the West might buy a …",
           "link": "https://news.ycombinator.com/item?id=41613380",
           "publishedOn": "2024-09-21T23:21:13.000Z",
-          "wordCount": 3717,
+          "wordCount": null,
           "title": "New comment by bane in \"What happened to the Japanese PC platforms?\"",
           "imageUrl": null
         },
@@ -1046,7 +1046,7 @@
           "description": "For anyone who hasn't tried local models because they think it's too complicated or their computer can't handle it, download a single llamafile and try it out in just moments.\nhttps://future.mozilla.org/builders/news_insights/introducin...\nhttps://github.com/Mozilla-Ocho/llamafile\nThey even have whisperfiles now, which is the same thing but for whisper.cpp, aka real-time voice transcription.\nYou can also take this a step further and use this exact setup for a local-only co-pilot style code autocomplete and chat using Twinny. I use this every day. It's free, private, and offline.\nhttps://github.com/twinnydotdev/twinny\nLocal LLMs are the only future worth living in.",
           "link": "https://news.ycombinator.com/item?id=41611109",
           "publishedOn": "2024-09-21T16:48:16.000Z",
-          "wordCount": 5307,
+          "wordCount": null,
           "title": "New comment by noman-land in \"Forget ChatGPT: why researchers now run small AIs on their laptops\"",
           "imageUrl": null
         },
@@ -1056,7 +1056,7 @@
           "description": "Don't be discouraged by all the people in this thread saying you're using make wrong. One of the things that makes make a great tool is how deceptively simple it is. Yes not using .PHONY can potentially get you in trouble. But for a small project that's the sort of trap you'll fall into a year later, if at all, and even then you'll only be scratching your head for an hour. 99% of the time you don't have to care about doing things the proper way. Make lets you just hit the ground running and only imposes as much complexity as you need to keep the thing from falling apart.",
           "link": "https://news.ycombinator.com/item?id=41607792",
           "publishedOn": "2024-09-21T05:48:33.000Z",
-          "wordCount": 5230,
+          "wordCount": null,
           "title": "New comment by jart in \"I Like Makefiles\"",
           "imageUrl": null
         },
@@ -1066,7 +1066,7 @@
           "description": "Kubernetes is planned - my devops wants me to add it badly!\nAuthor note - Most of you guys here are power users, for whom UI is a visual poem that you need or not.\nThis is not a commercial project, it is not following any business goals.\nBut this does not mean concessions to quality, it does try to offer minimal resource usage everywhere, easy experience, good UI/UX.\nIt explains all it does behind the scenes if you enable the developer console.\nIt can help one learn so at a certain moment one understands and automates with scripts and specs.\nBut everyone these days is either seen as too smart or too dumb, I don't consider users like this. I know everyone started somewhere and a gradual learning experience is the best.\nI broke so many radios and toys when I was a kid and I learned so much, by looking at what was is inside.\nIt is a project done by one dude, after work and when it rains outside (In Belgium it rains a lot).",
           "link": "https://news.ycombinator.com/item?id=41605256",
           "publishedOn": "2024-09-20T20:23:48.000Z",
-          "wordCount": 3403,
+          "wordCount": 3425,
           "title": "New comment by istoica in \"Show HN: Container Desktop – Podman Desktop Companion\"",
           "imageUrl": null
         },
@@ -1086,7 +1086,7 @@
           "description": "I’m Hursh, cofounder and CTO of The Browser Company (the company that makes Arc). Even though no users were affected and we patched it right away, the hypothetical depth of this vulnerability is unacceptable. We’ve written up some technical details and how we’ll improve in the future (including moving off Firebase and setting up a proper bug bounty program) here: https://arc.net/blog/CVE-2024-45489-incident-response.\nI'm really sorry about this, both the vuln itself and the delayed comms around it, and really appreciate all the feedback here – everything from disappointment to outrage to encouragement. It holds us accountable to do better, and makes sure we prioritize this moving forward. Thank you so much.",
           "link": "https://news.ycombinator.com/item?id=41603670",
           "publishedOn": "2024-09-20T16:47:11.000Z",
-          "wordCount": 7476,
+          "wordCount": null,
           "title": "New comment by ha470 in \"Gaining access to anyones Arc browser without them even visiting a website\"",
           "imageUrl": null
         },
@@ -1096,18 +1096,8 @@
           "description": "According to this article, Arc requires an account and sends  Google's Firebase the hostname of every page you visit along with your user ID. Does this make Arc the least private web browser currently being used?",
           "link": "https://news.ycombinator.com/item?id=41599934",
           "publishedOn": "2024-09-20T08:26:43.000Z",
-          "wordCount": null,
+          "wordCount": 952,
           "title": "New comment by Borgz in \"Gaining access to anyones Arc browser without them even visiting a website\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41598559",
-          "author": "tomhoward",
-          "description": "It's called \"virtual interlining\".\nThe startup I co-founded (Adioso - YC W09 [1]) tried to do it, including having discussions with a travel insurance provider about offering \"layover protection\" -  so that if one leg was delayed causing you to miss your onward leg(s), your costs are covered.  Kiwi.com does this now.\nWe worked on it from about 2008 till 2013 then basically gave up, as it was too hard to offer a service that customers could really love and trust. (It wasn't for nought; the technology we developed was valuable, and the company was able to rebrand and pivot and now does important work for airlines to optimise loads and fares [2], though I left when the rebrand/pivot happened).\nThe thing that makes it hard to do is it's basically impossible to get all the flight inventory, inc…",
-          "link": "https://news.ycombinator.com/item?id=41598559",
-          "publishedOn": "2024-09-20T03:34:54.000Z",
-          "wordCount": 4582,
-          "title": "New comment by tomhoward in \"A flight search engine that combines flights from different airlines? (2014)\"",
           "imageUrl": null
         },
         {
@@ -1116,7 +1106,7 @@
           "description": "I just wanted to say, I enjoyed the little pixel art cat that runs towards wherever you click immensely. It’s one of those fun, whimsical little touches that I don’t see all that often. A reminder that the internet can be a fun, whimsical place if we want it to be :)",
           "link": "https://news.ycombinator.com/item?id=41598540",
           "publishedOn": "2024-09-20T03:30:54.000Z",
-          "wordCount": null,
+          "wordCount": 844,
           "title": "New comment by water-data-dude in \"Gaining access to anyones Arc browser without them even visiting a website\"",
           "imageUrl": null
         },
@@ -1143,7 +1133,7 @@
           "description": "I was going to write this super cool music thread with more songs in there than an Erik Loomis “I took time off writing my 1600th American grave post and 547th this day in labor history series to write a 27-part ‘I chance to have been listening to these songs,'” post where I talked about […]",
           "link": "https://crookedtimber.org/2024/09/25/final-choruses-and-outros-apparently/",
           "publishedOn": "2024-09-25T06:19:00.000Z",
-          "wordCount": 2519,
+          "wordCount": 2855,
           "title": "Final Choruses and Outros Apparently",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1153,7 +1143,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/09/22/sunday-photoblogging-fountains-in-altona/",
           "publishedOn": "2024-09-22T06:17:38.000Z",
-          "wordCount": 1849,
+          "wordCount": 1843,
           "title": "Sunday photoblogging: fountains in Altona",
           "imageUrl": "https://live.staticflickr.com/65535/54001419506_70794129d1.jpg"
         },
@@ -1163,7 +1153,7 @@
           "description": "Every few years the UN publishes one of these big papers on “world population prospects”, which are… exactly what they sound like: a best guess at what’s going to happen with the world’s population over the next few decades. Nut graph after the jump: So the UN’s current best guess is that world population will […]",
           "link": "https://crookedtimber.org/2024/09/20/occasional-paper-united-nations-world-population-prospects-2024/",
           "publishedOn": "2024-09-20T18:37:57.000Z",
-          "wordCount": 13534,
+          "wordCount": 13716,
           "title": "Occasional Paper:  United Nations World Population Prospects, 2024",
           "imageUrl": "https://population.un.org/wpp/Graphs/2_Probabilistic%20Projections/1_Population/1_Total%20Population/World.svg"
         }
@@ -1174,6 +1164,16 @@
       "feedUrl": "https://www.cadtm.org/spip.php?page=backend-en",
       "siteUrl": "https://www.cadtm.org/",
       "articles": [
+        {
+          "id": "https://www.cadtm.org/The-gender-equity-farce-a-feminist-reading-of-World-Bank-policies",
+          "author": "Camille Bruneau",
+          "description": "The World Bank and the IMF are 80 years old. 80 years of financial neo-colonialism and the imposition of austerity policies in the name of debt repayment. 80 years is enough! The Bretton Woods institutions must be abolished and replaced by democratic institutions serving an ecological, feminist and anti-racist bifurcation. To mark these 80 years, we are republishing a series of articles every Wednesday, looking in detail at the history and damage caused by these two institutions. \nEnglish\n\n/ \nFeminisms, \nWorld Bank, \n80 ans BM FMI EN",
+          "link": "https://www.cadtm.org/The-gender-equity-farce-a-feminist-reading-of-World-Bank-policies",
+          "publishedOn": "2024-09-25T07:30:00.000Z",
+          "wordCount": 11254,
+          "title": "The “gender equity” farce: a feminist reading of World Bank policies",
+          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L153xH80/7d67b536955c2d468284cb35bf57de-31f2b.png"
+        },
         {
           "id": "https://www.cadtm.org/The-Latin-American-Left-amid-China-the-United-States",
           "author": "Eric Toussaint",
@@ -1253,16 +1253,6 @@
           "wordCount": 1968,
           "title": "Hypocrisy: The Conflict of Zionist Hawks and Vultures",
           "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L640xH336/a8100b2171b75763ac3e3880294da9-5db2f.jpg"
-        },
-        {
-          "id": "https://www.cadtm.org/The-popular-uprising-in-Ecuador-on-22nd-June-2022-and-similarities-with-other",
-          "author": "Eric Toussaint",
-          "description": "Below is the epilogue written by Éric Toussaint at the request of the authors for the book entitled Sinchi, published in Spanish in 2024 by Leonidas Iza, Andres Tapia and Andres Madrid. The book published in Spanish was translated into English and published in London by Resistance Books in 2023: Leonidas Iza, Andrés Tapia, and Andrés Madrid, Uprising : the October Rebellion in Ecuador], consists of 16 pages, which include the ten crucial points required to change the intolerable daily (...)\nEnglish\n\n/ \nSocial movements, \nEcuador, \nSouth",
-          "link": "https://www.cadtm.org/The-popular-uprising-in-Ecuador-on-22nd-June-2022-and-similarities-with-other",
-          "publishedOn": "2024-09-18T19:46:47.000Z",
-          "wordCount": 6320,
-          "title": "The popular uprising in Ecuador on 22nd June 2022 and similarities with other rebellions in Europe and Latin America",
-          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L640xH336/3b0be2212bd88fbf52c8144fff943a-a8b68.jpg"
         }
       ]
     },
@@ -1395,18 +1385,7 @@
       "title": "Last Week in Kubernetes Development",
       "feedUrl": "https://lwkd.info/feed.xml",
       "siteUrl": "https://lwkd.info/",
-      "articles": [
-        {
-          "id": "https://lwkd.info/2024/20240918",
-          "author": null,
-          "description": "Developer News",
-          "link": "https://lwkd.info/2024/20240918",
-          "publishedOn": "2024-09-18T22:00:00.000Z",
-          "wordCount": 523,
-          "title": "Week Ending September 15, 2024",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "New Left Review Sidecar recent posts",
@@ -1459,6 +1438,16 @@
           "wordCount": 1581,
           "title": "five years of hrt",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/wooby/favicon.png"
+        },
+        {
+          "id": "https://birming.com/right-way-wrong/",
+          "author": null,
+          "description": "\"I could be wrong; I've been wrong once before.\"\nA former coworker of mine used to say this. Of course, he said it as a joke, but it's also a classic example of 'it's funny because it's true'.\nNo one would seriously express themselves this way, but it seems to be the attitude many people harbor. I was reminded of this when I read Manuel Moreale's great post, It should be easy to say \"My bad, I was wrong\". He writes:\nSaying \"I was wrong\" is a sign you're willing to get better and improve.\nSo true! Making mistakes and being wrong is part of life's learning curve, from the moment we take our first stumbling steps. We learn, develop, and move forward with newfound knowledge and wisdom.\nBut it's as if our delicate little egos, built on something as fragile as always being right, are afraid of perishing if they admit to being wrong. It's not only a fragile existence but also a very foolish attitude.\nOften, when we make mistakes, it's partly because someone else taught us wrong from the beginning. So, it's not just our own ego we're trying to protect but others as well. An impossible mission where the only thing that will self-destruct is ourselves.\nAdmitting that we were wrong is not only the right thing to do. It's also significantly easier than fighting for the right to \"be right.\"\nLet's all do the right thing when we're wrong by simply saying:\nSorry, I was wrong.\nmail Email\n print Print\n share Share",
+          "link": "https://birming.com/right-way-wrong/",
+          "publishedOn": "2024-09-24T15:06:00.000Z",
+          "wordCount": 1767,
+          "title": "The Right Way to Be Wrong",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/image-7.png"
         },
         {
           "id": "https://blog.aurahack.jp/new-post/",
@@ -1589,16 +1578,6 @@
           "wordCount": 3552,
           "title": "Sobre o que o Musk tentou fazer hoje",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/joselito/vlad-sargu-itphh2lgzui-unsplash.jpg"
-        },
-        {
-          "id": "https://caffeinated.bearblog.dev/patriotism-is-blinding/",
-          "author": null,
-          "description": "There is an argument to be made about the nature of it—a form of confidence that benefits a community of like-minded individuals, a society, or in this case, a country. While I am no Nietzsche or Kafka, I live in one, like any person in today's world—a world undoubtedly centered around a prominent theme: patriotism.\nWhat even is patriotism? The word often carries different meanings depending on who you ask. Some define it as love and loyalty to one's country, a commitment to uphold a national belief or the core values they personally hold dear. Others, however, may view it with suspicion—closely associated with nationalism, pride, and even exclusion. At its core, patriotism is often seen as an allegiance to a flag, regardless of a country’s flaws. Living within a status quo, steadfast in t…",
-          "link": "https://caffeinated.bearblog.dev/patriotism-is-blinding/",
-          "publishedOn": "2024-09-19T00:43:00.000Z",
-          "wordCount": 1708,
-          "title": "Patriotism Blinds",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         }
       ]
     },
