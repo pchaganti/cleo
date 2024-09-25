@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-25T12:50:58.894Z</id>
+    <id>urn:2024-09-25T18:34:12.808Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-25T12:50:58.894Z</updated>
+    <updated>2024-09-25T18:34:12.808Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Introducing Llama 3.2 models from Meta in Amazon Bedrock: A new generation of multimodal vision and lightweight models]]></title>
+        <id>6e2dafa9117525fa56be8f04b271bd8b598b52ef</id>
+        <link href="https://aws.amazon.com/blogs/aws/introducing-llama-3-2-models-from-meta-in-amazon-bedrock-a-new-generation-of-multimodal-vision-and-lightweight-models/"/>
+        <updated>2024-09-25T18:18:52.000Z</updated>
+        <summary type="html"><![CDATA[Pushing the boundaries of generative AI, Meta unveils Llama 3.2, a groundbreaking language model family featuring enhanced capabilities, broader applicability, and multimodal image support, now available in Amazon Bedrock.]]></summary>
+        <author>
+            <name>Danilo Poccia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2:00PM Water Cooler 9/25/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=279314</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/200pm-water-cooler-9-25-2024.html"/>
+        <updated>2024-09-25T18:00:24.000Z</updated>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics; Pollsters and polling; Getting to know Kamala; Election Trump's to lose: Is that what he's doing? Boeing's "absurd litany of self-inflicted crises" plus brutal Senate report on whistleblower reports ~]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a three-tier architecture on a budget]]></title>
+        <id>1bfaecac76d979dc915e1d060b70e31e9259c7d9</id>
+        <link href="https://aws.amazon.com/blogs/architecture/building-a-three-tier-architecture-on-a-budget/"/>
+        <updated>2024-09-25T15:59:58.000Z</updated>
+        <summary type="html"><![CDATA[AWS customers often look for ways to run their systems within or under budget, avoiding unnecessary costs. This post offers practical advice on designing scalable and cost-efficient three-tier architectures by using serverless technologies within the AWS Free Tier. With AWS, you can start small and scale cost-effectively as your business demand increases. You can begin […]]]></summary>
+        <author>
+            <name>Adam Nemeth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Diet-Related Diseases Are the No. 1 Cause of Death in the US – Yet Many Doctors Receive Little to No Nutrition Education in Med School]]></title>
+        <id>https://www.nakedcapitalism.com/?p=279309</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/diet-related-diseases-are-the-no-1-cause-of-death-in-the-us-yet-many-doctors-receive-little-to-no-nutrition-education-in-med-school.html"/>
+        <updated>2024-09-25T14:26:31.000Z</updated>
+        <summary type="html"><![CDATA[An exhortation for doctors to get more nutrition education so they can advise patients on diet. But is that as simple as it seems?]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Speed Brain: helping web pages load 45% faster]]></title>
+        <id>sC3G9YR2M9IIoRMg8slDl</id>
+        <link href="https://blog.cloudflare.com/introducing-speed-brain"/>
+        <updated>2024-09-25T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are excited to announce the latest leap forward in speed – Speed Brain. Speed Brain uses the Speculation Rules API to prefetch content for the user's likely next navigations. The goal is to download a web page to the browser before a user navigates to it, allowing pages to load instantly.]]></summary>
+        <author>
+            <name>Alex Krivit</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New standards for a faster and more private Internet]]></title>
+        <id>6YLU1FUKD4lioSrbpOnb5r</id>
+        <link href="https://blog.cloudflare.com/new-standards"/>
+        <updated>2024-09-25T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloudflare's customers can now take advantage of Zstandard (zstd) compression, offering 42% faster compression than Brotli and 11.3% more efficiency than GZIP. We're further optimizing performance for our customers with HTTP/3 prioritization and BBR congestion control, and enhancing privacy through Encrypted Client Hello (ECH).]]></summary>
+        <author>
+            <name>Matt Bullock</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TURN and anycast: making peer connections work globally]]></title>
+        <id>EkJICbovEPPuOSElg8poy</id>
+        <link href="https://blog.cloudflare.com/webrtc-turn-using-anycast"/>
+        <updated>2024-09-25T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TURN servers help relay media and data between devices when direct peer-to-peer connections are blocked or fail. Cloudflare Calls' TURN server uses anycast to eliminate the need to think about regions or scaling, improving reliability of WebRTC applications.]]></summary>
+        <author>
+            <name>Nils Ohlmeier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare’s 12th Generation servers — 145% more performant and 63% more efficient]]></title>
+        <id>sdvPBDBwhcEcrODVeOE7A</id>
+        <link href="https://blog.cloudflare.com/gen-12-servers"/>
+        <updated>2024-09-25T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloudflare is thrilled to announce the general deployment of our next generation of server — Gen 12 powered by AMD Genoa-X processors. This new generation of server focuses on delivering exceptional performance across all Cloudflare services, enhanced support for AI/ML workloads, significant strides in power efficiency, and improved security features.]]></summary>
+        <author>
+            <name>JQ Lau</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Amazon ECS Multi-region Deployment with Amazon CodeCatalyst]]></title>
         <id>732e837a33a0bac22b031107313b5c620ea3746f</id>
@@ -180,6 +260,16 @@ The post Exceptionalism and international law appeared first on CounterPunch.org
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Instant Purge: invalidating cached content in under 150ms]]></title>
+        <id>11EWaw0wCUNwPTM30w7oUN</id>
+        <link href="https://blog.cloudflare.com/instant-purge"/>
+        <updated>2024-09-24T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today we’re excited to share that we’ve built the fastest cache purge in the industry.  We now offer a global purge latency for purge by tags, hostnames, and prefixes of less than 150ms on average (P50), representing a 90% improvement since May 2022.]]></summary>
+        <author>
+            <name>Alex Krivit</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Ethel Mannin - Bread and Roses]]></title>
         <id>https://theanarchistlibrary.org/library/ethel-mannin-bread-and-roses?v=1727218691</id>
         <link href="https://theanarchistlibrary.org/library/ethel-mannin-bread-and-roses?v=1727218691"/>
@@ -281,6 +371,24 @@ wonder what'll happen in the next five!]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[there just isn’t much to say]]></title>
+        <id>https://itskristin.bearblog.dev/there-just-isnt-much-to-say/</id>
+        <link href="https://itskristin.bearblog.dev/there-just-isnt-much-to-say/"/>
+        <updated>2024-09-24T18:21:58.977Z</updated>
+        <summary type="html"><![CDATA[I’ve found that bloggers on this site are very passionate about the idea that you should challenge yourself to blog every day. it’s good for you to work out the writing muscle in your brain, it documents your thoughts, you have an archive of who you are, etc etc.
+I don’t have much to say. it’s not that I lead some boring life, sometimes you just don’t have anything to comment on. this is a remarkable change for me as someone who tweeted at least 20 times a day over the past three years, but even then most twitter posts are just reactions to other twitter posts. I’ve never really just posted status updates of what I’m doing that day, I’m just commenting on something that came up on my for you.
+I have the same issue with journaling. sometimes there is just nothing to say and no introspection to be done. I went to work, my coworkers did this, my kids did this, my parents are doing this, I’m doing whatever. it’s just, like, nothing.
+this isn’t to say that everyone that blogs everyday is some sort of super genius with so much insight to offer the world so it’s only natural that they post everyday, because that’s not the case either. a lot of posts I see recently are quotes of something someone found elsewhere, responses to other blogs, blogging about blogging (like I’m doing now), or the typical introspective post.
+I don’t know. I’m in the middle. viewing this from a quality over quantity perspective, you wouldn’t want to post everyday so you can just put out your best stuff, but isn’t blogging supposed to be about you? isn’t it supposed to be for you? and not the clamor for engagement and eyes on your post?
+but it’s different for everyone, I guess. some people use bearblog like a portfolio, others like a diary, and others like a media dumping ground.
+do what you want I guess is the answer here, if there’s an answer at all. no need for an answer, really.
+on my end, I don’t think I’ll be a daily blogger. there just isn’t much to say. 🤷🏾‍♀️
+reply via email]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Supporting the Stimulating STEM Summer Program at USC]]></title>
         <id>https://medium.com/p/5d18c4782911</id>
         <link href="https://medium.com/capital-one-tech/supporting-the-stimulating-stem-summer-program-at-usc-5d18c4782911?source=rss----3db3a67cb648---4"/>
@@ -359,16 +467,6 @@ mail Email
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A safer Internet with Cloudflare: free threat intelligence, analytics, and new threat detections]]></title>
-        <id>3hUMWCRTsPTuqyUixn3aXp</id>
-        <link href="https://blog.cloudflare.com/a-safer-internet-with-cloudflare"/>
-        <updated>2024-09-24T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today, we are taking some big steps forward in our mission to help build a better Internet. Cloudflare is giving everyone free access to 10+ different website and network security products and features.]]></summary>
-        <author>
-            <name>Michael Tremante</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Cloudflare partners with Internet Service Providers and network equipment providers to deliver a safer browsing experience to millions of homes]]></title>
         <id>6ZZuN3gorGpsi4nPVR284G</id>
         <link href="https://blog.cloudflare.com/safer-resolver"/>
@@ -386,6 +484,16 @@ mail Email
         <summary type="html"><![CDATA[The Cloudflare Terraform provider used to be manually maintained. With the help of our existing OpenAPI code generation pipeline, we’re now automatically generating the provider for better endpoint and attribute coverage, faster updates when new products are announced and a new API documentation site to top it all off. Read on to see how we pulled it all together.]]></summary>
         <author>
             <name>Jacob Bednarz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A safer Internet with Cloudflare: free threat intelligence, analytics, and new threat detections]]></title>
+        <id>3hUMWCRTsPTuqyUixn3aXp</id>
+        <link href="https://blog.cloudflare.com/a-safer-internet-with-cloudflare"/>
+        <updated>2024-09-24T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, we are taking some big steps forward in our mission to help build a better Internet. Cloudflare is giving everyone free access to 10+ different website and network security products and features.]]></summary>
+        <author>
+            <name>Michael Tremante</name>
         </author>
     </entry>
     <entry>
@@ -426,26 +534,6 @@ mail Email
         <summary type="html"><![CDATA[Amid rising diplomatic tensions with the US, Mexico's diplomatic and economic relations with China appear to be going from strength to strength.]]></summary>
         <author>
             <name>Nick Corbishley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Days After Rate Cut, S&P’s Flash PMI Sees Rising Inflation and Exhorts the Fed to “Move Cautiously” with “Further Rate Cuts”]]></title>
-        <id>https://www.nakedcapitalism.com/?p=279258</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/days-after-rate-cut-sps-flash-pmi-sees-rising-inflation-and-exhorts-the-fed-to-move-cautiously-with-further-rate-cuts.html"/>
-        <updated>2024-09-24T09:55:02.000Z</updated>
-        <summary type="html"><![CDATA[S&P: “The “reacceleration of inflation” suggests “the Fed cannot totally shift its focus away from its inflation target.”]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Closing the Health Gap: How Chronic Illness Drives Health Inequality Early On]]></title>
-        <id>https://www.nakedcapitalism.com/?p=279253</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/closing-the-health-gap-how-chronic-illness-drives-health-inequality-early-on.html"/>
-        <updated>2024-09-24T09:50:43.000Z</updated>
-        <summary type="html"><![CDATA[A look at how chronic disease by age and income cohort affects health inequality.]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -1737,19 +1825,6 @@ Reply by email
         <summary type="html"><![CDATA[Anna Mendelssohn’s radicalism.]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sobre o que o Musk tentou fazer hoje]]></title>
-        <id>https://joselito.blog.br/sobre-o-que-o-musk-tentou-fazer-hoje/</id>
-        <link href="https://joselito.blog.br/sobre-o-que-o-musk-tentou-fazer-hoje/"/>
-        <updated>2024-09-19T01:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Eu tenho a impressão que, no geral, temos a mania de achar que pessoas de mau caráter são burras. É um pouco tentador, pois elas quebram a cara com certa frequência, mas é inegável que burras elas não são.
-Para conseguir explorar tanta gente e chegar onde chegaram, há um certo nível de esperteza envolvido. Quando falta inteligência própria, há riqueza suficiente para comprar a dos outros. Geralmente herança.
-Desde que Alexandre ordenou o bloqueio do X no Brasil, certamente há funcionários da empresa trabalhando 24/7 para encontrar uma solução que traga o nosso país de volta à rede social. Várias matérias apontam o impacto negativo que a ausência dos brasileiros causa na plataforma.
-Desde o primeiro dia, uma das formas mais disseminadas de continuar acessando o X era por meio de uma "brecha…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
 </feed>
