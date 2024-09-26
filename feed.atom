@@ -1,10 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-26T12:50:49.349Z</id>
+    <id>urn:2024-09-26T18:33:24.592Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-26T12:50:49.349Z</updated>
+    <updated>2024-09-26T18:33:24.592Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Builder Day 2024: 18 big updates to the Workers platform]]></title>
+        <id>6ct91ZmJYzPu9n9pt8sNBm</id>
+        <link href="https://blog.cloudflare.com/builder-day-2024-announcements"/>
+        <updated>2024-09-26T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[To celebrate Builder Day 2024, we’re shipping 18 updates inspired by direct feedback from developers building on Cloudflare. This includes new capabilities, like running evals with AI Gateway, beta products like Queues and Vectorize graduating to GA, massive speed improvements to KV and Workers AI, pricing simplifications, and bringing key features from Pages into Workers.]]></summary>
+        <author>
+            <name>Tanushree Sharma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let’s Architect! Building multi-tenant SaaS systems]]></title>
+        <id>2c4ac69958eb7ffd74f8ddce0a45e334dbc042ba</id>
+        <link href="https://aws.amazon.com/blogs/architecture/lets-architect-building-multi-tenant-saas-systems/"/>
+        <updated>2024-09-26T18:24:46.000Z</updated>
+        <summary type="html"><![CDATA[Software as a Service (SaaS) applications offer a transformative solution for businesses worldwide, delivering on-demand software solutions to a global audience. However, building a successful SaaS platform demands on meticulous architectural planning, especially given the inherent challenges of multi-tenancy. It’s also essential to ensure that each tenant’s data remains isolated and protected from unauthorized access […]]]></summary>
+        <author>
+            <name>Luca Mezzalira</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2:00PM Water Cooler 9/26/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=279351</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/200pm-water-cooler-9-26-2024.html"/>
+        <updated>2024-09-26T18:00:34.000Z</updated>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics ~]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Desperate-Looking Biden Administration Attempt to Get 21-Day Israel-Lebanon Ceasefire]]></title>
+        <id>https://www.nakedcapitalism.com/?p=279347</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/desperate-looking-biden-administration-attempt-to-get-21-day-israel-lebanon-ceasefire.html"/>
+        <updated>2024-09-26T16:00:15.000Z</updated>
+        <summary type="html"><![CDATA[Yet another Biden-Blinken ceasefire fantasy makes headlines.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Benjamin Kunkel: &ldquo;Singularity&rdquo;]]></title>
+        <id>https://newleftreview.org/sidecar/posts/singularity</id>
+        <link href="https://newleftreview.org/sidecar/posts/singularity"/>
+        <updated>2024-09-26T14:44:21.000Z</updated>
+        <summary type="html"><![CDATA[Fredric Jameson (1934-2024).]]></summary>
+        <author>
+            <name>New Left Review Sidecar recent posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Startup Program revamped: build and grow on Cloudflare with up to $250,000 in credits]]></title>
+        <id>4ZEcwzAEh1rg9IxDqC3UyM</id>
+        <link href="https://blog.cloudflare.com/startup-program-250k-credits"/>
+        <updated>2024-09-26T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloudflare’s Startup Program now offers up to $250,000 in credits for companies building on our Developer Platform. The program relaunch uses clear and predictable credits so that you can easily see how usage impacts future pricing.]]></summary>
+        <author>
+            <name>Christopher Rotas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare’s bigger, better, faster AI platform]]></title>
+        <id>2lS9TcgZHa1fubO371mYiv</id>
+        <link href="https://blog.cloudflare.com/workers-ai-bigger-better-faster"/>
+        <updated>2024-09-26T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Whether you want the fastest inference at the edge, optimized AI workflows, or vector database-powered RAG, we’re excited to help you harness the full potential of AI and get started on building with Cloudflare.]]></summary>
+        <author>
+            <name>Michelle Chen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Workers AI faster and more efficient: Performance optimization with KV cache compression and speculative decoding]]></title>
+        <id>29PAMer5L0do12OtNa557I</id>
+        <link href="https://blog.cloudflare.com/making-workers-ai-faster"/>
+        <updated>2024-09-26T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With a new generation of data center accelerator hardware and using optimization techniques such as KV cache compression and speculative decoding, we’ve made large language model (LLM) inference lightning-fast on the Cloudflare Workers AI platform.]]></summary>
+        <author>
+            <name>Isaac Rehg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero-latency SQLite storage in every Durable Object]]></title>
+        <id>44R2ywetTc9l1c6D7oWTsz</id>
+        <link href="https://blog.cloudflare.com/sqlite-in-durable-objects"/>
+        <updated>2024-09-26T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Traditional cloud storage is inherently slow because it is accessed over a network and must synchronize many clients. But what if we could instead put your application code deep into the storage layer, such that your code runs where the data is stored? Durable Objects with SQLite do just that.]]></summary>
+        <author>
+            <name>Kenton Varda</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We made Workers KV up to 3x faster — here’s the data]]></title>
+        <id>76i5gcdv0wbMNnwa7E17MR</id>
+        <link href="https://blog.cloudflare.com/faster-workers-kv"/>
+        <updated>2024-09-26T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Speed is a critical factor that dictates Internet behavior. Every additional millisecond a user spends waiting for your web page to load results in them abandoning your website.]]></summary>
+        <author>
+            <name>Thomas Gauvin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Break Up Economics — continued]]></title>
         <id>http://rwer.wordpress.com/?p=45610</id>
@@ -23,6 +123,29 @@
         <summary type="html"><![CDATA[Our surging daily links]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by bayindirh in "OpenAI to Become For-Profit Company"]]></title>
+        <id>https://news.ycombinator.com/item?id=41656762</id>
+        <link href="https://news.ycombinator.com/item?id=41656762"/>
+        <updated>2024-09-26T10:37:15.000Z</updated>
+        <summary type="html"><![CDATA[> The most surprising thing to me in this is that the non-profit will still exist.
+That entity will scrape the internet and train the models and claim that "it's just research" to be able to claim that all is fair-use.
+At this point it's not even funny anymore.]]></summary>
+        <author>
+            <name>bayindirh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by mtlmtlmtlmtl in "OpenAI to Become For-Profit Company"]]></title>
+        <id>https://news.ycombinator.com/item?id=41656743</id>
+        <link href="https://news.ycombinator.com/item?id=41656743"/>
+        <updated>2024-09-26T10:34:52.000Z</updated>
+        <summary type="html"><![CDATA[The most surprising thing to me in this is that the non-profit will still exist. Not sure what the point of it is anymore. Taken as a whole, OpenAI is now just a for-profit entity beholden to investors and Sam Altman as a shareholder. The non-profit is really just vestigial.
+I guess technically it's supposed to play some role in making sure OpenAI "benefits humanity". But as we've seen multiple times, whenever that goal clashes with the interests of investors, the latter wins out.]]></summary>
+        <author>
+            <name>mtlmtlmtlmtl</name>
         </author>
     </entry>
     <entry>
@@ -244,6 +367,18 @@ The post My Six Favorite Untruths About the Biden-Harris Economy appeared first 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by ml_basics in "Xkcd 1425 (Tasks) turns ten years old today"]]></title>
+        <id>https://news.ycombinator.com/item?id=41654809</id>
+        <link href="https://news.ycombinator.com/item?id=41654809"/>
+        <updated>2024-09-26T05:23:28.000Z</updated>
+        <summary type="html"><![CDATA[It's quite remarkable how much the goal posts have shifted when it comes to what is impressive with AI/ML. Things like this are a good reminder.
+10 years ago the GAN paper came out and everyone was excited how amazing the generated image quality was (https://arxiv.org/abs/1406.2661)
+The amount of progress we've made is mind boggling.]]></summary>
+        <author>
+            <name>ml_basics</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Week Ending September 22, 2024]]></title>
         <id>https://lwkd.info/2024/20240925</id>
         <link href="https://lwkd.info/2024/20240925"/>
@@ -318,6 +453,18 @@ It should be no surprise if Sam Altman wants executives who opposed his leadersh
         <summary type="html"><![CDATA[I think the much more likely scenario than product roadmap concerns is that Murati (and Ilya for that matter) took their shot to remove Sam, lost, and in an effort to collectively retain billion$ of enterprise value have been playing nice, but were never seriously going to work together again after the failed coup.]]></summary>
         <author>
             <name>aresant</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by GlenTheMachine in "How to avoid a BSOD on your 2B dollar spacecraft"]]></title>
+        <id>https://news.ycombinator.com/item?id=41651310</id>
+        <link href="https://news.ycombinator.com/item?id=41651310"/>
+        <updated>2024-09-25T20:06:12.000Z</updated>
+        <summary type="html"><![CDATA[Thee are a bunch of comments here asking why one would run Windows on a spacecraft.
+I am a spacecraft engineer. I don’t see anything in the linked article indicating that they are actually running Windows - the BSOD claim is tongue-in-cheek, or at least that’s how I read it. I also don’t know of anyone anywhere that runs Windows on a spacecraft, with the exception of laptops used by astronauts. Typically one runs vxWorks, or maybe QNX. Some experimental (high risk, low cost) systems run Linux. Older spacecraft don't run any OS at all, everything is running on bare metal, and that may be true for a handful of current spacecraft as well.
+Windows is used in some places by ground controllers, but these days they tend to be running Linux a lot more often.]]></summary>
+        <author>
+            <name>GlenTheMachine</name>
         </author>
     </entry>
     <entry>
@@ -491,26 +638,6 @@ I do not disagree that creators should be able to monetize their content however
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How Cities Run Dry]]></title>
-        <id>https://www.nakedcapitalism.com/?p=279295</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/how-cities-run-dry.html"/>
-        <updated>2024-09-25T10:36:49.000Z</updated>
-        <summary type="html"><![CDATA[How afflicted cities are trying to cope with water shortages.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Is a “Fair” Drug Price?]]></title>
-        <id>https://www.nakedcapitalism.com/?p=279293</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/what-is-a-fair-drug-price.html"/>
-        <updated>2024-09-25T10:18:22.000Z</updated>
-        <summary type="html"><![CDATA[Debunking Big Pharma whinging over Inflation Reduction Act drug price negotiations.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The “gender equity” farce: a feminist reading of World Bank policies]]></title>
         <id>https://www.cadtm.org/The-gender-equity-farce-a-feminist-reading-of-World-Bank-policies</id>
         <link href="https://www.cadtm.org/The-gender-equity-farce-a-feminist-reading-of-World-Bank-policies"/>
@@ -666,20 +793,6 @@ DJ: What is Anarchism?
 JZ: I would say Anarchism is the attempt to eradicate all forms of domination. This includes not only such obvious forms as the nation-state, with its routine use of violence and the force of law, and the corporation, with its institutionalized irresponsibility, but also such internalized forms as patriarchy, racism, homophobia. Also it is the attempt to expose the ways our philosophy, religion, economics, and other ideological constructions perform their primary function, which is to rationalize or naturalize–make seem natural–the domination tha…]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by jjbinx007 in "Google Cache is fully dead"]]></title>
-        <id>https://news.ycombinator.com/item?id=41641134</id>
-        <link href="https://news.ycombinator.com/item?id=41641134"/>
-        <updated>2024-09-24T21:27:19.000Z</updated>
-        <summary type="html"><![CDATA[Is anyone at Google even aware how much this hurts their brand?
-I received an email from Google today with the subject line "Meet the new Google TV Streamer (4K)"
-The sender was Google Chromecast. Apparently it's some sort of streaming hardware they are selling for £99.
-I won't even consider buying one. How long until it's an obsolete brick? And when it's a brick, what are the chances I can wipe it and install my own software on it? Probably zero.
-No thanks, Google. You've blotched your copybook too many times.]]></summary>
-        <author>
-            <name>jjbinx007</name>
         </author>
     </entry>
     <entry>
@@ -1053,17 +1166,6 @@ brief overview of SIG Schedu…]]></summary>
 I understand that commodification is inevitable (and yes anime is already a soulless business), but goddamn if it doesn't look like some form of neurosis. It's like walking into an old growth forest and seeing the potential for a toothpick factory.]]></summary>
         <author>
             <name>wormlord</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by gwern in "The Intelligence Age"]]></title>
-        <id>https://news.ycombinator.com/item?id=41629493</id>
-        <link href="https://news.ycombinator.com/item?id=41629493"/>
-        <updated>2024-09-23T19:11:01.000Z</updated>
-        <summary type="html"><![CDATA[> If we want to put AI into the hands of as many people as possible, we need to drive down the cost of compute and make it abundant (which requires lots of energy and chips). If we don’t build enough infrastructure, AI will be a very limited resource that wars get fought over and that becomes mostly a tool for rich people.
-Translation for the rest of us: "we need to fully privatize the OA subsidiary and turn it into a B-corp which can raise a lot more capital over the next decade, in order to achieve the goals of the nonprofit, because the chief threat is not anything like existential risk from autonomous agents in the next few years or arms races, but inadequate commercialization due to fundraising constraints".]]></summary>
-        <author>
-            <name>gwern</name>
         </author>
     </entry>
     <entry>
@@ -1459,19 +1561,6 @@ Sub-imperialism]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by BrandoElFollito in "Nextcloud: Open-Source Cloud Apps"]]></title>
-        <id>https://news.ycombinator.com/item?id=41616422</id>
-        <link href="https://news.ycombinator.com/item?id=41616422"/>
-        <updated>2024-09-22T11:55:20.000Z</updated>
-        <summary type="html"><![CDATA[Nextcloud is a nightmare.
-First if all, it wants to do everything and does none well (or better than specialized apps)
-Its internals are a shitshow - a question about getting the real IP of the calling client raised a 10 pages discussion where people said "it works" and other days "it does not". The "solution" required you to change a volatile setting within the docker container (and do it again when the container changes)
-Finally the upgrade is insane. I once tried to upgrade my installation, was told that n+2 upgrades are not possible (fair enough) and ... the installer destroyed the database. What a piece of crap. Thanks god for backups.]]></summary>
-        <author>
-            <name>BrandoElFollito</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by londons_explore in "Flappy Bird for Android, only C, under 100KB"]]></title>
         <id>https://news.ycombinator.com/item?id=41616335</id>
         <link href="https://news.ycombinator.com/item?id=41616335"/>
@@ -1547,17 +1636,6 @@ The customer probably notices this kind of a thing but it’s a miracle if the c
 [In fact most companies have such opaque issue boards that as a customer I get so frustrated when I find a small issue or bug and have to spend like 50 hours back and forth to prove it’s a bug and actually get a ticket put in the tracker.]]]></summary>
         <author>
             <name>aetherspawn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by bane in "What happened to the Japanese PC platforms?"]]></title>
-        <id>https://news.ycombinator.com/item?id=41613380</id>
-        <link href="https://news.ycombinator.com/item?id=41613380"/>
-        <updated>2024-09-21T23:21:13.000Z</updated>
-        <summary type="html"><![CDATA[I think this somewhat misses an important nuance. Japanese PCs had to be different early on because of the complexities of the written language. All of the important characters could be handled in just a few bits (7 or 8) and low resolution in Western markets, with different fonts and character maps dropped in to support a few different alphabets.
-But in CJK countries, things were much harder and the entire I/O system had to be significantly more capable than what might pass for usable elsewhere. This meant larger ROMs, larger framebuffers, higher resolution displays, more complex keyboarding systems, the works. Everything was harder and more expensive for a long time. A common add-on was ROMs with Kanji (Chinese derived characters) support in the same way a person in the West might buy a …]]></summary>
-        <author>
-            <name>bane</name>
         </author>
     </entry>
     <entry>
@@ -1679,16 +1757,6 @@ I'm really sorry about this, both the vuln itself and the delayed comms around i
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cloudflare incident on September 17, 2024]]></title>
-        <id>2SwCyuXYfx1hPgiULhD2Pz</id>
-        <link href="https://blog.cloudflare.com/cloudflare-incident-on-september-17-2024"/>
-        <updated>2024-09-20T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[On September 17, 2024, during planned routine maintenance, Cloudflare stopped announcing 15 IPv4 prefixes, affecting some Business plan websites for approximately one hour. During this time, IPv4 traffic for these customers would not have reached Cloudflare and users attempting to connect to websites using addresses within those prefixes would have received errors.]]></summary>
-        <author>
-            <name>Joe Abley</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The New York Fed DSGE Model Forecast—September 2024]]></title>
         <id>https://libertystreeteconomics.newyorkfed.org/?p=31834</id>
         <link href="https://libertystreeteconomics.newyorkfed.org/2024/09/the-new-york-fed-dsge-model-forecast-september-2024/"/>
@@ -1737,27 +1805,6 @@ Israel,
 North]]></summary>
         <author>
             <name>Gilbert Achcar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by water-data-dude in "Gaining access to anyones Arc browser without them even visiting a website"]]></title>
-        <id>https://news.ycombinator.com/item?id=41598540</id>
-        <link href="https://news.ycombinator.com/item?id=41598540"/>
-        <updated>2024-09-20T03:30:54.000Z</updated>
-        <summary type="html"><![CDATA[I just wanted to say, I enjoyed the little pixel art cat that runs towards wherever you click immensely. It’s one of those fun, whimsical little touches that I don’t see all that often. A reminder that the internet can be a fun, whimsical place if we want it to be :)]]></summary>
-        <author>
-            <name>water-data-dude</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by bhaney in "Gaining access to anyones Arc browser without them even visiting a website"]]></title>
-        <id>https://news.ycombinator.com/item?id=41598211</id>
-        <link href="https://news.ycombinator.com/item?id=41598211"/>
-        <updated>2024-09-20T02:18:27.000Z</updated>
-        <summary type="html"><![CDATA[There are a lot of major security vulnerabilities in the world that were made understandably, and can be forgiven if they're handled responsibly and fixed.
-This is not one of them. In my opinion, this shows a kind of reputation-ruining incompetency that would convince me to never use Arc ever again.]]></summary>
-        <author>
-            <name>bhaney</name>
         </author>
     </entry>
 </feed>
