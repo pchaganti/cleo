@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-28T06:33:06.852Z</id>
+    <id>urn:2024-09-28T12:46:28.325Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-09-28T06:33:06.852Z</updated>
+    <updated>2024-09-28T12:46:28.325Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[‘This Maniac Must Be Stopped’: Netanyahu Condemned Over Massive Beirut Bombing]]></title>
+        <id>https://www.nakedcapitalism.com/?p=279465</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/this-maniac-must-be-stopped-netanyahu-condemned-over-massive-beirut-bombing.html"/>
+        <updated>2024-09-28T12:03:22.000Z</updated>
+        <summary type="html"><![CDATA[While Hezbollah's leader Hassan Nasrallah survived an attack in Beirut, Israel may still get the regional war it wants.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links 9/28/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=279466</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/links-9-28-2024.html"/>
+        <updated>2024-09-28T10:58:12.000Z</updated>
+        <summary type="html"><![CDATA[Our oceanic daily links]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TaxCast on Green Laundering, Combatting Big Corporate Tax Dodging with Joseph Stiglitz, EU Competition Minister Margrethe Vesterger]]></title>
+        <id>https://www.nakedcapitalism.com/?p=279463</id>
+        <link href="https://www.nakedcapitalism.com/2024/09/taxcast-on-green-laundering-combatting-big-corporate-tax-dodging-with-joseph-stiglitz-eu-competition-minister-margrethe-vesterger.html"/>
+        <updated>2024-09-28T07:21:50.000Z</updated>
+        <summary type="html"><![CDATA[A look at corporate misbehavior, here extreme tax avoidance and green laundering, and the progress of efforts to combat it.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Some Communist Study Group - Ripples and Waves]]></title>
         <id>https://theanarchistlibrary.org/library/anonymous-haters-cafe-ripples-and-waves?v=1727485961</id>
@@ -19,6 +49,27 @@ Source: Retrieved on 9/27/24 from haters.noblogs.org/post/2022/05/11/ripples-and
 This long-form essay was sent to us for publication by “some communist study group“. It discusses the historical role of Ukraine in the contemporary political economy, the response from radicals in the West towards the Russian invasion, and the material effects on the global political economy emanating from the disruption of a major bread basket, specifically with an eye towards revolt. The questions raised here are important not just for the current moment, but also for any social movement that desires to truly engage with “present state of t…]]></summary>
         <author>
             <name>The Anarchist Library</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Array of Structs and Struct of Arrays]]></title>
+        <id>https://hwisnu.bearblog.dev/array-of-structs-and-struct-of-arrays/</id>
+        <link href="https://hwisnu.bearblog.dev/array-of-structs-and-struct-of-arrays/"/>
+        <updated>2024-09-27T21:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+Data structures play a crucial role in determining the performance and efficiency of algorithms. The Array of Structs (AoS) and Struct of Arrays (SoA) are two popular data structures used to represent complex data. Although they can store similar data, they differ in memory layout, access patterns, and performance.
+Here's an excellent video on Data Oriented Design by Andrew Kelley the creator of Zig programming language.
+Array of Structs (AoS)
+An AoS is a data structure composed of an array of structures, where each structure represents a single entity with multiple fields or members. The structures are stored contiguously in memory, one after the other.
+typedef struct {
+    int id;
+    float x;
+    float y;
+} PointAOS;
+
+PointAOS is a struct containing three fields: id (an int…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -68,6 +119,23 @@ At the same time, I was a failed scientist: my gels weren't as interesting, or c
 Would I have been more successful if fewer people (and I now believe this is a common occurrence) published fraudulent images of gels?  Maybe, maybe not.  But the more important thing is that everybody just went along with this.  I participated in many journal clubs where folks would just flip to Figure 3, assume the gel was what the authors claimed, and proceed to agree with (or disagree with) the results and conclusions uncritically.  Whereas I would spend a lot of time trying to understand what experiment was actually run, and what th e data showed.]]></summary>
         <author>
             <name>dekhn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by steveklabnik in "Rewriting Rust: A Response"]]></title>
+        <id>https://news.ycombinator.com/item?id=41673056</id>
+        <link href="https://news.ycombinator.com/item?id=41673056"/>
+        <updated>2024-09-27T17:09:49.000Z</updated>
+        <summary type="html"><![CDATA[I am always glad to see people pursuing creating their own programming language. More people should give it a try, IMHO.
+A tricky thing that comes up with Rust comparisons is that often, Rust has a feature that's weird or hard to use, but it's because that's the only solution that makes sense within the constraints Rust has placed upon itself. Clicking some links gets me to https://git.yzena.com/Yzena/Yc/src/branch/master/docs/yao/de...
+> Yao's biggest goals are: Correctness, Convenience, Performance, in that order.
+Having clear goals is a great thing when making a language, because they give you guidance on what is appropriate to include and what is not.
+Rust has certainly demonstrated having similar goals, but in a slightly different order: Correctness, Performance, and then Convenience. So it wouldn't shock me if Yao could do some things better than Rust, in accordance with its goals. But that also means that sometimes, Rust would be useful where Yao cannot be. Everything is tradeoffs.
+Incidentally, I actually think that figuring out what your values are, and what your needs are, is a great way to pick a programming language. Decide what matters to you as an engineer, and then find a language that shares similar values. I gave a conference talk a few years back on this idea, and how I viewed Rust's values at the time https://www.infoq.com/presentations/rust-tradeoffs/
+This was based off of bcantrill's Platform as a Reflection of Values, which was very influential on me. https://www.youtube.com/watch?v=Xhx970_JKX4
+If you've ever heard about Oxide's focus on values, this is some of the older background on that.]]></summary>
+        <author>
+            <name>steveklabnik</name>
         </author>
     </entry>
     <entry>
@@ -810,16 +878,6 @@ To be clear these same exact actions can be taken against anyone who insults one
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Desperate-Looking Biden Administration Attempt to Get 21-Day Israel-Lebanon Ceasefire]]></title>
-        <id>https://www.nakedcapitalism.com/?p=279347</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/desperate-looking-biden-administration-attempt-to-get-21-day-israel-lebanon-ceasefire.html"/>
-        <updated>2024-09-26T16:00:15.000Z</updated>
-        <summary type="html"><![CDATA[Yet another Biden-Blinken ceasefire fantasy makes headlines.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by ziddoap in "DoNotPay has to pay $193K for falsely touting untested AI lawyer, FTC says"]]></title>
         <id>https://news.ycombinator.com/item?id=41659665</id>
         <link href="https://news.ycombinator.com/item?id=41659665"/>
@@ -902,16 +960,6 @@ Sometimes I think about where I would be in life if I had no moral or ethical qu
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Links 9/26/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=279335</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/links-9-26-2024.html"/>
-        <updated>2024-09-26T10:58:22.000Z</updated>
-        <summary type="html"><![CDATA[Our surging daily links]]></summary>
-        <author>
-            <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by bayindirh in "OpenAI to become for-profit company"]]></title>
         <id>https://news.ycombinator.com/item?id=41656762</id>
         <link href="https://news.ycombinator.com/item?id=41656762"/>
@@ -948,16 +996,6 @@ Israel,
 Colonialism]]></summary>
         <author>
             <name>Gideon Levy, Yorgos Mitralias</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CBO: GOP Social Security Plan Would Cut Benefits by Thousands, Not Extend Solvency]]></title>
-        <id>https://www.nakedcapitalism.com/?p=279333</id>
-        <link href="https://www.nakedcapitalism.com/2024/09/cbo-gop-social-security-plan-would-cut-benefits-by-thousands-not-extend-solvency.html"/>
-        <updated>2024-09-26T09:02:50.000Z</updated>
-        <summary type="html"><![CDATA[The CBO releases an analysis of a Project 2025-adjacent plan to reduce Social Security benefits. The "reforms" don't improve fund solvency!]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -1066,18 +1104,6 @@ https://www.nytimes.com/2024/03/07/technology/openai-executi...
 It should be no surprise if Sam Altman wants executives who opposed his leadership, like Mira and Ilya, out of the company. When you're firing a high-level executive in a polite way, it's common to let them announce their own departure and frame it the way they want.]]></summary>
         <author>
             <name>lacker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by GlenTheMachine in "How to avoid a BSOD on your 2B dollar spacecraft"]]></title>
-        <id>https://news.ycombinator.com/item?id=41651310</id>
-        <link href="https://news.ycombinator.com/item?id=41651310"/>
-        <updated>2024-09-25T20:06:12.000Z</updated>
-        <summary type="html"><![CDATA[Thee are a bunch of comments here asking why one would run Windows on a spacecraft.
-I am a spacecraft engineer. I don’t see anything in the linked article indicating that they are actually running Windows - the BSOD claim is tongue-in-cheek, or at least that’s how I read it. I also don’t know of anyone anywhere that runs Windows on a spacecraft, with the exception of laptops used by astronauts. Typically one runs vxWorks, or maybe QNX. Some experimental (high risk, low cost) systems run Linux. Older spacecraft don't run any OS at all, everything is running on bare metal, and that may be true for a handful of current spacecraft as well.
-Windows is used in some places by ground controllers, but these days they tend to be running Linux a lot more often.]]></summary>
-        <author>
-            <name>GlenTheMachine</name>
         </author>
     </entry>
     <entry>
