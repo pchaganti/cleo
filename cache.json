@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "ced116e7e17d31fc151eb05653942b5f0b206031",
+          "author": "Sébastien Stormacq",
+          "description": "Discover how this high-performance remote protocol securely streams graphics-intensive apps from cloud to device, with QUIC, client enhancements, and extended OS support.",
+          "link": "https://aws.amazon.com/blogs/aws/nice-desktop-cloud-visualization-dcv-is-now-amazon-dcv/",
+          "publishedOn": "2024-10-01T19:05:59.000Z",
+          "wordCount": 2004,
+          "title": "NICE DCV is now Amazon DCV with 2024.0 release",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/09/24/NiceIMG2.png"
+        },
+        {
           "id": "d2c501e1f24b7e9eca5982d22f0f3c5ae24c59b0",
           "author": "Elizabeth Fuentes",
           "description": "Every week, there’s a new Amazon Web Services (AWS) community event where you can network, learn something new, and immerse yourself in the community. When you’re in a community, everyone grows together, and no one is left behind. Last week was no exception. I can highlight the Dach AWS Community Day where Viktoria Semaan closed […]",
@@ -110,16 +120,6 @@
           "wordCount": 2621,
           "title": "Securing Your Software Supply Chain with Amazon CodeCatalyst and Amazon Inspector",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/09/25/sbom.png"
-        },
-        {
-          "id": "732e837a33a0bac22b031107313b5c620ea3746f",
-          "author": "Piyush Mattoo",
-          "description": "Many AWS customers run their mission-critical workloads across multiple AWS regions to serve geographically dispersed customer base, meet disaster recovery objectives or address local laws and regulations. Amazon CodeCatalyst is a unified software development service designed to streamline and accelerate the process of building and delivering applications on AWS. It is an all-in-one platform for […]",
-          "link": "https://aws.amazon.com/blogs/devops/amazon-ecs-multi-region-deployment-with-amazon-codecatalyst/",
-          "publishedOn": "2024-09-25T11:13:52.000Z",
-          "wordCount": 3376,
-          "title": "Amazon ECS Multi-region Deployment with Amazon CodeCatalyst",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/09/25/featured-image-template-1120x630.png"
         }
       ]
     },
@@ -523,16 +523,6 @@
           "wordCount": 4325,
           "title": "The Central Banking Beauty Contest",
           "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/09/LSE_2024_forecasting_cisternas_460.jpg"
-        },
-        {
-          "id": "https://libertystreeteconomics.newyorkfed.org/?p=31680",
-          "author": "Kristian Blickle, Evan Perry, and João A.C. Santos",
-          "description": "In support of the National Flood Insurance Program (NFIP), the Federal Emergency Management Agency (FEMA) creates flood maps that indicate areas with high flood risk, where mortgage applicants must buy flood insurance. The effects of flood insurance mandates were discussed in detail in a prior blog series. In 2021 alone, more than $200 billion worth of mortgages were originated in areas covered by a flood map. However, these maps are discrete, whereas the underlying flood risk may be continuous, and they are sometimes outdated. As a result, official flood maps may not fully capture the true flood risk an area faces. In this post, we make use of unique property-level mortgage data and find that in 2021, mortgages worth over $600 billion were originated in areas with high flood risk but no flood map. We examine what types of lenders are aware of this “unmapped” flood risk and how they adjust their lending practices. We find that—on average—lenders are more reluctant to lend in these unmapped yet risky regions. Those that do, such as nonbanks, are more aggressive at securitizing and selling off risky loans.",
-          "link": "https://libertystreeteconomics.newyorkfed.org/2024/09/flood-risk-outside-flood-zones-a-look-at-mortgage-lending-in-risky-areas/",
-          "publishedOn": "2024-09-25T11:00:00.000Z",
-          "wordCount": 4547,
-          "title": "Flood Risk Outside Flood Zones — A Look at Mortgage Lending in Risky Areas",
-          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/09/LSE_2024_flood-risk-outside_blickle_460.jpg"
         }
       ]
     },
@@ -565,12 +555,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=279683",
+          "author": "Lambert Strether",
+          "description": "Vance-Walz slugfest...",
+          "link": "https://www.nakedcapitalism.com/2024/10/i-want-to-be-a-part-of-it-vance-v-walz-new-york-vice-presidential-debate-live-blog.html",
+          "publishedOn": "2024-10-02T00:30:18.000Z",
+          "wordCount": 6261,
+          "title": "“I Want to Be a Part of It”: Vance v. Walz New York Vice-Presidential Debate Live Blog",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=279659",
           "author": "Lambert Strether",
-          "description": "~ Today's Water Cooler: Politics, syndemics;  Vance-Walz debate; Effects of Helene on North Carolina election; Boeing and Longshoremen strikes ~",
+          "description": "~ Today's Water Cooler: Politics, syndemics;  Vance-Walz debate; Kamala's October Surprise? Effects of Helene on North Carolina election; Boeing and Longshoremen strikes ~",
           "link": "https://www.nakedcapitalism.com/2024/10/200pm-water-cooler-10-1-2024.html",
           "publishedOn": "2024-10-01T18:00:18.000Z",
-          "wordCount": 6300,
+          "wordCount": 21249,
           "title": "2:00PM Water Cooler 10/1/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/rcp_2024-09-27.png"
         },
@@ -580,7 +580,7 @@
           "description": "Not everyone, particularly some top Israel experts like John Mearsheimer, is convinced that Israel is on its way to a decisive win in Lebanon.",
           "link": "https://www.nakedcapitalism.com/2024/10/john-mearsheimer-is-not-very-impressed-with-israels-shock-and-awe-campaign-against.html",
           "publishedOn": "2024-10-01T14:42:31.000Z",
-          "wordCount": 5574,
+          "wordCount": 7413,
           "title": "John Mearsheimer Is Not Very Impressed With Israel’s Shock and Awe Campaign Against Hezbollah",
           "imageUrl": null
         },
@@ -590,7 +590,7 @@
           "description": "Our pacific daily links: Everest rising, Covid moon cooling, climate change induced ag price rises, China lithography, Greens disastrous policies, UK minimum wage crushing? Israel invades Lebanon, Russia Nord Stream suit? GA court strikes down abortion laa, Port strike, WaPo v Trump crime & immigration cliams, AI",
           "link": "https://www.nakedcapitalism.com/2024/10/links-10-1-2024.html",
           "publishedOn": "2024-10-01T10:55:32.000Z",
-          "wordCount": 15895,
+          "wordCount": 18027,
           "title": "Links 10/1/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/00-alaska-birds.jpg"
         },
@@ -600,7 +600,7 @@
           "description": "\"China is a very interesting trading partner,\" said Javier Milei, who just a year ago described the Chinese government as as \"assassin.\" They \"do not make demands, the only thing they ask is that they not be bothered.\"",
           "link": "https://www.nakedcapitalism.com/2024/10/washington-enters-panic-mode-as-even-mileis-argentina-seeks-closer-economic-ties-with-beijing.html",
           "publishedOn": "2024-10-01T10:45:42.000Z",
-          "wordCount": 7240,
+          "wordCount": 7441,
           "title": "Washington Enters Panic Mode As Even Javier Milei’s Argentina Seeks Closer Economic Ties With Beijing",
           "imageUrl": null
         },
@@ -610,7 +610,7 @@
           "description": "The Fed has little to do with the fall in inflation.  Limited labor bargaining power and easing supply chain problems were more important.",
           "link": "https://www.nakedcapitalism.com/2024/10/the-fed-and-the-soft-landing-policy-or-luck.html",
           "publishedOn": "2024-10-01T10:31:34.000Z",
-          "wordCount": 3778,
+          "wordCount": 3915,
           "title": "The Fed and the “Soft Landing” – Policy or Luck?",
           "imageUrl": null
         },
@@ -620,7 +620,7 @@
           "description": "Rather than blame young workers for bad attitudes, we need to understand why Gen Z prioritizes its well-being over company health.",
           "link": "https://www.nakedcapitalism.com/2024/10/what-we-can-learn-from-gen-z-workers.html",
           "publishedOn": "2024-10-01T10:16:30.000Z",
-          "wordCount": 4873,
+          "wordCount": 4974,
           "title": "What We Can Learn from Gen Z Workers",
           "imageUrl": null
         },
@@ -630,7 +630,7 @@
           "description": "A few thousand votes lost in Trump Country could swing the election.",
           "link": "https://www.nakedcapitalism.com/2024/09/hurricane-helene-hits-hard-in-north-carolina-a-swing-state.html",
           "publishedOn": "2024-09-30T21:25:54.000Z",
-          "wordCount": 11572,
+          "wordCount": 12370,
           "title": "Hurricane Helene Hits Hard in North Carolina, a Swing State",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/total_damage.jpeg"
         },
@@ -640,7 +640,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics;  Routh pleads innocent; Party control of the ballot; IAM/Boeing talks halt on defined-benefit pensions. ~",
           "link": "https://www.nakedcapitalism.com/2024/09/200pm-water-cooler-10-11-2024.html",
           "publishedOn": "2024-09-30T18:00:41.000Z",
-          "wordCount": 14262,
+          "wordCount": 14306,
           "title": "2:00PM Water Cooler 9/30/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/rcp_2024-09-27.png"
         },
@@ -650,19 +650,9 @@
           "description": "",
           "link": "https://www.nakedcapitalism.com/2024/09/links-9-30-2024.html",
           "publishedOn": "2024-09-30T10:55:37.000Z",
-          "wordCount": 23532,
+          "wordCount": 23576,
           "title": "Links 9/30/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/09/Screenshot-2024-09-29-at-9.25.41 PM-820x1024.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=279542",
-          "author": "Yves Smith",
-          "description": "The Eric Adams indictment involves the abuse of small donations to obtain  illegal matches and  may go well beyond Turkiye donors",
-          "link": "https://www.nakedcapitalism.com/2024/09/the-10-million-eric-adams-is-charged-with-stealing-speaks-to-a-vaster-plot.html",
-          "publishedOn": "2024-09-30T09:55:35.000Z",
-          "wordCount": 5617,
-          "title": "The $10 Million Eric Adams Is Charged With Stealing Speaks to a Vaster Plot",
-          "imageUrl": null
         }
       ]
     },
@@ -727,7 +717,7 @@
           "description": "At Cloudflare, we believe in the power of open source. With Project Alexandria, our expanded open source program, we’re helping open source projects have a sustainable and scalable future, providing them with the tools and protection needed to thrive.",
           "link": "https://blog.cloudflare.com/expanding-our-support-for-oss-projects-with-project-alexandria",
           "publishedOn": "2024-09-27T13:00:00.000Z",
-          "wordCount": 1883,
+          "wordCount": 1884,
           "title": "Expanding Cloudflare's support for open source projects with Project Alexandria",
           "imageUrl": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/5mVMH3mYUna1qsN8V8qdbD/9de4b746cf74a40839c1828eee6e7f97/Expanding_Cloudflare_s_support_for_open_source_projects_with_Project_Alexandria_-OG.png"
         },
@@ -820,46 +810,6 @@
           "wordCount": 2151,
           "title": "We made Workers KV up to 3x faster — here’s the data",
           "imageUrl": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/2UHkSFT2lmnCkowZyD3wdn/0fcd27ca704da73dbfb6aa9021b34f88/We_made_Workers_KV_up_to_3x_faster___here_s_the_data-OG.png"
-        },
-        {
-          "id": "sC3G9YR2M9IIoRMg8slDl",
-          "author": "Alex Krivit",
-          "description": "We are excited to announce the latest leap forward in speed – Speed Brain. Speed Brain uses the Speculation Rules API to prefetch content for the user's likely next navigations. The goal is to download a web page to the browser before a user navigates to it, allowing pages to load instantly.",
-          "link": "https://blog.cloudflare.com/introducing-speed-brain",
-          "publishedOn": "2024-09-25T13:00:00.000Z",
-          "wordCount": 5237,
-          "title": "Introducing Speed Brain: helping web pages load 45% faster",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/2VHvuIVSAEUvuWpfCFPNDu/0cf5d747358b3e9fba3006b214e1457f/BLOG-2422_OG.png"
-        },
-        {
-          "id": "6YLU1FUKD4lioSrbpOnb5r",
-          "author": "Matt Bullock",
-          "description": "Cloudflare's customers can now take advantage of Zstandard (zstd) compression, offering 42% faster compression than Brotli and 11.3% more efficiency than GZIP. We're further optimizing performance for our customers with HTTP/3 prioritization and BBR congestion control, and enhancing privacy through Encrypted Client Hello (ECH).",
-          "link": "https://blog.cloudflare.com/new-standards",
-          "publishedOn": "2024-09-25T13:00:00.000Z",
-          "wordCount": 6319,
-          "title": "New standards for a faster and more private Internet",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/1hC0w2tovQ13pI6V7fSFS3/9545ea7caf42e2cd447bb07b00168216/New_standards_for_a_faster_and_more_private_Internet-OG.png"
-        },
-        {
-          "id": "EkJICbovEPPuOSElg8poy",
-          "author": "Nils Ohlmeier",
-          "description": "TURN servers help relay media and data between devices when direct peer-to-peer connections are blocked or fail. Cloudflare Calls' TURN server uses anycast to eliminate the need to think about regions or scaling, improving reliability of WebRTC applications.",
-          "link": "https://blog.cloudflare.com/webrtc-turn-using-anycast",
-          "publishedOn": "2024-09-25T13:00:00.000Z",
-          "wordCount": 2331,
-          "title": "TURN and anycast: making peer connections work globally",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/20Ze6k5hEhGIWiXeMnEFAh/5107c1512f755b6f51edaa37bb6d3b76/TURN_and_anycast-_making_peer_connections_work_globally-OG.png"
-        },
-        {
-          "id": "sdvPBDBwhcEcrODVeOE7A",
-          "author": "JQ Lau",
-          "description": "Cloudflare is thrilled to announce the general deployment of our next generation of server — Gen 12 powered by AMD Genoa-X processors. This new generation of server focuses on delivering exceptional performance across all Cloudflare services, enhanced support for AI/ML workloads, significant strides in power efficiency, and improved security features.",
-          "link": "https://blog.cloudflare.com/gen-12-servers",
-          "publishedOn": "2024-09-25T13:00:00.000Z",
-          "wordCount": 3775,
-          "title": "Cloudflare’s 12th Generation servers — 145% more performant and 63% more efficient",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/ClKSEml6Tev0e5Ut7lPP5/9bc0c234231309ab06359a0d530291cb/BLOG-2116_OG.png"
         }
       ]
     },
@@ -910,12 +860,32 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=41710183",
+          "author": "open-paren",
+          "description": "I manage a medium-sized browser extension at work. We also offer(ed) it on Firefox. But I have spent the past year struggling to get back into Mozilla store after a manual review. As far as I can tell, there are maybe two reviewers that are based in Europe (Romania?). The turn around time is long when I am in the US, and it has been rife with this same kind of \"simple mistake\" that takes 2 weeks to resolve. \n\"You need a privacy policy\"–we already have one. \"You are using machine generated and minified code\"–no you are looking at the built code, not the included source. \"We cannot reproduce your source\"-that's because you didn't follow instructions and are in the wrong directory.\nVery frustrating.",
+          "link": "https://news.ycombinator.com/item?id=41710183",
+          "publishedOn": "2024-10-01T16:01:32.000Z",
+          "wordCount": 2746,
+          "title": "New comment by open-paren in \"Gorhill pulls uBlock Origin Lite from Firefox store\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=41709058",
+          "author": "yojo",
+          "description": "I think it’s reasonable to expect that one of Firefox’s most popular extension publishers gets a higher tier of review service. Gorhill (and other top extension devs) are providing real value to Firefox, and have demonstrated good behavior for years.\nThis doesn’t mean they should get to publish whatever they want, but if a reviewer is about to reject a high profile plugin, they should get a second set of eyes on it. Which would have obviously caught the mistake here.\nFeels like another “Firefox is underinvested in developer relations” story, which is surprising given how much they rely on them.\nEdit: honestly the idea that gorhill doesn’t have a dedicated rep at Mozilla is baffling to me. According to their stats the extension has 8.4 million users. They should call him on the phone to let him know there’s a problem with his extension.",
+          "link": "https://news.ycombinator.com/item?id=41709058",
+          "publishedOn": "2024-10-01T14:39:52.000Z",
+          "wordCount": null,
+          "title": "New comment by yojo in \"Gorhill pulls uBlock Origin Lite from Firefox store\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=41701673",
           "author": "minimaxir",
           "description": "Context: PearAI evidently forked an OSS code editor, then later got funding from Y Combinator for it. (relevant discussion here: https://news.ycombinator.com/item?id=41697032)\nAs an aside, I'm starting to get annoyed with the \"we moved fast and broke things, we're smol indie hackers\" defense that has been popping up more lately in various contexts. The whole incident started because they got venture capital for their fork and were in a startup accelerator for several months: that's not moving fast or being indie.",
           "link": "https://news.ycombinator.com/item?id=41701673",
           "publishedOn": "2024-09-30T20:23:04.000Z",
-          "wordCount": 3264,
+          "wordCount": 3663,
           "title": "New comment by minimaxir in \"Pear AI founder: We made two big mistakes\"",
           "imageUrl": null
         },
@@ -925,7 +895,7 @@
           "description": "> I would add a generic “culture fit” component to each candidate score which you could use as a hedge to admit legacies without calling them as such.\nThis is not new. This is a battle as old as time.\nWant to keep out poor people? Require them to live on campus instead of locally at home. Want to keep out the wrong kind of person? Start requiring college essays to get a \"culture fit\". Or add \"geographic diversity\" to get less NYC Jews, or require \"well rounded\" candidates that do more than pass tests to keep out Asian Americans. Or conduct interviews so you can see their race in-person without asking for it on a form.\nhttps://en.wikipedia.org/wiki/Antisemitism_and_higher_educat...\nhttps://en.wikipedia.org/wiki/Students_for_Fair_Admissions_v...",
           "link": "https://news.ycombinator.com/item?id=41701073",
           "publishedOn": "2024-09-30T19:28:33.000Z",
-          "wordCount": null,
+          "wordCount": 4565,
           "title": "New comment by vineyardmike in \"California bans legacy admissions at private universities\"",
           "imageUrl": null
         },
@@ -935,7 +905,7 @@
           "description": "> which will punish institutions that flout the law by publishing their names on a California Department of Justice website\nImportant to note that this is the only enforcement mechanism. You get put on a naughty list.\nWill be interesting to see how important that is to the selective universities in the state. I don’t see how being named and shamed on an official government website is much different than the status quo of being named and shamed in a media report on legacy admissions.",
           "link": "https://news.ycombinator.com/item?id=41700629",
           "publishedOn": "2024-09-30T18:53:11.000Z",
-          "wordCount": 14116,
+          "wordCount": 14448,
           "title": "New comment by tacticalturtle in \"California bans legacy admissions at private universities\"",
           "imageUrl": null
         },
@@ -945,7 +915,7 @@
           "description": "I love everything about this.\nThere is this undercurrent to our technology landscape. A kind of subculture somewhere in the locus of the hackersphere where a kind of punk-rock ethos rules the roost.  I can only describe it as a live exploration of concepts _through_ technology, where functional fixedness is a foreign concept, including in the shared experience of social construct; everything becomes parts to be remixed in a way.  In this place people just do things that, by way of having fun, just becomes art.  It's emergent gameplay just by following a solitary \"rule of cool.\"\nI saw this page and was immediately transported back to the late 1990's and early 'aughts.  The kind of \"I glued these things together and just look\" attitude that graced the pages of hackaday.com and slashdot.org.  LED \"throwies\" come to mind.\nIn this case we have a de-facto art installation.  I imagine that this was probably put together with odds and ends, maybe installed illegally, and probably doesn't have longevity in mind for its construction. It lightheartedly challenges some conventions, challenges ideas about privacy, brushes up against copyright, and is entertaining to boot. Most importantly, how it was made is less interesting than what it _does_, and where it carries the conversation of the observer.  Or maybe: that's the point.",
           "link": "https://news.ycombinator.com/item?id=41700284",
           "publishedOn": "2024-09-30T18:19:14.000Z",
-          "wordCount": 468,
+          "wordCount": 487,
           "title": "New comment by pragma_x in \"Bop Spotter\"",
           "imageUrl": null
         },
@@ -975,7 +945,7 @@
           "description": "NotebookLM's is incredibly good at generating the affect and structure of a quality podcast.\nThis is in-line with all art, music, and video created by LMM at the moment. They are imitating a structure and affect, the quality of the content is largely irrelevant.\nI think the interesting thing is that most people don't really care, and AI is not to blame for that.\nMost books published today have the affect of a book, but the author doesn't really have anything to say. Publishing a book is not about communicating ideas, but a means to something else. It's not meant to stand on its own.\nThe reason so much writing, podcasting, and  music is vulnerable to AI disruption is that quality has already become secondary.",
           "link": "https://news.ycombinator.com/item?id=41693639",
           "publishedOn": "2024-09-30T04:47:33.000Z",
-          "wordCount": 13235,
+          "wordCount": 13409,
           "title": "New comment by timoth3y in \"NotebookLM's automatically generated podcasts are surprisingly effective\"",
           "imageUrl": null
         },
@@ -995,7 +965,7 @@
           "description": "> I am certain they never intended to inspire a 12 year-old kid to find a better life.\ni can't speak for everyone, but as one of the people writing tutorials and faqs and helping people learn to do things with free software during the period miller is talking about, that is absolutely what i intended to do.  and, from the number of people i knew who were excited to work on olpc, conectar igualdad, and huayra linux, i think it was actually a pretty common motivation\nas a kid on bbses, fidonet, and the internet, i benefited to an unimaginable degree from other people's generosity in sharing their learning and their inventions (which is what software is).  how could i not want to do the same?\nunderwritten by the nsf, the internet was a gift economy, like burning man: people giving away things of value to all comers because if you don't do that maybe it's because you can't.  the good parts of it still are",
           "link": "https://news.ycombinator.com/item?id=41690011",
           "publishedOn": "2024-09-29T20:05:36.000Z",
-          "wordCount": 5264,
+          "wordCount": 5351,
           "title": "New comment by kragen in \"Being Raised by the Internet\"",
           "imageUrl": null
         },
@@ -1005,7 +975,7 @@
           "description": "So Varlink requires a proper specification of message types, but then uses god damn JSON to serialize messages? Why would you do that?\nApparently, we don't have enough wasted cycles in modern software, just add a bunch more in a fundamental IPC infrastructure.",
           "link": "https://news.ycombinator.com/item?id=41688983",
           "publishedOn": "2024-09-29T17:45:17.000Z",
-          "wordCount": null,
+          "wordCount": 16122,
           "title": "New comment by newpavlov in \"Varlink – IPC to replace D-Bus gradually in systemd\"",
           "imageUrl": null
         },
@@ -1015,7 +985,7 @@
           "description": "I recognize the author Jascha as an incredibly brilliant ML researcher, formerly at Google  Brain and now at Anthropic.\nAmong his notable accomplishments, he and coauthors mathematically characterized the propagation of signals through deep neural networks via techniques from physics and statistics (mean field and free probability theory). Leading to arguably some of the most profound yet under-appreciated theoretical and experimental results in ML in the past decade. For example see “dynamical isometry” [1] and the evolution of those ideas which were instrumental in achieving convergence in very deep transformer models [2].\nAfter reading this post and the examples given, in my eyes there is no question that this guy has an extraordinary intuition for optimization, spanning beyond the boundaries of ML and across the fabric of modern society.\nWe ought to recognize his technical background and raise this discussion above quibbles about semantics and definitions.\nLet’s address the heart of his message, the very human and empathetic call to action that stands in the shadow of rapid technological progress:\n> If you are a scientist looking for research ideas which are pro-social, and have the potential to create a whole new field, you should consider building formal (mathematical) bridges between results on overfitting in machine learning, and problems in economics, political science, management science, operations research, and elsewhere.\n[1] Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10,000-Layer Vanilla Convolutional Neural Networks\nhttp://proceedings.mlr.press/v80/xiao18a/xiao18a.pdf\n[2] ReZero is All You Need: Fast Convergence at Large Depth\nhttps://arxiv.org/pdf/2003.04887",
           "link": "https://news.ycombinator.com/item?id=41685053",
           "publishedOn": "2024-09-29T05:04:56.000Z",
-          "wordCount": 7662,
+          "wordCount": 7713,
           "title": "New comment by refibrillator in \"Too much efficiency makes everything worse (2022)\"",
           "imageUrl": null
         },
@@ -1025,7 +995,7 @@
           "description": "Well hmm. NASA decided Starliner wasn't safe enough to use for the return journey, so the astronauts stayed on the ISS until the next ride became available.\nOriginally the astronauts were supposed to go back on Starliner. Now they're taking another ride back. Is that considered a rescue? Well, it depends.\nIf you get left behind on an island because your ride wasn't safe and another boat picks you up, is that a rescue? Now what if you're 420 kilometers up and another boat has to come get you. Is that a rescue?\nIf there wasn't another ride from the ISS available, would the astronauts be stranded? Yes.\nIn that case, if a ride suddenly became available would it be considered a rescue? Probably, yes.",
           "link": "https://news.ycombinator.com/item?id=41684333",
           "publishedOn": "2024-09-29T02:12:33.000Z",
-          "wordCount": null,
+          "wordCount": 5104,
           "title": "New comment by mannyv in \"SpaceX launches mission for 2 NASA astronauts who are stuck on the ISS\"",
           "imageUrl": null
         },
@@ -1035,7 +1005,7 @@
           "description": "> The training code, dataset and weights for this model are open sourced so that developers can reproduce the model and help train other SLMs and LLMs.\nWow, an actual open source language model (first of its kind [from a larger company] maybe even?), includes all you need to be able to recreate it from scratch. Thanks AMD!\nAvailable under this funky GitHub organization it seems: https://github.com/AMD-AIG-AIMA/AMD-LLM",
           "link": "https://news.ycombinator.com/item?id=41674928",
           "publishedOn": "2024-09-27T19:57:29.000Z",
-          "wordCount": 5951,
+          "wordCount": 5978,
           "title": "New comment by diggan in \"AMD Unveils Its First Small Language Model AMD-135M\"",
           "imageUrl": null
         },
@@ -1045,18 +1015,8 @@
           "description": "Similar - when I was younger, I would never have suspected that a scientist was committing fraud.\nAs I've gotten older, I understand that Charlie Munger's observation \"“Show me the incentive and I will show you the outcome.” is applicable everywhere - including science.\nAcademic scientists' careers are driven by publishing, citations and impact.  Arguably some have figured how to game the system to advance their careers.  Science be damned.",
           "link": "https://news.ycombinator.com/item?id=41673954",
           "publishedOn": "2024-09-27T18:22:25.000Z",
-          "wordCount": null,
+          "wordCount": 13518,
           "title": "New comment by testfoobar in \"Fraud, so much fraud\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41673769",
-          "author": "vighneshiyer",
-          "description": "This work from Google (original Nature paper: https://www.nature.com/articles/s41586-021-03544-w) has been credibly criticized by several researchers in the EDA CAD discipline. These papers are of interest:\n- A rebuttal by a researcher within Google who wrote this at the same time as the \"AlphaChip\" work was going on (\"Stronger Baselines for Evaluating Deep Reinforcement Learning in Chip Placement\"): http://47.190.89.225/pub/education/MLcontra.pdf\n- The 2023 ISPD paper from a group at UCSD (\"Assessment of Reinforcement Learning for Macro Placement\"): https://vlsicad.ucsd.edu/Publications/Conferences/396/c396.p...\n- A paper from Igor Markov which critically evaluates the \"AlphaChip\" algorithm (\"The False Dawn: Reevaluating Google's Reinforcement Learning for Chip Macro Placement\"): https://arxiv.org/pdf/2306.09633\nIn short, the Google authors did not fairly evaluate their RL macro placement algorithm against other SOTA algorithms: rather they claim to perform better than a human at macro placement, which is far short of what mixed-placement algorithms are capable of today. The RL technique also requires significantly more compute than other algorithms and ultimately is learning a surrogate function for placement iteration rather than learning any novel representation of the placement problem itself.\nIn full disclosure, I am quite skeptical of their work and wrote a detailed post on my website: https://vighneshiyer.com/misc/ml-for-placement/",
-          "link": "https://news.ycombinator.com/item?id=41673769",
-          "publishedOn": "2024-09-27T18:05:08.000Z",
-          "wordCount": 4527,
-          "title": "New comment by vighneshiyer in \"How AlphaChip transformed computer chip design\"",
           "imageUrl": null
         },
         {
@@ -1075,7 +1035,7 @@
           "description": "I'm the furthest thing from a scientist unless you count 3,000 hours of PBS spacetime, but I love science and so science/academia fraud to me, feels kinda like the worst kinda fraud you can commit. Financial fraud can cause suicides and ruin in lives, sure, but I feel like academic fraud just sets the whole of humanity back? I also feel that through my life I've (maybe wrongly) placed a great deal of respect and trust in scientists, mostly that they understand that their work is of the upmost importance and so the downstream consequences of mucking around are just too grave. Stuff like this seems to bother me more than it rationally should. Are people who commit this type of science fraud just really evil humans? Am I over thinking this? Do scientists go to jail for academic fraud?",
           "link": "https://news.ycombinator.com/item?id=41673203",
           "publishedOn": "2024-09-27T17:21:04.000Z",
-          "wordCount": null,
+          "wordCount": 8882,
           "title": "New comment by neom in \"Fraud, so much fraud\"",
           "imageUrl": null
         },
@@ -1095,7 +1055,7 @@
           "description": "I like the idea of reclaiming the word \"buy\" to only be the traditional type of ownership transfer (first sale doctrine or whatever if it's a copyrighted thing).  Mandate the use of the word \"license\" or \"rent\" if it's something else",
           "link": "https://news.ycombinator.com/item?id=41672834",
           "publishedOn": "2024-09-27T16:53:04.000Z",
-          "wordCount": null,
+          "wordCount": 1839,
           "title": "New comment by dmoy in \"CA law means stores can't say you're buying a game if you're merely licensing it\"",
           "imageUrl": null
         },
@@ -1105,7 +1065,7 @@
           "description": "We took our kids to Disney World once.\nWhen asked what their favorite part of the trip was, they responded..\nThe hot tub.\nAt the hotel.\nMy kids light up the most when I am fully engaged with them, fully present, entertaining their ideas, and asking questions.\nTheir favorite family trip so far?  When we traveled to Arkansas to mine for crystals.  AKA, dig in the dirt all day.  They saw it on a YouTube video. They asked to go.  So we obliged. I had never been to Arkansas.  It's beautiful.\nWe stayed at a resort, Diamonds Old West Cabins, with a huge playground outside the cabins, archery, and a bubble party every evening at 6 pm.\nThey still talk about that trip.",
           "link": "https://news.ycombinator.com/item?id=41672140",
           "publishedOn": "2024-09-27T15:58:20.000Z",
-          "wordCount": null,
+          "wordCount": 1922,
           "title": "New comment by aantix in \"The best $4 ever spent\"",
           "imageUrl": null
         },
@@ -1115,7 +1075,7 @@
           "description": "Google didn't change it, it embodied it. The problem isn't AI, it's the pervasive culture of PR and advertising which appeared in the 50s and eventually consumed its host.\nWestern industrial culture was based on substance - getting real shit done. There  was always a lot of scammery around it, but the bedrock goal was to make physical things happen - build things, invent things, deliver things, innovate.\nPR and ad culture was there to support that. The goal was to change values and behaviours to get people to Buy More Stuff. OK.\nThen around the time the Internet arrived, industry was off-shored, and the culture started to become one of appearance and performance, not of substance and action.\nSEO, adtech, social media, web framework soup, management fads - they're all about impression manag…",
           "link": "https://news.ycombinator.com/item?id=41670530",
           "publishedOn": "2024-09-27T13:55:42.000Z",
-          "wordCount": null,
+          "wordCount": 3524,
           "title": "New comment by TheOtherHobbes in \"I Am Tired of AI\"",
           "imageUrl": null
         },
@@ -1125,7 +1085,7 @@
           "description": "The older I get the more I hate gambling. When i was younger I tended to think \"hey it's their choice\" but i've realized how unfair our society is in terms of things like this.\nFood, gambling, etc. are all backed by hordes of brilliant well paid people trying to get you to ruin your life so they make money. On the other side is just regular people like us stressed out trying to survive.\nThis isn't some \"freedom\" issue, it's an incredibly huge power asymmetry and I think \"we the people\" need protection from these forces",
           "link": "https://news.ycombinator.com/item?id=41670122",
           "publishedOn": "2024-09-27T13:20:58.000Z",
-          "wordCount": 15168,
+          "wordCount": null,
           "title": "New comment by snapcaster in \"Legalizing sports gambling was a mistake\"",
           "imageUrl": null
         },
@@ -1145,7 +1105,7 @@
           "description": "The most depressing thing for me is the feeling that I simply cannot trust anything that has been written in the past 2 years or so and up until the day that I die. It's not so much that I think people have used AI, but that I know they have with a high degree of certainty, and this certainty is converging to 100%, simply because there is no way it will not. If you write regularly and you're not using AI, you simply cannot keep up with the competition. You're out. And the growing consensus is \"why shouldn't you?\", there is no escape from that.\nNow, I'm not going to criticize anyone that does it, like I said, you have to, that's it. But what I had never noticed until now is that knowing that a human being was behind the written words (however flawed they can be, and hopefully are) is crucial for me. This has completely destroyed my interest in reading any new things. I guess I'm lucky that we have produced so much writing in the past century or so and I'll never run out of stuff to read, but it's still depressing, to be honest.",
           "link": "https://news.ycombinator.com/item?id=41668054",
           "publishedOn": "2024-09-27T09:27:46.000Z",
-          "wordCount": null,
+          "wordCount": 29425,
           "title": "New comment by low_tech_love in \"I Am Tired of AI\"",
           "imageUrl": null
         },
@@ -1155,7 +1115,7 @@
           "description": "I am tired and hungry…\nThe thing I’m tired of is elites stealing everything under the sun to feed these models. So funny that copyright is important when it protects elites but not when a billion thefts are committed by LLM folks. Poor incentives for creators to create stuff if it just gets stolen and replicated by AI.\nI’m hungry for more lawsuits. The biggest theft in human history by these gang of thieves should be held to account. I want a waterfall of lawsuits to take back what’s been stolen. It’s in the public’s interest to see this happen.",
           "link": "https://news.ycombinator.com/item?id=41667942",
           "publishedOn": "2024-09-27T09:10:20.000Z",
-          "wordCount": null,
+          "wordCount": 9598,
           "title": "New comment by sovietmudkipz in \"I Am Tired of AI\"",
           "imageUrl": null
         },
@@ -1165,7 +1125,7 @@
           "description": "Sports gambling has been legal in the UK since 1960. Gambling wasn't seriously problematic in this country until 2005, when regulations were substantially liberalised. Pre-2005, sports betting was something that old men did in dingy backstreet shops; post-2005, it became a widespread social phenomenon, turbocharged by advertising and the growing influence and accessibility of the internet.\nThere's a false dichotomy between prohibition and laissez-faire, which the US seems particularly prone to. You've seen similar issues with the decriminalisation of cannabis, where many states seem to have switched abruptly from criminalisation to a fully-fledged commercial market. There is a broad spectrum of other options in between those points that tend to be under-discussed.\nYou can ban gambling advertising, as Italy did in 2019. You can set limits on maximum stakes or impose regulations to make gambling products less attractive to new customers and less risky for problem gamblers. You can have a single state-controlled parimutuel operator. Gambling does cause harm - whether it's legal or not - but it is within the purview of legislators to create a gambling market in which harm reduction is the main priority.",
           "link": "https://news.ycombinator.com/item?id=41667643",
           "publishedOn": "2024-09-27T08:18:44.000Z",
-          "wordCount": null,
+          "wordCount": 12444,
           "title": "New comment by jdietrich in \"Legalizing sports gambling was a mistake\"",
           "imageUrl": null
         },
@@ -1175,7 +1135,7 @@
           "description": "Sports gambling, like all gambling, ruins lives. It's certainly worth having the discussion about whether people should be able to run a train through their life and the lives of their families via app.\nBut a much easier argument against sports betting is that it ruins the sports. Players throw. They get good at subtly cheating. The gambling apparatus latches itself to the sport, to the teams and players, the umpires and judges, the sporting organizations. With this much money on the line, it's not a matter of if but when games are thrown, cheated -- the bigger the game, the bigger the incentive. It's even easier now because of the amount of side/parlay betting that is available. It exhausts the spirit of competition.\nSports gambling is diametrically opposed to sport itself.",
           "link": "https://news.ycombinator.com/item?id=41666372",
           "publishedOn": "2024-09-27T04:51:53.000Z",
-          "wordCount": 29437,
+          "wordCount": 29462,
           "title": "New comment by mlsu in \"Legalizing sports gambling was a mistake\"",
           "imageUrl": null
         },
@@ -1187,16 +1147,6 @@
           "publishedOn": "2024-09-27T03:50:16.000Z",
           "wordCount": 5235,
           "title": "New comment by vitorbaptistaa in \"Legalizing sports gambling was a mistake\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41664753",
-          "author": "hn_throwaway_99",
-          "description": "I only read the first part of the article, but having dealt with Drive API scopes and their issues previously, I feel there is just a major misunderstanding here.\nThe \"fully open\" Drive API read/write scopes should be highly restricted by default (because they essentially give you access to a user's entire drive), and these are the ones that Google added much more stringent security requirements a couple years ago, e.g. requiring a security audit.\nHowever, there is also a much less sensitive Drive API scope, 'drive.file', which is non-sensitive. It lets an app read and write only files the app owns (or read files a user picks through the file picker control).\nThus, I don't understand why the ia.net app would require more than the drive.file scope. I have no doubt that Google's messaging wasn't clear on the transition process when they first created drive.file scope (and I personally wasted a ton of time with bugs in Google's own file picker when using that scope), but it is a much better solution.",
-          "link": "https://news.ycombinator.com/item?id=41664753",
-          "publishedOn": "2024-09-26T23:40:55.000Z",
-          "wordCount": null,
-          "title": "New comment by hn_throwaway_99 in \"Our Android app is frozen in carbonite\"",
           "imageUrl": null
         },
         {
@@ -1222,7 +1172,7 @@
           "description": "I work at a very large University. I am the parent of a child who has just started secondary school, and of one in the middle of their primary school journey. I am currently taking what in the UK is called a Level 2 Adult Education course. In all four of those domains – and […]",
           "link": "https://crookedtimber.org/2024/10/01/shambles-but-make-it-digital/",
           "publishedOn": "2024-10-01T08:50:27.000Z",
-          "wordCount": 4235,
+          "wordCount": 5249,
           "title": "Shambles, But Make It Digital",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1232,7 +1182,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/09/29/sunday-photoblogging-salisbury-cathedral-2/",
           "publishedOn": "2024-09-29T06:00:08.000Z",
-          "wordCount": 1733,
+          "wordCount": 1735,
           "title": "Sunday photoblogging: Salisbury Cathedral",
           "imageUrl": "https://live.staticflickr.com/65535/53559402338_2b9ef821b0.jpg"
         },
@@ -1242,7 +1192,7 @@
           "description": "Citizens’ assemblies are a hot topic these days in democratic theory. Hélène Landemore gave her Tanner Lecture at University of Michigan last semester, describing her experience on the governance committee of the French Citizens’ Convention on the End of Life. Her account of how ordinary citizens could not only deliberate seriously about a contentious issue, […]",
           "link": "https://crookedtimber.org/2024/09/29/citizens-assemblies-in-michigan-and-beyond/",
           "publishedOn": "2024-09-29T01:43:25.000Z",
-          "wordCount": 3666,
+          "wordCount": 3668,
           "title": "Citizens’ Assemblies in Michigan and Beyond",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1252,7 +1202,7 @@
           "description": "My latest in The Guardian Announcements from major employers, including Amazon and Tabcorp, that workers will be required to return to the office five days a week have a familiar ring. There has been a steady flow of such directives. The Commonwealth Bank CEO, Matt Comyn, attracted a lot of attention with an announcement that […]",
           "link": "https://crookedtimber.org/2024/09/27/in-their-plaintive-call-for-a-return-to-the-office-ceos-reveal-how-little-they-are-needed/",
           "publishedOn": "2024-09-27T02:11:37.000Z",
-          "wordCount": 6259,
+          "wordCount": 6261,
           "title": "In their plaintive call for a return to the office, CEOs reveal how little they are needed",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -1322,16 +1272,6 @@
           "wordCount": 2352,
           "title": "When Israel's accomplices accustom us to a monstrous, heartless and inhuman world!",
           "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L640xH336/a4fd68eb455209c2e91d1081f6161f-79c86.jpg"
-        },
-        {
-          "id": "https://www.cadtm.org/The-gender-equity-farce-a-feminist-reading-of-World-Bank-policies",
-          "author": "Camille Bruneau",
-          "description": "The World Bank and the IMF are 80 years old. 80 years of financial neo-colonialism and the imposition of austerity policies in the name of debt repayment. 80 years is enough! The Bretton Woods institutions must be abolished and replaced by democratic institutions serving an ecological, feminist and anti-racist bifurcation. To mark these 80 years, we are republishing a series of articles every Wednesday, looking in detail at the history and damage caused by these two institutions. \nEnglish\n\n/ \nFeminisms, \nWorld Bank, \n80 ans BM FMI EN",
-          "link": "https://www.cadtm.org/The-gender-equity-farce-a-feminist-reading-of-World-Bank-policies",
-          "publishedOn": "2024-09-25T07:30:00.000Z",
-          "wordCount": 11257,
-          "title": "The “gender equity” farce: a feminist reading of World Bank policies",
-          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L153xH80/7d67b536955c2d468284cb35bf57de-31f2b.png"
         }
       ]
     },
@@ -1359,12 +1299,22 @@
       "siteUrl": "https://disassociated.com",
       "articles": [
         {
+          "id": "https://disassociated.com/?p=8607",
+          "author": "disassociated.com",
+          "description": "Juice is the latest novel by Australian author Tim Winton, which was published yesterday. From this synopsis, Juice sounds like it blends elements of the Max Mad saga, with Winton’s own environmental and climate change concerns: Two fugitives, a man and a child, drive all night across a stony desert. As dawn breaks, they roll […]",
+          "link": "https://disassociated.com/juice-new-cli-fi-novel-australian-author-tim-winton/",
+          "publishedOn": "2024-10-01T21:00:34.000Z",
+          "wordCount": 348,
+          "title": "Juice: the new cli-fi novel by Australian author Tim Winton",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
           "id": "https://disassociated.com/?p=8602",
           "author": "disassociated.com",
           "description": "I’m not very sporty as regular readers will have gathered. Of the approximate sixteen-hundred posts here at present, less than half a dozen are sport related. Of these, the majority relate to the Matildas, the Australian women’s football/soccer team, which I wrote during last year’s World Cup tournament. To think it’s been over a year […]",
           "link": "https://disassociated.com/mullets-great-australian-football-league-teams/",
           "publishedOn": "2024-09-30T21:00:10.000Z",
-          "wordCount": 286,
+          "wordCount": 296,
           "title": "Do mullets make for great Australian Football League teams?",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         },
@@ -1500,6 +1450,16 @@
       "siteUrl": "https://bearblog.dev/discover/",
       "articles": [
         {
+          "id": "https://alexandrawolfe.ca/inktober-01-peas-in-a-pod/",
+          "author": null,
+          "description": "I know there is a prompt sheet available for the challenge, but I'm going rogue as I kind of tend to scribble stuff that pops into my head at any given time. And, so ... here's my first offering.",
+          "link": "https://alexandrawolfe.ca/inktober-01-peas-in-a-pod/",
+          "publishedOn": "2024-10-01T18:24:09.452Z",
+          "wordCount": 1060,
+          "title": "Inktober #01 : Peas in a Pod",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/notebook/peas.webp"
+        },
+        {
           "id": "https://azhdarchid.com/goodbye-cohost/",
           "author": null,
           "description": "Alright, I'm a little sick, and I have something of a headache, and I'm emotional for more reasons than just Cohost, but here goes.\nI've been writing on the internet for most of the time that I've been alive. I've done it on blogs, I've done it on social media. I've done it for money and I've done it for free. I've done it on Tumblr and on more than one defunct media vertical and in interactive fiction.\nCohost was the first place where it felt like, consistently, someone was always reading. Something about the site's design and user culture created a magical space where people approached things with openness and curiosity and willingness to give their time and attention.\nThis felt like a place where you could write about anything and people would care. I've talked about the Put your Helmet…",
@@ -1625,7 +1585,7 @@
           "description": "Something I’ve mentioned in my yes/nope page is that I won’t subscribe. This is a bit crass of course; that page is for things I generally don’t want to do and isn’t meant for explanation, exceptions and nuance. Of course there are services I subscribe to - I currently pay for Proton, Spotify and Apple Fitness.\nOne reason is, of course, that these services don’t offer lifetime payment. But in their cases, I understand how that’s not feasible - their services are heavily dependent on serving content via cloud and development of new content and improved features. The bandwidth needs to be paid for, artists, devs and fitness trainers need to be paid constantly.\nBut I try to limit what I subscribe to. Everyone has a maximum amount of subscriptions they’re willing to have at the same time and p…",
           "link": "https://blog.avas.space/saas/",
           "publishedOn": "2024-09-27T10:05:00.000Z",
-          "wordCount": 1601,
+          "wordCount": 1733,
           "title": "lifetime payment vs. subscription",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/avas-1709500835-0.png"
         },
