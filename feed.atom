@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-02T18:34:52.304Z</id>
+    <id>urn:2024-10-03T01:52:32.122Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-10-02T18:34:52.304Z</updated>
+    <updated>2024-10-03T01:52:32.122Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Week Ending September 29, 2024]]></title>
+        <id>https://lwkd.info/2024/20241002</id>
+        <link href="https://lwkd.info/2024/20241002"/>
+        <updated>2024-10-02T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Developer News]]></summary>
+        <author>
+            <name>Last Week in Kubernetes Development</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Independent websites: vital for the survival of the hyperlink]]></title>
+        <id>https://disassociated.com/?p=8611</id>
+        <link href="https://disassociated.com/independent-websites-vital-survival-hyperlinks/"/>
+        <updated>2024-10-02T21:00:48.000Z</updated>
+        <summary type="html"><![CDATA[This Halifax Examiner article, by Philip Moscovitch, which features a number of quotes by Matt Pearce, a Los Angeles Times journalist, recorded on a recent episode of the Tech Won’t Save Us podcast, has been doing the rounds. The upshot being hyperlinks, links from one webpage to another, are in danger of becoming obsolete. Extinct. […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 10/2/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=279724</id>
@@ -13,6 +33,18 @@
         <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics; Vance-Walz debate; Boeing and Longshoremen strikes; Effects of Helene on North Carolina election ~]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by pizlonator in "The Fastest Mutexes"]]></title>
+        <id>https://news.ycombinator.com/item?id=41722337</id>
+        <link href="https://news.ycombinator.com/item?id=41722337"/>
+        <updated>2024-10-02T16:29:37.000Z</updated>
+        <summary type="html"><![CDATA[Always cool to see new mutex implementations and shootouts between them, but I don’t like how this one is benchmarked. Looks like a microbenchmark.
+Most of us who ship fast locks use very large multithreaded programs as our primary way of testing performance. The things that make a mutex fast or slow seem to be different for complex workloads with varied critical section length, varied numbers of threads contending, and varying levels of contention.
+(Source: I wrote the fast locks that WebKit uses, I’m the person who invented the ParkingLot abstraction for lock impls (now also used in Rust and Unreal Engine), and I previously did research on fast locks for Java and have a paper about that.)]]></summary>
+        <author>
+            <name>pizlonator</name>
         </author>
     </entry>
     <entry>
@@ -25,6 +57,48 @@ Read More...
 The post React at Meta Connect 2024 appeared first on Engineering at Meta.]]></summary>
         <author>
             <name>Engineering at Meta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notes on Sufic Rewilding]]></title>
+        <id>https://theiqrafiles.com/notes-on-sufic-rewilding/</id>
+        <link href="https://theiqrafiles.com/notes-on-sufic-rewilding/"/>
+        <updated>2024-10-02T15:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Dawah Inc is dying. Tumblr e-girl intrigue, the notoriety of public celebrity, the psy-slop of attention hacking economics and industrial scale mediocrity is tearing down the aura, prestige and myth of Islamicate civilization in cyber. The latent iconoclastic potential of Islamicate art has been squandered and instead we have meatspace media empires, fools who have tried to make gold off the back of other fools. In the process we have a contagion of functional illiteracy, cultural apocalypse and no real vibrancy. The Muhammadan spirit is missing from Dawah Inc. There is no real transgression, when Dawah Inc positions itself as a menu item that also includes Ben Shapiro and Jordan Peterson.
+There must be consideration for what comes next. Part of what must come next, must grasp the iconocla…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Day in Carmel-by-the-Sea, CA]]></title>
+        <id>https://jeddacp.me/a-day-in-carmel-by-the-sea-ca/</id>
+        <link href="https://jeddacp.me/a-day-in-carmel-by-the-sea-ca/"/>
+        <updated>2024-10-02T15:11:47.091Z</updated>
+        <summary type="html"><![CDATA[Carmel by the Sea is such a cute little town—super quaint and dog-friendly! We spent the day here for my birthday back in August.
+Already trying to figure out when we can go again to continue exploring since we didn't get a chance to do the Fairy Tale Houses tour.
+Thankfully walking around town was a fairy tale in itself.
+
+
+
+There were a ton of cute alleyways like this.
+
+One of the libraries we visited so I could sign up for a library card to add to my collection.
+
+Here's another library. Unfortunately we didn't go inside to get a library card here.
+
+Plenty of artwork gems to discover like this.
+
+and this.
+
+We event found a nice little dog shop where we almost bought a bag for Cocoa.
+
+🎂 Related (Birthday Weekend Series):
+San Francisco in a Frame
+Incoming Fog Down the PCH
+An August Morning]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -330,16 +404,6 @@ Capitalism]]></summary>
         <summary type="html"><![CDATA[For context - he has a ~9m sub youtube channel on phones that must be banking it. This is a side project that appears to be grown out of frustration of disabled wife & seeing the shitshow that wheelchair market is. Seems 10/10 wholesome to have this disrupted by someone that cares]]></summary>
         <author>
             <name>Havoc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by mcculley in "Is the world really running out of sand?"]]></title>
-        <id>https://news.ycombinator.com/item?id=41712363</id>
-        <link href="https://news.ycombinator.com/item?id=41712363"/>
-        <updated>2024-10-01T18:34:49.000Z</updated>
-        <summary type="html"><![CDATA[One thing that surprised me when I started running a tugboat business: A country can be both an exporter and importer of sand. Sand of one type goes from the U.S. to The Bahamas to be used in concrete. Sand of another type goes from The Bahamas to the U.S. to be used in aquariums. Specialty sands go to make regulation volleyball courts.]]></summary>
-        <author>
-            <name>mcculley</name>
         </author>
     </entry>
     <entry>
@@ -792,6 +856,20 @@ Having waited patiently for adulthood to arrive, Alexandra packed a marmite sand
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by dgreensp in "Y Combinator Traded Prestige for Growth"]]></title>
+        <id>https://news.ycombinator.com/item?id=41698425</id>
+        <link href="https://news.ycombinator.com/item?id=41698425"/>
+        <updated>2024-09-30T15:38:18.000Z</updated>
+        <summary type="html"><![CDATA[Full disclosure, I'm a YC alum whose last start-up was acquired by Google, who applied to this batch and didn't get an interview.
+YC is not the stamp of quality it once was, to be sure, though it still works as social proof, because investors (especially VCs) want to invest in companies other investors like (or failing that, companies they imagine other investors would like).  YC would say that they aren't trying to be a stamp of quality or social proof, they are just trying to help start-ups.
+If I had to take a stab at articulating how YC has changed, it's that it's become a VC, picking ideas to generate returns.
+This rejection email from 2022 that someone posted online cements the idea for me (excerpted):
+"Unfortunately, we've decided not to fund {Company} this batch. We enjoyed our conv…]]></summary>
+        <author>
+            <name>dgreensp</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by indymike in "Bop Spotter"]]></title>
         <id>https://news.ycombinator.com/item?id=41697577</id>
         <link href="https://news.ycombinator.com/item?id=41697577"/>
@@ -918,19 +996,6 @@ Most books published today have the affect of a book, but the author doesn't rea
 The reason so much writing, podcasting, and  music is vulnerable to AI disruption is that quality has already become secondary.]]></summary>
         <author>
             <name>timoth3y</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[⚙️ Inspired by Micro Thoughts]]></title>
-        <id>https://so.axodys.com/inspired-by-micro-thoughts/</id>
-        <link href="https://so.axodys.com/inspired-by-micro-thoughts/"/>
-        <updated>2024-09-30T00:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Jedda1 had a timely post this week titled Micro Thoughts - Explained that was extremely relevant to my recent blog consolidation efforts:
-I post random thoughts and shorter things in various places. You can mostly find me on Mastodon these days, sporadically on micro.blog (that sometimes gets pushed to Mastodon), and these days on status.log (which also sometimes gets copied over to Mastodon). Anyways, I'm all over the place.
-There are some fleeting thoughts I want to keep just because. I have my Mastodon profile set to delete after insert amount of time here so I want to keep a copy of it on my site.
-Enter Microthoughts: a summary (copy?) of most of my posts from random places. It could be for people who don't have those platforms to see what I've been posting, but it's also mostly just f…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -1195,20 +1260,6 @@ This is a project I've started many times before without a lot of success on sev
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[my online life, and cohost]]></title>
-        <id>https://damien.zone/my-online-life-and-cohost/</id>
-        <link href="https://damien.zone/my-online-life-and-cohost/"/>
-        <updated>2024-09-28T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This post is mirrored on cohost as well and was written with it in mind. But also not? It's fine, don't worry about it.
-Like many people in my age group, I think it's fair to say that I grew up online.
-the pre-social media years
-My "life online" really started in the mid-2000s when I joined the forums of Crystal XP. This name probably won't mean anything to you, but if you used Windows XP at the time, you might have seen their "BricoPacks". These were 1-click installers that reskinned your entire Windows installation. Their most successful one was the Vista Inspirat one. Pretty wild stuff. Oh, and also CrystalXP was "responsible" for that one Tux and its myriad of variations you might see on every other Linux fanboy's profile.
-But like I said, they had forums. I joined those forums after r…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Some Communist Study Group - Ripples and Waves]]></title>
         <id>https://theanarchistlibrary.org/library/anonymous-haters-cafe-ripples-and-waves?v=1727485961</id>
         <link href="https://theanarchistlibrary.org/library/anonymous-haters-cafe-ripples-and-waves?v=1727485961"/>
@@ -1288,16 +1339,6 @@ At the same time, I was a failed scientist: my gels weren't as interesting, or c
 Would I have been more successful if fewer people (and I now believe this is a common occurrence) published fraudulent images of gels?  Maybe, maybe not.  But the more important thing is that everybody just went along with this.  I participated in many journal clubs where folks would just flip to Figure 3, assume the gel was what the authors claimed, and proceed to agree with (or disagree with) the results and conclusions uncritically.  Whereas I would spend a lot of time trying to understand what experiment was actually run, and what th e data showed.]]></summary>
         <author>
             <name>dekhn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by dang in "Fraud, so much fraud"]]></title>
-        <id>https://news.ycombinator.com/item?id=41673469</id>
-        <link href="https://news.ycombinator.com/item?id=41673469"/>
-        <updated>2024-09-27T17:41:54.000Z</updated>
-        <summary type="html"><![CDATA[Here's the article: https://www.science.org/content/article/research-misconduct-...]]></summary>
-        <author>
-            <name>dang</name>
         </author>
     </entry>
     <entry>
@@ -1592,98 +1633,6 @@ In Canada, scientist would have had a salary and health insurance, but I wouldn�
         <summary type="html"><![CDATA[Fredric Jameson (1934-2024).]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloudflare’s bigger, better, faster AI platform]]></title>
-        <id>2lS9TcgZHa1fubO371mYiv</id>
-        <link href="https://blog.cloudflare.com/workers-ai-bigger-better-faster"/>
-        <updated>2024-09-26T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Whether you want the fastest inference at the edge, optimized AI workflows, or vector database-powered RAG, we’re excited to help you harness the full potential of AI and get started on building with Cloudflare.]]></summary>
-        <author>
-            <name>Michelle Chen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Startup Program revamped: build and grow on Cloudflare with up to $250,000 in credits]]></title>
-        <id>4ZEcwzAEh1rg9IxDqC3UyM</id>
-        <link href="https://blog.cloudflare.com/startup-program-250k-credits"/>
-        <updated>2024-09-26T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare’s Startup Program now offers up to $250,000 in credits for companies building on our Developer Platform. The program relaunch uses clear and predictable credits so that you can easily see how usage impacts future pricing.]]></summary>
-        <author>
-            <name>Christopher Rotas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making Workers AI faster and more efficient: Performance optimization with KV cache compression and speculative decoding]]></title>
-        <id>29PAMer5L0do12OtNa557I</id>
-        <link href="https://blog.cloudflare.com/making-workers-ai-faster"/>
-        <updated>2024-09-26T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With a new generation of data center accelerator hardware and using optimization techniques such as KV cache compression and speculative decoding, we’ve made large language model (LLM) inference lightning-fast on the Cloudflare Workers AI platform.]]></summary>
-        <author>
-            <name>Isaac Rehg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zero-latency SQLite storage in every Durable Object]]></title>
-        <id>44R2ywetTc9l1c6D7oWTsz</id>
-        <link href="https://blog.cloudflare.com/sqlite-in-durable-objects"/>
-        <updated>2024-09-26T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Traditional cloud storage is inherently slow because it is accessed over a network and must synchronize many clients. But what if we could instead put your application code deep into the storage layer, such that your code runs where the data is stored? Durable Objects with SQLite do just that.]]></summary>
-        <author>
-            <name>Kenton Varda</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We made Workers KV up to 3x faster — here’s the data]]></title>
-        <id>76i5gcdv0wbMNnwa7E17MR</id>
-        <link href="https://blog.cloudflare.com/faster-workers-kv"/>
-        <updated>2024-09-26T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Speed is a critical factor that dictates Internet behavior. Every additional millisecond a user spends waiting for your web page to load results in them abandoning your website.]]></summary>
-        <author>
-            <name>Thomas Gauvin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Break Up Economics — continued]]></title>
-        <id>http://rwer.wordpress.com/?p=45610</id>
-        <link href="https://rwer.wordpress.com/2024/09/26/break-up-economics-continued/"/>
-        <updated>2024-09-26T12:12:24.000Z</updated>
-        <summary type="html"><![CDATA[from Peter Radford What?  Surely not!  How dare he suggest such a thing. What, you are correct in asking, am I talking about? The recent speech by a Department of Justice official who dared suggest that it is getting quite difficult to find a truly neutral technocratic expert to give testimony in court.  Imagine the […]]]></summary>
-        <author>
-            <name>peterradford</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When Israel's accomplices accustom us to a monstrous, heartless and inhuman world!]]></title>
-        <id>https://www.cadtm.org/When-Israel-s-accomplices-accustom-us-to-a-monstrous-heartless-and-inhuman</id>
-        <link href="https://www.cadtm.org/When-Israel-s-accomplices-accustom-us-to-a-monstrous-heartless-and-inhuman"/>
-        <updated>2024-09-26T10:19:04.000Z</updated>
-        <summary type="html"><![CDATA[Worse than Israel's crimes is the fact that the entire so-called “civilized” world follows and comments on them as if they were just a video game. When, of course, it's not celebrating them by arming the criminal. Or approving them by letting them go unpunished. And it has been doing so for decades. And live on our TV screens. Day after day, hour after hour. As if these daily massacres were a never-ending TV series, interspersed with commercials, that we can follow lying on our sofas, while we (...)
-English
-
-/ 
-Palestine, 
-Israel, 
-Colonialism]]></summary>
-        <author>
-            <name>Gideon Levy, Yorgos Mitralias</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alexander Dunlap - Book Review: “We Are Forests: Inhabiting Territories in Struggle”]]></title>
-        <id>https://theanarchistlibrary.org/library/alexander-dunlap-book-review-we-are-forests-inhabiting-territories-in-struggle?v=1727332502</id>
-        <link href="https://theanarchistlibrary.org/library/alexander-dunlap-book-review-we-are-forests-inhabiting-territories-in-struggle?v=1727332502"/>
-        <updated>2024-09-26T06:35:02.000Z</updated>
-        <summary type="html"><![CDATA[Author: Alexander Dunlap
-Title: Book Review: “We Are Forests: Inhabiting Territories in Struggle”
-Date: 2024/09/25
-Source: https://undisciplinedenvironments.org/2024/09/25/book-review-we-are-forests-inhabiting-territories-in-struggle-cambridgepolity-2023/
-
- Jean-Baptiste Vidalou, “We Are Forests: Inhabiting Territories in Struggle” (Cambridge: Polity, 2023) 
- It’s shameful. The original French publication of We are Forests: Inhabiting Territories in Struggle by Jean-Baptiste Vidalou was in my hands since April 2018. Frequently described as “the French Seeing Like a State,” the book explores the art of state making in France. Having been in stimulating dialogues with Jean-Baptiste Vidalou (JBV) since 2018, and being linguistically challenged, I knew the general ideas and points in the book—…]]></summary>
-        <author>
-            <name>The Anarchist Library</name>
         </author>
     </entry>
 </feed>
