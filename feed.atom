@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-06T12:46:30.051Z</id>
+    <id>urn:2024-10-06T18:31:52.748Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-10-06T12:46:30.051Z</updated>
+    <updated>2024-10-06T18:31:52.748Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -72,7 +72,7 @@ The post Matching Words With Deeds at the United Nations and Beyond appeared fir
         <id>https://www.counterpunch.org/?p=336007</id>
         <link href="https://www.counterpunch.org/2024/10/06/writers-win-more-prizes-than-pankaj-mishra/"/>
         <updated>2024-10-06T05:47:03.000Z</updated>
-        <summary type="html"><![CDATA[Congrats to renowned author and novelist Pankaj Mishra, who recently won Canada’s prestigious Weston International Award! As winner of this impressive honor, Pankaj was asked to deliver a lecture at the Royal Ontario Museum, excerpts of which were to be published in Canada’s paper of record, the Globe and Mail. For his lecture, Pankaj chose […]
+        <summary type="html"><![CDATA[Photo Courtesy of Pankaj Mishra. Congrats to renowned author and novelist Pankaj Mishra, who recently won Canada’s prestigious Weston International Award! As winner of this impressive honor, Pankaj was asked to deliver a lecture at the Royal Ontario Museum, excerpts of which were to be published in Canada’s paper of record, the Globe and Mail. […]
 To read this article, log in here or subscribe here.
 If you are logged in but can't read CP+ articles, check the status of your access here
 In order to read CP+ articles, your web browser must be set to accept cookies.		    
@@ -81,6 +81,28 @@ In order to read CP+ articles, your web browser must be set to accept cookies.
 The post WRITERS! Win More Prizes Than Pankaj Mishra! appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Susie Day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Keeping email addresses hidden from spam bots]]></title>
+        <id>https://sylvia.bearblog.dev/email-obfuscation/</id>
+        <link href="https://sylvia.bearblog.dev/email-obfuscation/"/>
+        <updated>2024-10-05T22:26:00.000Z</updated>
+        <summary type="html"><![CDATA[{{ post_last_modified }} ago
+I detest email spam and have been looking into tried & true solutions for obfuscating email addresses. Contact forms are great for hiding email addresses, but I don't love relying on yet another service for something so simple as email.
+It turns out a simple CSS "display: none" blocks 100% of spam! I'll be using this method to list my email address moving forward — you can see how it looks on my About page.
+The symbol substitution method seems to still be effective, but I want my email address to be easy to copy-paste.
+Here are the HTML and CSS snippets for anyone interested in hiding their email address from spam bots.
+HTML for email address
+Add this to where you want your email to display. Update username and domain.com with your actual information.
+<span class="email">username@<b>mail.</b>domain.com</span>
+
+Theme CSS
+span.email b {
+    display: none;
+}]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -1066,22 +1088,6 @@ Read More...
 The post React at Meta Connect 2024 appeared first on Engineering at Meta.]]></summary>
         <author>
             <name>Engineering at Meta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding multilingual token compression in GPT-o family models]]></title>
-        <id>https://www.njkumar.com/gpt-o-multilingual-token-compression/</id>
-        <link href="https://www.njkumar.com/gpt-o-multilingual-token-compression/"/>
-        <updated>2024-10-02T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Disclaimer: I wrote this article before OpenAI released o1, which now hides its "reasoning" tokens making them inaccessible through the tiktoken library. I think o1 uses the same base tokenizer as GPT-o, but unfortunately we can no longer observe this directly.
-GPT-o introduces a new tokenizer o200k_base, which both doubles the model's vocabulary size to 200k (previously 100k with GPT-4) and significantly improves token compression, especially for non-English tokens.
-
-Source: GPT-o release
-Compression
-For non-Latin scripts, o200k_base achieves significantly higher token compression compared to GPT-4's c100k_base, demonstrating more efficient word tokenization.
-For example, looking at the Tamil sentence நீ எப்படி இருக்கிறாய்? நான் நல்லா இருக்கேன். (translation: How are you? I am fine.), c10…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
