@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-09T18:34:37.911Z</id>
+    <id>urn:2024-10-10T01:52:13.397Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-10-09T18:34:37.911Z</updated>
+    <updated>2024-10-10T01:52:13.397Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Week Ending October 06, 2024]]></title>
+        <id>https://lwkd.info/2024/20241009</id>
+        <link href="https://lwkd.info/2024/20241009"/>
+        <updated>2024-10-09T23:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Developer News]]></summary>
+        <author>
+            <name>Last Week in Kubernetes Development</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So long, thanks for all the blog posts: Microsoft cans WordPad]]></title>
+        <id>https://disassociated.com/?p=8647</id>
+        <link href="https://disassociated.com/thanks-blog-posts-microsoft-cans-wordpad/"/>
+        <updated>2024-10-09T21:00:20.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft is doing away with their old basic, but useful, word processor, WordPad, which has been bundled with Windows Operating Systems for nearly thirty-years. It will not be a feature at all in Windows 11. Yet another reason to migrate away from Windows all together, perhaps? Before switching to Word, I used to draft all […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 10/9/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=280101</id>
         <link href="https://www.nakedcapitalism.com/2024/10/200pm-water-cooler-10-9-2024.html"/>
         <updated>2024-10-09T18:00:41.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, Pandemics ~]]></summary>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, Pandemics; fun with maps: Helene and Milton could make Pennsylvania the key;  Kamala has a beer with Stephen Colbert; on hurricanes; Response to Helene in NC; Boeing talks break down as management walks away from the table. ~]]></summary>
         <author>
             <name>Lambert Strether</name>
         </author>
@@ -109,6 +129,18 @@ Poverty,
 Precarity]]></summary>
         <author>
             <name>Michael Roberts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by mihaic in "John Carmack on inlined code (2014)"]]></title>
+        <id>https://news.ycombinator.com/item?id=41785113</id>
+        <link href="https://news.ycombinator.com/item?id=41785113"/>
+        <updated>2024-10-09T06:34:02.000Z</updated>
+        <summary type="html"><![CDATA[When I first heard the maxim that an intelligent person should be able to hold two opposing thoughts at the same time, I was naive to think it meant weighing them for pros and cons. Over time I realized that it means balancing contradictory actions, and the main purpose of experience is knowing when to apply each.
+Concretely related to the topic, I've often found myself inlining short pieces of one-time code that made functions more explicit, while at other times I'll spend days just breaking up thousand line functions into simpler blocks just to be able to follow what's going on. In both cases I was creating inconsistencies that younger developers nitpick -- I know I did.
+My goal in most cases now is to optimize code for the limits of the human mind (my own in low-effort mode) and like to be able to treat rules as guidelines. The trouble is how can you scale this to millions of developers, and what are those limits of the human mind when more and more AI-generated code will be used?]]></summary>
+        <author>
+            <name>mihaic</name>
         </author>
     </entry>
     <entry>
@@ -233,6 +265,19 @@ The post Rethinking Dry Forest Management in a Warming Climate appeared first on
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by nullindividual in "Why the ISO format has to die"]]></title>
+        <id>https://news.ycombinator.com/item?id=41784789</id>
+        <link href="https://news.ycombinator.com/item?id=41784789"/>
+        <updated>2024-10-09T05:32:11.000Z</updated>
+        <summary type="html"><![CDATA[The author could use a bit of humility.
+ISO isn’t useful in the author’s use-case. That’s fine, it is their project to do as they will. ISOs may still have uses elsewhere, such as PXE boot or just a near universally mountable read only container.
+The author’s point to the age of the original ISO standard is irrelevant. Many old technologies are reliable and widely adopted, which in and of itself may make it superior to more modern technologies.
+Author’s project, author’s will. But that was difficult to read due to their attitude and beyond the author’s use case, didn’t provide a reason for universally retiring ISO.]]></summary>
+        <author>
+            <name>nullindividual</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Accelerate Serverless Streamlit App Deployment with Terraform]]></title>
         <id>801c833117b120c017f34599470ae8bce1d0bf6e</id>
         <link href="https://aws.amazon.com/blogs/devops/accelerate-serverless-streamlit-app-deployment-with-terraform/"/>
@@ -297,6 +342,22 @@ By the end of the month I should have this Bear blog with the new domain and dar
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by recursivedoubts in "A modest critique of Htmx"]]></title>
+        <id>https://news.ycombinator.com/item?id=41782080</id>
+        <link href="https://news.ycombinator.com/item?id=41782080"/>
+        <updated>2024-10-08T21:39:57.000Z</updated>
+        <summary type="html"><![CDATA[These all look reasonable to me.
+I especially go back and forth on attribute inheritance (it can be disabled via the htmx.config.disableInheritance option)
+Three of the criticisms boil down to the fact that client-side state doesn't always play well w/htmx swaps (especially the simple ones) which is absolutely true.
+And events can get crazy.  They are powerful, but crazy and at times hard to debug.  Such is event-driven life.
+The one thing I don't agree with is the default queuing mode: it is not to cancel an existing request and replace it.  Instead it is to keep the current request in flight and queue one and only one additional request.  I'd need to sit down w/them to see if they were misinterpreting something, using the hx-sync attribute to implement the behavior they mention, or if there is a bug.
+I would also like to take this opportunity to market our mug for people who don't like htmx:
+https://swag.htmx.org/products/htmx-sucks-mug]]></summary>
+        <author>
+            <name>recursivedoubts</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Oxford Comma users: people may think AI does your writing]]></title>
         <id>https://disassociated.com/?p=8643</id>
         <link href="https://disassociated.com/oxford-comma-users-people-think-ai-writing/"/>
@@ -355,7 +416,7 @@ I’m in a mood right now, and have been for a few weeks (it got worse after I g
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Introducing Netflix TimeSeries Data Abstraction Layer]]></title>
+        <title type="html"><![CDATA[Introducing Netflix’s TimeSeries Data Abstraction Layer]]></title>
         <id>https://medium.com/p/31552f6326f8</id>
         <link href="https://netflixtechblog.com/introducing-netflix-timeseries-data-abstraction-layer-31552f6326f8?source=rss----2615bd06b42e---4"/>
         <updated>2024-10-08T17:05:36.000Z</updated>
@@ -380,7 +441,8 @@ Soon, you'll have painted a beautiful blog that looks great from every angle, ye
 Community echoes
 FW: Blog Like a Painter by Yordi
 (I am) the painter with dried up paint cans by Jedda
-Re: Blog Like a Painter by Helen Chong]]></summary>
+Re: Blog Like a Painter by Helen Chong
+Re: Blog Like a Painter by Dominik]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
@@ -413,6 +475,16 @@ Re: Blog Like a Painter by Helen Chong]]></summary>
         <summary type="html"><![CDATA[The acquisition and integration of Kivera broadens the scope of Cloudflare’s SASE platform beyond just apps, incorporating increased cloud security through proactive configuration management of cloud services.]]></summary>
         <author>
             <name>Noelle Kagan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by VHRanger in "Nobel Prize in Physics awarded to John Hopfield and Geoffrey Hinton [pdf]"]]></title>
+        <id>https://news.ycombinator.com/item?id=41776411</id>
+        <link href="https://news.ycombinator.com/item?id=41776411"/>
+        <updated>2024-10-08T12:04:35.000Z</updated>
+        <summary type="html"><![CDATA[Geoffrey Hinton wins the Nobel prize in physics for giving physics postdocs more reasonable job market options]]></summary>
+        <author>
+            <name>VHRanger</name>
         </author>
     </entry>
     <entry>
@@ -579,6 +651,50 @@ The post Israel’s October 7th Propaganda Machine: Arun Gupta appeared first on
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by ApolloFortyNine in "Google must open Android for third-party stores, rules Epic judge"]]></title>
+        <id>https://news.ycombinator.com/item?id=41770925</id>
+        <link href="https://news.ycombinator.com/item?id=41770925"/>
+        <updated>2024-10-07T20:52:51.000Z</updated>
+        <summary type="html"><![CDATA[If apple literally hadn't won their own case 2 years ago you'd be right.
+If the company that literally doesn't allow users to install ANY application, yet alone a whole store, is in the clear, it's mind boggling that Google's situation is the one they took issue with.
+Apple literally has a higher market share in the US.]]></summary>
+        <author>
+            <name>ApolloFortyNine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by ethbr1 in "Google must open Android for third-party stores, rules Epic judge"]]></title>
+        <id>https://news.ycombinator.com/item?id=41770338</id>
+        <link href="https://news.ycombinator.com/item?id=41770338"/>
+        <updated>2024-10-07T20:01:54.000Z</updated>
+        <summary type="html"><![CDATA[It's probably not a great idea to point at a monopoly, as a defense of one's own monopoly, and claim "Yeah, but he did it worse."
+Both Google and Apple's platforms need to be cracked open to competition.]]></summary>
+        <author>
+            <name>ethbr1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by xnx in "Google must open Android for third-party stores, rules Epic judge"]]></title>
+        <id>https://news.ycombinator.com/item?id=41770223</id>
+        <link href="https://news.ycombinator.com/item?id=41770223"/>
+        <updated>2024-10-07T19:52:26.000Z</updated>
+        <summary type="html"><![CDATA[It is ridiculous. From Google's reply (https://blog.google/outreach-initiatives/public-policy/epic-...): "These Epic-requested changes stem from a decision that is completely contrary to another court’s rejection of similar claims Epic made against Apple — even though, unlike iOS, Android is an open platform that has always allowed for choice and flexibility like multiple app stores and sideloading."]]></summary>
+        <author>
+            <name>xnx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by tmtvl in "Google must open Android for third-party stores, rules Epic judge"]]></title>
+        <id>https://news.ycombinator.com/item?id=41770193</id>
+        <link href="https://news.ycombinator.com/item?id=41770193"/>
+        <updated>2024-10-07T19:49:05.000Z</updated>
+        <summary type="html"><![CDATA[Wait, so the Google Play Store, which you can install alternatives to (F-Droid, Aurora, Amazon,...), and where you can easily install apps through other means (such as downloading an APK through your browser and running it from the file manager) is an illegal monopoly while the Apple App Store isn't?
+Well, I guess Google's market cap is only 2 trillion compared to Apple's 3 trillion, so I guess that's fair.]]></summary>
+        <author>
+            <name>tmtvl</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Please write it, do not stream it]]></title>
         <id>https://rimarin.bearblog.dev/please-write-it-do-not-stream-it/</id>
         <link href="https://rimarin.bearblog.dev/please-write-it-do-not-stream-it/"/>
@@ -606,6 +722,17 @@ P.S.: This article could have been a 20 minute video on YouTube or a 30 minute p
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by psunavy03 in "US antitrust case against Amazon to move forward"]]></title>
+        <id>https://news.ycombinator.com/item?id=41769457</id>
+        <link href="https://news.ycombinator.com/item?id=41769457"/>
+        <updated>2024-10-07T18:42:53.000Z</updated>
+        <summary type="html"><![CDATA[Ruling at the below link, because apparently every US news reporter is allergic to actually providing source docs in court cases . . .
+https://storage.courtlistener.com/recap/gov.uscourts.wawd.32...]]></summary>
+        <author>
+            <name>psunavy03</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AWS Weekly Roundup: HIPAA eligible with Amazon Q Business, Amazon DCV, AWS re:Post Agent, and more (Oct 07, 2024)]]></title>
         <id>238beac9f3f87197236d630385a99ae1acba128a</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-q-business-is-hipaa-eligible-amazon-dcv-aws-repost-agent-and-more-oct-07-2024/"/>
@@ -613,6 +740,20 @@ P.S.: This article could have been a 20 minute video on YouTube or a 30 minute p
         <summary type="html"><![CDATA[Last Friday, I had the privilege of attending China Engineer’s Day 2024(CED 2024) in Hangzhou as the Amazon Web Services (AWS) speaker. The event was organized by the China Computer Federation (CCF), one of the most influential professional developer communities in China. At CED 2024, I spoke about how AI development tools can improve developer […]]]></summary>
         <author>
             <name>Betty Zheng (郑予彬)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by cactacea in "Ask HN: What's the "best" book you've ever read?"]]></title>
+        <id>https://news.ycombinator.com/item?id=41767392</id>
+        <link href="https://news.ycombinator.com/item?id=41767392"/>
+        <updated>2024-10-07T16:05:53.000Z</updated>
+        <summary type="html"><![CDATA[> "The best book I've ever read was Atlas Shrugged in 8th grade. Changed my life."
+"huh, ok"
+> Really, I'm just looking for people who won't jump down my throat on a faux pas.
+I think you're dismissing the people such as myself that would note you as an idiot without comment and move on wanting nothing to do with you.
+Edit: tests and trick questions with people you just met is an ineffective way to navigate the world. My 2c]]></summary>
+        <author>
+            <name>cactacea</name>
         </author>
     </entry>
     <entry>
@@ -633,6 +774,32 @@ Who knows, maybe these will become the main focus of this blog someday. I don't 
 Through blogging. Not through considering blogging.]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by whatever1 in "Silicon Valley, the new lobbying monster"]]></title>
+        <id>https://news.ycombinator.com/item?id=41766990</id>
+        <link href="https://news.ycombinator.com/item?id=41766990"/>
+        <updated>2024-10-07T15:27:56.000Z</updated>
+        <summary type="html"><![CDATA[I like how they started with different values compared to the old American companies (oil, cigarettes, defense).
+But they ended up exactly the same. Helping the worst regimes, all-in in military complex, taking advantage of screen addiction and teen insecurities.
+But hey at least they don’t wear white collars like the old bad guys.]]></summary>
+        <author>
+            <name>whatever1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by agentultra in "An e-waste dumping ground"]]></title>
+        <id>https://news.ycombinator.com/item?id=41765975</id>
+        <link href="https://news.ycombinator.com/item?id=41765975"/>
+        <updated>2024-10-07T13:46:32.000Z</updated>
+        <summary type="html"><![CDATA[This is one reason I believe "right to repair" laws are so important. The environmental damage of producing the device is already done. Make it last as long as possible. Reduce, reuse... then recycle.
+Re-using devices helps us also reduce the number of new devices needed... which is what probably scares the corporate oligarchy. If we're not buying new phones every couple of years how will the stock prices keep going up?
+Never the less, the devices we make these days can last a long, long time. I've been repairing and maintaining iPhone 5's, 7's, and 8's that are no where near their end of life. The iPhone has a couple of small electrolytic capacitors which should have a useful life of at least 20 years. And can be replaced! The batteries and screens can replaced. These devices can last much longer than we give them credit for.
+But tech companies have been struggling to make it illegal or difficult to repair for a long time. I've been seeing photojournalist projects such as this since the late 90s at least (longer perhaps). In North America we had a culture that valued repairing and building things that lasted. It's as good a time as any to push for this to return! Support policy makers that are pushing for right-to-repair and environmental protection!
+And pick up a new hobby if you are able. Support your local tech geeks if you can!]]></summary>
+        <author>
+            <name>agentultra</name>
         </author>
     </entry>
     <entry>
@@ -823,6 +990,19 @@ The post Unemployment Edges Lower, Economy Adds 254,000 Jobs appeared first on C
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by nimbius in "Congress fights to keep AM radio in cars"]]></title>
+        <id>https://news.ycombinator.com/item?id=41761219</id>
+        <link href="https://news.ycombinator.com/item?id=41761219"/>
+        <updated>2024-10-06T23:20:20.000Z</updated>
+        <summary type="html"><![CDATA[There arent any alternatives for major catastrophes that can top amplitude modulated radio.
+if you are in a car fleeing for your life from a wildfire, major storm, or war, AM radio is available sometimes hundreds of miles from your location to provide timely instruction and lifesaving updates. if you need electricity for a radio, your car has fuel and can provide a radio signal to you for quite some time.
+AM radio can be transmitted with a roll of wire and a relatively simple transciever from an FOB or refugee camp. digital radio requires codecs, licenses, and specialty equipment. Satellite radio may, or may not be available as the ground stations that power it require even more advanced transcievers and software to operate and could take months to repair if attacked or destroyed. Cellular towers require special beamforming antenna that can take months to rebuild or procure in an emergency and rely on an advanced system of transcievers and software to provide a signal.
+its not Dolby quality, but if you need clean water and shelter it will guide you. Arguably you could mandate a VHF receiver in every car for FM based NOAA/EAS alerts, but AM is still cheaper.]]></summary>
+        <author>
+            <name>nimbius</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Enhance your website's security with Cloudflare’s free security.txt generator]]></title>
         <id>1uvkAn3IB6vSEO91XsPyAO</id>
         <link href="https://blog.cloudflare.com/security-txt"/>
@@ -830,6 +1010,18 @@ The post Unemployment Edges Lower, Economy Adds 254,000 Jobs appeared first on C
         <summary type="html"><![CDATA[Introducing Cloudflare’s free security.txt generator, empowering all users to easily create and manage their security.txt files. This feature enhances vulnerability disclosure processes, aligns with industry standards, and is integrated into the dashboard for seamless access. Strengthen your website's security today!]]></summary>
         <author>
             <name>Alexandra Moraru</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by devjab in "Rust needs a web framework"]]></title>
+        <id>https://news.ycombinator.com/item?id=41760687</id>
+        <link href="https://news.ycombinator.com/item?id=41760687"/>
+        <updated>2024-10-06T22:00:57.000Z</updated>
+        <summary type="html"><![CDATA[> I like to make silly things, and I also like to put in minimal effort for those silly things. I also like to make things in Rust…
+I think this part is perhaps the silliest part of a very silly article. If you really like to put in a minimal effort then why on earth would you use Rust? If you want efficiency, memory management and a compiled modern language just use Go. Then you won’t even need anything but the standard library for what you want to do. Or… use Django as you suggest?
+Yes, yes we use Rust in production because we thought it would be easier (well safer) to teach to interpreted language OOP developers than c/c++ but why on earth would you ever use it for the web unless you are a member of the cult?]]></summary>
+        <author>
+            <name>devjab</name>
         </author>
     </entry>
     <entry>
@@ -914,6 +1106,17 @@ Preface
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by mmoustafa in "Cloudflare beats patent troll so badly it basically gives up"]]></title>
+        <id>https://news.ycombinator.com/item?id=41752304</id>
+        <link href="https://news.ycombinator.com/item?id=41752304"/>
+        <updated>2024-10-05T19:31:12.000Z</updated>
+        <summary type="html"><![CDATA[> "In the end, Sable agreed to pay Cloudflare $225,000, grant Cloudflare a royalty-free license to its entire patent portfolio, and to dedicate its patents to the public, ensuring that Sable can never again assert them against another company,"
+Holy cow, that’s incredible. Cloudflare has single-handedly shut down one of the biggest tech patent trolls. I don’t know how they possibly got Sable to agree to those terms, but kudos to Cloudflare counsel.]]></summary>
+        <author>
+            <name>mmoustafa</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Unlikely Upvote Button for Bear]]></title>
         <id>https://birming.com/unlikely-upvote-button/</id>
         <link href="https://birming.com/unlikely-upvote-button/"/>
@@ -962,6 +1165,51 @@ See the add-ons page for more Bear customizations.
 Update: If you're not using the Bearming Theme or simply want a lighter version, ReedyBear has you covered. Thanks for the highlighting tip!]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by bbow-resp in "The Remarkable Life of Ibelin"]]></title>
+        <id>https://news.ycombinator.com/item?id=41751944</id>
+        <link href="https://news.ycombinator.com/item?id=41751944"/>
+        <updated>2024-10-05T18:38:10.000Z</updated>
+        <summary type="html"><![CDATA[Hey: it's this story again. As someone who's around my 30s now with Duchenne Muscular Dystrophy and who has friends with the condition, I've always found it a bit too bleak about the quality of our lives (probably for drama's sake). Yes, I need a wheelchair and full time care attendants, but also:
+* I went to university and had a great time there
+* I had a pretty normal social life growing up, and made some life-long real life friends in college who I still visit regularly.
+* I talk to women and have had romantic relationships.
+* I've had and continue to have what I consider a pretty successful career in software.
+* While I like video games and played a lot of them in high school, I'd say I prefer going out and having interactions with friends more, however challenging it can be logistically.
+I know DMD severity varies between patients, but I don't want this article to discourage people with DMD or with children that have DMD. It can be tough, but I think that modern treatments allow us to lead fairly rich lives outside of Warcraft.]]></summary>
+        <author>
+            <name>bbow-resp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by sonofhans in "I Stayed"]]></title>
+        <id>https://news.ycombinator.com/item?id=41751062</id>
+        <link href="https://news.ycombinator.com/item?id=41751062"/>
+        <updated>2024-10-05T16:36:50.000Z</updated>
+        <summary type="html"><![CDATA[FWIW Jeffrey Zeldman is a living legend. He was one of the first print designers to transition to the web, did it well, and wrote about it constantly. He designed the “Batman Forever” website in 1995; it was visited by something like one-third of all Internet users.
+He created the Web Standards Project, hugely influential in getting browser manufacturers to support standards rather than pee in the pool. And if you think cross-browser support today is rough, at the time you could reliably crash production browsers with valid CSS.
+Never mind A List Apart, one of the best early mailing lists on the web, a kind of transitionary form between Usenet and forums/Discord. And A Book Apart, which published lots of high-quality stuff.
+If you develop for the web today, every time a browser behaves as the spec describes, thank Jeffrey Zeldman.]]></summary>
+        <author>
+            <name>sonofhans</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by lolinder in "It's Time to Stop Taking Sam Altman at His Word"]]></title>
+        <id>https://news.ycombinator.com/item?id=41749960</id>
+        <link href="https://news.ycombinator.com/item?id=41749960"/>
+        <updated>2024-10-05T14:06:21.000Z</updated>
+        <summary type="html"><![CDATA[To recap OpenAI's decisions over the past year:
+* They burned up the hype for GPT-5 on 4o and o1, which are great step changes but nothing the competition can't quickly replicate.
+* They dissolved the safety team.
+* They switched to for profit and are poised to give Altman equity.
+* All while hyping AGI more than ever.
+All of this suggests to me that Altman is in short-term exit preparation mode, not planning for AGI or even GPT-5. If he had another next generation model on the way he wouldn't have let the media call his "discount GPT-4" and "tree of thought" models GPT-5. If he sincerely thought AGI was on the horizon he wouldn't be eyeing the exit, and he likely wouldn't have gotten rid of the superalignment team. His actions are best explained as those of a startup CEO who sees the hype cycle he's been riding coming to an end and is looking to exit before we hit the trough of disillusionment.
+None of this is to say that AI hasn't already changed a lot about the world we live in and won't continue to change things more. We will eventually hit the slope of enlightenment, but my bet is that Altman will have exited by then.]]></summary>
+        <author>
+            <name>lolinder</name>
         </author>
     </entry>
     <entry>
@@ -1108,6 +1356,19 @@ Then, in June of this year, I rediscovered my love for writing — this time, on
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by IgorPartola in "Why does man print "gimme gimme gimme" at 00:30? (2017)"]]></title>
+        <id>https://news.ycombinator.com/item?id=41737881</id>
+        <link href="https://news.ycombinator.com/item?id=41737881"/>
+        <updated>2024-10-04T04:43:00.000Z</updated>
+        <summary type="html"><![CDATA[Sorry time: years ago I worked on a telemedicine web app before telemedicine was nearly as popular as it is today. Part of the application had patients filling out questionnaires online to show answers to the doctors. We were onboarding different parts of a large healthcare system throughout all this (cardio, GI, etc.) and each had questionnaires that required different logic for when and how to display the questions, so the application had a fairly powerful system for driving the conditional logic of when questions do and do not show up.
+Well one day I am working on a new set of features to help support the new clinic that’s coming online and for whatever reason the question that should by all rights show up, does not. As I am getting deeper into debugging why, I pepper the code with nonsensical and slightly angry debug statements that show up alongside the questions. After solving the problem I happily clean up and commit the fixed code and move onto the next thing.
+Well, it turns out I didn’t clean up all the debug statements. The statement I left in said I SEE YOU!!! in big red letters if you answered a particular set of questions in a particular way. This was discovered by a patient. Of the psychiatric clinic that just came online. On the questionnaire meant to evaluate paranoia.
+Since then I have started using things like aaa and 111 as my debug markers.]]></summary>
+        <author>
+            <name>IgorPartola</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Art You Cannot See]]></title>
         <id>https://austinmwav.com/the-art-you-cannot-see/</id>
         <link href="https://austinmwav.com/the-art-you-cannot-see/"/>
@@ -1125,6 +1386,17 @@ When I was 11, my mother …]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by userbinator in "Cox slows Internet speeds in entire neighborhoods to punish any heavy users (2020)"]]></title>
+        <id>https://news.ycombinator.com/item?id=41736630</id>
+        <link href="https://news.ycombinator.com/item?id=41736630"/>
+        <updated>2024-10-04T00:40:03.000Z</updated>
+        <summary type="html"><![CDATA[a gigabit customer who was paying $50 extra per month for unlimited data was flagged by Cox because he was using 8TB to 12TB a month
+"Unlimited data" should mean you can saturate the connection 24/7. Anything less is deceptive advertising. For a gigabit connection, that would mean around 300TB per month.]]></summary>
+        <author>
+            <name>userbinator</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Independent bookshops, independent web, a tale of two cities]]></title>
         <id>https://disassociated.com/?p=8621</id>
         <link href="https://disassociated.com/independent-bookshops-independent-web-tale-two-cities/"/>
@@ -1132,6 +1404,37 @@ When I was 11, my mother …]]></summary>
         <summary type="html"><![CDATA[Louis Menand, writing for The New Yorker. How familiar does this sound: Between 1998 and 2020, more than half of the independent bookstores in the United States went out of business. It was a similar story for personal websites and blogs, though definitely across different timeframes. Maybe from 2010 — later even — as social […]]]></summary>
         <author>
             <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by recursivedoubts in "Why Gumroad Didn't Choose Htmx"]]></title>
+        <id>https://news.ycombinator.com/item?id=41734113</id>
+        <link href="https://news.ycombinator.com/item?id=41734113"/>
+        <updated>2024-10-03T19:33:36.000Z</updated>
+        <summary type="html"><![CDATA[My comment from the other thread:
+The CEO of gumroad mentioned on twitter that he had tried out htmx for a project but decided to go with NextJS instead. I asked him if he was willing to write up his experience and he graciously agreed to do so. I have been looking for a thoughtful negative experience with htmx to host on the htmx website and I am very thankful he was willing to put in the work to produce one.]]></summary>
+        <author>
+            <name>recursivedoubts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by ahartmetz in "Most gamers prefer single-player games"]]></title>
+        <id>https://news.ycombinator.com/item?id=41733104</id>
+        <link href="https://news.ycombinator.com/item?id=41733104"/>
+        <updated>2024-10-03T17:57:48.000Z</updated>
+        <summary type="html"><![CDATA[Almost all multi-player gaming is competitive and involves dealing with occasional (or frequent, depending on the game) jerks. If I want stress and occasional jerks, I can just do things in the real world. Single-player gaming is more comfy.]]></summary>
+        <author>
+            <name>ahartmetz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by eastdakota in "Patent troll Sable pays up, dedicates all its patents to the public"]]></title>
+        <id>https://news.ycombinator.com/item?id=41732580</id>
+        <link href="https://news.ycombinator.com/item?id=41732580"/>
+        <updated>2024-10-03T17:02:43.000Z</updated>
+        <summary type="html"><![CDATA[Having talked with several of them, most of the people who submit the prior art as part of Project Jengo would do so even if there were no payout. Several winners have actually asked that the payout be donated back to other organizations fighting patent trolls. This isn't intended to be anyone's full time job. It is intended to reward technical people with industry knowledge who may be able to help surface prior art and are as sick of patent trolls as we are.]]></summary>
+        <author>
+            <name>eastdakota</name>
         </author>
     </entry>
     <entry>
@@ -1143,6 +1446,18 @@ When I was 11, my mother …]]></summary>
 Read the full article]]></summary>
         <author>
             <name>Visual Studio Code - Code Editing. Redefined.</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by bogtog in "Dance training superior to physical exercise in inducing brain plasticity (2018)"]]></title>
+        <id>https://news.ycombinator.com/item?id=41732034</id>
+        <link href="https://news.ycombinator.com/item?id=41732034"/>
+        <updated>2024-10-03T16:10:53.000Z</updated>
+        <summary type="html"><![CDATA[I do MRI work, and my gut is that none of the claims about dance vs. exercise would replicate. The behavioral data suggests that activity of some type will improve cognitive function (main effects of time). Such beneficial effects of activity on the brain have been shown before, and this is generally accepted. However, the authors' behavioral data doesn't show any difference between the dance vs. exercise groups. This means that the study is overall off to a pretty bad start if their goal is to study dance vs. exercise differences...
+The brain data claims to show that the dance vs. exercise groups showed different levels of improvement in various regions. However, the brain effects are tiny and are probably just random noise (I'm referring to those red spots, which are very small and almost certainly don't reflect proper correction for multiple hypotheses given that the authors effectively tested 1000s or 10000s of different areas). The authors' claims about BDNF are supported by a p-value of p = .046, and having main conclusions hinge on p-values of p > .01 usually means the conclusions are rubbish.
+In general, my priors on "we can detect subtle changes in brain matter over a 6-week period" are also very low. Perhaps, a study with this sample size could show that activity of some kind influences the brain over such a short length, but I am extremely skeptical that this type of study could detect differences between dance vs. exercise effects.]]></summary>
+        <author>
+            <name>bogtog</name>
         </author>
     </entry>
     <entry>
@@ -1168,13 +1483,14 @@ The post How open source AI can improve population estimates, sustainable energy
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Accelerate application upgrades with Amazon Q Developer agent for code transformation]]></title>
-        <id>127ceb55ec20227577714c7d0c5af63df6e6cc7b</id>
-        <link href="https://aws.amazon.com/blogs/devops/accelerate-application-upgrades-with-amazon-q-developer-agent-for-code-transformation/"/>
-        <updated>2024-10-03T13:43:55.000Z</updated>
-        <summary type="html"><![CDATA[In this blog, we will explore how Amazon Q Developer Agent for code transformation accelerates Java application upgrades. We will examine the benefits of this Generative AI-powered agent and outline strategies to achieve maximal acceleration, drawing from real-world success stories and best practices. Benefits of using Amazon Q Developer to upgrade your applications Amazon Q […]]]></summary>
+        <title type="html"><![CDATA[New comment by aduffy in "Patent troll Sable pays up, dedicates all its patents to the public"]]></title>
+        <id>https://news.ycombinator.com/item?id=41731141</id>
+        <link href="https://news.ycombinator.com/item?id=41731141"/>
+        <updated>2024-10-03T14:30:34.000Z</updated>
+        <summary type="html"><![CDATA[These patent trolls are greedy, extractive, and contribute nothing to society while wasting vast public and private legal resources.
+Fuck. Them. Excellent work to the entire litigation team at Cloudflare.]]></summary>
         <author>
-            <name>Jonathan Vogel</name>
+            <name>aduffy</name>
         </author>
     </entry>
 </feed>
