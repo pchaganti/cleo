@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-12T01:49:58.277Z</id>
+    <id>urn:2024-10-12T06:33:09.338Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-10-12T01:49:58.277Z</updated>
+    <updated>2024-10-12T06:33:09.338Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -73,6 +73,18 @@ This isn't a blog post about Cohost paying themselves salaries, but more about t
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by freedomben in ""Begin disabling installed extensions still using Manifest V2 in Chrome stable""]]></title>
+        <id>https://news.ycombinator.com/item?id=41810118</id>
+        <link href="https://news.ycombinator.com/item?id=41810118"/>
+        <updated>2024-10-11T15:04:25.000Z</updated>
+        <summary type="html"><![CDATA[Agreed on hoping this is the inflection point, but only partial agreement that it's about adblock.  For sure Google wants adblock to die, but I think it goes even deeper than that.
+I think it's part of a much bigger trend in tech in general but also in Google:  Removing user control.  When you look at the "security" things they are doing, many of them have a common philosophy underpinning them that the user (aka device owner) is a security threat and must be protected against.  Web integrity, Manifest v3, various DoH/DoT, bootloader locking, device integrity which conveniently makes root difficult/impossible, and more.
+To all the engineers working on this stuff, I hope you're happy that your work is essentially destroying the world that you and I grew up in.  The next generation won't have the wonderful and fertile computing environment that we enjoyed, and it's (partly) your fault.]]></summary>
+        <author>
+            <name>freedomben</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Economic Models Ignoring “Look Out the Window” Climate Change Effects]]></title>
         <id>https://www.nakedcapitalism.com/?p=280198</id>
         <link href="https://www.nakedcapitalism.com/2024/10/economic-models-ignoring-look-out-the-window-climate-change-effects.html"/>
@@ -80,6 +92,18 @@ This isn't a blog post about Cohost paying themselves salaries, but more about t
         <summary type="html"><![CDATA[Supposed forecasting mavens are simply ignoring the real economy effects, like poor harvests, of climate change.]]></summary>
         <author>
             <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by freedomben in ""Begin disabling installed extensions still using Manifest V2 in Chrome stable""]]></title>
+        <id>https://news.ycombinator.com/item?id=41809900</id>
+        <link href="https://news.ycombinator.com/item?id=41809900"/>
+        <updated>2024-10-11T14:42:24.000Z</updated>
+        <summary type="html"><![CDATA[Notably, Firefox is not removing v2 support (at least for now as of March 2024)
+> Firefox, however, has no plans to deprecate MV2 and will continue to support MV2 extensions for the foreseeable future. And even if we re-evaluate this decision at some point down the road, we anticipate providing a notice of at least 12 months for developers to adjust accordingly and not feel rushed.[1]
+[1]: https://blog.mozilla.org/addons/2024/03/13/manifest-v3-manif...]]></summary>
+        <author>
+            <name>freedomben</name>
         </author>
     </entry>
     <entry>
@@ -455,6 +479,16 @@ The post Israel Won appeared first on CounterPunch.org.]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by Animats in "Tesla Robotaxi"]]></title>
+        <id>https://news.ycombinator.com/item?id=41806411</id>
+        <link href="https://news.ycombinator.com/item?id=41806411"/>
+        <updated>2024-10-11T05:19:11.000Z</updated>
+        <summary type="html"><![CDATA[It's amusing that this was at the Warner back lot, which is out in Burbank. Not Paramount or Universal, which are both in Hollywood. It would have been embarrassing to do this at Paramount or Universal, because those are in Waymo's service area. People would have arrived at the event in real self driving taxis.]]></summary>
+        <author>
+            <name>Animats</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[“So You Don’t Like Trump or Harris – Here’s Why It’s Still Best to Vote for One of Them”]]></title>
         <id>https://www.nakedcapitalism.com/?p=280164</id>
         <link href="https://www.nakedcapitalism.com/2024/10/so-you-dont-like-trump-or-harris-heres-why-its-still-best-to-vote-for-one-of-them.html"/>
@@ -585,6 +619,22 @@ There are only two reasons to believe JS is simple: you know too much about it, 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by leetharris in "Proposal: JavaScript Structs"]]></title>
+        <id>https://news.ycombinator.com/item?id=41802034</id>
+        <link href="https://news.ycombinator.com/item?id=41802034"/>
+        <updated>2024-10-10T18:48:55.000Z</updated>
+        <summary type="html"><![CDATA[I am not sure how to really refine this thought I have had, but I have this fear that every language eventually gets so bloated and complicated that it has a huge barrier to entry.
+The ones that stand out the most to me are C# and Typescript.
+Microsoft has a large team dedicated towards improving these languages constantly and instead of exclusively focusing on making them easier to use or more performant, they are constantly adding features. After all, it is their job. They are incentivized to keep making it more complex.
+The first time I ever used C# was probably version 5? Maybe? We're on version 12 now and there's so much stuff in there that sometimes modern C# code from experts looks unreadable to me.
+One of the reasons I have so much fun working in node/Javascript these days is because it is simple and not much has changed in express/node/etc for a long time. If I need an iterable that I can simply move through, I just do `let items = [];`. It is so easy and hasn't changed for so many years. I worry that we eventually come out with a dozen ways to do an array and modern code becomes much more challenging to read.
+When Typescript first came out, it was great. Types in Javascript are something we've always wanted. Now, Typescript is on version 5.6 and there is so much stuff you can do with it that it's overwhelming. And nobody uses most of it!
+This is probably just old man ranting, but I think there's something there. The old version I used to debate about was C vs C++. Now look at modern C++, it's crazy powerful but so jam packed that many people have just gone back to C.]]></summary>
+        <author>
+            <name>leetharris</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 10/10/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=280155</id>
         <link href="https://www.nakedcapitalism.com/2024/10/200pm-water-cooler-10-10-2024.html"/>
@@ -663,6 +713,20 @@ If I could do things over again, on today's internet, I like to believe Weird Gl
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by burkaman in "Helping wikis move away from Fandom"]]></title>
+        <id>https://news.ycombinator.com/item?id=41798838</id>
+        <link href="https://news.ycombinator.com/item?id=41798838"/>
+        <updated>2024-10-10T13:52:54.000Z</updated>
+        <summary type="html"><![CDATA[If you're wondering what happened to Fandom, just look at who runs it now.
+> In February 2018, former AOL CEO Jon Miller, backed by private equity firm TPG Capital, acquired Fandom.
+> In February 2019, former StubHub CEO Perkins Miller took over as CEO
+- https://en.wikipedia.org/wiki/Fandom_(website)
+It's hard to imagine a worse leadership team than private equity + StubHub.]]></summary>
+        <author>
+            <name>burkaman</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by cbm-vic-20 in "Helping wikis move away from Fandom"]]></title>
         <id>https://news.ycombinator.com/item?id=41798626</id>
         <link href="https://news.ycombinator.com/item?id=41798626"/>
@@ -670,6 +734,17 @@ If I could do things over again, on today's internet, I like to believe Weird Gl
         <summary type="html"><![CDATA[The "fan" in "Fandom" means the fan in your computer.]]></summary>
         <author>
             <name>cbm-vic-20</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by NeoTar in "Owe your banker £1k you are at his mercy; owe him £1m the position is reversed (2019)"]]></title>
+        <id>https://news.ycombinator.com/item?id=41798381</id>
+        <link href="https://news.ycombinator.com/item?id=41798381"/>
+        <updated>2024-10-10T13:04:13.000Z</updated>
+        <summary type="html"><![CDATA[It is said that Julius Caesar borrowed so much money to become elected pontifex maximus that he essentially forced his creditors to support his political ambitions in the hope of seeing some payment on the debts.
+So, essentially, ‘twas ever so.]]></summary>
+        <author>
+            <name>NeoTar</name>
         </author>
     </entry>
     <entry>
@@ -767,6 +842,17 @@ I'm putting this here because I really wish someone had told me this 25 years ag
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by Springtime in "Internet Archive: Security breach alert"]]></title>
+        <id>https://news.ycombinator.com/item?id=41795324</id>
+        <link href="https://news.ycombinator.com/item?id=41795324"/>
+        <updated>2024-10-10T03:48:47.000Z</updated>
+        <summary type="html"><![CDATA[Just in terms of privacy, it's worth noting that anyone who has uploaded something on IA already has their email address publicly viewable.
+This isn't something that commonly known (even judging by comments here) but in the publicly viewable metadata of every upload it contains the uploader's IA account email address. So from a security perspective it's bad but from a privacy perspective a lot of users probably weren't aware of this detail if they've uploaded anything.]]></summary>
+        <author>
+            <name>Springtime</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA["Maddie, be green tea" - a discussion about presentation]]></title>
         <id>https://ninecoffees.blog/maddie-be-green-tea-a-discussion-about-presentation/</id>
         <link href="https://ninecoffees.blog/maddie-be-green-tea-a-discussion-about-presentation/"/>
@@ -836,6 +922,16 @@ It's worth noting that this case against Google is likely to be the bellwether f
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by relistan in "US weighs Google break-up in landmark antitrust case"]]></title>
+        <id>https://news.ycombinator.com/item?id=41790667</id>
+        <link href="https://news.ycombinator.com/item?id=41790667"/>
+        <updated>2024-10-09T17:47:29.000Z</updated>
+        <summary type="html"><![CDATA[Hilarious to see all the people lamenting the break-up of AT&T. That break-up sparked the long distance phone race, which became the driving force for the massive laying of fiber optics... which enabled the Internet boom of the 1990s.]]></summary>
+        <author>
+            <name>relistan</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by kristjansson in "PEP 760: No more bare excepts"]]></title>
         <id>https://news.ycombinator.com/item?id=41789903</id>
         <link href="https://news.ycombinator.com/item?id=41789903"/>
@@ -876,6 +972,17 @@ I’m in biotech academia and it has changed things already. Yes the protein fol
 Where Twitter and Threads are corporate-owned and centralized, Mastodon is just a platform, and anyone can get the software and set up their own server if they are tech-savvy. It can be confusing for newcomers to decide which server they want to join, but the good news is that you can join more than one, and you can also mov…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by ThePhysicist in "Chemistry Nobel: Computational protein design and protein structure prediction"]]></title>
+        <id>https://news.ycombinator.com/item?id=41786662</id>
+        <link href="https://news.ycombinator.com/item?id=41786662"/>
+        <updated>2024-10-09T11:26:23.000Z</updated>
+        <summary type="html"><![CDATA[Demis Hasabis has a really interesting and unusual CV for a nobel laureate [1], he started his career in AI game programming (he worked e.g. on Popoulous II, Syndicate, Theme Park for Bullfrog, and later for Lionhead Studios on Black & White) before doing a PhD in neuroscience, becoming an entrepreneur and starting DeepMind. I would say this is a refreshing and highly uncommon pick for a nobel prize, really cool to see that you don't have to be a university professor anymore to do this kind of impactful research.
+1: https://en.wikipedia.org/wiki/Demis_Hassabis]]></summary>
+        <author>
+            <name>ThePhysicist</name>
         </author>
     </entry>
     <entry>
@@ -1026,6 +1133,21 @@ If you're unfamiliar: Commander is a casual Magic variant that has, in the last 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by Amorymeltzer in "Who died and left the US $7B?"]]></title>
+        <id>https://news.ycombinator.com/item?id=41782989</id>
+        <link href="https://news.ycombinator.com/item?id=41782989"/>
+        <updated>2024-10-08T23:44:36.000Z</updated>
+        <summary type="html"><![CDATA[Matt Levine touched on this briefly today, and I liked his two cents:
+>It’s kind of cool? Like you could imagine a hierarchy, in roughly ascending order of wealth:
+>Too poor to pay taxes.
+>Rich enough to pay taxes.
+>Rich enough to not pay taxes.
+>Rich enough to not even bother with not paying taxes.]]></summary>
+        <author>
+            <name>Amorymeltzer</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[.City here I come]]></title>
         <id>https://binarydigit.cafe/city-here-i-come/</id>
         <link href="https://binarydigit.cafe/city-here-i-come/"/>
@@ -1120,6 +1242,18 @@ Blog Like a Community by So... Axodys?]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by zubiaur in "Do U.S. ports need more automation?"]]></title>
+        <id>https://news.ycombinator.com/item?id=41777960</id>
+        <link href="https://news.ycombinator.com/item?id=41777960"/>
+        <updated>2024-10-08T14:50:05.000Z</updated>
+        <summary type="html"><![CDATA[Automation messes up the flow of illegal drugs. The big stuff does not come in a backpack but in container ships/trucks.
+In LATAM, dock workers make sure this goes undetected. I know of an IE who was championing a dock worker scheduling optimization algo, typical Operations Management stuff. Dude was killed.
+I'd like to think that this kind of things do not happen here. But every time I've thought along those lines, I've been mistaken. It's just happens at a different scale.]]></summary>
+        <author>
+            <name>zubiaur</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Cloudflare acquires Kivera to add simple, preventive cloud security to Cloudflare One]]></title>
         <id>6e7vmGCa8tZRTNJWqYs1di</id>
         <link href="https://blog.cloudflare.com/cloudflare-acquires-kivera"/>
@@ -1167,6 +1301,18 @@ Colonialism]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by MarkMarine in "Is the attack helicopter dead?"]]></title>
+        <id>https://news.ycombinator.com/item?id=41772946</id>
+        <link href="https://news.ycombinator.com/item?id=41772946"/>
+        <updated>2024-10-08T01:30:25.000Z</updated>
+        <summary type="html"><![CDATA[In the war I fought in, there was a markedly different approach to combat air ops between even just the different service branches. The Army tended to use the Apache like it was a flying tank, hovering and delivering ordinance; the Marines (which is where I fought) flew as low and as quickly as possible even while sending rounds and hellfire missiles downrange. The marines were not losing aircraft in anywhere close to the numbers of the Army when I was there. You need a skilled operator to hit a helicopter moving at 100 knots when it's 15m over the buildings, and we mostly operated at night. I remember watching a ZPU gunner pointing the cannons directly at us and firing, and laughing as the rounds just flew behind the tail.
+It's my understanding (and from watching the videos that I can get as a civilian) that the Russians still aren't operating their helicopters in a manner that I would be comfortable with if I was inside one. I certainly wouldn't be pumped flying in the environment they are in, with so many MANPADS out there, but there is no way a machine I was in would be hit with an anti-tank missile while we hovered (as was in the article.)
+Lot of preamble to say: no, I don't think the attack helicopter is dead. Attack helicopters are nimble and can hide in terrain quite well, and even when an attacking force can see them it takes a skilled operator to actually hit them. The single use drones that operate like kamikaze vehicles may throw a winkle into the mix, but a helo flying at 150knots is going to be very challenging to hit for one of those. I expect there will be quite an arms race countering and then counter countering these in the future wars.]]></summary>
+        <author>
+            <name>MarkMarine</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Pëtr Kropotkin - A Letter on the Present War]]></title>
         <id>https://theanarchistlibrary.org/library/petr-kropotkin-a-letter-on-the-present-war?v=1728337063</id>
         <link href="https://theanarchistlibrary.org/library/petr-kropotkin-a-letter-on-the-present-war?v=1728337063"/>
@@ -1206,38 +1352,6 @@ Apple literally has a higher market share in the US.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by ethbr1 in "Google must open Android for third-party stores, rules Epic judge"]]></title>
-        <id>https://news.ycombinator.com/item?id=41770338</id>
-        <link href="https://news.ycombinator.com/item?id=41770338"/>
-        <updated>2024-10-07T20:01:54.000Z</updated>
-        <summary type="html"><![CDATA[It's probably not a great idea to point at a monopoly, as a defense of one's own monopoly, and claim "Yeah, but he did it worse."
-Both Google and Apple's platforms need to be cracked open to competition.]]></summary>
-        <author>
-            <name>ethbr1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by xnx in "Google must open Android for third-party stores, rules Epic judge"]]></title>
-        <id>https://news.ycombinator.com/item?id=41770223</id>
-        <link href="https://news.ycombinator.com/item?id=41770223"/>
-        <updated>2024-10-07T19:52:26.000Z</updated>
-        <summary type="html"><![CDATA[It is ridiculous. From Google's reply (https://blog.google/outreach-initiatives/public-policy/epic-...): "These Epic-requested changes stem from a decision that is completely contrary to another court’s rejection of similar claims Epic made against Apple — even though, unlike iOS, Android is an open platform that has always allowed for choice and flexibility like multiple app stores and sideloading."]]></summary>
-        <author>
-            <name>xnx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by tmtvl in "Google must open Android for third-party stores, rules Epic judge"]]></title>
-        <id>https://news.ycombinator.com/item?id=41770193</id>
-        <link href="https://news.ycombinator.com/item?id=41770193"/>
-        <updated>2024-10-07T19:49:05.000Z</updated>
-        <summary type="html"><![CDATA[Wait, so the Google Play Store, which you can install alternatives to (F-Droid, Aurora, Amazon,...), and where you can easily install apps through other means (such as downloading an APK through your browser and running it from the file manager) is an illegal monopoly while the Apple App Store isn't?
-Well, I guess Google's market cap is only 2 trillion compared to Apple's 3 trillion, so I guess that's fair.]]></summary>
-        <author>
-            <name>tmtvl</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Please write it, do not stream it]]></title>
         <id>https://rimarin.bearblog.dev/please-write-it-do-not-stream-it/</id>
         <link href="https://rimarin.bearblog.dev/please-write-it-do-not-stream-it/"/>
@@ -1265,17 +1379,6 @@ P.S.: This article could have been a 20 minute video on YouTube or a 30 minute p
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by psunavy03 in "US antitrust case against Amazon to move forward"]]></title>
-        <id>https://news.ycombinator.com/item?id=41769457</id>
-        <link href="https://news.ycombinator.com/item?id=41769457"/>
-        <updated>2024-10-07T18:42:53.000Z</updated>
-        <summary type="html"><![CDATA[Ruling at the below link, because apparently every US news reporter is allergic to actually providing source docs in court cases . . .
-https://storage.courtlistener.com/recap/gov.uscourts.wawd.32...]]></summary>
-        <author>
-            <name>psunavy03</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AWS Weekly Roundup: HIPAA eligible with Amazon Q Business, Amazon DCV, AWS re:Post Agent, and more (Oct 07, 2024)]]></title>
         <id>238beac9f3f87197236d630385a99ae1acba128a</id>
         <link href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-q-business-is-hipaa-eligible-amazon-dcv-aws-repost-agent-and-more-oct-07-2024/"/>
@@ -1283,47 +1386,6 @@ https://storage.courtlistener.com/recap/gov.uscourts.wawd.32...]]></summary>
         <summary type="html"><![CDATA[Last Friday, I had the privilege of attending China Engineer’s Day 2024(CED 2024) in Hangzhou as the Amazon Web Services (AWS) speaker. The event was organized by the China Computer Federation (CCF), one of the most influential professional developer communities in China. At CED 2024, I spoke about how AI development tools can improve developer […]]]></summary>
         <author>
             <name>Betty Zheng (郑予彬)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by kevin_thibedeau in "Nearly all of the Google images results for "baby peacock" are AI generated"]]></title>
-        <id>https://news.ycombinator.com/item?id=41768527</id>
-        <link href="https://news.ycombinator.com/item?id=41768527"/>
-        <updated>2024-10-07T17:30:17.000Z</updated>
-        <summary type="html"><![CDATA[Almost all of the "product X vs Y" results are AI ramblings now. This growth of the dead Internet is making me want to sign up for Kagi. We're going to need a certification for human generated content at some point.]]></summary>
-        <author>
-            <name>kevin_thibedeau</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by cactacea in "Ask HN: What's the "best" book you've ever read?"]]></title>
-        <id>https://news.ycombinator.com/item?id=41767392</id>
-        <link href="https://news.ycombinator.com/item?id=41767392"/>
-        <updated>2024-10-07T16:05:53.000Z</updated>
-        <summary type="html"><![CDATA[> "The best book I've ever read was Atlas Shrugged in 8th grade. Changed my life."
-"huh, ok"
-> Really, I'm just looking for people who won't jump down my throat on a faux pas.
-I think you're dismissing the people such as myself that would note you as an idiot without comment and move on wanting nothing to do with you.
-Edit: tests and trick questions with people you just met is an ineffective way to navigate the world. My 2c]]></summary>
-        <author>
-            <name>cactacea</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by Kerrick in "What's New in Ruby on Rails 8"]]></title>
-        <id>https://news.ycombinator.com/item?id=41767185</id>
-        <link href="https://news.ycombinator.com/item?id=41767185"/>
-        <updated>2024-10-07T15:48:08.000Z</updated>
-        <summary type="html"><![CDATA[Ruby and Rails really seem to be going through a renaissance lately.
-- The pickaxe book, Programming Ruby, has a new edition this year covering Ruby 3.3
-- The Rails Way is being updated for Rails 8 and is available in pre-release, and will have two companion books
-- A new title, Rails Scales, is being published by PragProg and is available in pre-release now
-- YJIT has made Ruby fast. Like, _FAST_
-- Rails has a bunch of new features that cover the "missing middle" levels of success
-- Ruby has a bunch of new and new-ish features like Data (immutable Struct), pattern matching, Fibers and Ractors, and more.
-I had largely moved on from ruby into the world of front-end applications by 2013, but now I'm excited about the prospects of diving back in.]]></summary>
-        <author>
-            <name>Kerrick</name>
         </author>
     </entry>
     <entry>
@@ -1344,44 +1406,6 @@ Who knows, maybe these will become the main focus of this blog someday. I don't 
 Through blogging. Not through considering blogging.]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by whatever1 in "Silicon Valley, the new lobbying monster"]]></title>
-        <id>https://news.ycombinator.com/item?id=41766990</id>
-        <link href="https://news.ycombinator.com/item?id=41766990"/>
-        <updated>2024-10-07T15:27:56.000Z</updated>
-        <summary type="html"><![CDATA[I like how they started with different values compared to the old American companies (oil, cigarettes, defense).
-But they ended up exactly the same. Helping the worst regimes, all-in in military complex, taking advantage of screen addiction and teen insecurities.
-But hey at least they don’t wear white collars like the old bad guys.]]></summary>
-        <author>
-            <name>whatever1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by intothemild in "Can you get root with only a cigarette lighter?"]]></title>
-        <id>https://news.ycombinator.com/item?id=41765984</id>
-        <link href="https://news.ycombinator.com/item?id=41765984"/>
-        <updated>2024-10-07T13:47:52.000Z</updated>
-        <summary type="html"><![CDATA[This reminds me of exploits we used to do to arcade cabinets back in Sydney in the 80's and 90s. The school gas heaters used to have what we called "clickers", piezoelectric ignition devices you could remove from the heaters.
-You then took that clicker to your local arcade, and clicked one of the corners of the CRT, that would send a shock through the system and add credits to your game. I believe this was because the CRT was grounded on the same ground lines that the mechanism for physically checking a coin had gone through the system.
-Suffice to say, they caught onto this over time, and added some form of an alarm into it. But up until then... Those were truly the best times.]]></summary>
-        <author>
-            <name>intothemild</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by agentultra in "An e-waste dumping ground"]]></title>
-        <id>https://news.ycombinator.com/item?id=41765975</id>
-        <link href="https://news.ycombinator.com/item?id=41765975"/>
-        <updated>2024-10-07T13:46:32.000Z</updated>
-        <summary type="html"><![CDATA[This is one reason I believe "right to repair" laws are so important. The environmental damage of producing the device is already done. Make it last as long as possible. Reduce, reuse... then recycle.
-Re-using devices helps us also reduce the number of new devices needed... which is what probably scares the corporate oligarchy. If we're not buying new phones every couple of years how will the stock prices keep going up?
-Never the less, the devices we make these days can last a long, long time. I've been repairing and maintaining iPhone 5's, 7's, and 8's that are no where near their end of life. The iPhone has a couple of small electrolytic capacitors which should have a useful life of at least 20 years. And can be replaced! The batteries and screens can replaced. These devices can last much longer than we give them credit for.
-But tech companies have been struggling to make it illegal or difficult to repair for a long time. I've been seeing photojournalist projects such as this since the late 90s at least (longer perhaps). In North America we had a culture that valued repairing and building things that lasted. It's as good a time as any to push for this to return! Support policy makers that are pushing for right-to-repair and environmental protection!
-And pick up a new hobby if you are able. Support your local tech geeks if you can!]]></summary>
-        <author>
-            <name>agentultra</name>
         </author>
     </entry>
     <entry>
@@ -1451,19 +1475,6 @@ Debt crisis]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by nimbius in "Congress fights to keep AM radio in cars"]]></title>
-        <id>https://news.ycombinator.com/item?id=41761219</id>
-        <link href="https://news.ycombinator.com/item?id=41761219"/>
-        <updated>2024-10-06T23:20:20.000Z</updated>
-        <summary type="html"><![CDATA[There arent any alternatives for major catastrophes that can top amplitude modulated radio.
-if you are in a car fleeing for your life from a wildfire, major storm, or war, AM radio is available sometimes hundreds of miles from your location to provide timely instruction and lifesaving updates. if you need electricity for a radio, your car has fuel and can provide a radio signal to you for quite some time.
-AM radio can be transmitted with a roll of wire and a relatively simple transciever from an FOB or refugee camp. digital radio requires codecs, licenses, and specialty equipment. Satellite radio may, or may not be available as the ground stations that power it require even more advanced transcievers and software to operate and could take months to repair if attacked or destroyed. Cellular towers require special beamforming antenna that can take months to rebuild or procure in an emergency and rely on an advanced system of transcievers and software to provide a signal.
-its not Dolby quality, but if you need clean water and shelter it will guide you. Arguably you could mandate a VHF receiver in every car for FM based NOAA/EAS alerts, but AM is still cheaper.]]></summary>
-        <author>
-            <name>nimbius</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Enhance your website's security with Cloudflare’s free security.txt generator]]></title>
         <id>1uvkAn3IB6vSEO91XsPyAO</id>
         <link href="https://blog.cloudflare.com/security-txt"/>
@@ -1471,18 +1482,6 @@ its not Dolby quality, but if you need clean water and shelter it will guide you
         <summary type="html"><![CDATA[Introducing Cloudflare’s free security.txt generator, empowering all users to easily create and manage their security.txt files. This feature enhances vulnerability disclosure processes, aligns with industry standards, and is integrated into the dashboard for seamless access. Strengthen your website's security today!]]></summary>
         <author>
             <name>Alexandra Moraru</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by devjab in "Rust needs a web framework"]]></title>
-        <id>https://news.ycombinator.com/item?id=41760687</id>
-        <link href="https://news.ycombinator.com/item?id=41760687"/>
-        <updated>2024-10-06T22:00:57.000Z</updated>
-        <summary type="html"><![CDATA[> I like to make silly things, and I also like to put in minimal effort for those silly things. I also like to make things in Rust…
-I think this part is perhaps the silliest part of a very silly article. If you really like to put in a minimal effort then why on earth would you use Rust? If you want efficiency, memory management and a compiled modern language just use Go. Then you won’t even need anything but the standard library for what you want to do. Or… use Django as you suggest?
-Yes, yes we use Rust in production because we thought it would be easier (well safer) to teach to interpreted language OOP developers than c/c++ but why on earth would you ever use it for the web unless you are a member of the cult?]]></summary>
-        <author>
-            <name>devjab</name>
         </author>
     </entry>
     <entry>
