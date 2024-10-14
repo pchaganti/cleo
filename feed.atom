@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-13T22:35:23.188Z</id>
+    <id>urn:2024-10-14T01:55:21.101Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-10-13T22:35:23.188Z</updated>
+    <updated>2024-10-14T01:55:21.101Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -50,6 +50,22 @@ morning light
 pretty fall foliage]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by ChuckMcM in "Starship Flight 5: Launch and booster catch [video]"]]></title>
+        <id>https://news.ycombinator.com/item?id=41830516</id>
+        <link href="https://news.ycombinator.com/item?id=41830516"/>
+        <updated>2024-10-13T18:51:39.000Z</updated>
+        <summary type="html"><![CDATA[Pretty impressive. The engineering team at SpaceX is really something. Some thoughts;
+The 'chopsticks catch' was amazing to watch. Seems like it adds a lot of risk and clearly the booster needs additional fire suppression systems :-) perhaps the tower could mount something that sprays the booster like the barges have for the F9 boosters.
+The heatshield held out for a much longer time, the asymmetric heating on the flaps was interesting. I had guessed that all four flaps would have equivalent heating based on an approach that was basically that side of the rocket perpendicular to the flow but it seems like that isn't the case. Still it seems like they are close to having something workable here.
+The detonation at the end was pretty spectacular too, but I suspect that structurally the tanks failed as the rocket hit the water vs anything that was an engineering failure. Engineering it to be strong enough to land on water would presumably compromise the cargo to orbit number.
+The use of Starlink was really interesting. The ability to get live video for the entire re-entry is pretty game changing for engineering. I'd guess there are even more 'views' than they showed (there would be if I were running things :-)) but overall that capability is something that really helps evaluate the changes made.
+I can easily imagine that flight 6 will be nominal end to end without any unintended damage. That would enable, perhaps, one of their 'massive' Starlink missions to test cargo delivery. It will also start to give us some better numbers on exactly how much cargo Starship can put in orbit in 'full reuse' mode  which is essential if they want to create a fueling station on orbit for the Artemis program.
+Again, hats off to engineering at SpaceX, y'all did good.]]></summary>
+        <author>
+            <name>ChuckMcM</name>
         </author>
     </entry>
     <entry>
@@ -259,6 +275,17 @@ The post Swing State Politics appeared first on CounterPunch.org.]]></summary>
         <summary type="html"><![CDATA[Focusing on the cost-per-tonne for carbon reduction misses the broader value of railways. They're not just about reducing emission! They facilitate daily commutes, expand job opportunities, and help drive the economy. It’s a subsidy for businesses too.]]></summary>
         <author>
             <name>postpawl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by nurtbo in "PayPal (USA) will automatically share data about you to participating stores"]]></title>
+        <id>https://news.ycombinator.com/item?id=41822875</id>
+        <link href="https://news.ycombinator.com/item?id=41822875"/>
+        <updated>2024-10-12T21:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Privacy laws actually work! Let’s pass more of them.
+> Information gathered about you after the effective date of our updated Privacy Statement, November 27, 2024, will be shared with participating stores where you shop, *unless you live in California, North Dakota, or Vermont.* For PayPal customers in California, North Dakota, or Vermont, we’ll only share your information with those merchants if you tell us to do so]]></summary>
+        <author>
+            <name>nurtbo</name>
         </author>
     </entry>
     <entry>
@@ -1451,22 +1478,6 @@ If you're unfamiliar: Commander is a casual Magic variant that has, in the last 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by recursivedoubts in "A modest critique of Htmx"]]></title>
-        <id>https://news.ycombinator.com/item?id=41782080</id>
-        <link href="https://news.ycombinator.com/item?id=41782080"/>
-        <updated>2024-10-08T21:39:57.000Z</updated>
-        <summary type="html"><![CDATA[These all look reasonable to me.
-I especially go back and forth on attribute inheritance (it can be disabled via the htmx.config.disableInheritance option)
-Three of the criticisms boil down to the fact that client-side state doesn't always play well w/htmx swaps (especially the simple ones) which is absolutely true.
-And events can get crazy.  They are powerful, but crazy and at times hard to debug.  Such is event-driven life.
-The one thing I don't agree with is the default queuing mode: it is not to cancel an existing request and replace it.  Instead it is to keep the current request in flight and queue one and only one additional request.  I'd need to sit down w/them to see if they were misinterpreting something, using the hx-sync attribute to implement the behavior they mention, or if there is a bug.
-I would also like to take this opportunity to market our mug for people who don't like htmx:
-https://swag.htmx.org/products/htmx-sucks-mug]]></summary>
-        <author>
-            <name>recursivedoubts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Oxford Comma users: people may think AI does your writing]]></title>
         <id>https://disassociated.com/?p=8643</id>
         <link href="https://disassociated.com/oxford-comma-users-people-think-ai-writing/"/>
@@ -1564,16 +1575,6 @@ Blog Like a Community by So... Axodys?]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by VHRanger in "Nobel Prize in Physics awarded to John Hopfield and Geoffrey Hinton [pdf]"]]></title>
-        <id>https://news.ycombinator.com/item?id=41776411</id>
-        <link href="https://news.ycombinator.com/item?id=41776411"/>
-        <updated>2024-10-08T12:04:35.000Z</updated>
-        <summary type="html"><![CDATA[Geoffrey Hinton wins the Nobel prize in physics for giving physics postdocs more reasonable job market options]]></summary>
-        <author>
-            <name>VHRanger</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Unprecedented since 2019: over 200 people joined the CADTM Autumn Meetings]]></title>
         <id>https://www.cadtm.org/Unprecedented-since-2019-over-200-people-joined-the-CADTM-Autumn-Meetings</id>
         <link href="https://www.cadtm.org/Unprecedented-since-2019-over-200-people-joined-the-CADTM-Autumn-Meetings"/>
@@ -1652,36 +1653,6 @@ P.S.: This article could have been a 20 minute video on YouTube or a 30 minute p
         <summary type="html"><![CDATA[Last Friday, I had the privilege of attending China Engineer’s Day 2024(CED 2024) in Hangzhou as the Amazon Web Services (AWS) speaker. The event was organized by the China Computer Federation (CCF), one of the most influential professional developer communities in China. At CED 2024, I spoke about how AI development tools can improve developer […]]]></summary>
         <author>
             <name>Betty Zheng (郑予彬)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thermal design supporting Gen 12 hardware: cool, efficient and reliable]]></title>
-        <id>5GRHH8385Hxg3UHjINuHz8</id>
-        <link href="https://blog.cloudflare.com/thermal-design-supporting-gen-12-hardware-cool-efficient-and-reliable"/>
-        <updated>2024-10-07T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Great thermal solutions play a crucial role in hardware reliability and performance. Gen 12 servers have implemented an exhaustive thermal analysis to ensure optimal operations within a wide variety of temperature conditions and use cases. By implementing new design and control features for improved power efficiency on the compute nodes we also enabled the support of powerful accelerators to serve our customers.]]></summary>
-        <author>
-            <name>Leslye Paniagua</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Philosophy & Public Affairs is not dead yet]]></title>
-        <id>https://crookedtimber.org/?p=53257</id>
-        <link href="https://crookedtimber.org/2024/10/07/philosophy-public-affairs-is-not-dead-yet/"/>
-        <updated>2024-10-07T11:17:46.000Z</updated>
-        <summary type="html"><![CDATA[One of the most interesting developments in the little world of political theory / philosophy in recent years has been the mass resignation of the editorial teams of both Philosophy & Public Affairs, and Journal of Political Philosophy. Public statements from both groups suggested they were disturbed by their existing publishers’ injunctions to publish in […]]]></summary>
-        <author>
-            <name>Chris Armstrong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Do Climate Risk Indices Measure?]]></title>
-        <id>https://libertystreeteconomics.newyorkfed.org/?p=31740</id>
-        <link href="https://libertystreeteconomics.newyorkfed.org/2024/10/what-do-climate-risk-indices-measure/"/>
-        <updated>2024-10-07T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As interest in understanding the economic impacts of climate change grows, the climate economics and finance literature has developed a number of indices to quantify climate risks. Various approaches have been employed, utilizing firm-level emissions data, financial market data (from equity and derivatives markets), or textual data. Focusing on the latter approach, we conduct descriptive analyses of six text-based climate risk indices from published or well-cited papers. In this blog post, we highlight the differences and commonalities across these indices.]]></summary>
-        <author>
-            <name>Hyeyoon Jung and Oliver Hannaoui</name>
         </author>
     </entry>
 </feed>
