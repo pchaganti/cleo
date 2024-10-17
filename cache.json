@@ -49,6 +49,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
       "articles": [
         {
+          "id": "4b7294a6fcaa6819d859ea467faf2491ebb12ac2",
+          "author": "Robin Geddes",
+          "description": "In Part 1 of this series, we used a floating virtual IP (VIP) to achieve hands-off high availability (HA) of WebLogic Admin Server. In Part 2, we’ll achieve an arguably superior solution using Domain Name System (DNS) resolution. Using a DNS to resolve the address for WebLogic admin server Let’s look at the reference WebLogic […]",
+          "link": "https://aws.amazon.com/blogs/architecture/automating-multi-az-high-availability-for-weblogic-administration-server-with-dns-part-2/",
+          "publishedOn": "2024-10-16T20:19:37.000Z",
+          "wordCount": 2237,
+          "title": "Automating multi-AZ high availability for WebLogic administration server with DNS: Part 2",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2024/10/14/fig1-weblogic-part-2-1050x630.png"
+        },
+        {
           "id": "af07d7584dfeb69d151856df82af697cb9969f9a",
           "author": "Anton Aleksandrov",
           "description": "This post was co-written with Ran Isenberg, Principal Software Architect at CyberArk and an AWS Serverless Hero. Serverless architectures enable agility and simplified cloud resource management. Organizations embracing serverless architectures build robust, distributed cloud applications. As organizations grow and the number of development teams increases, maintaining architectural consistency, standardization, and governance across projects becomes crucial. […]",
@@ -124,7 +134,7 @@
           "description": "By: Hechao Li and Marcelo Mayworm",
           "link": "https://netflixtechblog.com/investigation-of-a-workbench-ui-latency-issue-faa017b4653d?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-10-14T20:02:47.000Z",
-          "wordCount": 6115,
+          "wordCount": 6121,
           "title": "Investigation of a Workbench UI Latency Issue",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*ltV3CYtNjLCzolXD"
         }
@@ -141,6 +151,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/containers/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/containers/",
       "articles": [
+        {
+          "id": "593079c1e25d7535b97de1bcd70da92cb64657a3",
+          "author": "Jesse Butler",
+          "description": "Introduction Earlier this year we announced support for Amazon EKS optimized AL2023 AMIs that provided many enhancements in terms of security and performance. Amazon Linux 2023 (AL2023) is the next generation of Amazon Linux from Amazon Web Services (AWS) and is designed to provide a secure, stable, and high-performance environment to develop and run your […]",
+          "link": "https://aws.amazon.com/blogs/containers/amazon-eks-optimized-amazon-linux-2023-accelerated-amis-now-available/",
+          "publishedOn": "2024-10-16T18:53:18.000Z",
+          "wordCount": 2205,
+          "title": "Amazon EKS optimized Amazon Linux 2023 accelerated AMIs now available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/10/16/Featured-images-for-Containers-Blog-3-1260x630.jpg"
+        },
         {
           "id": "959b0cd8030d1d8de276b6f0cd400ca1059430a0",
           "author": "Shawn Zhang",
@@ -534,18 +554,7 @@
       "title": "Liberty Street Economics",
       "feedUrl": "https://libertystreeteconomics.newyorkfed.org/feed/",
       "siteUrl": "https://libertystreeteconomics.newyorkfed.org/",
-      "articles": [
-        {
-          "id": "https://libertystreeteconomics.newyorkfed.org/?p=32002",
-          "author": "Julian di Giovanni, Galina Hale, Neel Lahiri, and Anirban Sanyal",
-          "description": "While policies to combat climate change are designed to address a global problem, they are generally implemented at the national level. Nevertheless, the impact of domestic climate policies may spill over internationally given countries' economic and financial interdependence. For example, a carbon tax charged to domestic firms for their use of fossil fuels may lead the firms to charge higher prices to their domestic and foreign customers; given the importance of global value chains in modern economies, the impact of that carbon tax may propagate across multiple layers of cross-border production linkages. In this post, we quantify the spillover effects of climate policies on forward-looking asset prices globally by estimating the impact of carbon price shocks in the European Union’s Emissions Trading System (EU ETS) on stock prices across a broad set of country-industry pairs. In other words, we measure how asset markets evaluate the impact of changes to the carbon price on growth and profitability prospects of the firms.",
-          "link": "https://libertystreeteconomics.newyorkfed.org/2024/10/international-stock-markets-reactions-to-eu-climate-policy-shocks/",
-          "publishedOn": "2024-10-10T11:00:00.000Z",
-          "wordCount": 4106,
-          "title": "International Stock Markets’ Reactions to EU Climate Policy Shocks",
-          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/10/LSE_2024_stock-market-climate_digiovanni_460.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Real-World Economics Review Blog",
@@ -568,7 +577,7 @@
           "description": "The end of the post-World War II ´Pax Americana, an almost eighty-year period of peace for European countries allied with the USA, will soon lead the EU to end the prohibition of monetary financing of governments by the European Central Bank (ECB). This might take the shape of the ECB providing credit to an entity […]",
           "link": "https://rwer.wordpress.com/2024/10/14/the-european-central-bank-and-the-return-of-history/",
           "publishedOn": "2024-10-14T09:42:52.000Z",
-          "wordCount": 4865,
+          "wordCount": 4872,
           "title": "The European Central Bank and the return of history",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/10/image-1.png"
         },
@@ -578,7 +587,7 @@
           "description": "from Dean Baker It is more than a bit bizarre reading pieces that talk about automation or job-killing AI as something new and alien. These are forms of productivity growth. They allow more goods and services to be produced for each hour of human labor. Productivity growth is usually thought of as a good thing. […]",
           "link": "https://rwer.wordpress.com/2024/10/13/automation-is-called-productivity-growth-2/",
           "publishedOn": "2024-10-13T19:38:46.000Z",
-          "wordCount": 4389,
+          "wordCount": 4390,
           "title": "Automation is called “Productivity Growth”",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -588,19 +597,9 @@
           "description": "from Peter Radford “Mathematics is the art of the perfect.  Physics is the art of the optimal.  Biology, because of evolution, is the art of the satisfactory”. That’s Sydney Brenner speaking.  He should know a thing or two.  He won a Nobel Prize. It’s a shame, is it not?  Economies are always changing.  Not just […]",
           "link": "https://rwer.wordpress.com/2024/10/11/brenners-satisfactory/",
           "publishedOn": "2024-10-11T15:49:22.000Z",
-          "wordCount": 4918,
+          "wordCount": 4919,
           "title": "Brenner’s satisfactory",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://rwer.wordpress.com/?p=45626",
-          "author": "Editor",
-          "description": "from Feedspot The best Economics Book blogs from thousands of Book blogs on the web and ranked by traffic, social media followers & freshness. Economics Book Blogs Here are 15 Best Economics Book Blogs you should follow in 2024 1. Real-World Economics Review Blog The Real-World Economics Review blog serves as a critical platform for economists, scholars, […]",
-          "link": "https://rwer.wordpress.com/2024/10/10/15-best-economics-book-blogs-and-websites-in-2024/",
-          "publishedOn": "2024-10-10T11:06:01.000Z",
-          "wordCount": 4055,
-          "title": "“15 Best Economics Book Blogs and Websites in 2024”",
-          "imageUrl": "https://i1.feedspot.com/200/549023.jpg?t=1618405853"
         }
       ]
     },
@@ -616,12 +615,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=280483",
+          "author": "Lambert Strether",
+          "description": "Our tiny singing dinosaur friends, and the assets they create....",
+          "link": "https://www.nakedcapitalism.com/2024/10/the-macaulay-library-bird-songs-and-citizen-science.html",
+          "publishedOn": "2024-10-16T21:25:57.000Z",
+          "wordCount": 5635,
+          "title": "The Macaulay Library, Bird Songs, and Citizen Science",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=280458",
           "author": "Lambert Strether",
-          "description": "~ Today's Water Cooler: Politics, syndemics; Trump to work the grill at McDonald's in Philly; Michelle stays home; Boeing borrows $10 billion, fights off junk status for now, faces break-up ~",
+          "description": "~ Today's Water Cooler: Politics, syndemics; Michelle stays home; Trump to work the grill at McDonald's in Philly; Trump's \"fascism\"; Boeing borrows $10 billion, fights off junk status for now, faces break-up ~",
           "link": "https://www.nakedcapitalism.com/2024/10/200pm-water-cooler-10-16-2024.html",
           "publishedOn": "2024-10-16T18:00:28.000Z",
-          "wordCount": 7294,
+          "wordCount": 15985,
           "title": "2:00PM Water Cooler 10/16/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/rcp_2024-10-11.png"
         },
@@ -631,7 +640,7 @@
           "description": "After a period of rapid growth, recent trends in world trade reveal a phase of stagnation. Rising geopolitical tensions have been accompanied by trade restrictions in the name of national and economic security. Analysis of economic security measures should consider multiple dimensions, including the effect on global supply chains, efficiency, costs, foreign direct investment, trade in services, and international competition.",
           "link": "https://www.nakedcapitalism.com/2024/10/key-issues-in-economic-analysis-in-an-increasingly-turbulent-security-environment.html",
           "publishedOn": "2024-10-16T16:24:40.000Z",
-          "wordCount": 4938,
+          "wordCount": 5148,
           "title": "Key Issues in Economic Analysis in an Increasingly Turbulent Security Environment",
           "imageUrl": null
         },
@@ -641,7 +650,7 @@
           "description": "Our five star-rated daily links.",
           "link": "https://www.nakedcapitalism.com/2024/10/links-10-16-2024.html",
           "publishedOn": "2024-10-16T10:58:22.000Z",
-          "wordCount": 16224,
+          "wordCount": 17583,
           "title": "Links 10/16/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/cat-waldo.jpg"
         },
@@ -651,7 +660,7 @@
           "description": "The standoff between Armenia and Azerbaijan is being used to apply more pressure on Iran and has all the signs of a neocon divide and conquer scheme.",
           "link": "https://www.nakedcapitalism.com/2024/10/will-the-conflicts-in-the-middle-east-spill-over-into-the-caucasus.html",
           "publishedOn": "2024-10-16T10:00:19.000Z",
-          "wordCount": 5507,
+          "wordCount": 5735,
           "title": "Will the Conflicts in the Middle East Spill Over Into the Caucasus?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/Zangezur-1024x896.png"
         },
@@ -661,7 +670,7 @@
           "description": "A reader critical thinking exercise in the form of a neocon justification of US efforts to contain China.",
           "link": "https://www.nakedcapitalism.com/2024/10/powder-keg-in-the-pacific-how-chinas-challenge-revived-americas-position-in-asia-and-the-pacific.html",
           "publishedOn": "2024-10-16T08:19:21.000Z",
-          "wordCount": 10412,
+          "wordCount": 12750,
           "title": "“Powder Keg in the Pacific, How China’s Challenge Revived America’s Position in Asia and the Pacific”",
           "imageUrl": "https://tomdispatch.com/wp-content/uploads/2021/04/Screen-Shot-2021-04-29-at-9.25.44-AM.png"
         },
@@ -671,7 +680,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics; CIA Democrats; Kamala and Biden teams at odds; Trump singing and dancing Town Hall not the debacle portrayed; Boeing to borrow billions, delays 777X, plans drastic white-collar cuts ~",
           "link": "https://www.nakedcapitalism.com/2024/10/200pm-water-cooler-10-15-2024.html",
           "publishedOn": "2024-10-15T18:00:29.000Z",
-          "wordCount": 17608,
+          "wordCount": 17609,
           "title": "2:00PM Water Cooler 10/15/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/rcp_2024-10-11.png"
         },
@@ -681,7 +690,7 @@
           "description": "An important takedown of the blue hydrogen scam, a pet initiative of fossil fuel companies.",
           "link": "https://www.nakedcapitalism.com/2024/10/europes-blue-hydrogen-plans-risk-generating-annual-emissions-on-par-with-denmark.html",
           "publishedOn": "2024-10-15T13:56:00.000Z",
-          "wordCount": 8205,
+          "wordCount": 8206,
           "title": "Europe’s Blue Hydrogen Plans Risk Generating Annual Emissions on Par With Denmark",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/Screen-Shot-2024-10-15-at-8.51.44-PM-1024x577.png"
         },
@@ -691,7 +700,7 @@
           "description": "Our rambunctious daily links: elephant move, China taxes on super-rich, Koreas border dustup, Canada-India murder allegation spat, UK energy rationing? Israel burns Palestinians alive, Zelensky flounders, FBI v. media, disputing black men inching to Trump, Zuck rebranding",
           "link": "https://www.nakedcapitalism.com/2024/10/links-10-15-2024.html",
           "publishedOn": "2024-10-15T10:55:02.000Z",
-          "wordCount": 18805,
+          "wordCount": 18788,
           "title": "Links 10/15/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/Screen-Shot-2024-10-15-at-5.26.31-PM.png"
         },
@@ -701,19 +710,9 @@
           "description": "The title of this post may, at first sight, seem a little baffling. After all, what does the smallish one-party Central American state of Nicaragua have to do with Europe's largest economy, Germany? Well, as it turns out, quite a lot.",
           "link": "https://www.nakedcapitalism.com/2024/10/nicaragua-becomes-latest-latin-america-country-to-break-ties-with-israel-while-germany-pledges-to-send-more-weapons.html",
           "publishedOn": "2024-10-15T10:45:23.000Z",
-          "wordCount": 6424,
+          "wordCount": 6504,
           "title": "Nicaragua Severs Ties With Tel Aviv While Germany Creates “Genocide Clause” to Justify Sending More Arms to Israel",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=280373",
-          "author": "Yves Smith",
-          "description": "Recent economic data suggest inflation may gain steam again. What would the Fed do?",
-          "link": "https://www.nakedcapitalism.com/2024/10/what-if-theres-no-landing-at-all-but-flight-at-higher-speed-and-altitude-than-normal-with-higher-and-rising-inflation.html",
-          "publishedOn": "2024-10-15T10:22:45.000Z",
-          "wordCount": 7350,
-          "title": "What If There’s No Landing at All, But Flight at Higher Speed and Altitude than Normal, with Higher and Rising Inflation?",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/00-inflation.png"
         }
       ]
     },
@@ -723,6 +722,16 @@
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
         {
+          "id": "1Sj8x3oCQRSZqU8oNgMmkE",
+          "author": "JQ Lau",
+          "description": "Cloudflare’s Gen 12 server is the most powerful and power efficient server that we have deployed to date. Through sensitivity analysis, we found that Cloudflare workloads continue to scale with higher core count and higher CPU frequency, as well as achieving a significant boost in performance with larger L3 cache per core.",
+          "link": "https://blog.cloudflare.com/analysis-of-the-epyc-145-performance-gain-in-cloudflare-gen-12-servers",
+          "publishedOn": "2024-10-15T15:00:00.000Z",
+          "wordCount": 2881,
+          "title": "Analysis of the EPYC 145% performance gain in Cloudflare Gen 12 servers",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6cxv5U48nT2xEhGA7D0T4Y/13e485db032e8faa99c4ec70504f2150/Analysis_of_the_EPYC_145-_performance_gain_in_Cloudflare_Gen_12_servers-OG.png"
+        },
+        {
           "id": "7LZCXzvQgHwLVGoT4O4Pj6",
           "author": "Noelle Kagan",
           "description": "Uphold Zero Trust principles and protect against identity-based attacks by sharing Cloudflare user risk scores with Okta. Learn how this new integration allows your organization to mitigate risk in real time, make informed access decisions, and free up security resources with automation.",
@@ -731,16 +740,6 @@
           "wordCount": 1638,
           "title": "Protect against identity-based attacks by sharing Cloudflare user risk scores with Okta",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/67HjzNd0pez6uLn5OLG5zc/cb22f52a57cb3171c2e69ab950a62e6f/Protect_against_identity-based_attacks_by_sharing_Cloudflare_user_risk_scores_with_Okta-OG.png"
-        },
-        {
-          "id": "1CTZpoSgblZPyzlutBC0kp",
-          "author": "CJ Desai",
-          "description": "I am thrilled to embark on this journey to run Product and Engineering at Cloudflare, driving forward the mission of helping build a better Internet.",
-          "link": "https://blog.cloudflare.com/cj-desai-why-i-joined-cloudflare",
-          "publishedOn": "2024-10-10T13:00:00.000Z",
-          "wordCount": 1037,
-          "title": "CJ Desai: Why I joined Cloudflare as President of Product and Engineering",
-          "imageUrl": ""
         }
       ]
     },
@@ -761,17 +760,11 @@
           "description": "We’ve been working to bring components of Quip’s technology into Slack with the canvas feature, while also maintaining the stand-alone Quip product. Quip’s backend, which powers both Quip and canvas, is written in Python. This is the story of a tricky bug we encountered last July and the lessons we learned along the way about […]\nThe post We’re All Just Looking for Connection appeared first on Slack Engineering.",
           "link": "https://slack.engineering/were-all-just-looking-for-connection/",
           "publishedOn": "2024-10-10T21:39:15.000Z",
-          "wordCount": 2128,
+          "wordCount": 2124,
           "title": "We’re All Just Looking for Connection",
           "imageUrl": "https://slack.engineering/wp-content/uploads/sites/7/2024/10/54040277712_ab333a09d9_b.jpg"
         }
       ]
-    },
-    {
-      "title": "Visual Studio Code - Code Editing. Redefined.",
-      "feedUrl": "https://code.visualstudio.com/feed.xml",
-      "siteUrl": "https://code.visualstudio.com/",
-      "articles": []
     },
     {
       "title": "Engineering at Meta",
@@ -784,7 +777,7 @@
           "description": "At Open Compute Project Summit (OCP) 2024, we’re sharing details about our next-generation network fabric for our AI training clusters. We’ve expanded our network hardware portfolio and are contributing two new disaggregated network fabrics and a new NIC to OCP. We look forward to continued collaboration with OCP to open designs for racks, servers, storage [...]\nRead More...\nThe post OCP Summit 2024: The open future of networking hardware for AI appeared first on Engineering at Meta.",
           "link": "https://engineering.fb.com/2024/10/15/data-infrastructure/open-future-networking-hardware-ai-ocp-2024-meta/",
           "publishedOn": "2024-10-15T17:06:46.000Z",
-          "wordCount": 2452,
+          "wordCount": 2462,
           "title": "OCP Summit 2024: The open future of networking hardware for AI",
           "imageUrl": "https://engineering.fb.com/wp-content/uploads/2024/10/OCP-2024-DSF-Meta-2.png"
         },
@@ -794,7 +787,7 @@
           "description": "At the Open Compute Project (OCP) Global Summit 2024, we’re showcasing our latest open AI hardware designs with the OCP community. These innovations include a new AI platform, cutting-edge open rack designs, and advanced network fabrics and components.  By sharing our designs, we hope to inspire collaboration and foster innovation. If you’re passionate about building [...]\nRead More...\nThe post Meta’s open AI hardware vision appeared first on Engineering at Meta.",
           "link": "https://engineering.fb.com/2024/10/15/data-infrastructure/metas-open-ai-hardware-vision/",
           "publishedOn": "2024-10-15T17:00:13.000Z",
-          "wordCount": 2825,
+          "wordCount": 2835,
           "title": "Meta’s open AI hardware vision",
           "imageUrl": "https://engineering.fb.com/wp-content/uploads/2024/10/Omar-Baldonado-OCP-2024-Keynote-HERO-small.png"
         }
@@ -806,12 +799,22 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=41860626",
+          "author": "Uehreka",
+          "description": "When people try and say that regulating stuff like this is impossible, I often think about how unreasonably great the regulations around “Unsubscribe” links in emails are.\nThere really seems to be no loophole or workaround despite there being huge incentive for there to be one. Every time I click an “Unsubscribe” link in an email (it seems like they’re forced to say “Unsubscribe” and not use weasel words to hide the link) I’m either immediately unsubscribed from the person who sent me the email, or I’m taken to a page which seemingly MUST have a “remove me from all emails” option.\nThe level of compliance (and they can’t even do malicious compliance!) with this is absurd. If these new rules work anything like that, they’ll be awesome. Clearly regulating behavior like this is indeed possible.",
+          "link": "https://news.ycombinator.com/item?id=41860626",
+          "publishedOn": "2024-10-16T15:57:01.000Z",
+          "wordCount": 8741,
+          "title": "New comment by Uehreka in \"FTC announces \"click-to-cancel\" rule making it easier to cancel subscriptions\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=41859541",
           "author": "ajkjk",
           "description": "There are so many things like this that have needed fixing for such a long time. The fact that something is happening, even slowly, is so heartening.\nIf your reaction is wondering if this is legal then you should be interested in the passing of new laws that make it unequivocally legal. Society should be able to govern itself.",
           "link": "https://news.ycombinator.com/item?id=41859541",
           "publishedOn": "2024-10-16T14:37:10.000Z",
-          "wordCount": 7675,
+          "wordCount": 8728,
           "title": "New comment by ajkjk in \"FTC announces \"click-to-cancel\" rule making it easier to cancel subscriptions\"",
           "imageUrl": null
         },
@@ -826,12 +829,22 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=41844648",
+          "author": "umanwizard",
+          "description": "Is this game well-known enough in Britain and Ireland that readers will know what on earth is being alleged just from reading this article? Or are you expected to have to google it?\nApparently it’s a game where you take turns swinging a chestnut on a string and trying to hit the opponent’s chestnut and break it. Yes, I can see how a steel fake chestnut would be an advantage here, though I’m amazed it wouldn’t be instantly obvious to even a casual observer that the look and sound were wrong. So maybe I’m still missing something.",
+          "link": "https://news.ycombinator.com/item?id=41844648",
+          "publishedOn": "2024-10-15T03:33:13.000Z",
+          "wordCount": null,
+          "title": "New comment by umanwizard in \"World conker champion found with steel chestnut, cleared of cheating\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=41842346",
           "author": "londons_explore",
           "description": "> The radio simply plugs into the USB C port on your Android smartphone and transforms it into a fully-fledged handheld radio transceiver.\nWhen I saw the headline I was hoping someone had hacked the qualcomm modem and turned it into a software defined radio.",
           "link": "https://news.ycombinator.com/item?id=41842346",
           "publishedOn": "2024-10-14T21:44:55.000Z",
-          "wordCount": 1062,
+          "wordCount": null,
           "title": "New comment by londons_explore in \"Turn your Android phone into a modern ham radio transceiver\"",
           "imageUrl": null
         },
@@ -841,7 +854,7 @@
           "description": "Hi, Pavel Zhovner here, Flipper Devices CEO. \nYes it's our product, but it's not ready for announcement yet, so we keep it secret.\nRight now, we are working on implementing Matter smart home protocol and will slightly change the product concept.",
           "link": "https://news.ycombinator.com/item?id=41839748",
           "publishedOn": "2024-10-14T17:31:26.000Z",
-          "wordCount": 2676,
+          "wordCount": null,
           "title": "New comment by zhovner in \"Busy Status Bar\"",
           "imageUrl": null
         },
@@ -851,7 +864,7 @@
           "description": "Someone gave me an analogy some time ago that made a lot of sense.\nIf you shine a flashlight through a tree blowing in the wind and vary the brightness to convey information, the signal can get distorted pretty easily.\nHowever, if you have a constant brightness source and vary the color, it’s a lot easier to figure out what the source is trying to convey.",
           "link": "https://news.ycombinator.com/item?id=41832921",
           "publishedOn": "2024-10-14T00:15:05.000Z",
-          "wordCount": 5591,
+          "wordCount": null,
           "title": "New comment by matrix2003 in \"Why does FM sound better than AM?\"",
           "imageUrl": null
         },
@@ -861,7 +874,7 @@
           "description": "> various protocols (HTTP, SMTP, CSV) still \"require\" CRLF at the end of each line\nWhat would be the benefit to updating legacy protocols to just use NL? You save a handful of bits at the expense of a lot of potential bugs. HTTP/1(.1) is mostly replaced by HTTP/2 and later by now anyway.\nSure, it makes sense not to require CRLF with any new protocols, but it doesn't seem worth updating legacy things.\n> Even if an established protocol (HTTP, SMTP, CSV, FTP) technically requires CRLF as a line ending, do not comply.\nI'm hoping this is satire. Why intentionally introduce potential bugs for the sake of making a point?",
           "link": "https://news.ycombinator.com/item?id=41831072",
           "publishedOn": "2024-10-13T20:03:02.000Z",
-          "wordCount": null,
+          "wordCount": 8877,
           "title": "New comment by michaelmior in \"CRLF is obsolete and should be abolished\"",
           "imageUrl": null
         },
@@ -891,7 +904,7 @@
           "description": "MIMO and nonlinear control theories are probably some of the hardest topics in all of engineering. SpaceX control system also has to compensate for the fuel moving inside their rockets so the control algorithms probably involve some kind of fast numerical fluid simulation.\nAnother interesting thing SpaceX is doing is to use consumer-grade chips in triple redundancy configurations instead of using $100,000+ radiation-hardened aerospace/defense grade chips.",
           "link": "https://news.ycombinator.com/item?id=41828249",
           "publishedOn": "2024-10-13T14:19:12.000Z",
-          "wordCount": null,
+          "wordCount": 5560,
           "title": "New comment by dtquad in \"Starship Flight 5: Launch and booster catch [video]\"",
           "imageUrl": null
         },
@@ -996,6 +1009,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=41820690",
+          "author": "naming_the_user",
+          "description": "It really can't be underestimated either for children or adults how much we are dependent on ease of access.\nIf you're stuck in a room and the only thing you can do is read a math textbook you are going to do it. If you are stuck in a room and you have a math textbook and a novel you now have a choice.\nA phone? A phone is everything else. You're putting \"the thing we are supposed to be doing\" and \"everything else\" in the same place. I can't even do it as an adult, I need to put my phone on the other side of the room if I want to read something proper.",
+          "link": "https://news.ycombinator.com/item?id=41820690",
+          "publishedOn": "2024-10-12T17:12:13.000Z",
+          "wordCount": null,
+          "title": "New comment by naming_the_user in \"The phone ban has had a big impact on school work\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=41819655",
           "author": "eatbots",
           "description": "Reported this exact bug to Zendesk, Apple, and Slack in June 2024, both through HackerOne and by escalating directly to engs or PMs at each company.\nI doubt we were the first. That is presumably the reason they failed to pay out.\nThe real issue is that non-directory SSO options like Sign in with Apple (SIWA) have been incorrectly implemented almost everywhere, including by Slack and other large companies we alerted in June.\nNon-directory SSO should not have equal trust vs. directory SSO. If you have a Google account and use Google SSO, Google can attest that you control that account. Same with Okta and Okta SSO.\nSIWA, GitHub Auth, etc are not doing this. They rely on a weaker proof, usually just control of email at a single point in time.\nSSO providers are not fungible, even if the email address is the same. You need to take this into account when designing your trust model. Most services do not.",
@@ -1011,7 +1034,7 @@
           "description": "Another example of how weasley Zendesk can be:\nThey created a fake band called \"Zendesk Alternative\" just in an attempt to pollute the Google results if you search for an alternative to Zendesk.\nhttp://zendeskalternative.com/\nWhile not illegal, it shows the way they think, a sort of manipulative pettiness.",
           "link": "https://news.ycombinator.com/item?id=41819233",
           "publishedOn": "2024-10-12T14:16:17.000Z",
-          "wordCount": null,
+          "wordCount": 1680,
           "title": "New comment by bsuvc in \"1 bug, $50k in bounties, a Zendesk backdoor\"",
           "imageUrl": null
         },
@@ -1021,7 +1044,7 @@
           "description": "A $1.3 billion revenue company being too tight to pay this after all, even on their 2nd chance, is so short-sighted it's absurd. They're putting out a huge sign saying \"When you find a vuln, definitely contact all our clients because we won't be giving you a penny!\".\nIncredible. This must be some kind of \"damaged ego\" or ass-covering, as it's clearly not a rational decision.\nEdit: Another user here has pointed out the reasoning\n> It's owned by private equity. Slowly cutting costs and bleeding the brand dry",
           "link": "https://news.ycombinator.com/item?id=41819179",
           "publishedOn": "2024-10-12T14:06:20.000Z",
-          "wordCount": 5137,
+          "wordCount": null,
           "title": "New comment by maeil in \"1 bug, $50k in bounties, a Zendesk backdoor\"",
           "imageUrl": null
         },
@@ -1041,7 +1064,7 @@
           "description": "I think a lot of people are talking past each other. I’ve mostly WFH since long before the pandemic, in many different capacities at many companies. A lot of people have tunnel vision and the reality is more nuanced than most allow.\nFor IC work that requires minimal collaboration, WFH is often more productive. Fewer interruptions, more focus. However, when the role requires detailed collaboration and regular interaction with others, productivity for WFH falls off a cliff. This has been measurable at every company I’ve worked for that does a decent job of collecting these metrics. And anecdotally, I can feel it in my own job. When I am doing focus work, WFH is great and I get a lot done. When I need a lot of whiteboard time or deep discussions with my peers, WFH is very inefficient regardless of the remote setup, and the difference is so stark that it is difficult to argue.\nI think most people are talking their own book. If you are an IC or mostly just do individual focus work, then of course WFH is great. If you need to iteratively collaborate with people on complex design problems or work products, WFH objectively has low efficiency in every organization I’ve seen try it, including companies that are remote-centric.\nThere is a lot of motivated reasoning in these discussions and little acknowledgement that productivity between WFH and RTO varies greatly depending on the task at hand. Every company and most roles are a mix of these types of tasks. I think many companies these days recognize this and try to allocate accordingly, but it creates legal, social, and other issues if you treat employees differently in this regard based on the nature of their roles. The reality that some people must commute to do their jobs effectively creates a class system of sorts but organizations needs all roles to be setup to ensure reasonable productivity.\nThis is not a black and white situation, it is a complex social problem.",
           "link": "https://news.ycombinator.com/item?id=41816635",
           "publishedOn": "2024-10-12T05:22:04.000Z",
-          "wordCount": 10266,
+          "wordCount": null,
           "title": "New comment by jandrewrogers in \"Working from home is powering productivity\"",
           "imageUrl": null
         },
@@ -1066,43 +1089,13 @@
           "imageUrl": null
         },
         {
-          "id": "https://news.ycombinator.com/item?id=41810118",
-          "author": "freedomben",
-          "description": "Agreed on hoping this is the inflection point, but only partial agreement that it's about adblock.  For sure Google wants adblock to die, but I think it goes even deeper than that.\nI think it's part of a much bigger trend in tech in general but also in Google:  Removing user control.  When you look at the \"security\" things they are doing, many of them have a common philosophy underpinning them that the user (aka device owner) is a security threat and must be protected against.  Web integrity, Manifest v3, various DoH/DoT, bootloader locking, device integrity which conveniently makes root difficult/impossible, and more.\nTo all the engineers working on this stuff, I hope you're happy that your work is essentially destroying the world that you and I grew up in.  The next generation won't have the wonderful and fertile computing environment that we enjoyed, and it's (partly) your fault.",
-          "link": "https://news.ycombinator.com/item?id=41810118",
-          "publishedOn": "2024-10-11T15:04:25.000Z",
-          "wordCount": 3564,
-          "title": "New comment by freedomben in \"\"Begin disabling installed extensions still using Manifest V2 in Chrome stable\"\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41809900",
-          "author": "freedomben",
-          "description": "Notably, Firefox is not removing v2 support (at least for now as of March 2024)\n> Firefox, however, has no plans to deprecate MV2 and will continue to support MV2 extensions for the foreseeable future. And even if we re-evaluate this decision at some point down the road, we anticipate providing a notice of at least 12 months for developers to adjust accordingly and not feel rushed.[1]\n[1]: https://blog.mozilla.org/addons/2024/03/13/manifest-v3-manif...",
-          "link": "https://news.ycombinator.com/item?id=41809900",
-          "publishedOn": "2024-10-11T14:42:24.000Z",
-          "wordCount": 2423,
-          "title": "New comment by freedomben in \"\"Begin disabling installed extensions still using Manifest V2 in Chrome stable\"\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41806626",
-          "author": "DennisL123",
-          "description": "Classic bait and switch setup. Selling people the future in 2 years time with little to nothing to show for today. Timelines will slip, plans will change, software won‘t be ready, prices will change. And that doesn’t even account for where Waymo is in two years from now, or what the Chinese EV industry is able to pull off until then.\nEven this underwhelming event was originally announced on short notice to prop up perception when sales looked bad in April [1], delayed by two‘ish months, and then didn‘t even start on time. Oh, and implementing the robo taxi was a two-months project back then [1]. It‘s a ruse, folks.\n[1] https://fortune.com/2024/07/16/elon-musk-tesla-robotaxi-dela...",
-          "link": "https://news.ycombinator.com/item?id=41806626",
-          "publishedOn": "2024-10-11T05:59:35.000Z",
-          "wordCount": 9192,
-          "title": "New comment by DennisL123 in \"Tesla Robotaxi\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41804360",
-          "author": "gechr",
-          "description": "After trying various solutions - including DeskPad - I came up with a custom cross-platform (I'm on macOS, but assume it'll work elsewhere) solution that worked incredibly well on my 40\" ultrawide monitor: OBS[1].\nHaving never used OBS before but knowing it was popular among streamers, I wondered if I could use it to (1) only share the specific applications I wanted to share and (2) share them at a resolution that people could actually read, without constantly being asked to zoom in.\nI first tried setting up a virtual camera and sharing via my video stream, but it was laggy and the quality was so poor that people couldn't read what I was sharing. I quickly gave up on that approach.\nThen I discovered Projectors[2]. By right-clicking on the main view in OBS and selecting \"Windowed Projector (Preview)\", it launches a separate window, which I can then share directly via Zoom, Teams, Meet, etc.\nWhatever I drag into the OBS view is displayed in the Windowed Projector (similar to DeskPad), with the added bonus that I can choose to blur certain applications that might be dragged in. For example, if I open Slack or my password manager, the entire window blurs until I focus back on my terminal or browser.\nIt took a bunch of tweaking to perfect, but I'm very pleased with how well it works now.\n---\n[1] https://obsproject.com/\n[2] https://obsproject.com/kb/power-of-projectors",
-          "link": "https://news.ycombinator.com/item?id=41804360",
-          "publishedOn": "2024-10-10T22:47:42.000Z",
+          "id": "https://news.ycombinator.com/item?id=41812080",
+          "author": "dfxm12",
+          "description": "Instead of a system that makes these drug available for purchase, I'd rather live in a system that promotes healthy food and active behavior. Unfortunately, I have to drive everywhere, work too many hours to have free time for recreation and have no idea which government subsidy is going to help big ag likely at the expense of my health.\nAll things being equal, I'd prefer to spend less money on prescriptions and have fewer trips to the doctor.",
+          "link": "https://news.ycombinator.com/item?id=41812080",
+          "publishedOn": "2024-10-11T18:37:00.000Z",
           "wordCount": null,
-          "title": "New comment by gechr in \"DeskPad – A virtual monitor for screen sharing\"",
+          "title": "New comment by dfxm12 in \"How long til we're all on Ozempic?\"",
           "imageUrl": null
         }
       ]
@@ -1118,7 +1111,7 @@
           "description": "I really liked and admired Agnes Callard’s essay, “Beyond Neutrality: The university’s responsibility to lead” in The Point (September 29, 2024) [HT Dailynous]. My post is, despite some quibbles, primarily about amplifying a point Callard (Chicago) makes. I do so not just because there is considerable overlap between our positions (recall here and here), but also because she advances the discussion on the […]",
           "link": "https://crookedtimber.org/2024/10/15/on-agnes-callard-on-the-art-of-governing-teaching-learning-and-student-protests/",
           "publishedOn": "2024-10-15T10:25:05.000Z",
-          "wordCount": 5617,
+          "wordCount": 6114,
           "title": "On Agnes Callard, on the Art of Governing Teaching & Learning and student protests",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1128,7 +1121,7 @@
           "description": "Over the eight decades following the end of World War II, the US has taken part in dozens of land wars, large and small. The outcomes have ranged from comprehensive victory to humiliating defeat, but all have received extensive coverage. By contrast, the US Navy’s admission of defeat in its longest and most significant campaign […]",
           "link": "https://crookedtimber.org/2024/10/14/the-us-just-lost-a-war-and-nobody-noticed/",
           "publishedOn": "2024-10-14T07:09:13.000Z",
-          "wordCount": 7850,
+          "wordCount": 8384,
           "title": "The US just lost a war and nobody noticed",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1138,7 +1131,7 @@
           "description": "Kids today probably don’t know about punched cards, but when I was at school we all had to play around with them a bit as we learnt about state-of-the-art computing …. But the technology derives from weaving, and from the Jacquard loom of 1804.",
           "link": "https://crookedtimber.org/2024/10/13/sunday-photoblogging-punch-card-loom/",
           "publishedOn": "2024-10-13T16:15:30.000Z",
-          "wordCount": 2099,
+          "wordCount": 2105,
           "title": "Sunday photoblogging: punch card loom",
           "imageUrl": "https://live.staticflickr.com/65535/54054213754_8fa2810c66.jpg"
         }
@@ -1190,12 +1183,32 @@
       "siteUrl": "https://disassociated.com",
       "articles": [
         {
+          "id": "https://disassociated.com/?p=8691",
+          "author": "disassociated.com",
+          "description": "Mary Grace Descourouez, writing for Stanford Lifestyle Medicine: Additional studies found that adults who engage in excessive screen time or have a diagnosed smartphone addiction had lower gray matter volume. Gray matter is brain tissue essential for daily human functioning and is responsible for everything from movement to memory to emotions. Gray matter volume naturally […]",
+          "link": "https://disassociated.com/how-reduce-bad-screen-time-while-needing-good-screen-time/",
+          "publishedOn": "2024-10-16T21:00:49.000Z",
+          "wordCount": 416,
+          "title": "How to reduce bad screen time, while needing good screen time?",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
+          "id": "https://disassociated.com/?p=8687",
+          "author": "disassociated.com",
+          "description": "When it comes to political leanings, I’m probably centre/left. But I have a number of family and acquaintances who definitely lean more to the right. Of course, everyone is different, but certain of the mannerisms of the more conservative people I know are particularly distinct. To me, these seemed to go beyond regular personal preference. […]",
+          "link": "https://disassociated.com/conservatives-progressives-different-brain-structures/",
+          "publishedOn": "2024-10-16T20:30:18.000Z",
+          "wordCount": 387,
+          "title": "Conservatives and progressives have different brain structures",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
           "id": "https://disassociated.com/?p=8674",
           "author": "disassociated.com",
           "description": "HTML for people, by American software developer Blake Watson, is a helpful resource for people wishing to build their first website, with a simple text editor. HTML for people guides first time web designers through the process of creating webpages, to uploading them, to produce a live website. You, my friend, are about to go […]",
           "link": "https://disassociated.com/building-website-easy-guide-first-steps/",
           "publishedOn": "2024-10-15T21:00:04.000Z",
-          "wordCount": 306,
+          "wordCount": 313,
           "title": "Building a website is easy: a guide to the first steps",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         },
@@ -1322,10 +1335,10 @@
         {
           "id": "https://notes.jeddacp.com/all-in-its-own-time/",
           "author": null,
-          "description": "I used to be obsessed with timelines.\nWhen I was young and naive, I had a list of things I wanted to accomplish by specific points in my life. Some of those goals included:\nFive years after earning my degree, I should be making a certain amount of money.\nBy 25, I should be engaged, and shortly after, should be married.\nBy a certain age, I should have a specific number of children.\nBefore that, I should own a particular kind of house in a specific location.\nAnd so on, and so on.\nLife is a fickle thing. I was young and didn’t fully grasp that wanting to achieve something by a certain time didn’t guarantee I would actually do it then.\nHaving a goal was good for me. During those 5 years, I worked really hard to reach a specific point in my career to hit that number. What was not helpful was being hard on myself and feeling like a failure when I didn’t meet those goal exactly when I thought I should have.\nThen I turned 25. I wasn’t engaged yet. Granted, by the time I was 25, I realized that I actually wasn’t even ready to be engaged to my partner then. We probably could have, but it wasn’t the right time. It would be a silly thing to get engaged because I had set this arbitrary number when I was young and I wanted to meet some sort of timeline. So we didn’t.\nAnyways.\nI had a longer list than what I listed above. As I grew older, and gained more life experience, I realized that timelines are toxic for me. I still want to achieve certain goals, but I no longer want to attach specific deadlines to them.\nI will reach those goals when the timing is right for me.\nI shouldn’t feel like a failure just because I didn’t adhere to an arbitrary timeline.\nAll in its own time.\n71/100\nReply by email",
+          "description": "I used to be obsessed with timelines.\nWhen I was young and naive, I had a list of things I wanted to accomplish by specific points in my life. Some of those goals included:\nFive years after earning my degree, I should be making a certain amount of money.\nBy 25, I should be engaged, and shortly after, should be married.\nBy a certain age, I should have a specific number of children.\nBefore that, I should own a particular kind of house in a specific location.\nAnd so on, and so on.\nLife is a fickle thing. I was young and didn’t fully grasp that wanting to achieve something by a certain time didn’t guarantee I would actually do it then.\nHaving a goal was good for me. During those 5 years, I worked really hard to reach a specific point in my career to hit that number. What was not helpful was be…",
           "link": "https://notes.jeddacp.com/all-in-its-own-time/",
-          "publishedOn": "2024-10-15T15:12:43.621Z",
-          "wordCount": 1286,
+          "publishedOn": "2024-10-15T15:12:00.000Z",
+          "wordCount": 1503,
           "title": "All In Its Own Time",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/jedda/on_timelines.webp"
         },
@@ -1458,16 +1471,6 @@
           "wordCount": 1183,
           "title": "iBlog4Money",
           "imageUrl": "https://static.mgx.me/images/2024/iblogformoney.jpg"
-        },
-        {
-          "id": "https://gremlin.bearblog.dev/blog-monetization-rush-is-so-annoying/",
-          "author": null,
-          "description": "Yesterday I was trying to find some insight about blog writing on Youtube and oh boy... EVERYFUCKINGBODY TALKS ABOUT BLOGGING ONLY IN THE TERMS OF AUDIENCE GROWTH AND MONETIZATION. It is depressing to see that blogging is treated as a mere business everywhere I look.\nFor me, blogging is almost like a diary (Almost, because my actual diary is a paper notebook), which additionally serves as means to express yourself to others. Not shilling shitty products, feeding your audience AI text slop, and embedding ads on every page.\nWe need to take blogging back to its original indie web form and meaning. Join Bear, Neocity or make your own personal website about the stuff you like.",
-          "link": "https://gremlin.bearblog.dev/blog-monetization-rush-is-so-annoying/",
-          "publishedOn": "2024-10-10T08:54:51.121Z",
-          "wordCount": 724,
-          "title": "Blog monetization rush is so annoying",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         }
       ]
     },
