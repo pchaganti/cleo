@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-19T12:46:45.465Z</id>
+    <id>urn:2024-10-19T18:32:13.015Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-10-19T12:46:45.465Z</updated>
+    <updated>2024-10-19T18:32:13.015Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -403,6 +403,42 @@ Looting the Corpses That Come Before You
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Stop Optimizing Everything]]></title>
+        <id>https://yordi.me/stop-optimizing-everything/</id>
+        <link href="https://yordi.me/stop-optimizing-everything/"/>
+        <updated>2024-10-19T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I was listening to a podcast episode of the Tim Ferriss Show where he interviewed Derek Sivers. Sivers told this story about cycling along a beach route. Every time he did this route, he would go as fast as possible, pushing himself. He would always finish his ride in about forty-three minutes, red-faced and sweating, totally exhausted.
+Then one day, he decided to take it easy. Instead of going all out, he relaxed and enjoyed the view along the way. When he got to the end of the ride, he checked his time, and it was forty-five minutes. Only two minutes slower than when he’d been pushing himself to the max. He couldn’t believe it. Two minutes slower, and he enjoyed the whole ride. He wasn’t tired or drenched in sweat.
+For me this story is a perfect example of how we’re always trying to opti…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft is basically discontinuing Windows. What will happen, then?]]></title>
+        <id>https://azhdarchid.com/microsoft-is-basically-discontinuing-windows-what-will-happen-then/</id>
+        <link href="https://azhdarchid.com/microsoft-is-basically-discontinuing-windows-what-will-happen-then/"/>
+        <updated>2024-10-19T03:24:00.000Z</updated>
+        <summary type="html"><![CDATA[So the end of life for Windows 10 looms ahead of us, which is a problem because Windows 11 has two fundamental problems, as it currently stands:
+First, it just won't run on the majority of hardware that currently runs Windows 10. This isn't just, like, ancient hardware; I have a desktop gaming PC that is perfectly fine to play current-gen AAA games on; it's what I played Cyberpunk 2077 on and that was totally okay. But somehow it doesn't meet Win11 requirements because of the CPU; it has a Ryzen 5 1600X in it, a CPU from 2017 that is apparently still actively being manufactured.
+Moore's law has been dead for a while, so the long plateauing of, particularly, CPU power has meant that some of this hardware has a looong shelf life. I still haven't run into a game I want to play on PC that is c…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by wongarsu in "Jury awards American Airline $9.4M from website behind 'skiplagging' hack"]]></title>
+        <id>https://news.ycombinator.com/item?id=41884864</id>
+        <link href="https://news.ycombinator.com/item?id=41884864"/>
+        <updated>2024-10-19T01:15:01.000Z</updated>
+        <summary type="html"><![CDATA[> Skiplagging is not illegal, but airlines view it as a policy violation that is grounds for termination of a traveler’s entire itinerary since the airline can't sell the empty seat in the onward flight.
+The poor airline, unable to sell an empty seat because ... checks notes ... the seat is already sold to someone, and that person decided not to show up. Truly the horror. Just think of all the revenue the airline lost because they couldn't charge more for a shorter flight and now have to fly the last leg with less weight
+But it seems like the entire court case was mostly centered around the legality of the branding of the website. I guess overall the guy behind skiplagged will be happy to have gotten away with what amounts to 10% of revenue in exchange for a lot of publicity.]]></summary>
+        <author>
+            <name>wongarsu</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[My Life So Far in Writing Tools (Partly, at Least)]]></title>
         <id>https://www.nakedcapitalism.com/?p=280590</id>
         <link href="https://www.nakedcapitalism.com/2024/10/my-life-so-far-in-writing-tools-partly-at-least.html"/>
@@ -423,6 +459,18 @@ The book is designed so that you read one micro chapter a day for four weeks. Mr
 I reached chapter three recently, and it stuck with me enough to want to write a bit about it. But before I do that, let's go back in time, sometime around 1995 in Orlando,…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by rsc in "Show HN: Go Plan9 Memo"]]></title>
+        <id>https://news.ycombinator.com/item?id=41882801</id>
+        <link href="https://news.ycombinator.com/item?id=41882801"/>
+        <updated>2024-10-18T19:44:05.000Z</updated>
+        <summary type="html"><![CDATA[No. It's just Go assembly.
+(It happens to be a Plan 9-derived syntax, but we call it Go assembly.)
+See https://go.dev/doc/asm.]]></summary>
+        <author>
+            <name>rsc</name>
         </author>
     </entry>
     <entry>
@@ -453,6 +501,19 @@ I reached chapter three recently, and it stuck with me enough to want to write a
         <summary type="html"><![CDATA[Communities are still shaking off the shock of a storm they never thought could touch these mountains.]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You're overcomplicating production]]></title>
+        <id>https://paravoce.bearblog.dev/youre-overcomplicating-production/</id>
+        <link href="https://paravoce.bearblog.dev/youre-overcomplicating-production/"/>
+        <updated>2024-10-18T14:15:00.000Z</updated>
+        <summary type="html"><![CDATA[You're going to have outages in production. They're inevitable. The question is how to best minimize outages, both their frequency and duration.
+Common wisdom advocates for using managed k8s and databases, containerized services, horizontal scaling for redundancy, building images in CI/CD, and defining your infrastructure as code. This is Best Practice™, and no one was ever fired for doing that. In fact it's quite good for your resumé.
+I will argue that such common wisdom is wrong. These tools are complex, and complex infrastructure is a wildly net-negative distraction to your business and inherently risky.
+Over the past 10 years I've run services in production with millions of customers, exceeding 4-9's uptime. During that time I experimented with a wide variety of architectures, starting…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -944,34 +1005,6 @@ David Graeber: I got involved in anthropology largely because I like to think of
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Things that are my aesthetic, I think]]></title>
-        <id>https://magmacranes.bearblog.dev/things-that-are-my-aesthetic-i-think/</id>
-        <link href="https://magmacranes.bearblog.dev/things-that-are-my-aesthetic-i-think/"/>
-        <updated>2024-10-17T21:07:00.000Z</updated>
-        <summary type="html"><![CDATA[suncatchers 
-purple cocktails  
-being covered in tattoos  
-red autumn leaves  
-delia deetz  
-the scent of rain  
-chili garlic sauce  
-double texting 
-grandmotherly cardigans  
-cats with big eyes  
-a new journal with crisp pages  
-low flute notes  
-tarot decks with gory imagery  
-sheet masks  
-cheese plates  
-cardinal bird calls  
-muse - absolution album artwork  
-labradorite  
-dutch oven bread]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Open Future - Bullshit jobs and the yoke of managerial feudalism]]></title>
         <id>https://theanarchistlibrary.org/library/open-future-bullshit-jobs-and-the-yoke-of-managerial-feudalism?v=1729199100</id>
         <link href="https://theanarchistlibrary.org/library/open-future-bullshit-jobs-and-the-yoke-of-managerial-feudalism?v=1729199100"/>
@@ -1402,18 +1435,6 @@ There really seems to be no loophole or workaround despite there being huge ince
 The level of compliance (and they can’t even do malicious compliance!) with this is absurd. If these new rules work anything like that, they’ll be awesome. Clearly regulating behavior like this is indeed possible.]]></summary>
         <author>
             <name>Uehreka</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by cortesoft in "FTC announces "click-to-cancel" rule making it easier to cancel subscriptions"]]></title>
-        <id>https://news.ycombinator.com/item?id=41860531</id>
-        <link href="https://news.ycombinator.com/item?id=41860531"/>
-        <updated>2024-10-16T15:51:15.000Z</updated>
-        <summary type="html"><![CDATA[Man, I remember when Amazon Prime first started, I signed up for the free trial to get free shipping on something. Of course, I forgot about it and didn’t cancel, but then I got an email from Amazon saying, “hey, you didn’t cancel your prime subscription but you also haven’t used it at all, so we are going to not charge you and cancel it for now. Here is how you easily restart your subscription if you end up needing it”
-It was such a wonderful feeling that clearly impacted me so much I remember it some 20 years later. I gained SO MUCH loyalty to Amazon after that, and sure enough, I restarted my prime subscription a bit later when I got a better job and started ordering more stuff. They made so much more money off me because they sacrificed those few dollars for one month of my subscription fee to show me they weren’t just trying to make me forget to cancel.
-Amazon today would never do that, of course, but man I think more companies should if they want long term, loyal, customers.]]></summary>
-        <author>
-            <name>cortesoft</name>
         </author>
     </entry>
     <entry>
@@ -2039,22 +2060,6 @@ Let's fight planned obsolescence!
         <summary type="html"><![CDATA[By: Hechao Li and Marcelo Mayworm]]></summary>
         <author>
             <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by philipkglass in "Google commits to buying power generated by nuclear-energy startup Kairos Power"]]></title>
-        <id>https://news.ycombinator.com/item?id=41841019</id>
-        <link href="https://news.ycombinator.com/item?id=41841019"/>
-        <updated>2024-10-14T19:32:04.000Z</updated>
-        <summary type="html"><![CDATA[Based on the headline I thought that this was an enormous capital commitment for an enormous generating capacity, but the deal is with a company called Kairos that is developing small modular reactors with 75 megawatts of electrical output each [1]. 7 reactors of this type, collectively, would supply 525 megawatts (less than half of a typical new commercial power reactor like the AP1000, HPR1000, EPR, or APR1400).
-Kairos is in a pretty early stage. They started building a test reactor this summer, scheduled for completion by 2027:
-https://www.energy.gov/ne/articles/kairos-power-starts-const...
-EDIT: Statement from the official Google announcement linked by xnx below [2]:
-Today, we’re building on these efforts by signing the world’s first corporate agreement to purchase nuclear energy from multiple small modular reactors (SMRs) to be developed by Kairos Power. The initial phase of work is intended to bring Kairos Power’s first SMR online quickly and safely by 2030, followed by additional reactor deployments through 2035. Overall, this deal will enable up to 500 MW of new 24/7 carbon-free power to U.S. electricity grids and help more communities benefit from clean and affordable nuclear power.
-[1] https://kairospower.com/technology/
-[2] https://news.ycombinator.com/item?id=41841108]]></summary>
-        <author>
-            <name>philipkglass</name>
         </author>
     </entry>
     <entry>
