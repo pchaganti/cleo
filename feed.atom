@@ -1,18 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-23T12:50:01.230Z</id>
+    <id>urn:2024-10-23T18:34:25.620Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-10-23T12:50:01.230Z</updated>
+    <updated>2024-10-23T18:34:25.620Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Introducing Access for Infrastructure: SSH]]></title>
+        <title type="html"><![CDATA[2:00PM Water Cooler 10/23/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=280884</id>
+        <link href="https://www.nakedcapitalism.com/2024/10/200pm-water-cooler-10-23-2024.html"/>
+        <updated>2024-10-23T18:00:46.000Z</updated>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, Syndemics; 2024 Opinion-havers opine, two weeks out; Trump media blitz (Rogan; Carlson); Kamala and Biden's decline (her view vs. the donor's view); Boeing satellite explodes; Ortberg seeks culture change ~]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EC2 Image Builder now supports building and testing macOS images]]></title>
+        <id>9378fdaa3342bb349bd4c3d282c01e0d0ab05c0d</id>
+        <link href="https://aws.amazon.com/blogs/aws/ec2-image-builder-now-supports-building-and-testing-macos-images/"/>
+        <updated>2024-10-23T17:52:19.000Z</updated>
+        <summary type="html"><![CDATA[Streamline workflows, automate installs like Xcode, and centralize management across operating systems. Set up pipelines building versioned, validated AMIs for your macOS workloads.]]></summary>
+        <author>
+            <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Falling shares of labour income]]></title>
+        <id>http://rwer.wordpress.com/?p=45684</id>
+        <link href="https://rwer.wordpress.com/2024/10/23/falling-shares-of-labour-income/"/>
+        <updated>2024-10-23T14:41:58.000Z</updated>
+        <summary type="html"><![CDATA[from C. P. Chandrasekhar and Jayati Ghosh The latest World Employment and Social Outlook Report (update for September 2024) from the International Labour Organisation highlights some disturbing trends. Importantly, it identifies a significant decline and then stagnation in the share of labour income in GDP, for the world as a whole, in the past few years. This […]]]></summary>
+        <author>
+            <name>Editor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Great Game of Logistics]]></title>
+        <id>https://www.nakedcapitalism.com/?p=280849</id>
+        <link href="https://www.nakedcapitalism.com/2024/10/the-logistics-great-game.html"/>
+        <updated>2024-10-23T13:00:33.000Z</updated>
+        <summary type="html"><![CDATA[Logistics corridors play an increasing role in the New Cold War. Do workers lose no matter who wins?]]></summary>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fearless SSH: short-lived certificates bring Zero Trust to infrastructure]]></title>
         <id>KUIHP5Rgyl2H3pGVE6m99</id>
         <link href="https://blog.cloudflare.com/intro-access-for-infrastructure-ssh"/>
         <updated>2024-10-23T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[Access for Infrastructure, BastionZero’s integration into Cloudflare One, will enable organizations to apply Zero Trust controls to their servers, databases, Kubernetes clusters, and more. Today we’re announcing short-lived SSH access as the first available feature of this integration.]]></summary>
         <author>
             <name>Sharon Goldberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Training a million models per day to save customers of all sizes from DDoS attacks]]></title>
+        <id>4awe2vvz8flXFLuz3BGm7j</id>
+        <link href="https://blog.cloudflare.com/training-a-million-models-per-day-to-save-customers-of-all-sizes-from-ddos"/>
+        <updated>2024-10-23T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this post we will describe how we use anomaly detection to watch for novel DDoS attacks. We’ll provide an overview of how we build models which flag unusual traffic and keep our customers safe.]]></summary>
+        <author>
+            <name>Nick Wood</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4.2 Tbps of bad packets and a whole lot more: Cloudflare's Q3 DDoS report]]></title>
+        <id>1JcMVeEAlLozSywoEbjGoV</id>
+        <link href="https://blog.cloudflare.com/ddos-threat-report-for-2024-q3"/>
+        <updated>2024-10-23T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The number of DDoS attacks spiked in the third quarter of 2024. Cloudflare mitigated nearly 6 million DDoS attacks, representing a 49% increase QoQ and 55% increase YoY.]]></summary>
+        <author>
+            <name>Omer Yoachimik</name>
         </author>
     </entry>
     <entry>
@@ -289,6 +349,23 @@ The one advantage Google Books still has is that its search tools are much faste
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by LASR in "Computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku"]]></title>
+        <id>https://news.ycombinator.com/item?id=41917568</id>
+        <link href="https://news.ycombinator.com/item?id=41917568"/>
+        <updated>2024-10-22T19:07:00.000Z</updated>
+        <summary type="html"><![CDATA[This is actually a huge deal.
+As someone building AI SaaS products, I used to have the position that directly integrating with APIs is going to get us most of the way there in terms of complete AI automation.
+I wanted to take at stab at this problem and started researching some daily busineses and how they use software.
+My brother-in-law (who is a doctor) showed me the bespoke software they use in his practice. Running on Windows. Using MFC forms.
+My accountant showed me Cantax - a very powerful software package they use to prepare tax returns in Canada. Also on Windows.
+I started to realize that pretty much most of the real world runs on software that directly interfaces with people, without clearly defined public APIs you can integrate into. Being in the SaaS space makes you believe that everyone ought to have client-server backend APIs etc.
+Boy was I wrong.
+I am glad they did this, since it is a powerful connector to these types of real-world business use cases that are super-hairy, and hence very worthwhile in automating.]]></summary>
+        <author>
+            <name>LASR</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Eephus Pitch, A Play Within A Play Within an MMO, and When Home Goes Read-Only]]></title>
         <id>https://blog.aurahack.jp/eephusmmo/</id>
         <link href="https://blog.aurahack.jp/eephusmmo/"/>
@@ -297,6 +374,17 @@ The one advantage Google Books still has is that its search tools are much faste
 The Vancouver International Film Festival took place recently and it happened to overlap with the closure of social media site Cohost.org. Everyone got a little over a month of heads up to give time to say goodbyes and let everyone know where they were heading to next but for the most part we got a month’s worth of mourning, posting through it, remembering the good times, and sharing stories of personal growth as it related to the site’s culture. It was where I made my home for the past two years and accepting that things were going to end was difficult, so having multiple movies a day for several…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by capital_guy in "FTC's rule banning fake online reviews goes into effect"]]></title>
+        <id>https://news.ycombinator.com/item?id=41917486</id>
+        <link href="https://news.ycombinator.com/item?id=41917486"/>
+        <updated>2024-10-22T18:57:49.000Z</updated>
+        <summary type="html"><![CDATA[Amazing all the newfound lawyers in the HN section here pointing out "loopholes" in the rule and then getting corrected by the next commenter.
+The FTC continues to do the good, thankless work of making good public policy. I appreciate it.]]></summary>
+        <author>
+            <name>capital_guy</name>
         </author>
     </entry>
     <entry>
@@ -317,6 +405,20 @@ The Vancouver International Film Festival took place recently and it happened to
         <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics; Trump and the Blob; Kamala's beliefs, if any, unknown, perhaps not knowable; Wall Street iffy on contract agreement; restructuring begins?]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by ctoth in "Computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku"]]></title>
+        <id>https://news.ycombinator.com/item?id=41916258</id>
+        <link href="https://news.ycombinator.com/item?id=41916258"/>
+        <updated>2024-10-22T16:58:11.000Z</updated>
+        <summary type="html"><![CDATA[Next release patch notes:
+* Fixed bug where Claude got bored during compile times and started editing Wikipedia articles to claim that birds aren't real
+* Blocked news.ycombinator.com in the Docker image's hosts file to avoid spurious flamewar posts (Note: The site is still recovering from the last insident)
+* Addressed issue of Claude procrastinating on debugging by creating elaborate ASCII art in Vim
+* Patched tendency to rickroll users when asked to demonstrate web scraping"]]></summary>
+        <author>
+            <name>ctoth</name>
         </author>
     </entry>
     <entry>
@@ -425,16 +527,6 @@ The post IPLS: Privacy-preserving storage for your WhatsApp contacts appeared fi
         <summary type="html"><![CDATA[Our hard-shelled daily links]]></summary>
         <author>
             <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mexico Escalates Its War on Obesity by Declaring National Ban on Junk Food Sales in Schools]]></title>
-        <id>https://www.nakedcapitalism.com/?p=280731</id>
-        <link href="https://www.nakedcapitalism.com/2024/10/mexico-escalates-its-war-on-obesity-by-proposing-to-ban-junk-food-from-schools.html"/>
-        <updated>2024-10-22T10:45:53.000Z</updated>
-        <summary type="html"><![CDATA[Mexico is the leading consumer of soft drinks in the world with an average consumption of 163 litres per person per year -- 40% more than the US in second place. Child and adult obesity are off the charts.]]></summary>
-        <author>
-            <name>Nick Corbishley</name>
         </author>
     </entry>
     <entry>
@@ -578,16 +670,6 @@ The post How Mass Protest Created a Breakthrough on the Climate Crisis in the Ne
 The post Justifying Genocide appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Vagner Castilho</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Corporate Vehicles Conceal Crime and Chicanery]]></title>
-        <id>https://www.nakedcapitalism.com/?p=280761</id>
-        <link href="https://www.nakedcapitalism.com/2024/10/how-corporate-vehicles-conceal-crime-and-chicanery.html"/>
-        <updated>2024-10-22T04:18:24.000Z</updated>
-        <summary type="html"><![CDATA[Financial vehicles designed to conceal wealth and questionable activity fuel corruption and crime while allowing perps evade accountability]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -979,17 +1061,6 @@ If you left-click drag the sun downwards, you'll see the moon come up. That one 
 In general I think websites could be a lot more pretty (gorgeous even), silly, interesting, and a lot less corporate chic than they currently are.]]></summary>
         <author>
             <name>simonsarris</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by jdiff in "Internet Archive breached again through stolen access tokens"]]></title>
-        <id>https://news.ycombinator.com/item?id=41896411</id>
-        <link href="https://news.ycombinator.com/item?id=41896411"/>
-        <updated>2024-10-20T16:19:43.000Z</updated>
-        <summary type="html"><![CDATA[This seems to get brought at least once in the comments for every one of these articles that pops up.
-The IA has tried distributing their stores, but nowhere near enough people actually put their storage where their mouths are.]]></summary>
-        <author>
-            <name>jdiff</name>
         </author>
     </entry>
     <entry>
@@ -1643,18 +1714,6 @@ I reached chapter three recently, and it stuck with me enough to want to write a
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by rsc in "Show HN: Go Plan9 Memo"]]></title>
-        <id>https://news.ycombinator.com/item?id=41882801</id>
-        <link href="https://news.ycombinator.com/item?id=41882801"/>
-        <updated>2024-10-18T19:44:05.000Z</updated>
-        <summary type="html"><![CDATA[No. It's just Go assembly.
-(It happens to be a Plan 9-derived syntax, but we call it Go assembly.)
-See https://go.dev/doc/asm.]]></summary>
-        <author>
-            <name>rsc</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[US forms coalition over North Korea’s actions + 2 more stories]]></title>
         <id>https://newsletter.newsminimalist.com/p/us-forms-coalition-over-north-korea-s-actions-2-more-stories</id>
         <link href="https://newsletter.newsminimalist.com/p/us-forms-coalition-over-north-korea-s-actions-2-more-stories"/>
@@ -1675,18 +1734,6 @@ I will argue that such common wisdom is wrong. These tools are complex, and comp
 Over the past 10 years I've run services in production with millions of customers, exceeding 4-9's uptime. During that time I experimented with a wide variety of architectures, starting…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by jgrahamc in "Code that helped end Apartheid"]]></title>
-        <id>https://news.ycombinator.com/item?id=41879323</id>
-        <link href="https://news.ycombinator.com/item?id=41879323"/>
-        <updated>2024-10-18T13:35:08.000Z</updated>
-        <summary type="html"><![CDATA[So when he DM’d me to say that he had “a hell of a story”—promising “one-time pads! 8-bit computers! Flight attendants smuggling floppies full of random numbers into South Africa!”—I responded.
-Ha ha ha. Yes, that was literally my very short pitch to Steven about Tim Jenkin's story!
-The actual DM: "I think this has the makings of a hell of a story: https://blog.jgc.org/2024/09/cracking-old-zip-file-to-help-o... If you want I can connect you with Tim Jenkin. One time pads! 8-bit computers! Flights attendants smuggling floppies full of random numbers into South Africa!"]]></summary>
-        <author>
-            <name>jgrahamc</name>
         </author>
     </entry>
     <entry>
@@ -1989,16 +2036,6 @@ Source: <opendistro.net/pdf-library/disruptive-elements>
 If Pierre Chardon overflowed with ardor, enthusiasm, activity, he was intransigent. Verbosity inspired pity in him; the verbosity of rhetoricians as well as that of revolutionaries. He wanted to “practice” in the field …]]></summary>
         <author>
             <name>The Anarchist Library</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2024 economic sciences laureates]]></title>
-        <id>http://rwer.wordpress.com/?p=45678</id>
-        <link href="https://rwer.wordpress.com/2024/10/17/the-2024-economic-sciences-laureates/"/>
-        <updated>2024-10-17T05:27:26.000Z</updated>
-        <summary type="html"><![CDATA[from Lars Syll The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2024 is awarded to Daron Acemoglu, Simon Johnson and James Robinson “for studies of how institutions are formed and affect prosperity.”  Daron Acemoglu and James Robinson’s work, particularly in Why Nations Fail (2012), is widely recognized within new institutional economics for its […]]]></summary>
-        <author>
-            <name>Lars Syll</name>
         </author>
     </entry>
 </feed>
