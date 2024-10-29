@@ -59,7 +59,48 @@
       "title": "AWS DevOps & Developer Productivity Blog",
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
-      "articles": []
+      "articles": [
+        {
+          "id": "d6504957efc7f48d4d5fdb9ca03252f8f24e605b",
+          "author": "Brandon Kindred",
+          "description": "Any organization that manages software libraries and applications needs a standardized way to catalog, reference, import, fix bugs and update the versions of those libraries and applications. Semantic Versioning enables developers, testers, and project managers to have a more standardized process for committing code and managing different versions. It’s benefits also extend beyond development teams […]",
+          "link": "https://aws.amazon.com/blogs/devops/using-semantic-versioning-to-simplify-release-management/",
+          "publishedOn": "2024-10-29T18:22:46.000Z",
+          "wordCount": 2807,
+          "title": "Using Semantic Versioning to Simplify Release Management",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/10/29/Featured_image-1120x630.png"
+        },
+        {
+          "id": "348872cb14a26271b8eae4c0424f149ec4aace0d",
+          "author": "Jonathan Wong",
+          "description": "The release of Amazon Q Developer and its ability to be integrated into AWS Chatbot allows users who use Microsoft Teams or Slack to stay within their communication platform and interact with a conversational generative artificial intelligence (AI) AWS expert. Amazon Q Developer is a conversational generative AI chatbot that provides AWS assistance in the form of […]",
+          "link": "https://aws.amazon.com/blogs/devops/leverage-amazon-q-developer-and-aws-chatbot-within-slack/",
+          "publishedOn": "2024-10-29T18:19:57.000Z",
+          "wordCount": 2379,
+          "title": "Leverage Amazon Q Developer and AWS Chatbot within Slack",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/10/29/Slide1-1.png"
+        },
+        {
+          "id": "a94bc5a3754a86fa5518650bbc94d6f15d679528",
+          "author": "Michael Tran",
+          "description": "We will be highlighting Projen’s powerful features that cater to various aspects of project management and development. We’ll examine how Projen enhances polyglot programming within Amazon Web Services (AWS) Cloud Development Kit constructs. We’ll also touch on its built-in support for common development tools and practices. In our previous blog, we introduced you to the […]",
+          "link": "https://aws.amazon.com/blogs/devops/diving-deeper-into-projen-exploring-advanced-features/",
+          "publishedOn": "2024-10-29T14:31:19.000Z",
+          "wordCount": 3063,
+          "title": "Diving Deeper into Projen: Exploring Advanced Features",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/10/25/BlogTitle-1120x630.png"
+        },
+        {
+          "id": "009a040a805940f8fc8938b162d51952a92ec7fe",
+          "author": "Jose Yapur",
+          "description": "Earlier today, Amazon Q Developer announced support for inline chat. Inline chat combines the benefits of in-IDE chat with the ability to directly update code, allowing developers to describe issues or ideas directly in the code editor, and receive AI-generated responses that are seamlessly integrated into their codebase. In this post, I will introduce the […]",
+          "link": "https://aws.amazon.com/blogs/devops/amazon-q-developer-inline-chat/",
+          "publishedOn": "2024-10-29T13:16:39.000Z",
+          "wordCount": 2104,
+          "title": "Introducing the next-level of AI-powered workflows with Amazon Q Developer inline chat",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/10/29/amazon-q-develoer-inline-chat-1120x630.png"
+        }
+      ]
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -433,7 +474,7 @@
           "description": "from Steven Klees I am quite sure that this year’s three Nobel Laureates in economics — Daron Acemoglu, Simon Johnson and James Robinson – are very competent new institutionalist economists.  Lars Syll offers a thoughtful critique of their substantive arguments, but he misses the main point for me.  New institutional economics, by and large, is nonsense.  […]",
           "link": "https://rwer.wordpress.com/2024/10/28/the-2024-economic-laureates-and-more-nobel-nonsense/",
           "publishedOn": "2024-10-28T21:34:13.000Z",
-          "wordCount": 4411,
+          "wordCount": 4420,
           "title": "The 2024 economic laureates and more Nobel nonsense",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -443,7 +484,7 @@
           "description": "from Maria Alejandra and WEA Pedagogy Blog Jean-Baptiste Fressoz, professor at the School of Advanced Studies in Social Sciences in Paris, challenges our understanding of the current energy transition process. In his book “The Shock of the Anthropocene: The Earth, History, and Us,” co-authored with Christophe Bonneuil, Fressoz offers a critical history of the Anthropocene, the current geological […]",
           "link": "https://rwer.wordpress.com/2024/10/25/pathways-to-sustainability-2-a-critical-review/",
           "publishedOn": "2024-10-25T05:34:00.000Z",
-          "wordCount": 4410,
+          "wordCount": 4415,
           "title": "Pathways to sustainability (2): a critical review",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -453,7 +494,7 @@
           "description": "from C. P. Chandrasekhar and Jayati Ghosh The latest World Employment and Social Outlook Report (update for September 2024) from the International Labour Organisation highlights some disturbing trends. Importantly, it identifies a significant decline and then stagnation in the share of labour income in GDP, for the world as a whole, in the past few years. This […]",
           "link": "https://rwer.wordpress.com/2024/10/23/falling-shares-of-labour-income/",
           "publishedOn": "2024-10-23T14:41:58.000Z",
-          "wordCount": 5144,
+          "wordCount": 5138,
           "title": "Falling shares of labour income",
           "imageUrl": "https://www.networkideas.org/wp-content/uploads/2024/10/Labour_Income1.jpg"
         }
@@ -471,12 +512,32 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=281285",
+          "author": "Lambert Strether",
+          "description": "~ Today's Water Cooler: Politics, Syndemics; Kamala campaign begins closing argument; The Fascist Question; Memories of Richard Scarry ~",
+          "link": "https://www.nakedcapitalism.com/2024/10/200pm-water-cooler-10-29-2024.html",
+          "publishedOn": "2024-10-29T18:00:54.000Z",
+          "wordCount": 7607,
+          "title": "2:00PM Water Cooler 10/29/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/rcp_2024-10-25.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=281255",
+          "author": "Conor Gallagher",
+          "description": "Sullivan went from a professed focus on the middle class to overseeing a system of mass slaughter and tried to wed the two.",
+          "link": "https://www.nakedcapitalism.com/2024/10/big-lies-and-little-progress-biden-national-security-advisor-jake-sullivans-foreign-policy-for-the-middle-class.html",
+          "publishedOn": "2024-10-29T13:30:12.000Z",
+          "wordCount": 7071,
+          "title": "Big Lies and Little Progress: Reviewing Four Years of Biden National Security Advisor Jake Sullivan’s “Foreign Policy for the Middle Class”",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/Screenshot-2024-10-28-at-10.24.21 AM-818x1024.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=281231",
           "author": "Conor Gallagher",
           "description": "",
           "link": "https://www.nakedcapitalism.com/2024/10/links-10-29-2024.html",
           "publishedOn": "2024-10-29T10:55:03.000Z",
-          "wordCount": 5107,
+          "wordCount": 15614,
           "title": "Links 10/29/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/Screenshot-2024-10-05-at-10.06.18 AM-1-1024x651.png"
         },
@@ -486,7 +547,7 @@
           "description": "Canada and Australia shelve plans for retail CBDCs while the US could soon become the first country to explicitly ban the central bank from issuing a CBDC.",
           "link": "https://www.nakedcapitalism.com/2024/10/central-bank-digital-currency-cbdc-projects-are-foundering-in-all-five-eye-nations.html",
           "publishedOn": "2024-10-29T10:45:09.000Z",
-          "wordCount": 5078,
+          "wordCount": 5783,
           "title": "Central Bank Digital Currency (CBDC) Projects Are Foundering in Five-Eye Nations. What Gives?",
           "imageUrl": null
         },
@@ -496,7 +557,7 @@
           "description": "Maybe European politicians who oppose refugees should stop supporting wars that create refugees.",
           "link": "https://www.nakedcapitalism.com/2024/10/europe-is-not-prepared-for-the-looming-lebanese-refugee-crisis.html",
           "publishedOn": "2024-10-29T09:00:06.000Z",
-          "wordCount": 4036,
+          "wordCount": 5970,
           "title": "Europe Is Not Prepared for the Looming Lebanese Refugee Crisis",
           "imageUrl": null
         },
@@ -506,7 +567,7 @@
           "description": "It would certainly seem odd if the Democratic apparatus, allied with the Blob, did not use same tools to \"defend democracy\" here at home that they have used with such success abroad.",
           "link": "https://www.nakedcapitalism.com/2024/10/democrat_war_games_could_they_try_for_a_color_revolution_after_a_trump_victory.html",
           "publishedOn": "2024-10-28T19:25:10.000Z",
-          "wordCount": 10755,
+          "wordCount": 14310,
           "title": "Democrat War Games: Could They Try for a Color Revolution After a Trump Victory?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/ec_2024-10-28.png"
         },
@@ -516,7 +577,7 @@
           "description": "~ Today's Water Cooler: Politics; Young men and 2024; Robert O. Paxton on Trumpism; Boeing looks to Wall Street  for bailout ~",
           "link": "https://www.nakedcapitalism.com/2024/10/200pm-water-cooler-10-28-2024.html",
           "publishedOn": "2024-10-28T18:00:37.000Z",
-          "wordCount": 18875,
+          "wordCount": 19307,
           "title": "2:00PM Water Cooler 10/28/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/rcp_2024-10-25.png"
         },
@@ -526,7 +587,7 @@
           "description": "Investors associate a higher likelihood of Trump winning with adverse supply-side effects on net. In the US, an increase in the prospects of a Trump victory on betting markets is associated with lower stock prices, higher interest rates, and higher market-based inflation compensation.",
           "link": "https://www.nakedcapitalism.com/2024/10/what-financial-markets-say-about-the-economic-implications-of-a-potential-trump-election-victory.html",
           "publishedOn": "2024-10-28T13:55:12.000Z",
-          "wordCount": 5521,
+          "wordCount": 5495,
           "title": "What Financial Markets Say About the Economic Implications of a Potential Trump Election Victory",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/fischer28octfig1.png"
         },
@@ -536,7 +597,7 @@
           "description": "",
           "link": "https://www.nakedcapitalism.com/2024/10/links-10-28-2024.html",
           "publishedOn": "2024-10-28T10:55:00.000Z",
-          "wordCount": 16409,
+          "wordCount": 16435,
           "title": "Links 10/28/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/Screenshot-2024-10-27-at-6.59.46 PM-813x1024.png"
         },
@@ -546,29 +607,9 @@
           "description": "Bloc elite aim to double down on anti-labor, pro-market policies under the guise of competitiveness and productivity in order to compete with China.",
           "link": "https://www.nakedcapitalism.com/2024/10/why-does-the-eu-want-to-become-more-like-the-us.html",
           "publishedOn": "2024-10-28T10:00:14.000Z",
-          "wordCount": 10914,
+          "wordCount": 10965,
           "title": "Why Does the EU Want to Become More Like the US?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/Why-be-more-like-US-1024x433.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=281115",
-          "author": "Conor Gallagher",
-          "description": "A former Florida rancher battling Parkinson’s disease reflects on years of using paraquat, as thousands of lawsuits claim the herbicide contributed to their illness and new documents shed light on the ongoing legal fight.",
-          "link": "https://www.nakedcapitalism.com/2024/10/syngenta-spent-decades-attempting-to-quiet-health-concerns-about-its-profitable-herbicide.html",
-          "publishedOn": "2024-10-28T09:00:12.000Z",
-          "wordCount": 7205,
-          "title": "Syngenta Spent Decades Attempting to Quiet Health Concerns About Its Profitable Herbicide",
-          "imageUrl": "https://investigatemidwest.org/wp-content/uploads/2024/10/Platt-Paraquat-288-1024x640.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=281085",
-          "author": "Conor Gallagher",
-          "description": "",
-          "link": "https://www.nakedcapitalism.com/2024/10/links-10-27-2024.html",
-          "publishedOn": "2024-10-27T10:55:15.000Z",
-          "wordCount": 26209,
-          "title": "Links 10/27/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/10/Screenshot-2024-10-26-at-7.57.07 PM-676x1024.png"
         }
       ]
     },
@@ -578,12 +619,32 @@
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
         {
+          "id": "24rozMdbFQ7jmUgRNMF4RU",
+          "author": "Alex Fattouche",
+          "description": "DNS records have moved to a new database, bringing improved performance and reliability to all customers.",
+          "link": "https://blog.cloudflare.com/migrating-billions-of-records-moving-our-active-dns-database-while-in-use",
+          "publishedOn": "2024-10-29T14:00:00.000Z",
+          "wordCount": 4264,
+          "title": "Migrating billions of records: moving our active DNS database while it’s in use",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1gq1GB71Mmda2S6kT7curh/b99dac5f8ec1872713315bf1cc67b244/Migrating_billions_of_records-_moving_our_active_DNS_database_while_it_s_in_use-OG.png"
+        },
+        {
+          "id": "3xoUhxvPcDFTiYCT9CjHhs",
+          "author": "David Belson",
+          "description": "The third quarter of 2024 was particularly active, with quite a few significant Internet disruptions. Underlying causes included government-directed shutdowns, power outages, hurricane damage, terrestrial and submarine cable cuts, military action, and more.",
+          "link": "https://blog.cloudflare.com/q3-2024-internet-disruption-summary",
+          "publishedOn": "2024-10-29T13:00:00.000Z",
+          "wordCount": 6191,
+          "title": "Forced offline: the Q3 2024 Internet disruption summary",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1OqQ8gWpJRgK7JGu9gqGUN/24de755bdcafb78b25dc5e1ade6065ea/Forced_offline-_the_Q3_2024_Internet_disruption_summary-OG.png"
+        },
+        {
           "id": "5GK429XQHhFzVyKSXGZ2R6",
           "author": "Andrew Repp",
           "description": "Hyperdrive (Cloudflare’s globally distributed SQL connection pooler and cache) recently added support for directing database traffic from Workers across Cloudflare Tunnels. We dive deep on what it took to add this feature.",
           "link": "https://blog.cloudflare.com/elephants-in-tunnels-how-hyperdrive-connects-to-databases-inside-your-vpc-networks",
           "publishedOn": "2024-10-25T13:00:00.000Z",
-          "wordCount": 3031,
+          "wordCount": 3012,
           "title": "Elephants in tunnels: how Hyperdrive connects to databases inside your VPC networks",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3ut6WBHomsRN0iP92D1hpp/ecdc9573ebc09c140c865494d029f54e/image2.png"
         },
@@ -623,7 +684,7 @@
           "description": "The number of DDoS attacks spiked in the third quarter of 2024. Cloudflare mitigated nearly 6 million DDoS attacks, representing a 49% increase QoQ and 55% increase YoY.",
           "link": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q3",
           "publishedOn": "2024-10-23T13:05:00.000Z",
-          "wordCount": 2601,
+          "wordCount": 2585,
           "title": "4.2 Tbps of bad packets and a whole lot more: Cloudflare's Q3 DDoS report",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2UOuM3mDgmDtjMqHnUQRBS/3e5c83d5002e3bd7511e3b999a8a3751/DDoS_threat_report_for_2024_Q3_-OG.png"
         },
@@ -655,12 +716,22 @@
       "siteUrl": "https://medium.com/capital-one-tech?source=rss----3db3a67cb648---4",
       "articles": [
         {
+          "id": "https://medium.com/p/4b262f848e25",
+          "author": "Capital One Tech",
+          "description": "Best practices for migrating an ML model to serverless for scalability and manageability.",
+          "link": "https://medium.com/capital-one-tech/serverless-ml-lessons-from-capital-one-4b262f848e25?source=rss----3db3a67cb648---4",
+          "publishedOn": "2024-10-29T16:23:31.000Z",
+          "wordCount": 4364,
+          "title": "Serverless ML: Lessons from Capital One",
+          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:800/1*YChIy3CzRqB6Q5mQbh7ukw.gif"
+        },
+        {
           "id": "https://medium.com/p/2f650898e71e",
           "author": "Capital One Tech",
           "description": "Capital One announces 2024 award recipients out of the Center for Responsible Financial Innovation at Columbia University RFP.",
           "link": "https://medium.com/capital-one-tech/2024-cairfi-fellowships-research-awardees-announced-2f650898e71e?source=rss----3db3a67cb648---4",
           "publishedOn": "2024-10-28T12:55:54.000Z",
-          "wordCount": 3478,
+          "wordCount": 3477,
           "title": "2024 CAIRFI fellowships & research awardees announced",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*TcO3zO01WSVpbjPN.jpg"
         },
@@ -670,14 +741,14 @@
           "description": "Capital One’s 10th annual celebration of tech innovation, talent and community.",
           "link": "https://medium.com/capital-one-tech/secon-2024-10th-annual-software-engineering-conference-462ccb25ea12?source=rss----3db3a67cb648---4",
           "publishedOn": "2024-10-23T19:15:56.000Z",
-          "wordCount": 2375,
+          "wordCount": 2374,
           "title": "SECON 2024: 10th annual Software Engineering Conference",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*1nxEJw3zJaC4MsHM.jpg"
         }
       ]
     },
     {
-      "title": "Slack Engineering",
+      "title": "Engineering at Slack",
       "feedUrl": "https://slack.engineering/feed/",
       "siteUrl": "https://slack.engineering",
       "articles": []
@@ -686,7 +757,18 @@
       "title": "Visual Studio Code - Code Editing. Redefined.",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "siteUrl": "https://code.visualstudio.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://code.visualstudio.com/updates/v1_95",
+          "author": null,
+          "description": "Learn what is new in the Visual Studio Code October 2024 Release (1.95)\nRead the full article",
+          "link": "https://code.visualstudio.com/updates/v1_95",
+          "publishedOn": "2024-10-29T17:00:00.000Z",
+          "wordCount": 6169,
+          "title": "Visual Studio Code October 2024",
+          "imageUrl": "https://code.visualstudio.com/assets/updates/1_95/release-highlights.png"
+        }
+      ]
     },
     {
       "title": "Engineering at Meta",
@@ -711,12 +793,22 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=41978723",
+          "author": "addicted",
+          "description": "This article doesn’t understand what was fundamentally wrong with Ballmer’s leadership and what Nadella actually changed.\nThe specific technologies that were successful is irrelevant. Microsoft has and continues to invest in nearly every computer related technology that may come around the corner or they got late on.\nThe problem with Microsoft was everything went through Windows. The entire company was designed to promote Windows.\nThis was the fundamental flaw with Microsoft that Nadella changed. He quickly not just made Windows just another part of Microsoft’s business, to a great extent he actively devalued it.\nThe fact that Ballmer invested in Azure, etc before Nadella would all be irrelevant because under Ballmer Azure would have remained a red headed step child to Windows, so it’s unlikely to have seen much success under him anyways. Same goes for pretty much everything else Microsoft is doing right now.",
+          "link": "https://news.ycombinator.com/item?id=41978723",
+          "publishedOn": "2024-10-29T02:19:16.000Z",
+          "wordCount": null,
+          "title": "New comment by addicted in \"Steve Ballmer was an underrated CEO\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=41978402",
           "author": "not_a_bot_4sho",
           "description": "Funny story. I used to see Steve almost every weekday for a couple of years.\nI can't speak to his business skills, but I can attest that he never once offered a tip for his daily black iced tea. We'd even have it ready for him before he showed up so he never had to wait! He would pay with cash, and I'd hand him his change and drink, and that was that.\nIt's funny to me now: one of the richest men in the world and he never once offered a tip.\nFrugality aside, he was always very polite and warm so I can't be mad. Makes for a good ice breaker story.\nEdit: holy moly, this is a sensitive subject. Please remember this was from a time before tipflation. Tipping meant you left your change behind once in a while only if you felt the desire to show appreciation. It wasn't an obligation. Yes, I still do think it's a funny story. Roast me for being entitled lol",
           "link": "https://news.ycombinator.com/item?id=41978402",
           "publishedOn": "2024-10-29T01:19:06.000Z",
-          "wordCount": null,
+          "wordCount": 11505,
           "title": "New comment by not_a_bot_4sho in \"Steve Ballmer was an underrated CEO\"",
           "imageUrl": null
         },
@@ -726,8 +818,18 @@
           "description": "> How large is the Flutter team, today? Google doesn't publish this information, but my guess is that the team is about 50 people strong.\n> That's 50 people serving the needs of 1,000,000. Doing a little bit of division, that means that every single member of the Flutter team is responsible for the needs of 20,000 Flutter developers! That ratio is clearly unworkable for any semblance of customer support.\nThis is a weird exercise. Python, for example, is a #1/#2 language in the world and there's only 50 active core devs, 90% of which don't even work on Python full time. Somehow we make that work.",
           "link": "https://news.ycombinator.com/item?id=41977945",
           "publishedOn": "2024-10-29T00:05:02.000Z",
-          "wordCount": 2713,
+          "wordCount": 3079,
           "title": "New comment by 1st1 in \"We're forking Flutter\"",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=41977759",
+          "author": "pbreit",
+          "description": "The biggest, easiest to implement underutilization is:\n\"Using specific type attribute values, such as \"email\", \"number\", or \"url\"\"\nThese can significantly improve user experience on mobile by triggering the optimal keyboard.",
+          "link": "https://news.ycombinator.com/item?id=41977759",
+          "publishedOn": "2024-10-28T23:36:58.000Z",
+          "wordCount": 4880,
+          "title": "New comment by pbreit in \"HTML Form Validation is underused\"",
           "imageUrl": null
         },
         {
@@ -736,7 +838,7 @@
           "description": "> Most people don't realize how many apps written in Flutter they use daily, simply because it's impossible to tell\nYou can't be serious. Maybe on Android, but on other platforms—especially iOS—they stick out like a sore thumb.\nA number of them just look like Material Design Android apps awkwardly transplanted over, but I know that's down to the developer so I won't hold that against Flutter. But scrolling through the Flutter showcase[0] and calling those apps up to look at screenshots on the App Store—none of them look like native iOS apps. They don't look bad (mostly), but they don't fit in.\nDon't get me wrong, I don't expect anyone else to care or even notice. But for those of us that do care, you can absolutely tell.\n[0] https://flutter.dev/showcase",
           "link": "https://news.ycombinator.com/item?id=41976613",
           "publishedOn": "2024-10-28T21:36:17.000Z",
-          "wordCount": 5099,
+          "wordCount": null,
           "title": "New comment by deergomoo in \"We're forking Flutter\"",
           "imageUrl": null
         },
@@ -746,7 +848,7 @@
           "description": "> That's 50 people serving the needs of 1,000,000. Doing a little bit of division, that means that every single member of the Flutter team is responsible for the needs of 20,000 Flutter developers! That ratio is clearly unworkable for any semblance of customer support.\nBack when I worked on .net we had fewer than 50 people maintaining a product that shipped to over a billion machines. If you opened an issue on github we'd usually reply that day.\nIt's getting a bit long in the tooth, but I feel like 'the mythical man month' should still be required reading for software devs. More devs != better.",
           "link": "https://news.ycombinator.com/item?id=41975382",
           "publishedOn": "2024-10-28T19:49:18.000Z",
-          "wordCount": 1579,
+          "wordCount": null,
           "title": "New comment by maxrmk in \"We're forking Flutter\"",
           "imageUrl": null
         },
@@ -756,7 +858,7 @@
           "description": "> That's 50 people serving the needs of 1,000,000. Doing a little bit of division, that means that every single member of the Flutter team is responsible for the needs of 20,000 Flutter developers! That ratio is clearly unworkable for any semblance of customer support.\nIf \"only\" 50 people working on a project used by one million people was unworkably low then every single successful project out there would be doomed. I've certainly worked on things with much worse ratios than that.\n> one has to critically assess why a team that loves external contributions has only managed to merge contributions from 1,500 developers over a span of nearly a decade.\nExternal contributions from 1500 developers over a decade is a lot. That is an unusually high number, not a low one, and backs up Flutter's claim to love external contributions.\nThe fact that this person thinks that they can just magically conjure up dozens of volunteer PR reviewers is wild. Everything about this post makes it pretty clear that they don't have the slightest clue of the scope of what they're trying to do. This feels like one of the standard examples of an ex-bigco person setting off on their own with no understanding how just how much the bigco did in the background to facilitate their job.",
           "link": "https://news.ycombinator.com/item?id=41975288",
           "publishedOn": "2024-10-28T19:43:16.000Z",
-          "wordCount": 3834,
+          "wordCount": null,
           "title": "New comment by plorkyeran in \"We're forking Flutter\"",
           "imageUrl": null
         },
@@ -766,7 +868,7 @@
           "description": "It gets so much worse. Today, my sales guy was trying to register for WordCamp, a conference that we have been attending for years as an essential place to meet customers. And then he encountered the registration form for a WordPress.org login, which neatly specifies that you affirm you have no “affiliation with WP Engine, whether financial or otherwise.” [1]\nOf course, my company does have an affiliation with WP Engine. We use their service to host our website. Therefore, nobody on my team can register for a WordPress.org account.\nI wrote an open letter to Matt Mullenweg complaining about the requirement and stating that I believe it violates the Sherman Act and Section 3 of the Clayton Act by being an overly broad prohibition that is clearly anti-competitive and has no clear business justification (aside from limiting competition).\nMatt and the rest of the people backing Automattic should take note: Moves like this that destroy your community will eventually usher in a replacement. WordPress is pretty neat, but it only got that way because thousands of people put millions of hours into building add-ons and hosting services to make it blossom into what it is today. If their efforts are redirected in another direction, WordPress will wither away to nothing in a few years.\nhttps://www.linkedin.com/posts/ksimpson_open-letter-to-matt-...",
           "link": "https://news.ycombinator.com/item?id=41974901",
           "publishedOn": "2024-10-28T19:11:23.000Z",
-          "wordCount": 5176,
+          "wordCount": 5568,
           "title": "New comment by ttul in \"So long WordPress\"",
           "imageUrl": null
         },
@@ -786,7 +888,7 @@
           "description": "We should do a \"Most HackerNews HackerNews Comment Of The Year\" award each year; in homage to the O.G. [1]. I'd like to nominate this comment.\n[1] https://news.ycombinator.com/item?id=9224",
           "link": "https://news.ycombinator.com/item?id=41972880",
           "publishedOn": "2024-10-28T16:21:06.000Z",
-          "wordCount": 552,
+          "wordCount": null,
           "title": "New comment by 015a in \"New iMac with M4\"",
           "imageUrl": null
         },
@@ -801,12 +903,22 @@
           "imageUrl": null
         },
         {
+          "id": "https://news.ycombinator.com/item?id=41970976",
+          "author": "vanderZwan",
+          "description": "If we're going to talk about how to \"scale care\" and how not to, then Buurtzorg has to be mentioned[0][1]. It's a Dutch home-care company that was started by nurses who basically got frustrated that managers got in the way of them doing their job. It operates by having a flat organization working with small teams of highly trained nurses, and trusting them to make the right decisions. The result is a low-cost provider of high-quality health-care.\nSo when the author says care \"doesn't scale\", they obviously mean \"you need a one-to-one ratio of caretakers\", which I fully agree with. But what they're also accidentally doing in the process is explaining why creating bigger teams with bigger hierarchies and structures does not appear to increase the efficiency of care.\nSome projects do need big teams with hierarchies - even in healthcare. Effectively responding to a pandemic comes to mind. I suspect it's when the core problem to tackle most naturally breaks down like a tree - a hierarchy then mirrors the way the problem breaks down. For some projects, like general homecare, the efficiency sweet spot is a flat structure of autonomous individual teams, because it doesn't scale beyond those teams anyway.\nAnd just like the author concludes, I find that there's something comforting about that.\n[0] https://en.wikipedia.org/wiki/Buurtzorg_Nederland\n[1] https://www.youtube.com/watch?v=SSoWtXvqsgg",
+          "link": "https://news.ycombinator.com/item?id=41970976",
+          "publishedOn": "2024-10-28T13:47:49.000Z",
+          "wordCount": 5249,
+          "title": "New comment by vanderZwan in \"Care Doesn't Scale\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=41969858",
           "author": "thomasfl",
           "description": "For me the most important issue that needs to be solved right now is the increasing urban sprawl and the car dependent neighborhoods. It causes social isolation. Maintaining infrastructure like roads and electricity, is causing a strain on the economy for local municipalities. Not to mention the disastrous effect car based transportation has on the environment.\nI am a fullstack developer living in Norway. Last year I registered the Norwegian branch of the Architectural Uproar as a not for profit organization. With the support from paying members, I have been able to go on tour to most of the major cities in Norway. We organize large meetings were we discuss architecture and city planning with politicians, architects and property developers on stage.\nI am strongly inspired by Create Streets in UK and Strong Towns in the US. I want to improve people’s quality of life, help saving the planet and make Norway beautiful again while doing it.\nhttps://arkitekturopproret.no edit: typos",
           "link": "https://news.ycombinator.com/item?id=41969858",
           "publishedOn": "2024-10-28T11:10:44.000Z",
-          "wordCount": 7670,
+          "wordCount": null,
           "title": "New comment by thomasfl in \"Ask HN: What are you working on? (October 2024)\"",
           "imageUrl": null
         },
@@ -816,7 +928,7 @@
           "description": "I've noticed that my son spends way too much time on YouTube or playing Minecraft and one of the few offline activities he enjoys doing on his own is coloring. And since he comes to me every time he wants a new coloring book and we spend about 10 minutes together searching for each picture, I made a website with a collection of coloring books for him. The site is very simple, but to be honest, I haven't had so much fun with the process of creation for a long time.\nhttps://colorango.com/",
           "link": "https://news.ycombinator.com/item?id=41968277",
           "publishedOn": "2024-10-28T06:28:35.000Z",
-          "wordCount": 1778,
+          "wordCount": null,
           "title": "New comment by vldmrs in \"Ask HN: What are you working on? (October 2024)\"",
           "imageUrl": null
         },
@@ -826,7 +938,7 @@
           "description": "I know lots of people who play Factorio but for me, I guess it just feels too much like work? Whenever I play it, I get the distinct feeling that I could instead do the same thing but productively instead, such as by contributing to my OSS projects (sometimes, maybe even for profit instead). I never got into these types of programmatic games for precisely this reason but I'd like to understand other perspectives on this.\nThe games I play instead are wholly unrelated to my work life, such as FPS or RPG ones, where there is a clear distinction between what I can do and what I want to do.",
           "link": "https://news.ycombinator.com/item?id=41957259",
           "publishedOn": "2024-10-26T19:53:35.000Z",
-          "wordCount": 13431,
+          "wordCount": 13513,
           "title": "New comment by satvikpendem in \"How 'Factorio' seduced Silicon Valley and me\"",
           "imageUrl": null
         },
@@ -836,7 +948,7 @@
           "description": "Read this: https://atproto.com/articles/atproto-for-distsys-engineers\nAT Protocol works like the Web, where each user is a website and each application is a search engine. The apps crawl the network of hosts and aggregate activity. We have over 100 outside hosts and at least 3 aggregating apps out there. It’s a different model than ActivityPub, which is more akin to email.\nWe never said no algorithm. I don’t know where that meme comes from. We have an open system for algorithms, which we and 3p devs can operate. We have a default algorithm for every user called Discover. It was one of our main concerns to have an answer to algorithms in a decentralized network.\nFor DID PLC, the likely solution is to move the registry into a nonprofit which will maintain it, similar to ICANN. We also support the Web DID method, and if folks like this remain concerned we’re open to other DID methods. It’s important, but roughly similar to DNS or TLS issuers; supporting infra to the application network.",
           "link": "https://news.ycombinator.com/item?id=41953300",
           "publishedOn": "2024-10-26T07:56:56.000Z",
-          "wordCount": 4901,
+          "wordCount": null,
           "title": "New comment by pfraze in \"Bluesky Is Not Decentralized\"",
           "imageUrl": null
         },
@@ -846,7 +958,7 @@
           "description": "This happened to me and I found this tool super helpful to get my site unblocked: https://dnsblacklist.org/\nI purchased a valuable premium domain to host a personal art collection (of anime cels). For some bizarre reason, the site was inaccessible from my work computer and it was de-listed from Google even if I typed the url itself into search.\nI hired a square space specialist to figure out why, to no avail. I then begged our company’s CISO to investigate and it turns out we had some firewall setting on UniFi that blocked the domain because it appeared on a list. Once I checked way back, it turns out that it was as an anime porn aggregator years back. I personally reached out to all the web filters out there (Google, Symantec, bing) and one by one filed tickets for them to mark it as art instead of pornography and it worked.  I am now properly crawled on Google but still MIA on Bing, search console is giving me some BS error that’s incomprehensible, typical of MSFT.",
           "link": "https://news.ycombinator.com/item?id=41951890",
           "publishedOn": "2024-10-26T02:00:09.000Z",
-          "wordCount": null,
+          "wordCount": 1413,
           "title": "New comment by lefstathiou in \"Before you buy a domain name, first check to see if it's haunted\"",
           "imageUrl": null
         },
@@ -856,7 +968,7 @@
           "description": "Newspapers publish opinions for the same reason that they publish comic strips: people want to read them. Readers seek them out. Newspapers are a business and have to give their customers what they want.\nThe problematic aspect here is that the current business owner, Jeff Bezos, has a conflict of interest. Bezos is making a bad business decision for The Washington Post, sacrificing it and losing readers for the sake of his other business interests, i.e., government contracts. It's unlikely that an independent owner with no conflict of interest would make the same decision.",
           "link": "https://news.ycombinator.com/item?id=41951079",
           "publishedOn": "2024-10-25T23:38:21.000Z",
-          "wordCount": null,
+          "wordCount": 12833,
           "title": "New comment by lapcat in \"Jeff Bezos killed Washington Post endorsement of Kamala Harris\"",
           "imageUrl": null
         },
@@ -866,7 +978,7 @@
           "description": "On January 18 2012, Wikipedia went black to draw attention to SOPA [0], a bill they described as one that \"could fatally damage the free and open Internet\".\nSince then, we've seen a slow and steady march in the direction we all dreaded. Country after country has decided that they have the right to block content on the \"free and open Internet\", and business after business (even those who joined the SOPA protests) has complied. Someone looking ahead from 2012 would barely recognize the internet today as being the same thing, the way we just roll over to the threats that used to cause global outrage and defiance.\nWere we naive even at the time? Have governments become more authoritarian? Or has our energy for resistance just been slowly whittled away?\n[0] https://en.m.wikipedia.org/wiki/Protests_against_SOPA_and_PI...",
           "link": "https://news.ycombinator.com/item?id=41950796",
           "publishedOn": "2024-10-25T23:05:27.000Z",
-          "wordCount": 13453,
+          "wordCount": null,
           "title": "New comment by lolinder in \"Wikipedia article blocked worldwide by Delhi high court\"",
           "imageUrl": null
         },
@@ -876,18 +988,8 @@
           "description": "http://archive.today/XIxZv",
           "link": "https://news.ycombinator.com/item?id=41950680",
           "publishedOn": "2024-10-25T22:53:56.000Z",
-          "wordCount": 61,
+          "wordCount": null,
           "title": "New comment by redrix in \"Wikipedia article blocked worldwide by Delhi high court\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41949845",
-          "author": "coder543",
-          "description": "I wish we would just repeal the DMCA.\nUnder no circumstances should we need an exemption from the copyright office just to be able to repair an ice cream machine. It's not even a permanent exemption! The DMCA causes many weird problems.",
-          "link": "https://news.ycombinator.com/item?id=41949845",
-          "publishedOn": "2024-10-25T21:14:09.000Z",
-          "wordCount": 2378,
-          "title": "New comment by coder543 in \"We can now fix McDonald's ice cream machines\"",
           "imageUrl": null
         },
         {
@@ -906,7 +1008,7 @@
           "description": "My fav \"abuse\" of the system was a car park terminal that was running some flavour of Windows with an antivirus software.\nIt had a scanner for the barcode of a ticket, but, it understood lots of other barcodes/encoding systems and must have been logging to the filesystem.\nSo... saw someone encode the EICAR test string to a QR Code and put it to the scanner... that caused the AV to popup which covered the entire screen and made the terminal unusable!",
           "link": "https://news.ycombinator.com/item?id=41949293",
           "publishedOn": "2024-10-25T20:22:18.000Z",
-          "wordCount": 260,
+          "wordCount": null,
           "title": "New comment by wilhil in \"Company named \"><SCRIPT SRC=HTTPS://MJT.XSS.HT> LTD\" forced to change it (2020)\"",
           "imageUrl": null
         },
@@ -926,7 +1028,7 @@
           "description": "To play Devils Advocate for a moment: Why do we need, or even want, a newspaper to endorse a President? How does it not undermine a paper's journalistic ethics to be neutral and fair?",
           "link": "https://news.ycombinator.com/item?id=41948896",
           "publishedOn": "2024-10-25T19:44:24.000Z",
-          "wordCount": 10540,
+          "wordCount": null,
           "title": "New comment by Molitor5901 in \"Jeff Bezos killed Washington Post endorsement of Kamala Harris\"",
           "imageUrl": null
         },
@@ -956,7 +1058,7 @@
           "description": "This doesn't make any sense. We should be celebrating 8 years, 16 years and so on.",
           "link": "https://news.ycombinator.com/item?id=41938356",
           "publishedOn": "2024-10-24T18:44:00.000Z",
-          "wordCount": 143,
+          "wordCount": null,
           "title": "New comment by mordae in \"Show HN: 2048 turned 10 this year, I built an updated version to celebrate\"",
           "imageUrl": null
         },
@@ -966,28 +1068,8 @@
           "description": "This is pretty huge all around, especially with Microsoft discontinuing Visual Studio for Mac.\nhttps://learn.microsoft.com/en-us/visualstudio/releases/2022...\nI'd also like to note the great integration Rider has with Godot and Unity for game development.",
           "link": "https://news.ycombinator.com/item?id=41936135",
           "publishedOn": "2024-10-24T14:56:11.000Z",
-          "wordCount": null,
+          "wordCount": 4569,
           "title": "New comment by terminalbraid in \"Rider is now free for non-commercial use\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41934036",
-          "author": "amelius",
-          "description": "> Thousands of diodes were mixed by the Soviets into the building's structural concrete, making detection and removal of the true listening devices by its American occupants nearly impossible.\nWow ...",
-          "link": "https://news.ycombinator.com/item?id=41934036",
-          "publishedOn": "2024-10-24T10:14:08.000Z",
-          "wordCount": null,
-          "title": "New comment by amelius in \"Show HN: RF Hunter – Find hidden cameras and other devices\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=41933979",
-          "author": "danbruc",
-          "description": "Fun fact, you can actually detect semiconductor devices even if they are powered off and hence emit no radiation unless the design took specific precautions. This works by illuminating a region with high frequency electromagnetic radiation and then listening for the effects that PN junctions have on the reflected radiation due to their nonlinearity. [1]\n[1] https://en.wikipedia.org/wiki/Nonlinear_junction_detector",
-          "link": "https://news.ycombinator.com/item?id=41933979",
-          "publishedOn": "2024-10-24T10:02:12.000Z",
-          "wordCount": 1128,
-          "title": "New comment by danbruc in \"Show HN: RF Hunter – Find hidden cameras and other devices\"",
           "imageUrl": null
         },
         {
@@ -996,7 +1078,7 @@
           "description": "I would like to be your friend for 2 reasons. #1 is that you’re brilliantly devious. #2 is that I fervently wish to stay on your good side.",
           "link": "https://news.ycombinator.com/item?id=41932326",
           "publishedOn": "2024-10-24T05:50:55.000Z",
-          "wordCount": 260,
+          "wordCount": null,
           "title": "New comment by tomcam in \"Ask HN: Website with 6^16 subpages and 80k+ daily bots\"",
           "imageUrl": null
         },
@@ -1023,7 +1105,7 @@
           "description": "Until last Friday, I subscribed to two newspapers: the Washington Post and the Neue Zürcher Zeitung. As of Friday, I only subscribe to NZZ. I shared my cancellation on Facebook and was surprised by how many people in my network commented that they had done the same. This included people who almost never comment or […]",
           "link": "https://crookedtimber.org/2024/10/29/washington-post-cancellations/",
           "publishedOn": "2024-10-29T00:43:11.000Z",
-          "wordCount": 2411,
+          "wordCount": 2900,
           "title": "Washington Post cancellations",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1033,7 +1115,7 @@
           "description": "The idea of the gold rush is deeply rooted in the American psyche. “There’s gold in them thar hills.” Anyone can abandon his family and community to gamble big on themselves. Thanks to this rugged individualism and the natural bounty of our territory, there’s a chance that you can strike it rich. More than American, […]",
           "link": "https://crookedtimber.org/2024/10/28/theres-gold-in-them-thar-reels/",
           "publishedOn": "2024-10-28T11:56:33.000Z",
-          "wordCount": 3446,
+          "wordCount": 3442,
           "title": "There’s Gold in Them Thar Reels",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa7299ed6-7832-4bff-b5a0-05e527158f95_2560x1440.png"
         },
@@ -1043,7 +1125,7 @@
           "description": "There’s not much I can do about it, but I still spend a lot of time thinking about what I, and others outside the US, should do if that country ceases to be a democracy. But, it doesn’t seem as if lots of other people are thinking this way. One possibility is that people just […]",
           "link": "https://crookedtimber.org/2024/10/28/the-end-of-us-democracy-a-flowchart/",
           "publishedOn": "2024-10-28T06:39:56.000Z",
-          "wordCount": 8939,
+          "wordCount": 8979,
           "title": "The end of US democracy: a flowchart",
           "imageUrl": "https://crookedtimber.org/wp-content/uploads/2024/10/USDemocracyRevised-252x300.jpg"
         },
@@ -1053,7 +1135,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/10/27/sunday-photoblogging-nimes/",
           "publishedOn": "2024-10-27T09:51:14.000Z",
-          "wordCount": 1713,
+          "wordCount": 1709,
           "title": "Sunday photoblogging: Nîmes",
           "imageUrl": "https://live.staticflickr.com/65535/54083284476_6c912988be.jpg"
         },
@@ -1063,7 +1145,7 @@
           "description": "Before Rawls’ shadow in left-liberal political philosophy there was Arnold S. Kaufman (1927-1971), who died when his airplane collided with a military jet while traveling (recall this post). While there is no Wikipedia page devoted to him, Kaufman was rather famous during the 1960s because of his involvement with the student movement at the University […]",
           "link": "https://crookedtimber.org/2024/10/25/on-the-the-teach-in-and-its-role-in-academic-freedom-from-arnold-kaufman-to-meena-krishnamurthy/",
           "publishedOn": "2024-10-25T13:00:39.000Z",
-          "wordCount": 3950,
+          "wordCount": 3946,
           "title": "On the The Teach-In and its role in Academic Freedom. From Arnold Kaufman to Meena Krishnamurthy",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -1240,6 +1322,26 @@
       "siteUrl": "https://bearblog.dev/discover/",
       "articles": [
         {
+          "id": "https://flecha248.bearblog.dev/rock-bottom/",
+          "author": null,
+          "description": "Rock bottom is very often where we begin our healing journey. This is not because we suddenly see the light, nor because our worst days are magically transmuted into some type of epiphany, and not because someone saves us from our own madness. Rock bottom becomes a turning point because it is only at that point that most people think: I never want to feel this way again.\nThat thought is not just an idea. It is a declaration and a resolution. It is one of the most life-changing things you can ever experience. It becomes the foundation upon which you build everything else.\nWhen you decide you truly do not ever want to feel a certain way again, you set out on a journey of self-awareness, learning, and growth that leads you to radically reinvent who you are.\nIn that moment, fault becomes irrel…",
+          "link": "https://flecha248.bearblog.dev/rock-bottom/",
+          "publishedOn": "2024-10-28T18:09:00.000Z",
+          "wordCount": 1006,
+          "title": "rock bottom",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
+        },
+        {
+          "id": "https://vitriolpodcast.blog/sukran-gunlugu/",
+          "author": null,
+          "description": "zihnimde dönen her ne ise, önce google'a, sonra uygun hissettiren platformlara zihnimdekini veya zihnimdeki çağrışımları, anahtar kelimeleri aratıyorum. \"şükran günlüğü\" araması (araştırma değil, arama. research ve search ayrımı yani, burada etimolojik bir gizem mi var?) psikodelik bir deneyime dönüşmek üzere.\nilk olarak gözüme çarpan, şükür günlüğü ve şükran günlüğü dikotomisi: içerik olarak tamamen aynı linkler, sanırım hitap edilen kitle değişiyor, bir seo (search engine optimization) oyunu olabilir mi? şükran günlüğünü tercih ettim (???), en üstte bir hepsiburada reklamı, \"şükran günlüğü günlük tezahür farkındalık defteri olumlu...\" acayip ilgimi çekti ama daha garip bir şey var.\n\"thursday, november 28, 2024\" yazıyor. hö??? \"sabah çok erken uyandığım için evren beni zamanda yolculukla …",
+          "link": "https://vitriolpodcast.blog/sukran-gunlugu/",
+          "publishedOn": "2024-10-28T07:59:00.000Z",
+          "wordCount": 1823,
+          "title": "şükran günlüğü",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/vitriol/4.webp"
+        },
+        {
           "id": "https://damien.zone/end-of-october-2024-update/",
           "author": null,
           "description": "Hello, little blog, it's been a while! The past two weeks have been uncharacteristically busy for me so, huh, I didn't write much here, oops!\nI spent a week of vacation in Reno for definitely normal reasons. Turns out, being mostly offline with your friends and other freaks (complimentary) for a whole week is good??? Someone should look into this.\nThen, as soon as I came back, my friend Joanna was in town to visit the Internet Archive, so I tagged along. I saw a bunch of very cool shit. Like, look at all this stuff!! Tell me this isn't cool as hell!!\nExcuse the shoddy photography job lmao.\nServers!! A few of the many (I was told) servers that the Internet Archive HQ in San Francisco houses\n\n\n\n\nA Petabox!! I didn't know the Internet Archive had one of these so early (2004!) but it makes sen…",
@@ -1348,16 +1450,6 @@
           "wordCount": 1195,
           "title": "My mom had a stroke",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
-        },
-        {
-          "id": "https://louplummer.lol/the-best-pharmacist-in-the-world/",
-          "author": null,
-          "description": "For one reason or another, I've taken some kind of medication on a daily basis for almost forty years. I am an expert at swallowing pills. I'd hate to estimate how many I've taken over the years. Despite the attempts by my insurance company to strong-arm me into using a mail-order pharmacy, I stubbornly cling to a locally owned one that I lucked into by being hard to get along with.\nI used to use various big box pharmacies. One thing I quickly learned by doing that was that the people there do not care about you. You might occasionally run into someone with a heart for people, but by and large, the pharmacists and techs there don't form relationships, and they stop seeing their customers as human beings after a while. That's been my experience. They will tell you to come back tomorrow in a…",
-          "link": "https://louplummer.lol/the-best-pharmacist-in-the-world/",
-          "publishedOn": "2024-10-24T11:30:00.000Z",
-          "wordCount": 1222,
-          "title": "The Best Pharmacist in the World",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/livingoutloud/leroy.webp"
         },
         {
           "id": "https://brandons-journal.com/on-not-selling-myself-short/",
