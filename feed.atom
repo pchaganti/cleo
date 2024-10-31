@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-31T06:35:16.576Z</id>
+    <id>urn:2024-10-31T12:49:49.879Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-10-31T06:35:16.576Z</updated>
+    <updated>2024-10-31T12:49:49.879Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[What happens if Americans claim asylum from a Trump regime?]]></title>
+        <id>https://crookedtimber.org/?p=53337</id>
+        <link href="https://crookedtimber.org/2024/10/31/what-happens-if-americans-claim-asylum-from-a-trump-regime/"/>
+        <updated>2024-10-31T11:54:15.000Z</updated>
+        <summary type="html"><![CDATA[Donald Trump has made very public threats to persecute his political opponents should he be re-elected and statements by him and by other leading Republicans suggests that he might persecute others on the grounds of their religion or their membership of certain social groups. If this were happen (rather than simply being bluster) then it […]]]></summary>
+        <author>
+            <name>Chris Bertram</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links 10/31/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=281395</id>
+        <link href="https://www.nakedcapitalism.com/2024/10/links-10-31-2024.html"/>
+        <updated>2024-10-31T10:58:16.000Z</updated>
+        <summary type="html"><![CDATA[Our spooky daily links]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Does the West Hate Russia So Much?]]></title>
+        <id>https://www.nakedcapitalism.com/?p=281388</id>
+        <link href="https://www.nakedcapitalism.com/2024/10/why-does-the-west-hate-russia-so-much.html"/>
+        <updated>2024-10-31T10:05:24.000Z</updated>
+        <summary type="html"><![CDATA[“The Spectre of War” by Jonathan Haslam provides some clues — at least for the UK.]]></summary>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It’s Harris’s Race to Lose…]]></title>
+        <id>https://www.nakedcapitalism.com/?p=281375</id>
+        <link href="https://www.nakedcapitalism.com/2024/10/its-harriss-race-to-lose.html"/>
+        <updated>2024-10-31T08:00:21.000Z</updated>
+        <summary type="html"><![CDATA[...so why is she making it close?]]></summary>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Would a Real Renewable Energy Transition Look Like?]]></title>
+        <id>https://www.nakedcapitalism.com/?p=281373</id>
+        <link href="https://www.nakedcapitalism.com/2024/10/what-would-a-real-renewable-energy-transition-look-like.html"/>
+        <updated>2024-10-31T07:00:22.000Z</updated>
+        <summary type="html"><![CDATA[The seven steps that could help build a social movement and ensure a sustainable future.]]></summary>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[“On the Brink of an Irreversible Climate Disaster:” Inside the 2024 State of the Climate Report]]></title>
         <id>https://www.counterpunch.org/?p=340497</id>
@@ -113,6 +163,52 @@ The post To Chamber of Commerce Trumpers – Watch What You Wish For appeared fi
 The post Hey Parents, Make Halloween Dangerous Again appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Nicky Reid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python #1 on Github + speedup via Codon / Cython]]></title>
+        <id>https://hwisnu.bearblog.dev/python-1-on-github-speedup-via-codon-cython/</id>
+        <link href="https://hwisnu.bearblog.dev/python-1-on-github-speedup-via-codon-cython/"/>
+        <updated>2024-10-31T00:46:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+Recently there's a report from Github on the rise of snake language to be the top on Github. Yes, Python overtakes Javascript!
+
+Below is a nice time series graph showing language progression over time:
+
+Inspired by this achievement, I once again write how to speedup Python to almost near C/C++ speed! The tools we are using: Codon and Cython to speedup integrate calculation in Python.
+Python code
+First lets take a look at the original python code.
+def f(x):
+    return x ** 2 - x
+
+def integrate_f(a, b, N):
+    s = 0
+    dx = (b - a) / N
+    for i in range(N):
+        s += f(a + i * dx)
+    return s * dx
+
+Fairly simple and straightforward.
+Codon code
+Now here's the Codon version:
+def f(x: float) -> float:
+    return x ** 2 - x
+
+def integrate_f(a: float, b: float, N: int) -> float…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by asdfman123 in "Google CEO says more than a quarter of the company's new code is created by AI"]]></title>
+        <id>https://news.ycombinator.com/item?id=42002212</id>
+        <link href="https://news.ycombinator.com/item?id=42002212"/>
+        <updated>2024-10-31T00:34:48.000Z</updated>
+        <summary type="html"><![CDATA[I work for Google, and I just got done with my work day. I was just writing I guess what you'd call "AI generated code."
+But the code completion engine is basically just good at finishing the lines I'm writing. If I'm writing "function getAc..." it's smart enough to complete to "function getActionHandler()", and maybe suggest the correct arguments and a decent jsdoc comment.
+So basically, it's a helpful productivity tool but it's not doing any engineering at all. It's probably about as good, maybe slightly worse, than Copilot. (I haven't used it recently though.)]]></summary>
+        <author>
+            <name>asdfman123</name>
         </author>
     </entry>
     <entry>
@@ -757,16 +853,6 @@ Curious, is that a property of all ai assisted tools for now? Or would copilot, 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2:00PM Water Cooler 10/29/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=281285</id>
-        <link href="https://www.nakedcapitalism.com/2024/10/200pm-water-cooler-10-29-2024.html"/>
-        <updated>2024-10-29T18:00:54.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, Syndemics; Kamala campaign begins closing argument; The Fascist Question; Pennsylvania round-up; Memories of Richard Scarry ~]]></summary>
-        <author>
-            <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Visual Studio Code October 2024]]></title>
         <id>https://code.visualstudio.com/updates/v1_95</id>
         <link href="https://code.visualstudio.com/updates/v1_95"/>
@@ -838,16 +924,6 @@ Satya's two key abilites to me were the ability to actually prioritize in a cohe
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Big Lies and Little Progress: Reviewing Four Years of Biden National Security Advisor Jake Sullivan’s “Foreign Policy for the Middle Class”]]></title>
-        <id>https://www.nakedcapitalism.com/?p=281255</id>
-        <link href="https://www.nakedcapitalism.com/2024/10/big-lies-and-little-progress-biden-national-security-advisor-jake-sullivans-foreign-policy-for-the-middle-class.html"/>
-        <updated>2024-10-29T13:30:12.000Z</updated>
-        <summary type="html"><![CDATA[Sullivan went from a professed focus on the middle class to overseeing a system of mass slaughter and tried to wed the two.]]></summary>
-        <author>
-            <name>Conor Gallagher</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Introducing the next-level of AI-powered workflows with Amazon Q Developer inline chat]]></title>
         <id>009a040a805940f8fc8938b162d51952a92ec7fe</id>
         <link href="https://aws.amazon.com/blogs/devops/amazon-q-developer-inline-chat/"/>
@@ -875,25 +951,6 @@ Satya's two key abilites to me were the ability to actually prioritize in a cohe
         <summary type="html"><![CDATA[A long time ago, a friend of mine told me that in life, you find what you look for. I believe that to be true most of the time. I'm always on the lookout for nice people. Thinking about them is a tool I use in my personal gratitude practice, a daily exercise where I record three things I'm grateful for. I have been doing it for years. There's never been a time in my life when I couldn't find some folks with kindness in their heart. Even during the years when I worked as a prison guard, there were inmates who did kind things in a non-manipulative way. I used to drink coffee continually on that job. You could buy a packet of Taster's Choice in the canteen for a dime in those days. An old con who cleaned the area around my desk gave me some sage advice one day. "Mr Plummer," he said, "Don't e…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links 10/29/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=281231</id>
-        <link href="https://www.nakedcapitalism.com/2024/10/links-10-29-2024.html"/>
-        <updated>2024-10-29T10:55:03.000Z</updated>
-        <author>
-            <name>Conor Gallagher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Central Bank Digital Currency (CBDC) Projects Are Foundering in Five-Eye Nations. What Gives?]]></title>
-        <id>https://www.nakedcapitalism.com/?p=281222</id>
-        <link href="https://www.nakedcapitalism.com/2024/10/central-bank-digital-currency-cbdc-projects-are-foundering-in-all-five-eye-nations.html"/>
-        <updated>2024-10-29T10:45:09.000Z</updated>
-        <summary type="html"><![CDATA[Canada and Australia shelve plans for retail CBDCs while the US could soon become the first country to explicitly ban the central bank from issuing a CBDC.]]></summary>
-        <author>
-            <name>Nick Corbishley</name>
         </author>
     </entry>
     <entry>
@@ -1032,18 +1089,6 @@ Edit: holy moly, this is a sensitive subject. Please remember this was from a ti
 This is a weird exercise. Python, for example, is a #1/#2 language in the world and there's only 50 active core devs, 90% of which don't even work on Python full time. Somehow we make that work.]]></summary>
         <author>
             <name>1st1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by pbreit in "HTML Form Validation is underused"]]></title>
-        <id>https://news.ycombinator.com/item?id=41977759</id>
-        <link href="https://news.ycombinator.com/item?id=41977759"/>
-        <updated>2024-10-28T23:36:58.000Z</updated>
-        <summary type="html"><![CDATA[The biggest, easiest to implement underutilization is:
-"Using specific type attribute values, such as "email", "number", or "url""
-These can significantly improve user experience on mobile by triggering the optimal keyboard.]]></summary>
-        <author>
-            <name>pbreit</name>
         </author>
     </entry>
     <entry>
@@ -1556,48 +1601,6 @@ I’ve come to believe that paying attention to these reactions might be the cle
         <summary type="html"><![CDATA[from Maria Alejandra and WEA Pedagogy Blog Jean-Baptiste Fressoz, professor at the School of Advanced Studies in Social Sciences in Paris, challenges our understanding of the current energy transition process. In his book “The Shock of the Anthropocene: The Earth, History, and Us,” co-authored with Christophe Bonneuil, Fressoz offers a critical history of the Anthropocene, the current geological […]]]></summary>
         <author>
             <name>Maria Alejandra Madi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple said to be reducing production of Vision Pro headset]]></title>
-        <id>https://disassociated.com/?p=8742</id>
-        <link href="https://disassociated.com/apple-reportedly-reducing-production-vision-pro/"/>
-        <updated>2024-10-24T21:00:12.000Z</updated>
-        <summary type="html"><![CDATA[Hartley Charlton, writing for Mac Rumours: Citing multiple people “directly involved” in making components for the headset, the report says that the scaling back of production began in the early summer. My take here is people thought Vision Pro was going to be the next WOW Apple product, and units would fly off the shelves, […]]]></summary>
-        <author>
-            <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Humane may licence CosmOS, the AI Pin operating system]]></title>
-        <id>https://disassociated.com/?p=8740</id>
-        <link href="https://disassociated.com/humane-licence-cosmos-ai-pin-operating-system/"/>
-        <updated>2024-10-24T20:30:17.000Z</updated>
-        <summary type="html"><![CDATA[Humane’s AI Pin, launched to less than flattering fanfare last April, may not have lived up to expectations of being an “iPhone killer”. But CosmOS, the device’s operating system, is something else altogether, says Om Malik, writing for Crazy Stupid Tech: An AI-focused operating system is agent-driven instead of application-driven. The agents — tiny bits […]]]></summary>
-        <author>
-            <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by 101008 in "Show HN: 2048 turned 10 this year, I built an updated version to celebrate"]]></title>
-        <id>https://news.ycombinator.com/item?id=41938545</id>
-        <link href="https://news.ycombinator.com/item?id=41938545"/>
-        <updated>2024-10-24T18:57:06.000Z</updated>
-        <summary type="html"><![CDATA[This may be buried in the comments and you will never see it, but thank you very much Gabriele. Your game helped me in a very weird circumstance.
-I was afraid of flying, specially on the takeoff and landing (and turbulence as well, ha). So I read somewhere that if I focused on something else, it would help me. So for the past years, I played 2048 during takeoff and landing, and it worked. It helped me to focus on something else, not the airplane, and I started to enjoying more my trips.
-Now I don't need to do it anymore, but just for the experience I still do it when I fly. So thank you for helping me with my fear!]]></summary>
-        <author>
-            <name>101008</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by mordae in "Show HN: 2048 turned 10 this year, I built an updated version to celebrate"]]></title>
-        <id>https://news.ycombinator.com/item?id=41938356</id>
-        <link href="https://news.ycombinator.com/item?id=41938356"/>
-        <updated>2024-10-24T18:44:00.000Z</updated>
-        <summary type="html"><![CDATA[This doesn't make any sense. We should be celebrating 8 years, 16 years and so on.]]></summary>
-        <author>
-            <name>mordae</name>
         </author>
     </entry>
 </feed>
