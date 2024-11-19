@@ -12,6 +12,36 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "67d7d0b2d520590609cc528db5a2d3e6af8285e0",
+          "author": "Donnie Prakoso",
+          "description": "Simplify networking for containerized apps with native VPC Lattice-ECS integration, boosting productivity and flexibility across services.",
+          "link": "https://aws.amazon.com/blogs/aws/streamline-container-application-networking-with-native-amazon-ecs-support-in-amazon-vpc-lattice/",
+          "publishedOn": "2024-11-18T21:55:42.000Z",
+          "wordCount": 1917,
+          "title": "Streamline container application networking with built-in Amazon ECS support in Amazon VPC Lattice",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/06/ECS-VPC-feat-img.png"
+        },
+        {
+          "id": "1efe6355721882348179128f93749c102250b8f4",
+          "author": "Channy Yun (윤석찬)",
+          "description": "AWS Lambda SnapStart boosts Python and .NET functions' startup times to sub-second levels, often with minimal code changes, enabling highly responsive and scalable serverless apps.",
+          "link": "https://aws.amazon.com/blogs/aws/aws-lambda-snapstart-for-python-and-net-functions-is-now-generally-available/",
+          "publishedOn": "2024-11-18T21:07:15.000Z",
+          "wordCount": 2155,
+          "title": "AWS Lambda SnapStart for Python and .NET functions is now generally available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/14/2024-Lambda-logo.png"
+        },
+        {
+          "id": "ca7af76d4e0c5efc867c78848fb0cbd33937942b",
+          "author": "Donnie Prakoso",
+          "description": "Unleash your inner developer with AWS App Studio, the generative AI-powered application builder. Turn your idea into fully-fledged, intelligent, custom, secure, and scalable software in minutes.",
+          "link": "https://aws.amazon.com/blogs/aws/build-and-modify-apps-using-natural-language-with-aws-app-studio-now-generally-available/",
+          "publishedOn": "2024-11-18T18:57:02.000Z",
+          "wordCount": 1713,
+          "title": "Build and modify apps using natural language with AWS App Studio, now generally available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/08/App-Studio-feat-img.png"
+        },
+        {
           "id": "1392cf1e2098d7939ad92ac27e8c9ceb3c6e131b",
           "author": "Jeff Barr",
           "description": "Explore the journey of AWS Lambda, the pioneering serverless computing service, from its 2013 inception to powering over two million users and tens of trillions of function invocations monthly.",
@@ -67,7 +97,18 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": []
+      "articles": [
+        {
+          "id": "21322524039287ae311396c3c1ba05aedce35ee8",
+          "author": "Shllomi Ezra",
+          "description": "If you’re attending AWS re:Invent 2024 with the goal of improving your organization’s cloud resilience operations, we will be offering valuable insights, best practices, and fun activities to improve your cloud resilience expertise. This year, we’re offering more than 100 resilience breakout sessions, workshops, chalk talks, builders’ sessions, and code talks. Find the complete list in the re:Invent 2024 session catalog and filter by “Resilience” in the area of interest field. In this post, we highlight must-see sessions for those building resilient applications and architectures on AWS. Reserved seating is now open, so act quickly to claim your seat. Be sure to also check out the vertical-specific re:Invent guides.",
+          "link": "https://aws.amazon.com/blogs/architecture/know-before-you-go-aws-reinvent-2024-cloud-resilience/",
+          "publishedOn": "2024-11-18T23:27:21.000Z",
+          "wordCount": 2253,
+          "title": "Know before you go – AWS re:Invent 2024 cloud resilience",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2024/11/18/featured-images-ARCH-1116-1-1120x630.jpg"
+        }
+      ]
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
@@ -103,7 +144,7 @@
           "description": "By: Rajiv Shringi, Oleksii Tkachuk, Kartik Sathyanarayanan",
           "link": "https://netflixtechblog.com/netflixs-distributed-counter-abstraction-8d0c45eb66b2?source=rss----2615bd06b42e---4",
           "publishedOn": "2024-11-12T20:45:23.000Z",
-          "wordCount": 9205,
+          "wordCount": 9169,
           "title": "Netflix’s Distributed Counter Abstraction",
           "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*Yusg6kC9Jj9ayjbi"
         }
@@ -120,6 +161,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/containers/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/containers/",
       "articles": [
+        {
+          "id": "28bc1106056a70a93b5b24d9119e9e7a806241bd",
+          "author": "Ashok Srirama",
+          "description": "Introduction Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks. However, maintaining […]",
+          "link": "https://aws.amazon.com/blogs/containers/amazon-eks-enhances-kubernetes-control-plane-observability/",
+          "publishedOn": "2024-11-18T23:14:38.000Z",
+          "wordCount": 3095,
+          "title": "Amazon EKS enhances Kubernetes control plane observability",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/11/15/Featured-images-for-Containers-Blog-3-1260x630.jpg"
+        },
         {
           "id": "4bfc30d46cbd01dd4b3f1b6232bff7417450f6fd",
           "author": "Dumlu Timuralp",
@@ -503,16 +554,6 @@
           "wordCount": 4455,
           "title": "Income Growth Outpaces Household Borrowing",
           "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/11/LSE_2024_hdc_scally_460.jpg"
-        },
-        {
-          "id": "https://libertystreeteconomics.newyorkfed.org/?p=32617",
-          "author": "Matteo Crosignani, Thomas Eisenbach, and Fulvia Fringuellotti",
-          "description": "After a period of relative stability, a series of bank failures in 2023 renewed questions about the fragility of the banking system. As in previous years, we provide in this post an update of four analytical models aimed at capturing different aspects of the vulnerability of the U.S. banking system using data through 2024:Q2 and discuss how these measures have changed since last year.",
-          "link": "https://libertystreeteconomics.newyorkfed.org/2024/11/banking-system-vulnerability-2024-update/",
-          "publishedOn": "2024-11-12T12:00:00.000Z",
-          "wordCount": 4175,
-          "title": "Banking System Vulnerability: 2024 Update",
-          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/10/LSE_2024_fiva_fringuellotti_420.jpg"
         }
       ]
     },
@@ -547,7 +588,7 @@
           "description": "Eurostat published new data on employment in Europe. Average employment growth is +0,9%. The average hides stark differences. A Germany-centered core consisting of Germany, Austria, Sweden, Estonia, Finland, and Hungary shows declines. Surprisingly, it excludes Denmark, Belgium and the Netherlands. The South does better. Countries like Portugal, France, Greece, and, especially, Spain post above-average increases. […]",
           "link": "https://rwer.wordpress.com/2024/11/15/employment-growth-in-europe-stark-differences/",
           "publishedOn": "2024-11-15T09:40:57.000Z",
-          "wordCount": 4512,
+          "wordCount": 4513,
           "title": "Employment growth in Europe. Stark differences.",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-14.png"
         },
@@ -557,7 +598,7 @@
           "description": "Executive summary: if investments are needed, do not reform. Invest. Investments are the reform. Angus Maddison (historical patterns of growth) and Jan Kregel (leading post-Keynesian economist) were the intellectually dominant forces during my economics study in Groningen around 1982. Let´s apply their frameworks to Greece. In some countries, productivity has stagnated for quite some time […]",
           "link": "https://rwer.wordpress.com/2024/11/14/in-greece-gross-fixed-investment-still-is-at-a-pre-industrial-level/",
           "publishedOn": "2024-11-14T09:51:02.000Z",
-          "wordCount": 4438,
+          "wordCount": 4436,
           "title": "In Greece, gross fixed investment still is at a pre-industrial level.",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-12.png"
         },
@@ -567,7 +608,7 @@
           "description": "Here, a little more about the essential role of Vitamin A for the eye And yes, it is serious.",
           "link": "https://rwer.wordpress.com/2024/11/13/argentina-bucks-the-trend-vitamin-a-deficiencies-are-increasing/",
           "publishedOn": "2024-11-13T09:31:50.000Z",
-          "wordCount": 4182,
+          "wordCount": 4180,
           "title": "Argentina bucks the trend. Vitamin A deficiencies are increasing",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-9.png"
         }
@@ -585,12 +626,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=282425",
+          "author": "Lambert Strether",
+          "description": "~ Today's Water Cooler: Politics, syndemics; About those camps... ; Blame Cannons: Biden staffers, Axelrove, Fetterman unload; Boeing's management challenges., layoffs ~",
+          "link": "https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-18-2024.html",
+          "publishedOn": "2024-11-18T19:00:16.000Z",
+          "wordCount": 11802,
+          "title": "2:00PM Water Cooler 11/18/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/covid-cdc-ww-natl-3.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=282423",
           "author": "Lambert Strether",
           "description": "Moving away from withholding 100% of people’s monthly Social Security benefits to recover alleged overpayments has been a major improvement.",
           "link": "https://www.nakedcapitalism.com/2024/11/social-security-tackles-overpayment-injustices-but-problems-remain.html",
           "publishedOn": "2024-11-18T16:54:09.000Z",
-          "wordCount": 4883,
+          "wordCount": 5034,
           "title": "Social Security Tackles Overpayment ‘Injustices,’ but Problems Remain",
           "imageUrl": "https://kffhealthnews.org/?republication-pixel=true&post=1943377&ga4=G-J74WWTKFM0"
         },
@@ -600,7 +651,7 @@
           "description": "Our frisky daily links",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-18-2024.html",
           "publishedOn": "2024-11-18T11:58:02.000Z",
-          "wordCount": 11780,
+          "wordCount": 13640,
           "title": "Links 11/18/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/ibex.jpg"
         },
@@ -610,7 +661,7 @@
           "description": "Biden and the EU are trying to throw spanners in Trump's desire to end the war with Ukraine. What if anything has changed?",
           "link": "https://www.nakedcapitalism.com/2024/11/as-biden-uses-long-range-strikes-into-russia-to-create-problems-for-trump-what-else-might-happen-with-ukraine-when-trump-takes-over.html",
           "publishedOn": "2024-11-18T11:55:58.000Z",
-          "wordCount": 16038,
+          "wordCount": 20191,
           "title": "As Biden Uses Long-Range Strikes into Russia to Create Problems for Trump, What Else Might Happen With Ukraine When Trump Takes Over?",
           "imageUrl": null
         },
@@ -620,7 +671,7 @@
           "description": "What does it say about AFRICOM’s counterterrorism mission when nationalized mines increasingly come under attack and the US proxy state of Ukraine is training terrorists the US is supposed to be fighting?",
           "link": "https://www.nakedcapitalism.com/2024/11/paris-and-washington-go-scorched-earth-in-the-sahel.html",
           "publishedOn": "2024-11-18T11:00:57.000Z",
-          "wordCount": 6933,
+          "wordCount": 6921,
           "title": "Paris and Washington Go Scorched Earth in the Sahel",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screenshot-2024-09-24-at-8.18.14 AM-1024x584.png"
         },
@@ -630,7 +681,7 @@
           "description": "Trump plans tougher sanctions on Iran's and Venezuela's oil exports, and secondary sanctions on China. How might that work?",
           "link": "https://www.nakedcapitalism.com/2024/11/trumps-energy-sanctions-are-a-double-edged-sword-for-global-economy.html",
           "publishedOn": "2024-11-18T10:03:00.000Z",
-          "wordCount": 4091,
+          "wordCount": 4123,
           "title": "Trump’s Energy Sanctions Are a Double-Edged Sword for Global Economy",
           "imageUrl": null
         },
@@ -640,7 +691,7 @@
           "description": "Design serves capitalism by devising abstract forms.",
           "link": "https://www.nakedcapitalism.com/2024/11/book-review-caps-lock-capitalism-and-graphic-design.html",
           "publishedOn": "2024-11-17T21:25:45.000Z",
-          "wordCount": 6870,
+          "wordCount": 7038,
           "title": "Book Review: “Caps Lock” (Capitalism and Graphic Design)",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/1_design_banknote.png"
         },
@@ -650,7 +701,7 @@
           "description": "Our signal-heavy daily links",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-17-2024.html",
           "publishedOn": "2024-11-17T11:58:04.000Z",
-          "wordCount": 30423,
+          "wordCount": 30791,
           "title": "Links 11/17/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Chinese_crested_puppy.jpg"
         },
@@ -660,7 +711,7 @@
           "description": "Information exchange creates large improvements in tax compliance through repatriation of offshore wealth, self-reporting of offshore financial income, and audit efforts targeted offshore evasion.",
           "link": "https://www.nakedcapitalism.com/2024/11/evaluation-of-a-new-international-policy-instrument-to-curb-offshore-tax-evasion-global-information-sharing-of-bank-information.html",
           "publishedOn": "2024-11-17T11:55:18.000Z",
-          "wordCount": 5066,
+          "wordCount": 5136,
           "title": "Evaluation of a New International Policy Instrument to Curb Offshore Tax Evasion: Global Information Sharing of Bank Information",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/kreiner14novfig1_0.png"
         },
@@ -670,19 +721,9 @@
           "description": "Our salacious daily links: fisherman catches sub, ISS in trouble, net zero failing, EU rejects Russian LNG, UK economic wobbles, Poland threatening Kalingrad? moar Israel savagery, Musk thwarting Iran war plot? Trump nominations freakout, dangerous Teslas, credit bubble worries",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-16-2024.html",
           "publishedOn": "2024-11-16T11:55:42.000Z",
-          "wordCount": 21377,
+          "wordCount": 21365,
           "title": "Links 11/16/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-16-at-2.59.37-PM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=282329",
-          "author": "Yves Smith",
-          "description": "The Consumer Financial Protection Bureau wants banks to send data of ex-customers to a new bank. Banks are howling.  They may have a point.",
-          "link": "https://www.nakedcapitalism.com/2024/11/wall-street-banks-accused-of-trying-to-sabotage-key-consumer-protection-rule.html",
-          "publishedOn": "2024-11-16T08:58:25.000Z",
-          "wordCount": 4598,
-          "title": "Wall Street Banks Accused of Trying to Sabotage Key Consumer Protection Rule",
-          "imageUrl": null
         }
       ]
     },
@@ -725,6 +766,16 @@
       "feedUrl": "https://slack.engineering/feed/",
       "siteUrl": "https://slack.engineering",
       "articles": [
+        {
+          "id": "https://slack.engineering/?p=17285",
+          "author": "George Luong",
+          "description": "Introduction Slack handles a lot of log data. In fact, we consume over 6 million log messages per second. That equates to over 10 GB of data per second! And it’s all stored using Astra, our in-house, open-source log search engine. To make this data searchable, Astra groups it by time and splits the data…\nThe post Astra Dynamic Chunks: How We Saved by Redesigning a Key Part of Astra appeared first on Engineering at Slack.",
+          "link": "https://slack.engineering/astra-dynamic-chunks-how-we-saved-by-redesigning-a-key-part-of-astra/",
+          "publishedOn": "2024-11-18T22:06:23.000Z",
+          "wordCount": 1942,
+          "title": "Astra Dynamic Chunks: How We Saved by Redesigning a Key Part of Astra",
+          "imageUrl": "https://slack.engineering/wp-content/uploads/sites/7/2024/11/unnamed.png?w=640"
+        },
         {
           "id": "https://slack.engineering/?p=17276",
           "author": "Scott Nelson Windels",
@@ -777,12 +828,22 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=42174194",
+          "author": "jp57",
+          "description": "FYI: nm = nautical miles, not nanometers.",
+          "link": "https://news.ycombinator.com/item?id=42174194",
+          "publishedOn": "2024-11-18T16:48:21.000Z",
+          "wordCount": 2357,
+          "title": "New comment by jp57 in \"Air traffic failure caused by two locations 3600nm apart sharing 3-letter code\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=42165704",
           "author": "leetrout",
           "description": "> It's better to have some wonky parameterization than it is to have multiple implementations of nearly the same thing. Improving the parameters will be easier than to consolidate four different implementations if this situation comes up again.\nHard disagree. If you cant decompose to avoid \"wonky parameters\" then keep them separate. Big smell is boolean flags (avoid altogether when you can) and more than one enum parameter.\nIME \"heavy\" function signatures are always making things harder to maintain.",
           "link": "https://news.ycombinator.com/item?id=42165704",
           "publishedOn": "2024-11-17T18:05:09.000Z",
-          "wordCount": 6009,
+          "wordCount": null,
           "title": "New comment by leetrout in \"Good Software Development Habits\"",
           "imageUrl": null
         },
@@ -792,7 +853,7 @@
           "description": "A lot of commenters here are having their minds blown by this. And while I also love this I get the sense that many others here are maybe too young to remember that this kind of open access to data used to exist for lots websites. It inspired companion sites and loads of creativity. I find it tragic really, what the internet has become. I hope federated, and even more-so p2p, protocols take significant foothold on the internet and help revive this spirit of the web. The corpo-web is so fucking boring.",
           "link": "https://news.ycombinator.com/item?id=42163194",
           "publishedOn": "2024-11-17T10:05:38.000Z",
-          "wordCount": 2419,
+          "wordCount": 2546,
           "title": "New comment by null0pointer in \"The Bluesky firehose viewed in the style of a Windows XP screensaver\"",
           "imageUrl": null
         },
@@ -802,7 +863,7 @@
           "description": "> The color was originally going to be called beccapurple, but Meyer asked that it instead be named rebeccapurple, as his daughter had wanted to be called Rebecca once she had turned six. She had said that Becca was a \"baby name,\" and that once she had turned six, she wanted to be called Rebecca. As Eric Meyer put it, \"She made it to six. For almost twelve hours, she was six. So Rebecca it is and must be.\"\nWasn't expecting tears over a colour",
           "link": "https://news.ycombinator.com/item?id=42162264",
           "publishedOn": "2024-11-17T05:48:16.000Z",
-          "wordCount": 2496,
+          "wordCount": null,
           "title": "New comment by langsoul-com in \"CSS gets a new logo and it uses the color `rebeccapurple`\"",
           "imageUrl": null
         },
@@ -822,7 +883,7 @@
           "description": "Every time a big company screws up, there are two highly informed sets of people who are guaranteed to be lurking, but rarely post, in a thread like this:\n1) those directly involved with the incident, or employees of the same company.  They have too much to lose by circumventing the PR machine.\n2) people at similar companies who operate similar systems with similar scale and risks.  Those people know how hard this is and aren’t likely to publicly flog someone doing their same job based on uninformed speculation. They know their own systems are Byzantine and don’t look like what random onlookers think it would look like.\nSo that leaves the rest, who offer insights based on how stuff works at a small scale, or better yet, pronouncements rooted in “first principles.”",
           "link": "https://news.ycombinator.com/item?id=42160502",
           "publishedOn": "2024-11-16T23:29:10.000Z",
-          "wordCount": 7871,
+          "wordCount": 7922,
           "title": "New comment by shermantanktop in \"Netflix buffering issues: Boxing fans complain about Jake Paul vs. Mike Tyson\"",
           "imageUrl": null
         },
@@ -852,7 +913,7 @@
           "description": "I love it(in context of FreeBSD):\n—————\nWhat does not work: Keyboard, mouse, TB & USB-C ports, thermal/freq mgt.\nConclusion: Highly recommended",
           "link": "https://news.ycombinator.com/item?id=42151363",
           "publishedOn": "2024-11-15T21:33:02.000Z",
-          "wordCount": null,
+          "wordCount": 2276,
           "title": "New comment by galkk in \"First Impressions: Lenovo T14s with Qualcomm Snapdragon ARM64 CPU\"",
           "imageUrl": null
         },
@@ -862,7 +923,7 @@
           "description": "I thoroughyl expect the Deparment of Government Efficiency to recommend U.S. Fatality Analysis Reporting System (FARS) be shut down to save previous taxpayer dollars.",
           "link": "https://news.ycombinator.com/item?id=42150928",
           "publishedOn": "2024-11-15T20:56:38.000Z",
-          "wordCount": 7910,
+          "wordCount": null,
           "title": "New comment by Koala_ice in \"Tesla has the highest fatal accident rate of all auto brands, study finds\"",
           "imageUrl": null
         },
@@ -892,7 +953,7 @@
           "description": "> potential applications\n> if you ...\n> for example ...\nYes there seems to be lots of potential. Yes we can brainstorm things that should work. Yes there is a lot of examples of incredible things in isolation. But it's a little bit like those youtube videos showing amazing basketball shots in 1 try, when in reality lots of failed attempts happened beforehand. Except our users experience the failed attempts (LLM replies that are wrong, even when backed by RAG) and it's incredibly hard to hide those from them.\nShow me the things you / your team has actually built that has decent retention and metrics concretely proving efficiency improvements.\nLLMs are so hit and miss from query to query that if your users don't have a sixth sense for a miss vs a hit, there may not be any efficiency improvement. It's a really hard problem with LLM based tools.\nThere is so much hype right now and people showing cherry picked examples.",
           "link": "https://news.ycombinator.com/item?id=42140726",
           "publishedOn": "2024-11-14T20:17:59.000Z",
-          "wordCount": 4289,
+          "wordCount": null,
           "title": "New comment by afro88 in \"OpenAI, Google and Anthropic are struggling to build more advanced AI\"",
           "imageUrl": null
         },
@@ -922,7 +983,7 @@
           "description": "I have a bit of uneasiness about how this is heavily pushing GitHub actions as the correct way to publish to PyPI. I had to check PEP740 to make sure it was not directly supported by Microsoft.\n> The generation and publication of attestations happens by default, and no changes are necessary for projects that meet all of these conditions: publish from GitHub Actions; via Trusted Publishing; and use the pypa/gh-action-pypi-publish action to publish.\nIf you then click on \"The manual way\" it adds a big disclaimer:\n> STOP! You probably don't need this section; it exists only to provide some internal details about how attestation generation and uploading work. If you're an ordinary user, it is strongly recommended that you use one of the official workflows described above.\nWhere the only official workflow is \"Use GitHub Actions\".\nI guess I am an idealist but as a maintainer this falls short of my expectations  for the openness of Python and PyPI.",
           "link": "https://news.ycombinator.com/item?id=42137562",
           "publishedOn": "2024-11-14T16:05:51.000Z",
-          "wordCount": 11351,
+          "wordCount": null,
           "title": "New comment by belval in \"PyPI now supports digital attestations\"",
           "imageUrl": null
         },
@@ -934,16 +995,6 @@
           "publishedOn": "2024-11-14T15:04:26.000Z",
           "wordCount": null,
           "title": "New comment by ndiddy in \"Why is it so hard to find a job now? Enter Ghost Jobs\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=42136665",
-          "author": "josefresco",
-          "description": "The funniest thing would be to keep running the site as-is but swap out the insanity for stuff that reads like insanity but is legit or morally sound.  The audience might not notice, and could (IMHO) easily be duped into supporting good causes!",
-          "link": "https://news.ycombinator.com/item?id=42136665",
-          "publishedOn": "2024-11-14T14:53:24.000Z",
-          "wordCount": 3199,
-          "title": "New comment by josefresco in \"The Onion buys Infowars\"",
           "imageUrl": null
         },
         {
@@ -972,7 +1023,7 @@
           "description": "The announcement by America's Finest News Source: https://theonion.com/heres-why-i-decided-to-buy-infowars/\nAlex Jones response: https://x.com/RealAlexJones/status/1857058831135645739",
           "link": "https://news.ycombinator.com/item?id=42136294",
           "publishedOn": "2024-11-14T14:15:29.000Z",
-          "wordCount": 35249,
+          "wordCount": null,
           "title": "New comment by jsheard in \"The Onion buys Infowars\"",
           "imageUrl": null
         },
@@ -982,7 +1033,7 @@
           "description": "This is one of the few HN articles that have profoundly moved me. Such a beautiful and simple use of technology to make a clear and big improvement in someone's life.\nAs a side note on his mother remembering that the tablet exists, it sounds like she has amnesia quite like Henry Molaison, a famous case study in neuropathology. He had very specific brain damage that seemingly stopped him forming new memories in the same way as OP's mother, but studies showed that he could remember some things, just not consciously. So for example he would have warm feelings towards people who'd been caring for him despite not remembering them, and would also pick up card games more and more quickly as he played them repeatedly despite saying he didn't remember the game. OP's mother remembering the tablet sounds very similar, particularly when paired with the feeling of being remembered and loved by her children.",
           "link": "https://news.ycombinator.com/item?id=42136060",
           "publishedOn": "2024-11-14T13:42:16.000Z",
-          "wordCount": null,
+          "wordCount": 2854,
           "title": "New comment by frereubu in \"MomBoard: E-ink display for a parent with amnesia\"",
           "imageUrl": null
         },
@@ -1012,7 +1063,7 @@
           "description": "Hi HN, Francois here. Happy to answer any questions!\nHere's a start --\n\"Did you get poached by Anthropic/etc\": No, I am starting a new company with a friend. We will announce more about it in due time!\n\"Who uses Keras in production\": Off the top of my head the current list includes Midjourney, YouTube, Waymo, Google across many products (even Ads started moving to Keras recently!), Netflix, Spotify, Snap, GrubHub, Square/Block, X/Twitter, and many non-tech companies like United, JPM, Orange, Walmart, etc. In total Keras has ~2M developers and powers ML at many companies big and small. This isn't all TF -- many of our users have started running Keras on JAX or PyTorch.\n\"Why did you decide to merge Keras into TensorFlow in 2019\": I didn't! The decision was made in 2018 by the TF leads -- I was a L5 IC at the time and that was an L8 decision. The TF team was huge at the time, 50+ people, while Keras was just me and the open-source community. In retrospect I think Keras would have been better off as an independent multi-backend framework -- but that would have required me quitting Google back then. Making Keras multi-backend again in 2023 has been one of my favorite projects to work on, both from the engineering & architecture side of things but also because the product is truly great (also, I love JAX)!",
           "link": "https://news.ycombinator.com/item?id=42133844",
           "publishedOn": "2024-11-14T07:27:07.000Z",
-          "wordCount": 6566,
+          "wordCount": null,
           "title": "New comment by fchollet in \"Francois Chollet is leaving Google\"",
           "imageUrl": null
         },
@@ -1032,7 +1083,7 @@
           "description": "> With education discount\nI don't understand why so many people use the discounted price as reference. Surely very few of us on HN are still in college? So let's use the actual price when making comparisons.",
           "link": "https://news.ycombinator.com/item?id=42120597",
           "publishedOn": "2024-11-12T22:43:02.000Z",
-          "wordCount": null,
+          "wordCount": 8418,
           "title": "New comment by tredre3 in \"M4 Mac mini's efficiency\"",
           "imageUrl": null
         },
@@ -1054,12 +1105,22 @@
       "siteUrl": "https://crookedtimber.org",
       "articles": [
         {
+          "id": "https://crookedtimber.org/?p=53405",
+          "author": "John Q",
+          "description": "A few weeks ago, I drew up a flowchart to estimate the probability that Trump would establish a dictatorship in the US, which looked, at the time, like an even money bet. We don’t need to speculate any more. Trump has announced the dictatorship, and there is no sign of effective resistance. The key elements […]",
+          "link": "https://crookedtimber.org/2024/11/19/trumps-dictatorship-is-a-fait-accompli/",
+          "publishedOn": "2024-11-19T00:29:11.000Z",
+          "wordCount": 2297,
+          "title": "Trump’s dictatorship is a fait accompli",
+          "imageUrl": "https://crookedtimber.org/wp-content/uploads/2024/10/USDemocracyRevised-252x300.jpg"
+        },
+        {
           "id": "https://crookedtimber.org/?p=53402",
           "author": "Chris Bertram",
           "description": "Kitchy and quasi-totalitarian ghastliness, USA (from 2008)",
           "link": "https://crookedtimber.org/2024/11/17/sunday-photoblogging-forest-lawn-memorial-park-glendale/",
           "publishedOn": "2024-11-17T17:48:06.000Z",
-          "wordCount": 1863,
+          "wordCount": 1854,
           "title": "Sunday photoblogging: Forest Lawn Memorial Park, Glendale",
           "imageUrl": "https://live.staticflickr.com/2243/2389356444_d125fbb3bf.jpg"
         },
@@ -1069,7 +1130,7 @@
           "description": "After Trump’s second election victory, lots of Americans are talking about emigrating, most commonly to Canada. This happens with every rightwing election win[1], but nothing ever comes of it. With the real prospect of indefinite Trumpist rule, the issues are more serious, but it seems unlikely that much will happen. But why not? It’s fairly […]",
           "link": "https://crookedtimber.org/2024/11/13/moving-to-canada-not/",
           "publishedOn": "2024-11-13T05:15:06.000Z",
-          "wordCount": 11486,
+          "wordCount": 11992,
           "title": "Moving to Canada (not)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -1089,16 +1150,6 @@
           "wordCount": 7240,
           "title": "The World Bank: an ABC 2.0",
           "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L640xH336/901d43ab24bad9019b85333f4935cd-bfefc.jpg"
-        },
-        {
-          "id": "https://www.cadtm.org/African-People-s-Counter-COP-denounces-the-COP-system-and-demands-climate",
-          "author": "La Via Campesina",
-          "description": "From October 7th to 10th, the African Climate Justice Collective (ACJC) held the first physical African People's Counter-COP (APCC) in Saly, Senegal. Over one hundred participants, from 21 countries, representing social movements, grassroots communities, women, youth, civil society organisations, academics, workers, and others, joined the event. \nEnglish\n\n/ \nEcological debt, \nAfrica, \nEcology/Climate",
-          "link": "https://www.cadtm.org/African-People-s-Counter-COP-denounces-the-COP-system-and-demands-climate",
-          "publishedOn": "2024-11-12T13:09:09.000Z",
-          "wordCount": 2845,
-          "title": "African People's Counter-COP denounces the COP system and demands climate justice for Global South be at the centre of the climate action",
-          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L406xH213/bf85b4ae9b8861588e6f9343d8c513-a17eb.png"
         }
       ]
     },
@@ -1126,12 +1177,32 @@
       "siteUrl": "https://disassociated.com",
       "articles": [
         {
+          "id": "https://disassociated.com/?p=8853",
+          "author": "disassociated.com",
+          "description": "Having barely touched their simple text editor, Notepad, in years, Microsoft has been laying on the modifications in recent times. A few months ago, they fitted out Notepad with an autocorrect and spell-checker feature. That’s fine for people wishing to use Notepad as a word processor (in preference to paying out for a subscription to […]",
+          "link": "https://disassociated.com/dumbing-down-notepad-artificial-intelligence/",
+          "publishedOn": "2024-11-18T20:00:37.000Z",
+          "wordCount": 369,
+          "title": "Dumbing down Notepad by giving it artificial intelligence",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
+          "id": "https://disassociated.com/?p=8849",
+          "author": "disassociated.com",
+          "description": "Filmmakers James Ivory, the late Ismail Merchant, and Ruth Prawer Jhabvala, who collaborated as Merchant Ivory, made over forty features between 1963 and 2009. I think you’d be hard pressed to find any well-known actor of recent decades who did not work with them. My favourite is A Room with a View, which I’ve written […]",
+          "link": "https://disassociated.com/film-merchant-ivory-james-ivory-ismail-merchant-documentary-stephen-soucy/",
+          "publishedOn": "2024-11-18T19:30:58.000Z",
+          "wordCount": 206,
+          "title": "Merchant Ivory, a James Ivory, Ismail Merchant documentary, by Stephen Soucy",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
           "id": "https://disassociated.com/?p=8840",
           "author": "disassociated.com",
           "description": "I’ve ended up seeing a stack of movies featuring Irish-American actor Saoirse Ronan, over the years. Tracking all the way back to Atonement in 2007, I think. Maybe I’m not so much of a Ronan fan, as I am the movies she’s in. But it’s an impressive list of titles. The Lovely Bones, The Way […]",
           "link": "https://disassociated.com/film-blitz-steve-mcqueen-saoirse-ronan/",
           "publishedOn": "2024-11-17T20:00:09.000Z",
-          "wordCount": 266,
+          "wordCount": 277,
           "title": "Blitz, a movie by Steve McQueen, with Saoirse Ronan",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         },
@@ -1235,6 +1306,16 @@
       "feedUrl": "https://bearblog.dev/discover/feed/",
       "siteUrl": "https://bearblog.dev/discover/",
       "articles": [
+        {
+          "id": "https://blog.platinumtulip.net/how-do-i-use-websites-again/",
+          "author": null,
+          "description": "normally, i avoid \"metaposting\" about social media. discussions about the pros and cons of social media end up being very insular and kind of repetitive, and it's pretty tiring to me. but i need a place to process my thoughts, and well, that's what this blog is for.\ni stopped using twitter sometime in 2022, before Musk took over. the psychic damage that the wretched bird site was doing to me was unbearable, and it was impacting my physical health in a very tangible way. i couldn't do it. if it meant dropping off the surface of the earth to anyone who primarily used twitter, then so be it.\ntumblr was also driving me insane, so i hid away on cohost for the entirety of that site's lifespan. i've written enough about mourning cohost; so to put it succinctly, it was a website that i really need…",
+          "link": "https://blog.platinumtulip.net/how-do-i-use-websites-again/",
+          "publishedOn": "2024-11-18T21:13:26.788Z",
+          "wordCount": 2073,
+          "title": "how do i use websites again...?",
+          "imageUrl": "https://files.platinumtulip.net/tulip-icon.png"
+        },
         {
           "id": "https://notes.jeddacp.com/my-moleskine-to-hobonici-notebook-switch/",
           "author": null,
