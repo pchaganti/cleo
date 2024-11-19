@@ -1,10 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-11-19T12:52:18.121Z</id>
+    <id>urn:2024-11-19T18:36:03.757Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-11-19T12:52:18.121Z</updated>
+    <updated>2024-11-19T18:36:03.757Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[DO it again: how we used Durable Objects to add WebSockets support and authentication to AI Gateway]]></title>
+        <id>2b8uznXSknoVGwTIcxxmKp</id>
+        <link href="https://blog.cloudflare.com/do-it-again"/>
+        <updated>2024-11-19T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We used Cloudflare’s Developer Platform and Durable Objects to build authentication and a WebSockets API that developers can use to call AI Gateway, enabling continuous communication over a single, persistent connection.]]></summary>
+        <author>
+            <name>Catarina Pires Mota</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China boosts support for Global South + 2 more stories]]></title>
+        <id>https://newsletter.newsminimalist.com/p/china-boosts-support-for-global-south-2-more-stories</id>
+        <link href="https://newsletter.newsminimalist.com/p/china-boosts-support-for-global-south-2-more-stories"/>
+        <updated>2024-11-19T17:47:19.000Z</updated>
+        <summary type="html"><![CDATA[Chinese President Xi Jinping announces eight development measures for the Global South; President Biden visits the Amazon rainforest to boost climate efforts; Biden pledges record $4 billion to World Bank fund for poorest nations.]]></summary>
+        <author>
+            <name>News Minimalist</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sequence learning: A paradigm shift for personalized ads recommendations]]></title>
+        <id>https://engineering.fb.com/?p=21954</id>
+        <link href="https://engineering.fb.com/2024/11/19/data-infrastructure/sequence-learning-personalized-ads-recommendations/"/>
+        <updated>2024-11-19T17:00:43.000Z</updated>
+        <summary type="html"><![CDATA[AI plays a fundamental role in creating valuable connections between people and advertisers within Meta’s family of apps. Meta’s ad recommendation engine, powered by deep learning recommendation models (DLRMs), has been instrumental in delivering personalized ads to people. Key to this success was incorporating thousands of human-engineered signals or features in the DLRM-based recommendation system. [...]
+Read More...
+The post Sequence learning: A paradigm shift for personalized ads recommendations appeared first on Engineering at Meta.]]></summary>
+        <author>
+            <name>Engineering at Meta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monitoring and automating recovery from AZ impairments in Amazon EKS with Istio and ARC Zonal Shift]]></title>
+        <id>db09bb00bec3054fc452195e8064aa26f8c5eec4</id>
+        <link href="https://aws.amazon.com/blogs/containers/monitoring-and-automating-recovery-from-az-impairments-in-amazon-eks-with-istio-and-arc-zonal-shift/"/>
+        <updated>2024-11-19T15:33:54.000Z</updated>
+        <summary type="html"><![CDATA[Introduction Running microservice-style architectures in the cloud can quickly become a complex operation. Teams must account for a growing number of moving pieces such as multiple instances of independent workloads, along with their infrastructure dependencies. These components can then be distributed across different topology domains, such as multiple Amazon Elastic Compute Cloud (Amazon EC2) instances, […]]]></summary>
+        <author>
+            <name>Lukonde Mwila</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How China Could Re-Dollarize The World]]></title>
+        <id>673c3f761a75f60001d16cb4</id>
+        <link href="https://indi.ca/how-china-starts-printing-usd/"/>
+        <updated>2024-11-19T15:11:32.000Z</updated>
+        <summary type="html"><![CDATA[China just issued a USD bond in Saudi Arabia]]></summary>
+        <author>
+            <name>indi.ca</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Long-Running Kentucky Retirement Systems Case Surmounts Yet Another Procedural Spanner, Moves Closer to Discovery After Seven Years]]></title>
+        <id>https://www.nakedcapitalism.com/?p=282489</id>
+        <link href="https://www.nakedcapitalism.com/2024/11/long-running-kentucky-retirement-systems-case-surmounts-yet-another-procedural-spanner-moves-closer-to-discovery-after-seven-years.html"/>
+        <updated>2024-11-19T14:57:16.000Z</updated>
+        <summary type="html"><![CDATA[The long-running Kentucky Retirement Systems case is clearing the remaining obstacles to getting to discovery.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Links 11/19/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=282418</id>
@@ -43,6 +105,25 @@
         <summary type="html"><![CDATA[Hotter days and higher flood risk are prompting people across the South to consider moving north.]]></summary>
         <author>
             <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by rkharsan64 in "DOJ will push Google to sell off Chrome"]]></title>
+        <id>https://news.ycombinator.com/item?id=42181921</id>
+        <link href="https://news.ycombinator.com/item?id=42181921"/>
+        <updated>2024-11-19T10:27:42.000Z</updated>
+        <summary type="html"><![CDATA[People here seem to be underestimating the advantages that Google gets just because of Chrome:
+- When you sign in to Google, you sign in browser-wide. Google now gets all of your browsing data, perfect for advertising. (If you ever doubt it, go check out Google Takeout. You'll be shocked at the amount of data you see there.)
+- They have special APIs and features that they get to use, and nobody else. Only because they own Chrome. [1]
+- They get to move forward with enabling and pushing features that allow for more advertising: see Manifest v3, FLoC.
+- Google specifically serves a worse version of Search on Firefox for Mobile. You have to get an extension to get the full experience.
+This isn't an isolated attempt. You can see more of the same thing with Android.
+- AOSP (the open source counterpart of Android) is now unusable. It doesn't ship with most essential apps, including a Phone app. In previous versions of Android, all of these were a part of AOSP.
+- Most third party launchers/stores struggle to implement features because they are only available for Google themselves.
+- The signing in with Google thing from above continues here too: you sign in to Google system-wide.
+[1]: https://x.com/lcasdev/status/1810696257137959018]]></summary>
+        <author>
+            <name>rkharsan64</name>
         </author>
     </entry>
     <entry>
@@ -174,7 +255,7 @@ The post Sri Lanka’s National People’s Power Sweeps General Election appeare
         <summary type="html"><![CDATA[“…to tear down a factory or to revolt against a government or to avoid repair of a motorcycle because it is a system is to attack effects rather than causes; and as long as the attack is upon effects only, no change is possible. The true system, the real system, is our present construction of  More
 The post On Revolutionaries… appeared first on CounterPunch.org.]]></summary>
         <author>
-            <name>Grant Inskeep</name>
+            <name>Eric Elliot and Grant Inskeep</name>
         </author>
     </entry>
     <entry>
@@ -208,6 +289,17 @@ The post Hundreds of 19th-Century Skulls Collected in the Name of Medical Scienc
 The post Off Limits, But We Need to Talk About It appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Bob Topper</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[To Joe: What the Hell Have You Done? A Sonnet]]></title>
+        <id>https://www.counterpunch.org/?p=344143</id>
+        <link href="https://www.counterpunch.org/2024/11/19/to-joe-what-the-hell-have-you-done-a-sonnet/"/>
+        <updated>2024-11-19T05:30:09.000Z</updated>
+        <summary type="html"><![CDATA[What the f-k Joe? What the f-k is wrong with you? Do you want a nuclear war? Do you want to end it all before you’re through? Before you slip out the door? I knew that you were slippery But this takes the cake! You took my vote and you flipped me! I may be a  More
+The post To Joe: What the Hell Have You Done? A Sonnet appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Gary Lindorff</name>
         </author>
     </entry>
     <entry>
@@ -401,16 +493,6 @@ tumblr was also driving me insane, so i hid away on cohost for the entirety of t
         <summary type="html"><![CDATA[What does it say about AFRICOM’s counterterrorism mission when nationalized mines increasingly come under attack and the US proxy state of Ukraine is training terrorists the US is supposed to be fighting?]]></summary>
         <author>
             <name>Conor Gallagher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump’s Energy Sanctions Are a Double-Edged Sword for Global Economy]]></title>
-        <id>https://www.nakedcapitalism.com/?p=282383</id>
-        <link href="https://www.nakedcapitalism.com/2024/11/trumps-energy-sanctions-are-a-double-edged-sword-for-global-economy.html"/>
-        <updated>2024-11-18T10:03:00.000Z</updated>
-        <summary type="html"><![CDATA[Trump plans tougher sanctions on Iran's and Venezuela's oil exports, and secondary sanctions on China. How might that work?]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -956,17 +1038,6 @@ The post Voting Against Genocide – How Gaza Defeated the Democratic Establishm
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Roaming Charges: Trump’s Cabinet of Curiosities]]></title>
-        <id>https://www.counterpunch.org/?p=343413</id>
-        <link href="https://www.counterpunch.org/2024/11/15/roaming-charges-trumps-cabinet-of-curiosities/"/>
-        <updated>2024-11-15T07:01:50.000Z</updated>
-        <summary type="html"><![CDATA[It’s been a hallucinatory week, which I hope explains my momentary lapse of reason in believing that an unshackled and restored Trump just might follow through on his vow to drive the neocon contagion from the halls of executive power, if only out of revenge for plotting against him for the last eight years. After all, this was the man who evicted John Bolton. (The right side of my brain reminds me that this was also the man who hired John Bolton and the equally odious Elliot Abrams.) More
-The post Roaming Charges: Trump’s Cabinet of Curiosities appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>Jeffrey St. Clair</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[the median of meaningful]]></title>
         <id>https://mei.bearblog.dev/the-median-of-meaningful/</id>
         <link href="https://mei.bearblog.dev/the-median-of-meaningful/"/>
@@ -1090,21 +1161,6 @@ This mirrors my experience using LLMs on personal projects. They can provide goo
 Put another way, LLMs make the easy stuff easier, but royally screws up the hard stuff. The gap does appear to be widening, not shrinking. They work best where we need them the least.]]></summary>
         <author>
             <name>perrygeo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by belval in "PyPI now supports digital attestations"]]></title>
-        <id>https://news.ycombinator.com/item?id=42137562</id>
-        <link href="https://news.ycombinator.com/item?id=42137562"/>
-        <updated>2024-11-14T16:05:51.000Z</updated>
-        <summary type="html"><![CDATA[I have a bit of uneasiness about how this is heavily pushing GitHub actions as the correct way to publish to PyPI. I had to check PEP740 to make sure it was not directly supported by Microsoft.
-> The generation and publication of attestations happens by default, and no changes are necessary for projects that meet all of these conditions: publish from GitHub Actions; via Trusted Publishing; and use the pypa/gh-action-pypi-publish action to publish.
-If you then click on "The manual way" it adds a big disclaimer:
-> STOP! You probably don't need this section; it exists only to provide some internal details about how attestation generation and uploading work. If you're an ordinary user, it is strongly recommended that you use one of the official workflows described above.
-Where the only official workflow is "Use GitHub Actions".
-I guess I am an idealist but as a maintainer this falls short of my expectations  for the openness of Python and PyPI.]]></summary>
-        <author>
-            <name>belval</name>
         </author>
     </entry>
     <entry>
@@ -1415,16 +1471,6 @@ Tove is not my cat, but she is the cat I live with. She's also less a cat than s
 Edit: found it. https://medium.com/snips-ai/underground-location-tracking-3e...]]></summary>
         <author>
             <name>rossant</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moving to Canada (not)]]></title>
-        <id>https://crookedtimber.org/?p=53395</id>
-        <link href="https://crookedtimber.org/2024/11/13/moving-to-canada-not/"/>
-        <updated>2024-11-13T05:15:06.000Z</updated>
-        <summary type="html"><![CDATA[After Trump’s second election victory, lots of Americans are talking about emigrating, most commonly to Canada. This happens with every rightwing election win[1], but nothing ever comes of it. With the real prospect of indefinite Trumpist rule, the issues are more serious, but it seems unlikely that much will happen. But why not? It’s fairly […]]]></summary>
-        <author>
-            <name>John Q</name>
         </author>
     </entry>
 </feed>
