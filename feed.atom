@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-11-20T18:35:49.903Z</id>
+    <id>urn:2024-11-21T01:57:17.724Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-11-20T18:35:49.903Z</updated>
+    <updated>2024-11-21T01:57:17.724Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[How HP achieved 40% improvement in Kubernetes node utilization utilization on Amazon EKS using Karpenter]]></title>
+        <id>1cfef501e204d4782ada7fcdd095f8ae11aca063</id>
+        <link href="https://aws.amazon.com/blogs/containers/how-hp-achieved-40-improvement-in-kubernetes-node-utilization-utilization-on-amazon-eks-using-karpenter/"/>
+        <updated>2024-11-20T23:11:31.000Z</updated>
+        <summary type="html"><![CDATA[Introduction This post was co-authored by John Lewis (SW R&D Director in HP), Gajanan Chandgadkar (Principal Cloud Operations Architect, HP), Rutvij Dave (Sr. Solutions Architect at AWS), Ratnopam Chakrabarti (Sr. Solutions Architect, Containers and Open-Source technologies at AWS), Apeksha Chauhan(Senior Technical Account Manager at AWS) and Chance Lee (Sr. Container Specialist Solutions Architect at AWS) […]]]></summary>
+        <author>
+            <name>sabsawan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Vannevar Labs cut ML inference costs by 45% using Ray on Amazon EKS]]></title>
+        <id>881522d823c2683572eded22898d1b5c5549f643</id>
+        <link href="https://aws.amazon.com/blogs/containers/how-vannevar-labs-cut-ml-inference-costs-by-45-using-ray-on-amazon-eks/"/>
+        <updated>2024-11-20T23:09:38.000Z</updated>
+        <summary type="html"><![CDATA[This blog is authored by Colin Putney (ML Engineer at Vannevar Labs), Shivam Dubey (Specialist SA Containers at AWS), Apoorva Kulkarni (Sr.Specialist SA, Containers at AWS), and Rama Ponnuswami (Principal Container Specialist at AWS). Vannevar Labs is a defense tech startup, successfully cut machine learning (ML) inference costs by 45% using Ray and Karpenter on Amazon Elastic Kubernetes Service (Amazon EKS). […]]]></summary>
+        <author>
+            <name>sabsawan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Amazon CloudFront VPC origins: Enhanced security and streamlined operations for your applications]]></title>
+        <id>e9cf7abc977d40ac1bb9255061c1a08c6959b403</id>
+        <link href="https://aws.amazon.com/blogs/aws/introducing-amazon-cloudfront-vpc-origins-enhanced-security-and-streamlined-operations-for-your-applications/"/>
+        <updated>2024-11-20T22:12:22.000Z</updated>
+        <summary type="html"><![CDATA[Securely deliver high-performance web apps with CloudFront VPC origins; serve content directly from private subnets, eliminating undifferentiated work.]]></summary>
+        <author>
+            <name>Matheus Guimaraes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon CloudFront now accepts your applications’ gRPC calls]]></title>
+        <id>5d526139e265f2b1f97ea808cbe69afe4337f6ae</id>
+        <link href="https://aws.amazon.com/blogs/aws/amazon-cloudfront-now-accepts-your-applications-grpc-calls/"/>
+        <updated>2024-11-20T22:03:14.000Z</updated>
+        <summary type="html"><![CDATA[Unlock high-performance APIs with gRPC on Amazon CloudFront. Reduce latency via a global CDN, secure traffic at the edge, and benefit from DDoS protection.]]></summary>
+        <author>
+            <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bigger and badder: how DDoS attack sizes have evolved over the last decade]]></title>
         <id>5JhHzAWP0tvrl8ZolsnvyE</id>
@@ -13,6 +53,46 @@
         <summary type="html"><![CDATA[If we plot the metrics associated with large DDoS attacks observed in the last 10 years, does it show a straight, steady increase in an exponential curve that keeps becoming steeper, or is it closer to a linear growth? Our analysis found the growth is not linear but rather is exponential, with the slope varying depending on the metric (rps, pps or bps).]]></summary>
         <author>
             <name>José Salvador</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NAIRU — a harmful fairy tale]]></title>
+        <id>http://rwer.wordpress.com/?p=45841</id>
+        <link href="https://rwer.wordpress.com/2024/11/20/nairu-a-harmful-fairy-tale-2/"/>
+        <updated>2024-11-20T21:35:27.000Z</updated>
+        <summary type="html"><![CDATA[from Lars Syll The NAIRU story has always had a very clear policy implication — attempts to promote full employment are doomed to fail since governments and central banks can’t push unemployment below the critical NAIRU threshold without causing harmful runaway inflation. Although a lot of mainstream economists and politicians have a touching faith in […]]]></summary>
+        <author>
+            <name>Lars Syll</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resilient Internet connectivity in Europe mitigates impact from multiple cable cuts]]></title>
+        <id>5DP2F9GATeUBYyfl6pQMej</id>
+        <link href="https://blog.cloudflare.com/resilient-internet-connectivity-baltic-cable-cuts"/>
+        <updated>2024-11-20T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Two recent cable cuts that occurred in the Baltic Sea resulted in little-to-no observable impact to the affected countries, in large part because of the significant redundancy and resilience of Internet infrastructure in Europe.]]></summary>
+        <author>
+            <name>David Belson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is the grass greener on the Bluesky side of the fence?]]></title>
+        <id>https://disassociated.com/?p=8870</id>
+        <link href="https://disassociated.com/grass-greener-bluesky-side-fence/"/>
+        <updated>2024-11-20T20:00:29.000Z</updated>
+        <summary type="html"><![CDATA[Twitter-like microblogging social network Bluesky is having its moment in the sun. We’ve all seen the multiple headlines of late heralding the arrival of another several million new members, most of whom have migrated from Twitter. The buzz is similar to that surrounding Mastodon about two years ago. Even if Mastodon’s decentralised structure confused many […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2:00PM Water Cooler 11/20/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=282528</id>
+        <link href="https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-20-2024.html"/>
+        <updated>2024-11-20T19:00:53.000Z</updated>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, pandemic; Theories of Trump's nomination nethodology; Treasury rumors continue; RFK Big Mac flap ~]]></summary>
+        <author>
+            <name>Lambert Strether</name>
         </author>
     </entry>
     <entry>
@@ -43,6 +123,28 @@
         <summary type="html"><![CDATA[In today’s cloud-driven world, maintaining compliance and enforcing organizational policies across your infrastructure is more critical than ever. AWS CloudFormation, a service that enables you to model, provision, and manage AWS and third-party resources through Infrastructure as Code (IaC), has been a cornerstone for automating cloud deployments. While CloudFormation simplifies resource management, ensuring compliance with […]]]></summary>
         <author>
             <name>Brian Terry</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by OutOfHere in "FireDucks: Pandas but Faster"]]></title>
+        <id>https://news.ycombinator.com/item?id=42195321</id>
+        <link href="https://news.ycombinator.com/item?id=42195321"/>
+        <updated>2024-11-20T16:12:46.000Z</updated>
+        <summary type="html"><![CDATA[Don't use it:
+> By providing the beta version of FireDucks free of charge and enabling data scientists to actually use it, NEC will work to improve its functionality while verifying its effectiveness, with the aim of commercializing it within FY2024.
+In other words, it's free only to trap you.]]></summary>
+        <author>
+            <name>OutOfHere</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Initial thoughts on The Power of Now by Eckhart Tolle]]></title>
+        <id>https://meadow.cafe/initial-thoughts-on-the-power-of-now-by-eckhart-tolle/</id>
+        <link href="https://meadow.cafe/initial-thoughts-on-the-power-of-now-by-eckhart-tolle/"/>
+        <updated>2024-11-20T16:10:00.000Z</updated>
+        <summary type="html"><![CDATA[I finally started reading The Power of Now by Eckhart Tolle. I've tried to start this book many times before, but I always stopped in the first chapter or so because I felt that the author was being unnecessarily airy and, more importantly, he directly claimed that he ended up in this semi enlightened state but doesn't rightly know how he got there. This point was the point where I always stopped, but this time I decided to power through it, and in doing so I discovered I've been missing an important part: after not knowing what had happened, and just living in a state of present bliss, Eckhart discovered that what had happened to him is what many religions aim as their ultimate goal, so he went on to discover more about that and how a normal person might get to his state, but told from hi…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -293,6 +395,17 @@ The post Nuclear Propaganda Exposed appeared first on CounterPunch.org.]]></summ
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Floor Speech on Joint Resolutions of Disapproval to Block Sale of Certain Offensive Weapons to Israel]]></title>
+        <id>https://www.counterpunch.org/?p=344400</id>
+        <link href="https://www.counterpunch.org/2024/11/20/floor-speech-on-joint-resolutions-of-disapproval-to-block-sale-of-certain-offensive-weapons-to-israel/"/>
+        <updated>2024-11-20T06:52:48.000Z</updated>
+        <summary type="html"><![CDATA[M. President, Let me thank the leadership for their cooperation in setting up this debate. Today, we will be voting on three Joint Resolutions of Disapproval, or JRDs, to block the sale of certain offensive weapons systems to Israel. These resolutions are S.J.Res.111 to block the sale of 120mm tank rounds. S.J.Res.113 to block the  More
+The post Floor Speech on Joint Resolutions of Disapproval to Block Sale of Certain Offensive Weapons to Israel appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Bernie Sanders</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Letter from London: You Don’t Get Me, I’m Part of the Union]]></title>
         <id>https://www.counterpunch.org/?p=343907</id>
         <link href="https://www.counterpunch.org/2024/11/20/letter-from-london-you-dont-get-me-im-part-of-the-union/"/>
@@ -534,16 +647,6 @@ https://static.mgx.me/bear/themes/abzug.css.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Will Online Age Verification Be the Trojan Horse for the Mass Rollout of Digital IDs?]]></title>
-        <id>https://www.nakedcapitalism.com/?p=282440</id>
-        <link href="https://www.nakedcapitalism.com/2024/11/will-online-age-verification-be-the-trojan-horse-for-mass-rollout-of-digital-id.html"/>
-        <updated>2024-11-19T11:45:05.000Z</updated>
-        <summary type="html"><![CDATA[Online age verification threatens to trap everyone, not just minors, in its web, as the Australian government recently admitted.]]></summary>
-        <author>
-            <name>Nick Corbishley</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by rkharsan64 in "DOJ will push Google to sell off Chrome"]]></title>
         <id>https://news.ycombinator.com/item?id=42181921</id>
         <link href="https://news.ycombinator.com/item?id=42181921"/>
@@ -728,17 +831,6 @@ The post Hundreds of 19th-Century Skulls Collected in the Name of Medical Scienc
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Off Limits, But We Need to Talk About It]]></title>
-        <id>https://www.counterpunch.org/?p=344022</id>
-        <link href="https://www.counterpunch.org/2024/11/19/off-limits-but-we-need-to-talk-about-it/"/>
-        <updated>2024-11-19T06:50:15.000Z</updated>
-        <summary type="html"><![CDATA[A recent Washington Post headline read “Democrats face a reckoning and a long rebuilding. There’s no quick fix.” The criticism is universal and deserved. But other factors influenced the outcome of this election: a press that normalized Trumps behavior; biased news organizations, especially Fox who admittedly lied to viewers, and an unregulated digital media, which spread mountains  More
-The post Off Limits, But We Need to Talk About It appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>Bob Topper</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Trump’s dictatorship is a fait accompli]]></title>
         <id>https://crookedtimber.org/?p=53405</id>
         <link href="https://crookedtimber.org/2024/11/19/trumps-dictatorship-is-a-fait-accompli/"/>
@@ -766,16 +858,6 @@ The post Off Limits, But We Need to Talk About It appeared first on CounterPunch
         <summary type="html"><![CDATA[Introduction Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks. However, maintaining […]]]></summary>
         <author>
             <name>Ashok Srirama</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by Etheryte in "Two undersea cables in Baltic Sea disrupted"]]></title>
-        <id>https://news.ycombinator.com/item?id=42177868</id>
-        <link href="https://news.ycombinator.com/item?id=42177868"/>
-        <updated>2024-11-18T22:38:02.000Z</updated>
-        <summary type="html"><![CDATA[This is a misleading framing. The two cables last year were not taken out by an anchor as an accident, it was literally a ship putting down its anchor just before the cable and then dragging it over the cable. In other words, sabotage. There's no point in trying to color any of this with rose tinted glasses when it's clear who's done it and why.]]></summary>
-        <author>
-            <name>Etheryte</name>
         </author>
     </entry>
     <entry>
@@ -1495,106 +1577,6 @@ Alex Jones response: https://x.com/RealAlexJones/status/1857058831135645739]]></
         <summary type="html"><![CDATA[Cloudflare customers can now create Account Owned Tokens , allowing more flexibility around access control for their Cloudflare services. Additionally, Zaraz Automation Actions streamlines event tracking and third-party tool integration.]]></summary>
         <author>
             <name>Joseph So</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by frereubu in "MomBoard: E-ink display for a parent with amnesia"]]></title>
-        <id>https://news.ycombinator.com/item?id=42136060</id>
-        <link href="https://news.ycombinator.com/item?id=42136060"/>
-        <updated>2024-11-14T13:42:16.000Z</updated>
-        <summary type="html"><![CDATA[This is one of the few HN articles that have profoundly moved me. Such a beautiful and simple use of technology to make a clear and big improvement in someone's life.
-As a side note on his mother remembering that the tablet exists, it sounds like she has amnesia quite like Henry Molaison, a famous case study in neuropathology. He had very specific brain damage that seemingly stopped him forming new memories in the same way as OP's mother, but studies showed that he could remember some things, just not consciously. So for example he would have warm feelings towards people who'd been caring for him despite not remembering them, and would also pick up card games more and more quickly as he played them repeatedly despite saying he didn't remember the game. OP's mother remembering the tablet sounds very similar, particularly when paired with the feeling of being remembered and loved by her children.]]></summary>
-        <author>
-            <name>frereubu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by angrygoat in "MomBoard: E-ink display for a parent with amnesia"]]></title>
-        <id>https://news.ycombinator.com/item?id=42135621</id>
-        <link href="https://news.ycombinator.com/item?id=42135621"/>
-        <updated>2024-11-14T12:36:37.000Z</updated>
-        <summary type="html"><![CDATA[What a beautiful use of technology to uphold someone's personhood, and let them know they are loved, despite (and with regard to) a profound injury.
-This reminds me of a desire I've had for a long time: a simple, wall-mountable eInk device that could be configured with a URL (+wifi creds) and render a markdown file, refreshing once every hour or so. It would be so useful for so many applications – I'm a parish priest and so I could use it to let people know what events are on, if a service is cancelled, the current prayer list, ... the applications would be endless. I'd definitely pay a couple of hundred dollars per device for a solid version of such a thing, if it could be mounted and then recharged every month or two.]]></summary>
-        <author>
-            <name>angrygoat</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blogging as an Art Form]]></title>
-        <id>https://louplummer.lol/ama-is-blogging-an-art-form/</id>
-        <link href="https://louplummer.lol/ama-is-blogging-an-art-form/"/>
-        <updated>2024-11-14T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Ask me anything - Do you consider blogging to be an art form?
-One thing I absolutely despise is elitism is any form, followed closely by gatekeeping. Sure, people have varying degrees of talent, but I prefer an open society that encourages folks to try their hand at things. It is much better than one that acts like the plebes should stay on the sidelines while the real pros do their thing. That's why I don't find it the least bit pretentious when anyone describes themselves as an artist, regardless of the form they choose. I smile when I see anyone present a drawing or a poem or a landscape photo to the world. It's an attempt to bring something conjured in one's creative spirit to life, shared with the hope that it will spark a feeling in others.
-When I look at the effort it takes to write…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Investment‑Led Growth Lowers Chinese Living Standards]]></title>
-        <id>https://libertystreeteconomics.newyorkfed.org/?p=32219</id>
-        <link href="https://libertystreeteconomics.newyorkfed.org/2024/11/why-investment-led-growth-lowers-chinese-living-standards/"/>
-        <updated>2024-11-14T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Rapid GDP growth, due in part to high rates of investment and capital accumulation, has raised China out of poverty and into middle-income status. But progress in raising living standards has lagged, as a side-effect of policies favoring investment over consumption. At present, consumption per capita stands some 40 percent below what might be expected given China's income level. We quantify China's consumption prospects via the lens of the neoclassical growth model. We find that shifting the country's production mix toward consumption would raise both current and future living standards, with the latter result owing to diminishing returns to capital accumulation. Chinese policy, however, appears to be moving in the opposite direction, to reemphasize investment-led growth.]]></summary>
-        <author>
-            <name>Matthew Higgins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ash Merton: &ldquo;Return to Washington&rdquo;]]></title>
-        <id>https://newleftreview.org/sidecar/posts/return-to-washington</id>
-        <link href="https://newleftreview.org/sidecar/posts/return-to-washington"/>
-        <updated>2024-11-14T11:41:11.000Z</updated>
-        <summary type="html"><![CDATA[Prospects for Trump’s White House.]]></summary>
-        <author>
-            <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In Greece, gross fixed investment still is at a pre-industrial level.]]></title>
-        <id>http://rwer.wordpress.com/?p=45774</id>
-        <link href="https://rwer.wordpress.com/2024/11/14/in-greece-gross-fixed-investment-still-is-at-a-pre-industrial-level/"/>
-        <updated>2024-11-14T09:51:02.000Z</updated>
-        <summary type="html"><![CDATA[Executive summary: if investments are needed, do not reform. Invest. Investments are the reform. Angus Maddison (historical patterns of growth) and Jan Kregel (leading post-Keynesian economist) were the intellectually dominant forces during my economics study in Groningen around 1982. Let´s apply their frameworks to Greece. In some countries, productivity has stagnated for quite some time […]]]></summary>
-        <author>
-            <name>merijntknibbe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[There’s No Such Thing as a Free Lunch!]]></title>
-        <id>https://slack.engineering/?p=17276</id>
-        <link href="https://slack.engineering/theres-no-such-thing-as-a-free-lunch/"/>
-        <updated>2024-11-14T09:00:08.000Z</updated>
-        <summary type="html"><![CDATA[Incident Management takes time Incidents need responders that are trained and experienced.  At Slack, training is a foundation of our incident management program. Self-service training and live courses based mainly on prepared content are one piece of the puzzle, but there can be a missing piece in many organizations. How can staff get practical experience…
-The post There’s No Such Thing as a Free Lunch! appeared first on Engineering at Slack.]]></summary>
-        <author>
-            <name>Scott Nelson Windels</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by modernerd in "I Followed the Official AWS Amplify Guide and Was Charged $1,100"]]></title>
-        <id>https://news.ycombinator.com/item?id=42134059</id>
-        <link href="https://news.ycombinator.com/item?id=42134059"/>
-        <updated>2024-11-14T08:08:21.000Z</updated>
-        <summary type="html"><![CDATA["Billing alerts" are a joke, give us hard spend limits. Then offer a way to set those limits during onboarding.
-Building a business on blank cheques and accidental spends is shady. It's also a large barrier to adoption. The more times devs see reports like, "I tried [random 20-minute tutorial] and woke up to a bill for my life's savings and luckily support waived the fee this one time but next time they're coming for my house", the less they'll want to explore your offerings.]]></summary>
-        <author>
-            <name>modernerd</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by fchollet in "Francois Chollet is leaving Google"]]></title>
-        <id>https://news.ycombinator.com/item?id=42133844</id>
-        <link href="https://news.ycombinator.com/item?id=42133844"/>
-        <updated>2024-11-14T07:27:07.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, Francois here. Happy to answer any questions!
-Here's a start --
-"Did you get poached by Anthropic/etc": No, I am starting a new company with a friend. We will announce more about it in due time!
-"Who uses Keras in production": Off the top of my head the current list includes Midjourney, YouTube, Waymo, Google across many products (even Ads started moving to Keras recently!), Netflix, Spotify, Snap, GrubHub, Square/Block, X/Twitter, and many non-tech companies like United, JPM, Orange, Walmart, etc. In total Keras has ~2M developers and powers ML at many companies big and small. This isn't all TF -- many of our users have started running Keras on JAX or PyTorch.
-"Why did you decide to merge Keras into TensorFlow in 2019": I didn't! The decision was made in 2018 by the TF leads -- I was a L5 IC at the time and that was an L8 decision. The TF team was huge at the time, 50+ people, while Keras was just me and the open-source community. In retrospect I think Keras would have been better off as an independent multi-backend framework -- but that would have required me quitting Google back then. Making Keras multi-backend again in 2023 has been one of my favorite projects to work on, both from the engineering & architecture side of things but also because the product is truly great (also, I love JAX)!]]></summary>
-        <author>
-            <name>fchollet</name>
         </author>
     </entry>
 </feed>
