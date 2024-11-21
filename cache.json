@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "3c48f4b90c1afccc51d832e1bd239d9a4d036796",
+          "author": "Prasad Rao",
+          "description": "A new intuitive AWS console design enhances readability, reduces complexity for improved task focus and efficiency while maintaining familiarity across AWS experiences.",
+          "link": "https://aws.amazon.com/blogs/aws/announcing-a-visual-update-to-the-aws-management-console-preview/",
+          "publishedOn": "2024-11-21T14:53:11.000Z",
+          "wordCount": 1422,
+          "title": "Announcing a visual update to the AWS Management Console (preview)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/07/Thumbnail.png"
+        },
+        {
           "id": "e9cf7abc977d40ac1bb9255061c1a08c6959b403",
           "author": "Matheus Guimaraes",
           "description": "Securely deliver high-performance web apps with CloudFront VPC origins; serve content directly from private subnets, eliminating undifferentiated work.",
@@ -132,6 +142,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
         {
+          "id": "06438beb8b5a369c8d7df0ccec85c17549c361b4",
+          "author": "Kevin DeJong",
+          "description": "Today we are announcing the integration of AWS CloudFormation Hooks with AWS Cloud Control API (CCAPI). This integration enables the use of hooks to validate the configuration of resources being provisioned through CCAPI. In this blog post, we will explore the integration between CloudFormation Hooks and CCAPI by configuring an existing hook to work with […]",
+          "link": "https://aws.amazon.com/blogs/devops/introducing-aws-cloudformation-hooks-invoked-via-aws-cloud-control-api-ccapi/",
+          "publishedOn": "2024-11-21T17:27:53.000Z",
+          "wordCount": 2123,
+          "title": "Introducing AWS CloudFormation Hooks invoked via AWS Cloud Control API (CCAPI)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/11/19/hooksccapi.png"
+        },
+        {
           "id": "6e59f7aea8061022674286f8882daa78a3e476a1",
           "author": "Kirankumar Chandrashekar",
           "description": "AWS CloudFormation is a service that allows you to define, manage, and provision your AWS cloud infrastructure using code. To enhance this process and ensure your infrastructure meets your organization’s standards, AWS offers CloudFormation Hooks. These Hooks are extension points that allow you to invoke custom logic at specific points during CloudFormation stack operations, enabling […]",
@@ -183,12 +203,12 @@
         {
           "id": "1cfef501e204d4782ada7fcdd095f8ae11aca063",
           "author": "sabsawan",
-          "description": "Introduction This post was co-authored by John Lewis (SW R&D Director in HP), Gajanan Chandgadkar (Principal Cloud Operations Architect, HP), Rutvij Dave (Sr. Solutions Architect at AWS), Ratnopam Chakrabarti (Sr. Solutions Architect, Containers and Open-Source technologies at AWS), Apeksha Chauhan(Senior Technical Account Manager at AWS) and Chance Lee (Sr. Container Specialist Solutions Architect at AWS) […]",
+          "description": "Introduction This post was co-authored by Jon Lewis (SW R&D Director in HP), Gajanan Chandgadkar (Principal Cloud Operations Architect, HP), Rutvij Dave (Sr. Solutions Architect at AWS), Ratnopam Chakrabarti (Sr. Solutions Architect, Containers and Open-Source technologies at AWS), Apeksha Chauhan(Senior Technical Account Manager at AWS) and Chance Lee (Sr. Container Specialist Solutions Architect at AWS) […]",
           "link": "https://aws.amazon.com/blogs/containers/how-hp-achieved-40-improvement-in-kubernetes-node-utilization-utilization-on-amazon-eks-using-karpenter/",
           "publishedOn": "2024-11-20T23:11:31.000Z",
-          "wordCount": 3003,
-          "title": "How HP achieved 40% improvement in Kubernetes node utilization utilization on Amazon EKS using Karpenter",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/11/15/Featured-images-for-Containers-Blog-2-1260x630.jpg"
+          "wordCount": 3000,
+          "title": "How HP achieved 40% improvement in Kubernetes node utilization on Amazon EKS using Karpenter",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/11/21/Featured-images-for-Containers-Blog-8-1260x630.jpg"
         },
         {
           "id": "881522d823c2683572eded22898d1b5c5549f643",
@@ -196,7 +216,7 @@
           "description": "This blog is authored by Colin Putney (ML Engineer at Vannevar Labs), Shivam Dubey (Specialist SA Containers at AWS), Apoorva Kulkarni (Sr.Specialist SA, Containers at AWS), and Rama Ponnuswami (Principal Container Specialist at AWS). Vannevar Labs is a defense tech startup, successfully cut machine learning (ML) inference costs by 45% using Ray and Karpenter on Amazon Elastic Kubernetes Service (Amazon EKS). […]",
           "link": "https://aws.amazon.com/blogs/containers/how-vannevar-labs-cut-ml-inference-costs-by-45-using-ray-on-amazon-eks/",
           "publishedOn": "2024-11-20T23:09:38.000Z",
-          "wordCount": 2317,
+          "wordCount": 2314,
           "title": "How Vannevar Labs cut ML inference costs by 45% using Ray on Amazon EKS",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/11/19/Featured-images-for-Containers-Blog-4-1260x630.jpg"
         },
@@ -240,7 +260,7 @@
         {
           "id": "https://www.counterpunch.org/?p=343900",
           "author": "Shaylih Muehlmann",
-          "description": "In Mexico today, thousands of families are searching for loved ones who have disappeared amid the violence associated with “the war on drugs.” Although disappearances in Mexico trace back to the Cold War and the repression of guerrilla movements in the 1960s and 1970s, they have expanded in scale and taken on new dimensions in  More\nThe post Free Trade’s Legacy of Grief for Families of the Disappeared in Mexico appeared first on CounterPunch.org.",
+          "description": "In Mexico today, thousands of families are searching for loved ones who have disappeared amid the violence associated with “the war on drugs.” Although disappearances in Mexico trace back to the Cold War and the repression of guerrilla movements in the 1960s and 1970s, they have expanded in scale and taken on new dimensions in the neoliberal era. Trade agreements like NAFTA, intended promote economic growth, have inadvertently fueled drug-trafficking across the U.S.-Mexico border, contributing to a crisis of violence that disproportionately impacts marginalized communities—those already vulnerable due to poverty and limited political power. More\nThe post Free Trade’s Legacy of Grief for Families of the Disappeared in Mexico appeared first on CounterPunch.org.",
           "link": "https://www.counterpunch.org/2024/11/21/free-trades-legacy-of-grief-for-families-of-the-disappeared-in-mexico/",
           "publishedOn": "2024-11-21T06:57:18.000Z",
           "wordCount": null,
@@ -251,7 +271,7 @@
         {
           "id": "https://www.counterpunch.org/?p=344436",
           "author": "Binoy Kampmark",
-          "description": "COP29 was always going to be memorable, for no other reason than the hosting country, Azerbaijan, is a petrostate indifferent to the issue of emissions and scornful of ecological preachers.  It has seen its natural gas supply grow by 128% between 2000 and 2021.  Between 2006 and 2021, gas exports rose by a monumental 29,290%.  A dizzying 95% of the  More\nThe post Thank You for Emitting: The Hypocrisies of COP29 appeared first on CounterPunch.org.",
+          "description": "COP29 was always going to be memorable, for no other reason than the hosting country, Azerbaijan, is a petrostate indifferent to the issue of emissions and scornful of ecological preachers.  It has seen its natural gas supply grow by 128% between 2000 and 2021.  Between 2006 and 2021, gas exports rose by a monumental 29,290%.  A dizzying 95% of the country’s exports are made up of oil and gas, with much of its wealth failing to trickle down to the rest of the populace. More\nThe post Thank You for Emitting: The Hypocrisies of COP29 appeared first on CounterPunch.org.",
           "link": "https://www.counterpunch.org/2024/11/21/thank-you-for-emitting-the-hypocrisies-of-cop29/",
           "publishedOn": "2024-11-21T06:56:11.000Z",
           "wordCount": null,
@@ -262,11 +282,11 @@
         {
           "id": "https://www.counterpunch.org/?p=344439",
           "author": "Jonah Raskin",
-          "description": "If the Garrison State isn’t already here, it’s sure to be here very soon. Wait and watch and observe the arrival of a suped-up American political and economic system buttressed anew by the military. True, all eyes, or at least a great many of them across the US and around the world, have been focused  More\nThe post The Precarious Precariat & the Garrison State appeared first on CounterPunch.org.",
+          "description": "If the Garrison State isn’t already here, it’s sure to be here very soon. Wait and watch and observe the arrival of a suped-up American political and economic system buttressed anew by the military. True, all eyes, or at least a great many of them across the US and around the world, have been focused on Washington D.C., the White House and Trump’s controversial appointees to cabinet positions. More\nThe post The Precarious Precariat and the Garrison State appeared first on CounterPunch.org.",
           "link": "https://www.counterpunch.org/2024/11/21/the-precarious-precariat-the-garrison-state/",
           "publishedOn": "2024-11-21T06:55:19.000Z",
           "wordCount": null,
-          "title": "The Precarious Precariat & the Garrison State",
+          "title": "The Precarious Precariat and the Garrison State",
           "itunes": {},
           "imageUrl": null
         },
@@ -333,6 +353,17 @@
           "publishedOn": "2024-11-21T06:28:47.000Z",
           "wordCount": null,
           "title": "Trump’s Outrageous Disregard for Climate Change Endangers the World",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=344470",
+          "author": "Ed Sanders",
+          "description": "The post Possible Justice Department Conversation: a Glyph appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/11/21/possible-justice-department-conversation-a-glyph/",
+          "publishedOn": "2024-11-21T05:37:46.000Z",
+          "wordCount": null,
+          "title": "Possible Justice Department Conversation: a Glyph",
           "itunes": {},
           "imageUrl": null
         },
@@ -555,17 +586,6 @@
           "title": "“We Will Smoke Them Out!” Escalating Xenophobia in South Africa",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=344011",
-          "author": "William D. Hartung",
-          "description": "When the election results came in on November 5th, I felt a pain in the pit of my stomach, similar to what I experienced when Ronald Reagan rode to power in 1980, or with George W. Bush’s tainted victory over Al Gore in 2000. After some grieving, the first question that came to my mind  More\nThe post The Trump Conundrum appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/19/the-trump-conundrum/",
-          "publishedOn": "2024-11-19T06:57:45.000Z",
-          "wordCount": null,
-          "title": "The Trump Conundrum",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -637,7 +657,7 @@
           "description": "from Peter Radford Take four. I continue to listen in on the conversation. The election reverberates loudly around leftish circles. Recriminations mount. Criticisms fly. Finger pointing and over-analysis have become all too common. And this is after just a week. Imagine what a month can produce. So far the central narrative seems to be that […]",
           "link": "https://rwer.wordpress.com/2024/11/17/election-take-four/",
           "publishedOn": "2024-11-17T17:53:24.000Z",
-          "wordCount": 5473,
+          "wordCount": 5471,
           "title": "Election: Take Four",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -647,7 +667,7 @@
           "description": "Eurostat published new data on employment in Europe. Average employment growth is +0,9%. The average hides stark differences. A Germany-centered core consisting of Germany, Austria, Sweden, Estonia, Finland, and Hungary shows declines. Surprisingly, it excludes Denmark, Belgium and the Netherlands. The South does better. Countries like Portugal, France, Greece, and, especially, Spain post above-average increases. […]",
           "link": "https://rwer.wordpress.com/2024/11/15/employment-growth-in-europe-stark-differences/",
           "publishedOn": "2024-11-15T09:40:57.000Z",
-          "wordCount": 4509,
+          "wordCount": 4507,
           "title": "Employment growth in Europe. Stark differences.",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-14.png"
         }
@@ -665,12 +685,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=282580",
+          "author": "Yves Smith",
+          "description": "After a long delay, the International Criminal Court issued arrest warrants against the open genociders Benjamin Netanyahu and Yoav Gallant.",
+          "link": "https://www.nakedcapitalism.com/2024/11/international-criminal-court-issues-arrest-warrants-for-israel-prime-minister-benjamin-netanyahu-and-former-minister-of-defense-yoav-gallant.html",
+          "publishedOn": "2024-11-21T14:55:05.000Z",
+          "wordCount": 6033,
+          "title": "International Criminal Court Issues Arrest Warrants for Israel Prime Minister Benjamin Netanyahu and Former Minister of Defense, Yoav Gallant",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-21-at-10.07.21-PM.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=282570",
           "author": "Lambert Strether",
           "description": "Our overly dynamic daily links",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-21-2024.html",
           "publishedOn": "2024-11-21T11:55:31.000Z",
-          "wordCount": 4459,
+          "wordCount": 11906,
           "title": "Links 11/21/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/macaca_monkey.jpg"
         },
@@ -680,7 +710,7 @@
           "description": "RFK, Jr.'s plan, if confirmed as HHS chair, to end Medicare use of AMA licensed-billing codes somehow will increase, not lower, costs.",
           "link": "https://www.nakedcapitalism.com/2024/11/rfk-jr-plans-attack-on-amas-big-meal-ticket-licensing-fees-for-medical-billing-codes.html",
           "publishedOn": "2024-11-21T11:46:09.000Z",
-          "wordCount": 3713,
+          "wordCount": 9829,
           "title": "RFK, Jr. Plans Attack on AMA’s Big Meal Ticket, Licensing Fees for Medical Billing Codes",
           "imageUrl": null
         },
@@ -690,7 +720,7 @@
           "description": "An effort to get at the root of what politics is meant to achieve.",
           "link": "https://www.nakedcapitalism.com/2024/11/what-is-politics-what-is-the-political.html",
           "publishedOn": "2024-11-21T11:00:19.000Z",
-          "wordCount": 6807,
+          "wordCount": 7538,
           "title": "What Is Politics & What Is the Political?",
           "imageUrl": null
         },
@@ -700,7 +730,7 @@
           "description": "A reader critical thinking exercise, in form of yet another attack on populism dressed in the pseudo-science of trying to link it to entropy.",
           "link": "https://www.nakedcapitalism.com/2024/11/entropy-and-information-control-the-key-to-understanding-how-to-mount-the-fightback-against-trump-and-other-populists.html",
           "publishedOn": "2024-11-21T09:05:33.000Z",
-          "wordCount": 5557,
+          "wordCount": 7257,
           "title": "“Entropy and Information Control: the Key to Understanding How to Mount the Fightback Against Trump and Other Populists”",
           "imageUrl": null
         },
@@ -710,7 +740,7 @@
           "description": "~ Today's Water Cooler: Politics, pandemic; Theories of Trump's nomination nethodology; Treasury rumors continue; RFK Big Mac flap ~",
           "link": "https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-20-2024.html",
           "publishedOn": "2024-11-20T19:00:53.000Z",
-          "wordCount": 13167,
+          "wordCount": 13172,
           "title": "2:00PM Water Cooler 11/20/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/australian_speculation.png"
         },
@@ -720,7 +750,7 @@
           "description": "Like Gaetz, Gabbard is a mixed-bag candidate. Should she get your support?",
           "link": "https://www.nakedcapitalism.com/2024/11/thomas-neuburger-tulsi-gabbards-dni-nomination.html",
           "publishedOn": "2024-11-20T15:04:47.000Z",
-          "wordCount": 7400,
+          "wordCount": 7405,
           "title": "Thomas Neuburger: Tulsi Gabbard’s DNI Nomination",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/00-gabbard.png"
         },
@@ -730,7 +760,7 @@
           "description": "The US attacks Russia, more wild Trump cabinet picks, and ground control to Major Biden.",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-20-2024.html",
           "publishedOn": "2024-11-20T11:55:34.000Z",
-          "wordCount": 11001,
+          "wordCount": 11188,
           "title": "Links 11/20/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screenshot-2024-11-19-at-9.07.25 PM-1024x659.png"
         },
@@ -740,7 +770,7 @@
           "description": "On how the shame resulting from the loss of seen-as-meaningful and well-paid work led many to reject the rule of their PMC betters.",
           "link": "https://www.nakedcapitalism.com/2024/11/a-post-election-reflection-on-stolen-pride-loss-shame-and-the-rise-of-the-right.html",
           "publishedOn": "2024-11-20T11:54:22.000Z",
-          "wordCount": 8521,
+          "wordCount": 8526,
           "title": "A Post-Election Reflection on Stolen Pride: Loss, Shame, and the Rise of the Right",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/00-shame.png"
         },
@@ -750,19 +780,9 @@
           "description": "The firehose of affluent consumption continues to drive inflation, not the stimulus package",
           "link": "https://www.nakedcapitalism.com/2024/11/how-the-wall-street-journal-blew-the-story-of-the-democrats-and-inflation.html",
           "publishedOn": "2024-11-20T11:53:59.000Z",
-          "wordCount": 8332,
+          "wordCount": 8570,
           "title": "How the Wall Street Journal Blew the Story of the Democrats and Inflation",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/00-inflation.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=282497",
-          "author": "Yves Smith",
-          "description": "While historian Alfred McCoy made an early and accurate call on the erosion of the US empire, his current readings are a mixed bag.",
-          "link": "https://www.nakedcapitalism.com/2024/11/requiem-for-an-empire.html",
-          "publishedOn": "2024-11-20T11:50:41.000Z",
-          "wordCount": 10386,
-          "title": "Requiem for an Empire",
-          "imageUrl": "https://tomdispatch.com/wp-content/uploads/2021/04/Screen-Shot-2021-04-29-at-9.25.44-AM.png"
         }
       ]
     },
@@ -843,7 +863,7 @@
           "description": "AI plays a fundamental role in creating valuable connections between people and advertisers within Meta’s family of apps. Meta’s ad recommendation engine, powered by deep learning recommendation models (DLRMs), has been instrumental in delivering personalized ads to people. Key to this success was incorporating thousands of human-engineered signals or features in the DLRM-based recommendation system. [...]\nRead More...\nThe post Sequence learning: A paradigm shift for personalized ads recommendations appeared first on Engineering at Meta.",
           "link": "https://engineering.fb.com/2024/11/19/data-infrastructure/sequence-learning-personalized-ads-recommendations/",
           "publishedOn": "2024-11-19T17:00:43.000Z",
-          "wordCount": 2951,
+          "wordCount": 2960,
           "title": "Sequence learning: A paradigm shift for personalized ads recommendations",
           "imageUrl": "https://engineering.fb.com/wp-content/uploads/2022/11/Eng-Blog-Self-Serve-Hero-Images-DEBUGGING-203-.jpg"
         }
@@ -860,7 +880,7 @@
           "description": "Don't use it:\n> By providing the beta version of FireDucks free of charge and enabling data scientists to actually use it, NEC will work to improve its functionality while verifying its effectiveness, with the aim of commercializing it within FY2024.\nIn other words, it's free only to trap you.",
           "link": "https://news.ycombinator.com/item?id=42195321",
           "publishedOn": "2024-11-20T16:12:46.000Z",
-          "wordCount": null,
+          "wordCount": 2061,
           "title": "New comment by OutOfHere in \"FireDucks: Pandas but Faster\"",
           "imageUrl": null
         },
@@ -870,7 +890,7 @@
           "description": "Hands down one of the greatest services out there, stopped a racket and made the internet secure.\nI remember a time when having an HTTPS connection was for \"serious\" projects only because the cost of the certificate was much higher than the domain. You go commando and if it sticks then you purchase a certificate for a 100 bucks or something.",
           "link": "https://news.ycombinator.com/item?id=42191644",
           "publishedOn": "2024-11-20T07:49:52.000Z",
-          "wordCount": null,
+          "wordCount": 3502,
           "title": "New comment by mrtksn in \"Let's Encrypt is 10 years old now\"",
           "imageUrl": null
         },
@@ -880,7 +900,7 @@
           "description": "I've gone through times when management would treat estimates as deadlines, and were deaf to any sort of reason about why it could be otherwise, like the usual thing of them changing the specification repeatedly.\nSo when those times have occurred I've (we've more accurately) adopted what I refer to the \"deer in the headlights\" response to just about anything non-trivial.  \"Hoo boy, that could be doozy.  I think someone on the team needs to take an hour or so and figure out what this is really going to take.\"  Then you'll get asked to \"ballpark it\" because that's what managers do, and they get a number that makes them rise up in their chair, and yes, that is the number they remember.  And then you do your hour of due diligence, and try your best not to actually give any other number than the ballpark at any time, and then you get it done \"ahead of time\" and look good.\nNow, I've had good managers who totally didn't need this strategy, and I loved 'em to death.  But for the other numbnuts who can't be bothered to learn their career skills, they get the whites of my eyes.\nAlso, just made meetings a lot more fun.",
           "link": "https://news.ycombinator.com/item?id=42188611",
           "publishedOn": "2024-11-19T22:06:08.000Z",
-          "wordCount": null,
+          "wordCount": 9650,
           "title": "New comment by redleggedfrog in \"When did estimates turn into deadlines?\"",
           "imageUrl": null
         },
@@ -900,7 +920,7 @@
           "description": "People here seem to be underestimating the advantages that Google gets just because of Chrome:\n- When you sign in to Google, you sign in browser-wide. Google now gets all of your browsing data, perfect for advertising. (If you ever doubt it, go check out Google Takeout. You'll be shocked at the amount of data you see there.)\n- They have special APIs and features that they get to use, and nobody else. Only because they own Chrome. [1]\n- They get to move forward with enabling and pushing features that allow for more advertising: see Manifest v3, FLoC.\n- Google specifically serves a worse version of Search on Firefox for Mobile. You have to get an extension to get the full experience.\nThis isn't an isolated attempt. You can see more of the same thing with Android.\n- AOSP (the open source counterpart of Android) is now unusable. It doesn't ship with most essential apps, including a Phone app. In previous versions of Android, all of these were a part of AOSP.\n- Most third party launchers/stores struggle to implement features because they are only available for Google themselves.\n- The signing in with Google thing from above continues here too: you sign in to Google system-wide.\n[1]: https://x.com/lcasdev/status/1810696257137959018",
           "link": "https://news.ycombinator.com/item?id=42181921",
           "publishedOn": "2024-11-19T10:27:42.000Z",
-          "wordCount": null,
+          "wordCount": 14563,
           "title": "New comment by rkharsan64 in \"DOJ will push Google to sell off Chrome\"",
           "imageUrl": null
         },
@@ -920,7 +940,7 @@
           "description": "The best thing, by a long way, that Google Scholar has achieved is denying Elsevier & co a monopoly on academic search.\nIn most universities here in New Zealand, articles have to be published in a journal indexed by Elsevier's Scopus. Not in a Scopus-indexed journal, it does not count anymore than a reddit comment. This gives Elsevier tremendous power. But in CS/ML/AI most academics and students turn to Google Scholar first when doing searches.",
           "link": "https://news.ycombinator.com/item?id=42176959",
           "publishedOn": "2024-11-18T20:59:26.000Z",
-          "wordCount": null,
+          "wordCount": 2133,
           "title": "New comment by teruakohatu in \"20 years of Google Scholar\"",
           "imageUrl": null
         },
@@ -940,7 +960,7 @@
           "description": "> It's better to have some wonky parameterization than it is to have multiple implementations of nearly the same thing. Improving the parameters will be easier than to consolidate four different implementations if this situation comes up again.\nHard disagree. If you cant decompose to avoid \"wonky parameters\" then keep them separate. Big smell is boolean flags (avoid altogether when you can) and more than one enum parameter.\nIME \"heavy\" function signatures are always making things harder to maintain.",
           "link": "https://news.ycombinator.com/item?id=42165704",
           "publishedOn": "2024-11-17T18:05:09.000Z",
-          "wordCount": 7016,
+          "wordCount": 7102,
           "title": "New comment by leetrout in \"Good Software Development Habits\"",
           "imageUrl": null
         },
@@ -1010,7 +1030,7 @@
           "description": "I love it(in context of FreeBSD):\n—————\nWhat does not work: Keyboard, mouse, TB & USB-C ports, thermal/freq mgt.\nConclusion: Highly recommended",
           "link": "https://news.ycombinator.com/item?id=42151363",
           "publishedOn": "2024-11-15T21:33:02.000Z",
-          "wordCount": 2333,
+          "wordCount": null,
           "title": "New comment by galkk in \"First Impressions: Lenovo T14s with Qualcomm Snapdragon ARM64 CPU\"",
           "imageUrl": null
         },
@@ -1020,7 +1040,7 @@
           "description": "I thoroughyl expect the Deparment of Government Efficiency to recommend U.S. Fatality Analysis Reporting System (FARS) be shut down to save previous taxpayer dollars.",
           "link": "https://news.ycombinator.com/item?id=42150928",
           "publishedOn": "2024-11-15T20:56:38.000Z",
-          "wordCount": null,
+          "wordCount": 7933,
           "title": "New comment by Koala_ice in \"Tesla has the highest fatal accident rate of all auto brands, study finds\"",
           "imageUrl": null
         },
@@ -1040,7 +1060,7 @@
           "description": "I feel like the article neglects one obvious possibility: that OpenAI decided that chess was a benchmark worth \"winning\", special-cases chess within gpt-3.5-turbo-instruct, and then neglected to add that special-case to follow-up models since it wasn't generating sustained press coverage.",
           "link": "https://news.ycombinator.com/item?id=42144784",
           "publishedOn": "2024-11-15T07:57:40.000Z",
-          "wordCount": 3567,
+          "wordCount": null,
           "title": "New comment by swiftcoder in \"Something weird is happening with LLMs and chess\"",
           "imageUrl": null
         }
@@ -1057,7 +1077,7 @@
           "description": "A few weeks ago, I drew up a flowchart to estimate the probability that Trump would establish a dictatorship in the US, which looked, at the time, like an even money bet. We don’t need to speculate any more. Trump has announced the dictatorship, and there is no sign of effective resistance. The key elements […]",
           "link": "https://crookedtimber.org/2024/11/19/trumps-dictatorship-is-a-fait-accompli/",
           "publishedOn": "2024-11-19T00:29:11.000Z",
-          "wordCount": 10091,
+          "wordCount": 10653,
           "title": "Trump’s dictatorship is a fait accompli",
           "imageUrl": "https://crookedtimber.org/wp-content/uploads/2024/10/USDemocracyRevised-252x300.jpg"
         },
@@ -1067,7 +1087,7 @@
           "description": "Kitchy and quasi-totalitarian ghastliness, USA (from 2008)",
           "link": "https://crookedtimber.org/2024/11/17/sunday-photoblogging-forest-lawn-memorial-park-glendale/",
           "publishedOn": "2024-11-17T17:48:06.000Z",
-          "wordCount": 1861,
+          "wordCount": 1870,
           "title": "Sunday photoblogging: Forest Lawn Memorial Park, Glendale",
           "imageUrl": "https://live.staticflickr.com/2243/2389356444_d125fbb3bf.jpg"
         }
@@ -1222,6 +1242,16 @@
       "siteUrl": "https://newleftreview.org/sidecar/feed",
       "articles": [
         {
+          "id": "https://newleftreview.org/sidecar/posts/proliferations",
+          "author": null,
+          "description": "On Kevin Killian.",
+          "link": "https://newleftreview.org/sidecar/posts/proliferations",
+          "publishedOn": "2024-11-21T15:24:38.000Z",
+          "wordCount": 2622,
+          "title": "Hunter Dukes: &ldquo;Proliferations&rdquo;",
+          "imageUrl": "https://newleftreview.org/blog-uploads/2024/11/baldessari.jpg"
+        },
+        {
           "id": "https://newleftreview.org/sidecar/posts/quantity-to-quality",
           "author": null,
           "description": "An interview with Yanis Varoufakis.",
@@ -1279,6 +1309,16 @@
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/livingoutloud/opt-2024-11-19-1.webp"
         },
         {
+          "id": "https://blog.avas.space/repeating-the-cycle/",
+          "author": null,
+          "description": "These past days, I was very busy with playing Magic the Gathering and Pokemon TCG. Oops.\nBut when I wasn't busy with that, I was reading about Bluesky.\nIt's everywhere right now - Bearblog, the news, other online spaces talking about the great eXodus. It ranged from singing praises to it just being the new thing or \"at least it's not X\". I have to say, some things about it are really enticing and cool; aside from it being a new shiny thing to try out, I love the idea of the starter packs, the import tools, the custom domains (and those also serving as a kind of verification system), algorithmic feeds, thread and feed preferences, labeling and more.\nBut what keeps me critical is wondering if we aren't just repeating the cycle?\nPeople have spoken about the fact that it feels like old Twitter…",
+          "link": "https://blog.avas.space/repeating-the-cycle/",
+          "publishedOn": "2024-11-19T15:01:00.000Z",
+          "wordCount": 1565,
+          "title": "are we repeating the cycle?",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/avas-1709500835-0.png"
+        },
+        {
           "id": "https://mgx.me/abzug-theme-for-bear-blog/",
           "author": null,
           "description": ".marquee-container{width:100%;overflow:hidden;padding:10px 0}.marquee{white-space:nowrap;font-family:monospace;font-size:1rem;color:color-mix(in srgb,var(--text-color) 20%,transparent)}.scroll-right{animation:scrollRight 20s linear infinite}.scroll-left{animation:scrollLeft 20s linear infinite}@keyframes scrollRight{0%{transform:translateX(-50%)}100%{transform:translateX(0%)}}@keyframes scrollLeft{0%{transform:translateX(0%)}100%{transform:translateX(-50%)}}.marquee-top{position:fixed;top:0;left:0}@media (max-width:0){.marquee-container{display:none}}\n\n\n\n\n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n\n-->\n\n\nAbzug is a simple typography-focused theme that emphasizes readability. Born from a moment of inspiration in a cafe, accompanied by the sounds of Kraftwerk.\nPreview: Visit bear.css.observer and select the Abzug preset. \nhttps://static.mgx.me/bear/themes/abzug.css.",
@@ -1287,6 +1327,16 @@
           "wordCount": 380,
           "title": "\"abzug\" theme for bear blog",
           "imageUrl": "https://static.mgx.me/images/2024/abzug.webp"
+        },
+        {
+          "id": "https://jakobusbrahms.com/i-love-blogging/",
+          "author": null,
+          "description": "This is going to be sort of a meta post, but I just felt such an  sense of joy after publishing my last post that I felt I had to write more.\nI’ve long wanted to have a blog. Practically ever since I learned HTML programming with my dad when I was 10, I’ve wanted to have a web presence of some sort. And so I coded various websites to try to fulfill that desire. I found out about free hosting on GitHub Pages, and set up a static site generator to publish to it. But I never had anything to say, and so never used my shiny new website. Then I learned about Wordpress and paid for hosting so I could set up a pretty slick website with a hip theme. But again, I didn’t know what to say.\nI think whenever I set up a new site I always got caught in the trap of feeling like I needed to write in a niche…",
+          "link": "https://jakobusbrahms.com/i-love-blogging/",
+          "publishedOn": "2024-11-19T01:51:00.000Z",
+          "wordCount": 1607,
+          "title": "I love blogging",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         },
         {
           "id": "https://blog.platinumtulip.net/how-do-i-use-websites-again/",
@@ -1354,7 +1404,7 @@
           "description": "For me, it takes a long time to create something like the Bear Micro Blog. An \"unnecessarily\" long time.\nPartly, it's because I'm an amateur. But that's not the main reason. Nor is it a matter of perfection.\nIt's because I find it relaxing.\nCoding is like meditation for me. A perfect blend of focus and relaxation—a kind of timeless void. I'm often surprised when I look at the clock and realize how much time has passed.\nThey say time is money. Considering how rewarding these precious moments are to me, it’s a bargain.",
           "link": "https://birming.com/zen-coding/",
           "publishedOn": "2024-11-16T13:26:00.000Z",
-          "wordCount": 1833,
+          "wordCount": 1845,
           "title": "The Zen of Coding",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/zen-coding.webp"
         },
@@ -1364,7 +1414,7 @@
           "description": "Inspired by Sylvia and mgx, I decided to create a Bear Micro Blog, or status log, or shorts page – whatever you want to call it.\nIt's quite a simple solution, using tags and the Bear class_name snippet. Having it all in the post template also makes it pretty easy to publish posts. To make posting even easier, I'm planning to create an Apple Shortcut.\nI've also ”created” separate feeds for status and posts:\nRSS Feed for All Content\nRSS Feed for Blog Posts\nRSS feed for Status Updates\nLet me know if you're interested in getting your own Bear status log and I will post a tutorial.\nWishing you a great weekend!\nUpdate: Here's a tutorial.",
           "link": "https://birming.com/bear-micro-blog/",
           "publishedOn": "2024-11-15T14:23:00.000Z",
-          "wordCount": 1860,
+          "wordCount": 1872,
           "title": "Bear Micro Blog",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/bear-micro-blog.webp"
         },
@@ -1376,16 +1426,6 @@
           "publishedOn": "2024-11-15T11:53:00.000Z",
           "wordCount": 909,
           "title": "Please, Stop the Absurd Coding Challenges",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
-        },
-        {
-          "id": "https://mei.bearblog.dev/the-median-of-meaningful/",
-          "author": null,
-          "description": "I’m realizing that what bothers me about teaching is everything feels way too important. In prepping my lessons, the slides, the activities, etc., I have to always be thinking about how all those things affect the kids. How do they enhance their understanding? How do they engage them? Could I be more flexible in certain areas, or are there skills or topics I really need the kids to understand in a certain way? How can I design this class such that they interact more with each other, have more agency over their learning, can keep up?\nDropping the ball on any aspect of teaching feels huge. When a lesson flops, I feel like I wasted my kids’ time and mine. My evenings are spent thinking about how to get the next one right. There’s no part of this job where I feel I can relax my grip or afford …",
-          "link": "https://mei.bearblog.dev/the-median-of-meaningful/",
-          "publishedOn": "2024-11-15T03:31:07.828Z",
-          "wordCount": 1531,
-          "title": "the median of meaningful",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         }
       ]
@@ -1478,6 +1518,16 @@
       "feedUrl": "https://rss.beehiiv.com/feeds/4aF2pGVAEN.xml",
       "siteUrl": "https://newsletter.newsminimalist.com/",
       "articles": [
+        {
+          "id": "https://newsletter.newsminimalist.com/p/pacific-aid-falls-due-to-ukraine-focus-3-more-stories",
+          "author": null,
+          "description": "Aid to the Pacific falls 18% as focus shifts to Ukraine; Russia launches its first ICBM in the conflict; ICC issues arrest warrants for Netanyahu and Hamas leaders; Oropouche virus cases in Brazil surge amid new strain investigations.",
+          "link": "https://newsletter.newsminimalist.com/p/pacific-aid-falls-due-to-ukraine-focus-3-more-stories",
+          "publishedOn": "2024-11-21T17:25:22.000Z",
+          "wordCount": 7265,
+          "title": "Pacific aid falls due to Ukraine focus + 3 more stories",
+          "imageUrl": "https://beehiiv-images-production.s3.amazonaws.com/uploads/publication/thumbnail/d0318cb6-0493-4e34-b055-76456e6c0f76/landscape_template__3_.png"
+        },
         {
           "id": "https://newsletter.newsminimalist.com/p/china-boosts-support-for-global-south-2-more-stories",
           "author": null,
