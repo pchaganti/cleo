@@ -12,6 +12,26 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "f940f8f10329048e4784f72ecc08202d5e5d467a",
+          "author": "Matheus Guimaraes",
+          "description": "Gain centralized visibility and control over AWS, on-premises, and multicloud compute at scale with the new AWS Systems Manager. Featuring a unified dashboard, one-click agent remediation, Amazon Q Developer integration for natural language queries, and cross-account/Region management - all at no extra cost.",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-a-new-experience-for-aws-system-manager/",
+          "publishedOn": "2024-11-22T22:36:19.000Z",
+          "wordCount": 2112,
+          "title": "Introducing a new experience for AWS Systems Manager",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/22/sys-mgr-feat-img3.png"
+        },
+        {
+          "id": "470d069e3ceffa4e8bc9d6d90aa481c7531d1a9e",
+          "author": "Channy Yun (윤석찬)",
+          "description": "AWS leads in hybrid infrastructure with top ratings from Gartner for edge computing, AI/ML, and hybrid management; recognized for global support and fully managed offerings like Outposts, expanding consistent cloud experience to on-premises and edge locations.",
+          "link": "https://aws.amazon.com/blogs/aws/aws-named-as-a-leader-again-in-the-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
+          "publishedOn": "2024-11-22T18:51:23.000Z",
+          "wordCount": 1364,
+          "title": "AWS named as a leader again in the Gartner Magic Quadrant for Distributed Hybrid Infrastructure",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/22/2024-aws-hybrid-infrastructure-1-1260x494.png"
+        },
+        {
           "id": "df4a34c5aba751c2db72ad9ddf287246b0155c9f",
           "author": "Donnie Prakoso",
           "description": "Identity management revamped: Amazon Cognito unveils customizable login flows, passwordless options, and tiered pricing for tailored authentication experiences.",
@@ -107,7 +127,7 @@
           "description": "Explore the journey of AWS Lambda, the pioneering serverless computing service, from its 2013 inception to powering over two million users and tens of trillions of function invocations monthly.",
           "link": "https://aws.amazon.com/blogs/aws/aws-lambda-turns-ten-the-first-decade-of-serverless-innovation/",
           "publishedOn": "2024-11-18T18:23:50.000Z",
-          "wordCount": 1982,
+          "wordCount": 1983,
           "title": "AWS Lambda turns ten – looking back and looking ahead",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/07/lambda_10years_final_2.png"
         },
@@ -152,6 +172,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
         {
+          "id": "2966c911cae5944571341ccd2aaafd2f55b81ae5",
+          "author": "Jonathan Vogel",
+          "description": "Amazon Q Developer Agent for code transformation is an AI-powered tool which modernizes code bases from Java 8 and Java 11 to Java 17. Integrated into VS Code and IntelliJ, Amazon Q simplifies the migration process and reduce the time and effort compared to manual process. It proposes and verifies code changes, using AI to […]",
+          "link": "https://aws.amazon.com/blogs/devops/dissecting-the-performance-gains-in-amazon-q-developer-agent-for-code-transformation/",
+          "publishedOn": "2024-11-22T22:39:57.000Z",
+          "wordCount": 2202,
+          "title": "Dissecting the Performance Gains in Amazon Q Developer agent for code transformation",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/11/22/20241122_q_dev_code_transformation_enhanced_AI_debugger_blog_feature_image.png"
+        },
+        {
           "id": "2a0311c795664a031bc2ebab9909d8908478ab66",
           "author": "Artur Rodrigues",
           "description": "It’s that time of the year again. The annual AWS re:Invent conference is just around the corner. Still need to save your spot? You can register here. This year’s DevOps and Developer Productivity (DOP) track features an impressive lineup, including 11 breakout sessions, 14 chalk talks, 2 code talks, 8 workshops, 3 builder sessions, and […]",
@@ -194,10 +224,10 @@
         {
           "id": "a0a4939548a04cba5f81d0300776c90f4ad22036",
           "author": "Brendan Jenkins",
-          "description": "Recently, Amazon Q Developer announced expanded support for account resource awareness with Amazon Q in the AWS Management Console along with the general availability of Amazon Q Developer in AWS Chatbot, enabling you to ask questions from Microsoft Teams or Slack. Additionally, Amazon Q will now provide context-aware assistance for your questions about resources in your account […]",
+          "description": "Recently, Amazon Q Developer announced expanded support for account resource awareness with Amazon Q in the AWS Management Console  and the AWS Mobile Application. This is coupled with the general availability of Amazon Q Developer in AWS Chatbot, enabling you to ask questions from Microsoft Teams or Slack. Additionally, Amazon Q will now provide context-aware assistance for […]",
           "link": "https://aws.amazon.com/blogs/devops/expanded-resource-awareness-in-amazon-q-developer/",
           "publishedOn": "2024-11-19T22:01:45.000Z",
-          "wordCount": 1803,
+          "wordCount": 1962,
           "title": "Expanded resource awareness in Amazon Q Developer",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/11/13/featrue2-1-1120x630.png"
         }
@@ -630,7 +660,7 @@
           "description": "Why do banks fail? In a new working paper, we study more than 5,000 bank failures in the U.S. from 1865 to the present to understand whether failures are primarily caused by bank runs or by deteriorating solvency. In this first of three posts, we document that failing banks are characterized by rising asset losses, deteriorating solvency, and an increasing reliance on expensive noncore funding. Further, we find that problems in failing banks are often the consequence of rapid asset growth in the preceding decade.",
           "link": "https://libertystreeteconomics.newyorkfed.org/2024/11/why-do-banks-fail-three-facts-about-failing-banks/",
           "publishedOn": "2024-11-21T12:00:00.000Z",
-          "wordCount": 4827,
+          "wordCount": 4964,
           "title": "Why Do Banks Fail? Three Facts About Failing Banks",
           "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/11/LSE_2024_why-do-banks-fail_PART1_luck_460.jpg"
         }
@@ -657,7 +687,7 @@
           "description": "Like John Stuart Mill, I´m more interested in credit than in money. Developments in the amount of credit provided are much more instructive to the economist than data on money. Look at the graph below (no. 2 in the ECB press release) , a highly Post-Keynesian graph that originated from the pre-Euro Bundesbank and is […]",
           "link": "https://rwer.wordpress.com/2024/11/20/monetary-developments-in-the-euro-area-september-2024-quiet/",
           "publishedOn": "2024-11-20T15:28:18.000Z",
-          "wordCount": 4270,
+          "wordCount": 4272,
           "title": "Monetary developments in the Euro Area, september 2024. Quiet.",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-19.png"
         },
@@ -667,7 +697,7 @@
           "description": "Hyperinflation is defined as over 50% inflation per month. Let´s define ´normal´ inflation as anything between 0 and 1% per month and anything between 1 and 50% per month as superinflation (1% a month is still a lot, yearly!). Before President Milei, Argentina already knew superinflation. After Milei, inflation accelerated, and the country almost entered […]",
           "link": "https://rwer.wordpress.com/2024/11/18/superinflation-in-mileis-argentina/",
           "publishedOn": "2024-11-18T13:51:24.000Z",
-          "wordCount": 4142,
+          "wordCount": 4146,
           "title": "Superinflation in Milei´s Argentina",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-17.png"
         },
@@ -677,7 +707,7 @@
           "description": "from Peter Radford Take four. I continue to listen in on the conversation. The election reverberates loudly around leftish circles. Recriminations mount. Criticisms fly. Finger pointing and over-analysis have become all too common. And this is after just a week. Imagine what a month can produce. So far the central narrative seems to be that […]",
           "link": "https://rwer.wordpress.com/2024/11/17/election-take-four/",
           "publishedOn": "2024-11-17T17:53:24.000Z",
-          "wordCount": 5475,
+          "wordCount": 5479,
           "title": "Election: Take Four",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -695,12 +725,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=282653",
+          "author": "Lambert Strether",
+          "description": "~ Today's Water Cooler: Politics, syndemics; Trump border czar beats chest; Resistance 2.0 funders and NGOs;  Mathematical thinking  ~",
+          "link": "https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-22-2024.html",
+          "publishedOn": "2024-11-22T19:00:37.000Z",
+          "wordCount": 13719,
+          "title": "2:00PM Water Cooler 11/22/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/covid-cdc-ww-natl-3.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=282649",
           "author": "Yves Smith",
           "description": "World leaders criticized COP29 host Azerbaijan for its oil-dependent economy while ignoring the massive climate bootprint of their militaries.",
           "link": "https://www.nakedcapitalism.com/2024/11/fueling-the-flames-how-the-wests-military-emissions-undermine-climate-action.html",
           "publishedOn": "2024-11-22T14:55:06.000Z",
-          "wordCount": 3138,
+          "wordCount": 3433,
           "title": "Fueling the Flames: How the West’s Military Emissions Undermine Climate Action",
           "imageUrl": null
         },
@@ -710,7 +750,7 @@
           "description": "Our kinetic daily links.",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-22-2024.html",
           "publishedOn": "2024-11-22T11:55:45.000Z",
-          "wordCount": 11437,
+          "wordCount": 12777,
           "title": "Links 11/22/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/seahorse_2.jpg"
         },
@@ -720,7 +760,7 @@
           "description": "\"Beijing is now the main trading partner for most nations in the region and has the fastest-growing stock of investments.\"",
           "link": "https://www.nakedcapitalism.com/2024/11/ft-echoes-our-warning-from-three-years-ago-the-us-is-losing-the-battle-for-latin-america-to-china.html",
           "publishedOn": "2024-11-22T11:45:25.000Z",
-          "wordCount": 6833,
+          "wordCount": 7793,
           "title": "FT Confirms What We’ve Been Saying for Three Years: The US Is Losing the “Battle… for Latin America” to China",
           "imageUrl": "https://www.apec.org/images/default-source/leaders-declarations/2016/2016.tmb-w780.jpg?Culture=en&sfvrsn=68f057e3_1"
         },
@@ -730,7 +770,7 @@
           "description": "Pam Bondi has a terrible record as far as going after corporate misconduct is concerned, which explains Senate enthusiasm for her.",
           "link": "https://www.nakedcapitalism.com/2024/11/trump-nominates-corporate-lobbyist-and-foreclosure-fraudsters-defender-pam-bond-as-attorney-general.html",
           "publishedOn": "2024-11-22T11:30:47.000Z",
-          "wordCount": 6203,
+          "wordCount": 6454,
           "title": "Trump Nominates Corporate Lobbyist and Foreclosure Fraudsters Defender Pam Bondi as Attorney General",
           "imageUrl": null
         },
@@ -740,7 +780,7 @@
           "description": "An in-depth look at Iran's economic and political situation suggests that Trump's \"maximum pressure\" campaign will not have much impact.",
           "link": "https://www.nakedcapitalism.com/2024/11/trumps-opportunity-to-reset-u-s-iran-relations.html",
           "publishedOn": "2024-11-22T11:00:11.000Z",
-          "wordCount": 6972,
+          "wordCount": 7241,
           "title": "Trump’s Opportunity to Reset U.S.-Iran Relations",
           "imageUrl": null
         },
@@ -750,7 +790,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics; Gaetz: Exit, stage right; Ortberg: \"The beatings will continue until morale improves\"; How the Democrats abandoned the working class ~",
           "link": "https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-20-2024-2.html",
           "publishedOn": "2024-11-21T19:00:11.000Z",
-          "wordCount": 14590,
+          "wordCount": 14572,
           "title": "2:00PM Water Cooler 11/21/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/USDemocracyRevised.png"
         },
@@ -760,7 +800,7 @@
           "description": "After a long delay, the International Criminal Court issued arrest warrants against the open genociders Benjamin Netanyahu and Yoav Gallant.",
           "link": "https://www.nakedcapitalism.com/2024/11/international-criminal-court-issues-arrest-warrants-for-israel-prime-minister-benjamin-netanyahu-and-former-minister-of-defense-yoav-gallant.html",
           "publishedOn": "2024-11-21T14:55:05.000Z",
-          "wordCount": 8429,
+          "wordCount": 8411,
           "title": "International Criminal Court Issues Arrest Warrants for Israel Prime Minister Benjamin Netanyahu and Former Minister of Defense, Yoav Gallant",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-21-at-10.07.21-PM.png"
         },
@@ -770,7 +810,7 @@
           "description": "Our overly dynamic daily links",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-21-2024.html",
           "publishedOn": "2024-11-21T11:55:31.000Z",
-          "wordCount": 13717,
+          "wordCount": 13724,
           "title": "Links 11/21/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/macaca_monkey.jpg"
         },
@@ -780,18 +820,8 @@
           "description": "RFK, Jr.'s plan, if confirmed as HHS chair, to end Medicare use of AMA licensed-billing codes somehow will increase, not lower, costs.",
           "link": "https://www.nakedcapitalism.com/2024/11/rfk-jr-plans-attack-on-amas-big-meal-ticket-licensing-fees-for-medical-billing-codes.html",
           "publishedOn": "2024-11-21T11:46:09.000Z",
-          "wordCount": 11090,
+          "wordCount": 11072,
           "title": "RFK, Jr. Plans Attack on AMA’s Big Meal Ticket, Licensing Fees for Medical Billing Codes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=282566",
-          "author": "Yves Smith",
-          "description": "An effort to get at the root of what politics is meant to achieve.",
-          "link": "https://www.nakedcapitalism.com/2024/11/what-is-politics-what-is-the-political.html",
-          "publishedOn": "2024-11-21T11:00:19.000Z",
-          "wordCount": 8164,
-          "title": "What Is Politics & What Is the Political?",
           "imageUrl": null
         }
       ]
@@ -885,6 +915,16 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=42214423",
+          "author": "iandanforth",
+          "description": "Nice! My favorite challenge was avoiding the glowing white dots along the path.",
+          "link": "https://news.ycombinator.com/item?id=42214423",
+          "publishedOn": "2024-11-22T15:11:59.000Z",
+          "wordCount": null,
+          "title": "New comment by iandanforth in \"Show HN: A Marble Madness-inspired WebGL game we built for Netlify\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=42203754",
           "author": "nabla9",
           "description": "(before you jump into discussion, remember that this only about these two individuals)\nICC and the prosecutor are on very solid ground here.\nThe prosecutor asked opinions from a impartial panel of experts in international law. The panel included people like Theodor Meron (former Legal adviser for the Israeli Ministry of Foreign Affairs),  Helene Kennedy, Adrian Fulford.\nNetanyahu and Yoav Gallant provided plenty of evidence of the intent. Did they really think that when they talk Hebrew to their audience, rest of the world does not hear them. Case like this would be harder to prosecute without evidence of intent.",
@@ -900,7 +940,7 @@
           "description": "Don't use it:\n> By providing the beta version of FireDucks free of charge and enabling data scientists to actually use it, NEC will work to improve its functionality while verifying its effectiveness, with the aim of commercializing it within FY2024.\nIn other words, it's free only to trap you.",
           "link": "https://news.ycombinator.com/item?id=42195321",
           "publishedOn": "2024-11-20T16:12:46.000Z",
-          "wordCount": 2926,
+          "wordCount": null,
           "title": "New comment by OutOfHere in \"FireDucks: Pandas but Faster\"",
           "imageUrl": null
         },
@@ -950,7 +990,7 @@
           "description": "I'm very surprised by the number of people in this thread who don't seem to understand that monopolies are _very_ bad for consumers.",
           "link": "https://news.ycombinator.com/item?id=42181001",
           "publishedOn": "2024-11-19T08:06:52.000Z",
-          "wordCount": 16347,
+          "wordCount": null,
           "title": "New comment by wesselbindt in \"DOJ will push Google to sell off Chrome\"",
           "imageUrl": null
         },
@@ -960,7 +1000,7 @@
           "description": "The best thing, by a long way, that Google Scholar has achieved is denying Elsevier & co a monopoly on academic search.\nIn most universities here in New Zealand, articles have to be published in a journal indexed by Elsevier's Scopus. Not in a Scopus-indexed journal, it does not count anymore than a reddit comment. This gives Elsevier tremendous power. But in CS/ML/AI most academics and students turn to Google Scholar first when doing searches.",
           "link": "https://news.ycombinator.com/item?id=42176959",
           "publishedOn": "2024-11-18T20:59:26.000Z",
-          "wordCount": null,
+          "wordCount": 2362,
           "title": "New comment by teruakohatu in \"20 years of Google Scholar\"",
           "imageUrl": null
         },
@@ -970,7 +1010,7 @@
           "description": "FYI: nm = nautical miles, not nanometers.",
           "link": "https://news.ycombinator.com/item?id=42174194",
           "publishedOn": "2024-11-18T16:48:21.000Z",
-          "wordCount": 3424,
+          "wordCount": 3466,
           "title": "New comment by jp57 in \"Air traffic failure caused by two locations 3600nm apart sharing 3-letter code\"",
           "imageUrl": null
         },
@@ -980,7 +1020,7 @@
           "description": "> It's better to have some wonky parameterization than it is to have multiple implementations of nearly the same thing. Improving the parameters will be easier than to consolidate four different implementations if this situation comes up again.\nHard disagree. If you cant decompose to avoid \"wonky parameters\" then keep them separate. Big smell is boolean flags (avoid altogether when you can) and more than one enum parameter.\nIME \"heavy\" function signatures are always making things harder to maintain.",
           "link": "https://news.ycombinator.com/item?id=42165704",
           "publishedOn": "2024-11-17T18:05:09.000Z",
-          "wordCount": 7102,
+          "wordCount": null,
           "title": "New comment by leetrout in \"Good Software Development Habits\"",
           "imageUrl": null
         },
@@ -1000,7 +1040,7 @@
           "description": "> The color was originally going to be called beccapurple, but Meyer asked that it instead be named rebeccapurple, as his daughter had wanted to be called Rebecca once she had turned six. She had said that Becca was a \"baby name,\" and that once she had turned six, she wanted to be called Rebecca. As Eric Meyer put it, \"She made it to six. For almost twelve hours, she was six. So Rebecca it is and must be.\"\nWasn't expecting tears over a colour",
           "link": "https://news.ycombinator.com/item?id=42162264",
           "publishedOn": "2024-11-17T05:48:16.000Z",
-          "wordCount": null,
+          "wordCount": 2834,
           "title": "New comment by langsoul-com in \"CSS gets a new logo and it uses the color `rebeccapurple`\"",
           "imageUrl": null
         },
@@ -1020,7 +1060,7 @@
           "description": "Every time a big company screws up, there are two highly informed sets of people who are guaranteed to be lurking, but rarely post, in a thread like this:\n1) those directly involved with the incident, or employees of the same company.  They have too much to lose by circumventing the PR machine.\n2) people at similar companies who operate similar systems with similar scale and risks.  Those people know how hard this is and aren’t likely to publicly flog someone doing their same job based on uninformed speculation. They know their own systems are Byzantine and don’t look like what random onlookers think it would look like.\nSo that leaves the rest, who offer insights based on how stuff works at a small scale, or better yet, pronouncements rooted in “first principles.”",
           "link": "https://news.ycombinator.com/item?id=42160502",
           "publishedOn": "2024-11-16T23:29:10.000Z",
-          "wordCount": 8455,
+          "wordCount": null,
           "title": "New comment by shermantanktop in \"Netflix buffering issues: Boxing fans complain about Jake Paul vs. Mike Tyson\"",
           "imageUrl": null
         },
@@ -1047,7 +1087,7 @@
           "description": "A few weeks ago, I drew up a flowchart to estimate the probability that Trump would establish a dictatorship in the US, which looked, at the time, like an even money bet. We don’t need to speculate any more. Trump has announced the dictatorship, and there is no sign of effective resistance. The key elements […]",
           "link": "https://crookedtimber.org/2024/11/19/trumps-dictatorship-is-a-fait-accompli/",
           "publishedOn": "2024-11-19T00:29:11.000Z",
-          "wordCount": 16126,
+          "wordCount": 16976,
           "title": "Trump’s dictatorship is a fait accompli",
           "imageUrl": "https://crookedtimber.org/wp-content/uploads/2024/10/USDemocracyRevised-252x300.jpg"
         },
@@ -1057,7 +1097,7 @@
           "description": "Kitchy and quasi-totalitarian ghastliness, USA (from 2008)",
           "link": "https://crookedtimber.org/2024/11/17/sunday-photoblogging-forest-lawn-memorial-park-glendale/",
           "publishedOn": "2024-11-17T17:48:06.000Z",
-          "wordCount": 1873,
+          "wordCount": 1872,
           "title": "Sunday photoblogging: Forest Lawn Memorial Park, Glendale",
           "imageUrl": "https://live.staticflickr.com/2243/2389356444_d125fbb3bf.jpg"
         }
@@ -1280,12 +1320,22 @@
       "siteUrl": "https://bearblog.dev/discover/",
       "articles": [
         {
+          "id": "https://louplummer.lol/living-in-the-bible-belt/",
+          "author": null,
+          "description": "For a good part of my life, I tried to be religious and failed miserably. During my formative years, church was a social connection as well as a place for religious instruction. During elementary school, my Mom was married to a non-believer, so she didn't attend church, but my siblings and I went with a neighbor to a Southern Baptist church on the outskirts near the prison. My brother and I were active in the boys’ youth group, called RAs for Royal Adventurers. In the summer, we went to VBS (Vacation Bible School).\nIn high school, I lived with my aunt and uncle. They went to a Presbyterian Church, one of many in the area, reflecting the Scottish heritage in the part of North Carolina where we lived. One of my favorite parts of each week was the Sunday evening Youth Fellowship meetings. It …",
+          "link": "https://louplummer.lol/living-in-the-bible-belt/",
+          "publishedOn": "2024-11-22T15:53:00.000Z",
+          "wordCount": 1388,
+          "title": "Living in the Bible Belt",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/livingoutloud/ago_downloaded.webp)"
+        },
+        {
           "id": "https://yordi.me/building-a-love-for-books-that-lasts/",
           "author": null,
           "description": "When it comes to building habits to enjoy reading, I’ve experimented with quite a few ideas. Some worked while others didn’t. The four strategies that follow have proven themselves, making and keeping reading enjoyable.\nHere’s hoping they work just as well for you.\nQuit Annoying Books (but not immediately)\nAre you reading a book and still finding it just average after a hundred pages? Quit it. Put it away and move on. There are too many incredible books waiting to be read to waste time on ones you don’t enjoy. If there’s one thing that can destroy your joy of reading, it’s forcing yourself to read through books you don't like. Think back to the books you were forced to read in school. For most of us, those didn’t exactly ignited our love for reading, did they?\nRead 3 Books at a Time\nChoose…",
           "link": "https://yordi.me/building-a-love-for-books-that-lasts/",
           "publishedOn": "2024-11-21T19:25:00.000Z",
-          "wordCount": 1789,
+          "wordCount": 1824,
           "title": "Building a Love for Books That Lasts",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/yordi/cozy-reading-scene-illustration.webp"
         },
@@ -1388,16 +1438,6 @@
           "wordCount": 1479,
           "title": "Adding a Little Friction to My Computing",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/brandonsblog/img_6701-1.webp"
-        },
-        {
-          "id": "https://notes.jeddacp.com/my-moleskine-to-hobonici-notebook-switch/",
-          "author": null,
-          "description": "Spoiler Alert: I indeed was not patient enough.\nFor the past few days, I’ve been contemplating abandoning my Moleskine journal for my newly acquired Hobonici notebook1. One main reason is that ever since I started writing with fountain pens, I’ve discovered that the bleed through on my Moleskine is just something I can no longer stand. I’ve been diligently writing with my favorite Kaco pen, but now that my Pilot Vanishing Point fountain pen has arrived, I really want to start journaling with it. Being absolutely impatient, and accepting that life is short and I should use a journal that sparks joy2, I made the switch today. I only had 14 pages left, so I don't actually feel AS guilty.\nI have new notebook anxiety. I love buying journals, and stationery in general, but writing on that first …",
-          "link": "https://notes.jeddacp.com/my-moleskine-to-hobonici-notebook-switch/",
-          "publishedOn": "2024-11-17T22:31:00.000Z",
-          "wordCount": 2042,
-          "title": "My Moleskine to Hobonici Notebook Switch",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/jedda/3journals_cover.png"
         },
         {
           "id": "https://noat.blog/my-blog-theme-and-my-mini-theme-editing-dev-environment/",
@@ -1503,21 +1543,6 @@
             "type": "application/epub+zip",
             "length": "16003",
             "url": "https://theanarchistlibrary.org/library/max-stirner-review-of-bruno-bauers-trumpet-of-the-last-judgment.epub"
-          },
-          "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
-        },
-        {
-          "id": "https://theanarchistlibrary.org/library/adi-callai-the-gaza-ghetto-uprising?v=1731753405",
-          "author": null,
-          "description": "Author: Adi Callai\nTitle: The Gaza Ghetto Uprising\nDate: May 2024\nSource: <brooklynrail.org/2024/05/field-notes/The-Gaza-Ghetto-Uprising>\n\n TO THE HEART OF IT: Gaza has been a free kill zone and a “concentration camp” (to quote Israel’s National Security Director Giora Eiland in 2004), long before October 7. \n In light of this, the most radical position comes directly from the simplest question: are Palestinians human beings? If your answer is emphatically yes, unambiguously and without reservations, then you are a lost cause to Zionism. Because if Palestinians are human beings, then their self-defense is legitimate, and the defense of their continued existence is necessary. \n Gaza, this black box, this holding pen for refugees from the 1948 ethnic cleansing of Palestine—can we think of it…",
-          "link": "https://theanarchistlibrary.org/library/adi-callai-the-gaza-ghetto-uprising?v=1731753405",
-          "publishedOn": "2024-11-16T10:36:45.000Z",
-          "wordCount": 9042,
-          "title": "Adi Callai - The Gaza Ghetto Uprising",
-          "enclosure": {
-            "type": "application/epub+zip",
-            "length": "38390",
-            "url": "https://theanarchistlibrary.org/library/adi-callai-the-gaza-ghetto-uprising.epub"
           },
           "imageUrl": "https://theanarchistlibrary.org/sitefiles/en/opengraph.png"
         }
