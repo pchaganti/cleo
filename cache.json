@@ -90,36 +90,6 @@
           "wordCount": 1611,
           "title": "Amazon CloudFront now accepts your applications’ gRPC calls",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/12/06/CloudFront-darkbg-feat-img.png"
-        },
-        {
-          "id": "67d7d0b2d520590609cc528db5a2d3e6af8285e0",
-          "author": "Donnie Prakoso",
-          "description": "Simplify networking for containerized apps with native VPC Lattice-ECS integration, boosting productivity and flexibility across services.",
-          "link": "https://aws.amazon.com/blogs/aws/streamline-container-application-networking-with-native-amazon-ecs-support-in-amazon-vpc-lattice/",
-          "publishedOn": "2024-11-18T21:55:42.000Z",
-          "wordCount": 1932,
-          "title": "Streamline container application networking with built-in Amazon ECS support in Amazon VPC Lattice",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/06/ECS-VPC-feat-img.png"
-        },
-        {
-          "id": "1efe6355721882348179128f93749c102250b8f4",
-          "author": "Channy Yun (윤석찬)",
-          "description": "AWS Lambda SnapStart boosts Python and .NET functions' startup times to sub-second levels, often with minimal code changes, enabling highly responsive and scalable serverless apps.",
-          "link": "https://aws.amazon.com/blogs/aws/aws-lambda-snapstart-for-python-and-net-functions-is-now-generally-available/",
-          "publishedOn": "2024-11-18T21:07:15.000Z",
-          "wordCount": 2158,
-          "title": "AWS Lambda SnapStart for Python and .NET functions is now generally available",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/14/2024-Lambda-logo.png"
-        },
-        {
-          "id": "ca7af76d4e0c5efc867c78848fb0cbd33937942b",
-          "author": "Donnie Prakoso",
-          "description": "Unleash your inner developer with AWS App Studio, the generative AI-powered application builder. Turn your idea into fully-fledged, intelligent, custom, secure, and scalable software in minutes.",
-          "link": "https://aws.amazon.com/blogs/aws/build-and-modify-apps-using-natural-language-with-aws-app-studio-now-generally-available/",
-          "publishedOn": "2024-11-18T18:57:02.000Z",
-          "wordCount": 1716,
-          "title": "Build and modify apps using natural language with AWS App Studio, now generally available",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/08/App-Studio-feat-img.png"
         }
       ]
     },
@@ -127,18 +97,7 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": [
-        {
-          "id": "21322524039287ae311396c3c1ba05aedce35ee8",
-          "author": "Shllomi Ezra",
-          "description": "If you’re attending AWS re:Invent 2024 with the goal of improving your organization’s cloud resilience operations, we will be offering valuable insights, best practices, and fun activities to improve your cloud resilience expertise. This year, we’re offering more than 100 resilience breakout sessions, workshops, chalk talks, builders’ sessions, and code talks. Find the complete list in the re:Invent 2024 session catalog and filter by “Resilience” in the area of interest field. In this post, we highlight must-see sessions for those building resilient applications and architectures on AWS. Reserved seating is now open, so act quickly to claim your seat. Be sure to also check out the vertical-specific re:Invent guides.",
-          "link": "https://aws.amazon.com/blogs/architecture/know-before-you-go-aws-reinvent-2024-cloud-resilience/",
-          "publishedOn": "2024-11-18T23:27:21.000Z",
-          "wordCount": 2242,
-          "title": "Know before you go – AWS re:Invent 2024 cloud resilience",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2024/11/18/featured-images-ARCH-1116-1-1120x630.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
@@ -269,16 +228,6 @@
           "wordCount": 4087,
           "title": "Monitoring and automating recovery from AZ impairments in Amazon EKS with Istio and ARC Zonal Shift",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/11/19/Featured-images-for-Containers-Blog-6-1260x630.jpg"
-        },
-        {
-          "id": "28bc1106056a70a93b5b24d9119e9e7a806241bd",
-          "author": "Ashok Srirama",
-          "description": "Introduction Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks. However, maintaining […]",
-          "link": "https://aws.amazon.com/blogs/containers/amazon-eks-enhances-kubernetes-control-plane-observability/",
-          "publishedOn": "2024-11-18T23:14:38.000Z",
-          "wordCount": 2933,
-          "title": "Amazon EKS enhances Kubernetes control plane observability",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/11/15/Featured-images-for-Containers-Blog-3-1260x630.jpg"
         }
       ]
     },
@@ -287,6 +236,116 @@
       "feedUrl": "https://www.counterpunch.org/feed/",
       "siteUrl": "https://www.counterpunch.org/",
       "articles": [
+        {
+          "id": "https://www.counterpunch.org/?p=344823",
+          "author": "Matthew Hoh",
+          "description": "That is Gaza behind me. The fence line is 600m away. The northern part of Gaza, where Israel is carrying out a genocide within a genocide, systematically starving 300,000 Palestinians to death, is about 2km further. The absurdity and the obscenity of being able to be this close to 20,000 murdered children, their bodies “prophetic  More\nThe post Stare into Gaza: The Horror Was Not What I Expected appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/11/25/stare-into-gaza-the-horror-was-not-what-i-expected/",
+          "publishedOn": "2024-11-25T07:27:24.000Z",
+          "wordCount": null,
+          "title": "Stare into Gaza: The Horror Was Not What I Expected",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=344836",
+          "author": "Lee Hall",
+          "description": "After the election, some Trump voters told reporters they don’t pay much attention to what Trump says. They pay attention to their bank accounts (if they still have them). And they think groceries were cheaper when Trump was in office, and maybe remember the stimulus payments Trump signed. (Yes, Biden’s administration sent stimulus payments too—but remember the facts. Trump set a $2,000 figure and Biden’s additional payment—a promised $2,000—turned out to be $1,400, added to a $600 payment that Congress signed off during Trump’s term.) More\nThe post Done, Done, So Done With Duopoly appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/11/25/done-done-so-done-with-duopoly/",
+          "publishedOn": "2024-11-25T07:03:29.000Z",
+          "wordCount": null,
+          "title": "Done, Done, So Done With Duopoly",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=344956",
+          "author": "Vijay Prashad",
+          "description": "On November 14, 2023, a month into Israel’s genocidal attack on the Palestinians in Gaza, Abdul-Malik al-Houthi, one of the leaders of Ansar Allah and of the government of Yemen, delivered a speech that was broadcast on Al-Masirah television. “Our eyes are open to constant monitoring and searching for any Israeli ship,” he said. “The enemy relies on camouflage in its movement in the Red Sea, especially in Bab al-Mandab, and [does] not dare to raise Israeli flags on its ships.” The Bab al-Mandab, the Gate of Grief, is the 14-nautical-mile wide waterway between Djibouti and Yemen. What is interesting is that, by United Nations treaty, a country claims 12 nautical miles as its territorial limit; this means a large part of the waters are within Yemen’s jurisdiction. More\nThe post Are the Houthis Gaining the Upper Hand? appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/11/25/are-the-houthis-gaining-the-upper-hand/",
+          "publishedOn": "2024-11-25T07:00:57.000Z",
+          "wordCount": null,
+          "title": "Are the Houthis Gaining the Upper Hand?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=344951",
+          "author": "Nelson Pereira",
+          "description": "Two weeks after the acts of violence on the sidelines of the game between the Israeli team Maccabi Tel Aviv and Ajax, in Amsterdam, on November 7th, there are those who continue to battle to correct the facts, accusing main media outlets of having distorted the events to get in step with the Israeli narrative.  More\nThe post Maccabi in Amsterdam: Media at the Service of Disinformation appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/11/25/maccabi-in-amsterdam-media-at-the-service-of-disinformation/",
+          "publishedOn": "2024-11-25T06:59:37.000Z",
+          "wordCount": null,
+          "title": "Maccabi in Amsterdam: Media at the Service of Disinformation",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=344999",
+          "author": "Binoy Kampmark",
+          "description": "There is something enormously satisfying about seeing those in the war racket worry that their assumptions on conflict have been upended.  There they were, happily funding, planning and preparing to battle against threats imagined or otherwise, and there comes Donald Trump, malice and petulance combined, to pull the rug from under them again. What is fascinating  More\nThe post Trump, AUKUS and Australia’s Dim Servitors appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/11/25/trump-aukus-and-australias-dim-servitors/",
+          "publishedOn": "2024-11-25T06:55:46.000Z",
+          "wordCount": null,
+          "title": "Trump, AUKUS and Australia’s Dim Servitors",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=344997",
+          "author": "Nick Licata",
+          "description": "This year, our nation experienced the mobilization of the lowest economic class against the establishment controlled by the elites for the second time. It’s not a Marxist revolution or a fascist coup; it’s a significant portion of American voters uprising to overthrow the established order. This bare majority may not endure, but a visible eruption  More\nThe post The Return of a Demagogic Populist President After 200 Years appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/11/25/the-return-of-a-demagogic-populist-president-after-200-years/",
+          "publishedOn": "2024-11-25T06:55:43.000Z",
+          "wordCount": null,
+          "title": "The Return of a Demagogic Populist President After 200 Years",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=344820",
+          "author": "John Whitbeck",
+          "description": "One thing that reasonable people can agree with in the outraged and outrageous Israeli and American reactions to the arrest warrants issued by the International Criminal Court against two Israeli leaders and one (presumably dead) Palestinian leader is that there can be no moral equivalence between the Israeli government and Hamas. Indeed, there can be  More\nThe post ICC Arrest Warrants: Moral Equivalence? appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/11/25/icc-arrest-warrants-moral-equivalence/",
+          "publishedOn": "2024-11-25T06:55:27.000Z",
+          "wordCount": null,
+          "title": "ICC Arrest Warrants: Moral Equivalence?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=344995",
+          "author": "Thomas Knapp",
+          "description": "On November 12, president-elect Donald Trump announced his second-term plans for a “Department of Government Efficiency” which will, in his words, “dismantle government bureaucracy, slash excess regulations, cut wasteful expenditures and restructure federal agencies.” He’s assigning leadership of the “department” to the world’s most successful corporate welfare queen, Elon Musk, and to Vivek Ramaswamy, whose  More\nThe post Trump’s Second-Term “Efficiency” Offering: Microwaved Leftovers appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/11/25/trumps-second-term-efficiency-offering-microwaved-leftovers/",
+          "publishedOn": "2024-11-25T06:55:21.000Z",
+          "wordCount": null,
+          "title": "Trump’s Second-Term “Efficiency” Offering: Microwaved Leftovers",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=344668",
+          "author": "Ron Jacobs",
+          "description": "Most people seem to think that the saying “A picture is worth a thousand words” originated with Confucius, Ben Franklin or some other sage. In fact, it is actually attributed to an advertising man named Fred R. Barnard. Apparently, Barnard introduced the phrase in an article in the advertising journal Printers Ink discussing the merits  More\nThe post The Impact of Images appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/11/25/the-impact-of-images/",
+          "publishedOn": "2024-11-25T06:50:40.000Z",
+          "wordCount": null,
+          "title": "The Impact of Images",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=344961",
+          "author": "Stephen F. Eisenman",
+          "description": "Location: Cabinet Room, West Wing of the White House. The president is seated in the middle of a long, oval table, flanked by Vice President Vance and Attorney General Bondi. Trump to all: “Isn’t this the biggest cabinet meeting ever? Nothing like Biden’s or Obama’s meetings. Susie, what’s first on the agenda? Chief of Staff  More\nThe post Transcript, Trump’s First Cabinet Meeting, January 21, 2025 appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/11/25/344961/",
+          "publishedOn": "2024-11-25T06:42:28.000Z",
+          "wordCount": null,
+          "title": "Transcript, Trump’s First Cabinet Meeting, January 21, 2025",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.counterpunch.org/?p=344971",
           "author": "Eve Ottenberg",
@@ -506,116 +565,6 @@
           "title": "A Great Trump Escape: Night Trains to Armenia",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=344208",
-          "author": "Anthony Pahnke",
-          "description": "When a student in the 2000s, I was actively involved in immigrant raid response efforts that churches, labor unions, and community groups organized to mitigate the effects of then-President Bush’s nationwide enforcement actions. We took resources like clothes, food, and money to affected families in the states of Minnesota and Iowa, and conducted ‘Know Your  More\nThe post Time and Time Again, Mass Deportations Have Failed–Trump’s Plans Will Be No Different appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/22/time-and-time-again-mass-deportations-have-failed-trumps-plans-will-be-no-different/",
-          "publishedOn": "2024-11-22T06:54:05.000Z",
-          "wordCount": null,
-          "title": "Time and Time Again, Mass Deportations Have Failed–Trump’s Plans Will Be No Different",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=344647",
-          "author": "David Yearsley",
-          "description": "Released only the day before the election, will.i.am’s sonic squib, “Yes She Can,” was the final political misfire of the musical campaign, the cannon’s weak report barely heard as evening fell on Kamala Harris’s presidential campaign and the routed troops fled her standard. But there is another mournful melody that continues to waft across early  More\nThe post The Song Remains the Same: Detuning the Democratic Defeat appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/22/the-song-remains-the-same-detuning-the-democratic-defeat/",
-          "publishedOn": "2024-11-22T06:53:34.000Z",
-          "wordCount": null,
-          "title": "The Song Remains the Same: Detuning the Democratic Defeat",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=344137",
-          "author": "Mark Ashwill",
-          "description": "The day after the US presidential election, Fanta Aw, executive director and CEO of NAFSA, posted the following on her LinkedIn page: “Waking up to a new day, and America has spoken. The work of international education has never been more important. It is the bridge that unites us, ensuring a future where we are  More\nThe post The Glaring Hypocrisy of Establishment US International Education appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/22/the-glaring-hypocrisy-of-establishment-us-international-education/",
-          "publishedOn": "2024-11-22T06:53:29.000Z",
-          "wordCount": null,
-          "title": "The Glaring Hypocrisy of Establishment US International Education",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=344564",
-          "author": "Saurav Sarkar",
-          "description": "Bikram Singh is running out of time on his post-study work visa in Canada. Singh is one of about 70,000 migrants who were sold on the Canadian dream of eventually making the country their home but now face an uncertain future with their work permits set to expire by December 2024. They came from places like India,  More\nThe post Canada Reinvents the Xenophobic Wheel appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/22/canada-reinvents-the-xenophobic-wheel/",
-          "publishedOn": "2024-11-22T06:53:09.000Z",
-          "wordCount": null,
-          "title": "Canada Reinvents the Xenophobic Wheel",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=344569",
-          "author": "Erik Molvar",
-          "description": "In the American West, the vast majority of public lands are leased to ranchers to graze their livestock. The ranchers can’t seem to get along with any of the wild inhabitants. Coyotes, ravens, eagles, mountain lions, prairie dogs, grizzly bears, beavers are all targeted for elimination by the livestock industry, for its sole convenience. Ranchers  More\nThe post Should We Have Wolves or Livestock on Public Lands? appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/22/should-we-have-wolves-or-livestock-on-public-lands/",
-          "publishedOn": "2024-11-22T06:53:01.000Z",
-          "wordCount": null,
-          "title": "Should We Have Wolves or Livestock on Public Lands?",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=344552",
-          "author": "John Kendall Hawkins",
-          "description": "Less than a year after the American philosopher Daniel C. Dennett put out his latest collection of quality ruminations on his life, titled I Was Thinking (2023), he died of interstitial lung disease in a bed at Maine Medical Center in Portland on April 19, 2024. He surely had an intimation of his nearing demise, as he  More\nThe post On and Off in Life and Death appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/22/on-and-off-in-life-and-death/",
-          "publishedOn": "2024-11-22T06:52:38.000Z",
-          "wordCount": null,
-          "title": "On and Off in Life and Death",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=344556",
-          "author": "Michael Albert",
-          "description": "How does one take seriously having a vaccine denier in charge of public health? How about having the world’s richest corporate owner in charge of cutting regulatory agencies?  Or having the other foxes in the henhouse, much less Oval office-ing the degenerate ringmaster himself? I would guess all who read this article feel outrage and  More\nThe post Life With and After Trump appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/22/life-with-and-after-trump/",
-          "publishedOn": "2024-11-22T06:52:16.000Z",
-          "wordCount": null,
-          "title": "Life With and After Trump",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=344293",
-          "author": "Kathy Kelly",
-          "description": "In mid-November, New York’s Catholic Worker community, located in lower Manhattan, opened their sizable auditorium to host “Reap What You Sow: Don’t Lose Heart!” a two act play with two actors which debuted, for two nights, on the Maryhouse stage. Prior to the performance, preparations included selecting the sturdiest wooden chairs for audience seating, carefully  More\nThe post On the Maryhouse Stage: Power Politics and War appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/22/on-the-maryhouse-stage-power-politics-and-war/",
-          "publishedOn": "2024-11-22T06:52:08.000Z",
-          "wordCount": null,
-          "title": "On the Maryhouse Stage: Power Politics and War",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=344554",
-          "author": "John Feffer",
-          "description": "Donald Trump’s victory in the U.S. presidential election was surprising in a number of ways. He won every swing state as well as the popular vote, which a Republican candidate hadn’t done in two decades. He led his party to a congressional sweep, with the Republicans maintaining control of the House of Representatives and seizing  More\nThe post Surviving the New Trump Era appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/22/surviving-the-new-trump-era/",
-          "publishedOn": "2024-11-22T06:52:07.000Z",
-          "wordCount": null,
-          "title": "Surviving the New Trump Era",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=344546",
-          "author": "Robin Philpot",
-          "description": "A few days before Remembrance Day, November 11, 2024, the Government of Canada announced that it will not release the portion of a report produced by the Commission of Inquiry into War Criminals in Canada (Deschênes Commission) that names 900 Canadians accused of war crimes committed on behalf of the Nazis. Canada admitted these people  More\nThe post Canada and Ukraine: The Careful Suppression of a Shameful History  appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/22/canada-and-ukraine-the-careful-suppression-of-a-shameful-history/",
-          "publishedOn": "2024-11-22T06:51:59.000Z",
-          "wordCount": null,
-          "title": "Canada and Ukraine: The Careful Suppression of a Shameful History",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -625,12 +574,22 @@
       "siteUrl": "https://libertystreeteconomics.newyorkfed.org/",
       "articles": [
         {
+          "id": "https://libertystreeteconomics.newyorkfed.org/?p=32467",
+          "author": "Sergio Correia, Stephan Luck, and Emil Verner",
+          "description": "Evidence from a 160-year-long panel of U.S. banks suggests that the ultimate cause of bank failures and banking crises is almost always a deterioration of bank fundamentals that leads to insolvency. As described in our previous post, bank failures—including those that involve bank runs—are typically preceded by a slow deterioration of bank fundamentals and are hence remarkably predictable. In this final post of our three-part series, we relate the findings discussed previously to theories of bank failures, and we discuss the policy implications of our findings.",
+          "link": "https://libertystreeteconomics.newyorkfed.org/2024/11/why-do-banks-fail-bank-runs-versus-solvency/",
+          "publishedOn": "2024-11-25T12:00:00.000Z",
+          "wordCount": 4478,
+          "title": "Why Do Banks Fail? Bank Runs versus Solvency",
+          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/11/LSE_2024_why-do-banks-fail_Part3_luck_460_bfc49d.jpg"
+        },
+        {
           "id": "https://libertystreeteconomics.newyorkfed.org/?p=32432",
           "author": "Sergio Correia, Stephan Luck, and Emil Verner",
           "description": "Can bank failures be predicted before they happen? In a previous post, we established three facts about failing banks that indicated that failing banks experience deteriorating fundamentals many years ahead of their failure and across a broad range of institutional settings. In this post, we document that bank failures are remarkably predictable based on simple accounting metrics from publicly available financial statements that measure a bank’s insolvency risk and funding vulnerabilities.",
           "link": "https://libertystreeteconomics.newyorkfed.org/2024/11/why-do-banks-fail-the-predictability-of-bank-failures/",
           "publishedOn": "2024-11-22T12:00:00.000Z",
-          "wordCount": 4495,
+          "wordCount": 4505,
           "title": "Why Do Banks Fail? The Predictability of Bank Failures",
           "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/11/LSE_2024_why-do-banks-fail_PART2_luck_460_941395.jpg"
         },
@@ -652,12 +611,22 @@
       "siteUrl": "https://rwer.wordpress.com",
       "articles": [
         {
+          "id": "http://rwer.wordpress.com/?p=45871",
+          "author": "merijntknibbe",
+          "description": "Who decides what statistical offices measure and how they measure it? And what are the implicit values embedded in these decisions? Recently, the ILO issued a new manual on measuring productivity. Below, I´ll discuss the questions posed. But for starters, it is essential to realize that economists measure monetary productivity, not physical productivity, which leads […]",
+          "link": "https://rwer.wordpress.com/2024/11/25/the-political-economy-of-estimating-productivity/",
+          "publishedOn": "2024-11-25T10:52:58.000Z",
+          "wordCount": 5756,
+          "title": "The political economy of estimating productivity.",
+          "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-34.png"
+        },
+        {
           "id": "http://rwer.wordpress.com/?p=45847",
           "author": "merijntknibbe",
           "description": "Peak Babies was in 2012. At this moment, we´re back to the level of forty years ago (and the most recent data may well be an overestimate). For the first time in centuries, cohorts entering the global labour market will soon be smaller than the cohorts preceding them. Even when there are significant differences in […]",
           "link": "https://rwer.wordpress.com/2024/11/24/peak-babies-has-been-young-men-are-not-expendable-anymore/",
           "publishedOn": "2024-11-24T09:21:27.000Z",
-          "wordCount": 4381,
+          "wordCount": 4384,
           "title": "Peak babies has been. Young men are not expendable, anymore.",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-27.png"
         },
@@ -667,7 +636,7 @@
           "description": "from Lars Syll The NAIRU story has always had a very clear policy implication — attempts to promote full employment are doomed to fail since governments and central banks can’t push unemployment below the critical NAIRU threshold without causing harmful runaway inflation. Although a lot of mainstream economists and politicians have a touching faith in […]",
           "link": "https://rwer.wordpress.com/2024/11/20/nairu-a-harmful-fairy-tale-2/",
           "publishedOn": "2024-11-20T21:35:27.000Z",
-          "wordCount": 4345,
+          "wordCount": 4360,
           "title": "NAIRU — a harmful fairy tale",
           "imageUrl": "https://larspsyll.wordpress.com/wp-content/uploads/2014/11/jobs20cartoon.jpg?w=347&h=244"
         },
@@ -677,7 +646,7 @@
           "description": "Like John Stuart Mill, I´m more interested in credit than in money. Developments in the amount of credit provided are much more instructive to the economist than data on money. Look at the graph below (no. 2 in the ECB press release) , a highly Post-Keynesian graph that originated from the pre-Euro Bundesbank and is […]",
           "link": "https://rwer.wordpress.com/2024/11/20/monetary-developments-in-the-euro-area-september-2024-quiet/",
           "publishedOn": "2024-11-20T15:28:18.000Z",
-          "wordCount": 4277,
+          "wordCount": 4280,
           "title": "Monetary developments in the Euro Area, september 2024. Quiet.",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-19.png"
         }
@@ -695,12 +664,52 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=282741",
+          "author": "Conor Gallagher",
+          "description": "",
+          "link": "https://www.nakedcapitalism.com/2024/11/links-11-25-2024.html",
+          "publishedOn": "2024-11-25T11:55:33.000Z",
+          "wordCount": 3920,
+          "title": "Links 11/25/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screenshot-2024-11-24-at-10.50.32 PM-737x1024.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=282746",
+          "author": "Yves Smith",
+          "description": "The Oreshnik strike is a vivid demonstration of how the West is seriously lagging Russian military capabilities, and remains  in denial.",
+          "link": "https://www.nakedcapitalism.com/2024/11/sputnik-2-0-oreshnik-and-the-western-military-capabilities-gap.html",
+          "publishedOn": "2024-11-25T11:54:02.000Z",
+          "wordCount": 6401,
+          "title": "Sputnik 2.0? Oreshnik and the Western Military Capabilities Gap",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F888570c7-119e-43c8-924c-3e4d18325c6d_1000x453.gif"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=282761",
+          "author": "Yves Smith",
+          "description": "More confirmation of political and press failure to stand up to voracious tech energy demands so as to preserve the planet as best we can.",
+          "link": "https://www.nakedcapitalism.com/2024/11/data-centers-highlight-the-limits-of-renewable-energy-scaling-2.html",
+          "publishedOn": "2024-11-25T10:55:54.000Z",
+          "wordCount": 3292,
+          "title": "Data Centers Highlight the Limits of Renewable Energy Scaling",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=282747",
+          "author": "Conor Gallagher",
+          "description": "Data centers are an obstacle that torpedoes the whole idea of a transition offensive against hydrocarbons.",
+          "link": "https://www.nakedcapitalism.com/2024/11/data-centers-highlight-the-limits-of-renewable-energy-scaling.html",
+          "publishedOn": "2024-11-25T09:00:52.000Z",
+          "wordCount": 3644,
+          "title": "Data Centers Highlight the Limits of Renewable Energy Scaling",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=282683",
           "author": "Conor Gallagher",
           "description": "",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-24-2024.html",
           "publishedOn": "2024-11-24T11:55:24.000Z",
-          "wordCount": 20480,
+          "wordCount": 21996,
           "title": "Links 11/24/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screenshot-2024-11-24-at-12.00.02 AM-1024x847.png"
         },
@@ -710,7 +719,7 @@
           "description": "Silicon Valley looks to bring tech used in conflicts abroad back to American shores.",
           "link": "https://www.nakedcapitalism.com/2024/11/the-wars-come-home.html",
           "publishedOn": "2024-11-24T10:00:23.000Z",
-          "wordCount": 8783,
+          "wordCount": 9124,
           "title": "The Wars Come Home",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screenshot-2024-11-22-at-7.16.17 AM-1024x1019.png"
         },
@@ -720,7 +729,7 @@
           "description": "Critics of the \"COP of false solutions\" said that instead of much-needed funding, developing nations got \"a global Ponzi scheme that the private equity vultures and public relations people will now exploit.\"",
           "link": "https://www.nakedcapitalism.com/2024/11/after-ending-in-overtime-cop29-called-big-f-u-to-climate-justice.html",
           "publishedOn": "2024-11-24T09:00:02.000Z",
-          "wordCount": 4547,
+          "wordCount": 4668,
           "title": "After Ending in Overtime, COP29 Called ‘Big F U to Climate Justice’",
           "imageUrl": null
         },
@@ -730,7 +739,7 @@
           "description": "Our frenetic daily links: tap water risk? big plastics undercount, NPIs validated, Xi on US, NKorea v. talks, Barnier no confidence? Starmer defends heating cuts, Israel ups killing after ICC warrant, Putin warns re WWIII, Trump hearting Project 2025? immigration, Musk to buy CNN? strong dollar hurting emerging bonds, sex worker abuse network",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-23-2024.html",
           "publishedOn": "2024-11-23T11:55:13.000Z",
-          "wordCount": 27352,
+          "wordCount": 27372,
           "title": "Links 11/23/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-23-at-2.37.28-PM.png"
         },
@@ -740,7 +749,7 @@
           "description": "Yves here. I’ve been waiting for legal arguments against the planned wholesale Federal budget whackage under the Trump DOGE initiative to start. Admittedly its leaders Musk and Ramaswamy had not given much insight into how they intended to achieve their ambitious aims. The little I have seen suggests that they effectively intend to override regulations….which […]",
           "link": "https://www.nakedcapitalism.com/2024/11/dems-rip-musk-ramaswamy-plan-for-spending-cuts-as-illegal-power-grab.html",
           "publishedOn": "2024-11-23T08:36:40.000Z",
-          "wordCount": 6785,
+          "wordCount": 6805,
           "title": "Dems Rip Musk-Ramaswamy Plan for Spending Cuts as Illegal ‘Power Grab’",
           "imageUrl": null
         },
@@ -750,49 +759,9 @@
           "description": "Health care inequality and the Covid-19 pandemic’s toll put Democrats at a structural disadvantage in the 2024 election.",
           "link": "https://www.nakedcapitalism.com/2024/11/neglecting-health-care-may-have-cost-democrats-the-election.html",
           "publishedOn": "2024-11-23T08:13:35.000Z",
-          "wordCount": 8564,
+          "wordCount": 8584,
           "title": "Neglecting Health Care May Have Cost Democrats the Election",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=282653",
-          "author": "Lambert Strether",
-          "description": "~ Today's Water Cooler: Politics, syndemics; Trump border czar beats chest; Resistance 2.0 funders and NGOs;  Mathematical thinking  ~",
-          "link": "https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-22-2024.html",
-          "publishedOn": "2024-11-22T19:00:37.000Z",
-          "wordCount": 15672,
-          "title": "2:00PM Water Cooler 11/22/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/covid-cdc-ww-natl-3.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=282649",
-          "author": "Yves Smith",
-          "description": "World leaders criticized COP29 host Azerbaijan for its oil-dependent economy while ignoring the massive climate bootprint of their militaries.",
-          "link": "https://www.nakedcapitalism.com/2024/11/fueling-the-flames-how-the-wests-military-emissions-undermine-climate-action.html",
-          "publishedOn": "2024-11-22T14:55:06.000Z",
-          "wordCount": 4065,
-          "title": "Fueling the Flames: How the West’s Military Emissions Undermine Climate Action",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=282627",
-          "author": "Lambert Strether",
-          "description": "Our kinetic daily links.",
-          "link": "https://www.nakedcapitalism.com/2024/11/links-11-22-2024.html",
-          "publishedOn": "2024-11-22T11:55:45.000Z",
-          "wordCount": 14557,
-          "title": "Links 11/22/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/seahorse_2.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=282588",
-          "author": "Nick Corbishley",
-          "description": "\"Beijing is now the main trading partner for most nations in the region and has the fastest-growing stock of investments.\"",
-          "link": "https://www.nakedcapitalism.com/2024/11/ft-echoes-our-warning-from-three-years-ago-the-us-is-losing-the-battle-for-latin-america-to-china.html",
-          "publishedOn": "2024-11-22T11:45:25.000Z",
-          "wordCount": 9594,
-          "title": "FT Confirms What We’ve Been Saying for Three Years: The US Is Losing the “Battle… for Latin America” to China",
-          "imageUrl": "https://www.apec.org/images/default-source/leaders-declarations/2016/2016.tmb-w780.jpg?Culture=en&sfvrsn=68f057e3_1"
         }
       ]
     },
@@ -807,7 +776,7 @@
           "description": "If we plot the metrics associated with large DDoS attacks observed in the last 10 years, does it show a straight, steady increase in an exponential curve that keeps becoming steeper, or is it closer to a linear growth? Our analysis found the growth is not linear but rather is exponential, with the slope varying depending on the metric (rps, pps or bps).",
           "link": "https://blog.cloudflare.com/bigger-and-badder-how-ddos-attack-sizes-have-evolved-over-the-last-decade",
           "publishedOn": "2024-11-20T22:00:00.000Z",
-          "wordCount": 2537,
+          "wordCount": 2539,
           "title": "Bigger and badder: how DDoS attack sizes have evolved over the last decade",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6NLDNrzc4BY9kCbijn6IPS/2f96275f95e8e255222fed533f3267d6/Bigger_and_badder-_how_DDoS_attack_sizes_have_evolved_over_the_last_decade-OG.png"
         },
@@ -843,18 +812,7 @@
       "title": "Engineering at Slack",
       "feedUrl": "https://slack.engineering/feed/",
       "siteUrl": "https://slack.engineering",
-      "articles": [
-        {
-          "id": "https://slack.engineering/?p=17285",
-          "author": "George Luong",
-          "description": "Introduction Slack handles a lot of log data. In fact, we consume over 6 million log messages per second. That equates to over 10 GB of data per second! And it’s all stored using Astra, our in-house, open-source log search engine. To make this data searchable, Astra groups it by time and splits the data…\nThe post Astra Dynamic Chunks: How We Saved by Redesigning a Key Part of Astra appeared first on Engineering at Slack.",
-          "link": "https://slack.engineering/astra-dynamic-chunks-how-we-saved-by-redesigning-a-key-part-of-astra/",
-          "publishedOn": "2024-11-18T22:06:23.000Z",
-          "wordCount": 1951,
-          "title": "Astra Dynamic Chunks: How We Saved by Redesigning a Key Part of Astra",
-          "imageUrl": "https://slack.engineering/wp-content/uploads/sites/7/2024/11/unnamed.png?w=640"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Visual Studio Code - Code Editing. Redefined.",
@@ -873,7 +831,7 @@
           "description": "AI plays a fundamental role in creating valuable connections between people and advertisers within Meta’s family of apps. Meta’s ad recommendation engine, powered by deep learning recommendation models (DLRMs), has been instrumental in delivering personalized ads to people. Key to this success was incorporating thousands of human-engineered signals or features in the DLRM-based recommendation system. [...]\nRead More...\nThe post Sequence learning: A paradigm shift for personalized ads recommendations appeared first on Engineering at Meta.",
           "link": "https://engineering.fb.com/2024/11/19/data-infrastructure/sequence-learning-personalized-ads-recommendations/",
           "publishedOn": "2024-11-19T17:00:43.000Z",
-          "wordCount": 2960,
+          "wordCount": 2964,
           "title": "Sequence learning: A paradigm shift for personalized ads recommendations",
           "imageUrl": "https://engineering.fb.com/wp-content/uploads/2022/11/Eng-Blog-Self-Serve-Hero-Images-DEBUGGING-203-.jpg"
         }
@@ -885,12 +843,22 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=42231053",
+          "author": "JacobJeppesen",
+          "description": "I've seen a bit of confusion regarding this. First, it's 10% of Denmark's total land area, which is roughly equivalent to 15% of farmland area. Second, the conversion of farmland area into nature and forests is mainly for improving water quality, as excess nitrogen from agriculture has essentially killed the rivers and coastal waters through oxygen depletion from algae.\nRegarding global warming and CO2, the area conversion of peatlands will help, but the major change here is the introduction of a carbon tax for the entire agricultural industry. And to end confusion regarding other emissions than CO2, it's actually a CO2-equivalent (CO2e) tax, which includes a range of other gasses. E.g., 1kg of methane is 25kg CO2e.\nIf you'd like to read more, see the two PDF documents below, which are the main official documents. They're in Danish, but upload them to Claude or ChatGPT, and you'll have a much better source of information if you'd like to know more about the specifics and how the actual implementation is planned.\n[1] https://www.regeringen.dk/media/13261/aftale-om-et-groent-da...\n[2] https://mgtp.dk/media/iinpdy3w/aftale_om_implementering_af_e...",
+          "link": "https://news.ycombinator.com/item?id=42231053",
+          "publishedOn": "2024-11-24T22:07:58.000Z",
+          "wordCount": 4795,
+          "title": "New comment by JacobJeppesen in \"Denmark will plant 1B trees and convert 10% of farmland into forest\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=42228934",
           "author": "equestria",
           "description": "Here's the thing about the average career in big tech: five years after you leave, almost no one will remember you were there. Most of your old team mates will leave for other other jobs. Your code will get refactored or rewritten. Docs will be superseded, then lost in some CMS migration. Before long, it will be as if you have never worked there.\nI know it sounds preposterous, but ask anyone over the age of 55 or 60: except for folks who built their own companies or made truly exceptional contributions to their field, most will say that hobbies, friends, and family mattered a lot more.\nSo, there is this fundamental contradiction in this article: you can engineer a very neat career, but for most techies, the most useful goal is to make money fast in a way that doesn't drain your life energy. And most of the time, this means responding to opportunities, not sticking to your guns. For example, a lifetime IC job may be ultimately worth less than a management job that gets you to VP level in a decade. You don't need to dream about being a manager; you just need to be reasonably good at it.",
           "link": "https://news.ycombinator.com/item?id=42228934",
           "publishedOn": "2024-11-24T17:11:52.000Z",
-          "wordCount": null,
+          "wordCount": 7608,
           "title": "New comment by equestria in \"A career-ending mistake\"",
           "imageUrl": null
         },
@@ -900,7 +868,7 @@
           "description": "I agree with you that's how it should be, but experience tells me that everyone is insecure and it's hardly correlated with position and job security.\nPeople lower down the chain are insecure because they could legitimately be let go at any time for any reason.\nPeople higher up the chain are insecure because any loss of face is debilitating. Especially having failings pointed out by someone \"below\" them.",
           "link": "https://news.ycombinator.com/item?id=42224244",
           "publishedOn": "2024-11-23T21:52:06.000Z",
-          "wordCount": 2729,
+          "wordCount": null,
           "title": "New comment by NAHWheatCracker in \"How to give a senior leader feedback without getting fired\"",
           "imageUrl": null
         },
@@ -912,16 +880,6 @@
           "publishedOn": "2024-11-23T21:11:51.000Z",
           "wordCount": null,
           "title": "New comment by lijok in \"How to give a senior leader feedback without getting fired\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=42223132",
-          "author": "gary_0",
-          "description": "In retrospect it was extremely arrogant of us 90's nerds to think that the bullies and autocrats and sleazebags of the world were too stupid to figure out how to use the Internet to their own ends, and overwhelm the incumbent minority. Once you could use a sleek, trendy iPhone instead of a clunky desktop computer to get online, the writing was on the wall.\nTechnology changes, people don't.",
-          "link": "https://news.ycombinator.com/item?id=42223132",
-          "publishedOn": "2024-11-23T19:19:49.000Z",
-          "wordCount": null,
-          "title": "New comment by gary_0 in \"The tech utopia fantasy is over\"",
           "imageUrl": null
         },
         {
@@ -940,7 +898,7 @@
           "description": "This is a sentiment that I've seen expressed in comment sections many times. I've been programming professionally now for 10 years, and it just doesn't resonate with my experience. Problems with build systems for external dependencies, package managers, and underfeatured / overcomplicated / buggy third party dependencies have been by far the worse issue in my career, compared to problems with homebrewed systems.\nI'm not saying you're wrong, I don't doubt that many people have the opposite experience. It just makes me feel a bit alien when I read comments like this.",
           "link": "https://news.ycombinator.com/item?id=42218947",
           "publishedOn": "2024-11-23T03:12:31.000Z",
-          "wordCount": null,
+          "wordCount": 7422,
           "title": "New comment by wheybags in \"Dear sir, you have built a compiler (2022)\"",
           "imageUrl": null
         },
@@ -950,7 +908,7 @@
           "description": "\"As part of the calibration, the speed of sound is also a parameter which is optimized to obtain the best model of the system, which allows this whole procedure to act as a ridiculously overengineered thermometer.\"\nReminds me of the electronics adage: \"all sensors are temperature sensors, some measure other things as well.\"",
           "link": "https://news.ycombinator.com/item?id=42215936",
           "publishedOn": "2024-11-22T17:56:15.000Z",
-          "wordCount": 3528,
+          "wordCount": null,
           "title": "New comment by frankus in \"Phased Array Microphone (2023)\"",
           "imageUrl": null
         },
@@ -980,7 +938,7 @@
           "description": "(before you jump into discussion, remember that this only about these two individuals)\nICC and the prosecutor are on very solid ground here.\nThe prosecutor asked opinions from a impartial panel of experts in international law. The panel included people like Theodor Meron (former Legal adviser for the Israeli Ministry of Foreign Affairs),  Helene Kennedy, Adrian Fulford.\nNetanyahu and Yoav Gallant provided plenty of evidence of the intent. Did they really think that when they talk Hebrew to their audience, rest of the world does not hear them. Case like this would be harder to prosecute without evidence of intent.",
           "link": "https://news.ycombinator.com/item?id=42203754",
           "publishedOn": "2024-11-21T12:40:48.000Z",
-          "wordCount": 18934,
+          "wordCount": null,
           "title": "New comment by nabla9 in \"ICC issues warrants for Netanyahu, Gallant, and Hamas officials\"",
           "imageUrl": null
         },
@@ -1010,7 +968,7 @@
           "description": "Hands down one of the greatest services out there, stopped a racket and made the internet secure.\nI remember a time when having an HTTPS connection was for \"serious\" projects only because the cost of the certificate was much higher than the domain. You go commando and if it sticks then you purchase a certificate for a 100 bucks or something.",
           "link": "https://news.ycombinator.com/item?id=42191644",
           "publishedOn": "2024-11-20T07:49:52.000Z",
-          "wordCount": null,
+          "wordCount": 3502,
           "title": "New comment by mrtksn in \"Let's Encrypt is 10 years old now\"",
           "imageUrl": null
         },
@@ -1020,7 +978,7 @@
           "description": "I've gone through times when management would treat estimates as deadlines, and were deaf to any sort of reason about why it could be otherwise, like the usual thing of them changing the specification repeatedly.\nSo when those times have occurred I've (we've more accurately) adopted what I refer to the \"deer in the headlights\" response to just about anything non-trivial.  \"Hoo boy, that could be doozy.  I think someone on the team needs to take an hour or so and figure out what this is really going to take.\"  Then you'll get asked to \"ballpark it\" because that's what managers do, and they get a number that makes them rise up in their chair, and yes, that is the number they remember.  And then you do your hour of due diligence, and try your best not to actually give any other number than the ballpark at any time, and then you get it done \"ahead of time\" and look good.\nNow, I've had good managers who totally didn't need this strategy, and I loved 'em to death.  But for the other numbnuts who can't be bothered to learn their career skills, they get the whites of my eyes.\nAlso, just made meetings a lot more fun.",
           "link": "https://news.ycombinator.com/item?id=42188611",
           "publishedOn": "2024-11-19T22:06:08.000Z",
-          "wordCount": null,
+          "wordCount": 9738,
           "title": "New comment by redleggedfrog in \"When did estimates turn into deadlines?\"",
           "imageUrl": null
         },
@@ -1040,7 +998,7 @@
           "description": "People here seem to be underestimating the advantages that Google gets just because of Chrome:\n- When you sign in to Google, you sign in browser-wide. Google now gets all of your browsing data, perfect for advertising. (If you ever doubt it, go check out Google Takeout. You'll be shocked at the amount of data you see there.)\n- They have special APIs and features that they get to use, and nobody else. Only because they own Chrome. [1]\n- They get to move forward with enabling and pushing features that allow for more advertising: see Manifest v3, FLoC.\n- Google specifically serves a worse version of Search on Firefox for Mobile. You have to get an extension to get the full experience.\nThis isn't an isolated attempt. You can see more of the same thing with Android.\n- AOSP (the open source counterpart of Android) is now unusable. It doesn't ship with most essential apps, including a Phone app. In previous versions of Android, all of these were a part of AOSP.\n- Most third party launchers/stores struggle to implement features because they are only available for Google themselves.\n- The signing in with Google thing from above continues here too: you sign in to Google system-wide.\n[1]: https://x.com/lcasdev/status/1810696257137959018",
           "link": "https://news.ycombinator.com/item?id=42181921",
           "publishedOn": "2024-11-19T10:27:42.000Z",
-          "wordCount": 14885,
+          "wordCount": 14940,
           "title": "New comment by rkharsan64 in \"DOJ will push Google to sell off Chrome\"",
           "imageUrl": null
         },
@@ -1052,56 +1010,6 @@
           "publishedOn": "2024-11-19T08:06:52.000Z",
           "wordCount": null,
           "title": "New comment by wesselbindt in \"DOJ will push Google to sell off Chrome\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=42178751",
-          "author": "joemi",
-          "description": "It's quite amusing that they used the incorrect, lowercase abbreviation for \"nautical mile\" which means something else (\"nanometer\") in an article about a major issue caused by two things sharing the same abbreviation.",
-          "link": "https://news.ycombinator.com/item?id=42178751",
-          "publishedOn": "2024-11-19T00:14:15.000Z",
-          "wordCount": 133,
-          "title": "New comment by joemi in \"Air traffic failure caused by two locations 3600nm apart sharing 3-letter code\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=42178442",
-          "author": "JumpCrisscross",
-          "description": "> only reason I still use Chrome is because I already use other Google products and they integrate well together\nThis is the point. Google's products integrate with Chrome better than non-Google products. Including its ad platform.",
-          "link": "https://news.ycombinator.com/item?id=42178442",
-          "publishedOn": "2024-11-18T23:35:48.000Z",
-          "wordCount": 5922,
-          "title": "New comment by JumpCrisscross in \"DOJ will push Google to sell off Chrome\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=42177929",
-          "author": "curiouscat321",
-          "description": "Who would possibly buy Chrome? Letting any of the large tech companies purchase it (the only possible buyers) would just give someone else monopolistic power.\nChrome can’t exist as a standalone business without being even more consumer hostile.",
-          "link": "https://news.ycombinator.com/item?id=42177929",
-          "publishedOn": "2024-11-18T22:45:28.000Z",
-          "wordCount": 6863,
-          "title": "New comment by curiouscat321 in \"DOJ will push Google to sell off Chrome\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=42177868",
-          "author": "Etheryte",
-          "description": "This is a misleading framing. The two cables last year were not taken out by an anchor as an accident, it was literally a ship putting down its anchor just before the cable and then dragging it over the cable. In other words, sabotage. There's no point in trying to color any of this with rose tinted glasses when it's clear who's done it and why.",
-          "link": "https://news.ycombinator.com/item?id=42177868",
-          "publishedOn": "2024-11-18T22:38:02.000Z",
-          "wordCount": 14484,
-          "title": "New comment by Etheryte in \"Two undersea cables in Baltic Sea disrupted\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=42176959",
-          "author": "teruakohatu",
-          "description": "The best thing, by a long way, that Google Scholar has achieved is denying Elsevier & co a monopoly on academic search.\nIn most universities here in New Zealand, articles have to be published in a journal indexed by Elsevier's Scopus. Not in a Scopus-indexed journal, it does not count anymore than a reddit comment. This gives Elsevier tremendous power. But in CS/ML/AI most academics and students turn to Google Scholar first when doing searches.",
-          "link": "https://news.ycombinator.com/item?id=42176959",
-          "publishedOn": "2024-11-18T20:59:26.000Z",
-          "wordCount": 2362,
-          "title": "New comment by teruakohatu in \"20 years of Google Scholar\"",
           "imageUrl": null
         }
       ]
@@ -1117,7 +1025,7 @@
           "description": "by Rutger Claassen and Ingrid Robeyns Let’s establish an upper limit on the personal wealth any individual can possess. This is the core principle behind ‘limitarianism’. Limitarianism represents one of the more radical proposals in the debate on wealth inequality. Over the past few years, one of us has developed the philosophy of limitarianism (first […]",
           "link": "https://crookedtimber.org/2024/11/24/can-businesses-flourish-in-a-world-with-a-cap-on-personal-wealth/",
           "publishedOn": "2024-11-24T18:02:20.000Z",
-          "wordCount": 6041,
+          "wordCount": 7476,
           "title": "Can businesses flourish in a world with a cap on personal wealth?",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1127,7 +1035,7 @@
           "description": "So in the last three years or so — since COVID, basically — Romania and Taiwan have both joined a very special club of countries. There are not a lot of countries in this club. If you’re very generous, you could include perhaps a dozen or so. But to my way of thinking, there are […]",
           "link": "https://crookedtimber.org/2024/11/24/taiwan-and-romania-join-a-very-special-club/",
           "publishedOn": "2024-11-24T17:20:37.000Z",
-          "wordCount": 3262,
+          "wordCount": 3505,
           "title": "Taiwan and Romania join a very special club",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1137,19 +1045,9 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/11/24/sunday-photoblogging-handy-mini-market/",
           "publishedOn": "2024-11-24T09:00:23.000Z",
-          "wordCount": 1780,
+          "wordCount": 1764,
           "title": "Sunday photoblogging: Handy Mini-Market",
           "imageUrl": "https://live.staticflickr.com/65535/53733152582_1b8233c409.jpg"
-        },
-        {
-          "id": "https://crookedtimber.org/?p=53405",
-          "author": "John Q",
-          "description": "A few weeks ago, I drew up a flowchart to estimate the probability that Trump would establish a dictatorship in the US, which looked, at the time, like an even money bet. We don’t need to speculate any more. Trump has announced the dictatorship, and there is no sign of effective resistance. The key elements […]",
-          "link": "https://crookedtimber.org/2024/11/19/trumps-dictatorship-is-a-fait-accompli/",
-          "publishedOn": "2024-11-19T00:29:11.000Z",
-          "wordCount": 22460,
-          "title": "Trump’s dictatorship is a fait accompli",
-          "imageUrl": "https://crookedtimber.org/wp-content/uploads/2024/10/USDemocracyRevised-252x300.jpg"
         }
       ]
     },
@@ -1164,7 +1062,7 @@
           "description": "The National People's Power (NPP) has made history. With its unprecedented, record-breaking electoral victory at the general election of 2024, the NPP has succeeded in engineering popular dissent towards comprehensive regime change. Its parliamentary super majority has been secured on the back of a near complete rout of the political establishment, while seemingly transcending the ethnic majoritarianism manifested by governments in the past to obtain electoral victories. Most significantly, (...)\nEnglish\n\n/ \nSri Lanka, \nIMF, \nDebt crisis, \nSouth",
           "link": "https://www.cadtm.org/Reading-the-General-Election-2024",
           "publishedOn": "2024-11-22T12:33:09.000Z",
-          "wordCount": 6551,
+          "wordCount": 6567,
           "title": "Reading the General Election 2024",
           "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L1200xH630/782516367cc8080bae454e887dbb59-df92d.jpg"
         },
@@ -1287,26 +1185,6 @@
           "wordCount": 318,
           "title": "Unification, a short Star Trek film, in memory of Leonard Nimoy",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
-        },
-        {
-          "id": "https://disassociated.com/?p=8853",
-          "author": "disassociated.com",
-          "description": "Having barely touched their simple text editor, Notepad, in years, Microsoft has been laying on the modifications in recent times. A few months ago, they fitted out Notepad with an autocorrect and spell-checker feature. That’s fine for people wishing to use Notepad as a word processor (in preference to paying out for a subscription to […]",
-          "link": "https://disassociated.com/dumbing-down-notepad-artificial-intelligence/",
-          "publishedOn": "2024-11-18T20:00:37.000Z",
-          "wordCount": 389,
-          "title": "Dumbing down Notepad by giving it artificial intelligence",
-          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
-        },
-        {
-          "id": "https://disassociated.com/?p=8849",
-          "author": "disassociated.com",
-          "description": "Filmmakers James Ivory, the late Ismail Merchant, and Ruth Prawer Jhabvala, who collaborated as Merchant Ivory, made over forty features between 1963 and 2009. I think you’d be hard pressed to find any well-known actor of recent decades who did not work with them. My favourite is A Room with a View, which I’ve written […]",
-          "link": "https://disassociated.com/film-merchant-ivory-james-ivory-ismail-merchant-documentary-stephen-soucy/",
-          "publishedOn": "2024-11-18T19:30:58.000Z",
-          "wordCount": 215,
-          "title": "Merchant Ivory, a James Ivory, Ismail Merchant documentary, by Stephen Soucy",
-          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         }
       ]
     },
@@ -1370,12 +1248,22 @@
       "siteUrl": "https://bearblog.dev/discover/",
       "articles": [
         {
+          "id": "https://brandons-journal.com/a-follow-up-to-adding-a-little-friction-to-my-computing/",
+          "author": null,
+          "description": "Last week, I wrote a post about how I wanted to add a friction between myself and getting online. I was curious to see how it would affect my mental health as well the amount of time I spend online. Things didn’t exactly go to plan, but I did come away with some interesting take aways and some ideas on how I want to proceed in the future.\nThe first two days, I didn’t log on to the internet at all. My laptop remained off, my tablet had the wi-fi turned off, and my phone was restricted to just a few apps. I forgot to turn off my email notifications (the only notifications I have on), so I saw some emails on my phone and that was fine. I didn’t respond to any, because I prefer to type on a real keyboard, but it helped me keep track of some Amazon orders as well as a few other things I had goi…",
+          "link": "https://brandons-journal.com/a-follow-up-to-adding-a-little-friction-to-my-computing/",
+          "publishedOn": "2024-11-25T05:31:00.000Z",
+          "wordCount": 1962,
+          "title": "A Follow Up to: Adding a Little Friction to My Computing",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/brandonsblog/img_6701-1.webp"
+        },
+        {
           "id": "https://notes.jeddacp.com/what-are-you-thankful-for/",
           "author": null,
           "description": "\"When asked if my cup is half-full or half-empty, my only response is that I am thankful I have a cup.\"\nThere’s a lot of not so great things happening in the world right now that we often forget to be thankful for the little things.\nOr is that just me?\nI used to write one line a day of things that I was grateful for. In every day life, I would find something that I am thankful for. It could be as little as the sun came out today after days of rain to big things like I got the promotion I’ve been waiting for today.\nThen I stopped.\nIt was hard to keep up with. I was struggling to find the silver lining in things. I got tired of people telling me it happened for a reason. You’ll see!\nWith Thanksgiving in the horizon, I want to bring a little bit of that grateful attitude back. I know, I know,…",
           "link": "https://notes.jeddacp.com/what-are-you-thankful-for/",
           "publishedOn": "2024-11-24T21:11:00.000Z",
-          "wordCount": 1503,
+          "wordCount": 1507,
           "title": "What Are You Thankful for?",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/jedda/weblogpomoama-thannkful.png"
         },
@@ -1500,34 +1388,14 @@
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/avas-1709500835-0.png"
         },
         {
-          "id": "https://welltypedwitch.bearblog.dev/nominal-for-storing-structural-for-manipulating/",
-          "author": null,
-          "description": "Something that comes up sometimes in programming languages is the difference between nominal and structural type systems.\nnearly every programming language gets wrong.\nBut let's start from the top\nWhat's In a Name\nIf you're coming from a language like Java, Kotlin, Haskell, OCaml or Rust (or most other languages really), nominal types are what you would probably just think of as \"types\".\nIn a language like this, a type needs to be defined in a type declaration where it is given a name that acts as its sole source of identity, without any regard for its implementation. Even if two separate types happen to share the same implementation, they are deemed unequal because they have different names.\nFor example, if I were to define two java classes\nclass A {\n    int x;\n}\nclass B {\n    int x;\n}\n\no…",
-          "link": "https://welltypedwitch.bearblog.dev/nominal-for-storing-structural-for-manipulating/",
-          "publishedOn": "2024-11-20T02:12:00.000Z",
-          "wordCount": 2013,
-          "title": "Nominal for Storing, Structural for Manipulating",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
-        },
-        {
           "id": "https://mgx.me/abzug-theme-for-bear-blog/",
           "author": null,
           "description": ".marquee-container{width:100%;overflow:hidden;padding:10px 0}.marquee{white-space:nowrap;font-family:monospace;font-size:1rem;color:color-mix(in srgb,var(--text-color) 20%,transparent)}.scroll-right{animation:scrollRight 20s linear infinite}.scroll-left{animation:scrollLeft 20s linear infinite}@keyframes scrollRight{0%{transform:translateX(-50%)}100%{transform:translateX(0%)}}@keyframes scrollLeft{0%{transform:translateX(0%)}100%{transform:translateX(-50%)}}.marquee-top{position:fixed;top:0;left:0}@media (max-width:0){.marquee-container{display:none}}\n\n\n\n\n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n            TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • TRANS EUROPE EXPRESS • \n\n-->\n\n\nAbzug is a simple typography-focused theme that emphasizes readability. Born from a moment of inspiration in a cafe, accompanied by the sounds of Kraftwerk.\nPreview: Visit bear.css.observer and select the Abzug preset. \nhttps://static.mgx.me/bear/themes/abzug.css.",
           "link": "https://mgx.me/abzug-theme-for-bear-blog/",
           "publishedOn": "2024-11-19T12:44:00.000Z",
-          "wordCount": 494,
+          "wordCount": 497,
           "title": "\"abzug\" theme for bear blog",
           "imageUrl": "https://static.mgx.me/images/2024/abzug.webp"
-        },
-        {
-          "id": "https://jakobusbrahms.com/i-love-blogging/",
-          "author": null,
-          "description": "This is going to be sort of a meta post, but I just felt such an  sense of joy after publishing my last post that I felt I had to write more.\nI’ve long wanted to have a blog. Practically ever since I learned HTML programming with my dad when I was 10, I’ve wanted to have a web presence of some sort. And so I coded various websites to try to fulfill that desire. I found out about free hosting on GitHub Pages, and set up a static site generator to publish to it. But I never had anything to say, and so never used my shiny new website. Then I learned about Wordpress and paid for hosting so I could set up a pretty slick website with a hip theme. But again, I didn’t know what to say.\nI think whenever I set up a new site I always got caught in the trap of feeling like I needed to write in a niche…",
-          "link": "https://jakobusbrahms.com/i-love-blogging/",
-          "publishedOn": "2024-11-18T18:51:00.000Z",
-          "wordCount": 1619,
-          "title": "I love blogging",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         }
       ]
     },
