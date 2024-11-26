@@ -24,11 +24,11 @@
         {
           "id": "1534a75f44b8d95651046b97d6cd9b1d87d12a92",
           "author": "Channy Yun (윤석찬)",
-          "description": "Last week, I saw an astonishing 197 new service launches from AWS. This means we are getting closer to AWS re:Invent 2024! Our News Blog team is also finalizing blog posts for re:Invent to introduce some awesome launches from service teams for your reading pleasure. The most interesting news is that we’re expanding our strategic […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-197-new-launches-ai-training-partnership-with-anthropic-and-join-aws-reinvent-virtually-nov-25-2024/",
+          "description": "Last week, I saw an astonishing number of new feature and service launches from AWS. This means we are getting closer to AWS re:Invent 2024! Our News Blog team is also finalizing blog posts for re:Invent to introduce some awesome launches from service teams for your reading pleasure. The most interesting news is that we’re […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-multiple-new-launches-ai-training-partnership-with-anthropic-and-join-aws-reinvent-virtually-nov-25-2024/",
           "publishedOn": "2024-11-25T16:28:42.000Z",
-          "wordCount": 2305,
-          "title": "AWS Weekly Roundup: 197 new launches, AI training partnership with Anthropic, and join AWS re:Invent virtually (Nov 25, 2024)",
+          "wordCount": 2308,
+          "title": "AWS Weekly Roundup: multiple new launches, AI training partnership with Anthropic, and join AWS re:Invent virtually (Nov 25, 2024)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         },
         {
@@ -152,6 +152,26 @@
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
         {
+          "id": "677db6e38f74e929dcdd46ad8d92b84fe21e3332",
+          "author": "Riya Dani",
+          "description": "We are excited to announce the general availability of the cost analysis capability in Amazon Q Developer. This powerful feature integrates Q Developer’s natural language processing capabilities with AWS Cost Explorer, revolutionizing how you analyze and understand your AWS costs. Initially launched in preview on April 30, 2024, the Amazon Q cost analysis capability now offers enhanced […]",
+          "link": "https://aws.amazon.com/blogs/devops/analyzing-your-aws-cost-explorer-data-with-amazon-q-developer-now-generally-available/",
+          "publishedOn": "2024-11-26T16:08:48.000Z",
+          "wordCount": 1619,
+          "title": "Analyzing your AWS Cost Explorer data with Amazon Q Developer: Now Generally Available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/11/26/Screenshot-2024-11-26-at-11.02.54 AM.png"
+        },
+        {
+          "id": "60be41c2505f5225f2f910fd21a76bb690d633ff",
+          "author": "Will Matos",
+          "description": "This post is co-written with Dr. Geoff Ryder, Manager, at SmugMug. Introduction SmugMug operates two very large online photo platforms: SmugMug and Flickr. These platforms enable more than 100 million customers to safely store, search, share, and sell tens of billions of photos every day. However, the data science and engineering team at SmugMug and […]",
+          "link": "https://aws.amazon.com/blogs/devops/how-smugmug-increased-data-modeling-productivity-with-amazon-q-developer/",
+          "publishedOn": "2024-11-26T15:40:38.000Z",
+          "wordCount": 3235,
+          "title": "How SmugMug Increased Data Modeling Productivity with Amazon Q Developer",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/11/26/FeaturedImageSmugMug.png"
+        },
+        {
           "id": "2966c911cae5944571341ccd2aaafd2f55b81ae5",
           "author": "Jonathan Vogel",
           "description": "Amazon Q Developer Agent for code transformation is an AI-powered tool which modernizes code bases from Java 8 and Java 11 to Java 17. Integrated into VS Code and IntelliJ, Amazon Q simplifies the migration process and reduce the time and effort compared to manual process. It proposes and verifies code changes, using AI to […]",
@@ -220,7 +240,7 @@
           "description": "TL;DR The Spotify FOSS Fund is back again! We created the Spotify FOSS Fund in 2022 to help support the [...]\nThe post Congratulations to the Recipients of the 2024 Spotify FOSS Fund appeared first on Spotify Engineering.",
           "link": "https://engineering.atspotify.com/2024/11/congratulations-to-the-recipients-of-the-2024-spotify-foss-fund/",
           "publishedOn": "2024-11-25T14:00:00.000Z",
-          "wordCount": 1414,
+          "wordCount": 1417,
           "title": "Congratulations to the Recipients of the 2024 Spotify FOSS Fund",
           "imageUrl": "https://storage.googleapis.com/production-eng/1/2024/11/EN225-FossFund2024with-logos_1200-x-630.png"
         }
@@ -231,6 +251,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/containers/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/containers/",
       "articles": [
+        {
+          "id": "7fd5d2aa425994eb182752ee6f7b22bfd45719d3",
+          "author": "Sai Charan Teja Gopaluni",
+          "description": "Post updated on Nov 26, 2024. This post discusses Bottlerocket, a Linux-based open source operating system that is purpose-built for running containers. We will walk through fleet management at scale and how users can benefit from it. We will also share the key pillars that support Bottlerocket’s development plan. The challenges of fleet management with […]",
+          "link": "https://aws.amazon.com/blogs/containers/benefiting-from-bottlerocket-an-open-source-container-optimized-operating-system/",
+          "publishedOn": "2024-11-26T16:02:48.000Z",
+          "wordCount": 2747,
+          "title": "Unlocking Benefits with Bottlerocket: A Purpose-Built Container OS",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/09/13/Featured-images-for-Containers-Blog-1260x630.jpg"
+        },
         {
           "id": "7447588fd8c9011cc2ed6d3b1feb380497e5d2cd",
           "author": "sabsawan",
@@ -648,7 +678,7 @@
           "description": "Who decides what statistical offices measure and how they measure it? And what are the implicit values embedded in these decisions? Recently, the ILO issued a new manual on measuring productivity. Below, I´ll discuss the questions posed. But for starters, it is essential to realize that economists measure monetary productivity, not physical productivity, which leads […]",
           "link": "https://rwer.wordpress.com/2024/11/25/the-political-economy-of-estimating-productivity/",
           "publishedOn": "2024-11-25T10:52:58.000Z",
-          "wordCount": 5747,
+          "wordCount": 5743,
           "title": "The political economy of estimating productivity.",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-34.png"
         },
@@ -658,7 +688,7 @@
           "description": "Peak Babies was in 2012. At this moment, we´re back to the level of forty years ago (and the most recent data may well be an overestimate). For the first time in centuries, cohorts entering the global labour market will soon be smaller than the cohorts preceding them. Even when there are significant differences in […]",
           "link": "https://rwer.wordpress.com/2024/11/24/peak-babies-has-been-young-men-are-not-expendable-anymore/",
           "publishedOn": "2024-11-24T09:21:27.000Z",
-          "wordCount": 4387,
+          "wordCount": 4374,
           "title": "Peak babies has been. Young men are not expendable, anymore.",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-27.png"
         },
@@ -668,7 +698,7 @@
           "description": "from Lars Syll The NAIRU story has always had a very clear policy implication — attempts to promote full employment are doomed to fail since governments and central banks can’t push unemployment below the critical NAIRU threshold without causing harmful runaway inflation. Although a lot of mainstream economists and politicians have a touching faith in […]",
           "link": "https://rwer.wordpress.com/2024/11/20/nairu-a-harmful-fairy-tale-2/",
           "publishedOn": "2024-11-20T21:35:27.000Z",
-          "wordCount": 4360,
+          "wordCount": 4347,
           "title": "NAIRU — a harmful fairy tale",
           "imageUrl": "https://larspsyll.wordpress.com/wp-content/uploads/2014/11/jobs20cartoon.jpg?w=347&h=244"
         },
@@ -678,7 +708,7 @@
           "description": "Like John Stuart Mill, I´m more interested in credit than in money. Developments in the amount of credit provided are much more instructive to the economist than data on money. Look at the graph below (no. 2 in the ECB press release) , a highly Post-Keynesian graph that originated from the pre-Euro Bundesbank and is […]",
           "link": "https://rwer.wordpress.com/2024/11/20/monetary-developments-in-the-euro-area-september-2024-quiet/",
           "publishedOn": "2024-11-20T15:28:18.000Z",
-          "wordCount": 4277,
+          "wordCount": 4264,
           "title": "Monetary developments in the Euro Area, september 2024. Quiet.",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-19.png"
         }
@@ -696,12 +726,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=282904",
+          "author": "Yves Smith",
+          "description": "How Medicare Advantage, with less coverage than traditional Medicare via gatekeeping and thin networks, is a bad deal for taxpayers too.",
+          "link": "https://www.nakedcapitalism.com/2024/11/taxpayers-spend-22-more-per-patient-to-support-medicare-advantage-the-private-alternative-to-medicare-that-promised-to-cost-less.html",
+          "publishedOn": "2024-11-26T14:55:27.000Z",
+          "wordCount": 5059,
+          "title": "Taxpayers Spend 22% More Per Patient to Support Medicare Advantage – The Private Alternative to Medicare That Promised to Cost Less",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-26-at-10.00.34-PM.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=282736",
           "author": "Yves Smith",
           "description": "Our razzy daily links: squirting cucumber secrets, wildfire smoke-Alzheimers link, HN51, water looting, euro parity to USD? IDF sport sniping, Lebanon ceasefire, Medvedev warns of nuke transfers, Trump v. CPFB, Texas to relax abortion rules? Kit Dotcom stroke, pro pols lousy at messagaing, Amazon Black Friday strikes",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-26-2024.html",
           "publishedOn": "2024-11-26T11:55:55.000Z",
-          "wordCount": 3994,
+          "wordCount": 11456,
           "title": "Links 11/26/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-26-at-5.34.16-PM.png"
         },
@@ -711,7 +751,7 @@
           "description": "Trump's latest tariff threat is quickly getting a lot of well-warranted criticism.",
           "link": "https://www.nakedcapitalism.com/2024/11/trumps-inflation-stoking-25-mexico-and-canada-tariff-scheme.html",
           "publishedOn": "2024-11-26T11:54:50.000Z",
-          "wordCount": 4163,
+          "wordCount": 6526,
           "title": "Trump’s Inflation-Stoking 25% Mexico and Canada Tariff Scheme",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-26-at-6.10.55-PM.png"
         },
@@ -721,7 +761,7 @@
           "description": "The USMCA trade agreement, in its fifth year of existence and up for renegotiation in 2026, is already looking frail.",
           "link": "https://www.nakedcapitalism.com/2024/11/why-is-canada-threatening-to-push-mexico-out-of-usmca-is-it-really-about-china.html",
           "publishedOn": "2024-11-26T11:45:55.000Z",
-          "wordCount": 4516,
+          "wordCount": 5886,
           "title": "Is Trump About to Deal a Mortal Blow to NAFTA 2.0?",
           "imageUrl": "https://www.dallasfed.org/research/economics/2023/~/media/Images/research/economics/2023/0711/dfe0711c1.png"
         },
@@ -731,7 +771,7 @@
           "description": "COP29 summit proves change won’t come until floods and wildfires are killing tens of thousands in rich Global North cities",
           "link": "https://www.nakedcapitalism.com/2024/11/cop29-puts-world-on-course-for-more-extreme-weather-and-more-deaths.html",
           "publishedOn": "2024-11-26T08:43:51.000Z",
-          "wordCount": 3538,
+          "wordCount": 3636,
           "title": "COP29 Puts World on Course for More Extreme Weather – and More Deaths",
           "imageUrl": null
         },
@@ -741,7 +781,7 @@
           "description": "HICPAC improves its process a little, but with the same lethal outcome",
           "link": "https://www.nakedcapitalism.com/2024/11/cdcs-conflicted-hicpac-anti-airborne-goons-grasp-baggy-blues-with-cold-dead-hands-vote-to-infect-more-patients-with-airborne-diseases.html",
           "publishedOn": "2024-11-25T21:25:12.000Z",
-          "wordCount": 6012,
+          "wordCount": 6171,
           "title": "CDC’s Conflicted HICPAC Anti-Airborne Goons Grasp “Baggy Blues” with Cold, Dead Hands, Vote to Infect More Patients with Airborne Diseases",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/secrecy.png"
         },
@@ -751,7 +791,7 @@
           "description": "~ Today's Water Cooler: Open Thread ~",
           "link": "https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-25-2024.html",
           "publishedOn": "2024-11-25T19:00:55.000Z",
-          "wordCount": 7200,
+          "wordCount": 7559,
           "title": "2:00PM Water Cooler 11/25/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/mushroom_3.jpeg"
         },
@@ -761,7 +801,7 @@
           "description": "A substantial shift in the focus of economic research over the last half century has for the most part gone unnamed and unnoticed. This is the turn towards what we call civil society, including firms as organisations, families, neighbourhood communities, NGOs, trade unions, social movements, identity groups, and other face-to-face settings.",
           "link": "https://www.nakedcapitalism.com/2024/11/civil-society-beyond-markets-and-states-tracking-100-years-of-economic-research.html",
           "publishedOn": "2024-11-25T14:55:56.000Z",
-          "wordCount": 5447,
+          "wordCount": 5434,
           "title": "Civil Society, Beyond Markets and States: Tracking 100 Years of Economic Research",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/carlin25novfig1.png"
         },
@@ -771,7 +811,7 @@
           "description": "",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-25-2024.html",
           "publishedOn": "2024-11-25T11:55:33.000Z",
-          "wordCount": 11306,
+          "wordCount": 11443,
           "title": "Links 11/25/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screenshot-2024-11-24-at-10.50.32 PM-737x1024.png"
         },
@@ -781,19 +821,9 @@
           "description": "The Oreshnik strike is a vivid demonstration of how the West is seriously lagging Russian military capabilities, and remains  in denial.",
           "link": "https://www.nakedcapitalism.com/2024/11/sputnik-2-0-oreshnik-and-the-western-military-capabilities-gap.html",
           "publishedOn": "2024-11-25T11:54:02.000Z",
-          "wordCount": 26808,
+          "wordCount": 28426,
           "title": "Sputnik 2.0? Oreshnik and the Western Military Capabilities Gap",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F888570c7-119e-43c8-924c-3e4d18325c6d_1000x453.gif"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=282747",
-          "author": "Conor Gallagher",
-          "description": "Data centers are an obstacle that torpedoes the whole idea of a transition offensive against hydrocarbons.",
-          "link": "https://www.nakedcapitalism.com/2024/11/data-centers-highlight-the-limits-of-renewable-energy-scaling.html",
-          "publishedOn": "2024-11-25T09:00:52.000Z",
-          "wordCount": 7106,
-          "title": "Data Centers Highlight the Limits of Renewable Energy Scaling",
-          "imageUrl": null
         }
       ]
     },
@@ -828,7 +858,18 @@
       "title": "Capital One Tech - Medium",
       "feedUrl": "https://medium.com/feed/capital-one-tech",
       "siteUrl": "https://medium.com/capital-one-tech?source=rss----3db3a67cb648---4",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://medium.com/p/098ea5265b56",
+          "author": "Capital One Tech",
+          "description": "Cloud forward, data powered, AI ascendant. That’s how we stack.",
+          "link": "https://medium.com/capital-one-tech/capital-ones-sessions-and-speakers-at-aws-re-invent-2024-098ea5265b56?source=rss----3db3a67cb648---4",
+          "publishedOn": "2024-11-26T18:07:22.000Z",
+          "wordCount": 3675,
+          "title": "Capital One’s sessions and speakers at AWS re:Invent 2024",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*owrRL7uWLAd9IXCp.jpg"
+        }
+      ]
     },
     {
       "title": "Engineering at Slack",
@@ -854,12 +895,22 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=42243288",
+          "author": "stackghost",
+          "description": ">I wonder if you exclude \"recalls\" resolved by software updates, for all cars, where it would rank then?\nWhy have you put \"recalls\" in quotes?  It gives the impression you think this makes it somehow lesser.  The cybertruck, for example, was subject to a recall because the rearview camera wouldn't come up, but the mirrors are insufficient to back the vehicle up safely without the camera.\nThat's a safety issue, irrespective of whether or not the fix was in software.",
+          "link": "https://news.ycombinator.com/item?id=42243288",
+          "publishedOn": "2024-11-26T07:21:54.000Z",
+          "wordCount": 10354,
+          "title": "New comment by stackghost in \"Cybertruck's Many Recalls\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=42238109",
           "author": "sangnoir",
           "description": "> Performance management, as practiced in many large corporations in 2024, is an outdated technology that is in need of an update\nAuthor made a couple of fundamental mistakes: the first is they assume employees are (or should be) paid according to how much they \"individually\" earned the company. Employers strive to pay employees the minimum they can bear, on employer's terms. Those terms are information asymmetry and a Gaussian distribution. Fairness is the last thing one should expect from employers, but being honest about this is not good for morale, so instead, they rely on keeping employees uninformed, while the employers collude to gather everyone's remuneration history via the Work Number.\nThe second mistake they made is assume that companies would prioritize being lean and trimming the mediocre & bottom 5%. There are other considerations, combined productivity is more important than having individual superstars working on the shiniest features. How much revenue do you think a janitor or café staffer generates? Close to zero. The same goes for engineering. Someone has to do the unglamorous staff, or you end up with a dysfunctional company, with amazing talent (on paper).\nEdit: there's an infamous graph that shows when aggregate worker productivity and average income. The two tracked closely, rising in tandem until the 1970s, where they got decoupled. With income becoming much flatter, and productivity continuing to rise. That's how the world has been for the past 50 years on the macro and the micro",
           "link": "https://news.ycombinator.com/item?id=42238109",
           "publishedOn": "2024-11-25T17:27:07.000Z",
-          "wordCount": 9690,
+          "wordCount": 9838,
           "title": "New comment by sangnoir in \"Hey, wait – is employee performance Gaussian distributed?\"",
           "imageUrl": null
         },
@@ -879,7 +930,7 @@
           "description": "It’s great satire, but it really does mirror a larger societal shift where the burden of safeguarding personal autonomy has shifted from institutions/regulators to individual users. Do-Not-Stab, Do-Not-Track, whatever it might be, any sort of “voluntary compliance” is a non-starter in the face of financial pressures\nIMO we need to start normalizing being militant about this stuff again, to aggressively and adversarially defend the freedom to use your computer the way you choose to use it",
           "link": "https://news.ycombinator.com/item?id=42232593",
           "publishedOn": "2024-11-25T02:15:56.000Z",
-          "wordCount": 6709,
+          "wordCount": 6789,
           "title": "New comment by foundry27 in \"RFC 35140: HTTP Do-Not-Stab (2023)\"",
           "imageUrl": null
         },
@@ -889,7 +940,7 @@
           "description": "I compile a lot of C++ code from a lot of places, and the only time I run into code that somehow simply doesn't work on newer versions of C++ and where the developers aren't even sure if they will accept any patches to fix the issue as they claim it \"isn't supported\" to use a newer version of C++--even for the public headers of a library--is, you guessed it: code from Google.\nMeanwhile, most of the C++ code from Google seems to be written in some mishmash of different ideas, always at some halfway point along a migration between something ancient and something passable... but never anything I would ever dare to call \"modern\", and thereby tends to be riddled with state machines and manual weak pointers that lead to memory corruption.\nSo... I really am not sure I buy the entire premise of th…",
           "link": "https://news.ycombinator.com/item?id=42232183",
           "publishedOn": "2024-11-25T01:03:40.000Z",
-          "wordCount": 11459,
+          "wordCount": null,
           "title": "New comment by saurik in \"The two factions of C++\"",
           "imageUrl": null
         },
@@ -899,7 +950,7 @@
           "description": "I've seen a bit of confusion regarding this. First, it's 10% of Denmark's total land area, which is roughly equivalent to 15% of farmland area. Second, the conversion of farmland area into nature and forests is mainly for improving water quality, as excess nitrogen from agriculture has essentially killed the rivers and coastal waters through oxygen depletion from algae.\nRegarding global warming and CO2, the area conversion of peatlands will help, but the major change here is the introduction of a carbon tax for the entire agricultural industry. And to end confusion regarding other emissions than CO2, it's actually a CO2-equivalent (CO2e) tax, which includes a range of other gasses. E.g., 1kg of methane is 25kg CO2e.\nIf you'd like to read more, see the two PDF documents below, which are the main official documents. They're in Danish, but upload them to Claude or ChatGPT, and you'll have a much better source of information if you'd like to know more about the specifics and how the actual implementation is planned.\n[1] https://www.regeringen.dk/media/13261/aftale-om-et-groent-da...\n[2] https://mgtp.dk/media/iinpdy3w/aftale_om_implementering_af_e...",
           "link": "https://news.ycombinator.com/item?id=42231053",
           "publishedOn": "2024-11-24T22:07:58.000Z",
-          "wordCount": null,
+          "wordCount": 9147,
           "title": "New comment by JacobJeppesen in \"Denmark will plant 1B trees and convert 10% of farmland into forest\"",
           "imageUrl": null
         },
@@ -909,7 +960,7 @@
           "description": "Appreciated Daniel reaching out to the team about this! Hosting blobs is one of those things that will inevitably go through iterations as we understand the abuse vectors more and more, but for now it's really fun to see this kind of usage in action. The PDS is meant to be a database host in the same sense that a webserver is a website host.",
           "link": "https://news.ycombinator.com/item?id=42230689",
           "publishedOn": "2024-11-24T21:17:05.000Z",
-          "wordCount": null,
+          "wordCount": 1004,
           "title": "New comment by pfraze in \"This website is hosted on Bluesky\"",
           "imageUrl": null
         },
@@ -919,7 +970,7 @@
           "description": "Here's the thing about the average career in big tech: five years after you leave, almost no one will remember you were there. Most of your old team mates will leave for other other jobs. Your code will get refactored or rewritten. Docs will be superseded, then lost in some CMS migration. Before long, it will be as if you have never worked there.\nI know it sounds preposterous, but ask anyone over the age of 55 or 60: except for folks who built their own companies or made truly exceptional contributions to their field, most will say that hobbies, friends, and family mattered a lot more.\nSo, there is this fundamental contradiction in this article: you can engineer a very neat career, but for most techies, the most useful goal is to make money fast in a way that doesn't drain your life energy. And most of the time, this means responding to opportunities, not sticking to your guns. For example, a lifetime IC job may be ultimately worth less than a management job that gets you to VP level in a decade. You don't need to dream about being a manager; you just need to be reasonably good at it.",
           "link": "https://news.ycombinator.com/item?id=42228934",
           "publishedOn": "2024-11-24T17:11:52.000Z",
-          "wordCount": 8074,
+          "wordCount": 8176,
           "title": "New comment by equestria in \"A career-ending mistake\"",
           "imageUrl": null
         },
@@ -929,7 +980,7 @@
           "description": "For what it's worth, I've worked at multiple places that ran shell scripts just fine for their deploys.\n- One had only 2 services [php] and ran over 1 billion requests a day. Deploy was trivial, ssh some new files to the server and run a migration, 0 downtime.\n- One was in an industry that didn't need \"Webscale\" (retirement accounts). Prod deploys were just docker commands run by jenkins. We ran two servers per service from the day I joined the day I left 4 years later (3x growth), and ultimately removed one service and one database during all that growth.\nAnother outstanding thing about both of these places was that we had all the testing environments you need, on-demand, in minutes.\nThe place I'm at now is trying to do kubernetes and is failing miserably (ongoing nightmare 4 months in and probably at least 8 to go, when it was allegedly supposed to only take 3 total). It has one shared test environment that it takes 3-hours to see your changes in.\nI don't fault kubernetes directly, I fault the overall complexity. But at the end of the day kubernetes feels like complexity trying to abstract over complexity, and often I find that's less successful that removing complexity in the first place.",
           "link": "https://news.ycombinator.com/item?id=42227960",
           "publishedOn": "2024-11-24T14:02:59.000Z",
-          "wordCount": 9485,
+          "wordCount": 9693,
           "title": "New comment by zug_zug in \"Dear friend, you have built a Kubernetes\"",
           "imageUrl": null
         },
@@ -969,7 +1020,7 @@
           "description": "> The parents' case hangs largely on the student handbook's lack of a specific statement about AI, even though that same handbook bans unauthorized use of technology. \"They told us our son cheated on a paper, which is not what happened,\" Jennifer Harris told WCVB last month. \"They basically punished him for a rule that doesn't exist.\"\nI'm going out on a limb here, but if this is the viewpoint of the people who raised him, then I'm not surprised he cheated.\nIf this was my son and the facts were the same, he'd be grounded in addition to whatever consequence the school deems fit.",
           "link": "https://news.ycombinator.com/item?id=42222533",
           "publishedOn": "2024-11-23T18:19:02.000Z",
-          "wordCount": 6667,
+          "wordCount": 8021,
           "title": "New comment by nkrisc in \"School did nothing wrong when it punished student for using AI, court rules\"",
           "imageUrl": null
         },
@@ -979,7 +1030,7 @@
           "description": "I quit my FAANG job yesterday to join a fully remote company. I took a >50% pay cut but I think it is a 100% life saver. I remember spending 3-4 hours/day commuting and I am just not willing to do that any more. I've cut back on expenses and simplified my life, built up some savings so I can make do with less. My retirement savings will slow down dramatically, but if I don't hate my work life then those savings will be less of an all-consuming goal.\nThank you senior leadership for your wisdom, \"If you don't like it, find another place to work\". The first good advice I've heard from them in 5 years.",
           "link": "https://news.ycombinator.com/item?id=42221849",
           "publishedOn": "2024-11-23T16:54:51.000Z",
-          "wordCount": null,
+          "wordCount": 15806,
           "title": "New comment by jaysinn_420 in \"The 'Return to Office' Lies\"",
           "imageUrl": null
         },
@@ -989,7 +1040,7 @@
           "description": "This is a sentiment that I've seen expressed in comment sections many times. I've been programming professionally now for 10 years, and it just doesn't resonate with my experience. Problems with build systems for external dependencies, package managers, and underfeatured / overcomplicated / buggy third party dependencies have been by far the worse issue in my career, compared to problems with homebrewed systems.\nI'm not saying you're wrong, I don't doubt that many people have the opposite experience. It just makes me feel a bit alien when I read comments like this.",
           "link": "https://news.ycombinator.com/item?id=42218947",
           "publishedOn": "2024-11-23T03:12:31.000Z",
-          "wordCount": null,
+          "wordCount": 7463,
           "title": "New comment by wheybags in \"Dear sir, you have built a compiler (2022)\"",
           "imageUrl": null
         },
@@ -1009,7 +1060,7 @@
           "description": "Nice! My favorite challenge was avoiding the glowing white dots along the path.",
           "link": "https://news.ycombinator.com/item?id=42214423",
           "publishedOn": "2024-11-22T15:11:59.000Z",
-          "wordCount": null,
+          "wordCount": 565,
           "title": "New comment by iandanforth in \"Show HN: A Marble Madness-inspired WebGL game we built for Netlify\"",
           "imageUrl": null
         },
@@ -1029,7 +1080,7 @@
           "description": "Also important to note that Khan, who filed the warrant requests, was one of Israel’s preferred appointees to the ICC as chief prosecutor.",
           "link": "https://news.ycombinator.com/item?id=42205310",
           "publishedOn": "2024-11-21T15:33:03.000Z",
-          "wordCount": 176,
+          "wordCount": null,
           "title": "New comment by nielsbot in \"ICC issues warrants for Netanyahu, Gallant, and Hamas officials\"",
           "imageUrl": null
         },
@@ -1039,7 +1090,7 @@
           "description": "This is common and expected. Even when a serial killer suspected of 20 murder is apprehended, arrest is often made based on one or two confirmed cases, more charges are later added as investigation deepens.\nAlso, keep in mind foreign journalists are completely banned by Israel from entering Gaza- complicating evidence gathering.",
           "link": "https://news.ycombinator.com/item?id=42205280",
           "publishedOn": "2024-11-21T15:31:16.000Z",
-          "wordCount": 949,
+          "wordCount": null,
           "title": "New comment by shihab in \"ICC issues warrants for Netanyahu, Gallant, and Hamas officials\"",
           "imageUrl": null
         },
@@ -1049,7 +1100,7 @@
           "description": ">In his first response to the ICC issuing a warrant for his arrest on allegations of war crimes, Benjamin Netanyahu’s office has described the ruling as “absurd and false lies” and said the decision is “antisemitic.”\nhttps://www.theguardian.com/world/live/2024/nov/21/internati...\nIf Netanyahu and Gallant really think they are innocent, and the allegations are absurd and false, they should cooperate with the ICC.  Have your day in court and show how absurd the accusations are.  If you're not willing to do that, it seems reasonable for the public to draw a proverbial negative inference.",
           "link": "https://news.ycombinator.com/item?id=42205059",
           "publishedOn": "2024-11-21T15:14:21.000Z",
-          "wordCount": 16233,
+          "wordCount": null,
           "title": "New comment by 0xDEAFBEAD in \"ICC issues warrants for Netanyahu, Gallant, and Hamas officials\"",
           "imageUrl": null
         },
@@ -1059,7 +1110,7 @@
           "description": "(before you jump into discussion, remember that this only about these two individuals)\nICC and the prosecutor are on very solid ground here.\nThe prosecutor asked opinions from a impartial panel of experts in international law. The panel included people like Theodor Meron (former Legal adviser for the Israeli Ministry of Foreign Affairs),  Helene Kennedy, Adrian Fulford.\nNetanyahu and Yoav Gallant provided plenty of evidence of the intent. Did they really think that when they talk Hebrew to their audience, rest of the world does not hear them. Case like this would be harder to prosecute without evidence of intent.",
           "link": "https://news.ycombinator.com/item?id=42203754",
           "publishedOn": "2024-11-21T12:40:48.000Z",
-          "wordCount": null,
+          "wordCount": 18775,
           "title": "New comment by nabla9 in \"ICC issues warrants for Netanyahu, Gallant, and Hamas officials\"",
           "imageUrl": null
         },
@@ -1069,7 +1120,7 @@
           "description": "This is a great step in the right direction. I can't speak directly for MIT, but there are issues with how these programs don't apply to parents with small family businesses. My parents had a small business, with my father taking home a salary of $XX,XXX. Duke University used the business assets to determine the EFC (expected family contribution) of literally 90% of the salary. Essentially saying to sell off the family business for the college fund, which was a non-starter.\nSmall businesses are allegedly the backbone of America, and I feel these tuition support programs overlook this segment of the middle-class.",
           "link": "https://news.ycombinator.com/item?id=42197249",
           "publishedOn": "2024-11-20T19:26:18.000Z",
-          "wordCount": null,
+          "wordCount": 14577,
           "title": "New comment by TheJoeMan in \"Undergraduates with family income below $200k will be tuition-free at MIT\"",
           "imageUrl": null
         },
@@ -1079,7 +1130,7 @@
           "description": "> Interestingly, in all cases urban roads are worse quality than rural roads, presumably because they see higher traffic than rural roads.\nThere's more infrastructure under urban roads. Crews come in to fix some utility, shred a section of a lane, patch it poorly with dissimilar materials, and leave.",
           "link": "https://news.ycombinator.com/item?id=42196461",
           "publishedOn": "2024-11-20T17:52:11.000Z",
-          "wordCount": 11336,
+          "wordCount": null,
           "title": "New comment by rconti in \"How good are American roads?\"",
           "imageUrl": null
         },
@@ -1112,16 +1163,6 @@
           "wordCount": 3502,
           "title": "New comment by mrtksn in \"Let's Encrypt is 10 years old now\"",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=42191172",
-          "author": "ykl",
-          "description": "One of the many fun/cool things about Tiny Glade is that it quietly has one of the most advanced realtime global illumination lighting engines shipping in any game today, and it’s all completely custom for just this game. One of the devs, Tomasz Stachowiak, is a big deal in the realtime rendering world and previously was at DICE and Embark; at Embark he led the Kajiya experimental realtime GI project [1] that made quite a splash in the rendering world a while back.\nThe other dev, Anastasia Opara, is a big name in the procedural graphics world. She gave one of my favorite presentations on the topic a few years ago [2].\nAnyhow if you can’t tell I’m a big fan of both the game and the devs. :)\n[1] https://github.com/EmbarkStudios/kajiya\n[2] https://youtu.be/dpYwLny0P8M",
-          "link": "https://news.ycombinator.com/item?id=42191172",
-          "publishedOn": "2024-11-20T06:00:43.000Z",
-          "wordCount": null,
-          "title": "New comment by ykl in \"Tiny Glade 'built' its way to >600k sold in a month\"",
-          "imageUrl": null
         }
       ]
     },
@@ -1131,12 +1172,22 @@
       "siteUrl": "https://crookedtimber.org",
       "articles": [
         {
+          "id": "https://crookedtimber.org/?p=53447",
+          "author": "Kevin Munger",
+          "description": "Ownership and control of social media platforms is a first-order concern for both domestic politics and international conflict. The most important battleground in the Russia-Ukraine war is elections in NATO member states. And there, Russia is clearly winning. Trump, obviously, but yesterday saw the stunning success of formerly fringe right-wing candidate C?lin Georgescu. In an […]",
+          "link": "https://crookedtimber.org/2024/11/26/tiktok-in-romania/",
+          "publishedOn": "2024-11-26T14:48:10.000Z",
+          "wordCount": 2942,
+          "title": "TikTok in Romania",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F318ae13e-0b29-445a-89c2-d9605438f7fe_1034x412.png"
+        },
+        {
           "id": "https://crookedtimber.org/?p=53415",
           "author": "Ingrid Robeyns",
           "description": "by Rutger Claassen and Ingrid Robeyns Let’s establish an upper limit on the personal wealth any individual can possess. This is the core principle behind ‘limitarianism’. Limitarianism represents one of the more radical proposals in the debate on wealth inequality. Over the past few years, one of us has developed the philosophy of limitarianism (first […]",
           "link": "https://crookedtimber.org/2024/11/24/can-businesses-flourish-in-a-world-with-a-cap-on-personal-wealth/",
           "publishedOn": "2024-11-24T18:02:20.000Z",
-          "wordCount": 8558,
+          "wordCount": 8542,
           "title": "Can businesses flourish in a world with a cap on personal wealth?",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1146,7 +1197,7 @@
           "description": "So in the last three years or so — since COVID, basically — Romania and Taiwan have both joined a very special club of countries. There are not a lot of countries in this club. If you’re very generous, you could include perhaps a dozen or so. But to my way of thinking, there are […]",
           "link": "https://crookedtimber.org/2024/11/24/taiwan-and-romania-join-a-very-special-club/",
           "publishedOn": "2024-11-24T17:20:37.000Z",
-          "wordCount": 5307,
+          "wordCount": 6400,
           "title": "Taiwan and Romania join a very special club",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1156,7 +1207,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/11/24/sunday-photoblogging-handy-mini-market/",
           "publishedOn": "2024-11-24T09:00:23.000Z",
-          "wordCount": 1778,
+          "wordCount": 1762,
           "title": "Sunday photoblogging: Handy Mini-Market",
           "imageUrl": "https://live.staticflickr.com/65535/53733152582_1b8233c409.jpg"
         }
@@ -1173,7 +1224,7 @@
           "description": "The progressive alliance that backs Sri Lanka's new president, Anura Kumara Dissanayake, won a landslide victory in last week's parliamentary election. The government has a clear mandate for change but now faces many obstacles to its reform agenda. \nEnglish\n\n/ \nAusterity/Structural Adjustment, \nCorruption / financial criminality, \nSri Lanka, \nIMF",
           "link": "https://www.cadtm.org/Sri-Lanka-s-People-Have-Kicked-Out-the-Old-Political-Class",
           "publishedOn": "2024-11-25T15:39:29.000Z",
-          "wordCount": 5498,
+          "wordCount": 5500,
           "title": "Sri Lanka's People Have Kicked Out the Old Political Class",
           "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L1200xH630/bd80a8688fc131c8d7bc5b71bb7a50-23f22.jpg"
         },
@@ -1193,7 +1244,7 @@
           "description": "China has been demonized by several commentators: it is said to be the main creditor of many countries of the South and to get the most of them through ruthless exploitation whereas the World Bank, the IMF, the Paris Club, that bring together traditional creditor powers, are supposed to do their best to help those countries burdened by too much debt. \nEnglish\n\n/ \nAlternatives, \nChina, \nBRICS",
           "link": "https://www.cadtm.org/Questions-answers-on-China-as-a-major-creditor-power",
           "publishedOn": "2024-11-21T08:29:56.000Z",
-          "wordCount": 12311,
+          "wordCount": 12313,
           "title": "Questions & answers on China as a major creditor power",
           "enclosure": {
             "url": "https://www.cadtm.org/IMG/png/sans_titre-11.png",
@@ -1208,7 +1259,7 @@
           "description": "We express our solidarity with the people of Palestine and oppose the aerial bombardments and indiscriminate and terrorist military actions carried out by the Israeli authorities. We call for the dismantling of the colonialist apartheid state of Israel and for respect for the rights of peoples to exercise their sovereignty. \nEnglish\n\n/ \nPalestine",
           "link": "https://www.cadtm.org/The-CADTM-stands-in-solidarity-with-the-Palestinian-resistance-in-the-face-of",
           "publishedOn": "2024-11-20T12:56:00.000Z",
-          "wordCount": 771,
+          "wordCount": 773,
           "title": "The CADTM stands in solidarity with the Palestinian resistance in the face of apartheid, crimes against humanity and colonisation practised by the extreme right-wing government in Israel.",
           "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L153xH80/7d67b536955c2d468284cb35bf57de-31f2b.png"
         },
@@ -1349,6 +1400,16 @@
       "siteUrl": "https://bearblog.dev/discover/",
       "articles": [
         {
+          "id": "https://blog.solazy.me/20241126/",
+          "author": null,
+          "description": "我的公司距离我的家有 17km 距离，所以我每天会花单程 30-40mins 的时间开车通勤。今天简单说说我怎么度过这每天一个多小时的时间。\n🎵 听音乐\n通勤时间总是无聊的，我最早的时候是听歌。但是我这个人有一个毛病，很难听得进去新歌，但是我的收藏列表我又听烂了。所以现在通勤路上听音乐的频率较少，也会，但不多。\n📻 听播客\n我个人很喜欢听播客，不光在通勤的时候会听。但是我又很挑，对于信息和内容输出质量很低的播客我极少收听。所以我有一个白名单，一旦白名单的播客更新，我才会考虑听。所以，不会每天有一个小时的可收听量。\n📚 听书\n这个是我最近半个月养成的新习惯，起因是我在一些播客中听到过一些书籍的分享，但是我又没有很好的建立起读新书的习惯，所以我就瞅准了通勤这段时间。恰好微信读书又有听书模式，如果你是付费会员，可以想听歌一样的听书。这简直是一举多得，解决了我通勤路上恰好收听内容不足的隐患，又拓展了「阅读量」，还能完成微信读书的任务。\n\n▲ 阅读了 13 天的成果\n关于微信读书我准备后面找时间专门写一篇有趣的观察和思考，作为产品分析吧。\n💬 总结\n综上所述，我现在通勤路上依然会听歌和听播客，听歌比较少，听播客比听音乐稍多。这两者的区别在于听歌可以随时开播，听播客我需要提前甄选一下听的内容。如果两者都不想实施，我使用了微信读书的听书来补齐，这样又可以在这个通勤的时间段内拓展出一个内容输入的渠道。可喜可贺。",
+          "link": "https://blog.solazy.me/20241126/",
+          "publishedOn": "2024-11-26T08:00:00.000Z",
+          "wordCount": 510,
+          "title": "最近通勤路上的习惯变化",
+          "imageUrl": "https://images.unsplash.com/photo-1494627344499-afd1027ee1f5?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
           "id": "https://birming.com/bluesky-widget/",
           "author": null,
           "description": "There's been a lot of talk about the social network Bluesky lately. If you have an account there and want to show your latest status update on your blog, here's an easy way to do that.\nVincent Will has put together a script named bsky-embed. All you need to do is enter your username and modify the settings to your liking. I've added it to the footer using this setup:\n<div class=\"bluesky\">\n<script src=\"https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js\" async></script>\n<bsky-embed\n  username=\"birming.com\"\n  limit=\"1\"\n  load-more=\"false\"\n  custom-styles=\".border-slate-300 { border: none; }\"\n>\n</bsky-embed>\n</div>\n\nThe bluesky div class is my own addition, giving the widget a style that matches the Bearming Theme. Here's the CSS styling for that:\n/* Bluesky */\n.bluesky {\n  margin: 30px 0;\n  padding: 10px;\n  font-family: var(--font-secondary);\n  font-size: inherit;\n  text-align: left;\n  background: var(--accent-color);\n  border-radius: 10px;\n}\n\nGood luck!",
@@ -1414,19 +1475,9 @@
           "description": "\"When asked if my cup is half-full or half-empty, my only response is that I am thankful I have a cup.\"\nThere’s a lot of not so great things happening in the world right now that we often forget to be thankful for the little things.\nOr is that just me?\nI used to write one line a day of things that I was grateful for. In every day life, I would find something that I am thankful for. It could be as little as the sun came out today after days of rain to big things like I got the promotion I’ve been waiting for today.\nThen I stopped.\nIt was hard to keep up with. I was struggling to find the silver lining in things. I got tired of people telling me it happened for a reason. You’ll see!\nWith Thanksgiving in the horizon, I want to bring a little bit of that grateful attitude back. I know, I know,…",
           "link": "https://notes.jeddacp.com/what-are-you-thankful-for/",
           "publishedOn": "2024-11-24T21:11:00.000Z",
-          "wordCount": 1507,
+          "wordCount": 1646,
           "title": "What Are You Thankful for?",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/jedda/weblogpomoama-thannkful.png"
-        },
-        {
-          "id": "https://louplummer.lol/winners-and-losers/",
-          "author": null,
-          "description": "Now I've been a-lookin' for a job, but it's hard to find.\n\nAtlantic City by Bruce Springsteen\nSocieties, including ours, have a habit of classifying people as winners and losers. In World War Two, Japanese soldiers committed mass suicide in battle after battle rather than surrendering or being beaten.  I am reminded of a scene from the Will Ferrell comedy, Talladega Nights, after Ricky Bobby's sons brag of throwing their grandfather's war medals over a bridge and disrespecting a teacher, their dad exclaims \"My boys are winners and winners get to do whatever they want.\" It's obvious that a lot of people share that sentiment.\nAthletic contests by design have a winner and a loser at the end of the competition, but who is going to call Aaron Judge of the NY Yankees, a man whose salary is twice…",
-          "link": "https://louplummer.lol/winners-and-losers/",
-          "publishedOn": "2024-11-24T20:25:00.000Z",
-          "wordCount": 1272,
-          "title": "Winners and Losers",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/livingoutloud/i-resized.webp"
         },
         {
           "id": "https://blog.solazy.me/20241125/",
