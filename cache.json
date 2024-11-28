@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "2b2f34f261d66fc71bf826f5410519524152023d",
+          "author": "Danilo Poccia",
+          "description": "Amazon FSx for Lustre now features Elastic Fabric Adapter and NVIDIA GPUDirect Storage for up to 12x higher throughput to GPUs, unlocking new possibilities in deep learning, autonomous vehicles, and HPC workloads.",
+          "link": "https://aws.amazon.com/blogs/aws/amazon-fsx-for-lustre-unlocks-full-network-bandwidth-and-gpu-performance/",
+          "publishedOn": "2024-11-27T22:13:37.000Z",
+          "wordCount": 1950,
+          "title": "Amazon FSx for Lustre increases throughput to GPU instances by up to 12x",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/13/FSx-lustre-feat-img.png"
+        },
+        {
           "id": "2780add382124234bd566eba632030da9555e3b9",
           "author": "Jeff Barr",
           "description": "With time-based copying, critical EBS snapshots and AMIs can now meet crucial RPOs by specifying exact completion durations from 15 minutes to 48 hours for disaster recovery, testing, development, and operations.",
@@ -120,7 +130,7 @@
           "description": "<p>The Performance Engineering team at GitHub assessed how CPU performance degrades as utilization increases and how this relates to capacity.</p>\n<p>The post <a href=\"https://github.blog/engineering/architecture-optimization/breaking-down-cpu-speed-how-utilization-impacts-performance/\">Breaking down CPU speed: How utilization impacts performance</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
           "link": "https://github.blog/engineering/architecture-optimization/breaking-down-cpu-speed-how-utilization-impacts-performance/",
           "publishedOn": "2024-11-25T17:00:20.000Z",
-          "wordCount": 4186,
+          "wordCount": 3556,
           "title": "Breaking down CPU speed: How utilization impacts performance",
           "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Productivity-DarkMode-3.png"
         }
@@ -131,6 +141,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
+        {
+          "id": "7e4cb886f0c6e225870947705dc35910b3a68575",
+          "author": "Vinicius Senger",
+          "description": "Today marks an exciting milestone for Eclipse developers everywhere: we’re thrilled to announce the public preview of Amazon Q Developer in the Eclipse IDE. This integration brings the power of AI-driven development directly into one of the most popular development environments. In this blog post, we’ll explore some of its game-changing features, and show you […]",
+          "link": "https://aws.amazon.com/blogs/devops/amazon-q-developer-eclipse-preview/",
+          "publishedOn": "2024-11-27T19:29:17.000Z",
+          "wordCount": 1575,
+          "title": "Leverage powerful generative-AI capabilities for Java development in the Eclipse IDE public preview",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/11/27/eclipse-1120x630.png"
+        },
         {
           "id": "677db6e38f74e929dcdd46ad8d92b84fe21e3332",
           "author": "Riya Dani",
@@ -611,16 +631,6 @@
           "wordCount": 4505,
           "title": "Why Do Banks Fail? The Predictability of Bank Failures",
           "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/11/LSE_2024_why-do-banks-fail_PART2_luck_460_941395.jpg"
-        },
-        {
-          "id": "https://libertystreeteconomics.newyorkfed.org/?p=32456",
-          "author": "Sergio Correia, Stephan Luck, and Emil Verner",
-          "description": "Why do banks fail? In a new working paper, we study more than 5,000 bank failures in the U.S. from 1865 to the present to understand whether failures are primarily caused by bank runs or by deteriorating solvency. In this first of three posts, we document that failing banks are characterized by rising asset losses, deteriorating solvency, and an increasing reliance on expensive noncore funding. Further, we find that problems in failing banks are often the consequence of rapid asset growth in the preceding decade.",
-          "link": "https://libertystreeteconomics.newyorkfed.org/2024/11/why-do-banks-fail-three-facts-about-failing-banks/",
-          "publishedOn": "2024-11-21T12:00:00.000Z",
-          "wordCount": 4964,
-          "title": "Why Do Banks Fail? Three Facts About Failing Banks",
-          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/11/LSE_2024_why-do-banks-fail_PART1_luck_460.jpg"
         }
       ]
     },
@@ -629,6 +639,16 @@
       "feedUrl": "https://rwer.wordpress.com/feed/",
       "siteUrl": "https://rwer.wordpress.com",
       "articles": [
+        {
+          "id": "http://rwer.wordpress.com/?p=45890",
+          "author": "Lars Syll",
+          "description": "from Lars Syll Sixty years ago Milton Friedman wrote an (in)famous article arguing that (1) the natural rate of unemployment was independent of monetary policy and that (2) trying to keep the unemployment rate below the natural rate would only give rise to higher and higher inflation. The hypothesis has always been controversial, and much […]",
+          "link": "https://rwer.wordpress.com/2024/11/27/busting-the-natural-rate-of-unemployment-myth-2/",
+          "publishedOn": "2024-11-27T23:01:30.000Z",
+          "wordCount": 4250,
+          "title": "Busting the ‘natural rate of unemployment’ myth",
+          "imageUrl": "https://larspsyll.wordpress.com/wp-content/uploads/2017/03/mythbusting.png?w=260&h=133"
+        },
         {
           "id": "http://rwer.wordpress.com/?p=45871",
           "author": "merijntknibbe",
@@ -645,7 +665,7 @@
           "description": "Peak Babies was in 2012. At this moment, we´re back to the level of forty years ago (and the most recent data may well be an overestimate). For the first time in centuries, cohorts entering the global labour market will soon be smaller than the cohorts preceding them. Even when there are significant differences in […]",
           "link": "https://rwer.wordpress.com/2024/11/24/peak-babies-has-been-young-men-are-not-expendable-anymore/",
           "publishedOn": "2024-11-24T09:21:27.000Z",
-          "wordCount": 4383,
+          "wordCount": 4371,
           "title": "Peak babies has been. Young men are not expendable, anymore.",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-27.png"
         }
@@ -663,12 +683,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=282973",
+          "author": "Lambert Strether",
+          "description": "~ Today's Water Cooler: Politics, syndemics; Blame cannons thunder  after Kamala campaign team podcast; Investigation into attempts to assassinate Trump  seem curiously silent; Boeing delivery, layoff woes ~",
+          "link": "https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-27-2024-html.html",
+          "publishedOn": "2024-11-27T19:00:44.000Z",
+          "wordCount": 8701,
+          "title": "2:00PM Water Cooler 11/27/2024",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/elliott_trump.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=282964",
           "author": "Yves Smith",
           "description": "An initial look at the ceasefire between Israel and Lebanon.",
           "link": "https://www.nakedcapitalism.com/2024/11/israel-agrees-to-ceasefire-in-lebanon-after-ground-invasion-fails.html",
           "publishedOn": "2024-11-27T14:55:09.000Z",
-          "wordCount": 4198,
+          "wordCount": 5070,
           "title": "Israel Agrees to Ceasefire in Lebanon After Ground Invasion Fails",
           "imageUrl": null
         },
@@ -678,7 +708,7 @@
           "description": "",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-27-2024.html",
           "publishedOn": "2024-11-27T11:55:51.000Z",
-          "wordCount": 17005,
+          "wordCount": 21202,
           "title": "Links 11/27/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Mother_shelters_goslings.jpg"
         },
@@ -688,7 +718,7 @@
           "description": "It’s unlikely to do much vis-à-vis China, but will be bad news for the environment and majority of Europeans already reeling from Ursula’s other strategic “victories.”",
           "link": "https://www.nakedcapitalism.com/2024/11/eu-nears-finish-line-on-trade-deal-with-south-american-bloc-in-an-effort-to-deal-blow-to-china.html",
           "publishedOn": "2024-11-27T11:00:50.000Z",
-          "wordCount": 6162,
+          "wordCount": 6228,
           "title": "EU Nears Finish Line on Trade Deal With South American Bloc in an Effort to Deal Blow to China",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screenshot-2024-11-26-at-10.36.01 PM-1024x406.png"
         },
@@ -698,7 +728,7 @@
           "description": "Another deep dive into Pam Bondi's impressive record of corporate cronyism.",
           "link": "https://www.nakedcapitalism.com/2024/11/how-trump-attorney-general-pick-pam-bondi-did-favors-for-donors-and-gift-givers-in-florida.html",
           "publishedOn": "2024-11-27T10:55:08.000Z",
-          "wordCount": 5424,
+          "wordCount": 5451,
           "title": "How Trump Attorney General Pick Pam Bondi Did Favors for Donors and Gift-Givers in Florida",
           "imageUrl": null
         },
@@ -708,7 +738,7 @@
           "description": "If the Trump tariff scheme weakens the economy enough, the Fed would do better to ease rather than tighten even if inflation increases.",
           "link": "https://www.nakedcapitalism.com/2024/11/monetary-policy-in-response-to-tariff-shocks.html",
           "publishedOn": "2024-11-27T06:19:14.000Z",
-          "wordCount": 4818,
+          "wordCount": 4898,
           "title": "Monetary Policy in Response to Tariff Shocks",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/00-tariff-804x1024.png"
         },
@@ -718,7 +748,7 @@
           "description": "Have a happy Turkey Day! We will be kicking back a bit over the holiday weekend in light of (hopefully) lower news flow.",
           "link": "https://www.nakedcapitalism.com/2024/11/thanksgiving-holiday-schedule.html",
           "publishedOn": "2024-11-27T05:54:26.000Z",
-          "wordCount": 3897,
+          "wordCount": 3988,
           "title": "Thanksgiving Holiday Schedule",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-27-at-12.48.04-PM.png"
         },
@@ -728,7 +758,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics; \"Joy\" at Bluesky; Trump team drags feet on signing ethics and transparency agreements; \"Everyone is taking their skim\"  (of Democrat campaigns); Boeing 737 DHL plane crashes. In Lithuania. ~",
           "link": "https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-28-2024.html",
           "publishedOn": "2024-11-26T19:00:55.000Z",
-          "wordCount": 13826,
+          "wordCount": 13964,
           "title": "2:00PM Water Cooler 11/26/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/covid-cdc-ww-natl-4.png"
         },
@@ -738,7 +768,7 @@
           "description": "How Medicare Advantage, with less coverage than traditional Medicare via gatekeeping and thin networks, is a bad deal for taxpayers too.",
           "link": "https://www.nakedcapitalism.com/2024/11/taxpayers-spend-22-more-per-patient-to-support-medicare-advantage-the-private-alternative-to-medicare-that-promised-to-cost-less.html",
           "publishedOn": "2024-11-26T14:55:27.000Z",
-          "wordCount": 5887,
+          "wordCount": 6988,
           "title": "Taxpayers Spend 22% More Per Patient to Support Medicare Advantage – The Private Alternative to Medicare That Promised to Cost Less",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-26-at-10.00.34-PM.png"
         },
@@ -748,19 +778,9 @@
           "description": "Our razzy daily links: squirting cucumber secrets, wildfire smoke-Alzheimers link, HN51, water looting, euro parity to USD? IDF sport sniping, Lebanon ceasefire, Medvedev warns of nuke transfers, Trump v. CPFB, Texas to relax abortion rules? Kit Dotcom stroke, pro pols lousy at messagaing, Amazon Black Friday strikes",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-26-2024.html",
           "publishedOn": "2024-11-26T11:55:55.000Z",
-          "wordCount": 18330,
+          "wordCount": 18385,
           "title": "Links 11/26/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-26-at-5.34.16-PM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=282866",
-          "author": "Yves Smith",
-          "description": "Trump's latest tariff threat is quickly getting a lot of well-warranted criticism.",
-          "link": "https://www.nakedcapitalism.com/2024/11/trumps-inflation-stoking-25-mexico-and-canada-tariff-scheme.html",
-          "publishedOn": "2024-11-26T11:54:50.000Z",
-          "wordCount": 8205,
-          "title": "Trump’s Inflation-Stoking 25% Mexico and Canada Tariff Scheme",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-26-at-6.10.55-PM.png"
         }
       ]
     },
@@ -822,6 +842,16 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=42259395",
+          "author": "sbarre",
+          "description": "I thought the whole point of these camera LEDs was to have them wired to/through the power to the camera, so they are always on when the camera is getting power, no matter what.\nHaving the LED control exposed through the firmware completely defeats this.",
+          "link": "https://news.ycombinator.com/item?id=42259395",
+          "publishedOn": "2024-11-27T20:27:36.000Z",
+          "wordCount": 4957,
+          "title": "New comment by sbarre in \"Malware can turn off webcam LED and record video, demonstrated on ThinkPad X230\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=42253354",
           "author": "geuis",
           "description": "Oh boy. Please, please stop using Medium for anything. I have lost count of how many potentially interesting or informative articles are published behind the Medium sign-in wall. At least for me, if you aren't publishing blog articles in public then what's the point of me trying to read them.",
@@ -837,7 +867,7 @@
           "description": "I’ve come to the conclusion that I hate “cloud shit”, and a small part of me is convinced that literally no one actually likes it, and everyone is playing a joke on me.\nI have set up about a dozen rack mount servers in my life, installing basically every flavor of Unix and Linux and message busses under the sun in the process, but I still get confused by all the Kubectl commands and GCP integration with it.\nI might just be stupid, but it feels like all I ever do with Kubernetes is update and break YAML files, and then spend a day fixing them by copy-pasting increasingly-convoluted things on stackexchange.  I cannot imagine how anyone goes to work and actually enjoys working in Kubernetes, though I guess someone must in terms of “law of large numbers”.\nIf I ever start a company, I am going to work my damndest to avoid “cloud integration crap” as possible.  Just have a VM or a physical server and let me install everything myself.  If I get to tens of millions of users, maybe I’ll worry about it then.",
           "link": "https://news.ycombinator.com/item?id=42253231",
           "publishedOn": "2024-11-27T05:31:38.000Z",
-          "wordCount": 14859,
+          "wordCount": null,
           "title": "New comment by tombert in \"I Didn't Need Kubernetes, and You Probably Don't Either\"",
           "imageUrl": null
         },
@@ -857,7 +887,7 @@
           "description": "> Killing truly progressive programs for the purpose of virtue signaling is a loss for society\nIt's not just a loss for society.  It's society-killing.\nTaking resources away from those who move society forward and spending them on those who are unlikely to \"pay it back\" is a way your culture dies.  Conquerers in the past used this strategy to win massive empires for themselves.  It's a ridiculous self-own.\nThis is perhaps the sole political topic I will die on a hill for.",
           "link": "https://news.ycombinator.com/item?id=42247816",
           "publishedOn": "2024-11-26T17:36:17.000Z",
-          "wordCount": 12693,
+          "wordCount": null,
           "title": "New comment by phil21 in \"California's most neglected group of students: the gifted ones\"",
           "imageUrl": null
         },
@@ -887,7 +917,7 @@
           "description": "> Performance management, as practiced in many large corporations in 2024, is an outdated technology that is in need of an update\nAuthor made a couple of fundamental mistakes: the first is they assume employees are (or should be) paid according to how much they \"individually\" earned the company. Employers strive to pay employees the minimum they can bear, on employer's terms. Those terms are information asymmetry and a Gaussian distribution. Fairness is the last thing one should expect from employers, but being honest about this is not good for morale, so instead, they rely on keeping employees uninformed, while the employers collude to gather everyone's remuneration history via the Work Number.\nThe second mistake they made is assume that companies would prioritize being lean and trimming the mediocre & bottom 5%. There are other considerations, combined productivity is more important than having individual superstars working on the shiniest features. How much revenue do you think a janitor or café staffer generates? Close to zero. The same goes for engineering. Someone has to do the unglamorous staff, or you end up with a dysfunctional company, with amazing talent (on paper).\nEdit: there's an infamous graph that shows when aggregate worker productivity and average income. The two tracked closely, rising in tandem until the 1970s, where they got decoupled. With income becoming much flatter, and productivity continuing to rise. That's how the world has been for the past 50 years on the macro and the micro",
           "link": "https://news.ycombinator.com/item?id=42238109",
           "publishedOn": "2024-11-25T17:27:07.000Z",
-          "wordCount": null,
+          "wordCount": 9875,
           "title": "New comment by sangnoir in \"Hey, wait – is employee performance Gaussian distributed?\"",
           "imageUrl": null
         },
@@ -897,7 +927,7 @@
           "description": "It's important to note that the Do-Not-Stab header has been deprecated because one browser engine switched it on by default and requiring users to opt into stabbing hurt the bottom line of the stabbing industry, so it's no longer respected. Luckily someone came up with General Assault Control, a non-standard alternative, which also only has one value, so you can set Sec-GAC to 1 to request websites not to assault you. By design, this header cannot be extended, so it cannot be used to distinguish brutal stabbings from a comedic pie to the face in the future.\nBecause of legal requirements, the General Assault Control header may not be enabled by default, as American states like Colorado require explicit opt-out (rather than explicit opt-in). This protects Colorado's thriving stabbing and shooting industry as most users will never want to opt into being stabbed.\nDespite the feature being forced to be disabled by default, the organisation behind the spec is pushing hard for customers to download fringe browsers  that implement the feature (though you may need about:config to enable it). Because of the small user base, the request not to be assaulted can be used by websites not willing to follow the standard to make their stabbings and shootings more precise. End users can request a JSON file from the web server containing the supposed support for the GAC header, but requesting this URL may be used to kick the user in the teeth by non compliant servers.",
           "link": "https://news.ycombinator.com/item?id=42232991",
           "publishedOn": "2024-11-25T03:33:54.000Z",
-          "wordCount": 693,
+          "wordCount": null,
           "title": "New comment by jeroenhd in \"RFC 35140: HTTP Do-Not-Stab (2023)\"",
           "imageUrl": null
         },
@@ -907,7 +937,7 @@
           "description": "It’s great satire, but it really does mirror a larger societal shift where the burden of safeguarding personal autonomy has shifted from institutions/regulators to individual users. Do-Not-Stab, Do-Not-Track, whatever it might be, any sort of “voluntary compliance” is a non-starter in the face of financial pressures\nIMO we need to start normalizing being militant about this stuff again, to aggressively and adversarially defend the freedom to use your computer the way you choose to use it",
           "link": "https://news.ycombinator.com/item?id=42232593",
           "publishedOn": "2024-11-25T02:15:56.000Z",
-          "wordCount": null,
+          "wordCount": 6922,
           "title": "New comment by foundry27 in \"RFC 35140: HTTP Do-Not-Stab (2023)\"",
           "imageUrl": null
         },
@@ -917,7 +947,7 @@
           "description": "I compile a lot of C++ code from a lot of places, and the only time I run into code that somehow simply doesn't work on newer versions of C++ and where the developers aren't even sure if they will accept any patches to fix the issue as they claim it \"isn't supported\" to use a newer version of C++--even for the public headers of a library--is, you guessed it: code from Google.\nMeanwhile, most of the C++ code from Google seems to be written in some mishmash of different ideas, always at some halfway point along a migration between something ancient and something passable... but never anything I would ever dare to call \"modern\", and thereby tends to be riddled with state machines and manual weak pointers that lead to memory corruption.\nSo... I really am not sure I buy the entire premise of th…",
           "link": "https://news.ycombinator.com/item?id=42232183",
           "publishedOn": "2024-11-25T01:03:40.000Z",
-          "wordCount": null,
+          "wordCount": 17272,
           "title": "New comment by saurik in \"The two factions of C++\"",
           "imageUrl": null
         },
@@ -947,7 +977,7 @@
           "description": "Here's the thing about the average career in big tech: five years after you leave, almost no one will remember you were there. Most of your old team mates will leave for other other jobs. Your code will get refactored or rewritten. Docs will be superseded, then lost in some CMS migration. Before long, it will be as if you have never worked there.\nI know it sounds preposterous, but ask anyone over the age of 55 or 60: except for folks who built their own companies or made truly exceptional contributions to their field, most will say that hobbies, friends, and family mattered a lot more.\nSo, there is this fundamental contradiction in this article: you can engineer a very neat career, but for most techies, the most useful goal is to make money fast in a way that doesn't drain your life energy. And most of the time, this means responding to opportunities, not sticking to your guns. For example, a lifetime IC job may be ultimately worth less than a management job that gets you to VP level in a decade. You don't need to dream about being a manager; you just need to be reasonably good at it.",
           "link": "https://news.ycombinator.com/item?id=42228934",
           "publishedOn": "2024-11-24T17:11:52.000Z",
-          "wordCount": null,
+          "wordCount": 8176,
           "title": "New comment by equestria in \"A career-ending mistake\"",
           "imageUrl": null
         },
@@ -957,7 +987,7 @@
           "description": "For what it's worth, I've worked at multiple places that ran shell scripts just fine for their deploys.\n- One had only 2 services [php] and ran over 1 billion requests a day. Deploy was trivial, ssh some new files to the server and run a migration, 0 downtime.\n- One was in an industry that didn't need \"Webscale\" (retirement accounts). Prod deploys were just docker commands run by jenkins. We ran two servers per service from the day I joined the day I left 4 years later (3x growth), and ultimately removed one service and one database during all that growth.\nAnother outstanding thing about both of these places was that we had all the testing environments you need, on-demand, in minutes.\nThe place I'm at now is trying to do kubernetes and is failing miserably (ongoing nightmare 4 months in and probably at least 8 to go, when it was allegedly supposed to only take 3 total). It has one shared test environment that it takes 3-hours to see your changes in.\nI don't fault kubernetes directly, I fault the overall complexity. But at the end of the day kubernetes feels like complexity trying to abstract over complexity, and often I find that's less successful that removing complexity in the first place.",
           "link": "https://news.ycombinator.com/item?id=42227960",
           "publishedOn": "2024-11-24T14:02:59.000Z",
-          "wordCount": null,
+          "wordCount": 10197,
           "title": "New comment by zug_zug in \"Dear friend, you have built a Kubernetes\"",
           "imageUrl": null
         },
@@ -967,7 +997,7 @@
           "description": "I agree with you that's how it should be, but experience tells me that everyone is insecure and it's hardly correlated with position and job security.\nPeople lower down the chain are insecure because they could legitimately be let go at any time for any reason.\nPeople higher up the chain are insecure because any loss of face is debilitating. Especially having failings pointed out by someone \"below\" them.",
           "link": "https://news.ycombinator.com/item?id=42224244",
           "publishedOn": "2024-11-23T21:52:06.000Z",
-          "wordCount": 3007,
+          "wordCount": null,
           "title": "New comment by NAHWheatCracker in \"How to give a senior leader feedback without getting fired\"",
           "imageUrl": null
         },
@@ -1007,7 +1037,7 @@
           "description": "I quit my FAANG job yesterday to join a fully remote company. I took a >50% pay cut but I think it is a 100% life saver. I remember spending 3-4 hours/day commuting and I am just not willing to do that any more. I've cut back on expenses and simplified my life, built up some savings so I can make do with less. My retirement savings will slow down dramatically, but if I don't hate my work life then those savings will be less of an all-consuming goal.\nThank you senior leadership for your wisdom, \"If you don't like it, find another place to work\". The first good advice I've heard from them in 5 years.",
           "link": "https://news.ycombinator.com/item?id=42221849",
           "publishedOn": "2024-11-23T16:54:51.000Z",
-          "wordCount": 15806,
+          "wordCount": null,
           "title": "New comment by jaysinn_420 in \"The 'Return to Office' Lies\"",
           "imageUrl": null
         },
@@ -1027,7 +1057,7 @@
           "description": "\"As part of the calibration, the speed of sound is also a parameter which is optimized to obtain the best model of the system, which allows this whole procedure to act as a ridiculously overengineered thermometer.\"\nReminds me of the electronics adage: \"all sensors are temperature sensors, some measure other things as well.\"",
           "link": "https://news.ycombinator.com/item?id=42215936",
           "publishedOn": "2024-11-22T17:56:15.000Z",
-          "wordCount": 3730,
+          "wordCount": null,
           "title": "New comment by frankus in \"Phased Array Microphone (2023)\"",
           "imageUrl": null
         },
@@ -1050,16 +1080,6 @@
           "wordCount": null,
           "title": "New comment by shihab in \"ICC issues warrants for Netanyahu, Gallant, and Hamas officials\"",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=42203754",
-          "author": "nabla9",
-          "description": "(before you jump into discussion, remember that this only about these two individuals)\nICC and the prosecutor are on very solid ground here.\nThe prosecutor asked opinions from a impartial panel of experts in international law. The panel included people like Theodor Meron (former Legal adviser for the Israeli Ministry of Foreign Affairs),  Helene Kennedy, Adrian Fulford.\nNetanyahu and Yoav Gallant provided plenty of evidence of the intent. Did they really think that when they talk Hebrew to their audience, rest of the world does not hear them. Case like this would be harder to prosecute without evidence of intent.",
-          "link": "https://news.ycombinator.com/item?id=42203754",
-          "publishedOn": "2024-11-21T12:40:48.000Z",
-          "wordCount": null,
-          "title": "New comment by nabla9 in \"ICC issues warrants for Netanyahu, Gallant, and Hamas officials\"",
-          "imageUrl": null
         }
       ]
     },
@@ -1074,7 +1094,7 @@
           "description": "Ownership and control of social media platforms is a first-order concern for both domestic politics and international conflict. The most important battleground in the Russia-Ukraine war is elections in NATO member states. And there, Russia is clearly winning. Trump, obviously, but yesterday saw the stunning success of formerly fringe right-wing candidate C?lin Georgescu. In an […]",
           "link": "https://crookedtimber.org/2024/11/26/tiktok-in-romania/",
           "publishedOn": "2024-11-26T14:48:10.000Z",
-          "wordCount": 3779,
+          "wordCount": 4019,
           "title": "TikTok in Romania",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F318ae13e-0b29-445a-89c2-d9605438f7fe_1034x412.png"
         },
@@ -1084,7 +1104,7 @@
           "description": "by Rutger Claassen and Ingrid Robeyns Let’s establish an upper limit on the personal wealth any individual can possess. This is the core principle behind ‘limitarianism’. Limitarianism represents one of the more radical proposals in the debate on wealth inequality. Over the past few years, one of us has developed the philosophy of limitarianism (first […]",
           "link": "https://crookedtimber.org/2024/11/24/can-businesses-flourish-in-a-world-with-a-cap-on-personal-wealth/",
           "publishedOn": "2024-11-24T18:02:20.000Z",
-          "wordCount": 8686,
+          "wordCount": 8682,
           "title": "Can businesses flourish in a world with a cap on personal wealth?",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1094,7 +1114,7 @@
           "description": "So in the last three years or so — since COVID, basically — Romania and Taiwan have both joined a very special club of countries. There are not a lot of countries in this club. If you’re very generous, you could include perhaps a dozen or so. But to my way of thinking, there are […]",
           "link": "https://crookedtimber.org/2024/11/24/taiwan-and-romania-join-a-very-special-club/",
           "publishedOn": "2024-11-24T17:20:37.000Z",
-          "wordCount": 7417,
+          "wordCount": 7614,
           "title": "Taiwan and Romania join a very special club",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -1104,7 +1124,7 @@
           "description": "Visit the post for more.",
           "link": "https://crookedtimber.org/2024/11/24/sunday-photoblogging-handy-mini-market/",
           "publishedOn": "2024-11-24T09:00:23.000Z",
-          "wordCount": 1766,
+          "wordCount": 1762,
           "title": "Sunday photoblogging: Handy Mini-Market",
           "imageUrl": "https://live.staticflickr.com/65535/53733152582_1b8233c409.jpg"
         }
@@ -1144,21 +1164,6 @@
           "wordCount": 6937,
           "title": "Sri Lanka: Reading the General Election 2024",
           "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L1200xH630/782516367cc8080bae454e887dbb59-df92d.jpg"
-        },
-        {
-          "id": "https://www.cadtm.org/Questions-answers-on-China-as-a-major-creditor-power",
-          "author": "Eric Toussaint",
-          "description": "China has been demonized by several commentators: it is said to be the main creditor of many countries of the South and to get the most of them through ruthless exploitation whereas the World Bank, the IMF, the Paris Club, that bring together traditional creditor powers, are supposed to do their best to help those countries burdened by too much debt. \nEnglish\n\n/ \nAlternatives, \nChina, \nBRICS",
-          "link": "https://www.cadtm.org/Questions-answers-on-China-as-a-major-creditor-power",
-          "publishedOn": "2024-11-21T08:29:56.000Z",
-          "wordCount": 12315,
-          "title": "Questions & answers on China as a major creditor power",
-          "enclosure": {
-            "url": "https://www.cadtm.org/IMG/png/sans_titre-11.png",
-            "length": "49752",
-            "type": "image/png"
-          },
-          "imageUrl": "https://www.cadtm.org/IMG/png/sans_titre-11.png"
         }
       ]
     },
@@ -1186,12 +1191,32 @@
       "siteUrl": "https://disassociated.com",
       "articles": [
         {
+          "id": "https://disassociated.com/?p=8890",
+          "author": "disassociated.com",
+          "description": "Did an extra-terrestrial intelligence attempt to message us in the distant past? Or did an Earth based radio telescope, nicknamed Big Ear, inadvertently eavesdrop in on a snippet of a conversation between two other alien civilisations? These are among some of the many explanations advanced to understand the so-called Wow! signal, a suspected narrowband radio […]",
+          "link": "https://disassociated.com/wow-signal-sun-like-stars-abundance-hydrogen/",
+          "publishedOn": "2024-11-27T20:00:32.000Z",
+          "wordCount": 753,
+          "title": "The Wow! signal, sun-like stars, and an abundance of hydrogen",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
+          "id": "https://disassociated.com/?p=8895",
+          "author": "disassociated.com",
+          "description": "Goorie/South East Australian author Melissa Lucashenko has won the 2024 Mark and Evette Moran Nib literary award, with her 2023 novel Edenglassie. A work of historical fiction, Edenglassie, which links the past with the present, also won this year’s ARA Historical Novel Prize, Indie Book Awards, and the fiction category of the Victorian Premier’s Literary […]",
+          "link": "https://disassociated.com/melissa-lucashenko-wins-2024-mark-evette-moran-nib-award/",
+          "publishedOn": "2024-11-27T19:30:12.000Z",
+          "wordCount": 285,
+          "title": "Melissa Lucashenko wins 2024 Mark and Evette Moran Nib award",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
           "id": "https://disassociated.com/?p=8886",
           "author": "disassociated.com",
           "description": "Sydney based Western Australian author Gail Jones was last week presented with the Creative Australia Lifetime Achievement in Literature award. Jones’ books have won the ARA Historical Novel Prize, Barbara Ramsden Award, and Western Australian Premier’s Book Awards. They have also been included on the long and short lists of numerous literary awards, including the […]",
           "link": "https://disassociated.com/gail-jones-wins-creative-australia-award-lifetime-achievement-literature/",
           "publishedOn": "2024-11-26T20:00:22.000Z",
-          "wordCount": 177,
+          "wordCount": 187,
           "title": "Gail Jones wins Creative Australia Award for Lifetime Achievement in Literature",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         },
@@ -1231,7 +1256,18 @@
       "title": "Last Week in Kubernetes Development",
       "feedUrl": "https://lwkd.info/feed.xml",
       "siteUrl": "https://lwkd.info/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://lwkd.info/2024/20241127",
+          "author": null,
+          "description": "Developer News",
+          "link": "https://lwkd.info/2024/20241127",
+          "publishedOn": "2024-11-27T22:00:00.000Z",
+          "wordCount": 378,
+          "title": "Week Ending November 24, 2024",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "New Left Review Sidecar recent posts",
@@ -1266,6 +1302,16 @@
       "siteUrl": "https://bearblog.dev/discover/",
       "articles": [
         {
+          "id": "https://mgx.me/kirby-vs-this-blog-post/",
+          "author": null,
+          "description": ":root{--inhale-duration:1000ms;--inhale-easing:cubic-bezier(0.25, 0.1, 0.25, 1)}.content{display:flex;align-items:flex-start;position:relative;width:100%}.kirby{min-width: 0;box-shadow:none;width:50px;height:50px;image-rendering:pixelated;position:absolute;left:0;top:0;z-index:10;transition:transform 0.3s ease}#text-to-inhale{padding-left:40px;position:relative;width:100%}.character{display:inline-block;transition:transform var(--inhale-duration) var(--inhale-easing),opacity var(--inhale-duration) var(--inhale-easing);position:relative;z-index:1}.character.inhaling{position:absolute;will-change:transform,opacity}.character.inhaled{opacity:0;transform:scale(.1) rotate(360deg);width:0;margin:0;padding:0}.credits{position:absolute;right:0;font-size:90%;top:20px;color:var(--sub-color);opacity:…",
+          "link": "https://mgx.me/kirby-vs-this-blog-post/",
+          "publishedOn": "2024-11-27T16:28:43.327Z",
+          "wordCount": 597,
+          "title": "kirby vs. this blog post",
+          "imageUrl": "https://static.mgx.me/images/2024/kirby.webp"
+        },
+        {
           "id": "https://herman.bearblog.dev/forced-to-upgrade/",
           "author": null,
           "description": "I've been happily using an iPhone 8 for the last 7 years. It has been, and still is, a perfect smartphone. I've never bumped up against the limitations of the hardware (gaming on a phone is a bit of a mystery to me), and all of my photos and videos are synced to the cloud, so I've never even run out of the 64gb of storage space.\nAbout a year ago the battery wasn't making it through a full day. So I replaced the battery and breathed new life into my phone. It felt brand new.\nBut then this year,  it started happening. Certain apps become unavailable, requiring iOS 17 or later. The iPhone 8 will never support iOS 17 since Apple only provides software updates for 6 years after the device's release date1. So I'm stuck at 16.7.10 in perpetuity.\nAnd now I feel quite bitter. I have a perfectly fun…",
@@ -1276,14 +1322,14 @@
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         },
         {
-          "id": "https://mgx.me/brewing-a-guestbook-using-cloudflare-workers/",
+          "id": "https://notes.jeddacp.com/grateful-for-more-time-with-cocoa-after-gdv/",
           "author": null,
-          "description": "Yesterday, I received an email from R, who appreciated my contributions to the bearblog.dev platform. I felt bad that they had to dig two levels deep to find mishka@mishka.contact, which I use as a forwarding address. They asked my reasoning behind not having a guestbook or contact page. I replied that I wasn't sure how to manage such features and communicate effectively.\nThe inquiry, however, reignited my interest in building a guestbook system.\nToday, I spent some time developing it using Cloudflare Workers. I utilized Cloudflare D1 to store entries and added a simple admin authentication and moderation system. Additionally, I implemented verification using Cloudflare Turnstile. Since I already rely on Cloudflare for various services, integrating their solutions for this project made perfect sense.\nWhile the system is monolithic and still a work in progress, I’m pleased with the result. Even though I’m building it for my own use, I hope to refine it further and potentially create a starter script for others to self-host their guestbook.\nFeel free to say hello.",
-          "link": "https://mgx.me/brewing-a-guestbook-using-cloudflare-workers/",
-          "publishedOn": "2024-11-26T17:26:44.503Z",
-          "wordCount": 635,
-          "title": "brewing a guestbook using cloudflare workers",
-          "imageUrl": "https://static.mgx.me/images/2024/guestbook.webp"
+          "description": "In answering my own WeblogPoMoAMA Question: What are you thankful for?\nWell... I would be remiss if I didn’t talk about an important life event.\nYesterday marked Cocoa’s 2nd year of life— not her 2nd birthday, but the 2-year anniversary of when the universe (or choose your own higher being) gave us more time with her.\nLet’s rewind a bit.\nThanksgiving 2022. We just finished eating Thanksgiving dinner and were relaxing, watching TV. Cocoa was lying on the couch when she suddenly started dry heaving, as if trying to throw up but with nothing to expel.\nStrange.\nWe took her outside. She was on and off dry heaving. Nothing was coming out. Maybe she wanted to go use the bathroom. She walked very slowly, something clearly off. We brought her back inside, her little body feeling so tender.\nShe wasn…",
+          "link": "https://notes.jeddacp.com/grateful-for-more-time-with-cocoa-after-gdv/",
+          "publishedOn": "2024-11-26T22:42:00.000Z",
+          "wordCount": 1786,
+          "title": "Grateful for more time with Cocoa after GDV",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/jedda/cocoagdv2o22.png"
         },
         {
           "id": "https://blog.solazy.me/20241126/",
@@ -1371,7 +1417,7 @@
           "description": "\"When asked if my cup is half-full or half-empty, my only response is that I am thankful I have a cup.\"\nThere’s a lot of not so great things happening in the world right now that we often forget to be thankful for the little things.\nOr is that just me?\nI used to write one line a day of things that I was grateful for. In every day life, I would find something that I am thankful for. It could be as little as the sun came out today after days of rain to big things like I got the promotion I’ve been waiting for today.\nThen I stopped.\nIt was hard to keep up with. I was struggling to find the silver lining in things. I got tired of people telling me it happened for a reason. You’ll see!\nWith Thanksgiving in the horizon, I want to bring a little bit of that grateful attitude back. I know, I know,…",
           "link": "https://notes.jeddacp.com/what-are-you-thankful-for/",
           "publishedOn": "2024-11-24T21:11:00.000Z",
-          "wordCount": 1650,
+          "wordCount": 1712,
           "title": "What Are You Thankful for?",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/jedda/weblogpomoama-thannkful.png"
         },
@@ -1394,16 +1440,6 @@
           "wordCount": 1972,
           "title": "Don't buy me a coffee... yet",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/buy-coffee.webp"
-        },
-        {
-          "id": "https://birming.com/why-blog/",
-          "author": null,
-          "description": "Why do I blog? Because I like to write.\nThat's my spontaneous answer.\nAnd it's true—but far from the whole truth. It became obvious when I chose to write without blogging during the week.\nI felt creatively stifled. As if everything I created was never really complete. A gallery with paintings lacking frames.\nFor me, blogging is so much more than publishing texts. I like to tinker with the design and format the texts with a \"digital mentality.\" I like my blogging workflow and everything surrounding it.\nI blog because I love blogging.\nCommunity echoes 🔊\nBlogging keeps me motivated\nWhy Do I Blog",
-          "link": "https://birming.com/why-blog/",
-          "publishedOn": "2024-11-23T14:35:00.000Z",
-          "wordCount": 1816,
-          "title": "Why Blog?",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/why-blog.webp"
         },
         {
           "id": "https://mei.bearblog.dev/pulled-back/",
