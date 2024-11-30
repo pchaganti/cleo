@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-11-29T18:35:32.192Z</id>
+    <id>urn:2024-11-30T01:57:08.940Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-11-29T18:35:32.192Z</updated>
+    <updated>2024-11-30T01:57:08.940Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[2:00PM Water Cooler 11/29/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=283069</id>
+        <link href="https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-29-2024.html"/>
+        <updated>2024-11-29T19:00:39.000Z</updated>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics; Did it really take $500,000 to make Al Sharpton "friendly"? Sanders on the Four Freedoms  (and Norman Rockwell); Another day, another Boeing airworthiness directive. ALso, COMAC ~]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Landmark climate hearings set at UN court + 1 more story]]></title>
         <id>https://newsletter.newsminimalist.com/p/landmark-climate-hearings-set-at-un-court-1-more-story</id>
@@ -29,6 +39,29 @@ Ecological debt,
 Ecology/Climate]]></summary>
         <author>
             <name>CADTM International</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your PR Process Is Killing Morale and Productivity]]></title>
+        <id>https://blackentropy.com/your-pr-process-is-killing-morale-and-productivity/</id>
+        <link href="https://blackentropy.com/your-pr-process-is-killing-morale-and-productivity/"/>
+        <updated>2024-11-29T13:12:09.318Z</updated>
+        <summary type="html"><![CDATA[Code reviews are supposed to be about improving code quality and sharing knowledge, but when PR comments start hitting the hundreds, something is very wrong. I’ve recently come across a discussion where a new developer joined a team and faced over 300 PR comments on their first contribution. Most of it was stylistic nitpicking. This isn’t just unproductive, it’s outright toxic.
+Why This Happens
+You’re Not Using Linters or Auto-Formatters
+Prettier, ESLint, or Black exist for a reason. Not automating this is borderline malpractice in modern development.
+Your Team Has a "Style Over Substance" Obsession
+Metrics Gone Wild
+Toxic Culture
+What Needs to Change
+Automate the Trivial Stuff
+Focus on What Matters
+Define (and Stick To) a Style Guide
+Measure the Right Things
+Stop Wasting Everyone’s Time
+Hundreds of comments on a PR are a red flag, not a badge of honor. It means your process is broken. Fix the culture, fix the tooling, and focus on what actually matters: shipping high-quality, maintainable software. Anything else is just noise.]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -81,7 +114,7 @@ Tax Justice]]></summary>
     <entry>
         <title type="html"><![CDATA[Seattle Diary: 25 Years After]]></title>
         <id>https://www.counterpunch.org/?p=345290</id>
-        <link href="https://www.counterpunch.org/2024/11/29/345290/"/>
+        <link href="https://www.counterpunch.org/2024/11/29/seattle-diary-25-years-after/"/>
         <updated>2024-11-29T07:00:39.000Z</updated>
         <summary type="html"><![CDATA[Twenty-five years ago this week, the streets of Seattle erupted into the kind of militant protest rarely seen in the US. Over the course of five days, thousands of street activists counterpunched the global managers of neoliberalism in the face at their own confab, humiliated Bill Clinton and took the ruling class entirely off guard. The battle in Seattle became a kind of operational template for the popular protests of the both the right and left that followed in its wake: Code Pink's anti-Iraq war demos, the Occupy Movement, the Tea Party, Black Lives Matter and, even, MAGA. The populist right certainly absorbed more lessons from the Battle of Seattle than the liberal elites of the Democratic Party–to their peril and ultimate doom. More
 The post Seattle Diary: 25 Years After appeared first on CounterPunch.org.]]></summary>
@@ -409,6 +442,19 @@ The post Natural Capital or Natural Commonwealth? appeared first on CounterPunch
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by hn_throwaway_99 in "Engineers do not get to make startup mistakes when they build ledgers"]]></title>
+        <id>https://news.ycombinator.com/item?id=42270266</id>
+        <link href="https://news.ycombinator.com/item?id=42270266"/>
+        <updated>2024-11-29T02:24:41.000Z</updated>
+        <summary type="html"><![CDATA[Tell that to Synapse customers. Many millions of dollars are missing.
+Banks have to follow strict rules to account for where all the money goes. But the way fintechs work, they usually just have one or a couple underlying "FBO" accounts where all the pooled money is held, but then the fintech builds a ledger on top of this (and, as the article points out, to varying levels of engineering competence) to track each individual customer's balance within this big pool of money. In Synapse's case, their ledger said the total amount of all of their individual customer balances ended up being much more than the actual funds held in the underlying FBO accounts. Lots of folks are assuming fraud but I'm willing to put money that it was just a shitty, buggy ledger.
+FWIW, after seeing "how the sausage is made", I would never put money into a fintech depository account. Use a real bank. Fintechs also often put out the fake promise that deposits are FDIC insured, but this only protects you if the underlying bank goes belly up, not if the fintech loses track of your money.
+See https://www.forbes.com/sites/zennonkapron/2024/11/08/what-th...]]></summary>
+        <author>
+            <name>hn_throwaway_99</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by revscat in "Send someone you appreciate an official 'Continue and Persist' Letter"]]></title>
         <id>https://news.ycombinator.com/item?id=42269718</id>
         <link href="https://news.ycombinator.com/item?id=42269718"/>
@@ -685,16 +731,6 @@ Having the LED control exposed through the firmware completely defeats this.]]><
         <updated>2024-11-27T11:55:51.000Z</updated>
         <author>
             <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EU Nears Finish Line on Trade Deal With South American Bloc in an Effort to Deal Blow to China]]></title>
-        <id>https://www.nakedcapitalism.com/?p=282944</id>
-        <link href="https://www.nakedcapitalism.com/2024/11/eu-nears-finish-line-on-trade-deal-with-south-american-bloc-in-an-effort-to-deal-blow-to-china.html"/>
-        <updated>2024-11-27T11:00:50.000Z</updated>
-        <summary type="html"><![CDATA[It’s unlikely to do much vis-à-vis China, but will be bad news for the environment and majority of Europeans already reeling from Ursula’s other strategic “victories.”]]></summary>
-        <author>
-            <name>Conor Gallagher</name>
         </author>
     </entry>
     <entry>
@@ -1139,22 +1175,6 @@ If you'd like to read more, see the two PDF documents below, which are the main 
         <summary type="html"><![CDATA[Appreciated Daniel reaching out to the team about this! Hosting blobs is one of those things that will inevitably go through iterations as we understand the abuse vectors more and more, but for now it's really fun to see this kind of usage in action. The PDS is meant to be a database host in the same sense that a webserver is a website host.]]></summary>
         <author>
             <name>pfraze</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Are You Thankful for?]]></title>
-        <id>https://notes.jeddacp.com/what-are-you-thankful-for/</id>
-        <link href="https://notes.jeddacp.com/what-are-you-thankful-for/"/>
-        <updated>2024-11-24T21:11:00.000Z</updated>
-        <summary type="html"><![CDATA["When asked if my cup is half-full or half-empty, my only response is that I am thankful I have a cup."
-There’s a lot of not so great things happening in the world right now that we often forget to be thankful for the little things.
-Or is that just me?
-I used to write one line a day of things that I was grateful for. In every day life, I would find something that I am thankful for. It could be as little as the sun came out today after days of rain to big things like I got the promotion I’ve been waiting for today.
-Then I stopped.
-It was hard to keep up with. I was struggling to find the silver lining in things. I got tired of people telling me it happened for a reason. You’ll see!
-With Thanksgiving in the horizon, I want to bring a little bit of that grateful attitude back. I know, I know,…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
