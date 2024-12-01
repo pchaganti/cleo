@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-11-30T18:33:42.431Z</id>
+    <id>urn:2024-12-01T02:21:40.333Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-11-30T18:33:42.431Z</updated>
+    <updated>2024-12-01T02:21:40.333Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -27,7 +27,7 @@ Source: https://unravel.noblogs.org/time-and-being/
         <id>https://www.counterpunch.org/?p=345432</id>
         <link href="https://www.counterpunch.org/2024/11/30/if-lebanon-why-not-gaza/"/>
         <updated>2024-11-30T17:31:34.000Z</updated>
-        <summary type="html"><![CDATA[+ On Tuesday, Israel and Lebanon agreed to a ceasefire deal with Hezbollah that was brokered by the U.S.- and France. The ceasefire began at 4 a.m. local time Wednesday, but Israel continued to fire on Hezbollah positions throughout much of the day. According to the terms of the deal, Israel won’t remove its military […]
+        <summary type="html"><![CDATA[The ruins of West Gaza City. Photo: UNRWA + On Tuesday, Israel and Lebanon agreed to a ceasefire deal with Hezbollah that was brokered by the U.S.- and France. The ceasefire began at 4 a.m. local time Wednesday, but Israel continued to fire on Hezbollah positions throughout much of the day. According to the terms […]
 To read this article, log in here or subscribe here.
 If you are logged in but can't read CP+ articles, check the status of your access here
 In order to read CP+ articles, your web browser must be set to accept cookies.		    
@@ -208,6 +208,19 @@ Hundreds of comments on a PR are a red flag, not a badge of honor. It means your
         <summary type="html"><![CDATA[Our salacious daily links: Mayflower survivors, 2024 big heat mystery, China Baltic ship hostage? Kerkala, German crisis, Romania election pushback, UK euthanasia, Israel continues Lebanon attacks, whither NATO? Trump abortion options, Mexico says no tariffs, Thanksgiving cost propaganda,]]></summary>
         <author>
             <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On being a hello-er]]></title>
+        <id>https://dostoynikov.com/on-being-a-hello-er/</id>
+        <link href="https://dostoynikov.com/on-being-a-hello-er/"/>
+        <updated>2024-11-29T11:58:32.241Z</updated>
+        <summary type="html"><![CDATA[Although I love talking with people—whether it’s having deep chats or just exchanging simple hellos—initiating communication has never been my strong suit. Most of the time, I’ve remained passive in first interactions. However, whenever someone else took the first step, I always did my best to keep the conversation lively and meaningful.
+After moving back to Japan recently and settling in the countryside, I’ve started noticing the power of a simple "hello" while wandering around the neighborhood. It makes me genuinely happy to receive these random greetings from strangers, accompanied by a smile. Inspired by this, I decided to try it myself.
+And wow—turns out I might be more of an extrovert than I thought! Now, I don’t go overboard by greeting every single person I see (that would definitely be a bit creepy), but I’ve realized that you can often sense the vibe of another person and gauge whether they might be open to a friendly gesture. When I feel it’s appropriate, I say hello and slightly bow my head to passersby. So far, I haven’t received any negative reactions—just smiles, nods, and warm greetings in return.
+For now, I’m enjoying my role as a "hello-er" and want to work on improving my overall communication skills. While I’m typically the more dominant side in conversations, taking the first step has always been a challenge for me. I figured that becoming a "hello-er" could be the first small but meaningful step toward overcoming this. Let’s see how it goes.]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
     <entry>
@@ -702,6 +715,18 @@ PyTorch’s Autograd feature is part of what make PyTorch flexible and fast for 
 Machine Learning in general use case.
 Machine Learning has been proven to be highly useful in variety of sectors:
 Health…]]></summary>
+        <author>
+            <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[177. How to be single]]></title>
+        <id>https://marblethoughts.bearblog.dev/how-to-be-single/</id>
+        <link href="https://marblethoughts.bearblog.dev/how-to-be-single/"/>
+        <updated>2024-11-27T22:35:00.000Z</updated>
+        <summary type="html"><![CDATA[I’m trying to catch up with writing, but it seems like I’m trying to catch up with life. A lot of things happened while I was gone. I really need to be reflective and focus on processing my thoughts through writing. I’m back baby.
+Every time I experience a break up, I watch “How To Be Single” (2016). It came out when I was near the end of the high school and really didn’t have much dating experience. It’s almost a decade, and I’ve had a lot of romantic misadventures under my belt at this point. I’ve experience everything that movie showed. Also, I just like how charming Dakota Johnson is in this. Every time I watch the film, I relate to all of the characters more and more with every romantic connection I’ve had.
+So right now, I feel quite sad. Currently spiraling from another break up agai…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
         </author>
@@ -1352,58 +1377,6 @@ Specially
         <summary type="html"><![CDATA[Taiwan's president plans South Pacific tour for stronger ties; UN talks result in $300 billion climate funding for developing nations.]]></summary>
         <author>
             <name>News Minimalist</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by zug_zug in "Dear friend, you have built a Kubernetes"]]></title>
-        <id>https://news.ycombinator.com/item?id=42227960</id>
-        <link href="https://news.ycombinator.com/item?id=42227960"/>
-        <updated>2024-11-24T14:02:59.000Z</updated>
-        <summary type="html"><![CDATA[For what it's worth, I've worked at multiple places that ran shell scripts just fine for their deploys.
-- One had only 2 services [php] and ran over 1 billion requests a day. Deploy was trivial, ssh some new files to the server and run a migration, 0 downtime.
-- One was in an industry that didn't need "Webscale" (retirement accounts). Prod deploys were just docker commands run by jenkins. We ran two servers per service from the day I joined the day I left 4 years later (3x growth), and ultimately removed one service and one database during all that growth.
-Another outstanding thing about both of these places was that we had all the testing environments you need, on-demand, in minutes.
-The place I'm at now is trying to do kubernetes and is failing miserably (ongoing nightmare 4 months in and probably at least 8 to go, when it was allegedly supposed to only take 3 total). It has one shared test environment that it takes 3-hours to see your changes in.
-I don't fault kubernetes directly, I fault the overall complexity. But at the end of the day kubernetes feels like complexity trying to abstract over complexity, and often I find that's less successful that removing complexity in the first place.]]></summary>
-        <author>
-            <name>zug_zug</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't buy me a coffee... yet]]></title>
-        <id>https://birming.com/dont-buy-coffee/</id>
-        <link href="https://birming.com/dont-buy-coffee/"/>
-        <updated>2024-11-24T13:45:00.000Z</updated>
-        <summary type="html"><![CDATA[A contradictory title from someone who lives in a country that is among the world's largest coffee consumers, and who loves a Swedish fika.
-The title, of course, refers to the "Buy Me a Coffee" buttons that you see on every other blog. Today, it's often easier to find a donation button than a link to the RSS feed or a contact page.
-I tried it myself when launching the Bearming Theme. It lasted for a day; then I removed it. It simply doesn't feel right—at least not at the moment.
-I don’t think I offer anything that justifies a call to donate money. I write some blog posts and let others use my theme. That’s it!
-Maybe it's a matter of background and culture. Maybe it has to do with the typically Scandinavian "jantelagen" (Law of Jante). I don't know.
-I don't blame anyone who chooses to use these buttons. Some may see it as a way to put some pressure on themselves to deliver. Some may see it as a way for others to show appreciation.
-Personally, I blog almost daily anyway, and I think it's nice to know that I don't "have to." And when it comes to appreciation from others, a short email or a guestbook entry feels much more valuable to me.
-But hey, if you're ever in Sweden and feel like buying me a real cup of coffee, I'll gladly accept your fika invitation any day of the week. ☕️]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Peak babies has been. Young men are not expendable, anymore.]]></title>
-        <id>http://rwer.wordpress.com/?p=45847</id>
-        <link href="https://rwer.wordpress.com/2024/11/24/peak-babies-has-been-young-men-are-not-expendable-anymore/"/>
-        <updated>2024-11-24T09:21:27.000Z</updated>
-        <summary type="html"><![CDATA[Peak Babies was in 2012. At this moment, we´re back to the level of forty years ago (and the most recent data may well be an overestimate). For the first time in centuries, cohorts entering the global labour market will soon be smaller than the cohorts preceding them. Even when there are significant differences in […]]]></summary>
-        <author>
-            <name>merijntknibbe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sunday photoblogging: Handy Mini-Market]]></title>
-        <id>https://crookedtimber.org/?p=53422</id>
-        <link href="https://crookedtimber.org/2024/11/24/sunday-photoblogging-handy-mini-market/"/>
-        <updated>2024-11-24T09:00:23.000Z</updated>
-        <summary type="html"><![CDATA[Visit the post for more.]]></summary>
-        <author>
-            <name>Chris Bertram</name>
         </author>
     </entry>
 </feed>
