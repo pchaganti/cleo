@@ -12,6 +12,116 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "789b9c09b01004b67fd146c9ba2bd82902ca7dbe",
+          "author": "AWS Editorial Team",
+          "description": "Don't miss our biggest announcements! Visit this post throughout the week to stay up-to-date with quick recaps and links, organized by category, for all the most important AWS product news.",
+          "link": "https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2024/",
+          "publishedOn": "2024-12-02T05:06:42.000Z",
+          "wordCount": 1968,
+          "title": "Top announcements of AWS re:Invent 2024",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/12/02/reinvent-2024-800x400-1.jpg"
+        },
+        {
+          "id": "cf216b8d706d32ce352433dfe05a3467882f4818",
+          "author": "Esra Kayabali",
+          "description": "AWS extends GuardDuty with AI/ML capabilities to detect complex attack sequences across workloads, applications, and data, correlating multiple security signals over time for proactive cloud security.",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-guardduty-extended-threat-detection-aiml-attack-sequence-identification-for-enhanced-cloud-security/",
+          "publishedOn": "2024-12-02T03:29:53.000Z",
+          "wordCount": 2269,
+          "title": "Introducing Amazon GuardDuty Extended Threat Detection: AI/ML attack sequence identification for enhanced cloud security",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/03/29/Site-Merch_AWS-GuardDuty-EC2-Runtime-Monitoring_Blog-Thumbnail_800x400px.png"
+        },
+        {
+          "id": "f0b4cddc04a0190489dbbbf9c533900ce877cb14",
+          "author": "Donnie Prakoso",
+          "description": "With granular visibility into container workloads, CloudWatch Container Insights with enhanced observability for Amazon ECS enables proactive monitoring and faster troubleshooting, enhancing observability and improving application performance.",
+          "link": "https://aws.amazon.com/blogs/aws/container-insights-with-enhanced-observability-now-available-in-amazon-ecs/",
+          "publishedOn": "2024-12-02T03:28:56.000Z",
+          "wordCount": 1879,
+          "title": "Container Insights with enhanced observability now available in Amazon ECS",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/23/ECS-service-connect-feat-img.png"
+        },
+        {
+          "id": "f2b4bddd50eca73bb0f70e1be83c45b76359b7e3",
+          "author": "Esra Kayabali",
+          "description": "With expanded data sources, AWS Clean Rooms helps customers securely collaborate with their partners' data across clouds, eliminating data movement, safeguarding sensitive information, promoting data freshness, and streamlining cross-company insights.",
+          "link": "https://aws.amazon.com/blogs/aws/aws-clean-rooms-now-supports-multiple-clouds-and-data-sources/",
+          "publishedOn": "2024-12-02T03:27:38.000Z",
+          "wordCount": 2314,
+          "title": "AWS Clean Rooms now supports multiple clouds and data sources",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/03/21/Site-Merch_AWS-Clean-Rooms_Blog.png"
+        },
+        {
+          "id": "2ed5c7c47110a26ad5e539ca2784d1e2fc64460c",
+          "author": "Channy Yun (윤석찬)",
+          "description": "Rapidly upload large datasets to AWS at blazing speeds with the new AWS Data Transfer Terminal, secure physical locations offering high throughput connection.",
+          "link": "https://aws.amazon.com/blogs/aws/new-physical-aws-data-transfer-terminals-let-you-upload-to-the-cloud-faster/",
+          "publishedOn": "2024-12-02T03:25:28.000Z",
+          "wordCount": 1552,
+          "title": "New physical AWS Data Transfer Terminals let you upload to the cloud faster",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/27/data-transfer-terminal-feat-img.png"
+        },
+        {
+          "id": "95c38fedb31150f7622499040088066331951aed",
+          "author": "Donnie Prakoso",
+          "description": "Seamlessly access AI assistance within work applications with Amazon Q Business's new browser extensions and integrations.",
+          "link": "https://aws.amazon.com/blogs/aws/enhance-your-productivity-with-new-extensions-and-integrations-in-amazon-q-business/",
+          "publishedOn": "2024-12-02T03:24:10.000Z",
+          "wordCount": 1475,
+          "title": "Enhance your productivity with new extensions and integrations in Amazon Q Business",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/27/Q-biz-feat-img-new.png"
+        },
+        {
+          "id": "a2480ecc0cdbd6e8c8c30dc6365814a1e5ff8228",
+          "author": "Jeff Barr",
+          "description": "Delivering NAS capabilities with automatic data tiering among frequently accessed, infrequent, and archival storage tiers, Amazon FSx Intelligent-Tiering offers high performance up to 400K IOPS, 20 GB/s throughput, seamless integration with AWS services.",
+          "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-fsx-intelligent-tiering-a-new-storage-class-for-fsx-for-openzfs/",
+          "publishedOn": "2024-12-02T03:22:42.000Z",
+          "wordCount": 1829,
+          "title": "Announcing Amazon FSx Intelligent-Tiering, a new storage class for FSx for OpenZFS",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/13/OpenZFS-feat-img.png"
+        },
+        {
+          "id": "e6f3e54b05b059ac3a392ace1789e51021cce664",
+          "author": "Danilo Poccia",
+          "description": "Evaluate AI models and applications efficiently with Amazon Bedrock’s new LLM-as-a-judge capability for model evaluation and RAG evaluation for Knowledge Bases, offering a variety of quality and responsible AI metrics at scale.",
+          "link": "https://aws.amazon.com/blogs/aws/new-rag-evaluation-and-llm-as-a-judge-capabilities-in-amazon-bedrock/",
+          "publishedOn": "2024-12-02T03:21:31.000Z",
+          "wordCount": 2445,
+          "title": "New RAG evaluation and LLM-as-a-judge capabilities in Amazon Bedrock",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/25/Bedrock-model-eval.png"
+        },
+        {
+          "id": "cd2512e925066e936b5124664358fea4dfb26485",
+          "author": "Elizabeth Fuentes",
+          "description": "Use innovative tools like generative AI for segmentation and campaigns, WhatsApp Business, data privacy controls for chat, AI guardrails, conversational AI bot management, and enhanced analytics to elevate customer experiences securely and efficiently.",
+          "link": "https://aws.amazon.com/blogs/aws/newly-enhanced-amazon-connect-adds-generative-ai-whatsapp-business-and-secure-data-collection/",
+          "publishedOn": "2024-12-02T03:19:19.000Z",
+          "wordCount": 1719,
+          "title": "Newly enhanced Amazon Connect adds generative AI, WhatsApp Business, and secure data collection",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/17/AWSNewsBlog-Thumbnail-Connect-800x400-1.png"
+        },
+        {
+          "id": "6da22d5d57b5ffff2bcaa8bd29234e91e1a840c3",
+          "author": "Jeff Barr",
+          "description": "Orchestrate hybrid workflows accessing private HTTPS endpoints - no more Lambda/SQS workarounds. EventBridge and Step Functions natively support private resources, simplifying cloud modernization.",
+          "link": "https://aws.amazon.com/blogs/aws/securely-share-aws-resources-across-vpc-and-account-boundaries-with-privatelink-vpc-lattice-eventbridge-and-step-functions/",
+          "publishedOn": "2024-12-02T03:18:17.000Z",
+          "wordCount": 2375,
+          "title": "Securely share AWS resources across VPC and account boundaries with PrivateLink, VPC Lattice, EventBridge, and Step Functions",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/25/VPC-privlink-lattice-feat-img.png"
+        },
+        {
+          "id": "0dd89d823c9a49c4568c2b9af9befe1e0fd6dfcf",
+          "author": "Betty Zheng (郑予彬)",
+          "description": "AWS introduces a new service to streamline security event response, providing automated triage, coordinated communication, and expert guidance to recover from cybersecurity threats.",
+          "link": "https://aws.amazon.com/blogs/aws/new-aws-security-incident-response-helps-organizations-respond-to-and-recover-from-security-events/",
+          "publishedOn": "2024-12-02T03:17:29.000Z",
+          "wordCount": 1530,
+          "title": "New AWS Security Incident Response helps organizations respond to and recover from security events",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/13/Indra-blog-cover-image-800x400-1.png"
+        },
+        {
           "id": "9fc748542a29aa28fcb82364c0756e2a040b92ac",
           "author": "Veliswa Boya",
           "description": "With custom connectors and reranking models, you can enhance RAG applications by enabling direct ingestion to knowledge bases without requiring a full sync, and improving response relevance through advanced reranking models.",
@@ -100,116 +210,6 @@
           "wordCount": 1794,
           "title": "Announcing AWS Transfer Family web apps for fully managed Amazon S3 file transfers",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/transfer-family-feat-img2.png"
-        },
-        {
-          "id": "2bc0f45b0b8bb8b765a2e242a794ba3564698034",
-          "author": "Channy Yun (윤석찬)",
-          "description": "Analyze security logs without data duplication; Amazon OpenSearch Service now offers zero-ETL integration with Amazon Security Lake for efficient threat hunting and investigations.",
-          "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-opensearch-service-zero-etl-integration-for-amazon-security-lake/",
-          "publishedOn": "2024-12-01T20:37:38.000Z",
-          "wordCount": 1883,
-          "title": "Introducing Amazon OpenSearch Service and Amazon Security Lake integration to simplify security analytics",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/19/Site-Merch_Amazon-Security-Lake_Blog.png"
-        },
-        {
-          "id": "7fd484ac7848472bf7ab300af3b8f00c71e82899",
-          "author": "Channy Yun (윤석찬)",
-          "description": "Unify Kubernetes management across your cloud and on-premises environments with Amazon EKS Hybrid Nodes - use existing hardware while offloading control plane responsibilities to EKS for consistent operations.",
-          "link": "https://aws.amazon.com/blogs/aws/use-your-on-premises-infrastructure-in-amazon-eks-clusters-with-amazon-eks-hybrid-nodes/",
-          "publishedOn": "2024-12-01T20:36:33.000Z",
-          "wordCount": 2168,
-          "title": "Use your on-premises infrastructure in Amazon EKS clusters with Amazon EKS Hybrid Nodes",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/22/EKS-feat-img.png"
-        },
-        {
-          "id": "47ee77c1b056cc28f4af559dd5f21fa3207be6c5",
-          "author": "Channy Yun (윤석찬)",
-          "description": "With EKS Auto Mode, AWS simplifies Kubernetes cluster management, automating compute, storage, and networking, enabling higher agility and performance while reducing operational overhead.",
-          "link": "https://aws.amazon.com/blogs/aws/streamline-kubernetes-cluster-management-with-new-amazon-eks-auto-mode/",
-          "publishedOn": "2024-12-01T20:35:33.000Z",
-          "wordCount": 1635,
-          "title": "Streamline Kubernetes cluster management with new Amazon EKS Auto Mode",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/22/EKS-feat-img.png"
-        },
-        {
-          "id": "4771b96281111363dd9bbe38fb4392c4991151fa",
-          "author": "Channy Yun (윤석찬)",
-          "description": "Elevate storage performance with AWS's newest I8g instances, which deliver unparalleled speed and efficiency for I/O-intensive workloads.",
-          "link": "https://aws.amazon.com/blogs/aws/introducing-storage-optimized-amazon-ec2-i8g-instances-powered-by-aws-graviton4-processors-and-3rd-gen-aws-nitro-ssds/",
-          "publishedOn": "2024-12-01T20:33:58.000Z",
-          "wordCount": 1419,
-          "title": "Introducing storage optimized Amazon EC2 I8g instances powered by AWS Graviton4 processors and 3rd gen AWS Nitro SSDs",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/08/29/Graviton-blog-feat-img.png"
-        },
-        {
-          "id": "ca4eda34e3aba004a8200e8331e2ab5da8427e96",
-          "author": "Jeff Barr",
-          "description": "New AWS I7ie instances deliver unbeatable storage performance: up to 120TB NVMe, 40% better compute performance and up to 65% better real-time storage performance.",
-          "link": "https://aws.amazon.com/blogs/aws/now-available-storage-optimized-amazon-ec2-i7ie-instances/",
-          "publishedOn": "2024-12-01T20:32:20.000Z",
-          "wordCount": 1256,
-          "title": "Now available: Storage optimized Amazon EC2 I7ie instances",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/I7ie-black_text.png"
-        },
-        {
-          "id": "f564ea09e043f27ce1f4cb683b19fcb38e4a2544",
-          "author": "Jeff Barr",
-          "description": "Monitor Amazon Aurora databases and gain comprehensive visibility into MySQL and PostgreSQL fleets and instances, analyze performance bottlenecks, track slow queries, set SLOs, and explore rich telemetry.",
-          "link": "https://aws.amazon.com/blogs/aws/new-amazon-cloudwatch-database-insights-comprehensive-database-observability-from-fleets-to-instances/",
-          "publishedOn": "2024-12-01T20:30:46.000Z",
-          "wordCount": 1460,
-          "title": "New Amazon CloudWatch Database Insights: Comprehensive database observability from fleets to instances",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/22/Amazon-Cloudwatch-Database-Insights-png.png"
-        },
-        {
-          "id": "9d69eb84978ff36b836e1799e30121b587b18b05",
-          "author": "Elizabeth Fuentes",
-          "description": "Unlock out-of-the-box OpenSearch dashboards and two additional query languages, OpenSearch SQL and PPL, for analyzing CloudWatch logs. OpenSearch customers can now analyze CloudWatch Logs without having to duplicate data.",
-          "link": "https://aws.amazon.com/blogs/aws/new-amazon-cloudwatch-and-amazon-opensearch-service-launch-an-integrated-analytics-experience/",
-          "publishedOn": "2024-12-01T20:29:52.000Z",
-          "wordCount": 2273,
-          "title": "New Amazon CloudWatch and Amazon OpenSearch Service launch an integrated analytics experience",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/14/Nexus-feat-img2.png"
-        },
-        {
-          "id": "2b2f34f261d66fc71bf826f5410519524152023d",
-          "author": "Danilo Poccia",
-          "description": "Amazon FSx for Lustre now features Elastic Fabric Adapter and NVIDIA GPUDirect Storage for up to 12x higher throughput to GPUs, unlocking new possibilities in deep learning, autonomous vehicles, and HPC workloads.",
-          "link": "https://aws.amazon.com/blogs/aws/amazon-fsx-for-lustre-unlocks-full-network-bandwidth-and-gpu-performance/",
-          "publishedOn": "2024-11-27T22:13:37.000Z",
-          "wordCount": 1950,
-          "title": "Amazon FSx for Lustre increases throughput to GPU instances by up to 12x",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/13/FSx-lustre-feat-img.png"
-        },
-        {
-          "id": "2780add382124234bd566eba632030da9555e3b9",
-          "author": "Jeff Barr",
-          "description": "With time-based copying, critical EBS snapshots and AMIs can now meet crucial RPOs by specifying exact completion durations from 15 minutes to 48 hours for disaster recovery, testing, development, and operations.",
-          "link": "https://aws.amazon.com/blogs/aws/time-based-snapshot-copy-for-amazon-ebs/",
-          "publishedOn": "2024-11-26T22:31:36.000Z",
-          "wordCount": 1381,
-          "title": "Time-based snapshot copy for Amazon EBS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/02/snap-copy-fi-1256x630.png"
-        },
-        {
-          "id": "c82766052a1eefeefa0411b4276a70ec3f98023b",
-          "author": "Channy Yun (윤석찬)",
-          "description": "AWS EC2 Capacity Reservations empowers you to secure compute capacity for critical future workloads up to 120 days ahead, ensuring seamless performance during peak demand events like product launches or seasonal sales.",
-          "link": "https://aws.amazon.com/blogs/aws/announcing-future-dated-amazon-ec2-on-demand-capacity-reservations/",
-          "publishedOn": "2024-11-25T17:49:08.000Z",
-          "wordCount": 1579,
-          "title": "Announcing future-dated Amazon EC2 On-Demand Capacity Reservations",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/20/future-dated-feat-img.png"
-        },
-        {
-          "id": "1534a75f44b8d95651046b97d6cd9b1d87d12a92",
-          "author": "Channy Yun (윤석찬)",
-          "description": "Last week, I saw an astonishing number of new feature and service launches from AWS. This means we are getting closer to AWS re:Invent 2024! Our News Blog team is also finalizing blog posts for re:Invent to introduce some awesome launches from service teams for your reading pleasure. The most interesting news is that we’re […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-multiple-new-launches-ai-training-partnership-with-anthropic-and-join-aws-reinvent-virtually-nov-25-2024/",
-          "publishedOn": "2024-11-25T16:28:42.000Z",
-          "wordCount": 2308,
-          "title": "AWS Weekly Roundup: multiple new launches, AI training partnership with Anthropic, and join AWS re:Invent virtually (Nov 25, 2024)",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         }
       ]
     },
@@ -223,18 +223,7 @@
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
       "feedUrl": "http://githubengineering.com/atom.xml",
       "siteUrl": "https://github.blog/engineering/",
-      "articles": [
-        {
-          "id": "https://github.blog/engineering/architecture-optimization/breaking-down-cpu-speed-how-utilization-impacts-performance/",
-          "author": null,
-          "description": "<p>The Performance Engineering team at GitHub assessed how CPU performance degrades as utilization increases and how this relates to capacity.</p>\n<p>The post <a href=\"https://github.blog/engineering/architecture-optimization/breaking-down-cpu-speed-how-utilization-impacts-performance/\">Breaking down CPU speed: How utilization impacts performance</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-          "link": "https://github.blog/engineering/architecture-optimization/breaking-down-cpu-speed-how-utilization-impacts-performance/",
-          "publishedOn": "2024-11-25T17:00:20.000Z",
-          "wordCount": 3556,
-          "title": "Breaking down CPU speed: How utilization impacts performance",
-          "imageUrl": "https://github.blog/wp-content/uploads/2024/01/Productivity-DarkMode-3.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "AWS DevOps & Developer Productivity Blog",
@@ -317,6 +306,28 @@
       "feedUrl": "https://www.counterpunch.org/feed/",
       "siteUrl": "https://www.counterpunch.org/",
       "articles": [
+        {
+          "id": "https://www.counterpunch.org/?p=345648",
+          "author": "David Schultz",
+          "description": "One month out after Donald Trump and the Republicans beat Kamala Harris and the Democrats, the reasons for the electoral defeat are still being debated. Yet, while it is possible that Harris could have won, but for several mistakes that she made, it is not clear that any Democrat could have won this election. In  More\nThe post The Democrats Loss of the Working Class was Fifty Years in the Making appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/12/02/the-democrats-loss-of-the-working-class-was-fifty-years-in-the-making/",
+          "publishedOn": "2024-12-02T06:37:38.000Z",
+          "wordCount": null,
+          "title": "The Democrats Loss of the Working Class was Fifty Years in the Making",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=345654",
+          "author": "Tom H. Hastings",
+          "description": "Elon Musk and Vivek Ramaswamy are partnering to create and new US government agency, the Department of Government Efficiency (DOGE). Musk underwrote the Trump campaign with $200 million in donations (AP estimate) and his own brand of buying votes. Supposedly, the acronym comes from Musk’s favorite cryptocurrency, the Doge. Whatever. When Heather Cox Richardson says  More\nThe post World’s Richest Man Pays to Screw America appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/12/02/worlds-richest-man-pays-to-screw-america/",
+          "publishedOn": "2024-12-02T06:33:10.000Z",
+          "wordCount": null,
+          "title": "World’s Richest Man Pays to Screw America",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.counterpunch.org/?p=345443",
           "author": "Peter Bach",
@@ -624,28 +635,6 @@
           "title": "In a ‘Free’ Country Should Not Every Vote Be of Conscience? Or,  the “Mystery of Iniquity",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=345150",
-          "author": "ANIS SHIVANI",
-          "description": "There comes a time to quit something one has long been pursuing and even something one is good at. I feel like it’s time to quit political writing, at least of a particular kind that deals with the daily ups and downs in America, because it’s filling up headspace that takes away from crucial other  More\nThe post Why I No Longer Wish to Write About American Politics appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/29/why-i-no-longer-wish-to-write-about-american-politics/",
-          "publishedOn": "2024-11-29T06:47:12.000Z",
-          "wordCount": null,
-          "title": "Why I No Longer Wish to Write About American Politics",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=345340",
-          "author": "Yves Engler",
-          "description": "The Harvard of the North has been the site of an increasingly intense battle linking Justin Trudeau, Roger Waters, a government handbook marginalizing Palestinians and a historic student strike for Palestine. The alma mater of the prime minister and a disproportionate share of Justin Trudeau’s cabinet is aggressively repressing a movement to divest from apartheid  More\nThe post McGill Admin Battles its Pro-Palestinian Students appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/29/mcgill-admin-battles-its-pro-palestinian-students/",
-          "publishedOn": "2024-11-29T06:46:38.000Z",
-          "wordCount": null,
-          "title": "McGill Admin Battles its Pro-Palestinian Students",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -666,7 +655,7 @@
           "description": "from Dean Baker New York Times columnist Christopher Caldwell devoted his Thanksgiving piece to describing the German sociologist Wolfgang Streeck’s views on capitalism and democracy.  I have not read much of Streeck’s work, but as recounted by Caldwell, he gets many of the basic facts about the U.S. economy badly wrong. According to Caldwell’s account, capitalists were […]",
           "link": "https://rwer.wordpress.com/2024/12/01/capitalism-and-democracy-the-market-is-far-more-flexible-than-christopher-caldwell-imagines/",
           "publishedOn": "2024-12-01T20:05:02.000Z",
-          "wordCount": 4707,
+          "wordCount": 4711,
           "title": "Capitalism and Democracy: The market is far more flexible than Christopher Caldwell imagines",
           "imageUrl": "https://cepr.net/wp-content/uploads/2024/11/fredgraph.png"
         },
@@ -676,7 +665,7 @@
           "description": "The ´natural rate of unemployment´, also called ´Non-Accelerating Inflation Rate of Unemployment´ (NAIRU) or ´Non-Accelerating Wage Rate of Unemployment´ (NAWRU), is as, on this blog, Lars Syll states (here and here), a dangerous tool. According to NAIRU/NAWRU theory, a) When unemployment falls below a certain threshold, an inexorable increase in inflation will start. This is […]",
           "link": "https://rwer.wordpress.com/2024/11/28/more-natural-rate-of-unemployment-busting-bad-measurement-edition/",
           "publishedOn": "2024-11-28T15:23:45.000Z",
-          "wordCount": 4477,
+          "wordCount": 4502,
           "title": "More ´Natural rate of unemployment´ busting, bad measurement edition.",
           "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-37.png"
         },
@@ -686,7 +675,7 @@
           "description": "from Lars Syll Sixty years ago Milton Friedman wrote an (in)famous article arguing that (1) the natural rate of unemployment was independent of monetary policy and that (2) trying to keep the unemployment rate below the natural rate would only give rise to higher and higher inflation. The hypothesis has always been controversial, and much […]",
           "link": "https://rwer.wordpress.com/2024/11/27/busting-the-natural-rate-of-unemployment-myth-2/",
           "publishedOn": "2024-11-27T23:01:30.000Z",
-          "wordCount": 4248,
+          "wordCount": 4260,
           "title": "Busting the ‘natural rate of unemployment’ myth",
           "imageUrl": "https://larspsyll.wordpress.com/wp-content/uploads/2017/03/mythbusting.png?w=260&h=133"
         }
@@ -709,7 +698,7 @@
           "description": "Putting on my hazmat suit...",
           "link": "https://www.nakedcapitalism.com/2024/12/jay-bhattacharya-trumps-pick-to-head-the-nih-is-a-eugenicist-charlatan.html",
           "publishedOn": "2024-12-01T22:45:09.000Z",
-          "wordCount": 6958,
+          "wordCount": 7509,
           "title": "Jay Bhattacharya, Trump’s Pick to Head the NIH, Is a Eugenicist Charlatan",
           "imageUrl": null
         },
@@ -719,7 +708,7 @@
           "description": "Our fluky daily links",
           "link": "https://www.nakedcapitalism.com/2024/12/links-12-1-2024.html",
           "publishedOn": "2024-12-01T11:58:55.000Z",
-          "wordCount": 29026,
+          "wordCount": 30620,
           "title": "Links 12/1/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/12/whale.jpeg"
         },
@@ -729,7 +718,7 @@
           "description": "What would make a critical mass of Americans, marinating in a rugged individualist culture, want to become their neighbors’ keepers?",
           "link": "https://www.nakedcapitalism.com/2024/12/book-review-the-many-bounties-of-collaboration-in-nature.html",
           "publishedOn": "2024-12-01T11:50:21.000Z",
-          "wordCount": 5440,
+          "wordCount": 5556,
           "title": "Book Review: The Many Bounties of Collaboration in Nature",
           "imageUrl": "https://logs-01.loggly.com/inputs/4a05953f-1607-4284-825e-7df393822342.gif?postid=92485&title=Book-Review:-The-Many-Bounties-of-Collaboration--in-Nature"
         },
@@ -749,7 +738,7 @@
           "description": "More on the Russian counter to US/NATO long-range missile strikes into Russia and where the escalation threatens to go.",
           "link": "https://www.nakedcapitalism.com/2024/11/rob-urie-update-on-us-missiles-ukraine-and-russian-response.html",
           "publishedOn": "2024-11-30T11:58:57.000Z",
-          "wordCount": 25615,
+          "wordCount": 25755,
           "title": "Rob Urie: Update on US Missiles, Ukraine, and Russian Response",
           "imageUrl": null
         },
@@ -769,7 +758,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics; Did it really take $500,000 to make Al Sharpton \"friendly\"? Sanders on the Four Freedoms  (and Norman Rockwell); Another day, another Boeing airworthiness directive. ALso, COMAC ~",
           "link": "https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-29-2024.html",
           "publishedOn": "2024-11-29T19:00:39.000Z",
-          "wordCount": 10936,
+          "wordCount": 10934,
           "title": "2:00PM Water Cooler 11/29/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Veldhoen.png"
         },
@@ -789,7 +778,7 @@
           "description": "\"It is a question of having access to all the services of the State without having a computer, smartphone or tablet.\"",
           "link": "https://www.nakedcapitalism.com/2024/11/food-for-thought-swiss-canton-enshrines-right-to-offline-life-in-its-constitution.html",
           "publishedOn": "2024-11-29T11:45:16.000Z",
-          "wordCount": 7050,
+          "wordCount": 7048,
           "title": "An Example from Switzerland: Neuchâtel Becomes Second Canton to Enshrine Right to “Offline Life” in Constitution",
           "imageUrl": null
         },
@@ -868,7 +857,7 @@
           "description": "Last year I got stuck on Day 12 for a full week, and thinking about how to solve it consumed my every waking moment. I think this year, I'm going to be kind to myself and not participate so I can really enjoy the winter break from work.",
           "link": "https://news.ycombinator.com/item?id=42288035",
           "publishedOn": "2024-12-01T12:16:14.000Z",
-          "wordCount": null,
+          "wordCount": 4926,
           "title": "New comment by atribecalledqst in \"Advent of Code 2024\"",
           "imageUrl": null
         },
@@ -878,7 +867,7 @@
           "description": "The degree of hold-my-beer here is off the charts.",
           "link": "https://news.ycombinator.com/item?id=42284149",
           "publishedOn": "2024-11-30T21:26:59.000Z",
-          "wordCount": 1921,
+          "wordCount": null,
           "title": "New comment by the_hoser in \"Ntfs2btrfs does in-place conversion of NTFS filesystem to the open-source Btrfs\"",
           "imageUrl": null
         },
@@ -888,7 +877,7 @@
           "description": "It’s been talked about here before, but fundamentally it’s when the advertising guys won the power struggle over the search engine guys. Previously, advertising was a means to fund cool technology (and also get filthy rich).\nNow it’s just a way to make the number perpetually go up, sucking every last drop of value out of the system.\nPlus the complete lack of vision or strategy from Google’s senior leadership.",
           "link": "https://news.ycombinator.com/item?id=42278492",
           "publishedOn": "2024-11-30T00:45:20.000Z",
-          "wordCount": null,
+          "wordCount": 7965,
           "title": "New comment by mattkevan in \"The deterioration of Google\"",
           "imageUrl": null
         },
@@ -898,7 +887,7 @@
           "description": "The scary part is not the GPS installed by the fleet company that previously owned the car, which in all likelihood was just forgotten there, but the GPS and eSIM that comes with most (all?) new cars and that in most (all?) new cars cannot be disabled.\nApart from privacy concerns of your data being used or sold by the car vendor, government outreach is also a concern. There was a bill announced in the US for all new cars to be equipped with \"driver impairment\" tech which was called a \"kill switch\". Media rushed to say it's not really a kill switch, just \"sensors or cameras to monitor the driver’s behaviors, head or eye movements\" and \"block the driver from operating the vehicle\". So... a kill switch. https://apnews.com/article/fact-checking-402773429497\nAnyway, I'm staying with my old gas Honda until it dies which is probably never with proper maintenance and eventually restoration. I'll never go electric. Modern cars are just smartphones on wheels at this point, and smartphones are just spying devices at this point.",
           "link": "https://news.ycombinator.com/item?id=42277215",
           "publishedOn": "2024-11-29T21:22:59.000Z",
-          "wordCount": 20225,
+          "wordCount": null,
           "title": "New comment by afh1 in \"What does this button do? – My new car has a mysterious and undocumented switch\"",
           "imageUrl": null
         },
@@ -908,7 +897,7 @@
           "description": "Tell that to Synapse customers. Many millions of dollars are missing.\nBanks have to follow strict rules to account for where all the money goes. But the way fintechs work, they usually just have one or a couple underlying \"FBO\" accounts where all the pooled money is held, but then the fintech builds a ledger on top of this (and, as the article points out, to varying levels of engineering competence) to track each individual customer's balance within this big pool of money. In Synapse's case, their ledger said the total amount of all of their individual customer balances ended up being much more than the actual funds held in the underlying FBO accounts. Lots of folks are assuming fraud but I'm willing to put money that it was just a shitty, buggy ledger.\nFWIW, after seeing \"how the sausage is made\", I would never put money into a fintech depository account. Use a real bank. Fintechs also often put out the fake promise that deposits are FDIC insured, but this only protects you if the underlying bank goes belly up, not if the fintech loses track of your money.\nSee https://www.forbes.com/sites/zennonkapron/2024/11/08/what-th...",
           "link": "https://news.ycombinator.com/item?id=42270266",
           "publishedOn": "2024-11-29T02:24:41.000Z",
-          "wordCount": null,
+          "wordCount": 15307,
           "title": "New comment by hn_throwaway_99 in \"Engineers do not get to make startup mistakes when they build ledgers\"",
           "imageUrl": null
         },
@@ -928,7 +917,7 @@
           "description": "Statement from the City of London Corporation which is closing them down:\n> Chris Hayward, policy chairman of the City of London Corporation, said the\n> decision represented a \"positive new chapter\" for the markets as it \"empowers\n> traders to build a sustainable future in premises that align with their\n> long-term business goals\".\nThis is a great statement. Like firing people to free them up to find jobs that better align with their desire for employment.",
           "link": "https://news.ycombinator.com/item?id=42260795",
           "publishedOn": "2024-11-27T23:20:34.000Z",
-          "wordCount": 4388,
+          "wordCount": null,
           "title": "New comment by alexwasserman in \"London's 850-year-old food markets to close\"",
           "imageUrl": null
         },
@@ -968,7 +957,7 @@
           "description": "I’ve come to the conclusion that I hate “cloud shit”, and a small part of me is convinced that literally no one actually likes it, and everyone is playing a joke on me.\nI have set up about a dozen rack mount servers in my life, installing basically every flavor of Unix and Linux and message busses under the sun in the process, but I still get confused by all the Kubectl commands and GCP integration with it.\nI might just be stupid, but it feels like all I ever do with Kubernetes is update and break YAML files, and then spend a day fixing them by copy-pasting increasingly-convoluted things on stackexchange.  I cannot imagine how anyone goes to work and actually enjoys working in Kubernetes, though I guess someone must in terms of “law of large numbers”.\nIf I ever start a company, I am going to work my damndest to avoid “cloud integration crap” as possible.  Just have a VM or a physical server and let me install everything myself.  If I get to tens of millions of users, maybe I’ll worry about it then.",
           "link": "https://news.ycombinator.com/item?id=42253231",
           "publishedOn": "2024-11-27T05:31:38.000Z",
-          "wordCount": null,
+          "wordCount": 17661,
           "title": "New comment by tombert in \"I Didn't Need Kubernetes, and You Probably Don't Either\"",
           "imageUrl": null
         },
@@ -1075,16 +1064,6 @@
           "wordCount": 9845,
           "title": "The World Bank/IMF have clearly failed. An alternative policy is needed",
           "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L640xH336/4b7d5edc68700f9dcfb0e0642b91fc-1b632.jpg"
-        },
-        {
-          "id": "https://www.cadtm.org/Sri-Lanka-s-People-Have-Kicked-Out-the-Old-Political-Class",
-          "author": "Balasingham Skanthakumar",
-          "description": "The progressive alliance that backs Sri Lanka's new president, Anura Kumara Dissanayake, won a landslide victory in last week's parliamentary election. The government has a clear mandate for change but now faces many obstacles to its reform agenda. \nEnglish\n\n/ \nAusterity/Structural Adjustment, \nCorruption / financial criminality, \nSri Lanka, \nIMF",
-          "link": "https://www.cadtm.org/Sri-Lanka-s-People-Have-Kicked-Out-the-Old-Political-Class",
-          "publishedOn": "2024-11-25T15:39:29.000Z",
-          "wordCount": 5505,
-          "title": "Sri Lanka's People Have Kicked Out the Old Political Class",
-          "imageUrl": "https://www.cadtm.org/local/cache-vignettes/L1200xH630/bd80a8688fc131c8d7bc5b71bb7a50-23f22.jpg"
         }
       ]
     },
@@ -1202,6 +1181,16 @@
       "siteUrl": "https://bearblog.dev/discover/",
       "articles": [
         {
+          "id": "https://mgx.me/growing-up-and-growing-apart/",
+          "author": null,
+          "description": ".canvas-container {width: 100%;max-width: var(--width);aspect-ratio: 16 / 9;display: flex;justify-content: center;align-items: center;}\ncanvas {width: 100%;height: auto;}\n\n\n\n\n\n\nHaving grown up in India, I witnessed and internalized many biases, particularly around gender and sexuality. My worldview shifted when I moved for work, broadened my horizons, met diverse people, and engaged in conversations beyond the confines of my earlier experiences.\nHowever, returning to conversations with old batchmates from Kerala brings a stark reality: some people remain unchanged. What troubles me most is their continued intolerance toward individuality. They mock people who are different, showing insensitivity that makes me uncomfortable. While I understand it's not my place to change anyone's personal beliefs, I worry about the ripple effects. These people are now parents, shaping young minds. Their intolerance and insensitivity will likely influence their children's worldview.\nSometimes, I dream of a world where people could open their minds just a little bit more. Perhaps that's idealistic. But watching those people remain frozen in outdated mindsets while the world moves forward is harder than I expected. I can't help but hope that the next generation will choose a kinder path, even if their parents won't.",
+          "link": "https://mgx.me/growing-up-and-growing-apart/",
+          "publishedOn": "2024-12-01T12:50:46.750Z",
+          "wordCount": 683,
+          "title": "growing up and growing apart",
+          "imageUrl": "https://static.mgx.me/images/2024/toxic.jpg"
+        },
+        {
           "id": "https://zoeloukia.bearblog.dev/fixing-the-rotted-brain/",
           "author": null,
           "description": "Recently I wrote about needing to quit social media again, and I was debating internally even more after that. I felt like a fraud for writing about something, and not actually doing. Yesterday night, I read Sam's post about social media, and it clicked for me.\nI deleted instagram last night, and plan to stay off at least until the new year, if not longer. My big concern though, is whenever I get back on after an extended break, my newfound healthy habits get eroded away much quicker than it takes for me to learn them.\nWhat I despise the most about instagram and platforms like it is the desensitization I've grown for all other kinds of media and intake. I no longer get absorbed into novels or movies, or anything quite as intensely as I used to. I've had to retrain myself into seeing details in things, into seeing a poem or piece in a little moment on the bus.\nNow that I'm unshackled again, I'm making a conscious effort to notice the things around me more. Return to my people watching nature. In my little lounge spot in the studio right now, I'm tuned into 3 separate conversations around me. There is a deep sense of solitude in people watching alone, but also distinctly connective. I feel like I can analyze myself and my place in the world a bit better when I'm doing the same for other people.",
@@ -1240,16 +1229,6 @@
           "wordCount": 2360,
           "title": "thoughts on online addiction",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/avas-1709500835-0.png"
-        },
-        {
-          "id": "https://mgx.me/living-life-bobbys-way/",
-          "author": null,
-          "description": "I woke up this morning thinking about Bobby, the mighty Dachshund, back home in Kerala. He stays with my brother and parents. We adopted him in late 2019. When I went to pick him up, I saw his mum and dad - both typical miniature Dachshunds, as they say. His siblings also looked typical: flat, long-bodied with short legs. But Bobby was different. He had long legs and a bit shorter ears. He didn't look like any of them, which made him stand out most wonderfully.\nOn our first vet visit and health checkup, people started asking -- \"is he really a Dachshund?.\" When friends visited, they'd always question his origins. Their questions, though innocent, sometimes stung.\nSometimes, kids peek through our gate to look at Bobby. They tease him, saying he doesn't look like a real wiener dog. Bobby doesn't seem to mind - he just barks at them. Sure, he's more built than typical Dachshunds and has a somewhat intimidating presence when he's in alert mode. But when he's curled up in my mom's lap or playing with my brother, he's just our goofy, loving Bobby.\nI did check with vets. It's the gene; it's nature, and we don't care what others say.\nWatching Bobby rejoice daily with such confidence despite being different has taught us all something valuable. He doesn't waste time wondering why he doesn't look like other Dachshunds - he's too busy living his best life, whether it's pushing a stray cat into the household well (yes, it happened once, and we saved the cat) or chasing frogs in the monsoon season.\nSpeaking of unique personalities, here in Chengdu, we have another character altogether - Coco, our miniature schnauzer. She's a tiny little lady with enough attitude for three dogs. I'll share more about her next time.",
-          "link": "https://mgx.me/living-life-bobbys-way/",
-          "publishedOn": "2024-11-29T06:29:00.000Z",
-          "wordCount": 807,
-          "title": "living life, bobby's way",
-          "imageUrl": "https://static.mgx.me/images/2024/bobby-2020.webp"
         },
         {
           "id": "https://samsharp.ca/your-internet-my-internet/",
@@ -1339,26 +1318,6 @@
           "publishedOn": "2024-11-25T22:49:00.000Z",
           "wordCount": 1852,
           "title": "Stack Overflow Does Not Want To Help You",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
-        },
-        {
-          "id": "https://vitriolpodcast.blog/imza-hucresi-ve-digerleri/",
-          "author": null,
-          "description": "geçtiğimiz hafta sonu, sevgili üstadım seda bağcan’ın “imza hücresi şifası birinci seviye eğitimi”nde, artık ben de bir eğitmen olduğum için, asistan olarak bulundum. birçok son derece kuvvetli şifacının el almasına tanık oldum, ben de el verme onuruna eriştim.\ndetaylara inmeden evvel, bu el verme olayını, diğer isimleriyle inisiyasyon veya erginlenme, biraz kendi cümlelerimle açmak istiyorum.\nelbette birçok şekilde anlatılabilir, eski hayata ölmek ve yeni hayata doğmak, ki bu yeni hayat kişinin olması gerektiği kişi olmasına sıçramasıdır, yeni bir bilginin alınması ve içselleştirmeye başlanması süreci, zaten titreşimlerden oluşan atomlardan oluşan insan bedeninin, ki bu bedenler (en az) dört tanedir ve fiziksel beden bunların içinden titreşimi en düşük veya en az süptil olanıdır (diğerler…",
-          "link": "https://vitriolpodcast.blog/imza-hucresi-ve-digerleri/",
-          "publishedOn": "2024-11-25T17:48:00.000Z",
-          "wordCount": 1473,
-          "title": "imza hücresi ve diğerleri",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/vitriol/4.webp"
-        },
-        {
-          "id": "https://dostoynikov.com/moving-back-to-japan-countryside/",
-          "author": null,
-          "description": "After a two-month writing hiatus, I'm back to share my recent adventure: moving back to Japan.\nTwo weeks ago, I left my croupier job in Estonia, moved back to Japan and already achieved one of my long-standing dreams – settling into a charming two-story house with a garden. My plan is to transform this outdoor space into a green haven, with lemon trees and herb-filled pots(Yes I love lemon trees a lot and fortunately there are lemon trees everywhere around my neighborhood). The house was completely empty when I moved in, so I'm gradually acquiring basic appliances to make it feel like home.\nTransportation here presented an interesting challenge. While a car is essential in the countryside, my current financial situation – thanks to the loans I took for this journey – means I've opted for a bicycle. I purchased a Giant Escape for around 70,000 yen and will be commuting 5km each way, a distance familiar from my university days.\nThis isn't my first time in Japan, but living in the countryside as a foreigner feels like a unique privilege. The locals are incredibly welcoming. While I'm visibly different – a bearded foreigner in a small Japanese city – I've been pleasantly surprised by the warm interactions. Elders, children, and dog owners are particularly friendly, often greeting me with enthusiastic \"konnichiwa\"s.\nMy ability to speak Japanese fluently is making a big difference, of course. In this small city, encountering a Turk who speaks Japanese at an advanced level is not something locals experience everyday. Whenever I need assistance, people go out of their way to help me, which I deeply appreciate.\nMy professional journey is just beginning. Starting December 2nd, I'll join a new workplace where I've already met most of my colleagues. Contrary to stereotypes about Japanese companies, my new team is quite supportive and genuinely interested in making me feel comfortable. I'm aware that I'm really lucky to have found such an environment, and I'm hopeful about building a long-term community here.",
-          "link": "https://dostoynikov.com/moving-back-to-japan-countryside/",
-          "publishedOn": "2024-11-25T15:46:14.158Z",
-          "wordCount": 1045,
-          "title": "Moving back to Japan - countryside",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         }
       ]
