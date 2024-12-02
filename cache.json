@@ -12,6 +12,166 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "9fc748542a29aa28fcb82364c0756e2a040b92ac",
+          "author": "Veliswa Boya",
+          "description": "With custom connectors and reranking models, you can enhance RAG applications by enabling direct ingestion to knowledge bases without requiring a full sync, and improving response relevance through advanced reranking models.",
+          "link": "https://aws.amazon.com/blogs/aws/new-apis-in-amazon-bedrock-to-enhance-rag-applications-now-available/",
+          "publishedOn": "2024-12-01T20:51:24.000Z",
+          "wordCount": 2276,
+          "title": "New APIs in Amazon Bedrock to enhance RAG applications, now available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/Bedrock-icon-feat-img.png"
+        },
+        {
+          "id": "46cb4d8bed3f88db74c486a7ffac709a82e2cb53",
+          "author": "Matheus Guimaraes",
+          "description": "Storage Browser for Amazon S3 is an open source interface component that you can add to your web applications to provide your authorized end users, such as customers, partners, and employees, with access to easily browse, upload, download, copy, and delete data in S3.",
+          "link": "https://aws.amazon.com/blogs/aws/connect-users-to-data-through-your-apps-with-storage-browser-for-amazon-s3/",
+          "publishedOn": "2024-12-01T20:50:23.000Z",
+          "wordCount": 2392,
+          "title": "Connect users to data through your apps with Storage Browser for Amazon S3",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/S3-all-up-featured-image-storage-classes-main-1251x630.png"
+        },
+        {
+          "id": "6e6e1f8f8b234ebaf83d4777f442af53844e9534",
+          "author": "Danilo Poccia",
+          "description": "Unleash your creativity with PartyRock's new AI capabilities: generate images, analyze visuals, search hundreds of thousands of apps, and process multiple docs simultaneously - no coding required.",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-new-partyrock-capabilities-and-free-daily-usage/",
+          "publishedOn": "2024-12-01T20:49:03.000Z",
+          "wordCount": 1613,
+          "title": "Introducing new PartyRock capabilities and free daily usage",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/19/Partyrock-feat-img.png"
+        },
+        {
+          "id": "683e1cbd2920a5fe5123f505cacc20a257020673",
+          "author": "Betty Zheng (郑予彬)",
+          "description": "Build highly available, globally distributed apps with microsecond latencies across Regions, automatic conflict resolution, and up to 99.999% availability.",
+          "link": "https://aws.amazon.com/blogs/aws/amazon-memorydb-multi-region-is-now-generally-available/",
+          "publishedOn": "2024-12-01T20:47:38.000Z",
+          "wordCount": 1556,
+          "title": "Amazon MemoryDB Multi-Region is now generally available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/26/MemoryDB-feat-img.png"
+        },
+        {
+          "id": "7d0dd86126cc163cfe45d01481fc346a2208ac89",
+          "author": "Sébastien Stormacq",
+          "description": "Amazon S3 updates the default behavior of object upload requests with new data integrity protections that build upon S3’s existing durability posture.",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-default-data-integrity-protections-for-new-objects-in-amazon-s3/",
+          "publishedOn": "2024-12-01T20:46:36.000Z",
+          "wordCount": 2351,
+          "title": "Introducing default data integrity protections for new objects in Amazon S3",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/S3-all-up-featured-image-storage-classes-main-1251x630.png"
+        },
+        {
+          "id": "9863fe14979e1ab0fe33c948f2ceef7f24230fb1",
+          "author": "Sébastien Stormacq",
+          "description": "AWS DMS Schema Conversion converts up to 90% of your schema to accelerate your database migrations and reduce manual effort with the power of generative AI.",
+          "link": "https://aws.amazon.com/blogs/aws/aws-data-migration-service-improves-database-schema-conversion-with-generative-ai/",
+          "publishedOn": "2024-12-01T20:44:55.000Z",
+          "wordCount": 1803,
+          "title": "AWS Database Migration Service now automates time-intensive schema conversion tasks using generative AI",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/AWS-DMS-Schema-Conversion-with-generative-AI.png"
+        },
+        {
+          "id": "4035b9c3de1947208bde18806317dc52c6157d80",
+          "author": "Esra Kayabali",
+          "description": "With only a few steps, create declarative policies and enforce desired configuration for AWS services across your organization, reducing ongoing governance overhead and providing transparency for administrators and end users.",
+          "link": "https://aws.amazon.com/blogs/aws/simplify-governance-with-declarative-policies/",
+          "publishedOn": "2024-12-01T20:42:31.000Z",
+          "wordCount": 2093,
+          "title": "Simplify governance with declarative policies",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/11/aws-organizations-rcp-feat-img.png"
+        },
+        {
+          "id": "8ca7c4df447ac625804e2f6c8076e73094c2ffa0",
+          "author": "Sébastien Stormacq",
+          "description": "AWS Veriﬁed Access extends its secure, VPN-less access capabilities to non-HTTP(S) applications and resources, enabling zero trust access to corporate resources over protocols such as Secure Shell (SSH) and Remote Desktop Protocol (RDP).",
+          "link": "https://aws.amazon.com/blogs/aws/aws-verified-access-now-supports-secure-access-to-resources-over-non-https-protocols/",
+          "publishedOn": "2024-12-01T20:40:48.000Z",
+          "wordCount": 2358,
+          "title": "AWS Verified Access now supports secure access to resources over non-HTTP(S) protocols (in preview)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/13/AVA-feat-img2.png"
+        },
+        {
+          "id": "f93103f7ae3a84201e8413d709b2b314b1bd2c22",
+          "author": "Jeff Barr",
+          "description": "AWS Transfer Family web apps are a new resource that you can use to create a simple interface for authorized line-of-business users to access data in Amazon S3 through a customizable web browser.",
+          "link": "https://aws.amazon.com/blogs/aws/announcing-aws-transfer-family-web-apps-for-fully-managed-amazon-s3-file-transfers/",
+          "publishedOn": "2024-12-01T20:39:51.000Z",
+          "wordCount": 1794,
+          "title": "Announcing AWS Transfer Family web apps for fully managed Amazon S3 file transfers",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/transfer-family-feat-img2.png"
+        },
+        {
+          "id": "2bc0f45b0b8bb8b765a2e242a794ba3564698034",
+          "author": "Channy Yun (윤석찬)",
+          "description": "Analyze security logs without data duplication; Amazon OpenSearch Service now offers zero-ETL integration with Amazon Security Lake for efficient threat hunting and investigations.",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-opensearch-service-zero-etl-integration-for-amazon-security-lake/",
+          "publishedOn": "2024-12-01T20:37:38.000Z",
+          "wordCount": 1883,
+          "title": "Introducing Amazon OpenSearch Service and Amazon Security Lake integration to simplify security analytics",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/19/Site-Merch_Amazon-Security-Lake_Blog.png"
+        },
+        {
+          "id": "7fd484ac7848472bf7ab300af3b8f00c71e82899",
+          "author": "Channy Yun (윤석찬)",
+          "description": "Unify Kubernetes management across your cloud and on-premises environments with Amazon EKS Hybrid Nodes - use existing hardware while offloading control plane responsibilities to EKS for consistent operations.",
+          "link": "https://aws.amazon.com/blogs/aws/use-your-on-premises-infrastructure-in-amazon-eks-clusters-with-amazon-eks-hybrid-nodes/",
+          "publishedOn": "2024-12-01T20:36:33.000Z",
+          "wordCount": 2168,
+          "title": "Use your on-premises infrastructure in Amazon EKS clusters with Amazon EKS Hybrid Nodes",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/22/EKS-feat-img.png"
+        },
+        {
+          "id": "47ee77c1b056cc28f4af559dd5f21fa3207be6c5",
+          "author": "Channy Yun (윤석찬)",
+          "description": "With EKS Auto Mode, AWS simplifies Kubernetes cluster management, automating compute, storage, and networking, enabling higher agility and performance while reducing operational overhead.",
+          "link": "https://aws.amazon.com/blogs/aws/streamline-kubernetes-cluster-management-with-new-amazon-eks-auto-mode/",
+          "publishedOn": "2024-12-01T20:35:33.000Z",
+          "wordCount": 1635,
+          "title": "Streamline Kubernetes cluster management with new Amazon EKS Auto Mode",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/22/EKS-feat-img.png"
+        },
+        {
+          "id": "4771b96281111363dd9bbe38fb4392c4991151fa",
+          "author": "Channy Yun (윤석찬)",
+          "description": "Elevate storage performance with AWS's newest I8g instances, which deliver unparalleled speed and efficiency for I/O-intensive workloads.",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-storage-optimized-amazon-ec2-i8g-instances-powered-by-aws-graviton4-processors-and-3rd-gen-aws-nitro-ssds/",
+          "publishedOn": "2024-12-01T20:33:58.000Z",
+          "wordCount": 1419,
+          "title": "Introducing storage optimized Amazon EC2 I8g instances powered by AWS Graviton4 processors and 3rd gen AWS Nitro SSDs",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/08/29/Graviton-blog-feat-img.png"
+        },
+        {
+          "id": "ca4eda34e3aba004a8200e8331e2ab5da8427e96",
+          "author": "Jeff Barr",
+          "description": "New AWS I7ie instances deliver unbeatable storage performance: up to 120TB NVMe, 40% better compute performance and up to 65% better real-time storage performance.",
+          "link": "https://aws.amazon.com/blogs/aws/now-available-storage-optimized-amazon-ec2-i7ie-instances/",
+          "publishedOn": "2024-12-01T20:32:20.000Z",
+          "wordCount": 1256,
+          "title": "Now available: Storage optimized Amazon EC2 I7ie instances",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/I7ie-black_text.png"
+        },
+        {
+          "id": "f564ea09e043f27ce1f4cb683b19fcb38e4a2544",
+          "author": "Jeff Barr",
+          "description": "Monitor Amazon Aurora databases and gain comprehensive visibility into MySQL and PostgreSQL fleets and instances, analyze performance bottlenecks, track slow queries, set SLOs, and explore rich telemetry.",
+          "link": "https://aws.amazon.com/blogs/aws/new-amazon-cloudwatch-database-insights-comprehensive-database-observability-from-fleets-to-instances/",
+          "publishedOn": "2024-12-01T20:30:46.000Z",
+          "wordCount": 1460,
+          "title": "New Amazon CloudWatch Database Insights: Comprehensive database observability from fleets to instances",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/22/Amazon-Cloudwatch-Database-Insights-png.png"
+        },
+        {
+          "id": "9d69eb84978ff36b836e1799e30121b587b18b05",
+          "author": "Elizabeth Fuentes",
+          "description": "Unlock out-of-the-box OpenSearch dashboards and two additional query languages, OpenSearch SQL and PPL, for analyzing CloudWatch logs. OpenSearch customers can now analyze CloudWatch Logs without having to duplicate data.",
+          "link": "https://aws.amazon.com/blogs/aws/new-amazon-cloudwatch-and-amazon-opensearch-service-launch-an-integrated-analytics-experience/",
+          "publishedOn": "2024-12-01T20:29:52.000Z",
+          "wordCount": 2273,
+          "title": "New Amazon CloudWatch and Amazon OpenSearch Service launch an integrated analytics experience",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/14/Nexus-feat-img2.png"
+        },
+        {
           "id": "2b2f34f261d66fc71bf826f5410519524152023d",
           "author": "Danilo Poccia",
           "description": "Amazon FSx for Lustre now features Elastic Fabric Adapter and NVIDIA GPUDirect Storage for up to 12x higher throughput to GPUs, unlocking new possibilities in deep learning, autonomous vehicles, and HPC workloads.",
@@ -123,18 +283,7 @@
       "title": "Spotify Engineering",
       "feedUrl": "https://labs.spotify.com/feed/",
       "siteUrl": "https://engineering.atspotify.com/",
-      "articles": [
-        {
-          "id": "https://engineering.atspotify.com/?p=7274",
-          "author": "alexandrawei",
-          "description": "TL;DR The Spotify FOSS Fund is back again! We created the Spotify FOSS Fund in 2022 to help support the [...]\nThe post Congratulations to the Recipients of the 2024 Spotify FOSS Fund appeared first on Spotify Engineering.",
-          "link": "https://engineering.atspotify.com/2024/11/congratulations-to-the-recipients-of-the-2024-spotify-foss-fund/",
-          "publishedOn": "2024-11-25T14:00:00.000Z",
-          "wordCount": 1417,
-          "title": "Congratulations to the Recipients of the 2024 Spotify FOSS Fund",
-          "imageUrl": "https://storage.googleapis.com/production-eng/1/2024/11/EN225-FossFund2024with-logos_1200-x-630.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Containers",
@@ -504,24 +653,23 @@
       "title": "Liberty Street Economics",
       "feedUrl": "https://libertystreeteconomics.newyorkfed.org/feed/",
       "siteUrl": "https://libertystreeteconomics.newyorkfed.org/",
-      "articles": [
-        {
-          "id": "https://libertystreeteconomics.newyorkfed.org/?p=32467",
-          "author": "Sergio Correia, Stephan Luck, and Emil Verner",
-          "description": "Evidence from a 160-year-long panel of U.S. banks suggests that the ultimate cause of bank failures and banking crises is almost always a deterioration of bank fundamentals that leads to insolvency. As described in our previous post, bank failures—including those that involve bank runs—are typically preceded by a slow deterioration of bank fundamentals and are hence remarkably predictable. In this final post of our three-part series, we relate the findings discussed previously to theories of bank failures, and we discuss the policy implications of our findings.",
-          "link": "https://libertystreeteconomics.newyorkfed.org/2024/11/why-do-banks-fail-bank-runs-versus-solvency/",
-          "publishedOn": "2024-11-25T12:00:00.000Z",
-          "wordCount": 4478,
-          "title": "Why Do Banks Fail? Bank Runs Versus Solvency",
-          "imageUrl": "https://libertystreeteconomics.newyorkfed.org/wp-content/uploads/sites/2/2024/11/LSE_2024_why-do-banks-fail_Part3_luck_460_bfc49d.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Real-World Economics Review Blog",
       "feedUrl": "https://rwer.wordpress.com/feed/",
       "siteUrl": "https://rwer.wordpress.com",
       "articles": [
+        {
+          "id": "http://rwer.wordpress.com/?p=45904",
+          "author": "deanbaker1",
+          "description": "from Dean Baker New York Times columnist Christopher Caldwell devoted his Thanksgiving piece to describing the German sociologist Wolfgang Streeck’s views on capitalism and democracy.  I have not read much of Streeck’s work, but as recounted by Caldwell, he gets many of the basic facts about the U.S. economy badly wrong. According to Caldwell’s account, capitalists were […]",
+          "link": "https://rwer.wordpress.com/2024/12/01/capitalism-and-democracy-the-market-is-far-more-flexible-than-christopher-caldwell-imagines/",
+          "publishedOn": "2024-12-01T20:05:02.000Z",
+          "wordCount": 4707,
+          "title": "Capitalism and Democracy: The market is far more flexible than Christopher Caldwell imagines",
+          "imageUrl": "https://cepr.net/wp-content/uploads/2024/11/fredgraph.png"
+        },
         {
           "id": "http://rwer.wordpress.com/?p=45894",
           "author": "merijntknibbe",
@@ -538,19 +686,9 @@
           "description": "from Lars Syll Sixty years ago Milton Friedman wrote an (in)famous article arguing that (1) the natural rate of unemployment was independent of monetary policy and that (2) trying to keep the unemployment rate below the natural rate would only give rise to higher and higher inflation. The hypothesis has always been controversial, and much […]",
           "link": "https://rwer.wordpress.com/2024/11/27/busting-the-natural-rate-of-unemployment-myth-2/",
           "publishedOn": "2024-11-27T23:01:30.000Z",
-          "wordCount": 4253,
+          "wordCount": 4248,
           "title": "Busting the ‘natural rate of unemployment’ myth",
           "imageUrl": "https://larspsyll.wordpress.com/wp-content/uploads/2017/03/mythbusting.png?w=260&h=133"
-        },
-        {
-          "id": "http://rwer.wordpress.com/?p=45871",
-          "author": "merijntknibbe",
-          "description": "Who decides what statistical offices measure and how they measure it? And what are the implicit values embedded in these decisions? Recently, the ILO issued a new manual on measuring productivity. Below, I´ll discuss the questions posed. But for starters, it is essential to realize that economists measure monetary productivity, not physical productivity, which leads […]",
-          "link": "https://rwer.wordpress.com/2024/11/25/the-political-economy-of-estimating-productivity/",
-          "publishedOn": "2024-11-25T10:52:58.000Z",
-          "wordCount": 5795,
-          "title": "The political economy of estimating productivity.",
-          "imageUrl": "https://rwer.wordpress.com/wp-content/uploads/2024/11/image-34.png"
         }
       ]
     },
@@ -566,12 +704,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=283143",
+          "author": "Lambert Strether",
+          "description": "Putting on my hazmat suit...",
+          "link": "https://www.nakedcapitalism.com/2024/12/jay-bhattacharya-trumps-pick-to-head-the-nih-is-a-eugenicist-charlatan.html",
+          "publishedOn": "2024-12-01T22:45:09.000Z",
+          "wordCount": 6958,
+          "title": "Jay Bhattacharya, Trump’s Pick to Head the NIH, Is a Eugenicist Charlatan",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=283127",
           "author": "Lambert Strether",
           "description": "Our fluky daily links",
           "link": "https://www.nakedcapitalism.com/2024/12/links-12-1-2024.html",
           "publishedOn": "2024-12-01T11:58:55.000Z",
-          "wordCount": 19161,
+          "wordCount": 29026,
           "title": "Links 12/1/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/12/whale.jpeg"
         },
@@ -581,7 +729,7 @@
           "description": "What would make a critical mass of Americans, marinating in a rugged individualist culture, want to become their neighbors’ keepers?",
           "link": "https://www.nakedcapitalism.com/2024/12/book-review-the-many-bounties-of-collaboration-in-nature.html",
           "publishedOn": "2024-12-01T11:50:21.000Z",
-          "wordCount": 5179,
+          "wordCount": 5440,
           "title": "Book Review: The Many Bounties of Collaboration in Nature",
           "imageUrl": "https://logs-01.loggly.com/inputs/4a05953f-1607-4284-825e-7df393822342.gif?postid=92485&title=Book-Review:-The-Many-Bounties-of-Collaboration--in-Nature"
         },
@@ -591,7 +739,7 @@
           "description": "Our boisterous daily links: Orca head gear, Covid in the brain, global warming>stronger hurricanes, Taiwan provokes China again, Chad dumps France, Europe hearts WWIII, Israel aid sabotage, Putin on Russia weapons, jihadists attack in Syria, AI copyright suits, Amazon strikes",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-30-2024.html",
           "publishedOn": "2024-11-30T11:59:15.000Z",
-          "wordCount": 16045,
+          "wordCount": 16093,
           "title": "Links 11/30/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-30-at-2.43.34-PM.png"
         },
@@ -601,7 +749,7 @@
           "description": "More on the Russian counter to US/NATO long-range missile strikes into Russia and where the escalation threatens to go.",
           "link": "https://www.nakedcapitalism.com/2024/11/rob-urie-update-on-us-missiles-ukraine-and-russian-response.html",
           "publishedOn": "2024-11-30T11:58:57.000Z",
-          "wordCount": 24827,
+          "wordCount": 25615,
           "title": "Rob Urie: Update on US Missiles, Ukraine, and Russian Response",
           "imageUrl": null
         },
@@ -611,7 +759,7 @@
           "description": "Seriously, WTF is wrong with optimists? Why are they so bent on stamping out pessimism?",
           "link": "https://www.nakedcapitalism.com/2024/11/the-upside-of-climate-pessimism.html",
           "publishedOn": "2024-11-30T08:45:52.000Z",
-          "wordCount": 9588,
+          "wordCount": 9689,
           "title": "“The Upside of Climate Pessimism”",
           "imageUrl": null
         },
@@ -621,7 +769,7 @@
           "description": "~ Today's Water Cooler: Politics, syndemics; Did it really take $500,000 to make Al Sharpton \"friendly\"? Sanders on the Four Freedoms  (and Norman Rockwell); Another day, another Boeing airworthiness directive. ALso, COMAC ~",
           "link": "https://www.nakedcapitalism.com/2024/11/200pm-water-cooler-11-29-2024.html",
           "publishedOn": "2024-11-29T19:00:39.000Z",
-          "wordCount": 10913,
+          "wordCount": 10936,
           "title": "2:00PM Water Cooler 11/29/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Veldhoen.png"
         },
@@ -631,7 +779,7 @@
           "description": "Our salacious daily links: Mayflower survivors, 2024 big heat mystery, China Baltic ship hostage? Kerkala, German crisis, Romania election pushback, UK euthanasia, Israel continues Lebanon attacks, whither NATO? Trump abortion options, Mexico says no tariffs, Thanksgiving cost propaganda,",
           "link": "https://www.nakedcapitalism.com/2024/11/links-11-29-2024.html",
           "publishedOn": "2024-11-29T11:59:58.000Z",
-          "wordCount": 17765,
+          "wordCount": 17786,
           "title": "Links 11/29/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-29-at-6.51.19-PM.png"
         },
@@ -641,7 +789,7 @@
           "description": "\"It is a question of having access to all the services of the State without having a computer, smartphone or tablet.\"",
           "link": "https://www.nakedcapitalism.com/2024/11/food-for-thought-swiss-canton-enshrines-right-to-offline-life-in-its-constitution.html",
           "publishedOn": "2024-11-29T11:45:16.000Z",
-          "wordCount": 7027,
+          "wordCount": 7050,
           "title": "An Example from Switzerland: Neuchâtel Becomes Second Canton to Enshrine Right to “Offline Life” in Constitution",
           "imageUrl": null
         },
@@ -651,19 +799,9 @@
           "description": "Are Amazon insiders trying to defraud customers? It's hard to come up with another explanation for a recent attempt.",
           "link": "https://www.nakedcapitalism.com/2024/11/amazon-inside-job-phishing-for-government-id.html",
           "publishedOn": "2024-11-29T10:55:40.000Z",
-          "wordCount": 7675,
+          "wordCount": 7696,
           "title": "Amazon Inside Job? Phishing for Government ID",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=283001",
-          "author": "Lambert Strether",
-          "description": "Turkey day links",
-          "link": "https://www.nakedcapitalism.com/2024/11/links-11-28-2024.html",
-          "publishedOn": "2024-11-28T11:55:58.000Z",
-          "wordCount": 21481,
-          "title": "Links 11/28/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/wild_turkey_Meleagris_gallopavo_strutting.jpg"
         }
       ]
     },
@@ -725,12 +863,22 @@
       "siteUrl": "https://news.ycombinator.com/bestcomments",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=42288035",
+          "author": "atribecalledqst",
+          "description": "Last year I got stuck on Day 12 for a full week, and thinking about how to solve it consumed my every waking moment. I think this year, I'm going to be kind to myself and not participate so I can really enjoy the winter break from work.",
+          "link": "https://news.ycombinator.com/item?id=42288035",
+          "publishedOn": "2024-12-01T12:16:14.000Z",
+          "wordCount": null,
+          "title": "New comment by atribecalledqst in \"Advent of Code 2024\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=42284149",
           "author": "the_hoser",
           "description": "The degree of hold-my-beer here is off the charts.",
           "link": "https://news.ycombinator.com/item?id=42284149",
           "publishedOn": "2024-11-30T21:26:59.000Z",
-          "wordCount": 1565,
+          "wordCount": 1921,
           "title": "New comment by the_hoser in \"Ntfs2btrfs does in-place conversion of NTFS filesystem to the open-source Btrfs\"",
           "imageUrl": null
         },
@@ -750,7 +898,7 @@
           "description": "The scary part is not the GPS installed by the fleet company that previously owned the car, which in all likelihood was just forgotten there, but the GPS and eSIM that comes with most (all?) new cars and that in most (all?) new cars cannot be disabled.\nApart from privacy concerns of your data being used or sold by the car vendor, government outreach is also a concern. There was a bill announced in the US for all new cars to be equipped with \"driver impairment\" tech which was called a \"kill switch\". Media rushed to say it's not really a kill switch, just \"sensors or cameras to monitor the driver’s behaviors, head or eye movements\" and \"block the driver from operating the vehicle\". So... a kill switch. https://apnews.com/article/fact-checking-402773429497\nAnyway, I'm staying with my old gas Honda until it dies which is probably never with proper maintenance and eventually restoration. I'll never go electric. Modern cars are just smartphones on wheels at this point, and smartphones are just spying devices at this point.",
           "link": "https://news.ycombinator.com/item?id=42277215",
           "publishedOn": "2024-11-29T21:22:59.000Z",
-          "wordCount": 19696,
+          "wordCount": 20225,
           "title": "New comment by afh1 in \"What does this button do? – My new car has a mysterious and undocumented switch\"",
           "imageUrl": null
         },
@@ -770,7 +918,7 @@
           "description": "As someone who is coming to increasingly believe that 99% of the world problems are caused by powers seeking to intentionally divide us one from the other, I cannot tell you how much joy this brings me to see. I wish you great success in this effort, however small it might appear to be in the scheme of things.",
           "link": "https://news.ycombinator.com/item?id=42269718",
           "publishedOn": "2024-11-29T00:31:42.000Z",
-          "wordCount": 2880,
+          "wordCount": null,
           "title": "New comment by revscat in \"Send someone you appreciate an official 'Continue and Persist' Letter\"",
           "imageUrl": null
         },
@@ -790,7 +938,7 @@
           "description": "They are hardwired on Macbooks. From Daring Fireball, quoting an email from an Apple engineer.\n> All cameras after [2008] were different: The hardware team tied the LED to a hardware signal from the sensor: If the (I believe) vertical sync was active, the LED would light up. There is NO firmware control to disable/enable the LED. The actual firmware is indeed flashable, but the part is not a generic part and there are mechanisms in place to verify the image being flashed. […]\n> So, no, I don’t believe that malware could be installed to enable the camera without lighting the LED. My concern would be a situation where a frame is captured so the LED is lit only for a very brief period of time.\nhttps://daringfireball.net/2019/02/on_covering_webcams",
           "link": "https://news.ycombinator.com/item?id=42259659",
           "publishedOn": "2024-11-27T20:54:08.000Z",
-          "wordCount": 9400,
+          "wordCount": null,
           "title": "New comment by 542458 in \"Malware can turn off webcam LED and record video, demonstrated on ThinkPad X230\"",
           "imageUrl": null
         },
@@ -800,7 +948,7 @@
           "description": "I thought the whole point of these camera LEDs was to have them wired to/through the power to the camera, so they are always on when the camera is getting power, no matter what.\nHaving the LED control exposed through the firmware completely defeats this.",
           "link": "https://news.ycombinator.com/item?id=42259395",
           "publishedOn": "2024-11-27T20:27:36.000Z",
-          "wordCount": 15093,
+          "wordCount": null,
           "title": "New comment by sbarre in \"Malware can turn off webcam LED and record video, demonstrated on ThinkPad X230\"",
           "imageUrl": null
         },
@@ -820,7 +968,7 @@
           "description": "I’ve come to the conclusion that I hate “cloud shit”, and a small part of me is convinced that literally no one actually likes it, and everyone is playing a joke on me.\nI have set up about a dozen rack mount servers in my life, installing basically every flavor of Unix and Linux and message busses under the sun in the process, but I still get confused by all the Kubectl commands and GCP integration with it.\nI might just be stupid, but it feels like all I ever do with Kubernetes is update and break YAML files, and then spend a day fixing them by copy-pasting increasingly-convoluted things on stackexchange.  I cannot imagine how anyone goes to work and actually enjoys working in Kubernetes, though I guess someone must in terms of “law of large numbers”.\nIf I ever start a company, I am going to work my damndest to avoid “cloud integration crap” as possible.  Just have a VM or a physical server and let me install everything myself.  If I get to tens of millions of users, maybe I’ll worry about it then.",
           "link": "https://news.ycombinator.com/item?id=42253231",
           "publishedOn": "2024-11-27T05:31:38.000Z",
-          "wordCount": 17661,
+          "wordCount": null,
           "title": "New comment by tombert in \"I Didn't Need Kubernetes, and You Probably Don't Either\"",
           "imageUrl": null
         },
@@ -830,7 +978,7 @@
           "description": "> Killing truly progressive programs for the purpose of virtue signaling is a loss for society\nIt's not just a loss for society.  It's society-killing.\nTaking resources away from those who move society forward and spending them on those who are unlikely to \"pay it back\" is a way your culture dies.  Conquerers in the past used this strategy to win massive empires for themselves.  It's a ridiculous self-own.\nThis is perhaps the sole political topic I will die on a hill for.",
           "link": "https://news.ycombinator.com/item?id=42247816",
           "publishedOn": "2024-11-26T17:36:17.000Z",
-          "wordCount": null,
+          "wordCount": 13601,
           "title": "New comment by phil21 in \"California's most neglected group of students: the gifted ones\"",
           "imageUrl": null
         },
@@ -862,12 +1010,22 @@
       "siteUrl": "https://crookedtimber.org",
       "articles": [
         {
+          "id": "https://crookedtimber.org/?p=53465",
+          "author": "Chris Bertram",
+          "description": "From back when I was shooting film sometimes:",
+          "link": "https://crookedtimber.org/2024/12/01/sunday-photoblogging-the-beach-at-porth-selau/",
+          "publishedOn": "2024-12-01T20:29:47.000Z",
+          "wordCount": 1766,
+          "title": "Sunday photoblogging: the beach at Porth Selau",
+          "imageUrl": "https://live.staticflickr.com/4144/5004706799_6a2d8dc782.jpg"
+        },
+        {
           "id": "https://crookedtimber.org/?p=53456",
           "author": "John Q",
           "description": "I posted this piece in RenewEconomy a couple of months ago. It didn’t convince the commenters then, and I don’t expect it to be any different here, but I’m putting it on the record anyway. AI won’t use as much electricity as we are told, and it’s not a reason to slow transition to renewables […]",
           "link": "https://crookedtimber.org/2024/11/30/the-ai-boom-in-electricity-demand-a-multiply-recycled-myth/",
           "publishedOn": "2024-11-30T03:44:04.000Z",
-          "wordCount": 5621,
+          "wordCount": 5662,
           "title": "The AI boom in electricity demand: a multiply recycled myth",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -877,7 +1035,7 @@
           "description": "Ownership and control of social media platforms is a first-order concern for both domestic politics and international conflict. The most important battleground in the Russia-Ukraine war is elections in NATO member states. And there, Russia is clearly winning. Trump, obviously, but yesterday saw the stunning success of formerly fringe right-wing candidate C?lin Georgescu. In an […]",
           "link": "https://crookedtimber.org/2024/11/26/tiktok-in-romania/",
           "publishedOn": "2024-11-26T14:48:10.000Z",
-          "wordCount": 6225,
+          "wordCount": 6223,
           "title": "TikTok in Romania",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F318ae13e-0b29-445a-89c2-d9605438f7fe_1034x412.png"
         }
@@ -954,12 +1112,22 @@
       "siteUrl": "https://disassociated.com",
       "articles": [
         {
+          "id": "https://disassociated.com/?p=8907",
+          "author": "disassociated.com",
+          "description": "The neologism, devised by blogger and author Cory Doctorow, just over two years ago, has been named the 2024 word of the year by Australian English wordbook, Macquarie Dictionary. This must be some sort of record, between the time a new word is coined, comes into popular usage, and then named as a dictionary’s word […]",
+          "link": "https://disassociated.com/2024-word-year-enshitiffication-nominate-indieweb-2025/",
+          "publishedOn": "2024-12-01T20:00:49.000Z",
+          "wordCount": 254,
+          "title": "2024 word the year: enshitiffication. I nominate IndieWeb for 2025",
+          "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
+        },
+        {
           "id": "https://disassociated.com/?p=8903",
           "author": "disassociated.com",
           "description": "This to finally spare us the time-wasting, sometimes totally irrelevant, tyranny of the “for you” tab. Chris Welch, writing for The Verge, says Meta has started testing a feature allowing users to select their preferred feed, be it “for you”, “following”, or even one custom made, as the stream they’ll see all the time. It […]",
           "link": "https://disassociated.com/threads-allow-users-select-following-feed-default/",
           "publishedOn": "2024-11-28T20:00:45.000Z",
-          "wordCount": 318,
+          "wordCount": 328,
           "title": "Threads to allow users to select following feed as their default",
           "imageUrl": "https://disassociated.com/images/index/99_logo_FRUIT_SALAD_SOCIALS_card.png"
         },
@@ -1064,6 +1232,26 @@
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         },
         {
+          "id": "https://blog.avas.space/online-addiction/",
+          "author": null,
+          "description": "I’ve been an avid user of anything that makes me use tech less. I love trying it out and seeing the effects. I think I was most into it in 2016-20181when I had read The Shallows and other books criticizing addictive effects in the devices we use. I’ve used TimeGuard, various browser extensions, ScreenTime, Cold Turkey, onesec…\nI’ve mellowed out a bit since. I need less friction between me and my devices or specific websites now - both because of the websites being boring/annoying to me now, and an internal shift where I am just not as interested into online stuff nowadays. Maybe I am aging out of it, maybe I am not the target group anymore. And of course friction helps when you want to spend less time on some feed, but it sucks when you just want to edit the grocery list or respond to an e…",
+          "link": "https://blog.avas.space/online-addiction/",
+          "publishedOn": "2024-11-29T10:34:00.000Z",
+          "wordCount": 2360,
+          "title": "thoughts on online addiction",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/avas-1709500835-0.png"
+        },
+        {
+          "id": "https://mgx.me/living-life-bobbys-way/",
+          "author": null,
+          "description": "I woke up this morning thinking about Bobby, the mighty Dachshund, back home in Kerala. He stays with my brother and parents. We adopted him in late 2019. When I went to pick him up, I saw his mum and dad - both typical miniature Dachshunds, as they say. His siblings also looked typical: flat, long-bodied with short legs. But Bobby was different. He had long legs and a bit shorter ears. He didn't look like any of them, which made him stand out most wonderfully.\nOn our first vet visit and health checkup, people started asking -- \"is he really a Dachshund?.\" When friends visited, they'd always question his origins. Their questions, though innocent, sometimes stung.\nSometimes, kids peek through our gate to look at Bobby. They tease him, saying he doesn't look like a real wiener dog. Bobby doesn't seem to mind - he just barks at them. Sure, he's more built than typical Dachshunds and has a somewhat intimidating presence when he's in alert mode. But when he's curled up in my mom's lap or playing with my brother, he's just our goofy, loving Bobby.\nI did check with vets. It's the gene; it's nature, and we don't care what others say.\nWatching Bobby rejoice daily with such confidence despite being different has taught us all something valuable. He doesn't waste time wondering why he doesn't look like other Dachshunds - he's too busy living his best life, whether it's pushing a stray cat into the household well (yes, it happened once, and we saved the cat) or chasing frogs in the monsoon season.\nSpeaking of unique personalities, here in Chengdu, we have another character altogether - Coco, our miniature schnauzer. She's a tiny little lady with enough attitude for three dogs. I'll share more about her next time.",
+          "link": "https://mgx.me/living-life-bobbys-way/",
+          "publishedOn": "2024-11-29T06:29:00.000Z",
+          "wordCount": 807,
+          "title": "living life, bobby's way",
+          "imageUrl": "https://static.mgx.me/images/2024/bobby-2020.webp"
+        },
+        {
           "id": "https://samsharp.ca/your-internet-my-internet/",
           "author": null,
           "description": "I deleted my Instagram a few weeks ago. It felt like the most difficult platform to give up in my quest to redefine my relationship to the internet and reduce the time I spent doomscrolling. There was no other social media that had a hold on me quite like Instagram - especially once their infinite scrolling Reels feature became a key part of the app. I made my first account on the app at age 11, meaning I have spent more than half of the days in my life so far logging into the platform.\nEvery other image on Pinterest being a terrible advertisement\nSeeing trolls post hate comments on every image of a woman ever\nYoutube ads. Can’t even leave a video playing in the background anymore without SO MANY ads that you HAVE to click to end.\nAll of these built up, and after so many years of maintaini…",
@@ -1144,16 +1332,6 @@
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/jedda/cocoagdv2o22.png"
         },
         {
-          "id": "https://blog.solazy.me/20241126/",
-          "author": null,
-          "description": "我的公司距离我的家有 17km 距离，所以我每天会花单程 30-40mins 的时间开车通勤。今天简单说说我怎么度过这每天一个多小时的时间。\n🎵 听音乐\n通勤时间总是无聊的，我最早的时候是听歌。但是我这个人有一个毛病，很难听得进去新歌，但是我的收藏列表我又听烂了。所以现在通勤路上听音乐的频率较少，也会，但不多。\n📻 听播客\n我个人很喜欢听播客，不光在通勤的时候会听。但是我又很挑，对于信息和内容输出质量很低的播客我极少收听。所以我有一个白名单，一旦白名单的播客更新，我才会考虑听。所以，不会每天有一个小时的可收听量。\n📚 听书\n这个是我最近半个月养成的新习惯，起因是我在一些播客中听到过一些书籍的分享，但是我又没有很好的建立起读新书的习惯，所以我就瞅准了通勤这段时间。恰好微信读书又有听书模式，如果你是付费会员，可以想听歌一样的听书。这简直是一举多得，解决了我通勤路上恰好收听内容不足的隐患，又拓展了「阅读量」，还能完成微信读书的任务。\n\n▲ 阅读了 13 天的成果\n关于微信读书我准备后面找时间专门写一篇有趣的观察和思考，作为产品分析吧。\n💬 总结\n综上所述，我现在通勤路上依然会听歌和听播客，听歌比较少，听播客比听音乐稍多。这两者的区别在于听歌可以随时开播，听播客我需要提前甄选一下听的内容。如果两者都不想实施，我使用了微信读书的听书来补齐，这样又可以在这个通勤的时间段内拓展出一个内容输入的渠道。可喜可贺。",
-          "link": "https://blog.solazy.me/20241126/",
-          "publishedOn": "2024-11-26T08:00:00.000Z",
-          "wordCount": 510,
-          "title": "最近通勤路上的习惯变化",
-          "imageUrl": "https://images.unsplash.com/photo-1494627344499-afd1027ee1f5?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        },
-        {
           "id": "https://stackoverflow-makes-me-sad.bearblog.dev/stack-overflow-does-not-want-to-help-you/",
           "author": null,
           "description": "Stack Overflow's traffic has been in decline, and the convenient narrative is to blame it on LLMs.\nHowever, I think developers were already looking for reasons to stop interacting with Stack Overflow. LLMs have massive blind spots. New framework releases, yesterday's OS update, and niche languages are not in LLM training data. These are the problems where Stack Overflow should shine over AI. Yet traffic is declining even in these areas.\nI recently found myself caught between these two worlds, trying to solve a problem too new for LLMs, but running into the exact community issues driving people away from Stack Overflow. My experience might shed some light on why developers are leaving, even when AI can't help them.\nMy Problem\nThe remote SSH plugin for VSCode stopped working. Like many devel…",
@@ -1181,26 +1359,6 @@
           "publishedOn": "2024-11-25T15:46:14.158Z",
           "wordCount": 1045,
           "title": "Moving back to Japan - countryside",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
-        },
-        {
-          "id": "https://wyverian.bearblog.dev/is-everyone-here-a-cs-major/",
-          "author": null,
-          "description": "I feel like whenever I browse bear blog its mostly posts about coding and or being a computer science major? Not that that's a bad thing, I'm just observing a theme on here. Sometimes I can feel out of my depth here with it all, I only know basic html and although I do code, it's in R (woo lets go statistics). Just sometimes I can feel a bit lonely on here browsing etc because none of my hobbies or pursuits have been reflected on here as of yet :0. Any other earth science ppl out there ?Maybe this is a nothing burger post but whatever",
-          "link": "https://wyverian.bearblog.dev/is-everyone-here-a-cs-major/",
-          "publishedOn": "2024-11-25T12:52:00.000Z",
-          "wordCount": 678,
-          "title": "Is everyone here a CS major?",
-          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
-        },
-        {
-          "id": "https://blog.solazy.me/daily/",
-          "author": null,
-          "description": "{{ posts|tag:daily }}",
-          "link": "https://blog.solazy.me/daily/",
-          "publishedOn": "2024-11-25T07:11:00.000Z",
-          "wordCount": 493,
-          "title": "Daily",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         }
       ]
@@ -1306,6 +1464,16 @@
       "feedUrl": "https://rss.beehiiv.com/feeds/4aF2pGVAEN.xml",
       "siteUrl": "https://newsletter.newsminimalist.com/",
       "articles": [
+        {
+          "id": "https://newsletter.newsminimalist.com/p/project-update-2-significant-news-stories-a0b6",
+          "author": null,
+          "description": "Trump threatens 100% tariffs on Brics nations over dollar currency rivalry; Severe flooding displaces over 122,000 in Malaysia",
+          "link": "https://newsletter.newsminimalist.com/p/project-update-2-significant-news-stories-a0b6",
+          "publishedOn": "2024-12-01T18:57:43.000Z",
+          "wordCount": 8350,
+          "title": "Project update + 2 significant news stories",
+          "imageUrl": "https://beehiiv-images-production.s3.amazonaws.com/uploads/publication/thumbnail/d0318cb6-0493-4e34-b055-76456e6c0f76/landscape_template__3_.png"
+        },
         {
           "id": "https://newsletter.newsminimalist.com/p/landmark-climate-hearings-set-at-un-court-1-more-story",
           "author": null,
