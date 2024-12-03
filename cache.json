@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "ee3f1d3e195348435e77d729798909814f0702eb",
+          "author": "Channy Yun (윤석찬)",
+          "description": "Amazon EC2 P5en instances deliver up to 3,200 Gbps network bandwidth with EFAv3 for accelerating deep learning, generative AI, and HPC workloads with unmatched efficiency.",
+          "link": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-p5en-instances-with-nvidia-h200-tensor-core-gpus-and-efav3-networking/",
+          "publishedOn": "2024-12-03T02:39:05.000Z",
+          "wordCount": 1785,
+          "title": "New Amazon EC2 P5en instances with NVIDIA H200 Tensor Core GPUs and EFAv3 networking",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/22/EC2-P5en4.png"
+        },
+        {
           "id": "789b9c09b01004b67fd146c9ba2bd82902ca7dbe",
           "author": "AWS Editorial Team",
           "description": "Don't miss our biggest announcements! Visit this post throughout the week to stay up-to-date with quick recaps and links, organized by category, for all the most important AWS product news.",
@@ -27,7 +37,7 @@
           "description": "AWS extends GuardDuty with AI/ML capabilities to detect complex attack sequences across workloads, applications, and data, correlating multiple security signals over time for proactive cloud security.",
           "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-guardduty-extended-threat-detection-aiml-attack-sequence-identification-for-enhanced-cloud-security/",
           "publishedOn": "2024-12-02T03:29:53.000Z",
-          "wordCount": 2269,
+          "wordCount": 2270,
           "title": "Introducing Amazon GuardDuty Extended Threat Detection: AI/ML attack sequence identification for enhanced cloud security",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/03/29/Site-Merch_AWS-GuardDuty-EC2-Runtime-Monitoring_Blog-Thumbnail_800x400px.png"
         },
@@ -37,7 +47,7 @@
           "description": "With granular visibility into container workloads, CloudWatch Container Insights with enhanced observability for Amazon ECS enables proactive monitoring and faster troubleshooting, enhancing observability and improving application performance.",
           "link": "https://aws.amazon.com/blogs/aws/container-insights-with-enhanced-observability-now-available-in-amazon-ecs/",
           "publishedOn": "2024-12-02T03:28:56.000Z",
-          "wordCount": 1879,
+          "wordCount": 1880,
           "title": "Container Insights with enhanced observability now available in Amazon ECS",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/23/ECS-service-connect-feat-img.png"
         },
@@ -47,7 +57,7 @@
           "description": "With expanded data sources, AWS Clean Rooms helps customers securely collaborate with their partners' data across clouds, eliminating data movement, safeguarding sensitive information, promoting data freshness, and streamlining cross-company insights.",
           "link": "https://aws.amazon.com/blogs/aws/aws-clean-rooms-now-supports-multiple-clouds-and-data-sources/",
           "publishedOn": "2024-12-02T03:27:38.000Z",
-          "wordCount": 2314,
+          "wordCount": 2315,
           "title": "AWS Clean Rooms now supports multiple clouds and data sources",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/03/21/Site-Merch_AWS-Clean-Rooms_Blog.png"
         },
@@ -57,7 +67,7 @@
           "description": "Rapidly upload large datasets to AWS at blazing speeds with the new AWS Data Transfer Terminal, secure physical locations offering high throughput connection.",
           "link": "https://aws.amazon.com/blogs/aws/new-physical-aws-data-transfer-terminals-let-you-upload-to-the-cloud-faster/",
           "publishedOn": "2024-12-02T03:25:28.000Z",
-          "wordCount": 1552,
+          "wordCount": 1553,
           "title": "New physical AWS Data Transfer Terminals let you upload to the cloud faster",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/27/data-transfer-terminal-feat-img.png"
         },
@@ -67,7 +77,7 @@
           "description": "Seamlessly access AI assistance within work applications with Amazon Q Business's new browser extensions and integrations.",
           "link": "https://aws.amazon.com/blogs/aws/enhance-your-productivity-with-new-extensions-and-integrations-in-amazon-q-business/",
           "publishedOn": "2024-12-02T03:24:10.000Z",
-          "wordCount": 1475,
+          "wordCount": 1476,
           "title": "Enhance your productivity with new extensions and integrations in Amazon Q Business",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/27/Q-biz-feat-img-new.png"
         },
@@ -77,7 +87,7 @@
           "description": "Delivering NAS capabilities with automatic data tiering among frequently accessed, infrequent, and archival storage tiers, Amazon FSx Intelligent-Tiering offers high performance up to 400K IOPS, 20 GB/s throughput, seamless integration with AWS services.",
           "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-fsx-intelligent-tiering-a-new-storage-class-for-fsx-for-openzfs/",
           "publishedOn": "2024-12-02T03:22:42.000Z",
-          "wordCount": 1829,
+          "wordCount": 1830,
           "title": "Announcing Amazon FSx Intelligent-Tiering, a new storage class for FSx for OpenZFS",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/13/OpenZFS-feat-img.png"
         },
@@ -87,7 +97,7 @@
           "description": "Evaluate AI models and applications efficiently with Amazon Bedrock’s new LLM-as-a-judge capability for model evaluation and RAG evaluation for Knowledge Bases, offering a variety of quality and responsible AI metrics at scale.",
           "link": "https://aws.amazon.com/blogs/aws/new-rag-evaluation-and-llm-as-a-judge-capabilities-in-amazon-bedrock/",
           "publishedOn": "2024-12-02T03:21:31.000Z",
-          "wordCount": 2445,
+          "wordCount": 2446,
           "title": "New RAG evaluation and LLM-as-a-judge capabilities in Amazon Bedrock",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/25/Bedrock-model-eval.png"
         },
@@ -97,7 +107,7 @@
           "description": "Use innovative tools like generative AI for segmentation and campaigns, WhatsApp Business, data privacy controls for chat, AI guardrails, conversational AI bot management, and enhanced analytics to elevate customer experiences securely and efficiently.",
           "link": "https://aws.amazon.com/blogs/aws/newly-enhanced-amazon-connect-adds-generative-ai-whatsapp-business-and-secure-data-collection/",
           "publishedOn": "2024-12-02T03:19:19.000Z",
-          "wordCount": 1719,
+          "wordCount": 1720,
           "title": "Newly enhanced Amazon Connect adds generative AI, WhatsApp Business, and secure data collection",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/17/AWSNewsBlog-Thumbnail-Connect-800x400-1.png"
         },
@@ -107,7 +117,7 @@
           "description": "Orchestrate hybrid workflows accessing private HTTPS endpoints - no more Lambda/SQS workarounds. EventBridge and Step Functions natively support private resources, simplifying cloud modernization.",
           "link": "https://aws.amazon.com/blogs/aws/securely-share-aws-resources-across-vpc-and-account-boundaries-with-privatelink-vpc-lattice-eventbridge-and-step-functions/",
           "publishedOn": "2024-12-02T03:18:17.000Z",
-          "wordCount": 2375,
+          "wordCount": 2376,
           "title": "Securely share AWS resources across VPC and account boundaries with PrivateLink, VPC Lattice, EventBridge, and Step Functions",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/25/VPC-privlink-lattice-feat-img.png"
         },
@@ -117,7 +127,7 @@
           "description": "AWS introduces a new service to streamline security event response, providing automated triage, coordinated communication, and expert guidance to recover from cybersecurity threats.",
           "link": "https://aws.amazon.com/blogs/aws/new-aws-security-incident-response-helps-organizations-respond-to-and-recover-from-security-events/",
           "publishedOn": "2024-12-02T03:17:29.000Z",
-          "wordCount": 1530,
+          "wordCount": 1531,
           "title": "New AWS Security Incident Response helps organizations respond to and recover from security events",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/13/Indra-blog-cover-image-800x400-1.png"
         },
@@ -127,7 +137,7 @@
           "description": "With custom connectors and reranking models, you can enhance RAG applications by enabling direct ingestion to knowledge bases without requiring a full sync, and improving response relevance through advanced reranking models.",
           "link": "https://aws.amazon.com/blogs/aws/new-apis-in-amazon-bedrock-to-enhance-rag-applications-now-available/",
           "publishedOn": "2024-12-01T20:51:24.000Z",
-          "wordCount": 2276,
+          "wordCount": 2277,
           "title": "New APIs in Amazon Bedrock to enhance RAG applications, now available",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/Bedrock-icon-feat-img.png"
         },
@@ -137,7 +147,7 @@
           "description": "Storage Browser for Amazon S3 is an open source interface component that you can add to your web applications to provide your authorized end users, such as customers, partners, and employees, with access to easily browse, upload, download, copy, and delete data in S3.",
           "link": "https://aws.amazon.com/blogs/aws/connect-users-to-data-through-your-apps-with-storage-browser-for-amazon-s3/",
           "publishedOn": "2024-12-01T20:50:23.000Z",
-          "wordCount": 2393,
+          "wordCount": 2394,
           "title": "Connect users to data through your apps with Storage Browser for Amazon S3",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/S3-all-up-featured-image-storage-classes-main-1251x630.png"
         },
@@ -147,7 +157,7 @@
           "description": "Unleash your creativity with PartyRock's new AI capabilities: generate images, analyze visuals, search hundreds of thousands of apps, and process multiple docs simultaneously - no coding required.",
           "link": "https://aws.amazon.com/blogs/aws/introducing-new-partyrock-capabilities-and-free-daily-usage/",
           "publishedOn": "2024-12-01T20:49:03.000Z",
-          "wordCount": 1613,
+          "wordCount": 1614,
           "title": "Introducing new PartyRock capabilities and free daily usage",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/19/Partyrock-feat-img.png"
         },
@@ -157,7 +167,7 @@
           "description": "Build highly available, globally distributed apps with microsecond latencies across Regions, automatic conflict resolution, and up to 99.999% availability.",
           "link": "https://aws.amazon.com/blogs/aws/amazon-memorydb-multi-region-is-now-generally-available/",
           "publishedOn": "2024-12-01T20:47:38.000Z",
-          "wordCount": 1556,
+          "wordCount": 1557,
           "title": "Amazon MemoryDB Multi-Region is now generally available",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/26/MemoryDB-feat-img.png"
         },
@@ -167,7 +177,7 @@
           "description": "Amazon S3 updates the default behavior of object upload requests with new data integrity protections that build upon S3’s existing durability posture.",
           "link": "https://aws.amazon.com/blogs/aws/introducing-default-data-integrity-protections-for-new-objects-in-amazon-s3/",
           "publishedOn": "2024-12-01T20:46:36.000Z",
-          "wordCount": 2369,
+          "wordCount": 2370,
           "title": "Introducing default data integrity protections for new objects in Amazon S3",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/S3-all-up-featured-image-storage-classes-main-1251x630.png"
         },
@@ -177,7 +187,7 @@
           "description": "AWS DMS Schema Conversion converts up to 90% of your schema to accelerate your database migrations and reduce manual effort with the power of generative AI.",
           "link": "https://aws.amazon.com/blogs/aws/aws-data-migration-service-improves-database-schema-conversion-with-generative-ai/",
           "publishedOn": "2024-12-01T20:44:55.000Z",
-          "wordCount": 1803,
+          "wordCount": 1804,
           "title": "AWS Database Migration Service now automates time-intensive schema conversion tasks using generative AI",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/AWS-DMS-Schema-Conversion-with-generative-AI.png"
         },
@@ -187,7 +197,7 @@
           "description": "With only a few steps, create declarative policies and enforce desired configuration for AWS services across your organization, reducing ongoing governance overhead and providing transparency for administrators and end users.",
           "link": "https://aws.amazon.com/blogs/aws/simplify-governance-with-declarative-policies/",
           "publishedOn": "2024-12-01T20:42:31.000Z",
-          "wordCount": 2093,
+          "wordCount": 2094,
           "title": "Simplify governance with declarative policies",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/11/aws-organizations-rcp-feat-img.png"
         },
@@ -197,19 +207,9 @@
           "description": "AWS Veriﬁed Access extends its secure, VPN-less access capabilities to non-HTTP(S) applications and resources, enabling zero trust access to corporate resources over protocols such as Secure Shell (SSH) and Remote Desktop Protocol (RDP).",
           "link": "https://aws.amazon.com/blogs/aws/aws-verified-access-now-supports-secure-access-to-resources-over-non-https-protocols/",
           "publishedOn": "2024-12-01T20:40:48.000Z",
-          "wordCount": 2358,
+          "wordCount": 2359,
           "title": "AWS Verified Access now supports secure access to resources over non-HTTP(S) protocols (in preview)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/13/AVA-feat-img2.png"
-        },
-        {
-          "id": "f93103f7ae3a84201e8413d709b2b314b1bd2c22",
-          "author": "Jeff Barr",
-          "description": "AWS Transfer Family web apps are a new resource that you can use to create a simple interface for authorized line-of-business users to access data in Amazon S3 through a customizable web browser.",
-          "link": "https://aws.amazon.com/blogs/aws/announcing-aws-transfer-family-web-apps-for-fully-managed-amazon-s3-file-transfers/",
-          "publishedOn": "2024-12-01T20:39:51.000Z",
-          "wordCount": 1794,
-          "title": "Announcing AWS Transfer Family web apps for fully managed Amazon S3 file transfers",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/transfer-family-feat-img2.png"
         }
       ]
     },
@@ -250,26 +250,6 @@
           "wordCount": 1575,
           "title": "Leverage powerful generative-AI capabilities for Java development in the Eclipse IDE public preview",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/11/27/eclipse-1120x630.png"
-        },
-        {
-          "id": "677db6e38f74e929dcdd46ad8d92b84fe21e3332",
-          "author": "Riya Dani",
-          "description": "We are excited to announce the general availability of the cost analysis capability in Amazon Q Developer. This powerful feature integrates Q Developer’s natural language processing capabilities with AWS Cost Explorer, revolutionizing how you analyze and understand your AWS costs. Initially launched in preview on April 30, 2024, the Amazon Q cost analysis capability now offers enhanced […]",
-          "link": "https://aws.amazon.com/blogs/devops/analyzing-your-aws-cost-explorer-data-with-amazon-q-developer-now-generally-available/",
-          "publishedOn": "2024-11-26T16:08:48.000Z",
-          "wordCount": 1619,
-          "title": "Analyzing your AWS Cost Explorer data with Amazon Q Developer: Now Generally Available",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/11/26/Screenshot-2024-11-26-at-11.02.54 AM.png"
-        },
-        {
-          "id": "60be41c2505f5225f2f910fd21a76bb690d633ff",
-          "author": "Will Matos",
-          "description": "This post is co-written with Dr. Geoff Ryder, Manager, at SmugMug. Introduction SmugMug operates two very large online photo platforms: SmugMug and Flickr. These platforms enable more than 100 million customers to safely store, search, share, and sell tens of billions of photos every day. However, the data science and engineering team at SmugMug and […]",
-          "link": "https://aws.amazon.com/blogs/devops/how-smugmug-increased-data-modeling-productivity-with-amazon-q-developer/",
-          "publishedOn": "2024-11-26T15:40:38.000Z",
-          "wordCount": 3236,
-          "title": "How SmugMug Increased Data Modeling Productivity with Amazon Q Developer",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2024/11/26/FeaturedImageSmugMug.png"
         }
       ]
     },
@@ -299,16 +279,6 @@
           "wordCount": 2766,
           "title": "Transforming Istio into an enterprise-ready service mesh for Amazon ECS",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/11/26/Featured-images-for-Containers-Blog-10-1260x630.jpg"
-        },
-        {
-          "id": "7fd5d2aa425994eb182752ee6f7b22bfd45719d3",
-          "author": "Sai Charan Teja Gopaluni",
-          "description": "Post updated on Nov 26, 2024. This post discusses Bottlerocket, a Linux-based open source operating system that is purpose-built for running containers. We will walk through fleet management at scale and how users can benefit from it. We will also share the key pillars that support Bottlerocket’s development plan. The challenges of fleet management with […]",
-          "link": "https://aws.amazon.com/blogs/containers/benefiting-from-bottlerocket-an-open-source-container-optimized-operating-system/",
-          "publishedOn": "2024-11-26T16:02:48.000Z",
-          "wordCount": 2747,
-          "title": "Unlocking Benefits with Bottlerocket: A Purpose-Built Container OS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2024/09/13/Featured-images-for-Containers-Blog-1260x630.jpg"
         }
       ]
     },
@@ -317,6 +287,28 @@
       "feedUrl": "https://www.counterpunch.org/feed/",
       "siteUrl": "https://www.counterpunch.org/",
       "articles": [
+        {
+          "id": "https://www.counterpunch.org/?p=345566",
+          "author": "Dean Baker",
+          "description": "The Washington Post had a bizarre article last week in which it questioned whether China was doing much to combat global warming. While the piece noted China’s efforts to portray itself as a world leader in this effort, it commented: “But China’s global climate leadership bid is complicated by its own enormous emissions. The country  More\nThe post Contrary to What the Washington Post Says, China is Doing a Huge Amount to Fight Global Warming appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/12/03/contrary-to-what-the-washington-post-says-china-is-doing-a-huge-amount-to-fight-global-warming/",
+          "publishedOn": "2024-12-03T06:37:04.000Z",
+          "wordCount": null,
+          "title": "Contrary to What the Washington Post Says, China is Doing a Huge Amount to Fight Global Warming",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.counterpunch.org/?p=345630",
+          "author": "Colin Gordon",
+          "description": "Donald Trump has picked former football player Scott Turner to lead the U.S. Department of Housing and Urban Development. While not much is known about Turner’s positions as he awaits confirmation by the Senate, Trump’s selection draws attention to the incoming administration’s housing policies. Those policies, evident in both the first Trump presidency and in  More\nThe post Trump’s Next HUD Secretary Would Have a Lot to do to Address the History of Racist Housing Policy – and Trump’s Comments and History Suggest That’s Unlikely appeared first on CounterPunch.org.",
+          "link": "https://www.counterpunch.org/2024/12/03/trumps-next-hud-secretary-would-have-a-lot-to-do-to-address-the-history-of-racist-housing-policy-and-trumps-comments-and-history-suggest-thats-unlikely/",
+          "publishedOn": "2024-12-03T06:36:06.000Z",
+          "wordCount": null,
+          "title": "Trump’s Next HUD Secretary Would Have a Lot to do to Address the History of Racist Housing Policy – and Trump’s Comments and History Suggest That’s Unlikely",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.counterpunch.org/?p=345645",
           "author": "Steve Early - Suzanne Gordon",
@@ -624,28 +616,6 @@
           "title": "If the Chief Business of the American People is Business, the Chief Business of the American Government is to Govern",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=345345",
-          "author": "Ramzy Baroud",
-          "description": "A major problem in American thinking in the Middle East is the utter rejection of the notion that Palestinian rights are fundamental, if at all relevant, to the coveted peace and stability. Long before Donald Trump’s first ‘Deal of the Century’ was officially revealed on January 28, 2020, successive US administrations attempted to ‘stabilize’ the  More\nThe post No More ‘Deals’ – What Palestinians Want and Will Fight to Achieve  appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/29/no-more-deals-what-palestinians-want-and-will-fight-to-achieve/",
-          "publishedOn": "2024-11-29T06:54:25.000Z",
-          "wordCount": null,
-          "title": "No More ‘Deals’ – What Palestinians Want and Will Fight to Achieve",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.counterpunch.org/?p=345368",
-          "author": "Barbara G. Ellis",
-          "description": "NATO leaders have been dithering about Russia’s recent retaliation against Ukraine’s lofting one of Lockheed’s long-range missiles deep into its interior. Their emergency huddle was about Putin’s new multi-missile (“Oreshnik “) which traveled 10 times the speed of sound (range: 310-3,400 miles) to hit a former ICBM factory . So far, either side seems to  More\nThe post Mass Desertions Over Radiation Could End the War in Ukraine appeared first on CounterPunch.org.",
-          "link": "https://www.counterpunch.org/2024/11/29/mass-desertions-over-radiation-could-end-the-war-in-ukraine/",
-          "publishedOn": "2024-11-29T06:54:18.000Z",
-          "wordCount": null,
-          "title": "Mass Desertions Over Radiation Could End the War in Ukraine",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -666,7 +636,7 @@
           "description": "from Dean Baker New York Times columnist Christopher Caldwell devoted his Thanksgiving piece to describing the German sociologist Wolfgang Streeck’s views on capitalism and democracy.  I have not read much of Streeck’s work, but as recounted by Caldwell, he gets many of the basic facts about the U.S. economy badly wrong. According to Caldwell’s account, capitalists were […]",
           "link": "https://rwer.wordpress.com/2024/12/01/capitalism-and-democracy-the-market-is-far-more-flexible-than-christopher-caldwell-imagines/",
           "publishedOn": "2024-12-01T20:05:02.000Z",
-          "wordCount": 4711,
+          "wordCount": 4704,
           "title": "Capitalism and Democracy: The market is far more flexible than Christopher Caldwell imagines",
           "imageUrl": "https://cepr.net/wp-content/uploads/2024/11/fredgraph.png"
         },
@@ -686,7 +656,7 @@
           "description": "from Lars Syll Sixty years ago Milton Friedman wrote an (in)famous article arguing that (1) the natural rate of unemployment was independent of monetary policy and that (2) trying to keep the unemployment rate below the natural rate would only give rise to higher and higher inflation. The hypothesis has always been controversial, and much […]",
           "link": "https://rwer.wordpress.com/2024/11/27/busting-the-natural-rate-of-unemployment-myth-2/",
           "publishedOn": "2024-11-27T23:01:30.000Z",
-          "wordCount": 4264,
+          "wordCount": 4260,
           "title": "Busting the ‘natural rate of unemployment’ myth",
           "imageUrl": "https://larspsyll.wordpress.com/wp-content/uploads/2017/03/mythbusting.png?w=260&h=133"
         }
@@ -704,12 +674,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=283177",
+          "author": "Yves Smith",
+          "description": "Identifying a key mechanism that fosters self censorship.",
+          "link": "https://www.nakedcapitalism.com/2024/12/self-censorship-and-the-ad-hominem-inference.html",
+          "publishedOn": "2024-12-03T05:43:00.000Z",
+          "wordCount": 4141,
+          "title": "Self-Censorship and the Ad Hominem Inference",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=283183",
           "author": "Lambert Strether",
           "description": "~ Today's Water Cooler: Politics, syndemics; The urban-rural divide; Thomas Frank on populism  (video); Blue periods ....  ~",
           "link": "https://www.nakedcapitalism.com/2024/12/200pm-water-cooler-12-1-2024.html",
           "publishedOn": "2024-12-02T19:00:14.000Z",
-          "wordCount": 10141,
+          "wordCount": 11045,
           "title": "2:00PM Water Cooler 12/1/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/12/google-trends_LC.png"
         },
@@ -719,7 +699,7 @@
           "description": "The MAHA movement capitalizes on many of the nonconventional health concepts that have been darlings of the left, such as promoting organic foods and food as medicine.",
           "link": "https://www.nakedcapitalism.com/2024/12/make-america-healthy-again-an-unconventional-movement-that-may-have-found-its-moment.html",
           "publishedOn": "2024-12-02T15:35:37.000Z",
-          "wordCount": 7934,
+          "wordCount": 8173,
           "title": "Make America Healthy Again: An Unconventional Movement That May Have Found Its Moment",
           "imageUrl": "https://kffhealthnews.org/wp-content/uploads/sites/2/2023/04/kffhealthnews-icon.png?w=150"
         },
@@ -729,7 +709,7 @@
           "description": "Our cooling daily links",
           "link": "https://www.nakedcapitalism.com/2024/12/links-12-2-2024.html",
           "publishedOn": "2024-12-02T11:55:47.000Z",
-          "wordCount": 14842,
+          "wordCount": 15641,
           "title": "Links 12/2/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/12/elephant.jpg"
         },
@@ -739,7 +719,7 @@
           "description": "Ankara’s ongoing support for extremist paramilitary groups in Syria threatens ties with Russia and China, and by aiding Israel he insults the Turkish people who overwhelmingly oppose US-Israel actions in the region.",
           "link": "https://www.nakedcapitalism.com/2024/12/erdogan-backstabs-his-way-into-center-of-middle-east-conflict.html",
           "publishedOn": "2024-12-02T10:00:05.000Z",
-          "wordCount": 10487,
+          "wordCount": 10746,
           "title": "Erdogan Backstabs His Way Into Center of Middle East Conflict",
           "imageUrl": null
         },
@@ -749,7 +729,7 @@
           "description": "Nissan, with intensifying cash flow woes and vultures circling, looks like a canary in the coal mine for non-China carmakers.",
           "link": "https://www.nakedcapitalism.com/2024/12/nissan-in-crisis-12-or-14-months-to-survive-as-size-difficult-conditions-for-non-china-carmakers-make-rescue-seem-remote.html",
           "publishedOn": "2024-12-02T09:54:35.000Z",
-          "wordCount": 9434,
+          "wordCount": 9501,
           "title": "Nissan in Crisis, “12 or 14 Months to Survive,” as Size, Difficult Conditions for Non-China Carmakers Make Rescue Seem Remote",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/12/Screen-Shot-2024-12-02-at-6.25.43-PM.png"
         },
@@ -759,7 +739,7 @@
           "description": "The COP16 biodiversity conference included Big Tech pushing black box \"generative biology\" AI-created DNA and related financial markets",
           "link": "https://www.nakedcapitalism.com/2024/12/big-finance-big-tech-ai-titans-ride-next-wave-of-generative-biology-colonization-at-cop16.html",
           "publishedOn": "2024-12-02T08:09:37.000Z",
-          "wordCount": 12535,
+          "wordCount": 12521,
           "title": "Big Finance, Big Tech AI Titans Ride Next Wave of “Generative Biology”‘ Colonization at COP16",
           "imageUrl": null
         },
@@ -769,7 +749,7 @@
           "description": "Putting on my hazmat suit...",
           "link": "https://www.nakedcapitalism.com/2024/12/jay-bhattacharya-trumps-pick-to-head-the-nih-is-a-eugenicist-charlatan.html",
           "publishedOn": "2024-12-01T22:45:09.000Z",
-          "wordCount": 12730,
+          "wordCount": 13437,
           "title": "Jay Bhattacharya, Trump’s Pick to Head the NIH, Is a Eugenicist Charlatan",
           "imageUrl": null
         },
@@ -779,7 +759,7 @@
           "description": "Our fluky daily links",
           "link": "https://www.nakedcapitalism.com/2024/12/links-12-1-2024.html",
           "publishedOn": "2024-12-01T11:58:55.000Z",
-          "wordCount": 31493,
+          "wordCount": 31633,
           "title": "Links 12/1/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/12/whale.jpeg"
         },
@@ -789,19 +769,9 @@
           "description": "What would make a critical mass of Americans, marinating in a rugged individualist culture, want to become their neighbors’ keepers?",
           "link": "https://www.nakedcapitalism.com/2024/12/book-review-the-many-bounties-of-collaboration-in-nature.html",
           "publishedOn": "2024-12-01T11:50:21.000Z",
-          "wordCount": 6549,
+          "wordCount": 6546,
           "title": "Book Review: The Many Bounties of Collaboration in Nature",
           "imageUrl": "https://logs-01.loggly.com/inputs/4a05953f-1607-4284-825e-7df393822342.gif?postid=92485&title=Book-Review:-The-Many-Bounties-of-Collaboration--in-Nature"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=283067",
-          "author": "Yves Smith",
-          "description": "Our boisterous daily links: Orca head gear, Covid in the brain, global warming>stronger hurricanes, Taiwan provokes China again, Chad dumps France, Europe hearts WWIII, Israel aid sabotage, Putin on Russia weapons, jihadists attack in Syria, AI copyright suits, Amazon strikes",
-          "link": "https://www.nakedcapitalism.com/2024/11/links-11-30-2024.html",
-          "publishedOn": "2024-11-30T11:59:15.000Z",
-          "wordCount": 16161,
-          "title": "Links 11/30/2024",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2024/11/Screen-Shot-2024-11-30-at-2.43.34-PM.png"
         }
       ]
     },
@@ -809,35 +779,13 @@
       "title": "The Cloudflare Blog",
       "feedUrl": "https://blog.cloudflare.com/rss",
       "siteUrl": "https://blog.cloudflare.com",
-      "articles": [
-        {
-          "id": "3SNSdDbbVziSrdGxDq4AzH",
-          "author": "Jamie Herre",
-          "description": "On November 14, 2024, Cloudflare experienced a Cloudflare Logs outage, impacting the majority of customers using these products. During the ~3.5 hours that these services were impacted, about 55% of the logs we normally send to customers were not sent and were lost. The details of what went wrong and why are interesting both for customers and practitioners.",
-          "link": "https://blog.cloudflare.com/cloudflare-incident-on-november-14-2024-resulting-in-lost-logs",
-          "publishedOn": "2024-11-26T16:00:00.000Z",
-          "wordCount": 2140,
-          "title": "Cloudflare incident on November 14, 2024, resulting in lost logs",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/12mn0IYSVtSiTGqIhGo02Z/43bc62c1babafee29f4198cecb5d4d66/Cloudflare_incident_on_November_14__2024__resulting_in_lost_logs-OG.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Capital One Tech - Medium",
       "feedUrl": "https://medium.com/feed/capital-one-tech",
       "siteUrl": "https://medium.com/capital-one-tech?source=rss----3db3a67cb648---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/098ea5265b56",
-          "author": "Capital One Tech",
-          "description": "Cloud forward, data powered, AI ascendant. That’s how we stack.",
-          "link": "https://medium.com/capital-one-tech/capital-ones-sessions-and-speakers-at-aws-re-invent-2024-098ea5265b56?source=rss----3db3a67cb648---4",
-          "publishedOn": "2024-11-26T18:07:22.000Z",
-          "wordCount": 3669,
-          "title": "Capital One’s sessions and speakers at AWS re:Invent 2024",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*owrRL7uWLAd9IXCp.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Engineering at Slack",
@@ -889,7 +837,7 @@
           "description": "I know it's not public domain per-say, but for me, the thing that's most exciting is that in 2025, the last remaining patents on the h.264 (AVC) video codec will expire [1].\nNow if only HEVC wasn't such a hot patent / licensing mess.\n[1] https://meta.wikimedia.org/wiki/Have_the_patents_for_H.264_M...",
           "link": "https://news.ycombinator.com/item?id=42291142",
           "publishedOn": "2024-12-01T22:19:49.000Z",
-          "wordCount": null,
+          "wordCount": 2340,
           "title": "New comment by GeneticGenesis in \"What will enter the public domain in 2025?\"",
           "imageUrl": null
         },
@@ -899,7 +847,7 @@
           "description": "Last year I got stuck on Day 12 for a full week, and thinking about how to solve it consumed my every waking moment. I think this year, I'm going to be kind to myself and not participate so I can really enjoy the winter break from work.",
           "link": "https://news.ycombinator.com/item?id=42288035",
           "publishedOn": "2024-12-01T12:16:14.000Z",
-          "wordCount": 5650,
+          "wordCount": null,
           "title": "New comment by atribecalledqst in \"Advent of Code 2024\"",
           "imageUrl": null
         },
@@ -919,7 +867,7 @@
           "description": "It’s been talked about here before, but fundamentally it’s when the advertising guys won the power struggle over the search engine guys. Previously, advertising was a means to fund cool technology (and also get filthy rich).\nNow it’s just a way to make the number perpetually go up, sucking every last drop of value out of the system.\nPlus the complete lack of vision or strategy from Google’s senior leadership.",
           "link": "https://news.ycombinator.com/item?id=42278492",
           "publishedOn": "2024-11-30T00:45:20.000Z",
-          "wordCount": null,
+          "wordCount": 8387,
           "title": "New comment by mattkevan in \"The deterioration of Google\"",
           "imageUrl": null
         },
@@ -949,7 +897,7 @@
           "description": "As someone who is coming to increasingly believe that 99% of the world problems are caused by powers seeking to intentionally divide us one from the other, I cannot tell you how much joy this brings me to see. I wish you great success in this effort, however small it might appear to be in the scheme of things.",
           "link": "https://news.ycombinator.com/item?id=42269718",
           "publishedOn": "2024-11-29T00:31:42.000Z",
-          "wordCount": 2880,
+          "wordCount": null,
           "title": "New comment by revscat in \"Send someone you appreciate an official 'Continue and Persist' Letter\"",
           "imageUrl": null
         },
@@ -959,7 +907,7 @@
           "description": "Statement from the City of London Corporation which is closing them down:\n> Chris Hayward, policy chairman of the City of London Corporation, said the\n> decision represented a \"positive new chapter\" for the markets as it \"empowers\n> traders to build a sustainable future in premises that align with their\n> long-term business goals\".\nThis is a great statement. Like firing people to free them up to find jobs that better align with their desire for employment.",
           "link": "https://news.ycombinator.com/item?id=42260795",
           "publishedOn": "2024-11-27T23:20:34.000Z",
-          "wordCount": null,
+          "wordCount": 4388,
           "title": "New comment by alexwasserman in \"London's 850-year-old food markets to close\"",
           "imageUrl": null
         },
@@ -979,7 +927,7 @@
           "description": "I thought the whole point of these camera LEDs was to have them wired to/through the power to the camera, so they are always on when the camera is getting power, no matter what.\nHaving the LED control exposed through the firmware completely defeats this.",
           "link": "https://news.ycombinator.com/item?id=42259395",
           "publishedOn": "2024-11-27T20:27:36.000Z",
-          "wordCount": 15093,
+          "wordCount": 15126,
           "title": "New comment by sbarre in \"Malware can turn off webcam LED and record video, demonstrated on ThinkPad X230\"",
           "imageUrl": null
         },
@@ -989,18 +937,8 @@
           "description": "I’ve come to the conclusion that I hate “cloud shit”, and a small part of me is convinced that literally no one actually likes it, and everyone is playing a joke on me.\nI have set up about a dozen rack mount servers in my life, installing basically every flavor of Unix and Linux and message busses under the sun in the process, but I still get confused by all the Kubectl commands and GCP integration with it.\nI might just be stupid, but it feels like all I ever do with Kubernetes is update and break YAML files, and then spend a day fixing them by copy-pasting increasingly-convoluted things on stackexchange.  I cannot imagine how anyone goes to work and actually enjoys working in Kubernetes, though I guess someone must in terms of “law of large numbers”.\nIf I ever start a company, I am going to work my damndest to avoid “cloud integration crap” as possible.  Just have a VM or a physical server and let me install everything myself.  If I get to tens of millions of users, maybe I’ll worry about it then.",
           "link": "https://news.ycombinator.com/item?id=42253231",
           "publishedOn": "2024-11-27T05:31:38.000Z",
-          "wordCount": null,
+          "wordCount": 17661,
           "title": "New comment by tombert in \"I Didn't Need Kubernetes, and You Probably Don't Either\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=42247695",
-          "author": "csa",
-          "description": "It’s not just California, but California may be one of the more egregious state neglecters.\nThe push at the state level for policies that focus on equality of outcomes over equality of opportunities will not end well for the gifted and talented communities.\nWhenever I hear these people talk about their policies, I can’t help but recall Harrison Bergeron.\nFocusing on equality of outcomes in a society that structurally does not afford equality of opportunities is a fool’s game that ends with Bergeron-esque levels of absurdity.\nImho, the only viable/main solution is to acknowledge that we all aren’t equal, we don’t all have access to the same opportunities, but as a country we can implement policies that lessen the imbalance.\nHead Start is a good example.\nWell-run gifted and talented programs in schools are also good examples.\nKilling truly progressive programs for the purpose of virtue signaling is a loss for society.",
-          "link": "https://news.ycombinator.com/item?id=42247695",
-          "publishedOn": "2024-11-26T17:25:32.000Z",
-          "wordCount": null,
-          "title": "New comment by csa in \"California's most neglected group of students: the gifted ones\"",
           "imageUrl": null
         }
       ]
@@ -1029,16 +967,6 @@
           "wordCount": 5658,
           "title": "The AI boom in electricity demand: a multiply recycled myth",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://crookedtimber.org/?p=53447",
-          "author": "Kevin Munger",
-          "description": "Ownership and control of social media platforms is a first-order concern for both domestic politics and international conflict. The most important battleground in the Russia-Ukraine war is elections in NATO member states. And there, Russia is clearly winning. Trump, obviously, but yesterday saw the stunning success of formerly fringe right-wing candidate C?lin Georgescu. In an […]",
-          "link": "https://crookedtimber.org/2024/11/26/tiktok-in-romania/",
-          "publishedOn": "2024-11-26T14:48:10.000Z",
-          "wordCount": 6219,
-          "title": "TikTok in Romania",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F318ae13e-0b29-445a-89c2-d9605438f7fe_1034x412.png"
         }
       ]
     },
@@ -1201,6 +1129,16 @@
           "wordCount": 1342,
           "title": "This Is What I Believe  - December IndieWeb Carnival",
           "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/livingoutloud/34-1.webp"
+        },
+        {
+          "id": "https://blog.divaltor.dev/online-detox-is-not-working/",
+          "author": null,
+          "description": "Inspired by posts from Imperfect and Ava\nI've been thinking about this for a while but couldn't gather my thoughts together. I wrote that I was planning to do an online detox in December, but in reality, all I wanted was to get rid of doomscrolling on Twitter, as I was spending too much time on it every day.\nHow do people quit smoking? No, not through willpower - it doesn't work long-term. You don't smoke for a week, two, maximum several months, but you're never free from the thought \"I wish I could stand on the balcony with a cigarette right now.\" That's why people replace smoking with other habits - going to the gym, meditation (doesn't help me), or some other activity where you don't think about the old habit because you literally have no time.\nWhy was I on Twitter? I was bored - it's simply a fact I didn't want to acknowledge. So I decided - what could I replace this harmful habit with? And I came up with... games. To be honest, I played very little this year, just a couple dozen hours of Genshin throughout the year, and that's it. I don't see anything wrong with games if they don't interfere with main tasks and don't cause negative emotions.\nBesides games, I found a new activity - reading other people's blogs. Until recently, I didn't even know that Bearblog has a system similar to Hackernews, where you can see other people's posts (thanks to Ava\nfor the tip). I'm very interested in reading what other people think about, especially since it's much better implemented than Twitter, where between interesting posts you get visual garbage like memes and ads.",
+          "link": "https://blog.divaltor.dev/online-detox-is-not-working/",
+          "publishedOn": "2024-12-02T15:41:00.000Z",
+          "wordCount": null,
+          "title": "online detox is not working",
+          "imageUrl": null
         },
         {
           "id": "https://tiramisu.bearblog.dev/back-to-december/",
