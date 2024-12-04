@@ -1,10 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-04T02:03:07.247Z</id>
+    <id>urn:2024-12-04T06:38:15.471Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-12-04T02:03:07.247Z</updated>
+    <updated>2024-12-04T06:38:15.471Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Resistance to the International Criminal Court by the World’s Most Powerful Nations]]></title>
+        <id>https://www.counterpunch.org/?p=345815</id>
+        <link href="https://www.counterpunch.org/2024/12/04/resistance-to-the-international-criminal-court-by-the-worlds-most-powerful-nations/"/>
+        <updated>2024-12-04T06:32:24.000Z</updated>
+        <summary type="html"><![CDATA[The International Criminal Court’s recent issuance of arrest warrants to Israeli Prime Minister Benjamin Netanyahu and former Defense Minister Yoav Gallant for crimes against humanity and war crimes in Gaza has stirred up a considerable backlash. Dismissing the charges as “absurd and false,” Netanyahu announced that Israel would “not recognize the validity” of the ICC’s action. U.S. President Joe Biden denounced  More
+The post Resistance to the International Criminal Court by the World’s Most Powerful Nations appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Lawrence Wittner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Truce in Lebanon: Can Diplomacy Rise from the Ruins?]]></title>
+        <id>https://www.nakedcapitalism.com/?p=283275</id>
+        <link href="https://www.nakedcapitalism.com/2024/12/truce-in-lebanon-can-diplomacy-rise-from-the-ruins.html"/>
+        <updated>2024-12-04T06:12:28.000Z</updated>
+        <summary type="html"><![CDATA[A wide-ranging overview of the truce in Lebanon and what might come next.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Psychogeograffiti]]></title>
+        <id>https://www.counterpunch.org/?p=345823</id>
+        <link href="https://www.counterpunch.org/2024/12/04/psychogeograffiti/"/>
+        <updated>2024-12-04T05:37:53.000Z</updated>
+        <summary type="html"><![CDATA[The post Psychogeograffiti appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Elliot Sperber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump and the Holding Environment]]></title>
+        <id>https://www.counterpunch.org/?p=345884</id>
+        <link href="https://www.counterpunch.org/2024/12/04/trump-and-the-holding-environment/"/>
+        <updated>2024-12-04T05:03:14.000Z</updated>
+        <summary type="html"><![CDATA[There are certainly a number of highly political and socioeconomic insights about the Trump catastrophe, and here I offer some psychoanalytic ideas about Trump and his hold on some of the public. The psychological term ”holding environment” refers to the provision of safety and security provided in earliest life. It is often depicted as holding  More
+The post Trump and the Holding Environment appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Judith Deutsch</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Oops! A Rich-People-Friendly Think Tank Confirms Our Richest Pay Under One Percent of Their Wealth Annually in Tax]]></title>
         <id>https://www.counterpunch.org/?p=345568</id>
@@ -34,6 +76,24 @@ The post Oops! A Rich-People-Friendly Think Tank Confirms Our Richest Pay Under 
         <summary type="html"><![CDATA[This post is co-authored by Alex Kestner (Sr Product Manager, Amazon EKS), Ashley Ansari (Sr. Product Marketing Manager), Robert Northard (Principal GTM SSA Containers), and Sheetal Joshi (Principal Solution Architect, Containers). Introduction We announced general availability of Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode that provides a new capability streamlining Kubernetes cluster management for […]]]></summary>
         <author>
             <name>Sheetal Joshi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by bayindirh in "Intel announces Arc B-series "Battlemage" discrete graphics with Linux support"]]></title>
+        <id>https://news.ycombinator.com/item?id=42311342</id>
+        <link href="https://news.ycombinator.com/item?id=42311342"/>
+        <updated>2024-12-03T20:59:16.000Z</updated>
+        <summary type="html"><![CDATA[Disclosure: HPC admin who works with NIVIDA cards here.
+Because, no. It's not as simple as that.
+NVIDIA has a complete ecosystem now. They have cards. They have cards of cards (platforms), which they produce, validate and sell. They have NVLink crossbars and switches which connects these cards on their card of cards with very high speeds and low latency.
+For inter-server communication they have libraries which coordinate cards, workloads and computations.
+They bought Mellanox, but that can be used by anyone, so there's no lock-in for now.
+As a tangent, NVIDIA has a whole set of standards for pumping tremendous amount of data in and out of these mesh of cards. Let it be GPU-Direct storage or specialized daemons which handle data transfers on and off cards.
+If you think that you can connect n cards on PCIe bus and just send workloads to them and solve problems magically, you'll hurt yourself a lot, both performance and psychology wise.
+You have to build a stack which can perform these things with maximum possible performance to be able to compute with NVIDIA. It's not just emulating CUDA, now. Esp., on the high end of the AI spectrum (GenAI, MultiCard, MultiSystem, etc.).
+For other lower end, multi-tenant scenarios, they have card virtualization, MIG, etc. for card sharing. You have to complete on that, too, for cloud and smaller applications.]]></summary>
+        <author>
+            <name>bayindirh</name>
         </author>
     </entry>
     <entry>
@@ -325,6 +385,16 @@ South]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by tablatom in "Company claims 1k% price hike drove it from VMware to open source rival"]]></title>
+        <id>https://news.ycombinator.com/item?id=42305253</id>
+        <link href="https://news.ycombinator.com/item?id=42305253"/>
+        <updated>2024-12-03T12:02:20.000Z</updated>
+        <summary type="html"><![CDATA[Off topic but if I may. The way people use percentages to express multiples is confusing. A doubling is a 100% increase. So a 200% increase is 3x, and so on. Then at some point we forget about the +1 and 1000% is "10 times the sum it previously paid for software licenses". Just a pet peeve I guess : )]]></summary>
+        <author>
+            <name>tablatom</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Documenting Lender Specialization]]></title>
         <id>https://libertystreeteconomics.newyorkfed.org/?p=32769</id>
         <link href="https://libertystreeteconomics.newyorkfed.org/2024/12/documenting-lender-specialization/"/>
@@ -547,6 +617,18 @@ The Universe is Neutral. It Neither Loves Nor Hates You - I am all for the power
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by outworlder in "Fish have a brain microbiome – could humans have one too?"]]></title>
+        <id>https://news.ycombinator.com/item?id=42299383</id>
+        <link href="https://news.ycombinator.com/item?id=42299383"/>
+        <updated>2024-12-02T19:17:14.000Z</updated>
+        <summary type="html"><![CDATA[>  it seems to me as a layman that the more radical proposition would be that the blood-brain barrier would be 100% effective at keeping out all bacteria,
+Bacteria is not usually found in most organs in the body though. Even more so in an organ as important as the brain that even our own immune system doesn't have access. The brain has its own cells to do that job. In order for bacteria to cross the blood brain barrier you need bacteria in the blood first, where they aren't normally found without getting under fire.
+Having bacteria in the gut is more obvious and makes more sense.]]></summary>
+        <author>
+            <name>outworlder</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 12/1/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=283183</id>
         <link href="https://www.nakedcapitalism.com/2024/12/200pm-water-cooler-12-1-2024.html"/>
@@ -564,6 +646,17 @@ The Universe is Neutral. It Neither Loves Nor Hates You - I am all for the power
         <summary type="html"><![CDATA[I kind of like Root's approach, just make three separate rulebooks. One quickstart guide, one "normal" rulebook, and one "law" type rulebook laying out everything in almost procedural style with clear and consistent definitions etc. Many games could benefit from that.]]></summary>
         <author>
             <name>bondarchuk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by latexr in "World Labs: Generate 3D worlds from a single image"]]></title>
+        <id>https://news.ycombinator.com/item?id=42298159</id>
+        <link href="https://news.ycombinator.com/item?id=42298159"/>
+        <updated>2024-12-02T17:12:50.000Z</updated>
+        <summary type="html"><![CDATA[Once you try the demos, the animated image at the top feels misleading. Each segment cuts at just the right point to make you think you’d be able continue exploring these vast worlds, but in practice you can only walk a couple os steps before hitting an invisible wall, which becomes more frustrating than not being able to move at all. It feels like being trapped in a box. My reaction went from impressed to disappointed fast.
+I get these are early steps, but they oversold it.]]></summary>
+        <author>
+            <name>latexr</name>
         </author>
     </entry>
     <entry>
@@ -629,13 +722,15 @@ If 18a is not ready I think the best case scenario for Intel is a merger with AM
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Erdogan Backstabs His Way Into Center of Middle East Conflict]]></title>
-        <id>https://www.nakedcapitalism.com/?p=283120</id>
-        <link href="https://www.nakedcapitalism.com/2024/12/erdogan-backstabs-his-way-into-center-of-middle-east-conflict.html"/>
-        <updated>2024-12-02T10:00:05.000Z</updated>
-        <summary type="html"><![CDATA[Ankara’s ongoing support for extremist paramilitary groups in Syria threatens ties with Russia and China, and by aiding Israel he insults the Turkish people who overwhelmingly oppose US-Israel actions in the region.]]></summary>
+        <title type="html"><![CDATA[New comment by Macha in "Proposed amendment to legal presumption about the reliability of computers"]]></title>
+        <id>https://news.ycombinator.com/item?id=42295039</id>
+        <link href="https://news.ycombinator.com/item?id=42295039"/>
+        <updated>2024-12-02T11:13:40.000Z</updated>
+        <summary type="html"><![CDATA[For those not familiar with recent UK scandals, there has been one ongoing for a few years where there was a bug in a system designed by Fujitsu that was calculating the finances for post offices. This resulted in the system quoting wrong balances for post offices, and when that didn't match the actual cash in hand, resulted in prosecutions of the postmasters responsible for those offices which in turn led to convictions, dismissals, fines, imprisonments, and suicides over a 15 year period as the computer system was presumed correct.
+Anyway, it was later proven the computer system was incorrect but the government there dragged their heels on exoneration and compensation.
+https://en.wikipedia.org/wiki/British_Post_Office_scandal]]></summary>
         <author>
-            <name>Conor Gallagher</name>
+            <name>Macha</name>
         </author>
     </entry>
     <entry>
@@ -776,6 +871,18 @@ I don’t know what to do with this collection of meaningless, pointless words.]
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by dataviz1000 in "Restaurant Menu Tricks (2020)"]]></title>
+        <id>https://news.ycombinator.com/item?id=42291414</id>
+        <link href="https://news.ycombinator.com/item?id=42291414"/>
+        <updated>2024-12-01T23:06:02.000Z</updated>
+        <summary type="html"><![CDATA[I was a fine dining chef for 17 years. If you were in San Francisco during the 90s, I might have cooked for you. A simple way to increase demand is to remove or change the least popular menu item every week or every month. This technique has been so successful for me I wouldn't waste much time doing anything else. Once I made a Napoleon pastry for a desert special while at La Folie on Polk st. which sadly closed recently. I had extra pastry cream and made Paris-Brest because we never threw out food. One waitress sold Napoleon on every table and the other waitress sold nothing but Paris-Brest. The dishes were fundamentally the same so I made both anytime I did one or the other as a special because waitstaff for reasons not explained in the article will sell nothing but one and others the other. I made cheese dishes to sell before the desert and fruit soups in the summer. This is the mid 90s and we were tracking data. The chef pulled me aside and showed me the sales from the previous month because I sold 1.2 deserts per customer.
+Nonetheless, for the last six years I cooked I was a private chef on a mega yacht. People ask me if the guests told me what they want to eat. I say never because I never asked what people want to eat. I cooked what I want to eat and then make enough for the guests and crew. It is the best menu strategy. In fine dining, the customers make decisions all day long and in the case of being a private yacht chef, the guests are making million and billion dollar decisions. The last thing they want to do is have to decide what to eat for dinner. The family I cooked for rarely ate off the boat. And when they did it was because I said something like, "I hear there is a very good restaurant in St. Barts named ....," which was code for "I want the night off."
+I believe the reason one waitress would sell every last Paris-Brest and the other would sell every last Napoleon was because they told the guests in the restaurant what they wanted to eat for desert. They made the decision for the guests.]]></summary>
+        <author>
+            <name>dataviz1000</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by GeneticGenesis in "What will enter the public domain in 2025?"]]></title>
         <id>https://news.ycombinator.com/item?id=42291142</id>
         <link href="https://news.ycombinator.com/item?id=42291142"/>
@@ -890,6 +997,26 @@ The post Israel’s “Red Cross” Contributes to Apartheid in the West Bank ap
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by danpalmer in "A Brazilian CA trusted only by Microsoft has issued a certificate for google.com"]]></title>
+        <id>https://news.ycombinator.com/item?id=42285229</id>
+        <link href="https://news.ycombinator.com/item?id=42285229"/>
+        <updated>2024-12-01T00:47:04.000Z</updated>
+        <summary type="html"><![CDATA[This is a bad look. I expected the result would be Chrome and Firefox dropping trust for this CA, but they already don't trust this CA. Arguably, Microsoft/Windows trusting a CA that the other big players choose not to trust is an even worse look for Microsoft.]]></summary>
+        <author>
+            <name>danpalmer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by the_hoser in "Ntfs2btrfs does in-place conversion of NTFS filesystem to the open-source Btrfs"]]></title>
+        <id>https://news.ycombinator.com/item?id=42284149</id>
+        <link href="https://news.ycombinator.com/item?id=42284149"/>
+        <updated>2024-11-30T21:26:59.000Z</updated>
+        <summary type="html"><![CDATA[The degree of hold-my-beer here is off the charts.]]></summary>
+        <author>
+            <name>the_hoser</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[If Lebanon, Why Not Gaza?]]></title>
         <id>https://www.counterpunch.org/?p=345432</id>
         <link href="https://www.counterpunch.org/2024/11/30/if-lebanon-why-not-gaza/"/>
@@ -913,6 +1040,18 @@ The post If Lebanon, Why Not Gaza? appeared first on CounterPunch.org.]]></summa
         <summary type="html"><![CDATA[I posted this piece in RenewEconomy a couple of months ago. It didn’t convince the commenters then, and I don’t expect it to be any different here, but I’m putting it on the record anyway. AI won’t use as much electricity as we are told, and it’s not a reason to slow transition to renewables […]]]></summary>
         <author>
             <name>John Q</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by MaxBarraclough in "What does this button do? – My new car has a mysterious and undocumented switch"]]></title>
+        <id>https://news.ycombinator.com/item?id=42278571</id>
+        <link href="https://news.ycombinator.com/item?id=42278571"/>
+        <updated>2024-11-30T01:01:50.000Z</updated>
+        <summary type="html"><![CDATA[Last year Mozilla did a study on the privacy of modern cars. Every car they tested showed terrible privacy problems.
+Privacy Nightmare on Wheels: Every Car Brand Reviewed by Mozilla https://news.ycombinator.com/item?id=37443644
+(edit I see I'm not the first to link this in this thread)]]></summary>
+        <author>
+            <name>MaxBarraclough</name>
         </author>
     </entry>
     <entry>
@@ -1065,39 +1204,6 @@ The post Emergency Summit Regarding Antarctic Meltdown appeared first on Counter
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A Win for Renters]]></title>
-        <id>https://www.counterpunch.org/?p=345167</id>
-        <link href="https://www.counterpunch.org/2024/11/29/a-win-for-renters/"/>
-        <updated>2024-11-29T06:58:13.000Z</updated>
-        <summary type="html"><![CDATA[With over 2,300,000 renters in New York City, it’s a good bet most of them had to pay exorbitant brokers’ fees to land their apartments. Those brokers charged a fortune – natch, because with a 2023 city rental vacancy rate of 1.41 percent, they could set their fees sky high. But on November 13, the city council approved a new law with a veto-proof majority to make landlords fork over those fees. According to the New York Times that day, “the fee is typically more than one month’s rent, and right now the median rent is roughly $3,4000.” So up-front costs to get a new place in Gotham were often over $10,000. How ‘bout them apples? More
-The post A Win for Renters appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>Eve Ottenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Animal Agriculture Threatens Freshwater Supplies]]></title>
-        <id>https://www.counterpunch.org/?p=345192</id>
-        <link href="https://www.counterpunch.org/2024/11/29/how-animal-agriculture-threatens-freshwater-supplies/"/>
-        <updated>2024-11-29T06:58:04.000Z</updated>
-        <summary type="html"><![CDATA[Agricultural runoff from barnyards, feedlots, and cropland carries pollutants like manure, fertilizers, ammonia, pesticides, livestock waste, toxins from farm equipment, soil, and sediment to local water sources. According to a February 2022 article by the Public Interest Research Groups, the factory farming industry is one of the leading causes of water pollution in the United States. The animal agriculture industry is also a front-runner for water risk, which makes it an environmentally unsustainable practice. More
-The post How Animal Agriculture Threatens Freshwater Supplies appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>Vicky Bond</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trump’s Already Rewarding Fossil Fuel Executives for Funding His Campaign]]></title>
-        <id>https://www.counterpunch.org/?p=345266</id>
-        <link href="https://www.counterpunch.org/2024/11/29/trumps-already-rewarding-fossil-fuel-executives-for-funding-his-campaign/"/>
-        <updated>2024-11-29T06:56:42.000Z</updated>
-        <summary type="html"><![CDATA[During his campaign, Donald Trump publicly promised to reward oil and gas executives handsomely in exchange for funding his campaign. Within weeks of winning the election, he’s making good on his promise by tapping oil and gas executive Chris Wright to lead the Department of Energy. Wright has zero experience in running a federal agency.  More
-The post Trump’s Already Rewarding Fossil Fuel Executives for Funding His Campaign appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>Sonali Kolhatkar</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by hn_throwaway_99 in "Engineers do not get to make startup mistakes when they build ledgers"]]></title>
         <id>https://news.ycombinator.com/item?id=42270266</id>
         <link href="https://news.ycombinator.com/item?id=42270266"/>
@@ -1135,6 +1241,17 @@ All of these built up, and after so many years of maintaini…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by themgt in "Hetzner cuts traffic on US VPSs, raises prices"]]></title>
+        <id>https://news.ycombinator.com/item?id=42269059</id>
+        <link href="https://news.ycombinator.com/item?id=42269059"/>
+        <updated>2024-11-28T22:37:51.000Z</updated>
+        <summary type="html"><![CDATA[As a Hetzner bandwidth enjoyer affected by this, this is why (HN cough) multi-cloud/dedi k3s is great, because if you get rug pulled you just migrate to another provider with better prices.
+That said, $1/TB for bandwidth overage seems pretty fair. I empathize with the complaining but if the new price is such a ripoff everyone should be recommending what cloud VM provider they're migrating to for a better deal.]]></summary>
+        <author>
+            <name>themgt</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Threads to allow users to select following feed as their default]]></title>
         <id>https://disassociated.com/?p=8903</id>
         <link href="https://disassociated.com/threads-allow-users-select-following-feed-default/"/>
@@ -1162,6 +1279,19 @@ All of these built up, and after so many years of maintaini…]]></summary>
         <summary type="html"><![CDATA[How America infected Ukraine, 'Israel', and Taiwan and made them rabid]]></summary>
         <author>
             <name>indi.ca</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by nine_k in "Malware can turn off webcam LED and record video, demonstrated on ThinkPad X230"]]></title>
+        <id>https://news.ycombinator.com/item?id=42262624</id>
+        <link href="https://news.ycombinator.com/item?id=42262624"/>
+        <updated>2024-11-28T05:05:19.000Z</updated>
+        <summary type="html"><![CDATA[That's backwards.
+The LED should be connected to camera's power, or maybe camera's "enable" signal. It should not be operable via any firmware in any way.
+The led also has to be connected through a one-shot trigger (a transistor + a capacitor) so that it would light up, say, for at least 500 ms no matter how short the input pulse is. This would prevent making single shots hard to notice.
+Doing that, of course, would incur a few cents more in BOM, and quite a bit more in being paranoid, well, I mean, customer-centric.]]></summary>
+        <author>
+            <name>nine_k</name>
         </author>
     </entry>
     <entry>
@@ -1214,11 +1344,23 @@ Health…]]></summary>
         <id>https://marblethoughts.bearblog.dev/how-to-be-single/</id>
         <link href="https://marblethoughts.bearblog.dev/how-to-be-single/"/>
         <updated>2024-11-27T22:35:00.000Z</updated>
-        <summary type="html"><![CDATA[I’m trying to catch up with writing, but it seems like I’m trying to catch up with life. A lot of things happened while I was gone. I really need to be reflective and focus on processing my thoughts through writing. I’m back baby.
+        <summary type="html"><![CDATA[[Edited 3 Dec 2024]: I wrote a part 2 as an extension to this blog post.
+I’m trying to catch up with writing, but it seems like I’m trying to catch up with life. A lot of things happened while I was gone. I really need to be reflective and focus on processing my thoughts through writing. I’m back baby.
 Every time I experience a break up, I watch “How To Be Single” (2016). It came out when I was near the end of the high school and really didn’t have much dating experience. It’s almost a decade, and I’ve had a lot of romantic misadventures under my belt at this point. I’ve experience everything that movie showed. Also, I just like how charming Dakota Johnson is in this. Every time I watch the film, I relate to all of the characters more and more with every romantic connection I’ve had.
-So right now, I feel quite sad. Currently spiraling from another break up agai…]]></summary>
+So ri…]]></summary>
         <author>
             <name>Bear Blog Trending Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by axoltl in "Malware can turn off webcam LED and record video, demonstrated on ThinkPad X230"]]></title>
+        <id>https://news.ycombinator.com/item?id=42260437</id>
+        <link href="https://news.ycombinator.com/item?id=42260437"/>
+        <updated>2024-11-27T22:27:56.000Z</updated>
+        <summary type="html"><![CDATA[I worked on this feature for Apple Macbooks around 2014 as the security architect. All Macbooks since then have a camera indicator LED that is (barring the physical removal of the LED) always on at least 3 seconds. This feature is implemented in gates in the power management controller on the camera sub-board.
+There's a LOT of pitfalls still (what if you manage to pull power from the entire camera sub-assembly?), this was a fun one to threat-model.]]></summary>
+        <author>
+            <name>axoltl</name>
         </author>
     </entry>
     <entry>
@@ -1242,6 +1384,16 @@ So right now, I feel quite sad. Currently spiraling from another break up agai�
 https://daringfireball.net/2019/02/on_covering_webcams]]></summary>
         <author>
             <name>542458</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by epistasis in "Malware can turn off webcam LED and record video, demonstrated on ThinkPad X230"]]></title>
+        <id>https://news.ycombinator.com/item?id=42259482</id>
+        <link href="https://news.ycombinator.com/item?id=42259482"/>
+        <updated>2024-11-27T20:36:17.000Z</updated>
+        <summary type="html"><![CDATA[I can see why some people might be concerned about the camera, but I'm far more concerned by the microphone. There's far more sensitive and actionable information that can be gathered from me that way! I'm glad that macOS started putting a light in the menubar when the microphone is in use, but I'd prefer to have unhackable hardware for that instead.]]></summary>
+        <author>
+            <name>epistasis</name>
         </author>
     </entry>
     <entry>
@@ -1283,55 +1435,6 @@ Having the LED control exposed through the firmware completely defeats this.]]><
         <summary type="html"><![CDATA[Today marks an exciting milestone for Eclipse developers everywhere: we’re thrilled to announce the public preview of Amazon Q Developer in the Eclipse IDE. This integration brings the power of AI-driven development directly into one of the most popular development environments. In this blog post, we’ll explore some of its game-changing features, and show you […]]]></summary>
         <author>
             <name>Vinicius Senger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[kirby vs. this blog post]]></title>
-        <id>https://mgx.me/kirby-vs-this-blog-post/</id>
-        <link href="https://mgx.me/kirby-vs-this-blog-post/"/>
-        <updated>2024-11-27T16:28:43.327Z</updated>
-        <summary type="html"><![CDATA[:root{--inhale-duration:1000ms;--inhale-easing:cubic-bezier(0.25, 0.1, 0.25, 1)}.content{display:flex;align-items:flex-start;position:relative;width:100%}.kirby{min-width: 0;box-shadow:none;width:50px;height:50px;image-rendering:pixelated;position:absolute;left:0;top:0;z-index:10;transition:transform 0.3s ease}#text-to-inhale{padding-left:40px;position:relative;width:100%}.character{display:inline-block;transition:transform var(--inhale-duration) var(--inhale-easing),opacity var(--inhale-duration) var(--inhale-easing);position:relative;z-index:1}.character.inhaling{position:absolute;will-change:transform,opacity}.character.inhaled{opacity:0;transform:scale(.1) rotate(360deg);width:0;margin:0;padding:0}.credits{position:absolute;right:0;font-size:90%;top:20px;color:var(--sub-color);opacity:…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple TV  购买和使用不完全指北]]></title>
-        <id>https://blog.solazy.me/my-apple-tv-life/</id>
-        <link href="https://blog.solazy.me/my-apple-tv-life/"/>
-        <updated>2024-11-27T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[/ 本文会持续更新
-版本
-  更新时间
-  更新内容
-
-
-
-
-  1.0
-  20241127
-  初版
-
-
-
-
-此文就是记录从我调研到购买和使用的一系列功课的汇总，如果你也桌备购入，希望能够帮助到你。
-购前
-🤔 如果你要使用 Apple TV 就意味着……
-在中国大陆地区，想要使用 Apple TV 还是需要一些技巧的，这里作为前提先列出来：
-一个 Apple ID（为了体验最大化，并不推荐使用中国大陆地区的 Apple ID）；
-一台电视或一台显示器；
-流畅的网络环境（为了体验最大化，最好是比较科学的网络条件）；
-一条 HDMI2.0/2.1 连接线（随包装不会附赠）；
-接下来，我会逐一讲解上述因素。
-🍎 Apple ID
-使用 Apple 设备和服务的基础因素。这里需要注意的是，由于Apple TV 并没有正式在中国大陆地区销售，并不推荐你使用中国大陆地区的 Apple ID 进行登录和使用，因为体验会收到最大程度的折损。
-使用中国大陆地区的 Apple ID 登录时，Apple TV 将没有 App Store ，无法下载新的 App。同时预装的 Apple Music 也不会显示，即使该 Apple ID 已经订阅了中国大陆地区的 Apple Music 亦无法使用相关功能。但是，若先用其他地区的 Apple ID 登录，并在 APP Store 下载第三方 APP，再切换回中国大陆地区的 Apple ID，则已下载的第三方 APP 仍会保留。
-所以，如果你想要正常体验 Apple TV 的原生各项服务，下载并享受其他第三方 App，请使用非大陆地区 Apple ID，我个人推荐使用美区 Apple ID。
-📺 显示器/电视
-最推荐的当然是一台电视，如果你有足够大的空间的话。否则，一台合适尺寸的显示器也是可以的。比较理想的是一台支持杜比视界的 4k 电视/显…]]></summary>
-        <author>
-            <name>Bear Blog Trending Posts</name>
         </author>
     </entry>
 </feed>
