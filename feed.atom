@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-22T18:31:25.213Z</id>
+    <id>urn:2024-12-23T01:54:57.492Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-12-22T18:31:25.213Z</updated>
+    <updated>2024-12-23T01:54:57.492Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[I’ll just be asking for you… Telstra’s 2023 Christmas advert]]></title>
+        <id>https://disassociated.com/?p=8983</id>
+        <link href="https://disassociated.com/telstras-2023-christmas-advert/"/>
+        <updated>2024-12-22T20:00:28.000Z</updated>
+        <summary type="html"><![CDATA[Let’s flashback a year. Australian telecommunications company Telstra might have hit the right note with its Christmas theme advertising in 2023, by way of this ninety second commercial. The song excerpted in the ad is Oh Christmas, by Brisbane based duo Zefereli. Listen to the full length version here. It may not happen often, but […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Snow and heatwaves: this is Christmas in Australia]]></title>
+        <id>https://disassociated.com/?p=8988</id>
+        <link href="https://disassociated.com/snow-heatwaves-christmas-australia/"/>
+        <updated>2024-12-22T19:30:22.000Z</updated>
+        <summary type="html"><![CDATA[Weather that is fine and not too warm seems to the Christmas Day weather forecast for most of Australia. But the days either side will be a different matter, writes Tom Saunders for the ABC: The tumultuous week of variability will commence with a wintry Monday for the south-east, even cold enough for brief snow […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by jph00 in "Why we use our own hardware"]]></title>
+        <id>https://news.ycombinator.com/item?id=42488447</id>
+        <link href="https://news.ycombinator.com/item?id=42488447"/>
+        <updated>2024-12-22T19:26:59.000Z</updated>
+        <summary type="html"><![CDATA[The original answer to "why does FastMail use their own hardware" is that when I started the company in 1999 there weren't many options. I actually originally used a single bare metal server at Rackspace, which at that time was a small scrappy startup. IIRC it cost $70/month. There weren't really practical VPS or SaaS alternatives back then for what I needed.
+Rob (the author of the linked article) joined a few months later, and when we got too big for our Rackspace server, we looked at the cost of buying something and doing colo instead. The biggest challenge was trying to convince a vendor to let me use my Australian credit card but ship the server to a US address (we decided to use NYI for colo, based in NY). It turned out that IBM were able to do that, so they got our business. Both IBM and NYI were great for handling remote hands and hardware issues, which obviously we couldn't do from Australia.
+A little bit later Bron joined us, and he automated absolutely everything, so that we were able to just have NYI plug in a new machine and it would set itself up from scratch. This all just used regular Linux capabilities and simple open source tools, plus of course a whole lot of Perl.
+As the fortunes of AWS et al rose and rose and rose, I kept looking at their pricing at features and kept wondering what I was missing. They seemed orders of magnitude more expensive for something that was more complex to manage and would have locked us into a specific vendor's tooling. But everyone seemed to be flocking to them.
+To this day I still use bare metal servers for pretty much everything, and still love having the ability to use simple universally-applicable tools like plain Linux, Bash, Perl, Python, and SSH, to handle everything cheaply and reliably.
+I've been doing some planning over the last couple of years on teaching a course on how to do all this, although I was worried that folks are too locked in to SaaS stuff -- but perhaps things are changing and there might be interest in that after all?...]]></summary>
+        <author>
+            <name>jph00</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Holiday Schedule and Moderation Holiday]]></title>
         <id>https://www.nakedcapitalism.com/?p=284403</id>
@@ -623,17 +658,6 @@ Note to self: you should have added random delays before and after making the PO
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by encoderer in "A 10-Year Battery for AirTag"]]></title>
-        <id>https://news.ycombinator.com/item?id=42465202</id>
-        <link href="https://news.ycombinator.com/item?id=42465202"/>
-        <updated>2024-12-19T20:06:57.000Z</updated>
-        <summary type="html"><![CDATA[There exists a small percentage of men who will go absolutely savage on somebody for stealing from them, and the existence of those people is probably a bigger crime deterrent than the police.
-So I say, shine on you crazy air tag tracking vigilante diamonds.]]></summary>
-        <author>
-            <name>encoderer</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Shoot for the stars: Tim Teege wants to run a marathon on the Moon]]></title>
         <id>https://disassociated.com/?p=8977</id>
         <link href="https://disassociated.com/shoot-for-the-stars-tim-teege-wants-to-run-a-marathon-on-the-moon/"/>
@@ -1130,27 +1154,6 @@ I'd go farther to argue that the larger an ecosystem/market is, the more untrust
         <summary type="html"><![CDATA[Internationalization and localization require more than translation: tone, images, date/time and number formatting, among other items, need to be considered.]]></summary>
         <author>
             <name>Alejandro Diaz-Garcia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Julian Bourg: &ldquo;Justice on Trial&rdquo;]]></title>
-        <id>https://newleftreview.org/sidecar/posts/justice-on-trial</id>
-        <link href="https://newleftreview.org/sidecar/posts/justice-on-trial"/>
-        <updated>2024-12-16T10:14:12.000Z</updated>
-        <summary type="html"><![CDATA[Cédric Kahn’s ‘The Goldman Case’.]]></summary>
-        <author>
-            <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migration Automation: Easing the Jenkins → GHA shift with help from AI]]></title>
-        <id>https://slack.engineering/?p=17350</id>
-        <link href="https://slack.engineering/migration-automation-easing-the-jenkins-%e2%86%92-gha-shift-with-help-from-ai/"/>
-        <updated>2024-12-16T09:00:03.000Z</updated>
-        <summary type="html"><![CDATA[Overview The past few months have been exciting times for Slack’s CI infrastructure. After years of developer frustration with Jenkins (everything from security issues to downtime to generally poor UX) internal pressure led us to move a majority of Slack’s CI jobs from Jenkins to GitHub Actions.  My intern project at Slack this summer involved…
-The post Migration Automation: Easing the Jenkins → GHA shift with help from AI appeared first on Engineering at Slack.]]></summary>
-        <author>
-            <name>Zhengyu Shen</name>
         </author>
     </entry>
 </feed>
