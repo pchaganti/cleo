@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-26T01:51:56.477Z</id>
+    <id>urn:2024-12-26T06:35:02.840Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-12-26T01:51:56.477Z</updated>
+    <updated>2024-12-26T06:35:02.840Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -247,6 +247,22 @@ This, right here, is how you communicate non-goals of a project. Just perfect op
         <summary type="html"><![CDATA[~ Today's Water Cooler: Christmas Eve open thread ~]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by prhn in "Why making friends as an adult is harder"]]></title>
+        <id>https://news.ycombinator.com/item?id=42503099</id>
+        <link href="https://news.ycombinator.com/item?id=42503099"/>
+        <updated>2024-12-24T16:58:11.000Z</updated>
+        <summary type="html"><![CDATA[I've made more friends more easily in my 40s than any other time in my life, and I'm a relatively quiet and disagreeable person.
+Making connections with people you're around frequently is easy. The problem is that adult life doesn't throw you into those situations post-college outside of work.
+Now it's on you. Find a group. Sports are the easiest. You will absolutely make strong, long lasting friendships if you play sports. It doesn't matter if you're athletic or talented.
+You just gotta show up and see the same people every week over and over. If you're a reasonably well adjusted person (and even that sometimes doesn't matter) you will make friends.
+Again, making connections and friends is easy. Being around the same people regularly is difficult. Solve that problem and the friendships will come with little effort.
+I have found that people generally understand the value of friendship and are welcoming to newcomers. It's been a very refreshing surprise as I've gotten older.
+Get out there!]]></summary>
+        <author>
+            <name>prhn</name>
         </author>
     </entry>
     <entry>
@@ -628,6 +644,19 @@ Maybe it won't get much better? Or maybe it'll take decades instead of years? Ok
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by jschafer in "How bloom filters made SQLite 10x faster"]]></title>
+        <id>https://news.ycombinator.com/item?id=42490362</id>
+        <link href="https://news.ycombinator.com/item?id=42490362"/>
+        <updated>2024-12-23T00:11:27.000Z</updated>
+        <summary type="html"><![CDATA[Note that the measurements in the paper were made before they fixed a bug where they confused bits and bytes.
+So SQLite only used 1/8 of the reserved bloom filter space, thus increasing the false positive rate significantly:
+https://sqlite.org/src/info/56d9bb7aa63043f5
+I found and reported the bug because I wanted to know how the bloom filters work in SQLite for my uni seminar paper. Still wondering if one can find those kind of bugs with test cases.]]></summary>
+        <author>
+            <name>jschafer</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[I’ll just be asking for you… Telstra’s 2023 Christmas advert]]></title>
         <id>https://disassociated.com/?p=8983</id>
         <link href="https://disassociated.com/telstras-2023-christmas-advert/"/>
@@ -660,6 +689,17 @@ To this day I still use bare metal servers for pretty much everything, and still
 I've been doing some planning over the last couple of years on teaching a course on how to do all this, although I was worried that folks are too locked in to SaaS stuff -- but perhaps things are changing and there might be interest in that after all?...]]></summary>
         <author>
             <name>jph00</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by cwzwarich in "Rosetta 2 creator leaves Apple to work on Lean full-time"]]></title>
+        <id>https://news.ycombinator.com/item?id=42484409</id>
+        <link href="https://news.ycombinator.com/item?id=42484409"/>
+        <updated>2024-12-22T04:38:33.000Z</updated>
+        <summary type="html"><![CDATA[I was the only person working on it for ~2 years, and I wrote the majority of the code in the first version that shipped. That said, I’m definitely glad that I eventually found someone else (and later a whole team) to work on it with me, and it wouldn’t have been as successful without that.
+When people think of a binary translator, they usually just think of the ISA aspects, as opposed to the complicated interactions with the OS etc. that can consume just as much (or even more) engineering effort overall.]]></summary>
+        <author>
+            <name>cwzwarich</name>
         </author>
     </entry>
     <entry>
@@ -835,6 +875,17 @@ Note to self: you should have added random delays before and after making the PO
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by encoderer in "A 10-Year Battery for AirTag"]]></title>
+        <id>https://news.ycombinator.com/item?id=42465202</id>
+        <link href="https://news.ycombinator.com/item?id=42465202"/>
+        <updated>2024-12-19T20:06:57.000Z</updated>
+        <summary type="html"><![CDATA[There exists a small percentage of men who will go absolutely savage on somebody for stealing from them, and the existence of those people is probably a bigger crime deterrent than the police.
+So I say, shine on you crazy air tag tracking vigilante diamonds.]]></summary>
+        <author>
+            <name>encoderer</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Shoot for the stars: Tim Teege wants to run a marathon on the Moon]]></title>
         <id>https://disassociated.com/?p=8977</id>
         <link href="https://disassociated.com/shoot-for-the-stars-tim-teege-wants-to-run-a-marathon-on-the-moon/"/>
@@ -852,28 +903,6 @@ Note to self: you should have added random delays before and after making the PO
         <summary type="html"><![CDATA[Unleash your creativity: Stable Diffusion 3.5 Large in Amazon Bedrock generates stunning high-resolution images with superior detail, style variety, and prompt adherence for accelerated visual content creation.]]></summary>
         <author>
             <name>Channy Yun (윤석찬)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Indexing code at scale with Glean]]></title>
-        <id>https://engineering.fb.com/?p=22095</id>
-        <link href="https://engineering.fb.com/2024/12/19/developer-tools/glean-open-source-code-indexing/"/>
-        <updated>2024-12-19T14:00:29.000Z</updated>
-        <summary type="html"><![CDATA[We’re sharing details about Glean, Meta’s open source system for collecting, deriving, and working with facts about source code. In this blog post we’ll talk about why a system like Glean is important, explain the rationale for Glean’s design, and run through some of the ways we’re using Glean to supercharge our developer tooling at [...]
-Read More...
-The post Indexing code at scale with Glean appeared first on Engineering at Meta.]]></summary>
-        <author>
-            <name>Engineering at Meta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The role of email security in reducing user risk amid rising threats]]></title>
-        <id>4fVFiDpaCJhYAFUvAocDDC</id>
-        <link href="https://blog.cloudflare.com/the-role-of-email-security-in-reducing-user-risk-amid-rising-threats/"/>
-        <updated>2024-12-19T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As threats evolve, SOC teams must adapt their operations. With Cloudflare’s holistic approach to managing user-based risk, SOC teams can operate more efficiently and reduce the likelihood of a breach.]]></summary>
-        <author>
-            <name>Ayush Kumar</name>
         </author>
     </entry>
 </feed>
