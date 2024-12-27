@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-26T18:33:25.281Z</id>
+    <id>urn:2024-12-27T01:52:36.735Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-12-26T18:33:25.281Z</updated>
+    <updated>2024-12-27T01:52:36.735Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New comment by mitchellh in "Ghostty 1.0"]]></title>
+        <id>https://news.ycombinator.com/item?id=42517852</id>
+        <link href="https://news.ycombinator.com/item?id=42517852"/>
+        <updated>2024-12-26T21:12:10.000Z</updated>
+        <summary type="html"><![CDATA[https://mitchellh.com/writing/ghostty-1-0-reflection]]></summary>
+        <author>
+            <name>mitchellh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The web today is not necessarily worse than the early web]]></title>
+        <id>https://disassociated.com/?p=8992</id>
+        <link href="https://disassociated.com/the-web-today-is-not-necessarily-worse-than-the-early-web/"/>
+        <updated>2024-12-26T20:00:36.000Z</updated>
+        <summary type="html"><![CDATA[Xavier H.M., writing on his Mastodon page: Your neocities blog is cute but I can’t read the 5pt font and your cursor is the size of a bread crumb. The web page is loading so many gifs my computer sounds like a boeing 747. disassociated once, in a way, looked like a Neocities website. Or, […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Time, not dark energy, may be causing the universe to expand]]></title>
+        <id>https://disassociated.com/?p=9004</id>
+        <link href="https://disassociated.com/time-not-dark-energy-causing-universe-expand/"/>
+        <updated>2024-12-26T19:30:19.000Z</updated>
+        <summary type="html"><![CDATA[Dark energy does not exist, and the universe, while continuing to expand, is not doing so in a uniform fashion. In other words, the cosmos may look more like a potato, rather than a sphere. This according to recent research by astronomers and scientists at the University of Canterbury (UC), based in Christchurch, New Zealand. […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pack plenty of books and take yourself into internal exile in 2025]]></title>
+        <id>https://disassociated.com/?p=9007</id>
+        <link href="https://disassociated.com/pack-books-internal-exile-2025/"/>
+        <updated>2024-12-26T19:00:16.000Z</updated>
+        <summary type="html"><![CDATA[The introverts among us live almost permanently in a sort of internal exile, or a rich inner life, as Waleed Aly referred to it during the COVID-19 lockdowns. But the idea of getting away from it all, without actually going anywhere, is gaining traction more widely, writes Jacqueline Maley, for The Sydney Morning Herald. This […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2:00PM Water Cooler 12/26/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=284627</id>
+        <link href="https://www.nakedcapitalism.com/2024/12/200pm-water-cooler-12-26-2024.html"/>
+        <updated>2024-12-26T19:00:06.000Z</updated>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics; What happens if the House fails to elect a new Speaker quickly? Justice Department is conflicted on Mangione prosecution; A "silent" Covid surge? Making your garden safe for robins in the winter ~]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Announcing Bottlerocket FIPS variants]]></title>
         <id>16e90ff8cb5363cf2d70b6dd873e01b284520e09</id>
@@ -462,16 +512,6 @@ Capitalism]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Israelis Invade Syria: Who Will Stop Israel?]]></title>
-        <id>https://www.nakedcapitalism.com/?p=284526</id>
-        <link href="https://www.nakedcapitalism.com/2024/12/israelis-invade-syria-who-will-stop-israel.html"/>
-        <updated>2024-12-24T10:50:06.000Z</updated>
-        <summary type="html"><![CDATA[Israel is in the midst of a land grab in Syria. Ex Ansar Allah, the disapproving world majority merely finger-wags.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[When the world logs off: Christmas, New Year’s, and the Internet’s holiday rhythm]]></title>
         <id>5hrEiGd7frxGgAirAdHCM0</id>
         <link href="https://blog.cloudflare.com/when-the-world-logs-off-christmas-new-years-and-the-internets-holiday-rhythm/"/>
@@ -666,19 +706,6 @@ Maybe it won't get much better? Or maybe it'll take decades instead of years? Ok
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by jschafer in "How bloom filters made SQLite 10x faster"]]></title>
-        <id>https://news.ycombinator.com/item?id=42490362</id>
-        <link href="https://news.ycombinator.com/item?id=42490362"/>
-        <updated>2024-12-23T00:11:27.000Z</updated>
-        <summary type="html"><![CDATA[Note that the measurements in the paper were made before they fixed a bug where they confused bits and bytes.
-So SQLite only used 1/8 of the reserved bloom filter space, thus increasing the false positive rate significantly:
-https://sqlite.org/src/info/56d9bb7aa63043f5
-I found and reported the bug because I wanted to know how the bloom filters work in SQLite for my uni seminar paper. Still wondering if one can find those kind of bugs with test cases.]]></summary>
-        <author>
-            <name>jschafer</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[I’ll just be asking for you… Telstra’s 2023 Christmas advert]]></title>
         <id>https://disassociated.com/?p=8983</id>
         <link href="https://disassociated.com/telstras-2023-christmas-advert/"/>
@@ -843,32 +870,6 @@ It’s slightly depressing that there are probably more fake Google support staf
         <summary type="html"><![CDATA[Bring ChatGPT to your next video meeting with Cloudflare Calls.]]></summary>
         <author>
             <name>Will Allen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Binding Treaty: Civil society decries corporate influence at the UN]]></title>
-        <id>https://www.cadtm.org/Binding-Treaty-Civil-society-decries-corporate-influence-at-the-UN</id>
-        <link href="https://www.cadtm.org/Binding-Treaty-Civil-society-decries-corporate-influence-at-the-UN"/>
-        <updated>2024-12-20T08:27:39.000Z</updated>
-        <summary type="html"><![CDATA[The historic 10th session of negotiations for a UN treaty to hold transnational corporations (TNCs) accountable for their human rights violations (Binding Treaty) has just started in Geneva, Switzerland. Although originally intended to be held in October 2024, a unilateral and undemocratic decision by the Chair of the negotiations to change the dates just a month before has taken a toll on civil society's physical presence. 
-English
-
-/ 
-Social movements, 
-International Institutions, 
-Multinational corporation]]></summary>
-        <author>
-            <name>CADTM Switzerland , Collective, Les Amis de la Terre</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Configurable Metaflow]]></title>
-        <id>https://medium.com/p/d2fb8e9ba1c6</id>
-        <link href="https://netflixtechblog.com/introducing-configurable-metaflow-d2fb8e9ba1c6?source=rss----2615bd06b42e---4"/>
-        <updated>2024-12-20T07:11:37.000Z</updated>
-        <summary type="html"><![CDATA[David J. Berg*, David Casler^, Romain Cledat*, Qian Huang*, Rui Lin*, Nissan Pow*, Nurcan Sonmez*, Shashank Srikanth*, Chaoying Wang*…]]></summary>
-        <author>
-            <name>Netflix Technology Blog</name>
         </author>
     </entry>
 </feed>
