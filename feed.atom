@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-28T18:31:59.418Z</id>
+    <id>urn:2024-12-29T02:01:21.151Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-12-28T18:31:59.418Z</updated>
+    <updated>2024-12-29T02:01:21.151Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New comment by scosman in "Apple Photos phones home on iOS 18 and macOS 15"]]></title>
+        <id>https://news.ycombinator.com/item?id=42534096</id>
+        <link href="https://news.ycombinator.com/item?id=42534096"/>
+        <updated>2024-12-28T20:03:43.000Z</updated>
+        <summary type="html"><![CDATA["I don't understand most of the technical details of Apple's blog post"
+I do:
+- Client side vectorization: the photo is processed locally, preparing a non-reversible vector representation before sending (think semantic hash).
+- Differential privacy: a decent amount of noise is added the the vector before sending it. Enough to make it impossible to reverse lookup the vector. The noise level here is ε = 0.8, which is quite good privacy.
+- OHTTP relay: it's sent through a 3rd party so Apple never knows your IP address. The contents are encrypted so the 3rd party never doesn't learn anything either (some risk of exposing "IP X is an apple photos user", but nothing about the content of the library).
+- Homomorphic encryption: The lookup work is performed on server with encrypted data. Apple can't decrypt the vector contents, or response contents. Only the client can decrypt the result of the lookup.
+This is what a good privacy story looks like. Multiple levels of privacy security, when any one of the latter 3 should be enough alone to protect privacy.
+"It ought to be up to the individual user to decide their own tolerance for the risk of privacy violations." -> The author themselves looks to be an Apple security researcher, and are saying they can't make an informed choice here.
+I'm not sure what the right call is here. But the conclusion "Thus, the only way to guarantee computing privacy is to not send data off the device." isn't true. There are other tools to provide privacy (DP, homomorphic encryption), while also using services. They are immensely complicated, and user's can't realistically evaluate risk. But if you want features that require larger-than-disk datasets, or frequently changing content, you need tools like this.]]></summary>
+        <author>
+            <name>scosman</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New AI tool will identify diabetes risk 13 years early + 2 more stories]]></title>
         <id>https://newsletter.newsminimalist.com/p/new-ai-tool-will-identify-diabetes-risk-13-years-early-2-more-stories</id>
@@ -62,6 +80,30 @@ The post What’s Left to Say? appeared first on CounterPunch.org.]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by noodlesUK in "The paper passport's days are numbered"]]></title>
+        <id>https://news.ycombinator.com/item?id=42527809</id>
+        <link href="https://news.ycombinator.com/item?id=42527809"/>
+        <updated>2024-12-28T01:40:00.000Z</updated>
+        <summary type="html"><![CDATA[There are significant downsides to the digitalization of travel documents. The biggest one I can think of is ownership - the UK is moving to an entirely digital visa system and bringing in an ESTA style system called ETA for visa free countries. Unfortunately this means that residency cards for noncitizens are being phased out. This means that when the Home Office messes up and accidentally deletes your immigration status, or you are at an airport with no internet access, you have no evidence whatsoever of what status you hold. It also means you will no longer be in possession of any records that might be useful years in the future when the current database containing immigration records will likely have been replaced. It’s much easier to keep a piece of paper around for 30+ years than it is to make sure a digital record doesn’t rot in that time.
+I feel strongly that any future digital travel credentials that are offered by governments should be able to operate entirely offline, and provide records that can be retained by the data subject. That means that revocation is harder, but IMO that’s a tradeoff that is worth making to avoid another Windrush scandal.
+This has already become a pain when dealing with countries that don’t stamp passports, because when you need to apply for something that asks for your travel history over the past 10 years, you might not have any records anymore.]]></summary>
+        <author>
+            <name>noodlesUK</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by dlisboa in "Should more of us be moving to live near friends?"]]></title>
+        <id>https://news.ycombinator.com/item?id=42527549</id>
+        <link href="https://news.ycombinator.com/item?id=42527549"/>
+        <updated>2024-12-28T00:51:31.000Z</updated>
+        <summary type="html"><![CDATA[Coming from a Latin American the idea of re-starting your life across the country for college and then again for work (multiple times sometimes) while away from family and friends is very foreign.
+A lot of the conversation around modern American youth feeling isolated, lacking socialization and not building strong relationships seems that stem from this drive.
+Another thing that’s really weird and related is another recurring theme in the American ethos: the cultural shame that comes with living “at home” or staying in the same small town for your whole life. Somehow they made it so living close to your family and friends for your 20s-30s  and maybe forever means you’re a “loser”.]]></summary>
+        <author>
+            <name>dlisboa</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2:00PM Water Cooler 12/27/2024]]></title>
         <id>https://www.nakedcapitalism.com/?p=284666</id>
         <link href="https://www.nakedcapitalism.com/2024/12/200pm-water-cooler-12-27-2024.html"/>
@@ -79,17 +121,6 @@ The post What’s Left to Say? appeared first on CounterPunch.org.]]></summary>
         <summary type="html"><![CDATA[I don't understand why they are spending so much time and effort trying to put a positive spin on this whole for-profit thing. No one is buying it. We all know what's going on. Just say "we want to make lots of money" and move on with your lives.]]></summary>
         <author>
             <name>paxys</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by jrmg in "Why OpenAI's Structure Must Evolve to Advance Our Mission"]]></title>
-        <id>https://news.ycombinator.com/item?id=42522032</id>
-        <link href="https://news.ycombinator.com/item?id=42522032"/>
-        <updated>2024-12-27T13:51:21.000Z</updated>
-        <summary type="html"><![CDATA[Our current structure does not allow the Board to directly consider the interests of those who would finance the mission and does not enable the non-profit to easily do more than control the for-profit.
-I kind of thought that was the point of the current structure.]]></summary>
-        <author>
-            <name>jrmg</name>
         </author>
     </entry>
     <entry>
@@ -705,18 +736,6 @@ Debt in History,
 Histoire Jubi EN]]></summary>
         <author>
             <name>Eric Toussaint</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by prepend in "Why are cancer guidelines stuck in PDFs?"]]></title>
-        <id>https://news.ycombinator.com/item?id=42498721</id>
-        <link href="https://news.ycombinator.com/item?id=42498721"/>
-        <updated>2024-12-24T00:32:38.000Z</updated>
-        <summary type="html"><![CDATA[I’d rather have the pdf than a custom tool. Especially considering the tool will be unique to the practice or emr. And likely expensive to maintain.
-PDFs suck in many ways but are durable and portable. If I work with two oncologists, I use the same pdf.
-The author means well but his solution will likely be worse because only he will understand it. And there’s a million edge cases.]]></summary>
-        <author>
-            <name>prepend</name>
         </author>
     </entry>
     <entry>
