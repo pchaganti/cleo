@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-30T18:34:08.388Z</id>
+    <id>urn:2024-12-31T01:52:11.951Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2024-12-30T18:34:08.388Z</updated>
+    <updated>2024-12-31T01:52:11.951Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New comment by davidclark in "US credit card defaults jump to highest level since 2010"]]></title>
+        <id>https://news.ycombinator.com/item?id=42553307</id>
+        <link href="https://news.ycombinator.com/item?id=42553307"/>
+        <updated>2024-12-30T20:46:04.000Z</updated>
+        <summary type="html"><![CDATA[> Credit card delinquency rates, which are seen as a precursor to write-offs, peaked in July, according to data from Moody’s, but have only fallen slightly and remain nearly a percentage point higher than they were on average in the year before the pandemic.
+This is a prime example of a style of reporting that really grinds my gears.
+The citation is clearly to another internet source, so a link should be provided. If it truly cannot be linked because it is private, more context is still needed to understand what this data means.
+I actually can’t find the source myself, but I can find “Delinquency Rate on Credit Card Loans, All Commercial Banks” from the Federal Reserve. [1]
+The percents from that source somewhat match those referenced in the FT quote. “Peaked in July”
+- 2024Q1 3.15%
+- 2024Q2 3.24%
+- 2024Q3 3.23%
+Using 2019 as “the year before the pandemic”, the average was 2.5825. Is +0.6475 “nearly a percentage point”? I guess it technically would round up.
+Seemingly important context that the quote doesn’t give is that 3.23% is lower than any time 1991Q3 to 2011Q4. But, maybe the trend matters more for this metric.
+[1] https://fred.stlouisfed.org/series/DRCCLACBS]]></summary>
+        <author>
+            <name>davidclark</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Favourite monospaced font for coding, do people have such a thing?]]></title>
+        <id>https://disassociated.com/?p=9015</id>
+        <link href="https://disassociated.com/favourite-monospaced-font-coding/"/>
+        <updated>2024-12-30T20:00:32.000Z</updated>
+        <summary type="html"><![CDATA[Code is code, what difference does the font you choose in whatever app you use for coding possibly make? As long as the code works as intended, what does appearance have to do with it? But the conversation I found on the topic — which in fact started months ago — actually relates to a […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The ten best novels of the twenty-first century to date]]></title>
+        <id>https://disassociated.com/?p=9021</id>
+        <link href="https://disassociated.com/ten-best-novels-twenty-first-century/"/>
+        <updated>2024-12-30T19:30:21.000Z</updated>
+        <summary type="html"><![CDATA[Literary writers at The Sydney Morning Herald canvassed critics, editors, and writers, including Jane Sullivan, David Free, Gyan Yankovich, and Beejay Silcox, to determine the best ten books of this century, or the last twenty-five years. Producing such a small list from a relatively long time frame, will doubtless generate discussion. Anyway, Praiseworthy by Alexis […]]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2:00PM Water Cooler 12/30/2024]]></title>
+        <id>https://www.nakedcapitalism.com/?p=284785</id>
+        <link href="https://www.nakedcapitalism.com/2024/12/200pm-water-cooler-12-30-2024.html"/>
+        <updated>2024-12-30T19:00:58.000Z</updated>
+        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, Syndemics; H1B controversy rolls along;  Norovirus surge; Amazon attacks third-party sellers again ~]]></summary>
+        <author>
+            <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tranquil Motion, a new album from All India Radio]]></title>
+        <id>https://disassociated.com/?p=9027</id>
+        <link href="https://disassociated.com/music-tranquil-motion-new-album-all-india-radio/"/>
+        <updated>2024-12-30T19:00:16.000Z</updated>
+        <summary type="html"><![CDATA[I’m talking about the Australian downtempo electronica music act, not the public broadcaster of India. In the hubbub of the silly season, I forgot to mention a new album, Tranquil Motion, was released earlier this month. Track it down on Bandcamp, or your favourite music streamer. I could use some tranquil motion right now…]]></summary>
+        <author>
+            <name>disassociated.com</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[6 Fracking Billionaires and Climate Denial Groups Behind Trump’s Cabinet]]></title>
         <id>https://www.nakedcapitalism.com/?p=284788</id>
@@ -13,6 +73,16 @@
         <summary type="html"><![CDATA[Trump’s nominees are backed by major players in the world of climate obstruction – from Project 2025 and Koch network fixtures to oil-soaked Christian nationalists.]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open sourcing h3i: a command line tool and library for low-level HTTP/3 testing and debugging]]></title>
+        <id>2yX9ADcaKBprzyI9BaBoqN</id>
+        <link href="https://blog.cloudflare.com/h3i/"/>
+        <updated>2024-12-30T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[h3i is a command line tool and Rust library designed for low-level testing and debugging of HTTP/3, which runs over QUIC.]]></summary>
+        <author>
+            <name>Lucas Pardue</name>
         </author>
     </entry>
     <entry>
@@ -144,7 +214,7 @@ The post The Year Past and the Year Ahead appeared first on CounterPunch.org.]]>
         <id>https://www.counterpunch.org/?p=347930</id>
         <link href="https://www.counterpunch.org/2024/12/30/cinema-beyond-cinemas-the-best-films-of-2024/"/>
         <updated>2024-12-30T06:09:42.000Z</updated>
-        <summary type="html"><![CDATA[The Bibi Files Dir. Alexis Bloom Dahomey Dir. Mati Diop Ernest Cole: Lost and Found Dir. Raoul Peck Eno Dir. Gary Hustwi The Goldman Case Dir. Cédric Kahn Green Border dir. Agnieszka Holland The Night Won’t End: Biden’s War on Gaza  Dir. Laila Al Arian and Fault Lines No Other Land Dir. Basel Adra, Yuval  More
+        <summary type="html"><![CDATA[The Bibi Files Dir. Alexis Bloom Dahomey Dir. Mati Diop Ernest Cole: Lost and Found Dir. Raoul Peck Eno Dir. Gary Hustwi The Goldman Case Dir. Cédric Kahn Green Border Dir. Agnieszka Holland The Night Won’t End: Biden’s War on Gaza  Dir. Laila Al Arian and Fault Lines No Other Land Dir. Basel Adra, Yuval  More
 The post Cinema Beyond Cinemas: the Best Films of 2024 appeared first on CounterPunch.org.]]></summary>
         <author>
             <name>Jeffrey St. Clair</name>
@@ -356,16 +426,6 @@ A lot of the conversation around modern American youth feeling isolated, lacking
 Another thing that’s really weird and related is another recurring theme in the American ethos: the cultural shame that comes with living “at home” or staying in the same small town for your whole life. Somehow they made it so living close to your family and friends for your 20s-30s  and maybe forever means you’re a “loser”.]]></summary>
         <author>
             <name>dlisboa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2:00PM Water Cooler 12/27/2024]]></title>
-        <id>https://www.nakedcapitalism.com/?p=284666</id>
-        <link href="https://www.nakedcapitalism.com/2024/12/200pm-water-cooler-12-27-2024.html"/>
-        <updated>2024-12-27T19:00:51.000Z</updated>
-        <summary type="html"><![CDATA[~ Today's Water Cooler: Politics, syndemics:  MAGA eviscerates the Tech Bros on immigration; Mangione family investments  in health care (not pretty); New Covid charts  ~]]></summary>
-        <author>
-            <name>Lambert Strether</name>
         </author>
     </entry>
     <entry>
@@ -737,49 +797,6 @@ Capitalism]]></summary>
         <summary type="html"><![CDATA[How I used Workers AI to translate Cloudflare Stream’s auto-generated captions and what I learned along the way.]]></summary>
         <author>
             <name>Taylor Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When the world logs off: Christmas, New Year’s, and the Internet’s holiday rhythm]]></title>
-        <id>5hrEiGd7frxGgAirAdHCM0</id>
-        <link href="https://blog.cloudflare.com/when-the-world-logs-off-christmas-new-years-and-the-internets-holiday-rhythm/"/>
-        <updated>2024-12-24T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[From Christmas Eve dinners in Europe to New Year’s Eve countdowns in Asia, Cloudflare data reveals how global festivities have typically shaped Internet usage and cultural rhythms]]></summary>
-        <author>
-            <name>João Tomé</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by chollida1 in "Intel shareholders file case asking ex CEO, CFO to return 3 years of salary"]]></title>
-        <id>https://news.ycombinator.com/item?id=42500709</id>
-        <link href="https://news.ycombinator.com/item?id=42500709"/>
-        <updated>2024-12-24T09:19:28.000Z</updated>
-        <summary type="html"><![CDATA[- No serious hedge funds or other activists involved in this, ie no adults involved, check
-- Fully audited financials not being questioned, check
-- CEO and CFO constantly acknowledging the Foundary unit wasn't profitable in quarterly updates, check.
-The former CEO was brought in to to try and keep Intel a fully integrated business that designed and manufactured chips.  He was very clear upfront about his plan to not divest the foundry and instead to try and build it back up.
-It didn't' work, that's not a crime.  He left because his plan didn't work.  That's what happens to CEO's who try and fail to implement a business plan.
-This is just an ambulance chaser lawsuit that doesn't look like it will go anywhere at all.
-If there was any merit at all then the board would also be involved in going after the former CEO and CFO.]]></summary>
-        <author>
-            <name>chollida1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by daltonpinto in "Ask HN: Programmers who don't use autocomplete/LSP, how do you do it?"]]></title>
-        <id>https://news.ycombinator.com/item?id=42500195</id>
-        <link href="https://news.ycombinator.com/item?id=42500195"/>
-        <updated>2024-12-24T07:09:19.000Z</updated>
-        <summary type="html"><![CDATA[This question reminds me of the first time I met a blind programmer.
-I asked him how he managed to code, and he replied with something that stayed with me: a good programmer should organize software in such a way that every piece of code has a clear and logical place. The organization should be so intuitive that anyone could build a mental model of the structure and navigate it easily, even without seeing it.
-It felt like something out of a Yoda or Mr. Miyagi lesson. Skeptical, I asked his colleagues if he was truly able to code or if he was just exaggerating. To my surprise, they told me not only was he capable, but he was the best programmer they had ever worked with. They said no one else came close to writing code as organized as his.
-That conversation changed my perspective. Ever since, whenever I’m unsure where to place new code, I don’t think about DDD or any specific methodology. Instead, I try to follow the logic and structure of the project in a way that feels natural and easy to follow later.
-Later in life, I met two other blind programmers and heard similar stories about their ability to produce well-organized code.
-To bring this back to the original question: I view LSP/IDE features the same way those programmers view "visual aids." Code should be organized according to a clear and logical structure that makes it easy to navigate.
-Relying on features like Ctrl+Click to find where things are located worries me. Why? Because it can mask structural flaws in the codebase. If we can't intuitively figure out where something belongs, that’s a sign the codebase lacks structure—and that should motivate us to refactor it.
-Not only do I avoid using LSP features, but I’m also opposed to their use. While they can help with navigation, they may prevent developers from experiencing and addressing the underlying structural issues in their code.]]></summary>
-        <author>
-            <name>daltonpinto</name>
         </author>
     </entry>
 </feed>
