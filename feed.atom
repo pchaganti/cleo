@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-06T01:57:46.028Z</id>
+    <id>urn:2025-01-06T06:36:13.149Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2025-01-06T01:57:46.028Z</updated>
+    <updated>2025-01-06T06:36:13.149Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Environmental and Climate Debt:  Who is Responsible?]]></title>
+        <id>https://www.counterpunch.org/?p=349208</id>
+        <link href="https://www.counterpunch.org/2025/01/06/environmental-and-climate-debt-who-is-responsible/"/>
+        <updated>2025-01-06T06:32:39.000Z</updated>
+        <summary type="html"><![CDATA[The concepts of climate debt and ecological debt are central to successfully achieving the ecological bifurcation. The ecological debt owed by States – and in particular the wealthiest States and major corporations – of the North to the populations of the Global South must be recognized. That recognition must take the form of cancellation of  More
+The post Environmental and Climate Debt:  Who is Responsible? appeared first on CounterPunch.org.]]></summary>
+        <author>
+            <name>Maxime Perriot – Éric Toussaint</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rambles.Net, a webzine founded by Tom Knapp in 1999]]></title>
         <id>https://disassociated.com/?p=9054</id>
@@ -33,6 +44,23 @@
         <summary type="html"><![CDATA[Josh Ellis writes about buying a plate of cookies he had no intention of eating, from an entrepreneurial twelve-year old neighbour going door to door, who was selling them. Why would anyone pay out good money for something they’re not going to consume? Ellis describes the gesture as cookie insurance: Lastly, I bought cookies I […]]]></summary>
         <author>
             <name>disassociated.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by afro88 in "A messy experiment that changed how I think about AI code analysis"]]></title>
+        <id>https://news.ycombinator.com/item?id=42602918</id>
+        <link href="https://news.ycombinator.com/item?id=42602918"/>
+        <updated>2025-01-05T16:37:28.000Z</updated>
+        <summary type="html"><![CDATA[Another cherry-picked example of an LLM doing something amazing, written about with a heavy dose of anthropomorphism.
+It's easy to get LLMs to do seemingly amazing things. It's incredibly hard to build something where it does this amazing thing consistently and accurately for all reasonable inputs.
+> Analyzing authentication system files:
+>    - Core token validation logic
+>    - Session management
+>    - Related middleware
+This hard coded string is doing some very heavy lifting. This isn't anything special until this string is also generated accurately and consistently for any reasonable PR.
+OP if you are reading, the first thing you should do is get a variety of codebases with a variety of real world PRs and set up some evals. This isn't special until evals show it producing consistent results.]]></summary>
+        <author>
+            <name>afro88</name>
         </author>
     </entry>
     <entry>
@@ -123,6 +151,27 @@ The post Europe Continues to Import Israeli Gas Amid Genocide in Gaza appeared f
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by crmd in "Meta is killing off its AI-powered Instagram and Facebook profiles"]]></title>
+        <id>https://news.ycombinator.com/item?id=42597175</id>
+        <link href="https://news.ycombinator.com/item?id=42597175"/>
+        <updated>2025-01-04T19:49:37.000Z</updated>
+        <summary type="html"><![CDATA[There is another real-world version of this in the US healthcare system, where doctor offices are using domain-specific LLMs to craft multi-page medical approval requests for procedures that cover every known loophole insurer’s use to deny, which are then being reviewed by ML-powered algorithms at the insurance company looking for any way to deny and delay the claim approval.
+In other words we have a bona fide AI arms race between doctors and insurers with patient outcomes and profits in play. Wild stuff and nothing I could have ever imagined would be an applied use of ML research from earlier in my career.]]></summary>
+        <author>
+            <name>crmd</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by tomalaci in "Meta is killing off its AI-powered Instagram and Facebook profiles"]]></title>
+        <id>https://news.ycombinator.com/item?id=42596040</id>
+        <link href="https://news.ycombinator.com/item?id=42596040"/>
+        <updated>2025-01-04T17:14:12.000Z</updated>
+        <summary type="html"><![CDATA[You know what AI profiles I want more of? Clueless grandma/grandpa that accepts scammer calls and waste their time. Such as UK's O2 Daisy: https://news.virginmediao2.co.uk/o2-unveils-daisy-the-ai-gra...]]></summary>
+        <author>
+            <name>tomalaci</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[“Who Gives a Shit?”]]></title>
         <id>https://www.counterpunch.org/?p=349096</id>
         <link href="https://www.counterpunch.org/2025/01/04/who-gives-a-shit/"/>
@@ -206,6 +255,20 @@ The post “Who Gives a Shit?” appeared first on CounterPunch.org.]]></summary
         <summary type="html"><![CDATA[Multi-Path TCP (MPTCP) leverages multiple network interfaces, like Wi-Fi and cellular, to provide seamless mobility for more reliable connectivity. While promising, MPTCP is still in its early stages,]]></summary>
         <author>
             <name>Marek Majkowski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by dgacmu in "Can LLMs write better code if you keep asking them to “write better code”?"]]></title>
+        <id>https://news.ycombinator.com/item?id=42585375</id>
+        <link href="https://news.ycombinator.com/item?id=42585375"/>
+        <updated>2025-01-03T13:14:59.000Z</updated>
+        <summary type="html"><![CDATA[I'm amused that neither the LLM or the author identified one of the simplest and most effective optimizations for this code: Test if the number is  max _before_ doing the digit sum. It's a free 5.5x speedup that renders some of the other optimizations, like trying to memoize digit sums, unnecessary.
+On an m1 macbook pro, using numpy to generate the random numbers, using mod/div to do digit sum:
+Base: 55ms
+Test before digit sum: 7-10ms, which is pretty close to the numba-optimized version from the post with no numba and only one line of numpy. Using numba slows things down unless you want to do a lot of extra work of calculating all of the digit sums in advance (which is mostly wasted).
+The LLM appears less good at identifying the big-o improvements than other things, which is pretty consistent with my experience using them to write code.]]></summary>
+        <author>
+            <name>dgacmu</name>
         </author>
     </entry>
     <entry>
@@ -516,17 +579,6 @@ The post Two Genocides: Gaza and Metropolis appeared first on CounterPunch.org.]
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New Orleans Attacker’s Apparent Loyalty to ISIS Highlights Persistent Threat of Lone Wolves Inspired to Terrorism]]></title>
-        <id>https://www.counterpunch.org/?p=348970</id>
-        <link href="https://www.counterpunch.org/2025/01/03/new-orleans-attackers-apparent-loyalty-to-isis-highlights-persistent-threat-of-lone-wolves-inspired-to-terrorism/"/>
-        <updated>2025-01-03T06:46:43.000Z</updated>
-        <summary type="html"><![CDATA[The deadly Jan. 1, 2025, attack in New Orleans serves as a reminder of the persistent threat to the U.S. from individuals inspired by extremist Islamist groups. While the investigation is still ongoing, some details of the suspect have been released. Authorities say Shamsud-Din Jabbar, a U.S. Army veteran, was behind the assault in which  More
-The post New Orleans Attacker’s Apparent Loyalty to ISIS Highlights Persistent Threat of Lone Wolves Inspired to Terrorism appeared first on CounterPunch.org.]]></summary>
-        <author>
-            <name>Sara Harmouch</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New comment by pech0rin in "I am rich and have no idea what to do"]]></title>
         <id>https://news.ycombinator.com/item?id=42581844</id>
         <link href="https://news.ycombinator.com/item?id=42581844"/>
@@ -535,6 +587,17 @@ The post New Orleans Attacker’s Apparent Loyalty to ISIS Highlights Persistent
 Sad how he just goes adventure hopping to try and find meaning. The problem is no matter where you are you are also there. Time to look inward and not outward.]]></summary>
         <author>
             <name>pech0rin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by paxys in "I am rich and have no idea what to do"]]></title>
+        <id>https://news.ycombinator.com/item?id=42581440</id>
+        <link href="https://news.ycombinator.com/item?id=42581440"/>
+        <updated>2025-01-03T02:07:20.000Z</updated>
+        <summary type="html"><![CDATA[I don't fault this guy for wanting to join DOGE and make a difference. The fact that he was able to make a few phone calls and actually get hired into an influential position despite having zero background in government, civics, economics, finance etc. should, however, tell you everything you need to know about the department and its brain trust.
+I wonder what will happen to all these Signal conversations when the inevitable scandals/lawsuits/inquiries happen. Surely the public will be able to scrutinize them right?]]></summary>
+        <author>
+            <name>paxys</name>
         </author>
     </entry>
     <entry>
@@ -613,6 +676,18 @@ That seems to cover it. File a CAN-SPAM act complaint (spam@uce.gov). Send a cop
 [1] https://www.ftc.gov/business-guidance/resources/can-spam-act...]]></summary>
         <author>
             <name>Animats</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by EcommerceFlow in "Meta Wants More AI Bots on Facebook and Instagram"]]></title>
+        <id>https://news.ycombinator.com/item?id=42574839</id>
+        <link href="https://news.ycombinator.com/item?id=42574839"/>
+        <updated>2025-01-02T14:45:49.000Z</updated>
+        <summary type="html"><![CDATA[This gave me a funny idea for a new social media app...
+One that's centered around "you" and filled with thousands/millions of LLM bots praising you, treating you like a celebrity, etc. Each of your posts will get tens of thousands of "likes", hundreds of comments, etc. Dm's straight to your feed, people wanting you, etc etc.
+If the newsfeed is already mostly "the algorithm", might as well take it to the extreme. I bet tons of people would get addicted to the dopamine hit of celebrity status (whether it's bots or not).]]></summary>
+        <author>
+            <name>EcommerceFlow</name>
         </author>
     </entry>
     <entry>
@@ -709,6 +784,16 @@ That seems to cover it. File a CAN-SPAM act complaint (spam@uce.gov). Send a cop
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[New comment by charlesabarnes in "DOOM CAPTCHA"]]></title>
+        <id>https://news.ycombinator.com/item?id=42566631</id>
+        <link href="https://news.ycombinator.com/item?id=42566631"/>
+        <updated>2025-01-01T15:37:24.000Z</updated>
+        <summary type="html"><![CDATA[I tried to do it the intended way, but found it too difficult. I was able to cheese it by staying in the starting area and killing the enemies that spawned to the right.]]></summary>
+        <author>
+            <name>charlesabarnes</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[New comment by Donald in "Happy New Year 2025"]]></title>
         <id>https://news.ycombinator.com/item?id=42563992</id>
         <link href="https://news.ycombinator.com/item?id=42563992"/>
@@ -717,6 +802,43 @@ That seems to cover it. File a CAN-SPAM act complaint (spam@uce.gov). Send a cop
 Happy perfect square year, everyone. The previous one was 1936 and the next one will be 2116.]]></summary>
         <author>
             <name>Donald</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by abixb in "Happy New Year 2025"]]></title>
+        <id>https://news.ycombinator.com/item?id=42563726</id>
+        <link href="https://news.ycombinator.com/item?id=42563726"/>
+        <updated>2025-01-01T03:26:43.000Z</updated>
+        <summary type="html"><![CDATA[US Central Time here, so still a couple hours to go, but HAPPY NEW YEAR to y'all fellow HN-ers -- HN is probably the least guilt-ridden procrastination I do on the whole wide internet. Thank you to every one of you who has made HN among the most intellectually dense places on the web -- I wouldn't be where I'm today without reading all the insightful comments, submitted links and perspectives of all the HN-ers over the last 7 years.
+My wish for the new year: hopefully, AI singularity is still a few years away and doesn't happen in 2025!]]></summary>
+        <author>
+            <name>abixb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by btilly in "Systems ideas that sound good but almost never work"]]></title>
+        <id>https://news.ycombinator.com/item?id=42561724</id>
+        <link href="https://news.ycombinator.com/item?id=42561724"/>
+        <updated>2024-12-31T20:49:38.000Z</updated>
+        <summary type="html"><![CDATA[At a previous employer we had a rule. The only person allowed to say, "just", was the developer responsible for actually making it work. Another developer who said it, just volunteered themselves.
+It was a rule that worked well for us.]]></summary>
+        <author>
+            <name>btilly</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by bitbasher in "Ask HN: How to learn marketing and sales as a solo entrepreneur?"]]></title>
+        <id>https://news.ycombinator.com/item?id=42561176</id>
+        <link href="https://news.ycombinator.com/item?id=42561176"/>
+        <updated>2024-12-31T19:36:03.000Z</updated>
+        <summary type="html"><![CDATA[I built and run a saas product solo (> $500k/year). Honestly, I have never found any advice useful. I've been to saas founder meetups (like microconf), I've read the books, etc.
+Any advice I give may not apply to you and your business. My business is b2b and it's a platform for certain kinds of professionals as well as an API that powers many well known businesses.
+I've only had success through two general strategies:
+1. Networking (friend of friends, friend of customers, etc). Leverage your network to find more customers.
+2. The "Long Game" (SEO, word of mouth, etc). This is where I get most of my customers.
+I'd say focus on the long game from day one (blog posts, good marketing pages, etc). Use networking to determine how valuable the product is and if people give a damn about it. If no one wants to talk to you about it, no one is going to want to pay for it.]]></summary>
+        <author>
+            <name>bitbasher</name>
         </author>
     </entry>
     <entry>
@@ -747,6 +869,18 @@ Happy perfect square year, everyone. The previous one was 1936 and the next one 
         <summary type="html"><![CDATA[Follow along as I build a custom weather display using Cloudflare Workers and a popular e-paper display.]]></summary>
         <author>
             <name>Marek Majkowski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New comment by mentalgear in "Orbit by Mozilla"]]></title>
+        <id>https://news.ycombinator.com/item?id=42557018</id>
+        <link href="https://news.ycombinator.com/item?id=42557018"/>
+        <updated>2024-12-31T07:04:06.000Z</updated>
+        <summary type="html"><![CDATA[I'm reading a lot of criticism here, some I understand, but honestly, this sounds pretty good for a free LLM service: "Orbit doesn't require account creation or save your session data."
+Maybe we shouldn't be too critical of Mozilla for providing a privacy-first LLM service - for free. The other big privacy-first LLM provider is Apple, which requires users to have their devices/subscriptions to use, and definitely uses advanced telemetry by default.
+Not to speak of all the other providers who are either paid or free-but-mine-your-data.]]></summary>
+        <author>
+            <name>mentalgear</name>
         </author>
     </entry>
     <entry>
@@ -810,42 +944,6 @@ After John left Mustang he also left Bakersfield and I lost touch with him. I'm 
         <summary type="html"><![CDATA[I’m talking about the Australian downtempo electronica music act, not the public broadcaster of India. In the hubbub of the silly season, I forgot to mention a new album, Tranquil Motion, was released earlier this month. Track it down on Bandcamp, or your favourite music streamer. I could use some tranquil motion right now…]]></summary>
         <author>
             <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by ababaian in "'Obelisks': New class of life has been found in human digestive system"]]></title>
-        <id>https://news.ycombinator.com/item?id=42550873</id>
-        <link href="https://news.ycombinator.com/item?id=42550873"/>
-        <updated>2024-12-30T16:40:38.000Z</updated>
-        <summary type="html"><![CDATA[Cool :) I'm a co-author on this. AMA.
-This is now a peer-reviewed paper, published last month in Cell [https://www.cell.com/cell/fulltext/S0092-8674(24)01091-2].
-Obelisks are part of a larger research program we're developing at the University of Toronto + collaborators, see also: Virus-Viroid Hybrids paper [https://www.nature.com/articles/s41467-023-38301-2] and the Zeta-Elements [https://www.nature.com/articles/s41586-021-04332-2].
-Computational biology is driving a revolutionary expansion of our understanding of Earth's biodiversity. I believe Zeta-elements, Ambiviruses, and Obelisks are just the beginning. If you're interested, our "Laboratory for RNA-Based Lifeforms" (University of Toronto) is hiring passionate developers/post-docs/graduate students [https://www.rnalab.ca].
-Edit: OK going to call it for now. I'll check in later today if there's any outstanding questions.]]></summary>
-        <author>
-            <name>ababaian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by chrismorgan in "Fun facts about SQLite"]]></title>
-        <id>https://news.ycombinator.com/item?id=42550846</id>
-        <link href="https://news.ycombinator.com/item?id=42550846"/>
-        <updated>2024-12-30T16:38:09.000Z</updated>
-        <summary type="html"><![CDATA[> SQLite is not open source in the legal sense, as “open source” has a specific definition and requires licenses approved by the Open Source Initiative (OSI).
-This is wrong, and harmfully wrong. OSI are not the arbiters of open source. Their Open Source Definition, though generally useful and accepted, is not without legitimate criticism and controversy. As for their approval, that’s a dreadful thing to rely on for any purpose; https://writing.kemitchell.com/2019/05/05/Rely-on-OSI.html> is a good description of most of what’s wrong with it (it doesn’t really get into the broken politics enough; but some of his other articles contain more), and I like its summary: “The list of OSI-approved licenses reflects OSI’s practical and political history, not any useful, consistently functional category of license terms.”
-As for whether SQLite is open source, well, the only reason a public domain dedication doesn’t meet the OSD is that it’s not a license. It’s more open. In a way that is legally mildly uncertain in some jurisdictions, sure, but to call it “not open source in the legal sense” is just wrong.]]></summary>
-        <author>
-            <name>chrismorgan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open sourcing h3i: a command line tool and library for low-level HTTP/3 testing and debugging]]></title>
-        <id>2yX9ADcaKBprzyI9BaBoqN</id>
-        <link href="https://blog.cloudflare.com/h3i/"/>
-        <updated>2024-12-30T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[h3i is a command line tool and Rust library designed for low-level testing and debugging of HTTP/3, which runs over QUIC.]]></summary>
-        <author>
-            <name>Lucas Pardue</name>
         </author>
     </entry>
 </feed>
