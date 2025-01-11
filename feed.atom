@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-11T06:33:10.561Z</id>
+    <id>urn:2025-01-11T12:46:36.581Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2025-01-11T06:33:10.561Z</updated>
+    <updated>2025-01-11T12:46:36.581Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Links 1/11/2025]]></title>
+        <id>https://www.nakedcapitalism.com/?p=285297</id>
+        <link href="https://www.nakedcapitalism.com/2025/01/links-1-11-2025-2.html"/>
+        <updated>2025-01-11T11:55:14.000Z</updated>
+        <summary type="html"><![CDATA[Our apocalytipic daily links: improperly rewilded lynx, lasting weight loss principles, Trump v. Netanyahu on hostages, Scholz blocked Ukraine €3B, moar spying apps, Trump land grabs? Obamacare subsidy fight, LAPD fire chief blasts mayor, "uninsurable" crisis coming? Supremes for Tik-Tok ban?]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weaponizing the US Dollar. Can It Work?]]></title>
+        <id>https://www.nakedcapitalism.com/?p=285340</id>
+        <link href="https://www.nakedcapitalism.com/2025/01/weaponizing-the-us-dollar-can-it-work.html"/>
+        <updated>2025-01-11T11:54:50.000Z</updated>
+        <summary type="html"><![CDATA[Michael Hudson refines and extends recent discussions on the future of the dollar, particularly under Trump, and finance-dominated capitalism]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet the Cats Who Roam Rikers Island]]></title>
+        <id>https://www.nakedcapitalism.com/?p=285342</id>
+        <link href="https://www.nakedcapitalism.com/2025/01/meet-the-cats-who-roam-rikers-island.html"/>
+        <updated>2025-01-11T11:02:58.000Z</updated>
+        <summary type="html"><![CDATA[Even cats in a prison setting find human servants!]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New comment by antics in "Meta's memo to employees rolling back DEI programs"]]></title>
         <id>https://news.ycombinator.com/item?id=42660165</id>
@@ -555,13 +585,18 @@ Sorg EN]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Beware the Faux Populism of Corporate Democrats]]></title>
-        <id>https://www.nakedcapitalism.com/?p=285238</id>
-        <link href="https://www.nakedcapitalism.com/2025/01/beware-the-faux-populism-of-corporate-democrats.html"/>
-        <updated>2025-01-09T15:04:58.000Z</updated>
-        <summary type="html"><![CDATA[Why the working class needs to make a hostile takeover of the Democrats.]]></summary>
+        <title type="html"><![CDATA[New comment by hiAndrewQuinn in "SQL nulls are weird"]]></title>
+        <id>https://news.ycombinator.com/item?id=42647926</id>
+        <link href="https://news.ycombinator.com/item?id=42647926"/>
+        <updated>2025-01-09T17:37:12.000Z</updated>
+        <summary type="html"><![CDATA[SQL NULLs aren't weird, they're just based off of Kleene's TRUE-FALSE-UNKNOWN logic!
+If you want you can read NULL as UNKNOWN and suddenly a whole bunch of operations involving them become a lot more intuitive:
+1. TRUE OR UNKNOWN = TRUE, because you know you have at least one TRUE already.
+2. TRUE AND UNKNOWN = UNKNOWN, because you don't know whether you have two TRUEs or not. It's just out there.
+3. UNKNOWN XOR UNKNOWN = UNKNOWN, because it could darn near be anything: TRUE XOR TRUE, TRUE XOR FALSE, FALSE XOR FALSE, FALSE XOR TRUE... Internalizing this is where SQL's use of NULL / UNKNOWN really becomes intuitive.
+4. (TRUE AND FALSE) XOR (TRUE OR UNKNOWN) = (FALSE) XOR (TRUE) per #1 = TRUE. See, it's consistent, you just need to keep in mind that if you have a lot of known UNKNOWNs they're quite parasitic and your final outcome is likely to be, itself, an UNKNOWN. Just like in real life!]]></summary>
         <author>
-            <name>Yves Smith</name>
+            <name>hiAndrewQuinn</name>
         </author>
     </entry>
     <entry>
@@ -572,26 +607,6 @@ Sorg EN]]></summary>
         <summary type="html"><![CDATA[On Anna Gréki.]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links 1/9/2025]]></title>
-        <id>https://www.nakedcapitalism.com/?p=285213</id>
-        <link href="https://www.nakedcapitalism.com/2025/01/links-1-9-2025.html"/>
-        <updated>2025-01-09T11:58:24.000Z</updated>
-        <summary type="html"><![CDATA[Our fiery daily links]]></summary>
-        <author>
-            <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Week’s Unholy Mix of Drought, Wind, and Fire in Southern California: A Warning of an Accelerating Insurance Crisis in Climate-Risk Areas?]]></title>
-        <id>https://www.nakedcapitalism.com/?p=285225</id>
-        <link href="https://www.nakedcapitalism.com/2025/01/this-weeks-unholy-mix-of-drought-wind-and-fire-in-southern-california-a-warning-of-an-accelerating-insurance-crisis-in-climate-risk-areas.html"/>
-        <updated>2025-01-09T11:52:07.000Z</updated>
-        <summary type="html"><![CDATA[More and more homeowners are understandably worried about what insurance increases might look like in the face of intensifying climate risks.]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -1072,18 +1087,6 @@ So, he and his boss did crime together for a while and then eventually their sca
         <summary type="html"><![CDATA[Josh Ellis writes about buying a plate of cookies he had no intention of eating, from an entrepreneurial twelve-year old neighbour going door to door, who was selling them. Why would anyone pay out good money for something they’re not going to consume? Ellis describes the gesture as cookie insurance: Lastly, I bought cookies I […]]]></summary>
         <author>
             <name>disassociated.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by snowwrestler in "Olympians turn to OnlyFans to fund dreams due to 'broken' finance system (2024)"]]></title>
-        <id>https://news.ycombinator.com/item?id=42602428</id>
-        <link href="https://news.ycombinator.com/item?id=42602428"/>
-        <updated>2025-01-05T15:32:17.000Z</updated>
-        <summary type="html"><![CDATA[In the early 1990s a paddler named Eric Jackson was fast enough to make the U.S. Olympic team in whitewater slalom kayak. But he lacked funds to go.
-So he dressed up in his full paddling outfit and brought his boat (4m long in those days) and paddle to a street corner in downtown DC. He set up a “meet an Olympian” sign and charged people cash to have their picture taken with him. Much hustle, very entrepreneurial of him, and he made a decent amount of money.
-But he got into huge trouble with the U.S. Olympic establishment, and was almost dropped from that team. They said they were scandalized that he would dare to try to make personal money from his Olympic team status. It became clear to some that they were also mad he dared to demonstrate how poor many Olympic athletes actually were—by essentially begging on a street corner in a part of town full of prominent people.]]></summary>
-        <author>
-            <name>snowwrestler</name>
         </author>
     </entry>
 </feed>
