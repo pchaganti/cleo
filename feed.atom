@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-11T01:53:01.774Z</id>
+    <id>urn:2025-01-11T06:33:10.561Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2025-01-11T01:53:01.774Z</updated>
+    <updated>2025-01-11T06:33:10.561Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New comment by antics in "Meta's memo to employees rolling back DEI programs"]]></title>
+        <id>https://news.ycombinator.com/item?id=42660165</id>
+        <link href="https://news.ycombinator.com/item?id=42660165"/>
+        <updated>2025-01-10T21:01:27.000Z</updated>
+        <summary type="html"><![CDATA[I am Wasq'u (a tribe in the PNW), I am connected to my tribe, and I am one of a handful of remaining speakers of the language. I am really tired of being caught in the maw of people fighting about my identity, what I am owed, and to some extent what place my identity has in society.
+To the pro-DEI crowd: I have some hard truths for you. Actual change requires commitment and focus over an extremely long period of time. That means you have to choose probably 1 cause among the many worthy causes, and then invest in it instead of the others. You can't do everything. The problems that afflict my community are running water, drug addiction, lack of educational resources, and secular trends have have made our traditional industries obsolete. I am not saying that land acknowledgements and sports t…]]></summary>
+        <author>
+            <name>antics</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New comment by firefoxd in "Meta's memo to employees rolling back DEI programs"]]></title>
         <id>https://news.ycombinator.com/item?id=42658998</id>
@@ -116,16 +127,6 @@ Probably my peak fame right there.]]></summary>
         <updated>2025-01-10T11:58:00.000Z</updated>
         <author>
             <name>Lambert Strether</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links 1/11/2025]]></title>
-        <id>https://www.nakedcapitalism.com/?p=285297</id>
-        <link href="https://www.nakedcapitalism.com/2025/01/links-1-11-2025.html"/>
-        <updated>2025-01-10T11:55:14.000Z</updated>
-        <summary type="html"><![CDATA[Climate/Environment Climate change’s hidden cost: Mental health crisis among Montana’s farmers and ranchers Bozeman Daily Chronicle Early ‘Forever Chemicals’ Exposure Could Impact Economic Success in Adulthood, Study Says Guardian Japan EV Sales Plummet 33% in 2024, First Decline in Four Years Nikkei South Korean Battery Giants Face Steep Losses Amid Global EV Slowdown Korea Bizwire […]]]></summary>
-        <author>
-            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -554,21 +555,6 @@ Sorg EN]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New comment by hiAndrewQuinn in "SQL nulls are weird"]]></title>
-        <id>https://news.ycombinator.com/item?id=42647926</id>
-        <link href="https://news.ycombinator.com/item?id=42647926"/>
-        <updated>2025-01-09T17:37:12.000Z</updated>
-        <summary type="html"><![CDATA[SQL NULLs aren't weird, they're just based off of Kleene's TRUE-FALSE-UNKNOWN logic!
-If you want you can read NULL as UNKNOWN and suddenly a whole bunch of operations involving them become a lot more intuitive:
-1. TRUE OR UNKNOWN = TRUE, because you know you have at least one TRUE already.
-2. TRUE AND UNKNOWN = UNKNOWN, because you don't know whether you have two TRUEs or not. It's just out there.
-3. UNKNOWN XOR UNKNOWN = UNKNOWN, because it could darn near be anything: TRUE XOR TRUE, TRUE XOR FALSE, FALSE XOR FALSE, FALSE XOR TRUE... Internalizing this is where SQL's use of NULL / UNKNOWN really becomes intuitive.
-4. (TRUE AND FALSE) XOR (TRUE OR UNKNOWN) = (FALSE) XOR (TRUE) per #1 = TRUE. See, it's consistent, you just need to keep in mind that if you have a lot of known UNKNOWNs they're quite parasitic and your final outcome is likely to be, itself, an UNKNOWN. Just like in real life!]]></summary>
-        <author>
-            <name>hiAndrewQuinn</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Beware the Faux Populism of Corporate Democrats]]></title>
         <id>https://www.nakedcapitalism.com/?p=285238</id>
         <link href="https://www.nakedcapitalism.com/2025/01/beware-the-faux-populism-of-corporate-democrats.html"/>
@@ -596,6 +582,16 @@ If you want you can read NULL as UNKNOWN and suddenly a whole bunch of operation
         <summary type="html"><![CDATA[Our fiery daily links]]></summary>
         <author>
             <name>Lambert Strether</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Week’s Unholy Mix of Drought, Wind, and Fire in Southern California: A Warning of an Accelerating Insurance Crisis in Climate-Risk Areas?]]></title>
+        <id>https://www.nakedcapitalism.com/?p=285225</id>
+        <link href="https://www.nakedcapitalism.com/2025/01/this-weeks-unholy-mix-of-drought-wind-and-fire-in-southern-california-a-warning-of-an-accelerating-insurance-crisis-in-climate-risk-areas.html"/>
+        <updated>2025-01-09T11:52:07.000Z</updated>
+        <summary type="html"><![CDATA[More and more homeowners are understandably worried about what insurance increases might look like in the face of intensifying climate risks.]]></summary>
+        <author>
+            <name>Yves Smith</name>
         </author>
     </entry>
     <entry>
@@ -1088,16 +1084,6 @@ So he dressed up in his full paddling outfit and brought his boat (4m long in th
 But he got into huge trouble with the U.S. Olympic establishment, and was almost dropped from that team. They said they were scandalized that he would dare to try to make personal money from his Olympic team status. It became clear to some that they were also mad he dared to demonstrate how poor many Olympic athletes actually were—by essentially begging on a street corner in a part of town full of prominent people.]]></summary>
         <author>
             <name>snowwrestler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New comment by tomalaci in "Meta is killing off its AI-powered Instagram and Facebook profiles"]]></title>
-        <id>https://news.ycombinator.com/item?id=42596040</id>
-        <link href="https://news.ycombinator.com/item?id=42596040"/>
-        <updated>2025-01-04T17:14:12.000Z</updated>
-        <summary type="html"><![CDATA[You know what AI profiles I want more of? Clueless grandma/grandpa that accepts scammer calls and waste their time. Such as UK's O2 Daisy: https://news.virginmediao2.co.uk/o2-unveils-daisy-the-ai-gra...]]></summary>
-        <author>
-            <name>tomalaci</name>
         </author>
     </entry>
 </feed>
