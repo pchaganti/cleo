@@ -57,7 +57,18 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": []
+      "articles": [
+        {
+          "id": "9581cfecf96e1551708a722739cc816e9e261f24",
+          "author": "Pablo Forero",
+          "description": "This blog post will show you how to use the power of ML to build a fraud-detection model using Amazon SageMaker Canvas, a no-code/low-code ML service that business analysts and domain experts can use to build, train, and deploy ML models without requiring extensive ML expertise.",
+          "link": "https://aws.amazon.com/blogs/architecture/training-a-call-center-fraud-detection-model-for-ivr-calls-with-amazon-sagemaker-canvas/",
+          "publishedOn": "2025-03-07T17:09:39.000Z",
+          "wordCount": 2353,
+          "title": "Training a call center fraud detection model for IVR calls with Amazon SageMaker Canvas",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/03/07/archblog-1109.jpg"
+        }
+      ]
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
@@ -137,7 +148,7 @@
           "description": "This post was jointly authored by Kevin Liu (Senior PMT), Jens-Uwe Walther (Senior STAM-Containers), and Drew Sirenko (Software Dev Engineer). Introduction In this post, we explore how to modify Amazon Elastic Block Store (Amazon EBS) volumes on Kubernetes without application downtime. Learn how to use the VolumeAttributesClass API alongside the Amazon EBS Container Storage Interface […]",
           "link": "https://aws.amazon.com/blogs/containers/modify-amazon-ebs-volumes-on-kubernetes-with-volume-attributes-classes/",
           "publishedOn": "2025-03-05T20:04:49.000Z",
-          "wordCount": 2581,
+          "wordCount": 2585,
           "title": "Modify Amazon EBS volumes on Kubernetes with Volume Attributes Classes",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2025/02/25/Featured-images-for-Containers-Blog-1-1260x630.jpg"
         },
@@ -149,7 +160,7 @@
           "publishedOn": "2025-03-05T04:45:51.000Z",
           "wordCount": 2785,
           "title": "End of support notifications and enhanced discoverability for Amazon EKS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png"
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2025/03/07/Featured-images-for-Containers-Blog-1-1260x630.jpg"
         },
         {
           "id": "c022df42f1c20b9634a906e704ff4cceddd23e33",
@@ -169,12 +180,32 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=288309",
+          "author": "Yves Smith",
+          "description": "The Wall Street Journal worried about the giddy mood at the annual structured industry conference. But is where to look for the next crisis?",
+          "link": "https://www.nakedcapitalism.com/2025/03/as-us-markets-look-a-bit-wobbly-the-press-looks-for-the-next-crisis-in-the-rear-view-mirror.html",
+          "publishedOn": "2025-03-07T14:55:07.000Z",
+          "wordCount": 6886,
+          "title": "As US Markets Look a Bit Wobbly, the Press Looks for the Next Crisis in the Rear View Mirror",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Screen-Shot-2025-03-07-at-5.50.51-PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=288557",
+          "author": "Yves Smith",
+          "description": "Cuts to the Social Security Administration are cuts to Social Security. Raise hell with your Congresscritters about this looting",
+          "link": "https://www.nakedcapitalism.com/2025/03/trump-presents-the-gravest-threat-to-social-security-in-its-90-year-history.html",
+          "publishedOn": "2025-03-07T13:12:17.000Z",
+          "wordCount": 8504,
+          "title": "Trump Presents the Gravest Threat to Social Security in Its 90-Year History",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=288454",
           "author": "Conor Gallagher",
           "description": "",
           "link": "https://www.nakedcapitalism.com/2025/03/links-3-7-2025.html",
           "publishedOn": "2025-03-07T11:55:29.000Z",
-          "wordCount": 4082,
+          "wordCount": 10991,
           "title": "Links 3/7/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Screenshot-2025-03-06-at-7.11.22 AM-e1741270324185.png"
         },
@@ -184,7 +215,7 @@
           "description": "\"I send money to [Milei's] sister and he signs everything I say and does what I want,\" claims Hayden Mark Davis, the creator of the $LIBRA meme coin.",
           "link": "https://www.nakedcapitalism.com/2025/03/are-the-wheels-finally-beginning-to-fall-off-the-milei-clown-bus.html",
           "publishedOn": "2025-03-07T11:45:05.000Z",
-          "wordCount": 5468,
+          "wordCount": 6315,
           "title": "Are the Wheels Finally Beginning to Fall Off the Mileis’ Faux Libertarian Clown Bus?",
           "imageUrl": null
         },
@@ -194,7 +225,7 @@
           "description": "A granular analysis of US military and direct aid to Ukraine finds the official tallies are greatly overstated.",
           "link": "https://www.nakedcapitalism.com/2025/03/new-analysis-from-economists-for-ukraine-the-cost-of-us-aid-to-ukraine-is-less-than-half-the-official-figures.html",
           "publishedOn": "2025-03-07T08:38:50.000Z",
-          "wordCount": 4904,
+          "wordCount": 7497,
           "title": "New Analysis from Economists for Ukraine: The Cost of US Aid to Ukraine Is Less Than Half the Official Figures",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/00-Ukraine.png"
         },
@@ -204,7 +235,7 @@
           "description": "Scientist and entrepreneur Phillip Alvelda explains how DOGE cuts threaten the innovative capacities that made America a powerhouse",
           "link": "https://www.nakedcapitalism.com/2025/03/a-generational-loss-of-talent-scientist-warns-funding-cuts-in-science-tech-and-health-undermine-u-s-leadership.html",
           "publishedOn": "2025-03-06T15:55:16.000Z",
-          "wordCount": 12360,
+          "wordCount": 13158,
           "title": "“A Generational Loss of Talent” – Scientist Warns Funding Cuts in Science, Tech, and Health Undermine U.S. Leadership",
           "imageUrl": null
         },
@@ -214,7 +245,7 @@
           "description": "",
           "link": "https://www.nakedcapitalism.com/2025/03/links-3-6-2025.html",
           "publishedOn": "2025-03-06T11:55:53.000Z",
-          "wordCount": 12530,
+          "wordCount": 12796,
           "title": "Links 3/6/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Screenshot-2025-03-05-at-7.03.17 AM-e1741183353176.png"
         },
@@ -224,7 +255,7 @@
           "description": "France, Germany and Poland are reacting to how relations between Russia, and the US will determine Europe’s future security architecture.",
           "link": "https://www.nakedcapitalism.com/2025/03/france-germany-poland-are-competing-for-leadership-of-post-conflict-europe.html",
           "publishedOn": "2025-03-06T10:29:54.000Z",
-          "wordCount": 9774,
+          "wordCount": 11411,
           "title": "France, Germany, & Poland Are Competing For Leadership Of Post-Conflict Europe",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/00-poland.jpeg"
         },
@@ -234,7 +265,7 @@
           "description": "A meant-to-be-heartening story of post-flooding recovery efforts in Appalachia: is this the coming new normal in climate-change-exposed areas?",
           "link": "https://www.nakedcapitalism.com/2025/03/we-know-what-its-like-how-appalachian-towns-are-learning-to-help-each-other-after-floods.html",
           "publishedOn": "2025-03-06T07:06:40.000Z",
-          "wordCount": 4261,
+          "wordCount": 4440,
           "title": "‘We Know What It’s Like’: How Appalachian Towns Are Learning to Help Each Other After Floods",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/00-appalachia.webp"
         },
@@ -244,29 +275,9 @@
           "description": "How good coordination of public health with private medical practice never came together in the US and got worse in recent decades.",
           "link": "https://www.nakedcapitalism.com/2025/03/where-did-u-s-public-health-go-wrong.html",
           "publishedOn": "2025-03-06T05:29:02.000Z",
-          "wordCount": 5006,
+          "wordCount": 5048,
           "title": "Where Did U.S. Public Health Go Wrong?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=288408",
-          "author": "Yves Smith",
-          "description": "The respected Atlanta Fed NowCast is scary bad, as in economic shoes about to drop in a big way bad.",
-          "link": "https://www.nakedcapitalism.com/2025/03/might-the-us-be-about-to-fall-off-an-economic-cliff.html",
-          "publishedOn": "2025-03-05T14:55:47.000Z",
-          "wordCount": 10088,
-          "title": "“Might the US Be About to Fall Off an Economic Cliff?”",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/00-economic-nowcast.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=288360",
-          "author": "Conor Gallagher",
-          "description": "",
-          "link": "https://www.nakedcapitalism.com/2025/03/links-3-5-2025.html",
-          "publishedOn": "2025-03-05T11:55:51.000Z",
-          "wordCount": 14857,
-          "title": "Links 3/5/2025",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Screenshot-2025-03-04-at-6.54.10 PM-1024x986.png"
         }
       ]
     },
@@ -315,6 +326,26 @@
       "feedUrl": "https://newleftreview.org/sidecar/feed",
       "siteUrl": "https://newleftreview.org/sidecar/feed",
       "articles": [
+        {
+          "id": "https://newleftreview.org/sidecar/posts/guns-and-foodbanks",
+          "author": null,
+          "description": "On Starmer’s Britain.",
+          "link": "https://newleftreview.org/sidecar/posts/guns-and-foodbanks",
+          "publishedOn": "2025-03-07T18:01:30.000Z",
+          "wordCount": 1896,
+          "title": "Tom Hazeldine: &ldquo;Guns and Foodbanks&rdquo;",
+          "imageUrl": "https://newleftreview.org/blog-uploads/2025/03/image-from-rawpixel-id-2968524-jpeg-scaled-1.jpg"
+        },
+        {
+          "id": "https://newleftreview.org/sidecar/posts/leaning-right",
+          "author": null,
+          "description": "Elections in Germany.",
+          "link": "https://newleftreview.org/sidecar/posts/leaning-right",
+          "publishedOn": "2025-03-07T13:13:50.000Z",
+          "wordCount": 2395,
+          "title": "Loren Balhorn: &ldquo;Leaning Right&rdquo;",
+          "imageUrl": "https://newleftreview.org/blog-uploads/2025/03/23950685021-832e0c41a3-b.jpg"
+        },
         {
           "id": "https://newleftreview.org/sidecar/posts/bitter-pill",
           "author": null,
@@ -397,7 +428,7 @@
           "description": "Today's links look at solving resource over-provisioning in Kubernetes, how to handle jealous colleagues, and why everyone can be a great storyteller.",
           "link": "https://seroter.com/2025/03/06/daily-reading-list-march-6-2025-506/",
           "publishedOn": "2025-03-07T00:50:50.000Z",
-          "wordCount": 4584,
+          "wordCount": 4600,
           "title": "Daily Reading List – March 6, 2025 (#506)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
