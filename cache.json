@@ -12,6 +12,26 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "d8b4ab43ae808965a8307aaee3d43f2df49b5cab",
+          "author": "Donnie Prakoso",
+          "description": "Amazon SageMaker Unified Studio is a single data and AI development platform that brings data together with analytics and AI/ML tools, including Amazon Bedrock and Amazon Q Developer, to streamline analytics and AI application development across virtually any use case.",
+          "link": "https://aws.amazon.com/blogs/aws/collaborate-and-build-faster-with-amazon-sagemaker-unified-studio-now-generally-available/",
+          "publishedOn": "2025-03-13T23:05:34.000Z",
+          "wordCount": 1953,
+          "title": "Collaborate and build faster with Amazon SageMaker Unified Studio, now generally available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/20/SageMaker-feat-img-2024.png"
+        },
+        {
+          "id": "1a4333e3eccbb13a6a0048c11aa86e87a7be3115",
+          "author": "Channy Yun (윤석찬)",
+          "description": "Amazon S3 Tables integration with SageMaker Lakehouse enables unified access to S3 Tables data from AWS analytics engines like Amazon Athena, Redshift, EMR, and third-party query engines, to build securely and manage centrally.",
+          "link": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-integration-with-amazon-sagemaker-lakehouse-is-now-generally-available/",
+          "publishedOn": "2025-03-13T22:03:44.000Z",
+          "wordCount": 1937,
+          "title": "Amazon S3 Tables integration with Amazon SageMaker Lakehouse is now generally available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/18/S3-Table-Buckets.png"
+        },
+        {
           "id": "a59b12c5b4dbc2fbf789e0aeeeadd3c320d2652f",
           "author": "Channy Yun (윤석찬)",
           "description": "DeepSeek-R1 is now available as a fully managed model in Amazon Bedrock, freeing up your teams to focus on strategic initiatives instead of managing infrastructure complexities.",
@@ -79,10 +99,10 @@
         {
           "id": "548de8f855d95052b16ef9f4ee7201119432ead7",
           "author": "Brian Beach",
-          "description": "Software development is undergoing a seismic shift, driven by the transformative impact of generative AI. This powerful technology is redefining how developers work, what they build, and who can become a developer. At the AWS Developer Day 2025, we discussed how AWS is empowering developers to embrace this evolution through their generative AI developer tools. […]",
+          "description": "The AWS Developer Day 2025 showcased how generative AI developer tools from AWS are transforming software development practices, enabling faster building and scaling of cloud software through product launches, leadership insights, and practical demonstrations.",
           "link": "https://aws.amazon.com/blogs/devops/watch-the-recordings-from-aws-developer-day-2025/",
           "publishedOn": "2025-03-13T13:26:29.000Z",
-          "wordCount": 1378,
+          "wordCount": 1379,
           "title": "Watch the recordings from AWS Developer Day 2025",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/03/11/Watch-the-recordings-from-AWS-Developer-Day-2025-1120x630.png"
         },
@@ -130,6 +150,26 @@
       "siteUrl": "https://aws.amazon.com/blogs/containers/",
       "articles": [
         {
+          "id": "eafcd03aa83d454d28255aa0c965fae7767ffabf",
+          "author": "pmm",
+          "description": "This blog was authored by Zakiya Randall, Technical Account Manager and co-written with Muru Bhaskaran, Sr. Specialist Solutions Architect. Introduction As the landscape of computing continues to evolve, there is a growing emphasis on supporting a diverse range of computing architectures. This shift is driven by the need for flexibility, efficiency, and performance optimization across […]",
+          "link": "https://aws.amazon.com/blogs/containers/building-multi-arch-containers-with-github-actions-in-aws/",
+          "publishedOn": "2025-03-14T00:34:20.000Z",
+          "wordCount": 2840,
+          "title": "Building multi-arch containers with GitHub Actions in AWS",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2025/03/14/Featured-images-for-Containers-Blog-3-1260x630.jpg"
+        },
+        {
+          "id": "fc4d0066915316841bbbbc5126a7ceb3a48ddcbb",
+          "author": "pmm",
+          "description": "This post was jointly authored by Elamaran Shanmugam (Senior Partner Specialist SA), Sanjeev Ganjihal (Senior Specialist SA), and Steven David (Principal SA). Introduction In this first part of a four-part series, titled Observability of MLOps on Amazon EKS, you get an overview of Machine Learning operations(MLOps) on Amazon Elastic Kubernetes Service(Amazon EKS). This includes understanding […]",
+          "link": "https://aws.amazon.com/blogs/containers/part-1-introduction-to-observing-machine-learning-workloads-on-amazon-eks/",
+          "publishedOn": "2025-03-13T20:00:02.000Z",
+          "wordCount": 3456,
+          "title": "Part 1: Introduction to observing machine learning workloads on Amazon EKS",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2025/03/10/Featured-images-for-Containers-Blog-2-1260x630.jpg"
+        },
+        {
           "id": "842c6a7752a9dd9dc27134766779a35e8e068ab5",
           "author": "pmm",
           "description": "This blog was authored by Sriram Ranganathan, Senior Product Manager, AWS and Vikram Venkataram, Principal Solutions Architect, AWS.  Introduction As part of AWS re:Invent 2023, Amazon Elastic Kubernetes Service (Amazon EKS) launched Amazon EKS Pod Identity, simplifying how you apply AWS Identity and Access Management (IAM) permissions to your Kubernetes cluster workloads. Some EKS add-ons, which enable […]",
@@ -152,7 +192,7 @@
           "description": "Russia nixes the barmy US-Ukraine peace scheme faster and more directly than expected. What next?",
           "link": "https://www.nakedcapitalism.com/2025/03/russian-negotiator-reiterates-russian-nyet-on-ceasefire-even-before-us-emissary-steve-witkoff-arrives-in-moscow.html",
           "publishedOn": "2025-03-13T15:42:34.000Z",
-          "wordCount": 5560,
+          "wordCount": 8268,
           "title": "Russian Negotiator Reiterates “Nyet” on Ceasefire Even Before US Emissary Steve Witkoff Arrives in Moscow",
           "imageUrl": null
         },
@@ -162,7 +202,7 @@
           "description": "",
           "link": "https://www.nakedcapitalism.com/2025/03/links-3-13-2025.html",
           "publishedOn": "2025-03-13T10:55:52.000Z",
-          "wordCount": 16509,
+          "wordCount": 20178,
           "title": "Links 3/13/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Screenshot-2025-03-12-at-5.43.36 PM-810x1024.png"
         },
@@ -172,7 +212,7 @@
           "description": "As the wheels start coming off the Trump economy, the president shows no sign of changing course.",
           "link": "https://www.nakedcapitalism.com/2025/03/business-press-suddenly-and-widely-reporting-damage-done-by-trump-economic-policies.html",
           "publishedOn": "2025-03-13T10:54:16.000Z",
-          "wordCount": 8406,
+          "wordCount": 9836,
           "title": "Business Press Suddenly and Widely Reporting Damage Done by Trump Economic Policies",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Screen-Shot-2025-03-13-at-5.57.45-PM.png"
         },
@@ -182,7 +222,7 @@
           "description": "It can't be said often enough that neoliberalism is unhealthy for children and other living things.",
           "link": "https://www.nakedcapitalism.com/2025/03/neoliberalism-and-a-healthy-population-are-incompatible.html",
           "publishedOn": "2025-03-13T07:03:27.000Z",
-          "wordCount": 3499,
+          "wordCount": 3634,
           "title": "Neoliberalism and a Healthy Population Are Incompatible",
           "imageUrl": null
         },
@@ -192,7 +232,7 @@
           "description": "A look at the damage being done by Trump tariffs, though the eyes of small business operators in New York City.",
           "link": "https://www.nakedcapitalism.com/2025/03/trump-tariffs-plunge-local-nyc-businesses-into-uncertainty.html",
           "publishedOn": "2025-03-13T05:38:17.000Z",
-          "wordCount": 5343,
+          "wordCount": 6250,
           "title": "Trump Tariffs Plunge Local NYC Businesses Into Uncertainty",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/00-tariffs.webp"
         },
@@ -202,7 +242,7 @@
           "description": "After the (arguably deserved) humiliation of Zelensky after an Oval Office row, the negotiation plan agreed in Jeddah is a big win for him",
           "link": "https://www.nakedcapitalism.com/2025/03/so-much-for-trumps-peace-deal-with-russia-us-backs-zelensky-with-pre-rejected-by-russia-ceasefire-scheme.html",
           "publishedOn": "2025-03-12T14:55:08.000Z",
-          "wordCount": 16023,
+          "wordCount": 16052,
           "title": "So Much for Trump’s Peace Deal with Russia: US Backs Zelensky with Pre-Rejected-by-Russia Ceasefire Scheme",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/00-Zelensky.jpeg"
         },
@@ -212,7 +252,7 @@
           "description": "Our ravishing daily links: dog and cat feelers, oil tankers disaster worsens, Duarte arrest, EU TDS, Africa internet shutdowns, Trump's hostile Canada takeover threat, Musk revolt grows, yield curve inversion, son of PATCO strike,",
           "link": "https://www.nakedcapitalism.com/2025/03/links-3-12-2025.html",
           "publishedOn": "2025-03-12T10:55:55.000Z",
-          "wordCount": 20443,
+          "wordCount": 20545,
           "title": "Links 3/12/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Screen-Shot-2025-03-12-at-4.00.28-PM.png"
         },
@@ -222,7 +262,7 @@
           "description": "Anthony Fauci and Gregory Folkers take a stab at delineating what HIV/AIDS and COVID-19 have taught us about pandemic responses",
           "link": "https://www.nakedcapitalism.com/2025/03/politico-scientific-responses-to-the-current-pandemic-an-update-based-on-a-retrospective-by-anthony-fauci-and-gregory-folkers.html",
           "publishedOn": "2025-03-12T10:54:04.000Z",
-          "wordCount": 8433,
+          "wordCount": 8413,
           "title": "Politico-Scientific Responses to the Current Pandemic: An Update Based on a Retrospective by Anthony Fauci and Gregory Folkers",
           "imageUrl": null
         },
@@ -232,7 +272,7 @@
           "description": "Quelle surprise! People really hate the uncertainty that comes with business cycles. This bodes ill for the Trump regime.",
           "link": "https://www.nakedcapitalism.com/2025/03/the-perceived-costs-of-business-cycles-and-inflation.html",
           "publishedOn": "2025-03-12T10:50:31.000Z",
-          "wordCount": 5069,
+          "wordCount": 5049,
           "title": "The Perceived Costs of Business Cycles and Inflation",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/00-cycles.png"
         },
@@ -242,7 +282,7 @@
           "description": "On the total flaccidity of what passes for opposition to Trump.",
           "link": "https://www.nakedcapitalism.com/2025/03/trumps-address-to-congress-lame-democrat-proposals-highlights-the-absence-of-opposition.html",
           "publishedOn": "2025-03-12T08:44:06.000Z",
-          "wordCount": 8664,
+          "wordCount": 8644,
           "title": "Trump’s Address to Congress, Lame Democrat Proposals, Highlight the Absence of Opposition",
           "imageUrl": null
         }
@@ -321,26 +361,6 @@
           "wordCount": 1896,
           "title": "Tom Hazeldine: &ldquo;Guns and Foodbanks&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2025/03/image-from-rawpixel-id-2968524-jpeg-scaled-1.jpg"
-        },
-        {
-          "id": "https://newleftreview.org/sidecar/posts/leaning-right",
-          "author": null,
-          "description": "Elections in Germany.",
-          "link": "https://newleftreview.org/sidecar/posts/leaning-right",
-          "publishedOn": "2025-03-07T13:13:50.000Z",
-          "wordCount": 2395,
-          "title": "Loren Balhorn: &ldquo;Leaning Right&rdquo;",
-          "imageUrl": "https://newleftreview.org/blog-uploads/2025/03/23950685021-832e0c41a3-b.jpg"
-        },
-        {
-          "id": "https://newleftreview.org/sidecar/posts/bitter-pill",
-          "author": null,
-          "description": "Öcalan’s retreat.",
-          "link": "https://newleftreview.org/sidecar/posts/bitter-pill",
-          "publishedOn": "2025-03-07T09:42:05.000Z",
-          "wordCount": 1402,
-          "title": "Alp Kayserilioglu: &ldquo;Bitter Pill&rdquo;",
-          "imageUrl": "https://newleftreview.org/blog-uploads/2025/03/hale-asaf-mosque-and-cypresses-c-1928-1929-aware-women-artists-artistes-femmes.jpg"
         }
       ]
     },
@@ -383,12 +403,22 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=21534",
+          "author": "Richard Seroter",
+          "description": "Today's links look at new agent frameworks, why AI IDEs need moats, and how AI coding assistants are reshaping engineering.",
+          "link": "https://seroter.com/2025/03/13/daily-reading-list-march-13-2025-511/",
+          "publishedOn": "2025-03-13T18:37:02.000Z",
+          "wordCount": 4489,
+          "title": "Daily Reading List – March 13, 2025 (#511)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://seroter.com/?p=21520",
           "author": "Richard Seroter",
           "description": "Today's links look at the new version of the open Gemma models, what are some software falsehoods, and how AI is transforming software development.",
           "link": "https://seroter.com/2025/03/12/daily-reading-list-march-12-2025-510/",
           "publishedOn": "2025-03-12T19:31:23.000Z",
-          "wordCount": 4602,
+          "wordCount": 4610,
           "title": "Daily Reading List – March 12, 2025 (#510)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -418,7 +448,7 @@
           "description": "Today's links look at agentic workflow patterns, why great software design looks underwhelming, and why hallucinations in code are the least dangerous LLM mistakes.",
           "link": "https://seroter.com/2025/03/07/daily-reading-list-march-7-2025-507/",
           "publishedOn": "2025-03-07T23:49:21.000Z",
-          "wordCount": 4575,
+          "wordCount": 4578,
           "title": "Daily Reading List – March 7, 2025 (#507)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
