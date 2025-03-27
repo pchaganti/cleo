@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "e1f687c9f8d0323096db2a5d5faa8c59b4b6eab3",
+          "author": "Sébastien Stormacq",
+          "description": "Speed up build times on CodeBuild with test splitting across multiple parallel build environments. Read how test splitting with CodeBuild works and how to get started.",
+          "link": "https://aws.amazon.com/blogs/aws/accelerating-ci-with-aws-codebuild-parallel-test-execution-now-available/",
+          "publishedOn": "2025-03-27T18:14:29.000Z",
+          "wordCount": 2239,
+          "title": "Accelerating CI with AWS CodeBuild: Parallel test execution now available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/01/31/CodeBuild-feat-img2.png"
+        },
+        {
           "id": "d7aaff9fd6cc3ace262f1111bd106ce6f5fcbf35",
           "author": "Sébastien Stormacq",
           "description": "AWS Amplify Hosting now offers direct integration with AWS WAF, allowing users to apply web application firewall protection to their hosted apps through the console or infrastructure as code, eliminating the need for complex Amazon CloudFront configurations.",
@@ -70,7 +80,18 @@
       "title": "AWS DevOps & Developer Productivity Blog",
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
-      "articles": []
+      "articles": [
+        {
+          "id": "ac085208afc2314a676a8cf5155f0743a90de649",
+          "author": "Adam Keller",
+          "description": "Today we’re announcing the general availability (GA) of the new Amazon Cognito Identity Pool Level 2 (L2) construct in the AWS Cloud Development Kit (AWS CDK). This construct simplifies the creation and management of identity pools, permissions, and provider integrations by providing intent-based APIs that help users securely manage their authenticated and unauthenticated (guest) users […]",
+          "link": "https://aws.amazon.com/blogs/devops/announcing-the-aws-cdk-l2-construct-for-amazon-cognito-identity-pools/",
+          "publishedOn": "2025-03-27T17:01:53.000Z",
+          "wordCount": 1707,
+          "title": "Announcing the AWS CDK L2 Construct for Amazon Cognito Identity Pools",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/03/27/cognito-l2.png"
+        }
+      ]
     },
     {
       "title": "Spotify Engineering",
@@ -112,12 +133,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=289724",
+          "author": "Yves Smith",
+          "description": "A discussion of AI companions consider some, but perhaps not enough, of the downsides.",
+          "link": "https://www.nakedcapitalism.com/2025/03/ai-robot-rets-can-be-adorable-and-emotionally-responsive-they-also-raise-questions-about-attachment-and-mental-health.html",
+          "publishedOn": "2025-03-27T14:39:56.000Z",
+          "wordCount": 4005,
+          "title": "AI Robot Pets Can Be Adorable and Emotionally Responsive. They Also Raise Questions About Attachment and Mental Health",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=289667",
           "author": "Conor Gallagher",
           "description": "",
           "link": "https://www.nakedcapitalism.com/2025/03/links-3-27-2025.html",
           "publishedOn": "2025-03-27T10:55:26.000Z",
-          "wordCount": 4913,
+          "wordCount": 12102,
           "title": "Links 3/27/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Screenshot-2025-03-26-at-7.51.53 AM-665x1024.png"
         },
@@ -127,7 +158,7 @@
           "description": "A new study estimates the cost of payday loans in New York as the state debates tightening rules on these fintechs beyond existing usury laws",
           "link": "https://www.nakedcapitalism.com/2025/03/payday-loan-apps-cost-new-yorkers-500-million-plus-new-study-estimates.html",
           "publishedOn": "2025-03-27T10:54:50.000Z",
-          "wordCount": 4959,
+          "wordCount": 5600,
           "title": "Payday Loan Apps Cost New Yorkers $500 Million Plus, New Study Estimates",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2021/03/00-payday-2.png"
         },
@@ -137,7 +168,7 @@
           "description": "The Trump war against the judiciary reaches a new fevered pitch, with Speaker Johnson threatening Federal court funding.",
           "link": "https://www.nakedcapitalism.com/2025/03/house-speaker-johnson-threatens-to-defund-federal-courts.html",
           "publishedOn": "2025-03-27T07:16:05.000Z",
-          "wordCount": 4143,
+          "wordCount": 7535,
           "title": "House Speaker Johnson Threatens to Defund Federal Courts",
           "imageUrl": null
         },
@@ -147,7 +178,7 @@
           "description": "Professionals try to put a stake in the heart of the Trump rare earths deal palaver.",
           "link": "https://www.nakedcapitalism.com/2025/03/ukraine-rare-earths-deal-is-nonsense-to-mining-experts.html",
           "publishedOn": "2025-03-27T06:45:31.000Z",
-          "wordCount": 5288,
+          "wordCount": 7791,
           "title": "Ukraine Rare Earths Deal Is Nonsense To Mining Experts",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/00-rare-earths-deal.jpg"
         },
@@ -157,7 +188,7 @@
           "description": "Having barely started, the US-Russia negotiaions are already going a bit pear shaped.",
           "link": "https://www.nakedcapitalism.com/2025/03/russia-us-negotiations-trump-criticism-follows-the-bad-sign-of-the-lack-of-a-joint-statement-after-last-round-and-the-iran-angle.html",
           "publishedOn": "2025-03-26T15:21:05.000Z",
-          "wordCount": 10709,
+          "wordCount": 11055,
           "title": "Russia-US Negotiations: Trump Criticism Follows the Bad Sign of the Lack of a Joint Statement After Last Round and the Iran Angle",
           "imageUrl": null
         },
@@ -167,7 +198,7 @@
           "description": "",
           "link": "https://www.nakedcapitalism.com/2025/03/links-3-26-2025.html",
           "publishedOn": "2025-03-26T10:55:03.000Z",
-          "wordCount": 15013,
+          "wordCount": 15058,
           "title": "Links 3/26/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Screenshot-2025-03-25-at-7.14.17 AM-1024x786.png"
         },
@@ -177,7 +208,7 @@
           "description": "How biomedical research is funded by public institutions and performed in universities and research institutions, both now in danger",
           "link": "https://www.nakedcapitalism.com/2025/03/biomedical-research-its-funding-and-its-practice-where-do-we-go-from-here.html",
           "publishedOn": "2025-03-26T10:54:42.000Z",
-          "wordCount": 6477,
+          "wordCount": 6723,
           "title": "Biomedical Research, Its Funding and Its Practice: Where Do We Go from Here?",
           "imageUrl": null
         },
@@ -187,7 +218,7 @@
           "description": "Might there be more method in Trump's crypto and dollar madness than most assume?",
           "link": "https://www.nakedcapitalism.com/2025/03/yanis-varoufakis-cryptos-role-in-trumps-economic-masterplan-with-special-emphasis-on-stablecoins.html",
           "publishedOn": "2025-03-26T09:55:24.000Z",
-          "wordCount": 8642,
+          "wordCount": 8655,
           "title": "Yanis Varoufakis: Crypto’s Role in Trump’s Economic Masterplan (With Special Emphasis on Stablecoins)",
           "imageUrl": null
         },
@@ -197,19 +228,9 @@
           "description": "A study confirms that extreme heat events stress hospitals so much that they produce non-heat excess deaths.",
           "link": "https://www.nakedcapitalism.com/2025/03/extreme-heat-hospital-crowding-and-the-hidden-health-costs-of-climate-change.html",
           "publishedOn": "2025-03-26T09:01:08.000Z",
-          "wordCount": 3997,
+          "wordCount": 4010,
           "title": "Extreme Heat, Hospital Crowding, and the Hidden Health Costs of Climate Change",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/00-hospital.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=289469",
-          "author": "Haig Hovaness",
-          "description": "Our warfare focused Coffee Break: The impossible dream of a national missile shield and the implications for Trump's Golden Dome",
-          "link": "https://www.nakedcapitalism.com/2025/03/coffee-break-armed-madhouse-3-25-2025.html",
-          "publishedOn": "2025-03-25T18:00:59.000Z",
-          "wordCount": 6392,
-          "title": "Coffee Break: Armed Madhouse – Missile Defense Pretense",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Diagram-e1742837434356.jpg"
         }
       ]
     },
@@ -434,7 +455,7 @@
           "description": "Today's links look at how to use LLMs to write code, what happens when you oversell your abilities, and 20 business terms that techies should know.",
           "link": "https://seroter.com/2025/03/25/daily-reading-list-march-25-2025-519/",
           "publishedOn": "2025-03-26T00:16:13.000Z",
-          "wordCount": 4695,
+          "wordCount": 4687,
           "title": "Daily Reading List – March 25, 2025 (#519)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
