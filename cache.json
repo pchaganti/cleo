@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "d7aaff9fd6cc3ace262f1111bd106ce6f5fcbf35",
+          "author": "Sébastien Stormacq",
+          "description": "AWS Amplify Hosting now offers direct integration with AWS WAF, allowing users to apply web application firewall protection to their hosted apps through the console or infrastructure as code, eliminating the need for complex Amazon CloudFront configurations.",
+          "link": "https://aws.amazon.com/blogs/aws/firewall-support-for-aws-amplify-hosted-sites/",
+          "publishedOn": "2025-03-26T20:05:15.000Z",
+          "wordCount": 1673,
+          "title": "Firewall support for AWS Amplify hosted sites",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/03/18/amplify-feat-img2.png"
+        },
+        {
           "id": "8ef572ee74a40fa66e5321cfb5d53c61268fb8c7",
           "author": "Prasad Rao",
           "description": "AWS is expanding its global infrastructure, now providing increased transparency about the specific geographic locations of its 114 Availability Zones across 36 regions to help customers meet regulatory requirements and make informed deployment decisions.",
@@ -47,26 +57,6 @@
           "wordCount": 2288,
           "title": "From virtual machine to Kubernetes to serverless: How dacadoo saved 78% on cloud costs and automated operations",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/03/04/ARCHBLOG-1090-Stage3-743x630.png"
-        },
-        {
-          "id": "49c7d2cb42187f28621d948c97a71b56120c1a7e",
-          "author": "Christoph Kappey",
-          "description": "In this post, you'll learn how to implement Architecture Decision Records (ADRs) in your organization, based on best practices developed from experience with over 200 ADRs across multiple projects. You'll also discover practical tips for streamlining architectural decision-making, see real-world examples from projects with teams ranging from 10 to over 100 members, and understand the common challenges in architecture decision-making and how ADRs can help address them.",
-          "link": "https://aws.amazon.com/blogs/architecture/master-architecture-decision-records-adrs-best-practices-for-effective-decision-making/",
-          "publishedOn": "2025-03-20T13:58:09.000Z",
-          "wordCount": 1854,
-          "title": "Master architecture decision records (ADRs): Best practices for effective decision-making",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/03/20/featured-images-ADRs-1120x630.jpg"
-        },
-        {
-          "id": "57f572e1d3fa0aae19f27e0032d52e0e03ebf91c",
-          "author": "Antoine Boucherie",
-          "description": "In this post, we explore an intermediate strategy between the pilot light and the warm standby strategies: pilot light with reserved capacity. You can use this strategy to reserve compute capacity in a secondary Region while also limiting cost.",
-          "link": "https://aws.amazon.com/blogs/architecture/pilot-light-with-reserved-capacity-how-to-optimize-dr-cost-using-on-demand-capacity-reservations/",
-          "publishedOn": "2025-03-20T13:53:32.000Z",
-          "wordCount": 2908,
-          "title": "Pilot light with reserved capacity: How to optimize DR cost using On-Demand Capacity Reservations",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/03/06/ARCHBLOG-1099-spectrum-1.jpg"
         }
       ]
     },
@@ -127,7 +117,7 @@
           "description": "Having barely started, the US-Russia negotiaions are already going a bit pear shaped.",
           "link": "https://www.nakedcapitalism.com/2025/03/russia-us-negotiations-trump-criticism-follows-the-bad-sign-of-the-lack-of-a-joint-statement-after-last-round-and-the-iran-angle.html",
           "publishedOn": "2025-03-26T15:21:05.000Z",
-          "wordCount": 6206,
+          "wordCount": 9367,
           "title": "Russia-US Negotiations: Trump Criticism Follows the Bad Sign of the Lack of a Joint Statement After Last Round and the Iran Angle",
           "imageUrl": null
         },
@@ -137,7 +127,7 @@
           "description": "",
           "link": "https://www.nakedcapitalism.com/2025/03/links-3-26-2025.html",
           "publishedOn": "2025-03-26T10:55:03.000Z",
-          "wordCount": 11699,
+          "wordCount": 13922,
           "title": "Links 3/26/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Screenshot-2025-03-25-at-7.14.17 AM-1024x786.png"
         },
@@ -147,7 +137,7 @@
           "description": "How biomedical research is funded by public institutions and performed in universities and research institutions, both now in danger",
           "link": "https://www.nakedcapitalism.com/2025/03/biomedical-research-its-funding-and-its-practice-where-do-we-go-from-here.html",
           "publishedOn": "2025-03-26T10:54:42.000Z",
-          "wordCount": 6351,
+          "wordCount": 6557,
           "title": "Biomedical Research, Its Funding and Its Practice: Where Do We Go from Here?",
           "imageUrl": null
         },
@@ -157,7 +147,7 @@
           "description": "Might there be more method in Trump's crypto and dollar madness than most assume?",
           "link": "https://www.nakedcapitalism.com/2025/03/yanis-varoufakis-cryptos-role-in-trumps-economic-masterplan-with-special-emphasis-on-stablecoins.html",
           "publishedOn": "2025-03-26T09:55:24.000Z",
-          "wordCount": 6904,
+          "wordCount": 8198,
           "title": "Yanis Varoufakis: Crypto’s Role in Trump’s Economic Masterplan (With Special Emphasis on Stablecoins)",
           "imageUrl": null
         },
@@ -167,7 +157,7 @@
           "description": "A study confirms that extreme heat events stress hospitals so much that they produce non-heat excess deaths.",
           "link": "https://www.nakedcapitalism.com/2025/03/extreme-heat-hospital-crowding-and-the-hidden-health-costs-of-climate-change.html",
           "publishedOn": "2025-03-26T09:01:08.000Z",
-          "wordCount": 3983,
+          "wordCount": 4077,
           "title": "Extreme Heat, Hospital Crowding, and the Hidden Health Costs of Climate Change",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/00-hospital.png"
         },
@@ -177,7 +167,7 @@
           "description": "Our warfare focused Coffee Break: The impossible dream of a national missile shield and the implications for Trump's Golden Dome",
           "link": "https://www.nakedcapitalism.com/2025/03/coffee-break-armed-madhouse-3-25-2025.html",
           "publishedOn": "2025-03-25T18:00:59.000Z",
-          "wordCount": 6420,
+          "wordCount": 6472,
           "title": "Coffee Break: Armed Madhouse – Missile Defense Pretense",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Diagram-e1742837434356.jpg"
         },
@@ -187,7 +177,7 @@
           "description": "The oh-so-clever US intends to drive a wedge between China and Russia, after having been mean to Russia and still mean to China.",
           "link": "https://www.nakedcapitalism.com/2025/03/trumps-desire-to-un-unite-russia-and-china-is-unlikely-to-work-in-fact-it-could-well-backfire.html",
           "publishedOn": "2025-03-25T14:01:50.000Z",
-          "wordCount": 7049,
+          "wordCount": 7101,
           "title": "Trump’s Desire to ‘Un-Unite’ Russia and China Is Unlikely to Work – In Fact, It Could Well Backfire",
           "imageUrl": null
         },
@@ -197,7 +187,7 @@
           "description": "Our finnicky daily links: beard transplants. Yemen plans text leak, TMSC at risk, judge: Nazis treated better than deportees, EU war tyranny, spying AI extensions, Turkiye turmoil, police militarization,",
           "link": "https://www.nakedcapitalism.com/2025/03/links-3-25-2025.html",
           "publishedOn": "2025-03-25T10:55:18.000Z",
-          "wordCount": 19679,
+          "wordCount": 20054,
           "title": "Links 3/25/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/03/Screen-Shot-2025-03-25-at-4.45.08-PM.png"
         },
@@ -207,7 +197,7 @@
           "description": "Imagine a technology that could facilitate the single greatest expansion of totalitarian power in history in the hands of the European Central Bank and EU Commission. What could possibly go wrong?",
           "link": "https://www.nakedcapitalism.com/2025/03/five-reasons-why-europeans-should-be-terrified-about-the-ecbs-apparently-fast-approaching-digital-euro-2.html",
           "publishedOn": "2025-03-25T10:45:06.000Z",
-          "wordCount": 8058,
+          "wordCount": 8110,
           "title": "Five Reasons Why Euro Area Citizens Should Be Terrified By the ECB’s (Apparently) Fast Approaching Digital Euro",
           "imageUrl": null
         },
@@ -217,7 +207,7 @@
           "description": "How DOGE isn't just tearing down institutions but also laying the groundwork for an experimental new kind of authoritarian rule.",
           "link": "https://www.nakedcapitalism.com/2025/03/the-dark-enlightenment-the-tech-oligarch-ideology-driving-doges-destruction.html",
           "publishedOn": "2025-03-25T09:55:07.000Z",
-          "wordCount": 18989,
+          "wordCount": 19257,
           "title": "The Dark Enlightenment: The Tech Oligarch Ideology Driving DOGE’s Destruction",
           "imageUrl": null
         }
@@ -347,56 +337,6 @@
           "wordCount": 1113,
           "title": "Cloudflare is now IRAP assessed at the PROTECTED level, furthering our commitment to the global public sector",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4GBiJzQsUVHJSnWEuZ0HsO/a2edd5cbdd77e8419b14e7193ed75971/OG_Share_2024__23_.png"
-        },
-        {
-          "id": "6oqVUC4QLYuEBImzaJo8eu",
-          "author": "Daniele Molteni",
-          "description": "Forrester Research has recognized Cloudflare as a Leader in its The Forrester Wave™: Web Application Firewall Solutions, Q1 2025 report.",
-          "link": "https://blog.cloudflare.com/cloudflare-named-leader-waf-forrester-2025/",
-          "publishedOn": "2025-03-20T14:00:00.000Z",
-          "wordCount": 1394,
-          "title": "Cloudflare named a leader in Web Application Firewall Solutions in 2025 Forrester report",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3Nyh88WLEHARcbLiTJHdJH/39c073b927509f6d56c4e4d752745bfe/Meta_Card.png"
-        },
-        {
-          "id": "7ywSxti5U7fxjKbqmVXpGW",
-          "author": "Alex Dunbrack",
-          "description": "Cloudflare’s first AI agent, Cloudy, helps make complicated configurations easy to understand for Cloudflare administrators.",
-          "link": "https://blog.cloudflare.com/introducing-ai-agent/",
-          "publishedOn": "2025-03-20T13:10:00.000Z",
-          "wordCount": 1790,
-          "title": "Introducing Cloudy, Cloudflare’s AI agent for simplifying complex configurations",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3saCJUKec4xaLaDCrx1JmK/dea7827a94c3bcac0eff67f303a55937/BLOG-2692_OG.png"
-        },
-        {
-          "id": "RqjV9vQoPNX8txlmrju6d",
-          "author": "Suleman Ahmad",
-          "description": "We are closing the cleartext HTTP ports entirely for Cloudflare API traffic. This prevents the risk of clients unintentionally leaking their secret API keys in cleartext during the initial request.",
-          "link": "https://blog.cloudflare.com/https-only-for-cloudflare-apis-shutting-the-door-on-cleartext-traffic/",
-          "publishedOn": "2025-03-20T13:00:00.000Z",
-          "wordCount": 2675,
-          "title": "HTTPS-only for Cloudflare APIs: shutting the door on cleartext traffic",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4icDus0UiQZqBGM3Ky0CaT/d8f50abda9221631ac06c05f5c18766f/OG_Share_2024__20_.png"
-        },
-        {
-          "id": "LPhv5n2cp5pkZBwAC8hN0",
-          "author": "Mia Malden",
-          "description": "Cloudflare Aegis provides dedicated egress IPs for Zero Trust origin access strategies, now supporting BYOIP and customer-facing configurability, with observability of Aegis IP utilization soon.",
-          "link": "https://blog.cloudflare.com/aegis-deep-dive/",
-          "publishedOn": "2025-03-20T13:00:00.000Z",
-          "wordCount": 3465,
-          "title": "Simplify allowlist management and lock down origin access with Cloudflare Aegis",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5H33uqCcnS4kgVRQkMc4H4/9b5daeb5a01769654e194cbcb8b62c7d/OG_Share_2024__21_.png"
-        },
-        {
-          "id": "ktsrG1vJGggZ2JlL4cHxS",
-          "author": "Michael Tremante",
-          "description": "We’re introducing a new Application Security experience in the Cloudflare dashboard, with a reworked UI organized by use cases, making it easier for customers to navigate and secure their accounts.",
-          "link": "https://blog.cloudflare.com/new-application-security-experience/",
-          "publishedOn": "2025-03-20T13:00:00.000Z",
-          "wordCount": 2204,
-          "title": "Making Application Security simple with a new unified dashboard experience",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5NZATGvgIuBBHOHC1YNo9Z/8f21f3235ed8bbb1924bf5f2b7a766ae/Making_Application_Security_simple_with_a_new_unified_dashboard_experience-OG.png"
         }
       ]
     },
@@ -447,16 +387,6 @@
           "wordCount": 2335,
           "title": "Shane Boyle: &ldquo;Contre-Attaque&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2025/03/shane.jpg"
-        },
-        {
-          "id": "https://newleftreview.org/sidecar/posts/causes-of-war",
-          "author": null,
-          "description": "Escalation in the DRC.",
-          "link": "https://newleftreview.org/sidecar/posts/causes-of-war",
-          "publishedOn": "2025-03-20T11:47:22.000Z",
-          "wordCount": 3304,
-          "title": "Jason Stearns: &ldquo;Causes of War&rdquo;",
-          "imageUrl": "https://newleftreview.org/blog-uploads/2025/03/kiripi-katembo-un-regard-exibart-street-photography-07-1024x683-1.jpeg"
         }
       ]
     },
@@ -499,12 +429,22 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=21757",
+          "author": "Richard Seroter",
+          "description": "Today's links look at observability 3.0, how vibe coding affects engineering managers, and how to build career resilience in uncertain times.",
+          "link": "https://seroter.com/2025/03/26/daily-reading-list-march-26-2025-520/",
+          "publishedOn": "2025-03-27T00:31:38.000Z",
+          "wordCount": 4596,
+          "title": "Daily Reading List – March 26, 2025 (#520)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://seroter.com/?p=21735",
           "author": "Richard Seroter",
           "description": "Today's links look at how to use LLMs to write code, what happens when you oversell your abilities, and 20 business terms that techies should know.",
           "link": "https://seroter.com/2025/03/25/daily-reading-list-march-25-2025-519/",
           "publishedOn": "2025-03-26T00:16:13.000Z",
-          "wordCount": 4687,
+          "wordCount": 4695,
           "title": "Daily Reading List – March 25, 2025 (#519)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -514,7 +454,7 @@
           "description": "Today's links look at how to lead effective engineering teams in an AI world, why you should do discontinuous improvements, and how to develop a more powerful speaking voice.",
           "link": "https://seroter.com/2025/03/24/daily-reading-list-march-24-2025-518/",
           "publishedOn": "2025-03-24T21:44:08.000Z",
-          "wordCount": 4602,
+          "wordCount": 4610,
           "title": "Daily Reading List – March 24, 2025 (#518)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
