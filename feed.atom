@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-03-27T18:36:57.066Z</id>
+    <id>urn:2025-03-28T02:00:34.624Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2025-03-27T18:36:57.066Z</updated>
+    <updated>2025-03-28T02:00:34.624Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Daily Reading List – March 27, 2025 (#521)]]></title>
+        <id>http://seroter.com/?p=21772</id>
+        <link href="https://seroter.com/2025/03/27/daily-reading-list-march-27-2025-521/"/>
+        <updated>2025-03-27T23:08:36.000Z</updated>
+        <summary type="html"><![CDATA[Today's links look at what keeps tech leaders up at night, how to serve open LLMs with one CLI call, and specific skills for doing technical writing.]]></summary>
+        <author>
+            <name>Richard Seroter</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Accelerating CI with AWS CodeBuild: Parallel test execution now available]]></title>
         <id>e1f687c9f8d0323096db2a5d5faa8c59b4b6eab3</id>
@@ -23,6 +33,17 @@
         <summary type="html"><![CDATA[Today we’re announcing the general availability (GA) of the new Amazon Cognito Identity Pool Level 2 (L2) construct in the AWS Cloud Development Kit (AWS CDK). This construct simplifies the creation and management of identity pools, permissions, and provider integrations by providing intent-based APIs that help users securely manage their authenticated and unauthenticated (guest) users […]]]></summary>
         <author>
             <name>Adam Keller</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How engineers can use one-on-ones with their manager to accelerate career growth]]></title>
+        <id>https://github.blog/developer-skills/career-growth/how-engineers-can-use-one-on-ones-with-their-manager-to-accelerate-career-growth/</id>
+        <link href="https://github.blog/developer-skills/career-growth/how-engineers-can-use-one-on-ones-with-their-manager-to-accelerate-career-growth/"/>
+        <updated>2025-03-27T15:31:22.000Z</updated>
+        <summary type="html"><![CDATA[<p>Go beyond status updates and use these meetings to surface challenges, solve problems, and drive impact. </p>
+<p>The post <a href="https://github.blog/developer-skills/career-growth/how-engineers-can-use-one-on-ones-with-their-manager-to-accelerate-career-growth/">How engineers can use one-on-ones with their manager to accelerate career growth</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
+        <author>
+            <name>The latest from GitHub's engineering team - The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -321,76 +342,6 @@ The post An Insider’s Tips for Taking the Certified Backstage Associate (CBA) 
         <link href="https://newleftreview.org/sidecar/posts/constitutional-collapse"/>
         <updated>2025-03-21T17:50:05.000Z</updated>
         <summary type="html"><![CDATA[Trump and the law.]]></summary>
-        <author>
-            <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detecting sensitive data and misconfigurations in AWS and GCP with Cloudflare One]]></title>
-        <id>2hlOlV28pXRFpnmnkqbbhw</id>
-        <link href="https://blog.cloudflare.com/scan-cloud-dlp-with-casb/"/>
-        <updated>2025-03-21T13:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Using Cloudflare’s CASB, integrate, scan, and detect sensitive data and misconfigurations in your cloud storage accounts.]]></summary>
-        <author>
-            <name>Alex Dunbrack</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RDP without the risk: Cloudflare's browser-based solution for secure third-party access]]></title>
-        <id>2P5rqqGRcQQFywmNmp85oM</id>
-        <link href="https://blog.cloudflare.com/browser-based-rdp/"/>
-        <updated>2025-03-21T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare now provides clientless, browser-based support for the Remote Desktop Protocol (RDP). It enables secure, remote Windows server access without VPNs or RDP clients.]]></summary>
-        <author>
-            <name>Ann Ming Samborski</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enhance data protection in Microsoft Outlook with Cloudflare One’s new DLP Assist]]></title>
-        <id>tNeYTGhykKxYbzGItvS5M</id>
-        <link href="https://blog.cloudflare.com/enhance-data-protection-in-microsoft-outlook-with-cloudflare-ones-new-dlp/"/>
-        <updated>2025-03-21T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Customers can now easily safeguard sensitive data in Microsoft Outlook with our new DLP Assist feature.]]></summary>
-        <author>
-            <name>Ayush Kumar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prepping for post-quantum: a beginner’s guide to lattice cryptography]]></title>
-        <id>01euRoOpkvsq16eKrMZ6hu</id>
-        <link href="https://blog.cloudflare.com/lattice-crypto-primer/"/>
-        <updated>2025-03-21T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This post is a beginner's guide to lattices, the math at the heart of the transition to post-quantum (PQ) cryptography. It explains how to do lattice-based encryption and authentication from scratch.]]></summary>
-        <author>
-            <name>Christopher Patton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improving Data Loss Prevention accuracy with AI-powered context analysis]]></title>
-        <id>qBn1L12sUXNIbkTPY5HyK</id>
-        <link href="https://blog.cloudflare.com/improving-data-loss-prevention-accuracy-with-ai-context-analysis/"/>
-        <updated>2025-03-21T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare’s Data Loss Prevention is reducing false positives by using a self-improving AI-powered algorithm, built on Cloudflare’s Developer Platform.]]></summary>
-        <author>
-            <name>Warnessa Weaver</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloudflare is now IRAP assessed at the PROTECTED level, furthering our commitment to the global public sector]]></title>
-        <id>1dhrjh3QJmujurTsOE2fqW</id>
-        <link href="https://blog.cloudflare.com/irap-protected-assessment/"/>
-        <updated>2025-03-21T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare is now assessed at the IRAP PROTECTED level, bringing our products and services to the Australian Public Sector.]]></summary>
-        <author>
-            <name>Wesley Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shane Boyle: &ldquo;Contre-Attaque&rdquo;]]></title>
-        <id>https://newleftreview.org/sidecar/posts/contre-attaque</id>
-        <link href="https://newleftreview.org/sidecar/posts/contre-attaque"/>
-        <updated>2025-03-21T11:11:47.000Z</updated>
-        <summary type="html"><![CDATA[At Lenbachhaus.]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
         </author>
