@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-08T18:37:20.841Z</id>
+    <id>urn:2025-04-09T02:02:02.140Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2025-04-08T18:37:20.841Z</updated>
+    <updated>2025-04-09T02:02:02.140Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Daily Reading List – April 8, 2025 (#528)]]></title>
+        <id>http://seroter.com/?p=21926</id>
+        <link href="https://seroter.com/2025/04/08/daily-reading-list-april-8-2025-528/"/>
+        <updated>2025-04-08T23:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Today's links look at building MCP servers in Java, software architecture for developers, and what to do when you're overloaded but can't delegate.]]></summary>
+        <author>
+            <name>Richard Seroter</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS announces Pixtral Large 25.02 model in Amazon Bedrock serverless]]></title>
+        <id>0748d37cfdcb474ae62e51cf36ac51a4224cce01</id>
+        <link href="https://aws.amazon.com/blogs/aws/aws-announces-pixtral-large-25-02-model-in-amazon-bedrock-serverless/"/>
+        <updated>2025-04-08T21:29:15.000Z</updated>
+        <summary type="html"><![CDATA[Mistral AI's multimodal model, Pixtral Large 25.02, is now available in Amazon Bedrock as a fully managed, serverless offering with cross-Region inference support, multilingual capabilities, and a 128K context window that can process images alongside text.]]></summary>
+        <author>
+            <name>Sébastien Stormacq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Amazon Nova Sonic: Human-like voice conversations for generative AI applications]]></title>
+        <id>38fa5936261df63a43977df57f1df82d205f809b</id>
+        <link href="https://aws.amazon.com/blogs/aws/introducing-amazon-nova-sonic-human-like-voice-conversations-for-generative-ai-applications/"/>
+        <updated>2025-04-08T20:34:18.000Z</updated>
+        <summary type="html"><![CDATA[Amazon Nova Sonic is a new foundation model on Amazon Bedrock that streamlines speech-enabled applications by offering unified speech recognition and generation capabilities, enabling natural conversations with contextual understanding while eliminating the need for multiple fragmented models.]]></summary>
+        <author>
+            <name>Danilo Poccia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using the Amazon Q Developer command line transformation tool]]></title>
+        <id>6b0eae11cfadbd2c0cacf684d88ce6e2db438b4b</id>
+        <link href="https://aws.amazon.com/blogs/devops/using-amazon-q-developer-cli-for-custom-java-application-transformations/"/>
+        <updated>2025-04-08T19:16:56.000Z</updated>
+        <summary type="html"><![CDATA[In today’s rapidly evolving software landscape, maintaining and modernizing Java applications is a critical challenge for many organizations. As new Java versions are released and best practices evolve, the need for efficient code transformation becomes increasingly important. Amazon Q Developer transformation for Java using the Command Line Interface (CLI) presents a powerful alternative to integrated […]]]></summary>
+        <author>
+            <name>Dinesh Prabakaran</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Coffee Break: Armed Madhouse – Stealth Revealed]]></title>
         <id>https://www.nakedcapitalism.com/?p=290262</id>
@@ -46,6 +86,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Your frontend, backend, and database — now in one Cloudflare Worker]]></title>
+        <id>67CgcpMED2Rw0BozjKbdUz</id>
+        <link href="https://blog.cloudflare.com/full-stack-development-on-cloudflare-workers/"/>
+        <updated>2025-04-08T14:05:00.000Z</updated>
+        <summary type="html"><![CDATA[You can now deploy static sites and full-stack applications on Cloudflare Workers. Framework support for React Router v7, Astro, Vue and more are generally available today and Cloudflare Vite plugin.]]></summary>
+        <author>
+            <name>Korinne Alpers</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Deploy your Next.js app to Cloudflare Workers with the Cloudflare adapter for OpenNext]]></title>
         <id>2xXeB9HQ7cEwSs5NT84Wrx</id>
         <link href="https://blog.cloudflare.com/deploying-nextjs-apps-to-cloudflare-workers-with-the-opennext-adapter/"/>
@@ -63,16 +113,6 @@
         <summary type="html"><![CDATA[Hyperdrive, Cloudflare's global connection pooler, relies on some key innovations to make your database connections work. Let's dive deeper, in celebration of its availability for Free Plan customers.]]></summary>
         <author>
             <name>Andrew Repp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your frontend, backend, and database — now in one Cloudflare Worker]]></title>
-        <id>67CgcpMED2Rw0BozjKbdUz</id>
-        <link href="https://blog.cloudflare.com/full-stack-development-on-cloudflare-workers/"/>
-        <updated>2025-04-08T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[You can now deploy static sites and full-stack applications on Cloudflare Workers. Framework support for React Router v7, Astro, Vue and more are generally available today and Cloudflare Vite plugin.]]></summary>
-        <author>
-            <name>Korinne Alpers</name>
         </author>
     </entry>
     <entry>
@@ -445,16 +485,6 @@ Read the full article]]></summary>
         <summary type="html"><![CDATA[Introduction This post demonstrates how to leverage AWS CloudFormation Lambda Hooks to enforce compliance rules at provisioning time, enabling you to evaluate and validate Lambda function configurations against custom policies before deployment. Often these policies impact the way a software should be built, restricting language versions and runtimes. A great example is applying those policies […]]]></summary>
         <author>
             <name>Matteo Luigi Restelli</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A steam locomotive from 1993 broke my yarn test]]></title>
-        <id>4X0QnKvMC0yi0eRv5YqC7g</id>
-        <link href="https://blog.cloudflare.com/yarn-test-suffers-strange-derailment/"/>
-        <updated>2025-04-02T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Yarn tests fail consistently at the 27-second mark. The usual suspects are swiftly eliminated. A deep dive is taken to comb through traces, only to be derailed into an unexpected crash investigation.]]></summary>
-        <author>
-            <name>Yew Leong</name>
         </author>
     </entry>
 </feed>
