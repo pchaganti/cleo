@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-10T12:54:45.427Z</id>
+    <id>urn:2025-04-10T18:34:25.026Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2025-04-10T12:54:45.427Z</updated>
+    <updated>2025-04-10T18:34:25.026Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Announcing inline chat in Eclipse with Amazon Q Developer]]></title>
+        <id>d6b7265cb4f8b774649d4732c267fedcd9b01a09</id>
+        <link href="https://aws.amazon.com/blogs/devops/announcing-inline-chat-in-eclipse-with-amazon-q-developer/"/>
+        <updated>2025-04-10T16:52:30.000Z</updated>
+        <summary type="html"><![CDATA[Earlier today Amazon Q Developer launched inline chat in the Eclipse IDE (in preview). In this post, I’ll walk you through how I’ve been using this powerful new capability to streamline my Java development workflow, from refactoring existing code to optimizing performance-critical methods. Whether you’re a seasoned Eclipse veteran or just getting started, you’ll see […]]]></summary>
+        <author>
+            <name>Brian Beach</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump Tariff Climbdown: Consumer Impact Worse Due to China Retaliation; Who Wins Aside from Trump’s Ego]]></title>
+        <id>https://www.nakedcapitalism.com/?p=290425</id>
+        <link href="https://www.nakedcapitalism.com/2025/04/trump-tariff-climbdown-consumer-impact-worse-due-to-china-retaliation-who-wins-aside-from-trumps-ego.html"/>
+        <updated>2025-04-10T16:02:43.000Z</updated>
+        <summary type="html"><![CDATA[Some further observations about the Trump tariff train wreck.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[R2 Data Catalog: Managed Apache Iceberg tables with zero egress fees]]></title>
+        <id>6JFB9cHUOoMZnVmYIuTLzd</id>
+        <link href="https://blog.cloudflare.com/r2-data-catalog-public-beta/"/>
+        <updated>2025-04-10T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[R2 Data Catalog is now in public beta: a managed Apache Iceberg data catalog built directly into your R2 bucket.]]></summary>
+        <author>
+            <name>Phillip Jones</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sequential consistency without borders: how D1 implements global read replication]]></title>
+        <id>2qUAO70BqnRBomg83fCRPe</id>
+        <link href="https://blog.cloudflare.com/d1-read-replication-beta/"/>
+        <updated>2025-04-10T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[D1, Cloudflare’s managed SQL database, announces read replication beta. Here's a deep dive of the read replication implementation and how your queries can remain consistent across all regions.]]></summary>
+        <author>
+            <name>Justin Mazzola Paluska</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Super Slurper 5x faster with Workers, Durable Objects, and Queues]]></title>
+        <id>12YmRoxQrsnW1ZVtEKBdht</id>
+        <link href="https://blog.cloudflare.com/making-super-slurper-five-times-faster/"/>
+        <updated>2025-04-10T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We re-architected Super Slurper from the ground up using our Developer Platform — leveraging Cloudflare Workers, Durable Objects, and Queues — and improved transfer speeds by up to 5x.]]></summary>
+        <author>
+            <name>Connor Maddox</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Just landed: streaming ingestion on Cloudflare with Arroyo and Pipelines]]></title>
+        <id>7rKz4iUFCDuhtjGXVbgFzl</id>
+        <link href="https://blog.cloudflare.com/cloudflare-acquires-arroyo-pipelines-streaming-ingestion-beta/"/>
+        <updated>2025-04-10T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’ve just shipped our new streaming ingestion service, Pipelines — and we’ve acquired Arroyo, enabling us to bring new SQL-based, stateful transformations to Pipelines and R2.]]></summary>
+        <author>
+            <name>Micah Wylde</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Links 4/10/2025]]></title>
         <id>https://www.nakedcapitalism.com/?p=290400</id>
@@ -216,16 +276,6 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Coffee Break: Armed Madhouse – Stealth Revealed]]></title>
-        <id>https://www.nakedcapitalism.com/?p=290262</id>
-        <link href="https://www.nakedcapitalism.com/2025/04/coffee-break-armed-madhous-4-8-2025.html"/>
-        <updated>2025-04-08T18:00:29.000Z</updated>
-        <summary type="html"><![CDATA[Our warfare focused Coffee Break: The promise, problems, and profitability of stealth technology]]></summary>
-        <author>
-            <name>Haig Hovaness</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How UNiDAYS achieved AWS Region expansion in 3 weeks]]></title>
         <id>8b2ef98ed31790db0440ddd28a3d5776df4003f4</id>
         <link href="https://aws.amazon.com/blogs/architecture/how-unidays-achieved-aws-region-expansion-in-3-weeks/"/>
@@ -427,16 +477,6 @@ Read the full article]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Meta’s Llama 4 is now available on Workers AI]]></title>
-        <id>3G2O7IP6rSTIhSEUVmIDkt</id>
-        <link href="https://blog.cloudflare.com/meta-llama-4-is-now-available-on-workers-ai/"/>
-        <updated>2025-04-06T03:22:00.000Z</updated>
-        <summary type="html"><![CDATA[Llama 4 Scout 17B Instruct is now available on Workers AI: use this multimodal, Mixture of Experts AI model on Cloudflare's serverless AI platform to build next-gen AI applications.]]></summary>
-        <author>
-            <name>Michelle Chen</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Saul Nelson: &ldquo;Violet Hour&rdquo;]]></title>
         <id>https://newleftreview.org/sidecar/posts/violet-hour</id>
         <link href="https://newleftreview.org/sidecar/posts/violet-hour"/>
@@ -444,26 +484,6 @@ Read the full article]]></summary>
         <summary type="html"><![CDATA[Frank Auerbach (1931-2024).]]></summary>
         <author>
             <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloudflare’s commitment to CISA Secure-By-Design pledge: delivering new kernels, faster]]></title>
-        <id>1wYPNsYVEGTxAPyJnjt04N</id>
-        <link href="https://blog.cloudflare.com/cloudflare-delivers-on-commitment-to-cisa/"/>
-        <updated>2025-04-04T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare’s commitment to the CISA pledge reflects our dedication to transparency and accountability to our customers. This blog post outlines how we deliver newly patched kernels across our]]></summary>
-        <author>
-            <name>Brandon Harris</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New method assesses and improves the reliability of radiologists’ diagnostic reports]]></title>
-        <id>https://news.mit.edu/2025/new-method-assesses-and-improves-reliability-radiologists-diagnostic-reports-0404</id>
-        <link href="https://news.mit.edu/2025/new-method-assesses-and-improves-reliability-radiologists-diagnostic-reports-0404"/>
-        <updated>2025-04-04T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The framework helps clinicians choose phrases that more accurately reflect the likelihood that certain conditions are present in X-rays.]]></summary>
-        <author>
-            <name>Adam Zewe | MIT News</name>
         </author>
     </entry>
 </feed>
