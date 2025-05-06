@@ -51,6 +51,53 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-05-06 datetime="2025-05-06T04:11:03.000Z">2025-05-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-05-06 datetime="2025-05-06T04:11:03.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Ian Welsh</button>
+                  <a class="source-heading__link" href="https://follow.it/ian-welsh">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://api.follow.it/track-rss-story-click/v3/niyBMplQItBKpBDqrGaM2sxiu-GT8KMd"
+                        open
+                      >
+                        <summary class="article-expander__title">How Soon Empty Shelves</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://api.follow.it/track-rss-story-click/v3/niyBMplQItBKpBDqrGaM2sxiu-GT8KMd">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I just listened to Chuck Todd say the following three things regarding economics, “eveything is unstable; everything is uncertain and we’re probably about a month a way from empty shelves.”
+Ian and others far brighter than me, what say you?
+I’m speechless.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-05-05 datetime="2025-05-05T22:32:32.000Z">2025-05-05</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-05-05 datetime="2025-05-05T22:32:32.000Z"></time>
           </button>
@@ -222,7 +269,7 @@
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2025/05/Screenshot-2025-05-04-at-4.32.24 PM-1024x759.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Our scintillating daily links, including Trump and the Constitution, AI spiritual fantasies, and whale urine.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;50
+                                &ensp;<span class="article-reading-time">(&hairsp;51
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -242,7 +289,7 @@
                               <img src="https://www.nakedcapitalism.com/wp-content/uploads/2025/05/Screenshot-2025-05-05-at-1.16.21 PM.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>A battlefield update on Trump&#x27;s tariff wars.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;52
+                                &ensp;<span class="article-reading-time">(&hairsp;53
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -896,7 +943,7 @@ The judges, under anonymity, told Reuters that they had received multiple inti
                             <span class="media-object__text">
                               <span>How do we translate web accessibility standards to command line applications? This is GitHub CLI&#x27;s journey toward making terminal experiences for all developers.
 The post Building a more accessible GitHub CLI appeared first on The GitHub Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1446,46 +1493,12 @@ Carney has won a minority government. He will have to govern with the support of
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >AWS DevOps &amp; Developer Productivity Blog</button>
-                  <a class="source-heading__link" href="https://aws.amazon.com/blogs/devops/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="8fd83c359ecc2cabcc3ba38855629274f0895d7d"
-                        open
-                      >
-                        <summary class="article-expander__title">Extend the Amazon Q Developer CLI with Model Context Protocol (MCP) for Richer Context</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://aws.amazon.com/blogs/devops/extend-the-amazon-q-developer-cli-with-mcp/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/04/28/mcp000-1120x630.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Earlier today, Amazon Q Developer announced Model Context Protocol (MCP) support in the command line interface (CLI). Developers can connect external data sources to Amazon Q Developer CLI with MCP support for more context-aware responses. By integrating MCP tools and prompts into Q Developer CLI, you get access to an expansive list of pre-built integrations […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/14850163616">
-        <time id="build-timestamp" datetime="2025-05-06T02:08:21.254Z">2025-05-06T02:08:21.254Z</time>
+      <a class="footer-link" href="https://github.com/pchaganti/cleo/actions/runs/14853242404">
+        <time id="build-timestamp" datetime="2025-05-06T06:40:01.215Z">2025-05-06T06:40:01.215Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
