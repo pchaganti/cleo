@@ -1,0 +1,561 @@
+{
+  "sources": [
+    {
+      "title": "Release notes from osmosfeed",
+      "feedUrl": "https://github.com/osmoscraft/osmosfeed/releases.atom",
+      "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
+      "articles": []
+    },
+    {
+      "title": "AWS News Blog",
+      "feedUrl": "https://aws.amazon.com/blogs/aws/feed/",
+      "siteUrl": "https://aws.amazon.com/blogs/aws/",
+      "articles": [
+        {
+          "id": "ad2dfa58a5153494d2e4e9ee5ed6161d514e2c6f",
+          "author": "Channy Yun (윤석찬)",
+          "description": "The P6-B200 EC2 instances powered by NVIDIA Blackwell B200 GPUs offer up to twice the performance of previous P5en instances for machine learning and high-performance computing workloads.",
+          "link": "https://aws.amazon.com/blogs/aws/new-amazon-ec2-p6-b200-instances-powered-by-nvidia-blackwell-gpus-to-accelerate-ai-innovations/",
+          "publishedOn": "2025-05-15T22:47:07.000Z",
+          "wordCount": 1445,
+          "title": "New Amazon EC2 P6-B200 instances powered by NVIDIA Blackwell GPUs to accelerate AI innovations",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/12/14/EC2-with-gradient.png"
+        },
+        {
+          "id": "e878a8feff4bb2d94d2bd4ce85ee53f5af773124",
+          "author": "Donnie Prakoso",
+          "description": "AWS CodeBuild now offers Docker Server capability, enabling a dedicated and persistent Docker server within projects that dramatically reduces build times by maintaining a centralized cache, as demonstrated by a 98% reduction in build time from 24 minutes to just 16 seconds.",
+          "link": "https://aws.amazon.com/blogs/aws/accelerate-ci-cd-pipelines-with-the-new-aws-codebuild-docker-server-capability/",
+          "publishedOn": "2025-05-15T19:12:33.000Z",
+          "wordCount": 1694,
+          "title": "Accelerate CI/CD pipelines with the new AWS CodeBuild Docker Server capability",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/01/31/CodeBuild-feat-img2.png"
+        },
+        {
+          "id": "9e82fde9f5d93ff204203609f075916b7e3ffb06",
+          "author": "Matheus Guimaraes",
+          "description": "AWS Transform leverages the power agentic AI to accelerate modernization of legacy workloads. It deploys specialized AI agents to automate complex tasks like code analysis, refactoring, decomposition, dependency mapping, validation, and transformation planning, dramatically reducing project timelines and helping organization modernize with greater confidence.",
+          "link": "https://aws.amazon.com/blogs/aws/accelerate-the-modernization-of-mainframe-and-vmware-workloads-with-aws-transform/",
+          "publishedOn": "2025-05-15T16:42:04.000Z",
+          "wordCount": 2504,
+          "title": "Accelerate the modernization of Mainframe and VMware workloads with AWS Transform",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/05/15/AWS-Transform-for-VMware-and-mainframe.png"
+        },
+        {
+          "id": "166ee151878c2053b48b005e9d128dabea0a67dd",
+          "author": "Prasad Rao",
+          "description": "Accelerate .NET modernization with agentic AI. AWS Transform for .NET speeds up large-scale modernization from .NET Framework to cross-platform .NET by up to 4x. With the .NET modernization agent, modernization teams can collaboratively execute larger and more complex projects with consistency, remove Windows license dependencies to reduce operating costs by up to 40%, and enhance code quality, performance, and security.",
+          "link": "https://aws.amazon.com/blogs/aws/aws-transform-for-net-the-first-agentic-ai-service-for-modernizing-net-applications-at-scale/",
+          "publishedOn": "2025-05-15T16:41:13.000Z",
+          "wordCount": 2450,
+          "title": "AWS Transform for .NET, the first agentic AI service for modernizing .NET applications at scale",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/05/14/Featured-Image-AWS-Transform-for-.NET-1.png"
+        },
+        {
+          "id": "31b7368b2fa8e86563fb64470f0e54f705c9b0e0",
+          "author": "Micah Walter",
+          "description": "I’ve always been fascinated by how quickly we’re able to stand up new Regions and Availability Zones at AWS. Today there are 36 launched Regions and 114 launched Availability Zones. That’s amazing! This past week at AWS was marked by significant expansion to our global infrastructure. The announcement of a new Region in the works […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-south-america-expansion-q-developer-in-opensearch-and-more-may-12-2025/",
+          "publishedOn": "2025-05-12T18:51:43.000Z",
+          "wordCount": 1625,
+          "title": "AWS Weekly Roundup: South America expansion, Q Developer in OpenSearch, and more (May 12, 2025)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
+        }
+      ]
+    },
+    {
+      "title": "AWS Architecture Blog",
+      "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
+      "siteUrl": "https://aws.amazon.com/blogs/architecture/",
+      "articles": [
+        {
+          "id": "b12d3d6f515a912fc7cf7fec878c71efc9de5ab7",
+          "author": "Nitin Eusebius",
+          "description": "In this blog post, we introduce a reference architecture that offers an intelligent document digitization solution that converts handwritten notes, scanned documents, and images into editable, searchable, and accessible formats. Powered by Anthropic’s Claude 3 on Amazon Bedrock, the solution uses the sophisticated vision capabilities of LLMs to process a wide range of visual formats, preserving the original formatting while extracting text, tables, and images.",
+          "link": "https://aws.amazon.com/blogs/architecture/revolutionizing-agricultural-knowledge-management-using-a-multi-modal-llm-a-reference-architecture/",
+          "publishedOn": "2025-05-15T17:20:44.000Z",
+          "wordCount": 2046,
+          "title": "Revolutionizing agricultural knowledge management using a multi-modal LLM: A reference architecture",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/05/15/ARCHBLOG-1160-feature-1120x630.jpg"
+        },
+        {
+          "id": "54a20271c515e5d9da95eefa68861102c29e4300",
+          "author": "Grey Newell",
+          "description": "This post demonstrates how to build a Business Event Monitoring System (BEMS) on AWS that handles over 86 million daily events with near real-time visibility, cross-Region controls, and automated alerts for stuck events. You might deploy this system for business-level insights into how events are flowing through your organization or to visualize the flow of transactions in real time. Downstream services also will have the option to process and respond to events originating within the system or not.",
+          "link": "https://aws.amazon.com/blogs/architecture/implement-event-driven-invoice-processing-for-resilient-financial-monitoring-at-scale/",
+          "publishedOn": "2025-05-12T17:00:20.000Z",
+          "wordCount": 2960,
+          "title": "Implement event-driven invoice processing for resilient financial monitoring at scale",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/05/12/ARCHBLOG-1157-image001-new-1120x630.jpg"
+        }
+      ]
+    },
+    {
+      "title": "The latest from GitHub's engineering team - The GitHub Blog",
+      "feedUrl": "http://githubengineering.com/atom.xml",
+      "siteUrl": "https://github.blog/engineering/",
+      "articles": [
+        {
+          "id": "https://github.blog/developer-skills/application-development/github-issues-search-now-supports-nested-queries-and-boolean-operators-heres-how-we-rebuilt-it/",
+          "author": null,
+          "description": "<p>Plus, considerations in updating one of GitHub's oldest and most heavily used features.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/application-development/github-issues-search-now-supports-nested-queries-and-boolean-operators-heres-how-we-rebuilt-it/\">GitHub Issues search now supports nested queries and boolean operators: Here&#8217;s how we (re)built it</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+          "link": "https://github.blog/developer-skills/application-development/github-issues-search-now-supports-nested-queries-and-boolean-operators-heres-how-we-rebuilt-it/",
+          "publishedOn": "2025-05-13T16:00:00.000Z",
+          "wordCount": 4321,
+          "title": "GitHub Issues search now supports nested queries and boolean operators: Here&#8217;s how we (re)built it",
+          "imageUrl": "https://github.blog/wp-content/uploads/2025/05/github-generic-wallpaper-rubber-duck-invertocat.png?fit=1920%2C1080"
+        }
+      ]
+    },
+    {
+      "title": "AWS DevOps & Developer Productivity Blog",
+      "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
+      "siteUrl": "https://aws.amazon.com/blogs/devops/",
+      "articles": [
+        {
+          "id": "ea1e0493ce532b772be7ae7f601fdd579105ca1f",
+          "author": "Eva Knight",
+          "description": "In this blog post, I explore Amazon Q Developer’s latest enhancements to the IDE chat experience including increased context control, chat history and other conversation management features. On March 11th, 2025, my colleague published Take control of your code with Amazon Q Developer’s new context features detailing several improvements to the chat experience within VS […]",
+          "link": "https://aws.amazon.com/blogs/devops/continue-to-take-control-over-your-code-with-amazon-q-developers-new-context-features/",
+          "publishedOn": "2025-05-15T22:47:57.000Z",
+          "wordCount": 1659,
+          "title": "Continue to take control over your code with Amazon Q Developer’s new context features",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/05/15/Continue-to-take-control-over-your-code-with-Amazon-Q-Developers-new-context-features-1120x630.png"
+        },
+        {
+          "id": "77680cdcec54461aa4c4242f0e5d17173f718cdb",
+          "author": "Dr. Rahul Sharad Gaikwad",
+          "description": "“Everything fails, all the time” – Werner Vogels, Amazon.com CTO In today’s digital landscape, designing applications with resilience in mind is crucial. Resiliency is the ability of applications to handle failures gracefully, adapt to changing conditions, and recover swiftly from disruptions. By integrating resilience into your application architecture, you can minimize downtime, mitigate the impact […]",
+          "link": "https://aws.amazon.com/blogs/devops/how-to-enhance-your-application-resiliency-using-amazon-q-developer/",
+          "publishedOn": "2025-05-14T14:39:23.000Z",
+          "wordCount": 2641,
+          "title": "How to enhance your application resiliency using Amazon Q Developer",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/05/14/Slide1.png"
+        }
+      ]
+    },
+    {
+      "title": "naked capitalism",
+      "feedUrl": "https://www.nakedcapitalism.com/feed",
+      "siteUrl": "https://www.nakedcapitalism.com",
+      "articles": [
+        {
+          "id": "https://www.nakedcapitalism.com/?p=292296",
+          "author": "Yves Smith",
+          "description": "Our thunderous daily links: Alzheimers blood test, masked Covid parties, plastic adds to warming? Russia-Ukraine Istanbul staredown, China tariffs forever, Palestinians forced into Syria? Kashmir as pan-Muslim cause? GOP rebels v. Trump tax cuts, credit crunch coming? US housing prices @ record unaffordability",
+          "link": "https://www.nakedcapitalism.com/2025/05/links-5-17-2025.html",
+          "publishedOn": "2025-05-17T10:55:43.000Z",
+          "wordCount": 4295,
+          "title": "Links 5/17/2025",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/05/Screenshot-2025-05-17-at-12.43.47 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=292376",
+          "author": "Yves Smith",
+          "description": "Trump is reversing protections of the US food system, subjecting farmers to a race to the bottom in international markets",
+          "link": "https://www.nakedcapitalism.com/2025/05/trumps-trade-deals-endanger-farmers-and-our-food-system.html",
+          "publishedOn": "2025-05-17T10:25:32.000Z",
+          "wordCount": 3591,
+          "title": "Trump’s Trade Deals Endanger Farmers and Our Food System",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=292372",
+          "author": "Yves Smith",
+          "description": "A look at the US's flagging economic model and how the Trump trade war will affect the US, China, and other counties.",
+          "link": "https://www.nakedcapitalism.com/2025/05/shanghais-liberation-daily-interviewed-michael-hudson-the-trade-conflict-has-brought-irreversible-impacts-trump-is-compromising-himself.html",
+          "publishedOn": "2025-05-17T09:46:00.000Z",
+          "wordCount": 4447,
+          "title": "Shanghai’s Liberation Daily Interviewed Michael Hudson: The Trade Conflict Has Brought Irreversible Impacts, Trump Is Compromising Himself",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=292352",
+          "author": "KLG",
+          "description": "Part the First: Retrospective Notes on a Pandemic.  BMJ, formerly known as the British Medical Journal, has recently published two interesting pieces on COVID-19.  The first is an analysis by Anthony Costello, who was previously Director of Maternal, Child, and Adolescent Health at the World Heath Organization: UK decision not to suppress covid raises questions […]",
+          "link": "https://www.nakedcapitalism.com/2025/05/notes-on-pandemic-responses-a-human-pathogen-that-eats-the-plastic-of-medical-devices-and-the-secretary-of-health-and-human-services-speaks-out.html",
+          "publishedOn": "2025-05-16T18:00:36.000Z",
+          "wordCount": 7171,
+          "title": "Coffee Break: Notes on Pandemic Responses, a Human Pathogen that Eats the Plastic of Medical Devices, and the Secretary of Health and Human Services Speaks Out",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=292349",
+          "author": "Yves Smith",
+          "description": "Japan wanted an early US trade  deal. It is discovering that its sort-of special relationship with the US is not getting it any breaks.",
+          "link": "https://www.nakedcapitalism.com/2025/05/japan-to-arm-wrestle-the-us-about-tariffs-and-what-about-restrictions-on-chinese-investments-and-products.html",
+          "publishedOn": "2025-05-16T13:55:07.000Z",
+          "wordCount": 5962,
+          "title": "Japan to Arm Wrestle the US About Tariffs….and What About Restrictions on Chinese Investments and Products?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=292321",
+          "author": "Conor Gallagher",
+          "description": "Our radiant daily links, including Comey threatens the president, Trump's dangerous game in the Middle East, and Latvia warns of tourists in forests.",
+          "link": "https://www.nakedcapitalism.com/2025/05/links-5-16-2025.html",
+          "publishedOn": "2025-05-16T10:55:05.000Z",
+          "wordCount": 15368,
+          "title": "Links 5/16/2025",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/05/Screenshot-2025-05-15-at-1.43.15 PM-770x1024.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=292300",
+          "author": "Nick Corbishley",
+          "description": "Paradoxically, this is likely to create more, not less, illegal immigration to the US.",
+          "link": "https://www.nakedcapitalism.com/2025/05/by-looking-to-tax-remittances-us-escalates-its-economic-war-against-its-own-backyard.html",
+          "publishedOn": "2025-05-16T10:45:02.000Z",
+          "wordCount": 6756,
+          "title": "US Looks to Escalate Its Economic War Against the World’s Poorest By Taxing Remittance Payments",
+          "imageUrl": "https://www.federalreserve.gov/econres/notes/feds-notes/fig1-3715.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=292343",
+          "author": "Yves Smith",
+          "description": "A harsh look at schemes for a happy future, at least for billionaires, which ignore their problems and excuse tolerating rot today.",
+          "link": "https://www.nakedcapitalism.com/2025/05/book-review-a-skeptical-look-at-grand-designs-for-the-future.html",
+          "publishedOn": "2025-05-16T09:55:22.000Z",
+          "wordCount": 8020,
+          "title": "Book Review: A Skeptical Look at Grand Designs for the Future",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=292338",
+          "author": "Yves Smith",
+          "description": "Most users of GLP-1 agonists like Ozempic need to stay on them long-term to keep pound off. So is medicine promoting an addicition?",
+          "link": "https://www.nakedcapitalism.com/2025/05/weight-loss-drugs-like-ozempic-prove-the-sickness-at-the-heart-of-the-nhs.html",
+          "publishedOn": "2025-05-16T07:01:26.000Z",
+          "wordCount": 11684,
+          "title": "Weight Loss Drugs Like Ozempic Prove the Sickness at the Heart of the NHS",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=292310",
+          "author": "Yves Smith",
+          "description": "Major law firms in a storng position to fight Trump diktats about backing conservative interests are paying a price for selling out.",
+          "link": "https://www.nakedcapitalism.com/2025/05/big-law-deals-with-trump-are-backfiring-on-top-firms.html",
+          "publishedOn": "2025-05-15T13:55:26.000Z",
+          "wordCount": 4393,
+          "title": "Big Law Deals With Trump Are Backfiring on Top Firms",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "The Cloudflare Blog",
+      "feedUrl": "https://blog.cloudflare.com/rss",
+      "siteUrl": "https://blog.cloudflare.com",
+      "articles": [
+        {
+          "id": "1Ni8ekT7qEWe5PVydsDP1m",
+          "author": "Sri Pulla",
+          "description": "In line with CISA’s Secure By Design pledge, Cloudflare shares its vulnerability disclosure process, CVE issuance criteria, and CNA duties.",
+          "link": "https://blog.cloudflare.com/vulnerability-transparency-strengthening-security-through-responsible/",
+          "publishedOn": "2025-05-16T15:00:00.000Z",
+          "wordCount": 1942,
+          "title": "Vulnerability transparency: strengthening security through responsible disclosure",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6c6ZJxbJGC06gq9DONfNlK/dd313d7611f4be128bb4750c29b214e3/Vulnerability_transparency-_strengthening_security_through_responsible_disclosure-OG.png"
+        },
+        {
+          "id": "2hUP3FdePgIYVDwhgJVLeV",
+          "author": "Thibault Meunier",
+          "description": "Bots now browse like humans. We're proposing bots use cryptographic signatures so that website owners can verify their identity. Explanations and demonstration code can be found within the post.",
+          "link": "https://blog.cloudflare.com/web-bot-auth/",
+          "publishedOn": "2025-05-15T13:00:00.000Z",
+          "wordCount": 3140,
+          "title": "Forget IPs: using cryptography to verify bot and agent traffic",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4ig2h8hrGpsO9eTXbLjYsC/3fd8bd44e16534aa115504b31a0dcaaa/Forget_IPs-_using_cryptography_to_verify_bot_and_agent_traffic-OG.png"
+        }
+      ]
+    },
+    {
+      "title": "Visual Studio Code - Code Editing. Redefined.",
+      "feedUrl": "https://code.visualstudio.com/feed.xml",
+      "siteUrl": "https://code.visualstudio.com/",
+      "articles": [
+        {
+          "id": "https://code.visualstudio.com/blogs/2025/05/12/agent-mode-meets-mcp",
+          "author": null,
+          "description": "Bring your own tools to VS Code's agent mode with MCP.\nRead the full article",
+          "link": "https://code.visualstudio.com/blogs/2025/05/12/agent-mode-meets-mcp",
+          "publishedOn": "2025-05-14T00:00:00.000Z",
+          "wordCount": 1788,
+          "title": "Beyond the tools, adding MCP in VS Code",
+          "imageUrl": "https://code.visualstudio.com/assets/blogs/2025/05/12/agent-mcp-tools.png"
+        }
+      ]
+    },
+    {
+      "title": "theunderground.blog",
+      "feedUrl": "https://theunderground.blog/feed.xml",
+      "siteUrl": "https://theunderground.blog/feed.xml",
+      "articles": []
+    },
+    {
+      "title": "New Left Review Sidecar recent posts",
+      "feedUrl": "https://newleftreview.org/sidecar/feed",
+      "siteUrl": "https://newleftreview.org/sidecar/feed",
+      "articles": [
+        {
+          "id": "https://newleftreview.org/sidecar/posts/piece-by-piece",
+          "author": null,
+          "description": "On Ian Hamilton Finlay.",
+          "link": "https://newleftreview.org/sidecar/posts/piece-by-piece",
+          "publishedOn": "2025-05-16T13:21:21.000Z",
+          "wordCount": 2953,
+          "title": "Luke Roberts: &ldquo;Piece by Piece&rdquo;",
+          "imageUrl": "https://newleftreview.org/blog-uploads/2025/05/untitled-design.jpg"
+        }
+      ]
+    },
+    {
+      "title": "The Olognion",
+      "feedUrl": "https://www.theolognion.com/feed",
+      "siteUrl": "https://www.theolognion.com",
+      "articles": []
+    },
+    {
+      "title": "Richard Seroter's Architecture Musings",
+      "feedUrl": "https://seroter.com/feed/",
+      "siteUrl": "https://seroter.com",
+      "articles": [
+        {
+          "id": "http://seroter.com/?p=22518",
+          "author": "Richard Seroter",
+          "description": "Today's links look at transforming legacy architectures, getting AI to write good SQL, and exploring the Agent2Agent protocol with a real example.",
+          "link": "https://seroter.com/2025/05/16/daily-reading-list-may-16-2025-554/",
+          "publishedOn": "2025-05-16T23:55:36.000Z",
+          "wordCount": 4658,
+          "title": "Daily Reading List – May 16, 2025 (#554)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
+          "id": "http://seroter.com/?p=22497",
+          "author": "Richard Seroter",
+          "description": "Today's links look at what a technical lead actually does, lessons learned from a database migration that used change data capture, and how Google is accelerating code migrations with AI.",
+          "link": "https://seroter.com/2025/05/15/daily-reading-list-may-15-2025-553/",
+          "publishedOn": "2025-05-16T00:17:57.000Z",
+          "wordCount": 4744,
+          "title": "Daily Reading List – May 15, 2025 (#553)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
+          "id": "http://seroter.com/?p=22481",
+          "author": "Richard Seroter",
+          "description": "Today's links look at using AI to add reference diagrams to docs, how to have the right hiring strategy for junior devs in the age of AI, and what to do with layoff anxiety.",
+          "link": "https://seroter.com/2025/05/14/daily-reading-list-may-14-2025-552/",
+          "publishedOn": "2025-05-14T23:45:34.000Z",
+          "wordCount": 4758,
+          "title": "Daily Reading List – May 14, 2025 (#552)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
+          "id": "http://seroter.com/?p=22464",
+          "author": "Richard Seroter",
+          "description": "Today's links look at evaluating AI-generated media, whether we would want to give our coding tasks to AI bots even if we could, and what nobody tells developers about documentation.",
+          "link": "https://seroter.com/2025/05/13/daily-reading-list-may-13-2025-551/",
+          "publishedOn": "2025-05-14T00:14:34.000Z",
+          "wordCount": 4727,
+          "title": "Daily Reading List – May 13, 2025 (#551)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
+          "id": "http://seroter.com/?p=22445",
+          "author": "Richard Seroter",
+          "description": "Today's links look at data streaming patterns, why you should ask new CEOs (or any leader) for a growth plan, and why \"taste\" is an unsung ingredient in tech success.",
+          "link": "https://seroter.com/2025/05/12/daily-reading-list-may-12-2025-550/",
+          "publishedOn": "2025-05-12T23:46:45.000Z",
+          "wordCount": 4768,
+          "title": "Daily Reading List – May 12, 2025 (#550)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        }
+      ]
+    },
+    {
+      "title": "MIT News - Artificial intelligence",
+      "feedUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "articles": [
+        {
+          "id": "https://news.mit.edu/2025/researchers-predict-protein-location-within-human-cell-using-ai-0515",
+          "author": "Adam Zewe | MIT News",
+          "description": "Trained with a joint understanding of protein and cell behavior, the model could help with diagnosing disease and developing new drugs.",
+          "link": "https://news.mit.edu/2025/researchers-predict-protein-location-within-human-cell-using-ai-0515",
+          "publishedOn": "2025-05-15T14:30:00.000Z",
+          "wordCount": 2074,
+          "title": "With AI, researchers predict the location of virtually any protein within a human cell",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202505/MIT-ProteinLocalization-01-press.jpg"
+        },
+        {
+          "id": "https://news.mit.edu/2025/study-shows-vision-language-models-cant-handle-negation-words-queries-0514",
+          "author": "Adam Zewe | MIT News",
+          "description": "Words like “no” and “not” can cause this popular class of AI models to fail unexpectedly in high-stakes settings, such as medical diagnosis.",
+          "link": "https://news.mit.edu/2025/study-shows-vision-language-models-cant-handle-negation-words-queries-0514",
+          "publishedOn": "2025-05-14T04:00:00.000Z",
+          "wordCount": 2020,
+          "title": "Study shows vision-language models can’t handle queries with negation words",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202505/MIT-LMNegation-01-press.jpg"
+        },
+        {
+          "id": "https://news.mit.edu/2025/mit-economics-department-launches-james-cathleen-stone-center-inequality-shaping-future-work-0513",
+          "author": "Department of Economics",
+          "description": "With support from the Stone Foundation, the center will advance cutting-edge research and inform policy.",
+          "link": "https://news.mit.edu/2025/mit-economics-department-launches-james-cathleen-stone-center-inequality-shaping-future-work-0513",
+          "publishedOn": "2025-05-13T20:35:00.000Z",
+          "wordCount": 1780,
+          "title": "MIT Department of Economics to launch James M. and Cathleen D. Stone Center on Inequality and Shaping the Future of Work",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202505/mit-campus.jpg"
+        }
+      ]
+    },
+    {
+      "title": "The Gradient",
+      "feedUrl": "https://thegradient.pub/rss/",
+      "siteUrl": "https://thegradient.pub/",
+      "articles": []
+    },
+    {
+      "title": "Thomas Fazi",
+      "feedUrl": "https://www.thomasfazi.com/feed",
+      "siteUrl": "https://www.thomasfazi.com",
+      "articles": [
+        {
+          "id": "https://www.thomasfazi.com/p/zelensky-and-its-western-backers",
+          "author": "Thomas Fazi",
+          "description": "They are approaching this latest round of negotiations with the same mindset that has doomed previous efforts — not to reach a settlement, but to ensure the continuation of the war",
+          "link": "https://www.thomasfazi.com/p/zelensky-and-its-western-backers",
+          "publishedOn": "2025-05-16T10:50:07.000Z",
+          "wordCount": null,
+          "title": "Zelensky and his Western backers continue to sabotage peace",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b6e4f419-29ca-4209-96ba-e50eaa28e012_800x533.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/b6e4f419-29ca-4209-96ba-e50eaa28e012_800x533.jpeg"
+        },
+        {
+          "id": "https://www.thomasfazi.com/p/landmark-court-ruling-against-von",
+          "author": "Thomas Fazi",
+          "description": "EU Court of Justice annuls the European Commission’s decision to refuse to disclose the text messages between von der Leyen and Pfizer CEO Albert Bourla",
+          "link": "https://www.thomasfazi.com/p/landmark-court-ruling-against-von",
+          "publishedOn": "2025-05-14T11:22:49.000Z",
+          "wordCount": null,
+          "title": "Landmark court ruling against von der Leyen in Pfizergate trial",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d4e95485-8b5d-4eeb-989f-b0063814f235_1160x801.avif",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/d4e95485-8b5d-4eeb-989f-b0063814f235_1160x801.avif"
+        },
+        {
+          "id": "https://www.thomasfazi.com/p/enemy-of-the-state-the-political",
+          "author": "Thomas Fazi",
+          "description": "For years, Guérot was one of Germany’s most respected political scientists. But after she criticised the pandemic response and the proxy war in Ukraine, she found herself cast as a public enemy",
+          "link": "https://www.thomasfazi.com/p/enemy-of-the-state-the-political",
+          "publishedOn": "2025-05-12T12:38:55.000Z",
+          "wordCount": null,
+          "title": "Enemy of the state: the political persecution of Ulrike Guérot",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a5b8d690-4dd5-4f57-88c0-c5ce03462c43_644x466.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/a5b8d690-4dd5-4f57-88c0-c5ce03462c43_644x466.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Ian Welsh",
+      "feedUrl": "https://www.ianwelsh.net/feed/",
+      "siteUrl": "https://follow.it/ian-welsh",
+      "articles": [
+        {
+          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItDzzncXQO-WB9QQj1W0b9wJ",
+          "author": null,
+          "description": "A healthy person can survive forty to sixty days without food, depending on how fat they were to begin with. Women last longer than men (woman are better at all extreme endurance feats I am aware of.)\nIt’s been about two months since Israel cut off all food and water to Gaza. There were storehouses and some food, and it took about 30-40 days to exhaust the stores, but even before that there wasn’t enough.\nAnd even before this cut-off there wasn’t enough. There was a brief period after Trump took power with supplies moving in in large amounts, but since the start of the crisis, Israel has been choking off food, medicine and everything else, and Israeli citizens have stopped and hijacked aid trucks.\nSo there aren’t any fat people in Gaza, except for some Zionist genociders who cosplay as sol…",
+          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItDzzncXQO-WB9QQj1W0b9wJ",
+          "publishedOn": "2025-05-16T15:00:09.000Z",
+          "wordCount": null,
+          "title": "Amidst Everything Else The Palestinian Genocide Is Picking Up Steam",
+          "imageUrl": null
+        },
+        {
+          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItA7vDWQrbqXJ_kMEqhul6oo",
+          "author": null,
+          "description": "Getting elites attention\n\nWhat the right wants from its followers is for them to be riven by hatred of any difference, thus making them easy to manipulate and willing to sell out their economic values in exchange for seeing brown people beaten, and women and trans people losing control over their own bodies.\nWhat neoliberals want is for their followers to be convinced that each group, even each micro group, is on its own, unable to understand each other and thus that solidarity is impossible and all one can hope for is that some member of the identity group is allowed to join the elite, while most of all groups remain in poverty.\nThey’re very similar, really. In both cases hatred of other groups is inculcated as the core value, as a way of making manipulation easy and avoiding having to actually deal with broad issues of well being.\nBoth of these are variations on “divide and conquer”. It costs a lot less to give a few people something than to give many people something. “Want some women and minorities in power? Sure. Costs us almost nothing.”\n“Want women to be forced to bear rape children and die in pregnancy due to lack of necessary abortions? Sure, costs us nothing. Our women can still get abortions.\n“Want trans people excluded and denied health care? Sure, they’re a tiny part of the population and rich trans people will be fine.”\nOn the other hand giving everyone healthcare would cut a lot of profits. Giving everyone a liveable wage or assistance to those who can’t work or find jobs: that would cost a lot of profits.\n“You can have anything you want, as long as it doesn’t make elites poorer.”\nOn that the right and center are unified.\nThis blog has always been free to read, but it isn’t free to produce. If you’d like to support my writing, I’d appreciate it. You can donate or subscribe by clicking on this link.",
+          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItA7vDWQrbqXJ_kMEqhul6oo",
+          "publishedOn": "2025-05-15T15:56:33.000Z",
+          "wordCount": null,
+          "title": "The Unifying Goal Of Right &amp; Center Elites",
+          "imageUrl": null
+        },
+        {
+          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItBizHoiHbH94ZoDu3lKMwSE",
+          "author": null,
+          "description": "Stumbled on this chart recently:\n\nKind of tells its own story.\nIt’s worth reading the Communist manifest. People have weird ideas about it, but a lot of it is really unexceptionable. For example, Marx and Engels demanded pensions for old folks.\nCapitalists looked at this and said, “oh, we can do this if the alternative is worse” and introduced them. Someone as hard headed as Bismarck responded this way.\nThe threat of a credible enemy ideology which treats ordinary people better than capitalists do forces capitalists to change. For a long time we haven’t had that, but the single party “Marxist but with capitalism” CCP offers another, and yes, they do, overall treat their workers better, as well as being better at capitalism than capitalists. No one is as obsessed with how markets actually work as Marxist economists.\nLet’s look at another of my favorite charts:\n\nOh hey, having powerful organizations taking the part of workers matters.\nSomething happened right after Reagan took power:\n\nStrikes involving more than 1,000 workers\n\nThen there’s this:\n\n(The numbers have gone down since then, but are still vastly high, and far, far higher than China.\nBreak the unions and lock up the people who won’t obey bullshit (aka. drug) laws.\nClass war is real, and constantly ongoing, and elites have won that war.\nPower and fear is all that capitalists ever respond to.\nAlways remember that.\nThis blog has always been free to read, but it isn’t free to produce. If you’d like to support my writing, I’d appreciate it. You can donate or subscribe by clicking on this link.",
+          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItBizHoiHbH94ZoDu3lKMwSE",
+          "publishedOn": "2025-05-14T19:07:19.000Z",
+          "wordCount": null,
+          "title": "Capitalists Only Respond To Threats",
+          "imageUrl": null
+        },
+        {
+          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItA9pW5Be07GI6vOC380oLRX",
+          "author": null,
+          "description": "Back during the pandemic two things happened with students. Overall they committed more suicides, BUT when schools were closed, suicide rates went down. (I predicted the latter at the time.)\nThen there’s this lovely chart:\n\nWell, well, well. Seems forcing people to do what they don’t want to do, in what is usually a socially oppressive environment, is bad for them.\nThere are, of course, those who thrive in school, and love it, usually the socially dominant kids. But for a lot of kids, school is Hell.\nThis has a lot to do with alignment of goals, I think. I wrote recently about the epidemic of AI cheating and how to avoid it, but I think the smartest commentary I’ve seen on AI cheating, and cheating in general is this one:\nHas anyone stopped to ask WHY students cheat? Would a buddhist monk …",
+          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItA9pW5Be07GI6vOC380oLRX",
+          "publishedOn": "2025-05-13T16:28:21.000Z",
+          "wordCount": null,
+          "title": "The Horror of School",
+          "imageUrl": null
+        },
+        {
+          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItCFtkAzfAzegEx3cU0zDwjT",
+          "author": null,
+          "description": "Well, maybe. Who the hell knows what he’ll do. Anyway, tariffs are back to 10% on either side and negotiations will continue.\nNote that China got what they wanted, minus 10%—no negotiations until the tariffs are removed.\nThere will still be a two month trade burp. Ships weren’t leaving China for the US at all, literally zero. Lot of freight companies are about to make a mint, though. So expect some shortages, but nothing worse than Covid, and hopefully lasting less time.\nThe fundamental problem remains, however, which is that there’s no certainty around any of this, so business people can’t make long term plans, including plans to build or relocate manufacturing. Trump and the US can’t be trusted to stay steady on policy, so avoiding making big plans involving the US makes sense.\nThe Great Power picture is clearer, however. The US tried to impose its will on China and failed. China wouldn’t negotiate till its pre-conditions were met. The world has two great powers, with the EU bidding to become the third (I think they’ll fail, but that’s what the rearmament is about.)\nAnd, in economic terms, China is by far the pre-eminent great power. It isn’t even close. The era of American hegemony is officially over. The US tried to impose its will on the world and failed.\nThis blog has always been free to read, but it isn’t free to produce. If you’d like to support my writing, I’d appreciate it. You can donate or subscribe by clicking on this link.",
+          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItCFtkAzfAzegEx3cU0zDwjT",
+          "publishedOn": "2025-05-12T14:34:51.000Z",
+          "wordCount": null,
+          "title": "&quot;Art of the Cave”: Trump Walks Back China Tariffs For 90 Days",
+          "imageUrl": null
+        },
+        {
+          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItABWpb204I0w8z_8SRt0rN7",
+          "author": null,
+          "description": "Putin’s goals by GrimJim\n\nSo, the Europeans have said that Russia must grant an unconditional 30 day ceasefire, or they’ll ramp up aid to Ukraine and put on more sanctions, including some against Nord Stream II. They claim Trump is onside, but Trump hasn’t confirmed this.\nThe Russians have indicated willingness for a thirty day ceasefire, but they have a condition: for those thirty days, weapon shipments from the West to Ukraine must stop and Putin has straight up rejected the unconditional ceasefire.\nWhat a surprise.\nWhat Europeans want is for Russia, which is winning on the ground, to give them thirty days to rearm Ukraine. Can’t imagine why Russia won’t go for that.\nThe Euros are delusional. They have no leverage. They’ve already said they intend to end all energy purchases from Russia …",
+          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItABWpb204I0w8z_8SRt0rN7",
+          "publishedOn": "2025-05-11T21:53:08.000Z",
+          "wordCount": null,
+          "title": "Western Leaders Continue To Live In A Delusional LaLa Land With Respect To The Ukraine War",
+          "imageUrl": null
+        },
+        {
+          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItDulYEVhDv-lVTGikwny1Fi",
+          "author": null,
+          "description": "Week-end Wrap – Political Economy – May 11, 2025\nby Tony Wikrent\nStrategic Political Economy\nCongressman Casten: Trump’s Assault on the Rule of Law Is Causing Capital Flight Out of U.S. by Foreign Investors\nPam Martens and Russ Martens, May 5, 2025 [Wall Street on Parade]\nLast Wednesday, Congressman Sean Casten, Democrat of Illinois, stated the following in an open meeting of the House Financial Services Committee:\n“For the first time in my memory, foreign investors are not only fleeing U.S. equities but are fleeing U.S. Treasuries. I met with banks last week – banks under our jurisdiction – who said that the international community is putting a risk premium on investments in the United States because of regulatory risk and because they question whether the rule of law that they depend on …",
+          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItDulYEVhDv-lVTGikwny1Fi",
+          "publishedOn": "2025-05-11T18:30:18.000Z",
+          "wordCount": null,
+          "title": "Week-end Wrap – Political Economy – May 11, 2025",
+          "imageUrl": null
+        },
+        {
+          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItCezdzb8hZKH8AZVkIU6lMJ",
+          "author": null,
+          "description": "Soviet War Propaganda showing gratitude for the allies. I own about a dozen WWII Soviet posters.\n\nThis post is for a Russian friend of mine. Руфина Сергеевна Гашева, Rufina Sergeyevna Gasheva was born 14 October 1921. Ruffik, as she asked me to call her–was proud to have a young American friend. I have a stack of letters to prove it.\nI met Ruffik back in 2002. I was in Moscow with my soon to be wife and her best friend, Nastya (diminutive of Anastasia). Nastya dearly wanted to see her babushka, which was the last thing I wanted to do. Hear stories from some old lady? Good grief. But I went to keep my wife-to-be happy. One of the best decisions I ever made. After meeting Cpl. Ed Neidermeir of the 42 Division (aka: Rainbow Division) who saw his first action on 16 June 1918, meeting Ruffik an…",
+          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItCezdzb8hZKH8AZVkIU6lMJ",
+          "publishedOn": "2025-05-11T12:48:35.000Z",
+          "wordCount": null,
+          "title": "Великая Отечественная война — The Great Patriotic War",
+          "imageUrl": null
+        }
+      ]
+    }
+  ],
+  "cliVersion": "1.15.1"
+}
