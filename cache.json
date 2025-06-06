@@ -12,6 +12,26 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "9b737f301236fc9a1f97ad9542f52ea3a36fd7c6",
+          "author": "Betty Zheng (郑予彬)",
+          "description": "Today, Amazon Web Services (AWS) announced that AWS Asia Pacific (Taipei) Region is generally available with three Availability Zones and Region code ap-east-2. The new Region brings AWS infrastructure and services closer to customers in Taiwan. Skyline of Taipei including the Taipei 101 building As the first infrastructure Region in Taipei and the fifteenth Region […]",
+          "link": "https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-taipei-region/",
+          "publishedOn": "2025-06-06T01:11:30.000Z",
+          "wordCount": 2436,
+          "title": "Now open – AWS Asia Pacific (Taipei) Region",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/05/21/800x400.jpg"
+        },
+        {
+          "id": "0b7f6978dcbe0b0b5e4efb6e4a86d6709a0b0876",
+          "author": "Channy Yun (윤석찬)",
+          "description": "AWS now provides daily updates of Smithy API models on GitHub, enabling developers to build custom SDK clients, understand AWS API behaviors, and create developer tools for better AWS service integration.",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-aws-api-models-and-publicly-available-resources-for-aws-api-definitions/",
+          "publishedOn": "2025-06-05T20:18:26.000Z",
+          "wordCount": 1740,
+          "title": "Introducing AWS API models and publicly available resources for AWS API definitions",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/06/04/Smithy-feat-img.jpg"
+        },
+        {
           "id": "c63d6de4890142659cd2619871034949323b6a87",
           "author": "Channy Yun (윤석찬)",
           "description": "AWS announces significant price reductions of up to 45 percent for NVIDIA GPU-accelerated EC2 instances, increasing accessibility to these high-demand resources for generative AI workloads amid industry-wide GPU shortages.",
@@ -82,6 +102,36 @@
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
         {
+          "id": "1d2439d32ee1a9b0caeebf083fd33eba3e8f79b9",
+          "author": "Kirankumar Chandrashekar",
+          "description": "Amazon Q Developer now supports Claude Sonnet 4 within the CLI, bringing advanced coding and reasoning capabilities to your development workflows at no additional cost. This latest model excels in coding with a state-of-the-art 72.7% for agentic coding on the SWE-bench (see Claude 4 announcement for more information). With enhanced coding and reasoning capabilities, it […]",
+          "link": "https://aws.amazon.com/blogs/devops/access-claude-sonnet-4-in-amazon-q-developer-cli/",
+          "publishedOn": "2025-06-06T02:07:30.000Z",
+          "wordCount": 1537,
+          "title": "Access Claude Sonnet 4 in Amazon Q Developer CLI",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/06/06/Access-claude-sonnet-4.png"
+        },
+        {
+          "id": "05ebebc2340e29f825c6ffee0271b9f005815008",
+          "author": "Madhu Balaji",
+          "description": "Today, we’re excited to announce the general availability of Amazon Q Developer plugin for the Eclipse integrated development environments (IDE). This release builds upon the developer experience introduced in our November 2024 public preview, bringing powerful AI-assisted development capabilities directly into Eclipse 2025-03(4.35.0) and later versions. The integration significantly improves how developers write, test, and maintain […]",
+          "link": "https://aws.amazon.com/blogs/devops/streamline-your-eclipse-workflows-with-amazon-q-developer-now-generally-available/",
+          "publishedOn": "2025-06-05T19:33:20.000Z",
+          "wordCount": 2227,
+          "title": "Streamline your Eclipse workflows with Amazon Q Developer, now generally available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/06/05/feature-image-1149x630.png"
+        },
+        {
+          "id": "932be76c45353da0993964a23f6f8878cdea155c",
+          "author": "Artur Rodrigues",
+          "description": "Developers spend countless hours on repetitive tasks like debugging code, writing unit tests, and validating build processes – time that could be better spent on innovation and problem-solving. To address these challenges, Amazon Q Developer has expanded its intelligent coding assistant capabilities to Visual Studio and JetBrains Integrated development environments (IDEs). This new agentic experience […]",
+          "link": "https://aws.amazon.com/blogs/devops/introducing-an-agentic-coding-experience-in-visual-studio-and-jetbrains-ides/",
+          "publishedOn": "2025-06-05T19:02:28.000Z",
+          "wordCount": 2232,
+          "title": "Introducing an agentic coding experience in Visual Studio and JetBrains IDEs",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/06/05/Introducing-an-agentic-coding-experience-in-Visual-Studio-and-JetBrains-IDEs.jpg"
+        },
+        {
           "id": "cb688afe847e83387e4b36587700c5f9ca49d600",
           "author": "Brendan Jenkins",
           "description": "Amazon Q Developer just launched a new agentic experience within the AWS Management Console, that enables builders to get deeper insights about their AWS resources and improve their operational troubleshooting efficiency. This expands the agentic capabilities of Amazon Q Developer from both the integrated development environment (IDE) and command line interface (CLI) to the AWS […]",
@@ -104,7 +154,7 @@
           "description": "In his latest talk with Ray McGovern on Dialogue Works, John Helmer gives far and away the best overview1 so far in the wake of Ukraine attacks on bridges and civilian trains, drone attacks targeting bombers in Russia’s nuclear deterrence forces, a failed new attack on Kerch Bridge, and phone discussions between Lavrov and Rubio […]",
           "link": "https://www.nakedcapitalism.com/2025/06/john-helmer-putin-hits-pause-button-on-oreshnik-level-retaliation-for-ukraine-strike-on-russian-nuclear-deterrence-assets.html",
           "publishedOn": "2025-06-05T15:36:43.000Z",
-          "wordCount": 10032,
+          "wordCount": 12623,
           "title": "John Helmer: Putin Hits Pause Button on Oreshnik-Level Retaliation for Ukraine Strike on Russian Nuclear Deterrence Assets",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Screenshot-2025-06-05-at-9.35.16 PM.png"
         },
@@ -114,7 +164,7 @@
           "description": "Our daily links, including Trump-Putin talk, the US defends genocide at the UN (again), EU using Covid money for weapons, and the right abuses Tolkien.",
           "link": "https://www.nakedcapitalism.com/2025/06/links-6-5-2025.html",
           "publishedOn": "2025-06-05T10:55:01.000Z",
-          "wordCount": 12053,
+          "wordCount": 14818,
           "title": "Links 6/5/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Screenshot-2025-06-04-at-10.12.22 PM-e1749093306634.png"
         },
@@ -124,7 +174,7 @@
           "description": "As AI systems increasingly display emotion — genuine or not — public opinion will split around calls for their rights.",
           "link": "https://www.nakedcapitalism.com/2025/06/a-culture-war-is-brewing-over-moral-concern-for-ai.html",
           "publishedOn": "2025-06-05T10:54:43.000Z",
-          "wordCount": 7748,
+          "wordCount": 8448,
           "title": "A Culture War is Brewing Over Moral Concern for AI",
           "imageUrl": null
         },
@@ -134,7 +184,7 @@
           "description": "More evidence of Trump cluelessness in his Mexico and China tariffs bobs and weaves.",
           "link": "https://www.nakedcapitalism.com/2025/06/like-china-a-mexico-tariffs-own-goal-us-dependence-on-mexico-energy-trade-means-those-tariffs-never-stood-a-chance.html",
           "publishedOn": "2025-06-05T08:00:52.000Z",
-          "wordCount": 3833,
+          "wordCount": 3935,
           "title": "Like China, a Mexico Tariffs Own Goal: US Dependence on Mexico Energy Trade Means “Those Tariffs Never Stood a Chance”?",
           "imageUrl": null
         },
@@ -144,7 +194,7 @@
           "description": "Why you can stick a fork in US higher education excellence.",
           "link": "https://www.nakedcapitalism.com/2025/06/rajiv-sethi-american-leadership-in-higher-education-is-being-lost-for-good-to-chinas-benefit.html",
           "publishedOn": "2025-06-05T07:18:17.000Z",
-          "wordCount": 6334,
+          "wordCount": 6592,
           "title": "Rajiv Sethi: American Leadership in Higher Education Is Being Lost for Good, to China’s Benefit",
           "imageUrl": null
         },
@@ -154,7 +204,7 @@
           "description": "Plastic mulch pollution may linger for centuries",
           "link": "https://www.nakedcapitalism.com/2025/06/plastic-mulch-promised-better-harvests-it-may-be-hurting-the-soil-instead.html",
           "publishedOn": "2025-06-04T14:01:40.000Z",
-          "wordCount": 6294,
+          "wordCount": 6458,
           "title": "Plastic Mulch Promised Better Harvests. It May Be Hurting the Soil Instead.",
           "imageUrl": null
         },
@@ -164,7 +214,7 @@
           "description": "Our wily daily links: Musk declares war on Trump, sentient mushrooms? Covid impact on kids. global heat understated? Trump whinges about Xi, EU poodles brace for fight with Trump, Israel halts Gaza aid after IDF kills, Khameni rejects US terms, moar on Ukraine attacks, parents don't read to kids,",
           "link": "https://www.nakedcapitalism.com/2025/06/links-6-4-2025.html",
           "publishedOn": "2025-06-04T10:55:21.000Z",
-          "wordCount": 21402,
+          "wordCount": 21375,
           "title": "Links 6/4/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/00-C28F9892-83A1-4381-A611-30B067460321.jpg"
         },
@@ -174,7 +224,7 @@
           "description": "The Make America Healthy Again (MAHA) Report has dropped!  The original document included phantom (hallucinated?) references, but those have been fixed apparently.  Or maybe not.  A graduate student who wrote a review with the same defects would get a flat “F”, but this does not seem to matter.  Could AI (Algorithmic Intelligence) have had anything […]",
           "link": "https://www.nakedcapitalism.com/2025/06/maha-influencers-the-future-of-public-health-and-longings-for-immortality.html",
           "publishedOn": "2025-06-04T10:54:26.000Z",
-          "wordCount": 8460,
+          "wordCount": 8433,
           "title": "MAHA Influencers, the Future of Public Health, and Longings for Immortality",
           "imageUrl": null
         },
@@ -184,7 +234,7 @@
           "description": "On Ukraine's recent escalations: \"Westerners sanguine about the prospect of nuclear war are fools.\"",
           "link": "https://www.nakedcapitalism.com/2025/06/rob-urie-what-do-the-western-drone-attacks-mean-for-us-russia-relations.html",
           "publishedOn": "2025-06-04T09:55:19.000Z",
-          "wordCount": 11339,
+          "wordCount": 11312,
           "title": "Rob Urie: What Do the Western Drone Attacks Mean for US – Russia Relations?",
           "imageUrl": null
         },
@@ -194,7 +244,7 @@
           "description": "Rather than end Obamacare, which would be politically costly,  the Trump Administration is working to hollow it out.",
           "link": "https://www.nakedcapitalism.com/2025/06/trumps-one-big-beautiful-bill-continues-assault-on-obamacare.html",
           "publishedOn": "2025-06-04T09:05:23.000Z",
-          "wordCount": 4392,
+          "wordCount": 4365,
           "title": "Trump’s ‘One Big Beautiful Bill’ Continues Assault on Obamacare",
           "imageUrl": null
         }
@@ -290,7 +340,7 @@
           "description": "A team of MIT researchers founded Themis AI to quantify AI model uncertainty and address knowledge gaps.",
           "link": "https://news.mit.edu/2025/themis-ai-teaches-ai-models-what-they-dont-know-0603",
           "publishedOn": "2025-06-03T04:00:00.000Z",
-          "wordCount": 1786,
+          "wordCount": 1796,
           "title": "Teaching AI models what they don’t know",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/MIT-ThemisAI-01-Press.jpg"
         },
@@ -300,7 +350,7 @@
           "description": "With demand for cement alternatives rising, an MIT team uses machine learning to hunt for new ingredients across the scientific literature.",
           "link": "https://news.mit.edu/2025/ai-stirs-recipe-for-concrete-0602",
           "publishedOn": "2025-06-02T19:45:00.000Z",
-          "wordCount": 1565,
+          "wordCount": 1575,
           "title": "AI stirs up the recipe for concrete in MIT study",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202505/mit-Soroush-Mahjoubi.jpg"
         },
@@ -310,7 +360,7 @@
           "description": "SketchAgent, a drawing system developed by MIT CSAIL researchers, sketches up concepts stroke-by-stroke, teaching language models to visually express concepts on their own and collaborate with humans.",
           "link": "https://news.mit.edu/2025/teaching-ai-models-to-sketch-more-like-humans-0602",
           "publishedOn": "2025-06-02T18:50:00.000Z",
-          "wordCount": 1856,
+          "wordCount": 1866,
           "title": "Teaching AI models the broad strokes to sketch more like humans do",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202505/MIT-SketchAgent.jpg"
         },
@@ -320,7 +370,7 @@
           "description": "Courses on developing AI models for health care need to focus more on identifying and addressing bias, says Leo Anthony Celi.",
           "link": "https://news.mit.edu/2025/3-questions-recognizing-potential-bias-in-ai-datasets-0602",
           "publishedOn": "2025-06-02T14:30:00.000Z",
-          "wordCount": 2100,
+          "wordCount": 2110,
           "title": "3 Questions: How to help students recognize potential bias in their AI datasets",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/MIT_AI-Health-Data-01.jpg"
         }
@@ -363,22 +413,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95097b5f-4281-4998-8bbb-0da3577a049f_1062x1488.png"
-        },
-        {
-          "id": "https://www.thomasfazi.com/p/full-ban-on-russian-energy-eu-continues",
-          "author": "Thomas Fazi",
-          "description": "This is not about “stopping Putin’s war machine” but about pre-empting any normalisation of EU-Russia relations — at the cost of deepening dependence on the US and accelerating deindustrialisation",
-          "link": "https://www.thomasfazi.com/p/full-ban-on-russian-energy-eu-continues",
-          "publishedOn": "2025-05-30T09:06:35.000Z",
-          "wordCount": null,
-          "title": "Full ban on Russian energy? EU continues to commit economic suicide",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/dd9e7911-4d5d-428b-a3f9-a676f1ca0d15_570x364.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/dd9e7911-4d5d-428b-a3f9-a676f1ca0d15_570x364.jpeg"
         }
       ]
     },
