@@ -20,16 +20,6 @@
           "wordCount": 1574,
           "title": "AWS Weekly Roundup: New AWS Heroes, Amazon Q Developer, EC2 GPU price reduction, and more (June 9, 2025)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
-        },
-        {
-          "id": "9b737f301236fc9a1f97ad9542f52ea3a36fd7c6",
-          "author": "Betty Zheng (郑予彬)",
-          "description": "Today, Amazon Web Services (AWS) announced that AWS Asia Pacific (Taipei) Region is generally available with three Availability Zones and Region code ap-east-2. The new Region brings AWS infrastructure and services closer to customers in Taiwan. Skyline of Taipei including the Taipei 101 building As the first infrastructure Region in Taipei and the fifteenth Region […]",
-          "link": "https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-taipei-region/",
-          "publishedOn": "2025-06-06T01:11:30.000Z",
-          "wordCount": 2436,
-          "title": "Now open – AWS Asia Pacific (Taipei) Region",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/05/21/800x400.jpg"
         }
       ]
     },
@@ -83,14 +73,24 @@
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
         {
-          "id": "1d2439d32ee1a9b0caeebf083fd33eba3e8f79b9",
-          "author": "Kirankumar Chandrashekar",
-          "description": "Amazon Q Developer now supports Claude Sonnet 4 within the CLI, bringing advanced coding and reasoning capabilities to your development workflows at no additional cost. This latest model excels in coding with a state-of-the-art 72.7% for agentic coding on the SWE-bench (see Claude 4 announcement for more information). With enhanced coding and reasoning capabilities, it […]",
-          "link": "https://aws.amazon.com/blogs/devops/access-claude-sonnet-4-in-amazon-q-developer-cli/",
-          "publishedOn": "2025-06-06T02:07:30.000Z",
-          "wordCount": 1539,
-          "title": "Access Claude Sonnet 4 in Amazon Q Developer CLI",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/06/06/Access-claude-sonnet-4.png"
+          "id": "a1102756c01f6a0553e01be9d19e920bb65c0763",
+          "author": "Ritik Khatwani",
+          "description": "Earlier today, Amazon Q Developer announced Model Context Protocol (MCP) support in their Integrated Development Environment (IDE) plugins for Visual Studio Code and JetBrains. This allows developers to connect external tools or MCP servers to Q Developer, enabling more context-aware responses and complex workflows. MCP support has already been available in Amazon Q Developer for […]",
+          "link": "https://aws.amazon.com/blogs/devops/use-model-context-protocol-with-amazon-q-developer-for-context-aware-ide-workflows/",
+          "publishedOn": "2025-06-13T00:07:56.000Z",
+          "wordCount": 2323,
+          "title": "Use Model Context Protocol with Amazon Q Developer for context-aware IDE workflows",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/06/12/featured-image-mcp-ide.png"
+        },
+        {
+          "id": "c7d18058f0ff9e75b45d295501a515f7bdfa9860",
+          "author": "Venugopalan Vasudevan",
+          "description": "In the ever-evolving landscape of Java development, keeping applications up-to-date while minimizing risk has become increasingly challenging. Amazon Q Developer transformation capabilities now support customization of Java upgrades in Java upgrade transformation CLI (command line interface) with a new selective transformation feature. Selective transformation empowers development teams with greater control over their modernization journey. Instead […]",
+          "link": "https://aws.amazon.com/blogs/devops/amazon-q-developer-java-upgrades-a-deep-dive-into-new-selective-transformation-feature/",
+          "publishedOn": "2025-06-12T21:15:49.000Z",
+          "wordCount": 2724,
+          "title": "Amazon Q Developer Java Upgrades: A Deep Dive into the New Selective Transformation Feature",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/06/12/stv2featured-image-template-1120x630.png"
         }
       ]
     },
@@ -100,12 +100,32 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=293771",
+          "author": "Curro Jimenez",
+          "description": "Gaza and Ukraine symbolize the death of an old 'nomos' and the rise of a new one shaped by war, capital, and collapsing ideals",
+          "link": "https://www.nakedcapitalism.com/2025/06/gaza-the-sacrificial-ram-on-capitals-new-altar.html",
+          "publishedOn": "2025-06-12T18:00:15.000Z",
+          "wordCount": 5661,
+          "title": "Gaza: The Sacrificial Ram on Capital’s New Altar",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=293842",
+          "author": "Yves Smith",
+          "description": "Cape Town's drought illustrated that when climate crises become acute, the rich care for themselves irrespective of bigger effects.",
+          "link": "https://www.nakedcapitalism.com/2025/06/climate-adaptation-and-inequality-lessons-from-cape-towns-drought.html",
+          "publishedOn": "2025-06-12T13:55:35.000Z",
+          "wordCount": 3978,
+          "title": "Climate Adaptation and Inequality: Lessons from Cape Town’s Drought",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/00-drought.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=293800",
           "author": "Conor Gallagher",
           "description": "Today's daily links, including ominous signs of war with Iran, ICE targeting unions, and reefer madness in Texas.",
           "link": "https://www.nakedcapitalism.com/2025/06/links-6-12-2025.html",
           "publishedOn": "2025-06-12T10:45:31.000Z",
-          "wordCount": 5122,
+          "wordCount": 15571,
           "title": "Links 6/12/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Screenshot-2025-06-11-at-7.13.40 AM-701x1024.png"
         },
@@ -115,7 +135,7 @@
           "description": "On not-well-known elements of the US-Ukraine-Russia conflict, the fecklessness of the left, and the abject stupidity of Western leaders",
           "link": "https://www.nakedcapitalism.com/2025/06/rob-urie-why-retaliation-rhymes-with-negotiation-us-russia-edition.html",
           "publishedOn": "2025-06-12T10:33:29.000Z",
-          "wordCount": 6119,
+          "wordCount": 10938,
           "title": "Rob Urie: Why Retaliation Rhymes with Negotiation, US – Russia Edition",
           "imageUrl": null
         },
@@ -125,7 +145,7 @@
           "description": "Two recent books seem unduly complacent about the status of the dollar as reserve currency.",
           "link": "https://www.nakedcapitalism.com/2025/06/satyajit-das-a-fist-full-of-dollars.html",
           "publishedOn": "2025-06-12T09:00:04.000Z",
-          "wordCount": 4290,
+          "wordCount": 4592,
           "title": "Satyajit Das: A Fist Full of Dollars",
           "imageUrl": null
         },
@@ -135,7 +155,7 @@
           "description": "It can't be said too often: what most economists call growth is too often what we here call groaf.",
           "link": "https://www.nakedcapitalism.com/2025/06/is-all-economic-growth-good.html",
           "publishedOn": "2025-06-12T07:31:22.000Z",
-          "wordCount": 4373,
+          "wordCount": 5021,
           "title": "“Is All Economic Growth Good?”",
           "imageUrl": null
         },
@@ -145,7 +165,7 @@
           "description": "President Trump deploys National Guard and US Marines to Los Angeles in support of ICE. Gavin Newsom files suit in opposition. Waymos burn.",
           "link": "https://www.nakedcapitalism.com/2025/06/trump-deploys-national-guard.html",
           "publishedOn": "2025-06-11T18:00:48.000Z",
-          "wordCount": 9705,
+          "wordCount": 10394,
           "title": "Coffee Break: Trump Deploys National Guard to LA",
           "imageUrl": null
         },
@@ -155,7 +175,7 @@
           "description": "Researchers projects that \"big beautiful bill\" cuts  to public health insurance coverage may lead to upwards of 51,000 deaths a year.",
           "link": "https://www.nakedcapitalism.com/2025/06/the-projected-death-count-from-trumps-one-big-beautiful-bill.html",
           "publishedOn": "2025-06-11T13:55:11.000Z",
-          "wordCount": 4729,
+          "wordCount": 4693,
           "title": "The Projected Death Count from Trump’s One Big Beautiful Bill",
           "imageUrl": null
         },
@@ -175,29 +195,9 @@
           "description": "The precarity of the undocumented worker is the future of US labor relations.",
           "link": "https://www.nakedcapitalism.com/2025/06/ice-raids-and-crackdowns-on-anti-genocide-speech-are-a-threat-to-all-workers.html",
           "publishedOn": "2025-06-11T10:50:26.000Z",
-          "wordCount": 9229,
+          "wordCount": 9313,
           "title": "How the ICE Raids and Crackdowns on Anti-Genocide Speech Are A Threat to All American Workers",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=293721",
-          "author": "Yves Smith",
-          "description": "Many, and perhapse even most, young American men have soured on sex.  What could be responsible?",
-          "link": "https://www.nakedcapitalism.com/2025/06/youve-lost-that-lovin-feeling-why-are-young-men-giving-up-on-sex.html",
-          "publishedOn": "2025-06-11T10:31:13.000Z",
-          "wordCount": 25542,
-          "title": "“You’ve Lost That Lovin’ Feeling”: Why Are Young Men Giving Up on Sex?",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/00-men-no-sex.jpeg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=293772",
-          "author": "Yves Smith",
-          "description": "A new paper confirms early doubts that LLMs could ever meet AI boosters' claims that they were intelligent.",
-          "link": "https://www.nakedcapitalism.com/2025/06/do-ai-models-think.html",
-          "publishedOn": "2025-06-11T10:30:53.000Z",
-          "wordCount": 8781,
-          "title": "Do AI Models Think?",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/00-AI.jpg"
         }
       ]
     },
@@ -206,6 +206,26 @@
       "feedUrl": "https://blog.cloudflare.com/rss",
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
+        {
+          "id": "2dN6tdkhtvWTTgAgbfzaSX",
+          "author": "Jeremy Hartman",
+          "description": "Multiple Cloudflare services, including Workers KV, Access, WARP and the Cloudflare dashboard, experienced an outage for up to 2 hours and 28 minutes on June 12, 2025.",
+          "link": "https://blog.cloudflare.com/cloudflare-service-outage-june-12-2025/",
+          "publishedOn": "2025-06-12T22:00:00.000Z",
+          "wordCount": 3008,
+          "title": "Cloudflare service outage June 12, 2025",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1PPINmVPRc1emQMpc5JIXe/1bf284f6d9c8ccb36bb40b7cffb1cab3/Cloudflare_service_outage_June_12__2025-OG.png"
+        },
+        {
+          "id": "7mDMJrIALhItjbx62fNSv4",
+          "author": "Jocelyn Woolbright",
+          "description": "June 2025 marks the 11th anniversary of Project Galileo, Cloudflare’s effort to protect vulnerable public interest organizations from cyber threats.",
+          "link": "https://blog.cloudflare.com/celebrating-11-years-of-project-galileo-global-impact/",
+          "publishedOn": "2025-06-12T10:00:00.000Z",
+          "wordCount": 1767,
+          "title": "Celebrating 11 years of Project Galileo’s global impact",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1uEEp14Ekp0QQqEYCICv1A/edb30acaa4653dd231fd338c4e69c6b7/Celebrating_11_years_of_Project_Galileo%C3%A2__s_global_impact-OG.png"
+        },
         {
           "id": "3cuVG8K7iSqKV8O3fNrAYK",
           "author": "Ketan Gupta",
@@ -222,7 +242,28 @@
       "title": "Visual Studio Code - Code Editing. Redefined.",
       "feedUrl": "https://code.visualstudio.com/feed.xml",
       "siteUrl": "https://code.visualstudio.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://code.visualstudio.com/updates/v1_101",
+          "author": null,
+          "description": "Learn what is new in the Visual Studio Code May 2025 Release (1.101)\nRead the full article",
+          "link": "https://code.visualstudio.com/updates/v1_101",
+          "publishedOn": "2025-06-12T17:00:00.000Z",
+          "wordCount": 6061,
+          "title": "May 2025 (version 1.101)",
+          "imageUrl": "https://code.visualstudio.com/assets/updates/1_101/release-highlights.png"
+        },
+        {
+          "id": "https://code.visualstudio.com/blogs/2025/06/12/full-mcp-spec-support",
+          "author": null,
+          "description": "VS Code now supports the complete Model Context Protocol specification, including authorization, prompts, resources, and sampling.\nRead the full article",
+          "link": "https://code.visualstudio.com/blogs/2025/06/12/full-mcp-spec-support",
+          "publishedOn": "2025-06-12T00:00:00.000Z",
+          "wordCount": 1321,
+          "title": "The Complete MCP Experience: Full Specification Support in VS Code",
+          "imageUrl": "https://code.visualstudio.com/assets/blogs/2025/06/12/mcp-resources-context.png"
+        }
+      ]
     },
     {
       "title": "theunderground.blog",
@@ -244,16 +285,6 @@
           "wordCount": 1558,
           "title": "Gavin Rae: &ldquo;Weak Myths&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2025/06/poland.jpg"
-        },
-        {
-          "id": "https://newleftreview.org/sidecar/posts/freedom-fighter",
-          "author": null,
-          "description": "Manmohan Singh’s India.",
-          "link": "https://newleftreview.org/sidecar/posts/freedom-fighter",
-          "publishedOn": "2025-06-06T10:13:00.000Z",
-          "wordCount": 3115,
-          "title": "Aditya Bahl: &ldquo;Freedom Fighter?&rdquo;",
-          "imageUrl": "https://newleftreview.org/blog-uploads/2025/06/raza-padamsee-vadehra-art-gallery-delhi-1366x768-ezgifcom-webp-to-jpg-converter.jpg"
         }
       ]
     },
@@ -269,12 +300,22 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=22891",
+          "author": "Richard Seroter",
+          "description": "Today's links look at how you can uncover \"tells\" for AI-generated text, how to understand cloud service accounts, and whether to use MCP or APIs for your AI agents.",
+          "link": "https://seroter.com/2025/06/12/daily-reading-list-june-12-2025-567/",
+          "publishedOn": "2025-06-12T19:03:33.000Z",
+          "wordCount": 4597,
+          "title": "Daily Reading List – June 12, 2025 (#567)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://seroter.com/?p=22873",
           "author": "Richard Seroter",
           "description": "Today's links look at whether your flexible work schedule is burning you out, why your AI skeptic friends are all nuts, and 75 leadership quotes you haven't heard yet.",
           "link": "https://seroter.com/2025/06/11/daily-reading-list-june-11-2025-566/",
           "publishedOn": "2025-06-11T18:32:37.000Z",
-          "wordCount": 4569,
+          "wordCount": 4595,
           "title": "Daily Reading List – June 11, 2025 (#566)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -284,7 +325,7 @@
           "description": "Today's links look at protecting yourself against giant DDoS attacks, scaling vibe coding in the enterprise, and the best ways to fall behind in AI.",
           "link": "https://seroter.com/2025/06/10/daily-reading-list-june-10-2025-565/",
           "publishedOn": "2025-06-10T19:50:56.000Z",
-          "wordCount": 4753,
+          "wordCount": 4779,
           "title": "Daily Reading List – June 10, 2025 (#565)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -294,7 +335,7 @@
           "description": "Today's links look at whether AI is actually speeding up the pace of change, what agents are in a nutshell, and why platform engineering teams need strategy too.",
           "link": "https://seroter.com/2025/06/09/daily-reading-list-june-9-2025-564/",
           "publishedOn": "2025-06-09T19:27:23.000Z",
-          "wordCount": 4814,
+          "wordCount": 4690,
           "title": "Daily Reading List – June 9, 2025 (#564)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -311,7 +352,7 @@
           "description": "The MIT Ethics of Computing Research Symposium showcases projects at the intersection of technology, ethics, and social responsibility.",
           "link": "https://news.mit.edu/2025/bringing-meaning-technology-deployment-0611",
           "publishedOn": "2025-06-11T20:15:00.000Z",
-          "wordCount": 2056,
+          "wordCount": 2051,
           "title": "Bringing meaning into technology deployment",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202505/mit-SERC-Symposium.jpg"
         },
@@ -321,7 +362,7 @@
           "description": "By performing deep learning at the speed of light, this chip could give edge devices new capabilities for real-time data analysis.",
           "link": "https://news.mit.edu/2025/photonic-processor-could-streamline-6g-wireless-signal-processing-0611",
           "publishedOn": "2025-06-11T18:00:00.000Z",
-          "wordCount": 1839,
+          "wordCount": 1830,
           "title": "Photonic processor could streamline 6G wireless signal processing",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/MIT-Photonic-Process-01-press.jpg"
         },
@@ -331,7 +372,7 @@
           "description": "A new method can physically restore original paintings using digitally constructed films, which can be removed if desired.",
           "link": "https://news.mit.edu/2025/restoring-damaged-paintings-using-ai-generated-mask-0611",
           "publishedOn": "2025-06-11T15:00:00.000Z",
-          "wordCount": 2279,
+          "wordCount": 2547,
           "title": "Have a damaged painting? Restore it in just hours with an AI-generated “mask”",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/MIT-Restoring-Paintings-01-press.jpg"
         },
@@ -341,7 +382,7 @@
           "description": "A new framework from the MIT-IBM Watson AI Lab supercharges language models, so they can reason over, interactively develop, and verify valid, complex travel agendas.",
           "link": "https://news.mit.edu/2025/inroads-personalized-ai-trip-planning-0610",
           "publishedOn": "2025-06-10T19:00:00.000Z",
-          "wordCount": 2088,
+          "wordCount": 2079,
           "title": "Inroads to personalized AI trip planning",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202505/mit-watson-travel-planning.jpg"
         },
@@ -351,7 +392,7 @@
           "description": "A new book from Professor Munther Dahleh details the creation of a unique kind of transdisciplinary center, uniting many specialties through a common need for data science.",
           "link": "https://news.mit.edu/2025/data-systems-and-society-0610",
           "publishedOn": "2025-06-10T18:25:00.000Z",
-          "wordCount": 1946,
+          "wordCount": 1941,
           "title": "Melding data, systems, and society",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202505/mit-Data-Systems-Dahleh-book.jpg"
         },
@@ -361,7 +402,7 @@
           "description": "Forget optimists vs. Luddites. Most people evaluate AI based on its perceived capability and their need for personalization.",
           "link": "https://news.mit.edu/2025/how-we-really-judge-ai-0610",
           "publishedOn": "2025-06-10T15:30:00.000Z",
-          "wordCount": 1528,
+          "wordCount": 1519,
           "title": "How we really judge AI",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/MIT-AI-Aversion-Appreciation-01.jpg"
         },
@@ -371,7 +412,7 @@
           "description": "The system automatically learns to adapt to unknown disturbances such as gusting winds.",
           "link": "https://news.mit.edu/2025/ai-enabled-control-system-helps-autonomous-drones-uncertain-environments-0609",
           "publishedOn": "2025-06-09T20:40:00.000Z",
-          "wordCount": 1883,
+          "wordCount": 1874,
           "title": "AI-enabled control system helps autonomous drones stay on target in uncertain environments",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/MIT_MetaLearning-01.jpg"
         },
@@ -381,7 +422,7 @@
           "description": "The winning essay of the Envisioning the Future of Computing Prize puts health care disparities at the forefront.",
           "link": "https://news.mit.edu/2025/envisioning-future-where-health-care-tech-leaves-some-behind-0609",
           "publishedOn": "2025-06-09T20:10:00.000Z",
-          "wordCount": 2027,
+          "wordCount": 2022,
           "title": "Envisioning a future where health care tech leaves some behind",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/Annaliese%20statue%20crop_v2.jpg"
         },
@@ -391,7 +432,7 @@
           "description": "Coactive, founded by two MIT alumni, has built an AI-powered platform to unlock new insights from content of all types.",
           "link": "https://news.mit.edu/2025/coactive-helps-machines-understand-visual-content-ai-0609",
           "publishedOn": "2025-06-09T19:45:00.000Z",
-          "wordCount": 2086,
+          "wordCount": 2081,
           "title": "Helping machines understand visual content with AI",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/MIT-Coactive-AI-01-press.jpg"
         }
@@ -472,16 +513,6 @@
           "publishedOn": "2025-06-07T06:26:20.000Z",
           "wordCount": null,
           "title": "Open Thread",
-          "imageUrl": null
-        },
-        {
-          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItA06UG7rog1xDXl-iUqvqJ1",
-          "author": null,
-          "description": "Both Germany and Japan have reported the first shutdowns. These shutdowns will become worse over time. While China is providing some licenses for Rare Earths, they’re slow walking them and customs approval, and I’ve been told (though cannot confirm) that so far they have given none to Indian companies. (Maybe that little Pakistan kerfuffle wasn’t cost free?)\nThis is all very amusing and instructive on a number of levels. America banned something that China could handle the bans on: semiconductors. China, after much provocation, banned something that there is simply no way of replacing in the next few years:\n“There is no solution for the next three years except to come to an agreement with China,” said Andreas Kroll, managing director of Noble Elements, rare earths importer for medium-sized…",
-          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItA06UG7rog1xDXl-iUqvqJ1",
-          "publishedOn": "2025-06-06T08:27:39.000Z",
-          "wordCount": null,
-          "title": "China’s Rare Earth Ban Starts Shutting Down Auto Production",
           "imageUrl": null
         }
       ]
