@@ -12,6 +12,86 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "b0ad377a4e23c937899926a46ac90dab8f257761",
+          "author": "AWS News Blog Team",
+          "description": "At AWS re:Inforce 2025 (June 16-18, Philadelphia), AWS Vice President and Chief Information Security Officer Amy Herzog delivered the keynote address, announcing new security innovations. Throughout the event, AWS announced additional security capabilities focused on simplifying security at scale and enabling organizations to build more resilient applications in the cloud. Below is a comprehensive roundup […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-reinforce-roundup-2025-top-announcements/",
+          "publishedOn": "2025-06-17T17:10:23.000Z",
+          "wordCount": 26916,
+          "title": "AWS re:Inforce roundup 2025: top announcements",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/06/13/RIF-2025.png"
+        },
+        {
+          "id": "0c90d66a232b00eab18ce300f6d25e027a484483",
+          "author": "Esra Kayabali",
+          "description": "Expanded Amazon GuardDuty Extended Threat Detection for EKS clusters uses proprietary correlation algorithms to identify sophisticated multi-stage attack sequences across Kubernetes audit logs, container runtime behaviors, and AWS API activities through a new critical severity finding type: AttackSequence:EKS/CompromisedCluster.",
+          "link": "https://aws.amazon.com/blogs/aws/amazon-guardduty-expands-extended-threat-detection-coverage-to-amazon-eks-clusters/",
+          "publishedOn": "2025-06-17T16:26:04.000Z",
+          "wordCount": 27105,
+          "title": "Amazon GuardDuty expands Extended Threat Detection coverage to Amazon EKS clusters",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/06/11/GuardDuty-Thumbnail_800x400px.png"
+        },
+        {
+          "id": "e19fa07e98e5b8e9021afdf4e6d3f14f45d064b0",
+          "author": "Donnie Prakoso",
+          "description": "AWS Security Hub has been enhanced with new capabilities that integrate multiple AWS security services to automatically discover resources, evaluate risks, analyze attack paths, and provide AI-assisted recommendations, helping security teams prioritize critical issues and respond to threats at scale with improved visualization and remediation guidance.",
+          "link": "https://aws.amazon.com/blogs/aws/unify-your-security-with-the-new-aws-security-hub-for-risk-prioritization-and-response-at-scale-preview/",
+          "publishedOn": "2025-06-17T15:57:57.000Z",
+          "wordCount": 27289,
+          "title": "Unify your security with the new AWS Security Hub for risk prioritization and response at scale (Preview)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/06/09/Security-hub-feat-img.png"
+        },
+        {
+          "id": "5b49911bc7d41842e56590335b8e7b3615f3ef6c",
+          "author": "Veliswa Boya",
+          "description": "Multi-party approval for AWS Backup logically air-gapped vaults enables organizations to recover their backup data even when their AWS account is compromised, by creating approval teams of trusted individuals who can authorize vault sharing with a recovery account through a separate authentication path.",
+          "link": "https://aws.amazon.com/blogs/aws/aws-backup-adds-new-multi-party-approval-for-logically-air-gapped-vaults/",
+          "publishedOn": "2025-06-17T15:50:14.000Z",
+          "wordCount": 27108,
+          "title": "AWS Backup adds new Multi-party approval for logically air-gapped vaults",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/11/15/AWS-Backup-blog-image.png"
+        },
+        {
+          "id": "5235df10e9121e0b8997ba6595bb1f96974c7419",
+          "author": "Esra Kayabali",
+          "description": "Shield network security posture management automatically discovers and analyzes network resources across AWS accounts, prioritizes security risks based on AWS best practices, and provides actionable remediation recommendations to protect applications against threats like SQL injections and DDoS attacks.",
+          "link": "https://aws.amazon.com/blogs/aws/new-aws-shield-feature-discovers-network-security-issues-before-they-can-be-exploited-preview/",
+          "publishedOn": "2025-06-17T15:24:29.000Z",
+          "wordCount": 27078,
+          "title": "New AWS Shield feature discovers network security issues before they can be exploited (Preview)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/06/06/AWS_Shield-feat-img.png"
+        },
+        {
+          "id": "c26dbe5841b16834450965e43bc3fd061d2cf760",
+          "author": "Micah Walter",
+          "description": "Try the simplified console experience with Amazon CloudFront to accelerate and secure web applications within a few clicks by automating TLS certificate provisioning, DNS configuration, and security settings through an integrated interface with AWS WAF's enhanced Rule Packs.",
+          "link": "https://aws.amazon.com/blogs/aws/amazon-cloudfront-simplifies-web-application-delivery-and-security-with-new-user-friendly-interface/",
+          "publishedOn": "2025-06-17T14:52:15.000Z",
+          "wordCount": 27242,
+          "title": "Amazon CloudFront simplifies web application delivery and security with new user-friendly interface",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/05/01/CloudFront-darkbg-feat-img2.png"
+        },
+        {
+          "id": "55aea14f37e97eabeffd376d045f1bb3711feb1b",
+          "author": "Channy Yun (윤석찬)",
+          "description": "You can now use AWS Certificate Manager to issue exportable public certificates for your AWS, hybrid, or multicloud workloads that require secure TLS traffic termination.",
+          "link": "https://aws.amazon.com/blogs/aws/aws-certificate-manager-introduces-exportable-public-ssl-tls-certificates-to-use-anywhere/",
+          "publishedOn": "2025-06-17T14:46:20.000Z",
+          "wordCount": 26934,
+          "title": "AWS Certificate Manager introduces exportable public SSL/TLS certificates to use anywhere",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/06/09/Cert-Mgr-feat-img.png"
+        },
+        {
+          "id": "2bdebfa050d44d96737015f5a4beb4aa5a038a8a",
+          "author": "Micah Walter",
+          "description": "A new capability in IAM Access Analyzer helps security teams verify which principals within their AWS organization have access to critical resources like S3 buckets, DynamoDB tables, and RDS snapshots by using automated reasoning to evaluate multiple policies and provide findings through a unified dashboard.",
+          "link": "https://aws.amazon.com/blogs/aws/verify-internal-access-to-critical-aws-resources-with-new-iam-access-analyzer-capabilities/",
+          "publishedOn": "2025-06-17T14:09:08.000Z",
+          "wordCount": 27164,
+          "title": "Verify internal access to critical AWS resources with new IAM Access Analyzer capabilities",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/06/04/IAMAccAn.png"
+        },
+        {
           "id": "bfdcfd4bce1293e4116e091dbb0771283c97ada6",
           "author": "Esra Kayabali",
           "description": "Today marks the start of AWS re:Inforce 2025, where security professionals are gathering for three days of technical learning sessions, workshops, and demonstrations. This security-focused conference brings together AWS security specialists who build and maintain the services that organizations rely on for their cloud security needs. AWS Chief Information Security Officer (CISO) Amy Herzog will […]",
@@ -89,12 +169,32 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=294045",
+          "author": "Haig Hovaness",
+          "description": "The fog of war is thick over the current hostilities between Israel and Iran, but the intense interest in short-term outcomes of this regional war may be obscuring the ultimate prospects for Israel as negative trends undermine its militaristic foreign policy. I will describe these trends and the likely outcome. Loss of International Support The […]",
+          "link": "https://www.nakedcapitalism.com/2025/06/coffee-break-armed-madhouse-long-term-prospects-for-israel.html",
+          "publishedOn": "2025-06-17T18:00:41.000Z",
+          "wordCount": 3531,
+          "title": "Coffee Break: Armed Madhouse – Israel’s Ominous Future",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Gaza-destruction-e1750106849731.jpg"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=294130",
+          "author": "Yves Smith",
+          "description": "Lebanon-based jouranlist Laith Marouf provides some granular detail on Iran's and Israel's operations and what might come next in the war",
+          "link": "https://www.nakedcapitalism.com/2025/06/laith-marouf-on-irans-escalatory-path-and-its-expectations-of-a-long-war.html",
+          "publishedOn": "2025-06-17T13:55:54.000Z",
+          "wordCount": 10749,
+          "title": "Laith Marouf on Iran’s Escalatory Path and Its Expectations of a Long War",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=294048",
           "author": "Yves Smith",
           "description": "Our boisterous daily links: Ozempic babies, new Covid wave, UK geoengineering weapons freakout, Trump loses mind on Iran, Iran gets Iron Dome to self sabotage? US abandoning Ukraine, immigration flp-flop, AI pollution, sacrificing for the rich,",
           "link": "https://www.nakedcapitalism.com/2025/06/links-6-17-2025.html",
           "publishedOn": "2025-06-17T10:55:20.000Z",
-          "wordCount": 6791,
+          "wordCount": 11544,
           "title": "Links 6/17/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/00-big-dog-scaled.jpeg"
         },
@@ -104,7 +204,7 @@
           "description": "The company that \" knows everything about you\" is going from strength to strength as war rises and and the so-called \"liberal\" West turns into a dystopian novel.",
           "link": "https://www.nakedcapitalism.com/2025/06/palantirs-perfect-world.html",
           "publishedOn": "2025-06-17T10:45:51.000Z",
-          "wordCount": 5373,
+          "wordCount": 6171,
           "title": "Welcome to Peak Palantir",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Captura-de-pantalla_17-6-2025_12214_www.investing.com_-300x208.jpeg"
         },
@@ -114,7 +214,7 @@
           "description": "Yet more confirmation that student use of AI comes as the expense of skill acquisition. So why get educated?",
           "link": "https://www.nakedcapitalism.com/2025/06/generative-ai-in-universities-grades-up-signals-down-skills-in-flux.html",
           "publishedOn": "2025-06-17T09:55:20.000Z",
-          "wordCount": 4479,
+          "wordCount": 6008,
           "title": "Generative AI in Universities: Grades Up, Signals Down, Skills in Flux",
           "imageUrl": null
         },
@@ -124,7 +224,7 @@
           "description": "Health insurers are behaving even more badly, yet advocates do not seem to be pushing for the remedy of external appeal for denials.",
           "link": "https://www.nakedcapitalism.com/2025/06/not-accountable-to-anyone-as-insurers-issue-denials-some-patients-run-out-of-options.html",
           "publishedOn": "2025-06-17T08:03:18.000Z",
-          "wordCount": 5152,
+          "wordCount": 5851,
           "title": "‘Not Accountable to Anyone’: As Insurers Issue Denials, Some Patients Run Out of Options",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/00-NY-external-appeal-scaled.jpg"
         },
@@ -134,7 +234,7 @@
           "description": "This is a news round up of the 2025 New York Mayoral Primary. The race seems to be narrowing to a contest between disgraced former Governor Andrew Cuomo and state legislator Zohran Mamdani. Early voting has begun as of June 14 and will conclude on June 24. Why This Race Matters This is hands-down THE […]",
           "link": "https://www.nakedcapitalism.com/2025/06/2025-new-york-mayoral-primary-mamdani-cuomo.html",
           "publishedOn": "2025-06-16T18:00:13.000Z",
-          "wordCount": 8922,
+          "wordCount": 9732,
           "title": "Coffee Break: 2025 New York Mayoral Primary, Mamdani Vs. Cuomo",
           "imageUrl": null
         },
@@ -144,7 +244,7 @@
           "description": "Our soothing daily links: the US wading into WWIII, Mossad and CIA seek support for Iran regime change, and strange radio pulses from the Antarctic ice.",
           "link": "https://www.nakedcapitalism.com/2025/06/links-6-16-2025.html",
           "publishedOn": "2025-06-16T10:55:15.000Z",
-          "wordCount": 16499,
+          "wordCount": 16530,
           "title": "Links 6/16/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Screenshot-2025-06-15-at-9.22.34 AM-826x1024.png"
         },
@@ -154,7 +254,7 @@
           "description": "The war situation with Iran is not necessarily developing to the advantage of Israel, and Trump has to decide what to do.",
           "link": "https://www.nakedcapitalism.com/2025/06/does-taco-have-predictive-value-pressures-on-trump-with-respect-to-joining-israel-in-its-iran-war.html",
           "publishedOn": "2025-06-16T10:54:16.000Z",
-          "wordCount": 17607,
+          "wordCount": 17808,
           "title": "Does TACO Have Predictive Value? Pressures on Trump With Respect to Joining Israel in its Iran War",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/00-Tabriz.webp"
         },
@@ -164,29 +264,9 @@
           "description": "Iran, which had just taken a major step to integrate its network into China-led transport corridors, is the last major roadblock to US-Israel domination of Middle East regional supply chains.",
           "link": "https://www.nakedcapitalism.com/2025/06/whats-the-vision-for-the-middle-east-if-iran-falls.html",
           "publishedOn": "2025-06-16T10:00:41.000Z",
-          "wordCount": 9542,
+          "wordCount": 9963,
           "title": "What’s the Vision for the Middle East if Iran Falls?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Screenshot-2025-06-14-at-10.17.27 AM-714x1024.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=293996",
-          "author": "Conor Gallagher",
-          "description": "Former president's son and his allies are lobbying US government to punish judges investigating 2022 coup attempt.",
-          "link": "https://www.nakedcapitalism.com/2025/06/inside-bolsonarists-campaign-to-impose-us-sanctions-on-brazilian-judges.html",
-          "publishedOn": "2025-06-16T09:00:27.000Z",
-          "wordCount": 4292,
-          "title": "Inside Bolsonarists’ Campaign to Impose US Sanctions on Brazilian Judges",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Screenshot-2025-06-15-at-10.13.59 PM-1024x572.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=294012",
-          "author": "Yves Smith",
-          "description": "Monitoring a recession indicator: hair salon visits, or more accurately, their reduction.",
-          "link": "https://www.nakedcapitalism.com/2025/06/the-economics-of-undyed-hair-roots.html",
-          "publishedOn": "2025-06-16T07:06:04.000Z",
-          "wordCount": 5679,
-          "title": "The Economics of Undyed Hair Roots",
-          "imageUrl": null
         }
       ]
     },
@@ -201,7 +281,7 @@
           "description": "Multiple Cloudflare services, including Workers KV, Access, WARP and the Cloudflare dashboard, experienced an outage for up to 2 hours and 28 minutes on June 12, 2025.",
           "link": "https://blog.cloudflare.com/cloudflare-service-outage-june-12-2025/",
           "publishedOn": "2025-06-12T22:00:00.000Z",
-          "wordCount": 3022,
+          "wordCount": 3026,
           "title": "Cloudflare service outage June 12, 2025",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1PPINmVPRc1emQMpc5JIXe/1bf284f6d9c8ccb36bb40b7cffb1cab3/Cloudflare_service_outage_June_12__2025-OG.png"
         },
@@ -266,12 +346,22 @@
       "siteUrl": "https://newleftreview.org/sidecar/feed",
       "articles": [
         {
+          "id": "https://newleftreview.org/sidecar/posts/nuclear-options",
+          "author": null,
+          "description": "Regime change in Tehran?",
+          "link": "https://newleftreview.org/sidecar/posts/nuclear-options",
+          "publishedOn": "2025-06-17T18:45:47.000Z",
+          "wordCount": 2614,
+          "title": "Tariq Ali: &ldquo;Nuclear Options&rdquo;",
+          "imageUrl": "https://newleftreview.org/blog-uploads/2025/06/ta-image.jpg"
+        },
+        {
           "id": "https://newleftreview.org/sidecar/posts/culmination",
           "author": null,
           "description": "Israel attacks Iran.",
           "link": "https://newleftreview.org/sidecar/posts/culmination",
           "publishedOn": "2025-06-17T09:26:17.000Z",
-          "wordCount": 2129,
+          "wordCount": 2136,
           "title": "Eskandar Sadeghi-Boroujerdi: &ldquo;Culmination&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2025/06/iran-image.jpeg"
         }
@@ -304,7 +394,7 @@
           "description": "Today's links look at multiple patterns to consider for an agent use case, recommendations for agentic coding, and great management tips for dealing with conflict.",
           "link": "https://seroter.com/2025/06/13/daily-reading-list-june-13-2025-568/",
           "publishedOn": "2025-06-13T23:19:59.000Z",
-          "wordCount": 4612,
+          "wordCount": 4620,
           "title": "Daily Reading List – June 13, 2025 (#568)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -341,7 +431,7 @@
           "description": "MIT Advanced Vehicle Technology Consortium marks a decade of developing data that improve understanding of how drivers use and respond to increasingly sophisticated automotive features.",
           "link": "https://news.mit.edu/2025/celebrating-academic-industry-collaboration-advance-vehicle-technology-0616",
           "publishedOn": "2025-06-16T18:45:00.000Z",
-          "wordCount": 2059,
+          "wordCount": 2063,
           "title": "Celebrating an academic-industry collaboration to advance vehicle technology",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202505/MIT-AVT-conference.jpg"
         },
@@ -351,7 +441,7 @@
           "description": "The MIT Ethics of Computing Research Symposium showcases projects at the intersection of technology, ethics, and social responsibility.",
           "link": "https://news.mit.edu/2025/bringing-meaning-technology-deployment-0611",
           "publishedOn": "2025-06-11T20:15:00.000Z",
-          "wordCount": 2072,
+          "wordCount": 2071,
           "title": "Bringing meaning into technology deployment",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202505/mit-SERC-Symposium.jpg"
         },
@@ -361,7 +451,7 @@
           "description": "By performing deep learning at the speed of light, this chip could give edge devices new capabilities for real-time data analysis.",
           "link": "https://news.mit.edu/2025/photonic-processor-could-streamline-6g-wireless-signal-processing-0611",
           "publishedOn": "2025-06-11T18:00:00.000Z",
-          "wordCount": 1861,
+          "wordCount": 1860,
           "title": "Photonic processor could streamline 6G wireless signal processing",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/MIT-Photonic-Process-01-press.jpg"
         },
@@ -371,7 +461,7 @@
           "description": "A new method can physically restore original paintings using digitally constructed films, which can be removed if desired.",
           "link": "https://news.mit.edu/2025/restoring-damaged-paintings-using-ai-generated-mask-0611",
           "publishedOn": "2025-06-11T15:00:00.000Z",
-          "wordCount": 2576,
+          "wordCount": 2575,
           "title": "Have a damaged painting? Restore it in just hours with an AI-generated “mask”",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/MIT-Restoring-Paintings-01-press.jpg"
         }
