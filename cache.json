@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "338ab1a5449dedd3d0a422376be4e668fc6d6075",
+          "author": "Sébastien Stormacq",
+          "description": "Amazon S3 now enables improved Apache Iceberg query performance through two new compaction strategies—sort and z-order—available for both S3 Tables and general purpose S3 buckets, helping organize data more efficiently by clustering similar values together and reducing file scanning during queries.",
+          "link": "https://aws.amazon.com/blogs/aws/new-improve-apache-iceberg-query-performance-in-amazon-s3-with-sort-and-z-order-compaction/",
+          "publishedOn": "2025-06-24T20:27:59.000Z",
+          "wordCount": 27715,
+          "title": "New: Improve Apache Iceberg query performance in Amazon S3 with sort and z-order compaction",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/06/13/S3-Tables.png"
+        },
+        {
           "id": "939e6ae6e5cce485ea26e1e9c5165b803613c28b",
           "author": "Sébastien Stormacq",
           "description": "Last week’s hallmark event was the security-focused AWS re:Inforce conference. Now a tradition, the blog team wrote a re:Cap post to summarize the announcements and link to some of the top blog posts. To further summarize, several new security innovations were announced, including enhanced IAM Access Analyzer capabilities, MFA enforcement for root users, and threat […]",
@@ -34,9 +44,9 @@
           "description": "In this post, we explore the Amazon Bedrock baseline architecture and how you can secure and control network access to your various Amazon Bedrock capabilities within AWS network services and tools. We discuss key design considerations, such as using Amazon VPC Lattice auth policies, Amazon Virtual Private Cloud (Amazon VPC) endpoints, and AWS Identity and Access Management (IAM) to restrict and monitor access to your Amazon Bedrock capabilities.",
           "link": "https://aws.amazon.com/blogs/architecture/amazon-bedrock-baseline-architecture-in-an-aws-landing-zone/",
           "publishedOn": "2025-06-23T18:36:51.000Z",
-          "wordCount": 28272,
+          "wordCount": 28698,
           "title": "Amazon Bedrock baseline architecture in an AWS landing zone",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/06/06/ARCHBLOG-1133-image-1-1133x630.jpg"
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/06/18/ARCHBLOG-1133-image-1-960x630.png"
         }
       ]
     },
@@ -94,7 +104,7 @@
           "description": "Circular error probability (CEP) is the metric weapons designers use to describe the accuracy of munitions. CEP is defined as the radius of a circle, centered on the intended target, within which 50% of projectiles or warheads are expected to land. As guidance technology has advanced, CEPs of modern missiles and drones have grown smaller. […]",
           "link": "https://www.nakedcapitalism.com/2025/06/coffee-break-armed-madhouse-circular-error-probability.html",
           "publishedOn": "2025-06-24T18:00:38.000Z",
-          "wordCount": 3194,
+          "wordCount": 4156,
           "title": "Coffee Break: Armed Madhouse – Circular Error Probability",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/HS-293-e1750784940820.jpeg"
         },
@@ -104,7 +114,7 @@
           "description": "An orthodox economist describes inconsistencies in rating agencies' approach to downgrading US debt and their view of reserve currency status",
           "link": "https://www.nakedcapitalism.com/2025/06/downgrading-uncle-sam-not-america.html",
           "publishedOn": "2025-06-24T13:55:49.000Z",
-          "wordCount": 4263,
+          "wordCount": 4267,
           "title": "Downgrading Uncle Sam, Not America",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/00-downgrading.jpg"
         },
@@ -114,7 +124,7 @@
           "description": "Our daily links, including kabuki theater in West Asia, but is there a way out? Plus more militarization on the home front and how animals taught us culture",
           "link": "https://www.nakedcapitalism.com/2025/06/links-6-24-2025.html",
           "publishedOn": "2025-06-24T10:55:29.000Z",
-          "wordCount": 9326,
+          "wordCount": 12841,
           "title": "Links 6/24/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Screenshot-2025-06-23-at-10.45.18 AM-817x1024.png"
         },
@@ -124,7 +134,7 @@
           "description": "Israel is, or is about to be, back into the war-making game. And the US is sure to be in on the action.",
           "link": "https://www.nakedcapitalism.com/2025/06/israel-orders-attack-on-iran-after-iran-allegedly-violated-ceasefire-it-never-agreed-to.html",
           "publishedOn": "2025-06-24T10:52:49.000Z",
-          "wordCount": 12194,
+          "wordCount": 13917,
           "title": "Israel Orders Attack on Iran After Iran Allegedly Violated Ceasefire It Never Agreed To",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Screenshot-2025-06-24-at-4.48.19 PM.png"
         },
@@ -134,7 +144,7 @@
           "description": "Milei's crushing austerity will not apply to Israeli residents of Argentina. Meanwhile, Israel's national water company controls more and more of Argentina's water supply.",
           "link": "https://www.nakedcapitalism.com/2025/06/javier-mileis-controversial-memorandum-of-understanding-with-israels-netanyahu-regime.html",
           "publishedOn": "2025-06-24T10:45:11.000Z",
-          "wordCount": 5483,
+          "wordCount": 5459,
           "title": "Javier Milei’s Controversial “Memorandum of Understanding” With Israel",
           "imageUrl": null
         },
@@ -144,7 +154,7 @@
           "description": "A warning to US readers on the further degradation in medical training and resulting crapification of care.",
           "link": "https://www.nakedcapitalism.com/2025/06/on-the-accelerating-decline-in-us-medical-training-and-with-it-doctor-competence.html",
           "publishedOn": "2025-06-24T07:08:49.000Z",
-          "wordCount": 9661,
+          "wordCount": 9987,
           "title": "On the Accelerating Decline in US Medical Training, and With It, Doctor Competence",
           "imageUrl": null
         },
@@ -154,7 +164,7 @@
           "description": "Nihilism on the part of Alphabet's CEO explains Google's willingness to risk its search business and the open web itself to chase OpenAI.",
           "link": "https://www.nakedcapitalism.com/2025/06/coffee-break-nihilists-at-google-wrecking-existing-business-to-chase-ai-growth.html",
           "publishedOn": "2025-06-23T18:00:03.000Z",
-          "wordCount": 7530,
+          "wordCount": 7811,
           "title": "Coffee Break: Nihilists at Google Wrecking Existing Business to Chase AI Growth",
           "imageUrl": null
         },
@@ -164,7 +174,7 @@
           "description": "How a Trump 1.0 tarrifs backfire illustrates fundamental flaw in how Trump goes about doing things.",
           "link": "https://www.nakedcapitalism.com/2025/06/trump-backfire-how-the-2018-19-us-tariffs-against-china-boosted-exports-and-employment-in-mexico.html",
           "publishedOn": "2025-06-23T13:55:10.000Z",
-          "wordCount": 4294,
+          "wordCount": 4251,
           "title": "Trump  Backfire: How the 2018/19 US Tariffs Against China Boosted Exports and Employment in Mexico",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/00-China-tariffs.webp"
         },
@@ -174,7 +184,7 @@
           "description": "Our daily links, including analysis, fallout, and maneuvering in the aftermath of US strikes on Iran, and",
           "link": "https://www.nakedcapitalism.com/2025/06/links-6-23-2025.html",
           "publishedOn": "2025-06-23T10:55:32.000Z",
-          "wordCount": 13370,
+          "wordCount": 13327,
           "title": "Links 6/23/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Screenshot-2025-06-22-at-4.42.49 PM-977x1024.png"
         },
@@ -184,7 +194,7 @@
           "description": "Iran updates, with the big underlying pressure being Israel's decay path and US failure so far to arrest that.",
           "link": "https://www.nakedcapitalism.com/2025/06/trump-talks-up-regime-change-brays-about-iran-nuclear-site-success-as-israel-taking-increasing-toll-from-attacks-iran-puts-pieces-in-place-for-strait-of-hormuz-closure.html",
           "publishedOn": "2025-06-23T10:45:55.000Z",
-          "wordCount": 19303,
+          "wordCount": 19261,
           "title": "Breaking: Fordow Attacked Again; Trump Talks Up Regime Change, Brays About Iran Nuclear Site Success as Israel Taking Increasing Toll from Attacks, Iran Puts Pieces in Place for Strait of Hormuz Closure; UPDATE: Iran Media Claims Attack on US Base in Syria",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/00-nikkei-hormuz.jpeg"
         }
@@ -214,26 +224,6 @@
           "wordCount": 2607,
           "title": "Defending the Internet: how Cloudflare blocked a monumental 7.3 Tbps DDoS attack",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1xDVjmCKpp4pvQ5Qu1CLv5/56fa65907ab19d027511d0f2f429af6f/Defending_the_Internet-_how_Cloudflare_blocked_a_monumental_7.3_Tbps_DDoS_attack_-OG.png"
-        },
-        {
-          "id": "kg7dxMzYcRnJdVFrxQmCw",
-          "author": "Jen Sells",
-          "description": "We are happy to announce the General Availability of Cloudflare Log Explorer, a powerful product designed to bring observability and forensics capabilities directly into your Cloudflare dashboard.",
-          "link": "https://blog.cloudflare.com/logexplorer-ga/",
-          "publishedOn": "2025-06-18T13:00:00.000Z",
-          "wordCount": 2650,
-          "title": "Cloudflare Log Explorer is now GA, providing native observability and forensics",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1xtHmKmGEdyNbfUxug9fQB/f4d79edca3f0359f818309196d5dcdef/BLOG-2838_OG.png"
-        },
-        {
-          "id": "4gk3k2ZiTN6DZoHu3e090r",
-          "author": "Dina Kozlov",
-          "description": "We're open-sourcing use-mcp, a React library that connects to any MCP server in just 3 lines of code, as well as our AI Playground, a complete chat interface that can connect to remote MCP servers.",
-          "link": "https://blog.cloudflare.com/connect-any-react-application-to-an-mcp-server-in-three-lines-of-code/",
-          "publishedOn": "2025-06-18T13:00:00.000Z",
-          "wordCount": 2032,
-          "title": "Connect any React application to an MCP server in three lines of code",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3SYJOvNUqnrtTSKCkjxaxn/57151661ce2b97eb30ad11d93ea822ac/OG_Share_2024__58_.png"
         }
       ]
     },
@@ -278,12 +268,22 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=23292",
+          "author": "Richard Seroter",
+          "description": "Today's links look at what AI to use right now, how to prioritize better, and why the AI revolution won't happen overnight.",
+          "link": "https://seroter.com/2025/06/24/daily-reading-list-june-24-2025-574/",
+          "publishedOn": "2025-06-24T23:26:55.000Z",
+          "wordCount": 4768,
+          "title": "Daily Reading List – June 24, 2025 (#574)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://seroter.com/?p=23026",
           "author": "Richard Seroter",
           "description": "Today's links look at why not all micromanagement is bad, agent-to-agent protocol truly becoming an industry standard, and why software development won't ever be the same.",
           "link": "https://seroter.com/2025/06/23/daily-reading-list-june-23-2025-573/",
           "publishedOn": "2025-06-23T23:35:05.000Z",
-          "wordCount": 4621,
+          "wordCount": 4622,
           "title": "Daily Reading List – June 23, 2025 (#573)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -303,7 +303,7 @@
           "description": "Today's links look at a new \"cloud finder\" API, what has a bigger impact than AI coding tools on your team, and writing docs for an AI world.",
           "link": "https://seroter.com/2025/06/18/daily-reading-list-june-18-2025-571/",
           "publishedOn": "2025-06-19T00:02:53.000Z",
-          "wordCount": 4630,
+          "wordCount": 4631,
           "title": "Daily Reading List – June 18, 2025 (#571)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
@@ -320,7 +320,7 @@
           "description": "Researchers find nonclinical information in patient messages — like typos, extra white space, and colorful language — reduces the accuracy of an AI model.",
           "link": "https://news.mit.edu/2025/llms-factor-unrelated-information-when-recommending-medical-treatments-0623",
           "publishedOn": "2025-06-23T04:00:00.000Z",
-          "wordCount": 1956,
+          "wordCount": 1930,
           "title": "LLMs factor in unrelated information when recommending medical treatments",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/MIT_Medium-Message-01-press.jpg"
         },
@@ -330,7 +330,7 @@
           "description": "Presentations targeted high-impact intersections of AI and other areas, such as health care, business, and education.",
           "link": "https://news.mit.edu/2025/researchers-present-bold-ideas-ai-mit-generative-ai-impact-consortium-event-0620",
           "publishedOn": "2025-06-20T20:45:00.000Z",
-          "wordCount": 1446,
+          "wordCount": 1420,
           "title": "Researchers present bold ideas for AI at MIT Generative AI Impact Consortium kickoff event",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/mit-Anantha.jpg"
         }
@@ -516,16 +516,6 @@
           "publishedOn": "2025-06-18T17:41:35.000Z",
           "wordCount": null,
           "title": "The Real Reason For French Collapse At The Outset Of WWII",
-          "imageUrl": null
-        },
-        {
-          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItBReBtKyLuElNXNG0663HWa",
-          "author": null,
-          "description": "I wavered between writing another Iran war update and this article, so I’ll say a few things about the Iranian war. There’s evidence that Israeli intelligence networks in Iran and elsewhere are being compromised fast. It appears that:\nIn simple terms:\nIsrael’s attack on Iran exposed a hidden network. For 25 years, India’s RAW and Israel’s Mossad have worked together using Indian tech workers across the Gulf as quiet access points into sensitive infrastructure. This network runs through millions of Indian… https://t.co/zkJRVuSoPx\n— Thomas Keith (@iwasnevrhere_) June 17, 2025\n\n\n \nThat India, a Hindu/Brahmin supremacists state which is increasingly treating its minorities the way Israel used to treat Palestinians before it went full genocidal is allied this deeply with Israel is not a surpris…",
-          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItBReBtKyLuElNXNG0663HWa",
-          "publishedOn": "2025-06-18T14:11:50.000Z",
-          "wordCount": null,
-          "title": "The US Continues To Accelerate Its Decline (+Iran)",
           "imageUrl": null
         }
       ]
