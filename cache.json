@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "760cf7d1ab9debd764182009eed986de1b4616a7",
+          "author": "Donnie Prakoso",
+          "description": "Amazon DynamoDB now offers multi-Region strong consistency capability for global tables, providing the highest level of application resilience and enabling your applications to be always available.",
+          "link": "https://aws.amazon.com/blogs/aws/build-the-highest-resilience-apps-with-multi-region-strong-consistency-in-amazon-dynamodb-global-tables/",
+          "publishedOn": "2025-06-30T20:30:48.000Z",
+          "wordCount": 7920,
+          "title": "Build the highest resilience apps with multi-Region strong consistency in Amazon DynamoDB global tables",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/06/29/global-tables-region.png"
+        },
+        {
           "id": "854516174b593a5c3244a7cde62636a0b0f88ec4",
           "author": "Channy Yun (윤석찬)",
           "description": "Amazon EC2 announces general availability of C8gn network optimized instances powered by AWS Graviton4 processors, offering up to 600Gbps network bandwidth for demanding network-intensive workloads with 30% higher compute performance over previous Graviton3-based instances.",
@@ -27,7 +37,7 @@
           "description": "Every time I visit Seattle, the first thing that greets me at the airport is Mount Rainier. Did you know that the most innovative project at Amazon Web Services (AWS) is named after this mountain? Project Rainier is a new project to create what is expected to be the world’s most powerful computer for training […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-project-rainier-amazon-cloudwatch-investigations-aws-mcp-servers-and-more-june-30-2025/",
           "publishedOn": "2025-06-30T16:39:17.000Z",
-          "wordCount": 27808,
+          "wordCount": 8286,
           "title": "AWS Weekly Roundup: Project Rainier, Amazon CloudWatch investigations, AWS MCP servers, and more (June 30, 2025)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         },
@@ -37,7 +47,7 @@
           "description": "You can now attach Amazon S3 Access Points to your Amazon FSx for OpenZFS file systems so that you can access your file data as if it were in S3. With this new capability, you can work with your file data using a broad range of applications that work with S3—all without any refactoring or data movement.",
           "link": "https://aws.amazon.com/blogs/aws/amazon-fsx-for-openzfs-now-supports-amazon-s3-access-without-any-data-movement/",
           "publishedOn": "2025-06-25T20:52:23.000Z",
-          "wordCount": 27744,
+          "wordCount": 8305,
           "title": "Amazon FSx for OpenZFS now supports Amazon S3 access without any data movement",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/06/20/Amazon-FSx-for-OpenZFS.jpg"
         },
@@ -47,7 +57,7 @@
           "description": "Amazon S3 now enables improved Apache Iceberg query performance through two new compaction strategies—sort and z-order—available for both S3 Tables and general purpose S3 buckets, helping organize data more efficiently by clustering similar values together and reducing file scanning during queries.",
           "link": "https://aws.amazon.com/blogs/aws/new-improve-apache-iceberg-query-performance-in-amazon-s3-with-sort-and-z-order-compaction/",
           "publishedOn": "2025-06-24T20:27:59.000Z",
-          "wordCount": 27779,
+          "wordCount": 8340,
           "title": "New: Improve Apache Iceberg query performance in Amazon S3 with sort and z-order compaction",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/18/S3-Table-Buckets.png"
         }
@@ -64,7 +74,7 @@
           "description": "In this post, you learn how you can use generative AI services on Amazon Web Services (AWS) to automate your sustainability reporting requirements, reduce manual effort, and improve accuracy. You do this by implementing an automated solution for extracting, processing, and validating data from corporate reports.",
           "link": "https://aws.amazon.com/blogs/architecture/simplifying-sustainability-reporting-using-aws-and-generative-ai-in-banking/",
           "publishedOn": "2025-06-26T17:54:46.000Z",
-          "wordCount": 28592,
+          "wordCount": 9155,
           "title": "Simplifying sustainability reporting using AWS and generative AI in banking",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/06/26/feature-ARCHBLOG-1201-1120x630.jpg"
         }
@@ -93,7 +103,7 @@
           "description": "OpenAI's fatally flawed finances reveal a company that presents no serious threat to any of the tech incumbents, including Google.",
           "link": "https://www.nakedcapitalism.com/2025/06/open-ai-chatgpt-money-pit.html",
           "publishedOn": "2025-06-30T18:00:30.000Z",
-          "wordCount": 4917,
+          "wordCount": 7219,
           "title": "Coffee Break: OpenAI as The Money Pit",
           "imageUrl": null
         },
@@ -103,7 +113,7 @@
           "description": "More on how young men are having a hard time finding dates and romantic partners, and why this matters.",
           "link": "https://www.nakedcapitalism.com/2025/06/reverse-lysistrata-more-on-men-cooling-on-dating-sex-and-the-role-of-societal-denigration.html",
           "publishedOn": "2025-06-30T13:55:03.000Z",
-          "wordCount": 15936,
+          "wordCount": 25387,
           "title": "Reverse Lysistrata: More on Men Cooling on Dating, Sex and the Role of Societal Denigration",
           "imageUrl": null
         },
@@ -113,7 +123,7 @@
           "description": "Our piquant daily links, including the \"big, beautiful bill\" changing America, Glastonbury hysteria, a new Philby in MI6, and mini robots flying up your nose.",
           "link": "https://www.nakedcapitalism.com/2025/06/links-6-30-2025.html",
           "publishedOn": "2025-06-30T10:55:35.000Z",
-          "wordCount": 12135,
+          "wordCount": 15231,
           "title": "Links 6/30/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Screenshot-2025-06-29-at-1.48.20 PM-818x1024.png"
         },
@@ -123,7 +133,7 @@
           "description": "Probably not in their current form, but there’s a counterintuitive argument that we should be cheering for the Supreme Court to dismantle the National Labor Relations Board in order to revitalize labor.",
           "link": "https://www.nakedcapitalism.com/2025/06/can-unions-really-lead-the-resistance-to-authoritarianism.html",
           "publishedOn": "2025-06-30T10:00:23.000Z",
-          "wordCount": 7877,
+          "wordCount": 8261,
           "title": "Can Unions Really ‘Lead the Resistance to Authoritarianism?’",
           "imageUrl": null
         },
@@ -133,7 +143,7 @@
           "description": "Why military spending remains untouchable.",
           "link": "https://www.nakedcapitalism.com/2025/06/cow-most-sacred.html",
           "publishedOn": "2025-06-30T09:00:22.000Z",
-          "wordCount": 5943,
+          "wordCount": 5883,
           "title": "Cow Most Sacred",
           "imageUrl": null
         },
@@ -143,7 +153,7 @@
           "description": "An alert: some energy efficiency tax credits are about to be terminated. See if you want to avail yourself of them while you can.",
           "link": "https://www.nakedcapitalism.com/2025/06/take-advantage-of-these-tax-credits-before-congress-kills-them.html",
           "publishedOn": "2025-06-30T06:14:41.000Z",
-          "wordCount": 4472,
+          "wordCount": 4488,
           "title": "Take Advantage of These Tax Credits Before Congress Kills Them",
           "imageUrl": null
         },
@@ -153,7 +163,7 @@
           "description": "Our strategic daily links: hungry elephant, more heat and less ice, Chinese hospital, Mexico an enemy, Gaza horrors, Iran damage assessments, Ukraine burning, vanishing privacy, Trumpishness, Musk world, immigration troubles, Mr. market, AI, and wretched excess",
           "link": "https://www.nakedcapitalism.com/2025/06/links-6-29-2025.html",
           "publishedOn": "2025-06-29T10:55:48.000Z",
-          "wordCount": 18488,
+          "wordCount": 18563,
           "title": "Links 6/29/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/Hedgehog-600.jpg"
         },
@@ -163,7 +173,7 @@
           "description": "Moscow Does Not Believe in Tears is a movie about three young Russian women and the different paths their lives take as they mature.",
           "link": "https://www.nakedcapitalism.com/2025/06/the-sunday-morning-movie-presents-moscow-does-not-believe-in-tears-1980-run-time-2-h-28-m.html",
           "publishedOn": "2025-06-29T10:30:05.000Z",
-          "wordCount": 3585,
+          "wordCount": 3601,
           "title": "The Sunday Morning Movie Presents: Moscow Does Not Believe In Tears (1980) Run Time: 2 H 28 M",
           "imageUrl": null
         },
@@ -173,7 +183,7 @@
           "description": "Millionaires are not fleeing countries to escape taxes.",
           "link": "https://www.nakedcapitalism.com/2025/06/the-millionaire-exodus-myth.html",
           "publishedOn": "2025-06-29T09:00:07.000Z",
-          "wordCount": 10731,
+          "wordCount": 10744,
           "title": "The Millionaire Exodus Myth",
           "imageUrl": null
         },
@@ -183,7 +193,7 @@
           "description": "Our florid daily links: Doomsday preppers, mass casualty at graduations, EU warmongering, Iran exits IAEA oversight, Israel puts Oxy in Gaza flour, Russia troops massing? NATO bootlicking, Trump wins at Supremes, new fundamental AI problems, Tesla robotaxi fail, leverage loan worries, police state",
           "link": "https://www.nakedcapitalism.com/2025/06/links-6-28-2025.html",
           "publishedOn": "2025-06-28T10:55:35.000Z",
-          "wordCount": 16207,
+          "wordCount": 16220,
           "title": "Links 6/28/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/06/00-Screenshot-2025-06-27-at-11.03.53 PM.jpg"
         }
@@ -315,53 +325,63 @@
     {
       "title": "Richard Seroter's Architecture Musings",
       "feedUrl": "https://seroter.com/feed/",
-      "siteUrl": "http://seroter.com",
+      "siteUrl": "https://seroter.com",
       "articles": [
         {
-          "id": "https://seroter.com/?p=23395",
+          "id": "http://seroter.com/?p=23417",
+          "author": "Richard Seroter",
+          "description": "Today's links look at context engineering and \"fixing\" your context, using platform engineering to simplify devex, and how to overcome negative thoughts.",
+          "link": "https://seroter.com/2025/06/30/daily-reading-list-june-30-2025-578/",
+          "publishedOn": "2025-06-30T23:39:44.000Z",
+          "wordCount": 4735,
+          "title": "Daily Reading List – June 30, 2025 (#578)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
+          "id": "http://seroter.com/?p=23395",
           "author": "Richard Seroter",
           "description": "Today's links look at how much AI impacts development speed, the best way to prompt text-to-video model Veo, and what context engineering is all about.",
-          "link": "http://seroter.com/2025/06/27/daily-reading-list-june-27-2025-577/",
+          "link": "https://seroter.com/2025/06/27/daily-reading-list-june-27-2025-577/",
           "publishedOn": "2025-06-27T23:29:37.000Z",
           "wordCount": 4603,
           "title": "Daily Reading List – June 27, 2025 (#577)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
         {
-          "id": "https://seroter.com/?p=23374",
+          "id": "http://seroter.com/?p=23374",
           "author": "Richard Seroter",
           "description": "Today's links look at choosing the right host for your AI agents, how to prepare APIs for AI agents, and whether it matters if your manager writes code.",
-          "link": "http://seroter.com/2025/06/26/daily-reading-list-june-26-2025-576/",
+          "link": "https://seroter.com/2025/06/26/daily-reading-list-june-26-2025-576/",
           "publishedOn": "2025-06-26T23:50:21.000Z",
           "wordCount": 4709,
           "title": "Daily Reading List – June 26, 2025 (#576)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
         {
-          "id": "https://seroter.com/?p=23311",
+          "id": "http://seroter.com/?p=23311",
           "author": "Richard Seroter",
           "description": "Yesterday morning, we took the wraps off one of the most interesting Google releases of…",
-          "link": "http://seroter.com/2025/06/26/the-gemini-cli-might-change-how-i-work-here-are-four-prompts-that-prove-it/",
+          "link": "https://seroter.com/2025/06/26/the-gemini-cli-might-change-how-i-work-here-are-four-prompts-that-prove-it/",
           "publishedOn": "2025-06-26T16:01:22.000Z",
           "wordCount": 5942,
           "title": "The Gemini CLI might change how I work. Here are four prompts that prove it.",
           "imageUrl": "https://seroter.com/wp-content/uploads/2025/06/2025.06.25-cli-01.png"
         },
         {
-          "id": "https://seroter.com/?p=23333",
+          "id": "http://seroter.com/?p=23333",
           "author": "Richard Seroter",
           "description": "Today's links look at the exciting new Gemini CLI, how Salesforce rolled out AI to their engineering teams, and where AI features should sit in your product's UI.",
-          "link": "http://seroter.com/2025/06/25/daily-reading-list-june-25-2025-575/",
+          "link": "https://seroter.com/2025/06/25/daily-reading-list-june-25-2025-575/",
           "publishedOn": "2025-06-25T23:46:51.000Z",
           "wordCount": 4550,
           "title": "Daily Reading List – June 25, 2025 (#575)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
         {
-          "id": "https://seroter.com/?p=23292",
+          "id": "http://seroter.com/?p=23292",
           "author": "Richard Seroter",
           "description": "Today's links look at what AI to use right now, how to prioritize better, and why the AI revolution won't happen overnight.",
-          "link": "http://seroter.com/2025/06/24/daily-reading-list-june-24-2025-574/",
+          "link": "https://seroter.com/2025/06/24/daily-reading-list-june-24-2025-574/",
           "publishedOn": "2025-06-24T23:26:55.000Z",
           "wordCount": 4803,
           "title": "Daily Reading List – June 24, 2025 (#574)",
@@ -474,22 +494,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/b3c7ab52-7a51-4bf4-8186-291239d86448_1024x683.webp"
-        },
-        {
-          "id": "https://www.thomasfazi.com/p/the-worlds-craziest-ceasefire",
-          "author": "Thomas Fazi",
-          "description": "The smug idea that Israel can get away with anything without ever paying a price seems to have vanished",
-          "link": "https://www.thomasfazi.com/p/the-worlds-craziest-ceasefire",
-          "publishedOn": "2025-06-24T10:58:51.000Z",
-          "wordCount": null,
-          "title": "The world’s craziest ceasefire",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a9c463e9-4cb6-44cd-9be3-27dd51f70862_1017x678.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/a9c463e9-4cb6-44cd-9be3-27dd51f70862_1017x678.jpeg"
         }
       ]
     },
@@ -498,6 +502,16 @@
       "feedUrl": "https://www.ianwelsh.net/feed/",
       "siteUrl": "https://follow.it/ian-welsh",
       "articles": [
+        {
+          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItBweAnCWulTk_wEODyNaIi_",
+          "author": null,
+          "description": "Before we get into the most recent developments of the war between Russia and the Ukraine, I want to focus a little bit about how Russia is outstripping the West technology. We all know necessity is the mother of all invention. And war is the mother of all necessity. The Russians haven’t missed a beat innovating. One of the most terrifying weapon systems is Russia’s thermobaric weapons. They now have at least three operating platforms to deliver these utterly destructive weapons. Thermobaric weapons are not illegal under the rules of war. They are accepted as valid and while the Ukrainians might complain, no one is listening.\nIf you recall the MOAB–so called Mother of all Bombs, was a thermobaric weapons. Thermobaric weapons explode and aerosolize fuel in the air before they ignite. They a…",
+          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItBweAnCWulTk_wEODyNaIi_",
+          "publishedOn": "2025-07-01T00:13:45.000Z",
+          "wordCount": null,
+          "title": "Russo-Ukraine War Update June 30, 2025",
+          "imageUrl": null
+        },
         {
           "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItDrZ1P4ZdhfZUMWPihZVx8c",
           "author": null,
@@ -596,16 +610,6 @@
           "publishedOn": "2025-06-24T17:57:22.000Z",
           "wordCount": null,
           "title": "Iran Screws Up &amp; Gaza Death Toll",
-          "imageUrl": null
-        },
-        {
-          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItDIfRYkujEuoLRIeszN745R",
-          "author": null,
-          "description": "Anytime anyone anywhere begins an argument or uses the word “narrative” my bullshit detector goes off. Because it’s a nonsense construct.\nMy suggestion is to follow French philosopher Jean-François Lyotards definition of “narrative.” He said: “Simplifying to the extreme , I define postmodern as incredulity toward metanarratives.”\nSo, if you hear someone use the term in a conversation, one of three things can happen: you can choose to remain willfully ignorant (I doubt many in this crowd would pursue this course), two, your bullshit detector can go off, like mine and you can begin an argument or three you can simply sit with a Cheshire cat grin and be skeptical.\nBut chose one, please.",
-          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItDIfRYkujEuoLRIeszN745R",
-          "publishedOn": "2025-06-24T07:28:45.000Z",
-          "wordCount": null,
-          "title": "A Deluge of Metanarrative Bullshit",
           "imageUrl": null
         }
       ]
