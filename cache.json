@@ -40,16 +40,6 @@
           "wordCount": 8173,
           "title": "Introducing AWS Builder Center: A new home for the AWS builder community",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/07/AWS-News-Blog_800x400_Onsite-and-Social-Media_Line-49_edited.jpg"
-        },
-        {
-          "id": "5802f92fb52d014bfb7bef99f452440ef3780bef",
-          "author": "Channy Yun (윤석찬)",
-          "description": "Oracle Database@AWS is now generally available with planned extension to 20 new Regions. This blog shows you how to get started and how to integrate with zero-ETL integrations with Amazon Redshift, Amazon S3, and more.",
-          "link": "https://aws.amazon.com/blogs/aws/introducing-oracle-databaseaws-for-simplified-oracle-exadata-migrations-to-the-aws-cloud/",
-          "publishedOn": "2025-07-08T11:30:49.000Z",
-          "wordCount": 8997,
-          "title": "Introducing Oracle Database@AWS for simplified Oracle Exadata migrations to the AWS Cloud",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/01/oracle-aws2.png"
         }
       ]
     },
@@ -58,6 +48,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
       "articles": [
+        {
+          "id": "4b70354db110164c1b8d1c522675839c79383de3",
+          "author": "Ben \"Fuzzy\" Shonaldmann",
+          "description": "In this post, you'll learn how Scale to Win configured their network topology and AWS WAF to protect against DDoS events that reached peaks of over 2 million requests per second during the 2024 US presidential election campaign season. The post details how they implemented comprehensive DDoS protection by segmenting human and machine traffic, using tiered rate limits with CAPTCHA, and preventing CAPTCHA token reuse through AWS WAF Bot Control.",
+          "link": "https://aws.amazon.com/blogs/architecture/how-scale-to-win-uses-aws-waf-to-block-ddos-events/",
+          "publishedOn": "2025-07-14T19:12:38.000Z",
+          "wordCount": 9953,
+          "title": "How Scale to Win uses AWS WAF to block DDoS events",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/06/30/arch1132-figure2-network-before-addCFWAF-1154x630.png"
+        },
         {
           "id": "a2b03040e8215b90fc5516342a2119a68ef68490",
           "author": "Kiran Reid",
@@ -82,6 +82,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
         {
+          "id": "c92b2132676803e625bf69821265390baba398bb",
+          "author": "Charles Meruwoma",
+          "description": "On November 30th, 2025, the AWS Cloud Development Kit (CDK) will no longer support Node.js 18.x, which reached end of life on April 30, 2025. This change applies to all AWS CDK components that depend on Node.js, including the AWS CDK CLI, the Construct Library, and broader CDK ecosystem projects such as JSII, Projen, and […]",
+          "link": "https://aws.amazon.com/blogs/devops/announcing-the-end-of-support-for-node-js-18-x-in-aws-cdk/",
+          "publishedOn": "2025-07-15T00:47:05.000Z",
+          "wordCount": 8048,
+          "title": "Announcing the end of support for Node.js 18.x in AWS CDK",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/07/15/featured-image-template-1120x630.jpg"
+        },
+        {
           "id": "eaf156fa38624d971f5b55b3fc61758102444531",
           "author": "Marco Frattallone",
           "description": "As organizations scale their development efforts, AI coding assistants that understand organization-specific patterns and standards lead to more efficient development processes and higher quality software delivery. Amazon Q Developer Pro helps address this challenge by allowing organizations to customize the AI assistant with their proprietary code and development practices. Through Amazon Q Developer profiles, teams […]",
@@ -104,7 +114,7 @@
           "description": "Texas floods, Biblical divorce complicate US Senate race for Ken Paxton as Democrats search for a candidate.",
           "link": "https://www.nakedcapitalism.com/2025/07/coffee-break-texas-floods-biblical-divorce-complicate-us-senate-primary.html",
           "publishedOn": "2025-07-14T18:00:36.000Z",
-          "wordCount": 4792,
+          "wordCount": 6687,
           "title": "Coffee Break: Texas Floods, Biblical Divorce Complicate US Senate Primary",
           "imageUrl": null
         },
@@ -114,7 +124,7 @@
           "description": "A badly under-perfoming merger,  Kraft and Heinz, is set to be reversed. Did  that deal undermine the giants adapting to changing tastes?",
           "link": "https://www.nakedcapitalism.com/2025/07/possible-kraft-heinz-breakup-a-buffett-investment-failure-thanks-to-healthier-tastes-among-the-better-off-and-need-for-better-bargains-for-the-rest.html",
           "publishedOn": "2025-07-14T13:55:39.000Z",
-          "wordCount": 5154,
+          "wordCount": 5569,
           "title": "Possible Kraft Heinz Breakup: A Buffett Investment Failure, Thanks to Healthier Tastes Among the Better Off and Need for Better Bargains for the Rest",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-14-at-6.08.28 PM.png"
         },
@@ -124,7 +134,7 @@
           "description": "Our immersive daily links, including Trump’s big Russia announcement, cognitive dysfunction, AI promises relief from thinking, and Labour’s self-immolation.",
           "link": "https://www.nakedcapitalism.com/2025/07/links-7-14-2025.html",
           "publishedOn": "2025-07-14T10:55:23.000Z",
-          "wordCount": 10469,
+          "wordCount": 12466,
           "title": "Links 7/14/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-13-at-8.40.02 AM-1024x544.png"
         },
@@ -134,7 +144,7 @@
           "description": "As cooperation in the killing fields of Gaza continues, the genocidal ideology comes home. What is the way out of this madness?",
           "link": "https://www.nakedcapitalism.com/2025/07/u-s-emulation-of-israel-deepens.html",
           "publishedOn": "2025-07-14T10:00:40.000Z",
-          "wordCount": 9458,
+          "wordCount": 9958,
           "title": "What Does the US’ Increasing Emulation of Israel Augur for the Country’s Future?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-09-at-10.13.08 AM-1024x776.png"
         },
@@ -144,7 +154,7 @@
           "description": "Even where FEMA identifies a flood risk, the overreliance on historical data and political influence leads to maps that don’t fully represent true risk.",
           "link": "https://www.nakedcapitalism.com/2025/07/femas-flood-maps-often-miss-dangerous-flash-flood-risks-leaving-homeowners-unprepared.html",
           "publishedOn": "2025-07-14T09:00:19.000Z",
-          "wordCount": 4221,
+          "wordCount": 4540,
           "title": "FEMA’s Flood Maps Often Miss Dangerous Flash Flood Risks, Leaving Homeowners Unprepared",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-13-at-6.50.29 PM-1024x626.png"
         },
@@ -154,7 +164,7 @@
           "description": "Europe celebrates its economic suicide by continuing down the path of achieving independence from cheap Russian gas.",
           "link": "https://www.nakedcapitalism.com/2025/07/europe-wont-need-russian-gas-in-the-future.html",
           "publishedOn": "2025-07-14T07:54:45.000Z",
-          "wordCount": 5885,
+          "wordCount": 6225,
           "title": "“Europe Won’t Need Russian Gas in the Future”",
           "imageUrl": null
         },
@@ -164,7 +174,7 @@
           "description": "Our strategic daily links: Olympic leaps, how hot can it get, Chinese chargers, EU growing, Gaza horrors, Ukraine burning, vanishing privacy, Trumpishness, Musk world, doomed Democrats, immigration troubles, Mr. market, AI, and wretched excess",
           "link": "https://www.nakedcapitalism.com/2025/07/links-7-13-2025.html",
           "publishedOn": "2025-07-13T10:55:12.000Z",
-          "wordCount": 15106,
+          "wordCount": 15195,
           "title": "Links 7/13/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Quokkas-e1752327494173.jpg"
         },
@@ -174,7 +184,7 @@
           "description": "Cloak and Dagger is a noir spy thriller about a physicist turned secret agent in WW2.",
           "link": "https://www.nakedcapitalism.com/2025/07/the-sunday-morning-movie-presents-cloak-and-dagger-1946-run-time-1h-46m.html",
           "publishedOn": "2025-07-13T10:30:20.000Z",
-          "wordCount": 4935,
+          "wordCount": 4951,
           "title": "The Sunday Morning Movie Presents: Cloak And Dagger (1946) Run Time 1H 46M",
           "imageUrl": null
         },
@@ -184,7 +194,7 @@
           "description": "How the financialization of housing destroys the societal fabric and why we need to make housing public infrastructure—like schools or libraries.",
           "link": "https://www.nakedcapitalism.com/2025/07/housing-a-basic-right-or-playground-for-global-capital-paul-jay.html",
           "publishedOn": "2025-07-13T09:00:28.000Z",
-          "wordCount": 6101,
+          "wordCount": 6094,
           "title": "Housing a Basic Right or Playground for Global Capital? – Paul Jay",
           "imageUrl": null
         },
@@ -194,7 +204,7 @@
           "description": "Our bouncy daily links: fight voyeurism, US Covid increases, EU heat wave, Xi v. price wars, Japan sours on US, UK GDP fall, Israel v. Yemen, Ukraine long war? F-35 fail, DOGE lives, Trump loss on birthright citizenship, moar tariff threats, BBC censorship on Israel, moar market worries, Prime Day scam",
           "link": "https://www.nakedcapitalism.com/2025/07/links-7-12-2025.html",
           "publishedOn": "2025-07-12T10:55:55.000Z",
-          "wordCount": 19735,
+          "wordCount": 19741,
           "title": "Links 7/12/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-12-at-3.12.08 PM.png"
         }
@@ -214,16 +224,6 @@
           "wordCount": 3941,
           "title": "Quicksilver v2: evolution of a globally distributed key-value store (Part 1)",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/kMeaPyhRGdSISGQJDOomy/d0c2e97e80042121689c9c6dc28a8fee/OG_Share_2024__69_.png"
-        },
-        {
-          "id": "4YbqxvhldlPwGPRmqgrZPn",
-          "author": "Robert Cepa",
-          "description": "Cloudflare chose TimescaleDB to power its Digital Experience Monitoring and Zero Trust Analytics products.",
-          "link": "https://blog.cloudflare.com/timescaledb-art/",
-          "publishedOn": "2025-07-08T14:00:00.000Z",
-          "wordCount": 4580,
-          "title": "How TimescaleDB helped us scale analytics and reporting",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7v2ZEj7hmq6Xx5lyO3N8o9/fd40f3f9689b10459f2e26c9775c8a87/OG_Share_2024__66_.png"
         }
       ]
     },
@@ -299,12 +299,22 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=23651",
+          "author": "Richard Seroter",
+          "description": "Today's links look at making the Gemini CLI generate media, using a monorepo vs polyrepo for GitOps, and what metrics to monitor with AI systems in production",
+          "link": "https://seroter.com/2025/07/14/daily-reading-list-july-14-2025-586/",
+          "publishedOn": "2025-07-14T23:37:41.000Z",
+          "wordCount": 4706,
+          "title": "Daily Reading List – July 14, 2025 (#586)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://seroter.com/?p=23621",
           "author": "Richard Seroter",
           "description": "Today's links look at why you should stop forcing AI tools on your engineers, what it looks like to build apps just for you, and choosing between Ollama and vLLM for serving.",
           "link": "https://seroter.com/2025/07/11/daily-reading-list-july-11-2025-585/",
           "publishedOn": "2025-07-12T00:22:46.000Z",
-          "wordCount": 4686,
+          "wordCount": 4694,
           "title": "Daily Reading List – July 11, 2025 (#585)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -351,7 +361,7 @@
           "description": "CellLENS reveals hidden patterns in cell behavior within tissues, offering deeper insights into cell heterogeneity — vital for advancing cancer immunotherapy.",
           "link": "https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711",
           "publishedOn": "2025-07-11T18:40:00.000Z",
-          "wordCount": 1428,
+          "wordCount": 1438,
           "title": "New AI system uncovers hidden cell subtypes, boosts precision medicine",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/mit-CellLENS-tool.jpg"
         },
@@ -361,7 +371,7 @@
           "description": "The Language/AI Incubator, an MIT Human Insight Collaborative project, is investigating how AI can improve communications among patients and practitioners.",
           "link": "https://news.mit.edu/2025/changing-conversation-health-care-0709",
           "publishedOn": "2025-07-09T20:50:00.000Z",
-          "wordCount": 2195,
+          "wordCount": 2199,
           "title": "Changing the conversation in health care",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/mit-language-ai-incubator.jpg"
         },
@@ -371,7 +381,7 @@
           "description": "An AI pipeline developed by CSAIL researchers enables unique hydrodynamic designs for bodyboard-sized vehicles that glide underwater and could help scientists gather marine data.",
           "link": "https://news.mit.edu/2025/ai-shapes-autonomous-underwater-gliders-0709",
           "publishedOn": "2025-07-09T20:35:00.000Z",
-          "wordCount": 1923,
+          "wordCount": 1927,
           "title": "AI shapes autonomous underwater “gliders”",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/mit-auv-Gliders.png"
         }
@@ -451,22 +461,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/6e42d765-ec07-4dfc-bb89-08e205692c1f_770x513.webp"
-        },
-        {
-          "id": "https://www.thomasfazi.com/p/the-european-green-deal-has-failed",
-          "author": "Thomas Fazi",
-          "description": "The anti-democratic, technocratic, fiscally restrictive and ideologically captured nature of the European Union make it structurally unable to implement a sensible and socially just green transition",
-          "link": "https://www.thomasfazi.com/p/the-european-green-deal-has-failed",
-          "publishedOn": "2025-07-08T09:31:32.000Z",
-          "wordCount": null,
-          "title": "The European Green Deal has failed",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e82624ce-395c-4f86-beec-e3529a9633f1_735x416.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/e82624ce-395c-4f86-beec-e3529a9633f1_735x416.jpeg"
         }
       ]
     },
@@ -553,6 +547,61 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152551",
+          "author": "Scott Lemieux",
+          "description": "I don’t mean to pick on Matt — normally a good courts writer — specifically, but since I saw numerous microblogs to this effect it’s worth noting how wrong it is: We’ve already been through this with the universal injunctions case, and it’s even more applicable in a case like this where the Court does […]\nThe post Nothing good comes from this appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/nothing-good-comes-from-this",
+          "publishedOn": "2025-07-15T01:46:53.000Z",
+          "wordCount": null,
+          "title": "Nothing good comes from this",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152546",
+          "author": "Robert Farley",
+          "description": "This happened in Lexington on Sunday… Two people were killed and three others, including a Kentucky State trooper, were injured Sunday in a pair of shootings involving one suspect at Blue Grass Airport and a church in Lexington. The trooper was shot at the airport, and four people were shot about 16 miles away at […]\nThe post Not Quite a “Mass” Shooting… appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/not-quite-a-mass-shooting",
+          "publishedOn": "2025-07-14T23:14:24.000Z",
+          "wordCount": null,
+          "title": "Not Quite a “Mass” Shooting…",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152543",
+          "author": "Paul Campos",
+          "description": "It’s truly shocking that an organization as dedicated to the most scrupulous integritude as FIFA has always been would go along with something like this: President Trump has revealed that the champions of the Club World Cup won’t be getting the original trophy, because he’s keeping it. English club Chelsea easily dispatched France’s Paris Saint-Germain […]\nThe post Guy don’t walk on the lot unless he wants to buy appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/guy-dont-walk-on-the-lot-unless-he-wants-to-buy-2",
+          "publishedOn": "2025-07-14T22:39:31.000Z",
+          "wordCount": null,
+          "title": "Guy don’t walk on the lot unless he wants to buy",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152527",
+          "author": "Scott Lemieux",
+          "description": "The only rule when it comes to the Trump administration requesting stays from the Supreme Court is “if Donald Trump is prevented doing anything he wants to do, no matter how transparently illegal, it is an emergency.” Today’s order, featuring no legal reasoning at all from the Court’s Republicans, allows for Linda McMahon to proceed […]\nThe post Supreme Court uses shadow docket to allow Trump to proceed with the de facto abolition of the Department of Education appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/supreme-court-uses-shadow-docket-to-allow-trump-to-proceed-with-the-de-facto-abolition-of-the-department-of-education",
+          "publishedOn": "2025-07-14T20:05:00.000Z",
+          "wordCount": null,
+          "title": "Supreme Court uses shadow docket to allow Trump to proceed with the de facto abolition of the Department of Education",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152525",
+          "author": "Cheryl Rofer",
+          "description": "Just a quick drive-by post to note that Silicon Valley demands more electrical power for their artificial intelligence ambitions. The fuddy-duddy Nuclear Regulatory Commission wasn’t moving fast enough for them, so they DOGEd it. The NRC has now been told to approve reactors, period. The resurgence of nuclear power is rooted not just in bipartisan […]\nThe post DOGE Guts NRC appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/doge-guts-nrc",
+          "publishedOn": "2025-07-14T19:40:08.000Z",
+          "wordCount": null,
+          "title": "DOGE Guts NRC",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=152520",
           "author": "Scott Lemieux",
           "description": "In 2019, as part of the Great Campus Free Speech Crisis of the late Obama and first Trump years, the Texas legislature declared campuses “free speech zones.” Some people then used said zones to communicate messages that Republican legislators disagreed with. This triggered these special snowflakes in a highly predictable manner: As thousands of students […]\nThe post You have the right to free speech, as long as you’re not dumb enough to actually try it appeared first on Lawyers, Guns & Money.",
@@ -595,61 +644,6 @@
           "title": "Erik Visits an American Grave, Part 1,924",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152501",
-          "author": "Scott Lemieux",
-          "description": "Ed Kilgore says that, knowing that Trump would win in 2024, it would have been better had he won in 2020 instead: A reelected Trump would not have had four years to plan a scorched-earth second term with audacious power grabs far beyond anything he tried from 2017 to ’21. While he might have been […]\nThe post The heighten-the-contradictions counterfactual appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/the-heighten-the-contradictions-counterfactual",
-          "publishedOn": "2025-07-14T01:45:19.000Z",
-          "wordCount": null,
-          "title": "The heighten-the-contradictions counterfactual",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152499",
-          "author": "Scott Lemieux",
-          "description": "When you not only commit fraud, but fraud that could result in people dying, and fraud that repiduates the only good thing the Trump administration accomplished, you either getting your charges dropped (or, if it’s too late, a Trump pardon) is overdetermined: The US Department of Justice dropped charges on Saturday against Michael Kirk Moore, […]\nThe post Trump injustice appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/trump-injustice",
-          "publishedOn": "2025-07-13T21:34:36.000Z",
-          "wordCount": null,
-          "title": "Trump injustice",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152498",
-          "author": "Scott Lemieux",
-          "description": "There isn’t a trace of hyperbole in that statement — it’s just the basic facts of the matter [free link]: In an effort to shrink the federal government, President Trump and congressional Republicans have taken steps that are diluting the country’s ability to anticipate, prepare for and respond to catastrophic flooding and other extreme weather […]\nThe post The Republican Party wants the United States to be much less prepared for weather-related disasters appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/the-republican-party-wants-the-united-states-to-be-much-less-prepared-for-weather-related-disasters",
-          "publishedOn": "2025-07-13T19:37:04.000Z",
-          "wordCount": null,
-          "title": "The Republican Party wants the United States to be much less prepared for weather-related disasters",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152497",
-          "author": "Paul Campos",
-          "description": "After looking at Walter Mebane’s paper about potential election fraud in Pennsylvania and being unable to figure out exactly what he was arguing, I asked Andrew Gelman to take a look at it. It turned out somebody else had asked him to do so earlier, and he blogged about this morning: Pointing to this new […]\nThe post More on election fraud claims in Pennsylvania appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/more-on-election-fraud-claims-in-pennsylvania",
-          "publishedOn": "2025-07-13T18:57:57.000Z",
-          "wordCount": null,
-          "title": "More on election fraud claims in Pennsylvania",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152493",
-          "author": "Paul Campos",
-          "description": "This report on differences in life expectancy between the US and England/Wales show a 2.7 year gap in 2023 (78.6 in the US v. 81.3). Most of the gap can be attributed to three things: Overdose deaths, gun deaths, and car accidents. (A fourth factor is higher cardiovascular death rates, but the relative difference here […]\nThe post Why is driving so much more deadly in the US than in England & Wales? appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/why-is-driving-so-much-more-deadly-in-the-us-than-in-england-wales",
-          "publishedOn": "2025-07-13T13:04:37.000Z",
-          "wordCount": null,
-          "title": "Why is driving so much more deadly in the US than in England & Wales?",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -658,6 +652,16 @@
       "feedUrl": "https://feeds.feedburner.com/Hzoh",
       "siteUrl": "https://angrybearblog.com/",
       "articles": [
+        {
+          "id": "https://angrybearblog.com/?p=178375",
+          "author": "Angry Bear",
+          "description": "Conspiracy mongering? I do not believe so when one considers the type of person both Republican and Democrat legislators and citizens are dealing with today. By himself Tr__p could not achieve what “he” wants due to Congress. However, Republicans are the vehicle Tr__p is using to gain what he wants. We have already seen how […]\nThe post How a Government Shutdown Could Enhance Tr__p’s Power Come October 1st appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2025/07/how-a-government-shutdown-could-enhance-tr__ps-power-come-october-1st",
+          "publishedOn": "2025-07-14T16:28:47.000Z",
+          "wordCount": null,
+          "title": "How a Government Shutdown Could Enhance Tr__p’s Power Come October 1st",
+          "imageUrl": null
+        },
         {
           "id": "https://angrybearblog.com/?p=178361",
           "author": "Angry Bear",
@@ -986,46 +990,6 @@
           "publishedOn": "2025-07-08T19:02:54.000Z",
           "wordCount": null,
           "title": "Two important danger signals in the June employment report",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178175",
-          "author": "Angry Bear",
-          "description": "This is a recorded piece. The link is below. I think you may be able to hear Joyce Vance and Adam Klasfeld discuss the judge’s questioning the government on what they are holding Abrego Garcia’. Throw on top of that El Salvador stating they had no power to hold 200 people in prison there. Our […]\nThe post Hey, it was “Just a Mistake” . . . We thought He was Someone Else! appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/hey-it-was-just-a-mistake-we-thought-he-was-someone-else",
-          "publishedOn": "2025-07-08T11:30:00.000Z",
-          "wordCount": null,
-          "title": "Hey, it was “Just a Mistake” . . . We thought He was Someone Else!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178162",
-          "author": "Bill Haskell",
-          "description": "Some words and 4 simple, easy to understand charts on Medicaid on who uses Medicaid in rural areas and under the age of 65 years. Four minutes of read time to get the idea. If Republicans and Tr__p are going to whack rural citizens, you might as well know a little about them. Five-minute read. […]\nThe post Key Facts About Medicaid Coverage for People Living in Rural Areas appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/key-facts-about-medicaid-coverage-for-people-living-in-rural-areas",
-          "publishedOn": "2025-07-08T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Key Facts About Medicaid Coverage for People Living in Rural Areas",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178183",
-          "author": "Joel Eissenberg",
-          "description": "I’ve been a bit baffled recently by comments by friends expressing anxiety about NYC mayoral candidate Zohran Mamdani. Yeah, I ignore the right-wing wind machine over at Fox. But since I stopped reading the gray lady, I missed the propaganda and misdirection she’s been pumping out. “The Times has it out for Zohran Mamdani. The […]\nThe post Why I stopped reading the NYT appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/why-i-stopped-reading-the-nyt",
-          "publishedOn": "2025-07-08T09:38:51.000Z",
-          "wordCount": null,
-          "title": "Why I stopped reading the NYT",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178136",
-          "author": "Joel Eissenberg",
-          "description": "The words “socialism” and “Marxism” have long been synonymous with the Soviet Union and the People’s Republic of China. Oddly, because neither country was socialist or Marxist. Lenin and the Bolsheviks (bolshevik means “majoritarian,” even though it was a minority party, a triumph of propaganda) crushed Marxist/socialist worker-led organizations after the 1917 Revolution (really a […]\nThe post Some thoughts on “socialism,” history and the triumph of propaganda appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/some-thoughts-on-socialism-history-and-the-triumph-of-propaganda",
-          "publishedOn": "2025-07-08T09:08:08.000Z",
-          "wordCount": null,
-          "title": "Some thoughts on “socialism,” history and the triumph of propaganda",
           "imageUrl": null
         }
       ]
