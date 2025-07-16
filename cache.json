@@ -12,6 +12,66 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "a7e5e33cd166b0eb5ce0a4c0ab9b4559ee05ee00",
+          "author": "Donnie Prakoso",
+          "description": "Amazon SageMaker has introduced three new capabilities—Amazon QuickSight integration for dashboard creation, governance, and sharing, Amazon S3 Unstructured Data Integration for cataloging documents and media files, and automatic data onboarding from Lakehouse—that eliminate data silos by unifying structured and unstructured data management, visualization, and governance in a single experience.",
+          "link": "https://aws.amazon.com/blogs/aws/streamline-the-path-from-data-to-insights-with-new-amazon-sagemaker-capabilities/",
+          "publishedOn": "2025-07-15T23:49:24.000Z",
+          "wordCount": 8391,
+          "title": "Streamline the path from data to insights with new Amazon SageMaker Catalog capabilities",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/20/SageMaker-feat-img-2024.png"
+        },
+        {
+          "id": "5cd694ac601913ab94d892968d88bb8e9cfedada",
+          "author": "Channy Yun (윤석찬)",
+          "description": "AWS is enhancing its Free Tier program with up to $200 in credits for new users: $100 upon sign-up and an additional $100 earned by completing activities with services like Amazon EC2, Amazon Bedrock, and AWS Budgets.",
+          "link": "https://aws.amazon.com/blogs/aws/aws-free-tier-update-new-customers-can-get-started-and-explore-aws-with-up-to-200-in-credits/",
+          "publishedOn": "2025-07-15T23:38:09.000Z",
+          "wordCount": 8108,
+          "title": "AWS Free Tier update: New customers can get started and explore AWS with up to $200 in credits",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/10/Free-Tier-v2_small.jpg"
+        },
+        {
+          "id": "50a5f594141bcd802c30e5156020c0c35d0cd37c",
+          "author": "Donnie Prakoso",
+          "description": "Amazon EventBridge now supports enhanced logging capabilities that enable you to easily monitor and debug your event-driven applications on AWS. Enhanced logging provides complete event lifecycle tracking with detailed logs that show when events are published, matched against rules, delivered to subscribers, or encounter failures.",
+          "link": "https://aws.amazon.com/blogs/aws/monitor-and-debug-event-driven-applications-with-new-amazon-eventbridge-logging/",
+          "publishedOn": "2025-07-15T23:33:39.000Z",
+          "wordCount": 8638,
+          "title": "Monitor and debug event-driven applications with new Amazon EventBridge logging",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/04/EventBridge-feat.png"
+        },
+        {
+          "id": "261cef140b8df90802769ed6be41556195197d78",
+          "author": "Channy Yun (윤석찬)",
+          "description": "Amazon S3 Vectors is a new cloud object store that provides native support for storing and querying vectors at massive scale, offering up to 90% cost reduction compared to conventional approaches while seamlessly integrating with Amazon Bedrock Knowledge Bases, SageMaker, and OpenSearch for AI applications.",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-s3-vectors-first-cloud-storage-with-native-vector-support-at-scale/",
+          "publishedOn": "2025-07-15T23:33:32.000Z",
+          "wordCount": 8843,
+          "title": "Introducing Amazon S3 Vectors: First cloud storage with native vector support at scale (preview)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/08/Amazon_S3_Vectors.png"
+        },
+        {
+          "id": "821d204cfb7e934f77251e7de02e8a6d117d36d5",
+          "author": "Sébastien Stormacq",
+          "description": "Amazon S3 Metadata now provides comprehensive visibility into all objects in S3 buckets through live inventory and journal tables, enabling SQL-based analysis of both existing and new objects with automatic updates within an hour of changes.",
+          "link": "https://aws.amazon.com/blogs/aws/amazon-s3-metadata-now-supports-metadata-for-all-your-s3-objects/",
+          "publishedOn": "2025-07-15T23:33:22.000Z",
+          "wordCount": 8489,
+          "title": "Amazon S3 Metadata now supports metadata for all your S3 objects",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/06/24/AWS_S3Metadata_Thumbnail_01.jpg"
+        },
+        {
+          "id": "b63bcd170e210e9ca412cb34ad58420203653fde",
+          "author": "Channy Yun (윤석찬)",
+          "description": "TwelveLabs video understanding models are now available on Amazon Bedrock and enable customers to search through videos, classify scenes, summarize content, and extract insights with precision and reliability.",
+          "link": "https://aws.amazon.com/blogs/aws/twelvelabs-video-understanding-models-are-now-available-in-amazon-bedrock/",
+          "publishedOn": "2025-07-15T23:33:17.000Z",
+          "wordCount": 8232,
+          "title": "TwelveLabs video understanding models are now available in Amazon Bedrock",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/08/bedrock12labs.png"
+        },
+        {
           "id": "1cd6c76c36449d3dd0dc0679d60ae7af9d4405c8",
           "author": "Matheus Guimaraes",
           "description": "Summer is well and truly here in the UK! I’m a bit of a summer grinch though so, unlike most people, I’m not crazy about “the glorious sun” scorching me when I’m out and about. On the upside, this provides the perfect excuse to retreat to the comfort of a well-ventilated room where I can […]",
@@ -104,7 +164,7 @@
           "description": "A compact comprehensive discussion of the present state and future prospects of AI technologies applied to armed conflict is an impossible mission, but I will undertake it here. What gives me encouragement is the great difficulty of prognostication regarding AI. I believe AI will be the most profound transformation of human affairs in the history […]",
           "link": "https://www.nakedcapitalism.com/2025/07/coffee-break-armed-madhouse-ai-goes-to-war.html",
           "publishedOn": "2025-07-15T18:00:01.000Z",
-          "wordCount": 3502,
+          "wordCount": 5732,
           "title": "Coffee Break: Armed Madhouse – AI Goes to War",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/AI-warfare-hierarchy-e1752503669247.jpg"
         },
@@ -114,7 +174,7 @@
           "description": "Garden variety investors, including retail, are signing up to insure climate change and other disaster risk via catastrophe bonds.",
           "link": "https://www.nakedcapitalism.com/2025/07/insurers-dump-catastrophe-risk-of-climate-change-and-earthquake-to-chump-bond-investors-what-could-go-wrong.html",
           "publishedOn": "2025-07-15T13:57:29.000Z",
-          "wordCount": 4369,
+          "wordCount": 4826,
           "title": "Insurers Dump Catastrophe Risk of Climate Change and Earthquake to Chump Bond Investors. What Could Go Wrong?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-15-at-8.44.55 PM.png"
         },
@@ -124,7 +184,7 @@
           "description": "Our scampering daily links: animals hear plants? non-partying Americans, measles, improving soil, China power advantage, \"Baltic triangle\"? UK economic tsuris, moar Israeli abject brutality, Trump's Russia bluster, Epstein corrosion of Trump support, Tucker v. the IDF, AI menu wreck, debunking Musk economic fantasies",
           "link": "https://www.nakedcapitalism.com/2025/07/links-7-15-2025.html",
           "publishedOn": "2025-07-15T10:55:00.000Z",
-          "wordCount": 11904,
+          "wordCount": 14032,
           "title": "Links 7/15/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/00-measles.png"
         },
@@ -134,7 +194,7 @@
           "description": "In the land that gave us Margaret Thatcher's \"there is no alternative\" and \"there's no such thing as society\", the provision of even the most basic public services is becoming a problem.",
           "link": "https://www.nakedcapitalism.com/2025/07/what-does-birminghams-four-month-bin-strike-say-about-the-state-of-britain-today.html",
           "publishedOn": "2025-07-15T10:45:12.000Z",
-          "wordCount": 6073,
+          "wordCount": 6035,
           "title": "What Birmingham’s Towering Trash Heaps Say About Starmer’s Britain",
           "imageUrl": null
         },
@@ -144,7 +204,7 @@
           "description": "Real reform in American politics won’t come new parties — but from breaking investors' grip  and rebuilding power from the ground up.",
           "link": "https://www.nakedcapitalism.com/2025/07/u-s-political-system-is-bought-not-broken-a-new-party-wont-fix-the-basic-problem.html",
           "publishedOn": "2025-07-15T09:00:13.000Z",
-          "wordCount": 7044,
+          "wordCount": 7304,
           "title": "U.S. Political System Is Bought, Not Broken. A New Party Won’t Fix the Basic Problem.",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/00-party.png"
         },
@@ -154,7 +214,7 @@
           "description": "The main and possibly only qualification for Trump’s top appointees is the ability to tell blatant lies with a straight face.",
           "link": "https://www.nakedcapitalism.com/2025/07/message-to-trump-incompetence-is-not-virtue-also-people-will-die.html",
           "publishedOn": "2025-07-15T06:03:07.000Z",
-          "wordCount": 7577,
+          "wordCount": 7985,
           "title": "Message to Trump: Incompetence Is Not Virtue. Also, People Will Die",
           "imageUrl": null
         },
@@ -164,7 +224,7 @@
           "description": "Texas floods, Biblical divorce complicate US Senate race for Ken Paxton as Democrats search for a candidate.",
           "link": "https://www.nakedcapitalism.com/2025/07/coffee-break-texas-floods-biblical-divorce-complicate-us-senate-primary.html",
           "publishedOn": "2025-07-14T18:00:36.000Z",
-          "wordCount": 6848,
+          "wordCount": 6971,
           "title": "Coffee Break: Texas Floods, Biblical Divorce Complicate US Senate Primary",
           "imageUrl": null
         },
@@ -174,7 +234,7 @@
           "description": "A badly under-perfoming merger,  Kraft and Heinz, is set to be reversed. Did  that deal undermine the giants adapting to changing tastes?",
           "link": "https://www.nakedcapitalism.com/2025/07/possible-kraft-heinz-breakup-a-buffett-investment-failure-thanks-to-healthier-tastes-among-the-better-off-and-need-for-better-bargains-for-the-rest.html",
           "publishedOn": "2025-07-14T13:55:39.000Z",
-          "wordCount": 5731,
+          "wordCount": 5858,
           "title": "Possible Kraft Heinz Breakup: A Buffett Investment Failure, Thanks to Healthier Tastes Among the Better Off and Need for Better Bargains for the Rest",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-14-at-6.08.28 PM.png"
         },
@@ -184,7 +244,7 @@
           "description": "Our immersive daily links, including Trump’s big Russia announcement, cognitive dysfunction, AI promises relief from thinking, and Labour’s self-immolation.",
           "link": "https://www.nakedcapitalism.com/2025/07/links-7-14-2025.html",
           "publishedOn": "2025-07-14T10:55:23.000Z",
-          "wordCount": 12821,
+          "wordCount": 12783,
           "title": "Links 7/14/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-13-at-8.40.02 AM-1024x544.png"
         },
@@ -194,7 +254,7 @@
           "description": "As cooperation in the killing fields of Gaza continues, the genocidal ideology comes home. What is the way out of this madness?",
           "link": "https://www.nakedcapitalism.com/2025/07/u-s-emulation-of-israel-deepens.html",
           "publishedOn": "2025-07-14T10:00:40.000Z",
-          "wordCount": 10390,
+          "wordCount": 10400,
           "title": "What Does the US’ Increasing Emulation of Israel Augur for the Country’s Future?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-09-at-10.13.08 AM-1024x776.png"
         }
@@ -221,7 +281,7 @@
           "description": "June was the busiest month for DDoS attacks in 2025 Q2, accounting for nearly 38% of all observed activity.",
           "link": "https://blog.cloudflare.com/ddos-threat-report-for-2025-q2/",
           "publishedOn": "2025-07-15T13:00:00.000Z",
-          "wordCount": 4117,
+          "wordCount": 4118,
           "title": "Hyper-volumetric DDoS attacks skyrocket: Cloudflare’s 2025 Q2 DDoS threat report",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1uNrfxarH05T3h5h87nnYX/026663e127bf1edf9e81d98171b1d33d/Hyper-volumetric_DDoS_attacks_skyrocket-_Cloudflare%C3%A2__s_2025_Q2_DDoS_threat_report-OG.png"
         },
@@ -309,6 +369,16 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=23688",
+          "author": "Richard Seroter",
+          "description": "Today's links look at generating agent docs, the rise of terminal tools, and how to score your internal platform efforts.",
+          "link": "https://seroter.com/2025/07/15/daily-reading-list-july-15-2025-587/",
+          "publishedOn": "2025-07-16T00:04:11.000Z",
+          "wordCount": 4716,
+          "title": "Daily Reading List – July 15, 2025 (#587)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://seroter.com/?p=23651",
           "author": "Richard Seroter",
           "description": "Today's links look at making the Gemini CLI generate media, using a monorepo vs polyrepo for GitOps, and what metrics to monitor with AI systems in production",
@@ -371,7 +441,7 @@
           "description": "The Language/AI Incubator, an MIT Human Insight Collaborative project, is investigating how AI can improve communications among patients and practitioners.",
           "link": "https://news.mit.edu/2025/changing-conversation-health-care-0709",
           "publishedOn": "2025-07-09T20:50:00.000Z",
-          "wordCount": 2201,
+          "wordCount": 2209,
           "title": "Changing the conversation in health care",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/mit-language-ai-incubator.jpg"
         },
@@ -381,7 +451,7 @@
           "description": "An AI pipeline developed by CSAIL researchers enables unique hydrodynamic designs for bodyboard-sized vehicles that glide underwater and could help scientists gather marine data.",
           "link": "https://news.mit.edu/2025/ai-shapes-autonomous-underwater-gliders-0709",
           "publishedOn": "2025-07-09T20:35:00.000Z",
-          "wordCount": 1929,
+          "wordCount": 1937,
           "title": "AI shapes autonomous underwater “gliders”",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202506/mit-auv-Gliders.png"
         }
@@ -483,73 +553,73 @@
     {
       "title": "Ian Welsh",
       "feedUrl": "https://www.ianwelsh.net/feed/",
-      "siteUrl": "https://follow.it/ian-welsh",
+      "siteUrl": "https://www.ianwelsh.net",
       "articles": [
         {
-          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItBa4ZiKGB7R13iqiiu3Ckk3",
-          "author": null,
-          "description": "So, the Supremes have decided, without even bothering to write an opinion, that the Department of Education can be massively reduced without Congressional approval:\nThe Supreme Court ruled on Monday that the Trump administration may fire more than half of the Department of Education’s workforce — mass terminations that, in Education Secretary Linda McMahon’s words, are “the first step on the road to a total shutdown” of the entire department.\nThe Court’s decision in McMahon v. New York, was handed down on the Court’s “shadow docket,” a mix of emergency motions and other expedited matters that the justices often decide without full briefing or oral argument. As is often the case in shadow docket decisions, none of the Republican justices explained their decision.\nThis is, in my opinion, and…",
-          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItBa4ZiKGB7R13iqiiu3Ckk3",
+          "id": "https://www.ianwelsh.net/?p=21312",
+          "author": "Ian Welsh",
+          "description": "So, the Supremes have decided, without even bothering to write an opinion, that the Department of Education can be massively reduced without Congressional approval: The Supreme Court ruled on Monday that the Trump administration may fire more than half of the Department of Education’s workforce — mass terminations that, in Education Secretary Linda McMahon’s words, […]",
+          "link": "https://www.ianwelsh.net/imperial-presidency-watch-congress-loses-control-over-the-purse/",
           "publishedOn": "2025-07-15T07:15:08.000Z",
           "wordCount": null,
           "title": "Imperial Presidency Watch: Congress Loses Control Over The Purse",
           "imageUrl": null
         },
         {
-          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItCkqHvVzkD7EzliLstpT1dl",
-          "author": null,
-          "description": "Week-end Wrap – Political Economy – July 13, 2025\nby Tony Wikrent\n \nTrump not violating any law\n‘He who saves his Country does not violate any Law’\n \n\n\n\n\n\nConcentration camp expert warns Trump won’t stop with just immigrants in camps\nDean Obeidallah, July 12, 2025\n“We need to be aware, as a country, how quickly this can get much, much worse.”\nThat is the warning from Andrea Pitzer–an expert on concentration camps who wrote the 2017 book, “One Long Night: A Global History of Concentration Camps”-on where we find ourselves today under the Trump regime….\nPitzer explained that in writing her book documenting the history of concentration camps, she found that when the leaders go down the path of dehumanizing a group of people as a political tool – be it Jews in Nazi Germany or migrants today wi…",
-          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItCkqHvVzkD7EzliLstpT1dl",
+          "id": "https://www.ianwelsh.net/?p=21309",
+          "author": "Tony Wikrent",
+          "description": "by Tony Wikrent   Trump not violating any law ‘He who saves his Country does not violate any Law’   Concentration camp expert warns Trump won’t stop with just immigrants in camps Dean Obeidallah, July 12, 2025 “We need to be aware, as a country, how quickly this can get much, much worse.” That is […]",
+          "link": "https://www.ianwelsh.net/week-end-wrap-political-economy-july-13-2025/",
           "publishedOn": "2025-07-13T18:04:56.000Z",
           "wordCount": null,
-          "title": "no title",
+          "title": "Week-end Wrap – Political Economy – July 13, 2025",
           "imageUrl": null
         },
         {
-          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItCh5zFyZjnbLt9yvk1jmlyp",
-          "author": null,
+          "id": "https://www.ianwelsh.net/?p=21305",
+          "author": "Ian Welsh",
           "description": "Use to discuss topics unrelated to recent posts.",
-          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItCh5zFyZjnbLt9yvk1jmlyp",
+          "link": "https://www.ianwelsh.net/open-thread-295/",
           "publishedOn": "2025-07-12T11:56:14.000Z",
           "wordCount": null,
           "title": "Open Thread",
           "imageUrl": null
         },
         {
-          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItCKeGTpmLDTqfNkVyX-PEsM",
-          "author": null,
-          "description": "Wired:\nFootage tied to Jeffrey Epstein’s death in federal custody appears to have been altered before it was shared with the public—despite being presented as unedited surveillance video—according to a joint investigation by WIRED and multiple independent video forensics experts.\nHere’s what the analysis uncovered:\nHidden metadata embedded in the video file revealed that the footage wasn’t a direct export from the prison’s internal surveillance system. Instead, the file had been processed—apparently using Adobe Premiere Pro, a professional-grade video editing program. Evidence suggests it was stitched together from at least two separate clips, saved multiple times, and exported before being posted on the Department of Justice’s website as if it were “raw” footage.\n\nBut you’d have to be really stupid to think it’s the most likely possibility.\nSo, there are no Epstein files, Ghislaine was not involved in pimping underaged girls and it’s all just a big nothing. Good to know.",
-          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItCKeGTpmLDTqfNkVyX-PEsM",
+          "id": "https://www.ianwelsh.net/?p=21303",
+          "author": "Ian Welsh",
+          "description": "Wired: Footage tied to Jeffrey Epstein’s death in federal custody appears to have been altered before it was shared with the public—despite being presented as unedited surveillance video—according to a joint investigation by WIRED and multiple independent video forensics experts. Here’s what the analysis uncovered: Hidden metadata embedded in the video file revealed that the […]",
+          "link": "https://www.ianwelsh.net/i-mean-it-is-theoretically-possible-that-epstein-committed-suicide/",
           "publishedOn": "2025-07-12T01:06:02.000Z",
           "wordCount": null,
           "title": "I Mean, It Is Theoretically Possible That Epstein Committed Suicide",
           "imageUrl": null
         },
         {
-          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItBgd_man1iEalnlmWYDW4kc",
-          "author": null,
-          "description": "I doubt any of you will recall, but in 2003 I wrote a long post over at a different place, that NATO was dead. It was useless, much like the Concert of Europe that emerged after the 1848 Revolutions in Europe recast and sought to revise the settlement of 1815, set up by Castlereagh-Metternich and Talleyrand.\nSo, today it’s official: the US-UK Special Relationship is dead. It’s been moribund for a long time, since after the Iraqi invasion there was a huge groundswell of UK citizens that resented their country being the American poodle. Lip service was paid, but now, no longer. That the Brits have to turned to the French says a lot.\nWith the Northwood Declaration the Brits have indicated their nuclear arsenal will no longer be under the unified command of SACEUR. The Brits will instead “Deco…",
-          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItBgd_man1iEalnlmWYDW4kc",
+          "id": "https://www.ianwelsh.net/?p=21300",
+          "author": "Sean Paul Kelley",
+          "description": "I doubt any of you will recall, but in 2003 I wrote a long post over at a different place, that NATO was dead. It was useless, much like the Concert of Europe that emerged after the 1848 Revolutions in Europe recast and sought to revise the settlement of 1815, set up by Castlereagh-Metternich and […]",
+          "link": "https://www.ianwelsh.net/the-us-uk-special-relationship-is-officially-dead/",
           "publishedOn": "2025-07-11T17:00:05.000Z",
           "wordCount": null,
           "title": "The US-UK Special Relationship is Officially Dead",
           "imageUrl": null
         },
         {
-          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItChq8xmDnafqXFg-sJfdrTP",
-          "author": null,
-          "description": "There has been a lot of back and forth about men and women being tested equally for front line combat roles.\nFirst, let me make it very clear, I am one hundred percent for equality between men and women. I’ve worked under women bosses, had no issue with it. While at Morgan Stanley I had a woman business partner for a year and a half. It was a very sucessful relationship, we’re still friends.\nI’ve learned a lot from the women in my life, begining with my mother; the vast majority of which has added significant value to my life. And although I can’t say much nice about my two ex-wives: I learned hard lessons from each of them as well.\nFinally, I’ve no issue with men and women serving in combat roles together on the front lines. To put it at its most crude: a woman can stop a bullet just as well as I can.  But, and it is a big one, in any physical role in which men and women serve together as physical equals, they must be physical equals. Full stop.\nSo, this new army fitness test rolling out this summer is a very good outcome. \nDisagree? Please explain then.",
-          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItChq8xmDnafqXFg-sJfdrTP",
+          "id": "https://www.ianwelsh.net/?p=21297",
+          "author": "Sean Paul Kelley",
+          "description": "There has been a lot of back and forth about men and women being tested equally for front line combat roles. First, let me make it very clear, I am one hundred percent for equality between men and women. I’ve worked under women bosses, had no issue with it. While at Morgan Stanley I had […]",
+          "link": "https://www.ianwelsh.net/equal-tests-for-men-and-women-in-front-line-combat-roles-progress-or-regression/",
           "publishedOn": "2025-07-11T03:58:09.000Z",
           "wordCount": null,
           "title": "Equal Tests For Men and Women in Front Line Combat Roles: Progress or Regression?",
           "imageUrl": null
         },
         {
-          "id": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItD63LN7SJKKrbJZ3tATHmkc",
-          "author": null,
-          "description": "So, Trump sent a letter to Brazil announcing 50% tariffs. His demands are that Brazil stop prosecuting Bolsonaro (ex-President who tried to steal the last election, and stole the one before by getting Lula locked up on bogus charges) and that they let US social media platforms operate unfettered the country. If Brazil puts tariffs on US goods, then the US will increase its tariffs by the same amount.\nHere’s the thing, Brazil and the US have essentially even trade:\n\n(light blue is exports, dark blue is imports)\nThe most recent services data I can find indicates that the US has a services surplus.\nBut more to the point, Trump wants to interfere in Brazil’s internal politics in a way that no Brazilian patriot could countenance. Nor would would Lula be wise to submit.\nAnd Brazil’s exposure to …",
-          "link": "https://api.follow.it/track-rss-story-click/v3/niyBMplQItD63LN7SJKKrbJZ3tATHmkc",
+          "id": "https://www.ianwelsh.net/?p=21292",
+          "author": "Ian Welsh",
+          "description": "So, Trump sent a letter to Brazil announcing 50% tariffs. His demands are that Brazil stop prosecuting Bolsonaro (ex-President who tried to steal the last election, and stole the one before by getting Lula locked up on bogus charges) and that they let US social media platforms operate unfettered the country. If Brazil puts tariffs […]",
+          "link": "https://www.ianwelsh.net/trumps-absolutely-crazed-tariff-policies-brazil-and-copper-edition/",
           "publishedOn": "2025-07-10T02:49:41.000Z",
           "wordCount": null,
           "title": "Trump’s Absolutely Crazed Tariff Policies: Brazil and Copper Edition",
@@ -562,6 +632,50 @@
       "feedUrl": "https://www.lawyersgunsmoneyblog.com/feed",
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152572",
+          "author": "Robert Farley",
+          "description": "I have long been interested in the Battle of Vicksburg. On the one hand, the Vicksburg campaign is one of the most well-designed, well-executed campaigns of the Civil War. The details of the campaign were well known even at the time, and even cursory investigation of those details shows Grant to be an outstanding tactical […]\nThe post Vicksburg appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/vicksburg",
+          "publishedOn": "2025-07-16T00:21:40.000Z",
+          "wordCount": null,
+          "title": "Vicksburg",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152570",
+          "author": "Scott Lemieux",
+          "description": "Steve Vladeck has a useful chart summarizing the Court’s use of the shadow docket under Trump II: As we discussed yesterday, Trump is 15-for-15 since April 4, with only three majority opinions and 7 with literally not one word of juficatory reasoning. And we’re not talking about minor issues here, but stuff like Trump trying […]\nThe post A Court without law appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/a-court-without-law-2",
+          "publishedOn": "2025-07-15T23:20:21.000Z",
+          "wordCount": null,
+          "title": "A Court without law",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152569",
+          "author": "Scott Lemieux",
+          "description": "It’s the party of main street not Wall Street now: The lights are on at the Consumer Financial Protection Bureau across the street from the White House, and employees still get paid. But, in practice, the bureau has been mostly inoperable for nearly six months. CFPB employees say they essentially spend the workday sitting on […]\nThe post The new Republican populism appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/the-new-republican-populism-2",
+          "publishedOn": "2025-07-15T21:23:29.000Z",
+          "wordCount": null,
+          "title": "The new Republican populism",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152565",
+          "author": "Scott Lemieux",
+          "description": "While elites continue to talk about trans rights, because a lot of media elites have become very transphobic and love pundit’s fallacies. But actual polling data indicated that concerns about inflation were the biggest factor behind Trump winning in 2024. In a rational universe, this doesn’t make a lot of sense in that Trump’s centerpiece […]\nThe post Trump raise prices appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/trump-raise-prices",
+          "publishedOn": "2025-07-15T19:21:20.000Z",
+          "wordCount": null,
+          "title": "Trump raise prices",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=152563",
           "author": "Paul Campos",
@@ -614,50 +728,6 @@
           "publishedOn": "2025-07-15T04:13:40.000Z",
           "wordCount": null,
           "title": "Grifting All the Way",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152555",
-          "author": "Scott Lemieux",
-          "description": "I needed something to make me happy today, and I got it: I’ve never had any kind of strong rooting interest in the outcome of one of these before, but it was fun. And as a Mariners fan it’s not like “winning the World Series” is an alternative option.\nThe post Big Dumper Wins Derby appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/big-dumper-wins-derby",
-          "publishedOn": "2025-07-15T03:07:10.000Z",
-          "wordCount": null,
-          "title": "Big Dumper Wins Derby",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152551",
-          "author": "Scott Lemieux",
-          "description": "I don’t mean to pick on Matt — normally a good courts writer — specifically, but since I saw numerous microblogs to this effect it’s worth noting how wrong it is: We’ve already been through this with the universal injunctions case, and it’s even more applicable in a case like this where the Court does […]\nThe post Nothing good comes from this appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/nothing-good-comes-from-this",
-          "publishedOn": "2025-07-15T01:46:53.000Z",
-          "wordCount": null,
-          "title": "Nothing good comes from this",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152546",
-          "author": "Robert Farley",
-          "description": "This happened in Lexington on Sunday… Two people were killed and three others, including a Kentucky State trooper, were injured Sunday in a pair of shootings involving one suspect at Blue Grass Airport and a church in Lexington. The trooper was shot at the airport, and four people were shot about 16 miles away at […]\nThe post Not Quite a “Mass” Shooting… appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/not-quite-a-mass-shooting",
-          "publishedOn": "2025-07-14T23:14:24.000Z",
-          "wordCount": null,
-          "title": "Not Quite a “Mass” Shooting…",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152543",
-          "author": "Paul Campos",
-          "description": "It’s truly shocking that an organization as dedicated to the most scrupulous integritude as FIFA has always been would go along with something like this: President Trump has revealed that the champions of the Club World Cup won’t be getting the original trophy, because he’s keeping it. English club Chelsea easily dispatched France’s Paris Saint-Germain […]\nThe post Guy don’t walk on the lot unless he wants to buy appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/guy-dont-walk-on-the-lot-unless-he-wants-to-buy-2",
-          "publishedOn": "2025-07-14T22:39:31.000Z",
-          "wordCount": null,
-          "title": "Guy don’t walk on the lot unless he wants to buy",
           "itunes": {},
           "imageUrl": null
         }
@@ -956,46 +1026,6 @@
           "publishedOn": "2025-07-09T16:29:06.000Z",
           "wordCount": null,
           "title": "Gates Drops a Few Positions in the Rich People Tally",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178142",
-          "author": "Bill Haskell",
-          "description": "TR__p show he has no regard for his supporters . . . Since 2015 and across 170 disasters, the median average assistance amount per approved application from FEMA’s IHP is $4,995. On average, approximately 39 percent of applicants are determined to be eligible for Individuals and Households Program (IHP). FEMA programs can be a lifeline. […]\nThe post Debasing Trump Country appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/debasing-trump-country",
-          "publishedOn": "2025-07-09T11:30:00.000Z",
-          "wordCount": null,
-          "title": "Debasing Trump Country",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178190",
-          "author": "Angry Bear",
-          "description": "SUMMARY: Barack Obama and George W. Bush have criticized the closure of the US Agency for International Development (USAID), as a study warned it could result in “a staggering number” of avoidable deaths—more than 14 million over five years. The former U.S. presidents made rare public criticisms of the Trump administration as they took part […]\nThe post Trump’s USAID closure a ‘travesty’  appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/trumps-usaid-closure-a-travesty",
-          "publishedOn": "2025-07-09T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Trump’s USAID closure a ‘travesty’",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178208",
-          "author": "Joel Eissenberg",
-          "description": "ICE’s new funding level is larger than the combined budgets of the FBI, DEA, ATF, Bureau of Prisons, and U.S. Marshals Service. Who are these people? “ICE was generally known as a place made up of people who couldn’t get jobs at the more established and reputable federal policing agencies — so, FBI, U.S. Marshals, […]\nThe post Your tax dollars at work appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/your-tax-dollars-at-work-2",
-          "publishedOn": "2025-07-09T09:30:54.000Z",
-          "wordCount": null,
-          "title": "Your tax dollars at work",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178185",
-          "author": "Joel Eissenberg",
-          "description": "For eight years, we had rooftop solar. We wouldn’t have done it except that because of state law, Ameren paid half the cost. We also got a 30% tax rebate on the difference. Since we moved, there are too many trees around our house for rooftop solar, but there are more solar panels in our […]\nThe post Trump just made US energy more expensive and dirtier appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/trump-just-made-us-energy-more-expensive-and-dirtier",
-          "publishedOn": "2025-07-09T08:54:58.000Z",
-          "wordCount": null,
-          "title": "Trump just made US energy more expensive and dirtier",
           "imageUrl": null
         }
       ]
