@@ -12,6 +12,36 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "b31c0ef6f50a84c59bf69cad749112ad3d8e4246",
+          "author": "Micah Walter",
+          "description": "Developers can now build serverless applications faster through seamless console-to-IDE transition and debugging of functions running in the cloud from local IDE.",
+          "link": "https://aws.amazon.com/blogs/aws/simplify-serverless-development-with-console-to-ide-and-remote-debugging-for-aws-lambda/",
+          "publishedOn": "2025-07-17T17:24:43.000Z",
+          "wordCount": 8395,
+          "title": "Simplify serverless development with console to IDE and remote debugging for AWS Lambda",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/01/Lambda4.png"
+        },
+        {
+          "id": "53451b4bd56dd507e8c4cb3bc089d83b947279de",
+          "author": "Elizabeth Fuentes",
+          "description": "AWS AI league is a program that helps organizations upskill their workforce by combining fun competition with hands-on learning using AWS AI services. It offers a unique opportunity for both enterprises and developers to gain valuable and practical skills in fine-tuning, model customization, and prompt engineering - essential skills for building generative AI solutions.",
+          "link": "https://aws.amazon.com/blogs/aws/aws-ai-league-learn-innovate-and-compete-in-our-new-ultimate-ai-showdown/",
+          "publishedOn": "2025-07-17T17:13:52.000Z",
+          "wordCount": 7900,
+          "title": "AWS AI League: Learn, innovate, and compete in our new ultimate AI showdown",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/08/AWS-AI-League2.png"
+        },
+        {
+          "id": "9fb0af66bac7e783a222eca1e4e9bf34fd76ca3d",
+          "author": "Donnie Prakoso",
+          "description": "Perform safer container application deployments without custom deployment tooling, enabling you to ship software updates more frequently with near-instantaneous rollback capability.",
+          "link": "https://aws.amazon.com/blogs/aws/accelerate-safe-software-releases-with-new-built-in-blue-green-deployments-in-amazon-ecs/",
+          "publishedOn": "2025-07-17T17:02:39.000Z",
+          "wordCount": 8718,
+          "title": "Accelerate safe software releases with new built-in blue/green deployments in Amazon ECS",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/10/21/ECS-icon.png"
+        },
+        {
           "id": "45917e998be6a4e22bf2befae335a3e0e1541605",
           "author": "AWS News Blog Team",
           "description": "Read about all the new launches, including Nova enhancements, Bedrock AgentCore, SageMaker, and AI Agents.",
@@ -37,7 +67,7 @@
           "description": "Amazon Bedrock AgentCore enables rapid deployment and scaling of AI agents with enterprise-grade security. It provides memory management, identity controls, and tool integration—streamlining development while working with any open-source framework and foundation model.",
           "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-agentcore-securely-deploy-and-operate-ai-agents-at-any-scale/",
           "publishedOn": "2025-07-16T15:11:33.000Z",
-          "wordCount": 10119,
+          "wordCount": 10132,
           "title": "Introducing Amazon Bedrock AgentCore: Securely deploy and operate AI agents at any scale (preview)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/07/AgentCore-icon3.png"
         },
@@ -124,7 +154,7 @@
           "description": "In this post, you'll learn how Scale to Win configured their network topology and AWS WAF to protect against DDoS events that reached peaks of over 2 million requests per second during the 2024 US presidential election campaign season. The post details how they implemented comprehensive DDoS protection by segmenting human and machine traffic, using tiered rate limits with CAPTCHA, and preventing CAPTCHA token reuse through AWS WAF Bot Control.",
           "link": "https://aws.amazon.com/blogs/architecture/how-scale-to-win-uses-aws-waf-to-block-ddos-events/",
           "publishedOn": "2025-07-14T19:12:38.000Z",
-          "wordCount": 9953,
+          "wordCount": 9954,
           "title": "How Scale to Win uses AWS WAF to block DDoS events",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/06/30/arch1132-figure2-network-before-addCFWAF-1154x630.png"
         }
@@ -141,6 +171,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
+        {
+          "id": "5c4107ba6638d20883733a3aebb546462e6fa6ab",
+          "author": "Jagdish Komakula",
+          "description": "Introduction ArgoCD is a leading GitOps tool that empowers teams to manage Kubernetes deployments declaratively, using Git as the single source of truth. Its robust feature set, including automated sync, rollback support, drift detection, advanced deployment strategies, RBAC integration, and multi-cluster support, makes it a go-to solution for Kubernetes application delivery. However, as organizations scale, […]",
+          "link": "https://aws.amazon.com/blogs/devops/gitops-continuous-delivery-with-argocd-and-eks-using-natural-language/",
+          "publishedOn": "2025-07-17T13:15:09.000Z",
+          "wordCount": 8555,
+          "title": "GitOps continuous delivery with ArgoCD and EKS using natural language",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/07/16/17632-Featured-Image-1.jpg"
+        },
         {
           "id": "c92b2132676803e625bf69821265390baba398bb",
           "author": "Charles Meruwoma",
@@ -169,12 +209,32 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=295521",
+          "author": "Curro Jimenez",
+          "description": "How the failed 2016 coup transformed Türkiye's power structure under Erdoğan and reshaped its relationshio to the US and the Middle East",
+          "link": "https://www.nakedcapitalism.com/2025/07/the-2016-coup-attempt-decoding-turkiyes-transformation-and-its-regional-impact.html",
+          "publishedOn": "2025-07-17T18:00:23.000Z",
+          "wordCount": 4263,
+          "title": "The 2016 Coup Attempt Revisited: Türkiye’s Transformation and Its Regional Impact",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=295522",
+          "author": "Yves Smith",
+          "description": "A historical analysis shows that greater representation was a bargain autocratic, here feudal, rulers had to strike to get support for war",
+          "link": "https://www.nakedcapitalism.com/2025/07/wars-taxation-and-increases-in-representation.html",
+          "publishedOn": "2025-07-17T13:58:06.000Z",
+          "wordCount": 4317,
+          "title": "Wars, Taxation, and Increases in Representation",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/00-representation.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=295496",
           "author": "Conor Gallagher",
           "description": "Our nurturing daily links, including Trump cannot stop talking about Epstein, EU budgets for war, and the summer of flash flooding.",
           "link": "https://www.nakedcapitalism.com/2025/07/links-7-17-2025.html",
           "publishedOn": "2025-07-17T10:55:15.000Z",
-          "wordCount": 6210,
+          "wordCount": 11575,
           "title": "Links 7/17/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-16-at-6.43.07 PM-1024x721.png"
         },
@@ -184,7 +244,7 @@
           "description": "The meme-contour of recent articles seems designed to promote resignation towards nuclear war and other horrors of combat.",
           "link": "https://www.nakedcapitalism.com/2025/07/why-is-the-media-normalizing-nuclear-war-and-its-effects-on-us-populations.html",
           "publishedOn": "2025-07-17T09:10:23.000Z",
-          "wordCount": 6454,
+          "wordCount": 11360,
           "title": "Why Is the Media Normalizing Nuclear War and Its Effects on US Populations?",
           "imageUrl": null
         },
@@ -194,7 +254,7 @@
           "description": "Debunking some widely held misperceptoins about why US housing is so pricey.",
           "link": "https://www.nakedcapitalism.com/2025/07/the-corporate-takeover-of-housing.html",
           "publishedOn": "2025-07-17T09:00:01.000Z",
-          "wordCount": 5819,
+          "wordCount": 6636,
           "title": "“The Corporate Takeover of Housing”",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-16-at-5.42.38 PM.png"
         },
@@ -204,7 +264,7 @@
           "description": "Meet Project Nectar, a new surveillance state initiative being tested for the UK and planned for rollout to police forces broadly.",
           "link": "https://www.nakedcapitalism.com/2025/07/project-nectar-another-palantir-special.html",
           "publishedOn": "2025-07-17T05:47:21.000Z",
-          "wordCount": 4915,
+          "wordCount": 6809,
           "title": "Project Nectar: Another Palantir Special",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-16-at-10.29.42 PM.png"
         },
@@ -214,7 +274,7 @@
           "description": "Elon Musk, Earth's wealthiest human, is leveraging his business empire to invest in xAI with SpaceX and possibly Tesla putting in billions.",
           "link": "https://www.nakedcapitalism.com/2025/07/elon-musk-tesla-spacex-xai-investment.html",
           "publishedOn": "2025-07-16T18:00:40.000Z",
-          "wordCount": 6030,
+          "wordCount": 6105,
           "title": "Coffee Break: Elon Musk to Squeeze Tesla Shareholders to Juice xAI?",
           "imageUrl": null
         },
@@ -224,7 +284,7 @@
           "description": "The economic hazard of deflation is already stalking China, to the degree that even  Xi is trying to take it on.",
           "link": "https://www.nakedcapitalism.com/2025/07/chinese-government-tries-to-combat-destructive-deflation-will-it-succeed.html",
           "publishedOn": "2025-07-16T13:55:14.000Z",
-          "wordCount": 9825,
+          "wordCount": 10198,
           "title": "Chinese Government Tries to Combat Destructive Deflation. Will It Succeed?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-16-at-8.21.05 PM.png"
         },
@@ -234,7 +294,7 @@
           "description": "Our finicky daily links: tortiose feelers, Russia heat wave, China economy unbowed, moar India-Pakistan water row, Poland financial crisis? UK farmers' feed woes, Russia shrugs off Trump threats, Pentagon can't build drones, US tariff-created transformer shortage, ICE police state, bond investors go short",
           "link": "https://www.nakedcapitalism.com/2025/07/links-7-16-2025.html",
           "publishedOn": "2025-07-16T10:55:06.000Z",
-          "wordCount": 19339,
+          "wordCount": 19530,
           "title": "Links 7/16/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-16-at-3.02.19 PM.png"
         },
@@ -244,28 +304,8 @@
           "description": "The Neoliberal turn of late capitalism [1] rules our world.  Quinn Slobodian has become the voice of our time in explaining how this has happened and why.  In Globalists The End of Empire and the Birth of Neoliberalism (2020), he described, among other things, how the Liberals of Central Europe who became Neoliberals were most […]",
           "link": "https://www.nakedcapitalism.com/2025/07/hayeks-bastards-and-the-rise-of-neoliberalism.html",
           "publishedOn": "2025-07-16T10:50:49.000Z",
-          "wordCount": 8873,
+          "wordCount": 8902,
           "title": "Hayek’s Bastards and the Rise of Neoliberalism",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=295467",
-          "author": "Yves Smith",
-          "description": "To free ourselves from our technofeudal overlords, we must think like Karl Marx.",
-          "link": "https://www.nakedcapitalism.com/2025/07/yanis-varoufakis-who-needs-marx-in-2025.html",
-          "publishedOn": "2025-07-16T09:55:24.000Z",
-          "wordCount": 9732,
-          "title": "Yanis Varoufakis: Who Needs Marx in 2025?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=295465",
-          "author": "Yves Smith",
-          "description": "High energy costs in Europe, largely due to sanctions against Russia, has spread the gangrene of de-industrialization to the Netherlands",
-          "link": "https://www.nakedcapitalism.com/2025/07/dutch-industry-buckles-under-energy-transition-and-global-pressure.html",
-          "publishedOn": "2025-07-16T09:52:33.000Z",
-          "wordCount": 3761,
-          "title": "Dutch Industry Buckles Under Energy Transition and Global Pressure",
           "imageUrl": null
         }
       ]
@@ -275,6 +315,16 @@
       "feedUrl": "https://blog.cloudflare.com/rss",
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
+        {
+          "id": "5oxVTbLoVGabfWNbMtNbs",
+          "author": "Marten van de Sanden",
+          "description": "This is part two of a story about how we overcame the challenges of making a complex system more scalable.",
+          "link": "https://blog.cloudflare.com/quicksilver-v2-evolution-of-a-globally-distributed-key-value-store-part-2-of-2/",
+          "publishedOn": "2025-07-17T13:00:00.000Z",
+          "wordCount": 3524,
+          "title": "Quicksilver v2: evolution of a globally distributed key-value store (Part 2)",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/68BVpJD3O04myTkhykkKla/ac2a696af7ab5a4045dc67f9061f3e63/Quicksilver_V2-_evolution_of_a_globally_distributed_key-value_store__part_2_of_2_-OG.png"
+        },
         {
           "id": "1oYZ3vFOAUy5PhZyKNm286",
           "author": "Carlos Rodrigues",
@@ -311,7 +361,7 @@
           "description": "June was the busiest month for DDoS attacks in 2025 Q2, accounting for nearly 38% of all observed activity.",
           "link": "https://blog.cloudflare.com/ddos-threat-report-for-2025-q2/",
           "publishedOn": "2025-07-15T13:00:00.000Z",
-          "wordCount": 4134,
+          "wordCount": 4145,
           "title": "Hyper-volumetric DDoS attacks skyrocket: Cloudflare’s 2025 Q2 DDoS threat report",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1uNrfxarH05T3h5h87nnYX/026663e127bf1edf9e81d98171b1d33d/Hyper-volumetric_DDoS_attacks_skyrocket-_Cloudflare%C3%A2__s_2025_Q2_DDoS_threat_report-OG.png"
         }
@@ -388,12 +438,22 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=23496",
+          "author": "Richard Seroter",
+          "description": "At least 80% of the code I’ve ever written could have been written by AI,…",
+          "link": "https://seroter.com/2025/07/17/code-was-the-least-interesting-part-of-my-multi-agent-app-and-heres-what-that-means-to-me/",
+          "publishedOn": "2025-07-17T16:45:13.000Z",
+          "wordCount": 7942,
+          "title": "Code was the least interesting part of my multi-agent app, and here’s what that means to me",
+          "imageUrl": "https://i0.wp.com/seroter.com/wp-content/uploads/2025/07/agent-arch-full.png?fit=1200%2C620&ssl=1"
+        },
+        {
           "id": "http://seroter.com/?p=23717",
           "author": "Richard Seroter",
           "description": "Today's links look at satisfying data sovereignty needs without sacrificing cloud functionality, how to use open source the right way, and five ways that gen AI projects fail.",
           "link": "https://seroter.com/2025/07/16/daily-reading-list-july-16-2025-588/",
           "publishedOn": "2025-07-16T23:45:04.000Z",
-          "wordCount": 4682,
+          "wordCount": 4699,
           "title": "Daily Reading List – July 16, 2025 (#588)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -403,7 +463,7 @@
           "description": "Today's links look at generating agent docs, the rise of terminal tools, and how to score your internal platform efforts.",
           "link": "https://seroter.com/2025/07/15/daily-reading-list-july-15-2025-587/",
           "publishedOn": "2025-07-16T00:04:11.000Z",
-          "wordCount": 4729,
+          "wordCount": 4737,
           "title": "Daily Reading List – July 15, 2025 (#587)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -440,7 +500,7 @@
           "description": "The CodeSteer system could boost large language models’ accuracy when solving complex problems, such as scheduling shipments in a supply chain.",
           "link": "https://news.mit.edu/2025/smart-coach-helps-llms-switch-between-text-and-code-0717",
           "publishedOn": "2025-07-17T04:00:00.000Z",
-          "wordCount": 1924,
+          "wordCount": 1917,
           "title": "This “smart coach” helps LLMs switch between text and code",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/MIT_Symbolic-LLMs-01.jpg"
         },
@@ -450,7 +510,7 @@
           "description": "A team of researchers has mapped the challenges of AI in software development, and outlined a research agenda to move the field forward.",
           "link": "https://news.mit.edu/2025/can-ai-really-code-study-maps-roadblocks-to-autonomous-software-engineering-0716",
           "publishedOn": "2025-07-16T20:55:00.000Z",
-          "wordCount": 2014,
+          "wordCount": 2007,
           "title": "Can AI really code? Study maps the roadblocks to autonomous software engineering",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/mit-csail-%20AI-coding.jpg"
         },
@@ -460,7 +520,7 @@
           "description": "A new approach for testing multiple treatment combinations at once could help scientists develop drugs for cancer or genetic disorders.",
           "link": "https://news.mit.edu/2025/more-efficiently-studying-complex-treatment-interactions-0716",
           "publishedOn": "2025-07-16T04:00:00.000Z",
-          "wordCount": 1846,
+          "wordCount": 1839,
           "title": "How to more efficiently study complex treatment interactions",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/MIT-Combinatoral-Interventions-01-press.jpg"
         },
@@ -470,7 +530,7 @@
           "description": "CellLENS reveals hidden patterns in cell behavior within tissues, offering deeper insights into cell heterogeneity — vital for advancing cancer immunotherapy.",
           "link": "https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711",
           "publishedOn": "2025-07-11T18:40:00.000Z",
-          "wordCount": 1420,
+          "wordCount": 1415,
           "title": "New AI system uncovers hidden cell subtypes, boosts precision medicine",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/mit-CellLENS-tool.jpg"
         }
@@ -559,6 +619,16 @@
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
         {
+          "id": "https://www.ianwelsh.net/?p=21364",
+          "author": "Ian Welsh",
+          "description": "The great problem with running anything is people. People, from the point of view of those in charge, are the entire problem with running any organization larger than “just me”, from a corner store to a country. People always require babying: you have to get them to do what you want and do it competently […]",
+          "link": "https://www.ianwelsh.net/ai-is-a-fever-dream-of-despots/",
+          "publishedOn": "2025-07-17T16:16:59.000Z",
+          "wordCount": null,
+          "title": "AI Is A Fever Dream of Despots",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.ianwelsh.net/?p=21352",
           "author": "Ian Welsh",
           "description": "The Globe and Mail is one of the two main “newspapers of the elite” in Canada, and the older of the two. (The other one is the Nation Post). So this article is important: Canada’s “deal” with the U.S. to drop the digital services tax, which benefits U.S. tech giants such as Meta and Netflix […]",
@@ -627,16 +697,6 @@
           "wordCount": null,
           "title": "The US-UK Special Relationship is Officially Dead",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=21297",
-          "author": "Sean Paul Kelley",
-          "description": "There has been a lot of back and forth about men and women being tested equally for front line combat roles. First, let me make it very clear, I am one hundred percent for equality between men and women. I’ve worked under women bosses, had no issue with it. While at Morgan Stanley I had […]",
-          "link": "https://www.ianwelsh.net/equal-tests-for-men-and-women-in-front-line-combat-roles-progress-or-regression/",
-          "publishedOn": "2025-07-11T03:58:09.000Z",
-          "wordCount": null,
-          "title": "Equal Tests For Men and Women in Front Line Combat Roles: Progress or Regression?",
-          "imageUrl": null
         }
       ]
     },
@@ -645,6 +705,39 @@
       "feedUrl": "https://www.lawyersgunsmoneyblog.com/feed",
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152610",
+          "author": "Erik Loomis",
+          "description": "Pramila Jayapal, always one of our best members of Congress and also someone Trump would undoubtedly like to strip of citizenship and then deport, calls out ICE and Republicans and attempts to force the issue by introducing a bill that would ban ICE from detaining or deporting American citizens: U.S. Representative Pramila Jayapal, Ranking Member […]\nThe post ICE and American Citizens appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/ice-and-american-citizens",
+          "publishedOn": "2025-07-17T14:49:00.000Z",
+          "wordCount": null,
+          "title": "ICE and American Citizens",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152614",
+          "author": "Paul Campos",
+          "description": "Something triggered a memory for me of how when I was a child in the late 60s and early 70s there were a lot of popular culture jokes in the US about skyjackings, almost all of which — the jokes that is — revolved around the skyjacker demanding the plane be taken to Cuba. This […]\nThe post Looking back on the golden age of skyjacking appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/looking-back-on-the-golden-age-of-skyjacking",
+          "publishedOn": "2025-07-17T13:34:04.000Z",
+          "wordCount": null,
+          "title": "Looking back on the golden age of skyjacking",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152609",
+          "author": "Erik Loomis",
+          "description": "If this is true, this is the worst thing that has ever happened in Teamsters history and trust me, I know what has happened in Teamsters history. When people tell you who they are, believe them the first time. This is who Sean O'Brien is. m.facebook.com/story.php?st… [image or embed] — Evan Sutton (@evansutton.bsky.social) July 15, […]\nThe post Did the Teamsters Hire a Charlottesville White Nationalist? appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/did-the-teamsters-hire-a-charlottesville-white-nationalist",
+          "publishedOn": "2025-07-17T13:26:00.000Z",
+          "wordCount": null,
+          "title": "Did the Teamsters Hire a Charlottesville White Nationalist?",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=152606",
           "author": "Erik Loomis",
@@ -708,39 +801,6 @@
           "publishedOn": "2025-07-16T19:02:54.000Z",
           "wordCount": null,
           "title": "Going meta on the discourse",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152597",
-          "author": "Abigail Nussbaum",
-          "description": "Emily Tesh is the author of Some Desperate Glory, the debut novel (it was preceded by two novellas) that won the Hugo award last year. It’s an absolutely top-notch space opera that races through a trilogy’s worth of plot in a single volume, ruthlessly overturns the conventions of the YA adventure, and has some smart […]\nThe post Review: The Incandescent by Emily Tesh appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/review-the-incandescent-by-emily-tesh",
-          "publishedOn": "2025-07-16T17:13:13.000Z",
-          "wordCount": null,
-          "title": "Review: The Incandescent by Emily Tesh",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152590",
-          "author": "Paul Campos",
-          "description": "Per Bloomberg and the Times. This is “technically” illegal, but because of the Blackstonian Wisdom of Chief Justice Balls & Strikes that word is, as Ron Ziegler would have said, “inoperative.” OTOH since this would cost some important people a lot of money, he may TACO it, but his statements about everything are getting increasingly […]\nThe post Trump apparently about to fire Jerome Powell appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/trump-apparently-about-to-fire-jerome-powell",
-          "publishedOn": "2025-07-16T16:00:55.000Z",
-          "wordCount": null,
-          "title": "Trump apparently about to fire Jerome Powell",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152584",
-          "author": "Scott Lemieux",
-          "description": "The contempt Republican elites have for democracy isn’t incidental to the unpopularity of the policies they support: President Donald Trump wants lawmakers in Texas to redraw the state’s congressional district map to give Republicans five more House seats, he told reporters Tuesday. “There could be some other states we’re going to get another three, or […]\nThe post Trump urges Texas Republicans to make House elections even less democratic to mitigate his enormously unpopular agenda appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/trump-urges-texas-republicans-to-make-house-elections-even-less-democratic-to-mitigate-his-enormously-unpopular-agenda",
-          "publishedOn": "2025-07-16T14:42:00.000Z",
-          "wordCount": null,
-          "title": "Trump urges Texas Republicans to make House elections even less democratic to mitigate his enormously unpopular agenda",
           "itunes": {},
           "imageUrl": null
         }
