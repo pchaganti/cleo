@@ -17,7 +17,7 @@
           "description": "I’m writing this as I depart from Ho Chi Minh City back to Singapore. Just realized what a week it’s been, so let me rewind a bit. This week, I tried my first Corne keyboard, wrapped up rehearsals for AWS Summit Jakarta with speakers who are absolutely raising the bar, and visited Vietnam to participate […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-kiro-aws-lambda-remote-debugging-amazon-ecs-blue-green-deployments-amazon-bedrock-agentcore-and-more-july-21-2025/",
           "publishedOn": "2025-07-21T18:26:06.000Z",
-          "wordCount": 8417,
+          "wordCount": 5086,
           "title": "AWS Weekly Roundup: Kiro, AWS Lambda remote debugging, Amazon ECS blue/green deployments, Amazon Bedrock AgentCore, and more (July 21, 2025)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         },
@@ -27,7 +27,7 @@
           "description": "Developers can now build serverless applications faster through seamless console-to-IDE transition and debugging of functions running in the cloud from local IDE.",
           "link": "https://aws.amazon.com/blogs/aws/simplify-serverless-development-with-console-to-ide-and-remote-debugging-for-aws-lambda/",
           "publishedOn": "2025-07-17T17:24:43.000Z",
-          "wordCount": 8394,
+          "wordCount": 5063,
           "title": "Simplify serverless development with console to IDE and remote debugging for AWS Lambda",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/01/Lambda4.png"
         },
@@ -37,7 +37,7 @@
           "description": "AWS AI league is a program that helps organizations upskill their workforce by combining fun competition with hands-on learning using AWS AI services. It offers a unique opportunity for both enterprises and developers to gain valuable and practical skills in fine-tuning, model customization, and prompt engineering - essential skills for building generative AI solutions.",
           "link": "https://aws.amazon.com/blogs/aws/aws-ai-league-learn-innovate-and-compete-in-our-new-ultimate-ai-showdown/",
           "publishedOn": "2025-07-17T17:13:52.000Z",
-          "wordCount": 7900,
+          "wordCount": 4569,
           "title": "AWS AI League: Learn, innovate, and compete in our new ultimate AI showdown",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/08/AWS-AI-League2.png"
         },
@@ -47,7 +47,7 @@
           "description": "Perform safer container application deployments without custom deployment tooling, enabling you to ship software updates more frequently with near-instantaneous rollback capability.",
           "link": "https://aws.amazon.com/blogs/aws/accelerate-safe-software-releases-with-new-built-in-blue-green-deployments-in-amazon-ecs/",
           "publishedOn": "2025-07-17T17:02:39.000Z",
-          "wordCount": 8718,
+          "wordCount": 5387,
           "title": "Accelerate safe software releases with new built-in blue/green deployments in Amazon ECS",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/10/21/ECS-icon.png"
         }
@@ -64,7 +64,7 @@
           "description": "In this post, we show you how to implement comprehensive monitoring for Amazon Elastic Kubernetes Service (Amazon EKS) workloads using AWS managed services. This solution demonstrates building an EKS platform that combines flexible compute options with enterprise-grade observability using AWS native services and OpenTelemetry.",
           "link": "https://aws.amazon.com/blogs/architecture/implement-monitoring-for-amazon-eks-with-managed-services/",
           "publishedOn": "2025-07-18T15:47:13.000Z",
-          "wordCount": 9899,
+          "wordCount": 6568,
           "title": "Implement monitoring for Amazon EKS with managed services",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/07/09/image-4-1-1004x630.jpeg"
         }
@@ -87,19 +87,9 @@
           "description": "Infrastructure alerts pose a challenge for DevOps teams, particularly when they occur outside of regular business hours. The complexity isn’t merely in receiving notifications, it lies in rapidly assessing their severity and determining the root cause. This challenge is compounded when upstream service disruptions cascade into multiple downstream alerts, creating a confusion of notifications that […]",
           "link": "https://aws.amazon.com/blogs/devops/streamline-devops-troubleshooting-integrate-cloudwatch-investigations-with-slack/",
           "publishedOn": "2025-07-21T11:17:40.000Z",
-          "wordCount": 8870,
+          "wordCount": 5539,
           "title": "Streamline DevOps troubleshooting: Integrate CloudWatch investigations with Slack",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/07/21/CWInvest_featurephoto_larger-1120x630.png"
-        },
-        {
-          "id": "5c4107ba6638d20883733a3aebb546462e6fa6ab",
-          "author": "Jagdish Komakula",
-          "description": "Introduction ArgoCD is a leading GitOps tool that empowers teams to manage Kubernetes deployments declaratively, using Git as the single source of truth. Its robust feature set, including automated sync, rollback support, drift detection, advanced deployment strategies, RBAC integration, and multi-cluster support, makes it a go-to solution for Kubernetes application delivery. However, as organizations scale, […]",
-          "link": "https://aws.amazon.com/blogs/devops/gitops-continuous-delivery-with-argocd-and-eks-using-natural-language/",
-          "publishedOn": "2025-07-17T13:15:09.000Z",
-          "wordCount": 8555,
-          "title": "GitOps continuous delivery with ArgoCD and EKS using natural language",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/07/16/17632-Featured-Image-1.jpg"
         }
       ]
     },
@@ -114,7 +104,7 @@
           "description": "The U.S. military legal establishment has big plans to use Gaza as a model for future large-scale conflicts, including with China.",
           "link": "https://www.nakedcapitalism.com/2025/07/gaza-china-us-military-law-ccp-hudson-institute.html",
           "publishedOn": "2025-07-23T18:00:23.000Z",
-          "wordCount": 4354,
+          "wordCount": 6740,
           "title": "Coffee Break: Gaza as Dress Rehearsal for War With China",
           "imageUrl": null
         },
@@ -124,7 +114,7 @@
           "description": "A new report finds that championing progressive economic policies can reverse the exodus of working class voters from the Democratic party.",
           "link": "https://www.nakedcapitalism.com/2025/07/how-can-the-democrats-win-back-the-working-class-economic-populism.html",
           "publishedOn": "2025-07-23T13:55:39.000Z",
-          "wordCount": 6567,
+          "wordCount": 7692,
           "title": "How Can the Democrats Win Back the Working Class? Economic Populism",
           "imageUrl": null
         },
@@ -134,7 +124,7 @@
           "description": "Our terminal daily links: stupidity threat, Covid brain aging study, geoengineering inevitable? China blocking exit visas, Merz and Macron fall out, Israeli tourists entry to Greece blocked, Zelensky thwarts anti-corruption, Johnson ends House session to stop Epstein vote. Japan agrees US tariffs, Laith Marouf detained",
           "link": "https://www.nakedcapitalism.com/2025/07/links-7-23-2025.html",
           "publishedOn": "2025-07-23T10:55:12.000Z",
-          "wordCount": 14441,
+          "wordCount": 18006,
           "title": "Links 7/23/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/00-caterpillar.jpeg"
         },
@@ -144,7 +134,7 @@
           "description": "Trump budget whackage will further degrade the quality of official statistics. And that really does matter.",
           "link": "https://www.nakedcapitalism.com/2025/07/how-much-longer-can-we-trust-our-economic-statistics.html",
           "publishedOn": "2025-07-23T10:53:11.000Z",
-          "wordCount": 6597,
+          "wordCount": 7345,
           "title": "“How Much Longer Can We Trust Our Economic Statistics?”",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-23-at-5.43.58 PM.png"
         },
@@ -154,7 +144,7 @@
           "description": "If Elon Musk were to really start his own political party, would that signal that the donor class no longer has any use for the Democrats?",
           "link": "https://www.nakedcapitalism.com/2025/07/democrats-embrace-of-abundance-creates-an-accelerationist-uniparty.html",
           "publishedOn": "2025-07-23T10:00:56.000Z",
-          "wordCount": 7428,
+          "wordCount": 8122,
           "title": "Abundance of Accelerationism: Democrat Rebrand Promises to Keep Foot on the Breakdown Gas",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-15-at-7.59.14 AM-1024x489.png"
         },
@@ -164,7 +154,7 @@
           "description": "Cooperative housing has been a big success in building affordable housing in Uruguray. But can this model be exported to the US?",
           "link": "https://www.nakedcapitalism.com/2025/07/what-the-world-can-learn-from-uruguay-as-the-global-housing-crisis-deepens.html",
           "publishedOn": "2025-07-23T07:55:14.000Z",
-          "wordCount": 4827,
+          "wordCount": 5374,
           "title": "What the World Can Learn from Uruguay as the Global Housing Crisis Deepens",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/00-housing.jpg"
         },
@@ -174,7 +164,7 @@
           "description": "Before our current age of nuclear war anxiety, there was widespread concern about an earlier terrifying weapon of mass destruction: poison gas. I will describe the history of war gases in the context of our current concerns about atomic war. It is an ugly topic, but examining it may provide some hope for a way […]",
           "link": "https://www.nakedcapitalism.com/2025/07/coffee-break-armed-madhouse-poison-gas.html",
           "publishedOn": "2025-07-22T18:00:44.000Z",
-          "wordCount": 6591,
+          "wordCount": 6569,
           "title": "Coffee Break: Armed Madhouse – Poison Gas",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/WWII-Gas-arsenals-e1753126062663.jpg"
         },
@@ -184,7 +174,7 @@
           "description": "Japan and Australia are finally questioning US exploitation. But what can they do about it?",
           "link": "https://www.nakedcapitalism.com/2025/07/australia-japan-are-seemingly-having-second-thoughts-about-the-de-facto-asian-nato.html",
           "publishedOn": "2025-07-22T13:55:44.000Z",
-          "wordCount": 7447,
+          "wordCount": 7490,
           "title": "Australia & Japan Are Seemingly Having Second Thoughts About the De Facto Asian NATO",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/00-Japan.jpg"
         },
@@ -194,7 +184,7 @@
           "description": "Our frenetic daily links: Linguist trolls CEOs, US Covid increase, Southern jet stream shift, China-India dam row, Myanmar, Tucker on Nordstream, UK infections, IDF war crimes prosecutions, Trump vows Iran attack, Pokrovsk death watch, US naval fail, Trump losing tariff war. AI economic bust, moar crypto con",
           "link": "https://www.nakedcapitalism.com/2025/07/links-7-22-2025.html",
           "publishedOn": "2025-07-22T10:55:50.000Z",
-          "wordCount": 17209,
+          "wordCount": 17187,
           "title": "Links 7/22/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/00-walruses.jpg"
         },
@@ -204,7 +194,7 @@
           "description": "The governments of Italy and Spain are doing everything they can to obstruct EU-supported bank mergers from taking place within their borders.",
           "link": "https://www.nakedcapitalism.com/2025/07/why-is-brussels-so-intent-on-thinning-the-euro-areas-banking-herd.html",
           "publishedOn": "2025-07-22T10:45:24.000Z",
-          "wordCount": 6989,
+          "wordCount": 6988,
           "title": "Brussels’ Latest Destructive Project, Culling the Euro Area’s Banks, Hits a Snag",
           "imageUrl": null
         }
@@ -244,16 +234,6 @@
           "wordCount": 4239,
           "title": "Shutdown season: the Q2 2025 Internet disruption summary",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/lTJgsX6rj9RnfZiMswJxu/5d7066a572830e1c490c535ff49e9fc3/Shutdown_season-_the_Q2_2025_Internet_disruption_summary-OG.png"
-        },
-        {
-          "id": "5oxVTbLoVGabfWNbMtNbs",
-          "author": "Marten van de Sanden",
-          "description": "This is part two of a story about how we overcame the challenges of making a complex system more scalable.",
-          "link": "https://blog.cloudflare.com/quicksilver-v2-evolution-of-a-globally-distributed-key-value-store-part-2-of-2/",
-          "publishedOn": "2025-07-17T13:00:00.000Z",
-          "wordCount": 3532,
-          "title": "Quicksilver v2: evolution of a globally distributed key-value store (Part 2)",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/68BVpJD3O04myTkhykkKla/ac2a696af7ab5a4045dc67f9061f3e63/Quicksilver_V2-_evolution_of_a_globally_distributed_key-value_store__part_2_of_2_-OG.png"
         }
       ]
     },
@@ -308,12 +288,22 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=23860",
+          "author": "Richard Seroter",
+          "description": "Today's links look at how to prioritize OSS bugs, lessons learned about context engineering, and the evolution of code reviews with AI.",
+          "link": "https://seroter.com/2025/07/23/daily-reading-list-july-23-2025-593/",
+          "publishedOn": "2025-07-23T23:59:39.000Z",
+          "wordCount": 4772,
+          "title": "Daily Reading List – July 23, 2025 (#593)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
           "id": "http://seroter.com/?p=23845",
           "author": "Richard Seroter",
           "description": "Today's links look at doing architecture and product management in the AI era, what it looks like to more actively lead your team, and design principles for edge systems.",
           "link": "https://seroter.com/2025/07/22/daily-reading-list-july-22-2025-592/",
           "publishedOn": "2025-07-22T20:43:48.000Z",
-          "wordCount": 4614,
+          "wordCount": 4622,
           "title": "Daily Reading List – July 22, 2025 (#592)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -343,7 +333,7 @@
           "description": "Today's links look at customizing the Gemini CLI to be less proactive, where tech leaders are investing in 2026, and how industry analysts need to reset in the face of AI.",
           "link": "https://seroter.com/2025/07/17/daily-reading-list-july-17-2025-589/",
           "publishedOn": "2025-07-17T23:01:29.000Z",
-          "wordCount": 4712,
+          "wordCount": 4728,
           "title": "Daily Reading List – July 17, 2025 (#589)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -353,7 +343,7 @@
           "description": "At least 80% of the code I’ve ever written could have been written by AI,…",
           "link": "https://seroter.com/2025/07/17/code-was-the-least-interesting-part-of-my-multi-agent-app-and-heres-what-that-means-to-me/",
           "publishedOn": "2025-07-17T16:45:13.000Z",
-          "wordCount": 7976,
+          "wordCount": 7992,
           "title": "Code was the least interesting part of my multi-agent app, and here’s what that means to me",
           "imageUrl": "https://i0.wp.com/seroter.com/wp-content/uploads/2025/07/agent-arch-full.png?fit=1200%2C620&ssl=1"
         }
@@ -370,7 +360,7 @@
           "description": "The faculty members’ work comprises multifaceted research and scholarship across a wide range of disciplines.",
           "link": "https://news.mit.edu/2025/school-architecture-planning-recognizes-faculty-academic-promotions-0722",
           "publishedOn": "2025-07-22T14:00:00.000Z",
-          "wordCount": 1485,
+          "wordCount": 1489,
           "title": "School of Architecture and Planning recognizes faculty with academic promotions in 2025",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/mit-sap-faculty-promotions.jpg"
         },
@@ -380,7 +370,7 @@
           "description": "MIT researchers found that special kinds of neural networks, called encoders or “tokenizers,” can do much more than previously realized.",
           "link": "https://news.mit.edu/2025/new-way-edit-or-generate-images-0721",
           "publishedOn": "2025-07-21T19:00:00.000Z",
-          "wordCount": 2110,
+          "wordCount": 2114,
           "title": "A new way to edit or generate images",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/mit-token-opt3.jpg"
         },
@@ -390,7 +380,7 @@
           "description": "The AI-enabled platform serves as a hub for MIT’s lifelong learning opportunities.",
           "link": "https://news.mit.edu/2025/mit-learn-offers-whole-new-front-door-institute-0721",
           "publishedOn": "2025-07-21T19:00:00.000Z",
-          "wordCount": 1953,
+          "wordCount": 1957,
           "title": "MIT Learn offers “a whole new front door to the Institute”",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/MIT_Learn_07212025_0.jpg"
         },
@@ -400,7 +390,7 @@
           "description": "Language models follow changing situations using clever arithmetic, instead of sequential tracking. By controlling when these approaches are used, engineers could improve the systems’ capabilities.",
           "link": "https://news.mit.edu/2025/unique-mathematical-shortcuts-language-models-use-to-predict-dynamic-scenarios-0721",
           "publishedOn": "2025-07-21T12:00:00.000Z",
-          "wordCount": 1990,
+          "wordCount": 1994,
           "title": "The unique, mathematical shortcuts language models use to predict dynamic scenarios",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/mit-csail-llms.jpg"
         },
@@ -410,7 +400,7 @@
           "description": "The simulations matched results from an underground lab experiment in Switzerland, suggesting modeling could be used to validate the safety of nuclear disposal sites.",
           "link": "https://news.mit.edu/2025/model-predicts-long-term-effects-nuclear-waste-underground-disposal-systems-0718",
           "publishedOn": "2025-07-18T04:00:00.000Z",
-          "wordCount": 1819,
+          "wordCount": 1814,
           "title": "Model predicts long-term effects of nuclear waste on underground disposal systems",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/MIT-Waste-Storage-01.jpg"
         }
@@ -528,6 +518,61 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152755",
+          "author": "Paul Campos",
+          "description": "Columbia agreed to a $200 million extortion payment to the Donald Trump Fund For Humanity, aka the Human Fund, which to the relief of everyone associated with that great university will certainly guarantee no more extortion attempts of this sort going forward.\nThe post Shakedown street appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/shakedown-street-2",
+          "publishedOn": "2025-07-24T00:40:02.000Z",
+          "wordCount": null,
+          "title": "Shakedown street",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152749",
+          "author": "Scott Lemieux",
+          "description": "What we do in the shadows: The Supreme Court on Wednesday allowed President Trump to fire the three Democratic members of the Consumer Product Safety Commission, a five-member group that monitors the safety of items like toys, cribs and electronics. The court’s brief order was unsigned, which is typical when the justices act on emergency applications. The […]\nThe post “Layering nothing on nothing”: how the Roberts Court has arrogated legislative power to the executive without legal reasoning appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/layering-nothing-on-nothing-how-the-roberts-court-has-arrogated-legislative-power-to-the-executive-without-legal-reasoning",
+          "publishedOn": "2025-07-23T21:32:00.000Z",
+          "wordCount": null,
+          "title": "“Layering nothing on nothing”: how the Roberts Court has arrogated legislative power to the executive without legal reasoning",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152747",
+          "author": "Scott Lemieux",
+          "description": "How about that: When Justice Department officials reviewed what Attorney General Pam Bondi called a “truckload” of documents related to Jeffrey Epstein earlier this year, they discovered that Donald Trump’s name appeared multiple times, according to senior administration officials.  In May, Bondi and her deputy informed the president at a meeting in the White House that his name was in the […]\nThe post Wall Street Journal: Bondi told Trump he was in the Epstein Files appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/wall-street-journal-bondi-told-trump-we-was-im-the-epstein-files",
+          "publishedOn": "2025-07-23T20:03:59.000Z",
+          "wordCount": null,
+          "title": "Wall Street Journal: Bondi told Trump he was in the Epstein Files",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152744",
+          "author": "Cheryl Rofer",
+          "description": "There are a number of things I don’t understand about the Trump administration. But I think I’ve got a handle on what is happening with the Jeffrey Epstein issue. I’ve gleaned it from multiple sources online. I’ve seen little of this in the major media, who seem to prefer taking Steve Bannon’s word that there’s […]\nThe post It’s A QAnon Problem appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/its-a-qanon-problem",
+          "publishedOn": "2025-07-23T19:23:06.000Z",
+          "wordCount": null,
+          "title": "It’s A QAnon Problem",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152739",
+          "author": "Paul Campos",
+          "description": "I don’t know a lot about this situation, but it sounds kind of bad: The University of Colorado Boulder has reappointed CU Law School Dean Lolita Buckner Inniss for another three years despite records showing faculty and student dissatisfaction and a university investigation that found she retaliated against a professor. An investigation conducted by CU […]\nThe post University reappoints dean who violated civil rights of senior faculty member despite overwhelming vote of no confidence from faculty and students appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/university-reappoints-dean-who-violated-civil-rights-of-senior-faculty-member-despite-overwhelming-vote-of-no-confidence-from-faculty-and-students",
+          "publishedOn": "2025-07-23T18:47:39.000Z",
+          "wordCount": null,
+          "title": "University reappoints dean who violated civil rights of senior faculty member despite overwhelming vote of no confidence from faculty and students",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=152726",
           "author": "Scott Lemieux",
           "description": "If only we could all have our speech suppressed like this: Bari Weiss is seeking a valuation of more than $200mn for The Free Press amid talks over the sale of her “anti-woke” media start-up. Weiss has met with David Ellison, the incoming owner of CBS News, over a potential deal to sell the three-year-old […]\nThe post Profitably like a martyr appeared first on Lawyers, Guns & Money.",
@@ -568,61 +613,6 @@
           "publishedOn": "2025-07-23T11:00:00.000Z",
           "wordCount": null,
           "title": "Erik Visits an American Grave, Part 1,929",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152723",
-          "author": "Erik Loomis",
-          "description": "The Trump administration’s attempt to quite literally whitewash American history at the National Parks is beyond depressing. But it does show what happens in America when the nation decides to do something about the problems of Black people for 5 seconds, such as suggesting that their lives matter or perhaps that a Black person was […]\nThe post Whitewashing American History appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/whitewashing-american-history",
-          "publishedOn": "2025-07-23T00:29:29.000Z",
-          "wordCount": null,
-          "title": "Whitewashing American History",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152721",
-          "author": "Scott Lemieux",
-          "description": "But Steve Bannon says the story is over, and when has he ever made an argument in bad faith? The House has largely come to a halt as Republican leaders struggle to assuage a group of irate lawmakers who are demanding that the Justice Department release files related to deceased sex offender Jeffrey Epstein. The […]\nThe post Republicans shut down the House to protect Trump from the Epstein Files appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/republicans-shut-down-the-house-to-protect-trump-from-the-epstein-files",
-          "publishedOn": "2025-07-22T23:30:26.000Z",
-          "wordCount": null,
-          "title": "Republicans shut down the House to protect Trump from the Epstein Files",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152718",
-          "author": "Paul Campos",
-          "description": "See if you can guess what happened next! Shot Buried in amendments to the Interior Dept. Gov funding bill, is a stipulation that the Kennedy Center Opera House must be renamed the ‘First Lady Melania Trump Opera House’ in order to receive federal funds. Chaser: The House Appropriations Committee has voted to rename the Kennedy […]\nThe post Trump demands Kennedy Center Opera House be named after his current wife, or lose all federal funding appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/trump-demands-kennedy-center-opera-house-be-named-after-his-current-wife-or-lose-all-federal-funding",
-          "publishedOn": "2025-07-22T20:50:06.000Z",
-          "wordCount": null,
-          "title": "Trump demands Kennedy Center Opera House be named after his current wife, or lose all federal funding",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152716",
-          "author": "Scott Lemieux",
-          "description": "The head of FEMA’s Search and Rescue operation has resigned: The head of FEMA’s Urban Search and Rescue branch, which runs a network of teams stationed across the country that can swiftly respond to natural disasters, resigned on Monday. Ken Pagurek’s departure comes less than three weeks after a delayed FEMA response to catastrophic flooding […]\nThe post One heckuva job appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/one-heckuva-job",
-          "publishedOn": "2025-07-22T19:54:42.000Z",
-          "wordCount": null,
-          "title": "One heckuva job",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152714",
-          "author": "Robert Farley",
-          "description": "A titan has passed: Ozzy Osbourne, who achieved massive success as a pioneer of two disreputable but popular entertainment genres, heavy metal music and reality television, died on Tuesday. He was 76. His family announced the death in a statement. It did not say where he died or specify a cause. He had been treated […]\nThe post Ozzy appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/ozzy",
-          "publishedOn": "2025-07-22T18:50:15.000Z",
-          "wordCount": null,
-          "title": "Ozzy",
           "itunes": {},
           "imageUrl": null
         }
@@ -901,26 +891,6 @@
           "publishedOn": "2025-07-17T16:24:43.000Z",
           "wordCount": null,
           "title": "MAHA",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178453",
-          "author": "NewDealdemocrat",
-          "description": "– by New Deal democrat Much of the commentary on yesterday’s CPI report suggested that the tariff impacts were apparent. My own analysis was more cautious. That’s simply because we don’t know for sure which items were affected by tariffs, and at this point referring to, e.g., appliances that showed relatively large monthly increases in prices […]\nThe post Producer prices, consumer prices, and tariffs appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/producer-prices-consumer-prices-and-tariffs",
-          "publishedOn": "2025-07-17T11:30:00.000Z",
-          "wordCount": null,
-          "title": "Producer prices, consumer prices, and tariffs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178456",
-          "author": "Angry Bear",
-          "description": "A recent photo of a park and probably a practice raid on an area where people hang out kind of makes you wonder why people would want to come to America. Why come when the US President and a host of bigoted supporters make life miserable for people who look different, speak with an accent, […]\nThe post Can Immigration and Immigrants be Made Great Again? appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/can-immigration-and-immigrants-be-made-great-again",
-          "publishedOn": "2025-07-17T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Can Immigration and Immigrants be Made Great Again?",
           "imageUrl": null
         }
       ]
