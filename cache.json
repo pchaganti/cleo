@@ -17,7 +17,7 @@
           "description": "Amazon DocumentDB Serverless automatically scales capacity up or down in fine-grained increments based on your application's demand, offering up to 90% cost savings compared to provisioning for peak capacity.",
           "link": "https://aws.amazon.com/blogs/aws/amazon-documentdb-serverless-is-now-available/",
           "publishedOn": "2025-07-31T15:00:39.000Z",
-          "wordCount": 4670,
+          "wordCount": 4673,
           "title": "Amazon DocumentDB Serverless is now available",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/07/24/DocumentDB-feat-img.png"
         },
@@ -37,28 +37,7 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": [
-        {
-          "id": "a8add80d562d1c6845b8adce828ed3b47682d6a2",
-          "author": "Anton Aleksandrov",
-          "description": "In this post, you’ll learn how Zapier has built their serverless architecture focusing on three key aspects: using Lambda functions to build isolated Zaps, operating over a hundred thousand Lambda functions through Zapier's control plane infrastructure, and enhancing security posture while reducing maintenance efforts by introducing automated function upgrades and cleanup workflows into their platform architecture.",
-          "link": "https://aws.amazon.com/blogs/architecture/how-zapier-runs-isolated-tasks-on-aws-lambda-and-upgrades-functions-at-scale/",
-          "publishedOn": "2025-07-25T13:30:06.000Z",
-          "wordCount": 5848,
-          "title": "How Zapier runs isolated tasks on AWS Lambda and upgrades functions at scale",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/07/18/arch-1230-image-2-1260x409.png"
-        },
-        {
-          "id": "8ae6584e0d94a55c95c4f8f022ab697d47dec883",
-          "author": "Dmitriy Novikov",
-          "description": "In this post, we discuss HashiCorp’s journey from manual, stress-inducing failover procedures to a streamlined, confident approach that fundamentally changed how they deliver on their enterprise-grade resilience promises.",
-          "link": "https://aws.amazon.com/blogs/architecture/how-hashicorp-made-cross-region-switchover-seamless-with-amazon-application-recovery-controller/",
-          "publishedOn": "2025-07-25T13:27:45.000Z",
-          "wordCount": 5429,
-          "title": "How HashiCorp made cross-Region switchover seamless with Amazon Application Recovery Controller",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/07/25/ARCHBLOG-1221-feature-image.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
@@ -71,6 +50,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
+        {
+          "id": "436a120bc98d4bff5665a4c26b6b2f2d5bf59da4",
+          "author": "Brian Beach",
+          "description": "As a developer who has embraced the power of the Model Context Protocol (MCP)to enhance my workflows, I’m thrilled to see the addition of custom agents in the Amazon Q Developer CLI. This new feature takes the capabilities I’ve come to rely on to a whole new level, allowing me to seamlessly manage different development […]",
+          "link": "https://aws.amazon.com/blogs/devops/overcome-development-disarray-with-amazon-q-developer-cli-custom-agents/",
+          "publishedOn": "2025-07-31T19:58:48.000Z",
+          "wordCount": 5185,
+          "title": "Overcome development disarray with Amazon Q Developer CLI custom agents",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/07/30/Overcome-development-disarray-with-Amazon-Q-Developer-CLI-custom-agents-1120x630.png"
+        },
         {
           "id": "962c1d295f417516a01b54140bad222bbc10a3d3",
           "author": "Raja SP",
@@ -104,7 +93,7 @@
           "description": "Syria’s push for a nation-state raises questions: is this model fit for a region where it has brought more conflict than stability?",
           "link": "https://www.nakedcapitalism.com/2025/07/syria-the-middle-east-and-the-question-of-the-nation-state.html",
           "publishedOn": "2025-07-31T18:00:39.000Z",
-          "wordCount": 3778,
+          "wordCount": 5603,
           "title": "Syria, the Middle East and the Question of the Nation-State",
           "imageUrl": null
         },
@@ -114,7 +103,7 @@
           "description": "China's leaders admit to widespread overcapacity, such as in EVs and solar panels.  Faillure to solve it could generate Japan-style deflation",
           "link": "https://www.nakedcapitalism.com/2025/07/unexpected-china-factory-contraction-confirms-deflationary-headwinds-overcapacity.html",
           "publishedOn": "2025-07-31T13:55:25.000Z",
-          "wordCount": 5689,
+          "wordCount": 7810,
           "title": "Unexpected China Factory Contraction Confirms Deflationary Headwinds, Overcapacity",
           "imageUrl": null
         },
@@ -124,7 +113,7 @@
           "description": "Our daily links: sliding into the tech billionaire dictatorship, US losing to China, hitchhiking is dead, and Chekov is alive.",
           "link": "https://www.nakedcapitalism.com/2025/07/links-7-31-2025.html",
           "publishedOn": "2025-07-31T10:55:01.000Z",
-          "wordCount": 12664,
+          "wordCount": 15883,
           "title": "Links 7/31/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-17-at-12.41.24 PM-1024x725.png"
         },
@@ -134,7 +123,7 @@
           "description": "The energy cost of AI is probaby vastly higher than you realized, and will be showing up soon in your power bills.",
           "link": "https://www.nakedcapitalism.com/2025/07/consumers-are-footing-the-bill-for-ais-insatiable-appetite-for-energy.html",
           "publishedOn": "2025-07-31T10:54:21.000Z",
-          "wordCount": 7438,
+          "wordCount": 8392,
           "title": "Consumers Are Footing the Bill for AI’s Insatiable Appetite for Energy",
           "imageUrl": null
         },
@@ -144,7 +133,7 @@
           "description": "A theory of what might cause the many symptoms of Long Covid, which if proven further, should help in developing treatments",
           "link": "https://www.nakedcapitalism.com/2025/07/long-covid-viruses-and-zombie-cells-new-research-looks-for-links-to-chronic-fatigue-and-brain-fog.html",
           "publishedOn": "2025-07-31T05:56:35.000Z",
-          "wordCount": 3799,
+          "wordCount": 3808,
           "title": "Long-COVID, Viruses and ‘Zombie’ Cells: New Research Looks for Links to Chronic Fatigue and Brain Fog",
           "imageUrl": null
         },
@@ -154,7 +143,7 @@
           "description": "How South America and the Global South generally are selling out their automony and the promise of multipolarity for Big Tech convenience",
           "link": "https://www.nakedcapitalism.com/2025/07/south-americas-sovereignty-is-being-lost-in-big-techs-clouds.html",
           "publishedOn": "2025-07-31T05:02:30.000Z",
-          "wordCount": 5137,
+          "wordCount": 5381,
           "title": "South America’s Sovereignty Is Being Lost in Big Tech’s Clouds",
           "imageUrl": null
         },
@@ -164,7 +153,7 @@
           "description": "Certain high profile appointees in the Trump administration, think Pete Hegseth or Kash Patel, function as figureheads to distract from the increasing power of the oligarchy.",
           "link": "https://www.nakedcapitalism.com/2025/07/donald-trump-oligarchy-amway-pam-bondi-pete-hegseth-kash-patel.html",
           "publishedOn": "2025-07-30T18:00:49.000Z",
-          "wordCount": 6100,
+          "wordCount": 6109,
           "title": "Coffee Break: Amway Oligarchy and Trump’s Willing Figureheads",
           "imageUrl": null
         },
@@ -174,7 +163,7 @@
           "description": "Trump has sent a wrecking ball through US healthcare. Can states team up to preserve some measure of the old normal?",
           "link": "https://www.nakedcapitalism.com/2025/07/can-states-reinvent-u-s-healthcare-this-expert-thinks-so.html",
           "publishedOn": "2025-07-30T13:55:14.000Z",
-          "wordCount": 9946,
+          "wordCount": 9955,
           "title": "Can States Reinvent U.S. Healthcare? This Expert Thinks So",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/00-healthcare.png"
         },
@@ -184,7 +173,7 @@
           "description": "",
           "link": "https://www.nakedcapitalism.com/2025/07/links-7-30-2025.html",
           "publishedOn": "2025-07-30T10:55:03.000Z",
-          "wordCount": 21330,
+          "wordCount": 21524,
           "title": "Links 7/30/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/07/Screenshot-2025-07-30-at-5.38.47 PM.png"
         },
@@ -194,7 +183,7 @@
           "description": "In the United States, the aim of the Current Administration is to support something called “gold-standard science.”  Their clear implication is that American scientists have been publishing something less than the gold standard – perhaps silver or bronze, or maybe even brass, when gold is the standard of the day (here and here).  We have […]",
           "link": "https://www.nakedcapitalism.com/2025/07/funding-the-fundamentals-of-biomedical-science-the-national-institutes-of-health-in-2025-and-beyond.html",
           "publishedOn": "2025-07-30T10:50:16.000Z",
-          "wordCount": 5701,
+          "wordCount": 5710,
           "title": "Funding the Fundamentals of Biomedical Science: The National Institutes of Health in 2025 and Beyond",
           "imageUrl": null
         }
@@ -222,18 +211,7 @@
       "title": "New Left Review Sidecar recent posts",
       "feedUrl": "https://newleftreview.org/sidecar/feed",
       "siteUrl": "https://newleftreview.org/sidecar/feed",
-      "articles": [
-        {
-          "id": "https://newleftreview.org/sidecar/posts/building-the-party",
-          "author": null,
-          "description": "An interview with James Schneider.",
-          "link": "https://newleftreview.org/sidecar/posts/building-the-party",
-          "publishedOn": "2025-07-25T09:53:58.000Z",
-          "wordCount": 5930,
-          "title": "James Schneider: &ldquo;Building the Party&rdquo;",
-          "imageUrl": "https://newleftreview.org/blog-uploads/2025/07/js-image-e1753363840443.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The Olognion",
@@ -244,43 +222,53 @@
     {
       "title": "Richard Seroter's Architecture Musings",
       "feedUrl": "https://seroter.com/feed/",
-      "siteUrl": "http://seroter.com",
+      "siteUrl": "https://seroter.com",
       "articles": [
         {
-          "id": "https://seroter.com/?p=23940",
+          "id": "http://seroter.com/?p=24234",
+          "author": "Richard Seroter",
+          "description": "Today's links look at what it takes to be a good PM at Google, how engineers should do evals of AI coding models, and how to secure your MCP servers.",
+          "link": "https://seroter.com/2025/07/31/daily-reading-list-july-31-2025-599/",
+          "publishedOn": "2025-08-01T01:58:47.000Z",
+          "wordCount": 4632,
+          "title": "Daily Reading List – July 31, 2025 (#599)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg"
+        },
+        {
+          "id": "http://seroter.com/?p=23940",
           "author": "Richard Seroter",
           "description": "Today's links look at video overviews in NotebookLM, how to handle team cuts with no corresponding change in scope, and performing tool-use evals for your agents.",
-          "link": "http://seroter.com/2025/07/30/daily-reading-list-july-30-2025-598/",
+          "link": "https://seroter.com/2025/07/30/daily-reading-list-july-30-2025-598/",
           "publishedOn": "2025-07-31T02:23:02.000Z",
           "wordCount": 4671,
           "title": "Daily Reading List – July 30, 2025 (#598)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
         {
-          "id": "https://seroter.com/?p=23928",
+          "id": "http://seroter.com/?p=23928",
           "author": "Richard Seroter",
           "description": "Today's links look at first principles thinking, why you shouldn't let junior engineers use gen AI for coding, and how to use a new data engineering AI agent.",
-          "link": "http://seroter.com/2025/07/29/daily-reading-list-july-29-2025-597/",
+          "link": "https://seroter.com/2025/07/29/daily-reading-list-july-29-2025-597/",
           "publishedOn": "2025-07-30T02:24:25.000Z",
           "wordCount": 4656,
           "title": "Daily Reading List – July 29, 2025 (#597)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
         {
-          "id": "https://seroter.com/?p=23916",
+          "id": "http://seroter.com/?p=23916",
           "author": "Richard Seroter",
           "description": "Today's links look at management tips for good communication, how to take an open model from discovery to production endpoint, and how to turn the Gemini CLI into a multi-agent system.",
-          "link": "http://seroter.com/2025/07/28/daily-reading-list-july-28-2025-596/",
+          "link": "https://seroter.com/2025/07/28/daily-reading-list-july-28-2025-596/",
           "publishedOn": "2025-07-29T03:18:48.000Z",
           "wordCount": 4550,
           "title": "Daily Reading List – July 28, 2025 (#596)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
         {
-          "id": "https://seroter.com/?p=23886",
+          "id": "http://seroter.com/?p=23886",
           "author": "Richard Seroter",
           "description": "Today's links look at how to better understand MCP, creating sequential agent workflows, and another way to think about burnout.",
-          "link": "http://seroter.com/2025/07/25/daily-reading-list-july-25-2025-595/",
+          "link": "https://seroter.com/2025/07/25/daily-reading-list-july-25-2025-595/",
           "publishedOn": "2025-07-25T23:19:42.000Z",
           "wordCount": 4710,
           "title": "Daily Reading List – July 25, 2025 (#595)",
@@ -299,7 +287,7 @@
           "description": "This new approach could lead to enhanced AI models for drug and materials discovery.",
           "link": "https://news.mit.edu/2025/new-algorithms-enable-efficient-machine-learning-with-symmetric-data-0730",
           "publishedOn": "2025-07-30T04:00:00.000Z",
-          "wordCount": 1653,
+          "wordCount": 1659,
           "title": "New algorithms enable efficient machine learning with symmetric data",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/MIT_Learning-Symmetric-01.jpg"
         },
@@ -309,7 +297,7 @@
           "description": "Groundbreaking MIT concert, featuring electronic and computer-generated music, was a part of the 2025 International Computer Music Conference.",
           "link": "https://news.mit.edu/2025/future-phases-showcase-new-frontiers-music-technology-interactive-performance-0729",
           "publishedOn": "2025-07-29T21:00:00.000Z",
-          "wordCount": 2214,
+          "wordCount": 2220,
           "title": "“FUTURE PHASES” showcases new frontiers in music technology and interactive performance",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202507/MIT-MTA-6-13-25-335_0.jpg"
         }
@@ -357,22 +345,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/bdca617f-e2d7-411e-a261-0d7177524b0f_700x394.avif"
-        },
-        {
-          "id": "https://www.thomasfazi.com/p/slovenias-short-lived-nato-rebellion",
-          "author": "Thomas Fazi",
-          "description": "Slovenia almost immediately backtracked on its decision to hold a referendum on NATO membership, but a massive ideological taboo has been broken — and may inspire others",
-          "link": "https://www.thomasfazi.com/p/slovenias-short-lived-nato-rebellion",
-          "publishedOn": "2025-07-25T14:07:16.000Z",
-          "wordCount": null,
-          "title": "Slovenia's (short-lived) NATO rebellion",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3c5d7681-42db-4603-9c5a-61630f670d40_2000x1416.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/3c5d7681-42db-4603-9c5a-61630f670d40_2000x1416.jpeg"
         }
       ]
     },
@@ -459,6 +431,83 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152944",
+          "author": "Scott Lemieux",
+          "description": "Jeff Bezos and the Murdoch lickspittle he hired are succeeding in their mission of wrecking the newspaper he bought because journalism is inconsistent with his hard MAGA turn: Lewis has made it clear what he doesn’t like (serious reporters, opinion writers more honest and more left-wing than Marc Theissen) and doesn’t seem to have articulated […]\nThe post Will Lewis does not cast off talent lightly. He heaves it away with great force appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/will-lewis-does-not-cast-off-talent-lightly-he-heaves-it-away-with-great-force",
+          "publishedOn": "2025-08-01T01:51:22.000Z",
+          "wordCount": null,
+          "title": "Will Lewis does not cast off talent lightly. He heaves it away with great force",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152940",
+          "author": "Scott Lemieux",
+          "description": "And several more federal judges have noticed: Federal appeals court judges on Thursday sharply questioned President Donald Trump’s authority to impose sweeping tariffs on foreign trading partners under an unprecedented use of emergency powers. Several judges of the Washington, D.C.-based Federal Circuit Court of Appeals repeatedly wondered how Trump could justify the broad tariffs using […]\nThe post Trump’s tariffs are not authorized by Congress appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/trumps-tariffs-are-not-authorized-by-congress",
+          "publishedOn": "2025-07-31T23:22:02.000Z",
+          "wordCount": null,
+          "title": "Trump’s tariffs are not authorized by Congress",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152937",
+          "author": "Erik Loomis",
+          "description": "We might not be able to do much about what is going on right now in America, but we can at least document it. Here’s a good essay on the censorship of the Park Service employee sign at Muir Woods National Monument that became the first target of the national censorship program coming from this […]\nThe post Censoring Our History appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/censoring-our-history",
+          "publishedOn": "2025-07-31T22:29:28.000Z",
+          "wordCount": null,
+          "title": "Censoring Our History",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152933",
+          "author": "Paul Campos",
+          "description": "I don’t have any kind of expertise on the issues discussed in this post, beyond reading some books on what has happened to the poorest and most socially marginal people in America over the past few decades. Here are some quotes from a discussion on the Michigan sports board. The politics on that board are […]\nThe post Homelessness, drugs, mental illness, and social policy, or the lack thereof appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/homelessness-drugs-mental-illness-and-social-policy-or-the-lack-thereof",
+          "publishedOn": "2025-07-31T21:54:34.000Z",
+          "wordCount": null,
+          "title": "Homelessness, drugs, mental illness, and social policy, or the lack thereof",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152928",
+          "author": "Cheryl Rofer",
+          "description": "From the “Visit the White House” website:\nThe post This Is What Trump Plans To Do To The White House appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/this-is-what-trump-plans-to-do-to-the-white-house",
+          "publishedOn": "2025-07-31T20:59:50.000Z",
+          "wordCount": null,
+          "title": "This Is What Trump Plans To Do To The White House",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152920",
+          "author": "Robert Farley",
+          "description": "Hegseth may have found himself a way out: Someone has started building an off-ramp for Pete Hegseth to vacate the Pentagon, and it’s not clear if it was the Defense secretary himself or frustrated officials within the Trump administration. As the Fox News personality turned Defense secretary faces mounting scrutiny over his term, especially over events such […]\nThe post Pete about to Get a Promotion? appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/pete-about-to-get-a-promotion",
+          "publishedOn": "2025-07-31T20:00:13.000Z",
+          "wordCount": null,
+          "title": "Pete about to Get a Promotion?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=152926",
+          "author": "Scott Lemieux",
+          "description": "Brown paid less money than the other Pierre Laval ivies, but the deal it made was even worse: In return for Brown agreeing to several measures aimed at dismantling certain diversity, equity and inclusion programs, the federal government will reinstate all frozen grants from the Department of Health and Human Services, restore the school’s eligibility […]\nThe post Brown’s total surrender appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/browns-total-surrender",
+          "publishedOn": "2025-07-31T19:04:46.000Z",
+          "wordCount": null,
+          "title": "Brown’s total surrender",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=152923",
           "author": "Cheryl Rofer",
           "description": "There are agreements. There are treaties. There are memoranda of understanding. Donald Trump has “deals.” Donald Trump has not told us what “deals” consist of, although we can surmise some things from his actions and the way he talks about them. They are not any of the first three things I listed. Those first three […]\nThe post The Fantasies Of A Man Who Can Bring Down The World Economy appeared first on Lawyers, Guns & Money.",
@@ -479,90 +528,6 @@
           "title": "The Loomer administration",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152914",
-          "author": "Paul Campos",
-          "description": "Three guesses regarding who this story involves, and the first two don’t count. An infamous criminal defense attorney was ridiculed Wednesday after melting down at a farmer’s market in Martha’s Vineyard. Alan Dershowitz, who defended President Donald Trump during his first impeachment hearing, was caught on video accusing a local vendor of discriminating against him. The vendor allegedly […]\nThe post The Pierogi Vendors on Martha’s Vineyard Are the Real Fascists appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/the-pierogi-vendors-on-marthas-vineyard-are-the-real-fascists",
-          "publishedOn": "2025-07-31T13:22:55.000Z",
-          "wordCount": null,
-          "title": "The Pierogi Vendors on Martha’s Vineyard Are the Real Fascists",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152912",
-          "author": "Robert Farley",
-          "description": "This last week (as consequence of the LGM Silent Auction) I had the opportunity to speak with Ed Niedermeyer, author of Ludicrous: The Unvarnished Story of Tesla Motors, host of the Autonocast, and general thinker of large thoughts. We talked through the history of Tesla, its unique corporate culture, the role of Elon Musk, the […]\nThe post LGM Podcast: The Past and Future of Tesla appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/lgm-podcast-the-past-and-future-of-tesla",
-          "publishedOn": "2025-07-31T12:34:16.000Z",
-          "wordCount": null,
-          "title": "LGM Podcast: The Past and Future of Tesla",
-          "itunes": {
-            "duration": "1:01:16"
-          },
-          "enclosure": {
-            "url": "http://media.blubrry.com/lgm/media.blubrry.com/lgm/mc.blubrry.com/lgm/lgm2025podcast15.mp3?awCollectionId=537420&awEpisodeId=11679084&aw_0_azn.pgenre=News&aw_0_1st.ri=blubrry&aw_0_azn.pcountry=US&aw_0_azn.planguage=en-us&cat_exclude=IAB1-8%2CIAB1-9%2CIAB7-41%2CIAB8-5%2CIAB8-18%2CIAB11-4%2CIAB23%2CIAB24%2CIAB25%2CIAB26&aw_0_cnt.rss=https%3A%2F%2Fwww.lawyersgunsmoneyblog.com%2Ffeed%2Fpodcast%2F",
-            "length": "88223541",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152908",
-          "author": "Erik Loomis",
-          "description": "I for one welcome our new radioactive wasp overlords. Workers at a site in South Carolina that once made key parts for nuclear bombs in the U.S. have found a radioactive wasp nest but officials said there is no danger to anyone. Employees who routinely check radiation levels at the Savannah River Site near Aiken […]\nThe post Not the Worst Thing to Come Out of South Carolina appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/not-the-worst-thing-to-come-out-of-south-carolina",
-          "publishedOn": "2025-07-31T03:46:00.000Z",
-          "wordCount": null,
-          "title": "Not the Worst Thing to Come Out of South Carolina",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152907",
-          "author": "Scott Lemieux",
-          "description": "It’s very, very, very, very bad: For months, federal courts blocked the Trump administration from developing any such plans, finding the executive order unconstitutional from top to bottom. In June, however, the Supreme Court expressly permitted the government to begin “developing and issuing public guidance about the executive’s plans to implement” Trump’s order. Acting on that decision, […]\nThe post Trump’s 14th Amendment nullification plan appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/trumps-14th-amendment-nullification-plan",
-          "publishedOn": "2025-07-31T02:45:21.000Z",
-          "wordCount": null,
-          "title": "Trump’s 14th Amendment nullification plan",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152905",
-          "author": "Scott Lemieux",
-          "description": "If Ford being profitable was a problem, Trump has solved it: Ford Motor paid out more than $800 million in tariffs last quarter, despite manufacturing most of its vehicles in the U.S. The tariff bill came from parts imported from outside of the country as well as from fees on steel and aluminum. The hit helped wipe out […]\nThe post Trump crush domestic automobile production appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/trump-crush-domestic-automobile-production",
-          "publishedOn": "2025-07-31T01:02:57.000Z",
-          "wordCount": null,
-          "title": "Trump crush domestic automobile production",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152903",
-          "author": "Erik Loomis",
-          "description": "Glad the New York Times runs soft-focus fluff pieces on Yarvin, he’s super. Your Republican Party!\nThe post Today on the Intellectual Right appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/today-on-the-intellectual-right",
-          "publishedOn": "2025-07-30T22:05:15.000Z",
-          "wordCount": null,
-          "title": "Today on the Intellectual Right",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=152901",
-          "author": "Paul Campos",
-          "description": "Fox News Grandpa is also president of the United States, a vengeful narcissist, and pretty much completely untethered from reality: President Donald Trump over the weekend called for the prosecution of music superstar Beyoncé – based on something that did not actually happen. Trump claimed in a social media post that Beyoncé broke the law by supposedly […]\nThe post Fox News Grandpa calls for prosecution of Beyonce  for imaginary crimes appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/07/fox-news-grandpa-calls-for-prosecution-of-beyonce-for-imaginary-crimes",
-          "publishedOn": "2025-07-30T21:33:18.000Z",
-          "wordCount": null,
-          "title": "Fox News Grandpa calls for prosecution of Beyonce  for imaginary crimes",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -571,6 +536,46 @@
       "feedUrl": "https://feeds.feedburner.com/Hzoh",
       "siteUrl": "https://angrybearblog.com/",
       "articles": [
+        {
+          "id": "https://angrybearblog.com/?p=178980",
+          "author": "NewDealdemocrat",
+          "description": "– by New Deal democrat Today’s GDP report for Q2 was pretty much as we expected, i.e., payback from the front-running of import tariffs in Q1. But as usual, my main focus is on the two long leading components. The headline was a 3.0% annualized increase in real GDP, rebounding from the -0.5% decrease in Q1 […]\nThe post The bottom line in Q2 GDP; front-running, payback, and contrasting long leading indicators appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2025/07/the-bottom-line-in-q2-gdp-front-running-payback-and-contrasting-long-leading-indicators",
+          "publishedOn": "2025-07-31T18:09:57.000Z",
+          "wordCount": null,
+          "title": "The bottom line in Q2 GDP; front-running, payback, and contrasting long leading indicators",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=178967",
+          "author": "Joel Eissenberg",
+          "description": "Speaking at a Breitbart event, Treasury Secretary Scott Bessent crowed about the new “Trump Accounts” in which the the parents or employer can contribute up to $5000/year. The funds are to be structured like IRAs and must be invested in portfolios tied to U.S. stock indexes. Quoth Bessent: “In a way, it is a backdoor […]\nThe post Scott Bessent says the quiet part out loud appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2025/07/scott-bessent-says-the-quiet-part-out-loud",
+          "publishedOn": "2025-07-31T12:21:29.000Z",
+          "wordCount": null,
+          "title": "Scott Bessent says the quiet part out loud",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=178955",
+          "author": "Bill Haskell",
+          "description": "The Federal Reserve left interest rates unchanged on Wednesday, keeping its benchmark range at 4.25% to 4.5%. In his remarks, Fed Chair Jerome Powell explained the committee’s view that “the economy is in a solid position.” However, growth has moderated, he said, and consumer spending has slowed in the first half of the year. What’s […]\nThe post It Does Not Look Like Jerome Powell is Responding to the Deal Offered Up appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2025/07/it-does-not-look-like-jerome-powell-is-responding-to-the-deal-offered-up",
+          "publishedOn": "2025-07-31T11:30:00.000Z",
+          "wordCount": null,
+          "title": "It Does Not Look Like Jerome Powell is Responding to the Deal Offered Up",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=178959",
+          "author": "Angry Bear",
+          "description": "In selecting Supreme Court clerks, much has changed over the past 25 years—but one thing has not. The U.S. Supreme Court currently stands in recess, but that doesn’t mean nothing’s happening at One First Street. Although the justices generally aren’t in the building, as they typically travel or teach over the summer, July is an […]\nThe post Something Interesting? Clerking, How Does It happen appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2025/07/something-interesting-clerking-how-does-it-happen",
+          "publishedOn": "2025-07-31T11:00:00.000Z",
+          "wordCount": null,
+          "title": "Something Interesting? Clerking, How Does It happen",
+          "imageUrl": null
+        },
         {
           "id": "https://angrybearblog.com/?p=178946",
           "author": "Joel Eissenberg",
@@ -849,46 +854,6 @@
           "publishedOn": "2025-07-25T16:36:16.000Z",
           "wordCount": null,
           "title": "The future of journalism",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178780",
-          "author": "NewDealdemocrat",
-          "description": "– by New Deal democrat This morning’s report on new home sales for June indicated that sales continue to be rangebound, YoY prices continue to decline, and inventory of homes for sale continue to rise. This complicates the story of rebalancing between new and existing homes. To recapitulate, while new home sales are the most leading measure […]\nThe post New home sales continue rangebound, prices continue to decline, inventory continues to rise appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/new-home-sales-continue-rangebound-prices-continue-to-decline-inventory-continues-to-rise",
-          "publishedOn": "2025-07-25T14:15:00.000Z",
-          "wordCount": null,
-          "title": "New home sales continue rangebound, prices continue to decline, inventory continues to rise",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178501",
-          "author": "Joel Eissenberg",
-          "description": "Recently, Trump said he was “thinking about” ending capital gains taxes on home sales. Who benefits? “The biggest beneficiaries of such a change will likely be longtime homeowners in the country’s more expensive housing markets. “Removing or increasing the capital gains limit — currently $250,000 for single homeowners or $500,000 for married couples — on […]\nThe post Trump wants to end capital gains tax on home sales appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/trump-wants-to-end-capital-gains-tax-on-home-sales",
-          "publishedOn": "2025-07-25T13:18:18.000Z",
-          "wordCount": null,
-          "title": "Trump wants to end capital gains tax on home sales",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178729",
-          "author": "Angry Bear",
-          "description": "Millions of Americans No Longer Have Hospital Care in Their Community Over the past decade, more than 100 rural hospitals have closed. As a result, the millions of Americans who live in those communities no longer have access to an emergency room, in patient care, and many other hospital services that citizens in most of […]\nThe post Rural Hospitals Closing Leaving Millions with No Hospital Care appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/rural-hospitals-closing-leaving-millions-with-no-hospital-care",
-          "publishedOn": "2025-07-25T11:30:00.000Z",
-          "wordCount": null,
-          "title": "Rural Hospitals Closing Leaving Millions with No Hospital Care",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=178762",
-          "author": "Angry Bear",
-          "description": "A long report by Joyce Vance today. It covers quite a bit of territory including Epstein. Maybe disagreeing courts on this one. One temp was let go . . . no loss there. Court’s ruling on Garcia. He could be deported again. Redistricting taken up and probably gerrymandered, Courts and Trump disagreeing. It is pretty […]\nThe post Federal Court Updates appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/07/federal-court-updates",
-          "publishedOn": "2025-07-25T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Federal Court Updates",
           "imageUrl": null
         }
       ]
