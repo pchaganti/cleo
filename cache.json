@@ -37,7 +37,38 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": []
+      "articles": [
+        {
+          "id": "f0b353f748afc19e4771f514fdc2c13b2cba8e8c",
+          "author": "Hyeonho Kim",
+          "description": "This two-part series shows how Karrot developed a new feature platform, which consists of three main components: feature serving, a stream ingestion pipeline, and a batch ingestion pipeline. This post starts by presenting our motivation, our requirements, and the solution architecture, focusing on feature serving.",
+          "link": "https://aws.amazon.com/blogs/architecture/how-karrot-built-a-feature-platform-on-aws-part-1-motivation-and-feature-serving/",
+          "publishedOn": "2025-08-14T15:16:29.000Z",
+          "wordCount": 6329,
+          "title": "How Karrot built a feature platform on AWS, Part 1: Motivation and feature serving",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/08/14/archblog-1196-image-2.jpg"
+        },
+        {
+          "id": "ffe74b94a09d11ea832ba2894d087fee5dac7ba2",
+          "author": "Hyeonho Kim",
+          "description": "This two-part series shows how Karrot developed a new feature platform, which consists of three main components: feature serving, a stream ingestion pipeline, and a batch ingestion pipeline. This post covers the process of collecting features in real-time and batch ingestion into an online store, and the technical approaches for stable operation.",
+          "link": "https://aws.amazon.com/blogs/architecture/how-karrot-built-a-feature-platform-on-aws-part-2-feature-ingestion/",
+          "publishedOn": "2025-08-14T15:16:27.000Z",
+          "wordCount": 6028,
+          "title": "How Karrot built a feature platform on AWS, Part 2: Feature ingestion",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/08/14/archblog-1196-image-3-1.png"
+        },
+        {
+          "id": "20839a03a5918a0c532d94a65182715126ce4ff0",
+          "author": "Vishal Naik",
+          "description": "In this post, we demonstrate how to deploy the DeepSeek-R1-Distill-Qwen-32B model using AWS DLCs for vLLMs on Amazon EKS, showcasing how these purpose-built containers simplify deployment of this powerful open source inference engine. This solution can help you solve the complex infrastructure challenges of deploying LLMs while maintaining performance and cost-efficiency.",
+          "link": "https://aws.amazon.com/blogs/architecture/deploy-llms-on-amazon-eks-using-vllm-deep-learning-containers/",
+          "publishedOn": "2025-08-14T15:09:51.000Z",
+          "wordCount": 7643,
+          "title": "Deploy LLMs on Amazon EKS using vLLM Deep Learning Containers",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/08/04/image-2-3.png"
+        }
+      ]
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
@@ -63,7 +94,7 @@
         {
           "id": "f2cee78969814dbd7cd66d26d9b4dfe6295349c0",
           "author": "Kevon Mayers",
-          "description": "MCP (Model Control Protocol) is a protocol designed to standardize interactions with Generative AI models, making it easier to build and manage AI applications. It provides a consistent way to communicate context with different types of models, regardless of where they’re hosted or how they’re implemented. The protocol helps bridge the gap between model deployment […]",
+          "description": "MCP (Model Context Protocol) is a protocol designed to standardize interactions with Generative AI models, making it easier to build and manage AI applications. It provides a consistent way to communicate context with different types of models, regardless of where they’re hosted or how they’re implemented. The protocol helps bridge the gap between model deployment […]",
           "link": "https://aws.amazon.com/blogs/devops/flexibility-to-framework-building-mcp-servers-with-controlled-tool-orchestration/",
           "publishedOn": "2025-08-13T07:49:08.000Z",
           "wordCount": 5626,
@@ -78,12 +109,32 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=296817",
+          "author": "Curro Jimenez",
+          "description": "The rules-based order is giving way to one of 'sphere of influence,' and in Latin America the U.S. is showing what could look like one",
+          "link": "https://www.nakedcapitalism.com/2025/08/in-latin-america-the-us-is-showing-what-the-future-world-order-might-look-like.html",
+          "publishedOn": "2025-08-14T18:00:56.000Z",
+          "wordCount": 3624,
+          "title": "In Latin America, the US Is Showing What the Future World-Order Might Look Like",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=296809",
+          "author": "Yves Smith",
+          "description": "Researchers typically ask why people get cancer. What if they studied why some survive — or never develop the disease?",
+          "link": "https://www.nakedcapitalism.com/2025/08/cancer-super-survivors-may-hold-keys-to-new-treatments.html",
+          "publishedOn": "2025-08-14T14:00:30.000Z",
+          "wordCount": 5427,
+          "title": "Cancer Super-Survivors May Hold Keys to New Treatments",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=296774",
           "author": "Conor Gallagher",
           "description": "Our daily links, including Trump’s minerals proposal for Putin AI chip trackers, Pathogens and aging, and validation culture.",
           "link": "https://www.nakedcapitalism.com/2025/08/links-8-14-2025.html",
           "publishedOn": "2025-08-14T10:55:15.000Z",
-          "wordCount": 6631,
+          "wordCount": 12656,
           "title": "Links 8/14/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/image-819x1024.webp"
         },
@@ -93,7 +144,7 @@
           "description": "A Sanders effort to preserve Social Security shows some of the Trump vectors of attack.",
           "link": "https://www.nakedcapitalism.com/2025/08/sanders-bill-would-fight-trump-effort-to-dismantle-social-security.html",
           "publishedOn": "2025-08-14T10:54:05.000Z",
-          "wordCount": 3561,
+          "wordCount": 3923,
           "title": "Sanders Bill Would Fight Trump Effort to ‘Dismantle Social Security’",
           "imageUrl": null
         },
@@ -103,7 +154,7 @@
           "description": "James Galbraith argues that economics can't keep ignoring that energy and resources for production are no longer abundant and easy to access",
           "link": "https://www.nakedcapitalism.com/2025/08/james-galbraith-from-the-fossil-fuel-civilization-into-economics-gets-a-biophysical-reality-check.html",
           "publishedOn": "2025-08-14T09:00:18.000Z",
-          "wordCount": 12974,
+          "wordCount": 13562,
           "title": "James Galbraith: From the Fossil-Fuel Civilization Into …?  Economics Gets a Biophysical Reality Check",
           "imageUrl": null
         },
@@ -113,7 +164,7 @@
           "description": "Tracing the increased concentration of power in our elites, and how Trump is in the process of consolidating it in his person.",
           "link": "https://www.nakedcapitalism.com/2025/08/thomas-neuburger-our-lawless-elites.html",
           "publishedOn": "2025-08-14T06:46:54.000Z",
-          "wordCount": 5599,
+          "wordCount": 6409,
           "title": "Thomas Neuburger: Our Lawless Elites",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/00-elites-scaled.jpeg"
         },
@@ -123,7 +174,7 @@
           "description": "Trump and the GOP's extra-Constitutional acts in Washington, D.C., California, and Texas raise questions about the Posse Comatitus Act.",
           "link": "https://www.nakedcapitalism.com/2025/08/posse-comitatus-trump-california-washington-dc-texas-redistricting.html",
           "publishedOn": "2025-08-13T18:00:58.000Z",
-          "wordCount": 9072,
+          "wordCount": 9071,
           "title": "Coffee Break: Posse Comitatus and Trump’s Post-Constitutional Order",
           "imageUrl": null
         },
@@ -133,7 +184,7 @@
           "description": "How the much-bruited Trump Caucasus deal, meant to cause trouble for Iran and Russia, is only a napkin doodle and may never be more than that",
           "link": "https://www.nakedcapitalism.com/2025/08/iran-and-russia-vow-to-block-u-s-caucasus-ambitions.html",
           "publishedOn": "2025-08-13T13:55:45.000Z",
-          "wordCount": 4251,
+          "wordCount": 4250,
           "title": "Iran and Russia Vow to Block U.S. Caucasus Ambitions",
           "imageUrl": null
         },
@@ -143,7 +194,7 @@
           "description": "Our daily links, including deleting emails to save the planet, pre-Alaska summit shenanigans, and a US ‘reaction force’ for civil unrest.",
           "link": "https://www.nakedcapitalism.com/2025/08/links-8-13-2025.html",
           "publishedOn": "2025-08-13T10:55:15.000Z",
-          "wordCount": 12834,
+          "wordCount": 12833,
           "title": "Links 8/13/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/Screenshot-2025-08-12-at-11.48.51 AM-815x1024.png"
         },
@@ -153,28 +204,8 @@
           "description": "The 7 August 2025 issue of Nature included an interesting article on The Science Fiction Science Method (paywall) by Iyad Rahwan, Azim Shariff, and Jean-François Bonnefon.  The scientific method is difficult enough to understand these days, especially regarding previously important but mundane scientific advances such as vaccines.  The Science Fiction Science (SFS) Method is likely […]",
           "link": "https://www.nakedcapitalism.com/2025/08/science-fiction-science-and-artificial-intelligence-in-our-future.html",
           "publishedOn": "2025-08-13T10:50:29.000Z",
-          "wordCount": 7296,
+          "wordCount": 7295,
           "title": "Science Fiction Science and Artificial Intelligence in Our Future",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=296753",
-          "author": "Yves Smith",
-          "description": "Trump beats a big retreat in what he expects from the Putin summit even as Russia scores a major battlefield breakthrough.",
-          "link": "https://www.nakedcapitalism.com/2025/08/putin-trump-summit-press-and-collective-west-political-hysteria-escalates-as-russia-makes-large-significant-advance-near-povrosk.html",
-          "publishedOn": "2025-08-13T10:50:23.000Z",
-          "wordCount": 10017,
-          "title": "Putin-Trump Summit: Press and Collective West Political Hysteria Escalates as Russia Makes Large, Significant Advance Near Pokrovsk",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/00-putin.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=296750",
-          "author": "Yves Smith",
-          "description": "Private debt levels, particularly for real estate, look evocative of the 2008 crisis.  But how is a rerun likely to differ?",
-          "link": "https://www.nakedcapitalism.com/2025/08/could-2008-happen-again.html",
-          "publishedOn": "2025-08-13T07:29:40.000Z",
-          "wordCount": 7144,
-          "title": "“Could 2008 Happen Again?”",
           "imageUrl": null
         }
       ]
@@ -251,7 +282,7 @@
           "description": "Today's links look at why your agent needs MCP, how Yahoo! Calendar moved from on-prem to cloud, and why AI-assisted coding will change product management.",
           "link": "https://seroter.com/2025/08/12/daily-reading-list-august-12-2025-607/",
           "publishedOn": "2025-08-12T23:50:55.000Z",
-          "wordCount": 4678,
+          "wordCount": 4702,
           "title": "Daily Reading List – August 12, 2025 (#607)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -283,12 +314,22 @@
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
         {
+          "id": "https://news.mit.edu/2025/using-generative-ai-researchers-design-compounds-kill-drug-resistant-bacteria-0814",
+          "author": "Anne Trafton | MIT News",
+          "description": "The team used two different AI approaches to design novel antibiotics, including one that showed promise against MRSA.",
+          "link": "https://news.mit.edu/2025/using-generative-ai-researchers-design-compounds-kill-drug-resistant-bacteria-0814",
+          "publishedOn": "2025-08-14T15:00:00.000Z",
+          "wordCount": 1894,
+          "title": "Using generative AI, researchers design compounds that can kill drug-resistant bacteria",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202508/MIT-Novel-Antibiotics-01.jpg"
+        },
+        {
           "id": "https://news.mit.edu/2025/new-way-test-how-well-ai-systems-classify-text-0813",
           "author": "David Chandler | MIT Laboratory for Information and Decision Systems",
           "description": "As large language models increasingly dominate our everyday lives, new systems for checking their reliability are more important than ever.",
           "link": "https://news.mit.edu/2025/new-way-test-how-well-ai-systems-classify-text-0813",
           "publishedOn": "2025-08-13T19:00:00.000Z",
-          "wordCount": 1994,
+          "wordCount": 1989,
           "title": "A new way to test how well AI systems classify text",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202508/mit-lids-text-classifier.jpg"
         },
@@ -298,9 +339,9 @@
           "description": "The Initiative for New Manufacturing is convening experts across the Institute to drive a transformation of production across the U.S. and the world.",
           "link": "https://news.mit.edu/2025/mit-gears-transform-manufacturing-0813",
           "publishedOn": "2025-08-13T19:00:00.000Z",
-          "wordCount": 1835,
+          "wordCount": 1830,
           "title": "MIT gears up to transform manufacturing",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202508/mit-John-Hart.jpg"
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202508/john-hart-mit-00.png"
         }
       ]
     },
@@ -396,6 +437,28 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=153235",
+          "author": "Robert Farley",
+          "description": "I don’t have any idea how negotiations between Putin and Trump are going to work out tomorrow, and I’m withholding judgment until we at least get a sense of the deliverables. Some general thoughts over at National Security Journal… Given the breadth of the differences between Kyiv and Moscow, many worry that the talks will […]\nThe post The Negotiations appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/the-negotiations-2",
+          "publishedOn": "2025-08-14T17:38:45.000Z",
+          "wordCount": null,
+          "title": "The Negotiations",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=153234",
+          "author": "Paul Campos",
+          "description": "I don’t think it’s a healthy thing when the Newspaper Of Record publishes a long feature (gift link) on how rich people holding destination weddings are increasingly (no stats of course) hiring various witches, shamans, mystical healers, white guys pretending to be some exotic combination of whatever etc. to bring about world peace keep it […]\nThe post Science or witchcraft? appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/science-or-witchcraft",
+          "publishedOn": "2025-08-14T16:19:43.000Z",
+          "wordCount": null,
+          "title": "Science or witchcraft?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=153224",
           "author": "Robert Farley",
           "description": "Jacob Levy captures most of my disdain for this horsefucker: Maybe it’s just me, and maybe it’s just that I’m grumpy after having sat through 82 (this may be a slight overestimate) hours of involuntary ethics training because some piece of shit over on the medical side decided to torch every element of the scientific […]\nThe post Arts and/or Sciences? appeared first on Lawyers, Guns & Money.",
@@ -469,28 +532,6 @@
           "publishedOn": "2025-08-13T17:39:58.000Z",
           "wordCount": null,
           "title": "Sherrod!",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=153203",
-          "author": "Erik Loomis",
-          "description": "Donald Trump’s pro-worker agenda is leading to him unilaterally stripping collective bargaining rights from government agencies. That includes the Environmental Protection Agency, using national security grounds to justify it. Now, what is the connection between the EPA and national security here? Hmmm.. Talking Points Memo chatted with me about this and I got to spread […]\nThe post The End of Federal Unionism appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/the-end-of-federal-unionism",
-          "publishedOn": "2025-08-13T17:04:28.000Z",
-          "wordCount": null,
-          "title": "The End of Federal Unionism",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=153202",
-          "author": "Paul Campos",
-          "description": "David Wallace-Wells and Emily Oster have a conversation [gift link] about RFK Jr.’s tenure as HHS secretary, in which they acknowledge that it’s been what they call a worst case scenario, and I would call RFK doing exactly what he said he would do, so predicting that what has happened was going to happen doesn’t […]\nThe post Reactionary frames about public health are no better than reactionary frames about politics appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/reactionary-frames-about-public-health-are-no-better-than-reactionary-frames-about-politics",
-          "publishedOn": "2025-08-13T15:24:51.000Z",
-          "wordCount": null,
-          "title": "Reactionary frames about public health are no better than reactionary frames about politics",
           "itunes": {},
           "imageUrl": null
         }
