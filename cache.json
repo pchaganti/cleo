@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "4c484ec7735f37c877879bac26af61d4e976f64a",
+          "author": "Veliswa Boya",
+          "description": "R8i and R8i-flex instances powered by Intel Xeon processors offer up to 15% better price performance, 20% higher performance, and 2.5 times more memory throughput compared to previous generations.",
+          "link": "https://aws.amazon.com/blogs/aws/best-performance-and-fastest-memory-with-the-new-amazon-ec2-r8i-and-r8i-flex-instances/",
+          "publishedOn": "2025-08-19T19:16:24.000Z",
+          "wordCount": 4772,
+          "title": "Best performance and fastest memory with the new Amazon EC2 R8i and R8i-flex instances",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/12/14/EC2-with-gradient.png"
+        },
+        {
           "id": "c70d375bb24a303a9244464dcb67baf78b89e31a",
           "author": "Prasad Rao",
           "description": "Let me start this week’s update with something I’m especially excited about – the upcoming BeSA (Become a Solutions Architect) cohort. BeSA is a free mentoring program that I host along with a few other AWS employees on a volunteer basis to help people excel in their cloud careers. Last week, the instructors’ lineup was […]",
@@ -59,6 +69,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
       "articles": [
         {
+          "id": "0d565efc35362a3d9589a2b731a75696d6adf812",
+          "author": "Kris Severijns",
+          "description": "In this post, we explore how CommSec, Australia's leading online broker, transitioned from a multicloud environment to AWS as their sole cloud provider while implementing Amazon Application Recovery Controller (ARC) zonal shift to maintain high availability and operational resilience. The consolidation resulted in significant benefits including 25% base capacity reduction, two times faster deployments, and improved failover capabilities through ARC zonal shift, enabling CommSec to continue serving millions of customers while meeting strict regulatory requirements.",
+          "link": "https://aws.amazon.com/blogs/architecture/how-commbank-made-their-commsec-trading-platform-highly-available-and-operationally-resilient/",
+          "publishedOn": "2025-08-19T23:49:16.000Z",
+          "wordCount": 5276,
+          "title": "How CommBank made their CommSec trading platform highly available and operationally resilient",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/07/23/ARCHBLOG-12181-813x630.png"
+        },
+        {
           "id": "f0b353f748afc19e4771f514fdc2c13b2cba8e8c",
           "author": "Hyeonho Kim",
           "description": "This two-part series shows how Karrot developed a new feature platform, which consists of three main components: feature serving, a stream ingestion pipeline, and a batch ingestion pipeline. This post starts by presenting our motivation, our requirements, and the solution architecture, focusing on feature serving.",
@@ -102,24 +122,24 @@
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
         {
-          "id": "daf598ab3ff49edb16f694b041d917f9df9037c6",
-          "author": "Kevon Mayers",
-          "description": "Today, we’re officially announcing the AWS Cloud Control API (CCAPI) MCP Server. This MCP server transforms AWS infrastructure management by allowing developers to create, read, update, delete, and list resources using natural language. As part of the awslabs/mcp project, this new and innovative tool serves as a bridge between natural language commands and AWS infrastructure […]",
-          "link": "https://aws.amazon.com/blogs/devops/introducing-aws-cloud-control-api-mcp-server-natural-language-infrastructure-management-on-aws/",
-          "publishedOn": "2025-08-13T07:53:40.000Z",
-          "wordCount": 6017,
-          "title": "Introducing AWS Cloud Control API MCP Server: Natural Language Infrastructure Management on AWS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/08/09/ccapi-mcp-server-launch-blog-featured-image-1127x630.png"
+          "id": "69c7c3b31106e1ece81b5f7f73819231db196479",
+          "author": "Ed McLaughlin",
+          "description": "We are announcing the end-of-support for the AWS SDK for .NET v3.x starting on March 1, 2026, in accordance with the SDK and Tools maintenance policy.  On April 28, 2025, the next major version of the AWS SDK for .NET, version 4.x, became generally available (blog post). Version 4.x of the SDK includes bug fixes, […]",
+          "link": "https://aws.amazon.com/blogs/devops/announcing-the-end-of-support-for-the-aws-sdk-for-net-v3/",
+          "publishedOn": "2025-08-19T22:01:52.000Z",
+          "wordCount": 4415,
+          "title": "Announcing the end-of-support for the AWS SDK for .NET v3",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/08/19/Announcing-the-end-of-support-for-the-AWS-SDK-for-.NET-v3-1120x630.png"
         },
         {
-          "id": "f2cee78969814dbd7cd66d26d9b4dfe6295349c0",
-          "author": "Kevon Mayers",
-          "description": "MCP (Model Context Protocol) is a protocol designed to standardize interactions with Generative AI models, making it easier to build and manage AI applications. It provides a consistent way to communicate context with different types of models, regardless of where they’re hosted or how they’re implemented. The protocol helps bridge the gap between model deployment […]",
-          "link": "https://aws.amazon.com/blogs/devops/flexibility-to-framework-building-mcp-servers-with-controlled-tool-orchestration/",
-          "publishedOn": "2025-08-13T07:49:08.000Z",
-          "wordCount": 5626,
-          "title": "Flexibility to Framework: Building MCP Servers with Controlled Tool Orchestration",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/08/09/mcp-orchestration-blog-featured-image-1121x630.png"
+          "id": "61cd71243795ee188e2625368ea925f589283160",
+          "author": "Ed McLaughlin",
+          "description": "We are announcing the end-of-support for the AWS Tools for PowerShell v4.x starting on March 1, 2026, in accordance with the SDK and Tools maintenance policy. On June 23, 2025, the next major version of the AWS Tools for PowerShell, version 5.x, became generally available (blog post). Version 5.x of the AWS Tools for PowerShell […]",
+          "link": "https://aws.amazon.com/blogs/devops/announcing-the-end-of-support-for-aws-tools-for-powershell-v4/",
+          "publishedOn": "2025-08-19T22:01:49.000Z",
+          "wordCount": 4411,
+          "title": "Announcing the end-of-support for AWS Tools for PowerShell v4",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/08/19/EndOfSupportPowerShellv4-1120x630.png"
         }
       ]
     },
@@ -134,7 +154,7 @@
           "description": "Armored knights vanished when gunpowder weapons made them ineffective, and cavalry vanished when motorized transport and tanks arrived on the battlefield. I believe infantry will likely be the next category of warriors to disappear. History shows that survival, cost-effectiveness, and competitive advantage dictate military force composition—not tradition. The lessons are clear: when a combat role […]",
           "link": "https://www.nakedcapitalism.com/2025/08/coffee-break-armed-madhouse-the-vanishing-soldiers.html",
           "publishedOn": "2025-08-19T18:00:49.000Z",
-          "wordCount": 4257,
+          "wordCount": 7859,
           "title": "Coffee Break: Armed Madhouse – The Vanishing Foot Soldier",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/Logistics-comparison-e1755568233917.png"
         },
@@ -144,7 +164,7 @@
           "description": "Data centers, with AI driving  insatiable  needs, not only hoover up tons of power but water as well.  And water is already a contested resource",
           "link": "https://www.nakedcapitalism.com/2025/08/data-centers-consume-massive-amounts-of-water-companies-rarely-tell-the-public-exactly-how-much.html",
           "publishedOn": "2025-08-19T13:55:59.000Z",
-          "wordCount": 5406,
+          "wordCount": 6613,
           "title": "Data Centers Consume Massive Amounts of Water – Companies Rarely Tell the Public Exactly How Much",
           "imageUrl": null
         },
@@ -154,7 +174,7 @@
           "description": "Our strutting daily links: Pet Ozempic? US child deaths soar,, Canada wildfire toll, China cement slump, Oz economy woes, repeat Covid casualties, EU weak production, Hamas accepts new offer, Trump-Zelensky post mortems, No Kings big turnout, tariffs wipe out farmers, Trump loss v. Media Matters,",
           "link": "https://www.nakedcapitalism.com/2025/08/links-8-19-2025.html",
           "publishedOn": "2025-08-19T10:55:44.000Z",
-          "wordCount": 13206,
+          "wordCount": 15858,
           "title": "Links 8/19/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/Screenshot-2025-08-19-at-1.08.44 PM.png"
         },
@@ -164,7 +184,7 @@
           "description": "The \"Chat Control\" law threatens to transform the Internet into an even more centrally controlled, surveilled environment. And it could be a legal reality by October.",
           "link": "https://www.nakedcapitalism.com/2025/08/the-eus-new-plans-for-online-communications-are-terrifying.html",
           "publishedOn": "2025-08-19T10:45:59.000Z",
-          "wordCount": 6657,
+          "wordCount": 6776,
           "title": "The EU’s Latest Plan to Stifle Online Privacy Is Terrifying",
           "imageUrl": "https://reclaimthenet.org/wp-content/uploads/2025/08/KjHNKbugk1WC.jpg"
         },
@@ -174,7 +194,7 @@
           "description": "The Trump team is still talking about Russia cedeing territory in Ukraine, aka land swaps. Some detail on why that is quite a stretch.",
           "link": "https://www.nakedcapitalism.com/2025/08/can-putin-legally-stop-the-ukraine-conflict-without-first-controlling-all-the-disputed-territory.html",
           "publishedOn": "2025-08-19T10:02:00.000Z",
-          "wordCount": 5767,
+          "wordCount": 6272,
           "title": "Can Putin Legally Stop the Ukraine Conflict Without First Controlling All the Disputed Territory?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/00-ukraine.jpg"
         },
@@ -184,7 +204,7 @@
           "description": "A reader critical thinking exercise! Time to take a hard look at a study that argues that losing your job may not be all that terrible.",
           "link": "https://www.nakedcapitalism.com/2025/08/new-study-attempts-to-candy-coat-impact-of-job-loss.html",
           "publishedOn": "2025-08-19T08:20:46.000Z",
-          "wordCount": 5540,
+          "wordCount": 5538,
           "title": "New Study Attempts to Candy-Coat Impact of Job Loss",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/Screenshot-2025-08-19-at-2.00.41 PM.png"
         },
@@ -194,7 +214,7 @@
           "description": "The New Jersey and Virginia 2025 gubernatorial elections provide a preview of the 2026 midterm elections occurring in the shadow of Trump.",
           "link": "https://www.nakedcapitalism.com/2025/08/american-2026-primaries-maga-democrats-socialists.html",
           "publishedOn": "2025-08-18T18:00:52.000Z",
-          "wordCount": 6430,
+          "wordCount": 6427,
           "title": "Coffee Break: 2025 Gubernatorial Races Provide Preview for 2026 Mid-term Elections",
           "imageUrl": null
         },
@@ -204,7 +224,7 @@
           "description": "Lufthansa behaves badly. Circulate to everyone you know who flies to Europe to warn them of what might be in store.",
           "link": "https://www.nakedcapitalism.com/2025/08/boycott-lufthansa-removed-passenger-from-flight-for-wearing-a-medical-mask.html",
           "publishedOn": "2025-08-18T13:55:57.000Z",
-          "wordCount": 7368,
+          "wordCount": 7365,
           "title": "Boycott Lufthansa: Removed  Passenger from Flight for Wearing a Medical Mask",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/Screenshot-2025-08-18-at-8.47.33 PM.png"
         },
@@ -214,7 +234,7 @@
           "description": "Our daily links, including US spin on Alaska Summit, toxic wildfires, US blocks medical care for Gaza children, and why did Hollywood stop making comedies?",
           "link": "https://www.nakedcapitalism.com/2025/08/links-8-18-2025.html",
           "publishedOn": "2025-08-18T10:55:58.000Z",
-          "wordCount": 13693,
+          "wordCount": 13690,
           "title": "Links 8/18/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/Screenshot-2025-08-17-at-1.03.33 PM-1024x610.png"
         },
@@ -224,7 +244,7 @@
           "description": "Zelensky, EU leaders, and neocons are loaded for bear in their effort to sabotage the Alaska summit. Lindsey Graham still leads that charge.",
           "link": "https://www.nakedcapitalism.com/2025/08/fog-of-summit-and-neocon-backlash-lindsey-graham-readies-threat-of-designating-russia-a-terrorist-state.html",
           "publishedOn": "2025-08-18T10:37:01.000Z",
-          "wordCount": 12790,
+          "wordCount": 12787,
           "title": "Fog of Summit and Neocon Backlash: Lindsey Graham Readies Threat of Designating Russia a Terrorist State",
           "imageUrl": null
         }
@@ -380,7 +400,7 @@
           "description": "The team used two different AI approaches to design novel antibiotics, including one that showed promise against MRSA.",
           "link": "https://news.mit.edu/2025/using-generative-ai-researchers-design-compounds-kill-drug-resistant-bacteria-0814",
           "publishedOn": "2025-08-14T15:00:00.000Z",
-          "wordCount": 1992,
+          "wordCount": 2126,
           "title": "Using generative AI, researchers design compounds that can kill drug-resistant bacteria",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202508/MIT-Novel-Antibiotics-01.jpg"
         },
@@ -481,6 +501,50 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=153358",
+          "author": "Erik Loomis",
+          "description": "Since we discussed this lovely moment earlier, let’s revisit the speech this evening. Good times.\nThe post LGM Film Club, Part 506: Clinton’s Sister Souljah Moment appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/lgm-film-club-part-506-clintons-sister-souljah-moment",
+          "publishedOn": "2025-08-20T01:09:00.000Z",
+          "wordCount": null,
+          "title": "LGM Film Club, Part 506: Clinton’s Sister Souljah Moment",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=153368",
+          "author": "Cheryl Rofer",
+          "description": "Here’s a full post because the bits and pieces on Bluesky are not doing anyone any favors. The FDA has warned that there may be radioactive cesium-137 in Great Value frozen shrimp from Walmart. No shrimp have been found to contain Cs-137, but “U.S. Customs and Border Protection alerted the FDA about possible Cesium-137, or […]\nThe post Check Your Shrimp appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/check-your-shrimp",
+          "publishedOn": "2025-08-19T21:07:33.000Z",
+          "wordCount": null,
+          "title": "Check Your Shrimp",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=153365",
+          "author": "Paul Campos",
+          "description": "I’ll confess I hadn’t been paying much attention to law school finances at the national level over the past few years — only at my school, which happens to be completely broke (we couldn’t even make payroll this current fiscal year without robbing the piggy bank aka “gifts,” but we just got an email about […]\nThe post The million dollar law degree (not that one) appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/the-million-dollar-law-degree-not-that-one",
+          "publishedOn": "2025-08-19T20:19:57.000Z",
+          "wordCount": null,
+          "title": "The million dollar law degree (not that one)",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=153364",
+          "author": "Scott Lemieux",
+          "description": "As a matter of principle, I support sore loser laws to prevent primary losers from acting as spoilers. But in this specific case I’m happy that the local laws allow a particularly dislikeable politician to get humiliated a second time: Andrew Cuomo’s counting on President Donald Trump and top Republicans to tell the party faithful to […]\nThe post Suburbanite convinced path to winning New York City is the support of Donald Trump appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/suburbanite-convinced-path-to-winning-new-york-city-is-the-support-of-donald-trump",
+          "publishedOn": "2025-08-19T18:52:09.000Z",
+          "wordCount": null,
+          "title": "Suburbanite convinced path to winning New York City is the support of Donald Trump",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=153362",
           "author": "Paul Campos",
           "description": "Eleanor Holmes Norton, Washington D.C.’s non-voting congressional representative, is pretty much MIA as Donald Trump engages in a little not so light fascism against the city she is supposed to be representing: Washington’s locally elected government is under attack from President Donald Trump and congressional Republicans. But the capital city’s self-proclaimed “warrior on the Hill” […]\nThe post Great moments in gerontocracy appeared first on Lawyers, Guns & Money.",
@@ -534,50 +598,6 @@
           "title": "Air Canada Strike",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=153352",
-          "author": "Robert Farley",
-          "description": "Quick reaction to the summits: Perhaps most surprising, the question of security guarantees for Ukraine have re-emerged as a potential pillar of the peace agreement. President Trump, Secretary Rubio, and chief negotiator Steve Witkoff all discussed the possibility of establishing the kinds of security guarantees that Kyiv has long sought and that Moscow has tried to push off the table. […]\nThe post The Summits appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/the-summits",
-          "publishedOn": "2025-08-19T11:45:00.000Z",
-          "wordCount": null,
-          "title": "The Summits",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=153216",
-          "author": "Erik Loomis",
-          "description": "This is the grave of Johnnie Cochran. “If it doesn’t fit, you must acquit!” There is no other way to start any piece on Johnnie Cochran, who became the most notorious lawyer in the 1990s when he got OJ Simpson off from a murder he obviously committed. Born in 1937 in Shreveport, Louisiana, Cochran grew […]\nThe post Erik Visits an American Grave, Part 1,945 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/erik-visits-an-american-grave-part-1945",
-          "publishedOn": "2025-08-19T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Erik Visits an American Grave, Part 1,945",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=153349",
-          "author": "Scott Lemieux",
-          "description": "Good boy! President Donald Trump pledged Monday that he will try to eliminate mail-in voting, after telling Fox News that authoritarian Russian President Vladimir Putin agreed with him on the subject during their meeting last week.  Despite lacking any sort of constitutional power on the matter, Trump declared in a Truth Social post that he would sign an executive order to “help […]\nThe post Putin’s sock puppet issues unconstitutional order to change state voting laws appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/putins-sock-puppet-issues-unconstitutional-order-to-change-state-voting-laws",
-          "publishedOn": "2025-08-19T02:12:34.000Z",
-          "wordCount": null,
-          "title": "Putin’s sock puppet issues unconstitutional order to change state voting laws",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=153346",
-          "author": "Paul Campos",
-          "description": "Anna Kirkland has an interesting article about the so-called vaccine court, and RFK Jr.’s possible attempts to sabotage it: For almost 40 years, people who suspect they’ve been harmed by a vaccine have been able to turn to a little-known system called the Vaccine Injury Compensation Program – often simply called the vaccine court.  Health and Human […]\nThe post RFK Jr. and the Vaccine Court appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/08/rfk-jr-and-the-vaccine-court",
-          "publishedOn": "2025-08-18T21:19:02.000Z",
-          "wordCount": null,
-          "title": "RFK Jr. and the Vaccine Court",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -586,6 +606,56 @@
       "feedUrl": "https://feeds.feedburner.com/Hzoh",
       "siteUrl": "https://angrybearblog.com/",
       "articles": [
+        {
+          "id": "https://angrybearblog.com/?p=179692",
+          "author": "NewDealdemocrat",
+          "description": "– by New Deal democrat ﻿The post pandemic period has been an exception to many past relationships. This morning’s data on housing construction raises the issue as to whether housing is going to be included in those exceptions as well. That’s because the data has been classically recessionary for a number of months, and yet the […]\nThe post Housing remains recessionary. Why hasn’t one happened yet? appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2025/08/housing-remains-recessionary-why-hasnt-one-happened-yet",
+          "publishedOn": "2025-08-19T18:28:58.000Z",
+          "wordCount": null,
+          "title": "Housing remains recessionary. Why hasn’t one happened yet?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=179657",
+          "author": "Joel Eissenberg",
+          "description": "Since the secretary of HHS is a vaccine denialist who cannot be trusted, the American Academy of Pediatrics has this week published its own authoritative, comprehensive, science-based vaccine schedule for children and adolescents from birth to age 18. The link provides: – the schedule for routine immunizations from birth to 18 years of age; – […]\nThe post The AAP childhood vaccine schedule appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2025/08/the-aap-childhood-vaccine-schedule",
+          "publishedOn": "2025-08-19T17:21:34.000Z",
+          "wordCount": null,
+          "title": "The AAP childhood vaccine schedule",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=179687",
+          "author": "Bill Haskell",
+          "description": "This short YouTube will eat up less than five minutes of your time. I believe Robert is mostly correct in his regard for our current president and a failed Republican party which appears to be bought, sealed, and delivered to do his bidding. The same as in the sixties and seventies, the answer to this […]\nThe post Robert Reich Talking Politics appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2025/08/robert-reich-talking-politics",
+          "publishedOn": "2025-08-19T17:14:01.000Z",
+          "wordCount": null,
+          "title": "Robert Reich Talking Politics",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=179667",
+          "author": "Angry Bear",
+          "description": "Talking politics here and probably rightfully so. Tax relief for the wealthy and kicking people off of Medicaid to fund those breaks will not go over big. It appears there is plans to cut Medicare also. Both cuts will be for funding tax breaks for wealthy in income. The highest 10% will average an ~ […]\nThe post Giving to the Ultra-Rich Through Tax Breaks appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2025/08/giving-to-the-ultra-rich-through-tax-breaks",
+          "publishedOn": "2025-08-19T12:00:00.000Z",
+          "wordCount": null,
+          "title": "Giving to the Ultra-Rich Through Tax Breaks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=179670",
+          "author": "Angry Bear",
+          "description": "Without a doubt, Pres. Tr__p has set up the United States for some type of retaliation in the future. Yes, Europe will adjust in some manner. Perhaps, Switzerland will move the final part of manufacturing to another country which is favored by the US. There are probably ways around this which need to be explored. […]\nThe post One European Country Adapting to U.S. Tariffs appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2025/08/one-european-country-adapting-to-u-s-tariffs",
+          "publishedOn": "2025-08-19T11:30:00.000Z",
+          "wordCount": null,
+          "title": "One European Country Adapting to U.S. Tariffs",
+          "imageUrl": null
+        },
         {
           "id": "https://angrybearblog.com/?p=179510",
           "author": "Terry Nilles",
@@ -864,26 +934,6 @@
           "publishedOn": "2025-08-13T17:25:53.000Z",
           "wordCount": null,
           "title": "Shelter, tariffs, and “just-so” inflation indexes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=179429",
-          "author": "Angry Bear",
-          "description": "Having lived near Ann Arbor, I know of University of Michigan, History Prof. Juan Cole. WE did exchange a few emails in the past. I was looking to talk with him and perhaps write about him in Angry Bear. It never came to pass. He is a trustworthy source of information if you are looking […]\nThe post Five Journalists Dead, Accused of Being Hamas appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/08/five-journalists-dead-accused-of-being-hamas",
-          "publishedOn": "2025-08-13T11:30:00.000Z",
-          "wordCount": null,
-          "title": "Five Journalists Dead, Accused of Being Hamas",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=179466",
-          "author": "Angry Bear",
-          "description": "Washington D. C. Mayor Muriel Bowser: “While this action today is unsettling and unprecedented, I can’t say that given some of the rhetoric of the past, that we’re totally surprised. I can say to D.C. residents that we will continue to operate our government in a way that makes you proud.” Fact checking Tr__P’s claim […]\nThe post Crime Rates in D.C. More Presidential B.S. appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/08/crime-rates-in-d-c-more-presidential-b-s",
-          "publishedOn": "2025-08-13T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Crime Rates in D.C. More Presidential B.S.",
           "imageUrl": null
         }
       ]
