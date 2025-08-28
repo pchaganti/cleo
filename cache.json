@@ -37,18 +37,7 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": [
-        {
-          "id": "4a721ee0e9dbcecd25ee50aec9bb3099609abaad",
-          "author": "Itay Meller",
-          "description": "In this post, we explore an efficient approach to managing encryption keys in a multi-tenant SaaS environment through centralization, addressing challenges like key proliferation, rising costs, and operational complexity across multiple AWS accounts and services. We demonstrate how implementing a centralized key management strategy using a single AWS KMS key per tenant can maintain security and compliance while reducing operational overhead as organizations scale.",
-          "link": "https://aws.amazon.com/blogs/architecture/simplify-multi-tenant-encryption-with-a-cost-conscious-aws-kms-key-strategy/",
-          "publishedOn": "2025-08-21T21:54:51.000Z",
-          "wordCount": 6318,
-          "title": "Simplify multi-tenant encryption with a cost-conscious AWS KMS key strategy",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/08/07/ARCHBLOG-1093-1260x460.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
@@ -60,7 +49,18 @@
       "title": "AWS DevOps & Developer Productivity Blog",
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
-      "articles": []
+      "articles": [
+        {
+          "id": "d2043514e0a76c6960a10da0039a14fe2a1e58d5",
+          "author": "Aurelien Plancque",
+          "description": "When I first started working with Amazon Q Developer, I was impressed by its capabilities, but I quickly found myself in a familiar pattern. Development teams using AI assistants face a common challenge: repeatedly explaining coding standards, workflow preferences, and established patterns in every conversation. This repetitive setup reduces productivity and creates inconsistent AI guidance […]",
+          "link": "https://aws.amazon.com/blogs/devops/mastering-amazon-q-developer-with-rules/",
+          "publishedOn": "2025-08-28T10:57:19.000Z",
+          "wordCount": 7531,
+          "title": "Mastering Amazon Q Developer with Rules",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/08/27/Slide1-5.png"
+        }
+      ]
     },
     {
       "title": "naked capitalism",
@@ -68,12 +68,52 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=297415",
+          "author": "Conor Gallagher",
+          "description": "Our daily links, including fuzzy immigration math, CDC director ousted, Nvidia AI bubble, and no charges for assault with a deli weapon.",
+          "link": "https://www.nakedcapitalism.com/2025/08/links-8-28-2025.html",
+          "publishedOn": "2025-08-28T10:55:54.000Z",
+          "wordCount": 4071,
+          "title": "Links 8/28/2025",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-8.07.44 AM-e1756317986994.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=297403",
+          "author": "Yves Smith",
+          "description": "Pressured by banks, US and European officials are loosening regulations to prevent another 2008 which will have predictable consequences",
+          "link": "https://www.nakedcapitalism.com/2025/08/satyajit-das-weakening-bank-regulations-will-make-the-next-financial-crisis-worse.html",
+          "publishedOn": "2025-08-28T09:00:46.000Z",
+          "wordCount": 4217,
+          "title": "Satyajit Das: Weakening Bank Regulations Will Make the Next Financial Crisis Worse",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=297433",
+          "author": "Yves Smith",
+          "description": "Yves here. It is remarkable how Trump seems to need to have his name in the hot lights, um, the headlines, all the time and is able to do so. Admittedly, liking bold gestures for their own sake, as opposed to whether they make any sense, helps by giving way more degrees of freedom. As […]",
+          "link": "https://www.nakedcapitalism.com/2025/08/trumps-intel-move-looks-like-performance-not-policy.html",
+          "publishedOn": "2025-08-28T08:37:31.000Z",
+          "wordCount": 4445,
+          "title": "Trump’s Intel Move Looks Like Performance, Not Policy",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=297427",
+          "author": "Yves Smith",
+          "description": "Trump's use of broad-based tariffs to promote industrialization have repeatedly failed. There's no reason to expect different results now.",
+          "link": "https://www.nakedcapitalism.com/2025/08/trumpian-tariffs-rerun-the-failed-strategy-of-import-substitution-industrialization.html",
+          "publishedOn": "2025-08-28T07:25:09.000Z",
+          "wordCount": 5431,
+          "title": "Trumpian Tariffs Rerun the Failed Strategy of  Import Substitution Industrialization",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/00-import-substitution.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=297386",
           "author": "Nat Wilson Turner",
           "description": "In 2025 we are witnessing a political blender: the collapse of old political alliances and the emergence of new coalitions.",
           "link": "https://www.nakedcapitalism.com/2025/08/political-blender-2025-odd-alliances-gaza.html",
           "publishedOn": "2025-08-27T18:00:33.000Z",
-          "wordCount": 10212,
+          "wordCount": 11007,
           "title": "Coffee Break: The Political Blender Is Throwing Up Some Odd Alliances",
           "imageUrl": null
         },
@@ -83,7 +123,7 @@
           "description": "Advocates for those with austism debate the value of prevention versus better care and support.",
           "link": "https://www.nakedcapitalism.com/2025/08/should-we-try-to-prevent-autism.html",
           "publishedOn": "2025-08-27T13:55:43.000Z",
-          "wordCount": 11494,
+          "wordCount": 12296,
           "title": "Should We Try to Prevent Autism?",
           "imageUrl": null
         },
@@ -93,7 +133,7 @@
           "description": "Our voluminous daily links: cat subway, Arctic heat, China v US maritime freedom reading, India tariffs hit, UK budget crunch, Russia to bar Iran snapback? US immigration fall, Trump hearts defense stakes, DOGE risks SS data, Dems lose Rust Bels, AI job losses, stablecoin",
           "link": "https://www.nakedcapitalism.com/2025/08/links-8-27-2024-2.html",
           "publishedOn": "2025-08-27T10:55:38.000Z",
-          "wordCount": 20912,
+          "wordCount": 21807,
           "title": "Links 8/27/2024",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/00-leopard.jpg"
         },
@@ -103,7 +143,7 @@
           "description": "The American scientific community is in a difficult place.  I started my first job in an academic research laboratory (funded by the Energy Research and Development Administration and the National Science Foundation) in 1975, which somehow was fifty years ago when I was the youngest person in the laboratory instead of the oldest.  I have […]",
           "link": "https://www.nakedcapitalism.com/2025/08/is-american-science-stuck-in-a-doom-loop.html",
           "publishedOn": "2025-08-27T10:50:20.000Z",
-          "wordCount": 7593,
+          "wordCount": 7707,
           "title": "Is American Science Stuck in a Doom Loop?",
           "imageUrl": null
         },
@@ -113,7 +153,7 @@
           "description": "Georgetown law professor Adam Levitin eviscerates the purported Trump case for removal of Federal Reserve governor Lisa Cook.",
           "link": "https://www.nakedcapitalism.com/2025/08/the-presidents-firing-of-lisa-cook-is-illegal.html",
           "publishedOn": "2025-08-27T08:34:41.000Z",
-          "wordCount": 6819,
+          "wordCount": 7068,
           "title": "The President’s “Firing” of Lisa Cook Is Illegal",
           "imageUrl": null
         },
@@ -123,49 +163,9 @@
           "description": "How the US stablecoin/digital yuan arms race creates instability risks and undermines monetary sovereignity around the world.",
           "link": "https://www.nakedcapitalism.com/2025/08/the-new-currency-war-us-stablecoin-china-digital-yuan-rivalry-as-a-test-of-monetary-discipline.html",
           "publishedOn": "2025-08-27T08:11:53.000Z",
-          "wordCount": 5211,
+          "wordCount": 5402,
           "title": "The New Currency War: US Stablecoin-China Digital Yuan Rivalry as a Test of Monetary Discipline",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/00-stablecoin-1.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=297280",
-          "author": "Haig Hovaness",
-          "description": "The Marine Corps’ new Pacific island strategy, articulated in its Force Design 2030 planning documents, envisions small units deployed across the Pacific island chain, armed with missiles and sensors to strike Chinese shipping and contest maritime access. Branded as Expeditionary Advanced Base Operations (EABO), the concept seeks to adapt the Corps to great-power competition by […]",
-          "link": "https://www.nakedcapitalism.com/2025/08/coffee-break-armed-madhouse-misguided-marines.html",
-          "publishedOn": "2025-08-26T18:00:47.000Z",
-          "wordCount": 6333,
-          "title": "Coffee Break: Armed Madhouse – Misguided Marines",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/Logistics-risks-e1756126854721.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=297362",
-          "author": "Yves Smith",
-          "description": "Chanos looks at a broad range of investment hot topics, from cypto to AI, and sees vastly more speculation than value creation",
-          "link": "https://www.nakedcapitalism.com/2025/08/jim-chanos-on-crypto-ai-dodgy-statistics-and-casino-capitalism.html",
-          "publishedOn": "2025-08-26T13:57:49.000Z",
-          "wordCount": 7114,
-          "title": "Jim Chanos on Crypto, AI, Dodgy Statistics, and Casino Capitalism",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=297295",
-          "author": "Yves Smith",
-          "description": "Our dramatic daily links: Alzheimers diet cure? RIP Covid vaccines? nuclear test long tail, new Trump threat v. China, Oreshnics to Venezula? MTG v. Zionists, France no confidence vote, Farage for mass deportation, Trump \"fires\" Fed board member, moar tariffs., higher car prices = bigger car loans,",
-          "link": "https://www.nakedcapitalism.com/2025/08/links-8-26-2025.html",
-          "publishedOn": "2025-08-26T10:55:09.000Z",
-          "wordCount": 17207,
-          "title": "Links 8/26/2025",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/Screenshot-2025-08-26-at-12.09.10 AM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=297277",
-          "author": "Nick Corbishley",
-          "description": "It makes a nice change to read scathing critiques of Milei's disastrous economic program from the right as well as the left.",
-          "link": "https://www.nakedcapitalism.com/2025/08/even-senior-austrian-economists-are-beginning-to-distance-themselves-from-javier-milei.html",
-          "publishedOn": "2025-08-26T10:45:29.000Z",
-          "wordCount": 7313,
-          "title": "Even Libertarians and Austrian-School Economists Are Pillorying Javier Milei’s Economic Program",
-          "imageUrl": null
         }
       ]
     },
@@ -270,7 +270,7 @@
           "description": "Don't let \"Shadow AI\" silently leak your data to unsanctioned AI. This new threat requires a new defense. Learn how to gain visibility and control without sacrificing innovation.",
           "link": "https://blog.cloudflare.com/shadow-AI-analytics/",
           "publishedOn": "2025-08-25T14:05:00.000Z",
-          "wordCount": 2584,
+          "wordCount": 2589,
           "title": "Unmasking the Unseen: Your Guide to Taming Shadow AI with Cloudflare One",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1aRFQLqB2uYVlclMHt4Acd/5c288b81395a5f008879b6855fcf76f3/BLOG-2884_OG.png"
         },
@@ -355,6 +355,16 @@
       "siteUrl": "https://newleftreview.org/sidecar/feed",
       "articles": [
         {
+          "id": "https://newleftreview.org/sidecar/posts/no-more",
+          "author": null,
+          "description": "Kamal Aljafari’s ‘With Hasan in Gaza’.",
+          "link": "https://newleftreview.org/sidecar/posts/no-more",
+          "publishedOn": "2025-08-28T12:57:28.000Z",
+          "wordCount": 1838,
+          "title": "Erika Balsom: &ldquo;No More&rdquo;",
+          "imageUrl": "https://newleftreview.org/blog-uploads/2025/08/balsom1.jpg"
+        },
+        {
           "id": "https://newleftreview.org/sidecar/posts/empires-stakes",
           "author": null,
           "description": "Interpreting Trumpism.",
@@ -393,7 +403,7 @@
           "description": "Today's links look at good API design, why APIs don't make good MCP tools, and how to create visually consistent images with AI image models.",
           "link": "https://seroter.com/2025/08/27/daily-reading-list-august-27-2025-616/",
           "publishedOn": "2025-08-28T00:04:21.000Z",
-          "wordCount": 4582,
+          "wordCount": 4598,
           "title": "Daily Reading List – August 27, 2025 (#616)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
         },
@@ -426,16 +436,6 @@
           "wordCount": 4622,
           "title": "Daily Reading List – August 22, 2025 (#613)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "http://seroter.com/?p=24899",
-          "author": "Richard Seroter",
-          "description": "Today's links look at how much energy each AI request uses, how to avoid the AI coding death spiral, and how Reddit delivers notifications to tens of millions of users.",
-          "link": "https://seroter.com/2025/08/21/daily-reading-list-august-19-2025-612/",
-          "publishedOn": "2025-08-21T23:49:00.000Z",
-          "wordCount": 4703,
-          "title": "Daily Reading List – August 21, 2025 (#612)",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
         }
       ]
     },
@@ -450,7 +450,7 @@
           "description": "New research shows the natural variability in climate data can cause AI models to struggle at predicting local temperature and rainfall.",
           "link": "https://news.mit.edu/2025/simpler-models-can-outperform-deep-learning-climate-prediction-0826",
           "publishedOn": "2025-08-26T13:00:00.000Z",
-          "wordCount": 1872,
+          "wordCount": 1868,
           "title": "Simpler models can outperform deep learning at climate prediction",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202508/MIT-Climate-Emulators-01-press.jpg"
         },
@@ -460,7 +460,7 @@
           "description": "Tools build on years of research at Lincoln Laboratory to develop a rapid brain health screening capability and may also be applicable to civilian settings such as sporting events and medical offices.",
           "link": "https://news.mit.edu/2025/new-technologies-tackle-brain-health-assessment-for-military-0825",
           "publishedOn": "2025-08-25T21:00:00.000Z",
-          "wordCount": 1964,
+          "wordCount": 1960,
           "title": "New technologies tackle brain health assessment for the military",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202508/mit-lincoln-Brain-Health-Military.jpg"
         },
@@ -470,7 +470,7 @@
           "description": "New test could help determine if AI systems that make accurate predictions in one area can understand it well enough to apply that ability to a different area.",
           "link": "https://news.mit.edu/2025/can-large-language-models-figure-out-real-world-0825",
           "publishedOn": "2025-08-25T20:30:00.000Z",
-          "wordCount": 2122,
+          "wordCount": 2118,
           "title": "Can large language models figure out the real world?",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202508/Foundation-models.jpg"
         }
@@ -666,6 +666,16 @@
       "feedUrl": "https://feeds.feedburner.com/Hzoh",
       "siteUrl": "https://angrybearblog.com/",
       "articles": [
+        {
+          "id": "https://angrybearblog.com/?p=179893",
+          "author": "Joel Eissenberg",
+          "description": "In his latest effort to control the news cycle and distract from the Epstein scandal, Trump wants to re-brand the Department of Defense as the Department of War. That was its original name, of course. It was changed to the Defense Department after WWII. “As you know, we won World War I, we won World […]\nThe post Trump re-branding appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2025/08/trump-re-branding",
+          "publishedOn": "2025-08-28T09:10:37.000Z",
+          "wordCount": null,
+          "title": "Trump re-branding",
+          "imageUrl": null
+        },
         {
           "id": "https://angrybearblog.com/?p=179894",
           "author": "Eric Kramer",
