@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "2355e22c40f601f91ddf43ad6be9d7e7b7f5ce4f",
+          "author": "Donnie Prakoso",
+          "description": "Three weeks ago, I published a post about the new AWS Region in New Zealand (ap-southeast-6). This led to an incredible opportunity to visit New Zealand, where I met passionate builders and presented at several events including Serverless and Platform Engineering meetup, AWS Tools and Programming meetup, AWS Cloud Clubs in Auckland, and AWS Community […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-q-developer-aws-step-functions-aws-cloud-club-captain-deadline-and-more-september-22-2025/",
+          "publishedOn": "2025-09-22T16:21:44.000Z",
+          "wordCount": 10556,
+          "title": "AWS Weekly Roundup: Amazon Q Developer, AWS Step Functions, AWS Cloud Club Captain deadline, and more (September 22, 2025)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/08/AWS-WIR-default-AWSNEWS-2068.png"
+        },
+        {
           "id": "0bf87a05f993f173a05e8969b05033ec864ed688",
           "author": "Danilo Poccia",
           "description": "Amazon Bedrock has expanded its model offerings with the addition of Qwen 3 foundation models enabling users to access and deploy them in a fully managed, serverless environment. These models feature both mixture-of-experts (MoE) and dense architectures to support diverse use cases including advanced code generation, multi-tool business automation, and cost-optimized AI reasoning.",
@@ -37,7 +47,18 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": []
+      "articles": [
+        {
+          "id": "9b0148099fa1dea81f7f0151221f250bc2c94136",
+          "author": "Audra Devoto",
+          "description": "In this post, we explore how Metagenomi built a scalable database and search solution for over 1 billion protein vectors using LanceDB and Amazon S3. The solution enables rapid enzyme discovery by transforming proteins into vector embeddings and implementing a serverless architecture that combines AWS Lambda, AWS Step Functions, and Amazon S3 for efficient nearest neighbor searches.",
+          "link": "https://aws.amazon.com/blogs/architecture/a-scalable-elastic-database-and-search-solution-for-1b-vectors-built-on-lancedb-and-amazon-s3/",
+          "publishedOn": "2025-09-22T17:15:44.000Z",
+          "wordCount": 12600,
+          "title": "A scalable, elastic database and search solution for 1B+ vectors built on LanceDB and Amazon S3",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/08/28/lance-arch-prototype-753x630.png"
+        }
+      ]
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
@@ -68,12 +89,32 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=298609",
+          "author": "Nat Wilson Turner",
+          "description": "This past week the Trump administration has put on a bravura display of impunity and seeming incompetence, but perhaps we can glean some insight into how they function.",
+          "link": "https://www.nakedcapitalism.com/2025/09/trump-impunity-incompetence-spectacle-international.html",
+          "publishedOn": "2025-09-22T18:00:39.000Z",
+          "wordCount": 5857,
+          "title": "Coffee Break: Impunity, Incompetence, and Maybe Insight Into How Trump Works",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=298558",
+          "author": "Conor Gallagher",
+          "description": "The armed forces face much bigger problems than can be solved by a useful martyr and a catchy slogan.",
+          "link": "https://www.nakedcapitalism.com/2025/09/u-s-military-leaders-plan-to-use-the-killing-of-charlie-kirk-to-boost-recruitment-will-it-work.html",
+          "publishedOn": "2025-09-22T13:55:07.000Z",
+          "wordCount": 6011,
+          "title": "U.S. Military Leaders Plan to Use the Killing of Charlie Kirk to Boost Recruitment. Will It Work?",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/09/Screenshot-2025-09-21-at-4.02.14 PM-1024x905.png"
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=298570",
           "author": "Conor Gallagher",
           "description": "Our daily links, including Charlie Kirk memorial, Dune’s Burlerian jihad, land value politics, and shark threesomes.",
           "link": "https://www.nakedcapitalism.com/2025/09/links-9-22-2025.html",
           "publishedOn": "2025-09-22T10:55:39.000Z",
-          "wordCount": 5818,
+          "wordCount": 11844,
           "title": "Links 9/22/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/09/Screenshot-2025-09-21-at-7.58.23 PM-1024x722.png"
         },
@@ -83,8 +124,8 @@
           "description": "Discussions of how BRICS is not living up to its lofty promises and is on the path to supporting neoliberalism and hegemony in new clothes",
           "link": "https://www.nakedcapitalism.com/2025/09/brics-are-the-new-defenders-of-free-trade-the-wto-the-imf-and-the-world-bank-and-supporting-genocide-by-continuing-to-trade-with-israel.html",
           "publishedOn": "2025-09-22T09:22:42.000Z",
-          "wordCount": 6936,
-          "title": "“BRICS Are the New Defenders of Free Trade, the WTO, the IMF and the World Bank”.and Supporting Genocide by Continuing to Trade with Israel",
+          "wordCount": 10274,
+          "title": "“BRICS Are the New Defenders of Free Trade, the WTO, the IMF and the World Bank” and Supporting Genocide by Continuing to Trade with Israel",
           "imageUrl": null
         },
         {
@@ -93,7 +134,7 @@
           "description": "As bad as you thought AI was, it's worse.",
           "link": "https://www.nakedcapitalism.com/2025/09/proof-of-ai-garbage-in-garbage-out-incorrect-results-traced-to-reddit-and-quora.html",
           "publishedOn": "2025-09-22T09:00:48.000Z",
-          "wordCount": 7332,
+          "wordCount": 9506,
           "title": "Proof of AI Garbage In, Garbage Out:  Incorrect Results Traced to Reddit and Quora",
           "imageUrl": null
         },
@@ -103,7 +144,7 @@
           "description": "Richard Murphy argues a massive banking collapse is coming — and the cause isn’t speculation this time. It’s climate change.",
           "link": "https://www.nakedcapitalism.com/2025/09/banks-cant-survive-climate-change.html",
           "publishedOn": "2025-09-22T09:00:27.000Z",
-          "wordCount": 4834,
+          "wordCount": 6551,
           "title": "Banks Can’t Survive Climate Change",
           "imageUrl": null
         },
@@ -113,7 +154,7 @@
           "description": "The Villa of Reduced Circumstances is still facing tough times, but the CEO (that is me) and the Ambassador to the Democratic Republic of Felines (that is also me when I have to negotiate with the neighborhood cats), are in strong agreement that we can afford to give $5 to Naked Capitalism. Another Anon Aloha […]",
           "link": "https://www.nakedcapitalism.com/2025/09/259112.html",
           "publishedOn": "2025-09-21T17:51:19.000Z",
-          "wordCount": 2982,
+          "wordCount": 2981,
           "title": "Untitled",
           "imageUrl": null
         },
@@ -123,7 +164,7 @@
           "description": "Our strategic daily links: New gymnastic moves, Project Xanadu, COVID shots, drug cartels, green giant China, Gaza horrors, Ukraine burning, vanishing privacy, Trumpishness, Musk world, immigration troubles, Mr. market, AI, and wretched excess",
           "link": "https://www.nakedcapitalism.com/2025/09/links-9-21-2025.html",
           "publishedOn": "2025-09-21T10:55:58.000Z",
-          "wordCount": 23531,
+          "wordCount": 23555,
           "title": "Links 9/21/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/09/Ibex-600.jpg"
         },
@@ -133,7 +174,7 @@
           "description": "The Shooting is a movie about desperation and revenge set in the Old West.",
           "link": "https://www.nakedcapitalism.com/2025/09/the-sunday-morning-movie-presents-the-shooting-1966-run-time-1h-21m.html",
           "publishedOn": "2025-09-21T10:30:35.000Z",
-          "wordCount": 5582,
+          "wordCount": 5567,
           "title": "The Sunday Morning Movie Presents: The Shooting (1966) Run Time 1H 21M",
           "imageUrl": null
         },
@@ -143,29 +184,9 @@
           "description": "A climate scientist gets a firsthand look at the results of the data they've been tracking for a decade.",
           "link": "https://www.nakedcapitalism.com/2025/09/a-walk-across-alaskas-arctic-sea-ice-brings-to-life-the-losses-that-appear-in-climate-data.html",
           "publishedOn": "2025-09-21T10:00:21.000Z",
-          "wordCount": 3732,
+          "wordCount": 3731,
           "title": "A Walk Across Alaska’s Arctic Sea Ice Brings to Life the Losses That Appear in Climate Data",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/09/Screenshot-2025-09-21-at-1.51.06 AM-1024x679.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=298475",
-          "author": "Yves Smith",
-          "description": "Our rambunctious daily links: Ig Nobel prize winners, mirror life, dangerous bees? Poland v. China, France and Philippines protests, UK dire harvests, Qatar strike blowback with Pakistan-Saudi pact, moar \"Russia incursion\", TRIPP, Samsung fridge ads, Trump NYT suit tossed, H1-B visas restricted., margin debt surge",
-          "link": "https://www.nakedcapitalism.com/2025/09/links-9-20-2025.html",
-          "publishedOn": "2025-09-20T10:55:22.000Z",
-          "wordCount": 19261,
-          "title": "Links 9/20/2025",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/09/Screenshot-2025-09-20-at-3.04.44 PM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=298491",
-          "author": "Yves Smith",
-          "description": "A detailed analysis of the poor prospects for dollar hegemony and the forces that could trigger a sharp unwind.",
-          "link": "https://www.nakedcapitalism.com/2025/09/the-dollar-ripples-presaging-a-financial-tsunami.html",
-          "publishedOn": "2025-09-20T10:00:33.000Z",
-          "wordCount": 6890,
-          "title": "The Dollar: Ripples Presaging a Financial Tsunami",
-          "imageUrl": null
         }
       ]
     },
@@ -175,12 +196,82 @@
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
         {
+          "id": "1mBKYqbp7645szLQobH6SI",
+          "author": "Mari Galicer",
+          "description": "We are excited to announce our support of two independent, open source projects: Ladybird, an ambitious project to build an independent browser, and Omarchy, an opinionated Arch Linux for developers.",
+          "link": "https://blog.cloudflare.com/supporting-the-future-of-the-open-web/",
+          "publishedOn": "2025-09-22T13:00:00.000Z",
+          "wordCount": 1775,
+          "title": "Supporting the future of the open web: Cloudflare is sponsoring Ladybird and Omarchy",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4QC37u0R9UJ3QcFsP7pFXI/e315dc5cc981b3073806e90918f0ba5e/BLOG-2998_OG.png"
+        },
+        {
+          "id": "5MEzKLtbg3GkbPxAkZtnRk",
+          "author": "Christopher Rotas",
+          "description": "In 2026, Cloudflare is opening our San Francisco, Austin, London, and Lisbon offices to builders and Startups. Participants of Workers Launchpad and Cloudflare for Startups Program will be eligible",
+          "link": "https://blog.cloudflare.com/new-hubs-for-startups/",
+          "publishedOn": "2025-09-22T13:00:00.000Z",
+          "wordCount": 1639,
+          "title": "Come build with us: Cloudflare's new hubs for startups",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3LRTa4whNmSIUTJ9v9ycuy/e24aa1cb6c8bbb63909cd840c6b44628/BLOG-3022_OG.png"
+        },
+        {
+          "id": "49Ryz8XdOxW5QYrD9VsjbZ",
+          "author": "Patrick Day",
+          "description": "We're expanding Cloudflare for Startups to include non-profits, civil society, and public interest orgs.",
+          "link": "https://blog.cloudflare.com/expanding-startups-for-nonprofits/",
+          "publishedOn": "2025-09-22T13:00:00.000Z",
+          "wordCount": 1683,
+          "title": "Free access to Cloudflare developer services for non-profit and civil society organizations",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3q5dPtI4yJbn3dueKJBlj2/e59ac28c13ab652296ddf6d4ac723e99/Free_access_to_Cloudflare_developer_services_for_non-profit_and_civil_society_organizations-OG.png"
+        },
+        {
+          "id": "4ENCSXn82EzWHyNI8IGlGL",
+          "author": "Veronica Marin",
+          "description": "Students in the United States over the age of 18 with a .edu email can now get one year of free access to Cloudflare developer features. Build, experiment, and launch projects with production-grade",
+          "link": "https://blog.cloudflare.com/workers-for-students/",
+          "publishedOn": "2025-09-22T13:00:00.000Z",
+          "wordCount": 2523,
+          "title": "Introducing free access to Cloudflare developer features for students",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/29qi4ZiRkTA8pBRwUmzqa1/1b438dcaf1486121e65478836d5cf5e1/BLOG-2948_OG.png"
+        },
+        {
+          "id": "4Du5F6RJFvwqqEbMMuuxTi",
+          "author": "Kenton Varda",
+          "description": "Cap'n Web is a new open source, JavaScript-native RPC protocol for use in browsers and web servers. It provides the expressive power of Cap'n Proto, but with no schemas and no boilerplate.",
+          "link": "https://blog.cloudflare.com/capnweb-javascript-rpc-library/",
+          "publishedOn": "2025-09-22T13:00:00.000Z",
+          "wordCount": 4241,
+          "title": "Cap'n Web: a new RPC system for browsers and web servers",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/26HRSc4ldW98MKG1lBnGRy/635c3ab7a59a949d930443d1b28b4dd2/BLOG-2954_OG.png"
+        },
+        {
+          "id": "3CCpu7wo3wC3GTzCk5urxU",
+          "author": "Christopher Rotas",
+          "description": "Workers Launchpad program offers resources and mentorship for founders building on the Cloudflare network. Learn more about prior cohorts, where Launchpad alumni are today, and the participants",
+          "link": "https://blog.cloudflare.com/workers-launchpad-006/",
+          "publishedOn": "2025-09-22T13:00:00.000Z",
+          "wordCount": 2221,
+          "title": "A Lookback at Workers Launchpad and a Warm Welcome to Cohort #6",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4lKdoVTeAnr1ZXqDQeSBCK/977c6e76045cc346e44ea67bf4e90af7/BLOG-2952_OG.png"
+        },
+        {
+          "id": "GMhGwtoDEE7S4PlPutkUn",
+          "author": "Kelly Russell",
+          "description": "We are incredibly excited to announce our most ambitious intern program yet: Cloudflare aims to hire as many as 1,111 interns over the course of 2026.",
+          "link": "https://blog.cloudflare.com/cloudflare-1111-intern-program/",
+          "publishedOn": "2025-09-22T13:00:00.000Z",
+          "wordCount": 2377,
+          "title": "Help build the future: announcing Cloudflare’s goal to hire 1,111 interns in 2026",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2ZUQ7flYhCcJ56uxxMtWBQ/cb9e12dec51125ef22bf279fa356239f/BLOG-2947_OG.png"
+        },
+        {
           "id": "3dHDa6KprJoyjJldD2eInH",
           "author": "Matthew Prince",
           "description": "Cloudflare launched 15 years ago. We like to celebrate our birthday by launching new products that give back to the Internet. But we've also been thinking a lot about what's changed on the Internet.",
           "link": "https://blog.cloudflare.com/cloudflare-2025-annual-founders-letter/",
           "publishedOn": "2025-09-21T18:00:00.000Z",
-          "wordCount": 2971,
+          "wordCount": 2980,
           "title": "Cloudflare’s 2025 Annual Founders’ Letter",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1T6Lw6Wj2B9iA9XM42lAiE/d016e1a2a134d49e94de156d5e9e883b/OG_Share_2024__8_.png"
         },
@@ -523,6 +614,46 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=154187",
+          "author": "Paul Campos",
+          "description": "While on Air Force One, in remarks captured on video by AP, Trump said: “But you think if you think of it, let’s say 15 years ago and 1 in 10,000 that were born with autism and now it’s making it 1 in 12, 1 in 10 boys, one in 10 or 12, two different […]\nThe post RFK Jr.’s promise to discover what causes autism within six months is fulfilled appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/09/rfk-jr-s-promise-to-discover-what-causes-autism-within-six-months-is-fulfilled",
+          "publishedOn": "2025-09-22T18:32:54.000Z",
+          "wordCount": null,
+          "title": "RFK Jr.’s promise to discover what causes autism within six months is fulfilled",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=154184",
+          "author": "Robert Farley",
+          "description": "After a honeymoon that lasted far too long, Javier Milei is driving Argentina’s economy into the ground. Because he’s an ideological ally, Trump is lending a hand… US Treasury Secretary Scott Bessent has said a “large and forceful” intervention is on the table to support Argentina through a bout of severe market volatility, throwing a […]\nThe post Mileinomics appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/09/mileinomics",
+          "publishedOn": "2025-09-22T16:19:06.000Z",
+          "wordCount": null,
+          "title": "Mileinomics",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=154050",
+          "author": "Robert Farley",
+          "description": "On the latest LGM Podcast I had the opportunity to speak with Dr. Kate Epstein of the Rutgers University Department of History. We talked through her two books, Analog Superpowers (about fire control equipment) and Torpedo (about, well, torpedoes), the latter of which I reviewed here. We discussed the mechanics of fire control and the […]\nThe post LGM Podcast: Analog Superpowers appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/09/lgm-podcast-analog-superpowers",
+          "publishedOn": "2025-09-22T13:00:00.000Z",
+          "wordCount": null,
+          "title": "LGM Podcast: Analog Superpowers",
+          "itunes": {
+            "duration": "1:03:23"
+          },
+          "enclosure": {
+            "url": "http://media.blubrry.com/lgm/media.blubrry.com/lgm/mc.blubrry.com/lgm/lgm2025podcast19.mp3?awCollectionId=537420&awEpisodeId=11743965&aw_0_azn.pgenre=News&aw_0_1st.ri=blubrry&aw_0_azn.pcountry=US&aw_0_azn.planguage=en-us&cat_exclude=IAB1-8%2CIAB1-9%2CIAB7-41%2CIAB8-5%2CIAB8-18%2CIAB11-4%2CIAB23%2CIAB24%2CIAB25%2CIAB26&aw_0_cnt.rss=https%3A%2F%2Fwww.lawyersgunsmoneyblog.com%2Ffeed%2Fpodcast%2F",
+            "length": "91271399",
+            "type": "audio/mpeg"
+          },
+          "imageUrl": null
+        },
+        {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=154163",
           "author": "Paul Campos",
           "description": "America’s most prominent insult comic, with all of the tact and grace that has always marked his public performances, decided that the middle of a funeral oration was a good time to veer wildly off script: Trump bluntly and deliberately signaled that forgiveness and unity were for others, and that he’d use Kirk’s assassination to intensify his […]\nThe post I’m pretty sure the central message of Buddhism is not “Rock and Roll all night, and party every day” appeared first on Lawyers, Guns & Money.",
@@ -585,39 +716,6 @@
           "publishedOn": "2025-09-21T16:35:41.000Z",
           "wordCount": null,
           "title": "Questions on those Caribbean Strikes",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=154082",
-          "author": "Robert Farley",
-          "description": "My colleague Joseph Young (formerly of Political Violence at a Glance) has a new piece at CSIS talking about civil war: Q2: What causes a civil war? A2: Most literature on civil wars tends not to find ideology or political polarization as a primary catalyst. Identity is rarely the cause of this kind of conflict. […]\nThe post Look at the Lies We’ve Swallowed… appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/09/look-at-the-lies-weve-swallowed",
-          "publishedOn": "2025-09-21T13:00:00.000Z",
-          "wordCount": null,
-          "title": "Look at the Lies We’ve Swallowed…",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=154059",
-          "author": "Erik Loomis",
-          "description": "This is the grave of Aphra Behn. Born in 1640 in Canterbury, Kent, England, we know almost nothing about Behn’s childhood, including her pre-married last name. She seems to have come from very little. Perhaps her father was a barber, there were a few references to that among contemporaries. It seems she worked to keep […]\nThe post Erik Visits an Non-American Grave, Part 1,970 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/09/erik-visits-an-non-american-grave-part-1970",
-          "publishedOn": "2025-09-21T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Erik Visits an Non-American Grave, Part 1,970",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=154153",
-          "author": "Scott Lemieux",
-          "description": "You can’t accuse them of being subtle: Tom Homan, who was later named President Trump’s border czar, was recorded in September 2024 accepting a bag with $50,000 in cash in an undercover F.B.I. investigation, according to people familiar with the case, which was later shut down by Trump administration officials. The cash payment, which was […]\nThe post Tom Homan accepted literal bag of cash in bribery sting operation appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/09/tom-homan-accepted-literal-bag-of-cash-in-bribery-sting-operation",
-          "publishedOn": "2025-09-21T01:01:31.000Z",
-          "wordCount": null,
-          "title": "Tom Homan accepted literal bag of cash in bribery sting operation",
           "itunes": {},
           "imageUrl": null
         }
