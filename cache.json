@@ -40,16 +40,6 @@
           "wordCount": 10832,
           "title": "AWS Weekly Roundup:  Amazon Bedrock, AWS Outposts, Amazon ECS Managed Instances, AWS Builder ID, and more (October 6, 2025)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/06/10/AWS-WIR-default-1.png"
-        },
-        {
-          "id": "24dd58c7b57a116e2366e97523db0afe002e92fc",
-          "author": "Micah Walter",
-          "description": "Amazon ECS Managed Instances is a new compute option that eliminates infrastructure management overhead while giving you access to the broad suite of EC2 capabilities including the flexibility to select instance types, access reserved capacity, and advanced security and observability configurations.",
-          "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-ecs-managed-instances-for-containerized-applications/",
-          "publishedOn": "2025-09-30T18:46:47.000Z",
-          "wordCount": 10586,
-          "title": "Announcing Amazon ECS Managed Instances for containerized applications",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/30/ecs-managed.png"
         }
       ]
     },
@@ -82,6 +72,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
         {
+          "id": "3ae5e6fc366736c5dc53a50c36ee30ff4ca7ac50",
+          "author": "Pablo Sánchez Carmona",
+          "description": "This post is co-written with Rayco Martínez Hernández, Head of Cloud Governance at Moeve. Moeve, formerly known as Cepsa, is a global integrated energy company with over 90 years of experience and more than 11,000 employees. Moeve is committed to driving Europe’s energy transition and accelerating decarbonization efforts. The company has embraced digital transformation to […]",
+          "link": "https://aws.amazon.com/blogs/devops/moeve-controlling-resource-deployment-at-scale-with-aws-cloudformation-guard-hooks/",
+          "publishedOn": "2025-10-07T11:50:17.000Z",
+          "wordCount": 12508,
+          "title": "Moeve: Controlling resource deployment at scale with AWS CloudFormation Guard Hooks",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/10/03/devops-17530-1119x630.png"
+        },
+        {
           "id": "aff4c1cbba2f078ad7f726e3fc81b7d0e5e3d09d",
           "author": "Juan Pablo Melgarejo Zamora",
           "description": "This is a guest post written by Ramanathan Nachiappan from GoDaddy. In the world of infrastructure as code, the AWS Cloud Development Kit (AWS CDK) has revolutionized how teams define and provision cloud resources. Central to its operation is the bootstrapping process, which ensures all required resources and permissions are in place to enable secure […]",
@@ -110,16 +110,6 @@
           "wordCount": 10865,
           "title": "Multi-Cloud Code Deployments using Amazon Q Developer with Echo3D",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/09/30/echo3d-blog-featured-image-1124x630.png"
-        },
-        {
-          "id": "e03c2dc1e4b9c3a94b00ad1d970bc670e8c5d7d7",
-          "author": "Damola Oluyemo",
-          "description": "In today’s cloud-first environment, Infrastructure as Code (IaC) has become crucial for managing cloud resources effectively. However, organizations often face significant challenges in adopting IaC practices, including steep learning curves, complex syntax requirements, and difficulty translating manual operations into code.  Amazon Q Developer‘s Console-to-Code feature addresses these challenges by providing an intuitive bridge between manual AWS […]",
-          "link": "https://aws.amazon.com/blogs/devops/accelerating-aws-infrastructure-deployment-a-practical-guide-to-console-to-code/",
-          "publishedOn": "2025-09-30T23:47:21.000Z",
-          "wordCount": 11209,
-          "title": "Accelerating AWS Infrastructure Deployment: A Practical Guide to Console-to-Code",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/09/30/Featured-image.jpg"
         }
       ]
     },
@@ -129,12 +119,62 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=299406",
+          "author": "Yves Smith",
+          "description": "Our flamoyant daily links: Reducing space junk, Colorado river @ risk, US terrorizes fishermen, moar France impasse fallout, China US ag rejection, UK authoritarianism, Gaza peace fakery, Milken dream museum, shutdown staredown, Maxwell pardon? moar Charlie Kirk, US car lots full, moar AI thievery",
+          "link": "https://www.nakedcapitalism.com/2025/10/links-10-7-2025.html",
+          "publishedOn": "2025-10-07T10:55:54.000Z",
+          "wordCount": 5949,
+          "title": "Links 10/7/2025",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-2025-10-07-at-5.07.32 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=299335",
+          "author": "Yves Smith",
+          "description": "It's taken many years of hot lights from Naked Capitalism to get CalPERS to shape up, and there finally has been real progress.",
+          "link": "https://www.nakedcapitalism.com/2025/10/david-in-friday-harbor-how-naked-capitalism-made-a-difference-at-calpers.html",
+          "publishedOn": "2025-10-07T10:54:57.000Z",
+          "wordCount": 3293,
+          "title": "David in Friday Harbor: How Naked Capitalism Made a Difference at CalPERS",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=299397",
+          "author": "Nick Corbishley",
+          "description": "When Silicon Valley's darkest company is warning about the dangers of the UK's proposed digital identity system, something may be amiss.",
+          "link": "https://www.nakedcapitalism.com/2025/10/even-palantir-says-it-wants-nothing-to-do-with-uks-emerging-digital-identity-system.html",
+          "publishedOn": "2025-10-07T10:45:38.000Z",
+          "wordCount": 6572,
+          "title": "Even Palantir Says It Wants Nothing to Do With UK’s Proposed Digital Identity System",
+          "imageUrl": "https://pbs.twimg.com/media/G2akndpWIAA0A_X?format=jpg&name=medium"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=299450",
+          "author": "Nat Wilson Turner",
+          "description": "Establishment Democrats and Donald Trump both agree there is no alternative to the relentless upward mobility of wealth, is there any hope of change?",
+          "link": "https://www.nakedcapitalism.com/2025/10/tina-never-die-is-taxing-the-rich-unthinkable-forever.html",
+          "publishedOn": "2025-10-07T10:00:13.000Z",
+          "wordCount": 5977,
+          "title": "TINA Never Die: Is Taxing the Rich Unthinkable Forever?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=299480",
+          "author": "Yves Smith",
+          "description": "RFK, Jr. really does act like he is out to stop vaccines in their entiretly in the US. That's the most logical explanation for his latest push",
+          "link": "https://www.nakedcapitalism.com/2025/10/rfk-jr-push-to-falsely-treat-autism-as-produced-by-vaccines-would-break-vaccine-injury-scheme-potentially-risking-all-us-vaccines.html",
+          "publishedOn": "2025-10-07T09:55:02.000Z",
+          "wordCount": 5123,
+          "title": "RFK, Jr. Push to Falsely Treat Autism as Produced by Vaccines Would Break Vaccine Injury Scheme, Potentially Risking All US Vaccines",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=299410",
           "author": "Nat Wilson Turner",
           "description": "David Ellison is installing Bari Weiss as the new EIC of CBS News, paying $150 million for her publication The Free Press. She will likely handle hasbara for the network.",
           "link": "https://www.nakedcapitalism.com/2025/10/bari-weiss-cbs-news-ellison-paramount-hasbara-tiktok.html",
           "publishedOn": "2025-10-06T18:00:56.000Z",
-          "wordCount": 10635,
+          "wordCount": 11898,
           "title": "Coffee Break: Bari Weiss, CBS News, Meet the New Boss, Same as the Same Old",
           "imageUrl": null
         },
@@ -144,7 +184,7 @@
           "description": "If the administration continues to expand guest worker programs and makes good on anti-capitalism pre-crime threats, who there by any union workers left for planned general strike on May Day of 2028?",
           "link": "https://www.nakedcapitalism.com/2025/10/what-do-trump-administrations-threats-on-anti-capitalism-terrorism-and-rico-mean-for-organized-labor.html",
           "publishedOn": "2025-10-06T13:55:25.000Z",
-          "wordCount": 6033,
+          "wordCount": 6824,
           "title": "What Do Trump Administration’s Threats on “Anti-Capitalism” Terrorism and RICO Mean for Organized Labor?",
           "imageUrl": null
         },
@@ -154,7 +194,7 @@
           "description": "",
           "link": "https://www.nakedcapitalism.com/2025/10/links-10-6-2025.html",
           "publishedOn": "2025-10-06T10:55:51.000Z",
-          "wordCount": 15482,
+          "wordCount": 15526,
           "title": "Links 10/6/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-2025-09-30-at-8.29.49 PM-1024x796.png"
         },
@@ -164,7 +204,7 @@
           "description": "Thanks to your support, Naked Capitalism has been able to keep telling truths that the officialdom tries hard to hide. Please chip in!",
           "link": "https://www.nakedcapitalism.com/2025/10/nat-wilson-turner-naked-capitalism-your-antidote-to-the-stoopid.html",
           "publishedOn": "2025-10-06T10:54:28.000Z",
-          "wordCount": 3619,
+          "wordCount": 3586,
           "title": "Nat Wilson Turner: Naked Capitalism – Your Antidote to The Stoopid",
           "imageUrl": null
         },
@@ -174,59 +214,9 @@
           "description": "The third government Macron has tried to form, under Sébastien Lecornu, fell with shocking speed. Time for a Macron death watch?",
           "link": "https://www.nakedcapitalism.com/2025/10/lecornu-resigns-less-than-a-day-after-forming-government-how-long-can-macron-hang-on.html",
           "publishedOn": "2025-10-06T10:28:44.000Z",
-          "wordCount": 9847,
+          "wordCount": 9860,
           "title": "Lecornu Resigns Less Than a Day After Forming Government; How Long Can Macron Hang On?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-2025-10-06-at-4.31.41 PM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=299360",
-          "author": "Conor Gallagher",
-          "description": "“If you can't maintain your health, how are you going to work to pay back a debt? And if you fundamentally can't pay the bill, wage garnishment isn't going to help you do that. It's going to put you in more financial distress.”",
-          "link": "https://www.nakedcapitalism.com/2025/10/workers-wages-siphoned-to-pay-medical-bills-despite-consumer-protections.html",
-          "publishedOn": "2025-10-06T09:00:45.000Z",
-          "wordCount": 5624,
-          "title": "Workers’ Wages Siphoned To Pay Medical Bills, Despite Consumer Protections",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-2025-10-05-at-5.51.02 PM-1024x768.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=299386",
-          "author": "Yves Smith",
-          "description": "A look at Pakistan's history, emphasizing its politics and the ongoing complexities of reconciling interests among ethnic groups.",
-          "link": "https://www.nakedcapitalism.com/2025/10/pakistan-as-a-consequence-of-the-partition-of-british-india-in-1947.html",
-          "publishedOn": "2025-10-06T08:06:21.000Z",
-          "wordCount": 6702,
-          "title": "Pakistan as a Consequence of the Partition of British India in 1947",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=299378",
-          "author": "Yves Smith",
-          "description": "Our donation totals are behind where they need to be to keep providing the same great content in 2026! Please chip in, bigly if possible!",
-          "link": "https://www.nakedcapitalism.com/2025/10/fundraiser-sos-we-are-really-behind.html",
-          "publishedOn": "2025-10-06T04:05:42.000Z",
-          "wordCount": 4087,
-          "title": "Fundraiser SOS! We Are REALLY Behind!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=299287",
-          "author": "Haig Hovaness",
-          "description": "Our strategic daily links: Amazing archery, peak social media?, target Venezuela, China developments, Euorpean disunion, Gaza horrors, Ukraine burning, vanishing privacy, Trumpishness, Musk world, hapless Democrats, immigration troubles, Mr. market, AI, and wretched excess",
-          "link": "https://www.nakedcapitalism.com/2025/10/links-10-5-2025.html",
-          "publishedOn": "2025-10-05T10:55:38.000Z",
-          "wordCount": 17818,
-          "title": "Links 10/5/2025",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Kitten-600.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=299333",
-          "author": "Yves Smith",
-          "description": "How Naked Capitalism's community is a bulwark against neoliberalism and PMC energy-sapping hopium.",
-          "link": "https://www.nakedcapitalism.com/2025/10/klg-naked-capitalism-your-essential-community.html",
-          "publishedOn": "2025-10-05T10:54:21.000Z",
-          "wordCount": 4136,
-          "title": "KLG: Naked Capitalism – Your Essential Community",
-          "imageUrl": null
         }
       ]
     },
@@ -302,7 +292,7 @@
           "description": "Today's links look at an AI agent for code security, whether agents and context windows killed RAG, and fresh ways to drive innovation without wasting resources.",
           "link": "https://seroter.com/2025/10/06/daily-reading-list-october-6-2025-642/",
           "publishedOn": "2025-10-06T23:38:40.000Z",
-          "wordCount": 4461,
+          "wordCount": 4491,
           "title": "Daily Reading List – October 6, 2025 (#642)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
@@ -312,7 +302,7 @@
           "description": "Today's links look at when managing your team becomes too much to handle, why generative AI is driving new cloud spending, and how engineering teams should adopt AI in a way that sticks.",
           "link": "https://seroter.com/2025/10/03/daily-reading-list-october-3-2025-641/",
           "publishedOn": "2025-10-03T23:37:56.000Z",
-          "wordCount": 4533,
+          "wordCount": 4547,
           "title": "Daily Reading List – October 3, 2025 (#641)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
@@ -334,16 +324,6 @@
           "publishedOn": "2025-10-02T01:35:22.000Z",
           "wordCount": 4473,
           "title": "Daily Reading List – October 1, 2025 (#639)",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://seroter.com/?p=25395",
-          "author": "Richard Seroter",
-          "description": "Today's links look at finding the common sense unit of work, how legacy tech woes are impacting IT upgrades, and what it means to have good taste in software engineering.",
-          "link": "https://seroter.com/2025/09/30/daily-reading-list-september-30-2025-638/",
-          "publishedOn": "2025-09-30T23:58:05.000Z",
-          "wordCount": 4519,
-          "title": "Daily Reading List – September 30, 2025 (#638)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         }
       ]
@@ -431,22 +411,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/bfb89959-621e-4f12-bbf1-ee9d31ec4fcc_860x573.jpeg"
-        },
-        {
-          "id": "https://www.thomasfazi.com/p/what-is-ukraine-fighting-for",
-          "author": "Thomas Fazi",
-          "description": "Even if Ukraine had a chance of reclaiming its lost territories—which it never did—doing so would still make little sense from the standpoint of the country's post-2014 ethno-nationalist project",
-          "link": "https://www.thomasfazi.com/p/what-is-ukraine-fighting-for",
-          "publishedOn": "2025-09-30T20:32:38.000Z",
-          "wordCount": null,
-          "title": "What is Ukraine fighting for?",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!PrkB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58c339d4-2bee-428e-84fc-ca04f6b822ce_1828x1432.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!PrkB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58c339d4-2bee-428e-84fc-ca04f6b822ce_1828x1432.png"
         }
       ]
     },
@@ -456,12 +420,22 @@
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
         {
+          "id": "https://www.ianwelsh.net/?p=21970",
+          "author": "Ian Welsh",
+          "description": "It’s our annual fundraiser. We’ve raised a little over $5,400 from 37 people in the last eight days, out of our goal of $12,500. These donations help us cover the changeover of hegemony from America to China, environmental collapse, internal US fascism, what a better society would look like, Gaza, AI, the coming stock market […]",
+          "link": "https://www.ianwelsh.net/is-it-more-fun-to-be-evil-than-good/",
+          "publishedOn": "2025-10-07T11:16:08.000Z",
+          "wordCount": 3386,
+          "title": "Is It More Fun To Be Evil Than Good?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.ianwelsh.net/?p=21949",
           "author": "Sean Paul Kelley",
           "description": "~by Sean Paul Kelley A little lesson in history is in order to understand why Israel remains dominant in the Middle East and continues to wage war against just about everyone. To understand better Israel’s strategic dilemma we have to look back at the Crusades. The First Crusade established the Kingdom of Jerusalem in 1099. […]",
           "link": "https://www.ianwelsh.net/one-step-at-a-time-israel-is-encouraging-the-coalition-that-will-ultimately-defeat-it/",
           "publishedOn": "2025-10-06T05:49:37.000Z",
-          "wordCount": 3806,
+          "wordCount": 3895,
           "title": "Israeli Actions Encourage the Formation of the Coalition That Will Ultimately Defeat It",
           "imageUrl": null
         },
@@ -471,7 +445,7 @@
           "description": "by Tony Wikrent Trump not violating any law ‘He who saves his Country does not violate any Law’ Trump Stuns By Saying ‘I Don’t Know’ When Asked Directly NBC’s Kristen Welker ‘Don’t You Need to Uphold the Constitution?’ Joe DePaolo, May 4th, 2025 [mediaite.com] Trump’s War on America Chris Hedges, Sep 28, 2025 Trump’s newest […]",
           "link": "https://www.ianwelsh.net/week-end-wrap-political-economy-october-05-2025-2/",
           "publishedOn": "2025-10-05T18:49:00.000Z",
-          "wordCount": 12693,
+          "wordCount": 12700,
           "title": "Week-end Wrap – Political Economy – October 05, 2025",
           "imageUrl": null
         },
@@ -481,7 +455,7 @@
           "description": "~by Sean Paul Kelley This post is meant to piggy-back on Ian’s recent post, “The Next Big Crash Is On Its Way.” There has been little coverage in the legacy media of the GENIUS Act. This recent legislation, passed by both Houses of Congress and signed by President Trump is about “regulating” the crypto-economy. The […]",
           "link": "https://www.ianwelsh.net/the-genius-act-is-anything-but/",
           "publishedOn": "2025-10-05T18:48:52.000Z",
-          "wordCount": 3339,
+          "wordCount": 3366,
           "title": "The GENIUS Act is Anything But",
           "imageUrl": null
         },
@@ -491,7 +465,7 @@
           "description": "Use to discuss topics unrelated to recent posts.",
           "link": "https://www.ianwelsh.net/open-thread-306/",
           "publishedOn": "2025-10-04T14:04:24.000Z",
-          "wordCount": 3801,
+          "wordCount": 3808,
           "title": "Open Thread",
           "imageUrl": null
         },
@@ -511,7 +485,7 @@
           "description": "I took the time to read a transcript of Secretary of War Hegseth’s speech to the gathered generals and admirals. To my surprise, I agreed with a lot of it, though not all. The crazy bits, especially combined with Trump’s statements, are the talk of domestic enemies and using the military against them. But most […]",
           "link": "https://www.ianwelsh.net/hegseths-speech-and-fitness-standards-for-soldiers/",
           "publishedOn": "2025-10-03T01:27:18.000Z",
-          "wordCount": 7792,
+          "wordCount": 8078,
           "title": "Hegseth’s Speech and Fitness Standards For Soldiers",
           "imageUrl": null
         },
@@ -521,7 +495,7 @@
           "description": "Ever since Greenspan took over the Fed and the 87 crash when they figured out their playbook, the US has only had unavoidable stock market crashes. The Fed is always there to juice markets higher and to jump in at the least sign of a normal (pre-Greenspan) market correction. But sometimes the irrational stupidity overwhelms […]",
           "link": "https://www.ianwelsh.net/the-next-big-crash-is-on-its-way/",
           "publishedOn": "2025-10-01T13:32:36.000Z",
-          "wordCount": 6377,
+          "wordCount": 6384,
           "title": "The Next Big Crash Is On Its Way",
           "imageUrl": null
         }
@@ -532,6 +506,28 @@
       "feedUrl": "https://www.lawyersgunsmoneyblog.com/feed",
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=154571",
+          "author": "Robert Farley",
+          "description": "It’s two years since October 7, and everything is worse. All told, Hamas killed some 1,200 people, most of them civilians, and took about 250 more captive. It was the bloodiest day in Israel’s history and the deadliest for Jews anywhere since the Holocaust. But a shocked Israel mobilized to unleash a devastating military response […]\nThe post And Now Everything is Worse appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/and-now-everything-is-worse",
+          "publishedOn": "2025-10-07T11:45:42.000Z",
+          "wordCount": null,
+          "title": "And Now Everything is Worse",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=154431",
+          "author": "Erik Loomis",
+          "description": "This is the grave of Red Miller. Born in 1927 in Macomb, Illinois, Miller grew up there, the son of a coal miner. He was called Red because he had red hair. People are so sophisticated with nicknames. He then went to Western Illinois University to play football. And maybe to study too. He was […]\nThe post Erik Visits an American Grave, Part 1,983 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/erik-visits-an-american-grave-part-1985",
+          "publishedOn": "2025-10-07T11:00:00.000Z",
+          "wordCount": null,
+          "title": "Erik Visits an American Grave, Part 1,983",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=154569",
           "author": "Scott Lemieux",
@@ -606,28 +602,6 @@
           "publishedOn": "2025-10-06T13:27:00.000Z",
           "wordCount": null,
           "title": "Judge Immergut issues another TRO in light of Trump’s administration’s attempted nullifiction",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=154546",
-          "author": "Paul Campos",
-          "description": "Emily Bazelon (gift link) surveyed 50 elite DC lawyers, including former federal judges, high DOJ officials, and the like, a year ago about their concerns regarding another Trump administration and the rule of law. They were moderately concerned then, although there was a lot of talk of how elite lawyers would hold the line because […]\nThe post Bush v. Gore 25 years later and Trump’s trashing of the DOJ appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/bush-v-gore-25-years-later-and-trumps-trashing-of-the-doj",
-          "publishedOn": "2025-10-06T12:36:08.000Z",
-          "wordCount": null,
-          "title": "Bush v. Gore 25 years later and Trump’s trashing of the DOJ",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=154424",
-          "author": "Erik Loomis",
-          "description": "This is the grave of Ray Allen Billington. Born in 1903 in Bay City, Michigan, Billington went to the University of Wisconsin for undergraduate degree. He decided to become a historian, did a master’s degree at the University of Michigan, and then went to Harvard for his Ph.D. He then taught a bunch of places–Clark, […]\nThe post Erik Visits an American Grave, Part 1,982 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/erik-visits-an-american-grave-part-1982",
-          "publishedOn": "2025-10-06T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Erik Visits an American Grave, Part 1,982",
           "itunes": {},
           "imageUrl": null
         }
