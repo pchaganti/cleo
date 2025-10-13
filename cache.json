@@ -30,26 +30,6 @@
           "wordCount": 10530,
           "title": "New general-purpose Amazon EC2 M8a instances are now available",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/10/07/EC2-F2b.png"
-        },
-        {
-          "id": "e4f3a11b60af892b209306fd57ec907f873c313e",
-          "author": "Channy Yun (윤석찬)",
-          "description": "AWS launched compute-optimized C8i and C8i-flex EC2 instances powered by custom Intel Xeon 6 processors available only on AWS to offer up to 15% better price performance, 20% higher performance, and 2.5 times more memory throughput compared to previous generations.",
-          "link": "https://aws.amazon.com/blogs/aws/introducing-new-compute-optimized-amazon-ec2-c8i-and-c8i-flex-instances/",
-          "publishedOn": "2025-10-06T20:33:28.000Z",
-          "wordCount": 10472,
-          "title": "Introducing new compute-optimized Amazon EC2 C8i and C8i-flex instances",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/12/14/EC2-with-gradient.png"
-        },
-        {
-          "id": "05897e28440f8b00fbd534509ddf7ecb107ea6e7",
-          "author": "Sébastien Stormacq",
-          "description": "Gain control over encryption and comply with regulations using customer-managed keys for AWS IAM Identity Center's user data and passwords.",
-          "link": "https://aws.amazon.com/blogs/aws/aws-iam-identity-center-now-supports-customer-managed-kms-keys-for-encryption-at-rest/",
-          "publishedOn": "2025-10-06T19:52:06.000Z",
-          "wordCount": 11783,
-          "title": "AWS IAM Identity Center now supports customer-managed KMS keys for encryption at rest",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/12/11/IAMc.png"
         }
       ]
     },
@@ -99,16 +79,6 @@
           "wordCount": 12508,
           "title": "Moeve: Controlling resource deployment at scale with AWS CloudFormation Guard Hooks",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/10/03/devops-17530-1119x630.png"
-        },
-        {
-          "id": "aff4c1cbba2f078ad7f726e3fc81b7d0e5e3d09d",
-          "author": "Juan Pablo Melgarejo Zamora",
-          "description": "This is a guest post written by Ramanathan Nachiappan from GoDaddy. In the world of infrastructure as code, the AWS Cloud Development Kit (AWS CDK) has revolutionized how teams define and provision cloud resources. Central to its operation is the bootstrapping process, which ensures all required resources and permissions are in place to enable secure […]",
-          "link": "https://aws.amazon.com/blogs/devops/beyond-bootstrap-bootstrapless-cdk-deployments-at-godaddy/",
-          "publishedOn": "2025-10-06T21:45:06.000Z",
-          "wordCount": 11955,
-          "title": "Beyond Bootstrap: Bootstrapless CDK Deployments at GoDaddy",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/10/06/Slide1.png"
         }
       ]
     },
@@ -118,12 +88,42 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=299780",
+          "author": "Conor Gallagher",
+          "description": "Our wild-eyed daily links, including climate tipping point passed, China rare earths and battery export controls, and US arms manufacturer plant explosion.",
+          "link": "https://www.nakedcapitalism.com/2025/10/links-10-13-2025.html",
+          "publishedOn": "2025-10-13T10:55:32.000Z",
+          "wordCount": 5316,
+          "title": "Links 10/13/2025",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-2024-10-05-at-10.06.18 AM-1024x651.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=299815",
+          "author": "Yves Smith",
+          "description": "Yet more reason to be leery of crypto: even when you have won on a leveraged bet, you can be haircut to help rescue the exchange.",
+          "link": "https://www.nakedcapitalism.com/2025/10/crypto-crash-leads-to-customer-bail-ins-to-prevent-some-exchanges-from-failing.html",
+          "publishedOn": "2025-10-13T10:15:24.000Z",
+          "wordCount": 4294,
+          "title": "Crypto Crash Leads to Customer Bail-Ins to Prevent Some Exchanges from Failing",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=299755",
+          "author": "Conor Gallagher",
+          "description": "Is technology expanding or contracting our horizons?",
+          "link": "https://www.nakedcapitalism.com/2025/10/how-technology-shapes-how-we-move-speak-and-think.html",
+          "publishedOn": "2025-10-13T09:00:36.000Z",
+          "wordCount": 5138,
+          "title": "How Technology Shapes How We Move, Speak, and Think",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=299806",
           "author": "Yves Smith",
           "description": "AI is huge. But so is the hype, hocus-pocus deals, and piles of real money fortified by leverage that caused stock prices to explode.",
           "link": "https://www.nakedcapitalism.com/2025/10/ai-is-it-really-different-this-time.html",
           "publishedOn": "2025-10-13T06:43:10.000Z",
-          "wordCount": 3551,
+          "wordCount": 4938,
           "title": "AI: Is it Really Different this Time?",
           "imageUrl": null
         },
@@ -133,7 +133,7 @@
           "description": "Our strategic daily links: gymnastic dance, savants, coal-powered datacenters, Chinese drone show, UK Digital IDs, Gaza horrors, Ukraine burning, vanishing privacy, Trumpishness, Musk world, immigration troubles, Mr. market, AI, and wretched excess",
           "link": "https://www.nakedcapitalism.com/2025/10/links-10-12-2025.html",
           "publishedOn": "2025-10-12T10:55:38.000Z",
-          "wordCount": 11878,
+          "wordCount": 12088,
           "title": "Links 10/12/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Giraffe-600.jpg"
         },
@@ -143,7 +143,7 @@
           "description": "Moscow My Love is a bittersweet tale of love and loss set in Soviet Russia.",
           "link": "https://www.nakedcapitalism.com/2025/10/the-sunday-morning-movie-presents-moscow-my-love-1974-run-time-1h-29m.html",
           "publishedOn": "2025-10-12T10:30:58.000Z",
-          "wordCount": 4018,
+          "wordCount": 4020,
           "title": "The Sunday Morning Movie Presents: Moscow, My Love (1974) Run Time: 1H 29M",
           "imageUrl": null
         },
@@ -153,7 +153,7 @@
           "description": "The so-called opposition, with a much-needed rebranding assist from the Nobel Committee, proposes total economic surrender to US oligarchic interests.",
           "link": "https://www.nakedcapitalism.com/2025/10/venezuelas-opposition-used-un-meeting-to-lobby-for-us-coup.html",
           "publishedOn": "2025-10-12T09:00:13.000Z",
-          "wordCount": 5251,
+          "wordCount": 5285,
           "title": "Venezuela’s Opposition Used UN Meeting to Lobby for US Coup",
           "imageUrl": null
         },
@@ -163,7 +163,7 @@
           "description": "Our lightening daily links: Ig Noble pasta trick, China drops hammer on US, Trump drug war, Macron agonistes, Candace v. genociders, Russia massive missile strike, RFK, Jr. links circumcision to autism, shutdown firings, more debt/dollar worries, Musk's crashing satellites, Marx",
           "link": "https://www.nakedcapitalism.com/2025/10/links-10-11-2025.html",
           "publishedOn": "2025-10-11T10:55:57.000Z",
-          "wordCount": 16950,
+          "wordCount": 16944,
           "title": "Links 10/11/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/00-goofy-bear.jpg"
         },
@@ -183,39 +183,9 @@
           "description": "The Trump Administration is eager to integrate AI into military operations, even as experts warn:  “The AI is always playing Curtis LeMay.”",
           "link": "https://www.nakedcapitalism.com/2025/10/are-we-waking-up-fast-enough-to-the-dangers-of-ai-militarism.html",
           "publishedOn": "2025-10-11T08:04:44.000Z",
-          "wordCount": 6588,
+          "wordCount": 6590,
           "title": "Are We Waking Up Fast Enough to the Dangers of AI Militarism?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=299730",
-          "author": "Yves Smith",
-          "description": "The clock is ticking for the final hours of our fundraiser. Beat our countdown by supporting our work at the Tip Jar!",
-          "link": "https://www.nakedcapitalism.com/2025/10/countdown-14.html",
-          "publishedOn": "2025-10-10T20:00:37.000Z",
-          "wordCount": 3464,
-          "title": "Countdown!",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-2025-10-11-at-12.57.12 AM-300x231.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=299680",
-          "author": "KLG",
-          "description": "This is Naked Capitalism fundraising week. 1425 donors have already invested in our efforts to combat corruption and predatory conduct, particularly in the financial realm. Please join us and participate via our donation page, which shows how to give via check, credit card, debit card, PayPal, Clover, or Wise. Read about why we’re doing this fundraiser, what […]",
-          "link": "https://www.nakedcapitalism.com/2025/10/coffee-break-genes-and-disease-workslop-passing-for-science-nobel-news-a-labor-party-in-the-us-and-our-sick-politics.html",
-          "publishedOn": "2025-10-10T18:00:08.000Z",
-          "wordCount": 6081,
-          "title": "Coffee Break: Genes and Disease, Workslop Passing for Science, Nobel News, a Labor Party in the US, and Our Sick Politics",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=299726",
-          "author": "Yves Smith",
-          "description": "Help us with this last push to meet the final fundraiser goals! Invest in this community!",
-          "link": "https://www.nakedcapitalism.com/2025/10/down-to-the-wire-for-2025-fundraiser-help-hit-our-new-donor-and-targets.html",
-          "publishedOn": "2025-10-10T16:22:49.000Z",
-          "wordCount": 3073,
-          "title": "Down to the Wire for 2025 Fundraiser,  Help Hit Our New Donor and $ Targets!",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-2025-10-08-at-9.55.42 PM-300x271.png"
         }
       ]
     },
@@ -323,7 +293,7 @@
           "description": "Today's links look at 1,001 real-world gen AI use cases, why you should think about vibe engineering, and the challenge of API versioning with MCP servers",
           "link": "https://seroter.com/2025/10/10/daily-reading-list-october-10-2025-646/",
           "publishedOn": "2025-10-10T23:37:10.000Z",
-          "wordCount": 4409,
+          "wordCount": 4425,
           "title": "Daily Reading List – October 10, 2025 (#646)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
@@ -356,16 +326,6 @@
           "wordCount": 4502,
           "title": "Daily Reading List – October 7, 2025 (#643)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://seroter.com/?p=25456",
-          "author": "Richard Seroter",
-          "description": "Today's links look at an AI agent for code security, whether agents and context windows killed RAG, and fresh ways to drive innovation without wasting resources.",
-          "link": "https://seroter.com/2025/10/06/daily-reading-list-october-6-2025-642/",
-          "publishedOn": "2025-10-06T23:38:40.000Z",
-          "wordCount": 4499,
-          "title": "Daily Reading List – October 6, 2025 (#642)",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         }
       ]
     },
@@ -380,7 +340,7 @@
           "description": "Receiving the Robert A. Muh award, the technologist and author heralded a bright future for AI, breakthroughs in longevity, and more.",
           "link": "https://news.mit.edu/2025/ray-kurzwei-reinforces-his-optimism-tech-progress-1010",
           "publishedOn": "2025-10-10T04:00:00.000Z",
-          "wordCount": 2168,
+          "wordCount": 2173,
           "title": "Ray Kurzweil ’70 reinforces his optimism in tech progress",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202510/MIT-KurzweilMuh-01-press.jpg"
         },
@@ -390,7 +350,7 @@
           "description": "The MIT–MBZUAI Collaborative Research Program will unite faculty and students from both institutions to advance AI and accelerate its use in pressing scientific and societal challenges.",
           "link": "https://news.mit.edu/2025/mit-schwarzman-college-computing-mbzuai-launch-collaboration-shape-future-ai-1008",
           "publishedOn": "2025-10-08T19:10:00.000Z",
-          "wordCount": 1236,
+          "wordCount": 1241,
           "title": "MIT Schwarzman College of Computing and MBZUAI launch international collaboration to shape the future of AI",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202510/mit-mbzuai.jpg"
         },
@@ -400,7 +360,7 @@
           "description": "New tool from MIT CSAIL creates realistic virtual kitchens and living rooms where simulated robots can interact with models of real-world objects, scaling up training data for robot foundation models.",
           "link": "https://news.mit.edu/2025/using-generative-ai-diversify-virtual-training-grounds-robots-1008",
           "publishedOn": "2025-10-08T17:45:00.000Z",
-          "wordCount": 2271,
+          "wordCount": 2275,
           "title": "Using generative AI to diversify virtual training grounds for robots",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202509/mit-csail-restaurant.gif"
         },
@@ -410,7 +370,7 @@
           "description": "Assistant Professor Priya Donti’s research applies machine learning to optimize renewable energy.",
           "link": "https://news.mit.edu/2025/fighting-health-planet-ai-priya-donti-1007",
           "publishedOn": "2025-10-07T20:55:00.000Z",
-          "wordCount": 1720,
+          "wordCount": 1724,
           "title": "Fighting for the health of the planet with AI",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202509/mit-LIDS-Priya-Donti.jpg"
         },
@@ -420,7 +380,7 @@
           "description": "The approach combines physics and machine learning to avoid damaging disruptions when powering down tokamak fusion machines.",
           "link": "https://news.mit.edu/2025/new-prediction-model-could-improve-reliability-fusion-power-plants-1007",
           "publishedOn": "2025-10-07T04:00:00.000Z",
-          "wordCount": 2179,
+          "wordCount": 2183,
           "title": "New prediction model could improve the reliability of fusion power plants",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202510/MIT-Tokamak-Tuning-01.jpg"
         },
@@ -430,7 +390,7 @@
           "description": "Incorporating machine learning, MIT engineers developed a way to 3D print alloys that are much stronger than conventionally manufactured versions.",
           "link": "https://news.mit.edu/2025/printable-aluminum-alloy-sets-strength-records-may-enable-lighter-aircraft-parts-1007",
           "publishedOn": "2025-10-07T04:00:00.000Z",
-          "wordCount": 2077,
+          "wordCount": 2081,
           "title": "Printable aluminum alloy sets strength records, may enable lighter aircraft parts",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202510/MIT-Printing-Aluminum-01-press.jpg"
         }
@@ -459,7 +419,7 @@
           "description": "by Tony Wikrent   Trump not violating any law ‘He who saves his Country does not violate any Law’ Trump Stuns By Saying ‘I Don’t Know’ When Asked Directly NBC’s Kristen Welker ‘Don’t You Need to Uphold the Constitution?’ Joe DePaolo, May 4th, 2025 [mediaite.com] What is Stephen Miller trying to accomplish in Portland and […]",
           "link": "https://www.ianwelsh.net/week-end-wrap-political-economy-october-12-2025/",
           "publishedOn": "2025-10-12T19:03:12.000Z",
-          "wordCount": 12633,
+          "wordCount": 13127,
           "title": "Week-end Wrap – Political Economy – October 12, 2025",
           "imageUrl": null
         },
@@ -499,7 +459,7 @@
           "description": "It’s our annual fundraiser. We’ve raised a little over $6,420 from 54 people in the last eleven days, out of our goal of $12,500. If you’re a regular reader and can afford to support our writing, please subscribe or donate. Over 10,000 people read every day, but without those who give the site would not […]",
           "link": "https://www.ianwelsh.net/china-is-going-to-leave-the-us-what-america-left-britain-nothing/",
           "publishedOn": "2025-10-10T15:00:44.000Z",
-          "wordCount": 5572,
+          "wordCount": 5797,
           "title": "China Is Going To Leave The US What America Left Britain: Nothing",
           "imageUrl": null
         },
@@ -560,6 +520,17 @@
       "feedUrl": "https://www.lawyersgunsmoneyblog.com/feed",
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=154596",
+          "author": "Erik Loomis",
+          "description": "This is the grave of Richard Helms. Born in 1913 in St. Davids, Pennsylvania, Helms grew up in a German Lutheran household. His parents were loaded, as his dad was a bigshot Alcoa executive. So Helms spent much of his time growing up in Germany and Switzerland. He went to Williams College and after graduation, […]\nThe post Erik Visits an American Grave, Part 1,987 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/erik-visits-an-american-grave-part-1987",
+          "publishedOn": "2025-10-13T11:00:00.000Z",
+          "wordCount": null,
+          "title": "Erik Visits an American Grave, Part 1,987",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=154716",
           "author": "Scott Lemieux",
@@ -645,17 +616,6 @@
           "publishedOn": "2025-10-11T23:00:00.000Z",
           "wordCount": null,
           "title": "Music Notes",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=154697",
-          "author": "Erik Loomis",
-          "description": "Unquestionably one of the biggest figures of late 20th century American acting and she’s what made most of those Woody Allen films work. Not to mention being a fashion icon for her signature look of slightly androgynous wearing of suits. Well deserving of a thread. RIP.\nThe post Diane Keaton, RIP appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/diane-keaton-rip",
-          "publishedOn": "2025-10-11T22:43:02.000Z",
-          "wordCount": null,
-          "title": "Diane Keaton, RIP",
           "itunes": {},
           "imageUrl": null
         }
@@ -864,16 +824,6 @@
           "publishedOn": "2025-10-07T08:47:16.000Z",
           "wordCount": null,
           "title": "Why do Republicans hate women?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=181220",
-          "author": "Bill Haskell",
-          "description": "Like many other places I have been in Europe? The cities of Switzerland also have excellent public transport. This might work there and be a model of other cities which have similar ways to get around without cars. “Initiative launched” A broad civil society committee has submitted 4,500 signatures in favor of the traffic reform […]\nThe post Car-Free Zurich? appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/10/car-free-zurich",
-          "publishedOn": "2025-10-06T19:33:11.000Z",
-          "wordCount": null,
-          "title": "Car-Free Zurich?",
           "imageUrl": null
         }
       ]
