@@ -30,26 +30,6 @@
           "wordCount": 11273,
           "title": "Monitor, analyze, and manage capacity usage from a single interface with Amazon EC2 Capacity Manager",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/10/20/EC2-Capacity-Manager.png"
-        },
-        {
-          "id": "41e94e3268349808f2adcaad5c1e6aeacc119e94",
-          "author": "Sébastien Stormacq",
-          "description": "AWS launched Amazon EBS Volume Clones, a new capability that allows users to create instant point-in-time copies of EBS volumes within the same Availability Zone with a single API call, eliminating the previous multi-step process of taking snapshots and creating volumes from them.",
-          "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-create-instant-copies-of-your-ebs-volumes/",
-          "publishedOn": "2025-10-14T21:35:05.000Z",
-          "wordCount": 10953,
-          "title": "Introducing Amazon EBS Volume Clones: Create instant copies of your EBS volumes",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/10/14/EBS-Thumbnail-03b.png"
-        },
-        {
-          "id": "232626b6fef2f111588ae9e3e71e81268106ed01",
-          "author": "Betty Zheng (郑予彬)",
-          "description": "AWS Transfer Family SFTP connectors now support VPC-based connectivity, allowing secure file transfers between Amazon S3 and remote SFTP servers through your existing VPC infrastructure without exposing endpoints to the internet.",
-          "link": "https://aws.amazon.com/blogs/aws/aws-transfer-family-sftp-connectors-now-support-vpc-based-connectivity/",
-          "publishedOn": "2025-10-14T19:27:31.000Z",
-          "wordCount": 10915,
-          "title": "AWS Transfer Family SFTP connectors now support VPC-based connectivity",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/12/transfer-family-feat-img2.png"
         }
       ]
     },
@@ -69,7 +49,18 @@
       "title": "AWS DevOps & Developer Productivity Blog",
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
-      "articles": []
+      "articles": [
+        {
+          "id": "a60b5ce9511c272ed4953b16e19140bf83400a27",
+          "author": "Vu San Ha Huynh",
+          "description": "This post is cowritten by Danilo Tommasina and Lalit Kumar B from Thomson Reuters. Large organizations often struggle with infrastructure management challenges including compliance issues, development bottlenecks and errors from inconsistent AWS resource creation across teams. Without standardized naming, tagging and policy enforcement, teams face repeated boilerplate code and difficulty accessing centrally-managed resources. In this […]",
+          "link": "https://aws.amazon.com/blogs/devops/infrastructure-as-code-at-thomson-reuters-with-aws-cdk/",
+          "publishedOn": "2025-10-21T07:28:37.000Z",
+          "wordCount": 12982,
+          "title": "Infrastructure as Code at Thomson Reuters with AWS CDK",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/10/16/Feature.png"
+        }
+      ]
     },
     {
       "title": "naked capitalism",
@@ -77,12 +68,52 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=300127",
+          "author": "Conor Gallagher",
+          "description": "Our daily links, including Trump-Putin meeting falls apart, microplastics treatments, ICE buying chemical weapons, and AI vacations.",
+          "link": "https://www.nakedcapitalism.com/2025/10/links-10-21-2025.html",
+          "publishedOn": "2025-10-21T10:55:38.000Z",
+          "wordCount": 4610,
+          "title": "Links 10/21/2025",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-2025-10-20-at-9.07.24 PM-883x1024.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=300095",
+          "author": "Nick Corbishley",
+          "description": "CNN has even published an article highlighting the \"dark history of the CIA and regime change\", not just in Latin America but around the world.",
+          "link": "https://www.nakedcapitalism.com/2025/10/western-media-finally-admits-that-trumps-mobilisation-of-forces-against-venezuela-is-all-about-regime-change.html",
+          "publishedOn": "2025-10-21T10:45:37.000Z",
+          "wordCount": 6166,
+          "title": "Western Media Finally Admit That Trump’s Mobilisation of Forces Against Venezuela Is All About Regime Change",
+          "imageUrl": "https://pbs.twimg.com/media/G3oL_y3XkAADHnM?format=jpg&name=medium"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=300058",
+          "author": "Nat Wilson Turner",
+          "description": "From Trump on down to the voters, it's almost impossible to figure out who is deluded, who's drugged, and who's been disinformed.",
+          "link": "https://www.nakedcapitalism.com/2025/10/trump-delusional-drugged-disinformed.html",
+          "publishedOn": "2025-10-21T10:20:03.000Z",
+          "wordCount": 6087,
+          "title": "Who’s Delusional, Who’s Drugged, Who’s Disinformed? It’s Hard to Tell",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=300153",
+          "author": "Conor Gallagher",
+          "description": "The new $100,000 H-1B fee tacitly acknowledges what early policy architects signaled: expanding temporary tech visas can depress domestic wages. By bringing the fully loaded cost of a new H1B hire closer to what the local market would require to recruit and retain comparable talent, it narrows the wedge between visa-enabled staffing and hiring Americans at market rates.",
+          "link": "https://www.nakedcapitalism.com/2025/10/not-the-fix-the-tell-the-meaning-of-a-100000-h-1b-fee.html",
+          "publishedOn": "2025-10-21T09:00:02.000Z",
+          "wordCount": 5115,
+          "title": "Not the Fix—The Tell: The Meaning of a $100,000 H-1B Fee",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=300136",
           "author": "Conor Gallagher",
           "description": "Surrogacy’s health risks raise ethical issues over whether the practice is exploitative and should be banned.",
           "link": "https://www.nakedcapitalism.com/2025/10/putting-a-pause-on-the-practice-of-surrogacy.html",
           "publishedOn": "2025-10-21T06:00:42.000Z",
-          "wordCount": 4114,
+          "wordCount": 4580,
           "title": "Putting a Pause on the Practice of Surrogacy",
           "imageUrl": null
         },
@@ -92,7 +123,7 @@
           "description": "After claiming a pyrrhic victory in Gaza, Israel and its allies in Silicon Valley make a dystopian grab for control.",
           "link": "https://www.nakedcapitalism.com/2025/10/pyrrhic-victory-dystopian-tech-israel-oracle-musk-grok.html",
           "publishedOn": "2025-10-20T18:00:07.000Z",
-          "wordCount": 9515,
+          "wordCount": 9955,
           "title": "Coffee Break: Pyrrhic Victory Drives Dystopian High Tech Drive for Control",
           "imageUrl": null
         },
@@ -102,7 +133,7 @@
           "description": "Medical systems using Epic are planning to turn most patient care decisions over to AI.",
           "link": "https://www.nakedcapitalism.com/2025/10/ai-is-coming-for-your-doctor.html",
           "publishedOn": "2025-10-20T13:55:25.000Z",
-          "wordCount": 9343,
+          "wordCount": 9465,
           "title": "AI Is Coming For Your Doctor",
           "imageUrl": null
         },
@@ -112,7 +143,7 @@
           "description": "Our daily links, including a hunting stand warning to Trump, China winning trade war, No Kings arrests, and Budapest Summit.",
           "link": "https://www.nakedcapitalism.com/2025/10/links-10-20-2025.html",
           "publishedOn": "2025-10-20T10:55:10.000Z",
-          "wordCount": 18695,
+          "wordCount": 19085,
           "title": "Links 10/20/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-2025-10-18-at-2.02.36 AM-971x1024.png"
         },
@@ -122,7 +153,7 @@
           "description": "Private equity, for one, which cashes in at nearly every stage of the American homelessness crisis.",
           "link": "https://www.nakedcapitalism.com/2025/10/whos-profiting-off-of-the-criminalization-of-homelessness.html",
           "publishedOn": "2025-10-20T10:00:38.000Z",
-          "wordCount": 6763,
+          "wordCount": 6771,
           "title": "Who’s Profiting off of the Criminalization of Homelessness?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-2025-10-19-at-7.48.56 PM-931x1024.png"
         },
@@ -132,49 +163,9 @@
           "description": "Selling may be good for homeowners who can find buyers, but it doesn’t make the community more resilient.",
           "link": "https://www.nakedcapitalism.com/2025/10/fema-buyouts-vs-risky-real-estate-new-maps-reveal-post-flood-migration-patterns-across-the-us.html",
           "publishedOn": "2025-10-20T09:00:48.000Z",
-          "wordCount": 3768,
+          "wordCount": 3776,
           "title": "FEMA Buyouts vs. Risky Real Estate: New Maps Reveal Post-flood Migration Patterns Across the US",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Screenshot-2025-10-20-at-9.17.39 AM-1024x532.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=300062",
-          "author": "Yves Smith",
-          "description": "Uncertainty is pushing investors to consider commodities but playing them is not as easy as you think!",
-          "link": "https://www.nakedcapitalism.com/2025/10/commodities-why-they-are-a-challenge-for-investors.html",
-          "publishedOn": "2025-10-20T05:36:04.000Z",
-          "wordCount": 4275,
-          "title": "Commodities: Why They Are a Challenge for Investors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=300047",
-          "author": "Haig Hovaness",
-          "description": "Our strategic daily links: rhythmic gymnastics, youth mortality, target Venezuela, Chinese trucks, European draft?, Gaza horrors, Ukraine burning, vanishing privacy, Trumpishness, Musk world, immigration troubles, Mr. market, AI, and wretched excess",
-          "link": "https://www.nakedcapitalism.com/2025/10/links-10-19-2025.html",
-          "publishedOn": "2025-10-19T10:55:43.000Z",
-          "wordCount": 18214,
-          "title": "Links 10/19/2025",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/10/Lioness_and_cub-600.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=300022",
-          "author": "semper loquitur",
-          "description": "Charade is a romantic comedy-drama movie about thieves, money, and love in 1960's Paris.",
-          "link": "https://www.nakedcapitalism.com/2025/10/the-sunday-movie-presents-charade-1963-run-time-1h-56m.html",
-          "publishedOn": "2025-10-19T10:30:28.000Z",
-          "wordCount": 4075,
-          "title": "The Sunday Movie Presents: Charade (1963) Run Time: 1H 56M",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=300042",
-          "author": "Conor Gallagher",
-          "description": "Journalist Michael Grunwald digs into uncomfortable truths about food and agriculture in his new book, ‘We Are Eating the Earth.’",
-          "link": "https://www.nakedcapitalism.com/2025/10/how-a-bush-era-green-solution-made-climate-change-worse.html",
-          "publishedOn": "2025-10-19T09:00:23.000Z",
-          "wordCount": 7589,
-          "title": "How a Bush-Era ‘Green’ Solution Made Climate Change Worse",
-          "imageUrl": null
         }
       ]
     },
@@ -202,16 +193,6 @@
           "wordCount": 5544,
           "title": "Improving the trustworthiness of Javascript on the Web",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5j5YpBibRfLDbgQWfNYz4S/990ec92b60da30d6cf77f1ae5e8e9212/BLOG-2875_OG.png"
-        },
-        {
-          "id": "7GhQHTIyNTjaRyYup7T7qr",
-          "author": "Kenton Varda",
-          "description": "Cloudflare investigated CPU performance benchmark results for Workers, uncovering and fixing issues in infrastructure, V8 garbage collection, and OpenNext optimizations.",
-          "link": "https://blog.cloudflare.com/unpacking-cloudflare-workers-cpu-performance-benchmarks/",
-          "publishedOn": "2025-10-14T20:00:25.000Z",
-          "wordCount": 5186,
-          "title": "Unpacking Cloudflare Workers CPU Performance Benchmarks",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5IVrReUPfoAtskoFgzKlKX/662239d64cc42db86bb41674ab64b1bf/BLOG-3051_OG.png"
         }
       ]
     },
@@ -273,46 +254,36 @@
     {
       "title": "Richard Seroter's Architecture Musings",
       "feedUrl": "https://seroter.com/feed/",
-      "siteUrl": "http://seroter.com",
+      "siteUrl": "https://seroter.com",
       "articles": [
         {
-          "id": "https://seroter.com/?p=25663",
+          "id": "http://seroter.com/?p=25663",
           "author": "Richard Seroter",
           "description": "Today's links look at understanding spec-driven development, the ultimate prompting guide for AI videos with Veo 3.1, and why AI isn't a bubble.",
-          "link": "http://seroter.com/2025/10/17/daily-reading-list-october-17-2025-651/",
+          "link": "https://seroter.com/2025/10/17/daily-reading-list-october-17-2025-651/",
           "publishedOn": "2025-10-18T00:11:07.000Z",
           "wordCount": 4490,
           "title": "Daily Reading List – October 17, 2025 (#651)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
         {
-          "id": "https://seroter.com/?p=25651",
+          "id": "http://seroter.com/?p=25651",
           "author": "Richard Seroter",
           "description": "Today's links look at where developers actually want AI to help them, build vs buy in the AI age, and how you rethink operations in an agentic AI world.",
-          "link": "http://seroter.com/2025/10/16/daily-reading-list-october-16-2025-650/",
+          "link": "https://seroter.com/2025/10/16/daily-reading-list-october-16-2025-650/",
           "publishedOn": "2025-10-17T00:47:38.000Z",
           "wordCount": 4443,
           "title": "Daily Reading List – October 16, 2025 (#650)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
         {
-          "id": "https://seroter.com/?p=25636",
+          "id": "http://seroter.com/?p=25636",
           "author": "Richard Seroter",
           "description": "Today's links look at the wild Veo 3.1 model update, a new coding agent memory system, and why Zoom dooms the developer's afternoon.",
-          "link": "http://seroter.com/2025/10/15/daily-reading-list-october-15-2025-649/",
+          "link": "https://seroter.com/2025/10/15/daily-reading-list-october-15-2025-649/",
           "publishedOn": "2025-10-15T23:10:36.000Z",
           "wordCount": 4537,
           "title": "Daily Reading List – October 15, 2025 (#649)",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "https://seroter.com/?p=25608",
-          "author": "Richard Seroter",
-          "description": "Today's links look at what agents 2.0 can be, wha's included in the new AI-driven SDLC, and whether the vibe coding bubble is starting to burst.",
-          "link": "http://seroter.com/2025/10/14/daily-reading-list-october-14-2025-648/",
-          "publishedOn": "2025-10-14T23:46:20.000Z",
-          "wordCount": 4536,
-          "title": "Daily Reading List – October 14, 2025 (#648)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         }
       ]
@@ -361,16 +332,6 @@
           "wordCount": 1960,
           "title": "Blending neuroscience, AI, and music to create mental health innovations",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202509/mit-Kimaya-Lecamwasam.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2025/optimizing-food-subsidies-applying-digital-platforms-maximize-nutrition-1014",
-          "author": "Mia Jeffries | Abdul Latif Jameel Water and Food Systems Lab",
-          "description": "An algorithm can change the face of food assistance policy in the Global South, says MIT assistant professor and J-WAFS researcher Ali Aouad.",
-          "link": "https://news.mit.edu/2025/optimizing-food-subsidies-applying-digital-platforms-maximize-nutrition-1014",
-          "publishedOn": "2025-10-14T19:40:00.000Z",
-          "wordCount": 1749,
-          "title": "Optimizing food subsidies: Applying digital platforms to maximize nutrition",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202510/aouad-ali-mit-00.jpg"
         }
       ]
     },
@@ -427,7 +388,7 @@
           "description": "John Maynard Keynes believed that ideas, hospitality, travel, knowledge and science should move freely between nations.  if a country could reasonably produce something physical it needed, it should. Trade should exist, but be kept to a minimum. I’d like to highlight something Matt Stoller (the anti-trust guy) recently wrote: In May of 2020, the Chinese […]",
           "link": "https://www.ianwelsh.net/china-seizes-the-masters-weapon-as-it-makes-itself-the-new-hegemon/",
           "publishedOn": "2025-10-17T13:07:51.000Z",
-          "wordCount": 8235,
+          "wordCount": 8388,
           "title": "China Seizes The Master’s Weapon As It Makes Itself The New Hegemon",
           "imageUrl": null
         },
@@ -457,7 +418,7 @@
           "description": "A couple days ago I discussed the Dutch taking over Nexperia, a Chinese owned but Dutch domiciled company making commodity semiconductors. The company became Chinese owned because it was almost bankrupt, the Chinese bought it, fixed it and kept many jobs in Europe, including the headquarters. What I didn’t know about the story on Monday […]",
           "link": "https://www.ianwelsh.net/eu-leaders-determined-to-win-most-supine-slave-award-nexperia-edition/",
           "publishedOn": "2025-10-15T13:00:38.000Z",
-          "wordCount": 3801,
+          "wordCount": 3892,
           "title": "EU Leaders Determined To Win “Most Supine Slave Award”: Nexperia Edition",
           "imageUrl": null
         }
@@ -468,6 +429,39 @@
       "feedUrl": "https://www.lawyersgunsmoneyblog.com/feed",
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=154870",
+          "author": "Robert Farley",
+          "description": "I honestly have no idea how I got signed up for Texas Monthly, but this was a pretty interesting read: As we broiled beneath a relentless sun in the Chihuahuan Desert, next to countless rows of improbably green cotton plants, I expected Ramon Tirres to tell me that water is his most precious resource. In […]\nThe post Texas Farming appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/texas-farming",
+          "publishedOn": "2025-10-21T12:30:00.000Z",
+          "wordCount": null,
+          "title": "Texas Farming",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=154893",
+          "author": "Paul Campos",
+          "description": "Here’s a very interesting essay (gift link) on how three forms of gambling — sports, prediction markets, and financial markets — are merging on the smart phones of, in particular, young men. What’s happening here is that open political corruption, in the form of, for example, degenerate dope fiend Donald Trump Jr. being bribed for […]\nThe post And it’s been the ruin of many a poor boy appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/and-its-been-the-ruin-of-many-a-poor-boy",
+          "publishedOn": "2025-10-21T12:20:59.000Z",
+          "wordCount": null,
+          "title": "And it’s been the ruin of many a poor boy",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=154766",
+          "author": "Erik Loomis",
+          "description": "This is the grave of Francis Walter. Born in 1894 in Easton, Pennsylvania, Walter grew up pretty well off and rose in society. He went to Lehigh University before attending both George Washington and Georgetown. He moved back to Pennsylvania, where he became involved in politics as a conservative Democrat. He was in both World […]\nThe post Erik Visits an American Grave, Part 1,993 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/erik-visits-an-american-grave-part-1994",
+          "publishedOn": "2025-10-21T11:00:00.000Z",
+          "wordCount": null,
+          "title": "Erik Visits an American Grave, Part 1,993",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=154887",
           "author": "Scott Lemieux",
@@ -531,39 +525,6 @@
           "publishedOn": "2025-10-20T16:14:32.000Z",
           "wordCount": null,
           "title": "Dementia and the baby boomers",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=154868",
-          "author": "Robert Farley",
-          "description": "I wrote a bit more about the Future Soldier Preparatory Course, offering some contrast with programs from the past… Because the Future Soldier Preparatory Course involves a creative approach to resolving the tension between high standards and the need to recruit more soldiers, some have compared it to Project 100000, a Vietnam-era program designed to expand […]\nThe post Making Recruiting Ends Meet appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/making-recruiting-ends-meet",
-          "publishedOn": "2025-10-20T12:21:00.000Z",
-          "wordCount": null,
-          "title": "Making Recruiting Ends Meet",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=154872",
-          "author": "Paul Campos",
-          "description": "Does handing the world’s biggest and most powerful social media platform to Trumpist propaganda mongers sound like a good idea? President Donald Trump’s friends are trying to take control of TikTok’s algorithm—and with his help, they’re close to doing it. On Sept. 25, Trump announced a “deal” between TikTok parent ByteDance and a group of […]\nThe post The TikTok disaster and Democratic elite blindness appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/the-tiktok-disaster-and-democratic-elite-blindness",
-          "publishedOn": "2025-10-20T12:20:57.000Z",
-          "wordCount": null,
-          "title": "The TikTok disaster and Democratic elite blindness",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=154604",
-          "author": "Erik Loomis",
-          "description": "This is the grave of Mary McDowell. Born in 1854 in Cincinnati, McDowell grew up pretty wealthy. Her father was a prominent Republican, Civil War veteran, and mill owner who relocated the family to Chicago after the war. Her mother was an invalid by the time Mary was in her teenage years and she had […]\nThe post Erik Visits an American Grave, Part 1,992 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/10/erik-visits-an-american-grave-part-1991",
-          "publishedOn": "2025-10-20T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Erik Visits an American Grave, Part 1,992",
           "itunes": {},
           "imageUrl": null
         }
