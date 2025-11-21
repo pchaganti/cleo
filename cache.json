@@ -12,12 +12,22 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "23ecfc214461a04802c20e3b2219ab5fa63b0122",
+          "author": "Matheus Guimaraes",
+          "description": "AWS introduces Attribute-Based Access Control (ABAC) for S3 general purpose buckets, enabling administrators to automatically manage permissions through tag-based policies that match tags between users, roles, and buckets—eliminating the need to constantly update IAM policies as organizations scale.",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-attribute-based-access-control-for-amazon-s3-general-purpose-buckets/",
+          "publishedOn": "2025-11-21T01:02:35.000Z",
+          "wordCount": 32442,
+          "title": "Introducing attribute-based access control for Amazon S3 general purpose buckets",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/17/s3-blog-thumbnail-1.png"
+        },
+        {
           "id": "ba9ab6a154f718c6ca2adce83a8a374f1f5d332b",
           "author": "Donnie Prakoso",
           "description": "AWS IAM now enables outbound identity federation, allowing developers to securely authenticate AWS workloads with external services using short-lived JSON Web Tokens instead of storing long-term credentials like API keys and passwords.",
           "link": "https://aws.amazon.com/blogs/aws/simplify-access-to-external-services-using-aws-iam-outbound-identity-federation/",
           "publishedOn": "2025-11-19T23:21:24.000Z",
-          "wordCount": 32824,
+          "wordCount": 32672,
           "title": "Simplify access to external services using AWS IAM Outbound Identity Federation",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/13/Bedrock-Qwen-10.png"
         },
@@ -37,7 +47,7 @@
           "description": "AWS Lambda introduces tenant isolation mode, enabling separate execution environments for each tenant within a single function to meet strict security requirements without managing dedicated per-tenant infrastructure.",
           "link": "https://aws.amazon.com/blogs/aws/streamlined-multi-tenant-application-development-with-tenant-isolation-mode-in-aws-lambda/",
           "publishedOn": "2025-11-19T19:12:27.000Z",
-          "wordCount": 35267,
+          "wordCount": 32254,
           "title": "Streamlined multi-tenant application development with tenant isolation mode in AWS Lambda",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/18/Lambda4-1.png"
         },
@@ -47,7 +57,7 @@
           "description": "Amazon SageMaker Catalog now offers column-level metadata forms and enforced glossary requirements, enabling organizations to improve data classification, discoverability, and governance through standardized business metadata.",
           "link": "https://aws.amazon.com/blogs/aws/new-business-metadata-features-in-amazon-sagemaker-catalog-to-improve-discoverability-across-organizations/",
           "publishedOn": "2025-11-19T19:09:27.000Z",
-          "wordCount": 35109,
+          "wordCount": 32096,
           "title": "New business metadata features in Amazon SageMaker Catalog to improve discoverability across organizations",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/11/20/SageMaker-feat-img-2024.png"
         },
@@ -57,7 +67,7 @@
           "description": "AWS Control Tower now offers Control Only Experience, enabling faster governance setup for established multi-account environments by providing access to AWS managed controls without requiring a full landing zone implementation.",
           "link": "https://aws.amazon.com/blogs/aws/aws-control-tower-introduces-a-controls-dedicated-experience/",
           "publishedOn": "2025-11-19T19:07:46.000Z",
-          "wordCount": 35003,
+          "wordCount": 31990,
           "title": "AWS Control Tower introduces a Controls Dedicated experience",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/04/Concept_1.png"
         },
@@ -77,7 +87,7 @@
           "description": "Amazon EKS introduces Container Network Observability, providing enhanced visibility into Kubernetes workload traffic and performance insights to help teams monitor and troubleshoot microservice environments.",
           "link": "https://aws.amazon.com/blogs/aws/monitor-network-performance-and-traffic-across-your-eks-clusters-with-container-network-observability/",
           "publishedOn": "2025-11-19T19:05:59.000Z",
-          "wordCount": 35532,
+          "wordCount": 32519,
           "title": "Monitor network performance and traffic across your EKS clusters with Container Network Observability",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/19/Screenshot-2025-11-19-111403-1230x630.png"
         },
@@ -87,7 +97,7 @@
           "description": "Amazon Bedrock introduces three service tiers—Priority, Standard, and Flex—allowing you to optimize AI workload costs by matching performance requirements with pricing for different application needs.",
           "link": "https://aws.amazon.com/blogs/aws/new-amazon-bedrock-service-tiers-help-you-match-ai-workload-performance-with-cost/",
           "publishedOn": "2025-11-18T22:29:46.000Z",
-          "wordCount": 35210,
+          "wordCount": 32197,
           "title": "New Amazon Bedrock service tiers help you match AI workload performance with cost",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/18/Bedrock-Qwen-13.png"
         },
@@ -97,7 +107,7 @@
           "description": "Amazon announces the general availability of EC2 P6-B300 instances, powered by NVIDIA Blackwell Ultra GPUs, which deliver 2x networking bandwidth and 1.5x GPU memory than previous generations, making them well suited for training and serving large-scale AI models with trillion parameters across distributed GPU clusters",
           "link": "https://aws.amazon.com/blogs/aws/accelerate-large-scale-ai-applications-with-the-new-amazon-ec2-p6-b300-instances/",
           "publishedOn": "2025-11-18T22:16:16.000Z",
-          "wordCount": 34917,
+          "wordCount": 31904,
           "title": "Accelerate large-scale AI applications with the new Amazon EC2 P6-B300 instances",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/18/Screenshot-2025-11-18-101116.png"
         },
@@ -107,7 +117,7 @@
           "description": "The weeks before AWS re:Invent, my team is full steam ahead preparing content for the conference. I can’t wait to meet you at one of my three talks: CMP346 : Supercharge AI/ML on Apple Silicon with EC2 Mac, CMP344: Speed up Apple application builds with CI/CD on EC2 Mac, and DEV416: Develop your AI Agents […]",
           "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-load-balancers-amazon-dcv-amazon-linux-2023-and-more-november-17-2025/",
           "publishedOn": "2025-11-17T17:59:08.000Z",
-          "wordCount": 35741,
+          "wordCount": 32728,
           "title": "AWS Weekly Roundup: AWS Lambda for Rust, NLB for QUIC protocol, Amazon DCV for Mac, and more (November 17, 2025)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         },
@@ -117,7 +127,7 @@
           "description": "AWS Lambda's new provisioned mode for Amazon SQS event source mapping offers dedicated polling resources that provide 3x faster scaling and 10x higher concurrency, enabling lower latency processing, better handling of traffic spikes, and greater control over event processing resources.",
           "link": "https://aws.amazon.com/blogs/aws/aws-lambda-enhances-sqs-processing-with-new-provisioned-mode-3x-faster-scaling-16x-higher-capacity/",
           "publishedOn": "2025-11-14T17:45:04.000Z",
-          "wordCount": 35351,
+          "wordCount": 32338,
           "title": "AWS Lambda enhances event processing with provisioned mode for SQS event-source mapping",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/06/27/2024-Lambda-logo.png"
         }
@@ -144,7 +154,7 @@
           "description": "At re:Invent 2025, we introduce one new lens and two significant updates to the AWS Well-Architected Lenses specifically focused on AI workloads: the Responsible AI Lens, the Machine Learning (ML) Lens, and the Generative AI Lens. Together, these lenses provide comprehensive guidance for organizations at different stages of their AI journey, whether you're just starting to experiment with machine learning or already deploying complex AI applications at scale.",
           "link": "https://aws.amazon.com/blogs/architecture/architecting-for-ai-excellence-aws-launches-three-well-architected-lenses-at-reinvent-2025/",
           "publishedOn": "2025-11-19T19:36:31.000Z",
-          "wordCount": 35673,
+          "wordCount": 32660,
           "title": "Architecting for AI excellence: AWS launches three Well-Architected Lenses at re:Invent 2025",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/11/19/archblog-1300-1-1120x630.png"
         },
@@ -154,7 +164,7 @@
           "description": "We are delighted to announce an update to the AWS Well-Architected Generative AI Lens. This update features several new sections of the Well-Architected Generative AI Lens, including new best practices, advanced scenario guidance, and improved preambles on responsible AI, data architecture, and agentic workflows.",
           "link": "https://aws.amazon.com/blogs/architecture/announcing-the-updated-aws-well-architected-generative-ai-lens/",
           "publishedOn": "2025-11-19T19:36:28.000Z",
-          "wordCount": 35243,
+          "wordCount": 32230,
           "title": "Announcing the updated AWS Well-Architected Generative AI Lens",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/11/19/archblog-1300-3-1120x630.png"
         },
@@ -164,7 +174,7 @@
           "description": "We are excited to announce the updated AWS Well-Architected Machine Learning Lens, now enhanced with the latest capabilities and best practices for building machine learning (ML) workloads on AWS.",
           "link": "https://aws.amazon.com/blogs/architecture/announcing-the-updated-aws-well-architected-machine-learning-lens/",
           "publishedOn": "2025-11-19T19:36:25.000Z",
-          "wordCount": 35644,
+          "wordCount": 32631,
           "title": "Announcing the updated AWS Well-Architected Machine Learning Lens",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/11/19/archlog-1300-2-1120x630.png"
         },
@@ -174,7 +184,7 @@
           "description": "In this post, we show you how to build a priority-based message processing system using Amazon MQ for priority queuing, Amazon DynamoDB for data persistence, and AWS App Runner for serverless compute. We demonstrate how to implement application-level delays that high-priority messages can bypass, create real-time UIs with WebSocket connections, and configure dual-layer retry mechanisms for maximum reliability.",
           "link": "https://aws.amazon.com/blogs/architecture/build-priority-based-message-processing-with-amazon-mq-and-aws-app-runner/",
           "publishedOn": "2025-11-18T16:39:29.000Z",
-          "wordCount": 37136,
+          "wordCount": 34123,
           "title": "Build priority-based message processing with Amazon MQ and AWS App Runner",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/11/18/image-1-2.jpeg"
         },
@@ -184,7 +194,7 @@
           "description": "Are you ready to maximize your Well-Architected and Cloud Optimization learning and networking time at re:Invent 2025? We have put together this comprehensive guide to help you plan your schedule and make the most of the Well-Architected and cloud optimization sessions available this year. These sessions will deliver the practical guidance your teams need to lead strategic cloud initiatives, design next-generation architectures, optimize costs, or secure AI-powered systems.",
           "link": "https://aws.amazon.com/blogs/architecture/know-before-you-go-aws-reinvent-2025-guide-to-well-architected-and-cloud-optimization-sessions/",
           "publishedOn": "2025-11-14T18:11:43.000Z",
-          "wordCount": 36691,
+          "wordCount": 33678,
           "title": "Know before you go – AWS re:Invent 2025 guide to Well-Architected and Cloud Optimization sessions",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/11/14/archblog-1327-1120x630.png"
         }
@@ -217,7 +227,7 @@
           "description": "Introduction: Repository-Level Code Migration Code migration is a repository-level transformation process that modernizes entire software projects to run on new platforms, frameworks, or runtime environments while preserving their original functionality and structure. Rather than focusing on isolated files or APIs, it operates across the full repository, spanning source code, dependencies, build systems, and configuration files […]",
           "link": "https://aws.amazon.com/blogs/devops/amazon-introduces-two-benchmark-datasets-for-evaluating-ai-agents-ability-on-code-migration/",
           "publishedOn": "2025-11-19T18:55:15.000Z",
-          "wordCount": 35578,
+          "wordCount": 32565,
           "title": "Amazon introduces two benchmark datasets for evaluating AI agents’ ability on code migration",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/11/18/Slide1-2.png"
         },
@@ -237,7 +247,7 @@
           "description": "AWS CloudFormation makes it easy to model and provision your cloud application infrastructure as code. CloudFormation templates can be written directly in JSON or YAML, or they can be generated by tools like the AWS Cloud Development Kit (CDK). Resources are created and managed by CloudFormation as units called Stacks. Additionally, change set enable you […]",
           "link": "https://aws.amazon.com/blogs/devops/accelerate-infrastructure-development-with-cloudformation-pre-deployment-validation-and-simplified-troubleshooting/",
           "publishedOn": "2025-11-18T23:47:10.000Z",
-          "wordCount": 37685,
+          "wordCount": 34672,
           "title": "Accelerate infrastructure development with CloudFormation pre-deployment validation and simplified troubleshooting",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2025/11/18/CloudFormation-Early-validation-featured-picture-1120x630.png"
         }
@@ -249,12 +259,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=301679",
+          "author": "Curro Jimenez",
+          "description": "In the information age, it is difficult to make sense of events. Endless amounts of information do not necessarily coalesce into a coherent narrative with explanatory meaning. The breakdown of the international order is precipitating the emergence of different narratives that engender competing truths. The German writer Goethe said: “When eras are on the decline, […]",
+          "link": "https://www.nakedcapitalism.com/2025/11/from-the-narrative-collapse-a-new-world-will-emerge-will-it-be-different.html",
+          "publishedOn": "2025-11-20T19:00:39.000Z",
+          "wordCount": 5122,
+          "title": "From the Narrative Collapse, a New World Will Emerge: Will It Be Different?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=301657",
           "author": "Yves Smith",
           "description": "The Wall Street Journal tells a sobering and well documented story of how ADHD Rxs in the young often lead to even more drug administration.",
           "link": "https://www.nakedcapitalism.com/2025/11/a-war-against-children-adhd-drugs-become-defacto-gateway-for-many-to-multi-medication-treatments-despite-dearth-of-clinical-evidence-for-use.html",
           "publishedOn": "2025-11-20T15:26:59.000Z",
-          "wordCount": 5363,
+          "wordCount": 8162,
           "title": "A War Against Children? ADHD Drugs Become DeFacto Gateway for Many to Multi-Medication “Treatments” Despite Dearth of Clinical Evidence for Use",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/Screenshot-2025-11-20-at-9.53.41 PM.png"
         },
@@ -264,7 +284,7 @@
           "description": "Our daily links, including US scheme in Ukraine, AI blackout risks, selling out Palestinians at the UN, aristocrats, and firing people into the sun.",
           "link": "https://www.nakedcapitalism.com/2025/11/links-11-20-2025.html",
           "publishedOn": "2025-11-20T11:55:59.000Z",
-          "wordCount": 10666,
+          "wordCount": 13277,
           "title": "Links 11/20/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/Screenshot-2025-11-05-at-5.10.42 PM-1024x770.png"
         },
@@ -274,7 +294,7 @@
           "description": "Russia and China did not veto a Gaza-colonizing UN resolution, which says much about where multipolarity is turning out to be.",
           "link": "https://www.nakedcapitalism.com/2025/11/why-did-russia-abstain-from-the-latest-unsc-resolution-on-gaza-instead-of-veto-it.html",
           "publishedOn": "2025-11-20T10:30:21.000Z",
-          "wordCount": 5525,
+          "wordCount": 5879,
           "title": "Why Did Russia Abstain From the Latest UNSC Resolution on Gaza Instead of Veto It?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/000-Russia.webp"
         },
@@ -284,7 +304,7 @@
           "description": "AI overlords seek to be better able to loot than banks: too big to fail yet unregulated. Call your Congresscritters to stop that.",
           "link": "https://www.nakedcapitalism.com/2025/11/mayday-the-white-house-is-attempting-to-circumvent-congress-and-crush-the-rights-of-individual-states-to-regulate-ai.html",
           "publishedOn": "2025-11-20T10:00:08.000Z",
-          "wordCount": 3388,
+          "wordCount": 3389,
           "title": "“Mayday: The White House Is Attempting to Circumvent Congress and Crush the Rights of Individual States to Regulate AI”",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/000-AI.webp"
         },
@@ -294,7 +314,7 @@
           "description": "An overview of  Stephanie Kelton's The Deficit Myth explains the core findings of MMT. and how debt hysteria serves the rich, not the public.",
           "link": "https://www.nakedcapitalism.com/2025/11/economic-questions-the-stephanie-kelton-question.html",
           "publishedOn": "2025-11-20T08:10:32.000Z",
-          "wordCount": 8069,
+          "wordCount": 8628,
           "title": "Economic Questions: The Stephanie Kelton Question",
           "imageUrl": null
         },
@@ -304,7 +324,7 @@
           "description": "The practitioners of Hasbara are desperately ratcheting up their control of American corporate and social media and with Oracle's Larry Ellison suddenly tapped out, are reportedly seeking funding from the Arab Gulf states to help.",
           "link": "https://www.nakedcapitalism.com/2025/11/hasbara-paramount-twitter-oracle-tiktok-wbd-saudi-arabia.html",
           "publishedOn": "2025-11-19T19:00:53.000Z",
-          "wordCount": 10213,
+          "wordCount": 10611,
           "title": "Coffee Break: Hasbara Ain’t Cheap, Musk, Ellison, Saudis, All Tapped",
           "imageUrl": null
         },
@@ -314,7 +334,7 @@
           "description": "Landlords of affordable apartments say the numbers increasingly don’t add up — and a rent freeze will work against tenants.",
           "link": "https://www.nakedcapitalism.com/2025/11/losing-money-every-month-growing-finance-crisis-threatens-affordable-housing-challenges-mamdani.html",
           "publishedOn": "2025-11-19T14:55:41.000Z",
-          "wordCount": 7402,
+          "wordCount": 7440,
           "title": "Losing Money Every Month: Growing Finance Crisis Threatens Affordable Housing, Challenges Mamdani",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/00-affordable.webp"
         },
@@ -324,7 +344,7 @@
           "description": "Our boisterous daily links: Whale talk? late onset Alzheimers spike, Bitcoin crash, wheat as climate casualty, Japan-China spat, Mearsheimer on Europe, new US peach push for Ukraine? Nestle v. babies in Africa, UK steals from refugees, Trump super pissy, Saudis a special US friend? technical indicators dire,",
           "link": "https://www.nakedcapitalism.com/2025/11/links-11-19-2025.html",
           "publishedOn": "2025-11-19T11:55:07.000Z",
-          "wordCount": 11975,
+          "wordCount": 12145,
           "title": "Links 11/19/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/Screenshot-2025-11-19-at-6.33.50 PM.png"
         },
@@ -334,18 +354,8 @@
           "description": "As the old baseball saying goes, sometimes “You can’t tell the players without a scorecard.”  This became especially true since Curt Flood opened the floodgates to free agency more than fifty years ago when he refused to be treated as disposable property by the owner of the St. Louis Cardinals, one August A. Busch, Jr.  […]",
           "link": "https://www.nakedcapitalism.com/2025/11/the-making-of-the-maga-right.html",
           "publishedOn": "2025-11-19T11:45:02.000Z",
-          "wordCount": 10264,
+          "wordCount": 10265,
           "title": "The Making of the MAGA Right",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=301603",
-          "author": "Yves Smith",
-          "description": "Citizens in EU states have been rebelling against social program cuts, like pension reforms. Are changes in the retirement age necessary?",
-          "link": "https://www.nakedcapitalism.com/2025/11/european-nations-have-no-choice-but-to-raise-retirement-ages-our-case-study-shows-why.html",
-          "publishedOn": "2025-11-19T10:23:08.000Z",
-          "wordCount": 6507,
-          "title": "“European Nations Have No Choice but to Raise Retirement Ages – Our Case Study Shows Why”",
           "imageUrl": null
         }
       ]
@@ -411,7 +421,7 @@
           "description": "Dick Cheney (1941-2025).",
           "link": "https://newleftreview.org/sidecar/posts/iron-ass",
           "publishedOn": "2025-11-20T15:54:01.000Z",
-          "wordCount": 3844,
+          "wordCount": 3852,
           "title": "Grey Anderson: &ldquo;Iron-Ass&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2025/11/cheney-image.png"
         },
@@ -436,43 +446,53 @@
     {
       "title": "Richard Seroter's Architecture Musings",
       "feedUrl": "https://seroter.com/feed/",
-      "siteUrl": "http://seroter.com",
+      "siteUrl": "https://seroter.com",
       "articles": [
         {
-          "id": "https://seroter.com/?p=25983",
+          "id": "http://seroter.com/?p=26002",
+          "author": "Richard Seroter",
+          "description": "Today's links look at the latest trends called out in the Thoughtworks Radar, what it means to bring Workspace to your CLI, and how to pick the right name for your company.",
+          "link": "https://seroter.com/2025/11/20/daily-reading-list-november-20-2025-670/",
+          "publishedOn": "2025-11-21T01:06:11.000Z",
+          "wordCount": 4733,
+          "title": "Daily Reading List – November 20, 2025 (#670)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
+        },
+        {
+          "id": "http://seroter.com/?p=25983",
           "author": "Richard Seroter",
           "description": "Today's links look at best practices for prompting Gemini 3, how to automate the testing of AI agents, and management tips for those leading while feeling overwhelmed.",
-          "link": "http://seroter.com/2025/11/19/daily-reading-list-november-19-2025-669/",
+          "link": "https://seroter.com/2025/11/19/daily-reading-list-november-19-2025-669/",
           "publishedOn": "2025-11-19T22:55:37.000Z",
           "wordCount": 4797,
           "title": "Daily Reading List – November 19, 2025 (#669)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
         {
-          "id": "https://seroter.com/?p=25968",
+          "id": "http://seroter.com/?p=25968",
           "author": "Richard Seroter",
           "description": "Today's links look at Gemini 3, what tech debt means to IT professionals, and a fresh way of looking at how to build with agents.",
-          "link": "http://seroter.com/2025/11/18/daily-reading-list-november-18-2025-668/",
+          "link": "https://seroter.com/2025/11/18/daily-reading-list-november-18-2025-668/",
           "publishedOn": "2025-11-19T00:04:31.000Z",
           "wordCount": 4795,
           "title": "Daily Reading List – November 18, 2025 (#668)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
         {
-          "id": "https://seroter.com/?p=25954",
+          "id": "http://seroter.com/?p=25954",
           "author": "Richard Seroter",
           "description": "Today's links look at why agents don't write most of the code at this company, why context became king in 2025, and the road to useful quantum computing apps.",
-          "link": "http://seroter.com/2025/11/17/daily-reading-list-november-17-2025-667/",
+          "link": "https://seroter.com/2025/11/17/daily-reading-list-november-17-2025-667/",
           "publishedOn": "2025-11-18T00:52:34.000Z",
           "wordCount": 4704,
           "title": "Daily Reading List – November 17, 2025 (#667)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
         {
-          "id": "https://seroter.com/?p=25930",
+          "id": "http://seroter.com/?p=25930",
           "author": "Richard Seroter",
           "description": "Today's links look at why vertical integration matters most for dev tools, what developers mean by \"bad code\", and an entirely new way to understand code projects.",
-          "link": "http://seroter.com/2025/11/14/daily-reading-list-november-14-2025-666/",
+          "link": "https://seroter.com/2025/11/14/daily-reading-list-november-14-2025-666/",
           "publishedOn": "2025-11-15T00:26:06.000Z",
           "wordCount": 4735,
           "title": "Daily Reading List – November 14, 2025 (#666)",
@@ -491,7 +511,7 @@
           "description": "MIT neuroscientists find a surprising parallel in the ways humans and new AI models solve complex problems.",
           "link": "https://news.mit.edu/2025/cost-of-thinking-1119",
           "publishedOn": "2025-11-19T21:45:00.000Z",
-          "wordCount": 1891,
+          "wordCount": 1897,
           "title": "The cost of thinking",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202511/mit-mcgovern-costofthinking.jpg"
         },
@@ -501,7 +521,7 @@
           "description": "The virtual VideoCAD tool could boost designers’ productivity and help train engineers learning computer-aided design.",
           "link": "https://news.mit.edu/2025/new-ai-agent-learns-use-cad-create-3d-objects-sketches-1119",
           "publishedOn": "2025-11-19T05:00:00.000Z",
-          "wordCount": 1645,
+          "wordCount": 1651,
           "title": "New AI agent learns to use CAD to create 3D objects from sketches",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202511/MIT-Video-CAD-01.jpg"
         },
@@ -511,7 +531,7 @@
           "description": "Industry leaders agree collaboration is key to advancing critical technologies.",
           "link": "https://news.mit.edu/2025/mit-energy-initiative-conference-1118",
           "publishedOn": "2025-11-18T17:10:00.000Z",
-          "wordCount": 2405,
+          "wordCount": 2411,
           "title": "MIT Energy Initiative conference spotlights research priorities amidst a changing energy landscape",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202510/mitei-annual-conference.jpg"
         }
@@ -552,12 +572,22 @@
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
         {
+          "id": "https://www.ianwelsh.net/?p=22420",
+          "author": "Ian Welsh",
+          "description": "Normally I ignore the style of government rhetoric and concentrate on the substance. But the Trump administration is so pathetically juvenile it beggars belief: Womp womp, cry all you want. These criminal illegal aliens aren’t getting released. Like clockwork, violent rioters have arrived at the Broadview ICE facility to demand the release of some of […]",
+          "link": "https://www.ianwelsh.net/america-is-ruled-by-reddit-trolls/",
+          "publishedOn": "2025-11-20T20:28:24.000Z",
+          "wordCount": 3072,
+          "title": "America Is Ruled By Reddit Trolls",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.ianwelsh.net/?p=22413",
           "author": "Ian Welsh",
           "description": "For a long time after the Industrial Revolution, many thinkers believed that automation would lead to us living lives of leisure. Twenty hour work weeks, or even less, and many people wouldn’t need to work at all, but would still live good lives. It never happened. Economists will tell you this is because there’s always […]",
           "link": "https://www.ianwelsh.net/the-promise-of-automation-and-abundance/",
           "publishedOn": "2025-11-19T17:38:34.000Z",
-          "wordCount": 5220,
+          "wordCount": 5224,
           "title": "The Promise Of Automation and Abundance",
           "imageUrl": null
         },
@@ -567,7 +597,7 @@
           "description": "This is a thread for comments on how to prepare for bad times. All off-topic comments will be deleted. The thread will be re-upped every Saturday so that resources can build over time. (I’m going to bring this back to the top at least once a month, maybe more, so people can read the old […]",
           "link": "https://www.ianwelsh.net/preparing-for-bad-times-thread/",
           "publishedOn": "2025-11-19T13:01:37.000Z",
-          "wordCount": 69769,
+          "wordCount": 69766,
           "title": "Preparing for Bad Times Thread",
           "imageUrl": null
         },
@@ -577,7 +607,7 @@
           "description": "Elevated from Comments. Piece by KT Chong China is now entering the next phase of its economic-growth engine — humanoid robots. And just like with EVs, the shift is happening fast, quietly, and with the same pattern: Chinese companies industrialize before Western analysts even realize it’s begun. UBTech, Unitree, XPeng — they’ve all started mass-producing […]",
           "link": "https://www.ianwelsh.net/ischina-going-to-win-the-humanoid-robot-race-end-capitalism-as-we-know-it/",
           "publishedOn": "2025-11-18T14:01:45.000Z",
-          "wordCount": 5035,
+          "wordCount": 5032,
           "title": "Is China Going To Win The Humanoid Robot Race & End Capitalism As We Know It?",
           "imageUrl": null
         },
@@ -587,7 +617,7 @@
           "description": "I’ll keep this mercifully short. One commenter in my Friday night econ news post asked, in a kind of oblique way, what would I do in this environment. Okay, I’ll play — but not without stating firmly and loudly that I am not dispensing investment advice, nor am I licensed any longer to do so. […]",
           "link": "https://www.ianwelsh.net/short-take-on-what-id-be-doing-to-prepare-for-the-pending-economic-st-show/",
           "publishedOn": "2025-11-18T02:46:16.000Z",
-          "wordCount": 5233,
+          "wordCount": 5230,
           "title": "Short Take on What I’d Be Doing To Prepare for the Pending Economic S**t-show",
           "imageUrl": null
         },
@@ -597,7 +627,7 @@
           "description": "Obviously, Epstein was scum of the lowest order; a blackmailer, a pimp, a pedophile, and a traitor. (Working with Mossad to blackmail American politicians was surely treason. And given that Israel is a genocidal, religious ethno-state, possibly the most evil country in the world, well…) But like many effective evil people, Epstein had his virtues. […]",
           "link": "https://www.ianwelsh.net/some-thoughts-on-epsteins-non-moral-virtues/",
           "publishedOn": "2025-11-17T14:01:46.000Z",
-          "wordCount": 4151,
+          "wordCount": 4148,
           "title": "Some Thoughts on Epstein’s Non-moral Virtues",
           "imageUrl": null
         },
@@ -607,7 +637,7 @@
           "description": "Week-end Wrap – Political Economy – November 16, 2025 by Tony Wikrent Elite impunity The Corrupt Roots of America’s Elite Run Deep David Kurtz, November 13, 2025 [Talking Points Memo] In reviewing a portion of the 20,000-plus Jeffrey Epstein emails released yesterday, I was left astonished not so much by the chumminess he enjoyed with […]",
           "link": "https://www.ianwelsh.net/week-end-wrap-political-economy-november-16-2025/",
           "publishedOn": "2025-11-16T19:26:39.000Z",
-          "wordCount": 12425,
+          "wordCount": 12422,
           "title": "Week-end Wrap – Political Economy – November 16, 2025",
           "imageUrl": null
         },
@@ -617,7 +647,7 @@
           "description": "Use to discuss topics unrelated to recent posts.",
           "link": "https://www.ianwelsh.net/open-thread-312/",
           "publishedOn": "2025-11-15T18:52:42.000Z",
-          "wordCount": 4584,
+          "wordCount": 4581,
           "title": "Open Thread",
           "imageUrl": null
         },
@@ -627,7 +657,7 @@
           "description": "~by Sean Paul Kelley Good heavens, the economic bad news is piling up like a bad car wreck. So, let’s do some serious rubbernecking, folks, because there is a lot of fucked up shit to watch. Just don’t step in it, okay? We begin with widepsread reports of large institutional investors (hedge funds, investment banks, […]",
           "link": "https://www.ianwelsh.net/your-late-friday-dose-of-crap-economic-news/",
           "publishedOn": "2025-11-15T03:31:18.000Z",
-          "wordCount": 4504,
+          "wordCount": 4501,
           "title": "Your Late Friday–ermmm, Early Saturday–Dose of Crap Economic News",
           "imageUrl": null
         }
@@ -638,6 +668,61 @@
       "feedUrl": "https://www.lawyersgunsmoneyblog.com/feed",
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155706",
+          "author": "Scott Lemieux",
+          "description": "Another appalling sequence of events related to a particularly extreme Kavanaugh stop: Federal prosecutors moved to dismiss charges on Thursday against two motorists who were accused of using their cars to “assault, impede and interfere with the work of federal agents” during an immigration enforcement operation in the Chicago area. The motion from prosecutors did […]\nThe post Prosecutors drop charges brought to cover-up unprovoked shooting appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/prosecutors-drop-charges-brought-to-cover-up-unprovoked-shooting",
+          "publishedOn": "2025-11-21T01:17:29.000Z",
+          "wordCount": null,
+          "title": "Prosecutors drop charges brought to cover-up unprovoked shooting",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155703",
+          "author": "Paul Campos",
+          "description": "President Donald Trump on Thursday accused half a dozen Democratic lawmakers of sedition “punishable by DEATH” after the lawmakers — all veterans of the armed services and intelligence community — called on U.S. military members to uphold the Constitution and defy “illegal orders.” The 90-second video was first posted early Tuesday from Sen. Elissa Slotkin’s X account. In it, […]\nThe post EAIAC: seditious treason edition appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/eaiac-seditious-treason-edition",
+          "publishedOn": "2025-11-20T23:05:44.000Z",
+          "wordCount": null,
+          "title": "EAIAC: seditious treason edition",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155701",
+          "author": "Scott Lemieux",
+          "description": "Eric Schickler has a brilliant essay about how Trump’s second term has shattered complacent assumptions about the resilience of the American constitutional order: Critics of this constitutional structure pointed out its many flaws when it came to status quo biases, entrenched race- and gender-based exclusions, and minoritarian rule. But even as incisive a critic as […]\nThe post The fragility of American constitutionalism appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/the-fragility-of-american-constitutionalism",
+          "publishedOn": "2025-11-20T21:44:40.000Z",
+          "wordCount": null,
+          "title": "The fragility of American constitutionalism",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155698",
+          "author": "Scott Lemieux",
+          "description": "One very obvious question arising from the congressional action to try to force the release of the Epstein files is why it didn’t happen during the Biden administration. The most parsimonious explanation is that Merrick Garland is a ninny with a completely misguided idea about what the rule of law requires, and his nomination by […]\nThe post An Epstein Honeymoon appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/an-epstein-honeymoon",
+          "publishedOn": "2025-11-20T20:34:21.000Z",
+          "wordCount": null,
+          "title": "An Epstein Honeymoon",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155696",
+          "author": "Paul Campos",
+          "description": "I can’t see anybody else smiling in here: Awkwardly, because of an agreement with Health, Education, Labor and Pensions chairman Senator Bill Cassidy (a medical doctor, and R-LA), the heading on the site still says “Vaccines Do Not Cause Autism,” but they’ve added a lil’ asterisk and a long explanation suggesting that maybe they do, after […]\nThe post RFK Jr.’s CDC: Vaccines may cause autism even though there’s no evidence to support this belief appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/rfk-jr-s-cdc-vaccines-may-cause-autism-even-though-theres-no-evidence-to-support-this-belief",
+          "publishedOn": "2025-11-20T19:03:51.000Z",
+          "wordCount": null,
+          "title": "RFK Jr.’s CDC: Vaccines may cause autism even though there’s no evidence to support this belief",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=155693",
           "author": "Robert Farley",
@@ -679,61 +764,6 @@
           "publishedOn": "2025-11-20T03:55:41.000Z",
           "wordCount": null,
           "title": "Consequences for elite misbehavior",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155682",
-          "author": "Scott Lemieux",
-          "description": "What an unlucky break: The Labor Department announced Wednesday that it will not release monthly jobs numbers for October due to complications from the government shutdown, though it intends to include some data in November’s report. The closely watched economic data is collected via two components: a survey of employer payrolls that is used for […]\nThe post Commander ate the jobs report appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/commander-ate-the-jobs-report",
-          "publishedOn": "2025-11-19T21:50:44.000Z",
-          "wordCount": null,
-          "title": "Commander ate the jobs report",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155681",
-          "author": "Cheryl Rofer",
-          "description": "Six members of Congress: We have your backs.\nThe post Don’t Give Up The Ship appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/dont-give-up-the-ship",
-          "publishedOn": "2025-11-19T20:26:38.000Z",
-          "wordCount": null,
-          "title": "Don’t Give Up The Ship",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155680",
-          "author": "Scott Lemieux",
-          "description": "Trump has successfully led a much more radical administration than his first term, and voters don’t like it: President Donald Trump’s approval rating fell to 38%, the lowest since his return to power, with Americans unhappy about his handling of the high cost of living and the investigation into the late convicted sex offender Jeffrey Epstein, […]\nThe post Bullshitting is a better campaign strategy than governing strategy appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/bullshitting-is-a-better-campaign-strategy-than-governing-strategy",
-          "publishedOn": "2025-11-19T20:01:14.000Z",
-          "wordCount": null,
-          "title": "Bullshitting is a better campaign strategy than governing strategy",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155675",
-          "author": "Dan Nexon",
-          "description": "Over at Axios, Barak Ravid reports on a new Trump (well, sort of) plan to end the war in Ukraine by giving Putin pretty much everything he wants. The plan also calls for the United States “and other countries to recognize Crimea and the Donbas as lawfully Russian territory” but does not require Ukraine to […]\nThe post Visualize World Peace Prize, Ukraine Edition appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/visualize-world-peace-prize-ukraine-edition",
-          "publishedOn": "2025-11-19T18:53:49.000Z",
-          "wordCount": null,
-          "title": "Visualize World Peace Prize, Ukraine Edition",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155667",
-          "author": "Erik Loomis",
-          "description": "This is certainly an interesting development: A bipartisan bill that would end the Trump administration’s rollback of collective bargaining rights for most federal employees is guaranteed to get a full House vote, now that a majority of lawmakers support it. As of Monday, 218 House lawmakers signed onto a discharge petition, forcing the House to […]\nThe post Voting to Reject Trump’s Attacks on Federal Unions appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/voting-to-reject-trumps-attacks-on-federal-unions",
-          "publishedOn": "2025-11-19T18:47:00.000Z",
-          "wordCount": null,
-          "title": "Voting to Reject Trump’s Attacks on Federal Unions",
           "itunes": {},
           "imageUrl": null
         }
@@ -802,36 +832,6 @@
           "publishedOn": "2025-11-14T15:31:30.000Z",
           "wordCount": null,
           "title": "The student loan shock",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=182337",
-          "author": "Angry Bear",
-          "description": "Hospital CEOs Pay Is Too Damn High, MedPage Today President Trump’s One Big Beautiful Bill Act — otherwise known as the “Big Beautiful Bill” — is projected to magnify economic inequality in the U.S. By 2034, the top tenth of U.S. households will see an estimated $13,600 increase in “household resources” (annual income), while the bottom tenth […]\nThe post Hospital CEOs appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/11/hospital-ceos",
-          "publishedOn": "2025-11-14T12:30:00.000Z",
-          "wordCount": null,
-          "title": "Hospital CEOs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=182559",
-          "author": "Bill Haskell",
-          "description": "I did not want to scare you so I downsized it. I believe this is actually supposed to the new penny to replace the old Lincoln pennies. However, it is labeled as a $1 dollar coin. Given the nature of the person, we can be sure the coin will be accepted for the value stated. […]\nThe post Verdict of History appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/11/verdict-of-history",
-          "publishedOn": "2025-11-14T12:00:00.000Z",
-          "wordCount": null,
-          "title": "Verdict of History",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=182531",
-          "author": "Joel Eissenberg",
-          "description": "I understand why this gets ignored by the MSM. Republican racism isn’t news. “The president of Boston University College Republicans wrote on X he called the U.S. Immigration and Customs Enforcement requesting it detain employees at Allston Car Wash, the site of a Nov. 4 raid where nine employees were arrested.” *snip* “The nine detained […]\nThe post College Republican does racial profiling appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/11/college-republican-does-racial-profiling",
-          "publishedOn": "2025-11-14T10:33:52.000Z",
-          "wordCount": null,
-          "title": "College Republican does racial profiling",
           "imageUrl": null
         }
       ]
