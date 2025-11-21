@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "2e9df29be45b3f66640bfc444e0b78157edaaeeb",
+          "author": "Sébastien Stormacq",
+          "description": "AWS announces VPC encryption controls, a new capability that helps organizations audit and enforce encryption in transit for all traffic within and across VPCs in a Region, simplifying compliance with regulatory frameworks like HIPAA, PCI DSS, and FedRAMP through automated monitoring and enforcement modes.",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-vpc-encryption-controls-enforce-encryption-in-transit-within-and-across-vpcs-in-a-region/",
+          "publishedOn": "2025-11-21T16:23:50.000Z",
+          "wordCount": 33030,
+          "title": "Introducing VPC encryption controls: Enforce encryption in transit within and across VPCs in a Region",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/17/vpc-encryption.png"
+        },
+        {
           "id": "23ecfc214461a04802c20e3b2219ab5fa63b0122",
           "author": "Matheus Guimaraes",
           "description": "AWS introduces Attribute-Based Access Control (ABAC) for S3 general purpose buckets, enabling administrators to automatically manage permissions through tag-based policies that match tags between users, roles, and buckets—eliminating the need to constantly update IAM policies as organizations scale.",
@@ -37,7 +47,7 @@
           "description": "AWS Step Functions' enhanced TestState API now enables local unit testing with mocking support, comprehensive state type validation, and individual state testing capabilities without requiring AWS deployment or IAM permissions.",
           "link": "https://aws.amazon.com/blogs/aws/accelerate-workflow-development-with-enhanced-local-testing-in-aws-step-functions/",
           "publishedOn": "2025-11-19T22:13:17.000Z",
-          "wordCount": 32604,
+          "wordCount": 32598,
           "title": "Accelerate workflow development with enhanced local testing in AWS Step Functions",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/17/AWS-Step-Functions.png"
         },
@@ -47,7 +57,7 @@
           "description": "AWS Lambda introduces tenant isolation mode, enabling separate execution environments for each tenant within a single function to meet strict security requirements without managing dedicated per-tenant infrastructure.",
           "link": "https://aws.amazon.com/blogs/aws/streamlined-multi-tenant-application-development-with-tenant-isolation-mode-in-aws-lambda/",
           "publishedOn": "2025-11-19T19:12:27.000Z",
-          "wordCount": 32257,
+          "wordCount": 32254,
           "title": "Streamlined multi-tenant application development with tenant isolation mode in AWS Lambda",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/18/Lambda4-1.png"
         },
@@ -239,12 +249,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=301730",
+          "author": "Yves Smith",
+          "description": "How Trump’s new healthcare gimmick would lead to more medical bankruptcies, more unaffordable care, and more Americans dying unnecessarily.",
+          "link": "https://www.nakedcapitalism.com/2025/11/sanders-denounces-trump-gop-healthcare-proposal-as-absurd-and-deadly.html",
+          "publishedOn": "2025-11-21T14:53:19.000Z",
+          "wordCount": 3504,
+          "title": "Sanders Denounces Trump-GOP Healthcare Proposal as ‘Absurd’—and Deadly",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=301680",
           "author": "Conor Gallagher",
           "description": "Our daily links, including Epstein bill loophole, national security moms, loss of blue collar jobs, MAHA eugenics, soybeans, rare earths, and AI everything.",
           "link": "https://www.nakedcapitalism.com/2025/11/links-11-21-2025.html",
           "publishedOn": "2025-11-21T11:55:58.000Z",
-          "wordCount": 3895,
+          "wordCount": 9026,
           "title": "Links 11/21/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/Screenshot-2025-11-20-at-5.33.27 PM-969x1024.png"
         },
@@ -254,9 +274,9 @@
           "description": "Trump keeps trying to \"peace deal\" his way out of losing Ukraine. Na ga happen.",
           "link": "https://www.nakedcapitalism.com/2025/11/yet-another-dead-on-arrival-ukraine-peace-scheme-leaked-28-point-plan-predictably-unable-to-reconcile-irreconcilable-positions.html",
           "publishedOn": "2025-11-21T11:54:05.000Z",
-          "wordCount": 5278,
+          "wordCount": 9565,
           "title": "Yet Another Dead-on-Arrival Ukraine Peace Scheme: Leaked 28 Point Plan Predictably Unable to Reconcile Irreconcilable Positions",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/Screenshot-2025-11-21-at-7.38.50 PM.png"
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/Screenshot-2025-11-21-at-8.52.33 PM.png"
         },
         {
           "id": "https://www.nakedcapitalism.com/?p=301671",
@@ -264,7 +284,7 @@
           "description": "\"There's only one person who can stop this crazy train, and it's Donald Trump, and I don't know if he has it in him.\"",
           "link": "https://www.nakedcapitalism.com/2025/11/new-poll-shows-us-public-are-not-buying-trump-and-rubios-regime-change-narrative-for-venezuela.html",
           "publishedOn": "2025-11-21T11:45:38.000Z",
-          "wordCount": 5097,
+          "wordCount": 6245,
           "title": "New Poll Suggests US Public Are Not Buying Trump and Rubio’s Regime Change Narrative for Venezuela",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/Captura-de-pantalla-2025-11-20-163419-300x158.png"
         },
@@ -274,7 +294,7 @@
           "description": "An overview of recent progress with the gene-editing CRISPR technology, its promise and risks.",
           "link": "https://www.nakedcapitalism.com/2025/11/human-gene-editing-and-the-crispr-revolution.html",
           "publishedOn": "2025-11-21T06:27:46.000Z",
-          "wordCount": 4702,
+          "wordCount": 4777,
           "title": "Human Gene Editing and the CRISPR Revolution",
           "imageUrl": null
         },
@@ -284,7 +304,7 @@
           "description": "In the information age, it is difficult to make sense of events. Endless amounts of information do not necessarily coalesce into a coherent narrative with explanatory meaning. The breakdown of the international order is precipitating the emergence of different narratives that engender competing truths. The German writer Goethe said: “When eras are on the decline, […]",
           "link": "https://www.nakedcapitalism.com/2025/11/from-the-narrative-collapse-a-new-world-will-emerge-will-it-be-different.html",
           "publishedOn": "2025-11-20T19:00:39.000Z",
-          "wordCount": 5872,
+          "wordCount": 7672,
           "title": "From the Narrative Collapse, a New World Will Emerge: Will It Be Different?",
           "imageUrl": null
         },
@@ -294,7 +314,7 @@
           "description": "The Wall Street Journal tells a sobering and well documented story of how ADHD Rxs in the young often lead to even more drug administration.",
           "link": "https://www.nakedcapitalism.com/2025/11/a-war-against-children-adhd-drugs-become-defacto-gateway-for-many-to-multi-medication-treatments-despite-dearth-of-clinical-evidence-for-use.html",
           "publishedOn": "2025-11-20T15:26:59.000Z",
-          "wordCount": 9441,
+          "wordCount": 9588,
           "title": "A War Against Children? ADHD Drugs Become DeFacto Gateway for Many to Multi-Medication “Treatments” Despite Dearth of Clinical Evidence for Use",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/Screenshot-2025-11-20-at-9.53.41 PM.png"
         },
@@ -304,7 +324,7 @@
           "description": "Our daily links, including US scheme in Ukraine, AI blackout risks, selling out Palestinians at the UN, aristocrats, and firing people into the sun.",
           "link": "https://www.nakedcapitalism.com/2025/11/links-11-20-2025.html",
           "publishedOn": "2025-11-20T11:55:59.000Z",
-          "wordCount": 14061,
+          "wordCount": 14400,
           "title": "Links 11/20/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/Screenshot-2025-11-05-at-5.10.42 PM-1024x770.png"
         },
@@ -314,7 +334,7 @@
           "description": "Russia and China did not veto a Gaza-colonizing UN resolution, which says much about where multipolarity is turning out to be.",
           "link": "https://www.nakedcapitalism.com/2025/11/why-did-russia-abstain-from-the-latest-unsc-resolution-on-gaza-instead-of-veto-it.html",
           "publishedOn": "2025-11-20T10:30:21.000Z",
-          "wordCount": 5968,
+          "wordCount": 6112,
           "title": "Why Did Russia Abstain From the Latest UNSC Resolution on Gaza Instead of Veto It?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/000-Russia.webp"
         },
@@ -324,19 +344,9 @@
           "description": "AI overlords seek to be better able to loot than banks: too big to fail yet unregulated. Call your Congresscritters to stop that.",
           "link": "https://www.nakedcapitalism.com/2025/11/mayday-the-white-house-is-attempting-to-circumvent-congress-and-crush-the-rights-of-individual-states-to-regulate-ai.html",
           "publishedOn": "2025-11-20T10:00:08.000Z",
-          "wordCount": 3511,
+          "wordCount": 3508,
           "title": "“Mayday: The White House Is Attempting to Circumvent Congress and Crush the Rights of Individual States to Regulate AI”",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/11/000-AI.webp"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=301659",
-          "author": "Yves Smith",
-          "description": "An overview of  Stephanie Kelton's The Deficit Myth explains the core findings of MMT. and how debt hysteria serves the rich, not the public.",
-          "link": "https://www.nakedcapitalism.com/2025/11/economic-questions-the-stephanie-kelton-question.html",
-          "publishedOn": "2025-11-20T08:10:32.000Z",
-          "wordCount": 8910,
-          "title": "Economic Questions: The Stephanie Kelton Question",
-          "imageUrl": null
         }
       ]
     },
@@ -444,7 +454,7 @@
           "description": "Today's links look at the latest trends called out in the Thoughtworks Radar, what it means to bring Workspace to your CLI, and how to pick the right name for your company.",
           "link": "https://seroter.com/2025/11/20/daily-reading-list-november-20-2025-670/",
           "publishedOn": "2025-11-21T01:06:11.000Z",
-          "wordCount": 4733,
+          "wordCount": 4749,
           "title": "Daily Reading List – November 20, 2025 (#670)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
@@ -529,6 +539,22 @@
       "siteUrl": "https://www.thomasfazi.com",
       "articles": [
         {
+          "id": "https://www.thomasfazi.com/p/is-nationalism-the-answer-to-a-successful",
+          "author": "Thomas Fazi",
+          "description": "The globalist architecture of climate policy has proven structurally incapable of delivering the transformations it promises. What if the answer to a successful energy transition lies in nationalism?",
+          "link": "https://www.thomasfazi.com/p/is-nationalism-the-answer-to-a-successful",
+          "publishedOn": "2025-11-21T13:59:46.000Z",
+          "wordCount": null,
+          "title": "Is nationalism the answer to a successful energy transition?",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9beb63a5-d056-4c71-926d-15c021cc3c0b_1200x800.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/9beb63a5-d056-4c71-926d-15c021cc3c0b_1200x800.jpeg"
+        },
+        {
           "id": "https://www.thomasfazi.com/p/the-eu-launches-ministry-of-truth",
           "author": "Thomas Fazi",
           "description": "The “Democracy Shield” proposed by Ursula von der Leyen represents the latest step in the EU’s construction of a continent-wide censorship machine",
@@ -567,7 +593,7 @@
           "description": "For a long time after the Industrial Revolution, many thinkers believed that automation would lead to us living lives of leisure. Twenty hour work weeks, or even less, and many people wouldn’t need to work at all, but would still live good lives. It never happened. Economists will tell you this is because there’s always […]",
           "link": "https://www.ianwelsh.net/the-promise-of-automation-and-abundance/",
           "publishedOn": "2025-11-19T17:38:34.000Z",
-          "wordCount": 5255,
+          "wordCount": 5320,
           "title": "The Promise Of Automation and Abundance",
           "imageUrl": null
         },
@@ -630,16 +656,6 @@
           "wordCount": 4602,
           "title": "Open Thread",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=22338",
-          "author": "Sean Paul Kelley",
-          "description": "~by Sean Paul Kelley Good heavens, the economic bad news is piling up like a bad car wreck. So, let’s do some serious rubbernecking, folks, because there is a lot of fucked up shit to watch. Just don’t step in it, okay? We begin with widepsread reports of large institutional investors (hedge funds, investment banks, […]",
-          "link": "https://www.ianwelsh.net/your-late-friday-dose-of-crap-economic-news/",
-          "publishedOn": "2025-11-15T03:31:18.000Z",
-          "wordCount": 4501,
-          "title": "Your Late Friday–ermmm, Early Saturday–Dose of Crap Economic News",
-          "imageUrl": null
         }
       ]
     },
@@ -648,6 +664,50 @@
       "feedUrl": "https://www.lawyersgunsmoneyblog.com/feed",
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155717",
+          "author": "Cheryl Rofer",
+          "description": "The “plan” brought back to Donald Trump by his ever-faithful golfing buddy Steve Witkoff, first of all, carves up Ukraine in just the way Russia would like. But there’s so much more wrong with it that shows Russia and the world exactly how ignorant the Trump team is. As I’ve said before, even a very […]\nThe post Steve Witkoff Rolled Again appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/steve-witkoff-rolled-again",
+          "publishedOn": "2025-11-21T17:18:11.000Z",
+          "wordCount": null,
+          "title": "Steve Witkoff Rolled Again",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155707",
+          "author": "Scott Lemieux",
+          "description": "Ron Wyden is asking good questions: The top Democrat on the Senate Finance Committee issued a report on Thursday calling for an investigation into whether JPMorgan Chase deliberately underreported more than $1 billion in suspicious transactions by Jeffrey Epstein, the disgraced financier and convicted sex offender. The report from the senator, Ron Wyden of Oregon, said the […]\nThe post Epstein’s financial collaborators appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/epsteins-financial-collaborators",
+          "publishedOn": "2025-11-21T15:51:00.000Z",
+          "wordCount": null,
+          "title": "Epstein’s financial collaborators",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155715",
+          "author": "Erik Loomis",
+          "description": "Great success on the salmon returning on the Klamath River. And thanks to whoever it was who linked to this in comments: A little more than a year after the historic removal of four hydroelectric dams on the Klamath River, California Department of Fish and Wildlife (CDFW) scientists are seeing salmon reoccupying “just about every […]\nThe post What Ought to Be Ought Not to Be So Hard appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/what-ought-to-be-ought-not-to-be-so-hard",
+          "publishedOn": "2025-11-21T15:16:50.000Z",
+          "wordCount": null,
+          "title": "What Ought to Be Ought Not to Be So Hard",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155712",
+          "author": "Paul Campos",
+          "description": "The Trump administration is overtly strong-arming Ukraine to accept a peace deal that would be very close to a unilateral surrender to Russia’s invasion of the country:  The United States has threatened to cut intelligence sharing and weapons supplies for Ukraine to press it into agreeing to the framework of a U.S.-brokered peace deal, two people familiar […]\nThe post They make a desolation and call it peace appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/they-make-a-desolation-and-call-it-peace",
+          "publishedOn": "2025-11-21T14:17:58.000Z",
+          "wordCount": null,
+          "title": "They make a desolation and call it peace",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=155533",
           "author": "Erik Loomis",
@@ -700,50 +760,6 @@
           "publishedOn": "2025-11-20T20:34:21.000Z",
           "wordCount": null,
           "title": "An Epstein Honeymoon",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155696",
-          "author": "Paul Campos",
-          "description": "I can’t see anybody else smiling in here: Awkwardly, because of an agreement with Health, Education, Labor and Pensions chairman Senator Bill Cassidy (a medical doctor, and R-LA), the heading on the site still says “Vaccines Do Not Cause Autism,” but they’ve added a lil’ asterisk and a long explanation suggesting that maybe they do, after […]\nThe post RFK Jr.’s CDC: Vaccines may cause autism even though there’s no evidence to support this belief appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/rfk-jr-s-cdc-vaccines-may-cause-autism-even-though-theres-no-evidence-to-support-this-belief",
-          "publishedOn": "2025-11-20T19:03:51.000Z",
-          "wordCount": null,
-          "title": "RFK Jr.’s CDC: Vaccines may cause autism even though there’s no evidence to support this belief",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155693",
-          "author": "Robert Farley",
-          "description": "I have thoughts on the foreign policy implications of the Supreme Court’s skepticism on Trump’s tariff: This is where the Supreme Court’s decision matters. If Trump cannot legally impose tariffs, or manage them from the executive branch, these deals all become precarious. Will South Korea pony up the $300 billion in investment that it promised in […]\nThe post The Tariff! appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/the-tariff",
-          "publishedOn": "2025-11-20T18:23:08.000Z",
-          "wordCount": null,
-          "title": "The Tariff!",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155692",
-          "author": "Erik Loomis",
-          "description": "Pema Levy and Ari Berman go double barrel on the true enemy of democracy in this country–John Roberts. The Roberts court has spent Trump’s second term not applying the law so much as clearing it out of his way. In a matter of months, the court’s 6–3 GOP-aligned majority has permitted a long list of […]\nThe post We Have an Enemy and His Name is John Roberts appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/we-have-an-enemy-and-his-name-is-john-roberts",
-          "publishedOn": "2025-11-20T15:52:37.000Z",
-          "wordCount": null,
-          "title": "We Have an Enemy and His Name is John Roberts",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155686",
-          "author": "Scott Lemieux",
-          "description": "Pedestrian deaths are rising in the U.S. even as they are generally decreasing elsewhere: Booker’s death in September 2022 fit an escalating pattern on America’s roads. Between 2010 and 2023, yearly deaths caused by cars and trucks striking pedestrians rose 70 percent, an examination of federal data and other public records by The Washington Post […]\nThe post Trump administration: not enough pedestrians are being killed appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/11/trump-administration-not-enough-pedestrians-are-being-killed",
-          "publishedOn": "2025-11-20T15:25:00.000Z",
-          "wordCount": null,
-          "title": "Trump administration: not enough pedestrians are being killed",
           "itunes": {},
           "imageUrl": null
         }
