@@ -12,6 +12,36 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "2486b201ef69be04589b658d6d9d7d6521813fda",
+          "author": "Donnie Prakoso",
+          "description": "Amazon Bedrock now supports reinforcement fine-tuning delivering 66% accuracy gains on average over base models.",
+          "link": "https://aws.amazon.com/blogs/aws/improve-model-accuracy-with-reinforcement-fine-tuning-in-amazon-bedrock/",
+          "publishedOn": "2025-12-03T16:08:14.000Z",
+          "wordCount": 32384,
+          "title": "Amazon Bedrock adds reinforcement ﬁne-tuning simplifying how developers build smarter, more accurate AI models",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/25/Bedrock-fine-tuning-green.png"
+        },
+        {
+          "id": "0b635cd80fc1e2e121b5c1787d777aa9194694bb",
+          "author": "Channy Yun (윤석찬)",
+          "description": "Accelerate AI model development with new training features that enable rapid recovery from failures and automatic scaling based on resource availability.",
+          "link": "https://aws.amazon.com/blogs/aws/new-serverless-customization-in-amazon-sagemaker-ai-accelerates-model-fine-tuning/",
+          "publishedOn": "2025-12-03T16:08:03.000Z",
+          "wordCount": 32022,
+          "title": "New serverless customization in Amazon SageMaker AI accelerates model fine-tuning",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/06/10/SageMaker3.png"
+        },
+        {
+          "id": "83b49fb2eb3a1369a9b66fabd94b4cdcacabc446",
+          "author": "Channy Yun (윤석찬)",
+          "description": "Accelerate AI model development with new training features that enable instant recovery from failures and automatic scaling based on resource availability.",
+          "link": "https://aws.amazon.com/blogs/aws/introducing-checkpointless-and-elastic-training-on-amazon-sagemaker-hyperpod/",
+          "publishedOn": "2025-12-03T16:07:52.000Z",
+          "wordCount": 32184,
+          "title": "Introducing checkpointless and elastic training on Amazon SageMaker HyperPod",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/26/Checkpointless-1196x630.png"
+        },
+        {
           "id": "9e5546dd6dd4473fe951c4c88c955b1d2fb3516f",
           "author": "Sébastien Stormacq",
           "description": "New features enable automatic cost optimization through intelligent storage tiering and simplified table replication across AWS Regions and accounts.",
@@ -180,36 +210,6 @@
           "wordCount": 33689,
           "title": "New AWS Security Agent secures applications proactively from design to deployment (preview)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/28/Hobbes-1.png"
-        },
-        {
-          "id": "80d68b90f5a0864461df92539b47774076061a00",
-          "author": "Esra Kayabali",
-          "description": "Today, AWS Security Hub is generally available, transforming how security teams identify and respond to critical security risks across their AWS environments. These new capabilities were first announced in preview at AWS re:Inforce 2025. Security Hub prioritizes your critical security issues and unifies your security operations to help you respond at scale by correlating and […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-security-hub-now-generally-available-with-near-real-time-analytics-and-risk-prioritization/",
-          "publishedOn": "2025-12-02T15:58:11.000Z",
-          "wordCount": 32985,
-          "title": "AWS Security Hub now generally available with near real-time analytics and risk prioritization",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/04/Security-hub-feat-img.png"
-        },
-        {
-          "id": "3f85711d45cbe76341ba2664c167bf2072e62cb5",
-          "author": "Betty Zheng (郑予彬)",
-          "description": "Today, we’re announcing new enhancements to Amazon GuardDuty Extended Threat Detection with the addition of two attack sequence findings for Amazon Elastic Compute Cloud (Amazon EC2) instances and Amazon Elastic Container Service (Amazon ECS) tasks. These new findings build on the existing Extended Threat Detection capabilities, which already combine sequences involving AWS Identity and Access […]",
-          "link": "https://aws.amazon.com/blogs/aws/amazon-guardduty-adds-extended-threat-detection-for-amazon-ec2-and-amazon-ecs/",
-          "publishedOn": "2025-12-02T15:57:54.000Z",
-          "wordCount": 32077,
-          "title": "Amazon GuardDuty adds Extended Threat Detection for Amazon EC2 and Amazon ECS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/12/02/Site-Merch_AWS-GuardDuty-Thumbnail_800x400px-1.png"
-        },
-        {
-          "id": "8db8b4bd728534598a114c05004be2257034e899",
-          "author": "Danilo Poccia",
-          "description": "New program gives organizations unprecedented access to Nova model training, enabling them to build custom frontier models that deeply embed domain expertise without the traditional barriers of cost, compute, and time.",
-          "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-nova-forge-build-your-own-frontier-models-using-nova/",
-          "publishedOn": "2025-12-02T15:53:51.000Z",
-          "wordCount": 32153,
-          "title": "Introducing Amazon Nova Forge: Build your own frontier models using Nova",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/25/Nova-4.png"
         }
       ]
     },
@@ -274,12 +274,22 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=302192",
+          "author": "Yves Smith",
+          "description": "RFK, Jr. is exercised about falling birth rates and depicts falling sperm count as a major contributor. How sound is this view?",
+          "link": "https://www.nakedcapitalism.com/2025/12/is-male-infertility-contributing-to-falling-birth-rates.html",
+          "publishedOn": "2025-12-03T14:55:03.000Z",
+          "wordCount": 6998,
+          "title": "Is Male Infertility Contributing to Falling Birth Rates?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=302145",
           "author": "Yves Smith",
           "description": "Our rapturous daily lins: hubby bennies, tattoos + vax don't mix, Waymo wild rides, Zillow ends climate risk, China's gallium stranglehold, Putin clears throat, UK restricts jury trials. moar US age controls, Trump v. Somalis, GOP Tennessee worries, Bitcoin bounce, OpenAI code red,",
           "link": "https://www.nakedcapitalism.com/2025/12/links-12-3-2025.html",
           "publishedOn": "2025-12-03T11:55:47.000Z",
-          "wordCount": 4150,
+          "wordCount": 10888,
           "title": "Links 12/3/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/12/00-horns.jpg"
         },
@@ -289,7 +299,7 @@
           "description": "Nicholas Buccola is a historian of the United States who will still be read 30-40-50 years from now.  I regret that I will not be here to see where he takes us.  In 2019 he published The Fire is Upon Us: James Baldwin, William F. Buckley Jr., and the Debate Over Race in America.  This […]",
           "link": "https://www.nakedcapitalism.com/2025/12/the-meaning-of-freedom-in-these-united-states.html",
           "publishedOn": "2025-12-03T11:45:28.000Z",
-          "wordCount": 5996,
+          "wordCount": 6987,
           "title": "The Meaning of Freedom in These United States",
           "imageUrl": null
         },
@@ -299,7 +309,7 @@
           "description": "Trump's failing about, now on inflation and affordability, is becoming more desperate.",
           "link": "https://www.nakedcapitalism.com/2025/12/trump-goes-full-biden-insists-no-inflation-affordability-a-con-as-strained-consumers-know-better-and-trumps-polls-sink-further.html",
           "publishedOn": "2025-12-03T10:55:38.000Z",
-          "wordCount": 3723,
+          "wordCount": 5590,
           "title": "Trump Goes Full Biden, Insists No Inflation, Affordability a Con as Strained Consumers Know Better and Trump’s Polls Sink Further",
           "imageUrl": null
         },
@@ -309,7 +319,7 @@
           "description": "Bayer saddled itself with the Monsanto/Roundup garbage barge over fierce investor protest, and is now seeking Supremes relief.",
           "link": "https://www.nakedcapitalism.com/2025/12/trump-administration-supporting-bayer-at-supreme-court-over-monsanto-roundup-deal-savaged-by-investors-for-wealth-destruction-in-the-name-of-executive-preservation.html",
           "publishedOn": "2025-12-03T08:25:47.000Z",
-          "wordCount": 3950,
+          "wordCount": 4619,
           "title": "Trump Administration Supporting Bayer at Supreme Court Over Monsanto/Roundup Deal, Savaged by Investors for Wealth Destruction in the Name of Executive Preservation",
           "imageUrl": null
         },
@@ -319,7 +329,7 @@
           "description": "DARPA once defined the frontier of U.S. technological power, developing the foundations of stealth, networking, and precision-guided warfare. Today its most capable prototypes routinely die in the “valley of death,” casualties of political caution, industrial consolidation, and perverse incentives that punish programs for succeeding. This article examines how DARPA went from the nation’s most creative engine of capability to an agency whose breakthroughs are celebrated but rarely fielded—and what this reveals about America’s broader institutional decline.",
           "link": "https://www.nakedcapitalism.com/2025/12/coffee-break-armed-madhouse-how-darpa-lost-its-mojo.html",
           "publishedOn": "2025-12-02T19:00:20.000Z",
-          "wordCount": 4750,
+          "wordCount": 5847,
           "title": "Coffee Break: Armed Madhouse – How DARPA Lost Its Mojo",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/12/ARPANET_BBN_IMP-e1764602395731.jpg"
         },
@@ -329,7 +339,7 @@
           "description": "The logical conclusion of the intensive health monitoring fad: an internet of beings of continuous tracking and daily intervention.",
           "link": "https://www.nakedcapitalism.com/2025/12/internet-of-beings-the-dream-of-digitising-human-bodies-for-healthcare-and-the-nightmare.html",
           "publishedOn": "2025-12-02T14:55:20.000Z",
-          "wordCount": 4666,
+          "wordCount": 4839,
           "title": "Internet of Beings: The Dream of Digitising Human Bodies for Healthcare (and the Nightmare)",
           "imageUrl": null
         },
@@ -339,7 +349,7 @@
           "description": "Our ferocious daily links: smartphones make kids fat, moar Covid damage, Ukraine peacs scheme flounders, Hegseth boat strike defense, Lammy v. jury trials, warming worsens plastic pollution, China services slump, UN confirms Israel torture policy, AI, Mangione in court",
           "link": "https://www.nakedcapitalism.com/2025/12/links-12-2-2025.html",
           "publishedOn": "2025-12-02T11:55:43.000Z",
-          "wordCount": 11935,
+          "wordCount": 12052,
           "title": "Links 12/2/2025",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/12/00-deer-by-window-scaled.jpg"
         },
@@ -349,7 +359,7 @@
           "description": "The war narrative is so disjointed and so contradictory that even the legacy media are picking it apart.",
           "link": "https://www.nakedcapitalism.com/2025/12/the-lies-being-used-to-justify-the-us-war-against-latin-america-are-already-crumbling.html",
           "publishedOn": "2025-12-02T11:48:32.000Z",
-          "wordCount": 7639,
+          "wordCount": 7690,
           "title": "The Lies Being Used to Justify the US’ War Against Venezuela (and Latin America in General) Are Unravelling Before Our Eyes",
           "imageUrl": "https://scontent.fbcn7-2.fna.fbcdn.net/v/t1.6435-9/30711984_2165818883443464_6287108844556386304_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=a-k1e_EOSocQ7kNvwG8Lz39&_nc_oc=AdnZk5GUkr4pQlTyLFLUHgeoroBvY5piSy7-K_AU5FntBoxrKVZcxBavSWhXK-LOSns&_nc_zt=23&_nc_ht=scontent.fbcn7-2.fna&_nc_gid=CYQXJvGuhG2nVHTu9P6D8Q&oh=00_AfhlhAHyzlQtjJGxJDX7WfQLJAgHzVIkM2Mmc2dCkDlzzA&oe=695516D9"
         },
@@ -359,19 +369,9 @@
           "description": "A big leverage unwind in Bitcoin is accelerating, dragging down other crypto. How much further will the fall go before hitting bottom?",
           "link": "https://www.nakedcapitalism.com/2025/12/bitcoin-crypto-plunge-accelerates-as-leveraged-players-treasuries-like-strategy-dump-holdings.html",
           "publishedOn": "2025-12-02T10:54:53.000Z",
-          "wordCount": 5450,
+          "wordCount": 5454,
           "title": "Bitcoin, Crypto Plunge Accelerates as Leveraged Players (“Treasuries”) Like Strategy Dump Holdings",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/12/Screenshot-2025-12-02-at-4.28.24 PM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=302109",
-          "author": "Yves Smith",
-          "description": "A more detailed look at why to resist massive pressures for data center buildout and question  claims of inevitability.",
-          "link": "https://www.nakedcapitalism.com/2025/12/the-clouds-not-fluffy-its-a-hot-loud-energy-voracious-factory.html",
-          "publishedOn": "2025-12-02T07:44:32.000Z",
-          "wordCount": 6205,
-          "title": "The Cloud’s Not Fluffy, It’s a Hot, Loud, Energy-Voracious Factory",
-          "imageUrl": null
         }
       ]
     },
@@ -380,6 +380,26 @@
       "feedUrl": "https://blog.cloudflare.com/rss",
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
+        {
+          "id": "6yAZ5qr270gBwMkcYu63DX",
+          "author": "Daniele Molteni",
+          "description": "Cloudflare offers protection against a new high profile vulnerability for React Server Components: CVE-2025-55182. All WAF customers are automatically protected as long as the WAF is deployed.",
+          "link": "https://blog.cloudflare.com/waf-rules-react-vulnerability/",
+          "publishedOn": "2025-12-03T14:20:00.000Z",
+          "wordCount": 1074,
+          "title": "Cloudflare WAF proactively protects against React vulnerability",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3OQwiXyBnSGvpFtpD6PzAY/28ae98a89fef9876e2efb2a361a7ccb4/Cloudflare_WAF_proactively_protects_against_React_vulnerability-OG-CVE.png"
+        },
+        {
+          "id": "1lRRUtB2DMN3pPhk7yfeSM",
+          "author": "Omer Yoachimik",
+          "description": "Welcome to the 23rd edition of Cloudflare’s Quarterly DDoS Threat Report. This report offers a comprehensive analysis of the evolving threat landscape of Distributed Denial of Service (DDoS) attacks based on data from the Cloudflare network. In this edition, we focus on the third quarter of 2025.",
+          "link": "https://blog.cloudflare.com/ddos-threat-report-2025-q3/",
+          "publishedOn": "2025-12-03T14:00:00.000Z",
+          "wordCount": 2464,
+          "title": "Cloudflare's 2025 Q3 DDoS threat report -- including Aisuru, the apex of botnets",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4Tulu5pcHpBIA5lQBG0g1r/e30fb614e932a27c85fef28730a3882a/Cloudflare-s_2025_Q3_DDoS_threat_report_--_including_Aisuru__the_apex_of_botnets-OG.png"
+        },
         {
           "id": "3KkAemgmCHkd0D9QW5qTnz",
           "author": "Andreas Jansson",
@@ -458,7 +478,7 @@
           "description": "Today's links look at how Anthropic thinks about long-running agents, how good engineers write bad code at big companies, and what this era of personal software means",
           "link": "https://seroter.com/2025/12/02/daily-reading-list-december-2-2025-676/",
           "publishedOn": "2025-12-03T00:51:04.000Z",
-          "wordCount": 4773,
+          "wordCount": 4789,
           "title": "Daily Reading List – December 2, 2025 (#676)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
@@ -490,12 +510,22 @@
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
         {
+          "id": "https://news.mit.edu/2025/helping-power-system-planners-prepare-unknown-future-1203",
+          "author": "Nancy W. Stauffer | MIT Energy Initiative",
+          "description": "Macro, a modeling tool developed by the MIT Energy Initiative, enables energy-system planners to explore options for developing infrastructure to support decarbonized, reliable, and low-cost power grids.",
+          "link": "https://news.mit.edu/2025/helping-power-system-planners-prepare-unknown-future-1203",
+          "publishedOn": "2025-12-03T16:00:00.000Z",
+          "wordCount": 2073,
+          "title": "Helping power-system planners prepare for an unknown future",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202510/high-voltage-electrical-transmission-lines.jpg"
+        },
+        {
           "id": "https://news.mit.edu/2025/new-control-system-teaches-soft-robots-art-staying-safe-1202",
           "author": "Rachel Gordon | MIT CSAIL",
           "description": "MIT CSAIL and LIDS researchers developed a mathematically grounded system that lets soft robots deform, adapt, and interact with people and objects, without violating safety limits.",
           "link": "https://news.mit.edu/2025/new-control-system-teaches-soft-robots-art-staying-safe-1202",
           "publishedOn": "2025-12-02T19:00:00.000Z",
-          "wordCount": 2126,
+          "wordCount": 2130,
           "title": "New control system teaches soft robots the art of staying safe",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202511/mit-csail-Contact-Aware.jpg"
         },
@@ -505,7 +535,7 @@
           "description": "AquaCulture Shock program, in collaboration with MIT-Scandinavia MISTI, offers international internships for AI and autonomy in aquaculture",
           "link": "https://news.mit.edu/2025/aquaculture-shock-ai-and-autonomy-aquaculture-1201",
           "publishedOn": "2025-12-01T21:25:00.000Z",
-          "wordCount": 1981,
+          "wordCount": 1979,
           "title": "MIT Sea Grant students explore the intersection of technology and offshore aquaculture in Norway",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202512/Farm-Sveinung-Beckett-MIT-Aquaculture-00.jpg"
         },
@@ -515,7 +545,7 @@
           "description": "At MITEI’s Fall Colloquium, General Motors’ battery development expert emphasized how affordability, accessibility, and commercialization can position the US as a leader in battery tech.",
           "link": "https://news.mit.edu/2025/driving-american-battery-innovation-forward-1201",
           "publishedOn": "2025-12-01T20:50:00.000Z",
-          "wordCount": 1433,
+          "wordCount": 1430,
           "title": "Driving American battery innovation forward",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202511/MITei-Kurt-Kelty.jpg"
         },
@@ -525,7 +555,7 @@
           "description": "For PhD student Benjamin Manning, the future of work means grasping AI’s role on our behalf while transforming and accelerating social scientific discovery.",
           "link": "https://news.mit.edu/2025/benjamin-manning-how-ai-will-shape-future-work-1201",
           "publishedOn": "2025-12-01T18:35:00.000Z",
-          "wordCount": 1363,
+          "wordCount": 1362,
           "title": "Exploring how AI will shape the future of work",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202511/mit-Ben-Manning-profile.jpg"
         }
@@ -603,7 +633,7 @@
           "description": "Without jury trials, there is no justice: David Lammy, the justice secretary, told The Times that the scale of the backlog – which has reached nearly 80,000 cases – is failing victims as he warned that “justice delayed is justice denied” Lammy is expected to announce that he will scrap the right to trial by […]",
           "link": "https://www.ianwelsh.net/britain-to-restrict-jury-trials-ending-jury-nullification-for-political-crimes/",
           "publishedOn": "2025-12-02T15:18:03.000Z",
-          "wordCount": 2901,
+          "wordCount": 3211,
           "title": "Britain To Restrict Jury Trials, Ending Jury Nullification For Political Crimes",
           "imageUrl": null
         },
@@ -633,7 +663,7 @@
           "description": "Use to discuss topics unrelated to recent posts.",
           "link": "https://www.ianwelsh.net/open-thread-314/",
           "publishedOn": "2025-11-29T19:49:39.000Z",
-          "wordCount": 4482,
+          "wordCount": 4886,
           "title": "Open Thread",
           "imageUrl": null
         },
@@ -664,6 +694,39 @@
       "feedUrl": "https://www.lawyersgunsmoneyblog.com/feed",
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155991",
+          "author": "Scott Lemieux",
+          "description": "Henry Cuellar is the new Rod Blagojevich: President Donald Trump announced he will pardon U.S. Rep. Henry Cuellar, D-Laredo, and his wife, ending the congressman’s multi-year federal legal battle. Cuellar had faced a dozen charges of bribery, money laundering and conspiracy. In Trump’s pardon, shared Wednesday morning via Truth Social, the president said that the […]\nThe post The “game recognize game” pardon cycle crosses party lines again appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/12/the-game-recognize-game-pardon-cycle-crosses-party-lines-again",
+          "publishedOn": "2025-12-03T18:35:42.000Z",
+          "wordCount": null,
+          "title": "The “game recognize game” pardon cycle crosses party lines again",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155978",
+          "author": "Scott Lemieux",
+          "description": "Joining Bill Kristol in the Army of the Woke is syndicated columnist William F. George: Defense Secretary Pete Hegseth seems to be a war criminal. Without a war. An interesting achievement. In 1967, novelist Gwyn Griffin published a World War II novel, “An Operational Necessity,” that 58 years later is again pertinent. According to the laws […]\nThe post War criminal without war appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/12/war-criminal-without-war",
+          "publishedOn": "2025-12-03T14:43:00.000Z",
+          "wordCount": null,
+          "title": "War criminal without war",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=155990",
+          "author": "Robert Farley",
+          "description": "I feel like we’re starting to get some traction… Hegseth is displaying all of the physical, masculine courage normally associated with a rat trying desperately to escape a sinking ship [Ed- because a missile is on the way? Taking the metaphor too far?]: Defense Secretary Pete Hegseth said on Tuesday that he had not noticed […]\nThe post Sparkling War Crimes appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2025/12/sparkling-war-crimes",
+          "publishedOn": "2025-12-03T13:30:51.000Z",
+          "wordCount": null,
+          "title": "Sparkling War Crimes",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=155976",
           "author": "Scott Lemieux",
@@ -729,39 +792,6 @@
           "title": "Sleepy Don: people being targeted for crackdowns based on their race",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155965",
-          "author": "Paul Campos",
-          "description": "Today’s cabinet meeting featured, no doubt among other things that I’ve missed [ETA and how]: *Trump literally falling asleep on several occasions. He even appeared to nod off when he himself was talking, let alone when his shameless sycophants were droning on. (Imagine if Joe Biden part googolplex) *Speaking of which, Kristi Noem thanked him […]\nThe post My honor is called loyalty appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/12/my-honor-is-called-loyalty",
-          "publishedOn": "2025-12-02T21:08:13.000Z",
-          "wordCount": null,
-          "title": "My honor is called loyalty",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155963",
-          "author": "Scott Lemieux",
-          "description": "Gil Durán and Don Moynihan point out how the Secretary of Child Murder has been able to exploit journalistic conventions of printing the statements of public officials at face value, which does the job propagandists want done even you you debunk them later in the text: \"Never spread the lie in the headline\" should be […]\nThe post A media wired for RFK Jr. appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/12/a-media-wired-for-rfk-jr",
-          "publishedOn": "2025-12-02T20:11:29.000Z",
-          "wordCount": null,
-          "title": "A media wired for RFK Jr.",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=155960",
-          "author": "Paul Campos",
-          "description": "Here’s another terrific essay from John Ganz, whose Substack deserves your support. In it, Ganz takes on Ross Douthat’s equivocating crypto anti-anti-Trumpism (a lot of that going around), which suggests that some sort of “post-liberalism” of the conservative Catholic variety may be a more effective way of fighting Trumpism than saying a bunch of mean […]\nThe post This is the reason appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2025/12/this-is-the-reason",
-          "publishedOn": "2025-12-02T17:39:39.000Z",
-          "wordCount": null,
-          "title": "This is the reason",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -818,16 +848,6 @@
           "publishedOn": "2025-11-27T10:56:17.000Z",
           "wordCount": null,
           "title": "Pete Hegseth hates scouting",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=182956",
-          "author": "Angry Bear",
-          "description": "Happy Thanksgiving to Angry Bear’s readers, writers, and family. Hope all is well by you.\nThe post Thanksgiving Day 2025 appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2025/11/thanksgiving-day-2025",
-          "publishedOn": "2025-11-27T06:06:00.000Z",
-          "wordCount": null,
-          "title": "Thanksgiving Day 2025",
           "imageUrl": null
         }
       ]
