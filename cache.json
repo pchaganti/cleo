@@ -30,16 +30,6 @@
           "wordCount": 31882,
           "title": "AWS Security Hub Extended offers full-stack enterprise security with curated partner solutions",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/11/04/Security-hub-feat-img.png"
-        },
-        {
-          "id": "3d1501d68824887d13ac59ef7b25076c2858c571",
-          "author": "Micah Walter",
-          "description": "AWS Elemental Inference is a fully managed AI service that automatically transforms live and on-demand video broadcasts into vertical formats optimized for mobile and social platforms in real time, enabling broadcasters to reach audiences on TikTok, Instagram Reels, and YouTube Shorts without manual editing or AI expertise.",
-          "link": "https://aws.amazon.com/blogs/aws/transform-live-video-for-mobile-audiences-with-aws-elemental-inference/",
-          "publishedOn": "2026-02-24T18:55:11.000Z",
-          "wordCount": 32283,
-          "title": "Transform live video for mobile audiences with AWS Elemental Inference",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/02/17/aws-library_illustration_data_7_2x1.jpg"
         }
       ]
     },
@@ -49,6 +39,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
       "articles": [
         {
+          "id": "13ef2ed29134846a144cc6e8869132960da99dec",
+          "author": "Ryan Dsouza",
+          "description": "In this post, we discuss how following the AWS Cloud Adoption Framework (AWS CAF) and AWS Well-Architected Framework can help reduce these risks through proper implementation of AWS guidance and best practices while taking into consideration the practical challenges organizations face in implementing these best practices, including resource constraints, evaluating trade-offs and competing business priorities.",
+          "link": "https://aws.amazon.com/blogs/architecture/the-hidden-price-tag-uncovering-hidden-costs-in-cloud-architectures-with-the-aws-well-architected-framework/",
+          "publishedOn": "2026-03-03T16:08:00.000Z",
+          "wordCount": 33290,
+          "title": "The Hidden Price Tag: Uncovering Hidden Costs in Cloud Architectures with the AWS Well-Architected Framework",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/03/arch-1321-1120x630.png"
+        },
+        {
           "id": "a68ca9a9f26efefbdcab252ac8b1994e7ad4e87e",
           "author": "Julio Bando",
           "description": "Santander faced a significant technical challenge in managing an infrastructure that processes billions of daily transactions across more than 200 critical systems. The solution emerged through an innovative platform engineering initiative called Catalyst, which transformed the bank's cloud infrastructure and development management. This post analyzes the main cases, benefits, and results obtained with this initiative.",
@@ -57,16 +57,6 @@
           "wordCount": 32649,
           "title": "Digital Transformation at Santander: How Platform Engineering is Revolutionizing Cloud Infrastructure",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/01/26/ARCHBLOG-12991-1260x361.png"
-        },
-        {
-          "id": "34d2a05a55856c5021b9e1ba75ffa82e9ab726b5",
-          "author": "Ben Freiberg",
-          "description": "This post describes why ProGlove chose a account-per-tenant approach for our serverless SaaS architecture and how it changes the operational model. It covers the challenges you need to anticipate around automation, observability and cost. We will also discuss how the approach can affect other operational models in different environments like an enterprise context.",
-          "link": "https://aws.amazon.com/blogs/architecture/6000-aws-accounts-three-people-one-platform-lessons-learned/",
-          "publishedOn": "2026-02-25T19:47:07.000Z",
-          "wordCount": 33650,
-          "title": "6,000 AWS accounts, three people, one platform: Lessons learned",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/02/17/ARCHBLOG-1310-1-675x630.png"
         }
       ]
     },
@@ -74,7 +64,18 @@
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
       "feedUrl": "http://githubengineering.com/atom.xml",
       "siteUrl": "https://github.blog/engineering/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
+          "author": null,
+          "description": "<p>Here's how we the search experience better, faster, and more resilient for GHES customers.</p>\n<p>The post <a href=\"https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/\">How we rebuilt the search architecture for high availability in GitHub Enterprise Server</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+          "link": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
+          "publishedOn": "2026-03-03T18:45:09.000Z",
+          "wordCount": 4255,
+          "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
+          "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-mona-invertocat-logo.png"
+        }
+      ]
     },
     {
       "title": "AWS DevOps & Developer Productivity Blog",
@@ -126,103 +127,103 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
-          "id": "https://www.nakedcapitalism.com/?p=306210",
-          "author": "Nat Wilson Turner",
-          "description": "Narrative war rages as missiles fly. Various influencers, corporate and national media outlets are firing up their fog of war machines in a vicious fight for control.",
-          "link": "https://www.nakedcapitalism.com/2026/03/narrative-wars-us-media-influencers-manufacture-consent-iran-war.html",
-          "publishedOn": "2026-03-02T19:00:19.000Z",
-          "wordCount": null,
-          "title": "Coffee Break: Narrative Wars as US Media Struggles to Manufacture Consent",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=306208",
+          "id": "https://www.nakedcapitalism.com/?p=306304",
           "author": "Yves Smith",
-          "description": "How Category III CPT codes for new procedures became entangled in a politically driven, zero-sum reimbursement game, to patient detriment.",
-          "link": "https://www.nakedcapitalism.com/2026/03/is-that-new-procedure-proven-medtech-billing-codes-and-evidence-based-medicine.html",
-          "publishedOn": "2026-03-02T14:56:44.000Z",
-          "wordCount": null,
-          "title": "Is That New Procedure Proven? MedTech Billing Codes and Evidence-Based Medicine",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=306160",
-          "author": "Conor Gallagher",
           "description": "",
-          "link": "https://www.nakedcapitalism.com/2026/03/links-3-2-2026.html",
-          "publishedOn": "2026-03-02T11:55:04.000Z",
+          "link": "https://www.nakedcapitalism.com/2026/03/links-3-4-2026.html",
+          "publishedOn": "2026-03-04T11:55:52.000Z",
           "wordCount": null,
-          "title": "Links 3/2/2026",
+          "title": "Links 3/4/2026",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=306174",
+          "id": "https://www.nakedcapitalism.com/?p=306332",
           "author": "Yves Smith",
-          "description": "A daily update on the Iran war, today focusing on Iran's attack on Saudi oil assets, the economic war, and kinetic events like F-15 downings.",
-          "link": "https://www.nakedcapitalism.com/2026/03/iran-war-widens-as-iran-attacks-saudi-oil-infrastructure-israel-and-hezbollah-exchange-strikes.html",
-          "publishedOn": "2026-03-02T11:53:18.000Z",
+          "description": "The latest updates on the Iran war, from kinetic, economic, and narrative perspectives.",
+          "link": "https://www.nakedcapitalism.com/2026/03/iran-war-more-on-why-us-israel-success-impossible-as-israel-and-us-operations-take-more-hits-trump-proposes-unhinged-strait-of-hormuz-escort-scheme-western-media-misinforming-public.html",
+          "publishedOn": "2026-03-04T11:54:27.000Z",
           "wordCount": null,
-          "title": "Iran War Widens as Iran Attacks Saudi Oil Infrastructure, Israel and Hezbollah Exchange Strikes",
+          "title": "Iran War: More on Why US/Israel Success Impossible as Israel and US Operations Take More Hits, Trump Proposes Unhinged Strait of Hormuz Escort Scheme, Western Media Misinforming Public",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=306168",
+          "id": "https://www.nakedcapitalism.com/?p=306317",
           "author": "Conor Gallagher",
-          "description": "ICE helps clear apartment complexes and evict tenants while incarceration buildout throws a lifeline to commercial real estate.",
-          "link": "https://www.nakedcapitalism.com/2026/03/how-often-is-ice-acting-as-a-goon-squad-for-landlords.html",
-          "publishedOn": "2026-03-02T11:00:22.000Z",
+          "description": "Turkish officials say they share Iranians pain but Tehran should show “greater flexibility” as Ankara discusses “buffer zone” in Iran to counter US-armed Kurds.",
+          "link": "https://www.nakedcapitalism.com/2026/03/turkiye-does-standoff-shuffle-with-kurds-toward-iran.html",
+          "publishedOn": "2026-03-04T11:00:32.000Z",
           "wordCount": null,
-          "title": "How Often Is ICE Acting as a Goon Squad for Landlords?",
+          "title": "Türkiye Does Standoff Shuffle With Kurds Toward Iran",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=306164",
-          "author": "Conor Gallagher",
-          "description": "Democrat strategy wants Trump to take heat for war while party acts like it opposes conflict and reaps rewards come November—but what if there are no elections?",
-          "link": "https://www.nakedcapitalism.com/2026/03/democratic-leaders-face-backlash-over-cowardly-responses-to-trump-war-on-iran.html",
-          "publishedOn": "2026-03-02T10:00:57.000Z",
+          "id": "https://www.nakedcapitalism.com/?p=306330",
+          "author": "Yves Smith",
+          "description": "The bad incentives that lead health insurers not to balk overmuch at outrageous hospital charges.",
+          "link": "https://www.nakedcapitalism.com/2026/03/even-patients-are-shocked-by-the-prices-their-insurers-will-pay-and-it-costs-all-of-us.html",
+          "publishedOn": "2026-03-04T09:56:50.000Z",
           "wordCount": null,
-          "title": "Democratic Leaders Face Backlash Over ‘Cowardly’ Responses to Trump War on Iran",
+          "title": "Even Patients Are Shocked by the Prices Their Insurers Will Pay — And It Costs All of Us",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=306118",
+          "id": "https://www.nakedcapitalism.com/?p=306225",
           "author": "Haig Hovaness",
-          "description": "",
-          "link": "https://www.nakedcapitalism.com/2026/03/links-3-1-2026.html",
-          "publishedOn": "2026-03-01T11:55:11.000Z",
+          "description": "Military dominance is often treated as strategic insurance. Yet history suggests that battlefield superiority can generate domestic political instability when the moral and reputational costs of sustained force penetrate the patron state’s political system. Examining France in Algeria alongside the contemporary U.S.–Israel alliance, this article argues that the decisive variable is not military capacity but legitimation capacity — the ability of a democratic society to sustain political consent under the burdens of prolonged external conflict.",
+          "link": "https://www.nakedcapitalism.com/2026/03/coffee-break-armed-madhouse-algeria-and-gaza-parallels.html",
+          "publishedOn": "2026-03-03T19:00:26.000Z",
           "wordCount": null,
-          "title": "Links 3/1/2026",
+          "title": "Coffee Break: Armed Madhouse – Algeria and Gaza Parallels",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=306130",
+          "id": "https://www.nakedcapitalism.com/?p=306301",
           "author": "Yves Smith",
-          "description": "Some of the latest Iran war sightings even as the fog of war and attempted narrative control is mighty thick.",
-          "link": "https://www.nakedcapitalism.com/2026/03/iran-war-quick-early-updates.html",
-          "publishedOn": "2026-03-01T11:54:02.000Z",
+          "description": "AI is working according to plan, further enriching the owner class at the expense of workers.",
+          "link": "https://www.nakedcapitalism.com/2026/03/ai-and-the-distribution-of-income-between-capital-and-labour.html",
+          "publishedOn": "2026-03-03T14:55:01.000Z",
           "wordCount": null,
-          "title": "Iran War: Quick Early Updates",
+          "title": "AI and the Distribution of Income Between Capital and Labour",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=306111",
-          "author": "semper loquitur",
-          "description": "Yeleen is a movie about magic and myth.",
-          "link": "https://www.nakedcapitalism.com/2026/03/the-sunday-morning-movie-presents-yeelen-brightness-run-time-1h-38m.html",
-          "publishedOn": "2026-03-01T11:30:14.000Z",
+          "id": "https://www.nakedcapitalism.com/?p=306211",
+          "author": "Yves Smith",
+          "description": "",
+          "link": "https://www.nakedcapitalism.com/2026/03/links-3-3-2026.html",
+          "publishedOn": "2026-03-03T11:59:59.000Z",
           "wordCount": null,
-          "title": "The Sunday Morning Movie Presents: Yeelen (Brightness) Run Time 1H 38M",
+          "title": "Links 3/3/2026",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=306123",
-          "author": "Conor Gallagher",
-          "description": "As US President Donald Trump pushes the world to war, arms spending has been rising worldwide. Wars secure more budgetary allocations, mainly benefiting the US-dominated military-industrial complex.",
-          "link": "https://www.nakedcapitalism.com/2026/03/massive-us-war-spending-hike-raises-debt-taxes-doubts.html",
-          "publishedOn": "2026-03-01T10:00:52.000Z",
+          "id": "https://www.nakedcapitalism.com/?p=306269",
+          "author": "Yves Smith",
+          "description": "The Iran war situation has developed not necessarily to the advantage of the US and Israel.",
+          "link": "https://www.nakedcapitalism.com/2026/03/iran-war-israel-air-defenses-crumbling-us-base-attacks-continue-as-markets-set-for-wile-e-coyote-moment.html",
+          "publishedOn": "2026-03-03T11:58:31.000Z",
           "wordCount": null,
-          "title": "Massive US War Spending Hike Raises Debt, Taxes, Doubts",
+          "title": "Iran War: Israel Air Defenses Crumbling, US Base Attacks Continue as Markets Set for Wile E. Coyote Moment",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=306215",
+          "author": "Nick Corbishley",
+          "description": "Madrid's words and actions regarding West Asia once again stand in stark contrast with those of the continent's \"Big Three\", Germany, France and the UK.",
+          "link": "https://www.nakedcapitalism.com/2026/03/spanish-government-infuriates-trump-by-denying-us-permission-to-use-jointly-operated-bases-to-attack-iran.html",
+          "publishedOn": "2026-03-03T11:45:27.000Z",
+          "wordCount": null,
+          "title": "Spain Risks Wrath of Trump After Denying US Forces Permission to Use Jointly Operated Bases to Attack Iran",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=306263",
+          "author": "Yves Smith",
+          "description": "More on the global impact of QatarEnergy's LNG production stoppage and the uncertainty over when it might resume operation.",
+          "link": "https://www.nakedcapitalism.com/2026/03/qatars-lng-blackout-just-broke-the-global-gas-market.html",
+          "publishedOn": "2026-03-03T09:23:32.000Z",
+          "wordCount": null,
+          "title": "Qatar’s LNG Blackout Just Broke the Global Gas Market",
           "imageUrl": null
         }
       ]
@@ -233,12 +234,62 @@
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
         {
+          "id": "ZCsVXVHtRYhvV0zW5Hadc",
+          "author": "Cloudforce One",
+          "description": "There has been a fundamental shift toward industrialized cyber threats, highlighted by a record 31.4 Tbps DDoS attack and sophisticated session token theft. Our new report examines how nation-states and criminal actors have moved beyond traditional exploits to \"living off the XaaS\" within legitimate enterprise logic.",
+          "link": "https://blog.cloudflare.com/2026-threat-report/",
+          "publishedOn": "2026-03-03T14:00:00.000Z",
+          "wordCount": 2172,
+          "title": "Introducing the 2026 Cloudflare Threat Report",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6quXtJgKKQ3hqaFFAS0ySO/d074f2e5f2e6ee34366966a75711a22d/Introducing_the_2026_Cloudflare_Threat_Report-OG.png"
+        },
+        {
+          "id": "605qle9d3d8PLHdnRVGMxE",
+          "author": "Blake Darché",
+          "description": "Stop managing ETL pipelines and start threat hunting. Introducing new visualization, automation, and enrichment tools in the Cloudflare Threat Intelligence Platform to turn massive telemetry into instant security posture.",
+          "link": "https://blog.cloudflare.com/cloudflare-threat-intelligence-platform/",
+          "publishedOn": "2026-03-03T14:00:00.000Z",
+          "wordCount": 2899,
+          "title": "Evolving Cloudflare’s Threat Intelligence Platform: actionable, scalable, and ETL-less",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4Rtb4ndJgavt1N0BsHaL12/2882d44e7093abb38030668819d21d27/Evolving_Cloudflare%C3%A2__s_Threat_Intelligence_Platform-_actionable__scalable__and_ETL-less-OG.png"
+        },
+        {
+          "id": "6S9GOOoOPdJX0xziMyNShi",
+          "author": "Ayush Kumar",
+          "description": "Cloudy is our LLM-powered explanation layer built directly into Cloudflare One. Its explanations, now part of Phishnet and API CASB, can improve user decisions and SOC efficiency.",
+          "link": "https://blog.cloudflare.com/cloudy-upgrades-for-cloudflare-one/",
+          "publishedOn": "2026-03-03T06:00:00.000Z",
+          "wordCount": 2909,
+          "title": "How Cloudy translates complex security into human action",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4plooiLyILg6Jg48r5v3ke/87710382aecbbe84725ee9ad853caf5e/OG_Share_2024-2025-2026__8_.png"
+        },
+        {
+          "id": "6bn8ZofdSYZHfiOOkBl2qq",
+          "author": "Sebastian Alovisi",
+          "description": "Email security is a constant arms race. Like WWII engineers reinforcing only the planes that returned, survivorship bias hides real gaps. But LLMs can help us find the invisible weaknesses.",
+          "link": "https://blog.cloudflare.com/email-security-phishing-gap-llm/",
+          "publishedOn": "2026-03-03T06:00:00.000Z",
+          "wordCount": 2125,
+          "title": "From reactive to proactive: closing the phishing gap with LLMs",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6oHDeRmUHgxw15hsFMF6vr/69c2b8734c71b329957c188e5b5f0f91/From_reactive_to_proactive-_closing_the_phishing_gap_with_LLMs-OG.png"
+        },
+        {
+          "id": "5qLzg7UQ9OtFryC8YVeSo5",
+          "author": "Alex Dunbrack",
+          "description": "Cloudflare CASB Remediation lets security teams go beyond visibility to fix risky file sharing in Microsoft 365 and Google Workspace directly from Cloudflare One, all in just a few clicks.",
+          "link": "https://blog.cloudflare.com/remediation-in-cloudflare-casb/",
+          "publishedOn": "2026-03-03T06:00:00.000Z",
+          "wordCount": 1857,
+          "title": "See risk, fix risk: introducing Remediation in Cloudflare CASB",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6lHofCog3FZUg09uvD05ye/afa1a566718d74484ce902f065da17fa/See_risk__fix_risk-_introducing_Remediation_in_Cloudflare_CASB-OG.png"
+        },
+        {
           "id": "37CrGNF3f6yX76PegZnE5Y",
           "author": "Warnessa Weaver",
           "description": "In 2026, agile SASE is the engine for modernization. Discover how Cloudflare One secures humans, devices, and AI agents on a single, programmable connectivity cloud.",
           "link": "https://blog.cloudflare.com/modernize-agile-sase/",
           "publishedOn": "2026-03-02T06:00:00.000Z",
-          "wordCount": 1468,
+          "wordCount": 1438,
           "title": "Modernizing with agile SASE: a Cloudflare One blog takeover",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1WrXO46rQJxP8pbUEa4F42/193db62b565936058c3005c55856907f/Modernizing_with_agile_SASE-_a_Cloudflare_One_blog_takeover-OG.png"
         },
@@ -248,7 +299,7 @@
           "description": "Project Helix simplifies and accelerates the onboarding process for Cloudflare One. By using automation and Terraform templates, this tool allows customers to quickly deploy a comprehensive, best-practice configuration in minutes.",
           "link": "https://blog.cloudflare.com/cloudflare-one-onboarding-project-helix/",
           "publishedOn": "2026-03-02T06:00:00.000Z",
-          "wordCount": 2216,
+          "wordCount": 2191,
           "title": "Beyond the blank slate: how Cloudflare accelerates your Zero Trust journey",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7Ms40QXPJ0JopM4dOzUjeS/10695657d0414e4be706dccb1e576a62/Beyond_the_blank_slate-_how_Cloudflare_accelerates_your_Zero_Trust_journey-OG.png"
         },
@@ -258,7 +309,7 @@
           "description": "As the only SASE platform with a native developer stack, we’re giving you the tools to build custom, real-time security logic and integrations directly at the edge.",
           "link": "https://blog.cloudflare.com/programmable-sase/",
           "publishedOn": "2026-03-02T06:00:00.000Z",
-          "wordCount": 2250,
+          "wordCount": 2257,
           "title": "The truly programmable SASE platform",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4BYLLRRRiZBtdTg3ZdrOFT/90e761cd7e616511e9b3dea657625625/OG_Share_2024-2025-2026__2_.png"
         },
@@ -298,7 +349,7 @@
           "description": "Cloudflare Radar has added new tools for monitoring PQ adoption, KT logs for messaging, and ASPA routing records to track the Internet's migration toward more secure encryption and routing standards.",
           "link": "https://blog.cloudflare.com/radar-origin-pq-key-transparency-aspa/",
           "publishedOn": "2026-02-27T06:00:00.000Z",
-          "wordCount": 2784,
+          "wordCount": 2777,
           "title": "Bringing more transparency to post-quantum usage, encrypted messaging, and routing security",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6COrY5PgHV3Jvadr5py0gC/ba1713f01163bfbd4fb79b72fbc1c6d2/Bringing_more_transparency_to_post-quantum_usage__encrypted_messaging__and_routing_security-OG.png"
         },
@@ -311,16 +362,6 @@
           "wordCount": 2630,
           "title": "ASPA: making Internet routing more secure",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/420JBGQAyalgcrCyhG80Xe/1247b222a70a5a27292597a52cb002e7/ASPA-_making_Internet_routing_more_secure-OG.png"
-        },
-        {
-          "id": "2w61xT0J7H7ECzhiABytS",
-          "author": "Steve Faulkner",
-          "description": "One engineer used AI to rebuild Next.js on Vite in a week. vinext builds up to 4x faster, produces 57% smaller bundles, and deploys to Cloudflare Workers with a single command.",
-          "link": "https://blog.cloudflare.com/vinext/",
-          "publishedOn": "2026-02-24T20:00:00.000Z",
-          "wordCount": 3678,
-          "title": "How we rebuilt Next.js with AI in one week",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/720QQcrdICiSJXrr9VoixA/4934fffd05d1ca10cc661238b381308e/BLOG-3194_OG.png"
         }
       ]
     },
@@ -330,14 +371,14 @@
       "siteUrl": "https://code.visualstudio.com/",
       "articles": [
         {
-          "id": "https://code.visualstudio.com/blogs/2026/02/26/long-distance-nes",
+          "id": "https://code.visualstudio.com/updates/v1_110",
           "author": null,
-          "description": "Learn how we extended next edit suggestions to work across your entire file, reducing friction and improving productivity in GitHub Copilot.\nRead the full article",
-          "link": "https://code.visualstudio.com/blogs/2026/02/26/long-distance-nes",
-          "publishedOn": "2026-02-26T00:00:00.000Z",
-          "wordCount": 2292,
-          "title": "Building Long-Distance Next Edit Suggestions",
-          "imageUrl": "https://code.visualstudio.com/assets/blogs/2026/02/26/long-distance-nes-hero.png"
+          "description": "Learn what is new in the Visual Studio Code February 2026 Release (1.110).\nRead the full article",
+          "link": "https://code.visualstudio.com/updates/v1_110",
+          "publishedOn": "2026-03-04T17:00:00.000Z",
+          "wordCount": 2552,
+          "title": "February 2026 Insiders (version 1.110)",
+          "imageUrl": "https://code.visualstudio.com/assets/updates/1_110/vscode-insiders-header.webp"
         }
       ]
     },
@@ -365,16 +406,6 @@
           "wordCount": 1700,
           "title": "Luke Roberts: &ldquo;Protest Music&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/02/yellow-e1772189862132.jpg"
-        },
-        {
-          "id": "https://newleftreview.org/sidecar/posts/takaichi-whirlwind",
-          "author": null,
-          "description": "Elections in Japan.",
-          "link": "https://newleftreview.org/sidecar/posts/takaichi-whirlwind",
-          "publishedOn": "2026-02-25T12:31:37.000Z",
-          "wordCount": 2900,
-          "title": "Elena Korshenko: &ldquo;Takaichi Whirlwind&rdquo;",
-          "imageUrl": "https://newleftreview.org/blog-uploads/2026/02/takaichi1-e1772021829627.jpg"
         }
       ]
     },
@@ -396,12 +427,22 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=28778",
+          "author": "Richard Seroter",
+          "description": "Today's links look at why the SDLC as you know it is dead, why Go is the best language for AI agents, and how to kill the code review.",
+          "link": "https://seroter.com/2026/03/03/daily-reading-list-march-3-2026-733/",
+          "publishedOn": "2026-03-04T01:06:56.000Z",
+          "wordCount": 4617,
+          "title": "Daily Reading List – March 3, 2026 (#733)",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
+        },
+        {
           "id": "http://seroter.com/?p=28762",
           "author": "Richard Seroter",
           "description": "Today's links look at how coding agents changed software engineering, whether AI agents can build real Stripe integrations, and whether devs are safe from AI because enterprise move slowly.",
           "link": "https://seroter.com/2026/03/02/daily-reading-list-march-2-2026-732/",
           "publishedOn": "2026-03-03T00:52:24.000Z",
-          "wordCount": 4650,
+          "wordCount": 4756,
           "title": "Daily Reading List – March 2, 2026 (#732)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
@@ -411,7 +452,7 @@
           "description": "Today's links look at the generative AI policy landscape in open source, how to use Skills with your AI tools, and advice on how to respond to the inevitable pressures in life.",
           "link": "https://seroter.com/2026/02/27/daily-reading-list-february-27-2026-731/",
           "publishedOn": "2026-02-28T01:21:59.000Z",
-          "wordCount": 4692,
+          "wordCount": 4711,
           "title": "Daily Reading List – February 27, 2026 (#731)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         },
@@ -421,38 +462,8 @@
           "description": "Today's links look at why it's hard for models to embrace continuous learning, what it means to have the engineerification of everything, and top questions about Google Antigravity answered.",
           "link": "https://seroter.com/2026/02/26/daily-reading-list-february-26-2026-730/",
           "publishedOn": "2026-02-27T00:56:15.000Z",
-          "wordCount": 4743,
+          "wordCount": 4755,
           "title": "Daily Reading List – February 26, 2026 (#730)",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://seroter.com/?p=28659",
-          "author": "Richard Seroter",
-          "description": "Today's links look at what devs need to know right now, how to rethink CI/CD with agentic DevOps, and why big tech is giving away AI agent frameworks.",
-          "link": "https://seroter.com/2026/02/25/daily-reading-list-february-25-2026-729/",
-          "publishedOn": "2026-02-26T01:14:45.000Z",
-          "wordCount": 4809,
-          "title": "Daily Reading List – February 25, 2026 (#729)",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://seroter.com/?p=28671",
-          "author": "Richard Seroter",
-          "description": "Do you know a person with good ideas who nobody seems to listen to? Someone in your family? At work? Is it you? Being able to clearly and persuasively communicate might be the most important skill any of us can have in the years ahead. Whether steering humans or AI, your success depends on getting […]",
-          "link": "https://seroter.com/2026/02/25/these-are-my-favorite-books-about-persuasive-communication/",
-          "publishedOn": "2026-02-25T22:58:57.000Z",
-          "wordCount": 6753,
-          "title": "These are my favorite books about persuasive communication",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
-        },
-        {
-          "id": "http://seroter.com/?p=28638",
-          "author": "Richard Seroter",
-          "description": "Today's links look at how to build an elite engineering culture in 2026, how to make better strategic choices, and what a developer-friendly MLOps pipeline looks like.",
-          "link": "https://seroter.com/2026/02/24/daily-reading-list-february-24-2026-728/",
-          "publishedOn": "2026-02-25T00:53:39.000Z",
-          "wordCount": 4673,
-          "title": "Daily Reading List – February 24, 2026 (#728)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
         }
       ]
@@ -463,12 +474,22 @@
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
         {
+          "id": "https://news.mit.edu/2026/chatgpt-spreadsheets-helps-solve-difficult-engineering-challenges-faster-0304",
+          "author": "Adam Zewe | MIT News",
+          "description": "The approach could help engineers tackle extremely complex design problems, from power grid optimization to vehicle design.",
+          "link": "https://news.mit.edu/2026/chatgpt-spreadsheets-helps-solve-difficult-engineering-challenges-faster-0304",
+          "publishedOn": "2026-03-04T05:00:00.000Z",
+          "wordCount": 1993,
+          "title": "A “ChatGPT for spreadsheets” helps solve difficult engineering challenges faster",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-Bayesian-Opt-01a-press.jpg"
+        },
+        {
           "id": "https://news.mit.edu/2026/featured-video-coding-underwater-robotics-0227",
           "author": "Erin Lee | Tim Briggs | MIT Lincoln Laboratory",
           "description": "Lincoln Laboratory intern Ivy Mahncke developed and tested algorithms to help human divers and robots navigate underwater.",
           "link": "https://news.mit.edu/2026/featured-video-coding-underwater-robotics-0227",
           "publishedOn": "2026-02-27T22:15:00.000Z",
-          "wordCount": 1078,
+          "wordCount": 1055,
           "title": "Featured video: Coding for underwater robotics",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202602/Ivy-Mahncke-Lincoln-Laboratory-00.png"
         },
@@ -478,39 +499,9 @@
           "description": "By leveraging idle computing time, researchers can double the speed of model training while preserving accuracy.",
           "link": "https://news.mit.edu/2026/new-method-could-increase-llm-training-efficiency-0226",
           "publishedOn": "2026-02-26T05:00:00.000Z",
-          "wordCount": 2033,
+          "wordCount": 2015,
           "title": "New method could increase LLM training efficiency",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202602/MIT-LongTail-01-press.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/mixing-ai-with-physics-to-create-personal-items-0225",
-          "author": "Alex Shipps | MIT CSAIL",
-          "description": "To help generative AI models create durable, real-world accessories and decor, the PhysiOpt system runs physics simulations and makes subtle tweaks to its 3D blueprints.",
-          "link": "https://news.mit.edu/2026/mixing-ai-with-physics-to-create-personal-items-0225",
-          "publishedOn": "2026-02-25T19:40:00.000Z",
-          "wordCount": 1926,
-          "title": "Mixing generative AI with physics to create personal items that work in the real world",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202602/PhysiOpt%20%281%29_0.png"
-        },
-        {
-          "id": "https://news.mit.edu/2026/ai-help-researchers-see-bigger-picture-cell-biology-0225",
-          "author": "Adam Zewe | MIT News",
-          "description": "By providing holistic information on a cell, an AI-driven method could help      scientists better understand disease mechanisms and plan experiments.",
-          "link": "https://news.mit.edu/2026/ai-help-researchers-see-bigger-picture-cell-biology-0225",
-          "publishedOn": "2026-02-25T10:00:00.000Z",
-          "wordCount": 1945,
-          "title": "AI to help researchers see the bigger picture in cell biology",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202602/MIT-HolisticCells-01-press.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/enhancing-maritime-cybersecurity-technology-policy-strahinja-janjusevic-0225",
-          "author": "Stefanie Koperniak | Division of Graduate and Undergraduate Education",
-          "description": "Strahinja Janjusevic brings an international perspective and US Naval Academy education to his graduate research in the MIT Technology and Policy Program.",
-          "link": "https://news.mit.edu/2026/enhancing-maritime-cybersecurity-technology-policy-strahinja-janjusevic-0225",
-          "publishedOn": "2026-02-25T05:00:00.000Z",
-          "wordCount": 1811,
-          "title": "Enhancing maritime cybersecurity with technology and policy",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202601/mit-Strahinja-Janjusevic.JPG"
         }
       ]
     },
@@ -525,6 +516,22 @@
       "feedUrl": "https://www.thomasfazi.com/feed",
       "siteUrl": "https://www.thomasfazi.com",
       "articles": [
+        {
+          "id": "https://www.thomasfazi.com/p/method-to-the-madness-understanding",
+          "author": "Thomas Fazi",
+          "description": "What is the connection between the current conflicts, from Iran to Venezuela to Ukraine? And does Trump’s seemingly erratic foreign policy have a method — or is chaos the method?",
+          "link": "https://www.thomasfazi.com/p/method-to-the-madness-understanding",
+          "publishedOn": "2026-03-04T09:47:15.000Z",
+          "wordCount": null,
+          "title": "Method to the madness: understanding Trump’s foreign policy",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/8be6a960-b284-4b96-b4f8-ea8681290016_3696x2448.jpeg",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/8be6a960-b284-4b96-b4f8-ea8681290016_3696x2448.jpeg"
+        },
         {
           "id": "https://www.thomasfazi.com/p/western-hegemony-has-entered-a-phase",
           "author": "Thomas Fazi",
@@ -580,6 +587,46 @@
       "feedUrl": "https://www.ianwelsh.net/feed/",
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
+        {
+          "id": "https://www.ianwelsh.net/?p=24165",
+          "author": "Ian Welsh",
+          "description": "There’s a lot to admire about Khameini. He was personally brave (fought in the Iran/Iraq war on the front lines), he was well educated, and within the limits of his religious beliefs quite humane. He was entirely opposed to nuclear weapons. And that last bit was his greatest failure. North Korea is fine. No North […]",
+          "link": "https://www.ianwelsh.net/khameini-is-responsible-for-every-single-iranian-death/",
+          "publishedOn": "2026-03-03T21:13:49.000Z",
+          "wordCount": null,
+          "title": "Khamenei Is Responsible For Every Single Iranian Death",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=24155",
+          "author": "Sean Paul Kelley",
+          "description": "~by Sean Paul Kelley How about we review Cipollla’s Five Rules of Human Stupidity?  One: Everyone always and inevitably underestimates the number of stupid people in circulation. Two: The probability that a person is stupid is independent of any other characteristic of that person. Three: A stupid person is a person who causes losses to […]",
+          "link": "https://www.ianwelsh.net/there-is-stupid-and-then-there-is-superhuman-stupid/",
+          "publishedOn": "2026-03-03T12:10:36.000Z",
+          "wordCount": null,
+          "title": "There Is Stupid and Then There Is Superhuman Stupid",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=24152",
+          "author": "Sean Paul Kelley",
+          "description": "~by Sean Paul Kelley A tweet I encountered last night and obsessed over as I followed its logic all the way to the bottom terrified me in its potential implications. The poster links to another poster highlighting a few Euro press releases lambasting Iran for such a disproportionate response to our unprovoked attack and ends […]",
+          "link": "https://www.ianwelsh.net/the-doom-spiral-of-executive-decision-making/",
+          "publishedOn": "2026-03-03T10:55:24.000Z",
+          "wordCount": null,
+          "title": "The Doom Spiral Of Executive Decision Making",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=24136",
+          "author": "Sean Paul Kelley",
+          "description": "~by Sean Paul Kelley Cui bono? (From the Latin, who stands to gain?) Who benefits from our war on Iran, internationally speaking? And who loses? First, the Ukraine loses bad the longer the attack on Iran continues, as all the oxygen is sucked into a vortext surrounding the Persian Gulf. All the weapon systems the […]",
+          "link": "https://www.ianwelsh.net/short-take-on-iran-russia-and-the-ukraine-cui-bono/",
+          "publishedOn": "2026-03-03T07:32:59.000Z",
+          "wordCount": null,
+          "title": "Short Take on Iran, Russia and the Ukraine: Cui Bono?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.ianwelsh.net/?p=24117",
           "author": "Ian Welsh",
@@ -639,16 +686,6 @@
           "wordCount": null,
           "title": "Friday Morning Highlights and Lowlifes",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24029",
-          "author": "Ian Welsh",
-          "description": "We have a very odd spectacle right now: Anthropic’s CEO has said the US government cannot use Anthropic products if they will not guarantee that they won’t be used for autonomous military robots (firing without human intervention) or mass surveillance. The Pentagon has responded by threatening to eminent domain Claude, and make their own version. […]",
-          "link": "https://www.ianwelsh.net/western-elites-are-making-a-play-for-eternal-oligarchy/",
-          "publishedOn": "2026-02-25T14:30:51.000Z",
-          "wordCount": null,
-          "title": "Western Elites Are Making A Play For Eternal Oligarchy",
-          "imageUrl": null
         }
       ]
     },
@@ -658,101 +695,101 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=158366",
-          "author": "Scott Lemieux",
-          "description": "There is an very obvious lesson here, should institutions being targeted by Trump choose to take it: The Trump administration plans to abandon its defense of the president’s executive orders sanctioning several law firms, according to people familiar with the matter. The Justice Department as soon as Monday was expected to drop its appeals of […]\nThe post Trump administrations drops defense of its attempts to extort BigLaw appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/trump-administrations-drops-defense-of-its-attempts-to-extort-biglaw",
-          "publishedOn": "2026-03-03T02:55:00.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=158396",
+          "author": "Paul Campos",
+          "description": "Because of course: Supposedly the US involvement is currently limited to “advisors.” Where have I heard that term before? Meanwhile in Texas, Cornyn and Paxton are going to have a run-off election (obviously good), while Talarico appears likely to defeat Crockett. There’s a non-trivial chance that this race will decide control of the Senate in […]\nThe post US military launching operations in Ecuador appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/us-military-launching-operations-in-ecuador",
+          "publishedOn": "2026-03-04T04:38:14.000Z",
           "wordCount": null,
-          "title": "Trump administrations drops defense of its attempts to extort BigLaw",
+          "title": "US military launching operations in Ecuador",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=158364",
-          "author": "Erik Loomis",
-          "description": "I’ve been watching quite a few films lately, but I’ve also been trying to write and I haven’t gotten to the point of writing Film Club posts very often. Will try to work on that. One fascinating film I’ve seen recently is Love in the Time of AIDS. Directed by Deepa Dhanraj and released in […]\nThe post LGM Film Club, Part 433: Love in the Time of AIDS appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/lgm-film-club-part-433-love-in-the-time-of-aids",
-          "publishedOn": "2026-03-03T02:22:00.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=158395",
+          "author": "Robert Farley",
+          "description": "Bro: A Kuwaiti F/A-18 fighter jet was the cause of the accidental shootdown of three American F-15s on Sunday, according to three people familiar with initial reports of the incident. One F/A-18 pilot launched three missiles against the U.S. aircraft, according to a U.S. official. All three U.S. aircraft went down, but their pilots ejected […]\nThe post Get that Man a Wikipedia Page appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/get-that-man-a-wikipedia-page",
+          "publishedOn": "2026-03-04T02:39:56.000Z",
           "wordCount": null,
-          "title": "LGM Film Club, Part 433: Love in the Time of AIDS",
+          "title": "Get that Man a Wikipedia Page",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=158359",
-          "author": "Erik Loomis",
-          "description": "I finally got around to Death by Lightning, the Netflix show about the assassination of James Garfield. When I first heard about this, I admit I laughed a little bit–a show about James Garfield????? But you know, after watching it, even if you took out the entire assassination plot, such a show would still be […]\nThe post Death by Lightning appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/death-by-lightning-2",
-          "publishedOn": "2026-03-03T01:22:00.000Z",
-          "wordCount": null,
-          "title": "Death by Lightning",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=158361",
-          "author": "Erik Loomis",
-          "description": "Paul mentioning Tom Friedman today reminded me that there’s a whole raft of Times columnists running out the clock and no one has noticed anything they’ve written in the last decade. Friedman is definitely one of them. No one even mentions him anymore. Maybe powerful old people still read him, but he seems so much […]\nThe post He Disappeared and No One Noticed appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/he-disappeared-and-no-one-noticed",
-          "publishedOn": "2026-03-02T22:47:59.000Z",
-          "wordCount": null,
-          "title": "He Disappeared and No One Noticed",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=158357",
-          "author": "Scott Lemieux",
-          "description": "Kash Patel’s significant other is getting a major boost from the American taxpayer in pursuit of her nominal music career: You may never have heard of Alexis Wilkins, but she is one of the best-protected country music singers in the United States. F.B.I. tactical agents have ferried her to a resort in Britain before a […]\nThe post Hitting the jackpot in the fake MAGA populist sweepstakes appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/hitting-the-jackpot-in-the-fake-maga-populist-sweepstakes",
-          "publishedOn": "2026-03-02T22:02:46.000Z",
-          "wordCount": null,
-          "title": "Hitting the jackpot in the fake MAGA populist sweepstakes",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=158355",
-          "author": "Scott Lemieux",
-          "description": "The war on Iran is bad because it’s bad; no secondary bad impact is necessary for it to be a terrible idea. But if the blockade of the Strait of Hormuz continues for any length of time, the economic effects are going to be disastrous: The war will yield higher oil prices. The only question […]\nThe post Donnie Stagflation appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/donnie-stagflation",
-          "publishedOn": "2026-03-02T20:33:29.000Z",
-          "wordCount": null,
-          "title": "Donnie Stagflation",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=158294",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=158393",
           "author": "Shakezula",
-          "description": "Last week was the last week to complete employee self-assessments at my job. Perhaps if I hated my job I wouldn’t notice as much, but I don’t hate my job. Except for the self-assessment process. That, I fucking loathe. maybe that’s the point. It could be easy and efficient for everyone. Employees could indicate whether […]\nThe post Procrastination open thread appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/procrastination-open-thread",
-          "publishedOn": "2026-03-02T19:26:00.000Z",
+          "description": "The resident of War-a-Lago doesn’t have a plan for war on his Iran. “Win” is not a plan. But he does have a bottomless supply of proclamations and promises. One day after leading marine insurance underwriters decided to withdraw war risk cover for the Persian Gulf and Strait of Hurmuz, the White House has ordered […]\nThe post DJT is no PC & RJL appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/djt-is-no-pc-rjl",
+          "publishedOn": "2026-03-04T01:48:27.000Z",
           "wordCount": null,
-          "title": "Procrastination open thread",
+          "title": "DJT is no PC & RJL",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=158351",
-          "author": "Paul Campos",
-          "description": "Markwayne Mullin, who IIRC is a senator from Oklahoma or some other ungovernable tribal region, also referred repeatedly to declaring war on “Iraq.” “Dumber than Tommy Tuberville” would seem like an impossible bar to leap, but with the help of Confederate Jesus, all things are possible. Mainstream American culture has always been suspicious of intelligence […]\nThe post The Triumph of Stupidity, an infinite series appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/the-triumph-of-stupidity-an-infinite-series",
-          "publishedOn": "2026-03-02T19:24:06.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=158392",
+          "author": "Erik Loomis",
+          "description": "Donald Trump killed Capt. Cody A. Khork, 35, of Winter Haven, Florida; Sgt. 1st Class Noah L. Tietjens, 42, of Bellevue, Nebraska; Sgt. 1st Class Nicole M. Amor, 39, of White Bear Lake, Minnesota; and Spc. Declan J. Coady, 20, of West Des Moines, lowa. They died for the stupidest fucking man on the face […]\nThe post The Soldiers Trump Murdered appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/the-soldiers-trump-murdered",
+          "publishedOn": "2026-03-03T23:24:35.000Z",
           "wordCount": null,
-          "title": "The Triumph of Stupidity, an infinite series",
+          "title": "The Soldiers Trump Murdered",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=158348",
-          "author": "Paul Campos",
-          "description": "Speaking of classic rock, did you know Neil Sedaka wrote a hit song in 1961 1960 called “Stairway to Heaven?” (ETA: There are several other songs called Stairway to Heaven. As Sedaka noted in a 2021 interview, you can’t copyright a title. Of course Led Zeppelin had a long history of acting like you can’t […]\nThe post The Moustache of Understanding Is Back Yet Again to Explain Yet Another Middle East War appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/the-moustache-of-understanding-is-back-yet-again-to-explain-yet-another-middle-east-war",
-          "publishedOn": "2026-03-02T13:52:07.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=158391",
+          "author": "Scott Lemieux",
+          "description": "The Supreme Court issued two shadow docket orders yesterday. The first say the astonishing return of substantive due process: In Mirabelli v. Bonta, the conservative justices allowed a district-court injunction to go back into effect during litigation that blocks California schools from preventing parents from being told about their children’s gender presentation, name, or pronouns. The […]\nThe post The shadow docket and judicial imperialism, an ongoing series appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/the-shadow-docket-and-judicial-imperialism-an-ongoing-series",
+          "publishedOn": "2026-03-03T21:10:49.000Z",
           "wordCount": null,
-          "title": "The Moustache of Understanding Is Back Yet Again to Explain Yet Another Middle East War",
+          "title": "The shadow docket and judicial imperialism, an ongoing series",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=158389",
+          "author": "Cheryl Rofer",
+          "description": "The outlines of something that might be called a strategy are beginning to emerge in Trump’s war. A discussion of strategy in this context should always be prefaced by a warning that Donald Trump doesn’t do strategy in the way the rest of us do. His process seems to be the emergence of a desire […]\nThe post Just Like Venezuela appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/just-like-venezuela",
+          "publishedOn": "2026-03-03T20:33:13.000Z",
+          "wordCount": null,
+          "title": "Just Like Venezuela",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=158387",
+          "author": "Paul Campos",
+          "description": "Joyce Carol Oates makes what seems in retrospect like a very obvious point, but not one that occurred to me at the time: Meanwhile, Trump says he’ll just invade Spain if he feels like it: “Spain has been terrible,” he continued. “In fact, I told [Treasury Secretary] Scott [Bessent] to cut off all dealings with […]\nThe post Hate in a time of choleric appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/hate-in-a-time-of-choleric",
+          "publishedOn": "2026-03-03T20:10:50.000Z",
+          "wordCount": null,
+          "title": "Hate in a time of choleric",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=157892",
+          "author": "djw",
+          "description": "Today officially launches “midterm election” season, with primaries in two states of potential significance in November: North Carolina and Texas midterm primaries are among the elections taking place today. Races of national interest include the Republican and Democratic primaries for senate in Texas, various other state offices in Texas, the Republican primary in NC-1 (currently […]\nThe post Election of the day: United States appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/election-of-the-weekend-united-states",
+          "publishedOn": "2026-03-03T18:49:45.000Z",
+          "wordCount": null,
+          "title": "Election of the day: United States",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=158381",
+          "author": "Robert Farley",
+          "description": "Things are going spiffy: Speaking to reporters at the start of a White House meeting with Chancellor Friedrich Merz of Germany, Mr. Trump claimed that Iran was about to attack its neighbors and Israel, and he made the decision to go to war to pre-empt that action. Officials with access to U.S. intelligence have said that […]\nThe post Iran War Update: Dumber than You Could Possibly Imagine appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/iran-war-update-dumber-than-you-could-possibly-imagine",
+          "publishedOn": "2026-03-03T18:13:39.000Z",
+          "wordCount": null,
+          "title": "Iran War Update: Dumber than You Could Possibly Imagine",
           "itunes": {},
           "imageUrl": null
         }
