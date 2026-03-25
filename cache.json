@@ -201,6 +201,16 @@
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
         {
+          "id": "1tc7f8AggVLw5D8OmaZri5",
+          "author": "Kenton Varda",
+          "description": "We’re introducing Dynamic Workers, which allow you to execute AI-generated code in secure, lightweight isolates. This approach is 100 times faster than traditional containers, enabling millisecond startup times for AI agent sandboxing.",
+          "link": "https://blog.cloudflare.com/dynamic-workers/",
+          "publishedOn": "2026-03-24T13:00:00.000Z",
+          "wordCount": 3859,
+          "title": "Sandboxing AI agents, 100x faster",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2YJJRglPS7ApYE7A3em1zB/1fa10da06d8493dcfd1b37e84a4531a2/BLOG-3243_OG.png"
+        },
+        {
           "id": "7KkjVfneO6PwoHTEAiSYVM",
           "author": "Syona Sarma",
           "description": "Cloudflare's Gen 13 servers introduce AMD EPYC™ Turin 9965 processors and a transition to 100 GbE networking to meet growing traffic demands. In this technical deep dive, we explain the engineering rationale behind each major component selection.",
@@ -229,16 +239,6 @@
           "wordCount": 2673,
           "title": "Powering the agents: Workers AI now runs large models, starting with Kimi K2.5",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4FY0GdRkMvgoMtb3bcaVPh/3d507c58b227da72b42899bd1d73b591/BLOG-3247_OG.png"
-        },
-        {
-          "id": "7zfn4cHE2C5bgEo1cWSL4u",
-          "author": "Andrew Berglund",
-          "description": "We are expanding Regional Services with new pre-defined regions and the launch of Custom Regions. Customers can now define precise geographical boundaries for data processing, tailored to meet their compliance and performance needs.",
-          "link": "https://blog.cloudflare.com/custom-regions/",
-          "publishedOn": "2026-03-18T13:00:00.000Z",
-          "wordCount": 2142,
-          "title": "Introducing Custom Regions for precision data control",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/39NTUNMLydSkPJbp8C3l0L/5839d46819c3d36aae1bac6bc0d90650/Introducing_Custom_Regions_for_precision_data_control-OG.png"
         }
       ]
     },
@@ -311,55 +311,65 @@
     {
       "title": "Richard Seroter's Architecture Musings",
       "feedUrl": "https://seroter.com/feed/",
-      "siteUrl": "http://seroter.com",
+      "siteUrl": "https://seroter.com",
       "articles": [
         {
-          "id": "https://seroter.com/?p=29065",
+          "id": "http://seroter.com/?p=29122",
+          "author": "Richard Seroter",
+          "description": "Today's links look at the most innovative company in the world, why your startup is dead on arrival, and why AI productivity gains aren't higher.",
+          "link": "https://seroter.com/2026/03/24/daily-reading-list-march-24-2026-748/",
+          "publishedOn": "2026-03-24T23:43:46.000Z",
+          "wordCount": 4411,
+          "title": "Daily Reading List – March 24, 2026 (#748)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
+          "id": "http://seroter.com/?p=29065",
           "author": "Richard Seroter",
           "description": "Today's links look at how Google just changed the future of UI/UX design, whether the IDE is dead, and how Slack rebuilt notifications.",
-          "link": "http://seroter.com/2026/03/23/daily-reading-list-march-23-2026-747/",
+          "link": "https://seroter.com/2026/03/23/daily-reading-list-march-23-2026-747/",
           "publishedOn": "2026-03-23T23:45:38.000Z",
           "wordCount": 4499,
           "title": "Daily Reading List – March 23, 2026 (#747)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
         {
-          "id": "https://seroter.com/?p=29078",
+          "id": "http://seroter.com/?p=29078",
           "author": "Richard Seroter",
           "description": "Is “vibe coding” passé now that we’re all fired up about agentic engineering and more “rigorous” ways to build with AI? Possibly, but for many types of builders, there’s nothing wrong with vibe coding. Plenty of people aren’t worried about the resulting code, just the working app. There’s a time and place for that! One […]",
-          "link": "http://seroter.com/2026/03/23/full-stack-vibe-coding-made-easy/",
+          "link": "https://seroter.com/2026/03/23/full-stack-vibe-coding-made-easy/",
           "publishedOn": "2026-03-23T19:00:13.000Z",
           "wordCount": 4941,
           "title": "Full-stack vibe coding made easy",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/2026.03.23-vibe-01-1.png"
         },
         {
-          "id": "https://seroter.com/?p=29050",
+          "id": "http://seroter.com/?p=29050",
           "author": "Richard Seroter",
           "description": "Today's links look at overhauling an app UI with Stitch and AI Studio, why Java is still doing great, and how Pinterest built their internal MCP ecosystem.",
-          "link": "http://seroter.com/2026/03/20/daily-reading-list-march-20-2026-746/",
+          "link": "https://seroter.com/2026/03/20/daily-reading-list-march-20-2026-746/",
           "publishedOn": "2026-03-20T23:46:41.000Z",
           "wordCount": 4342,
           "title": "Daily Reading List – March 20, 2026 (#746)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
         {
-          "id": "https://seroter.com/?p=29037",
+          "id": "http://seroter.com/?p=29037",
           "author": "Richard Seroter",
           "description": "Today's links look at the new full-stack vibe coding experience in Google AI Studio, what the best AI users do differently, and what are the unwritten laws of software engineering.",
-          "link": "http://seroter.com/2026/03/19/daily-reading-list-march-19-2026-745/",
+          "link": "https://seroter.com/2026/03/19/daily-reading-list-march-19-2026-745/",
           "publishedOn": "2026-03-19T23:46:55.000Z",
-          "wordCount": 4389,
+          "wordCount": 4375,
           "title": "Daily Reading List – March 19, 2026 (#745)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
         {
-          "id": "https://seroter.com/?p=29018",
+          "id": "http://seroter.com/?p=29018",
           "author": "Richard Seroter",
           "description": "Today's links look at why 10x is the new floor for performance, why you aren't the target audience for MCP, and why you're not accurately measuring comprehension debt.",
-          "link": "http://seroter.com/2026/03/18/daily-reading-list-march-18-2026-744/",
+          "link": "https://seroter.com/2026/03/18/daily-reading-list-march-18-2026-744/",
           "publishedOn": "2026-03-18T23:56:51.000Z",
-          "wordCount": 4581,
+          "wordCount": 4562,
           "title": "Daily Reading List – March 18, 2026 (#744)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         }
@@ -376,7 +386,7 @@
           "description": "An MIT-led team is designing artificial intelligence systems for medical diagnosis that are more collaborative and forthcoming about uncertainty.",
           "link": "https://news.mit.edu/2026/creating-humble-ai-0324",
           "publishedOn": "2026-03-24T04:00:00.000Z",
-          "wordCount": 1930,
+          "wordCount": 1947,
           "title": "How to create “humble” AI",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-HumbleAI-01-press.jpg"
         },
@@ -386,7 +396,7 @@
           "description": "Sojun Park, a postdoc at the Center for International Studies, has learned much from his research on intellectual property as well as his interactions with students and mentors at MIT.",
           "link": "https://news.mit.edu/2026/sojun-park-advancing-international-trade-research-finding-community-0323",
           "publishedOn": "2026-03-23T21:00:00.000Z",
-          "wordCount": 1924,
+          "wordCount": 1941,
           "title": "Advancing international trade research and finding community",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-cis-sojun-park.jpg"
         },
@@ -396,7 +406,7 @@
           "description": "Operations research expert Dimitris Bertsimas delivered the annual Killian Lecture, providing a look at the past and future of his work.",
           "link": "https://news.mit.edu/2026/algorithms-life-learning-killian-lecture-dimitris-bertsimas-0323",
           "publishedOn": "2026-03-23T17:45:00.000Z",
-          "wordCount": 2045,
+          "wordCount": 2047,
           "title": "On algorithms, life, and learning",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-Bertsima-Killian-Lecture-01-press.jpg"
         },
@@ -406,7 +416,7 @@
           "description": "Conference speakers discussed the unfolding trajectory of AI and the benefits of shaping technology to meet people’s needs.",
           "link": "https://news.mit.edu/2026/right-path-for-ai-karen-hao-paola-ricaurte-0320",
           "publishedOn": "2026-03-20T13:30:00.000Z",
-          "wordCount": 1771,
+          "wordCount": 1773,
           "title": "What’s the right path for AI?",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-WGSevent-A1-press.jpg"
         },
@@ -416,7 +426,7 @@
           "description": "Jointly led by the MIT Morningside Academy for Design, MIT Schwarzman College of Computing, and the Hasso Plattner Institute in Potsdam, the hub will foster a dynamic community where computing, creativity, and human-centered innovation meet.",
           "link": "https://news.mit.edu/2026/mit-hasso-plattner-institute-collaborative-hub-for-ai-and-creativity-0320",
           "publishedOn": "2026-03-20T12:45:00.000Z",
-          "wordCount": 1741,
+          "wordCount": 1743,
           "title": "MIT and Hasso Plattner Institute establish collaborative hub for AI and creativity",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-HPI-signing-00.jpg"
         },
@@ -426,7 +436,7 @@
           "description": "With this new technique, a robot could more accurately detect hidden objects or understand an indoor scene using reflected Wi-Fi signals.",
           "link": "https://news.mit.edu/2026/generative-ai-improves-wireless-vision-system-sees-through-obstructions-0319",
           "publishedOn": "2026-03-19T04:00:00.000Z",
-          "wordCount": 2039,
+          "wordCount": 2041,
           "title": "Generative AI improves a wireless vision system that sees through obstructions",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-Scene-Understanding-01-press.jpg"
         },
@@ -436,7 +446,7 @@
           "description": "This new metric for measuring uncertainty could flag hallucinations and help users know whether to trust an AI model.",
           "link": "https://news.mit.edu/2026/better-method-identifying-overconfident-large-language-models-0319",
           "publishedOn": "2026-03-19T04:00:00.000Z",
-          "wordCount": 1825,
+          "wordCount": 1827,
           "title": "A better method for identifying overconfident large language models",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-LLMUncertainty-01-press.jpg"
         }
@@ -584,6 +594,28 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=158940",
+          "author": "Shakezula",
+          "description": "I’m sure the sour grapists, right wing’s lackeys in the press and other creeps will spin a Democrat flipping the War-a-Lago seat into a loss for Democrats/win for tRump. Fuck ’em. Democrat Emily Gregory won a special election Tuesday for the Florida state House district that includes President Donald Trump’s Mar-a-Lago resort, flipping the seat […]\nThe post Florida Democrat (Update: Florida DemocratS) appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/florida-democrat",
+          "publishedOn": "2026-03-25T01:30:10.000Z",
+          "wordCount": null,
+          "title": "Florida Democrat (Update: Florida DemocratS)",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=158937",
+          "author": "Scott Lemieux",
+          "description": "This detailed account of RFK’s war on public health in America is essential if harrowing reading [free link.] There’s so much here it defies effective excepting, so I’ll note that it bean at the beginning: Tom Simon, former senior director for scientific programs in the division of violence prevention: There was an executive order about defending […]\nThe post An oral history of a failson’s wanton destruction of the CDC appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/an-oral-history-of-a-failsons-wanton-destruction-of-the-cdc",
+          "publishedOn": "2026-03-24T23:37:34.000Z",
+          "wordCount": null,
+          "title": "An oral history of a failson’s wanton destruction of the CDC",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=158935",
           "author": "Paul Campos",
           "description": "Remember when people couldn’t vote for Kamala because she was going to start WWIII? Good times. The Pentagon is expected to send thousands of soldiers from the U.S. Army’s elite 82nd Airborne Division to the ‌Middle East, two people familiar with the matter told Reuters on Tuesday, adding to a massive U.S. military buildup even […]\nThe post Sending 82nd Airborne to Middle East in search of another Peace Prize appeared first on Lawyers, Guns & Money.",
@@ -657,28 +689,6 @@
           "publishedOn": "2026-03-23T21:40:10.000Z",
           "wordCount": null,
           "title": "Bite the Big Apple",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=158914",
-          "author": "Scott Lemieux",
-          "description": "Another act of lawless judicial imperialism is almost certainly forthcoming: The Supreme Court seems inclined to block states from counting mailed ballots that are postmarked by Election Day but arrive a few days afterward. During a lively two-hour hearing Monday, key conservative justices appeared sympathetic to arguments from the Trump administration and the Republican Party […]\nThe post John Roberts to once again rewrite election laws by fiat appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/john-roberts-to-once-again-rewrite-election-laws-by-fiat",
-          "publishedOn": "2026-03-23T20:03:09.000Z",
-          "wordCount": null,
-          "title": "John Roberts to once again rewrite election laws by fiat",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=158912",
-          "author": "Robert Farley",
-          "description": "Is it weird rage about windmills or simply a desire to redistribute money away from Trump’s enemies and towards Trump’s friends? You know what, why can’t it be both? The Trump administration will pay the French energy giant TotalEnergies nearly $1 billion to abandon its plans to build wind farms off the East Coast, the […]\nThe post Let’s Distract from Iran by Doing Something Stupid appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/03/lets-distract-from-iran-by-doing-something-stupid",
-          "publishedOn": "2026-03-23T19:12:38.000Z",
-          "wordCount": null,
-          "title": "Let’s Distract from Iran by Doing Something Stupid",
           "itunes": {},
           "imageUrl": null
         }
