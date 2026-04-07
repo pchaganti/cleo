@@ -40,16 +40,6 @@
           "wordCount": 32303,
           "title": "Announcing managed daemon support for Amazon ECS Managed Instances",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/30/ecs-managed.png"
-        },
-        {
-          "id": "898da69b3c60854fe86e286985fc553f5a9f65fc",
-          "author": "Sébastien Stormacq",
-          "description": "AWS announces the Sustainability console, a new standalone service that consolidates carbon emissions reporting and resources, giving sustainability teams independent access to Scope 1, 2, and 3 emissions data without requiring billing permissions.",
-          "link": "https://aws.amazon.com/blogs/aws/announcing-the-aws-sustainability-console-programmatic-access-configurable-csv-reports-and-scope-1-3-reporting-in-one-place/",
-          "publishedOn": "2026-03-31T19:04:00.000Z",
-          "wordCount": 32316,
-          "title": "Announcing the AWS Sustainability console: Programmatic access, configurable CSV reports, and Scope 1–3 reporting in one place",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/03/31/AWS_Sustainability_Console_2x1_Thumb_01-1260x630.png"
         }
       ]
     },
@@ -59,6 +49,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
       "articles": [
         {
+          "id": "0563cd3181c35a7b36d100bd90e8af1436a63d1f",
+          "author": "Shreya Gangishetty",
+          "description": "In this post, we walk through the new installation experience, demonstrate three deployment methods (console, CLI, and Terraform), and show how features like multi-instance-type deployment and native node affinity give you fine-grained control over inference scheduling",
+          "link": "https://aws.amazon.com/blogs/architecture/unlock-efficient-model-deployment-simplified-inference-operator-setup-on-amazon-sagemaker-hyperpod/",
+          "publishedOn": "2026-04-06T21:14:13.000Z",
+          "wordCount": 33992,
+          "title": "Unlock efficient model deployment: Simplified Inference Operator setup on Amazon SageMaker HyperPod",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/06/archblog-1387-1120x630.png"
+        },
+        {
           "id": "db1d27549685f5e9aa6f8b4d9efb298f90afac5a",
           "author": "Nika Mishurina",
           "description": "This post describes a solution that uses fixed camera networks to monitor operational environments in near real-time, detecting potential safety hazards while capturing object floor projections and their relationships to floor markings. While we illustrate the approach through distribution center deployment examples, the underlying architecture applies broadly across industries. We explore the architectural decisions, strategies for scaling to hundreds of sites, reducing site onboarding time, synthetic data generation using generative AI tools like GLIGEN, and other critical technical hurdles we overcame.",
@@ -67,16 +67,6 @@
           "wordCount": 35684,
           "title": "Automate safety monitoring with computer vision and generative AI",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/24/ML-ARCHBLOG-1344-image-3-1260x583.jpg"
-        },
-        {
-          "id": "1241b366b69d2e127c8c1462b329e0d4dde8ba23",
-          "author": "Jennifer Moran",
-          "description": "In this blog post, we take a building blocks approach. Starting with the tools like AWS Backup to protect your data, we then add protection for Amazon Elastic Compute Cloud (Amazon EC2) compute using AWS Elastic Disaster Recovery (AWS DRS). Finally, we show how to use the full capabilities of AWS to restore your entire workload—data, infrastructure, networking, and configuration, using Arpio disaster recovery automation.",
-          "link": "https://aws.amazon.com/blogs/architecture/streamlining-access-to-powerful-disaster-recovery-capabilities-of-aws/",
-          "publishedOn": "2026-03-31T18:00:38.000Z",
-          "wordCount": 33233,
-          "title": "Streamlining access to powerful disaster recovery capabilities of AWS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/25/ARCHBLOG-1174-image-1.png"
         }
       ]
     },
@@ -94,16 +84,6 @@
           "wordCount": 4805,
           "title": "The uphill climb of making diff lines performant",
           "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo.png"
-        },
-        {
-          "id": "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
-          "author": null,
-          "description": "<p>I used coding agents to build agents that automated part of my job. Here's what I learned about working better with coding agents.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/\">Agent-driven development in Copilot Applied Science</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-          "link": "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
-          "publishedOn": "2026-03-31T16:00:00.000Z",
-          "wordCount": 4682,
-          "title": "Agent-driven development in Copilot Applied Science",
-          "imageUrl": "https://github.blog/wp-content/uploads/2026/01/generic-mona-copilot-logo.png?fit=1920%2C1080"
         }
       ]
     },
@@ -150,6 +130,16 @@
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
       "articles": [
         {
+          "id": "https://medium.com/p/22fadc9b840e",
+          "author": "Netflix Technology Blog",
+          "description": "",
+          "link": "https://netflixtechblog.com/stop-answering-the-same-question-twice-interval-aware-caching-for-druid-at-netflix-scale-22fadc9b840e?source=rss----2615bd06b42e---4",
+          "publishedOn": "2026-04-06T22:15:14.000Z",
+          "wordCount": null,
+          "title": "Stop Answering the Same Question Twice: Interval-Aware Caching for Druid at Netflix Scale",
+          "imageUrl": null
+        },
+        {
           "id": "https://medium.com/p/3e0020cf1202",
           "author": "Netflix Technology Blog",
           "description": "",
@@ -176,6 +166,16 @@
       "feedUrl": "https://www.nakedcapitalism.com/feed",
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308269",
+          "author": "Yves Smith",
+          "description": "Research suggests that rocket exhaust and debris could be threatening the ozone layer, though uncertainties persist.",
+          "link": "https://www.nakedcapitalism.com/2026/04/as-rocket-launches-increase-they-may-be-polluting-the-skies.html",
+          "publishedOn": "2026-04-07T07:41:56.000Z",
+          "wordCount": null,
+          "title": "As Rocket Launches Increase, They May Be Polluting the Skies",
+          "imageUrl": null
+        },
         {
           "id": "https://www.nakedcapitalism.com/?p=308246",
           "author": "Nat Wilson Turner",
@@ -265,16 +265,6 @@
           "wordCount": null,
           "title": "The Sunday Morning Movie Presents: Night On The Galactic Railroad (1985) Run Time: 1H 48M",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308155",
-          "author": "Conor Gallagher",
-          "description": "From the Pacific Northwest to Antarctica, it’s extraordinary warmth that’s punching through climate norms with the most force.",
-          "link": "https://www.nakedcapitalism.com/2026/04/the-2026-southwest-u-s-heat-wave-was-one-of-the-six-most-astonishing-weather-events-of-the-century.html",
-          "publishedOn": "2026-04-05T09:00:54.000Z",
-          "wordCount": null,
-          "title": "The 2026 Southwest U.S. Heat Wave Was One of the Six Most Astonishing Weather Events of the Century",
-          "imageUrl": null
         }
       ]
     },
@@ -283,6 +273,16 @@
       "feedUrl": "https://blog.cloudflare.com/rss",
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
+        {
+          "id": "5wIrgcYpkdmQZSnU1skUjM",
+          "author": "Justin Hutchings",
+          "description": "Cloudflare Organizations is now in public beta, introducing a new management layer for enterprise customers with multiple accounts. Learn how we consolidated our authorization systems to enable org-wide management.",
+          "link": "https://blog.cloudflare.com/organizations-beta/",
+          "publishedOn": "2026-04-06T21:00:00.000Z",
+          "wordCount": 1692,
+          "title": "How we built Organizations to help enterprises manage Cloudflare at scale",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3G3QWg8htRcrkjf0lhFLkR/b308f3b03da175bd642165417bd71814/How_we_built_Organizations_to_help_enterprises_manage_Cloudflare_at_scale-OG.png"
+        },
         {
           "id": "635WBzM8GMiVZhyzKFeWMf",
           "author": "Avani Wildani",
@@ -312,16 +312,6 @@
           "wordCount": 3490,
           "title": "Introducing EmDash — the spiritual successor to WordPress that solves plugin security",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/hBSrp5YJXIsn2IwBqdg2m/a22cf1285db3826ca159d83ab81076e0/EmDash-OG.png"
-        },
-        {
-          "id": "64lPEfE3ML34AycHER46Tz",
-          "author": "Anita Tenjarla",
-          "description": "Magic Transit customers can now program their own DDoS mitigation logic and deploy it across Cloudflare’s global network. This enables precise, stateful mitigation for custom and proprietary UDP protocols.",
-          "link": "https://blog.cloudflare.com/programmable-flow-protection/",
-          "publishedOn": "2026-03-31T13:00:00.000Z",
-          "wordCount": 2569,
-          "title": "Introducing Programmable Flow Protection: custom DDoS mitigation logic for Magic Transit customers",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1zh0dC26feZlsmfr1EtBlL/ce065846c1bb6760a624ef08d5aae417/BLOG-3182_OG.png"
         }
       ]
     },
@@ -366,16 +356,6 @@
           "wordCount": 2082,
           "title": "Wolfgang Streeck: &ldquo;Expanding Battlefield&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/04/please-work-e1775138676627.jpg"
-        },
-        {
-          "id": "https://newleftreview.org/sidecar/posts/playing-along",
-          "author": null,
-          "description": "The letters of Jack Spicer.",
-          "link": "https://newleftreview.org/sidecar/posts/playing-along",
-          "publishedOn": "2026-03-31T16:21:51.000Z",
-          "wordCount": 2995,
-          "title": "Luke Roberts: &ldquo;Playing Along&rdquo;",
-          "imageUrl": "https://newleftreview.org/blog-uploads/2026/01/kooning.jpg"
         }
       ]
     },
@@ -396,6 +376,16 @@
       "feedUrl": "https://seroter.com/feed/",
       "siteUrl": "https://seroter.com",
       "articles": [
+        {
+          "id": "http://seroter.com/?p=29320",
+          "author": "Richard Seroter",
+          "description": "Today's links look at why \"good taste\" is just experience, why the IDE is now a fallback instead of the default, and whether multi-agent AI is the new microservices.",
+          "link": "https://seroter.com/2026/04/06/daily-reading-list-april-6-2026-757/",
+          "publishedOn": "2026-04-06T23:40:50.000Z",
+          "wordCount": 4487,
+          "title": "Daily Reading List – April 6, 2026 (#757)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
         {
           "id": "http://seroter.com/?p=29282",
           "author": "Richard Seroter",
@@ -432,7 +422,7 @@
           "description": "Today's links look at whether event-driven architecture is overkill for most apps, how to work on products people hate, and why we now go to tech conferences.",
           "link": "https://seroter.com/2026/03/31/daily-reading-list-march-31-2026-753/",
           "publishedOn": "2026-04-01T00:01:16.000Z",
-          "wordCount": 4557,
+          "wordCount": 4565,
           "title": "Daily Reading List – March 31, 2026 (#753)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         }
@@ -444,12 +434,22 @@
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
         {
+          "id": "https://news.mit.edu/2026/helping-data-centers-deliver-higher-performance-less-hardware-0407",
+          "author": "Adam Zewe | MIT News",
+          "description": "Researchers developed a system that intelligently balances workloads to improve the efficiency of flash storage hardware in a data center.",
+          "link": "https://news.mit.edu/2026/helping-data-centers-deliver-higher-performance-less-hardware-0407",
+          "publishedOn": "2026-04-07T04:00:00.000Z",
+          "wordCount": 1989,
+          "title": "Helping data centers deliver higher performance with less hardware",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-DataCenter-Variable-01-press.jpg"
+        },
+        {
           "id": "https://news.mit.edu/2026/working-to-advance-nuclear-renaissance-dean-price-0403",
           "author": "Steve Nadis | Department of Nuclear Science and Engineering",
           "description": "Dean Price, assistant professor in the Department of Nuclear Science and Engineering, sees a bright future for nuclear power, and believes AI can help us realize that vision.",
           "link": "https://news.mit.edu/2026/working-to-advance-nuclear-renaissance-dean-price-0403",
           "publishedOn": "2026-04-03T20:55:00.000Z",
-          "wordCount": 2013,
+          "wordCount": 2005,
           "title": "Working to advance the nuclear renaissance",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-nse-Dean-Price.jpg"
         },
@@ -459,7 +459,7 @@
           "description": "MIT researchers developed a testing framework that pinpoints situations where AI decision-support systems are not treating people and communities fairly.",
           "link": "https://news.mit.edu/2026/evaluating-autonomous-systems-ethics-0402",
           "publishedOn": "2026-04-02T04:00:00.000Z",
-          "wordCount": 1797,
+          "wordCount": 1785,
           "title": "Evaluating the ethics of autonomous systems",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-ScalableEthics-01.jpg"
         },
@@ -469,7 +469,7 @@
           "description": "By quickly generating aesthetically accurate previews of fabricated objects, the VisiPrint system could make prototyping faster and less wasteful.",
           "link": "https://news.mit.edu/2026/preview-tool-helps-makers-visualize-3d-printed-objects-0401",
           "publishedOn": "2026-04-01T04:00:00.000Z",
-          "wordCount": 1974,
+          "wordCount": 1962,
           "title": "Preview tool helps makers visualize 3D-printed objects",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-VisiPrint-Preview-A1.jpg"
         }
@@ -485,30 +485,23 @@
       "title": "Thomas Fazi",
       "feedUrl": "https://www.thomasfazi.com/feed",
       "siteUrl": "https://www.thomasfazi.com",
-      "articles": [
-        {
-          "id": "https://www.thomasfazi.com/p/selling-the-eu-how-brussels-legitimates",
-          "author": "Thomas Fazi",
-          "description": "New paper: how the EU has attempted to compensate for its lack of democracy legitimacy by relying on narratives that have functioned as tools of elite power, depoliticisation and imperial projection",
-          "link": "https://www.thomasfazi.com/p/selling-the-eu-how-brussels-legitimates",
-          "publishedOn": "2026-03-31T12:20:40.000Z",
-          "wordCount": null,
-          "title": "Selling the EU: How Brussels legitimates European integration",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e67d82d5-0b5e-4ea0-99dd-b674ddc88669_1924x1076.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/e67d82d5-0b5e-4ea0-99dd-b674ddc88669_1924x1076.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Ian Welsh",
       "feedUrl": "https://www.ianwelsh.net/feed/",
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
+        {
+          "id": "https://www.ianwelsh.net/?p=24686",
+          "author": "Ian Welsh",
+          "description": "Smart people can’t handle Trump. He say something, or does something. On the face, it seems stupid, so they go into pattern matching over-drive, looking for a reason. You see it with the “they’re attacking Iran to screw up China’s access to oil and because America has so much oil and natural gas now.” Well, […]",
+          "link": "https://www.ianwelsh.net/trump-really-messes-up-smart-people/",
+          "publishedOn": "2026-04-06T23:05:34.000Z",
+          "wordCount": null,
+          "title": "Trump Really Messes Up Smart People",
+          "imageUrl": null
+        },
         {
           "id": "https://www.ianwelsh.net/?p=24664",
           "author": "Sean Paul Kelley",
@@ -568,16 +561,6 @@
           "wordCount": null,
           "title": "When Does Money Matter?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24587",
-          "author": "Sean Paul Kelley",
-          "description": "~by Sean Paul Kelley Headwinds: “a headwind blows against the direction of travel of an object . . . decreases the object’s speed and increases the time required to reach its destination.” Rip Tide: “A rip is a strong, localized, and narrow current of water that moves directly away from the shore, cutting through the […]",
-          "link": "https://www.ianwelsh.net/nothing-is-inevitable-and-yet-here-we-are/",
-          "publishedOn": "2026-03-31T13:30:51.000Z",
-          "wordCount": null,
-          "title": "You Better Start Swimming, Because Drowning Is Bad For Your Health",
-          "imageUrl": null
         }
       ]
     },
@@ -586,6 +569,28 @@
       "feedUrl": "https://www.lawyersgunsmoneyblog.com/feed",
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159267",
+          "author": "Erik Loomis",
+          "description": "Another Chaplin film I’ve seen recently in 1916’s The Count. It shares much in common with The Adventurer, which we discussed a couple of days ago here. But The Count, where the hijinks also follow working class men entering into wealthy spaces impersonating someone to get access to a hot rich girl, includes some excellent […]\nThe post LGM Film Club, Part 541: The Count appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/lgm-film-club-part-541-the-count",
+          "publishedOn": "2026-04-07T01:10:00.000Z",
+          "wordCount": null,
+          "title": "LGM Film Club, Part 541: The Count",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159263",
+          "author": "Scott Lemieux",
+          "description": "And are very lucky that prosecutors have essentially total immunity, because even broad qualified immunity might not save the officers who lied under oath here [gift link]: Almost immediately after an immigration agent shot and wounded a Venezuelan immigrant in Minneapolis this winter, the federal government cast the injured man as an attempted murderer and […]\nThe post Federal prosecutors did not watch video of the shooting of Julio Sosa-Celis for weeks after falsely charging him appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/federal-prosecutors-did-not-watch-video-of-the-shooting-of-julio-sosa-celis-for-weeks-after-falsely-charging-him",
+          "publishedOn": "2026-04-06T21:11:38.000Z",
+          "wordCount": null,
+          "title": "Federal prosecutors did not watch video of the shooting of Julio Sosa-Celis for weeks after falsely charging him",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=159249",
           "author": "Paul Campos",
@@ -660,28 +665,6 @@
           "publishedOn": "2026-04-05T20:02:04.000Z",
           "wordCount": null,
           "title": "With malice toward all, with charity for none",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159209",
-          "author": "Robert Farley",
-          "description": "Lots of good info today about the operation to pick up the downed US aviator in Iran: The two crew members of the F-15E Strike Eagle, the first lost to enemy fire in the monthlong war, had both ejected from the cockpit on Friday after Iran’s military struck their plane. The jet’s pilot was quickly rescued, […]\nThe post The Rescue appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-rescue",
-          "publishedOn": "2026-04-05T18:51:15.000Z",
-          "wordCount": null,
-          "title": "The Rescue",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159208",
-          "author": "Erik Loomis",
-          "description": "Not that I have a lot of faith, or any for that matter, in the courts, but still, you like to see this: The Department of Veterans Affairs is restoring labor contracts with several of its unions, after a federal judge said the department was defying her order to do so. The VA is restoring […]\nThe post Trump’s Unionbusting Rebuked in the Courts appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/trumps-unionbusting-rebuked-in-the-courts",
-          "publishedOn": "2026-04-05T16:04:00.000Z",
-          "wordCount": null,
-          "title": "Trump’s Unionbusting Rebuked in the Courts",
           "itunes": {},
           "imageUrl": null
         }
