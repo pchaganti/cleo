@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "529e67e573627282bf7f126c45a7ecd4b2c338dc",
+          "author": "Sébastien Stormacq",
+          "description": "Amazon S3 Files makes S3 buckets accessible as high-performance file systems on AWS compute resources, eliminating the tradeoff between object storage benefits and interactive file capabilities while enabling seamless data sharing with ~1ms latencies.",
+          "link": "https://aws.amazon.com/blogs/aws/launching-s3-files-making-s3-buckets-accessible-as-file-systems/",
+          "publishedOn": "2026-04-07T19:18:32.000Z",
+          "wordCount": 32925,
+          "title": "Launching S3 Files, making S3 buckets accessible as file systems",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/04/07/Screenshot-2026-04-06-at-3.50.49 PM.png"
+        },
+        {
           "id": "ebe7e793c3577df742e335aff396ea71bb052df1",
           "author": "Channy Yun (윤석찬)",
           "description": "Last week, I visited AWS Hong Kong User Group with my team. Hong Kong has a small but strong community, and their energy and passion are high. They recently started a new AI user group, and we hope more people will join. I was able to strengthen my bond with the community through great food […]",
@@ -57,16 +67,6 @@
           "wordCount": 33992,
           "title": "Unlock efficient model deployment: Simplified Inference Operator setup on Amazon SageMaker HyperPod",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/06/archblog-1387-1120x630.png"
-        },
-        {
-          "id": "db1d27549685f5e9aa6f8b4d9efb298f90afac5a",
-          "author": "Nika Mishurina",
-          "description": "This post describes a solution that uses fixed camera networks to monitor operational environments in near real-time, detecting potential safety hazards while capturing object floor projections and their relationships to floor markings. While we illustrate the approach through distribution center deployment examples, the underlying architecture applies broadly across industries. We explore the architectural decisions, strategies for scaling to hundreds of sites, reducing site onboarding time, synthetic data generation using generative AI tools like GLIGEN, and other critical technical hurdles we overcame.",
-          "link": "https://aws.amazon.com/blogs/architecture/automate-safety-monitoring-with-computer-vision-and-generative-ai/",
-          "publishedOn": "2026-04-01T18:59:02.000Z",
-          "wordCount": 35684,
-          "title": "Automate safety monitoring with computer vision and generative AI",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/03/24/ML-ARCHBLOG-1344-image-3-1260x583.jpg"
         }
       ]
     },
@@ -101,26 +101,6 @@
           "wordCount": 33603,
           "title": "Streamlining Cloud Compliance at GoDaddy Using CDK Aspects",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/04/03/featured-image-template-1120x630.png"
-        },
-        {
-          "id": "c9a1eecefe2a3f347e4905b1e4a936e396a036ae",
-          "author": "Alexandra Huides",
-          "description": "AWS DevOps Agent is your always-available operations teammate that resolves and proactively prevents incidents, optimizes application reliability and performance, and handles on-demand SRE tasks across AWS, multicloud, and on-premises environments. It integrates with your existing observability tools to correlate telemetry, code, and deployment data to reduce Mean Time To Repair (MTTR) and drive operational excellence. […]",
-          "link": "https://aws.amazon.com/blogs/devops/securely-connect-aws-devops-agent-to-private-services-in-your-vpcs/",
-          "publishedOn": "2026-04-01T15:37:03.000Z",
-          "wordCount": 34321,
-          "title": "Securely connect AWS DevOps Agent to private services in your VPCs",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/04/01/Securely-connect-AWS-DevOps-Agent-to-private-services-in-your-VPCs-1120x630.png"
-        },
-        {
-          "id": "64794be57cac8b4171fa32815dd671f13895fb10",
-          "author": "Janardhan Molumuri",
-          "description": "Introduction Teams running distributed workloads face a persistent operational challenge: when something breaks, the information needed to resolve it is scattered across logs, deployment pipelines, configuration histories, and third-party monitoring tools. A Site Reliability Engineer (SRE) responding to a 2 AM page must manually correlate telemetry from multiple sources, trace dependencies across services, and form […]",
-          "link": "https://aws.amazon.com/blogs/devops/leverage-agentic-ai-for-autonomous-incident-response-with-aws-devops-agent/",
-          "publishedOn": "2026-03-31T22:58:13.000Z",
-          "wordCount": 34266,
-          "title": "Leverage Agentic AI for Autonomous Incident Response with AWS DevOps Agent",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/03/31/devops-agent-blog-featured-image-1122x630.png"
         }
       ]
     },
@@ -166,6 +146,56 @@
       "feedUrl": "https://www.nakedcapitalism.com/feed",
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308249",
+          "author": "Haig Hovaness",
+          "description": "U.S. global air power depends on aerial refueling, but the tanker fleet that sustains it is under growing strain. What appears sufficient on paper becomes fragile in practice, revealing a widening gap between strategic ambition and the physical limits of force projection.",
+          "link": "https://www.nakedcapitalism.com/2026/04/coffee-break-armed-madhouse-running-dry-in-the-sky.html",
+          "publishedOn": "2026-04-07T18:00:00.000Z",
+          "wordCount": null,
+          "title": "Coffee Break: Armed Madhouse – Running Dry in the Sky",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308325",
+          "author": "Yves Smith",
+          "description": "The struggle over the Fed is a constitutional conflict: in a representative system, the power over money belongs to the legislature",
+          "link": "https://www.nakedcapitalism.com/2026/04/the-fed-congress-and-the-president-the-constitutional-authority-to-make-money.html",
+          "publishedOn": "2026-04-07T13:55:30.000Z",
+          "wordCount": null,
+          "title": "The Fed, Congress, and the President: The Constitutional Authority to Make Money",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308279",
+          "author": "Conor Gallagher",
+          "description": "",
+          "link": "https://www.nakedcapitalism.com/2026/04/links-4-7-2026.html",
+          "publishedOn": "2026-04-07T10:55:00.000Z",
+          "wordCount": null,
+          "title": "Links 4/7/2026",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308294",
+          "author": "Yves Smith",
+          "description": "Today's Iran war news: Trump has committed to a deadline and demands, which Iran is rejecting, Iran has vowed to match his threat of apocalyptic damage.",
+          "link": "https://www.nakedcapitalism.com/2026/04/iran-war-trump-threatens-to-destroy-iran-in-4-hours-this-evening-if-no-capitulation-us-israel-again-attack-south-pars-gas-field.html",
+          "publishedOn": "2026-04-07T10:54:19.000Z",
+          "wordCount": null,
+          "title": "Iran War: Trump Threatens to Destroy Iran in 4 Hours This Evening  if No Capitulation;  US/Israel Again Attack South Pars Gas Field",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308263",
+          "author": "Nick Corbishley",
+          "description": "Governments in Mexico have been trying to replace cash with digital payment alternatives for over a decade, and have largely failed. Until now...",
+          "link": "https://www.nakedcapitalism.com/2026/04/claudia-sheinbaums-blitzkrieg-war-on-cash.html",
+          "publishedOn": "2026-04-07T10:45:42.000Z",
+          "wordCount": null,
+          "title": "Claudia Sheinbaum’s Blitzkrieg War on Cash",
+          "imageUrl": null
+        },
         {
           "id": "https://www.nakedcapitalism.com/?p=308269",
           "author": "Yves Smith",
@@ -215,56 +245,6 @@
           "wordCount": null,
           "title": "Iran War: Trump Makes Even More Unhinged Threat as Details of F-15 Pilot Rescue Point to Much Bigger Plan, Say to Seize  Enriched Uranium; Trump Legitimacy Crisis Grows as Battered Gulf States Pull Back on US Investment, Particularly AI",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308204",
-          "author": "Conor Gallagher",
-          "description": "With main routes clogged, other trade corridors struggle to launch and suffer setbacks from war as ‘heartland’ integration is delayed.",
-          "link": "https://www.nakedcapitalism.com/2026/04/war-against-iran-exposes-fragility-of-much-ballyhooed-eurasian-trade-corridors.html",
-          "publishedOn": "2026-04-06T09:00:37.000Z",
-          "wordCount": null,
-          "title": "War Against Iran Exposes Fragility of Much Ballyhooed Eurasian Trade Corridors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308201",
-          "author": "Conor Gallagher",
-          "description": "Military-related research at universities helps the imperialist state find ways to more effectively kill people around the world who resist US domination.",
-          "link": "https://www.nakedcapitalism.com/2026/04/standing-witness-to-university-complicity-in-criminal-wars-of-aggression.html",
-          "publishedOn": "2026-04-06T08:00:19.000Z",
-          "wordCount": null,
-          "title": "Standing Witness to University Complicity in Criminal Wars of Aggression",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308166",
-          "author": "Haig Hovaness",
-          "description": "",
-          "link": "https://www.nakedcapitalism.com/2026/04/links-4-5-2026.html",
-          "publishedOn": "2026-04-05T10:55:55.000Z",
-          "wordCount": null,
-          "title": "Links 4/5/2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308177",
-          "author": "Yves Smith",
-          "description": "Today's Iran war news: Trump reiterates his dangerous escalation threat as the real economy Titanic is about to hit the iceberg.",
-          "link": "https://www.nakedcapitalism.com/2026/04/iran-war-trump-doubles-down-on-reign-hell-april-6-threat-also-reports-f-15-officer-rescued-us-strike-on-bushehr-nuclear-plant-breaches-protection-circuit-multiple-interconnected-supply-crises.html",
-          "publishedOn": "2026-04-05T10:54:23.000Z",
-          "wordCount": null,
-          "title": "Iran War: Trump Doubles Down on “Reign Hell” April 6 Threat, Also Reports F-15 Officer Rescued; US Strike on Bushehr Nuclear Plant Breaches Protection Circuit;  Multiple Interconnected Supply Crises Baked in Within Weeks; UPDATE Iran Claims Two More US Planes Downed",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308146",
-          "author": "semper loquitur",
-          "description": "Midnight on the Galactic Express is a movie about friendship, spiritual development, and this journey called life.",
-          "link": "https://www.nakedcapitalism.com/2026/04/the-sunday-morning-movie-presents-night-on-the-galactic-railroad-1985-run-time-1h-48m.html",
-          "publishedOn": "2026-04-05T10:30:11.000Z",
-          "wordCount": null,
-          "title": "The Sunday Morning Movie Presents: Night On The Galactic Railroad (1985) Run Time: 1H 48M",
-          "imageUrl": null
         }
       ]
     },
@@ -292,26 +272,6 @@
           "wordCount": 2724,
           "title": "Why we're rethinking cache for the AI era",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/42sTcIRZ7lwuPAFORfqEvX/1e1aa9eaa31b7ba7f695e50b0e5b7e5a/Why_we-re_rethinking_cache_for_the_AI_era-OG.png"
-        },
-        {
-          "id": "VOddnCi9jbM6zHOay1HCN",
-          "author": "Rory Malone",
-          "description": "Eight years ago, we launched 1.1.1.1 to build a faster, more private Internet. Today, we’re sharing the results of our latest independent examination. The result: our privacy protections are working exactly as promised.",
-          "link": "https://blog.cloudflare.com/1111-privacy-examination-2026/",
-          "publishedOn": "2026-04-01T13:00:00.000Z",
-          "wordCount": 1502,
-          "title": "Our ongoing commitment to privacy for the 1.1.1.1 public DNS resolver",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2w3vaAtkkVRIfEC2WFht0X/77a62da0fb6aa84609964d0557833aea/BLOG-3257_OG.png"
-        },
-        {
-          "id": "64rkKr9jewVmxagIFgbwY4",
-          "author": "Matt “TK” Taylor",
-          "description": "Today we are launching the beta of EmDash, a full-stack serverless JavaScript CMS built on Astro 6.0. It combines the features of a traditional CMS with modern security, running plugins in sandboxed Worker isolates.",
-          "link": "https://blog.cloudflare.com/emdash-wordpress/",
-          "publishedOn": "2026-04-01T13:00:00.000Z",
-          "wordCount": 3490,
-          "title": "Introducing EmDash — the spiritual successor to WordPress that solves plugin security",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/hBSrp5YJXIsn2IwBqdg2m/a22cf1285db3826ca159d83ab81076e0/EmDash-OG.png"
         }
       ]
     },
@@ -321,14 +281,14 @@
       "siteUrl": "https://code.visualstudio.com/",
       "articles": [
         {
-          "id": "https://code.visualstudio.com/updates/v1_114",
+          "id": "https://code.visualstudio.com/updates/v1_115",
           "author": null,
-          "description": "Learn what's new in Visual Studio Code 1.114\nRead the full article",
-          "link": "https://code.visualstudio.com/updates/v1_114",
-          "publishedOn": "2026-04-01T17:00:00.000Z",
-          "wordCount": 2179,
-          "title": "Visual Studio Code 1.114",
-          "imageUrl": "https://code.visualstudio.com/assets/updates/1_114/release-highlights.webp"
+          "description": "Learn what's new in Visual Studio Code 1.115 (Insiders)\nRead the full article",
+          "link": "https://code.visualstudio.com/updates/v1_115",
+          "publishedOn": "2026-04-08T17:00:00.000Z",
+          "wordCount": 743,
+          "title": "Visual Studio Code 1.115",
+          "imageUrl": "https://code.visualstudio.com/assets/updates/1_115/vscode-insiders-header.webp"
         }
       ]
     },
@@ -377,12 +337,22 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=29340",
+          "author": "Richard Seroter",
+          "description": "Today's links look at the components of a coding harness, how burnout looks across the org chart, and why some prefer MCP over Skills.",
+          "link": "https://seroter.com/2026/04/07/daily-reading-list-april-7-2026-758/",
+          "publishedOn": "2026-04-08T00:02:57.000Z",
+          "wordCount": 4460,
+          "title": "Daily Reading List – April 7, 2026 (#758)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
           "id": "http://seroter.com/?p=29320",
           "author": "Richard Seroter",
           "description": "Today's links look at why \"good taste\" is just experience, why the IDE is now a fallback instead of the default, and whether multi-agent AI is the new microservices.",
           "link": "https://seroter.com/2026/04/06/daily-reading-list-april-6-2026-757/",
           "publishedOn": "2026-04-06T23:40:50.000Z",
-          "wordCount": 4487,
+          "wordCount": 4601,
           "title": "Daily Reading List – April 6, 2026 (#757)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
@@ -415,16 +385,6 @@
           "wordCount": 4531,
           "title": "Daily Reading List – April 1, 2026 (#754)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=29231",
-          "author": "Richard Seroter",
-          "description": "Today's links look at whether event-driven architecture is overkill for most apps, how to work on products people hate, and why we now go to tech conferences.",
-          "link": "https://seroter.com/2026/03/31/daily-reading-list-march-31-2026-753/",
-          "publishedOn": "2026-04-01T00:01:16.000Z",
-          "wordCount": 4565,
-          "title": "Daily Reading List – March 31, 2026 (#753)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         }
       ]
     },
@@ -434,12 +394,22 @@
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
         {
+          "id": "https://news.mit.edu/2026/sixteen-new-startnano-companies-developing-hard-tech-solutions-with-mitnano-0407",
+          "author": "Amanda Stoll DiCristofaro | MIT.nano",
+          "description": "Startup accelerator program grows to over 30 companies, almost half of them with MIT pedigrees.",
+          "link": "https://news.mit.edu/2026/sixteen-new-startnano-companies-developing-hard-tech-solutions-with-mitnano-0407",
+          "publishedOn": "2026-04-07T20:40:00.000Z",
+          "wordCount": 1516,
+          "title": "Sixteen new START.nano companies are developing hard-tech solutions with the support of MIT.nano",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-start.nano-Rheyo.jpg"
+        },
+        {
           "id": "https://news.mit.edu/2026/helping-data-centers-deliver-higher-performance-less-hardware-0407",
           "author": "Adam Zewe | MIT News",
           "description": "Researchers developed a system that intelligently balances workloads to improve the efficiency of flash storage hardware in a data center.",
           "link": "https://news.mit.edu/2026/helping-data-centers-deliver-higher-performance-less-hardware-0407",
           "publishedOn": "2026-04-07T04:00:00.000Z",
-          "wordCount": 1989,
+          "wordCount": 1996,
           "title": "Helping data centers deliver higher performance with less hardware",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-DataCenter-Variable-01-press.jpg"
         },
@@ -449,7 +419,7 @@
           "description": "Dean Price, assistant professor in the Department of Nuclear Science and Engineering, sees a bright future for nuclear power, and believes AI can help us realize that vision.",
           "link": "https://news.mit.edu/2026/working-to-advance-nuclear-renaissance-dean-price-0403",
           "publishedOn": "2026-04-03T20:55:00.000Z",
-          "wordCount": 2005,
+          "wordCount": 2023,
           "title": "Working to advance the nuclear renaissance",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-nse-Dean-Price.jpg"
         },
@@ -459,19 +429,9 @@
           "description": "MIT researchers developed a testing framework that pinpoints situations where AI decision-support systems are not treating people and communities fairly.",
           "link": "https://news.mit.edu/2026/evaluating-autonomous-systems-ethics-0402",
           "publishedOn": "2026-04-02T04:00:00.000Z",
-          "wordCount": 1785,
+          "wordCount": 1802,
           "title": "Evaluating the ethics of autonomous systems",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-ScalableEthics-01.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/preview-tool-helps-makers-visualize-3d-printed-objects-0401",
-          "author": "Adam Zewe | MIT News",
-          "description": "By quickly generating aesthetically accurate previews of fabricated objects, the VisiPrint system could make prototyping faster and less wasteful.",
-          "link": "https://news.mit.edu/2026/preview-tool-helps-makers-visualize-3d-printed-objects-0401",
-          "publishedOn": "2026-04-01T04:00:00.000Z",
-          "wordCount": 1962,
-          "title": "Preview tool helps makers visualize 3D-printed objects",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/MIT-VisiPrint-Preview-A1.jpg"
         }
       ]
     },
@@ -488,183 +448,106 @@
       "articles": []
     },
     {
-      "title": "Ian Welsh",
-      "feedUrl": "https://www.ianwelsh.net/feed/",
-      "siteUrl": "https://www.ianwelsh.net",
-      "articles": [
-        {
-          "id": "https://www.ianwelsh.net/?p=24686",
-          "author": "Ian Welsh",
-          "description": "Smart people can’t handle Trump. He say something, or does something. On the face, it seems stupid, so they go into pattern matching over-drive, looking for a reason. You see it with the “they’re attacking Iran to screw up China’s access to oil and because America has so much oil and natural gas now.” Well, […]",
-          "link": "https://www.ianwelsh.net/trump-really-messes-up-smart-people/",
-          "publishedOn": "2026-04-06T23:05:34.000Z",
-          "wordCount": null,
-          "title": "Trump Really Messes Up Smart People",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24664",
-          "author": "Sean Paul Kelley",
-          "description": "~by Sean Paul Kelley The looming financial crisis and the news that keeps emerging is getting so bad that it’s growing harder for me to set aside my rage and discuss it coherently. But I’m going to try. I’ll continue to use the framework of the credit cycle, as I hope y’all have been able […]",
-          "link": "https://www.ianwelsh.net/monday-morning-econ-blues/",
-          "publishedOn": "2026-04-06T13:30:45.000Z",
-          "wordCount": null,
-          "title": "Monday Morning Econ Blues",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24661",
-          "author": "Tony Wikrent",
-          "description": "Week-end Wrap – Political Economy – April 05, 2026 by Tony Wikrent A German Journalist’s ‘Civil Death’ Patrick Lawrence, March 31, 2026 [via defenddemocracy.press] … With the seizure of his spouse’s bank accounts last Friday, Dogru and his family now face what amounts to a starvation blockade of the kind the Trump regime (not to change the […]",
-          "link": "https://www.ianwelsh.net/week-end-wrap-political-economy-april-05-2026/",
-          "publishedOn": "2026-04-05T18:42:14.000Z",
-          "wordCount": null,
-          "title": "Week-end Wrap – Political Economy – April 05, 2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24653",
-          "author": "Ian Welsh",
-          "description": "Use to discuss topics unrelated to recent posts.",
-          "link": "https://www.ianwelsh.net/open-thread-332/",
-          "publishedOn": "2026-04-04T13:34:32.000Z",
-          "wordCount": null,
-          "title": "Open Thread",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24613",
-          "author": "Nat Wilson Turner",
-          "description": "As the blowback resulting from Trump’s foolhardy attack on Iran begin to directly impact Americans, it’s natural to hope for substantive, positive political change in the U.S. of A. Polls show Trump hemorrhaging support from all quarters, even among his base. Polls show the Democratic leadership is deeply unpopular, even with a majority of Democratic […]",
-          "link": "https://www.ianwelsh.net/the-illusion-of-a-revolutionary-moment/",
-          "publishedOn": "2026-04-03T13:30:30.000Z",
-          "wordCount": null,
-          "title": "The Illusion of a Revolutionary Moment",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24615",
-          "author": "Ian Welsh",
-          "description": "I see a lot of discussions about how to read more. Most of them are of the flavor of “I know broccoli and liver are good for me, but I hate how they taste, how do I eat more?” This leads to people who are proud they read a book a month, or maybe a […]",
-          "link": "https://www.ianwelsh.net/how-to-read-more/",
-          "publishedOn": "2026-04-02T20:46:32.000Z",
-          "wordCount": null,
-          "title": "How To Read More",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24606",
-          "author": "Ian Welsh",
-          "description": "The core reason for America and Europe’s decline (and, in a way, Japan’s) was the belief by our elites that money was the only thing which mattered. Money is the ability command resources from anyone who will, or must, sell. People who need to sell their labor or starve—Marx’s famous “whip of hunger.” Countries who […]",
-          "link": "https://www.ianwelsh.net/when-does-money-matter/",
-          "publishedOn": "2026-04-01T13:30:03.000Z",
-          "wordCount": null,
-          "title": "When Does Money Matter?",
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "Lawyers, Guns & Money",
       "feedUrl": "https://www.lawyersgunsmoneyblog.com/feed",
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159267",
-          "author": "Erik Loomis",
-          "description": "Another Chaplin film I’ve seen recently in 1916’s The Count. It shares much in common with The Adventurer, which we discussed a couple of days ago here. But The Count, where the hijinks also follow working class men entering into wealthy spaces impersonating someone to get access to a hot rich girl, includes some excellent […]\nThe post LGM Film Club, Part 541: The Count appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/lgm-film-club-part-541-the-count",
-          "publishedOn": "2026-04-07T01:10:00.000Z",
-          "wordCount": null,
-          "title": "LGM Film Club, Part 541: The Count",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159263",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159293",
           "author": "Scott Lemieux",
-          "description": "And are very lucky that prosecutors have essentially total immunity, because even broad qualified immunity might not save the officers who lied under oath here [gift link]: Almost immediately after an immigration agent shot and wounded a Venezuelan immigrant in Minneapolis this winter, the federal government cast the injured man as an attempted murderer and […]\nThe post Federal prosecutors did not watch video of the shooting of Julio Sosa-Celis for weeks after falsely charging him appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/federal-prosecutors-did-not-watch-video-of-the-shooting-of-julio-sosa-celis-for-weeks-after-falsely-charging-him",
-          "publishedOn": "2026-04-06T21:11:38.000Z",
+          "description": "Jacob Levy does a good job preempting what is inevitably going to be a sycophantic defense of Trump’s genocidal threats: [image or embed] — Jacob T. Levy (@jacobtlevy.bsky.social) Apr 7, 2026 at 2:21 PM There’s no sophisticated thirty-dimensional chess going on here, just an impulsive crackpot with.a belligerent zero-sum view of the world and no […]\nThe post Sometimes irrational warmongering is just irrational warmongering appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/sometimes-irrational-warmongering-is-just-irrational-warmongering",
+          "publishedOn": "2026-04-08T00:50:38.000Z",
           "wordCount": null,
-          "title": "Federal prosecutors did not watch video of the shooting of Julio Sosa-Celis for weeks after falsely charging him",
+          "title": "Sometimes irrational warmongering is just irrational warmongering",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159249",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159289",
+          "author": "Erik Loomis",
+          "description": "Was this ordered by Pete Hegeseth’s vengeful God? Who the hell knows what this means in reality since no one trusts anything Trump says because he is too stupid to articulate it? Also, those are tacos I ate at the legendary Los Cocuyos in the centro of Mexico City. That’s a good taco. Their vat […]\nThe post TACO appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/taco",
+          "publishedOn": "2026-04-07T22:52:08.000Z",
+          "wordCount": null,
+          "title": "TACO",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159287",
+          "author": "Scott Lemieux",
+          "description": "I have no objection per se to invoking impeachment and the 25th Amendment in the context of Trump’s genocidal threats — telling the truth can be its own justification even without an immediate practical remedy, and the political context might change down the road. This Wall Street Journal story focusing on the handful of Republicans […]\nThe post Ambition will not counteract ambition appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/ambition-will-not-counteract-ambition",
+          "publishedOn": "2026-04-07T21:03:25.000Z",
+          "wordCount": null,
+          "title": "Ambition will not counteract ambition",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159286",
           "author": "Paul Campos",
-          "description": "I had killed Soleimani… I did one other, but this one was not picked up. Osama Bin Laden. Video that starts after the reference to the assassination of Soleimani, which prefaces the claim about the “one other” being Bin Laden: The sanewashed version of what Trump is saying here — which is also crazy, so […]\nThe post Trump claims to have assassinated Osama bin Laden appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/trump-claims-to-have-assassinated-osama-bin-laden",
-          "publishedOn": "2026-04-06T18:42:13.000Z",
+          "description": "The mainstream media are beginning to run stories about how there are now “bipartisan” calls for removing Trump via the 25th amendment: Democratic lawmakers and right-wing voices are expressing concerns about just how far Trump is about to take things in the Iran war, as an 8 p.m. EST deadline for Tehran to cut a […]\nThe post The uses of the 25th amendment appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-uses-of-the-25th-amendment",
+          "publishedOn": "2026-04-07T20:16:45.000Z",
           "wordCount": null,
-          "title": "Trump claims to have assassinated Osama bin Laden",
+          "title": "The uses of the 25th amendment",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159241",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159285",
           "author": "Robert Farley",
-          "description": "Trump didn’t try to pull out of NATO last week but I’m not sure we’re out of the woods: And were Trump to withdraw from NATO, it would leave open the question of how the next US President would handle the transatlantic alliance. President Trump represents the ragged right edge of US opinion on NATO, […]\nThe post UnNATO appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/unnato",
-          "publishedOn": "2026-04-06T15:15:27.000Z",
+          "description": "Jonathan Swan and Maggie Haberman are writing a book about Trump administration foreign policy, and fortunately they have decided to tip their hand rather than hold out on us. First, on Bibi’s sales pitch: In the Situation Room on Feb. 11, Mr. Netanyahu made a hard sell, suggesting that Iran was ripe for regime change […]\nThe post The Road to War appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-road-to-war-2",
+          "publishedOn": "2026-04-07T17:45:30.000Z",
           "wordCount": null,
-          "title": "UnNATO",
+          "title": "The Road to War",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159218",
-          "author": "Scott Lemieux",
-          "description": "I’m not sure I could invent a better encapsulation of how easily Trump has been able to capture Republican elites who make the occasional show of skepticism: I can’t believe there are really people like this [image or embed] — Laura Bassett (@lebassett.bsky.social) Apr 5, 2026 at 8:20 PM I emphasize again that it would […]\nThe post The pathetically low price to capitulate to Trump appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-pathetically-low-price-to-capitulate-to-trump",
-          "publishedOn": "2026-04-06T14:28:00.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159283",
+          "author": "Robert Farley",
+          "description": "I don’t actually think that Trump is going to use nuclear weapons against Iran, but I’m pretty sure Trump wants people to believe that he will, and that can create enormous problems: And yet, assuming any strategy behind Trump’s rhetoric is a mistake. Over the course of the war, the President has repeatedly declared that the […]\nThe post The Nuclear Question appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-nuclear-question",
+          "publishedOn": "2026-04-07T17:00:00.000Z",
           "wordCount": null,
-          "title": "The pathetically low price to capitulate to Trump",
+          "title": "The Nuclear Question",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159226",
-          "author": "Paul Campos",
-          "description": "Trump’s threat to destroy power plants if the Strait of Hormuz isn’t opened by tomorrow, which obviously it won’t be, is an even more unambiguous war crime than the general attack on Iran, which is definitely a war crime as well, but there’s slightly more wiggle room from a legal perspective if you want to […]\nThe post How should the Democrats respond to Trump’s war crimes? appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/how-should-the-democrats-respond-to-trumps-war-crimes",
-          "publishedOn": "2026-04-06T12:23:37.000Z",
-          "wordCount": null,
-          "title": "How should the Democrats respond to Trump’s war crimes?",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159061",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159281",
           "author": "Erik Loomis",
-          "description": "This is the grave of Jack Klugman. Born in 1922 in Philadelphia, Klugman grew up in a Jewish immigrant household. His parents had come over from Russia. He was in World War II and then it was onto what is today Carnegie Mellon using his GI Bill benefits. He wanted to be an actor. Famously, […]\nThe post Erik Visits an American Grave, Part 2,113 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/erik-visits-an-american-grave-part-2113",
-          "publishedOn": "2026-04-06T11:00:00.000Z",
+          "description": "While we and the world are trying to survive rule by Donald Trump and the significant minority of Americans who love everything he is doing, I’m interested in thinking about the people who created the long term vision for all of this. In short, we live in Ed Meese’s world. We live in Pat Buchanan’s […]\nThe post Leonard Leo’s World appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/leonard-leos-world",
+          "publishedOn": "2026-04-07T16:05:29.000Z",
           "wordCount": null,
-          "title": "Erik Visits an American Grave, Part 2,113",
+          "title": "Leonard Leo’s World",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159216",
-          "author": "Scott Lemieux",
-          "description": "JMM points out that the Trump Organization’s deep and corrupt interweaving with the Saudi government is a major factor in prolonging the Iran catastrophe: There is another part of this equation which I do not think has gotten sufficient focus. On March 24th The New York Times published an article which reported that the Mohammad bin Salman […]\nThe post Riyadh’s own Florida Man appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/riyadhs-own-florida-man",
-          "publishedOn": "2026-04-05T23:35:30.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159270",
+          "author": "Abigail Nussbaum",
+          "description": "Immediately, though everything else remained as before, dim and dark, the shapes became terribly clear. He was able to see beneath their black wrappings. There were five tall figures: two standing on the lip of the dell, three advancing. In their white faces burned keen and merciless eyes; under their mantles were long grey robes; […]\nThe post The Great Tolkien Reread: A Knife in the Dark, Flight to the Ford appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-great-tolkien-reread-a-knife-in-the-dark-flight-to-the-ford",
+          "publishedOn": "2026-04-07T15:10:44.000Z",
           "wordCount": null,
-          "title": "Riyadh’s own Florida Man",
+          "title": "The Great Tolkien Reread: A Knife in the Dark, Flight to the Ford",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159211",
-          "author": "Scott Lemieux",
-          "description": "A major trope of Trump minimization in term one was to talk about “mean tweets,” as if this anyone thought this was the central problem with the administration. This can also lead to the assumption that a tweet is just a tweet. With respect to this morning’s threat of world-historic war crimes on the president’s […]\nThe post With malice toward all, with charity for none appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/with-malice-toward-all-with-charity-for-none",
-          "publishedOn": "2026-04-05T20:02:04.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159280",
+          "author": "Cheryl Rofer",
+          "description": "I posted and removed this yesterday because of the pissing and moaning in the comments. I have closed comments because there is already more than enough pissing and moaning this morning. I listened to most of the Supreme Leader’s press conference this morning. After a particularly long recitation of his wonderfulness by him, NBC and […]\nThe post Repost: Remove Trump Now appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/repost-remove-trump-now",
+          "publishedOn": "2026-04-07T15:02:21.000Z",
           "wordCount": null,
-          "title": "With malice toward all, with charity for none",
+          "title": "Repost: Remove Trump Now",
           "itunes": {},
           "imageUrl": null
         }
