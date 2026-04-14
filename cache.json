@@ -12,23 +12,13 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
-          "id": "529e67e573627282bf7f126c45a7ecd4b2c338dc",
-          "author": "Sébastien Stormacq",
-          "description": "Amazon S3 Files makes S3 buckets accessible as high-performance file systems on AWS compute resources, eliminating the tradeoff between object storage benefits and interactive file capabilities while enabling seamless data sharing with ~1ms latencies.",
-          "link": "https://aws.amazon.com/blogs/aws/launching-s3-files-making-s3-buckets-accessible-as-file-systems/",
-          "publishedOn": "2026-04-07T19:18:32.000Z",
-          "wordCount": 32925,
-          "title": "Launching S3 Files, making S3 buckets accessible as file systems",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/04/07/Screenshot-2026-04-06-at-3.50.49 PM.png"
-        },
-        {
-          "id": "ebe7e793c3577df742e335aff396ea71bb052df1",
-          "author": "Channy Yun (윤석찬)",
-          "description": "Last week, I visited AWS Hong Kong User Group with my team. Hong Kong has a small but strong community, and their energy and passion are high. They recently started a new AI user group, and we hope more people will join. I was able to strengthen my bond with the community through great food […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-devops-agent-security-agent-ga-product-lifecycle-updates-and-more-april-6-2026/",
-          "publishedOn": "2026-04-06T16:51:00.000Z",
-          "wordCount": 32134,
-          "title": "AWS Weekly Roundup: AWS DevOps Agent & Security Agent GA, Product Lifecycle updates, and more (April 6, 2026)",
+          "id": "2ae783c62455555449dd97fa9eb4b9730eb5f041",
+          "author": "Micah Walter",
+          "description": "In my last Week in Review post, I mentioned how much time I’ve been spending on AI-Driven Development Lifecycle (AI-DLC) workshops with customers this year. A common theme in those sessions is the need for better cost visibility. Teams are moving fast with AI, but as they go from experimenting to full production, finance and […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-mythos-preview-in-amazon-bedrock-aws-agent-registry-and-more-april-13-2026/",
+          "publishedOn": "2026-04-13T16:16:20.000Z",
+          "wordCount": 32477,
+          "title": "AWS Weekly Roundup: Claude Mythos Preview in Amazon Bedrock, AWS Agent Registry, and more (April 13, 2026)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         }
       ]
@@ -47,16 +37,6 @@
           "wordCount": 34407,
           "title": "Build a multi-tenant configuration system with tagged storage patterns",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/03/ARCHBLOG-1417-image-11-1094x630.png"
-        },
-        {
-          "id": "0563cd3181c35a7b36d100bd90e8af1436a63d1f",
-          "author": "Shreya Gangishetty",
-          "description": "In this post, we walk through the new installation experience, demonstrate three deployment methods (console, CLI, and Terraform), and show how features like multi-instance-type deployment and native node affinity give you fine-grained control over inference scheduling",
-          "link": "https://aws.amazon.com/blogs/architecture/unlock-efficient-model-deployment-simplified-inference-operator-setup-on-amazon-sagemaker-hyperpod/",
-          "publishedOn": "2026-04-06T21:14:13.000Z",
-          "wordCount": 33992,
-          "title": "Unlock efficient model deployment: Simplified Inference Operator setup on Amazon SageMaker HyperPod",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/06/archblog-1387-1120x630.png"
         }
       ]
     },
@@ -70,7 +50,18 @@
       "title": "AWS DevOps & Developer Productivity Blog",
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
-      "articles": []
+      "articles": [
+        {
+          "id": "2e850e4d55137e9db88a88dd89fad3416bee1b50",
+          "author": "Chandu Utlapalli",
+          "description": "Introduction AWS Elastic Beanstalk simplifies the process of deploying and scaling web applications. You upload your code, and Elastic Beanstalk handles capacity provisioning, load balancing, auto scaling, and application health monitoring. Elastic Beanstalk now offers AI Analysis to help troubleshoot environment health issues. When you request an analysis, Elastic Beanstalk triggers a script on the […]",
+          "link": "https://aws.amazon.com/blogs/devops/troubleshooting-environment-with-ai-analysis-in-aws-elastic-beanstalk/",
+          "publishedOn": "2026-04-13T18:55:00.000Z",
+          "wordCount": 33467,
+          "title": "Troubleshooting environment with AI analysis in AWS Elastic Beanstalk",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/04/10/feature_bold-1121x630.png"
+        }
+      ]
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -86,16 +77,6 @@
           "wordCount": null,
           "title": "Evaluating Netflix Show Synopses with LLM-as-a-Judge",
           "imageUrl": null
-        },
-        {
-          "id": "https://medium.com/p/22fadc9b840e",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/stop-answering-the-same-question-twice-interval-aware-caching-for-druid-at-netflix-scale-22fadc9b840e?source=rss----2615bd06b42e---4",
-          "publishedOn": "2026-04-06T22:15:14.000Z",
-          "wordCount": null,
-          "title": "Stop Answering the Same Question Twice: Interval-Aware Caching for Druid at Netflix Scale",
-          "imageUrl": null
         }
       ]
     },
@@ -104,6 +85,66 @@
       "feedUrl": "https://www.nakedcapitalism.com/feed",
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308695",
+          "author": "Nat Wilson Turner",
+          "description": "POTUS Trump's ugly and open social media conflict with Pope Leo XIV is a new chapter in the information war that shows some deep sectarian cracks in the American pro-war consensus.",
+          "link": "https://www.nakedcapitalism.com/2026/04/trump-pope-leo-sectarian-conflict-zionism-evangelicals-dispensationalism.html",
+          "publishedOn": "2026-04-13T18:00:54.000Z",
+          "wordCount": null,
+          "title": "Coffee Break: Information War Goes Sectarian, Trump vs. the Pope",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308684",
+          "author": "Yves Smith",
+          "description": "\"Most Hungarians came to take Orban for granted and won’t appreciate what they had until it’s gone.\"",
+          "link": "https://www.nakedcapitalism.com/2026/04/the-causes-consequences-of-orbans-downfall.html",
+          "publishedOn": "2026-04-13T13:42:38.000Z",
+          "wordCount": null,
+          "title": "The Causes & Consequences of Orban’s Downfall",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308602",
+          "author": "Conor Gallagher",
+          "description": "",
+          "link": "https://www.nakedcapitalism.com/2026/04/links-4-13-2026.html",
+          "publishedOn": "2026-04-13T10:55:34.000Z",
+          "wordCount": null,
+          "title": "Links 4/13/2026",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308646",
+          "author": "Yves Smith",
+          "description": "Today's Iran war update: Trump again demonstrates his need to dominate results in self, US and global harm, here with a barmy blockade plan.",
+          "link": "https://www.nakedcapitalism.com/2026/04/iran-war-us-imposing-strait-of-hormuz-blockade-monday-am-experts-criticize-further-pressure-on-oil-prices-illegality-and-risk-of-failure-will-houthis-close-the-red-sea-to-back-iran.html",
+          "publishedOn": "2026-04-13T10:54:38.000Z",
+          "wordCount": null,
+          "title": "Iran War: US Imposing Strait of Hormuz Blockade Monday AM; Experts Criticize Further Pressure on Oil Prices, Illegality, and Risk of Failure; Will Houthis Close the Red Sea to Back Iran?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308579",
+          "author": "Conor Gallagher",
+          "description": "As the US and Israel work to destroy Iranian education centers and cultural heritage sites, US oligarchs want to put a meter on knowledge.",
+          "link": "https://www.nakedcapitalism.com/2026/04/bombing-schools-abroad-destroying-education-at-home.html",
+          "publishedOn": "2026-04-13T10:00:38.000Z",
+          "wordCount": null,
+          "title": "Bombing Schools Abroad, Destroying Education at Home",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=308643",
+          "author": "Conor Gallagher",
+          "description": "Union Now event featuring Sanders, NYC Mayor Mamdani, and Association of Flight Attendants-CWA international president Sara Nelson hits right notes, but is thus far light on details.",
+          "link": "https://www.nakedcapitalism.com/2026/04/sanders-leads-launch-of-union-now-movement-expand-worker-power.html",
+          "publishedOn": "2026-04-13T09:00:13.000Z",
+          "wordCount": null,
+          "title": "Sanders Leads Launch of ‘Union Now’ Movement to Fight ‘Status Quo Economics’",
+          "imageUrl": null
+        },
         {
           "id": "https://www.nakedcapitalism.com/?p=308562",
           "author": "Haig Hovaness",
@@ -143,66 +184,6 @@
           "wordCount": null,
           "title": "US Revisits Georgia’s Black Sea Port as Strategic Corridors Rise",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308521",
-          "author": "Yves Smith",
-          "description": "",
-          "link": "https://www.nakedcapitalism.com/2026/04/links-4-11-2026.html",
-          "publishedOn": "2026-04-11T10:59:10.000Z",
-          "wordCount": null,
-          "title": "Links 4/11/2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308539",
-          "author": "Yves Smith",
-          "description": "Iran war: In a telling sign, the start of talks has been pushed back due to disagreements over process.",
-          "link": "https://www.nakedcapitalism.com/2026/04/iran-war-talks-delayed-concerns-that-conflict-destined-to-resume-us-to-concede-release-of-some-iran-frozen-assets.html",
-          "publishedOn": "2026-04-11T10:56:23.000Z",
-          "wordCount": null,
-          "title": "Iran War: Talks  Delayed;  Concerns That Conflict Destined to Resume; US to Concede Release of Some Iran Frozen Assets?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308537",
-          "author": "Yves Smith",
-          "description": "A key Trump ally engages in economic malpractice to defend Federal government slash and burn spending cuts.",
-          "link": "https://www.nakedcapitalism.com/2026/04/disgusting-trumps-top-economic-adviser-brags-about-killing-300000-high-paying-american-jobs.html",
-          "publishedOn": "2026-04-11T08:42:47.000Z",
-          "wordCount": null,
-          "title": "‘Disgusting’: Trump’s Top Economic Adviser Brags About Killing 300,000 ‘High-Paying’ American Jobs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308500",
-          "author": "KLG",
-          "description": "Part the First: War Begets War, A Conversation.  Daedalus hosted a conversation among Robert Jay Lifton (1926-2025), Neta C. Crawford, and  Matthew Evangelista last year.  It was preprinted recently in The MIT Press Reader.  I immediately noticed the participation of Robert Jay Lifton.  Back in my dark ages, when the university had a University Bookstore […]",
-          "link": "https://www.nakedcapitalism.com/2026/04/war-is-a-dead-end-ai-on-the-loose-and-hope-for-some-muscular-dystrophy-patients.html",
-          "publishedOn": "2026-04-10T18:00:45.000Z",
-          "wordCount": null,
-          "title": "Coffee Break: All War All the Time, AI on the Loose, and Hope for Muscular Dystrophy Patients",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308509",
-          "author": "Yves Smith",
-          "description": "Trump tries to muscle the Holy See as Catholic voters turn against him and the Iran war.",
-          "link": "https://www.nakedcapitalism.com/2026/04/god-isnt-good-enough-the-pope-and-the-us-bishops-are-threatening-the-catholic-vote-for-trump-and-his-successors.html",
-          "publishedOn": "2026-04-10T13:55:55.000Z",
-          "wordCount": null,
-          "title": "God Isn’t Good Enough – The Pope and the US Bishops Are Threatening the Catholic Vote for Trump and His Successors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308420",
-          "author": "Conor Gallagher",
-          "description": "",
-          "link": "https://www.nakedcapitalism.com/2026/04/links-4-10-2026.html",
-          "publishedOn": "2026-04-10T10:55:26.000Z",
-          "wordCount": null,
-          "title": "Links 4/10/2026",
-          "imageUrl": null
         }
       ]
     },
@@ -212,12 +193,62 @@
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
         {
+          "id": "5r3Nx1IDtp6B6GRDHqQyWL",
+          "author": "Matt “TK” Taylor",
+          "description": "We’re introducing cf, a new unified CLI designed for consistency across the Cloudflare platform, alongside Local Explorer for debugging local data. These tools simplify how developers and AI agents interact with our nearly 3,000 API operations.",
+          "link": "https://blog.cloudflare.com/cf-cli-local-explorer/",
+          "publishedOn": "2026-04-13T14:29:45.000Z",
+          "wordCount": 2286,
+          "title": "Building a CLI for all of Cloudflare",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/368W2qPlsPYe9LtZAcsA3/2143d50e049b8398b0551a262290aab4/BLOG-3224_OG.png"
+        },
+        {
+          "id": "2OYAJUdGLODlCXKKdCZMeG",
+          "author": "Kenton Varda",
+          "description": "We’re introducing Durable Object Facets, allowing Dynamic Workers to instantiate Durable Objects with their own isolated SQLite databases. This enables developers to build platforms that run persistent, stateful code generated on-the-fly.",
+          "link": "https://blog.cloudflare.com/durable-object-facets-dynamic-workers/",
+          "publishedOn": "2026-04-13T13:08:35.000Z",
+          "wordCount": 2262,
+          "title": "Durable Objects in Dynamic Workers: Give each AI-generated app its own database",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3KzJH2rYu0gPRJh6PSJbe2/2161c2d6fac25262e2dbb1f916dd9c25/OG_Share_2024-2025-2026__1_.png"
+        },
+        {
+          "id": "7jXMXMjQUIpjGzJdPadO4a",
+          "author": "Kate Reznykova",
+          "description": "Cloudflare Sandboxes give AI agents a persistent, isolated environment: a real computer with a shell, a filesystem, and background processes that starts on demand and picks up exactly where it left off.",
+          "link": "https://blog.cloudflare.com/sandbox-ga/",
+          "publishedOn": "2026-04-13T13:08:35.000Z",
+          "wordCount": 2762,
+          "title": "Agents have their own computers with Sandboxes GA",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7MV0dReYIgop07kJLJTVfI/191381e4501373887c0e6f316970c566/BLOG-3264_OG.png"
+        },
+        {
+          "id": "3j8ROSAUomMNPrmru3f2U9",
+          "author": "Mike Nomitch",
+          "description": "Outbound Workers for Sandboxes provide a programmable, zero-trust egress proxy for AI agents. This allows developers to inject credentials and enforce dynamic security policies without exposing sensitive tokens to untrusted code.",
+          "link": "https://blog.cloudflare.com/sandbox-auth/",
+          "publishedOn": "2026-04-13T13:00:00.000Z",
+          "wordCount": 3003,
+          "title": "Dynamic, identity-aware, and secure Sandbox auth",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/58CW1oMi2QI7aG4XbkDB2p/931e1eb6e4877ebb1a68602ade032c64/OG_Share_2024-2025-2026.png"
+        },
+        {
+          "id": "4dZj0C0XnS9BJQnxy2QkzY",
+          "author": "Rita Kozlov",
+          "description": "Cloudflare's mission has always been to help build a better Internet. Sometimes that means building for the Internet as it exists. Sometimes it means building for the Internet as it's about to become. \n\nThis week, we're kicking off Agents Week, dedicated to what comes next.",
+          "link": "https://blog.cloudflare.com/welcome-to-agents-week/",
+          "publishedOn": "2026-04-12T17:01:05.000Z",
+          "wordCount": 2924,
+          "title": "Welcome to Agents Week",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/wotN15r4QL8Q3kSjSNRe0/674a32dd50fdfb2bcff51bbbb20ffa08/BLOG-3238_OG.png"
+        },
+        {
           "id": "14NmmkLAEg9hFIbB9bosqh",
           "author": "Tanner Ryan",
           "description": "Cloudflare’s global network has officially crossed 500 Tbps of external capacity, enough to route more than 20% of the web and absorb the largest DDoS attacks ever recorded.",
           "link": "https://blog.cloudflare.com/500-tbps-of-capacity/",
           "publishedOn": "2026-04-10T18:00:05.000Z",
-          "wordCount": 2165,
+          "wordCount": 2147,
           "title": "500 Tbps of capacity: 16 years of scaling our global network",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7tsjsNeAj5toAt2ZRo5uwp/aa7bfe97480257d1cbbdf2a2a92af55f/BLOG-3267_OG.png"
         },
@@ -240,16 +271,6 @@
           "wordCount": 2711,
           "title": "Cloudflare targets 2029 for full post-quantum security",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/cyRyBin8jhfj8ufWGp1PI/c8d43126c48ebd6d48c73b2e810ee80d/OG_Share_2024-2025-2026__27_.png"
-        },
-        {
-          "id": "5wIrgcYpkdmQZSnU1skUjM",
-          "author": "Justin Hutchings",
-          "description": "Cloudflare Organizations is now in public beta, introducing a new management layer for enterprise customers with multiple accounts. Learn how we consolidated our authorization systems to enable org-wide management.",
-          "link": "https://blog.cloudflare.com/organizations-beta/",
-          "publishedOn": "2026-04-06T21:00:00.000Z",
-          "wordCount": 1700,
-          "title": "How we built Organizations to help enterprises manage Cloudflare at scale",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3G3QWg8htRcrkjf0lhFLkR/b308f3b03da175bd642165417bd71814/How_we_built_Organizations_to_help_enterprises_manage_Cloudflare_at_scale-OG.png"
         }
       ]
     },
@@ -264,7 +285,7 @@
           "description": "Learn what's new in Visual Studio Code 1.115\nRead the full article",
           "link": "https://code.visualstudio.com/updates/v1_115",
           "publishedOn": "2026-04-08T17:00:00.000Z",
-          "wordCount": 1444,
+          "wordCount": 1563,
           "title": "Visual Studio Code 1.115",
           "imageUrl": "https://code.visualstudio.com/assets/updates/1_115/release-highlights.webp"
         }
@@ -281,7 +302,7 @@
           "description": "France’s political landscape.",
           "link": "https://newleftreview.org/sidecar/posts/left-impasse",
           "publishedOn": "2026-04-10T17:14:11.000Z",
-          "wordCount": 2499,
+          "wordCount": 2504,
           "title": "Serge Halimi: &ldquo;Left Impasse&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/04/halimi.jpg"
         }
@@ -304,6 +325,26 @@
       "feedUrl": "https://seroter.com/feed/",
       "siteUrl": "https://seroter.com",
       "articles": [
+        {
+          "id": "http://seroter.com/?p=29434",
+          "author": "Richard Seroter",
+          "description": "Today's links look at which stage of the agentic SDLC uses the most tokens, how to best write agent skills, and whether AI certs are worth the investment.",
+          "link": "https://seroter.com/2026/04/13/daily-reading-list-april-13-2026-762/",
+          "publishedOn": "2026-04-13T23:45:20.000Z",
+          "wordCount": 4390,
+          "title": "Daily Reading List – April 13, 2026 (#762)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
+          "id": "http://seroter.com/?p=29407",
+          "author": "Richard Seroter",
+          "description": "Throughout my tech career, I’ve been taught to be cautious about where I stash business logic. I now reflexively think about putting important rules and considerations into central services. Could you bury it in stored procedures or database triggers? Be careful, say Internet people. Same goes for frontend components. Middleware? It’s easy to stash sneaky-important […]",
+          "link": "https://seroter.com/2026/04/13/you-can-now-easily-call-llms-from-your-messaging-engine-should-you/",
+          "publishedOn": "2026-04-13T15:50:26.000Z",
+          "wordCount": 5434,
+          "title": "You can now easily call LLMs from your messaging engine. Should you?",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/04/2026.04.13-pubsub-01.png"
+        },
         {
           "id": "http://seroter.com/?p=29389",
           "author": "Richard Seroter",
@@ -343,16 +384,6 @@
           "wordCount": 4574,
           "title": "Daily Reading List – April 7, 2026 (#758)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=29320",
-          "author": "Richard Seroter",
-          "description": "Today's links look at why \"good taste\" is just experience, why the IDE is now a fallback instead of the default, and whether multi-agent AI is the new microservices.",
-          "link": "https://seroter.com/2026/04/06/daily-reading-list-april-6-2026-757/",
-          "publishedOn": "2026-04-06T23:40:50.000Z",
-          "wordCount": 4601,
-          "title": "Daily Reading List – April 6, 2026 (#757)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         }
       ]
     },
@@ -367,7 +398,7 @@
           "description": "As the NC Ethics of Technology Postdoctoral Fellow, Michal Masny is advancing dialogue, teaching, and research into the social and ethical dimensions of new computing technologies.",
           "link": "https://news.mit.edu/2026/philosophy-work-michal-masny-0409",
           "publishedOn": "2026-04-09T18:00:00.000Z",
-          "wordCount": 1887,
+          "wordCount": 1896,
           "title": "A philosophy of work",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-philosophy-Michal-Masny.jpg"
         },
@@ -377,7 +408,7 @@
           "description": "Researchers use control theory to shed unnecessary complexity from AI models during training, cutting compute costs without sacrificing performance.",
           "link": "https://news.mit.edu/2026/new-technique-makes-ai-models-leaner-faster-while-still-learning-0409",
           "publishedOn": "2026-04-09T13:00:00.000Z",
-          "wordCount": 1969,
+          "wordCount": 1978,
           "title": "New technique makes AI models leaner and faster while they’re still learning",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-csail-compressm.jpg"
         },
@@ -387,19 +418,9 @@
           "description": "Startup accelerator program grows to over 30 companies, almost half of them with MIT pedigrees.",
           "link": "https://news.mit.edu/2026/sixteen-new-startnano-companies-developing-hard-tech-solutions-with-mitnano-0407",
           "publishedOn": "2026-04-07T20:40:00.000Z",
-          "wordCount": 1491,
+          "wordCount": 1500,
           "title": "Sixteen new START.nano companies are developing hard-tech solutions with the support of MIT.nano",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-start.nano-Rheyo.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/helping-data-centers-deliver-higher-performance-less-hardware-0407",
-          "author": "Adam Zewe | MIT News",
-          "description": "Researchers developed a system that intelligently balances workloads to improve the efficiency of flash storage hardware in a data center.",
-          "link": "https://news.mit.edu/2026/helping-data-centers-deliver-higher-performance-less-hardware-0407",
-          "publishedOn": "2026-04-07T04:00:00.000Z",
-          "wordCount": 1972,
-          "title": "Helping data centers deliver higher performance with less hardware",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-DataCenter-Variable-01-press.jpg"
         }
       ]
     },
@@ -496,16 +517,6 @@
           "wordCount": null,
           "title": "Twenty-One Simple Facts About the Iranian War",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24686",
-          "author": "Ian Welsh",
-          "description": "Smart people can’t handle Trump. He say something, or does something. On the face, it seems stupid, so they go into pattern matching over-drive, looking for a reason. You see it with the “they’re attacking Iran to screw up China’s access to oil and because America has so much oil and natural gas now.” Well, […]",
-          "link": "https://www.ianwelsh.net/trump-really-messes-up-smart-people/",
-          "publishedOn": "2026-04-06T23:05:34.000Z",
-          "wordCount": null,
-          "title": "Trump Really Messes Up Smart People",
-          "imageUrl": null
         }
       ]
     },
@@ -515,101 +526,101 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159475",
-          "author": "Paul Campos",
-          "description": "A friend has some thoughts I wanted to pass on: He is so genuinely dumb as to not know that oil is a commodity and even if we “have enough” and “have plenty to sell” that does not insulate American consumers from a global oil price shock. But that aside, he’s got a choice. Take […]\nThe post How does this end? appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/how-does-this-end",
-          "publishedOn": "2026-04-13T01:52:31.000Z",
-          "wordCount": null,
-          "title": "How does this end?",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159471",
-          "author": "Robert Farley",
-          "description": "Not much going on this Sunday night, apart from the Masters (all hail Rory for defeating Enemy of the Blog Scottie Scheffler), Orban going down, and the world generally going to shit. In the course of reading a profile of Stellan Skarsgard I came across this: Stellan Skarsgård has weighed in on famed director Ingmar […]\nThe post Potpourri appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/potpourri-2",
-          "publishedOn": "2026-04-13T01:37:53.000Z",
-          "wordCount": null,
-          "title": "Potpourri",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159461",
-          "author": "Scott Lemieux",
-          "description": "Katie Rogers has an entertainingly wry piece [gift link] about Trump and Little Marco attending an UFC match while his Team of Cronies and Nepo Babies were thoroughly botching negotiations with Iran: On Saturday evening, as Vice President JD Vance took a podium in Pakistan and said no deal had been reached to end the […]\nThe post Trump at war appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/trump-at-war",
-          "publishedOn": "2026-04-12T21:13:00.000Z",
-          "wordCount": null,
-          "title": "Trump at war",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159462",
-          "author": "Paul Campos",
-          "description": "A great day for liberal democrats everywhere. Prime Minister Viktor Orban of Hungary, a lodestar for MAGA culture warriors and right-wing populists in Europe, conceded defeat on Sunday in a general election, breaking the momentum of a global nationalist revival promoted by President Trump. Speaking to supporters Sunday evening in Budapest, Mr. Orban said the […]\nThe post Orban concedes defeat appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/orban-concedes-defeat",
-          "publishedOn": "2026-04-12T19:43:27.000Z",
-          "wordCount": null,
-          "title": "Orban concedes defeat",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159459",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159499",
           "author": "Erik Loomis",
-          "description": "Companies are so all-in for AI that there is a chip shortage and thus the prices for personal computers are skyrocketing. I built a PC for a colleague in January of 2025. At the time, the cost for the three main components — the motherboard, the processor, and the DDR5 memory — was about $800. […]\nThe post Who Will Pay for AI Absurdity? You. appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/who-will-pay-for-ai-absurdity-you",
-          "publishedOn": "2026-04-12T15:43:07.000Z",
+          "description": "Every year, the Old Labor Hall in Barre, Vermont, that great home of the granite workers and its union, hosts a big May Day talk, cosponsored by the Vermont AFL-CIO. This year it is me. If you are in the area, come out and say hello. Info in image below, even if I haven’t been […]\nThe post May Day Talk, Barre, VT appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/may-day-talk-barre-vt",
+          "publishedOn": "2026-04-14T01:43:00.000Z",
           "wordCount": null,
-          "title": "Who Will Pay for AI Absurdity? You.",
+          "title": "May Day Talk, Barre, VT",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159457",
-          "author": "Robert Farley",
-          "description": "Well this makes sense: President Trump said that the U.S. Navy would begin blockading “any and all ships trying to enter or leave the Strait of Hormuz,” after peace talks with Iran in Islamabad collapsed this weekend. “I have also instructed our Navy to seek and interdict every vessel in International Waters that has paid […]\nThe post Suicide Out of a Fear of Death appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/suicide-out-of-a-fear-of-death",
-          "publishedOn": "2026-04-12T14:55:07.000Z",
-          "wordCount": null,
-          "title": "Suicide Out of a Fear of Death",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159423",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159512",
           "author": "Scott Lemieux",
-          "description": "You could want things done right, or alternatively you could delegate them to JD Vance: Vice President JD Vance said on Sunday that 21 hours of peace talks between the United States and Iran had failed to produce an agreement to end the war, leaving the fate of a fragile two-week cease-fire, and whether President […]\nThe post I’m a fool to do your dirty work appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/im-a-fool-to-do-your-dirty-work",
-          "publishedOn": "2026-04-12T14:15:00.000Z",
+          "description": "Marisa Kabas has an excerpt from looks like a fascinating new book by a former top USAID official: Without introductions, Joel, who was eating a frozen Indian dinner, jumped right in. “In full transparency, we’re drawing down USAID,” he said. “We’d like you to walk us through your mission-critical functions so that we can close […]\nThe post Into the Wood Chipper appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/into-the-wood-chipper",
+          "publishedOn": "2026-04-14T00:46:49.000Z",
           "wordCount": null,
-          "title": "I’m a fool to do your dirty work",
+          "title": "Into the Wood Chipper",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159455",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159482",
+          "author": "Shakezula",
+          "description": "It’s a given that Orangeyhandias doesn’t give a shit about religion. If people aren’t worshipping him, he doesn’t care. However, since his first election he’s been surrounded by the worst sort of Evangelicals. And I do mean surrounded. And the worst. These people aren’t fans of Catholicism, to put it mildly. Some Evangelical leaders have […]\nThe post The Dope vs The Pope appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-dope-vs-the-pope",
+          "publishedOn": "2026-04-13T22:13:00.000Z",
+          "wordCount": null,
+          "title": "The Dope vs The Pope",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159507",
+          "author": "Shakezula",
+          "description": "About damn time. Rep. Eric Swalwell, a former Democratic frontrunner in the California gubernatorial race, resigned from Congress on Monday amid sexual misconduct allegations. Swalwell announced his resignation in a statement posted to his X account, while still denying some of the allegations made against him in recent days. “I am deeply sorry to my […]\nThe post California trash takes itself out appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/california-trash-takes-itself-out",
+          "publishedOn": "2026-04-13T21:59:22.000Z",
+          "wordCount": null,
+          "title": "California trash takes itself out",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159503",
           "author": "Paul Campos",
-          "description": "We elected this man, twice, which makes me want to resign my membership: Your textual exegesis is requested. Thank you for your attention to this matter.\nThe post Good job America appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/good-job-america",
-          "publishedOn": "2026-04-12T13:29:47.000Z",
+          "description": "Peter Baker on the front page of the New York Times: President Trump’s erratic behavior and extreme comments in recent days and weeks have turbocharged the crazy-like-a-fox-or-just-plain-crazy debate that has followed him on the national political stage for a decade. A series of disjointed, hard-to-follow and sometimes-profane statements capped by his “a whole civilization will […]\nThe post Critics say president is demented and mentally ill; White House disagrees appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/critics-say-president-is-demented-and-mentally-ill-white-house-disagrees",
+          "publishedOn": "2026-04-13T21:02:52.000Z",
           "wordCount": null,
-          "title": "Good job America",
+          "title": "Critics say president is demented and mentally ill; White House disagrees",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159415",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159495",
           "author": "Erik Loomis",
-          "description": "The National Environmental Policy Act of 1970 was one of the truly groundbreaking laws in American history, creating the entire idea of citizen review of development projects for environmental impact. Development interests have always hated it for creating a system where they would have to be accountable for their crimes against the planet. But now, […]\nThe post What to Do With NEPA? appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/what-to-do-with-nepa",
-          "publishedOn": "2026-04-12T13:10:00.000Z",
+          "description": "I hope someone loves you as much as Scumbag Don loves people who steal from the poor: In December 2023, the U.S. Justice Department sued a Texas land developer it accused of duping tens of thousands of Hispanic residents into predatory mortgages, a landmark case for the Biden administration. Colony Ridge, which sold plots in […]\nThe post Trump’s True Constituency appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/trumps-true-constituency",
+          "publishedOn": "2026-04-13T20:19:19.000Z",
           "wordCount": null,
-          "title": "What to Do With NEPA?",
+          "title": "Trump’s True Constituency",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159490",
+          "author": "Scott Lemieux",
+          "description": "One way that Cafeteria Catholics who insist that the church must rule us all but that we must also be ruled by the most recent platform of the Texas Republican Party can reconcile the contradictions is apparently by pretending to be illiterate: this is the most AV thing that has ever been AV’d [image or […]\nThe post We must be ruled by the Catholic Church, unless the Pope disagrees with the controlling dogma established by Donald Trump appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/we-must-be-ruled-by-the-catholic-church-unless-the-pope-disagrees-with-the-controlling-dogma-established-by-donald-trump",
+          "publishedOn": "2026-04-13T17:42:45.000Z",
+          "wordCount": null,
+          "title": "We must be ruled by the Catholic Church, unless the Pope disagrees with the controlling dogma established by Donald Trump",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159487",
+          "author": "Erik Loomis",
+          "description": "Catholics like to talk a good game about social justice but working for Catholic colleges is pretty terrible from an employment perspective. Just about everyone I’ve known who teaches at Catholic colleges talks about low wages and the overall atmosphere that you should be happy to be working for Christ or whatnot. Decades ago, the […]\nThe post Catholic School Union Busting appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/catholic-school-union-busting",
+          "publishedOn": "2026-04-13T13:14:17.000Z",
+          "wordCount": null,
+          "title": "Catholic School Union Busting",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159479",
+          "author": "Paul Campos",
+          "description": "Trump was apparently up all night posting on Truth Social. I can find no acknowledgement anywhere on the websites of the Times or the Post or CNN that the first post in the list below actually happened. 9:49pm (AI Jesus photo) 9:50pm (Trump tower on moon) 10:10pm (dumb meme) 10:32pm (news clip) 10:53pm (news clip) […]\nThe post Trump posts image of himself as Jesus Christ; Mainstream media do not report this development appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/trump-posts-image-of-himself-as-jesus-christ-mainstream-media-do-not-report-this-development",
+          "publishedOn": "2026-04-13T12:25:23.000Z",
+          "wordCount": null,
+          "title": "Trump posts image of himself as Jesus Christ; Mainstream media do not report this development",
           "itunes": {},
           "imageUrl": null
         }
