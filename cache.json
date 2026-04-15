@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "c1d08c79b319f945ee2c245891d0ca4ffb6a45ac",
+          "author": "Sébastien Stormacq",
+          "description": "Today, we’re announcing the general availability of AWS Interconnect – multicloud, a managed private connectivity service that connects your Amazon Virtual Private Cloud (Amazon VPC) directly to VPCs on other cloud providers. We’re also introducing AWS Interconnect – last mile, a new capability that simplifies how you establish high-speed, private connections to AWS from your […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-interconnect-is-now-generally-available-with-a-new-option-to-simplify-last-mile-connectivity/",
+          "publishedOn": "2026-04-14T23:54:47.000Z",
+          "wordCount": 33466,
+          "title": "AWS Interconnect is now generally available, with a new option to simplify last-mile connectivity",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/04/14/Option-2-2.png"
+        },
+        {
           "id": "2ae783c62455555449dd97fa9eb4b9730eb5f041",
           "author": "Micah Walter",
           "description": "In my last Week in Review post, I mentioned how much time I’ve been spending on AI-Driven Development Lifecycle (AI-DLC) workshops with customers this year. A common theme in those sessions is the need for better cost visibility. Teams are moving fast with AI, but as they go from experimenting to full production, finance and […]",
@@ -27,18 +37,7 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": [
-        {
-          "id": "8a87ceac1091fc2827f9ac557ac9f6c0a6753779",
-          "author": "Koshal Agrawal",
-          "description": "In this post, we demonstrate how you can build a scalable, multi-tenant configuration service using the tagged storage pattern, an architectural approach that uses key prefixes (like tenant_config_ or param_config_) to automatically route configuration requests to the most appropriate AWS storage service. This pattern maintains strict tenant isolation and supports real-time, zero-downtime configuration updates through event-driven architecture, alleviating the cache staleness problem.",
-          "link": "https://aws.amazon.com/blogs/architecture/build-a-multi-tenant-configuration-system-with-tagged-storage-patterns/",
-          "publishedOn": "2026-04-08T20:00:04.000Z",
-          "wordCount": 34407,
-          "title": "Build a multi-tenant configuration system with tagged storage patterns",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/03/ARCHBLOG-1417-image-11-1094x630.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
@@ -86,6 +85,16 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=308682",
+          "author": "Haig Hovaness",
+          "description": "Airborne ISR has long been treated as a source of persistent, reliable battlefield awareness. But the conditions that enable this capability also create structural vulnerabilities. As sensor networks improve and contested environments intensify, ISR effectiveness becomes conditional rather than assured.",
+          "link": "https://www.nakedcapitalism.com/2026/04/coffee-break-armed-madhouse-flying-eyes-that-cannot-hide.html",
+          "publishedOn": "2026-04-14T18:00:19.000Z",
+          "wordCount": null,
+          "title": "Coffee Break: Armed Madhouse – Eyes in the Sky that Cannot Hide",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=308620",
           "author": "Yves Smith",
           "description": "Touching or shaking the fragile flowering cherry  trees can harm them. Volunteers on Roosevelt Island make sure that doesn’t happen.",
@@ -122,7 +131,7 @@
           "link": "https://www.nakedcapitalism.com/2026/04/with-us-bogged-down-in-iran-russia-just-took-over-management-of-cubas-industrial-facilities.html",
           "publishedOn": "2026-04-14T10:45:00.000Z",
           "wordCount": null,
-          "title": "With US Bogged Down in West Asia, Cuba Signs Deal With Russia Granting Russian Companies Management of Cuban Industries",
+          "title": "With US Bogged Down in West Asia, Cuba Agrees to Grant Russian Companies Management of Cuban Industries",
           "imageUrl": null
         },
         {
@@ -174,16 +183,6 @@
           "wordCount": null,
           "title": "Iran War: US Imposing Strait of Hormuz Blockade Monday AM; Experts Criticize Further Pressure on Oil Prices, Illegality, and Risk of Failure; Will Houthis Close the Red Sea to Back Iran?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308579",
-          "author": "Conor Gallagher",
-          "description": "As the US and Israel work to destroy Iranian education centers and cultural heritage sites, US oligarchs want to put a meter on knowledge.",
-          "link": "https://www.nakedcapitalism.com/2026/04/bombing-schools-abroad-destroying-education-at-home.html",
-          "publishedOn": "2026-04-13T10:00:38.000Z",
-          "wordCount": null,
-          "title": "Bombing Schools Abroad, Destroying Education at Home",
-          "imageUrl": null
         }
       ]
     },
@@ -208,7 +207,7 @@
           "description": "We share Cloudflare's internal strategy for governing MCP using Access, AI Gateway, and MCP server portals. We also launch Code Mode to slash token costs and recommend new rules for detecting Shadow MCP in Cloudflare Gateway.",
           "link": "https://blog.cloudflare.com/enterprise-mcp/",
           "publishedOn": "2026-04-14T13:00:10.000Z",
-          "wordCount": 3330,
+          "wordCount": 3326,
           "title": "Scaling MCP adoption: Our reference architecture for simpler, safer and cheaper enterprise deployments of MCP",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1xgmfGVXa0LaSYXhJ3KT12/357d6d678d47bea1f62817b2101522bc/BLOG-3252_OG.png"
         },
@@ -258,7 +257,7 @@
           "description": "Cloudflare Sandboxes give AI agents a persistent, isolated environment: a real computer with a shell, a filesystem, and background processes that starts on demand and picks up exactly where it left off.",
           "link": "https://blog.cloudflare.com/sandbox-ga/",
           "publishedOn": "2026-04-13T13:08:35.000Z",
-          "wordCount": 2785,
+          "wordCount": 2800,
           "title": "Agents have their own computers with Sandboxes GA",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7MV0dReYIgop07kJLJTVfI/191381e4501373887c0e6f316970c566/BLOG-3264_OG.png"
         },
@@ -268,7 +267,7 @@
           "description": "Outbound Workers for Sandboxes provide a programmable, zero-trust egress proxy for AI agents. This allows developers to inject credentials and enforce dynamic security policies without exposing sensitive tokens to untrusted code.",
           "link": "https://blog.cloudflare.com/sandbox-auth/",
           "publishedOn": "2026-04-13T13:00:00.000Z",
-          "wordCount": 3018,
+          "wordCount": 3023,
           "title": "Dynamic, identity-aware, and secure Sandbox auth",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/58CW1oMi2QI7aG4XbkDB2p/931e1eb6e4877ebb1a68602ade032c64/OG_Share_2024-2025-2026.png"
         },
@@ -278,7 +277,7 @@
           "description": "Cloudflare's mission has always been to help build a better Internet. Sometimes that means building for the Internet as it exists. Sometimes it means building for the Internet as it's about to become. \n\nThis week, we're kicking off Agents Week, dedicated to what comes next.",
           "link": "https://blog.cloudflare.com/welcome-to-agents-week/",
           "publishedOn": "2026-04-12T17:01:05.000Z",
-          "wordCount": 2957,
+          "wordCount": 2971,
           "title": "Welcome to Agents Week",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/wotN15r4QL8Q3kSjSNRe0/674a32dd50fdfb2bcff51bbbb20ffa08/BLOG-3238_OG.png"
         },
@@ -291,16 +290,6 @@
           "wordCount": 2189,
           "title": "500 Tbps of capacity: 16 years of scaling our global network",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7tsjsNeAj5toAt2ZRo5uwp/aa7bfe97480257d1cbbdf2a2a92af55f/BLOG-3267_OG.png"
-        },
-        {
-          "id": "120kAbSMAaPQdCnfDgfd81",
-          "author": "Axel Boesenach",
-          "description": "By applying symbolic execution and the Z3 theorem prover to BPF bytecode, we’ve automated the generation of malware trigger packets, cutting analysis time from hours to seconds.",
-          "link": "https://blog.cloudflare.com/from-bpf-to-packet/",
-          "publishedOn": "2026-04-08T13:00:00.000Z",
-          "wordCount": 2937,
-          "title": "From bytecode to bytes: automated magic packet generation",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3xF3BkpC1DnSInEpTWEk38/cf710612b19e522a6bae450e87e1280d/From_bytecode_to_bytes-_automated_magic_packet_generation-OG.png"
         }
       ]
     },
@@ -310,14 +299,14 @@
       "siteUrl": "https://code.visualstudio.com/",
       "articles": [
         {
-          "id": "https://code.visualstudio.com/updates/v1_115",
+          "id": "https://code.visualstudio.com/updates/v1_116",
           "author": null,
-          "description": "Learn what's new in Visual Studio Code 1.115\nRead the full article",
-          "link": "https://code.visualstudio.com/updates/v1_115",
-          "publishedOn": "2026-04-08T17:00:00.000Z",
-          "wordCount": 1563,
-          "title": "Visual Studio Code 1.115",
-          "imageUrl": "https://code.visualstudio.com/assets/updates/1_115/release-highlights.webp"
+          "description": "Learn what's new in Visual Studio Code 1.116 (Insiders)\nRead the full article",
+          "link": "https://code.visualstudio.com/updates/v1_116",
+          "publishedOn": "2026-04-15T17:00:00.000Z",
+          "wordCount": 935,
+          "title": "Visual Studio Code 1.116",
+          "imageUrl": "https://code.visualstudio.com/assets/updates/1_116/vscode-insiders-header.webp"
         }
       ]
     },
@@ -356,12 +345,22 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=29454",
+          "author": "Richard Seroter",
+          "description": "Today's links look at performing agentic engine optimization (AEO) on your content, what productive procrastination looks like, and bringing graph semantics to your data warehouse.",
+          "link": "https://seroter.com/2026/04/14/daily-reading-list-april-14-2026-763/",
+          "publishedOn": "2026-04-15T00:00:53.000Z",
+          "wordCount": 4308,
+          "title": "Daily Reading List – April 14, 2026 (#763)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
           "id": "http://seroter.com/?p=29434",
           "author": "Richard Seroter",
           "description": "Today's links look at which stage of the agentic SDLC uses the most tokens, how to best write agent skills, and whether AI certs are worth the investment.",
           "link": "https://seroter.com/2026/04/13/daily-reading-list-april-13-2026-762/",
           "publishedOn": "2026-04-13T23:45:20.000Z",
-          "wordCount": 4390,
+          "wordCount": 4398,
           "title": "Daily Reading List – April 13, 2026 (#762)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
@@ -418,7 +417,7 @@
           "description": "Researchers are developing hardware and algorithms to improve collaboration between divers and autonomous underwater vehicles engaged in maritime missions.",
           "link": "https://news.mit.edu/2026/human-machine-teaming-dives-underwater-0414",
           "publishedOn": "2026-04-14T13:00:00.000Z",
-          "wordCount": 2083,
+          "wordCount": 2068,
           "title": "Human-machine teaming dives underwater",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-lincoln-Gulf-Surveyor-Stringout.jpg"
         },
@@ -428,7 +427,7 @@
           "description": "As the School of Humanities, Arts, and Social Sciences marks 75 years, Dean Agustín Rayo reflects on how AI is reshaping higher education and why SHASS disciplines continue to be central to MIT’s mission.",
           "link": "https://news.mit.edu/2026/qa-mit-shass-and-future-of-education-age-ai-0414",
           "publishedOn": "2026-04-14T13:00:00.000Z",
-          "wordCount": 1743,
+          "wordCount": 1737,
           "title": "Q&A: MIT SHASS and the future of education in the age of AI",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-shass-agustin-rayo.jpg"
         },
@@ -438,7 +437,7 @@
           "description": "As the NC Ethics of Technology Postdoctoral Fellow, Michal Masny is advancing dialogue, teaching, and research into the social and ethical dimensions of new computing technologies.",
           "link": "https://news.mit.edu/2026/philosophy-work-michal-masny-0409",
           "publishedOn": "2026-04-09T18:00:00.000Z",
-          "wordCount": 1918,
+          "wordCount": 1908,
           "title": "A philosophy of work",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-philosophy-Michal-Masny.jpg"
         },
@@ -448,7 +447,7 @@
           "description": "Researchers use control theory to shed unnecessary complexity from AI models during training, cutting compute costs without sacrificing performance.",
           "link": "https://news.mit.edu/2026/new-technique-makes-ai-models-leaner-faster-while-still-learning-0409",
           "publishedOn": "2026-04-09T13:00:00.000Z",
-          "wordCount": 1996,
+          "wordCount": 1986,
           "title": "New technique makes AI models leaner and faster while they’re still learning",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-csail-compressm.jpg"
         }
@@ -464,24 +463,7 @@
       "title": "Thomas Fazi",
       "feedUrl": "https://www.thomasfazi.com/feed",
       "siteUrl": "https://www.thomasfazi.com",
-      "articles": [
-        {
-          "id": "https://www.thomasfazi.com/p/selling-the-eu-how-brussels-legitimates-393",
-          "author": "Thomas Fazi",
-          "description": "Part two of a new paper on how the EU has attempted to compensate for its lack of democracy legitimacy by relying on narratives that have functioned as tools of elite power and depoliticisation",
-          "link": "https://www.thomasfazi.com/p/selling-the-eu-how-brussels-legitimates-393",
-          "publishedOn": "2026-04-08T10:51:20.000Z",
-          "wordCount": null,
-          "title": "Selling the EU: How Brussels legitimates European integration — Part 2",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/4b80b1f3-034f-43bf-ad7b-5aa1ddd32d10_1924x1076.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4b80b1f3-034f-43bf-ad7b-5aa1ddd32d10_1924x1076.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Ian Welsh",
@@ -556,6 +538,94 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159555",
+          "author": "Scott Lemieux",
+          "description": "Shorter verbatim JD Vance: “I think it’s very, very important for the pope to be careful when he talks about matters of theology.” After President Donald Trump clashed with Pope Leo XIV over the war in Iran, Vice President JD Vance said the leader of the Catholic church should be careful when talking about theology. Vance, who converted to Catholicism […]\nThe post Area man who has been Catholic for 20 minutes lectures the Pontiff on the finer points of doctrine appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/area-man-who-has-been-catholic-for-20-minutes-lectures-the-pontiff-on-the-finer-points-of-doctrine",
+          "publishedOn": "2026-04-15T00:54:49.000Z",
+          "wordCount": null,
+          "title": "Area man who has been Catholic for 20 minutes lectures the Pontiff on the finer points of doctrine",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159551",
+          "author": "Erik Loomis",
+          "description": "America is sure making friends globally. An 86-year-old French woman who moved to the US to marry her 1950s sweetheart is being held in a crowded detention centre in Louisiana after she was arrested by immigration agents and cuffed by her hands and feet. The family of the woman, named only as Marie-Thérèse, said they […]\nThe post Protecting America From the Immigrant Hordes appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/protecting-america-from-the-immigrant-hordes",
+          "publishedOn": "2026-04-14T23:33:00.000Z",
+          "wordCount": null,
+          "title": "Protecting America From the Immigrant Hordes",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159549",
+          "author": "Paul Campos",
+          "description": "Charles Grassley, chair of the Senate Judiciary Committee, is a man who thinks ahead: Senate Judiciary Chairman Chuck Grassley named two conservative senators as preferred replacements for a potential Supreme Court vacancy created by Justice Samuel Alito‘s retirement, as Republicans race to lock in a younger conservative before control of the chamber potentially shifts hands. Grassley told reporters on Capitol […]\nThe post 127-year-old senator has plan for giving the SCOTUS a fresh-faced new look appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/127-year-old-senator-has-plan-for-giving-the-scotus-a-fresh-faced-new-look",
+          "publishedOn": "2026-04-14T22:51:34.000Z",
+          "wordCount": null,
+          "title": "127-year-old senator has plan for giving the SCOTUS a fresh-faced new look",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159538",
+          "author": "Shakezula",
+          "description": "Posey v. Bushnell is another perfect example of the white supremacist mindset. No matter how much these bottom feeders fuck around, it is unfair to allow them to find out, or to even suggest that they can or should ever have to do anything except fuck around. It’s also an example of what happens when […]\nThe post More white supremacist adventures with defamation law – The defendant FA/FO appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/more-white-supremacist-adventures-with-defamation-law-the-defendant-fa-fo",
+          "publishedOn": "2026-04-14T22:14:00.000Z",
+          "wordCount": null,
+          "title": "More white supremacist adventures with defamation law – The defendant FA/FO",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159544",
+          "author": "Cheryl Rofer",
+          "description": "As larger nations that have nuclear weapons attack smaller nations that don’t have nuclear weapons, conventional wisdom is that more nations will want nuclear weapons. This is less certain than much of the discussion makes it out to be. Three of the nations that have nuclear weapons – the United States, Russia, and China – […]\nThe post Why Nations Don’t Want Nuclear Weapons appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/why-nations-dont-want-nuclear-weapons",
+          "publishedOn": "2026-04-14T19:56:30.000Z",
+          "wordCount": null,
+          "title": "Why Nations Don’t Want Nuclear Weapons",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159542",
+          "author": "Scott Lemieux",
+          "description": "There was a good Times story preceding the election in Hungary about how a former Orban stronghold turned against him because the evidence of his extraordinary corruption had become too tangible to ignore, particularly in the context of a stagnating economy. The danger to competitive authoritarianism is that their electoral advantages push them further and […]\nThe post The political failure of slopulism appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-political-failure-of-slopulism",
+          "publishedOn": "2026-04-14T19:14:57.000Z",
+          "wordCount": null,
+          "title": "The political failure of slopulism",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159540",
+          "author": "Paul Campos",
+          "description": "I bet you can! This guy is a tenured professor at a fairly fancy school btw. “Mail-ins, riots, etc.” is a kind of miracle of Murc’s law near its theoretical maximum.\nThe post See if you can guess who is really to blame for the continuing political existence of Donald Trump appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/see-if-you-can-guess-who-is-really-to-blame-for-the-continuing-political-existence-of-donald-trump",
+          "publishedOn": "2026-04-14T15:46:35.000Z",
+          "wordCount": null,
+          "title": "See if you can guess who is really to blame for the continuing political existence of Donald Trump",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159533",
+          "author": "Paul Campos",
+          "description": "Kevin Williamson is a hard right cultural critic of long standing, who for many years was part of the National Review cartel. He’s best known in progressive circles I suppose for getting fired from the Atlantic a few months into his brief tenure there, after it was discovered that he had apparently advocated hanging as […]\nThe post Right wing intellectual disgust with Trump appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/right-wing-intellectual-disgust-with-trump",
+          "publishedOn": "2026-04-14T13:19:44.000Z",
+          "wordCount": null,
+          "title": "Right wing intellectual disgust with Trump",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=159525",
           "author": "Shakezula",
           "description": "A federal judge for the United States District Court for the Southern District of Florida has dismissed Trump v. Murdoch, tRump’s defamation suit against the Wall Street Journal. In a 17-page order, Judge Darrin Gayles found that, even assuming everything in Trump’s complaint is true, Trump’s lawsuit “comes nowhere close” to meeting the standard for […]\nThe post Someone just made another killing on Wall Street by distracting everyone from the Epstein files appeared first on Lawyers, Guns & Money.",
@@ -563,94 +633,6 @@
           "publishedOn": "2026-04-14T13:14:01.000Z",
           "wordCount": null,
           "title": "Someone just made another killing on Wall Street by distracting everyone from the Epstein files",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159514",
-          "author": "Robert Farley",
-          "description": "Some additional thoughts on the electoral defenestration of Viktor Orban: Orban’s arguments were seized upon by “traditionalists” in Russia, who argued that the West was attempting to destroy Russia’s particular cultural heritage—a combination of Orthodox Christianity with traditional, authoritarian political and economic structures. And despite cutting his teeth on anti-Soviet politics in the 1980s and 1990s, […]\nThe post You Don’t Have to Go Home, But You Can’t Stay Here appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/you-dont-have-to-go-home-but-you-cant-stay-here-2",
-          "publishedOn": "2026-04-14T12:00:41.000Z",
-          "wordCount": null,
-          "title": "You Don’t Have to Go Home, But You Can’t Stay Here",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159225",
-          "author": "Erik Loomis",
-          "description": "This is the grave of Mamie Till Mobley. Born in 1921 in Webb, Mississippi, Mamie Carthan grew up in Chicago. Her parents got out of Mississippi shortly after she was born, following the jobs and the relative lack of murderous violence north. They went to Chicago, which in fact did have murderous anti-black violence as […]\nThe post Erik Visits an American Grave, Part 2,117 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/erik-visits-an-american-grave-part-2117",
-          "publishedOn": "2026-04-14T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Erik Visits an American Grave, Part 2,117",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159516",
-          "author": "Shakezula",
-          "description": "Hahahahaha (White House link). On his historic trip to Budapest, Vice President JD Vance reinforced a new era of U.S.-Hungary bilateral cooperation in energy, technology, and security. The achievements outlined below advance a shared bilateral agenda rooted in innovation, strategic stability, and long‑term economic and security partnership. It was historic all right. Yesterday’s installment of […]\nThe post Bubbapest appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/bubbapest",
-          "publishedOn": "2026-04-14T08:14:00.000Z",
-          "wordCount": null,
-          "title": "Bubbapest",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159499",
-          "author": "Erik Loomis",
-          "description": "Every year, the Old Labor Hall in Barre, Vermont, that great home of the granite workers and its union, hosts a big May Day talk, cosponsored by the Vermont AFL-CIO. This year it is me. If you are in the area, come out and say hello. Info in image below, even if I haven’t been […]\nThe post May Day Talk, Barre, VT appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/may-day-talk-barre-vt",
-          "publishedOn": "2026-04-14T01:43:00.000Z",
-          "wordCount": null,
-          "title": "May Day Talk, Barre, VT",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159512",
-          "author": "Scott Lemieux",
-          "description": "Marisa Kabas has an excerpt from looks like a fascinating new book by a former top USAID official: Without introductions, Joel, who was eating a frozen Indian dinner, jumped right in. “In full transparency, we’re drawing down USAID,” he said. “We’d like you to walk us through your mission-critical functions so that we can close […]\nThe post Into the Wood Chipper appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/into-the-wood-chipper",
-          "publishedOn": "2026-04-14T00:46:49.000Z",
-          "wordCount": null,
-          "title": "Into the Wood Chipper",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159482",
-          "author": "Shakezula",
-          "description": "It’s a given that Orangeyhandias doesn’t give a shit about religion. If people aren’t worshipping him, he doesn’t care. However, since his first election he’s been surrounded by the worst sort of Evangelicals. And I do mean surrounded. And the worst. These people aren’t fans of Catholicism, to put it mildly. Some Evangelical leaders have […]\nThe post The Dope vs The Pope appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-dope-vs-the-pope",
-          "publishedOn": "2026-04-13T22:13:00.000Z",
-          "wordCount": null,
-          "title": "The Dope vs The Pope",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159507",
-          "author": "Shakezula",
-          "description": "About damn time. Rep. Eric Swalwell, a former Democratic frontrunner in the California gubernatorial race, resigned from Congress on Monday amid sexual misconduct allegations. Swalwell announced his resignation in a statement posted to his X account, while still denying some of the allegations made against him in recent days. “I am deeply sorry to my […]\nThe post California trash takes itself out appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/california-trash-takes-itself-out",
-          "publishedOn": "2026-04-13T21:59:22.000Z",
-          "wordCount": null,
-          "title": "California trash takes itself out",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159503",
-          "author": "Paul Campos",
-          "description": "Peter Baker on the front page of the New York Times: President Trump’s erratic behavior and extreme comments in recent days and weeks have turbocharged the crazy-like-a-fox-or-just-plain-crazy debate that has followed him on the national political stage for a decade. A series of disjointed, hard-to-follow and sometimes-profane statements capped by his “a whole civilization will […]\nThe post Critics say president is demented and mentally ill; White House disagrees appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/critics-say-president-is-demented-and-mentally-ill-white-house-disagrees",
-          "publishedOn": "2026-04-13T21:02:52.000Z",
-          "wordCount": null,
-          "title": "Critics say president is demented and mentally ill; White House disagrees",
           "itunes": {},
           "imageUrl": null
         }
