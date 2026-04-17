@@ -1,30 +1,497 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2026-04-15T08:02:34.187Z</id>
+    <id>urn:2026-04-17T13:56:10.999Z</id>
     <title>pchaganti | cleo</title>
-    <updated>2026-04-15T08:02:34.187Z</updated>
+    <updated>2026-04-17T13:56:10.999Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Jacob Andreas and Brett McGuire named Edgerton Award winners]]></title>
+        <id>https://news.mit.edu/2026/jacob-andreas-brett-mcguire-edgerton-award-winners-0417</id>
+        <link href="https://news.mit.edu/2026/jacob-andreas-brett-mcguire-edgerton-award-winners-0417"/>
+        <updated>2026-04-17T13:40:00.000Z</updated>
+        <summary type="html"><![CDATA[The associate professors of EECS and chemistry, respectively, are honored for exceptional contributions to teaching, research, and service at MIT.]]></summary>
+        <author>
+            <name>Danielle Randall Doughty | Jane Halpern | Department of Chemistry | Department of Electrical Engineering and Computer Science</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing the Agent Readiness score. Is your site agent-ready?]]></title>
+        <id>5t83bTn7Vt1EudTxQQ97NY</id>
+        <link href="https://blog.cloudflare.com/agent-readiness/"/>
+        <updated>2026-04-17T13:05:00.000Z</updated>
+        <summary type="html"><![CDATA[The Agent Readiness score can help site owners understand how well their websites support AI agents. Here we explore new standards, share Radar data, and detail how we made Cloudflare’s docs the most agent-friendly on the web.]]></summary>
+        <author>
+            <name>André Jesus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shared Dictionaries: compression that keeps up with the agentic web]]></title>
+        <id>1vrgbarIDanwhi6j2m6oNM</id>
+        <link href="https://blog.cloudflare.com/shared-dictionaries/"/>
+        <updated>2026-04-17T13:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, we’re excited to give you a sneak peek of our support for shared compression dictionaries, show you how it improves page load times, and reveal when you’ll be able to try the beta yourself.]]></summary>
+        <author>
+            <name>Alex Krivit</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Redirects for AI Training enforces canonical content]]></title>
+        <id>4Gi8lGLqjdsjywAFEKLLYW</id>
+        <link href="https://blog.cloudflare.com/ai-redirects/"/>
+        <updated>2026-04-17T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Soft directives don’t stop crawlers from ingesting deprecated content. Redirects for AI Training allows anybody on Cloudflare to redirect verified crawlers to canonical pages with one toggle and no origin changes.]]></summary>
+        <author>
+            <name>Cam Whiteside</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unweight: how we compressed an LLM 22% without sacrificing quality]]></title>
+        <id>5zArX1DmYGvf4WM0go16wb</id>
+        <link href="https://blog.cloudflare.com/unweight-tensor-compression/"/>
+        <updated>2026-04-17T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Running LLMs across Cloudflare’s network requires us to be smarter and more efficient about GPU memory bandwidth. That’s why we developed Unweight, a lossless inference-time compression system that achieves up to a 22% model footprint reduction, so that we can deliver faster and cheaper inference than ever before.]]></summary>
+        <author>
+            <name>Mari Galicer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Agents that remember: introducing Agent Memory]]></title>
+        <id>3VGCjw0ivWk7RfPbPZ9k9H</id>
+        <link href="https://blog.cloudflare.com/introducing-agent-memory/"/>
+        <updated>2026-04-17T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloudflare Agent Memory is a managed service that gives AI agents persistent memory, allowing them to recall what matters, forget what doesn't, and get smarter over time.]]></summary>
+        <author>
+            <name>Tyson Trautmann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Agents Week: network performance update]]></title>
+        <id>5SYHyUGFmSQjwi4u55DYUC</id>
+        <link href="https://blog.cloudflare.com/network-performance-agents-week/"/>
+        <updated>2026-04-17T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[By migrating our request handling layer to a Rust-based architecture called FL2, Cloudflare has increased its performance lead to 60% of the world’s top networks. We use real-user measurements and TCP connection trimeans to ensure our data reflects the actual experience of people on the Internet.]]></summary>
+        <author>
+            <name>Lai Yi Ohlsen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Flagship: feature flags built for the age of AI]]></title>
+        <id>3d8fI4f0doBxr4ybfKEymB</id>
+        <link href="https://blog.cloudflare.com/flagship/"/>
+        <updated>2026-04-17T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are launching Flagship, a native feature flag service built on Cloudflare’s global network to eliminate the latency of third-party providers. By using KV and Durable Objects, Flagship allows for sub-millisecond flag evaluation.]]></summary>
+        <author>
+            <name>Rohan Mukherjee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links 4/17/2026]]></title>
+        <id>https://www.nakedcapitalism.com/?p=308876</id>
+        <link href="https://www.nakedcapitalism.com/2026/04/links-4-17-2026.html"/>
+        <updated>2026-04-17T10:55:24.000Z</updated>
+        <author>
+            <name>Conor Gallagher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Iran War: Narrative Wars and Ceasefire Claims]]></title>
+        <id>https://www.nakedcapitalism.com/?p=308891</id>
+        <link href="https://www.nakedcapitalism.com/2026/04/iran-war-war-powers-vote-lebanon-ceasefire-trump.html"/>
+        <updated>2026-04-17T10:54:17.000Z</updated>
+        <summary type="html"><![CDATA[Today's Iran War Update: Ceasefire begins in Lebanon, material shortages hitting, War Powers vote comes up one short.]]></summary>
+        <author>
+            <name>Nat Wilson Turner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The EU’s Digital Gulag Is (Apparently) Ready to Roll]]></title>
+        <id>https://www.nakedcapitalism.com/?p=308841</id>
+        <link href="https://www.nakedcapitalism.com/2026/04/the-eus-digital-prison-complex-is-ready-for-roll-out.html"/>
+        <updated>2026-04-17T10:45:14.000Z</updated>
+        <summary type="html"><![CDATA["It is for parents to raise their children, and not the platforms."]]></summary>
+        <author>
+            <name>Nick Corbishley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Home Care Workers Launch Hunger Strike as 24-Hour Work Shifts Persist]]></title>
+        <id>https://www.nakedcapitalism.com/?p=308899</id>
+        <link href="https://www.nakedcapitalism.com/2026/04/home-care-workers-launch-hunger-strike-as-24-hour-work-shifts-persist.html"/>
+        <updated>2026-04-17T06:45:12.000Z</updated>
+        <summary type="html"><![CDATA[The battle over 24-hour care shifts has pitted the mostly immigrant women against vulnerable patients who rely on round-the-clock care.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bringing AI-driven protein-design tools to biologists everywhere]]></title>
+        <id>https://news.mit.edu/2026/bringing-ai-driven-protein-design-tools-everywhere-0417</id>
+        <link href="https://news.mit.edu/2026/bringing-ai-driven-protein-design-tools-everywhere-0417"/>
+        <updated>2026-04-17T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Founded by Tristan Bepler PhD ’20 and former MIT professor Tim Lu PhD ’07, OpenProtein.AI offers researchers open-source models and other tools for protein engineering.]]></summary>
+        <author>
+            <name>Zach Winn | MIT News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shakezula pivots to ShakezulAI]]></title>
+        <id>https://www.lawyersgunsmoneyblog.com/?p=159598</id>
+        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/shakezula-pivots-to-shakezulai"/>
+        <updated>2026-04-17T02:26:00.000Z</updated>
+        <summary type="html"><![CDATA[Apparently that’s all it takes to get people to throw massive amounts of money my way. I was inspired to make the change by Allbirds, a shoe company, which recently announced that it is going to pivot to AI. And not AI shoes. Allbirds (BIRD) stock veered nearly 30% lower on Thursday afternoon, sharply reversing […]
+The post Shakezula pivots to ShakezulAI appeared first on Lawyers, Guns & Money.]]></summary>
+        <author>
+            <name>Shakezula</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Election of the weekend: Bulgaria]]></title>
+        <id>https://www.lawyersgunsmoneyblog.com/?p=159547</id>
+        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/election-of-the-weekend-bulgaria"/>
+        <updated>2026-04-17T02:02:56.000Z</updated>
+        <summary type="html"><![CDATA[Bulgaria, known in some circles as the Peru of parliamentary regimes (NB: I just made that up), will hold its 7th snap election since 2021 on Sunday. All 240 seats in the national assembly will be elected via open list proportional representation across 31 districts, with a 4% threshold. The last election produced an unwieldy […]
+The post Election of the weekend: Bulgaria appeared first on Lawyers, Guns & Money.]]></summary>
+        <author>
+            <name>djw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Daily Reading List – April 16, 2026 (#765)]]></title>
+        <id>http://seroter.com/?p=29488</id>
+        <link href="https://seroter.com/2026/04/16/daily-reading-list-april-16-2026-765/"/>
+        <updated>2026-04-16T23:31:02.000Z</updated>
+        <summary type="html"><![CDATA[Today's links look at where developer wisdom comes from now, what happens when AI writes code faster than we can verify it, and why web dev in Dart might be a good idea.]]></summary>
+        <author>
+            <name>Richard Seroter</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You read the Bible Pete?]]></title>
+        <id>https://www.lawyersgunsmoneyblog.com/?p=159595</id>
+        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/you-read-the-bible-pete"/>
+        <updated>2026-04-16T21:36:45.000Z</updated>
+        <summary type="html"><![CDATA[There’s been a request to discuss this particularly ripe pile of bullshit, and we are nothing if not a full service blog: Pete Hegseth’s top spin doctor tried to defend his boss’s bizarre interpretation of a Pulp Fiction monologue during a Pentagon worship event on Wednesday. Chief Pentagon spokesperson Sean Parnell attempted to clarify on Thursday that Hegseth, […]
+The post You read the Bible Pete? appeared first on Lawyers, Guns & Money.]]></summary>
+        <author>
+            <name>Paul Campos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fairfax]]></title>
+        <id>https://www.lawyersgunsmoneyblog.com/?p=159590</id>
+        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/fairfax"/>
+        <updated>2026-04-16T18:26:37.000Z</updated>
+        <summary type="html"><![CDATA[Whoa. Former Lt. Gov. Justin Fairfax shot and killed his wife and then himself in an overnight murder-suicide in Annandale, Fairfax County Police Chief Kevin Davis said. Authorities were called to the 8100 block of Guinevere Drive shortly after midnight Thursday morning. When WUSA9 crews arrived, police were investigating at 8106 Guinevere Drive, which is […]
+The post Fairfax appeared first on Lawyers, Guns & Money.]]></summary>
+        <author>
+            <name>Robert Farley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The War on Iran Is to Isolate It From Its Neighbours and Curb a Rising Sunni Bloc]]></title>
+        <id>https://www.nakedcapitalism.com/?p=308881</id>
+        <link href="https://www.nakedcapitalism.com/2026/04/the-war-on-iran-is-to-isolate-it-from-its-neighbours-and-curb-a-rising-sunni-bloc.html"/>
+        <updated>2026-04-16T18:00:23.000Z</updated>
+        <summary type="html"><![CDATA[The War on Iran aims to break Tehran, curb a rising Sunni bloc, and secure Israeli hegemony in the Middle East. But it's not working]]></summary>
+        <author>
+            <name>Curro Jimenez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How GitHub uses eBPF to improve deployment safety]]></title>
+        <id>https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/</id>
+        <link href="https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/"/>
+        <updated>2026-04-16T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Learn how Github uses eBPF to detect and prevent circular dependencies in its deployment tooling. </p>
+<p>The post <a href="https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/">How GitHub uses eBPF to improve deployment safety</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>]]></summary>
+        <author>
+            <name>The latest from GitHub's engineering team - The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China Thinks Ahead To Reduce Its Reliance On Petroleum]]></title>
+        <id>https://www.ianwelsh.net/?p=24820</id>
+        <link href="https://www.ianwelsh.net/china-thinks-ahead-to-reduce-its-reliance-on-petroleum/"/>
+        <updated>2026-04-16T14:59:57.000Z</updated>
+        <summary type="html"><![CDATA[Near the start of the war I noted that the real issue with petroleum shortages wasn’t gasoline, it was diesel, bunker fuel (ships) and jet fuel. Diesel is, despite what many say, feasible to get off of: even some of the massive machines used for mining are already being switched over, and China is moving […]]]></summary>
+        <author>
+            <name>Ian Welsh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Anthropic’s Claude Opus 4.7 model in Amazon Bedrock]]></title>
+        <id>74610d9ecb5b04f2353a6abb813e02c40360e272</id>
+        <link href="https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/"/>
+        <updated>2026-04-16T14:49:33.000Z</updated>
+        <summary type="html"><![CDATA[AWS launches Claude Opus 4.7 in Amazon Bedrock, Anthropic's most intelligent Opus model for advancing performance across coding, long-running agents, and professional work. Claude Opus 4.7 is powered by Amazon Bedrock's next generation inference engine, purpose-built for generative AI inferencing and fine-tuning workloads.]]></summary>
+        <author>
+            <name>Channy Yun (윤석찬)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Before the flood]]></title>
+        <id>https://www.lawyersgunsmoneyblog.com/?p=159583</id>
+        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/before-the-flood-2"/>
+        <updated>2026-04-16T14:46:00.000Z</updated>
+        <summary type="html"><![CDATA[Ketanji Brown Jackson is continuing the trend of unusual truth-telling in public appearances:  Supreme CourtJustice Ketanji Brown Jackson has delivered a sustained attack on her conservative colleagues’ use of emergency orders to benefit the Trump administration, calling the orders “scratch-paper musings” that can “seem oblivious and thus ring hollow.” The court’s newest justice, Jackson delivered a […]
+The post Before the flood appeared first on Lawyers, Guns & Money.]]></summary>
+        <author>
+            <name>Scott Lemieux</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare’s AI Platform: an inference layer designed for agents]]></title>
+        <id>2vIUFXJLJcMgjgY6jFnQ7G</id>
+        <link href="https://blog.cloudflare.com/ai-platform/"/>
+        <updated>2026-04-16T14:05:00.000Z</updated>
+        <summary type="html"><![CDATA[We're building AI Gateway into a unified inference layer for AI, letting developers call models from 14+ providers. New features include Workers AI binding integration and an expanded catalog with multimodal models.]]></summary>
+        <author>
+            <name>Ming Lu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building the foundation for running extra-large language models]]></title>
+        <id>71xNLfh83S7Fg78QEcgdhf</id>
+        <link href="https://blog.cloudflare.com/high-performance-llms/"/>
+        <updated>2026-04-16T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We built a custom technology stack to run fast large language models on Cloudflare’s infrastructure. This post explores the engineering trade-offs and technical optimizations required to make high-performance AI inference accessible.]]></summary>
+        <author>
+            <name>Michelle Chen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Democracy Depends on Broad-Based Taxation—History Is Clear About That]]></title>
+        <id>https://www.nakedcapitalism.com/?p=308872</id>
+        <link href="https://www.nakedcapitalism.com/2026/04/democracy-depends-on-broad-based-taxation-history-is-clear-about-that.html"/>
+        <updated>2026-04-16T13:55:57.000Z</updated>
+        <summary type="html"><![CDATA[How governments raise revenue, as in taxation versus slavery or external extraction, determines their accountability to citizens.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shorter Clarence Thomas: Progressives are traitors, and my wife’s seditious attempt to overthrow the government was therefore a good thing]]></title>
+        <id>https://www.lawyersgunsmoneyblog.com/?p=159587</id>
+        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/shorter-clarence-thomas-progressives-are-traitors-and-my-wifes-seditious-attempt-to-overthrow-the-government-was-therefore-a-good-thing"/>
+        <updated>2026-04-16T13:10:34.000Z</updated>
+        <summary type="html"><![CDATA[When I posted earlier this morning about Sonia Sotomayor apologizing to Brett Kavanaugb for hurting his feelings by telling the truth, I wasn’t aware that just a few hours earlier Clarence Thomas had declared that the approximately 55% of the population that doesn’t worship Confederate Jesus aren’t really Americans at all, and should be extirpated […]
+The post Shorter Clarence Thomas: Progressives are traitors, and my wife’s seditious attempt to overthrow the government was therefore a good thing appeared first on Lawyers, Guns & Money.]]></summary>
+        <author>
+            <name>Paul Campos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Artifacts: versioned storage that speaks Git]]></title>
+        <id>2sshzOlmGVsrtBz2mgeceE</id>
+        <link href="https://blog.cloudflare.com/artifacts-git-for-agents-beta/"/>
+        <updated>2026-04-16T13:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Give your agents, developers, and automations a home for code and data. We’ve just launched Artifacts: Git-compatible versioned storage built for agents. Create tens of millions of repos, fork from any remote, and hand off a URL to any Git client.]]></summary>
+        <author>
+            <name>Dillon Mulroy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Search: the search primitive for your agents]]></title>
+        <id>4l8kYFerKsLkZH2ZVaOoYf</id>
+        <link href="https://blog.cloudflare.com/ai-search-agent-primitive/"/>
+        <updated>2026-04-16T13:00:22.000Z</updated>
+        <summary type="html"><![CDATA[AI Search is the search primitive for your agents. Create instances dynamically, upload files, and search across instances with hybrid retrieval and relevance boosting. Just create a search instance, upload, and search.]]></summary>
+        <author>
+            <name>Gabriel Massadas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deploy Postgres and MySQL databases with PlanetScale + Workers]]></title>
+        <id>1IGJnHwj5QVRJm9iCdEqYV</id>
+        <link href="https://blog.cloudflare.com/deploy-planetscale-postgres-with-workers/"/>
+        <updated>2026-04-16T13:00:22.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to deploy PlanetScale Postgres and MySQL databases via Cloudflare and connect Cloudflare Workers.]]></summary>
+        <author>
+            <name>Vy Ton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[There’s a club, and you’re not in it]]></title>
+        <id>https://www.lawyersgunsmoneyblog.com/?p=159581</id>
+        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/theres-a-club-and-youre-not-in-it-2"/>
+        <updated>2026-04-16T11:56:46.000Z</updated>
+        <summary type="html"><![CDATA[This is very disappointing: Justice Sonia Sotomayor issued a highly unusual public apology to a colleague Wednesday, saying her criticism of Justice Brett Kavanaugh for his writing in an earlier immigration case was unfair. “At a recent appearance at the University of Kansas School of Law, I referred to a disagreement with one of my […]
+The post There’s a club, and you’re not in it appeared first on Lawyers, Guns & Money.]]></summary>
+        <author>
+            <name>Paul Campos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Erik Visits an American Grave, Part 2,119]]></title>
+        <id>https://www.lawyersgunsmoneyblog.com/?p=159374</id>
+        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/erik-visits-an-american-grave-part-2121"/>
+        <updated>2026-04-16T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the grave of Randy Castillo. Born in Albuquerque, New Mexico in 1950, Castillo was just a regular kid, part Apache, part Hispano. And like a lot of regular kids, in 1964, he saw The Beatles perform on the Ed Sullivan Show. He was mesmerized, like so many. And like so many, he decided […]
+The post Erik Visits an American Grave, Part 2,119 appeared first on Lawyers, Guns & Money.]]></summary>
+        <author>
+            <name>Erik Loomis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links 4/16/2026]]></title>
+        <id>https://www.nakedcapitalism.com/?p=308833</id>
+        <link href="https://www.nakedcapitalism.com/2026/04/links-4-16-2026.html"/>
+        <updated>2026-04-16T10:55:42.000Z</updated>
+        <author>
+            <name>Haig Hovaness</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Iran War: Trump Expects Hugs From China, Israel Still Bombing Lebanon]]></title>
+        <id>https://www.nakedcapitalism.com/?p=308832</id>
+        <link href="https://www.nakedcapitalism.com/2026/04/iran-war-trump-hormuz-china-israel-lebanon.html"/>
+        <updated>2026-04-16T10:54:22.000Z</updated>
+        <summary type="html"><![CDATA[Today’s Iran war update: Trump claims he's opened the Strait to Chinese shipping, Israel launches the most massive attack yet on Lebanon, U.S. stocks hit record high.]]></summary>
+        <author>
+            <name>Nat Wilson Turner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jesus Christ! Xi Jinping Is Hugging Donald Trump on the Sidelines of Three US-Israeli Genocidal Wars]]></title>
+        <id>https://www.nakedcapitalism.com/?p=308859</id>
+        <link href="https://www.nakedcapitalism.com/2026/04/jesus-christ-xi-jinping-is-hugging-donald-trump-on-the-sidelines-of-three-us-israeli-genocidal-wars.html"/>
+        <updated>2026-04-16T08:07:24.000Z</updated>
+        <summary type="html"><![CDATA[Trump tries muscling Xi. Let me know how that works out.]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Satyajit Das: Book Essay: Walter Benjamin – Leftist Outsider, Man of Letters]]></title>
+        <id>https://www.nakedcapitalism.com/?p=308617</id>
+        <link href="https://www.nakedcapitalism.com/2026/04/satyajit-das-book-essay-walter-benjamin-leftist-outsider-man-of-letters.html"/>
+        <updated>2026-04-16T07:05:57.000Z</updated>
+        <summary type="html"><![CDATA[An overview of the acutely observant, enigmatic and quixotic writer and thinker, Walter Benjamin]]></summary>
+        <author>
+            <name>Yves Smith</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare Email Service: now in public beta. Ready for your agents]]></title>
+        <id>3G2uQLc6OAHayqaZxxDrrZ</id>
+        <link href="https://blog.cloudflare.com/email-for-agents/"/>
+        <updated>2026-04-16T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Agents are becoming multi-channel. That means making them available wherever your users already are — including the inbox. Today, Cloudflare Email Service enters public beta with the infrastructure layer to make that easy: send, receive, and process email natively from your agents.]]></summary>
+        <author>
+            <name>Thomas Gauvin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Eastman and Down (for the count)]]></title>
+        <id>https://www.lawyersgunsmoneyblog.com/?p=159579</id>
+        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/eastman-and-down-for-the-count"/>
+        <updated>2026-04-16T01:42:17.000Z</updated>
+        <summary type="html"><![CDATA[And that’s that: John Eastman, the veteran conservative attorney who devised a radical, last-ditch strategy to help Donald Trump subvert the 2020 election, can no longer practice law in California. The California Supreme Court on Wednesday turned down Eastman’s final bid to salvage his law license, upholding the decision by lower-court judges to order Eastman’s disbarment over […]
+The post Eastman and Down (for the count) appeared first on Lawyers, Guns & Money.]]></summary>
+        <author>
+            <name>Scott Lemieux</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Daily Reading List – April 15, 2026 (#764)]]></title>
+        <id>http://seroter.com/?p=29467</id>
+        <link href="https://seroter.com/2026/04/15/daily-reading-list-april-15-2026-763/"/>
+        <updated>2026-04-15T23:57:07.000Z</updated>
+        <summary type="html"><![CDATA[Today's links look at how to get developers to read the docs, why great teams can't be copied, and how to set up Claude Code with Vertex AI.]]></summary>
+        <author>
+            <name>Richard Seroter</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Visual Studio Code 1.116]]></title>
         <id>https://code.visualstudio.com/updates/v1_116</id>
         <link href="https://code.visualstudio.com/updates/v1_116"/>
         <updated>2026-04-15T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn what's new in Visual Studio Code 1.116 (Insiders)
+        <summary type="html"><![CDATA[Learn what's new in Visual Studio Code 1.116
 Read the full article]]></summary>
         <author>
             <name>Visual Studio Code - Code Editing. Redefined.</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Area man who has been Catholic for 20 minutes lectures the Pontiff on the finer points of doctrine]]></title>
-        <id>https://www.lawyersgunsmoneyblog.com/?p=159555</id>
-        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/area-man-who-has-been-catholic-for-20-minutes-lectures-the-pontiff-on-the-finer-points-of-doctrine"/>
-        <updated>2026-04-15T00:54:49.000Z</updated>
-        <summary type="html"><![CDATA[Shorter verbatim JD Vance: “I think it’s very, very important for the pope to be careful when he talks about matters of theology.” After President Donald Trump clashed with Pope Leo XIV over the war in Iran, Vice President JD Vance said the leader of the Catholic church should be careful when talking about theology. Vance, who converted to Catholicism […]
-The post Area man who has been Catholic for 20 minutes lectures the Pontiff on the finer points of doctrine appeared first on Lawyers, Guns & Money.]]></summary>
+        <title type="html"><![CDATA[Acknowledging the Human In Each Other]]></title>
+        <id>https://www.ianwelsh.net/?p=24813</id>
+        <link href="https://www.ianwelsh.net/acknowledging-the-human-in-each-other/"/>
+        <updated>2026-04-15T13:31:58.000Z</updated>
+        <summary type="html"><![CDATA[I’ve spent a lot of time around doctors and nurses and low level bureaucrats. Way too much time. I’ve learned a couple things as a result, however. You get the best care from doctors or service from anyone else when they feel you as a human. The best way to get them to feel you […]]]></summary>
         <author>
-            <name>Scott Lemieux</name>
+            <name>Ian Welsh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Project Think: building the next generation of AI agents on Cloudflare]]></title>
+        <id>3r2ykMs0LTSPwVHmVWldCy</id>
+        <link href="https://blog.cloudflare.com/project-think/"/>
+        <updated>2026-04-15T13:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Announcing a preview of the next edition of the Agents SDK — from lightweight primitives to a batteries-included platform for AI agents that think, act, and persist.]]></summary>
+        <author>
+            <name>Sunil Pai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Agent Lee - a new interface to the Cloudflare stack]]></title>
+        <id>4KNkr1nK6i3lbBEBRWnt5z</id>
+        <link href="https://blog.cloudflare.com/introducing-agent-lee/"/>
+        <updated>2026-04-15T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Agent Lee is an in-dashboard agent that shifts Cloudflare’s interface from manual tab-switching to a single prompt. Using sandboxed TypeScript, it helps you troubleshoot and manage your stack as a grounded technical collaborator.]]></summary>
+        <author>
+            <name>Kylie Czajkowski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Register domains wherever you build: Cloudflare Registrar API now in beta]]></title>
+        <id>oXDvwP79G3OGr3XDAFwmD</id>
+        <link href="https://blog.cloudflare.com/registrar-api-beta/"/>
+        <updated>2026-04-15T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Cloudflare Registrar API is now in beta. Developers and AI agents can search, check availability, and register domains at cost directly from their editor, their terminal, or their agent — without leaving their workflow.]]></summary>
+        <author>
+            <name>Ankit Shah</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Browser Run: give your agents a browser]]></title>
+        <id>160lCssR1GA8lEUV718ev5</id>
+        <link href="https://blog.cloudflare.com/browser-run-for-ai-agents/"/>
+        <updated>2026-04-15T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Browser Rendering is now Browser Run, with Live View, Human in the Loop, CDP access, session recordings, and 4x higher concurrency limits for AI agents.]]></summary>
+        <author>
+            <name>Kathy Liao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rearchitecting the Workflows control plane for the agentic era]]></title>
+        <id>5R3ZpKlSDaSxbIwmpXwWYJ</id>
+        <link href="https://blog.cloudflare.com/workflows-v2/"/>
+        <updated>2026-04-15T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cloudflare Workflows, a durable execution engine for multi-step applications, now supports higher concurrency and creation rate limits through a rearchitectured control plane, helping scale to meet the use cases for durable background agents.]]></summary>
+        <author>
+            <name>Luís Duarte</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Add voice to your agent]]></title>
+        <id>1t4PF8FLpPMGpgBd6UjBBv</id>
+        <link href="https://blog.cloudflare.com/voice-agents/"/>
+        <updated>2026-04-15T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An experimental voice pipeline for the Agents SDK enables real-time voice interactions over WebSockets. Developers can now build agents with continuous STT and TTS in just ~30 lines of server-side code.]]></summary>
+        <author>
+            <name>Sunil Pai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Selling the EU: How Brussels legitimates European integration — Part 3]]></title>
+        <id>https://www.thomasfazi.com/p/selling-the-eu-how-brussels-legitimates-ff5</id>
+        <link href="https://www.thomasfazi.com/p/selling-the-eu-how-brussels-legitimates-ff5"/>
+        <updated>2026-04-15T11:43:10.000Z</updated>
+        <summary type="html"><![CDATA[Part three of a new paper on how the EU has attempted to compensate for its lack of democracy legitimacy by relying on narratives that have functioned as tools of elite power and depoliticisation]]></summary>
+        <author>
+            <name>Thomas Fazi</name>
         </author>
     </entry>
     <entry>
@@ -48,92 +515,6 @@ The post Area man who has been Catholic for 20 minutes lectures the Pontiff on t
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Protecting America From the Immigrant Hordes]]></title>
-        <id>https://www.lawyersgunsmoneyblog.com/?p=159551</id>
-        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/protecting-america-from-the-immigrant-hordes"/>
-        <updated>2026-04-14T23:33:00.000Z</updated>
-        <summary type="html"><![CDATA[America is sure making friends globally. An 86-year-old French woman who moved to the US to marry her 1950s sweetheart is being held in a crowded detention centre in Louisiana after she was arrested by immigration agents and cuffed by her hands and feet. The family of the woman, named only as Marie-Thérèse, said they […]
-The post Protecting America From the Immigrant Hordes appeared first on Lawyers, Guns & Money.]]></summary>
-        <author>
-            <name>Erik Loomis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[127-year-old senator has plan for giving the SCOTUS a fresh-faced new look]]></title>
-        <id>https://www.lawyersgunsmoneyblog.com/?p=159549</id>
-        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/127-year-old-senator-has-plan-for-giving-the-scotus-a-fresh-faced-new-look"/>
-        <updated>2026-04-14T22:51:34.000Z</updated>
-        <summary type="html"><![CDATA[Charles Grassley, chair of the Senate Judiciary Committee, is a man who thinks ahead: Senate Judiciary Chairman Chuck Grassley named two conservative senators as preferred replacements for a potential Supreme Court vacancy created by Justice Samuel Alito‘s retirement, as Republicans race to lock in a younger conservative before control of the chamber potentially shifts hands. Grassley told reporters on Capitol […]
-The post 127-year-old senator has plan for giving the SCOTUS a fresh-faced new look appeared first on Lawyers, Guns & Money.]]></summary>
-        <author>
-            <name>Paul Campos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[More white supremacist adventures with defamation law – The defendant FA/FO]]></title>
-        <id>https://www.lawyersgunsmoneyblog.com/?p=159538</id>
-        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/more-white-supremacist-adventures-with-defamation-law-the-defendant-fa-fo"/>
-        <updated>2026-04-14T22:14:00.000Z</updated>
-        <summary type="html"><![CDATA[Posey v. Bushnell is another perfect example of the white supremacist mindset. No matter how much these bottom feeders fuck around, it is unfair to allow them to find out, or to even suggest that they can or should ever have to do anything except fuck around. It’s also an example of what happens when […]
-The post More white supremacist adventures with defamation law – The defendant FA/FO appeared first on Lawyers, Guns & Money.]]></summary>
-        <author>
-            <name>Shakezula</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Nations Don’t Want Nuclear Weapons]]></title>
-        <id>https://www.lawyersgunsmoneyblog.com/?p=159544</id>
-        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/why-nations-dont-want-nuclear-weapons"/>
-        <updated>2026-04-14T19:56:30.000Z</updated>
-        <summary type="html"><![CDATA[As larger nations that have nuclear weapons attack smaller nations that don’t have nuclear weapons, conventional wisdom is that more nations will want nuclear weapons. This is less certain than much of the discussion makes it out to be. Three of the nations that have nuclear weapons – the United States, Russia, and China – […]
-The post Why Nations Don’t Want Nuclear Weapons appeared first on Lawyers, Guns & Money.]]></summary>
-        <author>
-            <name>Cheryl Rofer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The political failure of slopulism]]></title>
-        <id>https://www.lawyersgunsmoneyblog.com/?p=159542</id>
-        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/the-political-failure-of-slopulism"/>
-        <updated>2026-04-14T19:14:57.000Z</updated>
-        <summary type="html"><![CDATA[There was a good Times story preceding the election in Hungary about how a former Orban stronghold turned against him because the evidence of his extraordinary corruption had become too tangible to ignore, particularly in the context of a stagnating economy. The danger to competitive authoritarianism is that their electoral advantages push them further and […]
-The post The political failure of slopulism appeared first on Lawyers, Guns & Money.]]></summary>
-        <author>
-            <name>Scott Lemieux</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coffee Break: Armed Madhouse – Eyes in the Sky that Cannot Hide]]></title>
-        <id>https://www.nakedcapitalism.com/?p=308682</id>
-        <link href="https://www.nakedcapitalism.com/2026/04/coffee-break-armed-madhouse-flying-eyes-that-cannot-hide.html"/>
-        <updated>2026-04-14T18:00:19.000Z</updated>
-        <summary type="html"><![CDATA[Airborne ISR has long been treated as a source of persistent, reliable battlefield awareness. But the conditions that enable this capability also create structural vulnerabilities. As sensor networks improve and contested environments intensify, ISR effectiveness becomes conditional rather than assured.]]></summary>
-        <author>
-            <name>Haig Hovaness</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[See if you can guess who is really to blame for the continuing political existence of Donald Trump]]></title>
-        <id>https://www.lawyersgunsmoneyblog.com/?p=159540</id>
-        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/see-if-you-can-guess-who-is-really-to-blame-for-the-continuing-political-existence-of-donald-trump"/>
-        <updated>2026-04-14T15:46:35.000Z</updated>
-        <summary type="html"><![CDATA[I bet you can! This guy is a tenured professor at a fairly fancy school btw. “Mail-ins, riots, etc.” is a kind of miracle of Murc’s law near its theoretical maximum.
-The post See if you can guess who is really to blame for the continuing political existence of Donald Trump appeared first on Lawyers, Guns & Money.]]></summary>
-        <author>
-            <name>Paul Campos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[They Speak for the Trees: Meet the ‘Petal Protectors’ Guarding NYC’s Cherry Blossoms]]></title>
-        <id>https://www.nakedcapitalism.com/?p=308620</id>
-        <link href="https://www.nakedcapitalism.com/2026/04/they-speak-for-the-trees-meet-the-petal-protectors-guarding-nycs-cherry-blossoms.html"/>
-        <updated>2026-04-14T13:55:50.000Z</updated>
-        <summary type="html"><![CDATA[Touching or shaking the fragile flowering cherry  trees can harm them. Volunteers on Roosevelt Island make sure that doesn’t happen.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Ramadan War Could Be Decided by a Sunni Coalition]]></title>
         <id>https://www.ianwelsh.net/?p=24788</id>
         <link href="https://www.ianwelsh.net/ramadan-war-could-be-decided-by-a-sunni-coalition/"/>
@@ -144,28 +525,6 @@ The post See if you can guess who is really to blame for the continuing politica
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Right wing intellectual disgust with Trump]]></title>
-        <id>https://www.lawyersgunsmoneyblog.com/?p=159533</id>
-        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/right-wing-intellectual-disgust-with-trump"/>
-        <updated>2026-04-14T13:19:44.000Z</updated>
-        <summary type="html"><![CDATA[Kevin Williamson is a hard right cultural critic of long standing, who for many years was part of the National Review cartel. He’s best known in progressive circles I suppose for getting fired from the Atlantic a few months into his brief tenure there, after it was discovered that he had apparently advocated hanging as […]
-The post Right wing intellectual disgust with Trump appeared first on Lawyers, Guns & Money.]]></summary>
-        <author>
-            <name>Paul Campos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Someone just made another killing on Wall Street by distracting everyone from the Epstein files]]></title>
-        <id>https://www.lawyersgunsmoneyblog.com/?p=159525</id>
-        <link href="https://www.lawyersgunsmoneyblog.com/2026/04/someone-just-made-another-killing-on-polymarket-by-distracting-everyone-from-the-epstein-files"/>
-        <updated>2026-04-14T13:14:01.000Z</updated>
-        <summary type="html"><![CDATA[A federal judge for the United States District Court for the Southern District of Florida has dismissed Trump v. Murdoch, tRump’s defamation suit against the Wall Street Journal. In a 17-page order, Judge Darrin Gayles found that, even assuming everything in Trump’s complaint is true, Trump’s lawsuit “comes nowhere close” to meeting the standard for […]
-The post Someone just made another killing on Wall Street by distracting everyone from the Epstein files appeared first on Lawyers, Guns & Money.]]></summary>
-        <author>
-            <name>Shakezula</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Securing non-human identities: automated revocation, OAuth, and scoped permissions]]></title>
         <id>4cMjGGRR98LV3HgGdwgWrf</id>
         <link href="https://blog.cloudflare.com/improved-developer-security/"/>
@@ -173,36 +532,6 @@ The post Someone just made another killing on Wall Street by distracting everyon
         <summary type="html"><![CDATA[Cloudflare is introducing scannable API tokens, enhanced OAuth visibility, and GA for resource-scoped permissions. These tools help developers implement a true least-privilege architecture while protecting against credential leakage.]]></summary>
         <author>
             <name>Justin Hutchings</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scaling MCP adoption: Our reference architecture for simpler, safer and cheaper enterprise deployments of MCP]]></title>
-        <id>73AaroR7GH8sXdbfIV99Fl</id>
-        <link href="https://blog.cloudflare.com/enterprise-mcp/"/>
-        <updated>2026-04-14T13:00:10.000Z</updated>
-        <summary type="html"><![CDATA[We share Cloudflare's internal strategy for governing MCP using Access, AI Gateway, and MCP server portals. We also launch Code Mode to slash token costs and recommend new rules for detecting Shadow MCP in Cloudflare Gateway.]]></summary>
-        <author>
-            <name>Sharon Goldberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managed OAuth for Access: make internal apps agent-ready in one click]]></title>
-        <id>6pXy7tbG2SlwZZPQuO14Rq</id>
-        <link href="https://blog.cloudflare.com/managed-oauth-for-access/"/>
-        <updated>2026-04-14T13:00:10.000Z</updated>
-        <summary type="html"><![CDATA[Managed OAuth for Cloudflare Access helps AI agents securely navigate internal applications. By adopting RFC 9728, agents can authenticate on behalf of users without using insecure service accounts.]]></summary>
-        <author>
-            <name>Eduardo Gomes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secure private networking for everyone: users, nodes, agents, Workers — introducing Cloudflare Mesh]]></title>
-        <id>iAIJH3zvDaXoiDMugrwOv</id>
-        <link href="https://blog.cloudflare.com/mesh/"/>
-        <updated>2026-04-14T13:00:09.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare Mesh provides secure, private network access for users, nodes, and autonomous AI agents. By integrating with Workers VPC, developers can now grant agents scoped access to private databases and APIs without manual tunnels.]]></summary>
-        <author>
-            <name>Nikita Cano</name>
         </author>
     </entry>
     <entry>
@@ -226,45 +555,6 @@ The post Someone just made another killing on Wall Street by distracting everyon
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Links 4/14/2026]]></title>
-        <id>https://www.nakedcapitalism.com/?p=308631</id>
-        <link href="https://www.nakedcapitalism.com/2026/04/links-4-14-2026.html"/>
-        <updated>2026-04-14T10:59:02.000Z</updated>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iran War: Contested Reports About US Blockade Failure in First 24 Hours as Saudi Arabia Protests and Experts Warn of Difficulty and High Risk; Markets Still Buying Trump Howlers About Iran Begging for Deal Despite Intelligence-Insulting Lie About His Jesus Tweet]]></title>
-        <id>https://www.nakedcapitalism.com/?p=308734</id>
-        <link href="https://www.nakedcapitalism.com/2026/04/iran-war-contested-reports-about-us-blockade-failure-in-first-24-hours-as-saudi-arabia-protests-and-experts-warn-of-difficulty-and-high-risk-markets-still-buying-trump-howlers-about-iran-begging-for.html"/>
-        <updated>2026-04-14T10:54:50.000Z</updated>
-        <summary type="html"><![CDATA[Today's Iran war update: Trump's blockage of Iran ports looks to be unraveling but Mr. Market  will grasp at any happy news straws.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[With US Bogged Down in West Asia, Cuba Agrees to Grant Russian Companies Management of Cuban Industries]]></title>
-        <id>https://www.nakedcapitalism.com/?p=308689</id>
-        <link href="https://www.nakedcapitalism.com/2026/04/with-us-bogged-down-in-iran-russia-just-took-over-management-of-cubas-industrial-facilities.html"/>
-        <updated>2026-04-14T10:45:00.000Z</updated>
-        <summary type="html"><![CDATA["Russia is not going to leave the Western Hemisphere, no matter what they say in Washington."]]></summary>
-        <author>
-            <name>Nick Corbishley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kevork Almassian, Michael Hudson, and Tarik Cyril Amar: Has the Iran War Created a New Geopolitical Reality?]]></title>
-        <id>https://www.nakedcapitalism.com/?p=308731</id>
-        <link href="https://www.nakedcapitalism.com/2026/04/kevork-almassian-michael-hudson-and-tarik-cyril-amar-has-the-iran-war-created-a-new-geopolitical-reality.html"/>
-        <updated>2026-04-14T09:28:27.000Z</updated>
-        <summary type="html"><![CDATA[How the US is massively hoist on its own petard with its Iran miscalculations]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Daily Reading List – April 13, 2026 (#762)]]></title>
         <id>http://seroter.com/?p=29434</id>
         <link href="https://seroter.com/2026/04/13/daily-reading-list-april-13-2026-762/"/>
@@ -282,16 +572,6 @@ The post Someone just made another killing on Wall Street by distracting everyon
         <summary type="html"><![CDATA[Introduction AWS Elastic Beanstalk simplifies the process of deploying and scaling web applications. You upload your code, and Elastic Beanstalk handles capacity provisioning, load balancing, auto scaling, and application health monitoring. Elastic Beanstalk now offers AI Analysis to help troubleshoot environment health issues. When you request an analysis, Elastic Beanstalk triggers a script on the […]]]></summary>
         <author>
             <name>Chandu Utlapalli</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coffee Break: Information War Goes Sectarian, Trump vs. the Pope]]></title>
-        <id>https://www.nakedcapitalism.com/?p=308695</id>
-        <link href="https://www.nakedcapitalism.com/2026/04/trump-pope-leo-sectarian-conflict-zionism-evangelicals-dispensationalism.html"/>
-        <updated>2026-04-13T18:00:54.000Z</updated>
-        <summary type="html"><![CDATA[POTUS Trump's ugly and open social media conflict with Pope Leo XIV is a new chapter in the information war that shows some deep sectarian cracks in the American pro-war consensus.]]></summary>
-        <author>
-            <name>Nat Wilson Turner</name>
         </author>
     </entry>
     <entry>
@@ -315,75 +595,6 @@ The post Someone just made another killing on Wall Street by distracting everyon
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building a CLI for all of Cloudflare]]></title>
-        <id>5r3Nx1IDtp6B6GRDHqQyWL</id>
-        <link href="https://blog.cloudflare.com/cf-cli-local-explorer/"/>
-        <updated>2026-04-13T14:29:45.000Z</updated>
-        <summary type="html"><![CDATA[We’re introducing cf, a new unified CLI designed for consistency across the Cloudflare platform, alongside Local Explorer for debugging local data. These tools simplify how developers and AI agents interact with our nearly 3,000 API operations.]]></summary>
-        <author>
-            <name>Matt “TK” Taylor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Causes & Consequences of Orban’s Downfall]]></title>
-        <id>https://www.nakedcapitalism.com/?p=308684</id>
-        <link href="https://www.nakedcapitalism.com/2026/04/the-causes-consequences-of-orbans-downfall.html"/>
-        <updated>2026-04-13T13:42:38.000Z</updated>
-        <summary type="html"><![CDATA["Most Hungarians came to take Orban for granted and won’t appreciate what they had until it’s gone."]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Durable Objects in Dynamic Workers: Give each AI-generated app its own database]]></title>
-        <id>2OYAJUdGLODlCXKKdCZMeG</id>
-        <link href="https://blog.cloudflare.com/durable-object-facets-dynamic-workers/"/>
-        <updated>2026-04-13T13:08:35.000Z</updated>
-        <summary type="html"><![CDATA[We’re introducing Durable Object Facets, allowing Dynamic Workers to instantiate Durable Objects with their own isolated SQLite databases. This enables developers to build platforms that run persistent, stateful code generated on-the-fly.]]></summary>
-        <author>
-            <name>Kenton Varda</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Agents have their own computers with Sandboxes GA]]></title>
-        <id>7jXMXMjQUIpjGzJdPadO4a</id>
-        <link href="https://blog.cloudflare.com/sandbox-ga/"/>
-        <updated>2026-04-13T13:08:35.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare Sandboxes give AI agents a persistent, isolated environment: a real computer with a shell, a filesystem, and background processes that starts on demand and picks up exactly where it left off.]]></summary>
-        <author>
-            <name>Kate Reznykova</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dynamic, identity-aware, and secure Sandbox auth]]></title>
-        <id>3j8ROSAUomMNPrmru3f2U9</id>
-        <link href="https://blog.cloudflare.com/sandbox-auth/"/>
-        <updated>2026-04-13T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Outbound Workers for Sandboxes provide a programmable, zero-trust egress proxy for AI agents. This allows developers to inject credentials and enforce dynamic security policies without exposing sensitive tokens to untrusted code.]]></summary>
-        <author>
-            <name>Mike Nomitch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links 4/13/2026]]></title>
-        <id>https://www.nakedcapitalism.com/?p=308602</id>
-        <link href="https://www.nakedcapitalism.com/2026/04/links-4-13-2026.html"/>
-        <updated>2026-04-13T10:55:34.000Z</updated>
-        <author>
-            <name>Conor Gallagher</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iran War: US Imposing Strait of Hormuz Blockade Monday AM; Experts Criticize Further Pressure on Oil Prices, Illegality, and Risk of Failure; Will Houthis Close the Red Sea to Back Iran?]]></title>
-        <id>https://www.nakedcapitalism.com/?p=308646</id>
-        <link href="https://www.nakedcapitalism.com/2026/04/iran-war-us-imposing-strait-of-hormuz-blockade-monday-am-experts-criticize-further-pressure-on-oil-prices-illegality-and-risk-of-failure-will-houthis-close-the-red-sea-to-back-iran.html"/>
-        <updated>2026-04-13T10:54:38.000Z</updated>
-        <summary type="html"><![CDATA[Today's Iran war update: Trump again demonstrates his need to dominate results in self, US and global harm, here with a barmy blockade plan.]]></summary>
-        <author>
-            <name>Yves Smith</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Week-end Wrap – Political Economy – April 12, 2026]]></title>
         <id>https://www.ianwelsh.net/?p=24781</id>
         <link href="https://www.ianwelsh.net/24781-2/"/>
@@ -391,18 +602,6 @@ The post Someone just made another killing on Wall Street by distracting everyon
         <summary type="html"><![CDATA[by Tony Wikrent   “A curtain of darkness is settling over our nation.” Heather Cox Richardson, Apr 11, 2026 [Letters from an American, April 10, 2026] It feels like something shifted in the United States this week after President Donald J. Trump threatened on Tuesday that “a whole civilization will die tonight, never to be brought […]]]></summary>
         <author>
             <name>Tony Wikrent</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome to Agents Week]]></title>
-        <id>4dZj0C0XnS9BJQnxy2QkzY</id>
-        <link href="https://blog.cloudflare.com/welcome-to-agents-week/"/>
-        <updated>2026-04-12T17:01:05.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare's mission has always been to help build a better Internet. Sometimes that means building for the Internet as it exists. Sometimes it means building for the Internet as it's about to become. 
-
-This week, we're kicking off Agents Week, dedicated to what comes next.]]></summary>
-        <author>
-            <name>Rita Kozlov</name>
         </author>
     </entry>
     <entry>
@@ -423,105 +622,6 @@ This week, we're kicking off Agents Week, dedicated to what comes next.]]></summ
         <summary type="html"><![CDATA[Use to discuss topics unrelated to recent posts.]]></summary>
         <author>
             <name>Ian Welsh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daily Reading List – April 10, 2026 (#761)]]></title>
-        <id>http://seroter.com/?p=29389</id>
-        <link href="https://seroter.com/2026/04/10/daily-reading-list-april-10-2026-761/"/>
-        <updated>2026-04-10T23:08:02.000Z</updated>
-        <summary type="html"><![CDATA[Today's links look at what's really happening with AI adoption in the enterprise, why there's a hidden cost of comfort, and how to study for finals with Gemini.]]></summary>
-        <author>
-            <name>Richard Seroter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[500 Tbps of capacity: 16 years of scaling our global network]]></title>
-        <id>14NmmkLAEg9hFIbB9bosqh</id>
-        <link href="https://blog.cloudflare.com/500-tbps-of-capacity/"/>
-        <updated>2026-04-10T18:00:05.000Z</updated>
-        <summary type="html"><![CDATA[Cloudflare’s global network has officially crossed 500 Tbps of external capacity, enough to route more than 20% of the web and absorb the largest DDoS attacks ever recorded.]]></summary>
-        <author>
-            <name>Tanner Ryan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Serge Halimi: &ldquo;Left Impasse&rdquo;]]></title>
-        <id>https://newleftreview.org/sidecar/posts/left-impasse</id>
-        <link href="https://newleftreview.org/sidecar/posts/left-impasse"/>
-        <updated>2026-04-10T17:14:11.000Z</updated>
-        <summary type="html"><![CDATA[France’s political landscape.]]></summary>
-        <author>
-            <name>New Left Review Sidecar recent posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evaluating Netflix Show Synopses with LLM-as-a-Judge]]></title>
-        <id>https://medium.com/p/6269251e6f28</id>
-        <link href="https://netflixtechblog.com/evaluating-netflix-show-synopses-with-llm-as-a-judge-6269251e6f28?source=rss----2615bd06b42e---4"/>
-        <updated>2026-04-10T16:26:01.000Z</updated>
-        <author>
-            <name>Netflix Technology Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[American Profits Are One Of The Causes of American Decline]]></title>
-        <id>https://www.ianwelsh.net/?p=24734</id>
-        <link href="https://www.ianwelsh.net/america-profits-are-one-of-the-causes-of-american-decline/"/>
-        <updated>2026-04-10T02:55:55.000Z</updated>
-        <summary type="html"><![CDATA[Stumbled upon this chart of US corporate profits vs. corporate taxes. The important part isn’t the taxes, it’s the profits. (Note that this is nominal and doesn’t include inflation adjustment, not that American inflation numbers mean anything anyway.) Now let’s look at another chart. This one of his how much profit companies that produce actual […]]]></summary>
-        <author>
-            <name>Ian Welsh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daily Reading List – April 9, 2026 (#760)]]></title>
-        <id>http://seroter.com/?p=29372</id>
-        <link href="https://seroter.com/2026/04/09/daily-reading-list-april-9-2026-760/"/>
-        <updated>2026-04-09T23:47:52.000Z</updated>
-        <summary type="html"><![CDATA[Today's links look at the epidemic of bloated web pages, when you hit your ceiling on parallel agents, and how developer ramp-up time keeps getting shorter.]]></summary>
-        <author>
-            <name>Richard Seroter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A philosophy of work]]></title>
-        <id>https://news.mit.edu/2026/philosophy-work-michal-masny-0409</id>
-        <link href="https://news.mit.edu/2026/philosophy-work-michal-masny-0409"/>
-        <updated>2026-04-09T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As the NC Ethics of Technology Postdoctoral Fellow, Michal Masny is advancing dialogue, teaching, and research into the social and ethical dimensions of new computing technologies.]]></summary>
-        <author>
-            <name>Benjamin Daniel | School of Humanities, Arts, and Social Sciences</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New technique makes AI models leaner and faster while they’re still learning]]></title>
-        <id>https://news.mit.edu/2026/new-technique-makes-ai-models-leaner-faster-while-still-learning-0409</id>
-        <link href="https://news.mit.edu/2026/new-technique-makes-ai-models-leaner-faster-while-still-learning-0409"/>
-        <updated>2026-04-09T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Researchers use control theory to shed unnecessary complexity from AI models during training, cutting compute costs without sacrificing performance.]]></summary>
-        <author>
-            <name>Rachel Gordon | MIT CSAIL</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Daily Reading List – April 8, 2026 (#759)]]></title>
-        <id>http://seroter.com/?p=29359</id>
-        <link href="https://seroter.com/2026/04/08/daily-reading-list-april-8-2026-759/"/>
-        <updated>2026-04-09T00:10:23.000Z</updated>
-        <summary type="html"><![CDATA[Today's links look at the 2nd phase of agentic development, how to use AI before writing the first line of code, and who's crushing it at delivering sovereign clouds.]]></summary>
-        <author>
-            <name>Richard Seroter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Twin Pillars of the Interregnum of Unreality Are Under Stress]]></title>
-        <id>https://www.ianwelsh.net/?p=24721</id>
-        <link href="https://www.ianwelsh.net/the-twin-pillars-of-the-interregnum-of-unreality-are-under-stress/"/>
-        <updated>2026-04-08T20:23:06.000Z</updated>
-        <summary type="html"><![CDATA[Guest Post by Nat Wilson Turner Last Fall, I posited that the US and greater West are in the grips of an Interregnum of Unreality that began when Barack Obama successfully papered over the Great Financial Crisis while addressing none of the causes and leaving the very same banksters whose antics caused the crisis in […]]]></summary>
-        <author>
-            <name>Nat Wilson Turner</name>
         </author>
     </entry>
 </feed>
