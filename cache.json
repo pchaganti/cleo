@@ -12,6 +12,16 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "7ede0be548a2a16163211e9928eb15724ac9e296",
+          "author": "Sébastien Stormacq",
+          "description": "Claude Opus 4.7 arrives in Amazon Bedrock with improved agentic coding and a 1M token context window. AWS Interconnect reaches general availability with multicloud private connectivity and a new last-mile option. Plus, post-quantum TLS for Secrets Manager, new C8in/C8ib EC2 instances, and more.",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-7-in-amazon-bedrock-aws-interconnect-ga-and-more-april-20-2026/",
+          "publishedOn": "2026-04-20T15:53:21.000Z",
+          "wordCount": 32600,
+          "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/08/AWS-WIR-default-AWSNEWS-2068.png"
+        },
+        {
           "id": "74610d9ecb5b04f2353a6abb813e02c40360e272",
           "author": "Channy Yun (윤석찬)",
           "description": "AWS launches Claude Opus 4.7 in Amazon Bedrock, Anthropic's most intelligent Opus model for advancing performance across coding, long-running agents, and professional work. Claude Opus 4.7 is powered by Amazon Bedrock's next generation inference engine, purpose-built for generative AI inferencing and fine-tuning workloads.",
@@ -84,6 +94,16 @@
       "feedUrl": "https://www.nakedcapitalism.com/feed",
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
+        {
+          "id": "https://www.nakedcapitalism.com/?p=309064",
+          "author": "Nat Wilson Turner",
+          "description": "Palantir, the ontology company, has dropped a new manifesto, and co-founder Peter Thiel has a scary new company called Objection.",
+          "link": "https://www.nakedcapitalism.com/2026/04/palantirs-manifesto-drops-objection-peter-thiel-alex-karp-balaji-srinivasan-networked-state.html",
+          "publishedOn": "2026-04-20T18:00:08.000Z",
+          "wordCount": null,
+          "title": "Coffee Break: Palantir’s Manifesto Drops and So Does Objection",
+          "imageUrl": null
+        },
         {
           "id": "https://www.nakedcapitalism.com/?p=309031",
           "author": "Yves Smith",
@@ -173,16 +193,6 @@
           "wordCount": null,
           "title": "It’s Ok to Love All the Bees (The Honey Bees, Too)",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308948",
-          "author": "Conor Gallagher",
-          "description": "",
-          "link": "https://www.nakedcapitalism.com/2026/04/links-4-18-2026.html",
-          "publishedOn": "2026-04-18T10:55:57.000Z",
-          "wordCount": null,
-          "title": "Links 4/18/2026",
-          "imageUrl": null
         }
       ]
     },
@@ -191,6 +201,36 @@
       "feedUrl": "https://blog.cloudflare.com/rss",
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
+        {
+          "id": "25CSwW9eXDM4FJOdVPLf8f",
+          "author": "Ming Lu",
+          "description": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
+          "link": "https://blog.cloudflare.com/agents-week-in-review/",
+          "publishedOn": "2026-04-20T13:00:00.000Z",
+          "wordCount": 2525,
+          "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/25twxcfrFmVdPOM25w44Kz/61e7071d4f1fef8a5ea9b979e7871684/Building_the_agentic_cloud-_everything_we_launched_during_Agents_Week_2026-OG.png"
+        },
+        {
+          "id": "4z7ZJ5ZbY3e3YwJtkg6NiD",
+          "author": "Ayush Thakur",
+          "description": "We built our internal AI engineering stack on the same products we ship. That means 20 million requests routed through AI Gateway, 241 billion tokens processed, and inference running on Workers AI, serving more than 3,683 internal users. Here's how we did it.",
+          "link": "https://blog.cloudflare.com/internal-ai-engineering-stack/",
+          "publishedOn": "2026-04-20T13:00:00.000Z",
+          "wordCount": 4350,
+          "title": "The AI engineering stack we built internally — on the platform we ship",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/78qRQVksnJ8pr4nxLwlrLy/babe894d6df02c55b50a503a1be7d18f/BLOG-3270_OG.png"
+        },
+        {
+          "id": "6dkWF56UtSkU9dWfFUxiCn",
+          "author": "Ryan Skidmore",
+          "description": "Learn about how we built a CI-native AI code reviewer using OpenCode that helps our engineers ship better, safer code.",
+          "link": "https://blog.cloudflare.com/ai-code-review/",
+          "publishedOn": "2026-04-20T13:00:00.000Z",
+          "wordCount": 5739,
+          "title": "Orchestrating AI Code Review at scale",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3g2Vqql5biqvjvXwxhDb3b/b0c7fd707437eff2a7acb9d3172368e4/BLOG-3284_OG.png"
+        },
         {
           "id": "5t83bTn7Vt1EudTxQQ97NY",
           "author": "André Jesus",
@@ -360,36 +400,6 @@
           "wordCount": 3037,
           "title": "Browser Run: give your agents a browser",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2ZWkZcak7CFTnFURTsqZVe/bb71eef69d15ceb8aba119d423cc1453/Browser_Run-_give_your_agents_a_browser-OG.png"
-        },
-        {
-          "id": "5R3ZpKlSDaSxbIwmpXwWYJ",
-          "author": "Luís Duarte",
-          "description": "Cloudflare Workflows, a durable execution engine for multi-step applications, now supports higher concurrency and creation rate limits through a rearchitectured control plane, helping scale to meet the use cases for durable background agents.",
-          "link": "https://blog.cloudflare.com/workflows-v2/",
-          "publishedOn": "2026-04-15T13:00:00.000Z",
-          "wordCount": 2892,
-          "title": "Rearchitecting the Workflows control plane for the agentic era",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4LQmDXO2CNWJVFLJZn4U6W/ddab7af684756c7aa140e7c9c09c3d03/BLOG-3116_OG.png"
-        },
-        {
-          "id": "1t4PF8FLpPMGpgBd6UjBBv",
-          "author": "Sunil Pai",
-          "description": "An experimental voice pipeline for the Agents SDK enables real-time voice interactions over WebSockets. Developers can now build agents with continuous STT and TTS in just ~30 lines of server-side code.",
-          "link": "https://blog.cloudflare.com/voice-agents/",
-          "publishedOn": "2026-04-15T13:00:00.000Z",
-          "wordCount": 3145,
-          "title": "Add voice to your agent",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/1vwRmhwwVmpk1t6qTZdlCz/4eb76e21ce46c83a134f3e482a2811ff/BLOG-3198_OG.png"
-        },
-        {
-          "id": "4cMjGGRR98LV3HgGdwgWrf",
-          "author": "Justin Hutchings",
-          "description": "Cloudflare is introducing scannable API tokens, enhanced OAuth visibility, and GA for resource-scoped permissions. These tools help developers implement a true least-privilege architecture while protecting against credential leakage.",
-          "link": "https://blog.cloudflare.com/improved-developer-security/",
-          "publishedOn": "2026-04-14T13:00:10.000Z",
-          "wordCount": 2716,
-          "title": "Securing non-human identities: automated revocation, OAuth, and scoped permissions",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5pgBlipuwv0nHstWdXt0I0/98041311fce8f0275743510652d59d87/BLOG-3216_OG.png"
         }
       ]
     },
@@ -486,7 +496,7 @@
           "description": "The associate professors of EECS and chemistry, respectively, are honored for exceptional contributions to teaching, research, and service at MIT.",
           "link": "https://news.mit.edu/2026/jacob-andreas-brett-mcguire-edgerton-award-winners-0417",
           "publishedOn": "2026-04-17T13:40:00.000Z",
-          "wordCount": 2066,
+          "wordCount": 2058,
           "title": "Jacob Andreas and Brett McGuire named Edgerton Award winners",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/mit-Edgerton-Award-Brett-McGuire-Jacob-Andreas.jpg"
         },
@@ -640,6 +650,39 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159667",
+          "author": "Scott Lemieux",
+          "description": "Apparently Kash Patel, who may well still be the FBI director as you read this, does not like stories being published about how he needs a whole lot of medicine to pretend that he’s somebody else: Kash Patel has filed a defamation lawsuit against The Atlantic, accusing the magazine and its reporter Sarah Fitzpatrick of […]\nThe post The chief weapon of MAGA is the frivolous lawsuit appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-chief-weapon-of-maga-is-the-frivolous-lawsuit",
+          "publishedOn": "2026-04-20T19:15:00.000Z",
+          "wordCount": null,
+          "title": "The chief weapon of MAGA is the frivolous lawsuit",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159666",
+          "author": "Cheryl Rofer",
+          "description": "I am becoming slightly concerned that we are not seeing any clear front-runners for Democratic president in 2028. I am only slightly concerned because we have a big mid-term election to go through yet. I suspect that some of the potential candidates are holding back until they see those results, which is fair enough. We […]\nThe post Brainstorming Foreign Policy appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/brainstorming-foreign-policy",
+          "publishedOn": "2026-04-20T18:15:23.000Z",
+          "wordCount": null,
+          "title": "Brainstorming Foreign Policy",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159662",
+          "author": "Paul Campos",
+          "description": "Here’s presidential hopeful Andy Beshear, imploring Democratic politicians to talk in language that the common clay of the west can understand: Democratic Kentucky Gov. Andy Beshear, a possible presidential candidate in 2028, delivered a speech Saturday in Detroit urging Michigan Democrats to “talk like a normal human” to win voters. Appearing at the Michigan Democratic […]\nThe post Populism as performative dumbassery appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/populism-as-performative-dumbassery",
+          "publishedOn": "2026-04-20T15:16:46.000Z",
+          "wordCount": null,
+          "title": "Populism as performative dumbassery",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.lawyersgunsmoneyblog.com/?p=159659",
           "author": "Robert Farley",
           "description": "I understand that’s it’s important to use the term “mixed messages” about Iranian war diplomacy because it does actually tell you something relevant about the conflict, but at the same time noting that Iranian rhetoric may be slightly incoherent at this point would seem to do grave injustice to the elephant in the room: Iran […]\nThe post Schrodinger’s Strait and Schrodinger’s War appeared first on Lawyers, Guns & Money.",
@@ -702,39 +745,6 @@
           "publishedOn": "2026-04-19T16:19:00.000Z",
           "wordCount": null,
           "title": "AI and the exploitation of Kenyan workers",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159647",
-          "author": "Paul Campos",
-          "description": "This leak-rich story from the WSJ paints a picture of a lazy impulsive moron, who started a war because he was told by the prime minster of Israel and Lindsey Graham that it would be quick and easy, as Middle East conflicts traditionally are: Soon after Trump’s holiday post, aides fielded calls from Republican senators […]\nThe post Donnie don’t be a hero appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/donnie-dont-be-a-hero",
-          "publishedOn": "2026-04-19T13:12:14.000Z",
-          "wordCount": null,
-          "title": "Donnie don’t be a hero",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159641",
-          "author": "Robert Farley",
-          "description": "Austin Horn of the Herald-Leader reports that Kentucky Senate candidate Nate Morris has some gnarly friends: On the same day, at the same time, three of America’s biggest conservative influencers all had the same thing to say about Kentucky U.S. Senate candidate Nate Morris’ immigration stance. Morris was showing “the bold leadership America needs” with […]\nThe post A Nice Grift if You Can Get It appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/a-nice-grift-if-you-can-get-it",
-          "publishedOn": "2026-04-19T12:27:09.000Z",
-          "wordCount": null,
-          "title": "A Nice Grift if You Can Get It",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159372",
-          "author": "Erik Loomis",
-          "description": "This is the grave of Frank Sprague. Born in 1857 in Milford, Connecticut, Sprague grew up in North Adams, Massachusetts. He got a good education. He wanted to go to West Point. But for reasons that I don’t understand and I don’t think he understood either, he ended up by accident taking the Naval Academy […]\nThe post Erik Visits an American Grave, Part 2,121 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/erik-visits-an-american-grave-part-2120",
-          "publishedOn": "2026-04-19T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Erik Visits an American Grave, Part 2,121",
           "itunes": {},
           "imageUrl": null
         }
