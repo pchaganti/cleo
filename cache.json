@@ -20,26 +20,6 @@
           "wordCount": 32600,
           "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/08/AWS-WIR-default-AWSNEWS-2068.png"
-        },
-        {
-          "id": "74610d9ecb5b04f2353a6abb813e02c40360e272",
-          "author": "Channy Yun (윤석찬)",
-          "description": "AWS launches Claude Opus 4.7 in Amazon Bedrock, Anthropic's most intelligent Opus model for advancing performance across coding, long-running agents, and professional work. Claude Opus 4.7 is powered by Amazon Bedrock's next generation inference engine, purpose-built for generative AI inferencing and fine-tuning workloads.",
-          "link": "https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/",
-          "publishedOn": "2026-04-16T14:49:33.000Z",
-          "wordCount": 32318,
-          "title": "Introducing Anthropic’s Claude Opus 4.7 model in Amazon Bedrock",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/05/08/Bedrock-Anthropic.png"
-        },
-        {
-          "id": "c1d08c79b319f945ee2c245891d0ca4ffb6a45ac",
-          "author": "Sébastien Stormacq",
-          "description": "Today, we’re announcing the general availability of AWS Interconnect – multicloud, a managed private connectivity service that connects your Amazon Virtual Private Cloud (Amazon VPC) directly to VPCs on other cloud providers. We’re also introducing AWS Interconnect – last mile, a new capability that simplifies how you establish high-speed, private connections to AWS from your […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-interconnect-is-now-generally-available-with-a-new-option-to-simplify-last-mile-connectivity/",
-          "publishedOn": "2026-04-14T23:54:47.000Z",
-          "wordCount": 33479,
-          "title": "AWS Interconnect is now generally available, with a new option to simplify last-mile connectivity",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/04/14/Option-2-2.png"
         }
       ]
     },
@@ -47,30 +27,51 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": []
+      "articles": [
+        {
+          "id": "086bd1e829ffc230dc9c36c1f296bf3eb3b573a1",
+          "author": "Kevin S. Ridolfi",
+          "description": "This post explores how PACIFIC enables multi-tenant, sovereign PCF exchange on the Catena-X data space using Amazon Elastic Container Service (Amazon ECS) on AWS Fargate, Amazon Cognito, and AWS Identity and Access Management (IAM) to deliver measurable environmental impact and competitive advantage in a carbon-conscious marketplace.",
+          "link": "https://aws.amazon.com/blogs/architecture/pacific-enables-multi-tenant-sovereign-product-carbon-footprint-exchange-on-the-catena-x-data-space-using-aws/",
+          "publishedOn": "2026-04-22T15:33:54.000Z",
+          "wordCount": 33170,
+          "title": "PACIFIC enables multi-tenant, sovereign product carbon footprint exchange on the Catena-X data space using AWS",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/15/ARCHBLOG-1358-1-802x630.png"
+        },
+        {
+          "id": "809a64b3127791d27ed0c5206e79b269b7e2b61b",
+          "author": "Avdhesh Paliwal",
+          "description": "This post explores how Oldcastle used AWS services to transform their analytics and AI capabilities by integrating Infor ERP with Amazon Aurora and Amazon Quick Sight. We discuss how they overcame the limitations of traditional cloud ERP reporting to deploy real-time dashboards and build a scalable analytics system. This practical, enterprise-grade approach offers a blueprint that organizations can adapt when extending ERP capabilities with cloud-native analytics and AI.",
+          "link": "https://aws.amazon.com/blogs/architecture/real-time-analytics-oldcastle-integrates-infor-with-amazon-aurora-and-amazon-quick-sight/",
+          "publishedOn": "2026-04-21T16:37:12.000Z",
+          "wordCount": 33518,
+          "title": "Real-time analytics: Oldcastle integrates Infor with Amazon Aurora and Amazon Quick Sight",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/21/archblog-12911-1-1260x479.png"
+        }
+      ]
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
       "feedUrl": "http://githubengineering.com/atom.xml",
       "siteUrl": "https://github.blog/engineering/",
-      "articles": [
-        {
-          "id": "https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/",
-          "author": null,
-          "description": "<p>Learn how Github uses eBPF to detect and prevent circular dependencies in its deployment tooling. </p>\n<p>The post <a href=\"https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/\">How GitHub uses eBPF to improve deployment safety</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
-          "link": "https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/",
-          "publishedOn": "2026-04-16T16:00:00.000Z",
-          "wordCount": 4309,
-          "title": "How GitHub uses eBPF to improve deployment safety",
-          "imageUrl": "https://github.blog/wp-content/uploads/2026/01/4ba0cd42388a255e04c78e5143548f22e577d68e0f15f68e6a3c76c18b927981-1920x1080-1.png?fit=1920%2C1080"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "AWS DevOps & Developer Productivity Blog",
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
-      "articles": []
+      "articles": [
+        {
+          "id": "69a2a91d938bb70856ad69c6cd9634e73f79c6cc",
+          "author": "Rohit Sharma",
+          "description": "This post was co-written with Ross Belmont, Senior Director, Rodrigo Duran, Strategist Director at Salesforce Every minute counts when managing a critical infrastructure incident. Organizations need to quickly identify issues, diagnose root causes, and implement solutions—all while keeping customers informed. AWS DevOps Agent changes this by automating investigation and response, reducing mean time to resolution […]",
+          "link": "https://aws.amazon.com/blogs/devops/automating-incident-investigation-with-aws-devops-agent-and-salesforce-mcp-server/",
+          "publishedOn": "2026-04-22T17:03:51.000Z",
+          "wordCount": 33076,
+          "title": "Automating Incident Investigation with AWS DevOps Agent and Salesforce MCP Server",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/04/09/featured-image-devops-salesforce-blog.png"
+        }
+      ]
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -95,104 +96,104 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
-          "id": "https://www.nakedcapitalism.com/?p=309064",
-          "author": "Nat Wilson Turner",
-          "description": "Palantir, the ontology company, has dropped a new manifesto, and co-founder Peter Thiel has a scary new company called Objection.",
-          "link": "https://www.nakedcapitalism.com/2026/04/palantirs-manifesto-drops-objection-peter-thiel-alex-karp-balaji-srinivasan-networked-state.html",
-          "publishedOn": "2026-04-20T18:00:08.000Z",
-          "wordCount": null,
-          "title": "Coffee Break: Palantir’s Manifesto Drops and So Does Objection",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=309031",
+          "id": "https://www.nakedcapitalism.com/?p=309225",
           "author": "Yves Smith",
-          "description": "Micheal Hudson describes how the US and Iran threats against energy production is MAD, as in mutual assured destruction.",
-          "link": "https://www.nakedcapitalism.com/2026/04/postponing-the-worlds-financial-winter-for-how-long-irans-mad-standoff-with-the-rest-of-the-world.html",
-          "publishedOn": "2026-04-20T13:55:34.000Z",
-          "wordCount": null,
-          "title": "Postponing the World’s Financial Winter – For How Long? Iran’s MAD Standoff with the Rest of the World",
+          "description": "Not only is Trump inventing  his own school of math. but he is also pretending that paying more than market rates for drugs is a savings.",
+          "link": "https://www.nakedcapitalism.com/2026/04/defending-trumprx-scam-rfk-jr-absurdly-claims-trump-has-his-own-way-of-calculating-percentages.html",
+          "publishedOn": "2026-04-23T05:19:48.000Z",
+          "wordCount": 2855,
+          "title": "Defending TrumpRx Scam, RFK Jr. Absurdly Claims Trump ‘Has His Own Way of Calculating’ Percentages",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=309017",
-          "author": "Conor Gallagher",
-          "description": "",
-          "link": "https://www.nakedcapitalism.com/2026/04/links-4-20-2026.html",
-          "publishedOn": "2026-04-20T10:56:01.000Z",
-          "wordCount": null,
-          "title": "Links 4/20/2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=309026",
+          "id": "https://www.nakedcapitalism.com/?p=309180",
           "author": "Nat Wilson Turner",
-          "description": "Leaks from White House insiders reveal Trump kept out of situation room in key moments of war. Iran won't be going to more talks.",
-          "link": "https://www.nakedcapitalism.com/2026/04/iran-war-talks-kiboshed-u-s-seizes-iranian-tanker-leaks-confirm-mad-king-claims.html",
-          "publishedOn": "2026-04-20T10:54:50.000Z",
-          "wordCount": null,
-          "title": "Iran War: Talks Kiboshed, U.S. Seizes Iranian Tanker, Leaks Confirm Mad King Claims",
+          "description": "Michigan is on the frontlines of the American Democratic Party's internal battles over Israel with a competitive U.S. Senate primary and lingering fallout from the suppression of Pro-Palestine campus protests.",
+          "link": "https://www.nakedcapitalism.com/2026/04/michigan-israel-democrats-senate-primary-el-sayed-mcmorrow-piker.html",
+          "publishedOn": "2026-04-22T18:00:32.000Z",
+          "wordCount": 7344,
+          "title": "Coffee Break: Israel Dominant Issue in Michigan Democratic Senate Primary",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=309041",
+          "id": "https://www.nakedcapitalism.com/?p=309147",
+          "author": "Yves Smith",
+          "description": "Wildfires now have longer burn-times; California has about 550 more fire-friendly hours a year than it did in the 1970s.",
+          "link": "https://www.nakedcapitalism.com/2026/04/wildfires-used-to-go-to-sleep-at-night-climate-change-has-them-burning-overtime.html",
+          "publishedOn": "2026-04-22T13:55:48.000Z",
+          "wordCount": 3680,
+          "title": "Wildfires Used to ‘Go to Sleep’ at Night. Climate Change Has Them Burning Overtime",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=309132",
           "author": "Conor Gallagher",
-          "description": "Europe sure could use Libya’s oil, gas, and petrochemical products now, but the self-destructive policy there is illuminating today.",
-          "link": "https://www.nakedcapitalism.com/2026/04/maybe-it-wasnt-such-a-hot-idea-to-turn-libya-into-a-failed-state-2026-shortages-edition.html",
-          "publishedOn": "2026-04-20T10:00:09.000Z",
-          "wordCount": null,
-          "title": "Maybe It Wasn’t Such a Hot Idea to Turn Libya into a Failed State: 2026 Shortages Edition",
+          "description": "Our daily links, including global exploding energy infrastructure, CIA deaths in Mexico, canceled flights and rising condom prices, and Trump UAE bailout.",
+          "link": "https://www.nakedcapitalism.com/2026/04/links-4-22-2026.html",
+          "publishedOn": "2026-04-22T10:55:15.000Z",
+          "wordCount": 11242,
+          "title": "Links 4/22/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-9.28.12 PM-1024x622.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=309141",
+          "author": "Nat Wilson Turner",
+          "description": "POTUS Trump extended the ceasefire despite Iran refusing to send a delegation to Islamabad for more negotiations. Plus, \"Is There a Method to America's Madness?\" pro and con.",
+          "link": "https://www.nakedcapitalism.com/2026/04/iran-war-taco-tuesday-trump-extends-ceasefire.html",
+          "publishedOn": "2026-04-22T10:54:35.000Z",
+          "wordCount": 20729,
+          "title": "Iran War: TACO Tuesday Strikes Again, Trump Extends Ceasefire",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=309036",
-          "author": "Conor Gallagher",
-          "description": "One homeless advocacy group said the bill, which would require homeless people to perform unpaid labor to pay for involuntary treatment, “evokes debtor’s prisons, convict leasing, and the ugliest day of Jim Crow.”",
-          "link": "https://www.nakedcapitalism.com/2026/04/louisiana-advances-one-of-the-countrys-cruelest-anti-homeless-bills.html",
-          "publishedOn": "2026-04-20T09:00:58.000Z",
-          "wordCount": null,
-          "title": "Louisiana Advances One of the Country’s ‘Cruelest’ Anti-Homeless Bills",
+          "id": "https://www.nakedcapitalism.com/?p=309156",
+          "author": "KLG",
+          "description": "We have discussed the Great American Food System (GAFS) throughout this series, most recently in review of What to Eat Now (2025) by Marion Nestle.  That the GAFS is productive, in both tonnage and profit (for some) is a given.  But a common view of its critics is that much of this production is misguided, […]",
+          "link": "https://www.nakedcapitalism.com/2026/04/industrial-agriculture-and-the-future-of-food-and-health.html",
+          "publishedOn": "2026-04-22T10:45:56.000Z",
+          "wordCount": 8398,
+          "title": "Industrial Agriculture and the Future of Food and Health",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=308988",
+          "id": "https://www.nakedcapitalism.com/?p=309145",
+          "author": "Yves Smith",
+          "description": "AI surveillance and algorithmic management threaten worker autonomy and dignity.",
+          "link": "https://www.nakedcapitalism.com/2026/04/what-does-it-mean-to-work-under-algorithmic-eyes.html",
+          "publishedOn": "2026-04-22T07:50:44.000Z",
+          "wordCount": 5818,
+          "title": "What Does it Mean to Work Under Algorithmic Eyes?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=309122",
           "author": "Haig Hovaness",
-          "description": "",
-          "link": "https://www.nakedcapitalism.com/2026/04/links-4-19-2026.html",
-          "publishedOn": "2026-04-19T10:55:45.000Z",
-          "wordCount": null,
-          "title": "Links 4/19/2026",
+          "description": "Israel’s pursuit of territorial expansion is driven by persistent security and ideological pressures, but the conditions required for successful consolidation are increasingly absent. A dense web of constraints—geographic, demographic, legal, and geopolitical—prevents expansion from producing durable stability. The result is a pattern of recurring conflict and bounded escalation without resolution.",
+          "link": "https://www.nakedcapitalism.com/2026/04/coffee-break-armed-madhouse-greater-israel.html",
+          "publishedOn": "2026-04-21T18:00:49.000Z",
+          "wordCount": 7076,
+          "title": "Coffee Break: Armed Madhouse – Greater Israel?",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Expansion-drivers.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=309089",
+          "author": "Yves Smith",
+          "description": "AI appears to perform no better than astrology, yet even the author of this critical piece defends its use in medicine.",
+          "link": "https://www.nakedcapitalism.com/2026/04/half-of-ai-health-answers-are-wrong-even-though-they-sound-convincing-new-study.html",
+          "publishedOn": "2026-04-21T13:55:06.000Z",
+          "wordCount": 6189,
+          "title": "Half of AI Health Answers Are Wrong Even Though They Sound Convincing – New Study",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=308975",
-          "author": "Nat Wilson Turner",
-          "description": "A rapidly declining Trump is living in a \"dark fantasy\" world as the Iranians close the Strait in anger at his lies. Meanwhile the MSM is beginning to break some bad news about the war.",
-          "link": "https://www.nakedcapitalism.com/2026/04/iran-war-mad-king-trump-strait-of-hormuz-closed.html",
-          "publishedOn": "2026-04-19T10:54:45.000Z",
-          "wordCount": null,
-          "title": "Iran War: Mad King Trump Gets the Strait Slammed in His Face",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=308610",
-          "author": "semper loquitur",
-          "description": "The Lathe of Heaven is a movie about the power of dreams and the dangers of hubris.",
-          "link": "https://www.nakedcapitalism.com/2026/04/the-sunday-morning-movie-presents-the-lathe-of-heaven-1980-run-time-1h-37m.html",
-          "publishedOn": "2026-04-19T10:30:39.000Z",
-          "wordCount": null,
-          "title": "The Sunday Morning Movie Presents: The Lathe Of Heaven (1980) Run Time 1H  37M",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=309011",
+          "id": "https://www.nakedcapitalism.com/?p=309058",
           "author": "Conor Gallagher",
-          "description": "Are honey bees to blame for disappearing native bees?",
-          "link": "https://www.nakedcapitalism.com/2026/04/its-ok-to-love-all-the-bees-the-honey-bees-too.html",
-          "publishedOn": "2026-04-19T09:00:20.000Z",
-          "wordCount": null,
-          "title": "It’s Ok to Love All the Bees (The Honey Bees, Too)",
-          "imageUrl": null
+          "description": "Our daily links: oil breaking point, ICE glasses, tariff refunds and fertilizer funds, tracking Trump administration scandals, and learning to disobey.",
+          "link": "https://www.nakedcapitalism.com/2026/04/links-4-21-2026.html",
+          "publishedOn": "2026-04-21T10:55:35.000Z",
+          "wordCount": 10282,
+          "title": "Links 4/21/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Screenshot-2026-04-20-at-1.12.21 PM-1024x573.png"
         }
       ]
     },
@@ -202,12 +203,32 @@
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
         {
+          "id": "2StUNK716oSircL9mJUjrg",
+          "author": "Guy Bedford",
+          "description": "Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasm‑bindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling.",
+          "link": "https://blog.cloudflare.com/making-rust-workers-reliable/",
+          "publishedOn": "2026-04-22T13:00:00.000Z",
+          "wordCount": 2738,
+          "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/dUUIMZewVzkYfRaVqwGRb/1e892ef7090127e5a781fa564942d3a3/Making_Rust_Workers_reliable-_panic_and_abort_recovery_in_wasm%C3%A2__bindgen-OG.png"
+        },
+        {
+          "id": "6qZ5scXbRymHWaQGBZcqe",
+          "author": "Thibault Meunier",
+          "description": "As AI assistants and privacy proxies challenge the capabilities of traditional bot detection, the Web needs new models for accountability. We believe that control should remain with the client, and that an open ecosystem of anonymous credentials is key to preserving user privacy while protecting origins from abuse.",
+          "link": "https://blog.cloudflare.com/past-bots-and-humans/",
+          "publishedOn": "2026-04-21T13:00:00.000Z",
+          "wordCount": 4508,
+          "title": "Moving past bots vs. humans",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2MdPo7cFDHnAisWzaKi5a8/2b4bc1e412bb7c26ab43d5b9a89eb11f/Moving_past_bots_vs._humans-OG.png"
+        },
+        {
           "id": "25CSwW9eXDM4FJOdVPLf8f",
           "author": "Ming Lu",
           "description": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
           "link": "https://blog.cloudflare.com/agents-week-in-review/",
           "publishedOn": "2026-04-20T13:00:00.000Z",
-          "wordCount": 2525,
+          "wordCount": 2546,
           "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/25twxcfrFmVdPOM25w44Kz/61e7071d4f1fef8a5ea9b979e7871684/Building_the_agentic_cloud-_everything_we_launched_during_Agents_Week_2026-OG.png"
         },
@@ -217,7 +238,7 @@
           "description": "We built our internal AI engineering stack on the same products we ship. That means 20 million requests routed through AI Gateway, 241 billion tokens processed, and inference running on Workers AI, serving more than 3,683 internal users. Here's how we did it.",
           "link": "https://blog.cloudflare.com/internal-ai-engineering-stack/",
           "publishedOn": "2026-04-20T13:00:00.000Z",
-          "wordCount": 4350,
+          "wordCount": 4357,
           "title": "The AI engineering stack we built internally — on the platform we ship",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/78qRQVksnJ8pr4nxLwlrLy/babe894d6df02c55b50a503a1be7d18f/BLOG-3270_OG.png"
         },
@@ -227,7 +248,7 @@
           "description": "Learn about how we built a CI-native AI code reviewer using OpenCode that helps our engineers ship better, safer code.",
           "link": "https://blog.cloudflare.com/ai-code-review/",
           "publishedOn": "2026-04-20T13:00:00.000Z",
-          "wordCount": 5739,
+          "wordCount": 5746,
           "title": "Orchestrating AI Code Review at scale",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3g2Vqql5biqvjvXwxhDb3b/b0c7fd707437eff2a7acb9d3172368e4/BLOG-3284_OG.png"
         },
@@ -237,7 +258,7 @@
           "description": "The Agent Readiness score can help site owners understand how well their websites support AI agents. Here we explore new standards, share Radar data, and detail how we made Cloudflare’s docs the most agent-friendly on the web.",
           "link": "https://blog.cloudflare.com/agent-readiness/",
           "publishedOn": "2026-04-17T13:05:00.000Z",
-          "wordCount": 4106,
+          "wordCount": 4109,
           "title": "Introducing the Agent Readiness score. Is your site agent-ready?",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/77qZWBhoxkWooOQSfk4RtN/6e98d97ca7bf01d12418c2e29b7f2096/Introducing_the_Agent_Readiness_score_%C3%A2___check_to_see_if_your_site_is_agent-ready-OG.png"
         },
@@ -247,7 +268,7 @@
           "description": "Today, we’re excited to give you a sneak peek of our support for shared compression dictionaries, show you how it improves page load times, and reveal when you’ll be able to try the beta yourself.",
           "link": "https://blog.cloudflare.com/shared-dictionaries/",
           "publishedOn": "2026-04-17T13:02:00.000Z",
-          "wordCount": 3185,
+          "wordCount": 3188,
           "title": "Shared Dictionaries: compression that keeps up with the agentic web",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2kxbrUm9B0NqHjj6BvZAyF/fef3817a0f046ef7883ec2bf213cb304/BLOG-3279_OG.png"
         },
@@ -257,7 +278,7 @@
           "description": "Soft directives don’t stop crawlers from ingesting deprecated content. Redirects for AI Training allows anybody on Cloudflare to redirect verified crawlers to canonical pages with one toggle and no origin changes.",
           "link": "https://blog.cloudflare.com/ai-redirects/",
           "publishedOn": "2026-04-17T13:00:00.000Z",
-          "wordCount": 2313,
+          "wordCount": 2341,
           "title": "Redirects for AI Training enforces canonical content",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/65vHEPjmVJ1o4Bz3t4ilEv/9d4797939a26b96ddc1085abcaf9e9c4/OG_Share_2024-2025-2026__30_.png"
         },
@@ -267,7 +288,7 @@
           "description": "Running LLMs across Cloudflare’s network requires us to be smarter and more efficient about GPU memory bandwidth. That’s why we developed Unweight, a lossless inference-time compression system that achieves up to a 22% model footprint reduction, so that we can deliver faster and cheaper inference than ever before.",
           "link": "https://blog.cloudflare.com/unweight-tensor-compression/",
           "publishedOn": "2026-04-17T13:00:00.000Z",
-          "wordCount": 3782,
+          "wordCount": 3785,
           "title": "Unweight: how we compressed an LLM 22% without sacrificing quality",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/biXmc62dWSBTOZWmp75pT/d67c02c8159dbd97edfcaef1b6b3e47d/OG_Share_2024-2025-2026__28_.png"
         },
@@ -277,7 +298,7 @@
           "description": "Cloudflare Agent Memory is a managed service that gives AI agents persistent memory, allowing them to recall what matters, forget what doesn't, and get smarter over time.",
           "link": "https://blog.cloudflare.com/introducing-agent-memory/",
           "publishedOn": "2026-04-17T13:00:00.000Z",
-          "wordCount": 4006,
+          "wordCount": 4009,
           "title": "Agents that remember: introducing Agent Memory",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5gJdelzCh8fdYP5J2qY6lG/480d2e41c41a4370957bf941b33e6ee7/OG_Share_2024-2025-2026__29_.png"
         },
@@ -287,7 +308,7 @@
           "description": "By migrating our request handling layer to a Rust-based architecture called FL2, Cloudflare has increased its performance lead to 60% of the world’s top networks. We use real-user measurements and connection trimeans to ensure our data reflects the actual experience of people on the Internet.",
           "link": "https://blog.cloudflare.com/network-performance-agents-week/",
           "publishedOn": "2026-04-17T13:00:00.000Z",
-          "wordCount": 1685,
+          "wordCount": 1689,
           "title": "Agents Week: network performance update",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4xiAkgrESaF5XRBhi2Y2yz/11c61ba64ce0d2d64c59ab74982b74a3/BLOG-3236_OG.png"
         },
@@ -297,109 +318,9 @@
           "description": "We are launching Flagship, a native feature flag service built on Cloudflare’s global network to eliminate the latency of third-party providers. By using KV and Durable Objects, Flagship allows for sub-millisecond flag evaluation.",
           "link": "https://blog.cloudflare.com/flagship/",
           "publishedOn": "2026-04-17T13:00:00.000Z",
-          "wordCount": 2589,
+          "wordCount": 2617,
           "title": "Introducing Flagship: feature flags built for the age of AI",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2zqw424znaOySq7xeqK13v/006ae86aa2801ad91a649c2bcd6ae6ae/Introducing_Flagship-_feature_flags_built_for_the_age_of_AI-OG.png"
-        },
-        {
-          "id": "2vIUFXJLJcMgjgY6jFnQ7G",
-          "author": "Ming Lu",
-          "description": "We're building AI Gateway into a unified inference layer for AI, letting developers call models from 14+ providers. New features include Workers AI binding integration and an expanded catalog with multimodal models.",
-          "link": "https://blog.cloudflare.com/ai-platform/",
-          "publishedOn": "2026-04-16T14:05:00.000Z",
-          "wordCount": 2151,
-          "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/PVjfiCXOYd00evo2s1kiQ/f79f1e2e122e16b77e3df43a3970ed72/OG_Share_2024-2025-2026__2_.png"
-        },
-        {
-          "id": "71xNLfh83S7Fg78QEcgdhf",
-          "author": "Michelle Chen",
-          "description": "We built a custom technology stack to run fast large language models on Cloudflare’s infrastructure. This post explores the engineering trade-offs and technical optimizations required to make high-performance AI inference accessible.",
-          "link": "https://blog.cloudflare.com/high-performance-llms/",
-          "publishedOn": "2026-04-16T14:00:00.000Z",
-          "wordCount": 2721,
-          "title": "Building the foundation for running extra-large language models",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5bC7q9V5wVtpy9opEx4llv/75e1b2b35f6303d78453a60af7682777/BLOG-3266_OG.png"
-        },
-        {
-          "id": "2sshzOlmGVsrtBz2mgeceE",
-          "author": "Dillon Mulroy",
-          "description": "Give your agents, developers, and automations a home for code and data. We’ve just launched Artifacts: Git-compatible versioned storage built for agents. Create tens of millions of repos, fork from any remote, and hand off a URL to any Git client.",
-          "link": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
-          "publishedOn": "2026-04-16T13:01:00.000Z",
-          "wordCount": 3056,
-          "title": "Artifacts: versioned storage that speaks Git",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3agnY3anQtjeSkoITT532S/4ff57c61bfaf9ecc4eaa53c13d229726/BLOG-3269_OG.png"
-        },
-        {
-          "id": "4l8kYFerKsLkZH2ZVaOoYf",
-          "author": "Gabriel Massadas",
-          "description": "AI Search is the search primitive for your agents. Create instances dynamically, upload files, and search across instances with hybrid retrieval and relevance boosting. Just create a search instance, upload, and search.",
-          "link": "https://blog.cloudflare.com/ai-search-agent-primitive/",
-          "publishedOn": "2026-04-16T13:00:22.000Z",
-          "wordCount": 3213,
-          "title": "AI Search: the search primitive for your agents",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/32yxtllDClnJmELn85bMc7/79f3ac2e2c648aa51865cfc165611cc8/BLOG-3240_OG.png"
-        },
-        {
-          "id": "1IGJnHwj5QVRJm9iCdEqYV",
-          "author": "Vy Ton",
-          "description": "Learn how to deploy PlanetScale Postgres and MySQL databases via Cloudflare and connect Cloudflare Workers.",
-          "link": "https://blog.cloudflare.com/deploy-planetscale-postgres-with-workers/",
-          "publishedOn": "2026-04-16T13:00:22.000Z",
-          "wordCount": 1372,
-          "title": "Deploy Postgres and MySQL databases with PlanetScale + Workers",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5YP5Okh6XPmtrOHICEcfm5/f6d11183c63db6b3ccc2799658e07bf9/BLOG-3213_OG.png"
-        },
-        {
-          "id": "3G2uQLc6OAHayqaZxxDrrZ",
-          "author": "Thomas Gauvin",
-          "description": "Agents are becoming multi-channel. That means making them available wherever your users already are — including the inbox. Today, Cloudflare Email Service enters public beta with the infrastructure layer to make that easy: send, receive, and process email natively from your agents.",
-          "link": "https://blog.cloudflare.com/email-for-agents/",
-          "publishedOn": "2026-04-16T06:00:00.000Z",
-          "wordCount": 2469,
-          "title": "Cloudflare Email Service: now in public beta. Ready for your agents",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3RDH6grpXMz6DWEQmZgXj9/0dcfca0bf86c72e933d4fcb8b585b45c/OG_Share_2024-2025-2026__2_.png"
-        },
-        {
-          "id": "3r2ykMs0LTSPwVHmVWldCy",
-          "author": "Sunil Pai",
-          "description": "Announcing a preview of the next edition of the Agents SDK — from lightweight primitives to a batteries-included platform for AI agents that think, act, and persist.",
-          "link": "https://blog.cloudflare.com/project-think/",
-          "publishedOn": "2026-04-15T13:01:00.000Z",
-          "wordCount": 3954,
-          "title": "Project Think: building the next generation of AI agents on Cloudflare",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2tT10DCWrxQQb8p5i40J34/427677f39b9d1022655b2c4cfe45473f/BLOG-3200_OG.png"
-        },
-        {
-          "id": "4KNkr1nK6i3lbBEBRWnt5z",
-          "author": "Kylie Czajkowski",
-          "description": "Agent Lee is an in-dashboard agent that shifts Cloudflare’s interface from manual tab-switching to a single prompt. Using sandboxed TypeScript, it helps you troubleshoot and manage your stack as a grounded technical collaborator.",
-          "link": "https://blog.cloudflare.com/introducing-agent-lee/",
-          "publishedOn": "2026-04-15T13:00:00.000Z",
-          "wordCount": 2261,
-          "title": "Introducing Agent Lee - a new interface to the Cloudflare stack",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/29iboLzcmSDBSB70jCzl30/92685abd0d30671d0ddcae033f9903d8/BLOG-3231_OG.png"
-        },
-        {
-          "id": "oXDvwP79G3OGr3XDAFwmD",
-          "author": "Ankit Shah",
-          "description": "The Cloudflare Registrar API is now in beta. Developers and AI agents can search, check availability, and register domains at cost directly from their editor, their terminal, or their agent — without leaving their workflow.",
-          "link": "https://blog.cloudflare.com/registrar-api-beta/",
-          "publishedOn": "2026-04-15T13:00:00.000Z",
-          "wordCount": 2100,
-          "title": "Register domains wherever you build: Cloudflare Registrar API now in beta",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/484pqVjE8nyinLAPSOqee5/34b3265b6b80e22186ced7c035c60247/Register_domains_wherever_you_build-_Cloudflare_Registrar_API_now_in_beta-OG.png"
-        },
-        {
-          "id": "160lCssR1GA8lEUV718ev5",
-          "author": "Kathy Liao",
-          "description": "Browser Rendering is now Browser Run, with Live View, Human in the Loop, CDP access, session recordings, and 4x higher concurrency limits for AI agents.",
-          "link": "https://blog.cloudflare.com/browser-run-for-ai-agents/",
-          "publishedOn": "2026-04-15T13:00:00.000Z",
-          "wordCount": 3037,
-          "title": "Browser Run: give your agents a browser",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2ZWkZcak7CFTnFURTsqZVe/bb71eef69d15ceb8aba119d423cc1453/Browser_Run-_give_your_agents_a_browser-OG.png"
         }
       ]
     },
@@ -409,14 +330,14 @@
       "siteUrl": "https://code.visualstudio.com/",
       "articles": [
         {
-          "id": "https://code.visualstudio.com/updates/v1_116",
+          "id": "https://code.visualstudio.com/updates/v1_117",
           "author": null,
-          "description": "Learn what's new in Visual Studio Code 1.116\nRead the full article",
-          "link": "https://code.visualstudio.com/updates/v1_116",
-          "publishedOn": "2026-04-15T17:00:00.000Z",
-          "wordCount": 2828,
-          "title": "Visual Studio Code 1.116",
-          "imageUrl": "https://code.visualstudio.com/assets/updates/1_116/release-highlights.webp"
+          "description": "Learn what's new in Visual Studio Code 1.117\nRead the full article",
+          "link": "https://code.visualstudio.com/updates/v1_117",
+          "publishedOn": "2026-04-22T17:00:00.000Z",
+          "wordCount": 1739,
+          "title": "Visual Studio Code 1.117",
+          "imageUrl": "https://code.visualstudio.com/assets/updates/1_117/release-highlights.webp"
         }
       ]
     },
@@ -444,12 +365,42 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=29550",
+          "author": "Richard Seroter",
+          "description": "Today's links look at Google Cloud Next announcements, principles for managing up, and a guide to five agent payment protocols.",
+          "link": "https://seroter.com/2026/04/22/daily-reading-list-april-22-2026-769/",
+          "publishedOn": "2026-04-23T00:12:35.000Z",
+          "wordCount": 4519,
+          "title": "Daily Reading List – April 22, 2026 (#769)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
+          "id": "http://seroter.com/?p=29534",
+          "author": "Richard Seroter",
+          "description": "Today's links look at agent harness engineering, working with sub agents, and how to fine-tune LLMs in 2026.",
+          "link": "https://seroter.com/2026/04/21/daily-reading-list-april-21-2026-768/",
+          "publishedOn": "2026-04-21T21:13:40.000Z",
+          "wordCount": 4522,
+          "title": "Daily Reading List – April 21, 2026 (#768)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
+          "id": "http://seroter.com/?p=29524",
+          "author": "Richard Seroter",
+          "description": "Today's links look at four architectural bets for your agent stack, how to implement multi-agent networking patterns, and why tokenmaxxing is making devs less productive than they think.",
+          "link": "https://seroter.com/2026/04/20/daily-reading-list-april-20-2026-767/",
+          "publishedOn": "2026-04-20T23:48:49.000Z",
+          "wordCount": 4378,
+          "title": "Daily Reading List – April 20, 2026 (#767)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
           "id": "http://seroter.com/?p=29506",
           "author": "Richard Seroter",
           "description": "Today's links look at Salesforce going headless, celebrating a year of the Agent2Agent Protocol, and why be sleep-deprived is a dangerous thing.",
           "link": "https://seroter.com/2026/04/17/daily-reading-list-april-17-2026-766/",
           "publishedOn": "2026-04-17T22:51:10.000Z",
-          "wordCount": 4525,
+          "wordCount": 4533,
           "title": "Daily Reading List – April 17, 2026 (#766)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
@@ -462,26 +413,6 @@
           "wordCount": 4532,
           "title": "Daily Reading List – April 16, 2026 (#765)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=29467",
-          "author": "Richard Seroter",
-          "description": "Today's links look at how to get developers to read the docs, why great teams can't be copied, and how to set up Claude Code with Vertex AI.",
-          "link": "https://seroter.com/2026/04/15/daily-reading-list-april-15-2026-763/",
-          "publishedOn": "2026-04-15T23:57:07.000Z",
-          "wordCount": 4487,
-          "title": "Daily Reading List – April 15, 2026 (#764)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=29454",
-          "author": "Richard Seroter",
-          "description": "Today's links look at performing agentic engine optimization (AEO) on your content, what productive procrastination looks like, and bringing graph semantics to your data warehouse.",
-          "link": "https://seroter.com/2026/04/14/daily-reading-list-april-14-2026-763/",
-          "publishedOn": "2026-04-15T00:00:53.000Z",
-          "wordCount": 4433,
-          "title": "Daily Reading List – April 14, 2026 (#763)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         }
       ]
     },
@@ -491,12 +422,22 @@
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
         {
+          "id": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+          "author": "Rachel Gordon | MIT CSAIL",
+          "description": "A new training method improves the reliability of AI confidence estimates without sacrificing performance, addressing a root cause of hallucination in reasoning models.",
+          "link": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
+          "publishedOn": "2026-04-22T19:15:00.000Z",
+          "wordCount": 1551,
+          "title": "Teaching AI models to say “I’m not sure”",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/mit-csail-reinforcement.jpg"
+        },
+        {
           "id": "https://news.mit.edu/2026/jacob-andreas-brett-mcguire-edgerton-award-winners-0417",
           "author": "Danielle Randall Doughty | Jane Halpern | Department of Chemistry | Department of Electrical Engineering and Computer Science",
           "description": "The associate professors of EECS and chemistry, respectively, are honored for exceptional contributions to teaching, research, and service at MIT.",
           "link": "https://news.mit.edu/2026/jacob-andreas-brett-mcguire-edgerton-award-winners-0417",
           "publishedOn": "2026-04-17T13:40:00.000Z",
-          "wordCount": 2058,
+          "wordCount": 2053,
           "title": "Jacob Andreas and Brett McGuire named Edgerton Award winners",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/mit-Edgerton-Award-Brett-McGuire-Jacob-Andreas.jpg"
         },
@@ -506,29 +447,9 @@
           "description": "Founded by Tristan Bepler PhD ’20 and former MIT professor Tim Lu PhD ’07, OpenProtein.AI offers researchers open-source models and other tools for protein engineering.",
           "link": "https://news.mit.edu/2026/bringing-ai-driven-protein-design-tools-everywhere-0417",
           "publishedOn": "2026-04-17T04:00:00.000Z",
-          "wordCount": 1996,
+          "wordCount": 1994,
           "title": "Bringing AI-driven protein-design tools to biologists everywhere",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-OpenProteinAI-01-press.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/human-machine-teaming-dives-underwater-0414",
-          "author": "Ariana Gaines | Lincoln Laboratory",
-          "description": "Researchers are developing hardware and algorithms to improve collaboration between divers and autonomous underwater vehicles engaged in maritime missions.",
-          "link": "https://news.mit.edu/2026/human-machine-teaming-dives-underwater-0414",
-          "publishedOn": "2026-04-14T13:00:00.000Z",
-          "wordCount": 2071,
-          "title": "Human-machine teaming dives underwater",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-lincoln-Gulf-Surveyor-Stringout.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/qa-mit-shass-and-future-of-education-age-ai-0414",
-          "author": "School of Humanities, Arts, and Social Sciences",
-          "description": "As the School of Humanities, Arts, and Social Sciences marks 75 years, Dean Agustín Rayo reflects on how AI is reshaping higher education and why SHASS disciplines continue to be central to MIT’s mission.",
-          "link": "https://news.mit.edu/2026/qa-mit-shass-and-future-of-education-age-ai-0414",
-          "publishedOn": "2026-04-14T13:00:00.000Z",
-          "wordCount": 1764,
-          "title": "Q&A: MIT SHASS and the future of education in the age of AI",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202603/mit-shass-agustin-rayo.jpg"
         }
       ]
     },
@@ -544,6 +465,38 @@
       "siteUrl": "https://www.thomasfazi.com",
       "articles": [
         {
+          "id": "https://www.thomasfazi.com/p/why-the-paris-agreement-failed",
+          "author": "Thomas Fazi",
+          "description": "It was embedded in a globalist institutional architecture opposed to national-interest reasoning and was promoted through apocalyptic narratives that generated fatalism instead of action",
+          "link": "https://www.thomasfazi.com/p/why-the-paris-agreement-failed",
+          "publishedOn": "2026-04-22T08:20:33.000Z",
+          "wordCount": null,
+          "title": "Why the Paris Agreement failed",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!kOy6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcf368aff-c95e-4432-9f35-67bac703781d_1822x1164.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!kOy6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcf368aff-c95e-4432-9f35-67bac703781d_1822x1164.png"
+        },
+        {
+          "id": "https://www.thomasfazi.com/p/the-russiagate-playbook-fails-in",
+          "author": "Thomas Fazi",
+          "description": "The EU-NATO establishment once again attempted to weaponise the Russiagate narrative in Bulgaria’s Sunday elections — but this time a Romanian-style scenario seems unlikely",
+          "link": "https://www.thomasfazi.com/p/the-russiagate-playbook-fails-in",
+          "publishedOn": "2026-04-21T12:52:52.000Z",
+          "wordCount": null,
+          "title": "The Russiagate playbook fails in Bulgaria",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!GJ2w!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75f2643b-6a0c-4b30-a995-1f76c8883b5f_1728x1170.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!GJ2w!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75f2643b-6a0c-4b30-a995-1f76c8883b5f_1728x1170.png"
+        },
+        {
           "id": "https://www.thomasfazi.com/p/the-eu-propaganda-machine",
           "author": "Thomas Fazi",
           "description": "New book of mine out about the EU-NGO-media-academia propaganda complex",
@@ -558,22 +511,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!7OWS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3822eeec-f468-459f-9992-4040fe98cab1_1654x2480.jpeg"
-        },
-        {
-          "id": "https://www.thomasfazi.com/p/selling-the-eu-how-brussels-legitimates-ff5",
-          "author": "Thomas Fazi",
-          "description": "Part three of a new paper on how the EU has attempted to compensate for its lack of democracy legitimacy by relying on narratives that have functioned as tools of elite power and depoliticisation",
-          "link": "https://www.thomasfazi.com/p/selling-the-eu-how-brussels-legitimates-ff5",
-          "publishedOn": "2026-04-15T11:43:10.000Z",
-          "wordCount": null,
-          "title": "Selling the EU: How Brussels legitimates European integration — Part 3",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/732f5ec9-4bc2-4e83-bc6b-a27e6e034d1e_1924x1076.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/732f5ec9-4bc2-4e83-bc6b-a27e6e034d1e_1924x1076.png"
         }
       ]
     },
@@ -582,6 +519,56 @@
       "feedUrl": "https://www.ianwelsh.net/feed/",
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
+        {
+          "id": "https://www.ianwelsh.net/?p=24926",
+          "author": "Sean Paul Kelley",
+          "description": "~by Sean Paul Kelley Between 1,000-2,000 non-Iranian born Americans visit Iran every year. In 2006 I was one of those Americans that makes up a tiny, tiny minority of Americans that have actually visited our bête noire, boogeyman, and our archest of arch foes. I was there when Iran was a founding member of the […]",
+          "link": "https://www.ianwelsh.net/iran-for-dummies/",
+          "publishedOn": "2026-04-23T06:24:52.000Z",
+          "wordCount": null,
+          "title": "Iran For Dummies",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=24919",
+          "author": "Ian Welsh",
+          "description": "Let me spell this out clearly: you can love someone and still hold them to account, including sending them to prison or even executing them. You can refuse to rape and torture and still put criminals in prison. You can treat people well and know that doing so brings out the best in most people, […]",
+          "link": "https://www.ianwelsh.net/losing-patience-with-moral-intellectual-morons/",
+          "publishedOn": "2026-04-22T17:54:54.000Z",
+          "wordCount": null,
+          "title": "Losing Patience With Moral & Intellectual Morons",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=24899",
+          "author": "Ian Welsh",
+          "description": "The neoliberal era, which is dying but not yet dead, has been extremely tiresome for anyone with an IQ higher than a tomato, and even a scintilla of intellectual honesty. Witness the current German chancellor, Merz, intent on doubling down on the same policies which have failed to work for generations: “With 450 million consumers, […]",
+          "link": "https://www.ianwelsh.net/germany-wants-to-double-down-on-failed-policies/",
+          "publishedOn": "2026-04-21T18:32:10.000Z",
+          "wordCount": null,
+          "title": "Germany Wants to Double Down on Failed Policies",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=24874",
+          "author": "Sean Paul Kelley",
+          "description": "~by Sean Paul Kelley Amidst the chaos, propaganda, and war porn that is our attack on Iran news of the Russo-Ukrainian war has been hard to come by. One thing is certainly clear after my deep dive into recent developments along the front is that there is a strategic pause on the part of Russia […]",
+          "link": "https://www.ianwelsh.net/russo-ukraine-war-strategic-pause/",
+          "publishedOn": "2026-04-21T01:39:41.000Z",
+          "wordCount": null,
+          "title": "Russo-Ukraine War: Strategic Pause",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=24883",
+          "author": "Sean Paul Kelley",
+          "description": "~by Sean Paul Kelley Kerry Burgess on X is reporting this: “General Caine cited Article 92 of the Uniform Code of Military Justice on Saturday night, as he refused Trumps order to execute a nuclear strike on Iran.” Gen. Caine is the Chairman of the Joint Chiefs of Staff and therefore not in the direct […]",
+          "link": "https://www.ianwelsh.net/did-gen-caine-defy-a-presidential-order-saturday-night-and-deny-him-the-nuclear-codes/",
+          "publishedOn": "2026-04-21T01:36:56.000Z",
+          "wordCount": null,
+          "title": "Did Gen. Caine Defy A Presidential Order Saturday Night and Deny Trump the Nuclear Codes?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.ianwelsh.net/?p=24854",
           "author": "Tony Wikrent",
@@ -611,36 +598,6 @@
           "wordCount": null,
           "title": "Brief Strait Of Hormuz Update",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24820",
-          "author": "Ian Welsh",
-          "description": "Near the start of the war I noted that the real issue with petroleum shortages wasn’t gasoline, it was diesel, bunker fuel (ships) and jet fuel. Diesel is, despite what many say, feasible to get off of: even some of the massive machines used for mining are already being switched over, and China is moving […]",
-          "link": "https://www.ianwelsh.net/china-thinks-ahead-to-reduce-its-reliance-on-petroleum/",
-          "publishedOn": "2026-04-16T14:59:57.000Z",
-          "wordCount": null,
-          "title": "China Thinks Ahead To Reduce Its Reliance On Petroleum",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24813",
-          "author": "Ian Welsh",
-          "description": "I’ve spent a lot of time around doctors and nurses and low level bureaucrats. Way too much time. I’ve learned a couple things as a result, however. You get the best care from doctors or service from anyone else when they feel you as a human. The best way to get them to feel you […]",
-          "link": "https://www.ianwelsh.net/acknowledging-the-human-in-each-other/",
-          "publishedOn": "2026-04-15T13:31:58.000Z",
-          "wordCount": null,
-          "title": "Acknowledging the Human In Each Other",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24788",
-          "author": "Nat Wilson Turner",
-          "description": "For all that Iran has been mopping the floor with the U.S., Israel, and the Gulf States, things have come to a precarious point. While Iran has been mopping the floor strategically with the U.S., Israel, and the Gulf States, a Saudi-Pakistani military alliance could enter the fray on the U.S. side and make a […]",
-          "link": "https://www.ianwelsh.net/ramadan-war-could-be-decided-by-a-sunni-coalition/",
-          "publishedOn": "2026-04-14T13:30:50.000Z",
-          "wordCount": null,
-          "title": "Ramadan War Could Be Decided by a Sunni Coalition",
-          "imageUrl": null
         }
       ]
     },
@@ -650,101 +607,101 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159667",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159736",
           "author": "Scott Lemieux",
-          "description": "Apparently Kash Patel, who may well still be the FBI director as you read this, does not like stories being published about how he needs a whole lot of medicine to pretend that he’s somebody else: Kash Patel has filed a defamation lawsuit against The Atlantic, accusing the magazine and its reporter Sarah Fitzpatrick of […]\nThe post The chief weapon of MAGA is the frivolous lawsuit appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-chief-weapon-of-maga-is-the-frivolous-lawsuit",
-          "publishedOn": "2026-04-20T19:15:00.000Z",
+          "description": "I wish I was exaggerating: The F.B.I. began investigating a New York Times reporter last month after she wrote about the bureau’s director, Kash Patel, using bureau personnel to provide his girlfriend with government security and transportation, according to a person briefed on the matter. Agents interviewed the girlfriend, queried databases for information on the […]\nThe post Kash Patel ordered investigation based on theory that reporting is illegal appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/kash-patel-ordered-investigation-based-on-theory-that-reporting-is-illegal",
+          "publishedOn": "2026-04-23T00:23:48.000Z",
           "wordCount": null,
-          "title": "The chief weapon of MAGA is the frivolous lawsuit",
+          "title": "Kash Patel ordered investigation based on theory that reporting is illegal",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159666",
-          "author": "Cheryl Rofer",
-          "description": "I am becoming slightly concerned that we are not seeing any clear front-runners for Democratic president in 2028. I am only slightly concerned because we have a big mid-term election to go through yet. I suspect that some of the potential candidates are holding back until they see those results, which is fair enough. We […]\nThe post Brainstorming Foreign Policy appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/brainstorming-foreign-policy",
-          "publishedOn": "2026-04-20T18:15:23.000Z",
-          "wordCount": null,
-          "title": "Brainstorming Foreign Policy",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159662",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159734",
           "author": "Paul Campos",
-          "description": "Here’s presidential hopeful Andy Beshear, imploring Democratic politicians to talk in language that the common clay of the west can understand: Democratic Kentucky Gov. Andy Beshear, a possible presidential candidate in 2028, delivered a speech Saturday in Detroit urging Michigan Democrats to “talk like a normal human” to win voters. Appearing at the Michigan Democratic […]\nThe post Populism as performative dumbassery appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/populism-as-performative-dumbassery",
-          "publishedOn": "2026-04-20T15:16:46.000Z",
+          "description": "Writing on Truth Social, Trump on Wednesday claimed a “RIGGED ELECTION” had taken place in Virginia despite there being absolutely no evidence of any irregularities or fraud in the conduct of the plebiscite the previous evening in which 1,575,288 voters cast ballots in favor of a constitutional amendment which permits the implementation of new districts drawn […]\nThe post Extraordinary brilliance, statistical division appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/extraordinary-brilliance-statistical-division",
+          "publishedOn": "2026-04-22T20:57:06.000Z",
           "wordCount": null,
-          "title": "Populism as performative dumbassery",
+          "title": "Extraordinary brilliance, statistical division",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159659",
-          "author": "Robert Farley",
-          "description": "I understand that’s it’s important to use the term “mixed messages” about Iranian war diplomacy because it does actually tell you something relevant about the conflict, but at the same time noting that Iranian rhetoric may be slightly incoherent at this point would seem to do grave injustice to the elephant in the room: Iran […]\nThe post Schrodinger’s Strait and Schrodinger’s War appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/schrodingers-strait-and-schrodingers-war",
-          "publishedOn": "2026-04-20T14:07:29.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159733",
+          "author": "Scott Lemieux",
+          "description": "Because spreading this information is inconsistent with the homicidally eugenicist goals of the current head of Health and Human Services: The acting head of the Centers for Disease Control and Prevention has canceled the publication of a study that found that the Covid vaccine sharply cut the odds of hospitalizations and emergency visits last winter, […]\nThe post CDC refuses to publish valid study detailing the effectiveness of COVID vaccines appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/cdc-refuses-to-publish-valid-study-detailing-the-effectiveness-of-covid-vaccines",
+          "publishedOn": "2026-04-22T20:11:10.000Z",
           "wordCount": null,
-          "title": "Schrodinger’s Strait and Schrodinger’s War",
+          "title": "CDC refuses to publish valid study detailing the effectiveness of COVID vaccines",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159410",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159732",
           "author": "Erik Loomis",
-          "description": "This is the grave of Queen Anne, as well as Prince George of Denmark. Born in 1665 at St. James Palace in London, Anne was the daughter of the future King James II. This fact alone would make things complicated at her birth. When she was born, King Charles II was on the throne. He […]\nThe post Erik Visits a (Non)-American Grave, Part 2,122 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/erik-visits-a-non-american-grave-part-2122",
-          "publishedOn": "2026-04-20T11:00:00.000Z",
+          "description": "The death of Doug LaMalfa broke the Democratic streak of 8 consecutive members of Congress to die in office, the longest streak on record. But there’s enough ancient Dems who just refuse to retire that I think we can break that streak. David Scott gets us started! Representative David Scott, a Georgia Democrat who served […]\nThe post The Democratic Gerontocracy Strikes Again appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-democratic-gerontocracy-strikes-again",
+          "publishedOn": "2026-04-22T18:32:21.000Z",
           "wordCount": null,
-          "title": "Erik Visits a (Non)-American Grave, Part 2,122",
+          "title": "The Democratic Gerontocracy Strikes Again",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159655",
-          "author": "Cheryl Rofer",
-          "description": "It’s probably a good idea to read my earlier post on why nations don’t want nuclear weapons before reading this one. The various factors in a decision to build a nuclear arsenal weigh differently for the nations that are variously considered to be candidates for that decision. There is no one size that fits all. […]\nThe post Nations That Might Build Nuclear Weapons appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/nations-that-might-build-nuclear-weapons",
-          "publishedOn": "2026-04-19T20:59:35.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159728",
+          "author": "Erik Loomis",
+          "description": "The Washington Post’s editorial page is utter garbage now, but every now and then something interesting still sneaks through and I appreciated that the real regime change caused by Trump has been raising the fortunes of anti-Trumpers, such as in Canada. Well, the Iranian case is up for debate, but there’s no question your commander […]\nThe post Trump’s Regime Change appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/trumps-regime-change",
+          "publishedOn": "2026-04-22T16:45:00.000Z",
           "wordCount": null,
-          "title": "Nations That Might Build Nuclear Weapons",
+          "title": "Trump’s Regime Change",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159654",
-          "author": "Scott Lemieux",
-          "description": "The most recent mass killing of American children (at least to the best of my knowledge) has happened in Mike Johnson’s district: Eight children ranging from 1 to 14 years old were killed in a mass shooting in Shreveport, Louisiana, on Sunday morning, according to police. Officers with the Shreveport Police Department responded to the […]\nThe post Thoughts, prayers, things of that nature appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/thoughts-prayers-things-of-that-nature",
-          "publishedOn": "2026-04-19T19:55:20.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159697",
+          "author": "Erik Loomis",
+          "description": "The horrible, no good, awful nation known as the United States is turning 250 this year. We have this assumption in this country that the U.S. was good and the British were bad and that’s…..just a bit oversimplified. PBS–and presumably this was made before Herr Trump ended all funding to it–has a new documentary about […]\nThe post The British American Revolution appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-british-american-revolution",
+          "publishedOn": "2026-04-22T15:45:32.000Z",
           "wordCount": null,
-          "title": "Thoughts, prayers, things of that nature",
+          "title": "The British American Revolution",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159649",
-          "author": "Scott Lemieux",
-          "description": "Looks like the Peace President has swung from declaring the war pretty much over to threatening gigantic war crimes again: President Trump said U.S. negotiators will be in Pakistan on Monday for peace talks as he warned Iran to take a deal or face strikes that would knock out all of its bridges and power plants. In […]\nThe post The Art of the Hague appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-art-of-the-hague",
-          "publishedOn": "2026-04-19T17:23:00.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159725",
+          "author": "Robert Farley",
+          "description": "As a hardworking American and a fully satisfied employee of the University of Kentucky, I think that when an oligarch buys influence, the oligarch should get influence. Some miscreants, rabble rousers, and outside agitators evidently feel different: Gov. Andy Beshear left something unsaid in his criticism of University of Kentucky leadership, casting doubt on the […]\nThe post An Honest Dollar appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/an-honest-dollar",
+          "publishedOn": "2026-04-22T14:10:52.000Z",
           "wordCount": null,
-          "title": "The Art of the Hague",
+          "title": "An Honest Dollar",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159640",
-          "author": "Shakezula",
-          "description": "From 404 Media, yet another reason to despise AI corporations. Every day, Michael Geoffrey Asia spent eight consecutive hours at his laptop in Kenya staring at porn, annotating what was happening in every frame for an AI data labeling company. When he was done with his shift, he started his second job as the human […]\nThe post AI and the exploitation of Kenyan workers appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/ai-and-the-exploitation-of-kenyan-workers",
-          "publishedOn": "2026-04-19T16:19:00.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159723",
+          "author": "Paul Campos",
+          "description": "Out on the street with the whole family:\nThe post Hard to believe the press is free now appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/hard-to-believe-the-press-is-free-now",
+          "publishedOn": "2026-04-22T13:19:22.000Z",
           "wordCount": null,
-          "title": "AI and the exploitation of Kenyan workers",
+          "title": "Hard to believe the press is free now",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159712",
+          "author": "Robert Farley",
+          "description": "Are we shooting people today? Two ships came under attack in the Strait of Hormuz as tensions flared in the waterway, after President Trump said the U.S. would extend its cease-fire with Iran and continue its blockade until Tehran presents “a unified proposal.” An Iranian gunboat fired on a containership northeast of Oman, before a second vessel reported being fired at […]\nThe post “Wait, did we start the fire?” appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/wait-did-we-start-the-fire",
+          "publishedOn": "2026-04-22T10:35:37.000Z",
+          "wordCount": null,
+          "title": "“Wait, did we start the fire?”",
           "itunes": {},
           "imageUrl": null
         }
