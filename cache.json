@@ -12,14 +12,14 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
-          "id": "7ede0be548a2a16163211e9928eb15724ac9e296",
-          "author": "Sébastien Stormacq",
-          "description": "Claude Opus 4.7 arrives in Amazon Bedrock with improved agentic coding and a 1M token context window. AWS Interconnect reaches general availability with multicloud private connectivity and a new last-mile option. Plus, post-quantum TLS for Secrets Manager, new C8in/C8ib EC2 instances, and more.",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-7-in-amazon-bedrock-aws-interconnect-ga-and-more-april-20-2026/",
-          "publishedOn": "2026-04-20T15:53:21.000Z",
-          "wordCount": 32600,
-          "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/09/08/AWS-WIR-default-AWSNEWS-2068.png"
+          "id": "a923d5c5d00735b29f125108fe5f865ed6f9c6f6",
+          "author": "Daniel Abib",
+          "description": "Late March took me to Seattle for the Specialist Tech Conference, one of the most energizing gatherings of AWS specialists from around the world. It was an incredible opportunity to connect with peers, exchange experiences, and go deep on the latest advancements in Generative AI and Amazon Bedrock — and a powerful reminder of something […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-anthropic-meta-partnership-aws-lambda-s3-files-amazon-bedrock-agentcore-cli-and-more-april-27-2026/",
+          "publishedOn": "2026-04-27T15:01:28.000Z",
+          "wordCount": 32816,
+          "title": "AWS Weekly Roundup: Anthropic & Meta partnership, AWS Lambda S3 Files, Amazon Bedrock AgentCore CLI, and more (April 27, 2026)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         }
       ]
     },
@@ -28,6 +28,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
       "articles": [
+        {
+          "id": "b97fe896152b27bfe94f013a8620852e0ec1e644",
+          "author": "Samuel Lefki",
+          "description": "In this post, we explore how Deloitte used Amazon EKS and vCluster to transform their testing infrastructure.",
+          "link": "https://aws.amazon.com/blogs/architecture/deloitte-optimizes-eks-environment-provisioning-and-achieves-89-faster-testing-environments-using-amazon-eks-and-vcluster/",
+          "publishedOn": "2026-04-27T17:47:34.000Z",
+          "wordCount": 34213,
+          "title": "Deloitte optimizes EKS environment provisioning and achieves 89% faster testing environments using Amazon EKS and vCluster",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/27/archblog-1282.png"
+        },
         {
           "id": "d4d29b07b87e5cdd51a7c5bca643edfbbf406283",
           "author": "Neeraj Kaushik",
@@ -47,16 +57,6 @@
           "wordCount": 33170,
           "title": "PACIFIC enables multi-tenant, sovereign product carbon footprint exchange on the Catena-X data space using AWS",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/15/ARCHBLOG-1358-1-802x630.png"
-        },
-        {
-          "id": "809a64b3127791d27ed0c5206e79b269b7e2b61b",
-          "author": "Avdhesh Paliwal",
-          "description": "This post explores how Oldcastle used AWS services to transform their analytics and AI capabilities by integrating Infor ERP with Amazon Aurora and Amazon Quick Sight. We discuss how they overcame the limitations of traditional cloud ERP reporting to deploy real-time dashboards and build a scalable analytics system. This practical, enterprise-grade approach offers a blueprint that organizations can adapt when extending ERP capabilities with cloud-native analytics and AI.",
-          "link": "https://aws.amazon.com/blogs/architecture/real-time-analytics-oldcastle-integrates-infor-with-amazon-aurora-and-amazon-quick-sight/",
-          "publishedOn": "2026-04-21T16:37:12.000Z",
-          "wordCount": 33518,
-          "title": "Real-time analytics: Oldcastle integrates Infor with Amazon Aurora and Amazon Quick Sight",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/04/21/archblog-12911-1-1260x479.png"
         }
       ]
     },
@@ -71,6 +71,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
       "articles": [
+        {
+          "id": "6af86282e787304f91b022527663270ca9f1b105",
+          "author": "Venugopalan Vasudevan",
+          "description": "Enterprise modernization has reached an inflection point. You can transform one repository easily. Existing tools, including AWS Transform custom, work well for individual repositories, and the process is understood. But what about 50 repositories? 100? 200? When you need to modernize at enterprise scale, transforming code is only part of the challenge. Coordinating people, capturing […]",
+          "link": "https://aws.amazon.com/blogs/devops/aws-transform-custom-enterprise-code-modernization-with-the-learn-scale-improve-flywheel/",
+          "publishedOn": "2026-04-27T04:49:32.000Z",
+          "wordCount": 33100,
+          "title": "AWS Transform custom: Enterprise Code Modernization with the Learn-Scale-Improve Flywheel",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/04/24/featured-image-aws-transform-custom.png"
+        },
         {
           "id": "69a2a91d938bb70856ad69c6cd9634e73f79c6cc",
           "author": "Rohit Sharma",
@@ -106,12 +116,82 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=309424",
+          "author": "Curro Jimenez",
+          "description": "The future of U.S. dominance relies on making governments dependent on technology companies that have effectively become part of the State",
+          "link": "https://www.nakedcapitalism.com/2026/04/palantir-in-argentina-and-the-future-of-u-s-dominance.html",
+          "publishedOn": "2026-04-28T07:00:58.000Z",
+          "wordCount": 3526,
+          "title": "Palantir in Argentina and the Future of U.S. Dominance",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=309412",
+          "author": "Nat Wilson Turner",
+          "description": "The Ellison infotainment empire financed by father Larry and nominally helmed by son David, may have peaked with the shareholder approval of Paramount-Skydance's purchase of WBD (Warner Bros Discovery).",
+          "link": "https://www.nakedcapitalism.com/2026/04/ellison-infotainment-empire-peak-openai-paramount-wbd.html",
+          "publishedOn": "2026-04-27T18:00:27.000Z",
+          "wordCount": 7870,
+          "title": "Coffee Break: Has the Ellison Infotainment Empire Peaked?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=309408",
+          "author": "Yves Smith",
+          "description": "Discussing  a decades-old FDA  loophole for putting new ingredients into the country’s food supply.",
+          "link": "https://www.nakedcapitalism.com/2026/04/why-food-additives-may-not-be-fda-reviewed.html",
+          "publishedOn": "2026-04-27T13:55:10.000Z",
+          "wordCount": 4050,
+          "title": "Why Food Additives May Not Be FDA Reviewed",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=309368",
+          "author": "Conor Gallagher",
+          "description": "Our daily links, including a roundup of all the latest on the White House Correspondents Dinner shooting, NSA spying, and the strongest El Nino ever?",
+          "link": "https://www.nakedcapitalism.com/2026/04/links-4-27-2026.html",
+          "publishedOn": "2026-04-27T10:55:28.000Z",
+          "wordCount": 10483,
+          "title": "Links 4/27/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Screenshot-2026-04-26-at-1.29.10 PM-762x1024.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=309372",
+          "author": "Nat Wilson Turner",
+          "description": "A western media distracted by Saturday night's alleged attack on Trump is letting the Iran War narrative dissolve into several related streams as the ceasefire continues, except in Lebanon and the high seas.",
+          "link": "https://www.nakedcapitalism.com/2026/04/iran-war-narrative-dissolution-ceasefire-lebanon-negotiations-blockade.html",
+          "publishedOn": "2026-04-27T10:54:30.000Z",
+          "wordCount": 15234,
+          "title": "Iran War: Narrative Dissolution as Ceasefire Continues Except in Lebanon",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=309397",
+          "author": "Conor Gallagher",
+          "description": "Western capital has its meathooks firmly into Türkiye. What do western governments want in return?",
+          "link": "https://www.nakedcapitalism.com/2026/04/von-der-leyens-gaffe-hints-at-pressure-building-on-turkiye.html",
+          "publishedOn": "2026-04-27T09:00:23.000Z",
+          "wordCount": 6036,
+          "title": "Von der Leyen’s ‘Gaffe’ Hints at Pressure Building on Türkiye",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Screenshot-2026-04-26-at-9.54.52 AM-986x1024.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=309393",
+          "author": "Conor Gallagher",
+          "description": "The Make America Great Again mega yacht springs another leak.",
+          "link": "https://www.nakedcapitalism.com/2026/04/china-surpasses-us-in-research-spending-the-consequences-extend-far-beyond-scientific-ranking-and-clout.html",
+          "publishedOn": "2026-04-27T08:00:00.000Z",
+          "wordCount": 5796,
+          "title": "China Surpasses US in Research Spending – The Consequences Extend Far Beyond Scientific Ranking and Clout",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=309343",
           "author": "Haig Hovaness",
           "description": "Our strategic daily links: zigzag road, evil betting, fur farming danger, Chinese drone carrier, Mideast misery, EU energy crisis, Ukraine burning, vanishing privacy, Trumpishness, Musk world, hapless Democrats, immigration troubles, Mr. market, AI, and wretched excess",
           "link": "https://www.nakedcapitalism.com/2026/04/links-4-26-2026.html",
           "publishedOn": "2026-04-26T10:55:17.000Z",
-          "wordCount": 8368,
+          "wordCount": 10572,
           "title": "Links 4/26/2026",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Butterfly-3.jpg"
         },
@@ -121,7 +201,7 @@
           "description": "Today's Iran War update includes Netanyahu ordering strikes on Lebanon, Trump rug pulling \"negotiations\" in Pakistan, the MSM publishing more bad war news for the US, and some takes from the UAE and Israel.",
           "link": "https://www.nakedcapitalism.com/2026/04/iran-war-israel-strikes-lebanon-trumps-negotiations-rug-pull-the-view-from-the-uae.html",
           "publishedOn": "2026-04-26T10:54:17.000Z",
-          "wordCount": 13974,
+          "wordCount": 19363,
           "title": "Iran War: Israel Strikes Lebanon, Trump’s Negotiations Rug Pull, the View from the UAE",
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!z-Ka!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b06837e-9421-4a71-8235-7067625d9773_1248x832.jpeg"
         },
@@ -131,79 +211,9 @@
           "description": "White Sun of the Desert is a tale of high adventure set in the far east of Soviet Russia.",
           "link": "https://www.nakedcapitalism.com/2026/04/the-sunday-morning-movie-presents-white-sun-of-the-desert-1970-run-time-1h-23m-plus-naive-atheism-refuted.html",
           "publishedOn": "2026-04-26T10:30:31.000Z",
-          "wordCount": 4931,
+          "wordCount": 5938,
           "title": "The Sunday Morning Movie Presents: White Sun Of the Desert (1970) Run Time: 1H 23M Plus Naive Atheism Refuted!",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=309364",
-          "author": "Conor Gallagher",
-          "description": "Or how defeat in the Iran War will accelerate American global decline.",
-          "link": "https://www.nakedcapitalism.com/2026/04/american-micro-militarism.html",
-          "publishedOn": "2026-04-26T09:00:09.000Z",
-          "wordCount": 7011,
-          "title": "American “Micro-Militarism”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=309313",
-          "author": "Yves Smith",
-          "description": "Our fancy dally links: salmon high, Middle English pronunciation, moar Iran negotiaiton fakes, White House China AI freakout, EU stagflation, glum UK consumers, global shipping damage, Russia attack, medicine shortages",
-          "link": "https://www.nakedcapitalism.com/2026/04/links-4-25-2026.html",
-          "publishedOn": "2026-04-25T10:55:09.000Z",
-          "wordCount": 10618,
-          "title": "Links 4/25/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Screenshot-2026-04-25-at-12.23.57 AM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=309322",
-          "author": "Nat Wilson Turner",
-          "description": "All of the ominous signs that have preceded previous \"suprise attacks\" on Iran are here: the markets are closed for the weekend, Kushner and Witkoff are headed to Pakistan for negotiations, and US forces are assembling across West Asia.",
-          "link": "https://www.nakedcapitalism.com/2026/04/iran-war-negotiations-pakistan-kushner-witkoff-aragachi-attack.html",
-          "publishedOn": "2026-04-25T10:54:47.000Z",
-          "wordCount": 15383,
-          "title": "Iran War: Waiting Is the Hardest Part, Back to Pakistan, USraeli Attack Incoming?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=309337",
-          "author": "Yves Smith",
-          "description": "A dangerous right-wing solution to homelessness is to hide the unhoused in out-of-sight detention camps",
-          "link": "https://www.nakedcapitalism.com/2026/04/to-solve-homelessness-fix-the-economy.html",
-          "publishedOn": "2026-04-25T05:06:12.000Z",
-          "wordCount": 7673,
-          "title": "To Solve Homelessness, Fix the Economy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=309310",
-          "author": "KLG",
-          "description": "Part the First: Anti-amyloid Antibodies and Alzheimer’s Disease (AD).  A Cochrane review of monoclonal antibodies targeting amyloid plaques in AD has found that these drugs have little to no effect on cognitive function of AD patients.  Cochrane reviews are, to use one of the favorite tropes of the current administration, considered the “gold standard” of […]",
-          "link": "https://www.nakedcapitalism.com/2026/04/coffee-break-alzheimers-disease-still-a-mystery-and-books-worth-reading.html",
-          "publishedOn": "2026-04-24T18:00:02.000Z",
-          "wordCount": 7366,
-          "title": "Coffee Break: Alzheimer’s Disease Still a Mystery and Books Worth Reading",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=309269",
-          "author": "Yves Smith",
-          "description": "Quelle surprise! Punitive food stamp restrictions do not produce an increase in work levels.",
-          "link": "https://www.nakedcapitalism.com/2026/04/food-stamp-work-rules-dont-increase-employment-researchers-say.html",
-          "publishedOn": "2026-04-24T13:55:56.000Z",
-          "wordCount": 4264,
-          "title": "Food Stamp Work Rules Don’t Increase Employment, Researchers Say",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/04/00-food-stamp.webp"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=309252",
-          "author": "Conor Gallagher",
-          "description": "Our daily links, inlcuding Finnish New Cold War warriors, Trump's roving banditry, Ghislaine pardon, and eating cactus.",
-          "link": "https://www.nakedcapitalism.com/2026/04/links-4-24-2026.html",
-          "publishedOn": "2026-04-24T10:55:31.000Z",
-          "wordCount": 6803,
-          "title": "Links 4/24/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/04/Screenshot-2026-04-23-at-5.39.36 PM-1024x696.png"
         }
       ]
     },
@@ -218,49 +228,9 @@
           "description": "Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasm‑bindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling.",
           "link": "https://blog.cloudflare.com/making-rust-workers-reliable/",
           "publishedOn": "2026-04-22T13:00:00.000Z",
-          "wordCount": 2738,
+          "wordCount": 2741,
           "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/dUUIMZewVzkYfRaVqwGRb/1e892ef7090127e5a781fa564942d3a3/Making_Rust_Workers_reliable-_panic_and_abort_recovery_in_wasm%C3%A2__bindgen-OG.png"
-        },
-        {
-          "id": "6qZ5scXbRymHWaQGBZcqe",
-          "author": "Thibault Meunier",
-          "description": "As AI assistants and privacy proxies challenge the capabilities of traditional bot detection, the Web needs new models for accountability. We believe that control should remain with the client, and that an open ecosystem of anonymous credentials is key to preserving user privacy while protecting origins from abuse.",
-          "link": "https://blog.cloudflare.com/past-bots-and-humans/",
-          "publishedOn": "2026-04-21T13:00:00.000Z",
-          "wordCount": 4508,
-          "title": "Moving past bots vs. humans",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2MdPo7cFDHnAisWzaKi5a8/2b4bc1e412bb7c26ab43d5b9a89eb11f/Moving_past_bots_vs._humans-OG.png"
-        },
-        {
-          "id": "25CSwW9eXDM4FJOdVPLf8f",
-          "author": "Ming Lu",
-          "description": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
-          "link": "https://blog.cloudflare.com/agents-week-in-review/",
-          "publishedOn": "2026-04-20T13:00:00.000Z",
-          "wordCount": 2548,
-          "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/25twxcfrFmVdPOM25w44Kz/61e7071d4f1fef8a5ea9b979e7871684/Building_the_agentic_cloud-_everything_we_launched_during_Agents_Week_2026-OG.png"
-        },
-        {
-          "id": "4z7ZJ5ZbY3e3YwJtkg6NiD",
-          "author": "Ayush Thakur",
-          "description": "We built our internal AI engineering stack on the same products we ship. That means 20 million requests routed through AI Gateway, 241 billion tokens processed, and inference running on Workers AI, serving more than 3,683 internal users. Here's how we did it.",
-          "link": "https://blog.cloudflare.com/internal-ai-engineering-stack/",
-          "publishedOn": "2026-04-20T13:00:00.000Z",
-          "wordCount": 4357,
-          "title": "The AI engineering stack we built internally — on the platform we ship",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/78qRQVksnJ8pr4nxLwlrLy/babe894d6df02c55b50a503a1be7d18f/BLOG-3270_OG.png"
-        },
-        {
-          "id": "6dkWF56UtSkU9dWfFUxiCn",
-          "author": "Ryan Skidmore",
-          "description": "Learn about how we built a CI-native AI code reviewer using OpenCode that helps our engineers ship better, safer code.",
-          "link": "https://blog.cloudflare.com/ai-code-review/",
-          "publishedOn": "2026-04-20T13:00:00.000Z",
-          "wordCount": 5746,
-          "title": "Orchestrating AI Code Review at scale",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3g2Vqql5biqvjvXwxhDb3b/b0c7fd707437eff2a7acb9d3172368e4/BLOG-3284_OG.png"
         }
       ]
     },
@@ -305,6 +275,16 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=29598",
+          "author": "Richard Seroter",
+          "description": "Today's links look at twenty software engineering laws, building agents that learn from experience, and how to improve your writing.",
+          "link": "https://seroter.com/2026/04/27/daily-reading-list-april-27-2026-771/",
+          "publishedOn": "2026-04-27T23:19:48.000Z",
+          "wordCount": 4506,
+          "title": "Daily Reading List – April 27, 2026 (#771)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
           "id": "http://seroter.com/?p=29573",
           "author": "Richard Seroter",
           "description": "Today's links look at day 2 of Google Cloud Next, what cognitive debt is all about, and the weird new trend of tokenmaxxing.",
@@ -333,16 +313,6 @@
           "wordCount": 4522,
           "title": "Daily Reading List – April 21, 2026 (#768)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=29524",
-          "author": "Richard Seroter",
-          "description": "Today's links look at four architectural bets for your agent stack, how to implement multi-agent networking patterns, and why tokenmaxxing is making devs less productive than they think.",
-          "link": "https://seroter.com/2026/04/20/daily-reading-list-april-20-2026-767/",
-          "publishedOn": "2026-04-20T23:48:49.000Z",
-          "wordCount": 4378,
-          "title": "Daily Reading List – April 20, 2026 (#767)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         }
       ]
     },
@@ -352,12 +322,22 @@
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
         {
+          "id": "https://news.mit.edu/2026/faster-way-to-estimate-ai-power-consumption-0427",
+          "author": "Adam Zewe | MIT News",
+          "description": "The “EnergAIzer” method generates reliable results in seconds, enabling data center operators to efficiently allocate resources and reduce wasted energy.",
+          "link": "https://news.mit.edu/2026/faster-way-to-estimate-ai-power-consumption-0427",
+          "publishedOn": "2026-04-27T04:00:00.000Z",
+          "wordCount": 1758,
+          "title": "A faster way to estimate AI power consumption",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT_Power-Estimation-01.jpg"
+        },
+        {
           "id": "https://news.mit.edu/2026/mit-scientists-build-worlds-largest-collection-olympiad-level-math-problems-open-0424",
           "author": "Rachel Gordon | MIT CSAIL",
           "description": "New dataset of 30,000-plus competition math problems from 47 countries gives AI researchers a harder test — and students worldwide a better training ground.",
           "link": "https://news.mit.edu/2026/mit-scientists-build-worlds-largest-collection-olympiad-level-math-problems-open-0424",
           "publishedOn": "2026-04-24T17:00:00.000Z",
-          "wordCount": 1987,
+          "wordCount": 1993,
           "title": "MIT scientists build the world’s largest collection of Olympiad-level math problems, and open it to everyone",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/MIT-MathNet.jpg"
         },
@@ -367,7 +347,7 @@
           "description": "A new training method improves the reliability of AI confidence estimates without sacrificing performance, addressing a root cause of hallucination in reasoning models.",
           "link": "https://news.mit.edu/2026/teaching-ai-models-to-say-im-not-sure-0422",
           "publishedOn": "2026-04-22T19:15:00.000Z",
-          "wordCount": 1555,
+          "wordCount": 1553,
           "title": "Teaching AI models to say “I’m not sure”",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202604/mit-csail-reinforcement.jpg"
         }
@@ -399,22 +379,6 @@
             "type": "image/jpeg"
           },
           "imageUrl": "https://substackcdn.com/image/fetch/$s_!kOy6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcf368aff-c95e-4432-9f35-67bac703781d_1822x1164.png"
-        },
-        {
-          "id": "https://www.thomasfazi.com/p/the-russiagate-playbook-fails-in",
-          "author": "Thomas Fazi",
-          "description": "The EU-NATO establishment once again attempted to weaponise the Russiagate narrative in Bulgaria’s Sunday elections — but this time a Romanian-style scenario seems unlikely",
-          "link": "https://www.thomasfazi.com/p/the-russiagate-playbook-fails-in",
-          "publishedOn": "2026-04-21T12:52:52.000Z",
-          "wordCount": null,
-          "title": "The Russiagate playbook fails in Bulgaria",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substackcdn.com/image/fetch/$s_!GJ2w!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75f2643b-6a0c-4b30-a995-1f76c8883b5f_1728x1170.png",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substackcdn.com/image/fetch/$s_!GJ2w!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75f2643b-6a0c-4b30-a995-1f76c8883b5f_1728x1170.png"
         }
       ]
     },
@@ -423,6 +387,16 @@
       "feedUrl": "https://www.ianwelsh.net/feed/",
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
+        {
+          "id": "https://www.ianwelsh.net/?p=24995",
+          "author": "Ian Welsh",
+          "description": "I stumbled across this, completely typical word usage today: The Somali government officially announced that it was starting a blockade. Same as the US blockade. Same as the Iranian blockade. So either it’s all piracy, or it’s all “boarding.” We have seen a constant refusal to call Palestinian children, children. The words “Israel killed” are […]",
+          "link": "https://www.ianwelsh.net/the-abuse-of-language-by-media-and-government/",
+          "publishedOn": "2026-04-27T21:07:05.000Z",
+          "wordCount": null,
+          "title": "The Abuse of Language By Media and Government",
+          "imageUrl": null
+        },
         {
           "id": "https://www.ianwelsh.net/?p=24864",
           "author": "Tony Wikrent",
@@ -472,36 +446,6 @@
           "wordCount": null,
           "title": "Losing Patience With Moral & Intellectual Morons",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24899",
-          "author": "Ian Welsh",
-          "description": "The neoliberal era, which is dying but not yet dead, has been extremely tiresome for anyone with an IQ higher than a tomato, and even a scintilla of intellectual honesty. Witness the current German chancellor, Merz, intent on doubling down on the same policies which have failed to work for generations: “With 450 million consumers, […]",
-          "link": "https://www.ianwelsh.net/germany-wants-to-double-down-on-failed-policies/",
-          "publishedOn": "2026-04-21T18:32:10.000Z",
-          "wordCount": null,
-          "title": "Germany Wants to Double Down on Failed Policies",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24874",
-          "author": "Sean Paul Kelley",
-          "description": "~by Sean Paul Kelley Amidst the chaos, propaganda, and war porn that is our attack on Iran news of the Russo-Ukrainian war has been hard to come by. One thing is certainly clear after my deep dive into recent developments along the front is that there is a strategic pause on the part of Russia […]",
-          "link": "https://www.ianwelsh.net/russo-ukraine-war-strategic-pause/",
-          "publishedOn": "2026-04-21T01:39:41.000Z",
-          "wordCount": null,
-          "title": "Russo-Ukraine War: Strategic Pause",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=24883",
-          "author": "Sean Paul Kelley",
-          "description": "~by Sean Paul Kelley Kerry Burgess on X is reporting this: “General Caine cited Article 92 of the Uniform Code of Military Justice on Saturday night, as he refused Trumps order to execute a nuclear strike on Iran.” Gen. Caine is the Chairman of the Joint Chiefs of Staff and therefore not in the direct […]",
-          "link": "https://www.ianwelsh.net/did-gen-caine-defy-a-presidential-order-saturday-night-and-deny-him-the-nuclear-codes/",
-          "publishedOn": "2026-04-21T01:36:56.000Z",
-          "wordCount": null,
-          "title": "Did Gen. Caine Defy A Presidential Order Saturday Night and Deny Trump the Nuclear Codes?",
-          "imageUrl": null
         }
       ]
     },
@@ -511,101 +455,101 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159827",
-          "author": "Robert Farley",
-          "description": "This fella just became a legend. One of the most unusual elements in the report immediately caught our eye: the claim that an Iranian Northrop F-5 fighter carried out a strike on Camp Buehring in Kuwait. If confirmed, this would represent the first time in many years an enemy fighter aircraft directly attacked a U.S. installation protected by […]\nThe post Don’t Sleep on the Tiger II appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/dont-sleep-on-the-tiger-ii",
-          "publishedOn": "2026-04-26T16:39:05.000Z",
-          "wordCount": null,
-          "title": "Don’t Sleep on the Tiger II",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159824",
-          "author": "Erik Loomis",
-          "description": "I grew up in Oregon and unlike most Oregon lefties, I have absolutely zero tolerance for the “let’s just let people shoot fentanyl on the street” mentality of my home state, which I find utterly baffling. I fully believe in providing all the social services, all the support, etc. Still, I absolutely not only think […]\nThe post How Some Liberals Take Ludicrous Positions to Seem Tolerant appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/how-some-liberals-take-ludicrous-positions-to-seem-tolerant",
-          "publishedOn": "2026-04-26T15:11:45.000Z",
-          "wordCount": null,
-          "title": "How Some Liberals Take Ludicrous Positions to Seem Tolerant",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159817",
-          "author": "Paul Campos",
-          "description": "A few thoughts on a church day String. It’s an extremely bad sign that, from what I can tell, something like the majority opinion among non-fascists right now is that last night’s incident was staged for publicity purposes by the Trump administration, or somebody in it. My own view is that facially it’s highly implausible […]\nThe post The White House Correspondents Dinner is Decadent and Depraved appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-white-house-correspondents-dinner-is-decadent-and-depraved",
-          "publishedOn": "2026-04-26T13:05:24.000Z",
-          "wordCount": null,
-          "title": "The White House Correspondents Dinner is Decadent and Depraved",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159637",
-          "author": "Erik Loomis",
-          "description": "This is the grave of Toni Morrison. Or it might just be a monument in a cemetery to Morrison, I’m not exactly sure. But hey, it’s my series so this is close enough, plus we get to talk about one of the finest authors in American history. Born in 1931 in Lorain, Ohio, Chloe Wofford […]\nThe post Erik Visits an American Grave, Part 2,124 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/erik-visits-an-american-grave-part-2124",
-          "publishedOn": "2026-04-26T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Erik Visits an American Grave, Part 2,124",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159816",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159853",
           "author": "Scott Lemieux",
-          "description": "The other one, I mean: President Trump feted the biggest holders of his namesake memecoin on Saturday, cheering on a crypto market still fighting through a monthslong slump. In a wide-ranging address from his Mar-a-Lago resort, Trump touched on everything from the Iran war and his crypto friendly policies to the future of artificial intelligence and a recent rally […]\nThe post The Sucker’s Ball appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-suckers-ball",
-          "publishedOn": "2026-04-26T04:02:25.000Z",
+          "description": "I’m not even the biggest fan of billionaire’s taxes, which can be a cousin of the slopulist idea that it’s possible to fund a generous welfare state by taxing only the very wealthy. But the lengths plutocrats who will not be materially affected by such a tax in any way will go to stop them […]\nThe post Every asshole for himself appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/every-asshole-for-himself",
+          "publishedOn": "2026-04-28T02:26:19.000Z",
           "wordCount": null,
-          "title": "The Sucker’s Ball",
+          "title": "Every asshole for himself",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159814",
-          "author": "Paul Campos",
-          "description": "Apparently not the metaphorical kind this time: Donald Trump and other dignitaries have been hustled out of the White House Correspondents Dinner after shots were fired. As guest at the event leap under tables under orders from the Secret Service, POTUS, the First Lady, the Vice President, mentalist  Oz Pearlman, WHCA boss Weijia Jiang were hauled […]\nThe post Shots fired at White House correspondents dinner? appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/shots-fired-at-white-house-correspondents-dinner",
-          "publishedOn": "2026-04-26T00:55:59.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159849",
+          "author": "Cheryl Rofer",
+          "description": "Iran has offered serious proposals in the negotiations. Now there is another one (gift link, I think). Iran has offered the United States a new proposal for negotiations that focuses on opening the Strait of Hormuz and lifting the U.S. sea blockade on Iran as a way of ending the war and then tackling nuclear […]\nThe post Two Proposals From Iran Over the Weekend appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/two-proposals-from-iran-over-the-weekend",
+          "publishedOn": "2026-04-27T23:46:11.000Z",
           "wordCount": null,
-          "title": "Shots fired at White House correspondents dinner?",
+          "title": "Two Proposals From Iran Over the Weekend",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159812",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159848",
           "author": "Scott Lemieux",
-          "description": "The taxpayers will not be responsible for paying for Trump’s tacky new ballroom. They will just be responsible for paying exorbitant above-market no-bid contracts to the people building the ballroom, which is totally different! To build his mammoth White House ballroom, President Trump last summer chose Maryland-based Clark Construction. Since then, Mr. Trump has repeatedly […]\nThe post Kickback nation appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/kickback-nation",
-          "publishedOn": "2026-04-25T23:36:53.000Z",
+          "description": "Those scamps at Oberlin are at it again: President Trump and first lady Melania Trump demanded in separate social media posts on Monday that ABC pull comedian Jimmy Kimmel from its airwaves over a bit involving the White House correspondents’ dinner, delivered two days before it occurred. Mr. Kimmel, who has a long history of […]\nThe post The party of free speech appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-party-of-free-speech",
+          "publishedOn": "2026-04-27T21:22:03.000Z",
           "wordCount": null,
-          "title": "Kickback nation",
+          "title": "The party of free speech",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159808",
-          "author": "Shakezula",
-          "description": "Roy Moore is back in the news, doing one of the things he’s known for: Losing. A federal appeals court has reversed a ruling that awarded $8.2 million in damages to former Alabama Supreme Chief Justice Roy Moore in a defamation case related to his 2017 run for the U.S. Senate. Moore sued the Senate […]\nThe post And now for something completely different: Republican creeps you haven’t heard from in a while appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/and-now-for-something-completely-different-republican-creeps-you-havent-heard-from-in-a-while",
-          "publishedOn": "2026-04-25T21:25:00.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159847",
+          "author": "Cheryl Rofer",
+          "description": "Let’s leave aside the unreliability of the current LLMs that are often called “AI.” Leave aside the carelessness with which the label “AI” is attached to many things. Leave aside the expectation that AI will put millions out of work. The damage done by AI pictures and videos. The mass plagiarism and the exploitation of […]\nThe post The End of AI appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-end-of-ai",
+          "publishedOn": "2026-04-27T20:26:09.000Z",
           "wordCount": null,
-          "title": "And now for something completely different: Republican creeps you haven’t heard from in a while",
+          "title": "The End of AI",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=159801",
-          "author": "Dan Nexon",
-          "description": "It should go without saying that Trump 2.0 is what happens when you fuse kleptocratic governance with far-right ideology, but it seems like a lot of foreign-policy analysts continue to pretend otherwise. Alex Cooley and I first pitched a piece about this to Foreign Affairs in March of 2025. It came out in the January […]\nThe post Kleptocracy Destroys, Kleptocracy Builds appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/kleptocracy-destroys-kleptocracy-builds",
-          "publishedOn": "2026-04-25T20:00:37.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159842",
+          "author": "Paul Campos",
+          "description": "GLOUCESTER  O, let me kiss that hand!LEAR  Let me wipe it first; it smells of mortality. This (gift link) is an interesting and disturbing essay about the increasingly pharaonic obsessions of the authoritarian/plutocrat/Silicon Valley of the Kings class in our midst: The man perhaps most associated with this desire is Peter Thiel, who once outlined his interest in blood plasma transfusions from the young as a means of extending life. […]\nThe post The Democracy of Death appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-democracy-of-death",
+          "publishedOn": "2026-04-27T17:18:02.000Z",
           "wordCount": null,
-          "title": "Kleptocracy Destroys, Kleptocracy Builds",
+          "title": "The Democracy of Death",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159837",
+          "author": "Paul Campos",
+          "description": "An undocumented Latina child not being available, Stephen Miller uses his pregnant wife as a human shield One of many reasons that a lot of people were saying immediately after the incident at the WHCD — calling it an “assassination attempt” is perhaps a bit of stretch; the guy was never anywhere close to the […]\nThe post Strictly ballroom appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/strictly-ballroom",
+          "publishedOn": "2026-04-27T14:25:28.000Z",
+          "wordCount": null,
+          "title": "Strictly ballroom",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159840",
+          "author": "Erik Loomis",
+          "description": "One thing I have really struggled to get my head around is how memoryholed the assassination attempt on Trump was in 2024. I know people have speculations about it being a set-up and whatever. And I know people who have said these things who I never ever thought I would hear with a conspiracy theory, […]\nThe post Assassination Attempts appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/assassination-attempts",
+          "publishedOn": "2026-04-27T13:27:19.000Z",
+          "wordCount": null,
+          "title": "Assassination Attempts",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159835",
+          "author": "Erik Loomis",
+          "description": "What’s thousands of dead Africans? Nothing if those shithole countries don’t give Trump Inc their minerals: Saulo Kasekela died of AIDS on March 7, in a small town called Mpongwe in the copper belt of northern Zambia. He was a 37-year-old security guard, admitted to the mission hospital two days earlier. After his body was […]\nThe post The Tao of Trump appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/the-tao-of-trump",
+          "publishedOn": "2026-04-27T12:52:00.000Z",
+          "wordCount": null,
+          "title": "The Tao of Trump",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=159715",
+          "author": "Erik Loomis",
+          "description": "This is the grave of Lisa “Left Eye” Lopes. Born in 1971 in Philadelphia, Lopes grew up pretty middle class, which is interesting given her later, if short, life. Her father was a military man and evidently not a great guy, the Great Santini type of military man who ran his family like the military. […]\nThe post Erik Visits an American Grave, Part 2,125 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/04/erik-visits-an-american-grave-part-2125",
+          "publishedOn": "2026-04-27T11:00:00.000Z",
+          "wordCount": null,
+          "title": "Erik Visits an American Grave, Part 2,125",
           "itunes": {},
           "imageUrl": null
         }
