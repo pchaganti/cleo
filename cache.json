@@ -10,7 +10,18 @@
       "title": "AWS News Blog",
       "feedUrl": "https://aws.amazon.com/blogs/aws/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
-      "articles": []
+      "articles": [
+        {
+          "id": "0ee7dfc37504dc5243ef8d11d0d6403603ea0b17",
+          "author": "Daniel Abib",
+          "description": "There’s something genuinely energizing about working with startups — something I’ve been doing intensely for more than two years now. Startups operate at a different frequency: the urgency is real, the constraints are tight, and the stakes are personal. Helping them navigate the challenge of proving their business model requires not just technical depth but […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-local-zones-in-istanbul-open-source-extenddb-kiro-web-and-more-may-25-2026/",
+          "publishedOn": "2026-05-25T20:11:10.000Z",
+          "wordCount": 33284,
+          "title": "AWS Weekly Roundup: AWS Local Zones in Istanbul, open-source ExtendDB, Kiro Web, and more (May 25, 2026)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/06/10/AWS-WIR-default-1.png"
+        }
+      ]
     },
     {
       "title": "AWS Architecture Blog",
@@ -26,31 +37,6 @@
           "wordCount": 34690,
           "title": "Cyber resilience on AWS: A reference approach for recovery from ransomware and destructive events",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/05/13/arch-diagram1.png"
-        },
-        {
-          "id": "416018ee29563e5d7e86fb8abc90161afba0f6bc",
-          "author": "Saransh Burman",
-          "description": "This post explores how ALS GeoAnalytics successfully deployed LITHOLENS ™ with Amazon Elastic Kubernetes Service (Amazon EKS) to scale model training and inference while minimizing cost.",
-          "link": "https://aws.amazon.com/blogs/architecture/how-als-geoanalytics-litholens-revolutionizes-core-logging-through-machine-learning-with-amazon-eks/",
-          "publishedOn": "2026-05-19T15:09:36.000Z",
-          "wordCount": 33349,
-          "title": "How ALS GeoAnalytics LITHOLENS ™ revolutionizes core logging through machine learning with Amazon EKS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/05/08/archblog-1220-image-5-907x630.png"
-        },
-        {
-          "id": "40aafa238b03f3aa8889767846de4e203917a8f3",
-          "author": "Moises Hernandez",
-          "description": "This post introduces a video decoding optimization technique that we have ideated in collaboration with Synthesia Research Engineering team, which we call Asynchronous Frame Generation Pipeline. Adopting this technique allows you to overlap GPU compute, device-to-host (D2H) data transfer, and host-side post-processing. In this post, we apply this technique to the VAE decoder of a Wan video generation model as an example, where our benchmarks on G7e show increased GPU kernel utilization from 82% to 99.9%, in turn leading to an 8.2% decrease in latency (and increase in throughput) for video decoding. We expect this technique to benefit any customer with a chunked video generation pipeline that transfers frames to host memory.",
-          "link": "https://aws.amazon.com/blogs/architecture/how-synthesia-optimizes-generative-ai-video-inference-on-amazon-ec2-g7e-instances/",
-          "publishedOn": "2026-05-19T15:06:40.000Z",
-          "wordCount": 34044,
-          "title": "How Synthesia optimizes generative AI video inference on Amazon EC2 G7e instances",
-          "enclosure": {
-            "length": "0",
-            "type": "video/mp4",
-            "url": "https://github.com/Wan-Video/Wan2.2/blob/main/examples/wan_animate/replace/video.mp4"
-          },
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/05/05/ARCHBLOG-1422-image-1.png"
         }
       ]
     },
@@ -64,18 +50,7 @@
       "title": "AWS DevOps & Developer Productivity Blog",
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
-      "articles": [
-        {
-          "id": "595e23e780579681aaf8df0031b6107043164069",
-          "author": "Bhuvan Jain",
-          "description": "Modern distributed systems route business transactions through dozens of microservices, message queues, and event streams. When a message fails to process or processing exceeds SLA thresholds, troubleshooting requires correlating logs from tools like Elasticsearch, metrics from Datadog, and infrastructure change events in AWS CloudTrail. Correlating these signals manually across heterogeneous backends, each with different query […]",
-          "link": "https://aws.amazon.com/blogs/devops/automate-root-cause-analysis-across-datadog-and-elasticsearch-with-aws-devops-agent/",
-          "publishedOn": "2026-05-19T21:39:20.000Z",
-          "wordCount": 35586,
-          "title": "Automate root cause analysis across Datadog and Elasticsearch with AWS DevOps Agent",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/05/19/featured-image-template-1.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -89,12 +64,72 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=310891",
+          "author": "Haig Hovaness",
+          "description": "After a failed Middle East campaign, Washington could face immense political pressure to demonstrate restored American strength through a nearby and seemingly manageable military operation. Cuba’s proximity, military weakness, and symbolic significance could make it appear deceptively attractive as a target. Yet what begins as coercive intervention could rapidly evolve into occupation, regional destabilization, hemispheric political backlash, and strategic overreach.",
+          "link": "https://www.nakedcapitalism.com/2026/05/coffee-break-armed-madhouse-the-cuba-temptation.html",
+          "publishedOn": "2026-05-26T18:00:14.000Z",
+          "wordCount": 5258,
+          "title": "Coffee Break: Armed Madhouse – The Cuba Temptation",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/Cuba-satellite-image-e1779806253790.jpg"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=310896",
+          "author": "Yves Smith",
+          "description": "A new analysis of the impact of the Iran war on the energy and economic prospects for Europe has a whistling-pas-the-graveyard feel.",
+          "link": "https://www.nakedcapitalism.com/2026/05/a-more-resilient-europe-faces-a-renewed-energy-shock-but-difficult-trade-offs-may-resurface.html",
+          "publishedOn": "2026-05-26T13:55:07.000Z",
+          "wordCount": 5051,
+          "title": "A More Resilient Europe Faces a Renewed Energy Shock – But Difficult Trade-Offs May Resurface",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/00-europe-energy.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=310808",
+          "author": "Yves Smith",
+          "description": "Our vivid daily links: Roman engineering, moar heat, factory activity drops, EU-China trade blame game, India cockroach party, Israel Lebanon attacks + atrocities, Russia drops hammer on Kiev, moar on competence collapse, Pope Leo v. AI, private debt meltdown, unattainable middle class lifestyle",
+          "link": "https://www.nakedcapitalism.com/2026/05/links-5-26-2026.html",
+          "publishedOn": "2026-05-26T10:59:29.000Z",
+          "wordCount": 11950,
+          "title": "Links 5/26/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/00-black-bear.jpg"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=310901",
+          "author": "Yves Smith",
+          "description": "Iran war news: Negotiations are supposedly advancing despite a US attack, a fiery Khamenei speech, and Israel declaring \"full war\" in Lebanon",
+          "link": "https://www.nakedcapitalism.com/2026/05/iran-war-us-and-iran-exchange-fire-as-trump-reveals-extent-of-israel-capture-with-barmy-abrams-accord-proposal-continued-denial-of-approaching-energy-crunch-after-reserves-depleted.html",
+          "publishedOn": "2026-05-26T10:57:42.000Z",
+          "wordCount": 11314,
+          "title": "Iran War: US and Iran Exchange Fire as Trump Reveals Extent of Israel Capture With Barmy Abrams Accord Proposal; Continued Denial of Approaching Energy Crunch After Reserves Depleted",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/Screenshot-2026-05-26-at-4.55.42 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=310884",
+          "author": "Nick Corbishley",
+          "description": "\"We had a war until recently with Venezuela and we are going to have one with Cuba in the coming week.\"",
+          "link": "https://www.nakedcapitalism.com/2026/05/the-trump-adjacent-governor-of-puerto-rico-just-warned-of-a-possible-us-attack-on-cuba-in-coming-weeks.html",
+          "publishedOn": "2026-05-26T10:43:36.000Z",
+          "wordCount": 5294,
+          "title": "Puerto Rico’s Trump-Adjacent Governor Warns of an Imminent US Attack on Cuba",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/Captura-de-pantalla-2026-05-26-123525-300x118.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=310866",
+          "author": "Nat Wilson Turner",
+          "description": "The American technocracy is using corruption, media manipulation, and sectarianism to crush popular (and Papal) resistance.",
+          "link": "https://www.nakedcapitalism.com/2026/05/pope-leo-encyclical-cftc-crypto-kalshi-data-centers-larry-fink.html",
+          "publishedOn": "2026-05-25T18:00:13.000Z",
+          "wordCount": 7115,
+          "title": "Coffee Break: Resistance Meets Reaction, Pope, Pension Funds, Data Centers, Trump Crypto Edition",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=310831",
           "author": "Conor Gallagher",
           "description": "Our daily links, including Trump backs away from Iran deal, ebola outbreaks grows, US pauses arms to Taiwan, and the widening Cold War.",
           "link": "https://www.nakedcapitalism.com/2026/05/links-5-25-2026.html",
           "publishedOn": "2026-05-25T10:58:55.000Z",
-          "wordCount": 6644,
+          "wordCount": 13721,
           "title": "Links 5/25/2026",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/Screenshot-2026-05-25-at-6.28.13 AM-1024x763.png"
         },
@@ -104,7 +139,7 @@
           "description": "Today's Iran war news: As the latest Iran war \"deal\" comes unglued, it looks like it was intended merely to hit the pause button....why?",
           "link": "https://www.nakedcapitalism.com/2026/05/iran-war-trump-claimed-agreement-coming-apart-as-iran-sticks-to-long-held-positions-and-republican-stalwarts-rebel-experts-argue-it-may-be-only-to-temporize.html",
           "publishedOn": "2026-05-25T10:54:02.000Z",
-          "wordCount": 10278,
+          "wordCount": 17486,
           "title": "Iran War:  Trump-Claimed Agreement Coming Apart as Iran Sticks to Long-Held Positions and Republican Stalwarts Rebel;  Experts Argue It May Be Only to Temporize",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2027/03/Screenshot-2026-05-25-at-2.03.49 AM.png"
         },
@@ -114,7 +149,7 @@
           "description": "A Memorial Day look at a military recruitment crisis in a country being feasted on by transnational capital.",
           "link": "https://www.nakedcapitalism.com/2026/05/who-do-members-of-the-military-serve.html",
           "publishedOn": "2026-05-25T10:00:20.000Z",
-          "wordCount": 7441,
+          "wordCount": 10434,
           "title": "Who Do Members of the Military Serve?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/AIPAC-Main-Final-May-19-OM-web-1-1024x715.webp"
         },
@@ -124,68 +159,8 @@
           "description": "Private equity’s expansion into housing comes at the same time as Americans are increasingly struggling to afford rent.",
           "link": "https://www.nakedcapitalism.com/2026/05/private-equity-now-owns-1-in-8-apartment-units-a-50-percent-increase-since-2021.html",
           "publishedOn": "2026-05-25T09:00:34.000Z",
-          "wordCount": 3443,
+          "wordCount": 4103,
           "title": "Private Equity Now Owns 1 in 8 Apartment Units, a 50 Percent Increase Since 2021",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=310773",
-          "author": "Haig Hovaness",
-          "description": "Our strategic daily links: precision trucking, plentiful planets, Ebola, China going to the moon, EU debt, Mideast horrors, Ukraine burning, vanishing privacy, Trumpishness, Musk world, hapless Democrats, immigration troubles, Mr. market, AI, and wretched excess",
-          "link": "https://www.nakedcapitalism.com/2026/05/links-5-24-2026.html",
-          "publishedOn": "2026-05-24T10:55:05.000Z",
-          "wordCount": 8616,
-          "title": "Links 5/24/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/Tiger-cubs.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=310112",
-          "author": "semper loquitur",
-          "description": "Vampira is a movie about a very strange household indeed.",
-          "link": "https://www.nakedcapitalism.com/2026/05/the-sunday-morning-movie-presents-vampira-1971-run-time-44m-bonus-tangerine-dream.html",
-          "publishedOn": "2026-05-24T10:30:00.000Z",
-          "wordCount": 3197,
-          "title": "The Sunday Morning Movie Presents: Vampira (1971) Run Time: 44M Bonus: Tangerine Dream",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=310785",
-          "author": "Conor Gallagher",
-          "description": "Iskanders, Kalibrs, Zircons, and Oreshniks target Kiev in response to drone attack on Russian university dormitory.",
-          "link": "https://www.nakedcapitalism.com/2026/05/russia-launches-largest-missile-attack-against-kiev-of-war.html",
-          "publishedOn": "2026-05-24T09:30:10.000Z",
-          "wordCount": 5335,
-          "title": "Russia Launches Largest Missile Attack Against Kiev of War",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/Screenshot-2026-05-24-at-7.12.02 AM-1024x722.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=310784",
-          "author": "Yves Smith",
-          "description": "Today's Iran war update: Trump says he has a deal. Iran begs to differ as to what it would amount to.",
-          "link": "https://www.nakedcapitalism.com/2026/05/iran-war-trump-announces-iran-deal-with-iran-already-disputing-his-claims-hawk-heads-exploding-even-if-pact-concluded-strait-of-hormuz-traffic-expected-to-reach-only-40-of-old-level-by-year-end.html",
-          "publishedOn": "2026-05-24T07:36:33.000Z",
-          "wordCount": 16659,
-          "title": "Iran War: Trump Announces Iran Deal with Iran Already Disputing His Claims; Hawk Heads Exploding; Even if Pact Concluded, Strait of Hormuz Traffic Expected to Reach Only 40% of Old Level by Year End",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/00-Trump-Iran-peace-tweet.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=310605",
-          "author": "Yves Smith",
-          "description": "Our riddling daily links: baby catch, Trump readying strike? Tulsi resigns, Bill Kristol calls for Trump surrender, Israel torture of flotilla activists, AI debt crisis, oil crunch worsens, hantavirus quarantine bitching, vanishing caribou, UK record deficit, China-EU trade fight, Ukraine =Palantir lab,",
-          "link": "https://www.nakedcapitalism.com/2026/05/links-5-23-2026.html",
-          "publishedOn": "2026-05-23T10:59:45.000Z",
-          "wordCount": 12879,
-          "title": "Links 5/23/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/00-tracie-horsess.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=310749",
-          "author": "Yves Smith",
-          "description": "Today's Iran war news: Negotiations are now at an impasse and Trump is taking visible steps consistent with new attacks.",
-          "link": "https://www.nakedcapitalism.com/2026/05/iran-war-trump-and-top-officials-cancel-holiday-plans-suggesting-imminent-attack-walmart-reports-consumers-self-rationing-gas.html",
-          "publishedOn": "2026-05-23T10:57:34.000Z",
-          "wordCount": 12206,
-          "title": "Iran War: Trump and Top Officials Cancel Holiday Plans, Suggesting Imminent Attack; Walmart Reports Consumers Self-Rationing Gas",
           "imageUrl": null
         }
       ]
@@ -204,16 +179,6 @@
           "wordCount": 1734,
           "title": "Announcing Claude Compliance API support with Cloudflare CASB",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5MViMEGtj28ko2psjCNDPL/c5103829f690bd5509357593d55445d8/BLOG-3313_OG.png"
-        },
-        {
-          "id": "2atb0Whie0RvOXQHBoBrKH",
-          "author": "Mike Nomitch",
-          "description": "Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This means builders can scale agent workflows globally while strictly controlling access to private backends and easily customizing their agent’s tools and runtimes.",
-          "link": "https://blog.cloudflare.com/claude-managed-agents/",
-          "publishedOn": "2026-05-19T13:00:00.000Z",
-          "wordCount": 2370,
-          "title": "Announcing Claude Managed Agents on Cloudflare",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3GBib7OfVmhYlZN4Q7BzIu/f5fe02f2eaaecb1c5da9870bfe2c756d/Announcing_Claude_Managed_Agents_on_Cloudflare-OG.png"
         }
       ]
     },
@@ -265,7 +230,7 @@
           "description": "Elections in Peru.",
           "link": "https://newleftreview.org/sidecar/posts/hollow-thrones",
           "publishedOn": "2026-05-21T12:15:19.000Z",
-          "wordCount": 3230,
+          "wordCount": 3273,
           "title": "Tony Wood: &ldquo;Hollow Thrones&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/05/nicholson1.jpeg"
         }
@@ -317,16 +282,6 @@
           "wordCount": 4511,
           "title": "Daily Reading List – May 20, 2026 (#788)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=29929",
-          "author": "Richard Seroter",
-          "description": "Today's links look at all the developer capabilities we shipped at Google I/O, why most teams are building agent skills wrong, and the hard parts of multicloud.",
-          "link": "https://seroter.com/2026/05/19/daily-reading-list-may-19-2026-787/",
-          "publishedOn": "2026-05-19T23:42:44.000Z",
-          "wordCount": 4512,
-          "title": "Daily Reading List – May 19, 2026 (#787)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         }
       ]
     },
@@ -341,29 +296,9 @@
           "description": "A new study of the postwar U.S. shows which kinds of workers historically filled new tech-enabled jobs.",
           "link": "https://news.mit.edu/2026/technology-creates-jobs-young-skilled-workers-ai-0521",
           "publishedOn": "2026-05-21T04:00:00.000Z",
-          "wordCount": 2228,
+          "wordCount": 2217,
           "title": "Technology usually creates jobs for young, skilled workers. Will AI do the same?",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202605/MIT-NewWork-01-press.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/building-ai-models-with-chemical-principles-connor-coley-0520",
-          "author": "Anne Trafton | MIT News",
-          "description": "Connor Coley works at the interface of chemistry and machine learning, to discover and design new drug compounds.",
-          "link": "https://news.mit.edu/2026/building-ai-models-with-chemical-principles-connor-coley-0520",
-          "publishedOn": "2026-05-20T04:00:00.000Z",
-          "wordCount": 1853,
-          "title": "Building AI models that understand chemical principles",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202605/MIT-Connor_Coley-01-press.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/justin-solomon-appointed-associate-dean-engineering-education-0519",
-          "author": "Mary Beth Gallagher | School of Engineering",
-          "description": "MIT faculty member in electrical engineering and computer science to focus on innovation in engineering education and new pedagogical approaches.",
-          "link": "https://news.mit.edu/2026/justin-solomon-appointed-associate-dean-engineering-education-0519",
-          "publishedOn": "2026-05-19T21:10:00.000Z",
-          "wordCount": 1367,
-          "title": "Justin Solomon appointed associate dean of engineering education",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202605/Justin-Solomon-MIT-A1.jpg"
         }
       ]
     },
@@ -377,30 +312,23 @@
       "title": "Thomas Fazi",
       "feedUrl": "https://www.thomasfazi.com/feed",
       "siteUrl": "https://www.thomasfazi.com",
-      "articles": [
-        {
-          "id": "https://www.thomasfazi.com/p/controlled-chaos-how-washington-is",
-          "author": "Thomas Fazi",
-          "description": "For all its waning power and apparent internal fractures, the Western imperial bloc remains remarkably united; meanwhile, the Global Majority continues to lack a comparable strategic coherence",
-          "link": "https://www.thomasfazi.com/p/controlled-chaos-how-washington-is",
-          "publishedOn": "2026-05-19T13:25:37.000Z",
-          "wordCount": null,
-          "title": "Controlled chaos: how Washington is sabotaging the multipolar world and sacrificing Europe",
-          "itunes": {},
-          "enclosure": {
-            "url": "https://substack-post-media.s3.amazonaws.com/public/images/881b8e35-973d-4331-becb-87f0abbc1463_1486x1018.jpeg",
-            "length": "0",
-            "type": "image/jpeg"
-          },
-          "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/881b8e35-973d-4331-becb-87f0abbc1463_1486x1018.jpeg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Ian Welsh",
       "feedUrl": "https://www.ianwelsh.net/feed/",
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
+        {
+          "id": "https://www.ianwelsh.net/?p=25276",
+          "author": "Ian Welsh",
+          "description": "This is the third in the series: 1) Freedom Under Capitalism 2) Freedom Under Representative Democracy Scholars often divide freedom into two types: negative and positive. Negative freedom is “freedom from”. From arbitrary search and self incrimination, for example. Freedom from is primarily about what other people, including the government, cannot do to you. Positive […]",
+          "link": "https://www.ianwelsh.net/freedom-to-freedom-from-capitalism-freedom-series-3/",
+          "publishedOn": "2026-05-26T01:08:37.000Z",
+          "wordCount": null,
+          "title": "Freedom To, Freedom From & Capitalism (Freedom Series #3)",
+          "imageUrl": null
+        },
         {
           "id": "https://www.ianwelsh.net/?p=25202",
           "author": "Tony Wikrent",
@@ -440,16 +368,6 @@
           "wordCount": null,
           "title": "Freedom Under Representative Democracy (Freedom Series #2)",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=25209",
-          "author": "Ian Welsh",
-          "description": "Are you free if you need a job? For most people lack of a job means homelessness (indeed many homeless have jobs, that’s how far things have sunk) and you’ll go hungry, and almost certainly wind up dead sooner than otherwise. This was well understood by the people who created capitalism. The central requirement of […]",
-          "link": "https://www.ianwelsh.net/are-we-free-under-capitalism-freedom-series-1/",
-          "publishedOn": "2026-05-19T19:02:40.000Z",
-          "wordCount": null,
-          "title": "Are We Free Under Capitalism? (Freedom Series #1)",
-          "imageUrl": null
         }
       ]
     },
@@ -459,101 +377,101 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160521",
-          "author": "Paul Campos",
-          "description": "Erik quoted at some length from Suzy Hansen’s great essay in the NYRB about Pete Hegseth, which I’ve now read in full and I wish everyone else would as well (it’s behind a paywall unfortunately). Hansen has read all six of of the books Hegseth has written, or at least “written” — a figure that […]\nThe post Even the losers get lucky sometimes appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/even-the-losers-get-lucky-sometimes-2",
-          "publishedOn": "2026-05-25T13:09:54.000Z",
-          "wordCount": null,
-          "title": "Even the losers get lucky sometimes",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160312",
-          "author": "Erik Loomis",
-          "description": "On May 25, 1806, the Philadelphia Mayor’s Court ruled in Commonwealth v. Pullis. This is the first known court case in American history about a strike. Of course, being controlled by the elites, the court ruled against the workers, as the courts almost always have done to the present. In 1794, shoemakers in Philadelphia organized […]\nThe post This Day in Labor History: May 25, 1806 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/this-day-in-labor-history-may-25-1805",
-          "publishedOn": "2026-05-25T11:00:00.000Z",
-          "wordCount": null,
-          "title": "This Day in Labor History: May 25, 1806",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160518",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160565",
           "author": "Scott Lemieux",
-          "description": "Just two close political allies casual acquaintances sharing a nice meal, moving right along: Vice President JD Vance made an unannounced visit to the Supreme Court last week to attend a private dinner in a wood-paneled conference room with Chief Justice John G. Roberts Jr. and dozens of the chief justice’s former law clerks. Accompanying […]\nThe post Just a friendly pop-by appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/just-a-friendly-pop-by",
-          "publishedOn": "2026-05-24T21:17:55.000Z",
+          "description": "As we ponder the counterfactuals, consider how the political press would have reacted if Biden was acting like this while making frequent visits to Walter Reed, only without revealing anything about why: President Trump went on yet another Truth Social posting spree over the holiday weekend, sharing Facebook-style memes into the wee hours of the […]\nThe post Joe Biden Health Update appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/joe-biden-health-update",
+          "publishedOn": "2026-05-26T19:07:52.000Z",
           "wordCount": null,
-          "title": "Just a friendly pop-by",
+          "title": "Joe Biden Health Update",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160517",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160562",
+          "author": "Paul Campos",
+          "description": "It’s been a year since Joe Biden revealed that he had been diagnosed with aggressively metastatic prostate cancer that had spread to his bones. This is currently incurable, although major advances in treatment now make it possible for men with this diagnosis to often live for several years, or even a decade. Still, the five-year […]\nThe post A little alt-history appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/a-little-alt-history",
+          "publishedOn": "2026-05-26T14:56:38.000Z",
+          "wordCount": null,
+          "title": "A little alt-history",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160400",
+          "author": "Erik Loomis",
+          "description": "This is the grave of Joseph Sill Clark. Born in 1901 in Philadelphia, Clark grew up wealthy. His father was a prominent and lawyer and tennis player who won the 1885 U.S. National Championship in Doubles. Clark went to fancy schools, first in Pennsylvania and then Massachusetts, before going to Harvard, where he graduated in […]\nThe post Erik Visits an American Grave, Part 2,147 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/erik-visits-an-american-grave-part-2147",
+          "publishedOn": "2026-05-26T11:00:00.000Z",
+          "wordCount": null,
+          "title": "Erik Visits an American Grave, Part 2,147",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160557",
+          "author": "Dan Nexon",
+          "description": "Greetings from Hong Kong International Airport, where I attended a worship on infrastructure — broadly understood — and international politics. tl;dr: American academics and policymakers need to be explicitly focused on post-hegemonic foreign policy. No more stupid euphemisms like “great-power competition.” No more fantasies about reconstituting a great-power concert. But, of course, none of that […]\nThe post The Primacy of Domestic Politics appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/the-primacy-of-domestic-politics",
+          "publishedOn": "2026-05-26T02:49:54.000Z",
+          "wordCount": null,
+          "title": "The Primacy of Domestic Politics",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160558",
+          "author": "Erik Loomis",
+          "description": "More later, but the greatest living jazz musician is now gone.\nThe post Sonny Rollins, RIP appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/sonny-rollins-rip",
+          "publishedOn": "2026-05-26T02:23:40.000Z",
+          "wordCount": null,
+          "title": "Sonny Rollins, RIP",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160554",
+          "author": "Paul Campos",
+          "description": "I will remain in a state of prayerful expectation, like the Wise Men who traveled so far to witness another long-looked for blessed event: Now as at all times I can see in the mind’s eye, In their stiff, painted clothes, the pale unsatisfied ones Appear and disappear in the blue depths of the sky […]\nThe post Erev TrumpTod? appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/erev-trumptod",
+          "publishedOn": "2026-05-26T01:20:30.000Z",
+          "wordCount": null,
+          "title": "Erev TrumpTod?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160552",
           "author": "Scott Lemieux",
-          "description": "As a legislative leader, Mike Johnson is gentlemen’s replacement level. As a servile kiss-ass willing to surrender any last shred of dignity, however, he’s world class. And it’s not a secret which form of competence is more valuable in the Trump personality cult: Mike Johnson slapped with a community note [image or embed] — Laura […]\nThe post Mike Johnson: Only Donald Trump could negotiate a Joint Comprehensive Plan of Action with Iran appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/mike-johnson-only-donald-trump-could-negotiate-a-joint-comprehensive-plan-of-action-with-iran",
-          "publishedOn": "2026-05-24T19:25:04.000Z",
+          "description": "The aftermath of one of the most egregious own-goals in history: President Donald Trump’s trade war has driven Canadians from Las Vegas. Democrats think it will help them protect their Nevada battleground seats in November. Last year, as Trump levied tariffs on Canada, visits from Canadians — who account for up to half of Las […]\nThe post Recently faceless people more reluctant to vote for the We Will Eat Your Face, Specifically Party? appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/recently-faceless-people-more-reluctant-to-vote-for-the-we-will-eat-your-face-specifically-party",
+          "publishedOn": "2026-05-26T00:10:08.000Z",
           "wordCount": null,
-          "title": "Mike Johnson: Only Donald Trump could negotiate a Joint Comprehensive Plan of Action with Iran",
+          "title": "Recently faceless people more reluctant to vote for the We Will Eat Your Face, Specifically Party?",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160516",
-          "author": "Erik Loomis",
-          "description": "It seems like every issue or two, the New Yorker has a profile on some Trumper and I hate them all. I guess this is what the readership of that magazine wants, but they can be summed up as “I just don’t understand why these people are so awful, let’s talk to them and the […]\nThe post Renouncing Our Own Souls appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/renouncing-our-own-souls",
-          "publishedOn": "2026-05-24T15:27:42.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160550",
+          "author": "Robert Farley",
+          "description": "Diet Coke is ceding ground to Coke Zero: For decades, Diet Coke has been a durable pop culture icon, as much a symbol of boardroom swashbuckling as high fashion society. Its buzzy 1980s origins featured endorsements from celebrities including Paula Abdul, Whitney Houston and Demi Moore. More recently, limited-edition Diet Coke cans were released to […]\nThe post There Is a War and the Right Side is Winning appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/there-is-a-war-and-the-right-side-is-winning",
+          "publishedOn": "2026-05-25T22:14:00.000Z",
           "wordCount": null,
-          "title": "Renouncing Our Own Souls",
+          "title": "There Is a War and the Right Side is Winning",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160514",
-          "author": "Erik Loomis",
-          "description": "I’m frequently amused when some commenter chides me because I am saying this or that and it doesn’t fit some Democratic talking point and said commenter says something like “This isn’t responsible messaging” or the like. I’m like, “what are you talking about, this is a blog, nothing here or anywhere in internet political world […]\nThe post Online Media Discourse Worlds Make Almost No Difference appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/online-media-discourse-worlds-make-almost-no-difference",
-          "publishedOn": "2026-05-24T14:15:17.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160548",
+          "author": "Robert Farley",
+          "description": "I don’t recall if someone else has shared Amanda Taub’s fine article on mediocrity as the handmaiden to fascism… In Russia, Vladimir V. Putin needs his circle of handpicked oligarchs; in Iran, the Revolutionary Guards and its allies in the business world protect the regime’s power; Viktor Orban transformed Hungary into an “elected autocracy” with […]\nThe post The Merit Illusion appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/the-merit-illusion",
+          "publishedOn": "2026-05-25T20:30:49.000Z",
           "wordCount": null,
-          "title": "Online Media Discourse Worlds Make Almost No Difference",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160512",
-          "author": "Paul Campos",
-          "description": "The image above is from the New York Times’s sports section (something that no longer exists), in the summer of 1974. Now in one sense the summer of 1974 was certainly a long time ago, and yet I would imagine that half or more of the regular readers of this blog have some memory of […]\nThe post The best and worst thing in the world appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/the-best-and-worst-thing-in-the-world-2",
-          "publishedOn": "2026-05-24T13:18:42.000Z",
-          "wordCount": null,
-          "title": "The best and worst thing in the world",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160392",
-          "author": "Erik Loomis",
-          "description": "This is the grave of Septima Clark. Born in 1898 in Charleston, South Carolina, Septime Poinsett grew up poor. Her father had been the slave of the South Carolina planter and slaver Joel Poinsett, a personal servant to this terrible human. After the war, her father got away from there and worked in shipping, as […]\nThe post Erik Visits an American Grave, Part 2,146 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/erik-visits-an-american-grave-part-2146",
-          "publishedOn": "2026-05-24T11:49:00.000Z",
-          "wordCount": null,
-          "title": "Erik Visits an American Grave, Part 2,146",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160509",
-          "author": "Paul Campos",
-          "description": "In a post on Truth Social, Mr. Trump said he had spoken by phone with several Arab leaders about a memorandum of understanding “pertaining to PEACE.” He said the agreement was “subject to finalization” by the United States, Iran and other countries. “Final aspects and details of the Deal are currently being discussed, and will […]\nThe post Deal to end Iran war? appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/05/deal-to-end-iran-war",
-          "publishedOn": "2026-05-24T00:48:58.000Z",
-          "wordCount": null,
-          "title": "Deal to end Iran war?",
+          "title": "The Merit Illusion",
           "itunes": {},
           "imageUrl": null
         }
