@@ -59,6 +59,26 @@
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
       "articles": [
         {
+          "id": "529871daa0f4955d16d4a524be778e3d899a0977",
+          "author": "John Walker",
+          "description": "In this post, we show you how to run a one-hour prioritization session with your stakeholders, plot competing initiatives on a shared matrix by cost and impact and turn the result into an actionable architecture backlog - using a framework called Tech Roadmap Prioritization (TRP).",
+          "link": "https://aws.amazon.com/blogs/architecture/align-your-architecture-backlog-with-tech-roadmap-prioritization-trp/",
+          "publishedOn": "2026-06-03T18:08:51.000Z",
+          "wordCount": 34205,
+          "title": "Align your architecture backlog with Tech Roadmap Prioritization (TRP)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/02/1360.png"
+        },
+        {
+          "id": "be02f2ab90e06f3b8d3fbf798600258a5d768cbc",
+          "author": "Vignyanand Penumatcha",
+          "description": "This post shows how to build a highly available Oracle database architecture using FSxN shared storage, Auto Scaling groups with dynamic AMI updates, and serverless orchestration to help reduce recovery times with current configurations.",
+          "link": "https://aws.amazon.com/blogs/architecture/building-highly-available-oracle-databases-with-amazon-fsx-for-netapp-ontap/",
+          "publishedOn": "2026-06-03T15:51:22.000Z",
+          "wordCount": 33880,
+          "title": "Building highly available Oracle databases with Amazon FSx for NetApp ONTAP",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/03/1212.png"
+        },
+        {
           "id": "2dbd4af1c59c375d61cdd55125ed6cda4c0097be",
           "author": "Sanket Nasre",
           "description": "In this post, we show you how Doczy.ai™ uses generative AI on AWS to automate contract intelligence at scale, transforming unstructured documents into structured, actionable insights, so organizations can automate critical business processes and unlock the full value of their data.",
@@ -100,18 +120,7 @@
       "title": "AWS DevOps & Developer Productivity Blog",
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
-      "articles": [
-        {
-          "id": "37bf6be4fe575d190cb2d1da544653475f3911ec",
-          "author": "Harish Mandhadi",
-          "description": "Confirmation bias is one of the most common reasons incident investigations take longer than they should. An on-call engineer gets alerted, forms a theory based on initial triage and experience, finds one piece of supporting evidence, and stops looking. The actual root cause — buried in a different service, a different signal, a different time […]",
-          "link": "https://aws.amazon.com/blogs/devops/how-aws-devops-agent-uses-multi-agent-reasoning-to-find-root-causes/",
-          "publishedOn": "2026-05-27T20:08:05.000Z",
-          "wordCount": 34053,
-          "title": "How AWS DevOps Agent uses multi-agent reasoning to find root causes",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/05/20/Featured-Image-1195x630.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -125,7 +134,7 @@
           "link": "https://netflixtechblog.com/dynamically-splitting-wide-partitions-in-cassandra-for-time-series-workloads-0eded064f456?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-06-03T02:05:05.000Z",
           "wordCount": null,
-          "title": "Dynamically Splitting Wide Partitions in Cassandra for Time Series Workloads",
+          "title": "Dynamic Repartitioning for Time Series Workloads",
           "imageUrl": null
         },
         {
@@ -156,12 +165,72 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=311306",
+          "author": "Nat Wilson Turner",
+          "description": "Centrist Dems likely won in California, but Trump and Schumer both lost in Iowa and Dem hacks turn on Graham Platner.",
+          "link": "https://www.nakedcapitalism.com/2026/06/california-governor-primary-bacerra-nj-12-hamaway-platner-sexts.html",
+          "publishedOn": "2026-06-03T18:00:45.000Z",
+          "wordCount": 8065,
+          "title": "Coffee Break: Centrist Win in California, AIPAC Loss in New Jersey, Platner Under Seige",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=311298",
+          "author": "Yves Smith",
+          "description": "How the post-truth era makes it harder for humanitarian organizations to build trust, protect civilians, and save lives.",
+          "link": "https://www.nakedcapitalism.com/2026/06/how-propaganda-and-false-information-are-undermining-humanitarian-work.html",
+          "publishedOn": "2026-06-03T13:55:16.000Z",
+          "wordCount": 7592,
+          "title": "How Propaganda and False Information Are Undermining Humanitarian Work",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=311175",
+          "author": "Conor Gallagher",
+          "description": "Our daily links, including accelerationists take beating in elections, oil CEOs build militias as shortages loom, Kushner-Ivanka bunker, and spook infighting.",
+          "link": "https://www.nakedcapitalism.com/2026/06/links-6-3-2026.html",
+          "publishedOn": "2026-06-03T10:58:17.000Z",
+          "wordCount": 6650,
+          "title": "Links 6/3/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-01-at-6.17.30 PM-1024x696.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=311283",
+          "author": "Yves Smith",
+          "description": "Today's Iran war update: The kinetic war is heating up as the US keeps demanding things of Iran that Iran has already rejected.",
+          "link": "https://www.nakedcapitalism.com/2026/06/iran-war-rubio-testimony-raises-questions-as-to-why-iran-is-bothering-with-talks-intensified-tit-for-tat-attacks-continue-us-muscles-oman.html",
+          "publishedOn": "2026-06-03T10:54:20.000Z",
+          "wordCount": 15579,
+          "title": "Iran War: Rubio Testimony Raises Questions as to Why Iran Is Bothering With Talks; Intensified Tit-for-Tat Attacks Continue;  US Muscles Oman",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-03-at-4.07.01 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=311258",
+          "author": "KLG",
+          "description": "It is clear that in much of the so-called developed world, food has largely lost its meaning beyond nourishment.  Julian Baggini has written about this, ten years ago in The Virtues of the Table, which is especially useful in considering how and why we eat.  More recently Baggini has expanded his range in How the […]",
+          "link": "https://www.nakedcapitalism.com/2026/06/the-food-worlds-versus-the-food-system-is-the-only-way-to-think-about-food.html",
+          "publishedOn": "2026-06-03T10:45:02.000Z",
+          "wordCount": 5441,
+          "title": "A Food Philosophy for Our Time?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=311281",
+          "author": "Yves Smith",
+          "description": "Another warning that the deceptive calm in the commodity markets is not set to last.",
+          "link": "https://www.nakedcapitalism.com/2026/06/commodity-markets-are-living-on-borrowed-time.html",
+          "publishedOn": "2026-06-03T07:57:00.000Z",
+          "wordCount": 5085,
+          "title": "Commodity Markets Are Living on Borrowed Time",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=311173",
           "author": "Haig Hovaness",
           "description": "Drone warfare is transforming the economics of military power. Cheap autonomous systems built from globally scaled civilian technologies are eroding the traditional monopoly on precision strike capability once held by major powers. As persistent surveillance, attritable attack systems, and rapid adaptation reshape the battlefield, military advantage may shift away from major powers dependent on high cost systems in favor of those who adopt low-cost distributed defenses.",
           "link": "https://www.nakedcapitalism.com/2026/06/coffee-break-armed-madhouse-game-of-drones.html",
           "publishedOn": "2026-06-02T18:00:43.000Z",
-          "wordCount": 5381,
+          "wordCount": 5616,
           "title": "Coffee Break: Armed Madhouse – Game of Drones",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Drone-ecosystem.png"
         },
@@ -171,7 +240,7 @@
           "description": "Trump has been forced into a retreat after a $1.8 billion fund for insurrectionists was a grift too far.",
           "link": "https://www.nakedcapitalism.com/2026/06/trumps-1-8-billion-insurrectionist-slush-fund-dead-for-now-amid-furious-public-backlash.html",
           "publishedOn": "2026-06-02T13:55:38.000Z",
-          "wordCount": 3639,
+          "wordCount": 3567,
           "title": "Trump’s $1.8 Billion Insurrectionist Slush Fund ‘Dead for Now’ Amid Furious Public Backlash",
           "imageUrl": null
         },
@@ -181,7 +250,7 @@
           "description": "Our anti-fragile daily links: kitten trek, Iran rug pulls Trump on negotiations, Russia: France/UK piracy, Hegseth war on blacks and women, moar speech clampdown becaue Israel, wheat + cattle shorages coming, impossible AI economics, wobbly crypto treasuries, European heat, Cuba collapse?",
           "link": "https://www.nakedcapitalism.com/2026/06/links-6-2-2026.html",
           "publishedOn": "2026-06-02T10:59:32.000Z",
-          "wordCount": 13452,
+          "wordCount": 14265,
           "title": "Links 6/2/2026",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-02-at-2.40.14 PM.png"
         },
@@ -191,69 +260,9 @@
           "description": "Today's Iran war news: Iran demands a end to hostilities on all fronts or Bad Things happen. Trump choke chained Bibi...but will that last?",
           "link": "https://www.nakedcapitalism.com/2026/06/iran-war-iran-rug-pulls-trump-by-suspending-talks-over-ceasefire-violations-escalating-with-demands-to-end-attacks-in-gaza-and-west-bank-threat-to-close-hormuz-and-choke-bab-el-mandib-more-on-how.html",
           "publishedOn": "2026-06-02T10:55:41.000Z",
-          "wordCount": 12820,
+          "wordCount": 12943,
           "title": "Iran War: Iran Rug Pulls Trump by Suspending Talks Over Ceasefire Violations, Escalating with Demands to End Attacks in Gaza and West Bank, Threat to Close Hormuz and Choke Bab El-Mandab; More on How Hormuz  Traffic Will Stay Low Even if “Deal” Agreed",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-01-at-10.50.57 PM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311211",
-          "author": "Nick Corbishley",
-          "description": "Perhaps in 50 years' time, the CIA will declassify documents showing how they and Mossad rigged elections throughout Latin America during the mid-2020s.",
-          "link": "https://www.nakedcapitalism.com/2026/06/the-trump-administrations-electoral-engineering-reaches-new-heights-in-colombia.html",
-          "publishedOn": "2026-06-02T10:51:22.000Z",
-          "wordCount": 5741,
-          "title": "The Trump Administration’s Electoral Meddling in Latin America Reaches New Heights in Colombia",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311137",
-          "author": "Yves Smith",
-          "description": "RFK, Jr. is backing a peptide out of Zagreb, BPC-157, which has lots of fans and very little evidence. What could go wrong?",
-          "link": "https://www.nakedcapitalism.com/2026/06/a-peptide-a-secretive-scientist-and-a-debate-over-evidence.html",
-          "publishedOn": "2026-06-02T06:55:55.000Z",
-          "wordCount": 7240,
-          "title": "A Peptide, a Secretive Scientist, and a Debate Over Evidence",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/00-peptide-1.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311172",
-          "author": "Nat Wilson Turner",
-          "description": "The dividing lines in the Democratic party came into sharp focus at New York's Israel Day Parade, an anti-ICE protest in New Jersey, and the pages of the New York Times and social media.",
-          "link": "https://www.nakedcapitalism.com/2026/06/democratic-centrists-mamdani-platner-hokul-schumer-sherill-ice-israel-day-parade.html",
-          "publishedOn": "2026-06-01T18:00:10.000Z",
-          "wordCount": 8589,
-          "title": "Coffee Break: Dem Centrists Pick Their Side, Stand With ICE and Israel, Not Mamdani",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311167",
-          "author": "Yves Smith",
-          "description": "France plans to deploy Rafale jets armed with tactical nuclear bombs to Poland and other EU states to threaten Russia.",
-          "link": "https://www.nakedcapitalism.com/2026/06/frances-forward-deterrence-vis-a-vis-russia-raises-the-risk-of-nuclear-war.html",
-          "publishedOn": "2026-06-01T13:55:18.000Z",
-          "wordCount": 6757,
-          "title": "France’s “Forward Deterrence” Vis-à-vis Russia Raises The Risk Of Nuclear War",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/00-nuclear.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311142",
-          "author": "Conor Gallagher",
-          "description": "Our daily links, including ebola in Brazil, war criminals parading in NYC, Massachusets meteor, and Soviet wisdom to manage American decline.",
-          "link": "https://www.nakedcapitalism.com/2026/06/links-6-1-2026.html",
-          "publishedOn": "2026-06-01T10:56:58.000Z",
-          "wordCount": 9076,
-          "title": "Links 6/1/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/05/Screenshot-2026-05-31-at-11.11.59 PM-685x1024.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311152",
-          "author": "Yves Smith",
-          "description": "Today's Iran war update: What if Trump fails or refuses to resolve the conflict despite the US going over the energy cliff, projected for July?",
-          "link": "https://www.nakedcapitalism.com/2026/06/iran-war-iran-rejects-trump-claims-that-deal-is-near-as-us-counterproductively-toughens-terms-hotter-tit-for-tat-strikes-threaten-ceasefire-what-if-trump-continues-to-stall-when-hitting-energy-clif.html",
-          "publishedOn": "2026-06-01T10:54:38.000Z",
-          "wordCount": 18178,
-          "title": "Iran War: Iran Rejects Trump Claims That Deal Is Near as US Counterproductively Toughens Terms; Hotter Tit-for-Tat Strikes Threaten Ceasefire; What if Trump Continues to Stall When Hitting Energy Cliff ?",
-          "imageUrl": null
         }
       ]
     },
@@ -281,16 +290,6 @@
           "wordCount": 3901,
           "title": "How we built Cloudflare's data platform and an AI agent on top of it",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6TH1tmcxAA3gDCsdXcnqSl/8c8b1ca2b9b83459d6f54025f5f8c1eb/OG_Share_2024-2025-2026__36_.png"
-        },
-        {
-          "id": "5VkjKrKCgZPffHiZoeDsKW",
-          "author": "Lai Yi Ohlsen",
-          "description": "Cloudflare Radar data confirms early indications of a partial Internet restoration in Iran, nearly three months after the shutdown began. Traffic spikes and DNS queries have risen, but network activity is currently just 40% of pre-shutdown levels.",
-          "link": "https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/",
-          "publishedOn": "2026-05-27T17:25:00.000Z",
-          "wordCount": 1495,
-          "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4oMLpRezg56DfPDcDom7mY/c676e35995417a603362c899f4f9658f/Cloudflare_Radar_confirms_signals_of_a_partial_Internet_restoration_in_Iran-OG.png"
         }
       ]
     },
@@ -302,10 +301,10 @@
         {
           "id": "https://code.visualstudio.com/updates/v1_123",
           "author": null,
-          "description": "Learn what's new in Visual Studio Code 1.123 (Insiders)\nRead the full article",
+          "description": "Learn what's new in Visual Studio Code 1.123\nRead the full article",
           "link": "https://code.visualstudio.com/updates/v1_123",
           "publishedOn": "2026-06-03T17:00:00.000Z",
-          "wordCount": 970,
+          "wordCount": 1724,
           "title": "Visual Studio Code 1.123",
           "imageUrl": "https://code.visualstudio.com/assets/updates/1_123/release-highlights.webp"
         },
@@ -352,7 +351,7 @@
           "description": "On Massie’s loss.",
           "link": "https://newleftreview.org/sidecar/posts/costly-signals",
           "publishedOn": "2026-05-28T13:10:35.000Z",
-          "wordCount": 3152,
+          "wordCount": 3147,
           "title": "Grey Anderson: &ldquo;Costly Signals&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/05/ap26134790648639-e1779214273799-scaled.webp"
         }
@@ -376,6 +375,16 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=30135",
+          "author": "Richard Seroter",
+          "description": "Today's links look at the collision of AI enthusiasts and AI skeptics, AI's brave new world of tech debt, and why hardened images are suddenly everywhere.",
+          "link": "https://seroter.com/2026/06/03/daily-reading-list-june-3-2026-797/",
+          "publishedOn": "2026-06-03T17:58:54.000Z",
+          "wordCount": 4408,
+          "title": "Daily Reading List – June 3, 2026 (#797)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
           "id": "http://seroter.com/?p=30120",
           "author": "Richard Seroter",
           "description": "Today's links look at the state of SDLC security, why test-driven development with agents is good for security, and how to get a good return on AI investments.",
@@ -391,7 +400,7 @@
           "description": "Today's links look at how to handle conflict, a list of ways to be wrong about AI-assisted coding metrics, and the keys to succeeding under a new manager.",
           "link": "https://seroter.com/2026/06/01/daily-reading-list-june-1-2026-795/",
           "publishedOn": "2026-06-01T19:13:09.000Z",
-          "wordCount": 4461,
+          "wordCount": 4453,
           "title": "Daily Reading List – June 1, 2026 (#795)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
@@ -401,7 +410,7 @@
           "description": "I’m been thinking a lot about agent teams. You know, a set of AI agents that work together towards a goal. You might implement this within a single agent harness (see Garry Tan’s gstack for Claude Code) or with an orchestrator for multiple harnesses (see Google’s Scion project). I’ve been doing agent-at-a-time coding work thus […]",
           "link": "https://seroter.com/2026/06/01/one-prompt-four-subagents-and-ninety-seconds-to-get-a-working-app/",
           "publishedOn": "2026-06-01T18:15:30.000Z",
-          "wordCount": 5223,
+          "wordCount": 5224,
           "title": "One prompt, four (sub)agents, and ninety seconds to get a working app",
           "enclosure": {
             "url": "http://videos.files.wordpress.com/zj7XTl54/2026.06.01-multiagent-02b.mp4",
@@ -416,7 +425,7 @@
           "description": "Today's links look at how to use AI agents without stopping your own growth, how to keep AI-assisted engineers from burning out, and inside Bloomberg's flat eng culture.",
           "link": "https://seroter.com/2026/05/29/daily-reading-list-may-29-2026-793/",
           "publishedOn": "2026-05-29T21:21:51.000Z",
-          "wordCount": 4434,
+          "wordCount": 4429,
           "title": "Daily Reading List – May 29, 2026 (#794)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
@@ -426,18 +435,8 @@
           "description": "Today's links look at why AI won't fix your broken delivery pipeline, why you should stop interviewing engineers like it's 2022, and how Google SREs are using agentic AI.",
           "link": "https://seroter.com/2026/05/28/daily-reading-list-may-28-2026-793/",
           "publishedOn": "2026-05-28T22:28:30.000Z",
-          "wordCount": 4496,
+          "wordCount": 4503,
           "title": "Daily Reading List – May 28, 2026 (#793)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=30012",
-          "author": "Richard Seroter",
-          "description": "Today's links look at the role of MCP in context engineering, how you can choose to stay human in an AI world, and how managers are struggling to keep up with the AI productivity boom.",
-          "link": "https://seroter.com/2026/05/27/daily-reading-list-may-27-2026-792/",
-          "publishedOn": "2026-05-28T00:09:39.000Z",
-          "wordCount": 4581,
-          "title": "Daily Reading List – May 27, 2026 (#792)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         }
       ]
@@ -448,12 +447,32 @@
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
         {
+          "id": "https://news.mit.edu/2026/teaching-ai-agents-ask-better-questions-playing-battleship-0603",
+          "author": "Alex Shipps | MIT CSAIL",
+          "description": "MIT researchers use the classic game as a test bed for AI agents, finding a small AI model can outperform the biggest ones at 1 percent of the cost.",
+          "link": "https://news.mit.edu/2026/teaching-ai-agents-ask-better-questions-playing-battleship-0603",
+          "publishedOn": "2026-06-03T21:00:00.000Z",
+          "wordCount": 2147,
+          "title": "Teaching AI agents to ask better questions by playing “Battleship”",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202605/mit-csail-Co-Battleship.jpg"
+        },
+        {
+          "id": "https://news.mit.edu/2026/tod-machover-receives-george-peabody-medal-0603",
+          "author": "Media Lab",
+          "description": "The George Peabody Medal is the highest honor bestowed by the Peabody Institute of the Johns Hopkins University.",
+          "link": "https://news.mit.edu/2026/tod-machover-receives-george-peabody-medal-0603",
+          "publishedOn": "2026-06-03T20:50:00.000Z",
+          "wordCount": 1151,
+          "title": "Tod Machover receives George Peabody Medal for contributions to music and technology",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202605/mit-medialab-Tod-Machover.jpg"
+        },
+        {
           "id": "https://news.mit.edu/2026/mit-researchers-teach-ai-models-to-interpret-charts-0603",
           "author": "Adam Zewe | MIT News",
           "description": "The new ChartNet training dataset could improve the accuracy of vision-language models that help analyze business trends or interpret scientific figures.",
           "link": "https://news.mit.edu/2026/mit-researchers-teach-ai-models-to-interpret-charts-0603",
           "publishedOn": "2026-06-03T04:00:00.000Z",
-          "wordCount": 1998,
+          "wordCount": 2016,
           "title": "MIT researchers teach AI models to interpret charts",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202606/MIT-ChartNet-01-press.jpg"
         },
@@ -463,7 +482,7 @@
           "description": "With $25 million investment from the Commonwealth of Massachusetts, MIT to build a new shared-use facility to serve as a statewide quantum toolbox.",
           "link": "https://news.mit.edu/2026/media-advisory-mit-establish-regional-quantum-hub",
           "publishedOn": "2026-05-28T16:00:00.000Z",
-          "wordCount": 2272,
+          "wordCount": 2299,
           "title": "Media Advisory: MIT to establish regional quantum hub",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202605/MIT-ManufacturingAnn-01-press_0.jpg"
         }
@@ -480,6 +499,22 @@
       "feedUrl": "https://www.thomasfazi.com/feed",
       "siteUrl": "https://www.thomasfazi.com",
       "articles": [
+        {
+          "id": "https://www.thomasfazi.com/p/the-western-take-over-of-hungary",
+          "author": "Thomas Fazi",
+          "description": "The story of how Western corporate and financial interests, and the US pro-war lobby, co-opted Orbán’s populist narrative to dismantle his sovereigntist project",
+          "link": "https://www.thomasfazi.com/p/the-western-take-over-of-hungary",
+          "publishedOn": "2026-06-03T15:32:52.000Z",
+          "wordCount": null,
+          "title": "The Western take-over of Hungary",
+          "itunes": {},
+          "enclosure": {
+            "url": "https://substackcdn.com/image/fetch/$s_!poS4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a03262e-261d-4a8d-a246-5eeda9ac00c3_1504x1306.png",
+            "length": "0",
+            "type": "image/jpeg"
+          },
+          "imageUrl": "https://substackcdn.com/image/fetch/$s_!poS4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a03262e-261d-4a8d-a246-5eeda9ac00c3_1504x1306.png"
+        },
         {
           "id": "https://www.thomasfazi.com/p/one-step-away-from-the-brink-natos",
           "author": "Thomas Fazi",
@@ -504,108 +539,101 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160805",
-          "author": "Elizabeth Nelson",
-          "description": "Listen—I have a novel idea. One you haven’t seen around these parts recently. An insight into the inner mechanics of Lawyers, Guns & Money is that they bring me in for stuff like this. The brain-busting stuff, so difficult to handle that it requires a certain skill set not many possess. Think “The Wolf” from […]\nThe post For So Long It’s Been Chelada Fun. My Last Fundraising Letter, Until Next Year appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/for-so-long-its-been-chelada-fun-my-last-fundraising-letter-until-next-year",
-          "publishedOn": "2026-06-03T04:00:12.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160866",
+          "author": "Dan Nexon",
+          "description": "I still cannot believe this is the guy for whom Republicans destroyed our constitutional democracy. Yes, the scale of the Y axis doesn’t align with the stated length of the Reflecting Pool. No, you’re not the only one who wonders if the gender imagery here might not be what Trump intended. Via Matthew Gertz, who […]\nThe post Bigger and Stupider appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/bigger-and-stupider",
+          "publishedOn": "2026-06-03T21:16:05.000Z",
           "wordCount": null,
-          "title": "For So Long It’s Been Chelada Fun. My Last Fundraising Letter, Until Next Year",
+          "title": "Bigger and Stupider",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160799",
-          "author": "vacuumslayer",
-          "description": "Friends, it pleases me to no end to announce that as this fundraiser is wrapping up, I have scored a place at TPUSA, in its journalism division. As such I immediately scored an interview with our president, where we discussed everything from ballrooms to drone ports to gold curtains. Please enjoy! Me: Sir, it’s a […]\nThe post SCORE! appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/score-2",
-          "publishedOn": "2026-06-03T01:49:00.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160856",
+          "author": "Robert Farley",
+          "description": "As of this posting we have less than two hours until the auction closes down. Take a last long look in order to determine whether you need to stand up for yourself and your family and beat whatever snot-nosed little punk is bidding against you. I’d like to tarry a bit on the Grave visit; […]\nThe post Auction Time Running Down… appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/auction-time-running-down",
+          "publishedOn": "2026-06-03T21:06:22.000Z",
           "wordCount": null,
-          "title": "SCORE!",
+          "title": "Auction Time Running Down…",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160803",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160861",
+          "author": "Dan Nexon",
+          "description": "I spent over forty hours traveling to and from Hong Kong last week, and I found myself unable to sleep on the trip home. Overall, I did some academic work, read a good chunk of a history of the Qin and Han empires, and then finally gave up and looked at video screens. This is […]\nThe post Revised Editions: Quick Thoughts on Lazarus and Invincible appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/revised-editions-quick-thoughts-on-lazarus-and-invincible",
+          "publishedOn": "2026-06-03T20:36:07.000Z",
+          "wordCount": null,
+          "title": "Revised Editions: Quick Thoughts on Lazarus and Invincible",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160858",
           "author": "Paul Campos",
-          "description": "Eight-time NFL MVP and Nobel prize winning drummer for the Rolling Stones George Santos is in the news again, and what I’m about to reveal may well shock you to the core of your being: In February, four months after being released from federal prison, former Republican congressman George Santos took to social media to […]\nThe post Prodigal son appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/prodigal-son",
-          "publishedOn": "2026-06-03T00:35:09.000Z",
+          "description": "Here are some thought-provoking pieces I ran into today, that in their different ways suggest reasons for optimism that we can awake from the Trumpian fascist nightmare in the foreseeable future, but also suggest the tremendous amount of damage that is happening and will happen between now and then. First, Seva Gunitsky: The central technology […]\nThe post Hyperfascist dreams on a screen near you appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/hyperfascist-dreams-on-a-screen-near-you",
+          "publishedOn": "2026-06-03T18:18:51.000Z",
           "wordCount": null,
-          "title": "Prodigal son",
+          "title": "Hyperfascist dreams on a screen near you",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160630",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160297",
+          "author": "Robert Farley",
+          "description": "The Return of Sunday Battleship Blogging! For those playing at home, the battleships in question are the USS Tennessee and HIJMS Haruna. Other products with these designs can be found here, here, here, andhere. The Spreadshirt customization tool is here. And remember the 20% discount!\nThe post LGM Merch: The Return of Sunday Battleship Blogging appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/lgm-merch-the-return-of-sunday-battleship-blogging",
+          "publishedOn": "2026-06-03T17:15:00.000Z",
+          "wordCount": null,
+          "title": "LGM Merch: The Return of Sunday Battleship Blogging",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160854",
           "author": "Cheryl Rofer",
-          "description": "Luca is my tiny tiger. He’s actually pretty substantial for Felis catus, but tiny for a tiger. He is giving you an opportunity to treat your cat to the joys of disciplined outdoor adventuring. His fluffy fur adds to your Saturday pleasure. You may now bid on that tiny tiger Kitty Holster. There’s other good […]\nThe post Luca Would Like To Remind You Of The Silent Auction appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/luca-would-like-to-remind-you-of-the-silent-auction",
-          "publishedOn": "2026-06-03T00:00:00.000Z",
+          "description": "That’s the last line of T.S. Eliot’s “Love Song of J. Alfred Prufrock.” It came back to me as a particular thing happened while I was playing jazz chords to “All The Things You Are,” one of the songs I am trying to learn well enough to use as a base for improvising. If I […]\nThe post Till human voices wake us, and we drown appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/till-human-voices-wake-us-and-we-drown",
+          "publishedOn": "2026-06-03T16:30:00.000Z",
           "wordCount": null,
-          "title": "Luca Would Like To Remind You Of The Silent Auction",
+          "title": "Till human voices wake us, and we drown",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160801",
-          "author": "Scott Lemieux",
-          "description": "Just imagine a world without LGM! You could be left alone with takes like this, from legendary bad take artist Chris Cillizza: But, again, the fact that neither Weiss nor Bilton have long experience in making TV seems to me more an asset than a detriment. CBS News (and every other legacy outlet) has to […]\nThe post Think of how bad things could be appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/think-of-how-bad-things-could-be",
-          "publishedOn": "2026-06-02T23:06:58.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160631",
+          "author": "Cheryl Rofer",
+          "description": "Jose has long legs and the muscular build of an ancient Egyptian cat statue. No way is anyone putting that ridiculous bandanna on him! But maybe your cat will like it! You may now bid on that bandanna-pattern Kitty Holster. There’s other good stuff too!\nThe post Jose Would Like To Remind You Of The Silent Auction appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/jose-would-like-to-remind-you-of-the-silent-auction",
+          "publishedOn": "2026-06-03T16:00:00.000Z",
           "wordCount": null,
-          "title": "Think of how bad things could be",
+          "title": "Jose Would Like To Remind You Of The Silent Auction",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160796",
-          "author": "Paul Campos",
-          "description": "This is, I believe, the first significant thing that Trump has wanted to do during his second administration that went too far for at least a few members of the current version of the Republican party: The federal government is abandoning an effort to create a $1.8bn secretive fund to compensate Donald Trump’s allies, the acting […]\nThe post It’s official: Trump $1.8 billion slush fund for traitors dead at least for now appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/its-official-trump-1-8-billion-slush-fund-for-traitors-dead-at-least-for-now",
-          "publishedOn": "2026-06-02T21:30:02.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160825",
+          "author": "Dan Nexon",
+          "description": "The Trump administration has finally decided on an authority for reimposing tariffs. It has decided that every major trade partner is failing to follow U.S. standards for landing goods made by forced labor, and thus must be subject to the same 10–15 percent import duties that the Supreme Court previously struck down. Marco Rubio defended […]\nThe post The End of Governance? appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/the-end-of-governance",
+          "publishedOn": "2026-06-03T15:00:13.000Z",
           "wordCount": null,
-          "title": "It’s official: Trump $1.8 billion slush fund for traitors dead at least for now",
+          "title": "The End of Governance?",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160545",
-          "author": "Robert Farley",
-          "description": "On the latest LGM podcast we return to our Oral History of the Blogosphere series! Joining Scott, Dan and myself in honor of our 22nd anniversary celebration was Dr. Jacob Levy, early blog pioneer and veteran of a great number of websites. Our discussion included his work at Jacob Levy and Bleeding Heart Libertarians, the […]\nThe post Oral History of the Blogosphere Part 13: Jacob Levy appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/oral-history-of-the-blogosphere-part-13-jacob-levy",
-          "publishedOn": "2026-06-02T21:00:00.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160821",
+          "author": "Abigail Nussbaum",
+          "description": "Hello everyone! We are still in the midst of our annual fundraiser. One reason to support LGM is that it is among the last remaining vestiges of the old blogosphere, on an internet currently dominated by walled gardens, toxic social networks, algorithmically selected content, and (just around the corner) AI slop. So I thought I’d […]\nThe post Strongly Felt Opinions on Stuff That Doesn’t Matter appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/strongly-felt-opinions-on-stuff-that-doesnt-matter",
+          "publishedOn": "2026-06-03T15:00:00.000Z",
           "wordCount": null,
-          "title": "Oral History of the Blogosphere Part 13: Jacob Levy",
-          "itunes": {
-            "duration": "1:14:23"
-          },
-          "enclosure": {
-            "url": "http://media.blubrry.com/lgm/media.blubrry.com/lgm/mc.blubrry.com/lgm/lgm2026podcast10.mp3?awCollectionId=537420&awEpisodeId=12115493&aw_0_azn.pgenre=News&aw_0_1st.ri=blubrry&aw_0_azn.pcountry=US&aw_0_azn.planguage=en-us&cat_exclude=IAB1-8%2CIAB1-9%2CIAB7-41%2CIAB8-5%2CIAB8-18%2CIAB11-4%2CIAB23%2CIAB24%2CIAB25%2CIAB26&aw_0_cnt.rss=https%3A%2F%2Fwww.lawyersgunsmoneyblog.com%2Ffeed%2Fpodcast%2F",
-            "length": "107110318",
-            "type": "audio/mpeg"
-          },
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160344",
-          "author": "Robert Farley",
-          "description": "With these styles, you will genuinely be the coolest kid on the block. I fucking guarantee it. For other products with this design see here, and remember that Spreadshirt has a customization tool. And remember the 20% discount for the duration of the fundraiser!\nThe post LGM Merch: The Long, Strange Journey of LoomCoin appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/lgm-merch-the-long-strange-journey-of-loomcoin",
-          "publishedOn": "2026-06-02T20:00:00.000Z",
-          "wordCount": null,
-          "title": "LGM Merch: The Long, Strange Journey of LoomCoin",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160689",
-          "author": "Erik Loomis",
-          "description": "WE DID NOT RECEIVE THE MONEY LGM READERS! We did not receive the goddamn money. LGM’s LIFE WAS IN YOUR HANDS! Since you have failed to achieve, even in the modest task of increasing your LGM donation that was your charge, since you have stolen our time and used our site for free or for […]\nThe post THE GODDAMN PLANE HAS CRASHED INTO THE MOUNTAIN appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/the-goddamn-plane-has-crashed-into-the-mountain",
-          "publishedOn": "2026-06-02T19:00:00.000Z",
-          "wordCount": null,
-          "title": "THE GODDAMN PLANE HAS CRASHED INTO THE MOUNTAIN",
+          "title": "Strongly Felt Opinions on Stuff That Doesn’t Matter",
           "itunes": {},
           "imageUrl": null
         }
@@ -764,16 +792,6 @@
           "publishedOn": "2026-05-28T11:00:00.000Z",
           "wordCount": null,
           "title": "“go bankrupt and an extra 2 million people who should not be there will suffer”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=189550",
-          "author": "Joel Eissenberg",
-          "description": "First the disclaimers: I’m a PhD scientist with a well-trained crap detector. And I was a medical school (allopathic medicine) professor for 37 years. While I’ve never practiced medicine, I have a pretty deep understanding of evidence-based medicine. “At a time when people are increasingly concerned about drug side effects, some consider acupuncture an attractive […]\nThe post Acupuncture: therapy or placebo? appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/05/acupuncture-therapy-or-placebo",
-          "publishedOn": "2026-05-28T08:54:43.000Z",
-          "wordCount": null,
-          "title": "Acupuncture: therapy or placebo?",
           "imageUrl": null
         }
       ]
