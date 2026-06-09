@@ -12,6 +12,26 @@
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
       "articles": [
         {
+          "id": "d81a50b183e178e2f0a8e9fa40d25b0b0fb5b92d",
+          "author": "Channy Yun (윤석찬)",
+          "description": "AWS announces the availability of Claude Fable 5 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5 makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use.",
+          "link": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/",
+          "publishedOn": "2026-06-09T17:40:31.000Z",
+          "wordCount": 32889,
+          "title": "Anthropic Claude Fable 5 on AWS: Mythos-class capabilities with built-in safeguards now available",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/08/2026-aws-anthropic.png"
+        },
+        {
+          "id": "8f2066eba72bf35221f55a1dfd87b0762e172505",
+          "author": "Sébastien Stormacq",
+          "description": "This week, the AWS IoT Device SDK for Swift reached general availability. As a member of the Swift Server Workgroup (SSWG), this one caught my attention. The SDK brings production-ready MQTT 5 connectivity, Device Shadow, Jobs, and fleet provisioning to Swift developers on macOS, iOS, tvOS, and Linux. I’m curious to see what you will build with it. […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-byom-for-amazon-rds-for-sql-server-aws-iot-device-sdk-for-swift-and-more-june-8-2026/",
+          "publishedOn": "2026-06-08T21:27:12.000Z",
+          "wordCount": 32809,
+          "title": "AWS Weekly Roundup: BYOM for Amazon RDS for SQL Server, AWS IoT Device SDK for Swift, and more (June 8, 2026)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
+        },
+        {
           "id": "a0baf26d5322e6b76f8bcaeab13717a0ca9ba3d6",
           "author": "Channy Yun (윤석찬)",
           "description": "You can use the new console experience on Amazon Bedrock to browse and compare the latest AI models side by side, organize work into projects with streamlined evaluation workflows, and access project-aware live documentation with auto-prefilled code snippets ready to copy and run.",
@@ -30,26 +50,6 @@
           "wordCount": 33191,
           "title": "Improve your application resilience with Amazon Cognito multi-Region replication",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/05/21/Cognito-mrr.png"
-        },
-        {
-          "id": "b899502355a6fd291fccabfaf1fa4db3c1b64d8f",
-          "author": "Channy Yun (윤석찬)",
-          "description": "OpenAI frontier models GPT-5.5 and GPT-5.4, and Codex, the OpenAI coding agent, are now generally available on Amazon Bedrock. Deploy frontier models on Bedrock's high performance inference engine with built-in security, governance, and pay-per-token pricing.",
-          "link": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock/",
-          "publishedOn": "2026-06-01T21:33:28.000Z",
-          "wordCount": 32741,
-          "title": "Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/05/24/News-Blog-Featured-Images-25-2.png"
-        },
-        {
-          "id": "8cd093ad3999b4d87a9e89ed6c6fb7c03ac6f5a0",
-          "author": "Micah Walter",
-          "description": "In my last Week in Review post, I shared what I’d been hearing from customers in the AI-Driven Development Lifecycle (AI-DLC) workshops I’ve been delivering. Last week I was back at it, this time in Denver for a two-day AI-DLC workshop, where I helped facilitate 17 teams to deliver nearly 20 separate use cases in […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-8-on-aws-aurora-mysql-with-kiro-powers-and-more-june-1-2026/",
-          "publishedOn": "2026-06-01T14:25:33.000Z",
-          "wordCount": 32948,
-          "title": "AWS Weekly Roundup: Claude Opus 4.8 on AWS, Aurora MySQL with Kiro Powers, and more (June 1, 2026)",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2024/06/10/AWS-WIR-default-1.png"
         }
       ]
     },
@@ -58,6 +58,16 @@
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
       "articles": [
+        {
+          "id": "f15f99d2690737bc5139e910b6863cb9079d8ae1",
+          "author": "Gerardo Alarcon Rivas",
+          "description": "In this post, you learn how to build an automated, serverless pipeline that converts scanned PDF medical records into FHIR R4-compliant data using Amazon Bedrock Data Automation and AWS HealthLake. We walk through the architecture, explain how each AWS service connects to the next, show you what the pipeline looks like when it runs, and get you deployed in under 20 minutes.",
+          "link": "https://aws.amazon.com/blogs/architecture/automate-medical-record-digitization-with-amazon-bedrock-data-automation-and-aws-healthlake/",
+          "publishedOn": "2026-06-09T16:51:55.000Z",
+          "wordCount": 34295,
+          "title": "Automate medical record digitization with Amazon Bedrock Data Automation and AWS HealthLake",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/05/28/ARCHBLOG-1364-1-1260x523.png"
+        },
         {
           "id": "529871daa0f4955d16d4a524be778e3d899a0977",
           "author": "John Walker",
@@ -77,36 +87,6 @@
           "wordCount": 33880,
           "title": "Building highly available Oracle databases with Amazon FSx for NetApp ONTAP",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/03/1212.png"
-        },
-        {
-          "id": "2dbd4af1c59c375d61cdd55125ed6cda4c0097be",
-          "author": "Sanket Nasre",
-          "description": "In this post, we show you how Doczy.ai™ uses generative AI on AWS to automate contract intelligence at scale, transforming unstructured documents into structured, actionable insights, so organizations can automate critical business processes and unlock the full value of their data.",
-          "link": "https://aws.amazon.com/blogs/architecture/automating-contract-intelligence-with-doczy-ai-on-aws/",
-          "publishedOn": "2026-06-02T14:06:32.000Z",
-          "wordCount": 33748,
-          "title": "Automating contract intelligence with Doczy.ai™ on AWS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/02/1383.png"
-        },
-        {
-          "id": "367ff763b8aeb77bf59878e6d464058e6aef5b37",
-          "author": "Muni T. Bondu",
-          "description": "This post details how NYCBS partnered with Amazon Web Services (AWS) and AWS partner Pronetx (now part of Caylent) to migrate to Amazon Connect Customer, the AWS cloud contact center service. The migration delivered a 54 percent improvement in patient enrollment and transformed the way NYCBS connects with the patients who need them most.",
-          "link": "https://aws.amazon.com/blogs/architecture/scaling-oncology-patient-support-how-new-york-cancer-and-blood-specialists-transformed-customer-experience-with-aws-and-pronetx-now-part-of-caylent/",
-          "publishedOn": "2026-06-01T21:45:52.000Z",
-          "wordCount": 33027,
-          "title": "Scaling oncology patient support: How New York Cancer and Blood Specialists transformed customer experience with AWS and Pronetx, now part of Caylent",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/01/1455.png"
-        },
-        {
-          "id": "4e2b6934017db79172113b78906285244b227b31",
-          "author": "Philip Chen",
-          "description": "In this post, we show how to build a comprehensive scalable user search layer on top of Amazon Cognito using AWS Lambda, Amazon DynamoDB, and Amazon OpenSearch Service.",
-          "link": "https://aws.amazon.com/blogs/architecture/building-a-scalable-user-search-layer-on-top-of-amazon-cognito/",
-          "publishedOn": "2026-06-01T16:16:45.000Z",
-          "wordCount": 32986,
-          "title": "Building a scalable user search layer on top of Amazon Cognito",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/05/28/1268.png"
         }
       ]
     },
@@ -137,18 +117,7 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://techblog.netflix.com/feeds/posts/default",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/0eded064f456",
-          "author": "Netflix Technology Blog",
-          "description": "",
-          "link": "https://netflixtechblog.com/dynamically-splitting-wide-partitions-in-cassandra-for-time-series-workloads-0eded064f456?source=rss----2615bd06b42e---4",
-          "publishedOn": "2026-06-03T02:05:05.000Z",
-          "wordCount": null,
-          "title": "Dynamic Repartitioning for Time Series Workloads",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "naked capitalism",
@@ -156,104 +125,104 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
-          "id": "https://www.nakedcapitalism.com/?p=311427",
+          "id": "https://www.nakedcapitalism.com/?p=311510",
           "author": "Haig Hovaness",
-          "description": "Our strategic daily links: Beautiful plumage, busy bots, universal vaccine, Chinese wind turbine, Mideast horrors, Ukraine burning, vanishing privacy, Trumpishness, Musk world, hapless Democrats, immigration troubles, Mr. market, AI, and wretched excess",
-          "link": "https://www.nakedcapitalism.com/2026/06/links-6-7-2026.html",
-          "publishedOn": "2026-06-07T10:55:47.000Z",
-          "wordCount": 5722,
-          "title": "Links 6/7/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Crane.jpg"
+          "description": "Israel's pursuit of security buffer zones reflects a rational response to decades of military threats, terrorism, and geographic vulnerability. Yet tactical success does not necessarily produce strategic success. As hostile forces regenerate beyond new frontiers, long-range weapons diminish the value of territorial depth, and regional powers react to expanding security perimeters, buffer defense may become increasingly costly and less effective.",
+          "link": "https://www.nakedcapitalism.com/2026/06/coffee-break-armed-madhouse-israels-buffer-defense-quandary.html",
+          "publishedOn": "2026-06-09T18:00:10.000Z",
+          "wordCount": 4887,
+          "title": "Coffee Break: Armed Madhouse – Israel’s Buffer Defense Quandary",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/1280px-2026_Lebanon_War_Map.svg_.png"
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=311418",
-          "author": "semper loquitur",
-          "description": "Chariots of Fire is a story of personal determination and the quest for victory.",
-          "link": "https://www.nakedcapitalism.com/2026/06/the-sunday-morning-movie-presents-chariots-of-fire-1981-run-time-2h-4m-plus-bonus-documentary.html",
-          "publishedOn": "2026-06-07T10:30:10.000Z",
-          "wordCount": 3560,
-          "title": "The Sunday Morning Movie Presents: Chariots Of Fire (1981) Run Time: 2H 4M Plus Bonus Documentary!",
+          "id": "https://www.nakedcapitalism.com/?p=311552",
+          "author": "Yves Smith",
+          "description": "Proof of eroding rights: new legislation is necessary to shore up the First Amendment right to record, typically of officials behaving badly.",
+          "link": "https://www.nakedcapitalism.com/2026/06/under-right-to-record-act-people-could-sue-federal-agents-for-first-amendment-violations.html",
+          "publishedOn": "2026-06-09T13:55:05.000Z",
+          "wordCount": 3103,
+          "title": "Under Right to Record Act, People Could Sue Federal Agents for First Amendment Violations",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-09-at-8.37.23 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=311440",
+          "author": "Yves Smith",
+          "description": "Our antsy daily links: Clean atheltes win, Ebloa spread, Israel again bombs Lebanon, US sanctions China tech leaders, China-NKorea summit, judge nixes Trump H-1B fee, Meta glasses super spyware, EU backs \"detaining\" Russian Mediterranean tankers, moar SpaceX doubts",
+          "link": "https://www.nakedcapitalism.com/2026/06/links-6-9-2026.html",
+          "publishedOn": "2026-06-09T10:59:49.000Z",
+          "wordCount": 7756,
+          "title": "Links 6/9/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-09-at-2.51.25 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=311515",
+          "author": "Yves Smith",
+          "description": "Today's Iran war news: Israel promptly again defied Trump by bombing Lebanon and Iran vows to end the blockade if there is no pact.",
+          "link": "https://www.nakedcapitalism.com/2026/06/iran-war-israel-again-bombs-lebanon-defying-trump-and-killing-deal-middle-east-straits-as-foundations-for-new-security-architecture-alon-mizrahis-zionism-delenda-est-debate-over-oil-cliff-t.html",
+          "publishedOn": "2026-06-09T10:57:44.000Z",
+          "wordCount": 13323,
+          "title": "Iran War: Israel Again Bombs Lebanon, Defying Trump and Killing “Deal”; Middle East Straits as Foundations for New Security Architecture; Alon Mizrahi’s Zionism Delenda Est; Debate Over Oil Cliff Timing",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=311432",
+          "id": "https://www.nakedcapitalism.com/?p=311494",
+          "author": "Nick Corbishley",
+          "description": "\"The US should be careful what it wishes for in Cuba.\"",
+          "link": "https://www.nakedcapitalism.com/2026/06/a-total-collapse-of-state-power-in-cuba-risks-creating-a-security-vacuum-on-us-doorstep-warns-the-national-interest.html",
+          "publishedOn": "2026-06-09T10:53:34.000Z",
+          "wordCount": 4943,
+          "title": "A Cuban Collapse Could Create a Highly Dangerous Security Vacuum on the US’ Doorstep, Warns The National Interest",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=311522",
+          "author": "Yves Smith",
+          "description": "MAHA touts are in denial that their support for meat-eating is tantamount to support for factory farming.",
+          "link": "https://www.nakedcapitalism.com/2026/06/mahas-meat-loving-industrial-farming-hypocrisy.html",
+          "publishedOn": "2026-06-09T08:55:00.000Z",
+          "wordCount": 4702,
+          "title": "MAHA’s Meat-Loving Industrial Farming Hypocrisy",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/00-maha-meat.jpg"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=311488",
+          "author": "Nat Wilson Turner",
+          "description": "The Democratic party establishment is neither feckless nor helpless when it comes to crushing opponents to its left, like Senate candidate Graham Platner.",
+          "link": "https://www.nakedcapitalism.com/2026/06/gop-aipac-centrist-dems-for-keeps-schumer-platner-el-sayed.html",
+          "publishedOn": "2026-06-08T18:00:14.000Z",
+          "wordCount": 9485,
+          "title": "Coffee Break: The Dem Establishment Goes All-In Against Platner",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=311484",
+          "author": "Yves Smith",
+          "description": "Yet more on why you should hate data centers.",
+          "link": "https://www.nakedcapitalism.com/2026/06/5-ways-data-centers-endanger-their-local-communities-and-the-country-as-a-whole.html",
+          "publishedOn": "2026-06-08T13:55:51.000Z",
+          "wordCount": 4489,
+          "title": "5 Ways Data Centers Endanger Their Local Communities and the Country as a Whole",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=311443",
           "author": "Conor Gallagher",
-          "description": "Central bankers look to make a bad problem worse by trying to ensure wages and prices stay down even as energy costs rise.",
-          "link": "https://www.nakedcapitalism.com/2026/06/the-impoverishing-thinking-of-central-bankers-who-want-interest-rate-rises.html",
-          "publishedOn": "2026-06-07T09:00:00.000Z",
-          "wordCount": 3872,
-          "title": "The Impoverishing Thinking of Central Bankers Who Want Interest Rate Rises",
-          "imageUrl": null
+          "description": "Daily links, including alternatives to anti-weaponization fund, real wage declines, water wars, and the working class hates data centers.",
+          "link": "https://www.nakedcapitalism.com/2026/06/links-6-8-2026.html",
+          "publishedOn": "2026-06-08T10:56:00.000Z",
+          "wordCount": 12503,
+          "title": "Links 6/8/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-07-at-6.12.26 PM-1024x843.png"
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=311357",
+          "id": "https://www.nakedcapitalism.com/?p=311469",
           "author": "Yves Smith",
-          "description": "Our funky daily links: inventing machismo, Iran wants its $24 billion, Ritter: Europe = rabid dog, Trump tariffs to whack Asia, South Asia water wars, power needs to kill AI, new Castro sanctions, Hegseth v. 180 faiths, Butlerian jihad backers? friendless men, moar energy and food warnings",
-          "link": "https://www.nakedcapitalism.com/2026/06/links-6-62026.html",
-          "publishedOn": "2026-06-06T10:59:20.000Z",
-          "wordCount": 13716,
-          "title": "Links 6/62026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/00-baby-sheep.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311416",
-          "author": "Yves Smith",
-          "description": "How pervasive behavioral disorders among what passes for elites are destructive not just to the social order but ultimately to them too.",
-          "link": "https://www.nakedcapitalism.com/2026/06/michael-hudson-geopathology-and-the-econopathology-behind-it.html",
-          "publishedOn": "2026-06-06T10:34:37.000Z",
-          "wordCount": 7806,
-          "title": "Michael Hudson: Geopathology and the Econopathology Behind it",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311413",
-          "author": "Yves Smith",
-          "description": "A deep dive into the history of US-Russia relations.",
-          "link": "https://www.nakedcapitalism.com/2026/06/the-roots-of-the-u-s-russia-rivalry.html",
-          "publishedOn": "2026-06-06T08:37:52.000Z",
-          "wordCount": 7099,
-          "title": "The Roots of the U.S.-Russia Rivalry",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311373",
-          "author": "KLG",
-          "description": "Part the First: Pope Leo XIV and the Larger World.  Of the academic historians currently writing for both their colleagues and students and the general reader, Greg Grandin is among the finest.  In The Education of Pope Leo XIV he places the former Father Bob Prevost and current Pope Leo XIV in context of our […]",
-          "link": "https://www.nakedcapitalism.com/2026/06/coffee-break-theology-at-work-in-the-world-eugenics-is-still-undead-science-is-still-under-attack-and-ultra-processed-foods-in-the-dock.html",
-          "publishedOn": "2026-06-05T18:00:54.000Z",
-          "wordCount": 7659,
-          "title": "Coffee Break: Theology at Work in the World, Eugenics Is Still Undead, Science Is Still Under Attack, and Ultra-Processed Foods in the Dock",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311401",
-          "author": "Yves Smith",
-          "description": "Are bitcoin and crypto, followed by semiconductors and AI, proving Mark Twain right, that manias don't repeat but they rhyme?",
-          "link": "https://www.nakedcapitalism.com/2026/06/who-needs-bitcoin-cryptos-50-amid-the-semiconductor-miracle-ipo-mania.html",
-          "publishedOn": "2026-06-05T13:55:20.000Z",
-          "wordCount": 4589,
-          "title": "Who Needs Bitcoin & Cryptos (-50%) Amid the Semiconductor & Miracle IPO Mania?",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/00-bitcoin-mania.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311352",
-          "author": "Conor Gallagher",
-          "description": "Our daily links, including nationalizing the AI bubble, US-Israel military integration, Zelensky's letter to Putin, Platner vs. the uniparty, and seal beats.",
-          "link": "https://www.nakedcapitalism.com/2026/06/links-6-5-2026.html",
-          "publishedOn": "2026-06-05T10:57:55.000Z",
-          "wordCount": 12111,
-          "title": "Links 6/5/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-04-at-4.40.06 PM-693x1024.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=311365",
-          "author": "Yves Smith",
-          "description": "Today's Iran war news: The US-Iran impasse is undeniable to everyone ex Team Trump as Israel balks and the oil cliff comes ever closer.",
-          "link": "https://www.nakedcapitalism.com/2026/06/iran-war-hezbollah-rejects-israel-favoring-ceasefire-casting-more-doubt-on-deal-iran-agrees-to-inspection-of-bushear-plant-but-no-enriched-uranium-concessions-trump-warned-of-oil-cliff-as-priv.html",
-          "publishedOn": "2026-06-05T10:54:38.000Z",
-          "wordCount": 19288,
-          "title": "Iran War: Hezbollah Rejects Israel-Favoring Ceasefire, Casting More Doubt on “Deal”: Iran Agrees to Inspection of Bushehr Plant but No Enriched Uranium Concessions; Trump Warned of Oil Cliff as Private Debt Fund Wobbles Rise",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-05-at-1.24.07 PM.png"
+          "description": "Today's Iran war update: Iran and Israel exchange attacks rapidly as Trump blusters and the AI meltdown accelerates in global markets",
+          "link": "https://www.nakedcapitalism.com/2026/06/iran-war-iran-launches-new-strikes-on-israel-after-netanyahu-humiliated-trump-by-ignoring-demand-to-stand-pat-ansar-allah-attacks-israel-and-saudi-base-makes-red-sea-threat-south-korea-swoon-adds.html",
+          "publishedOn": "2026-06-08T10:54:01.000Z",
+          "wordCount": 19900,
+          "title": "Iran War: Iran Launches New Strikes on Israel After Netanyahu Humiliated Trump by Ignoring Demand to Stand Pat; Ansar Allah Attacks Israel and Saudi Base, Makes Red Sea Threat; South Korea Swoon Adds to AI Meltdown; BREAKING Bab el-Mandeb Closed?",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-08-at-4.53.07 PM.png"
         }
       ]
     },
@@ -263,12 +232,42 @@
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
         {
+          "id": "5Jw5AkmauDqCVgDeCs0mBa",
+          "author": "Rohit Chenna Reddy",
+          "description": "In our post about Project Glasswing, we made the argument that the architecture around a vulnerability matters more than the speed of the patch. Here we walk through what that architecture looks like, the threats it defends against, and how we run it ourselves as Cloudflare's customer zero.",
+          "link": "https://blog.cloudflare.com/frontier-model-defense/",
+          "publishedOn": "2026-06-09T06:00:00.000Z",
+          "wordCount": 2852,
+          "title": "Defend against frontier cyber models: Cloudflare's architecture as customer zero",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7IDIlD55jcZH6evYpTDert/9c6865086c66d5947ee83c5d1a330ac8/OG_Share_2024-2025-2026__38_.png"
+        },
+        {
+          "id": "2rMCnbhtTEow346RobyHOh",
+          "author": "Alexandra Moraru",
+          "description": "Cloudflare customers can now use Cloudforce One threat intelligence directly within the WAF to block high-risk traffic. By using new cf.intel fields, security teams can automate protection against specific threat actors and targeted industries in real time.",
+          "link": "https://blog.cloudflare.com/realtime-threat-intel-waf-rules/",
+          "publishedOn": "2026-06-08T13:00:00.000Z",
+          "wordCount": 1811,
+          "title": "Turning Cloudflare’s threat indicators into real-time WAF rules",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/32I6Ez9J5ahGTUfRFr0vGe/982fdf4be26c2c7c11e04507a8e43c0d/Turning_Cloudflare%C3%A2__s_threat_indicators_into_real-time_WAF_rules-OG.png"
+        },
+        {
+          "id": "7oyaTqoAEONU38GUoFIdOa",
+          "author": "Ming Lu",
+          "description": "AI Gateway now features real-time spend limits to prevent runaway token bills across multiple AI providers. By integrating with Cloudflare Access, companies can use identity-driven budgets and policies.",
+          "link": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
+          "publishedOn": "2026-06-05T13:00:00.000Z",
+          "wordCount": 2078,
+          "title": "Your AI bill is out of control. Cloudflare can fix it now.",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/10aPjUkoN4qtMrhmFvJXjU/39e514a0d40f1059d73c342e15c4ab5a/Your_AI_bill_is_out_of_control._Cloudflare_can_fix_it_now._-OG.png"
+        },
+        {
           "id": "1laDOhrU8AchkELZi1AHGz",
           "author": "Evan You",
           "description": "VoidZero, the team behind Vite, Vitest, Rolldown, Oxc, and Vite+, is joining Cloudflare. Vite stays open source, vendor-agnostic, and built for everyone.",
           "link": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
           "publishedOn": "2026-06-04T12:59:00.000Z",
-          "wordCount": 2453,
+          "wordCount": 2481,
           "title": "VoidZero is joining Cloudflare",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/77PFBBDzFzIVtsPi4GXm5g/ea71873167012a47518dc593033032c6/BLOG-VOID_OG.png"
         },
@@ -278,19 +277,9 @@
           "description": "BGP is vulnerable to routing hijacks and path leaks that negatively impact traffic on the Internet. RPKI helps solve some of these problems, but for some forged paths, we need to rely on a simpler mechanism: First AS enforcement in BGP.",
           "link": "https://blog.cloudflare.com/enforce-first-as-bgp/",
           "publishedOn": "2026-06-03T17:00:00.000Z",
-          "wordCount": 3160,
+          "wordCount": 3168,
           "title": "Enforcing the First AS in BGP AS_PATHs",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3Tz1vzJHg2Jc7ao1HVBTHE/8d572762f11b749dc47694f482063413/Enforcing_the_First_AS_in_BGP_AS_PATHs-OG.png"
-        },
-        {
-          "id": "14SzggagKjSpBr8SZxHcYL",
-          "author": "Giovanni Pereira Zantedeschi",
-          "description": "We investigated why firmware updates were causing our core servers to take four hours to reboot. By diving into UEFI data structures and iPXE automation, we eliminated unnecessary timeouts and cut boot times back down to minutes.",
-          "link": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
-          "publishedOn": "2026-06-01T16:53:39.000Z",
-          "wordCount": 2373,
-          "title": "How we reduced core unit boot time from hours to minutes",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2sNWgFFJRChSJRDf86w7Sk/17c01739d21d896363b098a4c0c47967/BLOG-3108_OG.png"
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5x04dbbOIp3eiugWSYPeUo/839720d141b384ea4478dd29706ed289/meta_image.png"
         }
       ]
     },
@@ -305,7 +294,7 @@
           "description": "Learn what's new in Visual Studio Code 1.123\nRead the full article",
           "link": "https://code.visualstudio.com/updates/v1_123",
           "publishedOn": "2026-06-03T17:00:00.000Z",
-          "wordCount": 1815,
+          "wordCount": 1823,
           "title": "Visual Studio Code 1.123",
           "imageUrl": "https://code.visualstudio.com/assets/updates/1_123/release-highlights.webp"
         }
@@ -322,7 +311,7 @@
           "description": "India vs the US.",
           "link": "https://newleftreview.org/sidecar/posts/corrupt-regimes",
           "publishedOn": "2026-06-05T20:04:10.000Z",
-          "wordCount": 2401,
+          "wordCount": 2406,
           "title": "Pranab Bardhan: &ldquo;Corrupt Regimes&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/06/pranab.jpg"
         },
@@ -332,7 +321,7 @@
           "description": "On dollar hegemony.",
           "link": "https://newleftreview.org/sidecar/posts/staying-power",
           "publishedOn": "2026-06-05T20:03:20.000Z",
-          "wordCount": 2325,
+          "wordCount": 2330,
           "title": "Ho-fung Hung: &ldquo;Staying Power&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/06/ho-fung.jpg"
         },
@@ -342,7 +331,7 @@
           "description": "At Raven Row.",
           "link": "https://newleftreview.org/sidecar/posts/somehow-forgotten",
           "publishedOn": "2026-06-05T11:19:58.000Z",
-          "wordCount": 2451,
+          "wordCount": 2456,
           "title": "Huda Awan: &ldquo;Somehow Forgotten&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/06/kozz.jpg"
         }
@@ -366,12 +355,22 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=30191",
+          "author": "Richard Seroter",
+          "description": "Today's links look at what's worth learning in the AI era, why software engineering is at the tipping point, and a look at the modern agent stack.",
+          "link": "https://seroter.com/2026/06/08/daily-reading-list-june-8-2026-800/",
+          "publishedOn": "2026-06-08T23:59:40.000Z",
+          "wordCount": 4461,
+          "title": "Daily Reading List – June 8, 2026 (#800)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
           "id": "http://seroter.com/?p=30169",
           "author": "Richard Seroter",
           "description": "Today's links look at rising concern about token costs, why engineering leaders should be worried if their team isn't speaking up, and how people are really using AI in 2026.",
           "link": "https://seroter.com/2026/06/05/daily-reading-list-june-5-2026-799/",
           "publishedOn": "2026-06-05T23:25:24.000Z",
-          "wordCount": 4504,
+          "wordCount": 4512,
           "title": "Daily Reading List – June 5, 2026 (#799)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
@@ -394,41 +393,6 @@
           "wordCount": 4427,
           "title": "Daily Reading List – June 3, 2026 (#797)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=30120",
-          "author": "Richard Seroter",
-          "description": "Today's links look at the state of SDLC security, why test-driven development with agents is good for security, and how to get a good return on AI investments.",
-          "link": "https://seroter.com/2026/06/02/daily-reading-list-june-2-2026-796/",
-          "publishedOn": "2026-06-02T20:03:04.000Z",
-          "wordCount": 4431,
-          "title": "Daily Reading List – June 2, 2026 (#796)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=30064",
-          "author": "Richard Seroter",
-          "description": "Today's links look at how to handle conflict, a list of ways to be wrong about AI-assisted coding metrics, and the keys to succeeding under a new manager.",
-          "link": "https://seroter.com/2026/06/01/daily-reading-list-june-1-2026-795/",
-          "publishedOn": "2026-06-01T19:13:09.000Z",
-          "wordCount": 4472,
-          "title": "Daily Reading List – June 1, 2026 (#795)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=30074",
-          "author": "Richard Seroter",
-          "description": "I’m been thinking a lot about agent teams. You know, a set of AI agents that work together towards a goal. You might implement this within a single agent harness (see Garry Tan’s gstack for Claude Code) or with an orchestrator for multiple harnesses (see Google’s Scion project). I’ve been doing agent-at-a-time coding work thus […]",
-          "link": "https://seroter.com/2026/06/01/one-prompt-four-subagents-and-ninety-seconds-to-get-a-working-app/",
-          "publishedOn": "2026-06-01T18:15:30.000Z",
-          "wordCount": 5234,
-          "title": "One prompt, four (sub)agents, and ninety seconds to get a working app",
-          "enclosure": {
-            "url": "http://videos.files.wordpress.com/zj7XTl54/2026.06.01-multiagent-02b.mp4",
-            "length": "23231801",
-            "type": "video/mp4"
-          },
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/06/2026.06.01-multiagent-00-1.png"
         }
       ]
     },
@@ -443,7 +407,7 @@
           "description": "The MIT Ethics of Computing Research Symposium brought together experts and researchers working at the heart of ethical and social impact in technology.",
           "link": "https://news.mit.edu/2026/crucial-human-component-computing-and-ai-0605",
           "publishedOn": "2026-06-05T20:10:00.000Z",
-          "wordCount": 2128,
+          "wordCount": 2116,
           "title": "The crucial human component in computing and AI",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202605/mit-schwarzman-ethics-of-computing.jpg"
         },
@@ -453,7 +417,7 @@
           "description": "MIT RAISE and Georgia State University announce an initiative to connect universities, community colleges, industry, and government to expand industry-aligned AI training and career pathways.",
           "link": "https://news.mit.edu/2026/mit-raise-georgia-state-university-announce-path-0604",
           "publishedOn": "2026-06-04T19:50:00.000Z",
-          "wordCount": 1692,
+          "wordCount": 1685,
           "title": "PATH to boost AI training and career opportunities for industry-aligned jobs",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202605/mit-raise.jpg"
         },
@@ -463,7 +427,7 @@
           "description": "IAIFI enters its second phase with increased funding, broader ambitions, and a growing community at the frontier of AI and fundamental physics.",
           "link": "https://news.mit.edu/2026/nsf-renews-support-mit-led-ai-and-physics-institute-0604",
           "publishedOn": "2026-06-04T16:00:00.000Z",
-          "wordCount": 1888,
+          "wordCount": 1882,
           "title": "NSF renews support for MIT-led AI and physics institute, expanding a new model for discovery",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202606/iaifi-mit-announcement-26.jpg"
         },
@@ -473,7 +437,7 @@
           "description": "MIT researchers use the classic game as a test bed for AI agents, finding a small AI model can outperform the biggest ones at 1 percent of the cost.",
           "link": "https://news.mit.edu/2026/teaching-ai-agents-ask-better-questions-playing-battleship-0603",
           "publishedOn": "2026-06-03T21:00:00.000Z",
-          "wordCount": 2179,
+          "wordCount": 2161,
           "title": "Teaching AI agents to ask better questions by playing “Battleship”",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202605/mit-csail-Co-Battleship.jpg"
         },
@@ -483,19 +447,9 @@
           "description": "The George Peabody Medal is the highest honor bestowed by the Peabody Institute of the Johns Hopkins University.",
           "link": "https://news.mit.edu/2026/tod-machover-receives-george-peabody-medal-0603",
           "publishedOn": "2026-06-03T20:50:00.000Z",
-          "wordCount": 1174,
+          "wordCount": 1156,
           "title": "Tod Machover receives George Peabody Medal for contributions to music and technology",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202605/mit-medialab-Tod-Machover.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/mit-researchers-teach-ai-models-to-interpret-charts-0603",
-          "author": "Adam Zewe | MIT News",
-          "description": "The new ChartNet training dataset could improve the accuracy of vision-language models that help analyze business trends or interpret scientific figures.",
-          "link": "https://news.mit.edu/2026/mit-researchers-teach-ai-models-to-interpret-charts-0603",
-          "publishedOn": "2026-06-03T04:00:00.000Z",
-          "wordCount": 2038,
-          "title": "MIT researchers teach AI models to interpret charts",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202606/MIT-ChartNet-01-press.jpg"
         }
       ]
     },
@@ -533,6 +487,46 @@
       "feedUrl": "https://www.ianwelsh.net/feed/",
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
+        {
+          "id": "https://www.ianwelsh.net/?p=25460",
+          "author": "Ian Welsh",
+          "description": "The evidence on AI’s effect on those who use it has been coming in, and it’s not good. While it doesn’t effect everyone, it seems to effect most people, and the worst affected, it seems, are the young. Olds have the advantage of growing up in world where they had to learn how to do […]",
+          "link": "https://www.ianwelsh.net/ai-make-them-stupid-then-sell-them-brains/",
+          "publishedOn": "2026-06-09T13:53:42.000Z",
+          "wordCount": null,
+          "title": "AI: Make Them Stupid, Then Sell Them Brains",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=25448",
+          "author": "Tony Wikrent",
+          "description": "What the Wounds Are Telling Us by Door Maud Effting and Willem Feenstra, 13 September 2025 [de Volkskrant at volkskrant.nl] “Doctors in Gaza observed a disturbing pattern: children with a single gunshot wound to the head or chest, a sign that they had been deliberately targeted. This emerges from research by de Volkskrant, which spoke with […]",
+          "link": "https://www.ianwelsh.net/what-the-wounds-are-telling-us/",
+          "publishedOn": "2026-06-09T00:58:53.000Z",
+          "wordCount": null,
+          "title": "What the Wounds Are Telling Us",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=25443",
+          "author": "Ian Welsh",
+          "description": "Since the ceasefire started, Iran has said that both it and any peace agreement must include Lebanon. America agreed, Israel didn’t, and the invasion of Lebanon has continued. Yesterday Iran lost its patience and hit Israel. Israel responded. One set from each side. For now. But Iran has said that if Israel keeps attacking Lebanon, […]",
+          "link": "https://www.ianwelsh.net/iran-hits-israel-over-lebanese-attacks/",
+          "publishedOn": "2026-06-08T15:16:00.000Z",
+          "wordCount": null,
+          "title": "Iran HIts Israel Over Lebanese Attacks",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=25374",
+          "author": "Tony Wikrent",
+          "description": "Week-end Wrap – Political Economy – June 07, 2026 by Tony Wikrent   War Does Iran Have a Nuclear Way to Stop the War? Thomas Neuburger, June 04, 2026 [God’s Spies] I’m writing about a striking but unverified report by journalist Pepe Escobar: Iran wants to end the war now, and is willing to detonate […]",
+          "link": "https://www.ianwelsh.net/week-end-wrap-political-economy-june-07-2026/",
+          "publishedOn": "2026-06-07T18:42:34.000Z",
+          "wordCount": null,
+          "title": "Week-end Wrap – Political Economy – June 07, 2026",
+          "imageUrl": null
+        },
         {
           "id": "https://www.ianwelsh.net/?p=25413",
           "author": "Ian Welsh",
@@ -572,16 +566,6 @@
           "wordCount": null,
           "title": "Why Do So Many Right Wing Parties Worship America",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=25376",
-          "author": "Ian Welsh",
-          "description": "Pride in one’s nation is one of the weakest and most pathetic types of pride because a nation’s greatness is a result of so many different people’s contribution. Unless you are FDR level, you contributed very little. But American pride in being American is ridiculous. Americans have nothing to be proud of, not today’s Americans […]",
-          "link": "https://www.ianwelsh.net/americans-today-have-little-to-be-proud-of/",
-          "publishedOn": "2026-06-02T03:12:55.000Z",
-          "wordCount": null,
-          "title": "Americans Today Have Little To Be Proud Of",
-          "imageUrl": null
         }
       ]
     },
@@ -591,101 +575,101 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160959",
-          "author": "Paul Campos",
-          "description": "If you want to see what right wing populism actually looks like in its pure form, take a look at a governor’s race in a state like Colorado, where the Democratic candidate is going to win the general election by fifteen or twenty points. The leading candidate by far in terms of fundraising is this […]\nThe post Off the deep end appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/off-the-deep-end",
-          "publishedOn": "2026-06-07T12:45:12.000Z",
-          "wordCount": null,
-          "title": "Off the deep end",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160680",
-          "author": "Erik Loomis",
-          "description": "On, June 7, 1912, Boston Elevated Railway workers called a strike. But the company had a secret force–Harvard students. Harvard men were more than happy to be hired thugs to break this strike in an act of class solidarity we rarely see from the working classes. This is a good chance to talk about the […]\nThe post This Day in Labor History: June 7, 1912 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/this-day-in-labor-history-june-7-1912",
-          "publishedOn": "2026-06-07T11:00:00.000Z",
-          "wordCount": null,
-          "title": "This Day in Labor History: June 7, 1912",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160955",
-          "author": "Paul Campos",
-          "description": "I had the slightly uncanny experience of discovering via this NYT story that Joe Biden had been giving a talk in Sioux Falls SD last night, three miles down the road from where I was in the middle of getting ripped off by a scamming bartender. What was uncanny about this is that neither I […]\nThe post Ain’t that America appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/aint-that-america-8",
-          "publishedOn": "2026-06-07T02:06:11.000Z",
-          "wordCount": null,
-          "title": "Ain’t that America",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160953",
-          "author": "Erik Loomis",
-          "description": "Bob Packwood is dead. While his name became a joke of 1990s politics due to his serial sexual harassment and his resignation from the Senate due to that behavior, he is actually a far more interesting character than that and a man who represents what the Republican Party could be at one time, which was […]\nThe post Packwood appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/packwood",
-          "publishedOn": "2026-06-06T22:25:22.000Z",
-          "wordCount": null,
-          "title": "Packwood",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160948",
-          "author": "djw",
-          "description": "It’s snap election day on Sunday in Kosovo. Readers of this series may recall coverage of a Kosovo parliamentary election on this blog less than six months ago, and those with somewhat longer memories may recall coverage of the February 2025 election. (I believe Kosovo may be the first country to have a third election […]\nThe post Election of the Weekend III: Kosovo appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/election-of-the-weekend-iii-kosovo",
-          "publishedOn": "2026-06-06T21:15:00.000Z",
-          "wordCount": null,
-          "title": "Election of the Weekend III: Kosovo",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160952",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161018",
           "author": "Scott Lemieux",
-          "description": "I have many questions here. Does Hegseth think that it was the Axis storming the beaches of Normandy? Does he consider anti-fascism a “dangerous ideology?” It it bad to have twelve gin-and-tonics before giving a public speech? In a perplexing speech Saturday commemorating the World War II D-Day landings in Normandy, France, Secretary of Defense Pete Hegseth […]\nThe post Saving private Adolf appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/saving-private-adolf",
-          "publishedOn": "2026-06-06T19:55:53.000Z",
+          "description": "The zeitgeist is a fickle mistress, and when you’ve lost Stephen A: New York Knicks fans in Madison Square Garden received President Trump, a longtime fan and once one of their own, the same way they welcomed the visiting San Antonio Spurs ahead of Game Three of the NBA Finals. A chorus of boos rained down when […]\nThe post Easy like Monday morning appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/easy-like-monday-morning",
+          "publishedOn": "2026-06-09T19:42:38.000Z",
           "wordCount": null,
-          "title": "Saving private Adolf",
+          "title": "Easy like Monday morning",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160938",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161013",
+          "author": "Paul Campos",
+          "description": "If you guessed NEGATIVE $2.3 billion you have a real nose for sniffing out opportunities in matters of, um, “business:” And if you think this is all a bunch of plutocrats paying crypto-bribes (DYSWIDT?) and laundering money, guess again: I know there’s a temptation to write these people off as getting what they deserve, but […]\nThe post Trump and family made $2.3 billion from crypto; guess how much investors made? appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/trump-and-family-make-2-3-billion-from-crypto-guess-how-much-investors-made",
+          "publishedOn": "2026-06-09T17:49:58.000Z",
+          "wordCount": null,
+          "title": "Trump and family made $2.3 billion from crypto; guess how much investors made?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161010",
           "author": "Robert Farley",
-          "description": "It’s been made clear over time that one of the least popular subject to post about here is Law of Armed Conflict (LOAC). Nevertheless, this is an awfully interesting account from Miro Sedlak on how LOAC approaches attacks on targets which are part of a system (say, an electrical network), and what kind of reforms might […]\nThe post It’s the System, Man appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/its-the-system-man",
-          "publishedOn": "2026-06-06T19:00:27.000Z",
+          "description": "Some thoughts on the dynamics of the cease-fire: Yet it’s not as if there’s nothing left to fight for. The United States and Israel have not achieved their core war objectives, including the destruction of the Iranian nuclear program, the destruction of Iran’s missile and drone industries, and the defeat of Iran’s militias. The dual […]\nThe post A Durable Cease-Fire? appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/a-durable-cease-fire",
+          "publishedOn": "2026-06-09T15:07:49.000Z",
           "wordCount": null,
-          "title": "It’s the System, Man",
+          "title": "A Durable Cease-Fire?",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160930",
-          "author": "djw",
-          "description": "Armenia will elect a new National Assembly on Sunday. The minimum 101 seat body is elected by national party list PR (5% threshold for parties, 7% for coalitions), with a bunch of weird rules after the fact. First, if a party receives a majority of total votes, but less than 54% of seats, they will […]\nThe post Election of the Weekend II: Armenia appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/election-of-the-weekend-ii-armenia",
-          "publishedOn": "2026-06-06T17:29:51.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161004",
+          "author": "Paul Campos",
+          "description": "LGM engages in a lot of justified mockery of the elite media’s sanewashing and both sides frames, but imagine if you had a read a story in the NYT fifteen years ago, aka the Before Time, that read like this: By baselessly framing Ms. Smith’s rise as a Democratic scam, the President extended his long-running […]\nThe post The House of the Dead appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/the-house-of-the-dead",
+          "publishedOn": "2026-06-09T12:35:09.000Z",
           "wordCount": null,
-          "title": "Election of the Weekend II: Armenia",
+          "title": "The House of the Dead",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=160937",
-          "author": "Cheryl Rofer",
-          "description": "This week we heard more of Graham Platner than any normal human being should have to. The Maine primary is Tuesday. Donald Trump had his third “physical” in this presidential term and then disappeared from public view for six days. Or was it seven? He poasted through it, frequently at times of night when most […]\nThe post Week 72 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/week-72",
-          "publishedOn": "2026-06-06T16:57:28.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160826",
+          "author": "Erik Loomis",
+          "description": "This is the grave of George Edmunds. Born in 1828 in Richmond, Vermont, Edmunds grew up in pretty good circumstances, went to the local schools, read for the law, and passed the bar in 1849. He started practicing in Burlington. He was interested in politics from the time he was young, became a Republican as […]\nThe post Erik Visits an American Grave, Part 2,158 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/erik-visits-an-american-grave-part-2158",
+          "publishedOn": "2026-06-09T11:00:00.000Z",
           "wordCount": null,
-          "title": "Week 72",
+          "title": "Erik Visits an American Grave, Part 2,158",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161001",
+          "author": "Scott Lemieux",
+          "description": "Having collaborated with James Dolan to end the Knicks winning streak while being raucously booed (despite Dolan trying to insulate him by putting him on screen during the national anthem), the president retreated into alternate reality: Trump on being booed at the NBA Finals: I think it was mostly cheers. It was loud. And it […]\nThe post It’s not a lie if you believe it appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/its-not-a-lie-if-you-believe-it",
+          "publishedOn": "2026-06-09T05:34:17.000Z",
+          "wordCount": null,
+          "title": "It’s not a lie if you believe it",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160998",
+          "author": "Scott Lemieux",
+          "description": "Trump ruins everything: New York Knicks fans can cheer on their beloved team pretty much anywhere in the city’s five boroughs on Monday night — except outside Madison Square Garden. A watch party outside the team’s home court won’t be held for Game 3 of the NBA Finals because President Donald Trump plans to attend. I […]\nThe post NBA Game 3 Open Thread appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/nba-game-3-open-thread",
+          "publishedOn": "2026-06-09T00:30:00.000Z",
+          "wordCount": null,
+          "title": "NBA Game 3 Open Thread",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160995",
+          "author": "Robert Farley",
+          "description": "There were some questions in the last thread about when and why states obey the Law of Armed Conflict (LOAC) or don’t.  Aaryan Srivastava has a good account of how we can interpret the differences between the US, Iraq, Israel, Russia, and Ukraine over the past thirty years.  Unsurprising answer is that states are sensitive […]\nThe post The Wages of Sin appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/the-wages-of-sin",
+          "publishedOn": "2026-06-08T23:17:45.000Z",
+          "wordCount": null,
+          "title": "The Wages of Sin",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=160993",
+          "author": "Erik Loomis",
+          "description": "Greg Bovino is talking about running for the Republican nomination in 28 on a platform of mass deportation and I see little reason why he can’t win or at least be a serious candidate. Republican primary voters are going to want the craziest person in the room. Vance and Rubio can’t pull that off. Remember […]\nThe post Meet Your 2028 Republican Presidential Nominee appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/06/meet-your-2028-republican-presidential-nominee",
+          "publishedOn": "2026-06-08T22:44:01.000Z",
+          "wordCount": null,
+          "title": "Meet Your 2028 Republican Presidential Nominee",
           "itunes": {},
           "imageUrl": null
         }
