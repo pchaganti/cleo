@@ -50,16 +50,6 @@
           "wordCount": 33196,
           "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/15/Cert-Mgr-feat-img.png"
-        },
-        {
-          "id": "5f1578e8308028213ee25d84f88e1be66f65bc77",
-          "author": "Micah Walter",
-          "description": "It has been a busy stretch on the AWS Summit circuit. At the New York City Summit, I delivered a workshop called Building AI architectures with AWS Serverless, and it was a lot of fun watching builders wire up agents and serverless services to solve real problems in a single afternoon. This week I am […]",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentic-cx-designer-for-amazon-connect-customer-ec2-ami-watermarks-open-governance-for-mysql-and-more-june-29-2026/",
-          "publishedOn": "2026-06-29T16:30:30.000Z",
-          "wordCount": 32826,
-          "title": "AWS Weekly Roundup: Agentic CX designer for Amazon Connect Customer, EC2 AMI Watermarks, Open Governance for MySQL, and more (June 29, 2026)",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
         }
       ]
     },
@@ -67,38 +57,7 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": [
-        {
-          "id": "7787ea31cf0745f0c436ee3c2129e76cc178b69e",
-          "author": "Ben Freiberg",
-          "description": "In this post, we share our journey and the lessons learned from building and running a fully serverless, multi-account software as a service (SaaS) platform at scale. We’ll explore why true scale-to-zero is critical, how we handle quota management, why engaging AWS service teams early saved us from outages, and which unexpected practices emerged once we scaled from thousands to over a million functions.",
-          "link": "https://aws.amazon.com/blogs/architecture/lessons-learned-from-scaling-to-1-million-lambda-functions/",
-          "publishedOn": "2026-06-29T17:21:05.000Z",
-          "wordCount": 33802,
-          "title": "Lessons learned from scaling to 1 million Lambda functions",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/29/Screenshot-2026-06-29-at-12.20.19 PM-1072x630.png"
-        },
-        {
-          "id": "911455f3ceec06dfe1daa980d11ff3d1dd9dad0f",
-          "author": "Ajish Abraham",
-          "description": "In this post, we demonstrate how iBusiness implemented a three-layered security architecture using Amazon SageMaker AI, virtual private cloud (VPC) endpoints, and Amazon WorkSpaces Secure Browser to prevent data exfiltration while maintaining data scientist productivity. You can adapt this approach to build secure machine learning environments that balance strict data protection with team scalability.",
-          "link": "https://aws.amazon.com/blogs/architecture/preventing-data-exfiltration-in-machine-learning-environments-with-amazon-sagemaker-ai/",
-          "publishedOn": "2026-06-29T17:16:48.000Z",
-          "wordCount": 33011,
-          "title": "Preventing data exfiltration in machine learning environments with Amazon SageMaker AI",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/02/1385.png"
-        },
-        {
-          "id": "724ed00b59475c0e4625e6635fc2bac52720a8cc",
-          "author": "Madhusudan Athinarapu",
-          "description": "In this post, you learn how to configure an Amazon Cognito User Pool for SRP-based game client authentication with no client secret. You will implement a Go runtime hook that validates Cognito JWTs and bridges player identity to Nakama sessions.",
-          "link": "https://aws.amazon.com/blogs/architecture/dual-token-authentication-for-nakama-game-servers-with-amazon-cognito-on-aws/",
-          "publishedOn": "2026-06-29T17:09:54.000Z",
-          "wordCount": 34428,
-          "title": "Dual-token authentication for Nakama game servers with Amazon Cognito on AWS",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/17/ARCHBLOG-1497-1-1177x630.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
@@ -117,9 +76,9 @@
           "description": "AWS CloudFormation helps you model and provision cloud infrastructure as code using JSON or YAML templates, or through tools like the AWS Cloud Development Kit (CDK) and AWS Serverless Application Model (SAM). Whether you create stacks directly, use change sets for preview, or deploy through CI/CD pipelines and AI agents, the speed of your deployment […]",
           "link": "https://aws.amazon.com/blogs/devops/how-cloudformation-express-mode-accelerates-your-development-cycle/",
           "publishedOn": "2026-07-02T21:06:52.000Z",
-          "wordCount": 32917,
-          "title": "How CloudFormation Express mode accelerates your development cycle",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/07/02/How-CloudFormation-Express-mode-accelerates-your-development-cycle-1123x630.png"
+          "wordCount": 32953,
+          "title": "How CloudFormation express mode accelerates your development cycle",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/07/03/How-CloudFormation-express-mode-accelerates-your-development-cycle-1122x630.png"
         },
         {
           "id": "9c8bc899dfbc40be67bde995063f37450516cfa3",
@@ -137,18 +96,7 @@
       "title": "Netflix TechBlog - Medium",
       "feedUrl": "https://techblog.netflix.com/feeds/posts/default",
       "siteUrl": "https://netflixtechblog.com?source=rss----2615bd06b42e---4",
-      "articles": [
-        {
-          "id": "https://medium.com/p/77146fba8a08",
-          "author": "Netflix Technology Blog",
-          "description": "Authors: Lequn Wang, Jiangwei Pan, and Linas Baltrunas",
-          "link": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08?source=rss----2615bd06b42e---4",
-          "publishedOn": "2026-06-29T13:01:02.000Z",
-          "wordCount": 10851,
-          "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/1*NurrizMgC7_QbsGuuW42Dg.gif"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "naked capitalism",
@@ -156,104 +104,104 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
-          "id": "https://www.nakedcapitalism.com/?p=312671",
+          "id": "https://www.nakedcapitalism.com/?p=312773",
           "author": "Conor Gallagher",
-          "description": "Our daily links, including setting precedent with NATO strikes in Russia, labor participation rate collapse, Germany bans illness, and worse heat on the way.",
-          "link": "https://www.nakedcapitalism.com/2026/07/links-7-3-2026.html",
-          "publishedOn": "2026-07-03T10:55:51.000Z",
-          "wordCount": 4650,
-          "title": "Links 7/3/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/FpdpmbmXEAAU9BN-1024x614.jpeg"
+          "description": "Our daily links, including Europe inches closer to war, German strategic overconfidence, and wildfires, heatwaves, and severe storms ravage planet.",
+          "link": "https://www.nakedcapitalism.com/2026/07/links-7-6-2026.html",
+          "publishedOn": "2026-07-06T10:57:10.000Z",
+          "wordCount": 3251,
+          "title": "Links 7/6/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/HLr20X3WkAAV9vT-e1783288649179.jpeg"
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=312665",
-          "author": "Nick Corbishley",
-          "description": "First they came for Muslim activists. Then they came for Nigel Farage. Now, they're coming for independent media outlets.",
-          "link": "https://www.nakedcapitalism.com/2026/07/the-uks-latest-debanking-scandal-should-give-everyone-pause.html",
-          "publishedOn": "2026-07-03T10:45:21.000Z",
-          "wordCount": 6431,
-          "title": "The UK’s Latest “Debanking” Scandal Should Give Everyone Pause",
+          "id": "https://www.nakedcapitalism.com/?p=312784",
+          "author": "Yves Smith",
+          "description": "Can hypersociality  help reconcile obvious elite stupidity with top-down conspiracy theories?",
+          "link": "https://www.nakedcapitalism.com/2026/07/the-hypersociality-hypothesis.html",
+          "publishedOn": "2026-07-06T10:54:44.000Z",
+          "wordCount": 7895,
+          "title": "The Hypersociality Hypothesis",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=312694",
-          "author": "Yves Smith",
-          "description": "Today's abbreviated Iran war news: some information hygiene on the oil cliff and fertilizer fronts.",
-          "link": "https://www.nakedcapitalism.com/2026/07/iran-war-philip-pilkington-nate-wade-debunk-oil-cliff-hopium-pilkington-explains-prices-derived-from-crack-spreads-are-100-to-115-a-barrel-us-declares-fertilizer-emergency.html",
-          "publishedOn": "2026-07-03T09:30:30.000Z",
-          "wordCount": 5271,
-          "title": "Iran War: Philip Pilkington, Nate Wade Debunk Oil Cliff Hopium; Pilkington Explains Prices Derived from Crack Spreads are $100 to $115 a Barrel; US Declares Fertilizer Emergency",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-03-at-6.07.19 PM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312682",
-          "author": "Yves Smith",
-          "description": "A look at various government's efforts, particularly in Japan, to manage shrinking and aging communities.",
-          "link": "https://www.nakedcapitalism.com/2026/07/living-in-a-ghost-town-the-geography-of-depopulation-and-aging.html",
-          "publishedOn": "2026-07-03T05:50:31.000Z",
-          "wordCount": 5549,
-          "title": "Living in a Ghost Town: The Geography of Depopulation and Aging",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/00-aging.webp"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312664",
-          "author": "Curro Jimenez",
-          "description": "Asking about Sharia Law in the West creates an erroneous binary for Muslims, ignoring a deeper view of law, land, and the modern nation-state.",
-          "link": "https://www.nakedcapitalism.com/2026/07/do-muslims-want-sharia-law-in-the-west.html",
-          "publishedOn": "2026-07-02T18:00:05.000Z",
-          "wordCount": 5503,
-          "title": "Do Muslims Want Sharia Law in the West?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312610",
+          "id": "https://www.nakedcapitalism.com/?p=312766",
           "author": "Conor Gallagher",
-          "description": "Our daily links, including US builds concentration camps in Gaza, data centers gobble electricity under the heat dome, UK wealth drop, and Tucker's party.",
-          "link": "https://www.nakedcapitalism.com/2026/07/links-7-2-2026.html",
-          "publishedOn": "2026-07-02T10:55:08.000Z",
-          "wordCount": 7298,
-          "title": "Links 7/2/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/HMHsPufW0AAPEG8-1024x683.jpeg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312659",
-          "author": "Yves Smith",
-          "description": "Today's Iran war news: The US thumbs its nose at MOU obligations and seems content with current Strait of Hormuz transit levels.",
-          "link": "https://www.nakedcapitalism.com/2026/07/iran-war-vance-confirms-plan-to-use-deal-as-minsk-type-pause-to-restock-fuel-and-arms-us-ostentatiously-failing-to-implement-iou-seeking-to-isolate-iran-over-strait-of-hormuz-control.html",
-          "publishedOn": "2026-07-02T09:42:08.000Z",
-          "wordCount": 20035,
-          "title": "Iran War: Vance Confirms Plan to Use “Deal” as Minsk-Type Pause to Restock Fuel (and Arms); US Ostentatiously Failing to Implement MOU, Seeking to Isolate Iran Over Strait of Hormuz Control",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-02-at-2.26.05 PM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312643",
-          "author": "Yves Smith",
-          "description": "How the Supremes gave a win for farm animals over Big Ag.",
-          "link": "https://www.nakedcapitalism.com/2026/07/supreme-court-denies-pork-industry-appeal-of-animal-welfare-law.html",
-          "publishedOn": "2026-07-02T06:41:21.000Z",
-          "wordCount": 4707,
-          "title": "Supreme Court Denies Pork Industry Appeal of Animal Welfare Law",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-02-at-12.56.21 AM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312637",
-          "author": "Yves Smith",
-          "description": "The Trump firing of the BLS chief imposed costs by lowering faith in official statistics and increasing uncertainty.",
-          "link": "https://www.nakedcapitalism.com/2026/07/when-trust-in-official-statistics-declines.html",
-          "publishedOn": "2026-07-02T05:09:38.000Z",
-          "wordCount": 5393,
-          "title": "When Trust in Official Statistics Declines",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/00-official-statistics.webp"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312635",
-          "author": "Nat Wilson Turner",
-          "description": "Trump 2.0 is setting records for graft while establishing a tawdry, tacky aesthetic that is not going over with the American public.",
-          "link": "https://www.nakedcapitalism.com/2026/07/trump-corruption-crypto-lutknik-kushner-albania-sons-kazakhstan.html",
-          "publishedOn": "2026-07-01T18:00:48.000Z",
-          "wordCount": 7143,
-          "title": "Coffee Break: Tawdry Trump Gang Corruption Wave Cresting?",
+          "description": "Beijing’s new ethnic unity law extends country’s legal reach as attacks on Chinese infrastructure projects mount.",
+          "link": "https://www.nakedcapitalism.com/2026/07/is-the-u-s-preparing-to-ramp-up-the-dirty-wars-against-china.html",
+          "publishedOn": "2026-07-06T10:53:30.000Z",
+          "wordCount": 5027,
+          "title": "Is the U.S. Preparing to Ramp Up the Dirty Wars Against China?",
           "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312786",
+          "author": "Yves Smith",
+          "description": "Today's Iran war update: Why things are not as quiet as they might seem.",
+          "link": "https://www.nakedcapitalism.com/2026/07/iran-war-iran-stance-hardening-in-connection-with-funerals-for-supreme-leader-and-other-martyrs-strait-of-hormuz-dominance-struggle-continues-more-on-oil-price-anomalies.html",
+          "publishedOn": "2026-07-06T10:53:21.000Z",
+          "wordCount": 5667,
+          "title": "Iran War: Iran Stance Hardening in Connection with Funerals for Supreme Leader and Other Martyrs; Strait of Hormuz Dominance Struggle Continues; More on Oil Price Anomalies",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-4.44.34 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312755",
+          "author": "Haig Hovaness",
+          "description": "Our strategic daily links: U.S. 250th birthday, galactic mega-merger, climate inequality, Venezuela quake, Chinese vertical farming, Mideast horrors, Ukraine burning, vanishing privacy, Trumpishness, Musk world, hapless Democrats, immigration troubles, Mr. market, AI, and wretched excess",
+          "link": "https://www.nakedcapitalism.com/2026/07/links-7-5-2026.html",
+          "publishedOn": "2026-07-05T10:55:53.000Z",
+          "wordCount": 11829,
+          "title": "Links 7/5/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Puppies.jpg"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312456",
+          "author": "semper loquitur",
+          "description": "Into Great Silence is a movie about the contemplative life.",
+          "link": "https://www.nakedcapitalism.com/2026/07/the-sunday-morning-movie-presents-into-great-silence-2005-run-time-1h-6m-plus-bonuses.html",
+          "publishedOn": "2026-07-05T10:30:58.000Z",
+          "wordCount": 3090,
+          "title": "The Sunday Morning Movie Presents: Into Great Silence (2005) Run Time: 1H 6M Plus Bonuses!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312757",
+          "author": "Conor Gallagher",
+          "description": "The narrative of Ukraine success cracks under the weight of reality. What's next?",
+          "link": "https://www.nakedcapitalism.com/2026/07/russia-exposed-ukraines-new-three-pronged-infowar-campaign-about-the-battlefield.html",
+          "publishedOn": "2026-07-05T09:00:39.000Z",
+          "wordCount": 6516,
+          "title": "Russia Exposed Ukraine’s New Three-Pronged Infowar Campaign About The Battlefield",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312727",
+          "author": "Yves Smith",
+          "description": "Our rattled daily links: Record sea temps, China real estate sinks. yen crisis? >1 million Gaza deaths, Yemen threatens Saudis. grocery price emergency, Trump corruption details, quant emergency? retail dip-buying frenzy, America 250 ignorance, Cuba blackouts, Russia restraint",
+          "link": "https://www.nakedcapitalism.com/2026/07/links-7-4-2026.html",
+          "publishedOn": "2026-07-04T10:55:19.000Z",
+          "wordCount": 14893,
+          "title": "Links 7/4/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-04-at-2.01.47 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312742",
+          "author": "Yves Smith",
+          "description": "On US 250th anniversary celebration, Michael Hudson considers the counter-revolution thesis and the role of slave capital.",
+          "link": "https://www.nakedcapitalism.com/2026/07/michael-hudson-how-us-slave-interests-stifled-us-monetary-and-banking-policy-until-1913.html",
+          "publishedOn": "2026-07-04T08:03:13.000Z",
+          "wordCount": 8875,
+          "title": "Michael Hudson: How US Slave Interests Stifled US Monetary and Banking Policy Until 1913",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312736",
+          "author": "Yves Smith",
+          "description": "Rob Urie addresses common misperceptions regularly promoted by AI touts, of what AI can and cannot do.",
+          "link": "https://www.nakedcapitalism.com/2026/07/why-ai-doesnt-think-cannot-reason-isnt-intelligent-and-will-never-achieve-consciousness.html",
+          "publishedOn": "2026-07-04T07:37:26.000Z",
+          "wordCount": 17633,
+          "title": "Why AI Doesn’t Think, Cannot Reason, Isn’t Intelligent and Will Never Achieve Consciousness",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/00-AI-consciousness.jpg"
         }
       ]
     },
@@ -278,7 +226,7 @@
           "description": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals and detail the new infrastructure required to support a sustainable web economy.",
           "link": "https://blog.cloudflare.com/agentic-internet-bot-report/",
           "publishedOn": "2026-07-01T13:00:00.000Z",
-          "wordCount": 2985,
+          "wordCount": 2988,
           "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5kBxooEvcEgm0X5plGZOE1/62575e0563c07033c10181f4d01197d0/Content_Independence_Day__one_year_on-_building_the_business_model_for_the_agentic_Internet-OG.png"
         },
@@ -288,7 +236,7 @@
           "description": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
           "link": "https://blog.cloudflare.com/making-ai-search-smarter/",
           "publishedOn": "2026-07-01T13:00:00.000Z",
-          "wordCount": 2396,
+          "wordCount": 2404,
           "title": "Making AI search smarter",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2A9ejBpMURvmM6vDwgua8A/8d3da5a728f9890fcfb7888f1d74d813/BLOG-3339_OG.png"
         },
@@ -298,7 +246,7 @@
           "description": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
           "link": "https://blog.cloudflare.com/content-independence-day-ai-options/",
           "publishedOn": "2026-07-01T13:00:00.000Z",
-          "wordCount": 3314,
+          "wordCount": 3324,
           "title": "Your site, your rules: new AI traffic options for all customers",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6WfuWZFkYwf6QwyYidzYdo/621c1bd35911a6aa5aaa0d6a3758da18/BLOG-3337_OG.png"
         },
@@ -352,7 +300,7 @@
           "description": "Carlo Ginzburg (1939-2026).",
           "link": "https://newleftreview.org/sidecar/posts/trespassing",
           "publishedOn": "2026-07-03T15:05:29.000Z",
-          "wordCount": 3110,
+          "wordCount": 3111,
           "title": "Sanjay Subrahmanyam: &ldquo;Trespassing&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/07/ginz-photo.jpg"
         },
@@ -362,7 +310,7 @@
           "description": "A response to Hillary Clinton.",
           "link": "https://newleftreview.org/sidecar/posts/without-causes",
           "publishedOn": "2026-07-02T10:21:40.000Z",
-          "wordCount": 1580,
+          "wordCount": 1585,
           "title": "Raymond Geuss: &ldquo;Without Causes&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/07/gaza.jpg"
         }
@@ -401,7 +349,7 @@
           "description": "Today's links look at tools to bolster your AI coding stack, driving the agent quality flywheel from your coding agents, and why AI should shrink teams and not headcount.",
           "link": "https://seroter.com/2026/07/01/daily-reading-list-july-1-2026-816/",
           "publishedOn": "2026-07-01T23:25:21.000Z",
-          "wordCount": 4400,
+          "wordCount": 4419,
           "title": "Daily Reading List – July 1, 2026 (#816)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
@@ -411,7 +359,7 @@
           "description": "Today's links look at how enterprises see the future of (AI) engineering, whether markdown is the application layer of AI apps, and how to think about agent memory.",
           "link": "https://seroter.com/2026/06/30/daily-reading-list-june-30-2026-815/",
           "publishedOn": "2026-06-30T23:15:48.000Z",
-          "wordCount": 4409,
+          "wordCount": 4428,
           "title": "Daily Reading List – June 30, 2026 (#815)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
@@ -421,19 +369,9 @@
           "description": "Today's links look at essential testing patterns for AI agent development, why AI adoption is overloading middle managers, and the problem with prompt debt.",
           "link": "https://seroter.com/2026/06/29/daily-reading-list-june-29-2026-814/",
           "publishedOn": "2026-06-29T23:56:54.000Z",
-          "wordCount": 4457,
+          "wordCount": 4468,
           "title": "Daily Reading List – June 29, 2026 (#814)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=30444",
-          "author": "Richard Seroter",
-          "description": "That was fast. We’ve moved from prompting an LLM, to providing instructions to an agent, to having agents prompting other agents in a loop. “Loop engineering” is all the rage among the AI elite who are excited to spin up an agent and let it chomp tokens until it achieves a stated goal. You might […]",
-          "link": "https://seroter.com/2026/06/28/crafting-an-agent-team-that-still-includes-me/",
-          "publishedOn": "2026-06-28T16:38:13.000Z",
-          "wordCount": 5747,
-          "title": "Crafting an agent team that still includes me",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/06/2026.06.29-team-01.png"
         }
       ]
     },
@@ -458,29 +396,9 @@
           "description": "Computer scientist Phillip Isola cuts through the hype to explain how AI agents work and what the future might hold for this rapidly advancing technology.",
           "link": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
           "publishedOn": "2026-06-30T15:30:00.000Z",
-          "wordCount": 1921,
+          "wordCount": 1926,
           "title": "Q&A: What is agentic AI today, and what do we want it to be?",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202606/MIT-3QAgenticAI-01.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629",
-          "author": "Dan Pecci | MIT Music and Theater Arts",
-          "description": "Associate Professor Anna Huang delivers the keynote address, “In Search of Human-AI Resonance,” to a capacity crowd.",
-          "link": "https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629",
-          "publishedOn": "2026-06-29T19:00:00.000Z",
-          "wordCount": 2639,
-          "title": "Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202606/mit-music-tech-showcase.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/3-questions-beyond-data-driven-aesthetics-alexandros-haridis-0629",
-          "author": "School of Architecture and Planning",
-          "description": "In a new Keller Gallery exhibition, Alexandros Haridis SM ’17, PhD ’22 traces centuries of ideas about aesthetic judgment and explores how design can make complex computational systems visible.",
-          "link": "https://news.mit.edu/2026/3-questions-beyond-data-driven-aesthetics-alexandros-haridis-0629",
-          "publishedOn": "2026-06-29T18:00:00.000Z",
-          "wordCount": 1752,
-          "title": "3 Questions: Beyond data-driven aesthetics",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202606/MIT%20SA%2BP-Beyond-data-driven-aesthetics.jpg"
         }
       ]
     },
@@ -501,6 +419,26 @@
       "feedUrl": "https://www.ianwelsh.net/feed/",
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
+        {
+          "id": "https://www.ianwelsh.net/?p=25787",
+          "author": "Tony Wikrent",
+          "description": "Week-end Wrap – Political Economy – July 05, 2026 by Tony Wikrent   UNhappy birthday, America Reconsidering the Constitution’s Preamble: The Words that Made Us U.S. — University of Wisconsin Legal Studies Research Paper Series Paper No. 1718 David S. Schwartz, September 25, 2021 [37 Constitutional Commentary 2022] [TW: I now refer to the GOP and its […]",
+          "link": "https://www.ianwelsh.net/week-end-wrap-political-economy-july-05-2026/",
+          "publishedOn": "2026-07-05T19:03:27.000Z",
+          "wordCount": null,
+          "title": "Week-end Wrap – Political Economy – July 05, 2026",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=25847",
+          "author": "Ian Welsh",
+          "description": "Use to discuss topics unrelated to recent posts. If you’re in America, I hope you enjoyed the holiday.",
+          "link": "https://www.ianwelsh.net/open-thread-345/",
+          "publishedOn": "2026-07-05T02:55:21.000Z",
+          "wordCount": null,
+          "title": "Open Thread",
+          "imageUrl": null
+        },
         {
           "id": "https://www.ianwelsh.net/?p=25831",
           "author": "Ian Welsh",
@@ -540,36 +478,6 @@
           "wordCount": null,
           "title": "How Many Poor People Could Elon’s Trillion Lift Out Of Poverty?",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=25790",
-          "author": "Ian Welsh",
-          "description": "This is elevated from comments, by Purple Library Guy. Picked up and posted on the front page because it’s a balanced assessment. No, Russia isn’t losing, and it’s interesting that so much Western media is suggesting it is. That said, Russia isn’t having everything its way either. – Ian As to the current war, Russia […]",
-          "link": "https://www.ianwelsh.net/russia-war-situation-a-possible-eu-russia-war/",
-          "publishedOn": "2026-06-29T13:38:29.000Z",
-          "wordCount": null,
-          "title": "Russia War Situation & A Possible EU/Russia War",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=25703",
-          "author": "Tony Wikrent",
-          "description": "Week-end Wrap – Political Economy – June 28, 2026 by Tony Wikrent   Trump administration begins mass layoffs at ODNI Drop Site Daily, June 23, 2026 The Trump administration has begun mass layoffs at the Office of the Director of National Intelligence, with hundreds of employees expected to lose their jobs, CNN reported Monday. Acting ODNI Director Bill […]",
-          "link": "https://www.ianwelsh.net/week-end-wrap-political-economy-june-28-2026/",
-          "publishedOn": "2026-06-28T18:35:15.000Z",
-          "wordCount": null,
-          "title": "Week-end Wrap – Political Economy – June 28, 2026",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=25775",
-          "author": "Ian Welsh",
-          "description": "Use to discuss topics unrelated to recent posts.",
-          "link": "https://www.ianwelsh.net/open-thread-344/",
-          "publishedOn": "2026-06-27T20:30:10.000Z",
-          "wordCount": null,
-          "title": "Open Thread",
-          "imageUrl": null
         }
       ]
     },
@@ -579,101 +487,101 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161703",
-          "author": "Paul Campos",
-          "description": "When I was a fifteen-year-old cellist of negligible talents I was part of the orchestra at Kalamazoo Michigan’s Loy Norrix High School. (Side note: just before the 2020 election the NYT did a story on graduates of my high school from my sister’s time there — she is six and a half years younger than […]\nThe post After all it was a great big world appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/after-all-it-was-a-great-big-world",
-          "publishedOn": "2026-07-03T13:25:58.000Z",
-          "wordCount": null,
-          "title": "After all it was a great big world",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161688",
-          "author": "Robert Farley",
-          "description": "US officials are leaking that Israel plotted to kill the Iranian negotiators: U.S. officials believed that Israel might have been plotting to kill Iran’s top negotiators while Washington was engaged with Tehran in delicate talks this spring to reach an interim peace deal, according to current and former American officials. Killing senior Iranian leaders had […]\nThe post With Friends Like These… appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/with-friends-like-these-4",
-          "publishedOn": "2026-07-03T03:16:29.000Z",
-          "wordCount": null,
-          "title": "With Friends Like These…",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161684",
-          "author": "Paul Campos",
-          "description": "Any Democratic administration worth voting for needs to put Jeanine Pirro in prison for a long, long time — along with a whole lot of of other people. This is straight-up Soviet-era stuff: David Hearn, a three-time US Olympian and canoeist, has been indicted by a grand jury in Washington DC after Donald Trump blamed vandals for […]\nThe post American Olympic athlete charged with felony for picking up a piece of lining floating in Trump’s catastrophic remodel of Reflecting Pool appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/american-olympic-athlete-charged-with-felony-for-picking-up-a-piece-of-lining-floating-in-trumps-catastrophic-remodel-of-reflecting-pool",
-          "publishedOn": "2026-07-03T02:45:08.000Z",
-          "wordCount": null,
-          "title": "American Olympic athlete charged with felony for picking up a piece of lining floating in Trump’s catastrophic remodel of Reflecting Pool",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161681",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161781",
           "author": "Scott Lemieux",
-          "description": "While the reality TV version of Donald Trump would have put on the best semiquincentennial celebration ever, the real one is putting on a combination of banal partisan rally and D- underfunded county fair: I stopped by the Great American State Fair on Tuesday. The website listed the day’s theme as “Innovation, Technology & Progress.” […]\nThe post Trump ruins everything appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/trump-ruins-everything",
-          "publishedOn": "2026-07-02T22:48:05.000Z",
+          "description": "10 years ago today now: “It is hard to think of another single event in the last decade that has had such far-reaching and sweeping and unintended global consequences as Jim Comey’s press conference.” www.nbcnews.com/politics/jus… [image or embed] — Ryan J. Reilly “paints a vivid and urgent portrait of… disarray” (@ryanjreilly.com) 9:17 AM · Jul […]\nThe post The day James Comey blew up the world appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-day-james-comey-blew-up-the-world",
+          "publishedOn": "2026-07-06T01:30:03.000Z",
           "wordCount": null,
-          "title": "Trump ruins everything",
+          "title": "The day James Comey blew up the world",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161678",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161776",
           "author": "Scott Lemieux",
-          "description": "Elon Musk and his apologists are getting upset by people pointing out that his illegal destruction of USAID had resulted in the avoidable deaths of countless people in exchange for no benefits whatsoever. Always both a maximalist and a liar, he’s claiming that no deaths at all have resulted from his termination of extremely cost-effective […]\nThe post Elon, Elon, what a killer appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/elon-elon-what-a-killer",
-          "publishedOn": "2026-07-02T20:20:14.000Z",
+          "description": "In addition to a general World Cup open thread, I assume people will want to discuss this: Folarin Balogun will be available to play the USMNT’s World Cup round-of-16 match against Belgium after his one-game red-card ban was suspended, FIFA has confirmed. The 25-year-old striker received a straight red card against Bosnia and Herzegovina on Wednesday […]\nThe post FIFA suspends Balogan suspension appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/fifa-suspends-balogan-suspension",
+          "publishedOn": "2026-07-05T19:17:24.000Z",
           "wordCount": null,
-          "title": "Elon, Elon, what a killer",
+          "title": "FIFA suspends Balogan suspension",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161674",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161772",
+          "author": "Paul Campos",
+          "description": "Donald Trump is now talking a lot about “godless communism,” and by “godless communism” he means “illegal aliens,” and by “illegal aliens” he means “Democrats,” and by “Democrats” he means ultimately what his distinguished predecessors referred to as “the Jewish-Bolshevik bacillus.” I highly recommend this NYRB essay by the historian Omer Bartov about how, in […]\nThe post The return of Judeo-Bolshevism appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-return-of-judeo-bolshevism",
+          "publishedOn": "2026-07-05T13:45:17.000Z",
+          "wordCount": null,
+          "title": "The return of Judeo-Bolshevism",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161603",
           "author": "Erik Loomis",
-          "description": "The Times is trying to gin up interest in the nation’s 250th anniversary, largely unsuccessfully because basically no one cares, regardless of political position. No one really finds much to celebrate about the United States, very much including myself. We can talk about that and maybe we should do that. But one thing the Times […]\nThe post The Most American of Films appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-most-american-of-films",
-          "publishedOn": "2026-07-02T19:02:44.000Z",
+          "description": "This is the grave of Raul Alfonsín. Born in 1923 in Chascomús, a small town a few hours south of Buenos Aires today, Alfonsín did not grow up in the Argentine elite. His parents ran a shop, They were upwardly mobile, but for the elite centered around Buenos Aires and the big ranches, his family […]\nThe post Erik Visits a (Latin) American Grave, Part 2,176 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/erik-visits-a-latin-american-grave-part-2176",
+          "publishedOn": "2026-07-05T11:00:00.000Z",
           "wordCount": null,
-          "title": "The Most American of Films",
+          "title": "Erik Visits a (Latin) American Grave, Part 2,176",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161671",
-          "author": "Cheryl Rofer",
-          "description": "We see the attacks on immigrants. We see and hear Stephen Miller’s vile thoughts on them. There are also some very good economic and population studies available. But it occurred to me yesterday that we hardly ever see anyone just saying, from their personal experience, that immigrants are good, actually. So I did something about […]\nThe post Immigrants Are Good, Actually appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/immigrants-are-good-actually",
-          "publishedOn": "2026-07-02T17:17:26.000Z",
-          "wordCount": null,
-          "title": "Immigrants Are Good, Actually",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161659",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161766",
           "author": "Paul Campos",
-          "description": "I’m a big admirer Stephanie Coontz’s work, and I’m working off a paraphrase of it here (gift link) for which she isn’t responsible of course, but I do want to point to a kind of loosey-goosey statistical exaggeration that you see a lot of in regard to the issue of the cost of housing, and […]\nThe post Is housing really three times more expensive relative to family income than it was in the early 1960s? appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/is-housing-really-three-times-more-expensive-relative-to-family-income-than-it-was-in-the-early-1960s",
-          "publishedOn": "2026-07-02T15:47:14.000Z",
+          "description": "Federal officials ordered thousands of people to evacuate the National Mall in Washington on Saturday night ahead of a presidential speech and fireworks display to celebrate the nation’s 250th birthday. Crowds were told to seek shelter as a line of severe storms approached the city. Park Police and other law enforcement officers started urging people […]\nThe post A metaphor for something or the other appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/a-metaphor-for-something-or-the-other",
+          "publishedOn": "2026-07-05T01:31:49.000Z",
           "wordCount": null,
-          "title": "Is housing really three times more expensive relative to family income than it was in the early 1960s?",
+          "title": "A metaphor for something or the other",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161652",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161760",
           "author": "Scott Lemieux",
-          "description": "Tina Peters’s ostentatious lack of remorse hasn’t stopped Polis from tripling down in the handjob he personally delivered to Donald Trump: Gov. Jared Polis of Colorado on Wednesday fired two members of his clemency board after they spoke out against his decision to commute the prison sentence of the election denier Tina Peters. The board […]\nThe post What the fuck is wrong with Jared Polis? appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/what-the-fuck-is-wrong-with-jared-polis",
-          "publishedOn": "2026-07-02T12:54:00.000Z",
+          "description": "“Little Glengarry Highlands for you and…well, not me, actually:’ An up-to-date tally of Trump followers turned crypto investors is in. And for them, the overall results are remarkably bad. Nearly 1 million people who bought President Trump’s memecoin have lost money through the end of June, according to a report by the cryptocurrency analytics firm […]\nThe post Ain’t that America appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/aint-that-america-9",
+          "publishedOn": "2026-07-04T19:56:43.000Z",
           "wordCount": null,
-          "title": "What the fuck is wrong with Jared Polis?",
+          "title": "Ain’t that America",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161757",
+          "author": "Erik Loomis",
+          "description": "While Farley continues to pretend that the U.S. has values worth defending through his cultural choices (my July 4 viewing choices if I wasn’t in Chile would be The Birth of a Nation, The Searchers, and There Will Be Blood for the trifecta of white supremacy, settler colonialism, and rapacious capitalism, the three foundational ideologies […]\nThe post Debs and July 4 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/debs-and-july-4",
+          "publishedOn": "2026-07-04T18:48:26.000Z",
+          "wordCount": null,
+          "title": "Debs and July 4",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161752",
+          "author": "Robert Farley",
+          "description": "Unlike Loomis, I’m not going to celebrate the founding of the country by watching Birth of the Nation. Here’s my slate: Have a Happy Fourth of July, everyone! Fun intellectual exercise: Imagine watching all four of these in the company of John Adams and Thomas Jefferson. I honestly doubt they’d make it through Hamilton.\nThe post The July 4 Cinematic Journey appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-july-4-cinematic-journey",
+          "publishedOn": "2026-07-04T17:51:22.000Z",
+          "wordCount": null,
+          "title": "The July 4 Cinematic Journey",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161750",
+          "author": "Cheryl Rofer",
+          "description": "Happy Fourth of July! I’m skipping the usual format for the holiday. But the rules are the same – no dooming and hypotheticals, post pictures of your pets and parades and barbecues. In Congress, July 4, 1776 The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes […]\nThe post Week 13,044 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/week-13044",
+          "publishedOn": "2026-07-04T16:31:25.000Z",
+          "wordCount": null,
+          "title": "Week 13,044",
           "itunes": {},
           "imageUrl": null
         }
@@ -684,6 +592,116 @@
       "feedUrl": "https://feeds.feedburner.com/Hzoh",
       "siteUrl": "https://angrybearblog.com/",
       "articles": [
+        {
+          "id": "https://angrybearblog.com/?p=191013",
+          "author": "Angry Bear",
+          "description": "I read Michael Klein’s (executive editor of EconoFact) conversation with Roger Lowenstein on the role of government in the economy. It is not terribly long. Maybe 10-15 minutes in listening and a bit longer in reading for me. I like to read as I dwell on what I read. Then I will go back and […]\nThe post Podcast or Read? “Abraham Lincoln and the Role of Government in the Economy” appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/podcast-or-read-abraham-lincoln-and-the-role-of-government-in-the-economy",
+          "publishedOn": "2026-07-05T18:02:16.000Z",
+          "wordCount": null,
+          "title": "Podcast or Read? “Abraham Lincoln and the Role of Government in the Economy”",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=190995",
+          "author": "Bill Haskell",
+          "description": "As you read Paul Krugman’s commentary on the Slaughter decision by SCOTUS, it is not that hard to understand why he is concerned about the results of the SCOTUS decision. I typically might say (in a normal situation) we could expect a president given this power would decide in a manner benefiting citizens. Not this […]\nThe post The Stench of Corruption and Dictator-worship is Over-powering. appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/the-stench-of-corruption-and-dictator-worship-is-over-powering",
+          "publishedOn": "2026-07-05T12:35:00.000Z",
+          "wordCount": null,
+          "title": "The Stench of Corruption and Dictator-worship is Over-powering.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=190985",
+          "author": "NewDealdemocrat",
+          "description": "Weekly Indicators: Still Strong Spending, Tepid Tax Payments Two cross-currents I mentioned in my long piece Friday were very much in evidence in the high frequency data this week: huge gains in aggregate YoY consumer spending, and very weak withholding tax collections. My take on this is that the top end of the income distribution […]\nThe post New Deal democrat’s Weekly Indicators: Simply Stellar Consumer Spending June 29 – July 4 appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/new-deal-democrats-weekly-indicators-simply-stellar-consumer-spending-june-29-july-4",
+          "publishedOn": "2026-07-05T12:00:00.000Z",
+          "wordCount": null,
+          "title": "New Deal democrat’s Weekly Indicators: Simply Stellar Consumer Spending June 29 – July 4",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=190982",
+          "author": "Joel Eissenberg",
+          "description": "Nearly three decades ago, I created a course for first year medical students called “Molecular Biology and Genetics.” Together with a clinical faculty, I co-directed the course for 22 years. There’s a piece over at Medpage about “niche careers” in medicine. Here’s one: “7. Medical Genetics and GenomicsMedical geneticists diagnose and manage hereditary conditions, using […]\nThe post The future of medical genetics appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/the-future-of-medical-genetics",
+          "publishedOn": "2026-07-05T08:43:29.000Z",
+          "wordCount": null,
+          "title": "The future of medical genetics",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=190912",
+          "author": "Angry Bear",
+          "description": "This is a long commentary. However, it is very detailed. Charles Gaba explains the impact of Republicans allowing the enhanced federal tax credits to expire as well as other Trump Regime policy changes. Quite a few middle and low citizens dropped healthcare policies or took lower costs due to affordability. “How much more are ACA enrollees *really* […]\nThe post GOP and Trump Policies Increase ACA Insurance Costs appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/gop-and-trump-policies-increase-aca-insurance-costs",
+          "publishedOn": "2026-07-04T13:15:00.000Z",
+          "wordCount": null,
+          "title": "GOP and Trump Policies Increase ACA Insurance Costs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=190962",
+          "author": "Bill Haskell",
+          "description": "Kroger is looking to acquire Giant Eagle at ~1.7 billion. So far the FTC has not made a peep. The franchise can be found in Ohio, western Pennsylvania, West Virginia, Maryland and Indiana. “Kroger is again Looking to Acquire Other Supermarket Chains” Is a Merger and Acquisition (M&A) Strategy good for Kroger? Probably as it […]\nThe post After the Attempted Albertson’s Merger appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/after-the-attempted-albertsons-merger",
+          "publishedOn": "2026-07-04T12:30:00.000Z",
+          "wordCount": null,
+          "title": "After the Attempted Albertson’s Merger",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=190957",
+          "author": "NewDealdemocrat",
+          "description": "– by New Deal democrat Earlier this week I promised an updated Big Picture forecast and nowcast for the US economy, plus a note about how broad or narrow was the participation.  Most commentators either have a financial or ideological agenda – getting you to buy their stock recommendations, or selling you on DOOOM, cherry […]\nThe post My Big Picture nowcast and forecast at mid-year 2026 (it may surprise you!) appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/my-big-picture-nowcast-and-forecast-at-mid-year-2026-it-may-surprise-you",
+          "publishedOn": "2026-07-04T12:00:00.000Z",
+          "wordCount": null,
+          "title": "My Big Picture nowcast and forecast at mid-year 2026 (it may surprise you!)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=190946",
+          "author": "Joel Eissenberg",
+          "description": "“I don’t know a soul who’s not been batteredI don’t have a friend who feels at easeI don’t know a dream that’s not been shatteredOr driven to its kneesOh, but it’s all right, it’s all rightFor lived so well so longStill, when I think of the roadWe’re traveling onI wonder what went wrongI can’t help […]\nThe post Happy July 4th, Bears! appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/happy-july-4th-bears",
+          "publishedOn": "2026-07-04T08:49:12.000Z",
+          "wordCount": null,
+          "title": "Happy July 4th, Bears!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=190965",
+          "author": "Bill Haskell",
+          "description": "Every Once and A while someone says “I bet” if you compare this with that instead of today’s numbers you would find that such and such was different. Like such and such would have happened also. The occasion has arisen. One of Angry Bear’s readers and also a commenter has tossed down the gauntlet. He […]\nThe post Did Trump have more Votes than Biden? appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/did-trump-have-more-votes-than-biden",
+          "publishedOn": "2026-07-03T22:33:05.000Z",
+          "wordCount": null,
+          "title": "Did Trump have more Votes than Biden?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=190937",
+          "author": "Angry Bear",
+          "description": "All three of mine had student loans which they were capable of repaying. At the same time, we pitched in to pay for them off too. Student loan are like dead weight. They are with you until death. On the other side of the spectrum, there are many other examples of business entities being granted […]\nThe post Income Driven Student Loan Repayments appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/income-driven-student-loan-repayments",
+          "publishedOn": "2026-07-03T14:17:08.000Z",
+          "wordCount": null,
+          "title": "Income Driven Student Loan Repayments",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=190951",
+          "author": "Angry Bear",
+          "description": "I do read Dan Zetland’s site the One-Handed Economist from time to time. He does post interesting commentaries which Angry Bear reposts. This happens to be one of the ones I find to be interesting. Soft money versus hard money? What are the differences between either and especially when it comes to physical labor? From […]\nThe post Academic Ideas to Working Policies Differences in the Public Sector appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/academic-ideas-to-working-policies-differences-in-the-public-sector",
+          "publishedOn": "2026-07-03T12:00:00.000Z",
+          "wordCount": null,
+          "title": "Academic Ideas to Working Policies Differences in the Public Sector",
+          "imageUrl": null
+        },
         {
           "id": "https://angrybearblog.com/?p=190911",
           "author": "Joel Eissenberg",
@@ -822,156 +840,6 @@
           "publishedOn": "2026-06-30T03:55:00.000Z",
           "wordCount": null,
           "title": "Re-examining the long leading indicators: the effects of fiscal and commodity price shocks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190802",
-          "author": "Bill Haskell",
-          "description": "This continues to be a nightmare day after day. None of the three forementioned know what they are doing in the positions they have been voted into or appointed. For sure Trump knows nothing about how to be a president and represent the nation. Then there is Pete and Robert. Would Ship of Fools be […]\nThe post Hegseth and Kennedy at the Helm While Trump Lies appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/hegseth-and-kennedy-at-the-helm-while-trump-lies",
-          "publishedOn": "2026-06-29T16:01:00.000Z",
-          "wordCount": null,
-          "title": "Hegseth and Kennedy at the Helm While Trump Lies",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190800",
-          "author": "Angry Bear",
-          "description": "“A court blocked Trump’s attack on mail voting. But voting advocates aren’t celebrating yet,” Save the Post Office Taking from “Save The Post Office,” Presented by long time acquaintance Steve Hutkins and formerly Mark Jamison. Democracy Docket: President Donald Trump’s attempt to attack mail voting and build a national voter registration list took a major […]\nThe post Courts Block Trump Attack on Mail-in Voting appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/courts-block-trump-attack-on-mail-in-voting",
-          "publishedOn": "2026-06-29T12:40:00.000Z",
-          "wordCount": null,
-          "title": "Courts Block Trump Attack on Mail-in Voting",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190796",
-          "author": "Angry Bear",
-          "description": "Tweedle-di and Tweedle-Dum (Oz and Kennedy) believe you do and of course they will say illegals were applying for ACA healthcare insurance in the past. (All lies and jest, but a man is what he wants to be and disregards the rest.) Oops. slipped back to the past in my Wayback Machine mind. Trump believes […]\nThe post Do You Need a SS Number to get ACA Healthcare Insurance? appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/do-you-need-a-ss-number-to-get-aca-healthcare-insurance",
-          "publishedOn": "2026-06-29T12:00:00.000Z",
-          "wordCount": null,
-          "title": "Do You Need a SS Number to get ACA Healthcare Insurance?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190787",
-          "author": "Joel Eissenberg",
-          "description": "Ford increasingly relied on AI-driven inspection systems to streamline production and address quality control issues. How’d that work out? “Ford has admitted to rehiring hundreds of human workers after its aggressive AI adoption strategy backfired. “The US automaker hired over 350 veteran engineers, referred to internally as “gray beards”, over the past three years in […]\nThe post At Ford, AI wasn’t ready for prime time appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/at-ford-ai-wasnt-ready-for-prime-time",
-          "publishedOn": "2026-06-29T09:20:29.000Z",
-          "wordCount": null,
-          "title": "At Ford, AI wasn’t ready for prime time",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190809",
-          "author": "NewDealdemocrat",
-          "description": "Unsurprisingly, the most significant high frequency indicator of the week was the 10% YoY increase in consumer spending as measured by Redbook. Despite all of the chaos and own-goals emanating out of Washington, the economy is incredibly resilient. II continue to worry that nearly the only driving force is what looks like a Bubble in […]\nThe post New Deal democrat’s Weekly Indicators: Simply Stellar Consumer Spending June 21 -June 27 appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/new-deal-democrats-weekly-indicators-simply-stellar-consumer-spending-june-21-june-27",
-          "publishedOn": "2026-06-29T05:30:00.000Z",
-          "wordCount": null,
-          "title": "New Deal democrat’s Weekly Indicators: Simply Stellar Consumer Spending June 21 -June 27",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190789",
-          "author": "Angry Bear",
-          "description": "I am probably the only one on Angry Bear who has spent time in Cuba at GITMO Naval Base and with 8th Marines. Talked to a few Cubans there. At 21, there was not too much I could say to them over a beer. Just listen to what they had to say. Long time ago. […]\nThe post Review by David Zetland “Our Man in Havana” appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/review-by-david-zetland-our-man-in-havana",
-          "publishedOn": "2026-06-28T16:13:40.000Z",
-          "wordCount": null,
-          "title": "Review by David Zetland “Our Man in Havana”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190777",
-          "author": "Angry Bear",
-          "description": "There is justice protocol for most all American Citizens which is strictly followed. Then there is a justice protocol for those American Citizens who are politically entitled and are not held liable for their actions as most cmmon citizens are held too. I would not try what he did as I would be held responsible. […]\nThe post “the most heinous act in which a democratic government can engage is to use its law enforcement machinery for political ends.” appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/the-most-heinous-act-in-which-a-democratic-government-can-engage-is-to-use-its-law-enforcement-machinery-for-political-ends",
-          "publishedOn": "2026-06-28T12:40:00.000Z",
-          "wordCount": null,
-          "title": "“the most heinous act in which a democratic government can engage is to use its law enforcement machinery for political ends.”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190772",
-          "author": "Angry Bear",
-          "description": "Yes Social Security is running out of funds. It is expected that by 2032 there will be a shortfall. I am not sure why they have to cut Social Security if it is shy funds from actual input by workers. There are solutions to the shortfall. The other side of it is to do nothing […]\nThe post More of a Warning than an Actual Event appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/more-of-a-warning-than-an-actual-event",
-          "publishedOn": "2026-06-28T12:00:00.000Z",
-          "wordCount": null,
-          "title": "More of a Warning than an Actual Event",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190763",
-          "author": "Joel Eissenberg",
-          "description": "Apparently, the Supreme Court has decided that what the Constitution *really meant* all along was “disclosure for thee, but not for the VIPs with checkbooks the size of small nations.” Because despite decades of rulings affirming that states can, in fact, require donor transparency to keep democracy from smelling like week old fish, the Court […]\nThe post Quote of the day appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/quote-of-the-day-11",
-          "publishedOn": "2026-06-28T09:33:25.000Z",
-          "wordCount": null,
-          "title": "Quote of the day",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190767",
-          "author": "Angry Bear",
-          "description": "“Trump’s war in Iran has wiped out 1.5 years of wage growth,” Economic Policy Institute The Trump administration’s decision to start a war with Iran has imposed disastrous costs (both economic and humanitarian) around the world. The U.S. has been insulated from these costs more so than most other countries. Yet, even here the costs […]\nThe post Costs of a Needless War Has an Economic Impact on Citizens appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/costs-of-a-needless-war-has-an-economic-impact-on-citizens",
-          "publishedOn": "2026-06-27T18:28:08.000Z",
-          "wordCount": null,
-          "title": "Costs of a Needless War Has an Economic Impact on Citizens",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190757",
-          "author": "NewDealdemocrat",
-          "description": "– by New Deal democrat Yesterday we saw a slew of data releases, including durable and core capital goods orders, jobless claims, personal income and spending, and motor vehicle sales. I reported on all but personal spending and motor vehicle sales yesterday. Today let’s take a look at the last two. Let me start with the […]\nThe post Real personal spending on durable goods rebounds from near recessionary levels, including motor vehicle purchases appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/real-personal-spending-on-durable-goods-rebounds-from-near-recessionary-levels-including-motor-vehicle-purchases",
-          "publishedOn": "2026-06-27T13:15:00.000Z",
-          "wordCount": null,
-          "title": "Real personal spending on durable goods rebounds from near recessionary levels, including motor vehicle purchases",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190504",
-          "author": "Angry Bear",
-          "description": "When I go searching for in Google, I look for multiples of citations of similar commentaries. Not that I want to quote them all. I am more interested in getting the story or article correct and/or the same as the author does. I may at times talk to an author just to have an accurate […]\nThe post Do We Really Need AI to Search the Web? appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/do-we-really-need-ai-to-search-the-web",
-          "publishedOn": "2026-06-27T12:40:00.000Z",
-          "wordCount": null,
-          "title": "Do We Really Need AI to Search the Web?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190761",
-          "author": "Joel Eissenberg",
-          "description": "The American right uses the words “socialist,” “communist” and “Marxist” as epithets, not according to their actual definitions.\nThe post capitalism vs socialism appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/capitalism-vs-socialism",
-          "publishedOn": "2026-06-27T12:15:49.000Z",
-          "wordCount": null,
-          "title": "capitalism vs socialism",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190744",
-          "author": "Angry Bear",
-          "description": "“Breaking: HHS report admits Trump/GOP policy had already thrown 2.6M off the ACA cliff as of FEBRUARY, 2026, ACA Signups, Charles Gaba. Some Explanation . . . Some Guy, January 2026: So, what does this mean for monthly effectuated enrollment this year? Well, it’s pretty safe to say that it’s not going to look anything like […]\nThe post HHS report admits Trump/GOP policy had already thrown 2.6M off the ACA cliff appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/hhs-report-admits-trump-gop-policy-had-already-thrown-2-6m-off-the-aca-cliff",
-          "publishedOn": "2026-06-27T12:00:00.000Z",
-          "wordCount": null,
-          "title": "HHS report admits Trump/GOP policy had already thrown 2.6M off the ACA cliff",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190735",
-          "author": "Joel Eissenberg",
-          "description": "The question I get most often when speaking about Watergate is a version of “what would happen if Watergate happened today with Fox News?” And my answer is always very simple: Nixon would have survived. Not because he didn’t deserve to be forced from office, or because there was a Deep State campaign against him, […]\nThe post Quote of the day appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/06/quote-of-the-day-10",
-          "publishedOn": "2026-06-27T09:08:30.000Z",
-          "wordCount": null,
-          "title": "Quote of the day",
           "imageUrl": null
         }
       ]
