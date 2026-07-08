@@ -30,36 +30,6 @@
           "wordCount": 32627,
           "title": "Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/07/01/image-14.png"
-        },
-        {
-          "id": "e1fe2965259df670bd55dc1185e2f5c257298d4c",
-          "author": "Channy Yun (윤석찬)",
-          "description": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no additional cost.",
-          "link": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
-          "publishedOn": "2026-06-30T21:30:33.000Z",
-          "wordCount": 32547,
-          "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/29/aws-cloudformation-express-2.jpg"
-        },
-        {
-          "id": "d668a838bb33c15b4742302284561effb3be54a0",
-          "author": "Sébastien Stormacq",
-          "description": "Amazon EC2 C9g and C9gd instances, powered by AWS Graviton5, are now generally available. They deliver up to 25% better compute performance than Graviton4-based instances, 5x larger cache, fastest memory of any processor instances in the cloud, and local NVMe storage options (C9gd).",
-          "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available/",
-          "publishedOn": "2026-06-30T20:56:44.000Z",
-          "wordCount": 32844,
-          "title": "Amazon EC2 C9g and C9gd instances powered by AWS Graviton5 processors are now available",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2025/10/07/EC2-F2b.png"
-        },
-        {
-          "id": "eecd301bc56dd721583bbbd8024097ca3ad82fd6",
-          "author": "Sébastien Stormacq",
-          "description": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance, IAM-based access controls, and domain scoping, reducing operational risk as certificate lifetimes continue to reduce.",
-          "link": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
-          "publishedOn": "2026-06-30T20:15:11.000Z",
-          "wordCount": 33196,
-          "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/15/Cert-Mgr-feat-img.png"
         }
       ]
     },
@@ -67,7 +37,18 @@
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
-      "articles": []
+      "articles": [
+        {
+          "id": "23f64103d7883c302cd093107cc54367ad330819",
+          "author": "Nishanth Charlakola",
+          "description": "In this post, we explain how S&P Global Market Intelligence implemented an innovative disaster recovery solution for their Capital IQ platform using Amazon FSx for NetApp ONTAP. This solution enables immediate failover to read-only mode in a secondary region within 15 minutes, followed by full read-write recovery when needed. This approach achieves reduction in failover time while maintaining data consistency for global financial operations.",
+          "link": "https://aws.amazon.com/blogs/architecture/sp-globals-innovative-disaster-recovery-strategy-using-amazon-fsx-for-netapp-ontap-snapshots/",
+          "publishedOn": "2026-07-07T16:32:21.000Z",
+          "wordCount": 33520,
+          "title": "S&P Global’s innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/06/26/archblog-1222-image-1-1260x515.jpeg"
+        }
+      ]
     },
     {
       "title": "The latest from GitHub's engineering team - The GitHub Blog",
@@ -89,16 +70,6 @@
           "wordCount": 32953,
           "title": "How CloudFormation express mode accelerates your development cycle",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/07/03/How-CloudFormation-express-mode-accelerates-your-development-cycle-1122x630.png"
-        },
-        {
-          "id": "9c8bc899dfbc40be67bde995063f37450516cfa3",
-          "author": "Idriss Laouali Abdou",
-          "description": "AWS CloudFormation helps you model and provision cloud infrastructure as code using JSON or YAML templates, or through tools like the AWS Cloud Development Kit (CDK). Whether you create stacks directly, use change sets for preview, or deploy through CI/CD pipelines and AI agents, fast feedback on template errors is critical to development velocity. Previously, […]",
-          "link": "https://aws.amazon.com/blogs/devops/ship-infrastructure-faster-with-cloudformation-and-cdk-pre-deployment-validation-on-every-stack-operation/",
-          "publishedOn": "2026-06-30T22:36:21.000Z",
-          "wordCount": 33984,
-          "title": "Ship infrastructure faster with CloudFormation and CDK pre-deployment validation on every stack operation",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/07/01/Ship-infrastructure-faster-with-CloudFormation-and-CDK-deployment-validation-1-1121x630.png"
         }
       ]
     },
@@ -114,12 +85,72 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=312827",
+          "author": "Haig Hovaness",
+          "description": "Military reconnaissance satellites have become indispensable instruments of national security, yet they remain overwhelmingly dedicated to advancing competing national interests. This article argues that the same technological revolution could instead become the foundation of a new international institution: independently governed Peace Satellites that generate trusted public evidence for diplomacy, arms control, humanitarian response, and conflict prevention.",
+          "link": "https://www.nakedcapitalism.com/2026/07/coffee-break-armed-madhouse-from-spy-satellites-to-peace-satellites.html",
+          "publishedOn": "2026-07-07T18:00:58.000Z",
+          "wordCount": 6960,
+          "title": "Coffee Break: Armed Madhouse – From Spy Satellites to Peace Satellites",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Evolution-of-strategic-observation.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312880",
+          "author": "Yves Smith",
+          "description": "A look at the mechanisms by which poor housing affordability hurts the European public.",
+          "link": "https://www.nakedcapitalism.com/2026/07/how-the-lack-of-housing-affordability-harms-europes-citizens.html",
+          "publishedOn": "2026-07-07T13:55:24.000Z",
+          "wordCount": 4405,
+          "title": "How the Lack of Housing Affordability Harms Europe’s Citizens",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/00-housing-affordability-.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312764",
+          "author": "Yves Smith",
+          "description": "Our blue dailly links: shop cats, moar extreme weather, NATO freakout as Russia pounds Ukraine, EU LNG shortage? Germany v. AfD, India typhoid, Cuba grid fail, EU digitgal passport, JD Vance Trump diss, AI debt worries, BNPL as crisis trigger? Saylor sells Bitcoin, Communism bennies",
+          "link": "https://www.nakedcapitalism.com/2026/07/links-7-7-2026.html",
+          "publishedOn": "2026-07-07T10:59:47.000Z",
+          "wordCount": 12399,
+          "title": "Links 7/7/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-07-at-1.13.50 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312853",
+          "author": "Yves Smith",
+          "description": "Today's Iran war news: Why the conflict is set to become more acute, with mid-August a potential crisis window.",
+          "link": "https://www.nakedcapitalism.com/2026/07/iran-war-expected-hardening-of-iran-posture-in-wake-of-funerals-for-us-israel-war-martyrs-iran-hits-two-tankers-transiting-on-oman-side-china-buying-non-iran-gulf-state-oil-opposes-iran-control-pl.html",
+          "publishedOn": "2026-07-07T10:58:38.000Z",
+          "wordCount": 17302,
+          "title": "Iran War: Expected Hardening of Iran Posture in Wake of Funerals for US-Israel War Martyrs; Iran Hits Two Tankers Transiting on Oman Side; China Buying Non-Iran Gulf State Oil, Opposes Iran Control Plans; Yet More on Oil Price Anomalies as Crack Spreads Widen Further",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312806",
+          "author": "Nick Corbishley",
+          "description": "The US government's contempt for the international rule of law now even extends to the world of football.",
+          "link": "https://www.nakedcapitalism.com/2026/07/did-the-trump-administration-just-break-the-fifa-world-cup.html",
+          "publishedOn": "2026-07-07T10:45:23.000Z",
+          "wordCount": 8063,
+          "title": "The Day Trump and the Epstein Class Nearly Broke the FIFA World Cup",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=312847",
+          "author": "Yves Smith",
+          "description": "The power struggle over the Colorado River is a microcosm of coming water use fights which too often will feed wars.",
+          "link": "https://www.nakedcapitalism.com/2026/07/the-colorado-river-crisis-is-reaching-a-breaking-point.html",
+          "publishedOn": "2026-07-07T07:04:33.000Z",
+          "wordCount": 4850,
+          "title": "The Colorado River Crisis Is Reaching a Breaking Point",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=312803",
           "author": "Nat Wilson Turner",
           "description": "Mallory McMorrow has dropped out of the Michigan Democratic Senate primary, ending the Elizabeth Warren era of feckless faux-progressive policy ideas backed by idpol attacks against the left.",
           "link": "https://www.nakedcapitalism.com/2026/07/michigan-senate-primary-democrats-el-sayed-mcmorrow-stevens.html",
           "publishedOn": "2026-07-06T18:00:32.000Z",
-          "wordCount": 6212,
+          "wordCount": 7163,
           "title": "Coffee Break: The Fake Progressive Lane Closes in Michigan Senate Primary",
           "imageUrl": null
         },
@@ -129,7 +160,7 @@
           "description": "The rebound of forests in the northeast U.S. is the “greatest forest recovery in the history of the world.” This is how it happened.",
           "link": "https://www.nakedcapitalism.com/2026/07/the-spectacular-regrowth-of-new-englands-forests.html",
           "publishedOn": "2026-07-06T13:55:47.000Z",
-          "wordCount": 5184,
+          "wordCount": 5367,
           "title": "The Spectacular Regrowth of New England’s Forests",
           "imageUrl": null
         },
@@ -139,7 +170,7 @@
           "description": "Our daily links, including Europe inches closer to war, German strategic overconfidence, and wildfires, heatwaves, and severe storms ravage planet.",
           "link": "https://www.nakedcapitalism.com/2026/07/links-7-6-2026.html",
           "publishedOn": "2026-07-06T10:57:10.000Z",
-          "wordCount": 9996,
+          "wordCount": 10389,
           "title": "Links 7/6/2026",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/HLr20X3WkAAV9vT-e1783288649179.jpeg"
         },
@@ -149,69 +180,9 @@
           "description": "Can hypersociality  help reconcile obvious elite stupidity with top-down conspiracy theories?",
           "link": "https://www.nakedcapitalism.com/2026/07/the-hypersociality-hypothesis.html",
           "publishedOn": "2026-07-06T10:54:44.000Z",
-          "wordCount": 14139,
+          "wordCount": 16094,
           "title": "The Hypersociality Hypothesis",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312766",
-          "author": "Conor Gallagher",
-          "description": "Beijing’s new ethnic unity law extends country’s legal reach as attacks on Chinese infrastructure projects mount.",
-          "link": "https://www.nakedcapitalism.com/2026/07/is-the-u-s-preparing-to-ramp-up-the-dirty-wars-against-china.html",
-          "publishedOn": "2026-07-06T10:53:30.000Z",
-          "wordCount": 5916,
-          "title": "Is the U.S. Preparing to Ramp Up the Dirty Wars Against China?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312786",
-          "author": "Yves Smith",
-          "description": "Today's Iran war update: Why things are not as quiet as they might seem.",
-          "link": "https://www.nakedcapitalism.com/2026/07/iran-war-iran-stance-hardening-in-connection-with-funerals-for-supreme-leader-and-other-martyrs-strait-of-hormuz-dominance-struggle-continues-more-on-oil-price-anomalies.html",
-          "publishedOn": "2026-07-06T10:53:21.000Z",
-          "wordCount": 13826,
-          "title": "Iran War: Iran Stance Hardening in Connection with Funerals for Supreme Leader and Other Martyrs; Strait of Hormuz Dominance Struggle Continues; More on Oil Price Anomalies",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-06-at-4.44.34 PM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312755",
-          "author": "Haig Hovaness",
-          "description": "Our strategic daily links: U.S. 250th birthday, galactic mega-merger, climate inequality, Venezuela quake, Chinese vertical farming, Mideast horrors, Ukraine burning, vanishing privacy, Trumpishness, Musk world, hapless Democrats, immigration troubles, Mr. market, AI, and wretched excess",
-          "link": "https://www.nakedcapitalism.com/2026/07/links-7-5-2026.html",
-          "publishedOn": "2026-07-05T10:55:53.000Z",
-          "wordCount": 12064,
-          "title": "Links 7/5/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Puppies.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312456",
-          "author": "semper loquitur",
-          "description": "Into Great Silence is a movie about the contemplative life.",
-          "link": "https://www.nakedcapitalism.com/2026/07/the-sunday-morning-movie-presents-into-great-silence-2005-run-time-1h-6m-plus-bonuses.html",
-          "publishedOn": "2026-07-05T10:30:58.000Z",
-          "wordCount": 3242,
-          "title": "The Sunday Morning Movie Presents: Into Great Silence (2005) Run Time: 1H 6M Plus Bonuses!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312757",
-          "author": "Conor Gallagher",
-          "description": "The narrative of Ukraine success cracks under the weight of reality. What's next?",
-          "link": "https://www.nakedcapitalism.com/2026/07/russia-exposed-ukraines-new-three-pronged-infowar-campaign-about-the-battlefield.html",
-          "publishedOn": "2026-07-05T09:00:39.000Z",
-          "wordCount": 6504,
-          "title": "Russia Exposed Ukraine’s New Three-Pronged Infowar Campaign About The Battlefield",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=312727",
-          "author": "Yves Smith",
-          "description": "Our rattled daily links: Record sea temps, China real estate sinks. yen crisis? >1 million Gaza deaths, Yemen threatens Saudis. grocery price emergency, Trump corruption details, quant emergency? retail dip-buying frenzy, America 250 ignorance, Cuba blackouts, Russia restraint",
-          "link": "https://www.nakedcapitalism.com/2026/07/links-7-4-2026.html",
-          "publishedOn": "2026-07-04T10:55:19.000Z",
-          "wordCount": 14881,
-          "title": "Links 7/4/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-04-at-2.01.47 PM.png"
         }
       ]
     },
@@ -221,6 +192,16 @@
       "siteUrl": "https://blog.cloudflare.com",
       "articles": [
         {
+          "id": "3xHevpKOOM76zUSrlPcQno",
+          "author": "Katie Visser",
+          "description": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.",
+          "link": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
+          "publishedOn": "2026-07-07T13:00:00.000Z",
+          "wordCount": 2220,
+          "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
+          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3blTM2IpPeEQHN8GdMof4W/647b5c2ed683cc1b78f9ebdeb8ccdaf7/Cloudflare_proudly_joins_the_UK_government-s_Cyber_Resilience_Pledge-OG.png"
+        },
+        {
           "id": "1WYEYtVwQSo4H3jKHTcKmO",
           "author": "Dan Lapid",
           "description": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
@@ -229,56 +210,6 @@
           "wordCount": 5560,
           "title": "Your Worker can now have its own cache in front of it",
           "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6S1TZg4kL1049Rkw44RiIc/5adca4df8432fb3401517712f2b8d15f/Your_Worker_can_now_have_its_own_cache_in_front_of_it-OG.png"
-        },
-        {
-          "id": "6dNg0U03j4cnbacP8txDok",
-          "author": "Rohin Lohe",
-          "description": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, with no payments stack of your own to build.",
-          "link": "https://blog.cloudflare.com/monetization-gateway/",
-          "publishedOn": "2026-07-01T13:00:00.000Z",
-          "wordCount": 2453,
-          "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7wA6Z3Df13eeHZkxM3Fokt/088b64cd947100b70bd0e49c845fc984/Announcing_the_Monetization_Gateway-_charge_for_any_resource_behind_Cloudflare_via_x402-OG.png"
-        },
-        {
-          "id": "3qEwyKxigFNDK4JTlPfl8A",
-          "author": "Arielle Weiss",
-          "description": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals and detail the new infrastructure required to support a sustainable web economy.",
-          "link": "https://blog.cloudflare.com/agentic-internet-bot-report/",
-          "publishedOn": "2026-07-01T13:00:00.000Z",
-          "wordCount": 2994,
-          "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/5kBxooEvcEgm0X5plGZOE1/62575e0563c07033c10181f4d01197d0/Content_Independence_Day__one_year_on-_building_the_business_model_for_the_agentic_Internet-OG.png"
-        },
-        {
-          "id": "YqZRSH26JlDBUNvwASOr2",
-          "author": "Matthew Conroy",
-          "description": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
-          "link": "https://blog.cloudflare.com/making-ai-search-smarter/",
-          "publishedOn": "2026-07-01T13:00:00.000Z",
-          "wordCount": 2404,
-          "title": "Making AI search smarter",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2A9ejBpMURvmM6vDwgua8A/8d3da5a728f9890fcfb7888f1d74d813/BLOG-3339_OG.png"
-        },
-        {
-          "id": "FWKHybUFEZFSsFCrbEwAd",
-          "author": "Jin-Hee Lee",
-          "description": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
-          "link": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-          "publishedOn": "2026-07-01T13:00:00.000Z",
-          "wordCount": 3329,
-          "title": "Your site, your rules: new AI traffic options for all customers",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6WfuWZFkYwf6QwyYidzYdo/621c1bd35911a6aa5aaa0d6a3758da18/BLOG-3337_OG.png"
-        },
-        {
-          "id": "3wrqj94tEFsKCZ8OBUE52R",
-          "author": "Jin-Hee Lee",
-          "description": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation.",
-          "link": "https://blog.cloudflare.com/attribution-business-insights/",
-          "publishedOn": "2026-07-01T06:00:00.000Z",
-          "wordCount": 2073,
-          "title": "Unmasking the crawls with Attribution Business Insights",
-          "imageUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/HWnVQaB8mhaOrkIjX3hhE/8141497ddbe064af564b7126c2171bab/OG_Share_2024-2025-2026__41_.png"
         }
       ]
     },
@@ -364,6 +295,16 @@
       "siteUrl": "https://seroter.com",
       "articles": [
         {
+          "id": "http://seroter.com/?p=30584",
+          "author": "Richard Seroter",
+          "description": "Today's links look at how to help workers reskill, why you should write code instead of specs, and whether the PRD is dead.",
+          "link": "https://seroter.com/2026/07/07/daily-reading-list-july-7-2026-819/",
+          "publishedOn": "2026-07-08T00:03:49.000Z",
+          "wordCount": 4497,
+          "title": "Daily Reading List – July 7, 2026 (#819)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
           "id": "http://seroter.com/?p=30564",
           "author": "Richard Seroter",
           "description": "Today's links look at traits that set the best leaders apart, ten moments that defined AI's first half, and why we're seeing the twilight of the chatbot.",
@@ -379,7 +320,7 @@
           "description": "Today's links look at why experienced (engineering) managers get stuck, which vulnerabilities are most risky for MCP servers, and the do's/don'ts for LinkedIn posts.",
           "link": "https://seroter.com/2026/07/02/daily-reading-list-july-2-2026-817/",
           "publishedOn": "2026-07-02T21:44:51.000Z",
-          "wordCount": 4424,
+          "wordCount": 4432,
           "title": "Daily Reading List – July 2, 2026 (#817)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
@@ -392,16 +333,6 @@
           "wordCount": 4419,
           "title": "Daily Reading List – July 1, 2026 (#816)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=30500",
-          "author": "Richard Seroter",
-          "description": "Today's links look at how enterprises see the future of (AI) engineering, whether markdown is the application layer of AI apps, and how to think about agent memory.",
-          "link": "https://seroter.com/2026/06/30/daily-reading-list-june-30-2026-815/",
-          "publishedOn": "2026-06-30T23:15:48.000Z",
-          "wordCount": 4428,
-          "title": "Daily Reading List – June 30, 2026 (#815)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         }
       ]
     },
@@ -411,12 +342,32 @@
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
         {
+          "id": "https://news.mit.edu/2026/how-novice-coders-can-develop-ai-programs-for-military-applications-0707",
+          "author": "Haley Wahl | MIT Lincoln Laboratory",
+          "description": "A USAF cadet and a Lincoln Laboratory researcher found AI chatbots can help nontechnical service members produce viable software applications for their unique problems.",
+          "link": "https://news.mit.edu/2026/how-novice-coders-can-develop-ai-programs-for-military-applications-0707",
+          "publishedOn": "2026-07-07T17:25:00.000Z",
+          "wordCount": 1784,
+          "title": "How novice coders can develop AI programs for military applications",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202606/mit-lincoln-molding-ai.jpg"
+        },
+        {
+          "id": "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
+          "author": "Julia C. Keller | School of Science",
+          "description": "The professor of physics and inaugural director of the NSF AI Institute for Artificial Intelligence and Fundamental Interactions will lead LNS and continue his research in particle physics.",
+          "link": "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
+          "publishedOn": "2026-07-07T14:45:00.000Z",
+          "wordCount": 1335,
+          "title": "Jesse Thaler named director of the Laboratory for Nuclear Science",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202606/mit-physics-lns-thaler.jpg"
+        },
+        {
           "id": "https://news.mit.edu/2026/toward-future-preserves-benefits-neurotechnology-for-all-0706",
           "author": "Amanda Diehl | MIT Schwarzman College of Computing",
           "description": "PhD student Rachel Sava, winner of the Envisioning the Future of Computing Prize, explores transformative improvements and dystopian risks of neural technology.",
           "link": "https://news.mit.edu/2026/toward-future-preserves-benefits-neurotechnology-for-all-0706",
           "publishedOn": "2026-07-06T19:50:00.000Z",
-          "wordCount": 1637,
+          "wordCount": 1634,
           "title": "Toward a future that preserves benefits of neurotechnology for all",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202606/mit-SERC-Prize.JPG"
         },
@@ -426,7 +377,7 @@
           "description": "During a \"Washington Post Live\" panel discussion with ASU President Michael Crow, President Sally Kornbluth explored how universities are preparing the next generation of scientists to lead in America’s rapidly changing technological landscape.",
           "link": "https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america",
           "publishedOn": "2026-07-01T20:30:00.000Z",
-          "wordCount": 1793,
+          "wordCount": 1805,
           "title": "MIT in the media: Innovating and educating for the next 250 years of America",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202607/WP%20Live.png"
         }
@@ -450,9 +401,19 @@
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
         {
+          "id": "https://www.ianwelsh.net/?p=25882",
+          "author": "Ian Welsh",
+          "description": "So, Merz has announced that German workers will need a note from a doctor day one of calling in sick, and they must get that note in person: phone calls are no longer acceptable. All the usual garbage: uncompetitive, high costs for employers, blah, blah, blah. (This comes after raising the retirement age.) Here’s the […]",
+          "link": "https://www.ianwelsh.net/unintended-consequences-germany-sick-leave-edition/",
+          "publishedOn": "2026-07-07T13:30:15.000Z",
+          "wordCount": null,
+          "title": "Unintended Consequences: Germany Sick Leave Edition",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.ianwelsh.net/?p=25868",
           "author": "Ian Welsh",
-          "description": "Over at Interfluidity there’s a good post titled “Why Are Americans So Unhappy?” Part of the answer boils down to this graph: What this measures is what percentage of expenses of employees wages pay. You’ll notice it keeps going down. It peaked near 100% around 1968 and has been trending down since. It’s not under […]",
+          "description": "Over at Interfluidity there’s a good post titled “Why Are Americans So Unhappy?” Part of the answer boils down to this graph: What this measures is what percentage of expenses of employees wages pay. You’ll notice it keeps going down. It peaked near 100% around 1968 and has been trending down since. It’s now under […]",
           "link": "https://www.ianwelsh.net/most-us-jobs-wont-support-an-american-lifestyle/",
           "publishedOn": "2026-07-06T14:54:15.000Z",
           "wordCount": null,
@@ -498,16 +459,6 @@
           "wordCount": null,
           "title": "The Basic Elements of Meditation: Meditation As Exercise",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=25816",
-          "author": "Ian Welsh",
-          "description": "There’s book from the 2000’s called “The Management Myth” by Stewart on my bookshelf. It didn’t sell all that well, but it’s an important book because it explains what management science is really about. Stewart was a consultant, he reported from the belly of the beast. Here’s the short of it: while Economics is crap, […]",
-          "link": "https://www.ianwelsh.net/management-theory-mbas-are-two-thirds-about-non-competition/",
-          "publishedOn": "2026-07-01T13:30:04.000Z",
-          "wordCount": null,
-          "title": "Management Theory (MBAs) Are Two Thirds About Non-Competition",
-          "imageUrl": null
         }
       ]
     },
@@ -517,101 +468,101 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161821",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161850",
           "author": "Scott Lemieux",
-          "description": "This is not enough: Platner, an oyster farmer and combat veteran, faces Republican Sen. Susan Collins in a race that is crucial to Democrats’ uphill battle to retake the Senate. His anti-establishment message and promise to improve conditions for the working class powered his victory in the Democratic primary after Gov. Janet Mills (D) suspended […]\nThe post The time for reflection is over appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-time-for-reflection-is-over",
-          "publishedOn": "2026-07-07T04:11:48.000Z",
+          "description": "Catastrophic Senate candidate Graham Planter continues to refuse to drop out because he and his Beltway dipshit advisers think they’re entitled to handpick his replacement. The party’s response to this is exactly correct: Wow, this message from the Maine Democrats account on X. It sounds like Graham Platner is trying to stay actively involved in […]\nThe post Maine Democrats to the disastrous sex pest and the consultants who brought you John Fetterman: go away and let us try to beat Susan Collins appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/maine-democrats-to-the-disastrous-sex-pest-and-the-consultants-who-brought-you-john-fetterman-go-away-and-let-us-try-to-beat-susan-collins",
+          "publishedOn": "2026-07-08T02:01:36.000Z",
           "wordCount": null,
-          "title": "The time for reflection is over",
+          "title": "Maine Democrats to the disastrous sex pest and the consultants who brought you John Fetterman: go away and let us try to beat Susan Collins",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161797",
-          "author": "Robert Farley",
-          "description": "Odd that we’re playing one of the few countries as famous for their fried food as the United States! Team USA is a slight favorite, based largely on home field advantage and the corrupt influence of the sitting US President. As Paul noted the Mexico-England match was an all-time great, so let’s hope that the […]\nThe post USA-Belgium Open Thread appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/usa-belgium-open-thread",
-          "publishedOn": "2026-07-06T23:55:00.000Z",
-          "wordCount": null,
-          "title": "USA-Belgium Open Thread",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161819",
-          "author": "Robert Farley",
-          "description": "There’s a lot of commentary floating around to the effect that Senator McConnell is already dead and that his doctors are keeping his death a secret in order to a) prevent Governor Beshear from nominating or a replacement, or b) head off a special election that might give Thomas Massie the opportunity to take the […]\nThe post The Mitch Contingency appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-mitch-contingency",
-          "publishedOn": "2026-07-06T22:53:13.000Z",
-          "wordCount": null,
-          "title": "The Mitch Contingency",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161808",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161847",
           "author": "Scott Lemieux",
-          "description": "Graham Platner cancelled several appearances this week after being mostly absent from the airwaves during a long World Cup weekend in which Susan Collins very much was not, amid rumors that yet another shoe was going to drop. And here we go: A woman who dated Maine U.S. Senate candidate Graham Platner says he forced her to […]\nThe post Pod save Republican control of the Senate? appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/pod-save-republican-control-of-the-senate",
-          "publishedOn": "2026-07-06T20:07:12.000Z",
+          "description": "This was bound to happen sooner rather than later: A man who was shot in the head in his car on the south side of Springfield Sunday, July 5, appeared to have been on his way to church with his children, according to 911 calls. The man, 51, who is Haitian, is listed in critical […]\nThe post The wages of hate appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-wages-of-hate",
+          "publishedOn": "2026-07-08T00:25:53.000Z",
           "wordCount": null,
-          "title": "Pod save Republican control of the Senate?",
+          "title": "The wages of hate",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161803",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161843",
           "author": "Erik Loomis",
-          "description": "I don’t know much about soccer but I do know a lot about the morality of nations, or more often, their disgusting immorality. Obviously Spain and Portugal are relitigating the Treaty of Tordesillas here. And really Portugal got screwed by the line on the map drawn by Pope Alexander IV since almost all of the […]\nThe post World Cup Thread appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/world-cup-thread",
-          "publishedOn": "2026-07-06T18:50:06.000Z",
+          "description": "What has changed in the four years since the IOC kicked Russia out of international sports competitions over its illegal invasion of Ukraine? Absolutely nothing. So the IOC has decided (at least unofficialy) to just give in to Putin and let Russia compete again. The IOC advised Olympic sports bodies Tuesday to end a three-year […]\nThe post The IOC Peace Prize Goes to……Vladimir Putin! appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-ioc-peace-prize-goes-to-vladimir-putin",
+          "publishedOn": "2026-07-07T20:00:00.000Z",
+          "wordCount": null,
+          "title": "The IOC Peace Prize Goes to……Vladimir Putin!",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161840",
+          "author": "Scott Lemieux",
+          "description": "For the most part, Democratic primary voters have done a better job of avoiding sub-replacement-level cranks on the level of Todd Akin and Christine O’Donnell in competitive primary races. This may be one reason why too many people who should have known better convinced themselves to overlook the field of red flags surrounding Graham Platner, […]\nThe post The fallibility of the primary electorate appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-fallibility-of-the-primary-electorate",
+          "publishedOn": "2026-07-07T19:20:43.000Z",
+          "wordCount": null,
+          "title": "The fallibility of the primary electorate",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161837",
+          "author": "Dan Nexon",
+          "description": "On Tuesday, Iran attacked three tankers in the Straits of Hormuz. This is not the first time that “Tehran, which has repeatedly declared that only its approved route through the strait is safe, is suspected of attacking other ships that have used another route close to the Omani shore.” Iran also announced that it would […]\nThe post So Much Winning appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/so-much-winning-2",
+          "publishedOn": "2026-07-07T16:34:30.000Z",
+          "wordCount": null,
+          "title": "So Much Winning",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161815",
+          "author": "Erik Loomis",
+          "description": "I enjoyed that conversation yesterday around the World Cup so let’s see what we can glean from the horrors of history for today’s matchups. Argentina v. Egypt doesn’t exactly provide a lot of material since as far as I know, these two countries have no real history. You certainly can’t say anything positive about either […]\nThe post World Cup Thread appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/world-cup-thread-2",
+          "publishedOn": "2026-07-07T16:00:00.000Z",
           "wordCount": null,
           "title": "World Cup Thread",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161799",
-          "author": "Cheryl Rofer",
-          "description": "Donald Trump has decided that calling Democrats Communists is the next move. It may be spreading to other Republicans.. It’s in line with his having Roy Cohn, ally of Senator Joseph McCarthy, as a mentor. But that was a long time ago. The bad word in this category that Republicans have used more recently has […]\nThe post Commynists! appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/commynists",
-          "publishedOn": "2026-07-06T17:52:31.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161834",
+          "author": "Abigail Nussbaum",
+          "description": "Earlier this year, the literary and genre fiction communities were startled by the announcement that Daniel Kraus’s Angel Down, a fantasy-horror novel in which a squad of WWI soldiers discover an angel on the killing fields of 1918 France, had won the Pulitzer Prize for fiction. This is not the first time that a novel in […]\nThe post Review: Angel Down by Daniel Kraus appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/review-angel-down-by-daniel-kraus",
+          "publishedOn": "2026-07-07T15:53:36.000Z",
           "wordCount": null,
-          "title": "Commynists!",
+          "title": "Review: Angel Down by Daniel Kraus",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161789",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161827",
           "author": "Paul Campos",
-          "description": "I mean when you get a call from the winner of the FIFA Peace Prize you pretty much have to take it, out of respect as they say in the mob (apologies to the Mafia for comparing it to FIFA): President Trump called Gianni Infantino, the president of FIFA, in the hours after the United […]\nThe post Trump ruins everything he touches: Part the 10,000th appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/trump-ruins-everything-he-touches-part-the-10000th",
-          "publishedOn": "2026-07-06T12:49:24.000Z",
+          "description": "Good column (gift link) from Michelle Goldberg: The Platner campaign represented an electoral insurgency against the Democratic Party; now, there are going to be furious recriminations against those who launched it. There is plenty of blame to go around. Most at fault, of course, is Platner himself. He allegedly victimized Racicot, and then his campaign […]\nThe post More Platner stuff appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/more-platner-stuff",
+          "publishedOn": "2026-07-07T14:35:00.000Z",
           "wordCount": null,
-          "title": "Trump ruins everything he touches: Part the 10,000th",
+          "title": "More Platner stuff",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161606",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=161609",
           "author": "Erik Loomis",
-          "description": "This is the grave of Henry Laurens Pinckney, Born in 1794 in Charleston, South Carolina, Pinckney was in the most elite family of early South Carolina politics. The Pinckney’s dominated the region in the Early Republic. His father was Charles Pinckney, signer of the Constitution, governor, and senator, and other Pinckney’s were in high places […]\nThe post Erik Visits an American Grave, Part 2,177 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/erik-visits-an-american-grave-part-2177",
-          "publishedOn": "2026-07-06T11:00:00.000Z",
+          "description": "This is the grave of Juan Manuel de Rosas. Born in 1793 in Buenos Aires, Rosas grew up extremely wealthy as part of the Spanish colonial elite. He would only get wealthier. The family had a place in BA but mostly lived on their ranches, where they control hundreds of workers. Rosas had early interest […]\nThe post Erik Visits a (Latin) American Grave, Part 2,178 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/erik-visits-a-latin-american-grave-part-2178",
+          "publishedOn": "2026-07-07T11:00:00.000Z",
           "wordCount": null,
-          "title": "Erik Visits an American Grave, Part 2,177",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=161781",
-          "author": "Scott Lemieux",
-          "description": "10 years ago today now: “It is hard to think of another single event in the last decade that has had such far-reaching and sweeping and unintended global consequences as Jim Comey’s press conference.” www.nbcnews.com/politics/jus… [image or embed] — Ryan J. Reilly “paints a vivid and urgent portrait of… disarray” (@ryanjreilly.com) 9:17 AM · Jul […]\nThe post The day James Comey blew up the world appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-day-james-comey-blew-up-the-world",
-          "publishedOn": "2026-07-06T01:30:03.000Z",
-          "wordCount": null,
-          "title": "The day James Comey blew up the world",
+          "title": "Erik Visits a (Latin) American Grave, Part 2,178",
           "itunes": {},
           "imageUrl": null
         }
@@ -622,6 +573,66 @@
       "feedUrl": "https://feeds.feedburner.com/Hzoh",
       "siteUrl": "https://angrybearblog.com/",
       "articles": [
+        {
+          "id": "https://angrybearblog.com/?p=191078",
+          "author": "Angry Bear",
+          "description": "Dean is discussing Fees being charged to people. On the other side is insurance costs. Car insurance took a jump this year and we barely drive 5000 miles a year. Homeowner’s insurance is another cost. If you have less than a 20% down mortgage? More likely than not, there will be a mortgage insurance tied […]\nThe post People Say the Economy is Bad appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/people-say-the-economy-is-bad",
+          "publishedOn": "2026-07-07T12:40:00.000Z",
+          "wordCount": null,
+          "title": "People Say the Economy is Bad",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191022",
+          "author": "Steve Roth",
+          "description": "“How Invisible Capital Gains Drive Extreme U.S. Wealth Concentration: Evidence from Balance-Sheet-Complete Haig-Simons Accounting” Steve Roth @ Wealth Economics A dominant economic fact of the past half century is the extreme and increasing concentration of U.S. wealth into the hands of ever-fewer people, families, and dynasties, and the corporations (including banks, insurers, major media companies, […]\nThe post How Invisible Capital Gains Drive Extreme U.S. Wealth Concentration appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/how-invisible-capital-gains-drive-extreme-u-s-wealth-concentration",
+          "publishedOn": "2026-07-07T12:00:00.000Z",
+          "wordCount": null,
+          "title": "How Invisible Capital Gains Drive Extreme U.S. Wealth Concentration",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191090",
+          "author": "Joel Eissenberg",
+          "description": "My postdoc mentor used to say “We don’t compare ourselves to the worst, we compare ourselves to the best.” Does that aphorism apply in politics? “POLITICO REPORTED ON MONDAY AFTERNOON that Graham Platner’s ex-girlfriend said he “forced her to have sex with him nearly five years ago despite her repeated objections.” Immediately after the story […]\nThe post The Trump slippery slope appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/the-trump-slippery-slope",
+          "publishedOn": "2026-07-07T10:50:04.000Z",
+          "wordCount": null,
+          "title": "The Trump slippery slope",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191052",
+          "author": "Joel Eissenberg",
+          "description": "“Guns don’t kill people. People kill people.” Well no shit, Sherlock. We want mandatory safety classes for people, not guns. We want more background checks of people, not guns. We want stricter negligence penalties imposed on people, not guns. If you’re stupid enough to think activists are pissed off at guns, you’re too stupid to […]\nThe post Quote of the day appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/quote-of-the-day-12",
+          "publishedOn": "2026-07-07T09:07:58.000Z",
+          "wordCount": null,
+          "title": "Quote of the day",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191068",
+          "author": "NewDealdemocrat",
+          "description": "– by New Deal democrat The economically weighted ISM manufacturing + services indexes have become one of my favorite datapoints. In particular, in the past year they have been an excellent dashboard for the state of the US economy as a whole, both as a coincident and short leading indicator. Last summer they accurately suggested that […]\nThe post The economically weighted ISM indexes for June show continued growth, equipoise in employment, and still strong inflation at the producer level appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/the-economically-weighted-ism-indexes-for-june-show-continued-growth-equipoise-in-employment-and-still-strong-inflation-at-the-producer-level",
+          "publishedOn": "2026-07-06T19:17:46.000Z",
+          "wordCount": null,
+          "title": "The economically weighted ISM indexes for June show continued growth, equipoise in employment, and still strong inflation at the producer level",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191062",
+          "author": "NewDealdemocrat",
+          "description": "The United States of America at 250: the enemy of Republics is entrenched power  – by New Deal democrat On America’s 250th anniversary, the state of the Republic is not good. Ten years ago, after the 2016 election, I embarked upon a reading journey, to seek an answer to the questions: are Republics fragile? Are they […]\nThe post “the enemy of Republics is entrenched power” appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/the-enemy-of-republics-is-entrenched-power",
+          "publishedOn": "2026-07-06T16:34:26.000Z",
+          "wordCount": null,
+          "title": "“the enemy of Republics is entrenched power”",
+          "imageUrl": null
+        },
         {
           "id": "https://angrybearblog.com/?p=191038",
           "author": "Angry Bear",
@@ -820,36 +831,6 @@
           "publishedOn": "2026-07-01T21:36:19.000Z",
           "wordCount": null,
           "title": "Starting off the second half of 2026 (mainly) positive",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190869",
-          "author": "Angry Bear",
-          "description": "Introduction: Nearly one third of all corporate political spending on elections since the 2010 Citizens United decision has occurred in the current election cycle. This is months before the general election, a new report from Public Citizen. I suspect this is more for Republicans then Democrats. “‘A Disaster for Democracy’: Report Shows Surging Corporate Spending in 2026 Elections,” Common Dreams, […]\nThe post Increasing Corporate Funding and Spending for Candidates Leading up to the 2026 Elections appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/increasing-corporate-funding-and-spending-for-candidates-leading-up-to-the-2026-elections",
-          "publishedOn": "2026-07-01T12:40:00.000Z",
-          "wordCount": null,
-          "title": "Increasing Corporate Funding and Spending for Candidates Leading up to the 2026 Elections",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190845",
-          "author": "Angry Bear",
-          "description": "Some introduction and then explanation. A rather brief take on what is going on with the Electric Car in the United States and why it did not succeed. Think Trump . . . President Trump has ordered the elimination of the EV mandate and termination of federal support for EVs. “Quantifying Trump’s impacts on EV […]\nThe post The Late Rise of Electric Cars appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/the-late-rise-of-electric-cars",
-          "publishedOn": "2026-07-01T12:00:00.000Z",
-          "wordCount": null,
-          "title": "The Late Rise of Electric Cars",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=190820",
-          "author": "Joel Eissenberg",
-          "description": "Trump refused to sign a housing bill passed by bipartisan veto-proof majorities. But if he refuses to sign it and refuses to veto it, it becomes law. “Speaker Mike Johnson says the landmark housing affordability package Congress passed earlier this month will become law — and that Republicans won’t have to take an uncomfortable vote […]\nThe post Latest TACO? appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/latest-taco",
-          "publishedOn": "2026-07-01T09:17:24.000Z",
-          "wordCount": null,
-          "title": "Latest TACO?",
           "imageUrl": null
         }
       ]
