@@ -10,13 +10,44 @@
       "title": "AWS News Blog",
       "feedUrl": "https://aws.amazon.com/blogs/aws/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/aws/",
-      "articles": []
+      "articles": [
+        {
+          "id": "27dde8580d688a55e51f9a85a22645896b60028e",
+          "author": "Channy Yun (윤석찬)",
+          "description": "Last week, my team visited Seoul to meet AWS Korea User Group (AWSKRUG) leaders. AWSKRUG is the largest cloud developer community in Korea, with 20 meetup groups organized by topic and area that collectively host over 100 events each year, primarily in Seoul. My team regularly visits countries across the Asia-Pacific region, listens to feedback […]",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026/",
+          "publishedOn": "2026-07-20T16:37:34.000Z",
+          "wordCount": 32789,
+          "title": "AWS Weekly Roundup: One-click Lambda setup prompt, OpenAI GPT-5.6 models on Bedrock, and more (July 20, 2026)",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
+        }
+      ]
     },
     {
       "title": "AWS Architecture Blog",
       "feedUrl": "https://aws.amazon.com/blogs/architecture/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
       "articles": [
+        {
+          "id": "36baf26c54fe304725040010bfa7f4187708c5c9",
+          "author": "Ahmed Ewis",
+          "description": "According to Siemens’ 2024 report The True Cost of Downtime, Fortune 500 companies lose an estimated $1.4 trillion annually because of unplanned downtime. This downtime is often worsened by a lack of skills to detect and resolve issues quickly. Generative AI offers a promising path to address this, but deploying these capabilities in industrial environments […]",
+          "link": "https://aws.amazon.com/blogs/architecture/architecting-offline-first-generative-ai-applications-for-edge-deployments-using-aws-services/",
+          "publishedOn": "2026-07-22T13:32:57.000Z",
+          "wordCount": 34703,
+          "title": "Architecting offline-first generative AI applications for edge deployments using AWS services",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/13/architecting-offline-first-featured-image.png"
+        },
+        {
+          "id": "22e273b92b518fee449b6a6114b657618e5e1864",
+          "author": "Aishwariya Khiani",
+          "description": "Organizations in regulated industries like financial services, insurance, healthcare, and government ingest large volumes of data containing personally identifiable information (PII). Your applications, claims processing systems, partner data feeds, and internal workflows produce files that may include names, addresses, Social Security numbers, and domain-specific identifiers such as policy numbers, member IDs, and medical record numbers. […]",
+          "link": "https://aws.amazon.com/blogs/architecture/automate-custom-pii-detection-at-scale-with-amazon-macie-and-step-functions/",
+          "publishedOn": "2026-07-22T13:30:26.000Z",
+          "wordCount": 33797,
+          "title": "Automate custom PII detection at scale with Amazon Macie and Step Functions",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/20/custom-pii-featured-image.png"
+        },
         {
           "id": "f41c185d4345c3ee9fab04ee26074c87138bd0cd",
           "author": "Jorge Hernández Suárez",
@@ -56,26 +87,6 @@
           "wordCount": 34571,
           "title": "Prioritize your AWS Health alerts using AWS User Notifications",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/09/prioritize-healthcare-featured-image.png"
-        },
-        {
-          "id": "e93a67cd681588de3d1728e022a51ce4dda6f4fc",
-          "author": "Raghuram Gururajan",
-          "description": "When 121 million mobile devices establish persistent gRPC connections to your origin infrastructure within seconds of a live broadcast, the routing policy behind your DNS records matters far more than it does at normal traffic levels. The wrong policy can concentrate all your connections onto a single origin endpoint, turning a scaling success into an […]",
-          "link": "https://aws.amazon.com/blogs/architecture/how-bitdrift-scaled-to-121-million-concurrent-grpc-connections-on-amazon-cloudfront-for-live-telemetry-sporting-events/",
-          "publishedOn": "2026-07-15T15:27:47.000Z",
-          "wordCount": 34220,
-          "title": "How bitdrift scaled to 121 million concurrent gRPC connections on Amazon CloudFront for live telemetry sporting events",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/11/bitdrift-scaled-featured-image.png"
-        },
-        {
-          "id": "b3d4159ab8714d76bae7e58c80873101fa677b12",
-          "author": "Lijan Kuniyil",
-          "description": "Insurance fraud remains a significant challenge for the insurance industry because fraudulent claims can increase loss costs, reduce trust, and consume investigation capacity that could otherwise be focused on serving customers. Traditional fraud detection approaches typically rely on rules-based controls, manual investigation triggers, historical claim patterns, and structured-data-only analysis. These approaches are useful for known […]",
-          "link": "https://aws.amazon.com/blogs/architecture/how-mapfre-usa-modernized-fraud-claims-with-amazon-emr-serverless/",
-          "publishedOn": "2026-07-14T21:47:35.000Z",
-          "wordCount": 33739,
-          "title": "How Mapfre USA modernized fraud claims with Amazon EMR Serverless",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/09/mapfre-fraud-featured-image.png"
         }
       ]
     },
@@ -100,18 +111,7 @@
       "title": "AWS DevOps & Developer Productivity Blog",
       "feedUrl": "https://aws.amazon.com/blogs/devops/feed/",
       "siteUrl": "https://aws.amazon.com/blogs/devops/",
-      "articles": [
-        {
-          "id": "7ed75725f7c177708f37eac5f29ffa103c7fe715",
-          "author": "Jishnu Dasgupta",
-          "description": "Introduction Automated incident remediation – turning investigation findings into deployed fixes without manual toil – is the next frontier for operations teams running distributed workloads on AWS. Today, when an incident fires at 2 AM, the on-call engineer must correlate telemetry across Amazon CloudWatch, deployment pipelines, and application logs, then manually write and deploy a […]",
-          "link": "https://aws.amazon.com/blogs/devops/automated-incident-remediation-with-aws-devops-agent-and-kiro-cli/",
-          "publishedOn": "2026-07-14T13:17:42.000Z",
-          "wordCount": 33669,
-          "title": "Automated Incident Remediation with AWS DevOps Agent and Kiro CLI",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/07/14/kiroDevOps-1.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Netflix TechBlog - Medium",
@@ -124,7 +124,7 @@
           "description": "By AI Platform’s Model Runtime team and Inference team",
           "link": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-07-17T21:32:39.000Z",
-          "wordCount": 6140,
+          "wordCount": 6145,
           "title": "In-House LLM Serving at Netflix",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*GKGOrp0xddZwHomMhiSeCA.png"
         }
@@ -136,104 +136,104 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
-          "id": "https://www.nakedcapitalism.com/?p=313526",
+          "id": "https://www.nakedcapitalism.com/?p=313624",
+          "author": "Yves Smith",
+          "description": "Our dastardly daily links: Coffee approval, fridges for humans, Trump approval ratings @ new low, new US tariffs coming, US-Saudi nuke deal, doubts over cliams on Iran costs + casualties, Asia buyng pricey LNG, Ukraine army boss Syrsky out, ZBurnham approves US use of UK bases for Iran war, Google AI v. Internet",
+          "link": "https://www.nakedcapitalism.com/2026/07/links-7-22-2026.html",
+          "publishedOn": "2026-07-22T10:59:34.000Z",
+          "wordCount": 4916,
+          "title": "Links 7/22/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-22-at-1.56.32 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=313669",
+          "author": "Yves Smith",
+          "description": "Today's Iran war news:  How the US is clearly losing military as pressures are rising on the economic and political fronts.",
+          "link": "https://www.nakedcapitalism.com/2026/07/iran-war-iran-rumored-to-be-readying-big-attacks-as-trump-vows-more-escalation-and-rubio-disses-talks-hegseth-fried-in-iran-hearings.html",
+          "publishedOn": "2026-07-22T10:57:37.000Z",
+          "wordCount": 10563,
+          "title": "Iran War: Iran Rumored to Be Readying Big Attacks as Trump Vows More Escalation and Rubio Disses Talks; Brent Rises to $94 a Barrel as Hormuz Transits Fall, Ships Turn Away from Bab el-Mandeb; Hegseth Fried in Iran Hearings",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/00-lethal.webp"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=313648",
           "author": "Conor Gallagher",
-          "description": "The US escalation in its war against Iran couldn't come at a worse time for Europe.",
-          "link": "https://www.nakedcapitalism.com/2026/07/europes-heatwave-is-becoming-an-energy-crisis.html",
-          "publishedOn": "2026-07-20T13:55:09.000Z",
-          "wordCount": 3231,
-          "title": "Europe’s Heatwave Is Becoming an Energy Crisis",
+          "description": "Russia blockades Odessa, grain wars, friction increases between Ankara and Moscow, and NATO lake plans have failed miserably.",
+          "link": "https://www.nakedcapitalism.com/2026/07/why-is-nato-attacking-exxonmobil-and-chevron-infrastructure-in-the-black-sea.html",
+          "publishedOn": "2026-07-22T10:00:13.000Z",
+          "wordCount": 4420,
+          "title": "Why Is NATO Attacking ExxonMobil and Chevron Infrastructure in the Black Sea?",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/2025_05_pipeline-map-1024x729.webp"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=313664",
+          "author": "Yves Smith",
+          "description": "At 250, America is now producing a mindless, raw power and exponentially growing instability.",
+          "link": "https://www.nakedcapitalism.com/2026/07/yanis-varoufakis-an-athenian-view-of-americas-democracy.html",
+          "publishedOn": "2026-07-22T08:08:42.000Z",
+          "wordCount": 3560,
+          "title": "Yanis Varoufakis: An Athenian View of America’s Democracy",
           "imageUrl": null
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=313522",
-          "author": "Conor Gallagher",
-          "description": "Our daily links, including EU crumbling support for Russia sanctions, Trump treads lightly with China, wildfires across the world, and happy skepticism.",
-          "link": "https://www.nakedcapitalism.com/2026/07/links-7-20-2026.html",
-          "publishedOn": "2026-07-20T10:58:47.000Z",
-          "wordCount": 5599,
-          "title": "Links 7/20/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/HMVJQNKXsAI2mb9-e1784460005485.jpeg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=313546",
-          "author": "Yves Smith",
-          "description": "Today's Iran war news; The US looks to be gearing up for Something Stupid, as if the mere continuation of the war didn't suffice.",
-          "link": "https://www.nakedcapitalism.com/2026/07/iran-war-brief-us-pause-followed-by-renewed-strikes-as-iran-intensifies-attacks-on-bases-and-kuwait-desalination-continued-speculation-about-us-operation.html",
-          "publishedOn": "2026-07-20T10:07:10.000Z",
-          "wordCount": 10483,
-          "title": "Iran War: Brief US Pause Followed by Renewed Strikes as Iran Intensifies Attacks on Bases and Kuwait Desalination; Continued Speculation About US Operation",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/00-missiles.webp"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=313149",
-          "author": "Conor Gallagher",
-          "description": "Their \"Arsenal of Democracy” is breaking down (a good thing!); too bad it doesn’t mean redirecting social capital toward social needs.",
-          "link": "https://www.nakedcapitalism.com/2026/07/american-oligarchs-sold-the-ground-out-from-underneath-their-own-feet.html",
-          "publishedOn": "2026-07-20T10:00:24.000Z",
-          "wordCount": 5914,
-          "title": "American Oligarchs Sell the Ground Out From Underneath Their Own Feet",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-01-at-6.55.36 AM-1024x511.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=313533",
-          "author": "Yves Smith",
-          "description": "An assessment of the wildfire smoke emergency in the US, and a warning that more is inevitable.",
-          "link": "https://www.nakedcapitalism.com/2026/07/dangerous-and-historic-wildfire-smoke-pollution-event-engulfs-the-u-s-and-canada.html",
-          "publishedOn": "2026-07-20T05:12:28.000Z",
-          "wordCount": 4775,
-          "title": "Dangerous and Historic Wildfire Smoke Pollution Event Engulfs the U.S. and Canada",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2025/08/00-scary-mask.jpg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=313505",
+          "id": "https://www.nakedcapitalism.com/?p=313614",
           "author": "Haig Hovaness",
-          "description": "<img src=\"https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Polar-bears.jpg\"\r\n         width=\"300\"\r\n         height=\"300\"\r\n         class=\"aligncenter size-full\" />",
-          "link": "https://www.nakedcapitalism.com/2026/07/links-7-19-2026.html",
-          "publishedOn": "2026-07-19T10:55:36.000Z",
-          "wordCount": 16329,
-          "title": "Links 7/19/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Polar-bears.jpg"
+          "description": "Commercial technologies are increasingly finding themselves at the center of international security. Starlink began as an ambitious effort to provide global broadband internet, but its rapid integration into Ukraine's military operations transformed engineering decisions into questions of governance.",
+          "link": "https://www.nakedcapitalism.com/2026/07/coffee-break-armed-madhouse-the-two-faces-of-starlink.html",
+          "publishedOn": "2026-07-21T18:00:02.000Z",
+          "wordCount": 5356,
+          "title": "Coffee Break: Armed Madhouse – The Two Faces of Starlink",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Starlink-satellite-e1784638782713.jpg"
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=312779",
-          "author": "semper loquitur",
-          "description": "Ítélet is a movie about revolution and punishment.",
-          "link": "https://www.nakedcapitalism.com/2026/07/the-sunday-morning-movie-presents-itelet-aka-judgement-1970-run-time-1h-31m-plus-bonuses.html",
-          "publishedOn": "2026-07-19T10:30:49.000Z",
-          "wordCount": 3834,
-          "title": "The Sunday Morning Movie Presents: Ítélet AKA Judgement (1970) Run Time 1H 31M Plus Bonuses!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=313514",
-          "author": "Conor Gallagher",
-          "description": "Shared natural heritage, on the auction block.",
-          "link": "https://www.nakedcapitalism.com/2026/07/what-science-loses-when-t-rex-becomes-a-trophy.html",
-          "publishedOn": "2026-07-19T10:00:20.000Z",
-          "wordCount": 5455,
-          "title": "What Science Loses When T. Rex Becomes a Trophy",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/file-20260713-56-xeodck.png-852x1024.jpeg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=313382",
+          "id": "https://www.nakedcapitalism.com/?p=313625",
           "author": "Yves Smith",
-          "description": "Today's fretting daily links: Iran war: exploding tankers, Iran excalation, US deaths? ancient warror women, UK seizes China-owned British Steel, US upset over Canada fires, Zelensky protests, Trump threatens elections + the left, Japan currency defense fail, US inflation, tech/AI market worries",
-          "link": "https://www.nakedcapitalism.com/2026/07/links-7-18-2026.html",
-          "publishedOn": "2026-07-18T10:59:37.000Z",
-          "wordCount": 19266,
-          "title": "Links 7/18/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-18-at-5.03.58 PM.png"
+          "description": "Pete Hegseth is almost predictably wrong. His beliefs about testosterone supplementation are par for the course.",
+          "link": "https://www.nakedcapitalism.com/2026/07/more-testosterone-wont-make-a-better-soldier-or-a-tougher-man-aggression-and-strength-drive-t-levels-not-the-other-way-around.html",
+          "publishedOn": "2026-07-21T13:55:37.000Z",
+          "wordCount": 5642,
+          "title": "More Testosterone Won’t Make a Better Soldier or a Tougher Man – Aggression and Strength Drive T Levels, Not the Other Way Around",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-21-at-9.00.55 PM.png"
         },
         {
-          "id": "https://www.nakedcapitalism.com/?p=313368",
+          "id": "https://www.nakedcapitalism.com/?p=313531",
           "author": "Yves Smith",
-          "description": "Michael Hudson and  Radhika Desai discuss how much of supposed US economic performance is illusory, and what happens when it unwinds.",
-          "link": "https://www.nakedcapitalism.com/2026/07/michael-hudson-with-radhika-desai-were-headed-for-a-depression-worse-than-2008.html",
-          "publishedOn": "2026-07-18T09:00:35.000Z",
-          "wordCount": 11991,
-          "title": "Michael Hudson with  Radhika Desai: We’re Headed for a Depression Worse Than 2008",
-          "imageUrl": ""
+          "description": "Our ribald daily links: Camus' courage, Houthis close Bab el- Mandeb, leveraged crypto frenzy, China EV sales crash, US Cuba attack? German remillitarization, US reconciliation bill at risk, Trump 50% tariffs on Canada, India v. cockroaches, diesel worries, huge Russian strike on Kiev, AI wobbles",
+          "link": "https://www.nakedcapitalism.com/2026/07/links-7-21-2026.html",
+          "publishedOn": "2026-07-21T10:59:29.000Z",
+          "wordCount": 9642,
+          "title": "Links 7/21/2026",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-21-at-2.29.43 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=313587",
+          "author": "Yves Smith",
+          "description": "Today's Iran war news: As the US becomes weaker and Iran gets stronger, will the US resort to a nuclear bomb?",
+          "link": "https://www.nakedcapitalism.com/2026/07/iran-war-washington-post-telegraph-confirm-us-inability-to-sustain-war-ansar-allah-closes-bab-el-mandeb-amid-reports-of-mbs-dethronement-possibility-of-nuclear-attack-on-pickaxe-mountain.html",
+          "publishedOn": "2026-07-21T10:58:34.000Z",
+          "wordCount": 19930,
+          "title": "Iran War: Washington Post, Telegraph Confirm US Inability to Sustain War; Ansar Allah Closes Bab el-Mandeb Amid Reports of MBS Dethronement; Possibility of Nuclear Attack on Pickaxe Mountain",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/00-bab-El-Mandeb.webp"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=313564",
+          "author": "Nick Corbishley",
+          "description": "\"[F]ew things have provoked more outrage [in Brazil] than Trump’s attack on PIX, the country’s beloved instant-payment system.\"",
+          "link": "https://www.nakedcapitalism.com/2026/07/the-us-escalates-its-assault-on-brazils-publicly-controlled-free-to-use-for-citizens-and-small-businesses-digital-payments-system.html",
+          "publishedOn": "2026-07-21T10:45:28.000Z",
+          "wordCount": 6198,
+          "title": "The US Escalates Its Assault on Brazil’s Free-to-Use (for Citizens and Micro Businesses) Digital Payments System",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Captura-de-pantalla_21-7-2026_13131_www.reuters.com_-300x183.jpeg"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=313584",
+          "author": "Yves Smith",
+          "description": "Turkiye committing to ensuring Ukraine’s maritime security poses a serious threat to Russia.",
+          "link": "https://www.nakedcapitalism.com/2026/07/turkiye-is-poised-to-open-up-a-new-containment-front-against-russia-in-the-black-sea.html",
+          "publishedOn": "2026-07-21T08:16:02.000Z",
+          "wordCount": 3830,
+          "title": "Turkiye Is Poised To Open Up A New Containment Front Against Russia in the Black Sea",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/00-turkiye.webp"
         }
       ]
     },
@@ -243,24 +243,34 @@
       "siteUrl": "https://blog.cloudflare.com/",
       "articles": [
         {
+          "id": "01KY2432VQPD5FTF2RARXXYQGH",
+          "author": "Sabina Zejnilovic",
+          "description": "We analyzed global HTTP traffic to explore how kickoff times, streaming habits, and hydration breaks reshaped online activity worldwide. From late-night traffic surges to halftime browsing spikes, here is how the world connected during the global tournament.",
+          "link": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
+          "publishedOn": "2026-07-21T12:59:40.000Z",
+          "wordCount": 3553,
+          "title": "How the 2026 World Cup affected Internet traffic",
+          "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01KY24JZR9KTR3M5THP0VXA506.png"
+        },
+        {
+          "id": "01KXNA2XDCKTZTZQ1NC6HM40AZ",
+          "author": "Enrique Somoza",
+          "description": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
+          "link": "https://blog.cloudflare.com/internal-dns/",
+          "publishedOn": "2026-07-20T20:59:31.000Z",
+          "wordCount": 2369,
+          "title": "Cloudflare Internal DNS is now generally available",
+          "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01KY0BCRJZN4XCWVFJR97JPG2X.png"
+        },
+        {
           "id": "01KXQS1XDD7HKB324JEWG6BZDA",
           "author": "Daniele Molteni",
           "description": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
           "link": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
           "publishedOn": "2026-07-17T21:30:43.000Z",
-          "wordCount": 1799,
+          "wordCount": 1791,
           "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
           "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01KXQSKFH096V7DNN9NP8ABG4X.png"
-        },
-        {
-          "id": "4k8LbDKkNXwcJVEFYF1ije",
-          "author": "Sebastiaan Neuteboom",
-          "description": "When a failed DNSSEC key rollover took down the .al TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC validation was bypassed.",
-          "link": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
-          "publishedOn": "2026-07-14T13:00:00.000Z",
-          "wordCount": 2799,
-          "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
-          "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01KXEF370BA04JCGFB3M86S6HE.png"
         }
       ]
     },
@@ -270,14 +280,14 @@
       "siteUrl": "https://code.visualstudio.com/",
       "articles": [
         {
-          "id": "https://code.visualstudio.com/updates/v1_129",
+          "id": "https://code.visualstudio.com/updates/v1_130",
           "author": null,
-          "description": "Learn what is new in Visual Studio Code 1.129.\nRead the full article",
-          "link": "https://code.visualstudio.com/updates/v1_129",
-          "publishedOn": "2026-07-15T17:00:00.000Z",
-          "wordCount": 2323,
-          "title": "Visual Studio Code 1.129",
-          "imageUrl": "https://code.visualstudio.com/assets/updates/1_129/release-highlights.webp"
+          "description": "Learn what's new in Visual Studio Code 1.130 (Insiders)\nRead the full article",
+          "link": "https://code.visualstudio.com/updates/v1_130",
+          "publishedOn": "2026-07-22T17:00:00.000Z",
+          "wordCount": 944,
+          "title": "Visual Studio Code 1.130 (Insiders)",
+          "imageUrl": "https://code.visualstudio.com/assets/updates/1_130/release-highlights.webp"
         }
       ]
     },
@@ -286,6 +296,16 @@
       "feedUrl": "https://newleftreview.org/sidecar/feed",
       "siteUrl": "https://newleftreview.org/sidecar/feed",
       "articles": [
+        {
+          "id": "https://newleftreview.org/sidecar/posts/hope-and-defeat",
+          "author": null,
+          "description": "On late Berger.",
+          "link": "https://newleftreview.org/sidecar/posts/hope-and-defeat",
+          "publishedOn": "2026-07-22T09:58:52.000Z",
+          "wordCount": 2269,
+          "title": "Owen Hatherley: &ldquo;Hope and Defeat&rdquo;",
+          "imageUrl": "https://newleftreview.org/blog-uploads/2026/07/berger.jpg"
+        },
         {
           "id": "https://newleftreview.org/sidecar/posts/unfinished-business",
           "author": null,
@@ -305,16 +325,6 @@
           "wordCount": 2081,
           "title": "Rashi Agrawal: &ldquo;Manufacturing Revolt&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/07/india-strike-image.jpg"
-        },
-        {
-          "id": "https://newleftreview.org/sidecar/posts/warm-ghosts",
-          "author": null,
-          "description": "On Candace Hill-Montgomery.",
-          "link": "https://newleftreview.org/sidecar/posts/warm-ghosts",
-          "publishedOn": "2026-07-15T11:06:15.000Z",
-          "wordCount": 2403,
-          "title": "Luke Roberts: &ldquo;Warm Ghosts&rdquo;",
-          "imageUrl": "https://newleftreview.org/blog-uploads/2026/07/candace-hm-scaled.jpg"
         }
       ]
     },
@@ -333,46 +343,46 @@
     {
       "title": "Richard Seroter's Architecture Musings",
       "feedUrl": "https://seroter.com/feed/",
-      "siteUrl": "https://seroter.com",
+      "siteUrl": "http://seroter.com",
       "articles": [
         {
-          "id": "http://seroter.com/?p=30716",
+          "id": "https://seroter.com/?p=30761",
+          "author": "Richard Seroter",
+          "description": "Today's links look at the latest Google Gemini models, why reliability is a discipline and not a feature, and how Netflix serves LLMs in-house.",
+          "link": "http://seroter.com/2026/07/21/daily-reading-list-july-21-2026-829/",
+          "publishedOn": "2026-07-21T23:37:55.000Z",
+          "wordCount": 4487,
+          "title": "Daily Reading List – July 21, 2026 (#829)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
+          "id": "https://seroter.com/?p=30745",
+          "author": "Richard Seroter",
+          "description": "Today's links look at how to earn taste and judgement, why loop engineering is mostly just broken SDLC wearing a costume, and how to design APIs for agents.",
+          "link": "http://seroter.com/2026/07/20/daily-reading-list-july-20-2026-828/",
+          "publishedOn": "2026-07-21T00:05:55.000Z",
+          "wordCount": 4564,
+          "title": "Daily Reading List – July 20, 2026 (#828)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
+          "id": "https://seroter.com/?p=30716",
           "author": "Richard Seroter",
           "description": "Today's links look at what ten AI film crews teach us about agent teamwork, how to cut token usage by 94%, and why model routing is simple until it isn't.",
-          "link": "https://seroter.com/2026/07/17/daily-reading-list-july-17-2026-827/",
+          "link": "http://seroter.com/2026/07/17/daily-reading-list-july-17-2026-827/",
           "publishedOn": "2026-07-18T00:34:05.000Z",
           "wordCount": 4392,
           "title": "Daily Reading List – July 17, 2026 (#827)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
         {
-          "id": "http://seroter.com/?p=30700",
+          "id": "https://seroter.com/?p=30700",
           "author": "Richard Seroter",
           "description": "Today's links look at why the prototype is a question and not a product, five trends that define modern AI engineering, and why \"playing politics\" isn't a bad thing.",
-          "link": "https://seroter.com/2026/07/16/daily-reading-list-july-16-2026-826/",
+          "link": "http://seroter.com/2026/07/16/daily-reading-list-july-16-2026-826/",
           "publishedOn": "2026-07-16T14:01:04.000Z",
           "wordCount": 4446,
           "title": "Daily Reading List – July 16, 2026 (#826)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=30678",
-          "author": "Richard Seroter",
-          "description": "Today's links look at how Netflix built a real-time look at their service topology, why you should control the ideas and not the code, and why 90% done rarely means that you're almost done.",
-          "link": "https://seroter.com/2026/07/15/daily-reading-list-july-15-2026-825/",
-          "publishedOn": "2026-07-15T17:08:57.000Z",
-          "wordCount": 4429,
-          "title": "Daily Reading List – July 15, 2026 (#825)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "http://seroter.com/?p=30658",
-          "author": "Richard Seroter",
-          "description": "Today's links look at challenges with persistence for long-running agents, why we keep arguing against Jevon's paradox, and securing the AI supply chain.",
-          "link": "https://seroter.com/2026/07/14/daily-reading-list-july-14-2026-824/",
-          "publishedOn": "2026-07-14T15:47:26.000Z",
-          "wordCount": 4417,
-          "title": "Daily Reading List – July 14, 2026 (#824)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         }
       ]
@@ -388,7 +398,7 @@
           "description": "Assistant Professor Bailey Flanigan has arrived at complex computational methods for helping democracy thrive.",
           "link": "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717",
           "publishedOn": "2026-07-17T17:25:00.000Z",
-          "wordCount": 2025,
+          "wordCount": 2018,
           "title": "Following the questions where they lead",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202607/mit-lids-Bailey-Flanigan.jpg"
         },
@@ -398,39 +408,9 @@
           "description": "Researchers developed an automated framework that helps AI models generate CAD programs more accurately and efficiently.",
           "link": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716",
           "publishedOn": "2026-07-16T04:00:00.000Z",
-          "wordCount": 1953,
+          "wordCount": 1943,
           "title": "A better way to turn 2D designs into 3D models for rapid prototyping",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202607/MIT-Geometric-Tuning-01-press.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715",
-          "author": "Media Lab",
-          "description": "Assistant Professor Pat Pataranutaporn describes a new interface that lets everyday users glimpse inside an AI's neural network before their chatbot ever says a word.",
-          "link": "https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715",
-          "publishedOn": "2026-07-15T20:25:00.000Z",
-          "wordCount": 1858,
-          "title": "3 Questions: Neural transparency and the future of AI design",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202607/mit-medialab-pataranutaporn.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/helping-ai-models-meet-real-world-0714",
-          "author": "David Chandler | Laboratory for Information and Decision Systems",
-          "description": "Through research and entrepreneurship, Professor Devavrat Shah is helping to design methods that can handle constant decision-making using limited computational resources.",
-          "link": "https://news.mit.edu/2026/helping-ai-models-meet-real-world-0714",
-          "publishedOn": "2026-07-14T20:25:00.000Z",
-          "wordCount": 1638,
-          "title": "Helping AI models to meet the real world",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202607/devavrat-shah-mit-00_0.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714",
-          "author": "Department of Aeronautics and Astronautics",
-          "description": "MIT students designed, built, and tested a jet engine with AI copilots, assessing AI’s usefulness in developing high-performance aerospace systems.",
-          "link": "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714",
-          "publishedOn": "2026-07-14T18:00:00.000Z",
-          "wordCount": 2682,
-          "title": "Can AI build a jet engine? JARVIS Challenge tests role of AI copilots in tough-tech engineering",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202607/jarvis-competition-fired-engine-00.jpg"
         }
       ]
     },
@@ -451,6 +431,26 @@
       "feedUrl": "https://www.ianwelsh.net/feed/",
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
+        {
+          "id": "https://www.ianwelsh.net/?p=26110",
+          "author": "Ian Welsh",
+          "description": "Amazing stuff, and sooner than even I expected. China’s Kimi is now about equal to GPT and Claude: For the first time, a Chinese model Kimi K3 has taken #1 on the Frontend Code Arena and is scoring at or near the frontier on other benchmarks. And the majors are noticing: there it is – […]",
+          "link": "https://www.ianwelsh.net/americas-losing-the-ai-race-hard/",
+          "publishedOn": "2026-07-21T19:38:10.000Z",
+          "wordCount": null,
+          "title": "America’s Losing the AI Race Hard",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ianwelsh.net/?p=26090",
+          "author": "Ian Welsh",
+          "description": "Readers will remember that at the start of the Iran war I said that if it got serious, the Iranians would win, because they would run the US out of missiles, especially air defense missiles. The math is simple. If Iran keeps firing, and the US/Israel does not take out the launchers and missile stockpiles […]",
+          "link": "https://www.ianwelsh.net/america-doesnt-have-enough-missiles-to-fight-iran/",
+          "publishedOn": "2026-07-20T21:38:00.000Z",
+          "wordCount": null,
+          "title": "America Doesn’t Have Enough Missiles To Fight Iran",
+          "imageUrl": null
+        },
         {
           "id": "https://www.ianwelsh.net/?p=25995",
           "author": "Tony Wikrent",
@@ -490,26 +490,6 @@
           "wordCount": null,
           "title": "Manipulating Numbers Rather Than Logistics (Oil Version)",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=26027",
-          "author": "Ian Welsh",
-          "description": "I was amused, in a “oh for fucks sake” way today when I found out that over 80% of workers experience anxiety on Sunday, thinking about return to work on Monday. Then on Monday heart attacks spike. Thirteen to twenty-five percent higher than normal depending on the study. Work is anything you do due to […]",
-          "link": "https://www.ianwelsh.net/our-carefully-designed-hell-society/",
-          "publishedOn": "2026-07-15T16:51:39.000Z",
-          "wordCount": null,
-          "title": "Our Carefully Designed Hell Society",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=26010",
-          "author": "Sean Paul Kelley",
-          "description": "~by Sean Paul Kelley Just about everyone has missed the second largest driver of core inflation (after petroleum) the Fed must reckon with. The insanely high prices and going higher of memory, you know, RAM, DRAM, SDRAM and the like. We’ll call it ‘chipflation.’ Chris Barber, CEO of a Baltimore based firm that helps small […]",
-          "link": "https://www.ianwelsh.net/everyone-misses-second-largest-drive-of-core-inflation-memory-chips/",
-          "publishedOn": "2026-07-14T13:30:27.000Z",
-          "wordCount": null,
-          "title": "Everyone Misses Second Largest Drive Of Core Inflation—Memory Chips",
-          "imageUrl": null
         }
       ]
     },
@@ -519,101 +499,101 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162409",
-          "author": "Paul Campos",
-          "description": "A few thoughts about a great event that couldn’t be ruined despite the best efforts of capitalism, FIFA, Donald Trump, and Argentina, to name some of the malevolent forces arrayed against it. (1) Argentina had actually provided many of the most memorable moments of the tournament, mostly because of Leo Messi’s remarkable brilliance. Messi, who […]\nThe post World Cup retrospective appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/world-cup-retrospective",
-          "publishedOn": "2026-07-20T12:15:26.000Z",
-          "wordCount": null,
-          "title": "World Cup retrospective",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162192",
-          "author": "Erik Loomis",
-          "description": "This is the grave of Jose Manuel Torres de la Cruz. OK, this is something of an experimental grave post. I was walking around the big cemetery in Santiago. There’s going to be a lot of graves coming out of this trip, many of which are associated with Pinochet dictatorship (though not that bastard himself, […]\nThe post Erik Visits a (Latin) American Grave, Part 2,190 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/erik-visits-a-latin-american-grave-part-2192",
-          "publishedOn": "2026-07-20T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Erik Visits a (Latin) American Grave, Part 2,190",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162406",
-          "author": "Scott Lemieux",
-          "description": "I hope the LGM community has been spared: For weeks, Sherry Dommer has been living a gastrointestinal nightmare. Violent cramps. Exhaustion. Unrelenting nausea. Sprints to the toilet at all hours of the night. Ms. Dommer, 49, has long considered herself a “go-go-go person,” but certainly not in this sense. The illness, which also struck her […]\nThe post What it’s like to get the DOGE explosives appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/what-its-like-to-get-the-doge-explosives",
-          "publishedOn": "2026-07-20T05:44:19.000Z",
-          "wordCount": null,
-          "title": "What it’s like to get the DOGE explosives",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162360",
-          "author": "Erik Loomis",
-          "description": "Green for Danger is a 1946 film directed by Sidney Gilliat and starring Trevor Howard, Alastair Sim, and a solid cast of mid-century British actors. The film itself is really in two halves. It takes place in a rural hospital during the war. The Germans are bombing, a constant problem. A bomb falls near the […]\nThe post LGM Film Club, Part 547: Green For Danger appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/lgm-film-club-part-547-green-for-danger",
-          "publishedOn": "2026-07-20T01:00:00.000Z",
-          "wordCount": null,
-          "title": "LGM Film Club, Part 547: Green For Danger",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162403",
-          "author": "Scott Lemieux",
-          "description": "It’s good that the Peace President engineered a totally ironclad ceasefire agreement to conclude the war with Iran that started through some mysterious unknown mechanism, or things might get really bad over there: An American servicemember died in northern Iraq on Saturday during a controlled detonation of a downed Iranian attack drone, according to U.S. Central Command, […]\nThe post Life in the peace lane appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/life-in-the-peace-lane",
-          "publishedOn": "2026-07-19T22:51:39.000Z",
-          "wordCount": null,
-          "title": "Life in the peace lane",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162356",
-          "author": "Erik Loomis",
-          "description": "“Los argentinos son mas arrogantes que los chilenos” was a correct answer in my Spanish class in Santiago on Friday. Everyone in Latin America hates Argentina. In fact, most everyone hates Argentina period. I was in Colombia once, in a van taking people people from Cartagena to Barranquilla. The van driver passed one of the […]\nThe post Spain-Argentina Game Thread appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/spain-argentina-game-thread",
-          "publishedOn": "2026-07-19T18:45:00.000Z",
-          "wordCount": null,
-          "title": "Spain-Argentina Game Thread",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162363",
-          "author": "Erik Loomis",
-          "description": "I cannot imagine a worse or stupider ballot measure than what Oregon liberals are trying to push here. Evidently, Democrats never want to win a rural voter ever again: A proposed ballot measure that would effectively ban hunting, fishing and other animal-related activities in Oregon failed to qualify for the November ballot based on an initial review […]\nThe post Oregon Democrats: A Parody of Liberals appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/oregon-democrats-a-parody-of-liberals",
-          "publishedOn": "2026-07-19T15:49:00.000Z",
-          "wordCount": null,
-          "title": "Oregon Democrats: A Parody of Liberals",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162393",
-          "author": "Erik Loomis",
-          "description": "It’s almost impossible for me to say anything good about the United States during the Trump years. It’s a terrible country filled with terrible humans. I’m very much an American, lord knows, but the fact mostly fills me with shame that I am product of this racist, misogynist, genocidal nation leading the globe in environmental […]\nThe post Comida Chatarra appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/comida-chatarra",
-          "publishedOn": "2026-07-19T14:56:18.000Z",
-          "wordCount": null,
-          "title": "Comida Chatarra",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162386",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162483",
           "author": "Robert Farley",
-          "description": "We’re still calculating the ways in which the opioid epidemic hit Appalachia: The local effects of this decline are well known. “Population losses erode local tax bases, strain the provision of public goods, and generate fiscal pressures that are difficult to reverse, particularly in areas with fixed infrastructure and aging populations,” the authors note. This […]\nThe post The Price Appalachia Paid appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-price-appalachia-paid",
-          "publishedOn": "2026-07-19T14:17:47.000Z",
+          "description": "The following is by McKenna Horsley of the Kentucky Lantern, republished in full under Creative Commons license CC BY-NC-ND 4.0 because this discourse is driving me fucking nuts. A lot of people are asking Kentucky Gov. Andy Beshear to “do something” about U.S. Sen. Mitch McConnell’s absence from the Senate.  Former Illinois Republican congressman turned […]\nThe post What Is to Be Done? appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/what-is-to-be-done",
+          "publishedOn": "2026-07-22T11:57:42.000Z",
           "wordCount": null,
-          "title": "The Price Appalachia Paid",
+          "title": "What Is to Be Done?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162186",
+          "author": "Erik Loomis",
+          "description": "This is the grave of Erving Goffman. Born in 1922 in Mannville, Alberta, well, wait a minute. If there’s one thing this blog has proven, it’s that nothing good can come from Alberta. Anyway, Goffman grew up in a Jewish immigrant family. His parents had come over when they were young, from what is today […]\nThe post Erik Visits an American Grave, Part 2,192 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/erik-visits-an-american-grave-part-2191",
+          "publishedOn": "2026-07-22T11:00:00.000Z",
+          "wordCount": null,
+          "title": "Erik Visits an American Grave, Part 2,192",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162479",
+          "author": "Erik Loomis",
+          "description": "By the time Charlie Chaplin was making his Mutual films in 1916 and 1917, his character had evolved considerably. In his earlier films, he’s not lovable at all–he’s a menacing creep. By his classic 20s films, he’s the lovable tramp. At this time, he’s more of a working man than a tramp and he’s not […]\nThe post LGM Film Club, Part 549: The Rink appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/lgm-film-club-part-549-the-rink",
+          "publishedOn": "2026-07-22T02:04:11.000Z",
+          "wordCount": null,
+          "title": "LGM Film Club, Part 549: The Rink",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162470",
+          "author": "Erik Loomis",
+          "description": "Everyone wonders, “How can Democrats win rural voters again?” At least in LGM comments, the answer seems to be “Fuck rural voters if they don’t agree with my personal values,” which isn’t good politics at the very least. But you have to do engage rural voters. I’d recommend starting by not creating batshit ballot measures […]\nThe post Going Rural appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/going-rural",
+          "publishedOn": "2026-07-21T22:15:00.000Z",
+          "wordCount": null,
+          "title": "Going Rural",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162459",
+          "author": "Robert Farley",
+          "description": "This is a guest post by Steve Mathis, part of the 2026 LGM Fundraiser Auction. Since we talk about movies a lot here at LGM I thought it might be fun to explain how a Gaffer with 50 years of experience lighting sets (but ZERO experience acting) came to play the part of “Tupelo” in […]\nThe post Acting 101 appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/acting-101",
+          "publishedOn": "2026-07-21T21:30:03.000Z",
+          "wordCount": null,
+          "title": "Acting 101",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162469",
+          "author": "Scott Lemieux",
+          "description": "The arbitrary bureaucratic hurdles Republicans put on SNAP benefits in their upper-class tax cut bill are having their intended effect, and it’s not about WasteFraudandAbuse [gift link]: The number of Arizonans getting SNAP benefits has fallen by about half in less than a year, a remarkable drop in nutrition aid that may preview the program’s […]\nThe post Make America Hungry Again appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/make-america-hungry-again",
+          "publishedOn": "2026-07-21T20:36:42.000Z",
+          "wordCount": null,
+          "title": "Make America Hungry Again",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162465",
+          "author": "Scott Lemieux",
+          "description": "One interesting thing about the political landscape in 2026 is that Democrats are looking surprisingly competitive in statewide races in Iowa. even relative to the favorable national context. According to this story, one reason for that is the increasing risks being posed by water pollution in the state: Iowa has a long-simmering water problem that […]\nThe post The politics of water in Iowa appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-politics-of-water-in-iowa",
+          "publishedOn": "2026-07-21T19:18:53.000Z",
+          "wordCount": null,
+          "title": "The politics of water in Iowa",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162456",
+          "author": "Dan Nexon",
+          "description": "I suspect that the number of Lawyers, Guns and Money readers who were avid listeners to my other podcast, Whiskey & International Relations Theory ranges between three and zero. Nonetheless, after a three-year hiatus we’ve started our second season — and episode one might actually be of some interest to youse people. My co-host, Patrick […]\nThe post The Reactionary Fever Dream that is the Clash of Civilizations appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-reactionary-fever-dream-that-is-the-clash-of-civilizations",
+          "publishedOn": "2026-07-21T16:00:52.000Z",
+          "wordCount": null,
+          "title": "The Reactionary Fever Dream that is the Clash of Civilizations",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162442",
+          "author": "Scott Lemieux",
+          "description": "If you have no legitimate reason for an unprovoked war, you must invent one: Republicans, by contrast, have largely sidestepped the renewed war powers debate, many of them echoing Mr. Trump’s justification for resuming the fight. “The fact of the matter is, President Trump is the first president dealing with what has been the status […]\nThe post MAGA imperialist fanfiction appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/maga-imperialist-fanfiction",
+          "publishedOn": "2026-07-21T13:58:00.000Z",
+          "wordCount": null,
+          "title": "MAGA imperialist fanfiction",
           "itunes": {},
           "imageUrl": null
         }
@@ -624,6 +604,106 @@
       "feedUrl": "https://feeds.feedburner.com/Hzoh",
       "siteUrl": "https://angrybearblog.com/",
       "articles": [
+        {
+          "id": "https://angrybearblog.com/?p=191572",
+          "author": "NewDealdemocrat",
+          "description": "– by New Deal democrat In It appears that both producer and consumer inflation are going to continue at elevated levels, despite the actual *de*flation in June. Here’s a look at the average of the New York and Philadelphia Fed’s prices paid (blue) and prices received (orange) diffusion manufacturing indexes:  In July, the average for prices […]\nThe post Regional Fed reports indicate elevated inflation is likely to continue appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/regional-fed-reports-indicate-elevated-inflation-is-likely-to-continue",
+          "publishedOn": "2026-07-22T03:37:21.000Z",
+          "wordCount": null,
+          "title": "Regional Fed reports indicate elevated inflation is likely to continue",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191544",
+          "author": "Eric Kramer",
+          "description": "Trump’s inability to evaluate expert advice and incorporate it into his thinking will undoubtedly play a large role when histories of the Iran war are written. Trump evidently ignored warnings from experts within the government that Iran would respond to an attack by closing the Strait of Hormuz. Once the Strait was closed, Trump had […]\nThe post Trump, expertise, the Iran war, and the unitary executive appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/trump-expertise-the-iran-war-and-the-unitary-executive",
+          "publishedOn": "2026-07-21T14:54:27.000Z",
+          "wordCount": null,
+          "title": "Trump, expertise, the Iran war, and the unitary executive",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191509",
+          "author": "Joel Eissenberg",
+          "description": "There are instructive parallels between the Trump administration’s trade war with China in the first year of this term and the Iran war that is consuming its second year. In both instances, the administration grossly underestimated its rival’s resilience and capacity to retaliate, then escalated quickly and sharply before learning that the other side controlled […]\nThe post Quote of the day appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/quote-of-the-day-16",
+          "publishedOn": "2026-07-21T13:41:00.000Z",
+          "wordCount": null,
+          "title": "Quote of the day",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191539",
+          "author": "Eric Kramer",
+          "description": "Thomas Edsall (gift link): I asked political and presidential scholars how they think Trump’s mind works. Most pointed to his seemingly exclusive reliance on his own judgment while rejecting expert advice. “Many presidents have made mistakes, but none have made mistakes so cavalierly as President Trump,” Michael Bailey, a political scientist at Georgetown University, wrote by […]\nThe post Trump and expertise appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/trump-and-expertise",
+          "publishedOn": "2026-07-21T12:15:35.000Z",
+          "wordCount": null,
+          "title": "Trump and expertise",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191516",
+          "author": "Angry Bear",
+          "description": "Mostly informational . . . I subscribe to the New York Times. I do have access to some rather unique articles (in the NYT) such as this one which gives prices per gallon of gasoline by state. The data for the map was obtained from AAA by the New York Times, Map: How Much Have […]\nThe post How much has Gasoline Prices Increased and Why. Explained in a Simple Manner . . . appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/how-much-has-gasoline-prices-increased-and-why-explained-in-a-simple-manner",
+          "publishedOn": "2026-07-21T12:00:00.000Z",
+          "wordCount": null,
+          "title": "How much has Gasoline Prices Increased and Why. Explained in a Simple Manner . . .",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191512",
+          "author": "NewDealdemocrat",
+          "description": "The manufacturing sector of the economy continued to improve in June – by New Deal democrat There’s a brief hiatus from new data early this week, so let me briefly look at the manufacturing economy, for which industrial production was reported on Friday. To briefly recap my overall position: despite the chaos coming out of […]\nThe post Manufacturing Sector appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/manufacturing-sector",
+          "publishedOn": "2026-07-20T14:30:38.000Z",
+          "wordCount": null,
+          "title": "Manufacturing Sector",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191485",
+          "author": "Angry Bear",
+          "description": "Robert Reich – “He Can’t Resist“ Here’s you-know-who trying, as ever, to be the center of attention today. This picture was supposed to be about celebrating those who deserved it. Congratulations, Spain — along with apologies for our Malignant Narcissist-in-Chief. Embarrassing for America. He doesn’t know any better . . . It almost appears to […]\nThe post President Photobomber appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/president-photobomber",
+          "publishedOn": "2026-07-20T12:35:00.000Z",
+          "wordCount": null,
+          "title": "President Photobomber",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191474",
+          "author": "Angry Bear",
+          "description": "What Charles Gaba is showing the impact of the legislation passed by Congress eliminating ACA subsidies. This largely has an impact on ACA enrollment this year. I am displaying partial of Charles’ Post on his site ACA Signups. Charles is using the CMS database to show ACA enrollment before and after the Republican controlled Congress […]\nThe post Congressional Republicans are shrinking ACA enrollment in nearly every state appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/congressional-republicans-are-shrinking-aca-enrollment-in-nearly-every-state",
+          "publishedOn": "2026-07-20T12:00:00.000Z",
+          "wordCount": null,
+          "title": "Congressional Republicans are shrinking ACA enrollment in nearly every state",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191472",
+          "author": "Joel Eissenberg",
+          "description": "“We are holding Canada responsible for the fact that they are not properly maintaining their Forests, and Brush therein, and the United States is being unnecessarily invaded by filthy, polluted, and unhealthy air, the quality of which is dangerous, and totally unacceptable!” Trump wrote on his social media platform, saying he would call Canadian Prime […]\nThe post Trump’s silly post on Canadian wildfires appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/trumps-silly-post-on-canadian-wildfires",
+          "publishedOn": "2026-07-20T09:21:56.000Z",
+          "wordCount": null,
+          "title": "Trump’s silly post on Canadian wildfires",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191501",
+          "author": "NewDealdemocrat",
+          "description": "Weekly Indicators: All Timeframes Positive Despite Increase in Oil Prices Despite oil prices heading back north of $80/barrel this past week, the underlying fundamentals in all time frames remain positive, including most importantly consumer spending. As usual, clicking over and reading will bring you up to the virtual moment as to the state of the […]\nThe post New Deal democrats Weekly Indicators July 13 -July 17 appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/new-deal-democrats-weekly-indicators-july-13-july-17",
+          "publishedOn": "2026-07-20T04:11:42.000Z",
+          "wordCount": null,
+          "title": "New Deal democrats Weekly Indicators July 13 -July 17",
+          "imageUrl": null
+        },
         {
           "id": "https://angrybearblog.com/?p=191323",
           "author": "Angry Bear",
@@ -762,86 +842,6 @@
           "publishedOn": "2026-07-16T09:09:02.000Z",
           "wordCount": null,
           "title": "Quote of the day",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=191393",
-          "author": "NewDealdemocrat",
-          "description": "“Producer price declines are ‘less good’ than consumer price declines, and on net that’s ‘bad‘”  – by New Deal democrat I pay a lot less attention to producer prices than to consumer prices. Partly that is because in the past few decades, the PPI has tended to be coincident with the CPI rather than leading […]\nThe post If YoY “PPI is less than CPI, producers do not feel under pressure to make cost (i.e., payroll) cuts” appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/if-yoy-ppi-is-less-than-cpi-producers-do-not-feel-under-pressure-to-make-cost-i-e-payroll-cuts",
-          "publishedOn": "2026-07-15T18:50:11.000Z",
-          "wordCount": null,
-          "title": "If YoY “PPI is less than CPI, producers do not feel under pressure to make cost (i.e., payroll) cuts”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=191379",
-          "author": "Angry Bear",
-          "description": "There is nothing I can add to this report by Dean Baker from 10 or so days ago. The economy under Trump is still a mystery. I am waiting for the shoe to drop and realty comes to rest on us. Five Takeaways from the June Jobs Report, Dean Baker – on Patreon The June […]\nThe post June Jobs Report appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/june-jobs-report",
-          "publishedOn": "2026-07-15T12:40:00.000Z",
-          "wordCount": null,
-          "title": "June Jobs Report",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=191375",
-          "author": "Bill Haskell",
-          "description": "Robert is calling us to prepare for a fight with this administration. Obviously, he does not trust Republicans or Tr__p. I do not trust him either. Between Tr__p and Republicans, there has been much damage to the nation as a whole. It will come to pass in the near term future. ~~~~~~~ Trump is ramping […]\nThe post Reich on Abolishing ICE is the bare minimum appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/reich-on-abolishing-ice-is-the-bare-minimum",
-          "publishedOn": "2026-07-15T12:03:00.000Z",
-          "wordCount": null,
-          "title": "Reich on Abolishing ICE is the bare minimum",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=191337",
-          "author": "Joel Eissenberg",
-          "description": "Whenever you read the conspiracy theories about fluoridated water, it’s a good idea to remember that much of the world’s water is naturally fluoridated. Indeed, the correlation between natural fluoridation and lower incidence of dental caries is what lead to artificial water fluoridation. There are plenty of other things to fret about if that’s how […]\nThe post Yes, Virginia, there’s arsenic in your rice appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/yes-virginia-theres-arsenic-in-your-rice",
-          "publishedOn": "2026-07-15T09:24:02.000Z",
-          "wordCount": null,
-          "title": "Yes, Virginia, there’s arsenic in your rice",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=191299",
-          "author": "Joel Eissenberg",
-          "description": "By now, we all know the Cliff Notes version of American’s founding: Jefferson wrote the Declaration of Independence, the colonists defeated the British at Yorktown and Jefferson, Madison, Hamilton, Adams and Franklin wrote the Constitution, which the 13 colonies/states ratified enthusiastically. As an antidote to those cliché histories, I read a couple of good books […]\nThe post Two books for the sestercentennial appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/two-books-for-the-sestercentennial",
-          "publishedOn": "2026-07-14T16:29:29.000Z",
-          "wordCount": null,
-          "title": "Two books for the sestercentennial",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=191330",
-          "author": "NewDealdemocrat",
-          "description": "– by New Deal democrat Never look a gift horse in the mouth. June’s CPI was that kind of gift horse, reversing all of the factors that have recently surged during the Iran war. As a bonus, inflation in shelter (1/3rd of the weight of the index) continued to abate. Let’s start with the overall view. […]\nThe post June CPI: never look a gift horse in the mouth appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/june-cpi-never-look-a-gift-horse-in-the-mouth",
-          "publishedOn": "2026-07-14T16:22:27.000Z",
-          "wordCount": null,
-          "title": "June CPI: never look a gift horse in the mouth",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=191314",
-          "author": "Angry Bear",
-          "description": "Trump’s new policy drew attention to remarks Rubio made just weeks earlier, while on a visit June 23. A visit he paid to the United Arab Emirates. It was then he slammed the prospect of transit fees in the waterway in a caution to Iran. June 23, 2026: Marco Rubio’s warning ‘no country’ can charge […]\nThe post Rubio Goes Back and Forth on the Fees for the Hormuz Strait. He Needed Permission . . . appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/rubio-goes-back-and-forth-on-the-fees-for-the-hormuz-strait-he-needed-permission",
-          "publishedOn": "2026-07-14T12:40:00.000Z",
-          "wordCount": null,
-          "title": "Rubio Goes Back and Forth on the Fees for the Hormuz Strait. He Needed Permission . . .",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=191310",
-          "author": "Angry Bear",
-          "description": "Hmmm . . . Before the US conflict with Iran, Iran and Oman did not charge fees for passing through the Strait of Hormuz. This, according to the New York Times. And now? “Iran and U.S.-allied Oman are moving forward with plans to collect payment for ships transiting the Strait of Hormuz, despite public American […]\nThe post After U.S.-Iran War, Oman Proposes Hormuz Fee Plan appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/where-was-iran-on-its-efforts-to-have-nuclear-weapons",
-          "publishedOn": "2026-07-14T12:00:00.000Z",
-          "wordCount": null,
-          "title": "After U.S.-Iran War, Oman Proposes Hormuz Fee Plan",
           "imageUrl": null
         }
       ]
