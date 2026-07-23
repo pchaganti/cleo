@@ -29,6 +29,26 @@
       "siteUrl": "https://aws.amazon.com/blogs/architecture/",
       "articles": [
         {
+          "id": "79195fa586925a9b62c134acc83bb06b7b67a778",
+          "author": "Anton Aleksandrov",
+          "description": "Healthcare organizations face a critical scaling challenge – how to maintain deeply personalized patient interactions as member bases grow, without overwhelming care teams or compromising quality. At Pelago, a digital health company specializing in substance use disorder support, the engineering team found a way to build an AI-powered solution to address this challenge using AWS […]",
+          "link": "https://aws.amazon.com/blogs/architecture/building-a-serverless-ai-assistant-at-pelago-concept-to-care-in-two-weeks/",
+          "publishedOn": "2026-07-22T17:12:27.000Z",
+          "wordCount": 34326,
+          "title": "Building a serverless AI assistant at Pelago: concept to care in two weeks",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/16/serverless-pelago-featured-image.png"
+        },
+        {
+          "id": "2ac6e65cb0d7a530a176ef1746c2b0715abf2231",
+          "author": "Raman Pujani",
+          "description": "AWS CloudFormation is the foundational tool of infrastructure-as-code for thousands of organizations running workloads on AWS. But as teams push the boundaries of what CloudFormation can do natively, custom resources have emerged as a powerful extension mechanism that unlocks a broad range of possibilities. Yet, when it comes to building resilient, multi-Region deployments with custom […]",
+          "link": "https://aws.amazon.com/blogs/architecture/building-multi-region-resiliency-for-aws-cloudformation-custom-resource-deployment/",
+          "publishedOn": "2026-07-22T14:25:09.000Z",
+          "wordCount": 33465,
+          "title": "Building multi-Region resiliency for AWS CloudFormation custom resource deployment",
+          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/10/multi-region-resiliency-cfn-featured-image.png"
+        },
+        {
           "id": "36baf26c54fe304725040010bfa7f4187708c5c9",
           "author": "Ahmed Ewis",
           "description": "According to Siemens’ 2024 report The True Cost of Downtime, Fortune 500 companies lose an estimated $1.4 trillion annually because of unplanned downtime. This downtime is often worsened by a lack of skills to detect and resolve issues quickly. Generative AI offers a promising path to address this, but deploying these capabilities in industrial environments […]",
@@ -77,16 +97,6 @@
           "wordCount": 33312,
           "title": "Eclipse Dataspace Components on AWS: Data sharing fundamentals",
           "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/10/eda-part-1-featured-image.png"
-        },
-        {
-          "id": "abf6f9161a9d2e1227daae436ad0c85282f26fc9",
-          "author": "Naga Bhargav",
-          "description": "If you run critical workloads on AWS, such as a contact center on Amazon Connect Customer, database workloads on Amazon Relational Database Service (Amazon RDS), or hybrid connectivity through AWS Direct Connect, service health events demand your attention. But not all events are equal. An operational issue, a scheduled maintenance window, and a deprecation notice […]",
-          "link": "https://aws.amazon.com/blogs/architecture/prioritize-your-aws-health-alerts-using-aws-user-notifications/",
-          "publishedOn": "2026-07-16T14:56:22.000Z",
-          "wordCount": 34571,
-          "title": "Prioritize your AWS Health alerts using AWS User Notifications",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/07/09/prioritize-healthcare-featured-image.png"
         }
       ]
     },
@@ -124,7 +134,7 @@
           "description": "By AI Platform’s Model Runtime team and Inference team",
           "link": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c?source=rss----2615bd06b42e---4",
           "publishedOn": "2026-07-17T21:32:39.000Z",
-          "wordCount": 6145,
+          "wordCount": 6142,
           "title": "In-House LLM Serving at Netflix",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*GKGOrp0xddZwHomMhiSeCA.png"
         }
@@ -136,12 +146,52 @@
       "siteUrl": "https://www.nakedcapitalism.com",
       "articles": [
         {
+          "id": "https://www.nakedcapitalism.com/?p=313710",
+          "author": "Yves Smith",
+          "description": "A hard look at the possible severity of the coming global food crisis and how it demands new approaches to analysis and decisions.",
+          "link": "https://www.nakedcapitalism.com/2026/07/the-global-food-crisis.html",
+          "publishedOn": "2026-07-23T06:57:01.000Z",
+          "wordCount": 8934,
+          "title": "The Global Food Crisis",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-23-at-1.00.23 AM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=313703",
+          "author": "Yves Smith",
+          "description": "The pedantic might relish that their vice can be a bit slippery to pin down.",
+          "link": "https://www.nakedcapitalism.com/2026/07/satyajit-das-book-essay-at-the-risk-of-being-pedantic.html",
+          "publishedOn": "2026-07-23T05:12:04.000Z",
+          "wordCount": 4083,
+          "title": "Satyajit Das: Book Essay: “At the Risk of Being Pedantic…?”",
+          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-22-at-11.45.20 PM.png"
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=313698",
+          "author": "Nat Wilson Turner",
+          "description": "The foundations of the hastily assembled Ellison family hasbara media empire -- Paramount, WBD, American TikTok -- are cracking as Oracle stock has lost $600 billion in market cap since its September 2025 peak and its nearly $200 billion in corporate debt is close to junk bond status.",
+          "link": "https://www.nakedcapitalism.com/2026/07/oracle-debt-stock-price-paramount-media-empire-wbd-larry-ellison.html",
+          "publishedOn": "2026-07-22T18:00:48.000Z",
+          "wordCount": 8321,
+          "title": "Coffee Break: Oracle’s Exploding Debt and Plumeting Stock Price Threaten Paramount Media Empire?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nakedcapitalism.com/?p=313691",
+          "author": "Yves Smith",
+          "description": "An update on the latest twists and turns in the astonishingly long-running Kentucky Retirement Systems case.",
+          "link": "https://www.nakedcapitalism.com/2026/07/latest-chapter-in-long-running-kentucky-retirement-systems-case-attorney-general-acting-on-behalf-of-private-equity-kingpins-throws-legal-mud-at-wall-to-see-if-enough-will-stick-to-confuse-judge-wi.html",
+          "publishedOn": "2026-07-22T15:05:39.000Z",
+          "wordCount": 4668,
+          "title": "Latest Chapter in Long-Running Kentucky Retirement Systems Case: Attorney General, Acting on Behalf of Private Equity Kingpins, Throws Legal Mud at Wall to See if Enough Will Stick to Confuse Judge Wingate",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nakedcapitalism.com/?p=313624",
           "author": "Yves Smith",
           "description": "Our dastardly daily links: Coffee approval, fridges for humans, Trump approval ratings @ new low, new US tariffs coming, US-Saudi nuke deal, doubts over cliams on Iran costs + casualties, Asia buyng pricey LNG, Ukraine army boss Syrsky out, ZBurnham approves US use of UK bases for Iran war, Google AI v. Internet",
           "link": "https://www.nakedcapitalism.com/2026/07/links-7-22-2026.html",
           "publishedOn": "2026-07-22T10:59:34.000Z",
-          "wordCount": 4916,
+          "wordCount": 9023,
           "title": "Links 7/22/2026",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-22-at-1.56.32 PM.png"
         },
@@ -151,7 +201,7 @@
           "description": "Today's Iran war news:  How the US is clearly losing military as pressures are rising on the economic and political fronts.",
           "link": "https://www.nakedcapitalism.com/2026/07/iran-war-iran-rumored-to-be-readying-big-attacks-as-trump-vows-more-escalation-and-rubio-disses-talks-hegseth-fried-in-iran-hearings.html",
           "publishedOn": "2026-07-22T10:57:37.000Z",
-          "wordCount": 10563,
+          "wordCount": 20929,
           "title": "Iran War: Iran Rumored to Be Readying Big Attacks as Trump Vows More Escalation and Rubio Disses Talks; Brent Rises to $94 a Barrel as Hormuz Transits Fall, Ships Turn Away from Bab el-Mandeb; Hegseth Fried in Iran Hearings",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/00-lethal.webp"
         },
@@ -161,7 +211,7 @@
           "description": "Russia blockades Odessa, grain wars, friction increases between Ankara and Moscow, and NATO lake plans have failed miserably.",
           "link": "https://www.nakedcapitalism.com/2026/07/why-is-nato-attacking-exxonmobil-and-chevron-infrastructure-in-the-black-sea.html",
           "publishedOn": "2026-07-22T10:00:13.000Z",
-          "wordCount": 4420,
+          "wordCount": 4773,
           "title": "Why Is NATO Attacking ExxonMobil and Chevron Infrastructure in the Black Sea?",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/2025_05_pipeline-map-1024x729.webp"
         },
@@ -171,7 +221,7 @@
           "description": "At 250, America is now producing a mindless, raw power and exponentially growing instability.",
           "link": "https://www.nakedcapitalism.com/2026/07/yanis-varoufakis-an-athenian-view-of-americas-democracy.html",
           "publishedOn": "2026-07-22T08:08:42.000Z",
-          "wordCount": 3560,
+          "wordCount": 3809,
           "title": "Yanis Varoufakis: An Athenian View of America’s Democracy",
           "imageUrl": null
         },
@@ -181,7 +231,7 @@
           "description": "Commercial technologies are increasingly finding themselves at the center of international security. Starlink began as an ambitious effort to provide global broadband internet, but its rapid integration into Ukraine's military operations transformed engineering decisions into questions of governance.",
           "link": "https://www.nakedcapitalism.com/2026/07/coffee-break-armed-madhouse-the-two-faces-of-starlink.html",
           "publishedOn": "2026-07-21T18:00:02.000Z",
-          "wordCount": 5356,
+          "wordCount": 5499,
           "title": "Coffee Break: Armed Madhouse – The Two Faces of Starlink",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Starlink-satellite-e1784638782713.jpg"
         },
@@ -191,49 +241,9 @@
           "description": "Pete Hegseth is almost predictably wrong. His beliefs about testosterone supplementation are par for the course.",
           "link": "https://www.nakedcapitalism.com/2026/07/more-testosterone-wont-make-a-better-soldier-or-a-tougher-man-aggression-and-strength-drive-t-levels-not-the-other-way-around.html",
           "publishedOn": "2026-07-21T13:55:37.000Z",
-          "wordCount": 5642,
+          "wordCount": 5545,
           "title": "More Testosterone Won’t Make a Better Soldier or a Tougher Man – Aggression and Strength Drive T Levels, Not the Other Way Around",
           "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-21-at-9.00.55 PM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=313531",
-          "author": "Yves Smith",
-          "description": "Our ribald daily links: Camus' courage, Houthis close Bab el- Mandeb, leveraged crypto frenzy, China EV sales crash, US Cuba attack? German remillitarization, US reconciliation bill at risk, Trump 50% tariffs on Canada, India v. cockroaches, diesel worries, huge Russian strike on Kiev, AI wobbles",
-          "link": "https://www.nakedcapitalism.com/2026/07/links-7-21-2026.html",
-          "publishedOn": "2026-07-21T10:59:29.000Z",
-          "wordCount": 9642,
-          "title": "Links 7/21/2026",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Screenshot-2026-07-21-at-2.29.43 PM.png"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=313587",
-          "author": "Yves Smith",
-          "description": "Today's Iran war news: As the US becomes weaker and Iran gets stronger, will the US resort to a nuclear bomb?",
-          "link": "https://www.nakedcapitalism.com/2026/07/iran-war-washington-post-telegraph-confirm-us-inability-to-sustain-war-ansar-allah-closes-bab-el-mandeb-amid-reports-of-mbs-dethronement-possibility-of-nuclear-attack-on-pickaxe-mountain.html",
-          "publishedOn": "2026-07-21T10:58:34.000Z",
-          "wordCount": 19930,
-          "title": "Iran War: Washington Post, Telegraph Confirm US Inability to Sustain War; Ansar Allah Closes Bab el-Mandeb Amid Reports of MBS Dethronement; Possibility of Nuclear Attack on Pickaxe Mountain",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/00-bab-El-Mandeb.webp"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=313564",
-          "author": "Nick Corbishley",
-          "description": "\"[F]ew things have provoked more outrage [in Brazil] than Trump’s attack on PIX, the country’s beloved instant-payment system.\"",
-          "link": "https://www.nakedcapitalism.com/2026/07/the-us-escalates-its-assault-on-brazils-publicly-controlled-free-to-use-for-citizens-and-small-businesses-digital-payments-system.html",
-          "publishedOn": "2026-07-21T10:45:28.000Z",
-          "wordCount": 6198,
-          "title": "The US Escalates Its Assault on Brazil’s Free-to-Use (for Citizens and Micro Businesses) Digital Payments System",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/Captura-de-pantalla_21-7-2026_13131_www.reuters.com_-300x183.jpeg"
-        },
-        {
-          "id": "https://www.nakedcapitalism.com/?p=313584",
-          "author": "Yves Smith",
-          "description": "Turkiye committing to ensuring Ukraine’s maritime security poses a serious threat to Russia.",
-          "link": "https://www.nakedcapitalism.com/2026/07/turkiye-is-poised-to-open-up-a-new-containment-front-against-russia-in-the-black-sea.html",
-          "publishedOn": "2026-07-21T08:16:02.000Z",
-          "wordCount": 3830,
-          "title": "Turkiye Is Poised To Open Up A New Containment Front Against Russia in the Black Sea",
-          "imageUrl": "https://www.nakedcapitalism.com/wp-content/uploads/2026/07/00-turkiye.webp"
         }
       ]
     },
@@ -282,12 +292,22 @@
         {
           "id": "https://code.visualstudio.com/updates/v1_130",
           "author": null,
-          "description": "Learn what's new in Visual Studio Code 1.130 (Insiders)\nRead the full article",
+          "description": "Learn what is new in Visual Studio Code 1.130\nRead the full article",
           "link": "https://code.visualstudio.com/updates/v1_130",
           "publishedOn": "2026-07-22T17:00:00.000Z",
-          "wordCount": 944,
-          "title": "Visual Studio Code 1.130 (Insiders)",
+          "wordCount": 1824,
+          "title": "Visual Studio Code 1.130",
           "imageUrl": "https://code.visualstudio.com/assets/updates/1_130/release-highlights.webp"
+        },
+        {
+          "id": "https://code.visualstudio.com/updates/v1_131",
+          "author": null,
+          "description": "Learn what's new in Visual Studio Code 1.131 (Insiders)\nRead the full article",
+          "link": "https://code.visualstudio.com/updates/v1_131",
+          "publishedOn": "2026-07-22T17:00:00.000Z",
+          "wordCount": 617,
+          "title": "Visual Studio Code 1.131 (Insiders)",
+          "imageUrl": "https://code.visualstudio.com/assets/updates/1_131/release-highlights.webp"
         }
       ]
     },
@@ -315,16 +335,6 @@
           "wordCount": 2643,
           "title": "Théo Bourgeron: &ldquo;Unfinished Business&rdquo;",
           "imageUrl": "https://newleftreview.org/blog-uploads/2026/07/le-pen.jpg"
-        },
-        {
-          "id": "https://newleftreview.org/sidecar/posts/manufacturing-revolt",
-          "author": null,
-          "description": "India’s strike wave.",
-          "link": "https://newleftreview.org/sidecar/posts/manufacturing-revolt",
-          "publishedOn": "2026-07-16T11:45:55.000Z",
-          "wordCount": 2081,
-          "title": "Rashi Agrawal: &ldquo;Manufacturing Revolt&rdquo;",
-          "imageUrl": "https://newleftreview.org/blog-uploads/2026/07/india-strike-image.jpg"
         }
       ]
     },
@@ -343,46 +353,56 @@
     {
       "title": "Richard Seroter's Architecture Musings",
       "feedUrl": "https://seroter.com/feed/",
-      "siteUrl": "http://seroter.com",
+      "siteUrl": "https://seroter.com",
       "articles": [
         {
-          "id": "https://seroter.com/?p=30761",
+          "id": "http://seroter.com/?p=30782",
+          "author": "Richard Seroter",
+          "description": "Today's links look at the open source agent toolkit in 2026, why AI keeps pushing us to ship, and how to tell if an engineer using AI is growing.",
+          "link": "https://seroter.com/2026/07/22/daily-reading-list-july-22-2026-830/",
+          "publishedOn": "2026-07-22T23:55:19.000Z",
+          "wordCount": 4448,
+          "title": "Daily Reading List – July 22, 2026 (#830)",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
+        },
+        {
+          "id": "http://seroter.com/?p=30774",
+          "author": "Richard Seroter",
+          "description": "Maybe it’s just me, but it feels like most of the agentic coding tools out there are single-player. An individual developer engages in a coding session with one or more agents, and the non-code “exhaust” (scratch files, harness-generated session docs) stays on the local machine. Oh sure, the code gets checked into a team-visible repo, […]",
+          "link": "https://seroter.com/2026/07/22/how-to-share-agentic-coding-artifacts-with-your-teammates/",
+          "publishedOn": "2026-07-22T17:39:14.000Z",
+          "wordCount": 6159,
+          "title": "How to share agentic coding artifacts with your teammates",
+          "imageUrl": "https://seroter.com/wp-content/uploads/2026/07/2026.07.22-skill-01.jpg"
+        },
+        {
+          "id": "http://seroter.com/?p=30761",
           "author": "Richard Seroter",
           "description": "Today's links look at the latest Google Gemini models, why reliability is a discipline and not a feature, and how Netflix serves LLMs in-house.",
-          "link": "http://seroter.com/2026/07/21/daily-reading-list-july-21-2026-829/",
+          "link": "https://seroter.com/2026/07/21/daily-reading-list-july-21-2026-829/",
           "publishedOn": "2026-07-21T23:37:55.000Z",
           "wordCount": 4487,
           "title": "Daily Reading List – July 21, 2026 (#829)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
         {
-          "id": "https://seroter.com/?p=30745",
+          "id": "http://seroter.com/?p=30745",
           "author": "Richard Seroter",
           "description": "Today's links look at how to earn taste and judgement, why loop engineering is mostly just broken SDLC wearing a costume, and how to design APIs for agents.",
-          "link": "http://seroter.com/2026/07/20/daily-reading-list-july-20-2026-828/",
+          "link": "https://seroter.com/2026/07/20/daily-reading-list-july-20-2026-828/",
           "publishedOn": "2026-07-21T00:05:55.000Z",
-          "wordCount": 4564,
+          "wordCount": 4556,
           "title": "Daily Reading List – July 20, 2026 (#828)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         },
         {
-          "id": "https://seroter.com/?p=30716",
+          "id": "http://seroter.com/?p=30716",
           "author": "Richard Seroter",
           "description": "Today's links look at what ten AI film crews teach us about agent teamwork, how to cut token usage by 94%, and why model routing is simple until it isn't.",
-          "link": "http://seroter.com/2026/07/17/daily-reading-list-july-17-2026-827/",
+          "link": "https://seroter.com/2026/07/17/daily-reading-list-july-17-2026-827/",
           "publishedOn": "2026-07-18T00:34:05.000Z",
           "wordCount": 4392,
           "title": "Daily Reading List – July 17, 2026 (#827)",
-          "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
-        },
-        {
-          "id": "https://seroter.com/?p=30700",
-          "author": "Richard Seroter",
-          "description": "Today's links look at why the prototype is a question and not a product, five trends that define modern AI engineering, and why \"playing politics\" isn't a bad thing.",
-          "link": "http://seroter.com/2026/07/16/daily-reading-list-july-16-2026-826/",
-          "publishedOn": "2026-07-16T14:01:04.000Z",
-          "wordCount": 4446,
-          "title": "Daily Reading List – July 16, 2026 (#826)",
           "imageUrl": "https://seroter.com/wp-content/uploads/2026/03/gemini_generated_image_o749i5o749i5o749.png?w=200"
         }
       ]
@@ -393,24 +413,24 @@
       "siteUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "articles": [
         {
+          "id": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
+          "author": "Jane Halpern | Department of Electrical Engineering and Computer Science",
+          "description": "Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence.",
+          "link": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
+          "publishedOn": "2026-07-22T17:00:00.000Z",
+          "wordCount": 2967,
+          "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
+          "imageUrl": "https://news.mit.edu/sites/default/files/images/202607/mit-lids-Bertsekas-obit.jpg"
+        },
+        {
           "id": "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717",
           "author": "Michaela Jarvis | MIT Laboratory for Information and Decision Systems",
           "description": "Assistant Professor Bailey Flanigan has arrived at complex computational methods for helping democracy thrive.",
           "link": "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717",
           "publishedOn": "2026-07-17T17:25:00.000Z",
-          "wordCount": 2018,
+          "wordCount": 2021,
           "title": "Following the questions where they lead",
           "imageUrl": "https://news.mit.edu/sites/default/files/images/202607/mit-lids-Bailey-Flanigan.jpg"
-        },
-        {
-          "id": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716",
-          "author": "Adam Zewe | MIT News",
-          "description": "Researchers developed an automated framework that helps AI models generate CAD programs more accurately and efficiently.",
-          "link": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716",
-          "publishedOn": "2026-07-16T04:00:00.000Z",
-          "wordCount": 1943,
-          "title": "A better way to turn 2D designs into 3D models for rapid prototyping",
-          "imageUrl": "https://news.mit.edu/sites/default/files/images/202607/MIT-Geometric-Tuning-01-press.jpg"
         }
       ]
     },
@@ -431,6 +451,16 @@
       "feedUrl": "https://www.ianwelsh.net/feed/",
       "siteUrl": "https://www.ianwelsh.net",
       "articles": [
+        {
+          "id": "https://www.ianwelsh.net/?p=26120",
+          "author": "Sean Paul Kelley",
+          "description": "~by Sean Paul Kelley From the Seoul Economic Daily: The overhaul is expected to partly resolve an unusual gap between PCE and the more widely known Consumer Price Index (CPI). The annual core CPI rate in June was 2.6%, while core PCE was estimated at 3.3%. Typically CPI runs slightly above PCE, but recently the […]",
+          "link": "https://www.ianwelsh.net/bls-alters-how-it-counts-core-pce-inflation-guess-what-changed/",
+          "publishedOn": "2026-07-23T07:18:48.000Z",
+          "wordCount": null,
+          "title": "BLS Alters How It Counts Core PCE Inflation – Guess What Changed?",
+          "imageUrl": null
+        },
         {
           "id": "https://www.ianwelsh.net/?p=26110",
           "author": "Ian Welsh",
@@ -480,16 +510,6 @@
           "wordCount": null,
           "title": "Xi Lays Out His Principles for AI Development",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ianwelsh.net/?p=26032",
-          "author": "Ian Welsh",
-          "description": "If you’ve been following oil prices since the Iran war started you’ve probably been surprised at how low prices have often been. I certainly was, at first. The issue is fairly simple: most governments are worried about the price of oil, and not the supply of oil. So they’ve taken various measures to keep prices […]",
-          "link": "https://www.ianwelsh.net/manipulating-numbers-rather-than-logistics-oil-version/",
-          "publishedOn": "2026-07-16T18:22:29.000Z",
-          "wordCount": null,
-          "title": "Manipulating Numbers Rather Than Logistics (Oil Version)",
-          "imageUrl": null
         }
       ]
     },
@@ -499,101 +519,101 @@
       "siteUrl": "https://www.lawyersgunsmoneyblog.com/",
       "articles": [
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162483",
-          "author": "Robert Farley",
-          "description": "The following is by McKenna Horsley of the Kentucky Lantern, republished in full under Creative Commons license CC BY-NC-ND 4.0 because this discourse is driving me fucking nuts. A lot of people are asking Kentucky Gov. Andy Beshear to “do something” about U.S. Sen. Mitch McConnell’s absence from the Senate.  Former Illinois Republican congressman turned […]\nThe post What Is to Be Done? appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/what-is-to-be-done",
-          "publishedOn": "2026-07-22T11:57:42.000Z",
-          "wordCount": null,
-          "title": "What Is to Be Done?",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162186",
-          "author": "Erik Loomis",
-          "description": "This is the grave of Erving Goffman. Born in 1922 in Mannville, Alberta, well, wait a minute. If there’s one thing this blog has proven, it’s that nothing good can come from Alberta. Anyway, Goffman grew up in a Jewish immigrant family. His parents had come over when they were young, from what is today […]\nThe post Erik Visits an American Grave, Part 2,192 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/erik-visits-an-american-grave-part-2191",
-          "publishedOn": "2026-07-22T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Erik Visits an American Grave, Part 2,192",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162479",
-          "author": "Erik Loomis",
-          "description": "By the time Charlie Chaplin was making his Mutual films in 1916 and 1917, his character had evolved considerably. In his earlier films, he’s not lovable at all–he’s a menacing creep. By his classic 20s films, he’s the lovable tramp. At this time, he’s more of a working man than a tramp and he’s not […]\nThe post LGM Film Club, Part 549: The Rink appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/lgm-film-club-part-549-the-rink",
-          "publishedOn": "2026-07-22T02:04:11.000Z",
-          "wordCount": null,
-          "title": "LGM Film Club, Part 549: The Rink",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162470",
-          "author": "Erik Loomis",
-          "description": "Everyone wonders, “How can Democrats win rural voters again?” At least in LGM comments, the answer seems to be “Fuck rural voters if they don’t agree with my personal values,” which isn’t good politics at the very least. But you have to do engage rural voters. I’d recommend starting by not creating batshit ballot measures […]\nThe post Going Rural appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/going-rural",
-          "publishedOn": "2026-07-21T22:15:00.000Z",
-          "wordCount": null,
-          "title": "Going Rural",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162459",
-          "author": "Robert Farley",
-          "description": "This is a guest post by Steve Mathis, part of the 2026 LGM Fundraiser Auction. Since we talk about movies a lot here at LGM I thought it might be fun to explain how a Gaffer with 50 years of experience lighting sets (but ZERO experience acting) came to play the part of “Tupelo” in […]\nThe post Acting 101 appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/acting-101",
-          "publishedOn": "2026-07-21T21:30:03.000Z",
-          "wordCount": null,
-          "title": "Acting 101",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162469",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162549",
           "author": "Scott Lemieux",
-          "description": "The arbitrary bureaucratic hurdles Republicans put on SNAP benefits in their upper-class tax cut bill are having their intended effect, and it’s not about WasteFraudandAbuse [gift link]: The number of Arizonans getting SNAP benefits has fallen by about half in less than a year, a remarkable drop in nutrition aid that may preview the program’s […]\nThe post Make America Hungry Again appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/make-america-hungry-again",
-          "publishedOn": "2026-07-21T20:36:42.000Z",
+          "description": "This is a useful story about the slow reveal of the source of the bacterial outbreak. The Trump administration seemed to allow Taylor Farms to delay warning the public and recalling its products while trying to stick Taco Bell (which AFICT acted responsibly) with the blame: Then the White House got involved. The California-based food […]\nThe post How the explosive diarrhea gets made appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/how-the-explosive-diarrhea-gets-made",
+          "publishedOn": "2026-07-23T02:13:00.000Z",
           "wordCount": null,
-          "title": "Make America Hungry Again",
+          "title": "How the explosive diarrhea gets made",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162465",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162528",
+          "author": "Erik Loomis",
+          "description": "Gustaf Molander’s 1935 film Swedenheilms is a light family drama about a brilliant but financially irresponsible scientist, his really super irresponsible spoiled spendthrift children, and the maid keeping it all together. It’s adapted from Hjalmar Bergman’s 1923 play. If this is known for anything, it’s that Ingrid Bergman has a small but important role as […]\nThe post LGM Film Club, Part 550: Swedenheilms appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/lgm-film-club-part-550-swedenheilms",
+          "publishedOn": "2026-07-23T01:41:00.000Z",
+          "wordCount": null,
+          "title": "LGM Film Club, Part 550: Swedenheilms",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162537",
+          "author": "Cheryl Rofer",
+          "description": "This is a busy week for me, but I would like to put down a marker on Michael Kratsios’s parody (not conscious) of Vannevar Bush’s “Science: The Endless Frontier.” Bush’s report to President Harry S Truman at the end of World War II proposed a system for funding and developing science in the US based […]\nThe post Closing the Frontier appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/closing-the-frontier",
+          "publishedOn": "2026-07-23T00:27:40.000Z",
+          "wordCount": null,
+          "title": "Closing the Frontier",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162535",
           "author": "Scott Lemieux",
-          "description": "One interesting thing about the political landscape in 2026 is that Democrats are looking surprisingly competitive in statewide races in Iowa. even relative to the favorable national context. According to this story, one reason for that is the increasing risks being posed by water pollution in the state: Iowa has a long-simmering water problem that […]\nThe post The politics of water in Iowa appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-politics-of-water-in-iowa",
-          "publishedOn": "2026-07-21T19:18:53.000Z",
+          "description": "Speaking of Elon, even extensive corporate cross-subsidization isn’t enough to stop the Cybertruck from becoming a catastrophe: Tesla started delivering its unusually angular Cybertruck in 2023. Chief Executive Officer Elon Musk called it the company’s best product ever and estimated the carmaker might build more than 250,000 annually, depending on demand. Tesla sold less than one-sixth of that number in its […]\nThe post Stainless steel lemon appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/stainless-steel-lemon",
+          "publishedOn": "2026-07-22T22:20:14.000Z",
           "wordCount": null,
-          "title": "The politics of water in Iowa",
+          "title": "Stainless steel lemon",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162456",
-          "author": "Dan Nexon",
-          "description": "I suspect that the number of Lawyers, Guns and Money readers who were avid listeners to my other podcast, Whiskey & International Relations Theory ranges between three and zero. Nonetheless, after a three-year hiatus we’ve started our second season — and episode one might actually be of some interest to youse people. My co-host, Patrick […]\nThe post The Reactionary Fever Dream that is the Clash of Civilizations appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/the-reactionary-fever-dream-that-is-the-clash-of-civilizations",
-          "publishedOn": "2026-07-21T16:00:52.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162526",
+          "author": "Erik Loomis",
+          "description": "Hear me out here….could immigration solve this impending labor market problem? Even as many workers are fearful that artificial intelligence could endanger their jobs, there’s a potentially bigger employment crisis on the horizon: a severe labor shortage that is set to emerge over the next 10 to 15 years, according to a leading demographer.  Demand […]\nThe post Gee, I Wonder If There’s a Solution to This Impending Labor Market Crisis appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/gee-i-wonder-if-theres-a-solution-to-this-impending-labor-market-crisis",
+          "publishedOn": "2026-07-22T21:34:00.000Z",
           "wordCount": null,
-          "title": "The Reactionary Fever Dream that is the Clash of Civilizations",
+          "title": "Gee, I Wonder If There’s a Solution to This Impending Labor Market Crisis",
           "itunes": {},
           "imageUrl": null
         },
         {
-          "id": "https://www.lawyersgunsmoneyblog.com/?p=162442",
-          "author": "Scott Lemieux",
-          "description": "If you have no legitimate reason for an unprovoked war, you must invent one: Republicans, by contrast, have largely sidestepped the renewed war powers debate, many of them echoing Mr. Trump’s justification for resuming the fight. “The fact of the matter is, President Trump is the first president dealing with what has been the status […]\nThe post MAGA imperialist fanfiction appeared first on Lawyers, Guns & Money.",
-          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/maga-imperialist-fanfiction",
-          "publishedOn": "2026-07-21T13:58:00.000Z",
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162523",
+          "author": "Erik Loomis",
+          "description": "It’s worth having a discussion over Mamdani not dropping his attacks on Benjamin Netanyahu as a war criminal, saying he would like to arrest Netanyahu upon his entrance to New York, and admitting that while he does not in fact have that power, the U.S. should arrest Netanyahu upon entry to the United States and […]\nThe post Mamdani and Netanyahu appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/mamdani-and-netanyahu",
+          "publishedOn": "2026-07-22T20:10:00.000Z",
           "wordCount": null,
-          "title": "MAGA imperialist fanfiction",
+          "title": "Mamdani and Netanyahu",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162508",
+          "author": "Elizabeth Nelson",
+          "description": "I’ve long been a fan of the great Florida-born, Nashville-based singer-songwriter Elizabeth Cook, whose wry and literary take on Country and Western music situates her comfortably between titans like Lucinda Williams and Tom T. Hall. In addition to being a genius songwriter, Cook is a raconteur of the old school, whose Sirius XM radio show […]\nThe post Sometimes It Takes Balls To Be a Woman: Talking ‘The Easy Kind’ With Katy Chevigny and Elizabeth Cook appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/sometimes-it-takes-balls-to-be-a-woman-talking-the-easy-kind-with-katy-chevigny-and-elizabeth-cook",
+          "publishedOn": "2026-07-22T19:25:00.000Z",
+          "wordCount": null,
+          "title": "Sometimes It Takes Balls To Be a Woman: Talking ‘The Easy Kind’ With Katy Chevigny and Elizabeth Cook",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162509",
+          "author": "Erik Loomis",
+          "description": "Troy Jackson is refusing to support Chuck Schumer as the Democratic Senate leader, should he defeat Susan Collins. This is almost certainly good politics in Maine. Schumer really own-goaled himself with Janet Mills as his chosen Senate choice there. For a lot of people it felt undemocratic and for even more people, it felt completely […]\nThe post An Impending Democratic Senate Revolt? appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/an-impending-democratic-senate-revolt",
+          "publishedOn": "2026-07-22T18:52:03.000Z",
+          "wordCount": null,
+          "title": "An Impending Democratic Senate Revolt?",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.lawyersgunsmoneyblog.com/?p=162493",
+          "author": "Paul Campos",
+          "description": "The Odyssey is setting critical and box office records in various categories nearly every day, but there remains a loud subsection of social media users, mostly found on X, who remain dead-set against the film. One of those users is the site’s owner, Elon Musk, who has previously said that “Chris Nolan has lost his […]\nThe post When will we get a historically accurate version of The Lord of the Rings? appeared first on Lawyers, Guns & Money.",
+          "link": "https://www.lawyersgunsmoneyblog.com/2026/07/when-will-we-get-a-historically-accurate-version-of-the-lord-of-the-rings",
+          "publishedOn": "2026-07-22T17:40:52.000Z",
+          "wordCount": null,
+          "title": "When will we get a historically accurate version of The Lord of the Rings?",
           "itunes": {},
           "imageUrl": null
         }
@@ -604,6 +624,36 @@
       "feedUrl": "https://feeds.feedburner.com/Hzoh",
       "siteUrl": "https://angrybearblog.com/",
       "articles": [
+        {
+          "id": "https://angrybearblog.com/?p=191564",
+          "author": "Angry Bear",
+          "description": "My three had student loans. To help them get rid of them, I pitched in too. I knew it would take them too long to pay them off. I never told them I would help. All I told them was: decide where you want to go, what you want to major in, and get through […]\nThe post Newer Student Loan Repayment Plan appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/newer-student-loan-repayment-plan",
+          "publishedOn": "2026-07-22T12:35:00.000Z",
+          "wordCount": null,
+          "title": "Newer Student Loan Repayment Plan",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191549",
+          "author": "Angry Bear",
+          "description": "Charles Gaba @ his Blog of the same name has a commentary up detailing the loss of Healthcare Insurance due to the Tr__p administration with the support of Congress. . . . In case you have forhottens? The subsidies supporting ACA healthcare was cancelled this last year. I do not know whether Charles Gaba will […]\nThe post Increasing Healthcare Insurance Costs and Lost Healthcare appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/increasing-healthcare-insurance-costs-and-lost-healthcare",
+          "publishedOn": "2026-07-22T12:00:00.000Z",
+          "wordCount": null,
+          "title": "Increasing Healthcare Insurance Costs and Lost Healthcare",
+          "imageUrl": null
+        },
+        {
+          "id": "https://angrybearblog.com/?p=191543",
+          "author": "Joel Eissenberg",
+          "description": "During the Cold War, the US and Soviet Union supported proxy wars in which their client states did the dirty work. Of course, the USSR is no more, but proxy wars continue. While the current war in Iran began with joint strikes by the US and Israel, Israel now acknowledges that the US is its […]\nThe post Israel’s proxy war appeared first on Angry Bear.",
+          "link": "https://angrybearblog.com/2026/07/israels-proxy-war",
+          "publishedOn": "2026-07-22T09:21:54.000Z",
+          "wordCount": null,
+          "title": "Israel’s proxy war",
+          "imageUrl": null
+        },
         {
           "id": "https://angrybearblog.com/?p=191572",
           "author": "NewDealdemocrat",
@@ -812,36 +862,6 @@
           "publishedOn": "2026-07-17T01:41:41.000Z",
           "wordCount": null,
           "title": "Jobless claims continue to portray a “low hire, *no* fire” economy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=191399",
-          "author": "Angry Bear",
-          "description": "Wholesale and Producer Price Index decreasing. Results of backing away from a war posture. Some of which is the result of a ceasefire. Oil prices increasing again after war was declared again by Tr__p. I suspect higher gasoline prices even if not driven by oil or processing costs. It can always be blamed on the […]\nThe post Wholesale inflation fell appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/wholesale-inflation-fell",
-          "publishedOn": "2026-07-16T12:40:00.000Z",
-          "wordCount": null,
-          "title": "Wholesale inflation fell",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=191386",
-          "author": "Angry Bear",
-          "description": "Confessions of a deeply embarrassed American. Politics and Prejudices and other musings – Jack Lessenberry July 1 was Canada Day, the official celebration of Canada’s birth as a nation, and for the second time in three years, I went to Sault Ste. Marie, Ontario, to celebrate and watch the fireworks from my hotel on St. […]\nThe post O Canada, You Are Better Than We appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/o-canada-you-are-better-than-we",
-          "publishedOn": "2026-07-16T12:00:00.000Z",
-          "wordCount": null,
-          "title": "O Canada, You Are Better Than We",
-          "imageUrl": null
-        },
-        {
-          "id": "https://angrybearblog.com/?p=191385",
-          "author": "Joel Eissenberg",
-          "description": "It’s another example of how we are in this weird and uncanny political moment in which Trump’s politics have broken free of the constraints of public opinion. (It’s reminiscent of a mob bust-out where you rapidly strip a business of its value with no concern for the future because you’re just going to burn it […]\nThe post Quote of the day appeared first on Angry Bear.",
-          "link": "https://angrybearblog.com/2026/07/quote-of-the-day-15",
-          "publishedOn": "2026-07-16T09:09:02.000Z",
-          "wordCount": null,
-          "title": "Quote of the day",
           "imageUrl": null
         }
       ]
